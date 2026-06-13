@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { createClient } from "../../lib/supabase";
-import ExamInterface from "../../components/ExamInterface";
+import { createClient } from "../lib/supabase";
+import ExamInterface from "../components/ExamInterface";
 
 const SECTIONS = [
   { id: "cp", name: "Chemical & Physical Foundations", abbr: "C/P", color: "#0891b2" },
