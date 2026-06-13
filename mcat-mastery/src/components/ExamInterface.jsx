@@ -65,6 +65,41 @@ const ChevronRight = () => (
   <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M6 3l5 5-5 5" /></svg>
 );
 
+/* ─── HIGHLIGHT HELPERS ─── */
+function mergeRangesForDisplay(ranges) {
+  if (!ranges || !ranges.length) return [];
+  const sorted = [...ranges].sort((a, b) => a.start - b.start);
+  const merged = [{ ...sorted[0] }];
+  for (let i = 1; i < sorted.length; i++) {
+    const last = merged[merged.length - 1];
+    if (sorted[i].start <= last.end) {
+      last.end = Math.max(last.end, sorted[i].end);
+    } else {
+      merged.push({ ...sorted[i] });
+    }
+  }
+  return merged;
+}
+
+function renderPassageWithHighlights(text, ranges) {
+  if (!text) return null;
+  const merged = mergeRangesForDisplay(ranges);
+  if (!merged.length) return text;
+  const parts = [];
+  let pos = 0;
+  for (const { start, end } of merged) {
+    if (start > pos) parts.push(<span key={`t-${pos}`}>{text.slice(pos, start)}</span>);
+    parts.push(
+      <mark key={`h-${start}`} style={{ backgroundColor: "#fef08a", borderRadius: "2px", padding: 0 }}>
+        {text.slice(start, end)}
+      </mark>
+    );
+    pos = end;
+  }
+  if (pos < text.length) parts.push(<span key={`t-${pos}`}>{text.slice(pos)}</span>);
+  return parts;
+}
+
 /* ─── TIMER ─── */
 function Timer({ seconds, onTick, paused }) {
   useEffect(() => {
@@ -130,7 +165,8 @@ export default function ExamInterface({
   }, []);
 
   const goTo = (idx) => {
-    setCurrentIdx(idx); setMode("exam");
+    setCurrentIdx(idx);
+    setMode(prev => prev === "nav" ? "exam" : prev);
     if (passageRef.current) passageRef.current.scrollTop = 0;
     if (questionRef.current) questionRef.current.scrollTop = 0;
   };
@@ -140,14 +176,42 @@ export default function ExamInterface({
   const toggleFlag = () => { setFlagged(p => ({...p, [q.id]: !p[q.id]})); };
   const toggleStrike = (label) => { setStruck(p => ({...p, [q.id]: {...(p[q.id]||{}), [label]: !(p[q.id]?.[label])}})); };
 
-  // Highlight selected text in passage
   const handlePassageMouseUp = () => {
-    if (!highlightActive) return;
+    if (!highlightActive || !q) return;
     const sel = window.getSelection();
-    if (sel && sel.toString().trim().length > 0 && passageRef.current?.contains(sel.anchorNode)) {
-      // Apply native highlight via execCommand (works for contentEditable-like scenarios)
-      // For simplicity, we use CSS selection color when highlight mode is on
-    }
+    if (!sel || sel.isCollapsed || sel.rangeCount === 0) return;
+
+    const passageEl = passageRef.current?.querySelector(".passage-text");
+    if (!passageEl) return;
+
+    const range = sel.getRangeAt(0);
+    if (!passageEl.contains(range.commonAncestorContainer)) return;
+
+    const fullRange = document.createRange();
+    fullRange.selectNodeContents(passageEl);
+
+    const startRange = document.createRange();
+    startRange.setStart(fullRange.startContainer, fullRange.startOffset);
+    startRange.setEnd(range.startContainer, range.startOffset);
+    const start = startRange.toString().length;
+
+    const endRange = document.createRange();
+    endRange.setStart(fullRange.startContainer, fullRange.startOffset);
+    endRange.setEnd(range.endContainer, range.endOffset);
+    const end = endRange.toString().length;
+
+    if (end <= start) return;
+    sel.removeAllRanges();
+
+    const qId = q.id;
+    setHighlights(prev => {
+      const existing = prev[qId] || [];
+      const exactIdx = existing.findIndex(h => h.start === start && h.end === end);
+      if (exactIdx !== -1) {
+        return { ...prev, [qId]: existing.filter((_, i) => i !== exactIdx) };
+      }
+      return { ...prev, [qId]: [...existing, { start, end }] };
+    });
   };
 
   const score = useMemo(() => {
@@ -310,7 +374,7 @@ export default function ExamInterface({
             <div ref={passageRef} className="flex-1 overflow-y-auto exam-scroll p-5" onMouseUp={handlePassageMouseUp}
               style={{ userSelect: highlightActive ? "text" : "auto", cursor: highlightActive ? "text" : "default" }}>
               <div className={`passage-text whitespace-pre-line ${highlightActive ? "selection:bg-yellow-200" : ""}`}>
-                {currentPassage}
+                {renderPassageWithHighlights(currentPassage, highlights[q?.id] || [])}
               </div>
             </div>
           </div>
