@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useCallback, useRef, useMemo } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 
 /* ─── PERIODIC TABLE DATA ─── */
 const PT_ROWS = [
@@ -100,20 +100,48 @@ function renderPassageWithHighlights(text, ranges) {
   return parts;
 }
 
-/* ─── TIMER ─── */
-function Timer({ seconds, onTick, paused }) {
-  useEffect(() => {
-    if (paused || seconds <= 0) return;
-    const t = setInterval(() => onTick(), 1000);
-    return () => clearInterval(t);
-  }, [seconds, onTick, paused]);
+/* ─── TIMER HELPERS ─── */
+function formatTime(seconds) {
   const h = Math.floor(seconds / 3600);
   const m = Math.floor((seconds % 3600) / 60);
   const s = seconds % 60;
+  return `${String(h).padStart(2,"0")}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+}
+
+function TimerSettingsModal({ onSave, onCancel }) {
+  const [timeStr, setTimeStr] = useState("00:00:00");
+
+  const handleSave = () => {
+    const parts = timeStr.split(":").map(p => parseInt(p) || 0);
+    onSave((parts[0] || 0) * 3600 + (parts[1] || 0) * 60 + (parts[2] || 0));
+  };
+
   return (
-    <span className="font-mono tabular-nums">
-      {String(h).padStart(2,"0")}:{String(m).padStart(2,"0")}:{String(s).padStart(2,"0")}
-    </span>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50" onClick={onCancel}>
+      <div className="bg-white rounded-lg shadow-2xl w-[340px]" onClick={e => e.stopPropagation()}>
+        <div className="px-5 py-4 border-b border-gray-200">
+          <h3 className="font-semibold text-gray-900">Set time in Timer</h3>
+        </div>
+        <div className="p-5">
+          <label className="block text-sm font-medium text-gray-600 mb-2">Time:</label>
+          <input
+            type="text"
+            value={timeStr}
+            onChange={e => setTimeStr(e.target.value)}
+            className="w-full px-3 py-2 border border-gray-300 rounded text-center font-mono text-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+            placeholder="00:00:00"
+          />
+        </div>
+        <div className="px-5 py-3 flex items-center gap-3 border-t border-gray-100">
+          <button onClick={handleSave} className="flex items-center gap-1.5 px-4 py-2 bg-gray-100 border border-gray-300 rounded text-sm font-medium hover:bg-gray-200">
+            Save Time
+          </button>
+          <button onClick={onCancel} className="px-4 py-2 bg-red-500 text-white rounded text-sm font-medium hover:bg-red-600">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -126,6 +154,7 @@ export default function ExamInterface({
   sectionAbbr = "SEC",
   sectionColor = "#1a73e8",
   timeLimit = null,
+  testMode = false,
   onComplete = null,
 }) {
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -133,8 +162,11 @@ export default function ExamInterface({
   const [flagged, setFlagged] = useState({});
   const [struck, setStruck] = useState({});
   const [highlights, setHighlights] = useState({}); // {qId: [{start,end},...]}
-  const [timeLeft, setTimeLeft] = useState(timeLimit || 0);
+  const [timerSeconds, setTimerSeconds] = useState(testMode && timeLimit ? timeLimit : 0);
+  const [timerDirection, setTimerDirection] = useState(testMode && timeLimit ? "down" : "up");
+  const [countdownTarget, setCountdownTarget] = useState(testMode && timeLimit ? timeLimit : 0);
   const [timerPaused, setTimerPaused] = useState(false);
+  const [showTimerSettings, setShowTimerSettings] = useState(false);
   const [mode, setMode] = useState("exam");
   const [showPassage, setShowPassage] = useState(true);
   const [showPT, setShowPT] = useState(false);
@@ -160,9 +192,38 @@ export default function ExamInterface({
 
   const hasPassage = !!currentPassage;
 
-  const handleTick = useCallback(() => {
-    setTimeLeft(prev => { if (prev <= 1) { setMode("score"); return 0; } return prev - 1; });
-  }, []);
+  useEffect(() => {
+    if (timerPaused || mode === "review" || mode === "score") return;
+    if (timerDirection === "down" && timerSeconds <= 0) return;
+    const t = setInterval(() => {
+      setTimerSeconds(prev => {
+        if (timerDirection === "down") {
+          if (prev <= 1) { if (testMode) setMode("score"); return 0; }
+          return prev - 1;
+        }
+        return prev + 1;
+      });
+    }, 1000);
+    return () => clearInterval(t);
+  }, [timerPaused, mode, timerDirection, timerSeconds, testMode]);
+
+  const handleTimerSave = (totalSeconds) => {
+    setShowTimerSettings(false);
+    if (totalSeconds > 0) {
+      setTimerDirection("down");
+      setCountdownTarget(totalSeconds);
+      setTimerSeconds(totalSeconds);
+    } else {
+      setTimerDirection("up");
+      setTimerSeconds(0);
+    }
+  };
+
+  const resetTimer = () => {
+    if (timerDirection === "down") setTimerSeconds(countdownTarget);
+    else setTimerSeconds(0);
+    setTimerPaused(false);
+  };
 
   const goTo = (idx) => {
     setCurrentIdx(idx);
@@ -276,7 +337,7 @@ export default function ExamInterface({
       <div className="min-h-screen bg-gray-50 font-exam">
         <div className="text-white px-6 py-3 flex items-center justify-between" style={{background: NAV_BG}}>
           <span className="font-semibold text-sm">{sectionAbbr} — Review Screen</span>
-          {timeLimit && <div className="text-sm"><Timer seconds={timeLeft} onTick={handleTick} paused={false} /></div>}
+          <div className="text-sm font-mono tabular-nums">{formatTime(timerSeconds)}</div>
         </div>
         <div className="max-w-3xl mx-auto py-8 px-6">
           <p className="text-gray-600 mb-6 text-sm">Below is a summary of your answers. Click any question to return to it.</p>
@@ -311,18 +372,23 @@ export default function ExamInterface({
 
       {/* Periodic Table Modal */}
       {showPT && <PeriodicTableModal onClose={() => setShowPT(false)} />}
+      {showTimerSettings && <TimerSettingsModal onSave={handleTimerSave} onCancel={() => setShowTimerSettings(false)} />}
 
       {/* ── ROW 1: TOP NAV BAR ── */}
       <div className="flex items-center justify-between px-4 h-[34px] flex-shrink-0 text-white text-sm" style={{ background: NAV_BG }}>
         <span className="font-medium text-xs">Medical College Admission Test</span>
         <div className="flex items-center gap-4">
-          {timeLimit && !isReview && (
+          {!isReview && (
             <div className="flex items-center gap-2 text-xs">
-              <span className="opacity-70">Timer:</span>
+              <span className="opacity-70">{timerDirection === "down" ? "Countdown:" : "Timer:"}</span>
+              {!testMode && (
+                <button onClick={() => setShowTimerSettings(true)} className="opacity-80 hover:opacity-100" title="Timer settings">&#9881;</button>
+              )}
               <button onClick={() => setTimerPaused(p => !p)} className="opacity-80 hover:opacity-100">
                 {timerPaused ? "▶" : "⏸"}
               </button>
-              <Timer seconds={timeLeft} onTick={handleTick} paused={timerPaused} />
+              <button onClick={resetTimer} className="opacity-80 hover:opacity-100" title="Reset timer">&#8634;</button>
+              <span className="font-mono tabular-nums">{formatTime(timerSeconds)}</span>
             </div>
           )}
           <span className="text-xs opacity-80">{currentIdx+1} of {totalQ}</span>
