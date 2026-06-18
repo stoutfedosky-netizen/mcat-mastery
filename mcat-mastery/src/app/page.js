@@ -165,6 +165,49 @@ export default function Dashboard() {
     });
   };
 
+  const reviewSession = async (session) => {
+    const { data, error } = await supabase
+      .from("questions")
+      .select("*")
+      .in("id", session.question_ids);
+
+    if (error || !data || data.length === 0) {
+      alert("Could not load questions for this session.");
+      return;
+    }
+
+    const idOrder = {};
+    session.question_ids.forEach((id, idx) => { idOrder[id] = idx; });
+    data.sort((a, b) => (idOrder[a.id] ?? 0) - (idOrder[b.id] ?? 0));
+
+    const questions = data.map((q) => ({
+      id: q.id,
+      passage: q.passage,
+      usePrevPassage: q.use_prev_passage,
+      stem: q.stem,
+      choices: q.choices,
+      correct: q.correct_answer,
+      explanations: q.explanations,
+      topic: q.topic,
+      difficulty: q.difficulty,
+    }));
+
+    const sectionIds = [...new Set(data.map((q) => q.section_id))];
+    const firstSection = SECTIONS.find((s) => s.id === sectionIds[0]);
+
+    setActiveExam({
+      questions,
+      sections: sectionIds,
+      sectionName: sectionIds.map((id) => SECTIONS.find((s) => s.id === id)?.abbr || id.toUpperCase()).join("/"),
+      sectionAbbr: sectionIds.map((id) => SECTIONS.find((s) => s.id === id)?.abbr || id.toUpperCase()).join("/"),
+      sectionColor: firstSection?.color || "#1a73e8",
+      timeLimit: null,
+      testMode: false,
+      reviewMode: true,
+      savedAnswers: session.answers,
+    });
+  };
+
   const saveResults = async (results) => {
     if (!user || !activeExam) return;
 
@@ -225,7 +268,9 @@ export default function Dashboard() {
         sectionColor={activeExam.sectionColor}
         timeLimit={activeExam.timeLimit}
         testMode={activeExam.testMode}
-        onComplete={(results) => {
+        initialAnswers={activeExam.savedAnswers || null}
+        startInReview={activeExam.reviewMode || false}
+        onComplete={activeExam.reviewMode ? null : (results) => {
           saveResults(results);
         }}
         onExit={() => {
@@ -391,21 +436,22 @@ export default function Dashboard() {
             </h2>
             <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
               <div className="bg-gray-50 px-4 py-2.5 text-xs font-semibold text-gray-500 grid grid-cols-12 gap-2">
-                <div className="col-span-3">Date</div>
-                <div className="col-span-3">Sections</div>
+                <div className="col-span-2">Date</div>
+                <div className="col-span-2">Sections</div>
                 <div className="col-span-2 text-center">Score</div>
                 <div className="col-span-2 text-center">Questions</div>
                 <div className="col-span-2 text-center">Mode</div>
+                <div className="col-span-2 text-center"></div>
               </div>
               {recentResults.map((r) => (
                 <div
                   key={r.id}
                   className="px-4 py-2.5 text-sm grid grid-cols-12 gap-2 items-center border-t border-gray-100"
                 >
-                  <div className="col-span-3 text-gray-600">
+                  <div className="col-span-2 text-gray-600">
                     {new Date(r.completed_at).toLocaleDateString()}
                   </div>
-                  <div className="col-span-3 text-gray-800 uppercase text-xs font-medium">
+                  <div className="col-span-2 text-gray-800 uppercase text-xs font-medium">
                     {r.section_id}
                   </div>
                   <div className="col-span-2 text-center">
@@ -426,6 +472,14 @@ export default function Dashboard() {
                   </div>
                   <div className="col-span-2 text-center text-gray-500 text-xs">
                     {r.mode === "timed" ? "Timed" : "Practice"}
+                  </div>
+                  <div className="col-span-2 text-center">
+                    <button
+                      onClick={() => reviewSession(r)}
+                      className="text-blue-600 hover:text-blue-800 hover:underline text-xs font-medium"
+                    >
+                      Review
+                    </button>
                   </div>
                 </div>
               ))}

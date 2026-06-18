@@ -157,9 +157,11 @@ export default function ExamInterface({
   testMode = false,
   onComplete = null,
   onExit = null,
+  initialAnswers = null,
+  startInReview = false,
 }) {
   const [currentIdx, setCurrentIdx] = useState(0);
-  const [answers, setAnswers] = useState({});
+  const [answers, setAnswers] = useState(initialAnswers || {});
   const [flagged, setFlagged] = useState({});
   const [struck, setStruck] = useState({});
   const [highlights, setHighlights] = useState({}); // {qId: [{start,end},...]}
@@ -168,7 +170,7 @@ export default function ExamInterface({
   const [countdownTarget, setCountdownTarget] = useState(testMode && timeLimit ? timeLimit : 0);
   const [timerPaused, setTimerPaused] = useState(false);
   const [showTimerSettings, setShowTimerSettings] = useState(false);
-  const [mode, setMode] = useState("exam");
+  const [mode, setMode] = useState(startInReview ? "review" : "exam");
   const [showPassage, setShowPassage] = useState(true);
   const [showPT, setShowPT] = useState(false);
   const [highlightActive, setHighlightActive] = useState(false);
