@@ -360,7 +360,13 @@ export default function ExamInterface({
             ))}
           </div>
           <div className="flex justify-between">
-            <button onClick={() => setMode("exam")} className="px-5 py-2 bg-gray-200 text-gray-700 rounded font-medium hover:bg-gray-300">Return to Exam</button>
+            <div className="flex gap-3">
+              <button onClick={() => setMode("exam")} className="px-5 py-2 bg-gray-200 text-gray-700 rounded font-medium hover:bg-gray-300">Return to Exam</button>
+              {onExit && (
+                <button onClick={() => { if (window.confirm("Leave this exam? Your progress will be lost.")) onExit(); }}
+                  className="px-5 py-2 bg-gray-100 text-gray-500 rounded font-medium hover:bg-gray-200">Back to Dashboard</button>
+              )}
+            </div>
             <button onClick={endExam} className="px-5 py-2 bg-red-600 text-white rounded font-medium hover:bg-red-700">End Section & Score</button>
           </div>
         </div>
@@ -380,7 +386,16 @@ export default function ExamInterface({
 
       {/* ── ROW 1: TOP NAV BAR ── */}
       <div className="flex items-center justify-between px-4 h-[34px] flex-shrink-0 text-white text-sm" style={{ background: NAV_BG }}>
-        <span className="font-medium text-xs">Medical College Admission Test</span>
+        <div className="flex items-center gap-3">
+          {onExit && (
+            <button onClick={() => { if (isReview || window.confirm("Leave this exam? Your progress will be lost.")) onExit(); }}
+              className="opacity-70 hover:opacity-100 text-xs flex items-center gap-1">
+              <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10 3L5 8l5 5"/></svg>
+              Exit
+            </button>
+          )}
+          <span className="font-medium text-xs">Medical College Admission Test</span>
+        </div>
         <div className="flex items-center gap-4">
           {!isReview && (
             <div className="flex items-center gap-2 text-xs">
