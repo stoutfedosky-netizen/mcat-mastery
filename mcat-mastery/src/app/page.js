@@ -170,14 +170,15 @@ export default function Dashboard() {
       .from("exam_sessions")
       .insert({
         user_id: user.id,
-        section_id: activeExam.sections.join("/"),
+        section_id: activeExam.sections[0],
+        mode: activeExam.testMode ? "timed" : "practice",
         question_ids: activeExam.questions.map((q) => q.id),
         answers: results.answers,
         flagged: results.flagged || {},
-        timed: activeExam.testMode,
         score_correct: results.score.correct,
         score_total: results.score.total,
         score_percent: results.score.pct,
+        completed_at: new Date().toISOString(),
       })
       .select("id")
       .single();
@@ -422,7 +423,7 @@ export default function Dashboard() {
                     {r.score_correct}/{r.score_total}
                   </div>
                   <div className="col-span-2 text-center text-gray-500 text-xs">
-                    {r.timed ? "Timed" : "Practice"}
+                    {r.mode === "timed" ? "Timed" : "Practice"}
                   </div>
                 </div>
               ))}
