@@ -449,12 +449,15 @@ export default function ExamInterface({
         {hasPassage && showPassage && (
           <div className="w-1/2 border-r border-gray-400 flex flex-col bg-white">
             <div className="bg-gray-100 border-b border-gray-300 px-4 py-1.5 flex items-center justify-between flex-shrink-0">
-              <span className="text-xs font-semibold text-gray-600">Passage {questions.findIndex(qq => qq.passage && questions.indexOf(qq) <= currentIdx) + 1} (Questions {(() => {
-                let start = currentIdx, end = currentIdx;
+              <span className="text-xs font-semibold text-gray-600">{(() => {
+                let start = currentIdx;
                 for (let i = currentIdx; i >= 0; i--) { if (questions[i].passage) { start = i; break; } }
-                for (let i = currentIdx; i < totalQ; i++) { if (i > start && questions[i].passage) break; end = i; }
-                return `${start+1} - ${end+1}`;
-              })()})</span>
+                let end = start;
+                for (let i = start + 1; i < totalQ; i++) { if (!questions[i].usePrevPassage) break; end = i; }
+                let pNum = 0;
+                for (let i = 0; i <= start; i++) { if (questions[i].passage) pNum++; }
+                return `Passage ${pNum} (Questions ${start+1} - ${end+1})`;
+              })()}</span>
             </div>
             <div ref={passageRef} className="flex-1 overflow-y-auto exam-scroll p-5" onMouseUp={handlePassageMouseUp}
               style={{ userSelect: highlightActive ? "text" : "auto", cursor: highlightActive ? "text" : "default" }}>

@@ -20,7 +20,7 @@ function selectQuestions(allQuestions, count) {
     if (q.passage) {
       if (current.length) groups.push(current);
       current = [q];
-    } else if (q.use_prev_passage) {
+    } else if (q.use_prev_passage && current.length > 0 && q.batch === current[0].batch && q.section_id === current[0].section_id) {
       current.push(q);
     } else {
       if (current.length) groups.push(current);
@@ -43,6 +43,7 @@ function selectQuestions(allQuestions, count) {
   }
 
   selected.sort((a, b) => {
+    if (a.section_id !== b.section_id) return (a.section_id || "").localeCompare(b.section_id || "");
     if (a.batch !== b.batch) return (a.batch || "").localeCompare(b.batch || "");
     return (a.sort_order || 0) - (b.sort_order || 0);
   });
@@ -126,6 +127,7 @@ export default function Dashboard() {
       .from("questions")
       .select("*")
       .in("section_id", selectedSections)
+      .order("section_id", { ascending: true })
       .order("batch", { ascending: true })
       .order("sort_order", { ascending: true });
 
