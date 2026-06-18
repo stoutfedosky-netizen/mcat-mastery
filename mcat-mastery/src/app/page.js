@@ -51,39 +51,72 @@ function selectQuestions(allQuestions, count) {
 }
 
 export default function Dashboard() {
+  const [user, setUser] = useState(null);
+  const [authLoading, setAuthLoading] = useState(true);
   const [activeExam, setActiveExam] = useState(null);
   const [counts, setCounts] = useState({});
   const [loading, setLoading] = useState(true);
   const [selectedSections, setSelectedSections] = useState([]);
   const [questionCount, setQuestionCount] = useState(20);
   const [timed, setTimed] = useState(false);
+  const [recentResults, setRecentResults] = useState([]);
+  const [refreshKey, setRefreshKey] = useState(0);
 
   const supabase = createClient();
 
   useEffect(() => {
-    async function fetchCounts() {
-      const { data, error } = await supabase
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (!session) {
+        window.location.href = "/login";
+        return;
+      }
+      setUser(session.user);
+      setAuthLoading(false);
+    });
+  }, []);
+
+  useEffect(() => {
+    if (!user) return;
+
+    async function fetchData() {
+      const { data: qData } = await supabase
         .from("questions")
         .select("section_id");
-
-      if (!error && data) {
+      if (qData) {
         const c = {};
-        data.forEach((q) => {
+        qData.forEach((q) => {
           c[q.section_id] = (c[q.section_id] || 0) + 1;
         });
         setCounts(c);
       }
+
+      const { data: rData } = await supabase
+        .from("exam_sessions")
+        .select("*")
+        .eq("user_id", user.id)
+        .order("completed_at", { ascending: false })
+        .limit(10);
+      if (rData) setRecentResults(rData);
+
       setLoading(false);
     }
-    fetchCounts();
-  }, []);
+    fetchData();
+  }, [user, refreshKey]);
 
-  const maxAvailable = selectedSections.reduce((sum, id) => sum + (counts[id] || 0), 0);
+  const maxAvailable = selectedSections.reduce(
+    (sum, id) => sum + (counts[id] || 0),
+    0
+  );
 
   const toggleSection = (id) => {
     setSelectedSections((prev) =>
       prev.includes(id) ? prev.filter((s) => s !== id) : [...prev, id]
     );
+  };
+
+  const signOut = async () => {
+    await supabase.auth.signOut();
+    window.location.href = "/login";
   };
 
   const startTest = async () => {
@@ -116,9 +149,12 @@ export default function Dashboard() {
       difficulty: q.difficulty,
     }));
 
-    const sectionNames = selectedSections.map((id) => SECTIONS.find((s) => s.id === id));
+    const sectionNames = selectedSections.map((id) =>
+      SECTIONS.find((s) => s.id === id)
+    );
     setActiveExam({
       questions,
+      sections: selectedSections,
       sectionName: sectionNames.map((s) => s.name).join(", "),
       sectionAbbr: sectionNames.map((s) => s.abbr).join("/"),
       sectionColor: sectionNames[0].color,
@@ -126,6 +162,56 @@ export default function Dashboard() {
       testMode: timed,
     });
   };
+
+  const saveResults = async (results) => {
+    if (!user || !activeExam) return;
+
+    const { data: session, error: sessionError } = await supabase
+      .from("exam_sessions")
+      .insert({
+        user_id: user.id,
+        section_id: activeExam.sections.join("/"),
+        question_ids: activeExam.questions.map((q) => q.id),
+        answers: results.answers,
+        flagged: results.flagged || {},
+        timed: activeExam.testMode,
+        score_correct: results.score.correct,
+        score_total: results.score.total,
+        score_percent: results.score.pct,
+      })
+      .select("id")
+      .single();
+
+    if (sessionError) {
+      console.error("Failed to save session:", sessionError);
+      return;
+    }
+
+    const attempts = activeExam.questions
+      .filter((q) => results.answers[q.id])
+      .map((q) => ({
+        user_id: user.id,
+        question_id: q.id,
+        session_id: session.id,
+        selected_answer: results.answers[q.id],
+        is_correct: results.answers[q.id] === q.correct,
+      }));
+
+    if (attempts.length > 0) {
+      const { error: attemptsError } = await supabase
+        .from("question_attempts")
+        .insert(attempts);
+      if (attemptsError) console.error("Failed to save attempts:", attemptsError);
+    }
+  };
+
+  if (authLoading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-gray-400 text-sm">Loading...</div>
+      </div>
+    );
+  }
 
   if (activeExam) {
     return (
@@ -137,7 +223,11 @@ export default function Dashboard() {
         timeLimit={activeExam.timeLimit}
         testMode={activeExam.testMode}
         onComplete={(results) => {
-          console.log("Exam completed:", results);
+          saveResults(results);
+        }}
+        onExit={() => {
+          setActiveExam(null);
+          setRefreshKey((k) => k + 1);
         }}
       />
     );
@@ -150,9 +240,15 @@ export default function Dashboard() {
           MCAT <span className="text-cyan-600">Mastery</span>
         </Link>
         <div className="flex items-center gap-4">
-          <span className="text-sm text-gray-500">Welcome back</span>
-          <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center text-xs font-bold text-gray-500">
-            U
+          <span className="text-sm text-gray-500">{user?.email}</span>
+          <button
+            onClick={signOut}
+            className="text-sm text-gray-400 hover:text-gray-600"
+          >
+            Sign out
+          </button>
+          <div className="w-8 h-8 rounded-full bg-cyan-100 flex items-center justify-center text-xs font-bold text-cyan-700">
+            {(user?.email || "U")[0].toUpperCase()}
           </div>
         </div>
       </nav>
@@ -181,7 +277,9 @@ export default function Dashboard() {
                 >
                   <div
                     className={`w-5 h-5 rounded border-2 flex items-center justify-center flex-shrink-0 ${
-                      checked ? "border-blue-500 bg-blue-500" : "border-gray-300"
+                      checked
+                        ? "border-blue-500 bg-blue-500"
+                        : "border-gray-300"
                     }`}
                   >
                     {checked && (
@@ -198,7 +296,10 @@ export default function Dashboard() {
                     )}
                   </div>
                   <div>
-                    <div className="font-bold text-sm" style={{ color: sec.color }}>
+                    <div
+                      className="font-bold text-sm"
+                      style={{ color: sec.color }}
+                    >
                       {sec.abbr}
                     </div>
                     <div className="text-xs text-gray-600">{sec.name}</div>
@@ -225,7 +326,9 @@ export default function Dashboard() {
                   min={1}
                   max={maxAvailable || 999}
                   onChange={(e) =>
-                    setQuestionCount(Math.max(1, parseInt(e.target.value) || 1))
+                    setQuestionCount(
+                      Math.max(1, parseInt(e.target.value) || 1)
+                    )
                   }
                   className="w-24 px-3 py-2 border border-gray-300 rounded text-center font-mono text-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
@@ -238,7 +341,9 @@ export default function Dashboard() {
             </div>
 
             <div>
-              <h3 className="font-semibold text-gray-900 mb-3">Test Settings</h3>
+              <h3 className="font-semibold text-gray-900 mb-3">
+                Test Settings
+              </h3>
               <button
                 onClick={() => setTimed((t) => !t)}
                 className="flex items-center gap-3"
@@ -254,7 +359,9 @@ export default function Dashboard() {
                     }`}
                   />
                 </div>
-                <span className="text-sm font-medium text-gray-700">Timed</span>
+                <span className="text-sm font-medium text-gray-700">
+                  Timed
+                </span>
               </button>
               <p className="text-xs text-gray-400 mt-2">
                 {timed
@@ -273,6 +380,55 @@ export default function Dashboard() {
         >
           {timed ? "Start Test" : "Start Practice"}
         </button>
+
+        {recentResults.length > 0 && (
+          <div className="mt-10">
+            <h2 className="font-semibold text-gray-900 mb-4">
+              Recent Results
+            </h2>
+            <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
+              <div className="bg-gray-50 px-4 py-2.5 text-xs font-semibold text-gray-500 grid grid-cols-12 gap-2">
+                <div className="col-span-3">Date</div>
+                <div className="col-span-3">Sections</div>
+                <div className="col-span-2 text-center">Score</div>
+                <div className="col-span-2 text-center">Questions</div>
+                <div className="col-span-2 text-center">Mode</div>
+              </div>
+              {recentResults.map((r) => (
+                <div
+                  key={r.id}
+                  className="px-4 py-2.5 text-sm grid grid-cols-12 gap-2 items-center border-t border-gray-100"
+                >
+                  <div className="col-span-3 text-gray-600">
+                    {new Date(r.completed_at).toLocaleDateString()}
+                  </div>
+                  <div className="col-span-3 text-gray-800 uppercase text-xs font-medium">
+                    {r.section_id}
+                  </div>
+                  <div className="col-span-2 text-center">
+                    <span
+                      className={`inline-block px-2 py-0.5 rounded text-xs font-semibold ${
+                        r.score_percent >= 70
+                          ? "bg-green-100 text-green-700"
+                          : r.score_percent >= 50
+                          ? "bg-amber-100 text-amber-700"
+                          : "bg-red-100 text-red-700"
+                      }`}
+                    >
+                      {Math.round(r.score_percent)}%
+                    </span>
+                  </div>
+                  <div className="col-span-2 text-center text-gray-600">
+                    {r.score_correct}/{r.score_total}
+                  </div>
+                  <div className="col-span-2 text-center text-gray-500 text-xs">
+                    {r.timed ? "Timed" : "Practice"}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

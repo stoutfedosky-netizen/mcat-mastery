@@ -156,6 +156,7 @@ export default function ExamInterface({
   timeLimit = null,
   testMode = false,
   onComplete = null,
+  onExit = null,
 }) {
   const [currentIdx, setCurrentIdx] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -325,6 +326,9 @@ export default function ExamInterface({
           </div>
           <div className="mt-8 flex justify-center gap-4">
             <button onClick={() => {setMode("review");setCurrentIdx(0);}} className="px-6 py-2.5 text-white rounded-md font-medium hover:opacity-90 transition-opacity" style={{background: NAV_BG}}>Review Answers</button>
+            {onExit && (
+              <button onClick={onExit} className="px-6 py-2.5 bg-gray-200 text-gray-700 rounded-md font-medium hover:bg-gray-300">Back to Dashboard</button>
+            )}
           </div>
         </div>
       </div>
