@@ -424,23 +424,80 @@ export default function Dashboard() {
         return;
       }
 
-      const { data, error } = await supabase
+      const { data: missedData, error } = await supabase
         .from("questions")
         .select("*")
-        .in("id", missedQuestionIds.slice(0, 100));
+        .in("id", missedQuestionIds.slice(0, 200));
 
-      if (error || !data || data.length === 0) {
+      if (error || !missedData || missedData.length === 0) {
         alert("Could not load missed questions.");
         return;
       }
 
-      for (let i = data.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [data[i], data[j]] = [data[j], data[i]];
-      }
-      const limited = data.slice(0, questionCount);
+      // Find batches that need passage-holder questions added
+      const missedIdSet = new Set(missedData.map((q) => q.id));
+      const batchesWithPassage = new Set();
+      const batchesNeeding = new Set();
+      missedData.forEach((q) => {
+        const key = `${q.section_id}|${q.batch}`;
+        if (q.passage) batchesWithPassage.add(key);
+        else batchesNeeding.add(key);
+      });
 
-      const questions = limited.map((q) => ({
+      // Fetch passage holders for batches missing them
+      let passageHolders = [];
+      const missing = [...batchesNeeding].filter((k) => !batchesWithPassage.has(k));
+      if (missing.length > 0) {
+        const batchNames = [...new Set(missing.map((k) => k.split("|")[1]))];
+        const sIds = [...new Set(missing.map((k) => k.split("|")[0]))];
+        const { data: phData } = await supabase
+          .from("questions")
+          .select("*")
+          .in("batch", batchNames)
+          .in("section_id", sIds)
+          .not("passage", "is", null);
+        if (phData) {
+          passageHolders = phData.filter(
+            (q) => missing.includes(`${q.section_id}|${q.batch}`) && !missedIdSet.has(q.id)
+          );
+        }
+      }
+
+      // Combine missed questions + passage holders, sort by batch
+      const combined = [...missedData, ...passageHolders];
+      combined.sort((a, b) => {
+        if (a.section_id !== b.section_id) return a.section_id.localeCompare(b.section_id);
+        if (a.batch !== b.batch) return (a.batch || "").localeCompare(b.batch || "");
+        return (a.sort_order || 0) - (b.sort_order || 0);
+      });
+
+      // Group by batch, shuffle groups, then flatten
+      const groups = [];
+      let cur = [];
+      for (const q of combined) {
+        if (cur.length > 0 && (q.batch !== cur[0].batch || q.section_id !== cur[0].section_id)) {
+          groups.push(cur);
+          cur = [q];
+        } else {
+          cur.push(q);
+        }
+      }
+      if (cur.length) groups.push(cur);
+
+      for (let i = groups.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [groups[i], groups[j]] = [groups[j], groups[i]];
+      }
+
+      const selected = [];
+      for (const group of groups) {
+        if (selected.length >= questionCount) break;
+        if (selected.length + group.length <= questionCount) {
+          selected.push(...group);
+        }
+      }
+
+      const questions = selected.map((q) => ({
         id: q.id,
         passage: q.passage,
         usePrevPassage: q.use_prev_passage,
@@ -454,7 +511,7 @@ export default function Dashboard() {
         sectionId: q.section_id,
       }));
 
-      const sectionIds = [...new Set(limited.map((q) => q.section_id))];
+      const sectionIds = [...new Set(selected.map((q) => q.section_id))];
       const firstSection = SECTIONS.find((s) => s.id === sectionIds[0]);
 
       setActiveExam({

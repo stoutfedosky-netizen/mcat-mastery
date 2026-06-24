@@ -185,22 +185,18 @@ export default function ExamInterface({
   const currentPassage = useMemo(() => {
     if (!q) return null;
     if (q.passage) return q.passage;
+    // Find passage from same batch (handles shuffled order in review mode)
+    if (q.batch) {
+      for (let i = 0; i < questions.length; i++) {
+        if (questions[i].batch === q.batch && questions[i].sectionId === q.sectionId && questions[i].passage) {
+          return questions[i].passage;
+        }
+      }
+    }
+    // Legacy fallback for questions without batch info
     if (q.usePrevPassage) {
       for (let i = currentIdx - 1; i >= 0; i--) {
         if (questions[i].passage) return questions[i].passage;
-      }
-    }
-    // Batch-based fallback: find passage from same batch/section
-    if (q.batch) {
-      for (let i = currentIdx - 1; i >= 0; i--) {
-        if (questions[i].batch === q.batch && questions[i].sectionId === q.sectionId && questions[i].passage) {
-          return questions[i].passage;
-        }
-      }
-      for (let i = currentIdx + 1; i < questions.length; i++) {
-        if (questions[i].batch === q.batch && questions[i].sectionId === q.sectionId && questions[i].passage) {
-          return questions[i].passage;
-        }
       }
     }
     return null;
@@ -465,18 +461,26 @@ export default function ExamInterface({
           <div className="w-1/2 border-r border-gray-400 flex flex-col bg-white">
             <div className="bg-gray-100 border-b border-gray-300 px-4 py-1.5 flex items-center justify-between flex-shrink-0">
               <span className="text-xs font-semibold text-gray-600">{(() => {
-                let start = currentIdx;
-                for (let i = currentIdx; i >= 0; i--) { if (questions[i].passage) { start = i; break; } }
-                let end = start;
-                const batchKey = questions[start]?.batch;
-                const secKey = questions[start]?.sectionId;
-                for (let i = start + 1; i < totalQ; i++) {
-                  if (questions[i].batch === batchKey && questions[i].sectionId === secKey) { end = i; }
-                  else break;
+                let start = currentIdx, end = currentIdx;
+                if (q.batch) {
+                  for (let i = 0; i < totalQ; i++) {
+                    if (questions[i].batch === q.batch && questions[i].sectionId === q.sectionId) {
+                      if (i < start) start = i;
+                      if (i > end) end = i;
+                    }
+                  }
                 }
                 let pNum = 0;
-                for (let i = 0; i <= start; i++) { if (questions[i].passage) pNum++; }
-                return `Passage ${pNum} (Questions ${start+1} - ${end+1})`;
+                const seen = new Set();
+                for (let i = 0; i <= end; i++) {
+                  const key = questions[i].batch && questions[i].sectionId ? `${questions[i].sectionId}|${questions[i].batch}` : null;
+                  if (key && questions[i].passage && !seen.has(key)) {
+                    seen.add(key);
+                    pNum++;
+                  }
+                }
+                if (pNum === 0) pNum = 1;
+                return `Passage ${pNum} (Questions ${start+1}${end > start ? ` - ${end+1}` : ""})`;
               })()}</span>
             </div>
             <div ref={passageRef} className="flex-1 overflow-y-auto exam-scroll p-5" onMouseUp={handlePassageMouseUp}
