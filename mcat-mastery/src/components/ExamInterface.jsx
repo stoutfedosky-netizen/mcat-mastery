@@ -461,26 +461,22 @@ export default function ExamInterface({
           <div className="w-1/2 border-r border-gray-400 flex flex-col bg-white">
             <div className="bg-gray-100 border-b border-gray-300 px-4 py-1.5 flex items-center justify-between flex-shrink-0">
               <span className="text-xs font-semibold text-gray-600">{(() => {
-                let start = currentIdx, end = currentIdx;
-                if (q.batch) {
-                  for (let i = 0; i < totalQ; i++) {
-                    if (questions[i].batch === q.batch && questions[i].sectionId === q.sectionId) {
-                      if (i < start) start = i;
-                      if (i > end) end = i;
-                    }
+                let holderIdx = currentIdx;
+                if (!q.passage) {
+                  for (let i = currentIdx - 1; i >= 0; i--) {
+                    if (questions[i].passage) { holderIdx = i; break; }
                   }
+                }
+                let end = totalQ - 1;
+                for (let i = holderIdx + 1; i < totalQ; i++) {
+                  if (questions[i].passage) { end = i - 1; break; }
                 }
                 let pNum = 0;
-                const seen = new Set();
-                for (let i = 0; i <= end; i++) {
-                  const key = questions[i].batch && questions[i].sectionId ? `${questions[i].sectionId}|${questions[i].batch}` : null;
-                  if (key && questions[i].passage && !seen.has(key)) {
-                    seen.add(key);
-                    pNum++;
-                  }
+                for (let i = 0; i <= holderIdx; i++) {
+                  if (questions[i].passage) pNum++;
                 }
                 if (pNum === 0) pNum = 1;
-                return `Passage ${pNum} (Questions ${start+1}${end > start ? ` - ${end+1}` : ""})`;
+                return `Passage ${pNum} (Questions ${holderIdx+1}${end > holderIdx ? ` - ${end+1}` : ""})`;
               })()}</span>
             </div>
             <div ref={passageRef} className="flex-1 overflow-y-auto exam-scroll p-5" onMouseUp={handlePassageMouseUp}
