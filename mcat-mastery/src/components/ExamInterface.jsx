@@ -190,6 +190,19 @@ export default function ExamInterface({
         if (questions[i].passage) return questions[i].passage;
       }
     }
+    // Batch-based fallback: find passage from same batch/section
+    if (q.batch) {
+      for (let i = currentIdx - 1; i >= 0; i--) {
+        if (questions[i].batch === q.batch && questions[i].sectionId === q.sectionId && questions[i].passage) {
+          return questions[i].passage;
+        }
+      }
+      for (let i = currentIdx + 1; i < questions.length; i++) {
+        if (questions[i].batch === q.batch && questions[i].sectionId === q.sectionId && questions[i].passage) {
+          return questions[i].passage;
+        }
+      }
+    }
     return null;
   }, [q, currentIdx, questions]);
 
@@ -455,7 +468,12 @@ export default function ExamInterface({
                 let start = currentIdx;
                 for (let i = currentIdx; i >= 0; i--) { if (questions[i].passage) { start = i; break; } }
                 let end = start;
-                for (let i = start + 1; i < totalQ; i++) { if (!questions[i].usePrevPassage) break; end = i; }
+                const batchKey = questions[start]?.batch;
+                const secKey = questions[start]?.sectionId;
+                for (let i = start + 1; i < totalQ; i++) {
+                  if (questions[i].batch === batchKey && questions[i].sectionId === secKey) { end = i; }
+                  else break;
+                }
                 let pNum = 0;
                 for (let i = 0; i <= start; i++) { if (questions[i].passage) pNum++; }
                 return `Passage ${pNum} (Questions ${start+1} - ${end+1})`;

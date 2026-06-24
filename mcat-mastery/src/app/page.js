@@ -26,7 +26,7 @@ function selectQuestions(allQuestions, count) {
     if (q.passage) {
       if (current.length) groups.push(current);
       current = [q];
-    } else if (q.use_prev_passage && current.length > 0 && q.batch === current[0].batch && q.section_id === current[0].section_id) {
+    } else if (current.length > 0 && q.batch === current[0].batch && q.section_id === current[0].section_id) {
       current.push(q);
     } else {
       if (current.length) groups.push(current);
@@ -349,6 +349,8 @@ export default function Dashboard() {
       explanations: q.explanations,
       topic: q.topic,
       difficulty: q.difficulty,
+      batch: q.batch,
+      sectionId: q.section_id,
     }));
 
     const sectionIds = [...new Set(data.map((q) => q.section_id))];
@@ -448,6 +450,8 @@ export default function Dashboard() {
         explanations: q.explanations,
         topic: q.topic,
         difficulty: q.difficulty,
+        batch: q.batch,
+        sectionId: q.section_id,
       }));
 
       const sectionIds = [...new Set(limited.map((q) => q.section_id))];
@@ -507,6 +511,8 @@ export default function Dashboard() {
       explanations: q.explanations,
       topic: q.topic,
       difficulty: q.difficulty,
+      batch: q.batch,
+      sectionId: q.section_id,
     }));
 
     const sectionNames = selectedSections.map((id) =>
