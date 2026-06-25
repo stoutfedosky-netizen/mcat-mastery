@@ -185,15 +185,10 @@ export default function ExamInterface({
   const passageSource = useMemo(() => {
     if (!q) return null;
     if (q.passage) return q;
-    if (q.batch) {
-      for (let i = 0; i < questions.length; i++) {
-        if (questions[i].batch === q.batch && questions[i].sectionId === q.sectionId && questions[i].passage) {
-          return questions[i];
-        }
-      }
-    }
-    if (q.usePrevPassage) {
+    // Backward scan within same batch — stops at batch boundary
+    if (q.usePrevPassage || q.batch) {
       for (let i = currentIdx - 1; i >= 0; i--) {
+        if (questions[i].batch !== q.batch || questions[i].sectionId !== q.sectionId) break;
         if (questions[i].passage) return questions[i];
       }
     }
@@ -466,6 +461,7 @@ export default function ExamInterface({
                 if (!q.passage) {
                   for (let i = currentIdx - 1; i >= 0; i--) {
                     if (questions[i].passage) { holderIdx = i; break; }
+                    if (questions[i].batch !== q.batch || questions[i].sectionId !== q.sectionId) break;
                   }
                 }
                 let end = totalQ - 1;

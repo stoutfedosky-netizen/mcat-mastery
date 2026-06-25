@@ -483,15 +483,18 @@ export default function Dashboard() {
         return (a.sort_order || 0) - (b.sort_order || 0);
       });
 
-      // Group by batch, shuffle groups, then flatten
+      // Group by passage boundaries, shuffle groups, then flatten
       const groups = [];
       let cur = [];
       for (const q of combined) {
-        if (cur.length > 0 && (q.batch !== cur[0].batch || q.section_id !== cur[0].section_id)) {
-          groups.push(cur);
+        if (q.passage) {
+          if (cur.length) groups.push(cur);
           cur = [q];
-        } else {
+        } else if (cur.length > 0 && q.batch === cur[0].batch && q.section_id === cur[0].section_id) {
           cur.push(q);
+        } else {
+          if (cur.length) groups.push(cur);
+          cur = [q];
         }
       }
       if (cur.length) groups.push(cur);
