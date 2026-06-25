@@ -102,7 +102,8 @@ export default function Dashboard() {
     async function fetchData() {
       const { data: allQ } = await supabase
         .from("questions")
-        .select("id, section_id, topic");
+        .select("id, section_id, topic")
+        .limit(10000);
 
       if (allQ) {
         const c = {};
@@ -539,7 +540,8 @@ export default function Dashboard() {
       .in("section_id", selectedSections)
       .order("section_id", { ascending: true })
       .order("batch", { ascending: true })
-      .order("sort_order", { ascending: true });
+      .order("sort_order", { ascending: true })
+      .limit(10000);
 
     if (error || !data || data.length === 0) {
       alert("No questions found for selected sections.");
