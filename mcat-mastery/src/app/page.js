@@ -100,10 +100,19 @@ export default function Dashboard() {
     if (!user) return;
 
     async function fetchData() {
-      const { data: allQ } = await supabase
-        .from("questions")
-        .select("id, section_id, topic")
-        .limit(10000);
+      let allQ = [];
+      let from = 0;
+      const PAGE = 1000;
+      while (true) {
+        const { data } = await supabase
+          .from("questions")
+          .select("id, section_id, topic")
+          .range(from, from + PAGE - 1);
+        if (!data || data.length === 0) break;
+        allQ = allQ.concat(data);
+        if (data.length < PAGE) break;
+        from += PAGE;
+      }
 
       if (allQ) {
         const c = {};
@@ -534,16 +543,27 @@ export default function Dashboard() {
     // Standard flow — requires section selection
     if (selectedSections.length === 0) return;
 
-    const { data, error } = await supabase
-      .from("questions")
-      .select("*")
-      .in("section_id", selectedSections)
-      .order("section_id", { ascending: true })
-      .order("batch", { ascending: true })
-      .order("sort_order", { ascending: true })
-      .limit(10000);
+    let data = [];
+    let error = null;
+    let from = 0;
+    const PAGE = 1000;
+    while (true) {
+      const res = await supabase
+        .from("questions")
+        .select("*")
+        .in("section_id", selectedSections)
+        .order("section_id", { ascending: true })
+        .order("batch", { ascending: true })
+        .order("sort_order", { ascending: true })
+        .range(from, from + PAGE - 1);
+      if (res.error) { error = res.error; break; }
+      if (!res.data || res.data.length === 0) break;
+      data = data.concat(res.data);
+      if (res.data.length < PAGE) break;
+      from += PAGE;
+    }
 
-    if (error || !data || data.length === 0) {
+    if (error || data.length === 0) {
       alert("No questions found for selected sections.");
       return;
     }
