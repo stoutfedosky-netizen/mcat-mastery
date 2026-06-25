@@ -342,6 +342,8 @@ export default function Dashboard() {
     const questions = data.map((q) => ({
       id: q.id,
       passage: q.passage,
+      passageImage: q.passageImage,
+      passageImageCaption: q.passageImageCaption,
       usePrevPassage: q.use_prev_passage,
       stem: q.stem,
       choices: q.choices,
@@ -500,6 +502,8 @@ export default function Dashboard() {
       const questions = selected.map((q) => ({
         id: q.id,
         passage: q.passage,
+        passageImage: q.passageImage,
+        passageImageCaption: q.passageImageCaption,
         usePrevPassage: q.use_prev_passage,
         stem: q.stem,
         choices: q.choices,
@@ -561,6 +565,8 @@ export default function Dashboard() {
     const questions = selected.map((q) => ({
       id: q.id,
       passage: q.passage,
+      passageImage: q.passageImage,
+      passageImageCaption: q.passageImageCaption,
       usePrevPassage: q.use_prev_passage,
       stem: q.stem,
       choices: q.choices,

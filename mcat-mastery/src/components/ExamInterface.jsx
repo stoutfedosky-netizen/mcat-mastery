@@ -182,26 +182,27 @@ export default function ExamInterface({
   const answeredCount = Object.keys(answers).length;
   const flaggedCount = Object.values(flagged).filter(Boolean).length;
 
-  const currentPassage = useMemo(() => {
+  const passageSource = useMemo(() => {
     if (!q) return null;
-    if (q.passage) return q.passage;
-    // Find passage from same batch (handles shuffled order in review mode)
+    if (q.passage) return q;
     if (q.batch) {
       for (let i = 0; i < questions.length; i++) {
         if (questions[i].batch === q.batch && questions[i].sectionId === q.sectionId && questions[i].passage) {
-          return questions[i].passage;
+          return questions[i];
         }
       }
     }
-    // Legacy fallback for questions without batch info
     if (q.usePrevPassage) {
       for (let i = currentIdx - 1; i >= 0; i--) {
-        if (questions[i].passage) return questions[i].passage;
+        if (questions[i].passage) return questions[i];
       }
     }
     return null;
   }, [q, currentIdx, questions]);
 
+  const currentPassage = passageSource?.passage || null;
+  const currentPassageImage = passageSource?.passageImage || null;
+  const currentPassageImageCaption = passageSource?.passageImageCaption || null;
   const hasPassage = !!currentPassage;
 
   useEffect(() => {
@@ -484,6 +485,14 @@ export default function ExamInterface({
               <div className={`passage-text whitespace-pre-line ${highlightActive ? "selection:bg-yellow-200" : ""}`}>
                 {renderPassageWithHighlights(currentPassage, highlights[q?.id] || [])}
               </div>
+              {currentPassageImage && (
+                <div className="mt-5 border border-gray-200 rounded bg-[#f9f9f9] p-3">
+                  <img src={currentPassageImage} alt={currentPassageImageCaption || "Figure"} className="max-w-full h-auto mx-auto block" />
+                  {currentPassageImageCaption && (
+                    <p className="text-center text-xs italic text-gray-600 mt-2">{currentPassageImageCaption}</p>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         )}
