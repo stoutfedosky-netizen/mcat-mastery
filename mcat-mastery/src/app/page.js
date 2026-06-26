@@ -70,6 +70,8 @@ export default function Dashboard() {
 
   const [selectedMode, setSelectedMode] = useState("practice");
   const [selectedTopics, setSelectedTopics] = useState([]);
+  const [topicFilterOpen, setTopicFilterOpen] = useState(false);
+  const [topicSearch, setTopicSearch] = useState("");
   const [stats, setStats] = useState({
     questionsCompleted: 0,
     overallAccuracy: 0,
@@ -770,42 +772,71 @@ export default function Dashboard() {
             {/* Topic Filters */}
             {availableTopics.length > 0 && (
               <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="font-semibold text-gray-900 text-sm">
+                <button
+                  onClick={() => setTopicFilterOpen((o) => !o)}
+                  className="flex items-center justify-between w-full"
+                >
+                  <h3 className="font-semibold text-gray-900 text-sm flex items-center gap-2">
                     Filter by Topic
+                    {selectedTopics.length > 0 && (
+                      <span className="bg-blue-100 text-blue-700 text-[11px] px-2 py-0.5 rounded-full font-medium">
+                        {selectedTopics.length} selected
+                      </span>
+                    )}
                   </h3>
-                  {selectedTopics.length > 0 && (
-                    <button
-                      onClick={() => setSelectedTopics([])}
-                      className="text-xs text-gray-400 hover:text-gray-600"
-                    >
-                      Clear all
-                    </button>
-                  )}
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {availableTopics.map((t) => {
-                    const active = selectedTopics.includes(t.topic);
-                    return (
-                      <button
-                        key={`${t.sectionId}:${t.topic}`}
-                        onClick={() => toggleTopic(t.topic)}
-                        className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
-                          active
-                            ? "text-white shadow-sm"
-                            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                        }`}
-                        style={active ? { backgroundColor: t.color } : {}}
-                      >
-                        {t.topic}
-                      </button>
-                    );
-                  })}
-                </div>
-                {selectedTopics.length > 0 && (
-                  <p className="text-[11px] text-gray-400 mt-2">
-                    Passage groups are preserved when filtering by topic.
-                  </p>
+                  <svg className={`w-4 h-4 text-gray-400 transition-transform ${topicFilterOpen ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                </button>
+                {topicFilterOpen && (
+                  <div className="mt-3">
+                    <div className="flex items-center gap-2 mb-3">
+                      <input
+                        type="text"
+                        value={topicSearch}
+                        onChange={(e) => setTopicSearch(e.target.value)}
+                        placeholder="Search topics..."
+                        className="flex-1 px-3 py-1.5 rounded-lg border border-gray-200 text-xs focus:outline-none focus:ring-2 focus:ring-blue-300"
+                      />
+                      {selectedTopics.length > 0 && (
+                        <button
+                          onClick={() => setSelectedTopics([])}
+                          className="text-xs text-gray-400 hover:text-gray-600 whitespace-nowrap"
+                        >
+                          Clear all
+                        </button>
+                      )}
+                    </div>
+                    <div className="flex flex-wrap gap-2 max-h-48 overflow-y-auto">
+                      {(() => {
+                        const search = topicSearch.toLowerCase();
+                        const filtered = availableTopics.filter(
+                          (t) => selectedTopics.includes(t.topic) || t.topic.toLowerCase().includes(search)
+                        );
+                        if (filtered.length === 0) return <p className="text-xs text-gray-400 italic">No topics match your search.</p>;
+                        return filtered.map((t) => {
+                          const active = selectedTopics.includes(t.topic);
+                          return (
+                            <button
+                              key={`${t.sectionId}:${t.topic}`}
+                              onClick={() => toggleTopic(t.topic)}
+                              className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
+                                active
+                                  ? "text-white shadow-sm"
+                                  : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                              }`}
+                              style={active ? { backgroundColor: t.color } : {}}
+                            >
+                              {t.topic}
+                            </button>
+                          );
+                        });
+                      })()}
+                    </div>
+                    {selectedTopics.length > 0 && (
+                      <p className="text-[11px] text-gray-400 mt-2">
+                        Passage groups are preserved when filtering by topic.
+                      </p>
+                    )}
+                  </div>
                 )}
               </div>
             )}
