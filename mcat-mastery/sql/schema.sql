@@ -33,6 +33,8 @@ create table public.questions (
   topic text not null,
   difficulty text not null check (difficulty in ('Easy', 'Medium', 'Hard')),
   passage text,                    -- null for discrete questions
+  passage_image text,              -- base64 data URI for passage figure
+  passage_image_caption text,      -- caption for the passage figure
   use_prev_passage boolean not null default false,
   stem text not null,
   choices jsonb not null,          -- [{label, text}, ...]

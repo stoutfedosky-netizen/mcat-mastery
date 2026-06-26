@@ -187,6 +187,7 @@ export default function ExamInterface({
     if (q.passage) return q;
     if (!q.usePrevPassage) return null;
     for (let i = currentIdx - 1; i >= 0; i--) {
+      if (questions[i].batch !== q.batch || questions[i].sectionId !== q.sectionId) break;
       if (questions[i].passage) return questions[i];
     }
     return null;
@@ -457,6 +458,7 @@ export default function ExamInterface({
                 let holderIdx = currentIdx;
                 if (!q.passage) {
                   for (let i = currentIdx - 1; i >= 0; i--) {
+                    if (questions[i].batch !== q.batch || questions[i].sectionId !== q.sectionId) break;
                     if (questions[i].passage) { holderIdx = i; break; }
                   }
                 }

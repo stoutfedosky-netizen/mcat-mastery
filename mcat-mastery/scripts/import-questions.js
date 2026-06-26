@@ -36,6 +36,8 @@ async function importBatch(filePath) {
     topic: q.topic,
     difficulty: q.difficulty,
     passage: q.passage || null,
+    passage_image: q.passageImage || null,
+    passage_image_caption: q.passageImageCaption || null,
     use_prev_passage: q.usePrevPassage || false,
     stem: q.stem,
     choices: q.choices,
