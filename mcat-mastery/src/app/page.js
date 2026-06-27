@@ -8,6 +8,7 @@ import SubjectCard from "../components/dashboard/SubjectCard";
 import ModeSelector from "../components/dashboard/ModeSelector";
 import ReviewQueue from "../components/dashboard/ReviewQueue";
 import WeakTopics from "../components/dashboard/WeakTopics";
+import StatusFilter from "../components/dashboard/StatusFilter";
 import RecentResults from "../components/dashboard/RecentResults";
 
 const SECTIONS = [
@@ -16,6 +17,14 @@ const SECTIONS = [
   { id: "bb", name: "Biological & Biochemical Foundations", abbr: "B/B", color: "#059669" },
   { id: "ps", name: "Psychological, Social & Bio Foundations", abbr: "P/S", color: "#e11d48" },
 ];
+
+function normalizeChoices(choices) {
+  if (Array.isArray(choices)) return choices;
+  if (choices && typeof choices === "object") {
+    return Object.entries(choices).map(([label, text]) => ({ label, text }));
+  }
+  return [];
+}
 
 function selectQuestions(allQuestions, count) {
   if (count >= allQuestions.length) return allQuestions;
@@ -48,13 +57,42 @@ function selectQuestions(allQuestions, count) {
     }
   }
 
-  selected.sort((a, b) => {
-    if (a.section_id !== b.section_id) return (a.section_id || "").localeCompare(b.section_id || "");
-    if (a.batch !== b.batch) return (a.batch || "").localeCompare(b.batch || "");
-    return (a.sort_order || 0) - (b.sort_order || 0);
-  });
-
   return selected;
+}
+
+function applyFilters(questions, { selectedTopics, statusFilter, seenQuestionIds, missedQuestionIds, flaggedQuestionIds }) {
+  let filtered = questions;
+
+  if (selectedTopics.length > 0) {
+    const matchBatches = new Set();
+    filtered.forEach((q) => {
+      if (selectedTopics.includes(q.topic)) {
+        matchBatches.add(`${q.section_id}|${q.batch}`);
+      }
+    });
+    filtered = filtered.filter((q) => matchBatches.has(`${q.section_id}|${q.batch}`));
+  }
+
+  if (statusFilter !== "all") {
+    let filterSet;
+    if (statusFilter === "unseen") {
+      filterSet = new Set(filtered.map((q) => q.id).filter((id) => !seenQuestionIds.has(id)));
+    } else if (statusFilter === "incorrect") {
+      filterSet = missedQuestionIds;
+    } else {
+      filterSet = flaggedQuestionIds;
+    }
+
+    const matchBatches = new Set();
+    filtered.forEach((q) => {
+      if (filterSet.has(q.id)) {
+        matchBatches.add(`${q.section_id}|${q.batch}`);
+      }
+    });
+    filtered = filtered.filter((q) => matchBatches.has(`${q.section_id}|${q.batch}`));
+  }
+
+  return filtered;
 }
 
 export default function Dashboard() {
@@ -82,8 +120,12 @@ export default function Dashboard() {
   const [sectionStats, setSectionStats] = useState({});
   const [topicStats, setTopicStats] = useState([]);
   const [topicsBySection, setTopicsBySection] = useState({});
-  const [missedQuestionIds, setMissedQuestionIds] = useState([]);
-  const [flaggedQuestionIds, setFlaggedQuestionIds] = useState([]);
+  const [missedQuestionIds, setMissedQuestionIds] = useState(new Set());
+  const [flaggedQuestionIds, setFlaggedQuestionIds] = useState(new Set());
+  const [seenQuestionIds, setSeenQuestionIds] = useState(new Set());
+  const [allQuestions, setAllQuestions] = useState([]);
+  const [statusFilter, setStatusFilter] = useState("all");
+  const [countAdjusted, setCountAdjusted] = useState(false);
 
   const supabase = createClient();
 
@@ -108,7 +150,7 @@ export default function Dashboard() {
       while (true) {
         const { data } = await supabase
           .from("questions")
-          .select("id, section_id, topic")
+          .select("id, section_id, topic, batch")
           .range(from, from + PAGE - 1);
         if (!data || data.length === 0) break;
         allQ = allQ.concat(data);
@@ -134,11 +176,13 @@ export default function Dashboard() {
           tbsObj[sid] = [...tbs[sid]].sort();
         });
         setTopicsBySection(tbsObj);
+        setAllQuestions(allQ);
 
         const { data: attempts } = await supabase
           .from("question_attempts")
           .select("question_id, is_correct")
-          .eq("user_id", user.id);
+          .eq("user_id", user.id)
+          .order("attempted_at", { ascending: false });
 
         if (attempts && attempts.length > 0) {
           const qLookup = {};
@@ -150,8 +194,8 @@ export default function Dashboard() {
           const correct = attempts.filter((a) => a.is_correct).length;
           const secMap = {};
           const topicMap = {};
-          const missedSet = new Set();
 
+          // Aggregate stats use ALL attempts
           attempts.forEach((a) => {
             const q = qLookup[a.question_id];
             if (!q) return;
@@ -159,7 +203,6 @@ export default function Dashboard() {
             if (!secMap[q.section_id]) secMap[q.section_id] = { total: 0, correct: 0 };
             secMap[q.section_id].total++;
             if (a.is_correct) secMap[q.section_id].correct++;
-            else missedSet.add(a.question_id);
 
             if (q.topic) {
               const key = `${q.section_id}:${q.topic}`;
@@ -168,6 +211,17 @@ export default function Dashboard() {
               topicMap[key].total++;
               if (a.is_correct) topicMap[key].correct++;
             }
+          });
+
+          // Most-recent attempt per question for seen/missed sets
+          const latestAttempt = {};
+          attempts.forEach((a) => {
+            if (!latestAttempt[a.question_id]) latestAttempt[a.question_id] = a;
+          });
+          const seenSet = new Set(Object.keys(latestAttempt));
+          const missedSet = new Set();
+          Object.entries(latestAttempt).forEach(([qid, a]) => {
+            if (!a.is_correct) missedSet.add(qid);
           });
 
           let weakestId = null;
@@ -198,7 +252,8 @@ export default function Dashboard() {
           }));
           setSectionStats(secMap);
           setTopicStats(topicArr);
-          setMissedQuestionIds([...missedSet]);
+          setMissedQuestionIds(missedSet);
+          setSeenQuestionIds(seenSet);
         }
       }
 
@@ -256,7 +311,7 @@ export default function Dashboard() {
             });
           }
         });
-        setFlaggedQuestionIds([...flagged]);
+        setFlaggedQuestionIds(flagged);
       }
 
       setLoading(false);
@@ -264,10 +319,46 @@ export default function Dashboard() {
     fetchData();
   }, [user, refreshKey]);
 
-  const maxAvailable = selectedSections.reduce(
-    (sum, id) => sum + (counts[id] || 0),
-    0
-  );
+  const maxAvailable = useMemo(() => {
+    if (selectedSections.length === 0) return 0;
+    const sectionQs = allQuestions.filter((q) => selectedSections.includes(q.section_id));
+    return applyFilters(sectionQs, {
+      selectedTopics,
+      statusFilter,
+      seenQuestionIds,
+      missedQuestionIds,
+      flaggedQuestionIds,
+    }).length;
+  }, [allQuestions, selectedSections, selectedTopics, statusFilter, seenQuestionIds, missedQuestionIds, flaggedQuestionIds]);
+
+  useEffect(() => {
+    const cap = selectedMode === "review" ? missedQuestionIds.size : maxAvailable;
+    if (cap > 0 && questionCount > cap) {
+      setQuestionCount(cap);
+      setCountAdjusted(true);
+      const t = setTimeout(() => setCountAdjusted(false), 3000);
+      return () => clearTimeout(t);
+    }
+  }, [maxAvailable, selectedMode, missedQuestionIds.size]);
+
+  const statusFilterCounts = useMemo(() => {
+    if (selectedSections.length === 0) return {};
+    const sectionQs = allQuestions.filter((q) => selectedSections.includes(q.section_id));
+    const topicFiltered = applyFilters(sectionQs, {
+      selectedTopics,
+      statusFilter: "all",
+      seenQuestionIds,
+      missedQuestionIds,
+      flaggedQuestionIds,
+    });
+    const ids = topicFiltered.map((q) => q.id);
+    return {
+      all: topicFiltered.length,
+      unseen: ids.filter((id) => !seenQuestionIds.has(id)).length,
+      incorrect: ids.filter((id) => missedQuestionIds.has(id)).length,
+      flagged: ids.filter((id) => flaggedQuestionIds.has(id)).length,
+    };
+  }, [allQuestions, selectedSections, selectedTopics, seenQuestionIds, missedQuestionIds, flaggedQuestionIds]);
 
   const availableTopics = useMemo(() => {
     const seen = new Set();
@@ -302,10 +393,10 @@ export default function Dashboard() {
         action: "weak",
       };
     }
-    if (missedQuestionIds.length > 0) {
+    if (missedQuestionIds.size > 0) {
       return {
         title: "Review Missed Questions",
-        text: `You have ${missedQuestionIds.length} missed question${missedQuestionIds.length === 1 ? "" : "s"}. Reviewing these will reinforce weak areas and improve retention.`,
+        text: `You have ${missedQuestionIds.size} missed question${missedQuestionIds.size === 1 ? "" : "s"}. Reviewing these will reinforce weak areas and improve retention.`,
         action: "review",
       };
     }
@@ -358,7 +449,7 @@ export default function Dashboard() {
       passageImageCaption: q.passage_image_caption,
       usePrevPassage: q.use_prev_passage,
       stem: q.stem,
-      choices: q.choices,
+      choices: normalizeChoices(q.choices),
       correct: q.correct_answer,
       explanations: q.explanations,
       topic: q.topic,
@@ -433,7 +524,7 @@ export default function Dashboard() {
   const startTest = async () => {
     // Review missed mode — loads previously incorrect questions
     if (selectedMode === "review") {
-      if (missedQuestionIds.length === 0) {
+      if (missedQuestionIds.size === 0) {
         alert("No missed questions to review. Complete some practice sessions first.");
         return;
       }
@@ -441,7 +532,7 @@ export default function Dashboard() {
       const { data: missedData, error } = await supabase
         .from("questions")
         .select("*")
-        .in("id", missedQuestionIds.slice(0, 200));
+        .in("id", [...missedQuestionIds].slice(0, 200));
 
       if (error || !missedData || missedData.length === 0) {
         alert("Could not load missed questions.");
@@ -455,7 +546,7 @@ export default function Dashboard() {
       missedData.forEach((q) => {
         const key = `${q.section_id}|${q.batch}`;
         if (q.passage) batchesWithPassage.add(key);
-        else batchesNeeding.add(key);
+        else if (q.use_prev_passage) batchesNeeding.add(key);
       });
 
       // Fetch passage holders for batches missing them
@@ -477,7 +568,7 @@ export default function Dashboard() {
         }
       }
 
-      // Combine missed questions + passage holders, sort by batch
+      // Combine missed questions + passage holders, group by passage boundaries
       const combined = [...missedData, ...passageHolders];
       combined.sort((a, b) => {
         if (a.section_id !== b.section_id) return a.section_id.localeCompare(b.section_id);
@@ -506,22 +597,16 @@ export default function Dashboard() {
         [groups[i], groups[j]] = [groups[j], groups[i]];
       }
 
-      const selected = [];
-      for (const group of groups) {
-        if (selected.length >= questionCount) break;
-        if (selected.length + group.length <= questionCount) {
-          selected.push(...group);
-        }
-      }
+      const selected = groups.flat();
 
       const questions = selected.map((q) => ({
         id: q.id,
         passage: q.passage,
-        passageImage: q.passageImage,
-        passageImageCaption: q.passageImageCaption,
+        passageImage: q.passage_image,
+        passageImageCaption: q.passage_image_caption,
         usePrevPassage: q.use_prev_passage,
         stem: q.stem,
-        choices: q.choices,
+        choices: normalizeChoices(q.choices),
         correct: q.correct_answer,
         explanations: q.explanations,
         topic: q.topic,
@@ -536,7 +621,7 @@ export default function Dashboard() {
       setActiveExam({
         questions,
         sections: sectionIds,
-        sectionName: "Review Missed",
+        sectionName: "Reattempt Missed",
         sectionAbbr: "REV",
         sectionColor: firstSection?.color || "#6b7280",
         timeLimit: null,
@@ -573,17 +658,17 @@ export default function Dashboard() {
       return;
     }
 
-    // Topic filter — preserves passage groups by including full batch
-    let filtered = data;
-    if (selectedTopics.length > 0) {
-      const matchBatches = new Set();
-      data.forEach((q) => {
-        if (selectedTopics.includes(q.topic)) {
-          matchBatches.add(`${q.section_id}|${q.batch}`);
-        }
-      });
-      filtered = data.filter((q) => matchBatches.has(`${q.section_id}|${q.batch}`));
-      if (filtered.length === 0) filtered = data;
+    const filtered = applyFilters(data, {
+      selectedTopics,
+      statusFilter,
+      seenQuestionIds,
+      missedQuestionIds,
+      flaggedQuestionIds,
+    });
+
+    if (filtered.length === 0) {
+      alert("No questions match your current filters.");
+      return;
     }
 
     const count = Math.min(questionCount, filtered.length);
@@ -596,7 +681,7 @@ export default function Dashboard() {
       passageImageCaption: q.passage_image_caption,
       usePrevPassage: q.use_prev_passage,
       stem: q.stem,
-      choices: q.choices,
+      choices: normalizeChoices(q.choices),
       correct: q.correct_answer,
       explanations: q.explanations,
       topic: q.topic,
@@ -632,6 +717,52 @@ export default function Dashboard() {
     }
   };
 
+  const buildMissedSession = (missedIds, sessionAnswers, reviewMode) => {
+    if (!activeExam) return;
+    const missedIdSet = new Set(missedIds);
+    const missed = activeExam.questions.filter((q) => missedIdSet.has(q.id));
+
+    const passageHolderIds = new Set();
+    missed.forEach((q) => {
+      if (q.usePrevPassage && !q.passage) {
+        const batchQs = activeExam.questions.filter(
+          (bq) => bq.batch === q.batch && bq.sectionId === q.sectionId && bq.passage
+        );
+        batchQs.forEach((bq) => passageHolderIds.add(bq.id));
+      }
+    });
+
+    const extra = activeExam.questions.filter(
+      (q) => passageHolderIds.has(q.id) && !missedIdSet.has(q.id)
+    );
+
+    const combined = [...extra, ...missed];
+    combined.sort((a, b) => {
+      const aIdx = activeExam.questions.indexOf(a);
+      const bIdx = activeExam.questions.indexOf(b);
+      return aIdx - bIdx;
+    });
+
+    const answersMap = {};
+    if (reviewMode && sessionAnswers) {
+      combined.forEach((q) => {
+        if (sessionAnswers[q.id]) answersMap[q.id] = sessionAnswers[q.id];
+      });
+    }
+
+    setActiveExam({
+      questions: combined,
+      sections: activeExam.sections,
+      sectionName: reviewMode ? "Review Missed" : "Reattempt Missed",
+      sectionAbbr: activeExam.sectionAbbr,
+      sectionColor: activeExam.sectionColor,
+      timeLimit: null,
+      testMode: false,
+      reviewMode,
+      savedAnswers: reviewMode ? answersMap : null,
+    });
+  };
+
   // === RENDER ===
 
   if (authLoading) {
@@ -659,6 +790,16 @@ export default function Dashboard() {
             : (results) => {
                 saveResults(results);
               }
+        }
+        onReattemptMissed={
+          activeExam.reviewMode
+            ? null
+            : (missedIds, sessionAnswers) => buildMissedSession(missedIds, sessionAnswers, false)
+        }
+        onReviewMissed={
+          activeExam.reviewMode
+            ? null
+            : (missedIds, sessionAnswers) => buildMissedSession(missedIds, sessionAnswers, true)
         }
         onExit={() => {
           setActiveExam(null);
@@ -729,15 +870,15 @@ export default function Dashboard() {
                   className="px-4 py-2 bg-white text-blue-800 rounded-lg text-sm font-semibold hover:bg-blue-50 transition-colors"
                 >
                   {recommendation.action === "review"
-                    ? "Review Missed"
+                    ? "Reattempt Missed"
                     : "Start Practice"}
                 </button>
-                {missedQuestionIds.length > 0 && recommendation.action !== "review" && (
+                {missedQuestionIds.size > 0 && recommendation.action !== "review" && (
                   <button
                     onClick={() => setSelectedMode("review")}
                     className="px-4 py-2 bg-white/20 text-white rounded-lg text-sm font-medium hover:bg-white/30 transition-colors"
                   >
-                    Review Missed ({missedQuestionIds.length})
+                    Reattempt Missed ({missedQuestionIds.size})
                   </button>
                 )}
               </div>
@@ -841,70 +982,92 @@ export default function Dashboard() {
               </div>
             )}
 
+            {/* Status Filter */}
+            {selectedSections.length > 0 && selectedMode !== "review" && (
+              <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+                <StatusFilter
+                  statusFilter={statusFilter}
+                  onSelect={setStatusFilter}
+                  counts={statusFilterCounts}
+                />
+              </div>
+            )}
+
             {/* Mode Selector */}
             <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
               <ModeSelector
                 selectedMode={selectedMode}
                 onSelect={setSelectedMode}
-                missedCount={missedQuestionIds.length}
+                missedCount={missedQuestionIds.size}
               />
             </div>
 
             {/* Question Count & Start */}
             <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
-              <div className="flex flex-col sm:flex-row sm:items-end gap-4">
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2 text-sm">
-                    Number of Questions
-                  </h3>
-                  <div className="flex items-center gap-3">
-                    <input
-                      type="number"
-                      value={questionCount}
-                      min={1}
-                      max={maxAvailable || 999}
-                      onChange={(e) =>
-                        setQuestionCount(
-                          Math.max(1, parseInt(e.target.value) || 1)
-                        )
-                      }
-                      className="w-24 px-3 py-2.5 border border-gray-300 rounded-lg text-center font-mono text-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-                    />
-                    {maxAvailable > 0 && selectedMode !== "review" && (
-                      <span className="text-sm text-gray-400">
-                        of {maxAvailable} available
-                      </span>
-                    )}
-                    {selectedMode === "review" && (
-                      <span className="text-sm text-gray-400">
-                        of {missedQuestionIds.length} missed
-                      </span>
+              {selectedMode !== "review" && selectedSections.length > 0 && maxAvailable === 0 ? (
+                <div className="text-center py-2">
+                  <p className="text-sm text-gray-500">No questions match your current filters.</p>
+                  <p className="text-xs text-gray-400 mt-1">Try adjusting your topic or status filters.</p>
+                </div>
+              ) : (
+                <div className="flex flex-col sm:flex-row sm:items-end gap-4">
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-2 text-sm">
+                      Number of Questions
+                    </h3>
+                    <div className="flex items-center gap-3">
+                      <input
+                        type="number"
+                        value={questionCount}
+                        min={1}
+                        max={selectedMode === "review" ? missedQuestionIds.size || 999 : maxAvailable || 999}
+                        onChange={(e) =>
+                          setQuestionCount(
+                            Math.max(1, parseInt(e.target.value) || 1)
+                          )
+                        }
+                        className="w-24 px-3 py-2.5 border border-gray-300 rounded-lg text-center font-mono text-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+                      />
+                      {maxAvailable > 0 && selectedMode !== "review" && (
+                        <span className="text-sm text-gray-400">
+                          of {maxAvailable} available
+                        </span>
+                      )}
+                      {selectedMode === "review" && (
+                        <span className="text-sm text-gray-400">
+                          of {missedQuestionIds.size} missed
+                        </span>
+                      )}
+                    </div>
+                    {countAdjusted && (
+                      <p className="text-xs text-amber-600 mt-1">Adjusted to match available questions.</p>
                     )}
                   </div>
+                  <button
+                    onClick={startTest}
+                    disabled={
+                      (selectedMode !== "review" && selectedSections.length === 0) ||
+                      (selectedMode !== "review" && maxAvailable === 0)
+                    }
+                    className="flex-1 py-3 rounded-xl font-semibold text-white text-sm transition-all hover:opacity-90 disabled:opacity-40 disabled:cursor-not-allowed shadow-sm"
+                    style={{ background: "#2b579a" }}
+                  >
+                    {selectedMode === "review"
+                      ? "Start Reattempt"
+                      : selectedMode === "timed" || selectedMode === "exam"
+                      ? "Start Test"
+                      : "Start Practice"}
+                  </button>
                 </div>
-                <button
-                  onClick={startTest}
-                  disabled={
-                    selectedMode !== "review" && selectedSections.length === 0
-                  }
-                  className="flex-1 py-3 rounded-xl font-semibold text-white text-sm transition-all hover:opacity-90 disabled:opacity-40 disabled:cursor-not-allowed shadow-sm"
-                  style={{ background: "#2b579a" }}
-                >
-                  {selectedMode === "review"
-                    ? "Start Review"
-                    : selectedMode === "timed" || selectedMode === "exam"
-                    ? "Start Test"
-                    : "Start Practice"}
-                </button>
-              </div>
+              )}
             </div>
           </div>
 
           {/* Right Column */}
           <div className="space-y-6">
             <ReviewQueue
-              missedCount={missedQuestionIds.length}
-              flaggedCount={flaggedQuestionIds.length}
+              missedCount={missedQuestionIds.size}
+              flaggedCount={flaggedQuestionIds.size}
               onReviewMissed={() => setSelectedMode("review")}
             />
             <WeakTopics topics={topicStats} sections={SECTIONS} />

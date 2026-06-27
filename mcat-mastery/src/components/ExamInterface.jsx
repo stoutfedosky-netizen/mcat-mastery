@@ -157,6 +157,8 @@ export default function ExamInterface({
   testMode = false,
   onComplete = null,
   onExit = null,
+  onReattemptMissed = null,
+  onReviewMissed = null,
   initialAnswers = null,
   startInReview = false,
 }) {
@@ -189,6 +191,7 @@ export default function ExamInterface({
     for (let i = currentIdx - 1; i >= 0; i--) {
       if (questions[i].batch !== q.batch || questions[i].sectionId !== q.sectionId) break;
       if (questions[i].passage) return questions[i];
+      if (!questions[i].usePrevPassage) break;
     }
     return null;
   }, [q, currentIdx, questions]);
@@ -287,6 +290,10 @@ export default function ExamInterface({
     return { correct, total: totalQ, pct: totalQ > 0 ? Math.round((correct / totalQ) * 100) : 0 };
   }, [answers, questions, totalQ]);
 
+  const missedQuestionIds = useMemo(() => {
+    return questions.filter((q) => answers[q.id] && answers[q.id] !== q.correct).map((q) => q.id);
+  }, [answers, questions]);
+
   const endExam = () => { setMode("score"); if (onComplete) onComplete({ answers, score, flagged }); };
 
   const isReview = mode === "review";
@@ -329,8 +336,18 @@ export default function ExamInterface({
               );
             })}
           </div>
-          <div className="mt-8 flex justify-center gap-4">
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
             <button onClick={() => {setMode("review");setCurrentIdx(0);}} className="px-6 py-2.5 text-white rounded-md font-medium hover:opacity-90 transition-opacity" style={{background: NAV_BG}}>Review Answers</button>
+            {missedQuestionIds.length > 0 && onReviewMissed && (
+              <button onClick={() => onReviewMissed(missedQuestionIds, answers)} className="px-6 py-2.5 text-white rounded-md font-medium hover:opacity-90 transition-opacity" style={{background: "#7c3aed"}}>
+                Review Missed ({missedQuestionIds.length})
+              </button>
+            )}
+            {missedQuestionIds.length > 0 && onReattemptMissed && (
+              <button onClick={() => onReattemptMissed(missedQuestionIds, answers)} className="px-6 py-2.5 text-white rounded-md font-medium hover:opacity-90 transition-opacity" style={{background: "#e11d48"}}>
+                Reattempt Missed ({missedQuestionIds.length})
+              </button>
+            )}
             {onExit && (
               <button onClick={onExit} className="px-6 py-2.5 bg-gray-200 text-gray-700 rounded-md font-medium hover:bg-gray-300">Back to Dashboard</button>
             )}
@@ -464,7 +481,10 @@ export default function ExamInterface({
                 }
                 let end = holderIdx;
                 for (let i = holderIdx + 1; i < totalQ; i++) {
-                  if (!questions[i].usePrevPassage || questions[i].passage) break;
+                  if (questions[i].passage ||
+                      questions[i].batch !== q.batch ||
+                      questions[i].sectionId !== q.sectionId ||
+                      !questions[i].usePrevPassage) break;
                   end = i;
                 }
                 let pNum = 0;
