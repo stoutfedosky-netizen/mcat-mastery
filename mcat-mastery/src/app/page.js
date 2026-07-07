@@ -818,7 +818,7 @@ export default function Dashboard() {
       <nav className="bg-white border-b border-gray-100 px-6 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <Link href="/" className="text-lg font-bold tracking-tight">
-            MCAT <span className="text-cyan-600">Mastery</span>
+            <span className="text-[#1a3a5c]">The 528</span> <span className="text-[#1a3a5c]">Academy</span>
           </Link>
           <div className="flex items-center gap-4">
             <span className="text-sm text-gray-500 hidden sm:block">{user?.email}</span>
