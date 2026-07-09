@@ -27,6 +27,11 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_ROLE_KEY
 );
 
+// Whether the questions table has a content_category column. Probed once at
+// startup so imports work whether or not sql/content-category-migration.sql has
+// been run; if absent, the field is simply omitted from the upsert.
+let HAS_CATEGORY_COLUMN = true;
+
 // Batch -> AAMC content category map, produced by scripts/classify-categories.py.
 // Used as a fallback when a batch file doesn't specify `contentCategory` itself.
 let CATEGORY_MAP = {};
@@ -147,7 +152,9 @@ async function importBatch(filePath, replaceBatch = false) {
     section_id: batch.section,
     batch: batch.batch,
     topic: q.topic,
-    content_category: q.contentCategory || contentCategory,
+    ...(HAS_CATEGORY_COLUMN
+      ? { content_category: q.contentCategory || contentCategory }
+      : {}),
     difficulty: q.difficulty,
     passage: q.passage || null,
     passage_image: q.passageImage || null,
@@ -224,6 +231,14 @@ async function main() {
   files.forEach((f) => console.log(`  ${f}`));
   if (replaceBatch) {
     console.log("  Mode: --replace-batch (DB will be made to match each file)");
+  }
+
+  // Probe once for the optional content_category column.
+  const probe = await supabase.from("questions").select("content_category").limit(1);
+  HAS_CATEGORY_COLUMN = !probe.error;
+  if (!HAS_CATEGORY_COLUMN) {
+    console.log("  Note: content_category column not found — importing without it");
+    console.log("        (category filter still works via the client-side map).");
   }
 
   let success = 0;
