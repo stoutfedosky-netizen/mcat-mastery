@@ -8,6 +8,12 @@
  *   npm run import-questions -- --file ./batches/B001_Fluids_Circulation.json
  *   npm run import-questions -- --dir ./batches/
  *
+ * Flags:
+ *   --replace-batch   After upserting, delete any questions already in the DB
+ *                     for that batch id that are NOT in the file (so the DB
+ *                     matches the file exactly). Questions that already have
+ *                     student attempts can't be deleted and are kept + reported.
+ *
  * Requires SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in .env.local
  */
 
@@ -85,7 +91,39 @@ function validateBatch(batch, filePath) {
   return { warnings, errors };
 }
 
-async function importBatch(filePath) {
+async function reconcileBatch(batchId, fileIds) {
+  const keep = new Set(fileIds);
+  const { data: existing, error } = await supabase
+    .from("questions")
+    .select("id")
+    .eq("batch", batchId);
+  if (error) {
+    console.error(`  ⚠ replace-batch: could not list existing questions: ${error.message}`);
+    return;
+  }
+  const stale = existing.map((r) => r.id).filter((id) => !keep.has(id));
+  if (stale.length === 0) {
+    console.log(`  ✓ replace-batch: no stale questions to remove`);
+    return;
+  }
+  // Delete one at a time so questions with student attempts (blocked by the
+  // question_attempts FK) are skipped instead of failing the whole delete.
+  let removed = 0;
+  const blocked = [];
+  for (const id of stale) {
+    const { error: delErr } = await supabase.from("questions").delete().eq("id", id);
+    if (delErr) blocked.push(id);
+    else removed++;
+  }
+  console.log(`  ✓ replace-batch: removed ${removed} stale question(s)`);
+  if (blocked.length) {
+    console.warn(
+      `  ⚠ replace-batch: kept ${blocked.length} question(s) that have student attempts (cannot delete): ${blocked.join(", ")}`
+    );
+  }
+}
+
+async function importBatch(filePath, replaceBatch = false) {
   const raw = fs.readFileSync(filePath, "utf-8");
   const batch = JSON.parse(raw);
 
@@ -132,16 +170,24 @@ async function importBatch(filePath) {
   }
 
   console.log(`  ✓ ${rows.length} questions imported successfully`);
+
+  if (replaceBatch) {
+    await reconcileBatch(batch.batch, rows.map((r) => r.id));
+  }
+
   return true;
 }
 
 async function main() {
   const args = process.argv.slice(2);
   let files = [];
+  let replaceBatch = false;
 
   // Parse arguments
   for (let i = 0; i < args.length; i++) {
-    if (args[i] === "--file" && args[i + 1]) {
+    if (args[i] === "--replace-batch") {
+      replaceBatch = true;
+    } else if (args[i] === "--file" && args[i + 1]) {
       files.push(args[++i]);
     } else if (args[i] === "--dir" && args[i + 1]) {
       const dir = args[++i];
@@ -176,13 +222,16 @@ async function main() {
 
   console.log(`Found ${files.length} batch file(s) to import:`);
   files.forEach((f) => console.log(`  ${f}`));
+  if (replaceBatch) {
+    console.log("  Mode: --replace-batch (DB will be made to match each file)");
+  }
 
   let success = 0;
   let failed = 0;
 
   for (const file of files) {
     try {
-      const ok = await importBatch(file);
+      const ok = await importBatch(file, replaceBatch);
       if (ok) success++;
       else failed++;
     } catch (err) {
