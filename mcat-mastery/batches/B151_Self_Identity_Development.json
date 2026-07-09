@@ -1,0 +1,335 @@
+{
+  "batch": "B151",
+  "section": "ps",
+  "sectionName": "Psychological, Social, and Biological Foundations of Behavior",
+  "topicArea": "Self & Identity Development",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "ps_self_001",
+      "passage": "A developmental psychology study examined self-concept formation across three age groups: preschoolers (ages 4–5), school-age children (ages 8–9), and adolescents (ages 14–15). Participants were asked to describe themselves using open-ended prompts ('Tell me about yourself'). Responses were coded for the proportion of concrete/physical descriptors (appearance, possessions, activities) versus abstract/psychological descriptors (personality traits, values, beliefs). Preschoolers used primarily concrete descriptors (85% concrete, 15% abstract), while school-age children showed a mixed profile (50% concrete, 50% abstract). Adolescents used predominantly abstract descriptors (25% concrete, 75% abstract). A follow-up study measured self-esteem using a validated scale and found that self-esteem was relatively high in preschoolers, declined sharply around ages 11–13, and partially recovered by late adolescence. Researchers also administered the Twenty Statements Test ('I am ___') and coded responses for social identity references (group memberships, social roles) versus personal identity references (individual traits, preferences).",
+      "stem": "The developmental shift from concrete to abstract self-descriptions observed across the three age groups is most consistent with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Vygotsky's zone of proximal development, as scaffolding from peers shapes self-concept"
+        },
+        {
+          "label": "B",
+          "text": "Freud's psychosexual stages, as libidinal energy shifts from oral to genital concerns"
+        },
+        {
+          "label": "C",
+          "text": "Piaget's theory of cognitive development, as formal operational thinking enables abstract self-reflection"
+        },
+        {
+          "label": "D",
+          "text": "Bandura's self-efficacy theory, as mastery experiences increase confidence across domains"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "While Vygotsky's ZPD describes how social interaction scaffolds cognitive development, it does not specifically predict the concrete-to-abstract shift in self-concept content. The ZPD addresses the gap between independent and assisted performance on tasks, not the developmental trajectory of self-representation. Peer influences on identity formation are real but are better captured by social identity theory or Erikson's framework.",
+        "B": "Freud's psychosexual stages describe personality development through biologically driven stages (oral, anal, phallic, latency, genital) focused on erogenous zones and unconscious conflicts. This framework does not predict or explain the specific shift from concrete to abstract self-descriptions, which is a cognitive-developmental phenomenon rather than a psychodynamic one related to libidinal energy.",
+        "C": "Correct. Piaget's stages predict a shift from concrete operational thinking (ages 7–11, logical reasoning about concrete objects and events) to formal operational thinking (beginning around age 11–12, abstract reasoning, hypothetical thinking, metacognition). The shift from concrete self-descriptions in preschoolers to abstract psychological self-descriptions in adolescents mirrors this cognitive developmental trajectory. Formal operations enable adolescents to think about their own thinking, represent themselves in terms of abstract traits and values, and construct an integrated self-concept beyond observable characteristics.",
+        "D": "Bandura's self-efficacy theory addresses beliefs about one's ability to succeed in specific situations, not the structural shift from concrete to abstract self-representation. Self-efficacy may increase with mastery experiences, but this does not explain why preschoolers describe themselves in physical terms while adolescents use psychological traits."
+      },
+      "topic": "Cognitive Development & Self-Concept",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_self_002",
+      "usePrevPassage": true,
+      "stem": "The dip in self-esteem observed around ages 11–13 is best explained by which developmental process?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Harlow's contact comfort becoming less relevant as social needs expand"
+        },
+        {
+          "label": "B",
+          "text": "Kohlberg's transition from preconventional to conventional moral reasoning"
+        },
+        {
+          "label": "C",
+          "text": "Attachment style solidification during Bowlby's internal working model formation"
+        },
+        {
+          "label": "D",
+          "text": "Entering Erikson's identity versus role confusion stage, where the adolescent confronts questions of who they are"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Harlow's research on contact comfort in rhesus monkeys demonstrated the importance of tactile comfort from caregivers for emotional development in infancy. This research is not applicable to explaining self-esteem changes in human adolescents, as it addresses infant attachment needs rather than adolescent identity formation.",
+        "B": "Kohlberg's theory describes moral reasoning development, not self-esteem trajectories. The shift from preconventional (self-interest-based) to conventional (social norm-based) moral reasoning does occur during late childhood and adolescence, but moral reasoning stage transitions do not directly predict self-esteem declines.",
+        "C": "Bowlby's internal working models of attachment are formed primarily during infancy and early childhood based on caregiver responsiveness. While attachment style influences later relationships and self-worth, the internal working model is substantially established before ages 11–13. The adolescent self-esteem dip is better explained by active identity exploration (Erikson) than by attachment processes that were primarily set years earlier.",
+        "D": "Correct. Erikson's fifth psychosocial stage, identity versus role confusion, emerges during adolescence (roughly ages 12–18). During this stage, adolescents explore different roles, values, and identities, creating uncertainty and self-questioning that can temporarily lower self-esteem. The developmental task is to integrate various self-perceptions into a coherent identity. Before this resolution, the exploration process itself introduces doubt and comparison with peers, which is consistent with the self-esteem dip at ages 11–13."
+      },
+      "topic": "Erikson's Psychosocial Development",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_self_003",
+      "usePrevPassage": true,
+      "stem": "On the Twenty Statements Test, an adolescent writes 'I am a member of the debate team,' 'I am Asian American,' and 'I am a Baptist.' These responses primarily reflect:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "personal identity, emphasizing individual traits and preferences"
+        },
+        {
+          "label": "B",
+          "text": "social identity, emphasizing group memberships and social categories"
+        },
+        {
+          "label": "C",
+          "text": "the looking-glass self, emphasizing how others perceive the individual"
+        },
+        {
+          "label": "D",
+          "text": "self-handicapping strategies designed to protect self-esteem from failure"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Personal identity encompasses individual characteristics that distinguish a person from others within their groups—personality traits, individual talents, personal preferences. The responses listed (debate team member, Asian American, Baptist) all reference group memberships, not individual distinguishing characteristics. A personal identity response would be more like 'I am creative' or 'I am shy.'",
+        "B": "Correct. Social identity theory (Tajfel & Turner) distinguishes between personal identity (individual attributes) and social identity (aspects of self derived from group memberships). All three responses reference social categories: an extracurricular group (debate team), an ethnic/racial group (Asian American), and a religious group (Baptist). Social identity provides a sense of belonging and contributes to self-concept through the value and emotional significance attached to group membership.",
+        "C": "The looking-glass self (Cooley) proposes that self-concept develops through perceiving how others see us. While social identity and the looking-glass self both involve social influences on self-concept, the looking-glass self specifically refers to imagining others' judgments and incorporating them into self-perception. The responses listed are direct group membership claims, not reflections on others' perceptions.",
+        "D": "Self-handicapping involves creating obstacles to performance so that failure can be attributed to the obstacle rather than personal ability (e.g., not studying before an exam). Listing group memberships on a personality test has no connection to self-handicapping, which is a specific self-protective attributional strategy."
+      },
+      "topic": "Social Identity Theory",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_self_004",
+      "usePrevPassage": true,
+      "stem": "A preschooler in the study says 'I am a fast runner and I have a dog.' According to the findings, the lack of abstract self-descriptors at this age is most related to limitations in:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "visual acuity—the ability to perceive fine visual details"
+        },
+        {
+          "label": "B",
+          "text": "procedural memory—the ability to perform learned motor skills"
+        },
+        {
+          "label": "C",
+          "text": "metacognition—the ability to think about one's own mental processes"
+        },
+        {
+          "label": "D",
+          "text": "circadian rhythm regulation—the ability to maintain consistent sleep-wake cycles"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Visual acuity is a sensory capacity unrelated to self-concept formation. Preschoolers can perceive fine visual details adequately for their daily functioning. The absence of abstract self-descriptors reflects cognitive-developmental limitations in abstract reasoning, not sensory limitations in visual perception.",
+        "B": "Procedural memory involves implicit memory for motor skills and habits (riding a bicycle, typing). Preschoolers have functional procedural memory systems. The inability to generate abstract self-descriptions reflects limitations in declarative, reflective cognition (metacognition), not in the motor memory systems that support learned physical skills.",
+        "C": "Correct. Metacognition—awareness of and ability to reflect on one's own cognitive processes, personality traits, and psychological states—is a higher-order cognitive ability that develops substantially during middle childhood and adolescence. Preschoolers in Piaget's preoperational stage lack the metacognitive capacity to introspect on abstract psychological qualities like 'I am kind' or 'I value honesty.' Their self-descriptions are limited to observable, concrete features (running speed, possessions) because they cannot yet represent the abstract psychological constructs that require metacognitive self-reflection.",
+        "D": "Circadian rhythm regulation involves the suprachiasmatic nucleus and melatonin cycling to maintain sleep-wake patterns. This physiological regulatory system has no bearing on the cognitive developmental capacity for abstract self-reflection that underlies the concrete-to-abstract shift in self-descriptions."
+      },
+      "topic": "Metacognition & Development",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_self_005",
+      "usePrevPassage": true,
+      "stem": "According to James Marcia's identity status model, an adolescent who has explored multiple career options and committed to becoming a physician would be classified as having achieved:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "identity diffusion—neither exploration nor commitment"
+        },
+        {
+          "label": "B",
+          "text": "identity foreclosure—commitment without exploration"
+        },
+        {
+          "label": "C",
+          "text": "identity moratorium—active exploration without commitment"
+        },
+        {
+          "label": "D",
+          "text": "identity achievement—commitment following exploration"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Identity diffusion describes individuals who have neither explored options nor made commitments. They may appear apathetic or directionless about identity-relevant domains like career, values, or ideology. The adolescent described has done both—explored multiple options and reached a commitment—which is the opposite of diffusion.",
+        "B": "Identity foreclosure describes individuals who have made commitments without prior exploration, typically adopting identities prescribed by parents or authority figures without questioning them. The adolescent described explored multiple career options before committing, ruling out foreclosure, which specifically requires the absence of exploration.",
+        "C": "Identity moratorium describes individuals currently in the process of exploration who have not yet made a commitment. They are actively questioning and experimenting with different identities. The adolescent described has already moved beyond exploration and made a commitment to medicine, placing them past the moratorium phase.",
+        "D": "Correct. Marcia's identity achievement status requires two conditions: (1) the individual has undergone a period of exploration (crisis) in which alternatives were actively considered, and (2) the individual has made a firm commitment to a particular identity choice. The adolescent explored multiple career options (exploration/crisis) and then committed to medicine (commitment). This two-step process—exploration followed by commitment—defines identity achievement and represents the most developmentally mature identity status in Marcia's framework."
+      },
+      "topic": "Marcia's Identity Statuses",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_self_006",
+      "passage": "Social psychologists conducted an experiment on self-perception and attributional processes. Participants completed a difficult cognitive task and received feedback that was either self-generated (they scored their own answers against a key) or other-generated (an experimenter scored their work and delivered the results). Half of each group received success feedback and half received failure feedback, creating a 2×2 design. After receiving feedback, participants completed a causal attribution questionnaire asking them to rate the extent to which their performance was due to ability, effort, task difficulty, or luck. Results showed that participants in the self-scored success condition attributed their performance primarily to ability and effort (internal factors), while self-scored failure participants attributed outcomes to task difficulty and luck (external factors). In the experimenter-scored conditions, this self-serving bias was significantly attenuated—participants made more balanced attributions regardless of outcome.",
+      "stem": "The pattern where self-scored participants attributed success internally and failure externally is best described by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the fundamental attribution error, which overemphasizes situational factors for others' behavior"
+        },
+        {
+          "label": "B",
+          "text": "the self-serving bias, which protects self-esteem through asymmetric attributions"
+        },
+        {
+          "label": "C",
+          "text": "the just-world hypothesis, which assumes people deserve their outcomes"
+        },
+        {
+          "label": "D",
+          "text": "cognitive dissonance, which creates discomfort from holding conflicting cognitions"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The fundamental attribution error (correspondence bias) describes the tendency to overemphasize dispositional (internal) factors when explaining others' behavior while underestimating situational influences. The passage describes self-attributions, not attributions about others. Additionally, the FAE emphasizes dispositional factors for others, not the asymmetric internal-success/external-failure pattern described here.",
+        "B": "Correct. The self-serving bias is the tendency to attribute one's successes to internal factors (ability, effort) and failures to external factors (task difficulty, luck). This asymmetry protects self-esteem by allowing individuals to take credit for positive outcomes while deflecting responsibility for negative ones. The passage describes exactly this pattern in the self-scored conditions. The attenuation in experimenter-scored conditions is also consistent with research showing that public accountability reduces self-serving attributions.",
+        "C": "The just-world hypothesis (Lerner) is the belief that people generally get what they deserve—good things happen to good people and bad things to bad people. While this belief system can influence attributions, it typically applies to judgments about others' outcomes (victim blaming) rather than the asymmetric self-attribution pattern described in the passage.",
+        "D": "Cognitive dissonance (Festinger) involves psychological discomfort from holding contradictory cognitions or behaving inconsistently with attitudes. While failing at a task could create dissonance if one believes they are competent, the specific attributional asymmetry described (internal for success, external for failure) is more precisely captured by the self-serving bias than by dissonance reduction."
+      },
+      "topic": "Attribution Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_self_007",
+      "usePrevPassage": true,
+      "stem": "The attenuation of self-serving bias in the experimenter-scored condition is most likely due to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "impression management concerns, as participants made more accurate attributions when their responses could be verified by the experimenter"
+        },
+        {
+          "label": "B",
+          "text": "groupthink, as participants conformed to the experimenter's expectations"
+        },
+        {
+          "label": "C",
+          "text": "proactive interference from the experimenter's presence disrupting memory retrieval"
+        },
+        {
+          "label": "D",
+          "text": "the mere exposure effect increasing familiarity with the experimenter"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When an experimenter scores the work and knows the actual performance, participants cannot easily make inflated ability attributions for success or deflect failure to external causes without appearing dishonest or self-deceptive. Impression management theory proposes that self-serving attributions partly serve a public self-presentation function—people want to appear competent to others. When the audience (experimenter) has independent knowledge of the performance, participants constrain their self-serving tendencies to maintain credibility, resulting in more balanced attributions.",
+        "B": "Groupthink (Janis) occurs in cohesive groups making collective decisions and involves premature consensus, suppression of dissent, and illusion of unanimity. This is a group-level phenomenon requiring a decision-making group, not applicable to an individual participant's attributions in a one-on-one experimental setting with a single experimenter.",
+        "C": "Proactive interference occurs when previously learned information impairs retention of newer information in memory. The experimenter's presence does not create proactive interference—participants are making causal judgments about their current performance, not retrieving previously learned material. The experimental manipulation affects self-presentation motives, not memory retrieval processes.",
+        "D": "The mere exposure effect (Zajonc) is the phenomenon where repeated exposure to a stimulus increases liking for it. The experimenter's involvement in scoring does not involve repeated neutral exposure; it involves the experimenter having verifiable knowledge of the participant's performance. Increased liking for the experimenter would not explain the reduction in self-serving attributional bias."
+      },
+      "topic": "Impression Management",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_self_008",
+      "usePrevPassage": true,
+      "stem": "According to Weiner's attribution theory, the dimension that distinguishes 'ability' from 'effort' as causal attributions is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "locus of control—ability is internal while effort is external"
+        },
+        {
+          "label": "B",
+          "text": "controllability—ability is controllable while effort is automatic"
+        },
+        {
+          "label": "C",
+          "text": "globality—ability applies across situations while effort is situation-specific"
+        },
+        {
+          "label": "D",
+          "text": "stability—ability is considered stable while effort is considered unstable"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Both ability and effort are internal attributions in Weiner's framework—they both reside within the person rather than in external circumstances. Locus of control (internal vs. external) does not distinguish between ability and effort; it distinguishes them from task difficulty and luck (which are external). The dimension that differentiates ability from effort is stability, not locus.",
+        "B": "This reverses the controllability relationship. In Weiner's model, effort is the controllable attribution—individuals can choose how much effort to exert. Ability is typically perceived as less controllable—people believe they either have a talent or they don't. The controllability dimension does distinguish ability from effort, but the relationship is inverted from what this answer states.",
+        "C": "Globality is a dimension from the reformulated learned helplessness model (Abramson, Seligman, Teasdale), not from Weiner's original attribution theory. While globality (global vs. specific) describes whether a cause applies across many situations or only one, Weiner's model uses stability to distinguish ability (stable) from effort (unstable).",
+        "D": "Correct. In Weiner's three-dimensional model of attribution (locus, stability, controllability), ability and effort are both internal (same locus) but differ on the stability dimension. Ability is typically perceived as a stable, enduring characteristic that does not change from situation to situation. Effort is perceived as unstable and variable—a person can choose to exert more or less effort on different occasions. This stability distinction has important motivational implications: attributing failure to unstable effort preserves hope for future improvement, while attributing failure to stable ability is more debilitating."
+      },
+      "topic": "Weiner's Attribution Dimensions",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_self_009",
+      "usePrevPassage": true,
+      "stem": "A participant who consistently attributes failures across many life domains to her own stable, global inability is at highest risk for developing:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "narcissistic personality features characterized by grandiosity"
+        },
+        {
+          "label": "B",
+          "text": "depressive symptoms, as predicted by the learned helplessness model"
+        },
+        {
+          "label": "C",
+          "text": "antisocial behavior stemming from externalization of blame"
+        },
+        {
+          "label": "D",
+          "text": "obsessive-compulsive rituals driven by contamination fears"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Narcissistic personality features involve inflated self-image, grandiosity, and a need for admiration. Narcissistic attributional style typically involves excessive self-serving bias (taking credit for success, blaming others for failure), which is the opposite of the internal-stable-global failure attribution pattern described. This person attributes failures to herself, not to others.",
+        "B": "Correct. The reformulated learned helplessness model (Abramson, Seligman, Teasdale) predicts that an internal-stable-global attributional style for negative events is a vulnerability factor for depression. Internal attribution ('it's my fault'), stability ('it won't change'), and globality ('it affects everything') create a sense of pervasive, permanent, personal deficiency. This hopelessness attributional style leads to helplessness, low self-esteem, passivity, and depressive symptomatology.",
+        "C": "Antisocial behavior is associated with external attributions (blaming others, minimizing personal responsibility) rather than internal attributions. The participant described blames herself internally for failures, which is the opposite of the externalizing attributional pattern associated with conduct problems and antisocial personality.",
+        "D": "Obsessive-compulsive disorder involves intrusive thoughts and repetitive behaviors driven by anxiety, often around themes of contamination, symmetry, or harm. OCD is not primarily characterized by an internal-stable-global attributional style for failure. The cognitive model of OCD emphasizes inflated responsibility and threat overestimation, not helplessness attributions about personal inability."
+      },
+      "topic": "Learned Helplessness & Depression",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_self_010",
+      "usePrevPassage": true,
+      "stem": "George Herbert Mead's concept of the 'generalized other' would predict that adolescents' self-concepts are most influenced by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "internalized societal expectations and norms of their broader community"
+        },
+        {
+          "label": "B",
+          "text": "the specific feedback of one significant attachment figure"
+        },
+        {
+          "label": "C",
+          "text": "genetic predispositions for personality traits like extraversion"
+        },
+        {
+          "label": "D",
+          "text": "classical conditioning of self-evaluative emotional responses"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Mead's generalized other represents the internalized attitudes, expectations, and viewpoints of the broader social group or community. In Mead's developmental framework, children initially take the perspective of specific significant others (parents, teachers) but eventually integrate these into a generalized understanding of how society as a whole views appropriate behavior and identity. Adolescents, having reached Mead's 'game stage,' can take the role of the generalized other—understanding community norms, values, and expectations and incorporating them into self-concept.",
+        "B": "Feedback from a specific attachment figure (Bowlby, Ainsworth) relates to attachment theory and the development of internal working models, not to Mead's symbolic interactionist framework. Mead's theory explicitly moves beyond the influence of specific individuals (significant others) to the generalized other—the organized community or social group whose attitudes form the basis of the mature self.",
+        "C": "Genetic predispositions for personality traits are addressed by behavioral genetics and trait theory (e.g., the Big Five), not by Mead's sociological framework. Mead's symbolic interactionism emphasizes that the self is socially constructed through symbolic communication and role-taking, not biologically determined by genetic factors.",
+        "D": "Classical conditioning of emotional responses (Watson, Pavlov) operates through automatic stimulus-response associations and does not involve the symbolic role-taking processes central to Mead's theory. Mead emphasized that self-concept emerges through symbolic interaction—language, gestures, and the ability to take the perspective of others—not through passive conditioning of emotional responses."
+      },
+      "topic": "Symbolic Interactionism",
+      "difficulty": "Hard"
+    }
+  ],
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  }
+}

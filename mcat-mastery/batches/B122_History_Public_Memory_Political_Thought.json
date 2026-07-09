@@ -1,0 +1,351 @@
+{
+  "batch": "B122",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "History, Public Memory & Political Thought",
+  "questionCount": 10,
+  "answerDistribution": {
+    "C": 3,
+    "B": 2,
+    "D": 2,
+    "A": 3
+  },
+  "questions": [
+    {
+      "id": "cars_memory_001",
+      "passage": "Cities often defend old monuments by saying that removal would “erase history.” The phrase confuses two activities: preserving knowledge of the past and continuing to grant a past interpretation civic honor. A statue in a courthouse square does not merely report that a person existed. Its scale, elevation, and ceremonial setting authorize a judgment about who deserves collective admiration.\n\nThis does not mean every compromised monument should be destroyed. Removal can simplify memory by allowing a community to imagine that injustice departed with the object. Preservation can also be transformed. A monument relocated to a museum enters a setting where its commission, symbolism, and political career can become subjects of inquiry rather than assumptions built into the landscape. An added plaque may sometimes help, though a small correction at the base of an enormous honored figure can leave the original hierarchy largely intact.\n\nThe most illuminating interventions often refuse the choice between untouched preservation and disappearance. Counter-monuments, altered sightlines, or adjacent works can expose conflict within public memory. Such designs acknowledge that later citizens do not encounter the past passively; they inherit institutions that have already selected what should be visible.\n\nNo physical arrangement will settle memory permanently. Future citizens may reinterpret today's corrections. But this uncertainty is not an argument for inaction. It is a reason to make commemorative choices revisable and their assumptions visible. Historical responsibility requires neither worship of inherited stone nor confidence that removal alone produces justice. It requires attention to how objects organize public authority in the present.",
+      "stem": "Which statement best captures the passage's distinction between preserving history and continuing commemoration?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "All controversial monuments should remain untouched"
+        },
+        {
+          "label": "B",
+          "text": "Removing monuments automatically repairs historical injustice"
+        },
+        {
+          "label": "C",
+          "text": "Public monuments shape present civic authority, so preservation and alteration should be judged by how they frame history and honor"
+        },
+        {
+          "label": "D",
+          "text": "Museums erase history more thoroughly than cities do"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The author rejects untouched preservation as a default because inherited placement already authorizes a civic judgment. Some objects may remain, but only after examining what continued display does in the present. The passage treats monuments as active institutions of public memory rather than neutral containers of historical fact. The author's position preserves a distinction between remembering history and honoring a selected interpretation.",
+        "B": "Removal can be justified, but the passage warns that it may falsely suggest injustice vanished with the object. Physical disappearance is not equated with completed justice. The passage treats monuments as active institutions of public memory rather than neutral containers of historical fact. The author's position preserves a distinction between remembering history and honoring a selected interpretation.",
+        "C": "Correct. The passage distinguishes knowledge from commemoration and evaluates monuments as active organizers of visibility and honor. It therefore favors revisable, context-sensitive choices that expose assumptions rather than a universal rule of preservation or removal. The passage treats monuments as active institutions of public memory rather than neutral containers of historical fact. The author's position preserves a distinction between remembering history and honoring a selected interpretation. This synthesis explains why the passage repeatedly separates survival of the past from continued civic endorsement: historical knowledge can be preserved even when commemorative authority is revised.",
+        "D": "Museums are presented as settings where an object's commission and political career may become available for inquiry. The author does not claim they erase history more completely. The passage treats monuments as active institutions of public memory rather than neutral containers of historical fact. The author's position preserves a distinction between remembering history and honoring a selected interpretation."
+      },
+      "topic": "Main Idea / Public Memory",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_memory_002",
+      "passage": null,
+      "stem": "The example of a small plaque beneath an enormous statue primarily shows that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Any added text destroys the original monument"
+        },
+        {
+          "label": "B",
+          "text": "Providing additional information may leave the monument's hierarchy of honor largely unchanged"
+        },
+        {
+          "label": "C",
+          "text": "Scale has no effect on public meaning"
+        },
+        {
+          "label": "D",
+          "text": "Plaques are historically inaccurate by definition"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The author allows that plaques may help and does not describe text as destructive. The concern is insufficiency, not inevitable harm. The courthouse example tests the difference between adding information and changing civic authority. Placement, ceremony, and continued official use can preserve honor even when a plaque adds criticism.",
+        "B": "Correct. The correction can add factual context while the statue's size, elevation, and official location continue to dominate the civic scene. The example separates informational supplementation from redistribution of symbolic authority. The courthouse example tests the difference between adding information and changing civic authority. Placement, ceremony, and continued official use can preserve honor even when a plaque adds criticism. The distinction matters because a corrective label can expand knowledge while leaving the monument's elevated location, official ceremonies, and visual dominance unchanged.",
+        "C": "The contrast between a small plaque and enormous figure depends precisely on scale and placement affecting meaning. The courthouse example tests the difference between adding information and changing civic authority. Placement, ceremony, and continued official use can preserve honor even when a plaque adds criticism.",
+        "D": "No claim is made that plaques are inherently inaccurate. Their limitation is that they may not alter the commemorative relationship strongly enough. The courthouse example tests the difference between adding information and changing civic authority. Placement, ceremony, and continued official use can preserve honor even when a plaque adds criticism."
+      },
+      "topic": "Function of Example / Contextualization",
+      "difficulty": "Medium",
+      "passageRef": "cars_memory_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_memory_003",
+      "passage": null,
+      "stem": "Which position would the author most likely reject?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A monument's treatment should depend partly on its setting and current civic function"
+        },
+        {
+          "label": "B",
+          "text": "Relocation can preserve an object while changing how it is interpreted"
+        },
+        {
+          "label": "C",
+          "text": "Counter-monuments can make conflict visible"
+        },
+        {
+          "label": "D",
+          "text": "Every inherited monument must receive the same treatment to avoid inconsistency"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage repeatedly emphasizes placement, ceremony, and present authority, making setting relevant to judgment. The author rejects both automatic preservation and automatic removal. The relevant inference must therefore retain case-specific judgment about context, power, educational value, and present civic meaning.",
+        "B": "Museum relocation is offered as a way to convert assumed honor into an object of inquiry. The author rejects both automatic preservation and automatic removal. The relevant inference must therefore retain case-specific judgment about context, power, educational value, and present civic meaning.",
+        "C": "Adjacent works and counter-monuments are praised for exposing conflict rather than pretending memory is unified. The author rejects both automatic preservation and automatic removal. The relevant inference must therefore retain case-specific judgment about context, power, educational value, and present civic meaning.",
+        "D": "Correct. A universal treatment ignores the passage's case-specific analysis of context, scale, institutional setting, and revisability. Consistency lies in applying relevant criteria, not imposing the same physical outcome on unlike objects. The author rejects both automatic preservation and automatic removal. The relevant inference must therefore retain case-specific judgment about context, power, educational value, and present civic meaning. The passage's comparative method requires asking what each intervention does in a specific setting, not treating material permanence or removal as a universal moral rule."
+      },
+      "topic": "Inference / Contextual Judgment",
+      "difficulty": "Hard",
+      "passageRef": "cars_memory_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_memory_004",
+      "passage": null,
+      "stem": "The author's tone toward contemporary monument revision is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Cautiously supportive but skeptical of permanent solutions"
+        },
+        {
+          "label": "B",
+          "text": "Entirely hostile"
+        },
+        {
+          "label": "C",
+          "text": "Indifferent to public symbolism"
+        },
+        {
+          "label": "D",
+          "text": "Certain that counter-monuments end disagreement"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author supports intervention and rejects uncertainty as an excuse for inaction, while stressing that removal, plaques, and counter-monuments cannot settle memory forever. The tone combines reformist urgency with epistemic modesty. Tone should be inferred from concessions and qualifications. The author takes revision seriously while warning against claims that any single physical treatment can settle collective memory permanently. That balance of urgency and caution is visible in the author's willingness to alter inherited symbols alongside skepticism that any intervention ends political disagreement.",
+        "B": "The passage offers multiple constructive forms of revision and therefore is not hostile to change. Tone should be inferred from concessions and qualifications. The author takes revision seriously while warning against claims that any single physical treatment can settle collective memory permanently.",
+        "C": "Public symbolism is the subject of the argument; the author treats scale, setting, and ceremony as politically consequential. Tone should be inferred from concessions and qualifications. The author takes revision seriously while warning against claims that any single physical treatment can settle collective memory permanently.",
+        "D": "Counter-monuments can expose conflict, but future reinterpretation remains inevitable. They do not end disagreement. Tone should be inferred from concessions and qualifications. The author takes revision seriously while warning against claims that any single physical treatment can settle collective memory permanently."
+      },
+      "topic": "Author Tone / Qualified Support",
+      "difficulty": "Medium",
+      "passageRef": "cars_memory_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_memory_005",
+      "passage": null,
+      "stem": "Which proposal best fits the author's reasoning?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Destroying all records associated with a removed monument"
+        },
+        {
+          "label": "B",
+          "text": "Leaving every monument unchanged but adding identical plaques"
+        },
+        {
+          "label": "C",
+          "text": "Relocating a disputed statue while creating an accessible exhibit about its commission, prior civic role, and contested meanings"
+        },
+        {
+          "label": "D",
+          "text": "Prohibiting future reinterpretation of a redesign"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Destroying records would reduce historical knowledge and contradict the distinction between ending honor and preserving history. A valid application must change the monument's public function rather than merely add facts. Relocation, redesign, or counter-monumental intervention can redistribute authority and invite continuing interpretation.",
+        "B": "Identical plaques ignore differences in scale, context, and authority; the passage doubts that small labels always transform hierarchy. A valid application must change the monument's public function rather than merely add facts. Relocation, redesign, or counter-monumental intervention can redistribute authority and invite continuing interpretation.",
+        "C": "Correct. Relocation changes the object's civic function without erasing it, while an exhibit makes the monument's history and political career available for analysis. The proposal is also open to future reinterpretation. A valid application must change the monument's public function rather than merely add facts. Relocation, redesign, or counter-monumental intervention can redistribute authority and invite continuing interpretation. The best response therefore creates a visible relationship among original object, suppressed history, and current debate rather than pretending the city can return to an uncontested past.",
+        "D": "The author considers future revision unavoidable and desirable as a form of accountability. Prohibition would make today's judgment falsely permanent. A valid application must change the monument's public function rather than merely add facts. Relocation, redesign, or counter-monumental intervention can redistribute authority and invite continuing interpretation."
+      },
+      "topic": "Application / Commemorative Policy",
+      "difficulty": "Medium",
+      "passageRef": "cars_memory_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_civic_006",
+      "passage": "In an early republic, voting was commonly restricted to property-owning men. Defenders of the rule argued that property gave a citizen independence: a man dependent on an employer or creditor might vote another's will rather than his own. Political judgment, on this account, required a social condition secured before participation began.\n\nCritics challenged both the logic and the evidence. Artisans who lacked substantial property still managed households, joined associations, served in militias, and petitioned legislatures. Their petitions did more than request admission; they displayed the civic reasoning whose absence supposedly justified exclusion. Critics also observed a circularity: people were denied participation because they lacked political experience, then their lack of experience was cited as proof of incapacity.\n\nAs suffrage expanded, a different account of citizenship gained influence. Participation was described not merely as the reward for prior independence but as a school in which public capacities could develop. Voting, organizing, and debate might teach citizens to consider interests beyond their own. This claim was aspirational, not a neutral description. Participation could reproduce hierarchy, and institutions determined whose speech was heard.\n\nThe history therefore should not be narrated as an automatic march from prejudice to enlightenment. Economic change weakened some property arguments; organized pressure exposed contradictions; parties sought new voters. Yet the conceptual shift mattered. It changed political capacity from a fixed qualification possessed before citizenship into a potential achievement cultivated through citizenship. Democratic inclusion became defensible not because every participant was already independent, but because exclusion itself could prevent the development it demanded.",
+      "stem": "What is the passage's main purpose?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To prove property ownership is the only basis of independent judgment"
+        },
+        {
+          "label": "B",
+          "text": "To trace a shift from citizenship as reward for prior capacity toward citizenship as a means of cultivating capacity"
+        },
+        {
+          "label": "C",
+          "text": "To argue suffrage expansion resulted solely from economic change"
+        },
+        {
+          "label": "D",
+          "text": "To show participation always eliminates hierarchy"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage reconstructs and then criticizes the property argument, especially its circular treatment of experience. The second passage contrasts a property-based account of independence with later arguments that political competence is cultivated through participation. The author emphasizes historical contingency rather than inevitable progress.",
+        "B": "Correct. The historical discussion centers on two competing models: capacity secured before participation and capacity developed through participation. The author treats the conceptual shift as important while refusing an automatic-progress narrative. The second passage contrasts a property-based account of independence with later arguments that political competence is cultivated through participation. The author emphasizes historical contingency rather than inevitable progress. By tracing competing definitions of independence, the passage shows that citizenship criteria were arguments serving institutional arrangements, not timeless discoveries about human capacity.",
+        "C": "Economic change is one factor among organized pressure, party strategy, and conceptual criticism. 'Solely' exceeds the text. The second passage contrasts a property-based account of independence with later arguments that political competence is cultivated through participation. The author emphasizes historical contingency rather than inevitable progress.",
+        "D": "The passage explicitly concedes that participation can reproduce hierarchy and that institutions shape whose speech counts. The second passage contrasts a property-based account of independence with later arguments that political competence is cultivated through participation. The author emphasizes historical contingency rather than inevitable progress."
+      },
+      "topic": "Main Idea / Democratic Capacity",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_civic_007",
+      "passage": null,
+      "stem": "Why does the author emphasize artisans' petitions?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They demonstrate civic reasoning by excluded people and challenge claims of incapacity"
+        },
+        {
+          "label": "B",
+          "text": "They prove every artisan owned substantial property"
+        },
+        {
+          "label": "C",
+          "text": "They show petitions replaced voting permanently"
+        },
+        {
+          "label": "D",
+          "text": "They establish that militias controlled legislatures"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The petitions function both as demands and performances of public reasoning. Excluded artisans display the competence whose alleged absence justified exclusion, thereby exposing tension in the property-based argument. The petition example supplies evidence from excluded people themselves. Its function is to challenge the claim that dependence automatically proves incapacity and to reveal circular reasoning in exclusion. The petitions matter rhetorically because they demonstrate reasoning through the very act of demanding participation, undermining an exclusion justified by alleged lack of civic judgment.",
+        "B": "The passage identifies artisans as lacking substantial property. Their political activity undermines the assumption that property is necessary for competence. The petition example supplies evidence from excluded people themselves. Its function is to challenge the claim that dependence automatically proves incapacity and to reveal circular reasoning in exclusion.",
+        "C": "Petitioning supplemented demands for suffrage; it is not described as a permanent substitute for voting. The petition example supplies evidence from excluded people themselves. Its function is to challenge the claim that dependence automatically proves incapacity and to reveal circular reasoning in exclusion.",
+        "D": "Militia service is evidence of civic participation, not proof of legislative control. The petition example supplies evidence from excluded people themselves. Its function is to challenge the claim that dependence automatically proves incapacity and to reveal circular reasoning in exclusion."
+      },
+      "topic": "Rhetorical Function / Petition Evidence",
+      "difficulty": "Medium",
+      "passageRef": "cars_civic_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_civic_008",
+      "passage": null,
+      "stem": "Calling participation a 'school' implies that political capacity:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Is genetically fixed"
+        },
+        {
+          "label": "B",
+          "text": "Requires formal classroom enrollment"
+        },
+        {
+          "label": "C",
+          "text": "Appears only after property acquisition"
+        },
+        {
+          "label": "D",
+          "text": "Can develop through practice in public life"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "A fixed inherited capacity would undermine the developmental metaphor and reproduce the preparticipation model. The author's use of 'school' is metaphorical: civic participation develops judgment through practice. The claim does not imply formal classrooms or that participation instantly eliminates inequality.",
+        "B": "The school is metaphorical; no literal curriculum or enrollment requirement is proposed. The author's use of 'school' is metaphorical: civic participation develops judgment through practice. The claim does not imply formal classrooms or that participation instantly eliminates inequality.",
+        "C": "The newer theory specifically loosens the claim that property must precede participation. The author's use of 'school' is metaphorical: civic participation develops judgment through practice. The claim does not imply formal classrooms or that participation instantly eliminates inequality.",
+        "D": "Correct. The metaphor presents voting, organizing, and debate as experiences through which judgment and broader concern can be learned. It makes participation partly formative rather than merely a reward for completed competence. The author's use of 'school' is metaphorical: civic participation develops judgment through practice. The claim does not imply formal classrooms or that participation instantly eliminates inequality. Practice-based development also explains why permanent exclusion can become self-confirming: denying participation prevents people from gaining the experience then cited as a qualification."
+      },
+      "topic": "Interpretation of Metaphor",
+      "difficulty": "Medium",
+      "passageRef": "cars_civic_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_civic_009",
+      "passage": null,
+      "stem": "Which finding would most strengthen the participation-as-school argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Newly enfranchised citizens show improved knowledge and deliberative skill after sustained civic participation"
+        },
+        {
+          "label": "B",
+          "text": "Property owners vote at higher rates before expansion"
+        },
+        {
+          "label": "C",
+          "text": "Political parties seek additional voters"
+        },
+        {
+          "label": "D",
+          "text": "Some elections produce conflict"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Improvement following participation directly supports the proposed mechanism that civic practice cultivates capacity. A longitudinal comparison would be especially relevant if alternative explanations were addressed. A strengthening result should show participation producing competence or public judgment among previously excluded groups. Evidence of disorder alone would support the opposing property-based concern. Such evidence would connect inclusion to the mechanism the author proposes—learning through public action—rather than merely showing that formal eligibility expanded.",
+        "B": "Higher baseline turnout among already eligible owners does not show whether participation develops competence in excluded groups. A strengthening result should show participation producing competence or public judgment among previously excluded groups. Evidence of disorder alone would support the opposing property-based concern.",
+        "C": "Party recruitment helps explain expansion strategically but does not demonstrate learning through participation. A strengthening result should show participation producing competence or public judgment among previously excluded groups. Evidence of disorder alone would support the opposing property-based concern.",
+        "D": "Conflict is compatible with democracy and does not by itself test whether participants develop judgment. A strengthening result should show participation producing competence or public judgment among previously excluded groups. Evidence of disorder alone would support the opposing property-based concern."
+      },
+      "topic": "Strengthening / Civic Learning",
+      "difficulty": "Hard",
+      "passageRef": "cars_civic_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_civic_010",
+      "passage": null,
+      "stem": "The author's final position is best characterized as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Triumphalist because inclusion guarantees equality"
+        },
+        {
+          "label": "B",
+          "text": "Cynical because participation has no educational value"
+        },
+        {
+          "label": "C",
+          "text": "Qualified: participation can cultivate capacity, but institutional inequalities shape that process"
+        },
+        {
+          "label": "D",
+          "text": "Neutral because no argument is offered"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage rejects automatic progress and notes that participation may reproduce hierarchy, so it is not triumphalist. The conclusion is qualified: expanded participation can cultivate capacity, but institutions shape whose participation counts and what learning becomes possible. The author avoids both cynicism and triumphalism.",
+        "B": "The author treats the developmental account as conceptually important and potentially real, not meaningless. The conclusion is qualified: expanded participation can cultivate capacity, but institutions shape whose participation counts and what learning becomes possible. The author avoids both cynicism and triumphalism.",
+        "C": "Correct. Participation can develop public capacities and exclusion can prevent that development, yet access, voice, and learning remain institutionally structured. The conclusion supports inclusion without claiming it mechanically produces equality. The conclusion is qualified: expanded participation can cultivate capacity, but institutions shape whose participation counts and what learning becomes possible. The author avoids both cynicism and triumphalism. The resulting position supports democratic expansion while keeping attention on institutional design, unequal access, and the possibility that participation can reproduce hierarchy.",
+        "D": "The author clearly advances and qualifies an interpretation; neutrality is not the absence of categorical certainty. The conclusion is qualified: expanded participation can cultivate capacity, but institutions shape whose participation counts and what learning becomes possible. The author avoids both cynicism and triumphalism."
+      },
+      "topic": "Conclusion / Qualified Democratic Development",
+      "difficulty": "Medium",
+      "passageRef": "cars_civic_006",
+      "usePrevPassage": true
+    }
+  ]
+}

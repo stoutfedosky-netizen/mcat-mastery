@@ -1,0 +1,246 @@
+{
+  "batch": "B347",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Repair, Maintenance & the Golden Seam",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_repair_347_q0",
+      "passage": "The toaster dies on a Tuesday, and the arithmetic takes thirty seconds: the repair shop across town quotes more than a new toaster costs, assuming a shop can be found and the parts still exist. The owner buys new, feeling a small shame she cannot quite justify and does not stop to examine, and drops the old machine in the bin. Both the arithmetic and the shame deserve examination, because neither is natural. The numbers were arranged, and the feeling is pointing at the wrong party.\n\nStart with the arrangement. Objects are not born unrepairable; they are designed that way, casings glued where they could screw, fasteners proprietary where they could be standard, parts unavailable, manuals unpublished, boards potted in resin. Repair is priced out of rationality not by physics but by decisions, each defensible in isolation, thinner, lighter, cheaper to assemble, that sum to an engineered gradient running from the workbench to the bin. When repairing costs more than replacing, that is not a fact about the universe; it is a business model with the receipts to prove it.\n\nThe gradient has an ideology to keep it company. Cultures celebrate making and disruption; they do not celebrate upkeep. The ribbon is cut for the new bridge, never for the crew that keeps it standing, though most engineering labor, measured honestly, is maintenance, and civilization is mostly the practice of keeping things going rather than the episode of starting them, a truth every budget quietly admits and every award ceremony quietly ignores. The maintainer works under a peculiar curse: success is invisibility, since infrastructure enters awareness only by failing, and a job perfectly done produces exactly nothing to notice. Prestige, funding, and biography all flow toward the founder, while the world is actually held together by people whose names appear only in incident reports.\n\nRepair, meanwhile, knows something replacement never learns. To fix a thing you must understand how it works, or come to; the diagnosis is an education, and the repaired object becomes a known object, its interior mapped by the hands that reopened it. Replacement requires no understanding at all, which is part of its convenience and part of its cost, since a population that seals its objects gradually seals its competence too. Some traditions have drawn the opposite conclusion from breakage altogether, mending the crack with gold so that the repair is displayed rather than disguised, the object's history kept on its surface, the break made part of the thing rather than the end of it.\n\nThe quarrel has now reached the statute books. Manufacturers restrict parts, manuals, and diagnostic software, citing safety and intellectual property, and the citations are not empty; a bad battery swap can burn a house down. But the restriction reaches into the meaning of ownership itself. A device whose interior is locked against its possessor, whose repairs must be licensed and whose parts are serialized against substitution, is owned the way a leased thing is owned, whatever the receipt says, and the right-to-repair movement is best understood as a property argument: that buying a thing should include the standing to open it.\n\nHonesty requires draining the romance before it pools. Repair is labor, frequently tedious, and much of the world mends from necessity rather than virtue; the patched and re-patched household is usually a portrait of constraint, not aesthetics, and it is comfortable people who frame mending as a lifestyle. Nor is replacement always the vice: some substitutions bring real gains in safety and efficiency, and no ethic worth holding says never replace. The defensible demand is narrower and harder: that repair be possible, priced within reason, and respectable, an option engineered into things rather than out of them.\n\nSo the owner at the bin is owed a correction, not an absolution. Her shame is real but misaddressed; it belongs to the glued seam and the missing part, to the arrangement that made discard the only rational verb. A culture's relation to its broken things is a relation to time, to knowledge, and to what owning means, and the golden seam names the alternative in a single image: the break acknowledged, the history kept, the object more itself, not less, for having been mended.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Because repair is tedious labor performed mostly from economic necessity, the mending ethic is a comfortable-class aesthetic with no genuinely defensible core."
+        },
+        {
+          "label": "B",
+          "text": "Manufacturers' safety and intellectual property citations are entirely empty pretexts, and existing repair restrictions should therefore be abolished immediately and without qualification."
+        },
+        {
+          "label": "C",
+          "text": "Unrepairability is engineered and sustained by an ideology that ignores maintenance; the defensible demand is repair made possible, reasonably priced, and respectable."
+        },
+        {
+          "label": "D",
+          "text": "The golden seam tradition proves that broken objects are aesthetically superior to intact ones."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice converts the sixth paragraph's romance-draining into the verdict. Mending-as-lifestyle is checked, repair is labor and often constraint, but the paragraph ends by stating the defensible demand, narrower and harder, which the choice declares nonexistent.",
+        "B": "This choice erases a concession the fifth paragraph makes explicitly. The citations are not empty; a bad battery swap can burn a house down, and the passage's property argument coexists with the safety point rather than dismissing it, demanding standing to open, not deregulation without qualification.",
+        "C": "Correct. The passage traces the gradient to decisions, not physics, a business model with receipts, pairs it with the ideology that celebrates founders while maintainers hold the world together invisibly, adds repair's epistemic and ownership stakes, drains the romance, and lands on the narrow demand: repair possible, priced within reason, and respectable, engineered into things rather than out of them.",
+        "D": "This choice inflates an image into an aesthetic ranking. The golden seam names an alternative relation to breakage, history kept, object more itself for having been mended, not a claim that broken beats intact; the mending, not the breaking, carries the value."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_repair_347_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the sixth paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "concede that the right-to-repair movement's central property argument ultimately fails against the manufacturers' documented safety objections."
+        },
+        {
+          "label": "B",
+          "text": "argue that replacement should be stigmatized so that repair becomes the social default."
+        },
+        {
+          "label": "C",
+          "text": "document the necessity-driven mending of poorer households as the repair ethic's true historical origin and moral center."
+        },
+        {
+          "label": "D",
+          "text": "drain the romance from repair, conceding its tedium, its origin in constraint, and replacement's real gains, before stating the narrower demand."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice imports the fifth paragraph's quarrel and settles it against the movement, which the passage never does. The safety citations are granted as not empty, but the property argument stands beside them; the sixth paragraph's corrections target repair's romance, not its rights.",
+        "B": "This choice reverses the paragraph's explicit disclaimer. No ethic worth holding says never replace, the text insists, and some substitutions bring real gains; the demand is repair's possibility and respectability, not replacement's stigma.",
+        "C": "This choice mistakes a corrective observation for a genealogy. The patched household as portrait of constraint checks the lifestyle framing, comfortable people frame mending as aesthetics, but no claim about the ethic's origins is made; the point is who romanticizes, not where the practice began.",
+        "D": "Correct. The paragraph announces its office, honesty requires draining the romance before it pools, and executes three drains: repair is labor, frequently tedious; much of the world mends from necessity, not virtue; replacement sometimes genuinely improves. The close then narrows the claim to what survives: repair possible, priced within reason, respectable."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_repair_347_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The claim that for the maintainer, success is invisibility, in the third paragraph, most nearly means that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "maintenance perfectly performed produces nothing noticeable, since infrastructure enters awareness only by failing."
+        },
+        {
+          "label": "B",
+          "text": "maintenance crews deliberately schedule their most disruptive work at night in order to avoid inconveniencing the public they serve."
+        },
+        {
+          "label": "C",
+          "text": "skilled maintainers deliberately conceal their working methods in order to protect their specialized trade from potential competitors."
+        },
+        {
+          "label": "D",
+          "text": "maintainers prefer anonymity because incident reports expose them to liability."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The paragraph supplies the mechanism with the phrase: infrastructure enters awareness only by failing, and a job perfectly done produces exactly nothing to notice. The curse is structural, the better the upkeep, the less there is to see, which is why prestige flows to founders while the maintainers' names appear only in incident reports.",
+        "B": "This choice literalizes invisibility into scheduling. The paragraph concerns the perceptual structure of maintenance, noticed only in failure, not the hour at which crews work; a daytime crew whose bridge never fails is exactly as invisible.",
+        "C": "This choice converts a curse into a strategy. The invisibility is suffered, not sought, the ground of the maintainer's missing prestige and funding, and nothing suggests concealment of methods or guild secrecy.",
+        "D": "This choice inverts the incident report's role. The reports are where maintainers' names finally do appear, the exception proving the invisibility; anonymity is the condition of their success, not a shelter they choose against liability."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_repair_347_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to the fifth paragraph, the right-to-repair movement is best understood as arguing that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a device locked against its possessor is owned as a leased thing is owned, so buying should include standing to open."
+        },
+        {
+          "label": "B",
+          "text": "manufacturers' safety concerns about amateur repairs are largely fabricated in order to protect lucrative service revenue."
+        },
+        {
+          "label": "C",
+          "text": "intellectual property law should not apply at all to the embedded software inside ordinary consumer devices."
+        },
+        {
+          "label": "D",
+          "text": "repair shops deserve subsidies to compete with the artificially low price of replacement."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The paragraph states the movement's core in exactly these terms: a device whose interior is locked against its possessor, whose repairs must be licensed and parts serialized against substitution, is owned the way a leased thing is owned, whatever the receipt says, and the movement is best understood as a property argument, that buying a thing should include the standing to open it.",
+        "B": "This choice attributes to the movement a dismissal the paragraph withholds. The citations are not empty, the text says, granting the house-fire risk; the property argument proceeds alongside the safety point rather than by calling it fabricated.",
+        "C": "This choice sharpens a grievance into a legal abolition the paragraph never states. Software locks appear among the restrictions, but the movement's argument concerns what ownership includes, standing to open, not the reach of intellectual property law as such.",
+        "D": "This choice invents an economic program from the second paragraph's pricing analysis. The engineered gradient explains why repair costs more; the fifth paragraph's movement argues about ownership's meaning, and subsidies appear nowhere in the passage."
+      },
+      "topic": "Perspective Attribution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_repair_347_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A phone manufacturer issues a software update that disables devices when a screen is replaced by anyone but its licensed technicians, citing user safety. Based on the fifth paragraph, the author would most likely say the update:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is fully justified as written, since the passage itself grants that badly executed amateur repairs can burn houses down."
+        },
+        {
+          "label": "B",
+          "text": "converts the purchase toward a lease, reaching past safety into the meaning of ownership, though the safety citation is not empty."
+        },
+        {
+          "label": "C",
+          "text": "illustrates the maintainer's curse, since the licensed technicians' careful work will go entirely unnoticed when done well."
+        },
+        {
+          "label": "D",
+          "text": "will be reversed by market pressure, since consumers reliably prefer repairable devices."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice takes the concession and drops the analysis. The safety citations are not empty, the paragraph grants, and then continues: the restriction reaches into the meaning of ownership itself; a full justification would end where the passage's argument begins.",
+        "B": "Correct. The update is the fifth paragraph's exhibit assembled: repairs licensed, substitution locked, the interior sealed against the possessor, a device owned the way a leased thing is owned, whatever the receipt says. The passage's method is preserved in the answer, the safety point conceded as genuine while the property question is pressed past it.",
+        "C": "This choice reroutes the case to the third paragraph's prestige economy. The maintainer's invisibility concerns upkeep's perceptual structure; the update's issue is who may open the device at all, an ownership question the licensed technicians' fame or obscurity does not touch.",
+        "D": "This choice supplies a market prediction the passage never makes. The second paragraph's gradient exists because the decisions sum profitably; nothing forecasts consumer correction, and the fight has reached the statute books precisely because the market has not reversed it."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_repair_347_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the fourth paragraph's claim that repair educates, making the fixed object a known one?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that many attempted repairs fail entirely on the first attempt and must be laboriously redone from the beginning."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that repair manuals have grown substantially longer as consumer devices have grown steadily more complex."
+        },
+        {
+          "label": "C",
+          "text": "Studies finding repairers following rote step-sequences with no better grasp of their devices' workings afterward than replacers."
+        },
+        {
+          "label": "D",
+          "text": "Surveys finding that most people who attempt repairs describe the experience as frustrating."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice documents difficulty, which the education claim can absorb and even welcome: failed first attempts force deeper diagnosis, and redoing a repair is more contact with the interior, not less understanding of it.",
+        "B": "This choice tracks documentation growth, which is neutral between the accounts: longer manuals could scaffold deeper understanding or enable more rote following, and the claim's fate turns on what repairers come to grasp, not on page counts.",
+        "C": "Correct. The claim's mechanism is that fixing requires understanding, or produces it, the diagnosis an education, the repaired object mapped by the hands that reopened it. Repairers proceeding by rote lookup and part-swap, ending with no better model of the device than replacers, would sever repair from understanding entirely, leaving the activity intact and the education absent.",
+        "D": "This choice reports the experience's unpleasantness, which the sixth paragraph already concedes, repair is labor, frequently tedious, and frustration is compatible with learning; an education is not required to be enjoyable to occur."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_repair_347_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the second paragraph's claim that unrepairability reflects decisions rather than physics?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that repair shop closures have accelerated over the past two decades in most cities."
+        },
+        {
+          "label": "B",
+          "text": "Teardown studies finding functionally identical devices varying enormously in repairability, tracking service-revenue models rather than performance needs."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that consumers consistently rank repairability very low among the features they consider when purchasing new devices."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that glued casings can in fact be opened without damage by trained professionals equipped with specialized heating tools and patience."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice measures the gradient's downstream effect, shops starved as repair is priced out, without touching its cause; closures are equally consistent with physical necessity and with business design, the distinction the claim turns on.",
+        "B": "Correct. The claim is that repair is priced out not by physics but by decisions, a business model with receipts. Identical function achieved with wildly different repairability, and the difference explained by service-revenue models rather than performance, size, or durability constraints, isolates choice as the variable: the physics permitted the repairable version, and the arrangement declined it.",
+        "C": "This choice explains why the decisions go unpunished by the market, consumers not shopping on repairability, which contextualizes the arrangement's persistence but neither shows nor tests that the unrepairability was chosen rather than compelled.",
+        "D": "This choice shows the barrier is surmountable with equipment, which slightly supports the not-physics point but weakly: professional workarounds are compatible with genuine design constraints, and the claim needs the choice demonstrated at the design stage, not the seal defeated afterward."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

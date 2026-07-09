@@ -1,0 +1,225 @@
+{
+  "batch": "B319",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Personality, Emotion & Decision Making",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_neuroticism_threat_appraisal_319_q0",
+      "passage": "A personality study asked adults to interpret ambiguous workplace scenarios, such as receiving a brief message from a supervisor saying, \u201cWe need to talk tomorrow.\u201d Participants higher in neuroticism were more likely to interpret the scenario as threatening and reported stronger negative affect. Participants lower in neuroticism generated more neutral explanations, such as scheduling or routine feedback. The researchers argued that personality traits can shape appraisal patterns, which then influence emotional responses.",
+      "usePrevPassage": false,
+      "stem": "Which trait was associated with more threatening interpretations?",
+      "choices": {
+        "A": "Higher neuroticism",
+        "B": "Higher openness",
+        "C": "Lower conscientiousness",
+        "D": "Higher extraversion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage states that participants higher in neuroticism more often interpreted ambiguous scenarios as threatening and reported stronger negative affect.",
+        "B": "The passage does not support higher openness; it points instead to higher neuroticism.",
+        "C": "The passage does not support lower conscientiousness; it points instead to higher neuroticism.",
+        "D": "The passage does not support higher extraversion; it points instead to higher neuroticism."
+      },
+      "topic": "Personality",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_neuroticism_threat_appraisal_319_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The interpretation of the supervisor\u2019s message is best described as what?",
+      "choices": {
+        "D": "Cognitive appraisal",
+        "A": "Sensory adaptation",
+        "B": "Fixed-ratio reinforcement",
+        "C": "Primary socialization"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Cognitive appraisal is the interpretation of what a situation means. Treating a message as threatening versus routine is an appraisal difference.",
+        "A": "The passage does not support sensory adaptation; it points instead to cognitive appraisal.",
+        "B": "The passage does not support fixed-ratio reinforcement; it points instead to cognitive appraisal.",
+        "C": "The passage does not support primary socialization; it points instead to cognitive appraisal."
+      },
+      "topic": "Personality",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_neuroticism_threat_appraisal_319_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why should causal language be used cautiously for this passage?",
+      "choices": {
+        "B": "The design leaves room for alternative explanations or selection effects",
+        "A": "The passage contains no measurable variables",
+        "C": "All participant reports are automatically false",
+        "D": "The topic is unrelated to P/S content"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Personality was measured rather than manipulated, so the study shows trait-appraisal association rather than experimental causation.",
+        "A": "The passage includes concrete measures or observations, so this is incorrect.",
+        "C": "Self-report can have limitations, but it is not automatically false.",
+        "D": "The topic fits psychological, social, or behavioral science content."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_neuroticism_threat_appraisal_319_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application best follows from the passage?",
+      "choices": {
+        "C": "Help people generate alternative explanations before assuming threat",
+        "A": "Ignore the social or behavioral context described",
+        "B": "Use a one-size-fits-all intervention even when the passage shows different barriers",
+        "D": "Assume the measured pattern cannot be changed"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Because ambiguous events can be appraised differently, considering neutral explanations may reduce unnecessary negative affect.",
+        "A": "Ignoring the described context would miss the mechanism emphasized in the passage.",
+        "B": "A uniform intervention would not address the specific pattern described.",
+        "D": "The passage supports practical response rather than fatalism."
+      },
+      "topic": "Personality",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_neuroticism_threat_appraisal_319_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most defensible?",
+      "choices": {
+        "D": "Personality traits may shape emotional responses partly through appraisal patterns",
+        "A": "The finding proves a universal law for every person",
+        "B": "The main construct is irrelevant because one limitation exists",
+        "C": "The passage supports only biological explanations"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. This conclusion matches the proposed pathway without treating trait scores as destiny.",
+        "A": "The passage supports a bounded interpretation, not a universal absolute.",
+        "B": "A limitation weakens overclaiming but does not make the construct irrelevant.",
+        "C": "P/S passages often involve social and psychological mechanisms beyond biology alone."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_loss_aversion_choices_319_q5",
+      "passage": "A decision-making experiment asked participants to choose between a guaranteed $20 and a gamble with a 50% chance of gaining $45 and a 50% chance of gaining nothing. In a second condition, similar expected values were framed as avoiding losses from an initial endowment. Participants were more willing to gamble in the loss frame than in the gain frame. The researchers interpreted the result using prospect theory, emphasizing that people evaluate outcomes relative to reference points and often respond strongly to potential losses.",
+      "usePrevPassage": false,
+      "stem": "What happened in the loss frame?",
+      "choices": {
+        "A": "Participants were more willing to gamble",
+        "B": "Participants avoided all risk",
+        "C": "Participants forgot the money amounts",
+        "D": "The choices no longer involved uncertainty"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage states that participants were more willing to gamble when outcomes were framed as avoiding losses.",
+        "B": "The passage does not support participants avoided all risk; it points instead to participants were more willing to gamble.",
+        "C": "The passage does not support participants forgot the money amounts; it points instead to participants were more willing to gamble.",
+        "D": "The passage does not support the choices no longer involved uncertainty; it points instead to participants were more willing to gamble."
+      },
+      "topic": "Decision Making",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_loss_aversion_choices_319_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which theory did the researchers use?",
+      "choices": {
+        "B": "Prospect theory",
+        "A": "Social identity theory",
+        "C": "Gate-control theory",
+        "D": "Attachment theory"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Prospect theory emphasizes reference points, loss aversion, and framing effects in decision-making under risk.",
+        "A": "The passage does not support social identity theory; it points instead to prospect theory.",
+        "C": "The passage does not support gate-control theory; it points instead to prospect theory.",
+        "D": "The passage does not support attachment theory; it points instead to prospect theory."
+      },
+      "topic": "Decision Making",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_loss_aversion_choices_319_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why should causal language be used cautiously for this passage?",
+      "choices": {
+        "C": "The design leaves room for alternative explanations or selection effects",
+        "A": "The passage contains no measurable variables",
+        "B": "All participant reports are automatically false",
+        "D": "The topic is unrelated to P/S content"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The task supports a framing effect, but it does not prove every real-world decision follows the same pattern.",
+        "A": "The passage includes concrete measures or observations, so this is incorrect.",
+        "B": "Self-report can have limitations, but it is not automatically false.",
+        "D": "The topic fits psychological, social, or behavioral science content."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_loss_aversion_choices_319_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application best follows from the passage?",
+      "choices": {
+        "A": "Frame matched outcomes carefully because wording can change risk preference",
+        "B": "Ignore the social or behavioral context described",
+        "C": "Use a one-size-fits-all intervention even when the passage shows different barriers",
+        "D": "Assume the measured pattern cannot be changed"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage shows that equivalent or similar choices may evoke different responses depending on gain versus loss framing.",
+        "B": "Ignoring the described context would miss the mechanism emphasized in the passage.",
+        "C": "A uniform intervention would not address the specific pattern described.",
+        "D": "The passage supports practical response rather than fatalism."
+      },
+      "topic": "Decision Making",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_loss_aversion_choices_319_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most defensible?",
+      "choices": {
+        "D": "Reference points and loss framing can influence risk-taking",
+        "A": "The finding proves a universal law for every person",
+        "B": "The main construct is irrelevant because one limitation exists",
+        "C": "The passage supports only biological explanations"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. This is the core prospect-theory conclusion supported by the experiment.",
+        "A": "The passage supports a bounded interpretation, not a universal absolute.",
+        "B": "A limitation weakens overclaiming but does not make the construct irrelevant.",
+        "C": "P/S passages often involve social and psychological mechanisms beyond biology alone."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

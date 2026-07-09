@@ -1,0 +1,344 @@
+{
+  "batch": "B207",
+  "section": "cars",
+  "topicArea": "Main Idea & Author Purpose",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "cars_cultural_preservation_207_q0",
+      "stem": "The author's primary purpose in this passage is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Argue that the universalist position on cultural artifacts is morally indefensible"
+        },
+        {
+          "label": "B",
+          "text": "Demonstrate that source nations lack the infrastructure to properly care for repatriated artifacts"
+        },
+        {
+          "label": "C",
+          "text": "Advocate for shared stewardship as the optimal solution to repatriation disputes"
+        },
+        {
+          "label": "D",
+          "text": "Present the repatriation debate as a complex issue with legitimate concerns on multiple sides while suggesting that power dynamics underlie the disagreement"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The author presents the universalist position with its practical arguments (conservation, access, research) before introducing the particularist critique. While the passage notes that some universalist claims carry 'echoes of colonial paternalism,' it does not dismiss the position entirely. The balanced treatment of both sides, including the shortcomings of shared stewardship, indicates an analytical rather than polemical purpose.",
+        "B": "The passage directly counters this claim by citing Nigeria's planned Edo Museum of West African Art and noting that many source nations have invested in modern museum infrastructure. The author identifies the argument from conservation capacity as carrying 'uncomfortable echoes of colonial paternalism,' suggesting critical distance from, not endorsement of, this position.",
+        "C": "While the passage describes shared stewardship as an attempt to 'transcend this binary,' it also presents substantive criticisms of this approach from both universalists and particularists. The Parthenon Marbles example specifically illustrates how compromise proposals can fail. The author presents shared stewardship as one position among several, not as the recommended solution.",
+        "D": "Correct. The passage systematically presents the universalist position, the particularist response, and the shared stewardship compromise, noting the strengths and limitations of each. The author frames the debate not merely as a question of artifact location but as one involving 'relationships of power and knowledge production' in the postcolonial era, suggesting that structural power dynamics are the underlying issue. This analytical framing, combined with the balanced presentation of criticisms from both sides, indicates the author's primary purpose is to map the terrain of a complex debate rather than advocate for a single resolution."
+      },
+      "topic": "Main Idea & Author Purpose",
+      "difficulty": "Medium",
+      "usePrevPassage": false,
+      "passage": "The debate over museum repatriation of cultural artifacts has intensified in recent decades, driven by former colonial nations' growing willingness to reconsider the provenance of their collections. At the center of this debate lies a fundamental tension between two conceptions of cultural heritage: the universalist view, which holds that great works of art and historical objects belong to all humanity and are best preserved in institutions with the resources and expertise to maintain them, and the particularist view, which insists that cultural objects derive their deepest significance from their connection to specific peoples and places, and that severing this connection constitutes an ongoing act of cultural violence.\n\nProponents of the universalist position point to the practical advantages of large metropolitan museums. The British Museum, the Louvre, and the Metropolitan Museum of Art draw millions of visitors annually, exposing diverse audiences to objects they would never otherwise encounter. These institutions maintain climate-controlled environments, employ specialist conservators, and conduct research that advances understanding of the objects in their care. To return every contested artifact, universalists argue, would fragment the world's cultural record and potentially expose irreplaceable objects to the hazards of political instability, inadequate storage, and limited conservation expertise in some source countries.\n\nThe particularist response challenges each of these claims. The argument from conservation capacity, critics note, carries uncomfortable echoes of colonial paternalism — the assumption that Western institutions are inherently more capable stewards than the communities that created the objects. Many source nations have invested heavily in modern museum infrastructure; Nigeria's planned Edo Museum of West African Art, designed to house returned Benin Bronzes, exemplifies this commitment. Moreover, particularists argue that the universalist framework treats cultural objects as though their meaning were fully captured by aesthetic appreciation and scholarly study, ignoring the living relationships between objects and descendant communities. A ceremonial mask displayed behind glass in London serves a fundamentally different function than the same mask used in its intended ritual context.\n\nA third position has emerged that attempts to transcend this binary. Rather than framing repatriation as an all-or-nothing proposition, some scholars advocate for shared stewardship arrangements: long-term loans, traveling exhibitions, digital collaborations, and joint conservation projects that maintain access while acknowledging source communities' moral claims. This approach recognizes that the question is not simply where objects should be located but how relationships of power and knowledge production should be restructured in the postcolonial era.\n\nYet even this compromise faces criticism from both sides. Universalists worry that shared stewardship is merely a prelude to permanent transfer, while particularists view it as a sophisticated means of maintaining control under the guise of partnership. The Parthenon Marbles controversy — where Greece has consistently rejected loan arrangements in favor of permanent return — illustrates how compromise can be perceived as an insult to sovereignty rather than a gesture of goodwill."
+    },
+    {
+      "id": "cars_cultural_preservation_207_q1",
+      "stem": "Based on the passage, the particularist critique of the universalist position relies most heavily on which claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Large museums charge excessive admission fees that restrict public access to cultural heritage"
+        },
+        {
+          "label": "B",
+          "text": "Western conservation techniques damage artifacts more than traditional preservation methods"
+        },
+        {
+          "label": "C",
+          "text": "The meaning and significance of cultural objects cannot be fully realized when they are separated from their communities of origin"
+        },
+        {
+          "label": "D",
+          "text": "International law uniformly requires the return of all colonial-era acquisitions"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage does not discuss admission fees or financial barriers to museum access. The particularist critique focuses on the ontological status of cultural objects — whether their meaning is inherent in the object itself or constituted through relationships with descendant communities — not on economic accessibility.",
+        "B": "The passage does not compare Western and traditional preservation techniques. The particularist response to conservation arguments focuses on challenging the paternalistic assumption that Western institutions are inherently superior stewards, not on claiming that Western methods are actively harmful to artifacts.",
+        "C": "Correct. The core of the particularist argument, as presented in the passage, is that universalism 'treats cultural objects as though their meaning were fully captured by aesthetic appreciation and scholarly study, ignoring the living relationships between objects and descendant communities.' The example of the ceremonial mask illustrates this claim: the same physical object serves a 'fundamentally different function' depending on whether it is displayed in a museum or used in its intended ritual context. This argument positions cultural significance as relational and context-dependent, not as an inherent property that travels with the object.",
+        "D": "The passage does not invoke international law or legal requirements for repatriation. The debate as presented is framed in ethical and philosophical terms — competing conceptions of cultural heritage, questions of power and knowledge production — rather than legal mandates."
+      },
+      "topic": "Reasoning Within the Text",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_cultural_preservation_207_q2",
+      "stem": "The author mentions the Parthenon Marbles controversy primarily to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Illustrate how shared stewardship proposals can be perceived as insufficient by source nations that view repatriation as a matter of sovereignty"
+        },
+        {
+          "label": "B",
+          "text": "Provide evidence that Greece lacks adequate museum facilities"
+        },
+        {
+          "label": "C",
+          "text": "Argue that loan arrangements are always preferable to permanent transfers"
+        },
+        {
+          "label": "D",
+          "text": "Show that the British Museum has been more willing to negotiate than other institutions"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Parthenon Marbles are introduced in the final paragraph as evidence that shared stewardship faces criticism from the particularist side. Greece's consistent rejection of loan arrangements 'in favor of permanent return' demonstrates that some source nations view repatriation as a non-negotiable matter of sovereignty. The author frames this as an illustration of how 'compromise can be perceived as an insult to sovereignty rather than a gesture of goodwill,' supporting the broader point that the shared stewardship model has significant limitations.",
+        "B": "The passage does not suggest Greece lacks museum facilities. The Parthenon Marbles example is used to illustrate the political and symbolic dimensions of repatriation — specifically, that compromise proposals can be perceived as insulting rather than conciliatory — not to evaluate Greece's conservation capacity.",
+        "C": "The passage presents the Parthenon Marbles case as a counterexample to the viability of loan arrangements: Greece rejected them. The author does not argue that loans are always preferable; rather, the example is used to show the limits of compromise approaches when sovereignty concerns are paramount.",
+        "D": "The passage does not discuss the British Museum's negotiating posture. The focus is on Greece's response to compromise proposals, not on institutional willingness to negotiate. The example serves an argumentative function about the limits of shared stewardship, not a comparative assessment of museum policies."
+      },
+      "topic": "Function of Evidence",
+      "difficulty": "Easy",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_cultural_preservation_207_q3",
+      "stem": "Which of the following scenarios, if true, would most weaken the particularist position as described in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A Western museum returns artifacts that are subsequently damaged due to inadequate storage in the source country"
+        },
+        {
+          "label": "B",
+          "text": "A descendant community voluntarily donates ceremonial objects to a foreign museum, stating that global display better honors their ancestors' legacy"
+        },
+        {
+          "label": "C",
+          "text": "Archaeologists discover that a contested artifact was originally created for international trade rather than local ritual use"
+        },
+        {
+          "label": "D",
+          "text": "A source nation builds a world-class museum specifically designed to house returned artifacts"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This scenario supports the universalist argument about conservation capacity, but the particularist position explicitly addresses this concern by noting that the conservation argument carries 'echoes of colonial paternalism.' A single instance of post-repatriation damage does not dismantle the ethical claim that objects belong with their source communities; it raises a practical concern that particularists would likely address through improved infrastructure.",
+        "B": "Correct. The particularist position rests on the claim that cultural objects derive their deepest significance from their connection to specific peoples and places, and that descendant communities are the rightful arbiters of those objects' meaning. If a descendant community itself determines that global display in a foreign institution better fulfills the objects' purpose, this undermines the assumption that repatriation to source communities is always what those communities want. It demonstrates that the 'living relationship' between objects and communities can be expressed through voluntary decisions that include placement in universal museums, complicating the particularist framework.",
+        "C": "Even if an artifact was originally created for trade, particularists could argue that centuries of cultural association have imbued it with significance to descendant communities. The particularist argument emphasizes 'living relationships' between objects and peoples, which evolve over time and are not solely determined by original intended use.",
+        "D": "Building a world-class museum actually supports the particularist position by demonstrating that source nations can provide adequate conservation — directly countering the universalist claim about infrastructure limitations. This scenario strengthens rather than weakens the case for repatriation."
+      },
+      "topic": "Reasoning Beyond the Text",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_cultural_preservation_207_q4",
+      "stem": "The phrase 'uncomfortable echoes of colonial paternalism' in paragraph 3 most nearly conveys the author's view that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Modern museums are direct extensions of colonial administration and should be dismantled"
+        },
+        {
+          "label": "B",
+          "text": "Conservation science is a pseudoscience developed to justify colonial extraction"
+        },
+        {
+          "label": "C",
+          "text": "All museum professionals harbor consciously racist attitudes toward source communities"
+        },
+        {
+          "label": "D",
+          "text": "The assumption that Western institutions are inherently superior stewards reproduces a colonial logic of civilizational hierarchy"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The phrase is a measured critique, not a call for institutional abolition. 'Echoes' suggests structural similarities between colonial justifications and contemporary arguments, not that museums are literally colonial entities. The author's balanced treatment of multiple positions throughout the passage is inconsistent with a call to dismantle institutions.",
+        "B": "The passage acknowledges that large museums maintain legitimate conservation capabilities (climate control, specialist conservators, research programs). The critique is not that conservation science is invalid but that invoking conservation superiority as a justification for retention reproduces a colonial assumption about relative civilizational competence.",
+        "C": "The phrase 'echoes' refers to structural patterns of reasoning, not individual attitudes. Colonial paternalism was a systemic ideology, and the author's point is that certain contemporary arguments reproduce its logical structure — regardless of the personal views or intentions of those making the arguments. Attributing conscious racism goes far beyond the author's carefully qualified language.",
+        "D": "Correct. By describing the conservation-capacity argument as carrying 'echoes of colonial paternalism,' the author draws a structural parallel between the colonial assumption that colonized peoples were incapable of governing themselves and the contemporary assumption that source nations cannot adequately preserve their own cultural heritage. The word 'echoes' is deliberately measured — it suggests resonance with colonial logic without equating modern museums with colonial administrations. This framing identifies an implicit civilizational hierarchy in the universalist argument without attributing malicious intent to individual advocates."
+      },
+      "topic": "Vocabulary in Context & Tone",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_cultural_preservation_207_q5",
+      "stem": "The author's attitude toward language revitalization is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Dismissive, viewing revitalization as a sentimental waste of resources"
+        },
+        {
+          "label": "B",
+          "text": "Neutral, presenting arguments without indicating any preference"
+        },
+        {
+          "label": "C",
+          "text": "Sympathetic, presenting criticism fairly while ultimately framing linguistic diversity as having intrinsic epistemic value"
+        },
+        {
+          "label": "D",
+          "text": "Hostile toward critics, characterizing all objections as politically motivated"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage opens by describing language extinction as 'one of the most profound cultural losses of the modern era' and concludes by framing preservation as 'an epistemic imperative.' This framing is fundamentally sympathetic, not dismissive. The author does present critical perspectives, but the overall arc moves from problem statement through debate to a defense of linguistic diversity's intrinsic value.",
+        "B": "While the author presents both sides of the debate, the passage is not strictly neutral. The opening paragraph establishes an urgency about language loss, and the final paragraph endorses the view that linguistic diversity has 'intrinsic value' and that its loss 'diminishes humanity's collective cognitive repertoire.' The author explicitly characterizes preservation as 'an epistemic imperative, not a sentimental project,' indicating a committed position.",
+        "C": "Correct. The passage treats critics' arguments seriously — the economic pragmatism objection and the authenticity concern are presented without caricature — but the overall structure builds toward the author's own position. The final paragraph's framing of linguistic diversity as an irreplaceable component of humanity's cognitive repertoire, and the explicit rejection of the 'sentimental' label in favor of 'epistemic imperative,' reveals the author's sympathetic stance. This is advocacy through balanced analysis: acknowledging opposing views to strengthen the ultimate argument.",
+        "D": "The passage presents critics' objections as substantive intellectual positions (pragmatic adaptation, authenticity concerns), not as politically motivated attacks. The defenders' responses engage with these arguments on their merits (addressing the coercion context, drawing parallels to all language evolution). There is no hostility toward critics in the passage's tone."
+      },
+      "topic": "Author Tone & Attitude",
+      "difficulty": "Medium",
+      "usePrevPassage": false,
+      "passage": "The extinction of languages represents one of the most profound, if least visible, cultural losses of the modern era. Of the approximately 7,000 languages currently spoken worldwide, linguists estimate that between 50 and 90 percent will fall silent by the end of this century. Each language encodes unique knowledge systems — ecological classifications, medicinal plant taxonomies, navigational techniques, social structures — that have no equivalent in dominant languages. When a language disappears, this accumulated knowledge vanishes with it, irrecoverable by any other means.\n\nLanguage revitalization movements have proliferated in response to this crisis, drawing on strategies ranging from immersion schools to digital archives to master-apprentice programs that pair elderly speakers with younger learners. The most celebrated success story is the revival of Hebrew, which transitioned from a liturgical language with no native speakers to the daily language of millions within a few generations. More recently, the Māori language in New Zealand and Hawaiian in the United States have shown measurable gains in speaker populations following sustained institutional investment.\n\nCritics of revitalization efforts raise several objections. Some linguists argue that language shift is a natural process driven by speakers' rational choices: when a minority language offers fewer economic opportunities than a dominant one, speakers' decision to adopt the dominant language reflects pragmatic adaptation, not cultural surrender. Forcing language preservation, these critics contend, risks romanticizing poverty by tethering communities to practices that limit their socioeconomic mobility. Others question whether revitalized languages are truly the same as their ancestral forms, noting that contemporary Hawaiian or Welsh inevitably incorporate modern concepts and grammatical simplifications absent from earlier usage.\n\nDefenders of revitalization reject the framing of language choice as purely rational. Language shift, they argue, typically occurs under conditions of coercion — forced schooling in colonial languages, legal prohibitions on indigenous speech, economic structures that punish minority-language use. What appears as voluntary adoption of a dominant language often reflects internalized oppression rather than free choice. Moreover, defenders contend that the authenticity objection misunderstands how all languages work: English, Mandarin, and Spanish have all undergone radical transformation over centuries without anyone questioning whether their modern forms are 'really' the same language.\n\nThe deeper question may be whether linguistic diversity has intrinsic value beyond its utility to speakers. If each language represents an irreplaceable perspective on human experience — a unique window onto consciousness, relationship, and meaning — then the loss of linguistic diversity diminishes humanity's collective cognitive repertoire in ways that no amount of translation can restore. This view positions language preservation not as a sentimental project but as an epistemic imperative."
+    },
+    {
+      "id": "cars_cultural_preservation_207_q6",
+      "stem": "The passage mentions the revival of Hebrew primarily to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Provide evidence that language revitalization can succeed at scale, lending credibility to current efforts"
+        },
+        {
+          "label": "B",
+          "text": "Demonstrate that religious languages are easier to revive than secular ones"
+        },
+        {
+          "label": "C",
+          "text": "Argue that all endangered languages can be fully restored if given sufficient funding"
+        },
+        {
+          "label": "D",
+          "text": "Suggest that Hebrew revitalization was accomplished without institutional support"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hebrew is introduced as evidence that language revitalization is achievable. The passage notes its transformation 'from a liturgical language with no native speakers to the daily language of millions within a few generations,' establishing a precedent for the viability of revitalization programs. This example strengthens the case for current efforts with Māori and Hawaiian by showing that even apparently moribund languages can be successfully revived under appropriate conditions.",
+        "B": "The passage describes Hebrew's pre-revival status as 'liturgical' but does not attribute its successful revitalization to its religious character. The example is used to demonstrate that a language with no native speakers can become a living language spoken by millions, regardless of its religious versus secular origins.",
+        "C": "The passage describes Hebrew as 'the most celebrated success story' but does not generalize that all languages can be fully restored. The discussion of Māori and Hawaiian notes 'measurable gains,' a more modest characterization that acknowledges varying degrees of success. The Hebrew example illustrates possibility, not inevitability.",
+        "D": "The passage does not discuss the specific mechanisms of Hebrew revitalization, but the phrase 'sustained institutional investment' (applied to Māori and Hawaiian) implies that institutional support is a key factor in successful revitalization. The Hebrew case is presented as a success example, not as evidence against institutional involvement."
+      },
+      "topic": "Function of Examples",
+      "difficulty": "Easy",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_cultural_preservation_207_q7",
+      "stem": "The defenders' comparison of revitalized languages to the evolution of English, Mandarin, and Spanish serves to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Concede that revitalized languages are fundamentally different from their ancestral forms"
+        },
+        {
+          "label": "B",
+          "text": "Undermine the authenticity objection by showing that linguistic change is universal and does not invalidate a language's identity"
+        },
+        {
+          "label": "C",
+          "text": "Argue that minority languages should adopt the grammatical structures of dominant languages to survive"
+        },
+        {
+          "label": "D",
+          "text": "Suggest that all languages will eventually converge into a single global tongue"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The comparison is designed to reject, not concede, the claim that revitalized languages are 'not really the same.' By showing that all major languages have undergone 'radical transformation over centuries' without losing their identity, the defenders argue that change is inherent to all living languages, not a disqualifying defect of revitalized ones.",
+        "B": "Correct. The defenders draw an analogy between the evolution of revitalized languages and the historical transformation of dominant languages to neutralize the authenticity critique. Their argument is that if modern English (vastly different from Old English) is unquestionably 'English,' then modern Hawaiian incorporating new concepts is equally legitimate as 'Hawaiian.' This rhetorical move reframes linguistic change from a problem specific to revitalized languages to a universal feature of all languages, removing the basis for questioning authenticity.",
+        "C": "The comparison does not recommend structural convergence. The point is that change within a language's own trajectory is natural, not that minority languages should adopt foreign structures. The defenders' broader position supports preserving linguistic diversity, which would be undermined by recommending structural assimilation.",
+        "D": "Linguistic convergence is not discussed or implied in the passage. The comparison addresses the diachronic evolution of individual languages over time, not synchronic convergence between different languages. The passage's overall argument for preserving linguistic diversity explicitly opposes the idea that fewer languages would be acceptable."
+      },
+      "topic": "Reasoning Within the Text",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_cultural_preservation_207_q8",
+      "stem": "A sociolinguist who studies how economic incentives drive language shift in immigrant communities would most likely align with which perspective in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The particularist view of cultural heritage discussed in Passage 1"
+        },
+        {
+          "label": "B",
+          "text": "The defenders of revitalization who emphasize coercion in language shift"
+        },
+        {
+          "label": "C",
+          "text": "The author's concluding argument about linguistic diversity as epistemic imperative"
+        },
+        {
+          "label": "D",
+          "text": "The critics who view language shift as a pragmatic rational choice by speakers"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The particularist view from the first passage concerns physical cultural artifacts and their connection to source communities, not language shift dynamics. While there are thematic parallels between particularism and language preservation, a sociolinguist studying economic drivers of language shift is specifically investigating the mechanism the critics describe, not artifact repatriation frameworks.",
+        "B": "The defenders emphasize that language shift occurs 'under conditions of coercion' — forced schooling, legal prohibitions, punitive economic structures. A researcher focused on how economic incentives drive shift is studying the same phenomenon but through a rationalist rather than coercive lens, more closely matching the critics' framing of pragmatic adaptation.",
+        "C": "The author's concluding argument concerns the intrinsic epistemic value of linguistic diversity, which is a philosophical claim about what humanity loses when languages disappear. A researcher focused on economic drivers of language shift is investigating empirical mechanisms of how shift occurs, not making normative claims about whether linguistic diversity should be preserved for epistemic reasons.",
+        "D": "Correct. The critics described in paragraph 3 argue that 'language shift is a natural process driven by speakers' rational choices' and that adopting a dominant language 'reflects pragmatic adaptation, not cultural surrender.' A sociolinguist who studies economic incentives for language shift is investigating precisely this mechanism — how rational cost-benefit calculations about economic opportunity influence speakers' language choices in immigrant communities. This research framework aligns with the critics' position that economic pragmatism, not cultural coercion, explains language shift."
+      },
+      "topic": "Application to New Scenarios",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_cultural_preservation_207_q9",
+      "stem": "The passage suggests that the concept of 'epistemic imperative' in the final paragraph differs from 'sentimental project' primarily in that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "An epistemic imperative frames language preservation as necessary for maintaining humanity's full range of ways of knowing, whereas sentimentality implies mere nostalgia"
+        },
+        {
+          "label": "B",
+          "text": "An epistemic imperative is based on the practical economic value of linguistic diversity, while sentimentality is based on emotional attachment"
+        },
+        {
+          "label": "C",
+          "text": "An epistemic imperative requires government funding, while a sentimental project relies on voluntary donations"
+        },
+        {
+          "label": "D",
+          "text": "There is no meaningful difference; the author uses both terms interchangeably"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author explicitly reframes language preservation from a 'sentimental project' — implying mere emotional attachment to the past — to an 'epistemic imperative' — implying that linguistic diversity is essential to humanity's ability to know and understand the world. The key distinction is between nostalgia (backward-looking emotion) and epistemology (the scope and structure of human knowledge). By arguing that each language represents 'a unique window onto consciousness, relationship, and meaning,' the author positions language loss as a cognitive impoverishment, not merely an emotional one.",
+        "B": "The author does not base the epistemic imperative on economic value. The final paragraph explicitly frames linguistic diversity in terms of 'irreplaceable perspective on human experience' and 'humanity's collective cognitive repertoire' — these are epistemological (knowledge-related) claims, not economic ones. The distinction is between knowledge value and emotional attachment, not economic value and emotion.",
+        "C": "The passage does not discuss funding mechanisms for language preservation. The distinction between epistemic imperative and sentimental project is philosophical, not administrative. It concerns how we conceptualize the value of linguistic diversity, not how we finance its preservation.",
+        "D": "The author explicitly contrasts the two terms with the phrase 'not as a sentimental project but as an epistemic imperative,' indicating they are distinct framings with different implications. The conjunction 'not... but' establishes a clear opposition between the two concepts."
+      },
+      "topic": "Vocabulary in Context",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    }
+  ],
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  }
+}

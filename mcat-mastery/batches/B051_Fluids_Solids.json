@@ -1,0 +1,336 @@
+{
+  "batch": "B051",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Fluids & Solids",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cp_fluid_001",
+      "passage": "A cardiologist reviews the hemodynamics of a patient with coronary artery disease. One coronary artery has an atherosclerotic plaque that reduces its radius by 50%. Blood is an incompressible viscous fluid, and the vessel walls are assumed to be rigid for this analysis. The physician notes that flow through the stenotic segment is turbulent at high cardiac outputs, producing an audible bruit.",
+      "stem": "According to Poiseuille's law, reducing the vessel radius by 50% changes resistance to flow by a factor of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2\u00d7 (doubles), because resistance is inversely proportional to radius"
+        },
+        {
+          "label": "B",
+          "text": "4\u00d7 (quadruples), because resistance is inversely proportional to radius squared"
+        },
+        {
+          "label": "C",
+          "text": "8\u00d7 (octuples), because resistance is inversely proportional to radius cubed"
+        },
+        {
+          "label": "D",
+          "text": "16\u00d7 (increases 16-fold), because resistance is inversely proportional to the fourth power of radius"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Resistance is not simply inversely proportional to radius. Poiseuille's law (R = 8\u03b7L/\u03c0r\u2074) shows resistance depends on the fourth power of radius. A simple 1/r dependence would give only a 2-fold increase when radius halves.",
+        "B": "An r\u00b2 dependence would give a 4-fold increase. Poiseuille's law has an r\u2074 dependence, which is far more sensitive to small changes in radius. This is why even moderate arterial narrowing dramatically reduces flow.",
+        "C": "An r\u00b3 dependence would give an 8-fold increase. While this is closer, Poiseuille's law specifically has an r\u2074 term in the denominator, giving a 16-fold increase when r halves.",
+        "D": "Correct. Poiseuille's law: R = 8\u03b7L/(\u03c0r\u2074). When radius is reduced by 50% (r \u2192 r/2), new resistance = 8\u03b7L/(\u03c0(r/2)\u2074) = 8\u03b7L/(\u03c0r\u2074/16) = 16 \u00d7 original resistance. A 50% reduction in radius increases resistance 16-fold (2\u2074 = 16). This explains why small reductions in arterial radius dramatically decrease blood flow \u2014 flow rate Q = \u0394P/R, so a 16\u00d7 resistance increase reduces flow to 1/16 at the same driving pressure. Clinically, this is why even moderate stenosis (50% radius reduction) can cause significant ischemia during exercise when cardiac output demand increases."
+      },
+      "topic": "Poiseuille's Law / Vascular Resistance",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_fluid_002",
+      "passage": null,
+      "passageRef": "cp_fluid_001",
+      "stem": "Blood flowing through the stenosis accelerates because of the reduced cross-sectional area. This relationship between flow velocity and cross-sectional area is described by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the continuity equation (Av = constant) \u2014 when area decreases, velocity must increase to maintain constant volumetric flow rate"
+        },
+        {
+          "label": "B",
+          "text": "Poiseuille's law, which relates resistance to vessel radius"
+        },
+        {
+          "label": "C",
+          "text": "Bernoulli's principle, which states that pressure increases where velocity increases"
+        },
+        {
+          "label": "D",
+          "text": "Stokes' law, which relates drag force on a sphere to fluid viscosity"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The continuity equation for incompressible fluids states that the volumetric flow rate Q = Av is constant throughout a connected system. When a vessel narrows (A decreases), the blood must accelerate (v increases) to maintain the same volume per unit time passing through every cross-section. Stenosis \u2192 smaller area \u2192 higher velocity. This acceleration through the stenosis creates turbulence (audible as a bruit) and a Bernoulli pressure drop.",
+        "B": "Poiseuille's law describes the relationship between pressure, resistance, and flow rate (Q = \u0394P/R). It does not directly describe the relationship between cross-sectional area and flow velocity within the vessel lumen. That relationship is the continuity equation.",
+        "C": "Bernoulli's principle relates velocity and pressure \u2014 where velocity is higher, pressure is lower (not higher). At the stenosis, higher velocity produces lower pressure. The question asks about the velocity-area relationship, which is the continuity equation, not Bernoulli. Bernoulli is a consequence of the acceleration, not its cause.",
+        "D": "Stokes' law (F_drag = 6\u03c0\u03b7rv) describes the drag force on a sphere moving through a viscous fluid. It is relevant to erythrocyte sedimentation and particle settling, not to flow velocity in a narrowed vessel lumen."
+      },
+      "topic": "Continuity Equation / Flow Velocity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluid_003",
+      "passage": null,
+      "stem": "A patient is fully submerged in a rehabilitation pool. The buoyant force on the patient equals:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the weight of the patient"
+        },
+        {
+          "label": "B",
+          "text": "the weight of the patient minus the weight of the water displaced"
+        },
+        {
+          "label": "C",
+          "text": "zero, because the patient is not moving"
+        },
+        {
+          "label": "D",
+          "text": "the weight of the water displaced by the patient (Archimedes' principle)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The buoyant force equals the weight of displaced fluid, not the weight of the patient. If these were equal, the patient would be in neutral buoyancy (floating). Patients typically sink in water (density ~1000 kg/m\u00b3) unless their average body density is close to water's density.",
+        "B": "The buoyant force minus the weight would give the net force, not the buoyant force itself. The buoyant force is simply the weight of displaced water. The net vertical force on the patient is: F_net = F_buoyancy \u2212 F_gravity = (weight of displaced water) \u2212 (weight of patient).",
+        "C": "Buoyancy is a static force that acts regardless of motion. A fully submerged patient experiences a constant upward buoyant force equal to the weight of the water volume displaced, whether stationary or moving. The buoyant force arises from the pressure difference between the bottom and top of the submerged object.",
+        "D": "Correct. Archimedes' principle: the buoyant force on an object submerged in a fluid equals the weight of the fluid displaced. F_buoyancy = \u03c1_fluid \u00d7 V_object \u00d7 g. This is why rehabilitation pools are useful \u2014 the buoyant force partially counteracts gravity, reducing the effective weight that joints must support. A patient whose average density is close to water's is nearly weightless in the pool."
+      },
+      "topic": "Archimedes' Principle / Buoyancy",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_fluid_004",
+      "passage": null,
+      "stem": "Gauge pressure is defined as the pressure measured relative to atmospheric pressure. An absolute pressure of 200 kPa at sea level (atmospheric pressure \u2248 101 kPa) corresponds to a gauge pressure of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "200 kPa"
+        },
+        {
+          "label": "B",
+          "text": "99 kPa, because gauge pressure = absolute pressure \u2212 atmospheric pressure"
+        },
+        {
+          "label": "C",
+          "text": "301 kPa, because gauge pressure = absolute + atmospheric"
+        },
+        {
+          "label": "D",
+          "text": "0 kPa, because all pressures are relative"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "200 kPa is the absolute pressure \u2014 the total pressure measured from a perfect vacuum (zero pressure reference). Gauge pressure uses atmospheric pressure as the reference, so it is always less than absolute pressure by one atmosphere.",
+        "B": "Correct. Gauge pressure = Absolute pressure \u2212 Atmospheric pressure = 200 \u2212 101 = 99 kPa. Gauge pressure represents the pressure above (or below) atmospheric. Sphygmomanometer (blood pressure cuff) readings are gauge pressures \u2014 a systolic reading of 120 mmHg means 120 mmHg above atmospheric. Absolute pressures are used in gas law calculations; gauge pressures are more convenient for physiological and engineering measurements.",
+        "C": "301 kPa would be obtained by adding atmospheric pressure to absolute pressure \u2014 the opposite of the correct formula. Adding them would have no physical meaning.",
+        "D": "Not all pressures are relative to the same reference. Gauge pressure is relative to atmospheric, but absolute pressure is relative to a perfect vacuum. The choice of reference matters for calculations \u2014 ideal gas law calculations require absolute pressure (in kPa or atm), not gauge pressure."
+      },
+      "topic": "Gauge vs Absolute Pressure",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_fluid_005",
+      "passage": null,
+      "stem": "Bernoulli's equation (P + \u00bd\u03c1v\u00b2 + \u03c1gh = constant) applies to ideal fluid flow. Which of the following is NOT an assumption of ideal fluid flow?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The fluid has significant viscosity that dissipates energy as heat"
+        },
+        {
+          "label": "B",
+          "text": "The flow is laminar (non-turbulent) and steady"
+        },
+        {
+          "label": "C",
+          "text": "The fluid is incompressible"
+        },
+        {
+          "label": "D",
+          "text": "The fluid is non-viscous (inviscid)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct \u2014 significant viscosity is NOT an assumption of ideal fluid flow; it is the assumption that is explicitly excluded. Ideal fluids are assumed to be non-viscous (inviscid). Real fluids (blood, water, oil) have viscosity that causes energy dissipation as heat through internal friction. Bernoulli's equation cannot be applied to highly viscous fluids or to situations where viscous losses are significant. Poiseuille's law, not Bernoulli's, applies to viscous flow in tubes.",
+        "B": "Laminar, steady flow is assumed in the derivation of Bernoulli's equation. Turbulent flow involves chaotic, energy-dissipating eddies that violate the energy conservation basis of Bernoulli's equation. This is why Bernoulli's equation does not apply at the stenosis in the passage above, where turbulence occurs.",
+        "C": "Incompressibility (constant density) is indeed an assumption of ideal flow and Bernoulli's equation. The derivation assumes \u03c1 is constant along a streamline. This is a good approximation for liquids (water, blood) and for gases at low flow velocities (where density changes are negligible).",
+        "D": "Non-viscosity (inviscid flow) is indeed an assumption of ideal flow, not a violation of it. An inviscid fluid has no internal friction, so mechanical energy (kinetic + potential + pressure) is conserved along a streamline \u2014 the basis of Bernoulli's equation."
+      },
+      "topic": "Bernoulli's Equation / Ideal Fluid Assumptions",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluid_006",
+      "passage": null,
+      "stem": "A solid metal cylinder is hung by a string and slowly lowered into a beaker of water on a scale. As the cylinder is submerged, the reading on the scale:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decreases, because the cylinder loses apparent weight in water"
+        },
+        {
+          "label": "B",
+          "text": "increases, because the water exerts a buoyant force on the cylinder and by Newton's third law, the cylinder exerts an equal downward force on the water"
+        },
+        {
+          "label": "C",
+          "text": "stays the same, because the cylinder is supported by the string"
+        },
+        {
+          "label": "D",
+          "text": "decreases then increases, because buoyancy varies with depth"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The cylinder itself appears lighter (the string tension decreases), but this does not affect the scale reading. The scale reads the total downward force on the beaker \u2014 the weight of the water plus the reaction force from the cylinder-water interaction.",
+        "B": "Correct. By Newton's third law, the water exerts an upward buoyant force on the cylinder, and the cylinder exerts an equal and opposite downward force on the water (and therefore on the beaker and scale). The scale reading increases by exactly the buoyant force \u2014 the weight of water displaced by the submerged cylinder. This is true regardless of what is supporting the cylinder (string, hand, or nothing). The total system weight (cylinder + water + beaker) is conserved; the scale reads more because the cylinder's weight is being partially transferred to the scale via the water.",
+        "C": "The string supporting the cylinder does not affect the water-cylinder force interaction. The buoyant force acts on the cylinder, and the reaction force acts on the water, increasing the scale reading. The string carries only the reduced apparent weight of the cylinder (actual weight minus buoyancy).",
+        "D": "For an incompressible fluid, buoyancy depends only on the volume submerged (F_b = \u03c1_fluid \u00d7 V_submerged \u00d7 g), not on depth. Once fully submerged, further lowering does not change the buoyant force or the scale reading."
+      },
+      "topic": "Newton's Third Law / Buoyancy and Scale Reading",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_fluid_007",
+      "passage": null,
+      "stem": "Surface tension is the property of a liquid surface that causes it to resist expansion. It arises from:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "gravitational attraction between liquid molecules and the container walls"
+        },
+        {
+          "label": "B",
+          "text": "the net inward cohesive force on surface molecules, which lack neighbors above them and therefore experience a net attraction toward the bulk liquid"
+        },
+        {
+          "label": "C",
+          "text": "repulsive forces between surface molecules that push outward against the air"
+        },
+        {
+          "label": "D",
+          "text": "the viscosity of the liquid at its surface, which is higher than in the bulk"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Gravitational attraction affects liquid behavior (e.g., hydrostatic pressure) but is not the origin of surface tension. Surface tension arises from intermolecular cohesive forces between liquid molecules \u2014 primarily van der Waals forces, hydrogen bonds, or dipole-dipole interactions \u2014 not from gravity or adhesion to container walls.",
+        "B": "Correct. Molecules in the bulk of a liquid are surrounded by neighbors in all directions, so the intermolecular attractive forces cancel out. Molecules at the surface lack neighbors on one side (the vapor phase), experiencing a net inward pull toward the bulk liquid. This inward force creates a tendency to minimize surface area \u2014 the surface behaves like a stretched elastic membrane. Surface tension (\u03b3 = force/length or energy/area) is higher for liquids with stronger intermolecular forces. Water has high surface tension (~72 mN/m) due to hydrogen bonding. Pulmonary surfactant reduces alveolar surface tension from ~70 to ~25 mN/m.",
+        "C": "Intermolecular forces in liquids are primarily attractive (cohesive), not repulsive. Repulsive forces dominate only at very short distances (when molecules overlap). Surface tension arises from the imbalance of attractive forces at the surface, not from repulsion.",
+        "D": "Viscosity describes resistance to flow throughout the bulk liquid, not a special surface property. The surface region does have slightly different properties from the bulk, but surface tension and viscosity are distinct phenomena with different molecular origins."
+      },
+      "topic": "Surface Tension / Intermolecular Forces",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluid_008",
+      "passage": null,
+      "stem": "Stress is defined as force per unit area (\u03c3 = F/A), and strain is the fractional deformation (\u03b5 = \u0394L/L\u2080). For an elastic solid below its elastic limit, the relationship between stress and strain is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stress increases exponentially with strain"
+        },
+        {
+          "label": "B",
+          "text": "stress equals strain (they are always equal in elastic materials)"
+        },
+        {
+          "label": "C",
+          "text": "strain increases while stress remains constant (plastic deformation)"
+        },
+        {
+          "label": "D",
+          "text": "stress is directly proportional to strain, with Young's modulus (E) as the proportionality constant: \u03c3 = E\u03b5"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Below the elastic limit (proportional limit), the stress-strain relationship is linear, not exponential. Exponential behavior might describe some biological tissues (like arterial walls that stiffen progressively at higher strains), but not ideally elastic solids within their linear regime.",
+        "B": "Stress (force/area, Pa or N/m\u00b2) and strain (dimensionless ratio) have different units and are never equal. Young's modulus E has units of pascals (Pa) and relates them: \u03c3 = E\u03b5. A material with E = 200 GPa (steel) has a stress of 200 MPa at 0.001 strain.",
+        "C": "Constant stress with increasing strain (perfectly plastic deformation) describes the plastic region beyond the yield strength \u2014 after the elastic limit is exceeded. Below the elastic limit, both stress and strain increase proportionally together. The question specifies below the elastic limit.",
+        "D": "Correct. Hooke's law for elastic materials: \u03c3 = E\u03b5, where E is Young's modulus \u2014 the material's stiffness. Within the elastic (proportional) region, doubling the applied force doubles the deformation, and removing the force returns the material to its original shape. Young's modulus ranges from ~0.001 GPa (soft rubber) to ~200 GPa (steel). Bone has E \u2248 15\u201330 GPa, cartilage \u2248 0.001\u20130.01 GPa. This linear relationship ends at the elastic limit; beyond it, permanent (plastic) deformation occurs."
+      },
+      "topic": "Young's Modulus / Stress-Strain / Hooke's Law",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluid_009",
+      "passage": null,
+      "stem": "A fluid manometer shows that the pressure at the bottom of a 0.5 m column of mercury (density \u03c1 = 13,600 kg/m\u00b3, g = 10 m/s\u00b2) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6800 Pa"
+        },
+        {
+          "label": "B",
+          "text": "27,200 Pa"
+        },
+        {
+          "label": "C",
+          "text": "68,000 Pa"
+        },
+        {
+          "label": "D",
+          "text": "680 Pa"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "6800 Pa would result from P = \u03c1gh = 13,600 \u00d7 10 \u00d7 0.05 (using 0.05 m instead of 0.5 m) \u2014 a factor-of-10 error in the height.",
+        "B": "27,200 Pa would be \u03c1gh = 13,600 \u00d7 10 \u00d7 0.2, using an incorrect height of 0.2 m instead of 0.5 m.",
+        "C": "Correct. Hydrostatic pressure: P = \u03c1gh = 13,600 kg/m\u00b3 \u00d7 10 m/s\u00b2 \u00d7 0.5 m = 68,000 Pa = 68 kPa. This equals approximately 510 mmHg (since 1 mmHg \u2248 133 Pa). Importantly, 760 mmHg = atmospheric pressure = 101,325 Pa. Mercury's high density makes it useful in manometers because a small column height corresponds to large pressures \u2014 a mercury column of only 760 mm equals one atmosphere, while a water column would need to be ~10.3 meters.",
+        "D": "680 Pa would be \u03c1gh using water density (1000 kg/m\u00b3) at 0.068 m height, which is neither the correct density nor the correct height for this problem."
+      },
+      "topic": "Hydrostatic Pressure / P = \u03c1gh",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluid_010",
+      "passage": null,
+      "stem": "Laminar flow becomes turbulent above a critical velocity characterized by a high Reynolds number. The Reynolds number (Re = \u03c1vD/\u03b7) predicts turbulence based on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the ratio of gravitational force to viscous force"
+        },
+        {
+          "label": "B",
+          "text": "the absolute viscosity of the fluid alone"
+        },
+        {
+          "label": "C",
+          "text": "the ratio of inertial forces to viscous forces \u2014 high Re means inertia dominates and flow becomes unstable and turbulent"
+        },
+        {
+          "label": "D",
+          "text": "the depth of the fluid and the acceleration due to gravity"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The ratio of gravitational to viscous forces is related to the Froude number or other dimensionless groups, not the Reynolds number. The Reynolds number specifically captures the competition between inertial momentum (\u03c1v\u00b2) and viscous damping (\u03b7v/D).",
+        "B": "Viscosity alone does not determine whether flow is turbulent. High viscosity favors laminar flow, but so does low velocity, small diameter, and low density. The Reynolds number combines all these factors into a single dimensionless parameter that predicts the flow regime.",
+        "C": "Correct. Re = \u03c1vD/\u03b7 captures the ratio of inertial to viscous forces. Inertial forces (\u03c1v\u00b2) tend to destabilize flow (amplify perturbations), while viscous forces (\u03b7 \u00d7 v/D) tend to damp disturbances and maintain laminar flow. At low Re (< ~2000 for flow in a pipe), viscous forces dominate and flow remains laminar and smooth. At high Re (> ~4000), inertia dominates and small disturbances grow into turbulent eddies. In blood vessels, turbulence occurs at stenoses (high v, reduced D relative to upstream) \u2014 producing the audible bruit mentioned in the passage.",
+        "D": "Depth and gravitational acceleration are not variables in the Reynolds number formula (Re = \u03c1vD/\u03b7). Gravity is relevant to the Froude number (ratio of inertial to gravitational forces), which characterizes free-surface flows (rivers, tidal waves), not pipe or vessel flow."
+      },
+      "topic": "Reynolds Number / Turbulence",
+      "difficulty": "Medium"
+    }
+  ]
+}

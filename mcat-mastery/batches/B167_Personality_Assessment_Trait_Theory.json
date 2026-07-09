@@ -1,0 +1,351 @@
+{
+  "batch": "B167",
+  "section": "ps",
+  "sectionName": "Psychological, Social, & Biological Foundations of Behavior",
+  "topicArea": "Personality Assessment & Trait Theory",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_personality2_001",
+      "passage": "Researchers compare two personality inventories. Inventory X has high test-retest reliability over six weeks but correlates weakly with peer ratings. Inventory Y has moderate reliability and correlates strongly with peer ratings and observed behavior. Both inventories report Big Five trait scores.\n\nInventory | Test-retest r | Peer-rating correlation | Behavioral prediction\nX | 0.92 | 0.18 | weak\nY | 0.76 | 0.61 | stronger\n\nThe researchers distinguish reliability from validity and warn that a measure can be consistent without measuring the intended construct.",
+      "stem": "Inventory X's high test-retest r most directly indicates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "social desirability"
+        },
+        {
+          "label": "B",
+          "text": "criterion validity"
+        },
+        {
+          "label": "C",
+          "text": "construct validity"
+        },
+        {
+          "label": "D",
+          "text": "reliability"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Social desirability is a response bias, not the meaning of a high retest correlation.",
+        "B": "Criterion validity would require correlation with an external outcome, which is weak for Inventory X.",
+        "C": "Construct validity concerns whether the test measures the intended trait; consistency alone is not enough.",
+        "D": "Correct. Test-retest reliability measures score stability over time. Inventory X is consistent across six weeks even though it may not predict peer ratings well."
+      },
+      "topic": "Personality Assessment & Trait Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_personality2_002",
+      "passage": null,
+      "stem": "Why might Inventory X still be a poor assessment tool?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It cannot produce numerical scores"
+        },
+        {
+          "label": "B",
+          "text": "It has too much reliability"
+        },
+        {
+          "label": "C",
+          "text": "It is consistent but weakly related to relevant external criteria"
+        },
+        {
+          "label": "D",
+          "text": "It measures peer ratings directly"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The table gives correlations, implying numerical scores exist.",
+        "B": "High reliability is desirable, but it does not guarantee validity. The problem is not too much consistency; it is insufficient evidence of meaning.",
+        "C": "Correct. A measure can reliably give the same score while failing to capture the intended construct or predict relevant behavior. Inventory X's weak peer and behavioral associations raise validity concerns.",
+        "D": "Peer ratings are external criteria, not what Inventory X directly measures."
+      },
+      "topic": "Personality Assessment & Trait Theory",
+      "difficulty": "Easy",
+      "passageRef": "ps_personality2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_personality2_003",
+      "passage": null,
+      "stem": "Inventory Y's stronger peer and behavioral correlations support:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "validity evidence"
+        },
+        {
+          "label": "B",
+          "text": "lower reliability as always better"
+        },
+        {
+          "label": "C",
+          "text": "absence of measurement error"
+        },
+        {
+          "label": "D",
+          "text": "diagnosis of a disorder"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Correlations with peer ratings and behavior provide criterion-related or convergent validity evidence. Inventory Y may be somewhat less stable but appears more meaningfully connected to the trait construct.",
+        "B": "Lower reliability is not inherently better. Inventory Y is useful because it retains adequate reliability while showing stronger validity evidence.",
+        "C": "All psychological measures contain some measurement error. Stronger correlations do not mean error is absent.",
+        "D": "Trait scores alone do not diagnose a disorder without impairment, duration, and clinical context."
+      },
+      "topic": "Personality Assessment & Trait Theory",
+      "difficulty": "Medium",
+      "passageRef": "ps_personality2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_personality2_004",
+      "passage": null,
+      "stem": "Which statement best distinguishes reliability and validity?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Reliability means the test is always correct"
+        },
+        {
+          "label": "B",
+          "text": "Reliability is consistency; validity is whether the measure supports intended interpretations"
+        },
+        {
+          "label": "C",
+          "text": "Validity means scores never change"
+        },
+        {
+          "label": "D",
+          "text": "They are identical concepts"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A reliable test can be consistently wrong or irrelevant, as Inventory X illustrates.",
+        "B": "Correct. Reliability concerns consistency of measurement, while validity concerns whether evidence supports the use and interpretation of scores. Reliability is often necessary for validity but not sufficient.",
+        "C": "Valid traits can show real change or context effects; validity is not score immutability.",
+        "D": "The passage explicitly distinguishes the concepts."
+      },
+      "topic": "Personality Assessment & Trait Theory",
+      "difficulty": "Hard",
+      "passageRef": "ps_personality2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_personality2_005",
+      "passage": null,
+      "stem": "A Big Five trait model is most associated with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dimensional trait description"
+        },
+        {
+          "label": "B",
+          "text": "psychosexual stages only"
+        },
+        {
+          "label": "C",
+          "text": "classical conditioning only"
+        },
+        {
+          "label": "D",
+          "text": "labeling theory"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Big Five describes personality along dimensions such as neuroticism and conscientiousness. It is a trait approach rather than a stage theory or learning-only model.",
+        "B": "Psychosexual stages are Freudian developmental concepts, not the Big Five trait taxonomy.",
+        "C": "Classical conditioning can shape behavior but is not the Big Five framework.",
+        "D": "Labeling theory is a sociological concept about deviance and identity, not a personality trait model."
+      },
+      "topic": "Personality Assessment & Trait Theory",
+      "difficulty": "Medium",
+      "passageRef": "ps_personality2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_personality2_006",
+      "passage": "A clinical psychologist evaluates a patient using structured interviews, self-report scales, and informant reports. The patient endorses high neuroticism, low conscientiousness, and high impulsivity. The psychologist avoids diagnosing solely from personality traits, instead integrating impairment, duration, context, and differential diagnosis. A second patient gives extremely favorable self-ratings inconsistent with informant reports, raising concern for social desirability bias.",
+      "stem": "Why should the psychologist avoid diagnosing solely from high neuroticism?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Informant reports are always false"
+        },
+        {
+          "label": "B",
+          "text": "High neuroticism is impossible to measure"
+        },
+        {
+          "label": "C",
+          "text": "Personality traits are never related to symptoms"
+        },
+        {
+          "label": "D",
+          "text": "Traits can inform risk but diagnosis requires impairment, duration, context, and criteria"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Informant reports can be biased, but they often add useful external perspective.",
+        "B": "Neuroticism can be measured with personality instruments, though imperfectly.",
+        "C": "Traits can be related to symptoms; the issue is that they are not sufficient for diagnosis alone.",
+        "D": "Correct. A trait score can indicate vulnerability or style, but clinical diagnosis requires symptom criteria, impairment, persistence, and differential diagnosis. The passage emphasizes integrated assessment."
+      },
+      "topic": "Personality Assessment & Trait Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_personality2_007",
+      "passage": null,
+      "stem": "Extremely favorable self-ratings inconsistent with informants suggest:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "test-retest reliability"
+        },
+        {
+          "label": "B",
+          "text": "perfect self-knowledge"
+        },
+        {
+          "label": "C",
+          "text": "social desirability bias"
+        },
+        {
+          "label": "D",
+          "text": "heritability"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Test-retest reliability concerns stability over time, not overly positive self-presentation.",
+        "B": "Perfect self-knowledge would likely align more closely with behavior and informant observations.",
+        "C": "Correct. Social desirability bias occurs when respondents present themselves in an overly favorable way. Discrepancy with informant reports raises that concern.",
+        "D": "Heritability concerns genetic contribution to variation, not response style in one assessment."
+      },
+      "topic": "Personality Assessment & Trait Theory",
+      "difficulty": "Easy",
+      "passageRef": "ps_personality2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_personality2_008",
+      "passage": null,
+      "stem": "Why use multiple assessment sources?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They guarantee identical results"
+        },
+        {
+          "label": "B",
+          "text": "They provide converging evidence and reveal method-specific bias"
+        },
+        {
+          "label": "C",
+          "text": "They eliminate clinical judgment"
+        },
+        {
+          "label": "D",
+          "text": "They make validity irrelevant"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Different methods often disagree meaningfully; identical results are not guaranteed.",
+        "B": "Correct. Self-report, interviews, and informants each have strengths and biases. Converging evidence increases confidence, while discrepancies can reveal response bias or context-specific behavior.",
+        "C": "Clinical judgment is needed to integrate sources, not eliminated by them.",
+        "D": "Validity remains central because each source must support the intended inference."
+      },
+      "topic": "Personality Assessment & Trait Theory",
+      "difficulty": "Medium",
+      "passageRef": "ps_personality2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_personality2_009",
+      "passage": null,
+      "stem": "Low conscientiousness would most directly relate to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "poorer organization and follow-through"
+        },
+        {
+          "label": "B",
+          "text": "greater visual acuity"
+        },
+        {
+          "label": "C",
+          "text": "higher kidney filtration"
+        },
+        {
+          "label": "D",
+          "text": "increased boiling point"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Conscientiousness concerns organization, responsibility, persistence, and impulse control. Low scores often relate to difficulty planning or following through.",
+        "B": "Visual acuity is a sensory function, not a personality trait.",
+        "C": "Kidney filtration is physiological and unrelated to the Big Five trait label.",
+        "D": "Boiling point is a physical property, not personality behavior."
+      },
+      "topic": "Personality Assessment & Trait Theory",
+      "difficulty": "Hard",
+      "passageRef": "ps_personality2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_personality2_010",
+      "passage": null,
+      "stem": "Which interpretation best handles conflicting self and informant reports?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Assume the self-report is always false"
+        },
+        {
+          "label": "B",
+          "text": "Discard all informant data"
+        },
+        {
+          "label": "C",
+          "text": "Treat the discrepancy as clinically informative rather than automatically choosing one source"
+        },
+        {
+          "label": "D",
+          "text": "Diagnose a disorder immediately"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Self-report may still contain useful internal-state information; it should not be dismissed wholesale.",
+        "B": "Informant data can be valuable, especially when self-presentation bias is suspected.",
+        "C": "Correct. Discrepancies can reveal context effects, limited insight, or response bias. Good assessment asks why sources differ rather than automatically privileging or discarding one.",
+        "D": "Diagnosis requires more evidence than a reporting discrepancy."
+      },
+      "topic": "Personality Assessment & Trait Theory",
+      "difficulty": "Medium",
+      "passageRef": "ps_personality2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "batch": "B095",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Cell Biology: Organelles & Cell Cycle",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_cell_001",
+      "passage": "A cell biologist studies eukaryotic cell structure and division. She uses fluorescence microscopy to visualize organelles and electron microscopy to examine ultrastructure. She traces the secretory pathway from ribosome → rough ER → Golgi → plasma membrane, studies mitochondrial and chloroplast origins through endosymbiotic theory, and examines the cell cycle phases (G1, S, G2, M) and their checkpoints. She investigates how cyclin-CDK complexes regulate progression through the cell cycle and how tumor suppressors (p53, Rb) and proto-oncogenes control proliferation.",
+      "stem": "The rough endoplasmic reticulum (RER) is 'rough' because of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "attached mitochondria on its cytoplasmic surface"
+        },
+        {
+          "label": "B",
+          "text": "ribosomes bound to its cytoplasmic surface — these ribosomes synthesize secretory, membrane, and lysosomal/endomembrane-system proteins that are co-translationally translocated into the ER lumen via the signal recognition particle (SRP) pathway"
+        },
+        {
+          "label": "C",
+          "text": "embedded peroxisomes that give the membrane a bumpy appearance"
+        },
+        {
+          "label": "D",
+          "text": "cholesterol crystals in the ER membrane"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Mitochondria are separate organelles distributed throughout the cytoplasm. They are not attached to the ER surface. Mitochondria-associated ER membranes (MAMs) do exist as contact sites for Ca²⁺ transfer and lipid exchange, but these do not create the 'rough' appearance.",
+        "B": "Correct. The 'rough' appearance of the RER under electron microscopy comes from ribosomes (80S in eukaryotes) studded on its cytoplasmic face. These ribosomes translate mRNAs encoding proteins destined for secretion (insulin, antibodies), membrane insertion (receptors, channels), or lysosomal/endomembrane targeting (lysosomal enzymes). The signal sequence on the nascent polypeptide is recognized by SRP, which docks the ribosome-mRNA complex at the SRP receptor on the RER, and the protein is threaded through the Sec61 translocon into the ER lumen. Smooth ER (SER) lacks ribosomes and specializes in lipid synthesis, steroid hormone production, and detoxification (cytochrome P450).",
+        "C": "Peroxisomes are independent membrane-bound organelles that are not embedded in the ER. They contain oxidative enzymes (catalase, peroxidases) and are involved in fatty acid β-oxidation and hydrogen peroxide metabolism.",
+        "D": "Cholesterol is a component of membranes (modulating fluidity) but does not form visible crystals on the ER. The rough appearance is exclusively due to ribosome attachment."
+      },
+      "topic": "Rough ER / Ribosome Attachment",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_cell_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The Golgi apparatus processes proteins received from the ER by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "modifying (glycosylation, phosphorylation, proteolytic cleavage), sorting, and packaging proteins into vesicles for delivery to their final destinations — lysosomes, plasma membrane, or secretion"
+        },
+        {
+          "label": "B",
+          "text": "generating ATP through oxidative phosphorylation"
+        },
+        {
+          "label": "C",
+          "text": "replicating DNA for cell division"
+        },
+        {
+          "label": "D",
+          "text": "synthesizing all cellular mRNA through transcription"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Golgi (cis → medial → trans cisternae → trans-Golgi network) is the cell's processing and distribution center. Key modifications: N-linked glycosylation (trimming and remodeling oligosaccharides added in the ER), O-linked glycosylation (adding sugars to Ser/Thr residues), phosphorylation of mannose residues (mannose-6-phosphate tag targets lysosomal enzymes to lysosomes via M6P receptors). The trans-Golgi network sorts proteins into vesicles: constitutive secretory vesicles (continuous exocytosis), regulated secretory vesicles (stimulus-dependent), and lysosomal vesicles. I-cell disease (mucolipidosis II) results from defective M6P tagging — lysosomal enzymes are secreted instead of reaching lysosomes.",
+        "B": "ATP production by oxidative phosphorylation occurs in mitochondria (inner mitochondrial membrane), not the Golgi. The Golgi requires ATP for its functions but does not generate it.",
+        "C": "DNA replication occurs in the nucleus during S phase of the cell cycle, not in the Golgi. The Golgi has no role in nucleic acid metabolism.",
+        "D": "mRNA synthesis (transcription) occurs in the nucleus, catalyzed by RNA polymerase. The Golgi processes proteins, not nucleic acids."
+      },
+      "topic": "Golgi Apparatus / Protein Sorting",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_cell_003",
+      "passage": null,
+      "stem": "Lysosomes are membrane-bound organelles containing hydrolytic enzymes that function at:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "neutral pH (~7.4), the same as the cytoplasm"
+        },
+        {
+          "label": "B",
+          "text": "alkaline pH (~9-10), which activates their proteases"
+        },
+        {
+          "label": "C",
+          "text": "variable pH that matches the extracellular environment"
+        },
+        {
+          "label": "D",
+          "text": "acidic pH (~4.5-5.0), maintained by a vacuolar H⁺-ATPase that pumps protons into the lumen — this acidic environment activates acid hydrolases while protecting the cytoplasm from accidental digestion"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Cytoplasmic pH (~7.2-7.4) is far above the optimal pH for acid hydrolases. If lysosomal enzymes were active at neutral pH, accidental release would digest cellular components.",
+        "B": "Alkaline pH (9-10) is above the optimal range for lysosomal enzymes. Some proteases (e.g., trypsin) work at alkaline pH, but these are extracellular digestive enzymes, not lysosomal.",
+        "C": "Lysosomal pH is internally regulated by the V-ATPase and does not equilibrate with the extracellular environment. The lysosomal membrane maintains the pH differential between lumen (~5) and cytoplasm (~7.2).",
+        "D": "Correct. Lysosomal enzymes (acid hydrolases — proteases, lipases, glycosidases, nucleases, phosphatases) have optimal activity at pH 4.5-5.0. The vacuolar H⁺-ATPase (V-ATPase) actively pumps H⁺ into the lysosome, maintaining this acidic environment. This serves a dual safety function: (1) acid hydrolases are inactive at cytoplasmic pH (~7.2), so accidental lysosomal rupture does not cause catastrophic autodigestion; (2) the membrane contains highly glycosylated proteins (LAMPs) that resist degradation from the inside. Lysosomal storage diseases (Tay-Sachs, Gaucher's, Pompe) result from deficiency of specific acid hydrolases."
+      },
+      "topic": "Lysosomes / Acid Hydrolases",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cell_004",
+      "passage": null,
+      "stem": "The endosymbiotic theory explains the origin of mitochondria by proposing that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "mitochondria arose from invaginations of the plasma membrane that became internalized"
+        },
+        {
+          "label": "B",
+          "text": "mitochondria were spontaneously generated within early eukaryotic cells"
+        },
+        {
+          "label": "C",
+          "text": "an ancestral eukaryotic cell engulfed an aerobic α-proteobacterium, which became an endosymbiont and evolved into the mitochondrion — supported by mitochondrial double membranes, circular DNA, 70S ribosomes, and binary fission"
+        },
+        {
+          "label": "D",
+          "text": "mitochondria were originally viruses that infected early cells and lost their capsids"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Membrane invagination theories have been proposed for the nuclear envelope but are not the accepted explanation for mitochondrial origins. The bacterial features of mitochondria (circular DNA, 70S ribosomes) are inconsistent with a host-membrane origin.",
+        "B": "Spontaneous generation has been refuted since Pasteur's experiments. Organelles do not arise de novo — mitochondria grow and divide from pre-existing mitochondria within the cell.",
+        "C": "Correct. Endosymbiotic theory (Lynn Margulis, 1967): an ancestral anaerobic eukaryote engulfed an aerobic α-proteobacterium. Instead of being digested, the bacterium survived as an endosymbiont, providing aerobic metabolism in exchange for nutrients and protection. Evidence: (1) double membrane (outer from host vacuole, inner from original bacterial membrane); (2) circular, histone-free DNA (like bacteria); (3) 70S ribosomes (bacterial-type, sensitive to chloramphenicol and streptomycin, not cycloheximide); (4) binary fission (not mitotic division); (5) cardiolipin in inner membrane (characteristic of bacterial membranes); (6) phylogenetic analysis places mitochondrial genes within α-proteobacteria.",
+        "D": "Viruses are obligate intracellular parasites with no metabolic machinery. Mitochondria have their own genome, ribosomes, and metabolic enzymes — features consistent with a bacterial ancestor, not a viral one."
+      },
+      "topic": "Endosymbiotic Theory / Mitochondrial Origin",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cell_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The cell biologist examines checkpoint control. The G1/S checkpoint (restriction point) prevents cell cycle progression if:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the cell has already completed mitosis"
+        },
+        {
+          "label": "B",
+          "text": "DNA is damaged or growth factor signaling is insufficient — the tumor suppressor p53 can halt the cycle by inducing p21 (a CDK inhibitor), allowing time for DNA repair or triggering apoptosis if damage is irreparable"
+        },
+        {
+          "label": "C",
+          "text": "the cell is too large and must shrink before dividing"
+        },
+        {
+          "label": "D",
+          "text": "all chromosomes are already attached to spindle fibers"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Completion of mitosis is monitored at the spindle assembly checkpoint (metaphase/anaphase transition), not the G1/S checkpoint. G1/S assesses readiness to enter S phase (DNA replication).",
+        "B": "Correct. The G1/S checkpoint is the primary decision point: commit to division or exit to G0. It integrates signals for growth factors (mitogenic signaling via Ras/MAPK → cyclin D/CDK4,6), nutrient availability, cell size, and DNA integrity. If DNA damage is detected, ATM/ATR kinases activate p53, which transcriptionally induces p21 (CIP/KIP family CDK inhibitor). p21 inhibits cyclin E/CDK2, preventing Rb phosphorylation and E2F release, arresting the cell in G1. If damage cannot be repaired, p53 induces pro-apoptotic genes (Bax, PUMA) to eliminate the cell. Loss of p53 function (mutation in >50% of cancers) allows damaged cells to bypass this checkpoint.",
+        "C": "Cells must reach an adequate size before dividing, but the checkpoint does not require shrinkage. Growth during G1 (protein and organelle synthesis) is necessary to ensure each daughter cell receives sufficient material.",
+        "D": "Chromosome attachment to spindle fibers is assessed at the spindle assembly checkpoint (SAC) during metaphase, not at G1/S. The SAC prevents anaphase until all kinetochores have stable bipolar attachments (monitored by Mad2/BubR1)."
+      },
+      "topic": "G1/S Checkpoint / p53 / p21",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_cell_006",
+      "passage": null,
+      "stem": "During mitosis, sister chromatids are separated during:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "prophase, when chromosomes first condense"
+        },
+        {
+          "label": "B",
+          "text": "metaphase, when chromosomes align at the metaphase plate"
+        },
+        {
+          "label": "C",
+          "text": "anaphase — cohesin proteins holding sister chromatids together are cleaved by separase, and kinetochore microtubules shorten, pulling the chromatids to opposite poles"
+        },
+        {
+          "label": "D",
+          "text": "telophase, when the nuclear envelope reforms"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "During prophase, chromosomes condense (chromatin → visible chromosomes) and the mitotic spindle begins to form, but sister chromatids remain joined by cohesin. Separation does not occur until anaphase.",
+        "B": "During metaphase, chromosomes align at the metaphase plate (cell equator) with each sister chromatid attached to opposite spindle poles via kinetochore microtubules. They are aligned but not yet separated.",
+        "C": "Correct. Anaphase is the stage of chromatid separation. The spindle assembly checkpoint (SAC) must first be satisfied — all kinetochores attached to spindle microtubules. Then the anaphase-promoting complex/cyclosome (APC/C, an E3 ubiquitin ligase) is activated and ubiquitinates securin, targeting it for proteasomal degradation. Securin normally inhibits separase; its destruction activates separase, which cleaves the cohesin complex (Scc1/Rad21 subunit) holding sister chromatids together. Simultaneously, kinetochore microtubules depolymerize at the plus end (kinetochore), pulling chromatids poleward (anaphase A). Non-kinetochore microtubules slide apart, elongating the cell (anaphase B).",
+        "D": "During telophase, chromosomes decondense, nuclear envelopes reform around each set of separated chromosomes, and nucleoli reappear. Chromatid separation has already occurred in anaphase; telophase is about reassembling interphase nuclear architecture."
+      },
+      "topic": "Anaphase / Chromatid Separation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cell_007",
+      "passage": null,
+      "stem": "Proto-oncogenes are normal cellular genes that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "suppress tumor growth by inhibiting cell division"
+        },
+        {
+          "label": "B",
+          "text": "encode proteins that promote cell growth and division — when mutated or overexpressed (gain-of-function), they become oncogenes that drive uncontrolled proliferation"
+        },
+        {
+          "label": "C",
+          "text": "encode structural proteins with no role in cell signaling"
+        },
+        {
+          "label": "D",
+          "text": "are found only in cancer cells and are absent from normal cells"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Tumor growth suppression describes tumor suppressor genes (p53, Rb, APC, BRCA1/2), not proto-oncogenes. Tumor suppressors are 'brakes' on the cell cycle; proto-oncogenes are 'accelerators.' Cancer often requires both accelerator activation and brake loss.",
+        "B": "Correct. Proto-oncogenes encode growth factors (PDGF), growth factor receptors (HER2/ErbB2), signal transduction proteins (Ras GTPase), transcription factors (Myc, Fos, Jun), and anti-apoptotic proteins (Bcl-2). These are essential for normal cell growth, differentiation, and survival. Oncogenic mutations convert proto-oncogenes to oncogenes through: point mutations (Ras — constitutively active GTPase), gene amplification (HER2 in breast cancer — overexpression of receptor), chromosomal translocation (Philadelphia chromosome — BCR-ABL fusion in CML), or viral insertion. Oncogenes act dominantly — a single mutant allele is sufficient to promote cancer.",
+        "C": "Proto-oncogenes encode signaling proteins critical for cell growth regulation, not inert structural proteins. Their signaling roles are precisely what makes their dysregulation dangerous.",
+        "D": "Proto-oncogenes are present in all normal cells — they are essential for normal growth and development. Oncogenes (mutated proto-oncogenes) are found in cancer cells, but the normal versions are universal."
+      },
+      "topic": "Proto-Oncogenes vs Oncogenes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cell_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The cell biologist notes that mitochondria have their own DNA. Mitochondrial DNA (mtDNA) in humans:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is circular, encodes 13 ETC subunits plus tRNAs and rRNAs, and is maternally inherited — most mitochondrial proteins (~1,500) are encoded by nuclear DNA and imported from the cytoplasm"
+        },
+        {
+          "label": "B",
+          "text": "is linear, like nuclear chromosomes, and encodes the majority of mitochondrial proteins"
+        },
+        {
+          "label": "C",
+          "text": "is inherited equally from both parents through Mendelian genetics"
+        },
+        {
+          "label": "D",
+          "text": "contains histones and introns identical to nuclear DNA"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Human mtDNA is a 16.6 kb circular, double-stranded molecule encoding 13 protein subunits of the ETC (components of Complexes I, III, IV, and V), 22 tRNAs, and 2 rRNAs. It is maternally inherited (mitochondria in the egg; sperm mitochondria are tagged for destruction). The vast majority of mitochondrial proteins (~1,500) are nuclear-encoded, synthesized on cytoplasmic ribosomes, and imported via the TOM/TIM translocase complexes. mtDNA has a higher mutation rate than nuclear DNA (no histones, limited repair, proximity to ROS from the ETC), contributing to mitochondrial diseases and aging.",
+        "B": "mtDNA is circular (like bacterial DNA, consistent with endosymbiotic origin), not linear. It encodes only 37 genes — a tiny fraction of the ~1,500 proteins needed for mitochondrial function. Most are nuclear-encoded.",
+        "C": "mtDNA shows strict maternal inheritance, not Mendelian. The oocyte contributes ~100,000 mitochondria; the sperm contributes ~100, which are actively degraded after fertilization. This maternal inheritance pattern is used in forensics, genealogy, and evolutionary studies (mitochondrial Eve).",
+        "D": "mtDNA lacks histones (it associates with TFAM, a mitochondrial transcription factor, for packaging) and has very few or no introns. These features resemble bacterial genomes, supporting the endosymbiotic origin."
+      },
+      "topic": "Mitochondrial DNA / Maternal Inheritance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cell_009",
+      "passage": null,
+      "stem": "Apoptosis (programmed cell death) differs from necrosis in that apoptosis:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "involves cell swelling, membrane rupture, and inflammation"
+        },
+        {
+          "label": "B",
+          "text": "is accidental and uncontrolled, triggered by physical injury"
+        },
+        {
+          "label": "C",
+          "text": "is a regulated, energy-dependent process involving caspase activation, DNA fragmentation, membrane blebbing, and formation of apoptotic bodies — without triggering inflammation"
+        },
+        {
+          "label": "D",
+          "text": "occurs only in bacterial cells, not in eukaryotes"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Cell swelling, membrane rupture, and inflammation characterize necrosis, not apoptosis. Necrosis is uncontrolled cell death that releases intracellular contents (DAMPs), triggering inflammation and tissue damage.",
+        "B": "Accidental, uncontrolled cell death describes necrosis. Apoptosis is highly regulated and genetically programmed — it requires ATP, active caspase cascades, and specific molecular signals.",
+        "C": "Correct. Apoptosis is controlled self-destruction: intrinsic pathway (mitochondrial — cytochrome c release → apoptosome → caspase-9 → caspase-3) or extrinsic pathway (death receptors — Fas/FasL, TNF → caspase-8 → caspase-3). Features: chromatin condensation, DNA laddering (internucleosomal cleavage by CAD endonuclease), membrane blebbing (phosphatidylserine exposure on outer leaflet signals phagocyte engulfment), cell shrinkage, and formation of apoptotic bodies that are phagocytosed without releasing cellular contents — no inflammatory response. Apoptosis is essential for development (digit separation, neural pruning), immune tolerance (negative selection), and cancer prevention (eliminating damaged cells).",
+        "D": "Apoptosis occurs in all multicellular eukaryotes and is essential for normal development. Some forms of programmed cell death also occur in bacteria and yeast, but apoptosis as classically defined is a eukaryotic process."
+      },
+      "topic": "Apoptosis vs Necrosis",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_cell_010",
+      "passage": null,
+      "stem": "The S phase of the cell cycle is when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the cell divides into two daughter cells (cytokinesis)"
+        },
+        {
+          "label": "B",
+          "text": "chromosomes condense and align at the metaphase plate"
+        },
+        {
+          "label": "C",
+          "text": "the cell exits the cycle and enters a quiescent state (G0)"
+        },
+        {
+          "label": "D",
+          "text": "DNA is replicated — each chromosome is duplicated to produce two sister chromatids joined at the centromere, ensuring each daughter cell receives a complete genome"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Cytokinesis (physical division of the cytoplasm) occurs after mitosis (M phase), not during S phase. In animal cells, a contractile ring of actin and myosin pinches the cell in two (cleavage furrow).",
+        "B": "Chromosome condensation and alignment occur during M phase (prophase and metaphase, respectively). During S phase, DNA is in a more relaxed chromatin state to allow replication fork access.",
+        "C": "G0 is a quiescent state that cells enter from G1 when they stop dividing (e.g., neurons, mature muscle cells). S phase is an active, committed phase of DNA synthesis — once a cell enters S phase, it is committed to completing the cell cycle.",
+        "D": "Correct. S (synthesis) phase: the entire genome is replicated semiconservatively. Each chromosome goes from one double-stranded DNA molecule to two identical sister chromatids joined at the centromere by cohesin proteins. DNA content doubles (2n → 4n DNA content, though ploidy remains 2n). Replication begins at multiple origins of replication simultaneously and is bidirectional. Histones are also synthesized during S phase to package the newly replicated DNA. The cell ensures each origin fires only once per S phase (licensing — MCM helicase loading in G1, firing in S, prevented from re-loading until after mitosis)."
+      },
+      "topic": "S Phase / DNA Replication",
+      "difficulty": "Easy"
+    }
+  ]
+}

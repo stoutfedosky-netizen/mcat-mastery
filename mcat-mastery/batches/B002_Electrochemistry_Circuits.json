@@ -1,0 +1,500 @@
+{
+  "batch": "B002",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Electrochemistry & Electrical Circuits",
+  "questionCount": 15,
+  "questions": [
+    {
+      "id": "cp_echem_001",
+      "passage": "A research team constructs a galvanic cell to study the thermodynamics of metal ion reduction. The cell uses the following half-reactions:\n\nAnode: Fe(s) → Fe²⁺(aq) + 2e⁻          E°(red) = −0.44 V\nCathode: Ag⁺(aq) + e⁻ → Ag(s)           E°(red) = +0.80 V\n\nBoth electrodes are initially immersed in 1.0 M solutions of their respective ions at 25°C. A salt bridge containing KNO₃ connects the two half-cells, and an external wire with a voltmeter connects the electrodes.",
+      "stem": "What is the standard cell potential (E°cell) for this galvanic cell?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.36 V"
+        },
+        {
+          "label": "B",
+          "text": "1.24 V"
+        },
+        {
+          "label": "C",
+          "text": "1.60 V"
+        },
+        {
+          "label": "D",
+          "text": "2.04 V"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This value (0.80 − 0.44 = 0.36 V) results from subtracting the magnitude of the anode potential from the cathode potential without accounting for the sign. The correct formula is E°cell = E°cathode − E°anode = 0.80 − (−0.44) = 1.24 V. The anode's negative reduction potential means it is easily oxidized, and this must be reflected as a double negative when subtracting.",
+        "B": "Correct. E°cell = E°cathode − E°anode = (+0.80) − (−0.44) = +1.24 V. Note that this calculation uses standard reduction potentials for both half-reactions; you do not flip the sign of the anode potential before using this formula — the subtraction handles the reversal. Also, despite the silver half-reaction requiring 1 electron and the iron half-reaction producing 2, we do not multiply the potentials. Cell potential is an intensive property (energy per unit charge), so it does not depend on the number of electrons transferred. However, balancing the electrons matters for calculating ΔG° = −nFE° (where n = 2 in this case).",
+        "C": "This appears to add the absolute values: |+0.80| + |−0.44| + 0.36 = 1.60, or may result from doubling the silver potential to account for electron balance (2 × 0.80 = 1.60). Electrode potentials are intensive properties and must never be multiplied by stoichiometric coefficients. The potential per unit charge remains the same regardless of how many electrons are transferred.",
+        "D": "This value (0.80 + 0.80 + 0.44 = 2.04) likely results from both doubling the silver potential and adding rather than subtracting. Two errors compound: electrode potentials are not multiplied by coefficients, and the correct formula subtracts the anode from the cathode, not adds them."
+      },
+      "topic": "Standard Cell Potential",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_echem_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following correctly describes electron flow and the function of the salt bridge in this cell?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Electrons flow from Ag to Fe through the wire; the salt bridge allows electrons to complete the circuit internally"
+        },
+        {
+          "label": "B",
+          "text": "Electrons flow from Fe to Ag through the wire; the salt bridge maintains electrical neutrality by allowing ion migration between half-cells"
+        },
+        {
+          "label": "C",
+          "text": "Electrons flow from Fe to Ag through the salt bridge; the wire carries ions to maintain charge balance"
+        },
+        {
+          "label": "D",
+          "text": "Electrons flow from Ag to Fe through the wire; the salt bridge prevents mixing of the two solutions without any electrical function"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Electrons flow from the anode (oxidation) to the cathode (reduction). Iron is oxidized (lower E°red, more negative), so electrons flow from Fe to Ag, not the reverse. Additionally, the salt bridge does not carry electrons — only ions travel through it. Electrons travel exclusively through the external metallic wire.",
+        "B": "Correct. Iron (E°red = −0.44 V) is more easily oxidized than silver, so it serves as the anode where Fe → Fe²⁺ + 2e⁻. These electrons travel through the external wire to the silver cathode, where Ag⁺ + e⁻ → Ag. As the reaction proceeds, the anode half-cell accumulates positive charge (Fe²⁺ produced) and the cathode half-cell becomes depleted of positive charge (Ag⁺ consumed). Without the salt bridge, this charge imbalance would immediately halt the reaction. The salt bridge allows anions (NO₃⁻) to migrate into the anode compartment and cations (K⁺) into the cathode compartment, maintaining electrical neutrality in both half-cells and allowing the reaction to continue.",
+        "C": "Electrons never travel through solution or through the salt bridge. In solution, charge is carried by ion migration (ionic conduction), while in the wire, charge is carried by electron flow (metallic conduction). This is a fundamental distinction: the salt bridge provides ionic conductivity, not electronic conductivity.",
+        "D": "The direction of electron flow is reversed here (electrons flow from Fe to Ag, not the reverse). More importantly, the salt bridge has an essential electrical function — maintaining charge neutrality. Without it, the cell would quickly cease to function because charge buildup in each half-cell would oppose further reaction. The salt bridge is not merely a physical barrier."
+      },
+      "topic": "Galvanic Cell Components",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_echem_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "As the cell operates, the Fe²⁺ concentration increases to 2.0 M while the Ag⁺ concentration decreases to 0.10 M. Using the Nernst equation at 25°C (E = E° − (0.0592/n)log Q), what is the approximate cell potential under these conditions?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.16 V"
+        },
+        {
+          "label": "B",
+          "text": "1.20 V"
+        },
+        {
+          "label": "C",
+          "text": "1.28 V"
+        },
+        {
+          "label": "D",
+          "text": "1.32 V"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The balanced cell reaction is Fe(s) + 2Ag⁺(aq) → Fe²⁺(aq) + 2Ag(s), with n = 2 electrons transferred. The reaction quotient Q = [Fe²⁺]/[Ag⁺]² = (2.0)/(0.10)² = 2.0/0.01 = 200. Applying the Nernst equation: E = 1.24 − (0.0592/2)log(200) = 1.24 − (0.0296)(2.301) = 1.24 − 0.068 = 1.17 V ≈ 1.16 V. As expected, the cell potential decreases as products accumulate and reactants are consumed, consistent with Le Chatelier's principle — the system approaches equilibrium where E = 0.",
+        "B": "This is close but may result from an error in calculating Q. A common mistake is forgetting to square the Ag⁺ concentration in Q. Since the balanced equation has 2Ag⁺, Q = [Fe²⁺]/[Ag⁺]², not [Fe²⁺]/[Ag⁺]. Using the unsquared version gives Q = 20, and E = 1.24 − (0.0296)(1.301) = 1.24 − 0.039 = 1.20 V.",
+        "C": "This value is higher than E°cell = 1.24 V, which would require Q < 1 (more reactants than products relative to standard conditions). With [Fe²⁺] = 2.0 M (above standard) and [Ag⁺] = 0.10 M (below standard), Q > 1, so the Nernst correction must reduce E below E°. A cell potential above E° under these conditions violates the second law of thermodynamics.",
+        "D": "Any value above 1.24 V (the standard potential) is impossible when products have accumulated beyond standard concentrations. The Nernst equation subtracts (0.0592/n)logQ from E°, and since Q > 1 here, logQ > 0, making the correction term positive. This means E < E° always when Q > 1."
+      },
+      "topic": "Nernst Equation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_echem_004",
+      "passage": "A metallurgy laboratory performs copper electroplating using an electrolytic cell. A solution of 1.0 M CuSO₄ serves as the electrolyte, with an inert platinum anode and the object to be plated serving as the cathode. The relevant half-reactions are:\n\nCu²⁺(aq) + 2e⁻ → Cu(s)           E°(red) = +0.34 V\n2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻   E°(ox) = −1.23 V\n\nThe cell operates at a constant current of 5.0 A. Faraday's constant F = 96,485 C/mol. The molar mass of copper is 63.5 g/mol.",
+      "stem": "In an electrolytic cell, an external power source drives a nonspontaneous reaction. What minimum voltage must the external source supply to drive copper electroplating in this cell?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.34 V"
+        },
+        {
+          "label": "B",
+          "text": "0.89 V"
+        },
+        {
+          "label": "C",
+          "text": "1.57 V"
+        },
+        {
+          "label": "D",
+          "text": "1.89 V"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This is simply the reduction potential of Cu²⁺. The electrolytic cell must drive both the cathode reaction (Cu²⁺ reduction) and the anode reaction (water oxidation). The minimum voltage must overcome the unfavorable overall cell potential, which involves both half-reactions.",
+        "B": "Correct. For the electrolytic cell: E°cell = E°cathode − E°anode(reduction). The anode undergoes oxidation of water. The standard reduction potential for the reverse of the anode reaction is +1.23 V, so E°anode(red) = +1.23 V. E°cell = 0.34 − 1.23 = −0.89 V. The negative value confirms the reaction is nonspontaneous. The external source must supply at least |E°cell| = 0.89 V to drive the reaction. In practice, additional voltage (overpotential) is needed to overcome kinetic barriers and resistive losses, but the thermodynamic minimum is 0.89 V.",
+        "C": "This value (0.34 + 1.23 = 1.57 V) results from adding the absolute values of the two potentials. The correct approach is E°cell = E°cathode − E°anode = 0.34 − 1.23 = −0.89 V. Adding potentials is a common error that does not correspond to any physically meaningful quantity.",
+        "D": "This value does not correspond to a standard calculation from the given potentials. You may have combined the potentials incorrectly, perhaps adding 0.34 + 1.23 and then adding an additional correction. The minimum voltage is simply the magnitude of the calculated cell potential: |0.34 − 1.23| = 0.89 V."
+      },
+      "topic": "Electrolytic Cells",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_echem_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If the cell operates at 5.0 A for exactly 32 minutes and 10 seconds, what mass of copper is deposited at the cathode?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.6 g"
+        },
+        {
+          "label": "B",
+          "text": "3.2 g"
+        },
+        {
+          "label": "C",
+          "text": "6.4 g"
+        },
+        {
+          "label": "D",
+          "text": "12.7 g"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This corresponds to depositing 0.025 mol of Cu, which would require 0.050 mol of electrons (since Cu²⁺ + 2e⁻ → Cu). Check: 0.050 mol × 96,485 C/mol = 4,824 C. But the actual charge passed is 9,650 C, which is twice this amount. You may have used n = 1 electron instead of n = 2 per copper ion.",
+        "B": "Correct. Step 1 — Calculate total charge: Q = I × t = 5.0 A × (32 min × 60 + 10 s) = 5.0 × 1,930 = 9,650 C. Step 2 — Calculate moles of electrons: mol e⁻ = Q/F = 9,650/96,485 = 0.100 mol e⁻. Step 3 — Calculate moles of Cu (2 electrons per Cu²⁺): mol Cu = 0.100/2 = 0.050 mol. Step 4 — Calculate mass: m = 0.050 × 63.5 = 3.175 ≈ 3.2 g. This application of Faraday's law of electrolysis directly connects charge passed to mass deposited through stoichiometry and molar mass.",
+        "C": "This value (6.4 g = 0.100 mol Cu) results from not dividing the moles of electrons by 2. Since each Cu²⁺ ion requires 2 electrons for reduction (Cu²⁺ + 2e⁻ → Cu), the moles of copper deposited equal half the moles of electrons transferred, not the full amount.",
+        "D": "This value (12.7 g = 0.200 mol Cu) is double the answer from option C and four times the correct answer. This might result from both failing to divide by n = 2 and doubling at some other step, or from using n = 0.5 instead of n = 2. Always check that the stoichiometric coefficient matches the charge of the ion being reduced."
+      },
+      "topic": "Faraday's Law of Electrolysis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_echem_006",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following correctly distinguishes the electrolytic cell in this experiment from a galvanic cell?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In the electrolytic cell, oxidation occurs at the cathode and reduction occurs at the anode"
+        },
+        {
+          "label": "B",
+          "text": "In the electrolytic cell, the anode is positive and the cathode is negative, which is reversed from a galvanic cell"
+        },
+        {
+          "label": "C",
+          "text": "In the electrolytic cell, electrons flow from cathode to anode through the external circuit"
+        },
+        {
+          "label": "D",
+          "text": "In the electrolytic cell, the cell potential is positive and ΔG is negative, making the reaction spontaneous"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Regardless of cell type, oxidation always occurs at the anode and reduction always occurs at the cathode. This is definitional: 'anode' means the electrode where oxidation occurs, and 'cathode' means where reduction occurs. This convention never changes between galvanic and electrolytic cells.",
+        "B": "Correct. This is a key distinction. In a galvanic cell, the anode is negative (electrons accumulate from spontaneous oxidation) and the cathode is positive (electrons are consumed by spontaneous reduction). In an electrolytic cell, the external power source forces the anode to be positive (it pulls electrons away) and the cathode to be negative (it pushes electrons in). The sign convention flips because the driving force changes from internal (spontaneous reaction) to external (power supply). Oxidation still occurs at the anode and reduction at the cathode in both cell types — only the charge signs reverse.",
+        "C": "In both cell types, electrons always flow from anode to cathode through the external circuit. Oxidation releases electrons at the anode, and they travel through the wire to the cathode where reduction consumes them. The external power source in an electrolytic cell drives this flow against the thermodynamic gradient, but the direction of electron flow (anode → cathode) is the same.",
+        "D": "This describes a galvanic cell, not an electrolytic cell. Electrolytic cells have a negative E°cell and a positive ΔG° (nonspontaneous). That is precisely why they require an external power source. If the reaction were spontaneous (positive E°cell, negative ΔG°), no external energy input would be needed and the system would function as a galvanic cell."
+      },
+      "topic": "Galvanic vs. Electrolytic Cells",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_echem_007",
+      "passage": "Neuroscientists model the cell membrane of a neuron as an electrical circuit. The lipid bilayer acts as a parallel-plate capacitor with a capacitance of approximately 1.0 μF/cm². Ion channels function as resistors, providing pathways for ionic current. A typical resting neuron has a membrane potential of −70 mV, maintained by the Na⁺/K⁺-ATPase and leak channels.\n\nDuring an action potential, voltage-gated Na⁺ channels open, dramatically decreasing membrane resistance from approximately 10⁵ Ω·cm² to 10² Ω·cm² for Na⁺ ions. This allows rapid Na⁺ influx, depolarizing the membrane toward the Na⁺ equilibrium potential of +60 mV.",
+      "stem": "If the neuron membrane has a total capacitance of 30 pF and charges from −70 mV to +30 mV during an action potential, how much charge is transferred across the membrane?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2.1 × 10⁻¹² C"
+        },
+        {
+          "label": "B",
+          "text": "3.0 × 10⁻¹² C"
+        },
+        {
+          "label": "C",
+          "text": "4.2 × 10⁻¹² C"
+        },
+        {
+          "label": "D",
+          "text": "7.2 × 10⁻¹² C"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This value results from using only the magnitude of the resting potential (70 mV) as the voltage change, giving Q = 30 pF × 70 mV = 2.1 × 10⁻¹² C. However, the membrane voltage changes from −70 mV to +30 mV, which is a total change of 100 mV, not 70 mV. The sign change means the membrane must first be neutralized (70 mV change) and then charged in the opposite direction (30 mV more).",
+        "B": "Correct. Using Q = CΔV: The voltage change is ΔV = (+30 mV) − (−70 mV) = 100 mV = 0.100 V. Q = 30 × 10⁻¹² F × 0.100 V = 3.0 × 10⁻¹² C = 3.0 pC. Despite seeming like a tiny amount of charge, this corresponds to roughly 18.7 million Na⁺ ions (Q/e = 3.0 × 10⁻¹²/1.6 × 10⁻¹⁹). However, this is still only a vanishingly small fraction of the total Na⁺ ions near the membrane, which is why the Na⁺/K⁺-ATPase can restore resting potential without needing to move enormous quantities of ions.",
+        "C": "This may result from calculating ΔV as 140 mV (doubling the range from −70 to +70 mV rather than using the actual peak of +30 mV). The action potential does not reach the same magnitude as the resting potential — it peaks at approximately +30 mV, giving ΔV = 100 mV, not 140 mV.",
+        "D": "A charge of 7.2 pC would require ΔV = Q/C = 7.2 × 10⁻¹²/30 × 10⁻¹² = 0.24 V = 240 mV. No standard calculation from the given values produces this result. You may have multiplied instead of using the correct formula Q = CΔV."
+      },
+      "topic": "Capacitance & Membrane Biophysics",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_echem_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage states that Na⁺ channel opening decreases membrane resistance from 10⁵ Ω·cm² to 10² Ω·cm². By what factor does the ionic current through Na⁺ channels increase when these channels open, assuming the driving voltage remains constant?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "10×"
+        },
+        {
+          "label": "B",
+          "text": "100×"
+        },
+        {
+          "label": "C",
+          "text": "1,000×"
+        },
+        {
+          "label": "D",
+          "text": "10,000×"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "A 10-fold increase would correspond to a 10-fold decrease in resistance (from 10⁵ to 10⁴). The actual decrease is from 10⁵ to 10², which is three orders of magnitude, not one.",
+        "B": "A 100-fold increase would correspond to resistance dropping from 10⁵ to 10³ (two orders of magnitude). The actual drop spans three orders of magnitude: 10⁵ → 10².",
+        "C": "Correct. By Ohm's law, I = V/R. At constant voltage, current is inversely proportional to resistance: I₂/I₁ = R₁/R₂ = 10⁵/10² = 10³ = 1,000. Current increases 1,000-fold when Na⁺ channels open. This dramatic conductance increase explains the explosive speed of the action potential — the membrane's permeability to Na⁺ increases by three orders of magnitude in less than a millisecond, driving rapid depolarization. This is why voltage-gated channels produce all-or-nothing responses rather than graded changes.",
+        "D": "A 10,000-fold increase would require resistance to drop from 10⁵ to 10¹ (four orders of magnitude). The passage specifies the resistance decreases to 10², not 10¹. Careful attention to exponents is critical in order-of-magnitude problems."
+      },
+      "topic": "Ohm's Law & Membrane Conductance",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_echem_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the RC circuit model of the membrane, the time constant τ = RC determines how quickly the membrane potential changes. Given the specific capacitance of 1.0 μF/cm² and a resting specific resistance of 10⁵ Ω·cm², what is the membrane time constant?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.1 ms"
+        },
+        {
+          "label": "B",
+          "text": "1.0 ms"
+        },
+        {
+          "label": "C",
+          "text": "10 ms"
+        },
+        {
+          "label": "D",
+          "text": "100 ms"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This corresponds to τ = 10⁻⁴ s, which would require R × C = 10⁻⁴. Using the given values: 10⁵ × 1.0 × 10⁻⁶ = 10⁻¹ = 0.1 s = 100 ms, not 0.1 ms. You may have made a powers-of-ten error, perhaps using μF as 10⁻³ instead of 10⁻⁶.",
+        "B": "A 1.0 ms time constant (10⁻³ s) would result from R × C = 10³ × 10⁻⁶ = 10⁻³, using R = 10³ rather than the given R = 10⁵. This might reflect confusing the resting resistance with the activated (channel-open) resistance of 10² Ω·cm².",
+        "C": "A 10 ms time constant would require R × C = 10⁴ × 10⁻⁶ = 10⁻², using R = 10⁴. The given resting resistance is 10⁵ Ω·cm², one order of magnitude larger.",
+        "D": "Correct. τ = RC = (10⁵ Ω·cm²)(1.0 × 10⁻⁶ F/cm²) = 10⁻¹ s = 100 ms. The units work out because Ω·cm² × F/cm² = Ω × F = seconds (since 1 Ω × 1 F = 1 s by definition of the farad: F = C/V and Ω = V/A, so Ω·F = V·C/(A·V) = C/A = s). This 100 ms time constant at rest means the membrane potential changes relatively slowly in response to subthreshold stimuli. When Na⁺ channels open and resistance drops to 10², the time constant plummets to τ = 10² × 10⁻⁶ = 0.1 ms, enabling the rapid voltage change of the action potential."
+      },
+      "topic": "RC Circuits & Time Constants",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_echem_010",
+      "passage": "An emergency medicine team prepares a defibrillator for a patient in ventricular fibrillation. The defibrillator charges a capacitor to a high voltage, then discharges the stored energy through the patient's chest. The device uses a 32 μF capacitor charged to 5,000 V. The energy stored in a capacitor is given by E = ½CV².\n\nWhen discharged, the current flows through the patient's transthoracic resistance, which is approximately 50 Ω. The discharge follows an exponential decay with time constant τ = RC.",
+      "stem": "How much energy is stored in the fully charged defibrillator capacitor?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "80 J"
+        },
+        {
+          "label": "B",
+          "text": "160 J"
+        },
+        {
+          "label": "C",
+          "text": "400 J"
+        },
+        {
+          "label": "D",
+          "text": "800 J"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This value results from using E = CV² without the factor of ½. E = CV² = 32 × 10⁻⁶ × (5000)² = 32 × 10⁻⁶ × 25 × 10⁶ = 800 J. Dividing by 2 but then making an additional factor-of-two error elsewhere might give 80 J, but the correct application of E = ½CV² yields 400 J.",
+        "B": "This value (160 J) does not directly follow from the given values through the standard energy formula. It might result from using E = ½CV rather than E = ½CV². The voltage must be squared in the energy formula because energy scales with the square of the electric field strength stored between the capacitor plates.",
+        "C": "Correct. E = ½CV² = ½ × (32 × 10⁻⁶ F) × (5,000 V)² = ½ × 32 × 10⁻⁶ × 25 × 10⁶ = ½ × 800 = 400 J. This is within the clinically used range for biphasic defibrillation (typically 120–360 J for biphasic devices). The V² dependence means that small increases in voltage produce large increases in delivered energy — doubling the voltage quadruples the energy, which is why precise voltage selection is critical to balance efficacy against myocardial damage.",
+        "D": "This value (800 J) results from omitting the factor of ½: E = CV² = 32 × 10⁻⁶ × 25 × 10⁶ = 800 J. The ½ factor is essential and arises from the integration of the work required to charge the capacitor incrementally: as charge accumulates, each additional unit of charge requires more work against the growing electric field."
+      },
+      "topic": "Capacitor Energy Storage",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_echem_011",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What is the time constant of the discharge through the patient, and what fraction of the initial current remains after two time constants?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "τ = 0.16 ms; approximately 37% of initial current remains"
+        },
+        {
+          "label": "B",
+          "text": "τ = 1.6 ms; approximately 14% of initial current remains"
+        },
+        {
+          "label": "C",
+          "text": "τ = 1.6 ms; approximately 37% of initial current remains"
+        },
+        {
+          "label": "D",
+          "text": "τ = 16 ms; approximately 14% of initial current remains"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The time constant calculation is off by an order of magnitude, and 37% corresponds to one time constant (e⁻¹ ≈ 0.368), not two. After two time constants, the fraction remaining is e⁻² ≈ 0.135 ≈ 14%.",
+        "B": "Correct. τ = RC = 50 Ω × 32 × 10⁻⁶ F = 1,600 × 10⁻⁶ s = 1.6 × 10⁻³ s = 1.6 ms. In an RC discharge circuit, current decays exponentially as I(t) = I₀ × e^(−t/τ). After two time constants (t = 2τ): I/I₀ = e⁻² = 0.135 ≈ 14%. Note that while 86% of the peak current has decayed by 2τ, the energy delivery is even faster: since power P = I²R, the energy remaining on the capacitor decays as e^(−2t/τ). At t = 2τ, only e⁻⁴ ≈ 1.8% of the stored energy remains, meaning approximately 98% of the total energy has been delivered within about 3.2 ms — an extremely brief pulse designed to depolarize the entire myocardium simultaneously and reset the cardiac rhythm.",
+        "C": "The time constant of 1.6 ms is correct, but 37% corresponds to one time constant (e⁻¹), not two. The exponential decay formula gives e⁻¹ ≈ 37% after 1τ, e⁻² ≈ 14% after 2τ, and e⁻³ ≈ 5% after 3τ. Each additional time constant reduces the remaining value by another factor of e.",
+        "D": "A time constant of 16 ms would require RC = 50 × 320 × 10⁻⁶ = 16,000 × 10⁻⁶. This uses C = 320 μF rather than the given 32 μF. The remaining current fraction of 14% after two time constants is correct, but applied to the wrong τ value."
+      },
+      "topic": "RC Discharge & Exponential Decay",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_echem_012",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "A laboratory circuit contains a 12 V battery connected to three resistors: R₁ = 4 Ω and R₂ = 6 Ω are connected in parallel with each other, and their combination is connected in series with R₃ = 7.6 Ω. What is the total current drawn from the battery?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.68 A"
+        },
+        {
+          "label": "B",
+          "text": "1.0 A"
+        },
+        {
+          "label": "C",
+          "text": "1.2 A"
+        },
+        {
+          "label": "D",
+          "text": "3.0 A"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This would correspond to a total resistance of 12/0.68 ≈ 17.6 Ω, which is the sum of all three resistors in series (4 + 6 + 7.6 = 17.6 Ω). This is incorrect because R₁ and R₂ are in parallel, not in series. Resistors in parallel have a combined resistance lower than either individual resistor.",
+        "B": "A current of 1.0 A requires R_total = 12 Ω. This would occur if the parallel combination equaled 4.4 Ω, which doesn't match the calculation. The parallel combination of 4 Ω and 6 Ω is: 1/R_p = 1/4 + 1/6 = 3/12 + 2/12 = 5/12, giving R_p = 12/5 = 2.4 Ω.",
+        "C": "Correct. First, find the parallel combination: 1/R_parallel = 1/R₁ + 1/R₂ = 1/4 + 1/6 = 5/12, so R_parallel = 12/5 = 2.4 Ω. Then, the total resistance is R_total = R_parallel + R₃ = 2.4 + 7.6 = 10.0 Ω. By Ohm's law: I = V/R = 12/10 = 1.2 A. The parallel combination always has a lower resistance than either individual resistor because adding a parallel path provides additional pathway for current flow, reducing overall resistance.",
+        "D": "A current of 3.0 A requires R_total = 4.0 Ω. This might result from using only R₁ (4 Ω) and ignoring the other resistors, or from an error in the parallel resistance calculation. The total circuit resistance must include both the parallel combination and R₃ in series."
+      },
+      "topic": "Resistors in Series & Parallel",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_echem_013",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "In a circuit loop, a 9.0 V battery is connected to three resistors in series: R₁ = 2.0 Ω, R₂ = 3.0 Ω, and R₃ = 4.0 Ω. According to Kirchhoff's voltage law, which of the following correctly describes the voltage drops across the resistors?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Each resistor has a voltage drop of 3.0 V"
+        },
+        {
+          "label": "B",
+          "text": "V₁ = 2.0 V, V₂ = 3.0 V, V₃ = 4.0 V"
+        },
+        {
+          "label": "C",
+          "text": "V₁ = 4.0 V, V₂ = 3.0 V, V₃ = 2.0 V"
+        },
+        {
+          "label": "D",
+          "text": "V₁ = 1.0 V, V₂ = 3.0 V, V₃ = 5.0 V"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Equal voltage drops (3.0 V each) would only occur if all resistors had equal resistance. With unequal resistors in series, the same current flows through each, so V = IR gives different voltage drops proportional to each resistance value. Kirchhoff's voltage law requires the drops to sum to 9.0 V, but they need not be equal.",
+        "B": "Correct. In a series circuit, current is the same through all resistors: I = V_total/R_total = 9.0/(2.0 + 3.0 + 4.0) = 9.0/9.0 = 1.0 A. By Ohm's law: V₁ = IR₁ = 1.0 × 2.0 = 2.0 V; V₂ = IR₂ = 1.0 × 3.0 = 3.0 V; V₃ = IR₃ = 1.0 × 4.0 = 4.0 V. Verification by Kirchhoff's voltage law: 2.0 + 3.0 + 4.0 = 9.0 V = battery voltage. The sum of all voltage drops in a closed loop equals the sum of all voltage sources — this is conservation of energy applied to electric circuits.",
+        "C": "This reverses the voltage drops relative to the resistances: V₁ = 4.0 V across R₁ = 2.0 Ω, which would require I = V/R = 4.0/2.0 = 2.0 A. But V₃ = 2.0 V across R₃ = 4.0 Ω gives I = 0.5 A. In series, the current must be the same through all resistors, so these values are internally inconsistent. Voltage drops are proportional to resistance (larger R → larger V), not inversely proportional.",
+        "D": "These values sum to 9.0 V (satisfying Kirchhoff's voltage law) but are not proportional to the resistances. V₁ = 1.0 V across R₁ = 2.0 Ω gives I = 0.5 A, while V₃ = 5.0 V across R₃ = 4.0 Ω gives I = 1.25 A. The inconsistent currents reveal that these voltage drops are incorrect. In series, all resistors carry the same current."
+      },
+      "topic": "Kirchhoff's Voltage Law",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_echem_014",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "A heating pad for physical therapy uses a resistive element connected to a 120 V outlet. If the pad is designed to deliver 60 W of thermal power, what is the resistance of the heating element?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2.0 Ω"
+        },
+        {
+          "label": "B",
+          "text": "60 Ω"
+        },
+        {
+          "label": "C",
+          "text": "240 Ω"
+        },
+        {
+          "label": "D",
+          "text": "7,200 Ω"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "A 2.0 Ω resistor connected to 120 V would draw I = V/R = 60 A and dissipate P = V²/R = 14,400/2 = 7,200 W — far too much power and an extremely dangerous current for a heating pad. This value may result from P/V = 60/120 = 0.5, then incorrectly manipulating this further.",
+        "B": "Using R = V/P = 120/60 = 2.0 Ω is incorrect because R = V/I (Ohm's law), not V/P. To use power: P = V²/R, so R = V²/P. Alternatively, P = VI gives I = P/V = 0.5 A, then R = V/I = 120/0.5 = 240 Ω. The error likely comes from confusing the power formula with Ohm's law.",
+        "C": "Correct. Using P = V²/R: R = V²/P = (120)²/60 = 14,400/60 = 240 Ω. Verification: I = V/R = 120/240 = 0.5 A; P = IV = 0.5 × 120 = 60 W. The resistive element converts electrical energy entirely into thermal energy (Joule heating). The P = V²/R form is most useful when voltage and power are known, which is the common design scenario for household appliances operating at a fixed line voltage.",
+        "D": "This value (7,200) equals V × P = 120 × 60 = 7,200, which does not correspond to any meaningful formula. The correct relationship is R = V²/P. Multiplying V and P gives units of V·W = V·(J/s), which does not produce ohms. Always check that dimensional analysis confirms your formula."
+      },
+      "topic": "Electrical Power & Resistance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_echem_015",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "An electrolyte solution of NaCl is placed between two electrodes separated by 10 cm. When a 5.0 V potential difference is applied, a current of 0.25 A is measured. If the NaCl concentration is doubled while all other conditions remain constant, which of the following best predicts the effect on the measured current?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The current remains at 0.25 A because voltage determines current, not concentration"
+        },
+        {
+          "label": "B",
+          "text": "The current approximately doubles because the number of charge carriers doubles"
+        },
+        {
+          "label": "C",
+          "text": "The current is halved because increased ion-ion interactions impede flow"
+        },
+        {
+          "label": "D",
+          "text": "The current quadruples because conductivity depends on concentration squared"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While Ohm's law (I = V/R) shows that current depends on voltage and resistance, the resistance of an electrolyte solution is not fixed — it depends on the concentration of ions. More ions means more charge carriers, which decreases the solution's resistance (increases its conductivity). Unlike a metallic resistor whose resistance is independent of the applied voltage, an electrolyte's resistance depends on its composition.",
+        "B": "Correct. The conductivity of a dilute electrolyte solution is approximately proportional to ion concentration: σ ∝ [ions]. Doubling the NaCl concentration roughly doubles the number of Na⁺ and Cl⁻ ions available to carry charge. Since R = ρL/A = L/(σA), doubling σ halves R, and by Ohm's law (I = V/R), the current approximately doubles to 0.50 A. This linear relationship holds reasonably well at dilute to moderate concentrations. At very high concentrations, ion-ion interactions (Debye-Hückel effects) cause deviations from linearity, but for a simple doubling from a moderate starting concentration, the approximation is valid.",
+        "C": "While ion-ion interactions do become significant at very high concentrations (reducing molar conductivity), they do not dominate at moderate concentrations. The primary effect of doubling concentration in the dilute-to-moderate range is a near-doubling of conductivity. The reduction in molar conductivity from interionic effects is a second-order correction, not the dominant trend.",
+        "D": "A squared dependence (σ ∝ [concentration]²) is not consistent with electrolyte conductivity theory. Kohlrausch's law and Debye-Hückel theory predict that molar conductivity decreases slightly with increasing concentration (Λ = Λ° − K√c), but total conductivity (σ = Λ × c) increases approximately linearly with concentration, not quadratically."
+      },
+      "topic": "Electrolyte Conductivity",
+      "difficulty": "Hard"
+    }
+  ]
+}

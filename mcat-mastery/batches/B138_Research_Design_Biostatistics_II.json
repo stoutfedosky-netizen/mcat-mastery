@@ -1,0 +1,351 @@
+{
+  "batch": "B138",
+  "section": "ps",
+  "sectionName": "Psychological, Social, & Biological Foundations of Behavior",
+  "topicArea": "Research Design & Biostatistics II",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_stats2_001",
+      "passage": "A sleep intervention is tested among first-year medical students. Dormitory floors are randomized to a sleep-skills workshop or wait-list control to reduce contamination between roommates. Outcomes are measured at baseline and 8 weeks.\n\nGroup | Mean sleep/night | Stress score | Exam mean | Attrition\nWorkshop | 7.1 h | 18 | 84% | 8%\nControl | 6.3 h | 24 | 79% | 18%\n\nThe investigators report p = 0.03 for exam score difference and Cohen's d = 0.42. Baseline exam scores were similar, but the workshop group had slightly lower baseline stress. A mediation model suggests that improved sleep partly reduces stress, which partly predicts exam performance.",
+      "stem": "What is the strongest design feature supporting causal inference in the intervention study?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The use of a self-report sleep measure"
+        },
+        {
+          "label": "B",
+          "text": "Randomization by dormitory floor"
+        },
+        {
+          "label": "C",
+          "text": "Higher attrition in the control group"
+        },
+        {
+          "label": "D",
+          "text": "Measuring outcomes only after the intervention"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A self-report sleep measure may provide useful outcome data, but it does not by itself support causal inference. Self-report can introduce measurement bias, and causality is strengthened by how participants are assigned to conditions. In this passage, randomization by dormitory floor is the key design feature because it helps balance confounders while reducing contamination between roommates.",
+        "B": "Correct. Randomization helps balance known and unknown confounders across conditions, and floor-level assignment limits contamination among roommates. The clustered design does require appropriate analysis, but it is still the main feature allowing stronger causal inference than a simple observational comparison.",
+        "C": "Higher attrition in the control group is a source of bias, not a design strength. If more control participants drop out — particularly if they differ systematically from those who remain — the final group comparison no longer reflects the original randomized allocation. Differential attrition threatens internal validity rather than supporting causal inference.",
+        "D": "Measuring outcomes only after the intervention (post-test only) prevents detection of pre-existing differences between groups. Without baseline measurements, any observed difference could reflect initial group inequalities rather than the intervention effect. Pre-post designs are stronger because they allow within-subject change to be calculated, isolating the treatment effect from baseline variability."
+      },
+      "topic": "Randomization and Causality",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_stats2_002",
+      "passage": null,
+      "stem": "Why is the higher control-group attrition a potential threat?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It guarantees the intervention has no effect"
+        },
+        {
+          "label": "B",
+          "text": "It proves baseline stress caused exam scores"
+        },
+        {
+          "label": "C",
+          "text": "It turns the study into a double-blind trial"
+        },
+        {
+          "label": "D",
+          "text": "It may create differential loss to follow-up that biases group comparisons"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Differential attrition does not prove the intervention had no effect. It threatens interpretation because the students who remained in the control group may differ systematically from those who dropped out. The concern is biased comparison, not automatic nullification of the treatment effect.",
+        "B": "Higher attrition does not prove that baseline stress caused exam scores. Causal claims about stress and performance would require appropriate temporal ordering and control of confounders. Attrition mainly threatens the comparability of the groups at follow-up.",
+        "C": "Attrition does not convert a study into a double-blind trial. Double-blinding means neither participants nor researchers know group assignment — a design feature established at the start, not a consequence of dropout. Attrition is a threat to internal validity because it can create systematic differences between the groups that remain, undermining the balance achieved by randomization.",
+        "D": "Correct. Differential attrition can bias results if students who remain differ systematically from those lost, especially if attrition relates to stress, sleep, or performance. It does not erase the intervention effect automatically, but it weakens confidence that final groups remain comparable."
+      },
+      "topic": "Attrition Bias",
+      "difficulty": "Medium",
+      "passageRef": "ps_stats2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stats2_003",
+      "passage": null,
+      "stem": "What does p = 0.03 most directly indicate?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "There is a 3% probability of observing data this extreme or more extreme if the null hypothesis were true"
+        },
+        {
+          "label": "B",
+          "text": "The intervention has a 97% chance of being true"
+        },
+        {
+          "label": "C",
+          "text": "The effect is clinically large"
+        },
+        {
+          "label": "D",
+          "text": "The study has no risk of bias"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A p value is conditional on the null model: it estimates how surprising the data would be if there were no true difference. It is not the probability the hypothesis is true, and it does not measure practical importance or remove design limitations such as attrition.",
+        "B": "A p-value of 0.03 does not mean the intervention has a 97% probability of being true. This is the common 'prosecutor's fallacy' — inverting the conditional probability. The p-value is P(data | null hypothesis), not P(hypothesis | data). The probability that the intervention works depends on the prior probability, effect size, and study design, not simply on 1 minus the p-value.",
+        "C": "A p-value does not measure clinical magnitude. A statistically significant result (small p) can reflect a trivially small effect in a large sample, while a clinically meaningful effect can yield a nonsignificant p-value in an underpowered study. Clinical importance is assessed through effect sizes (like Cohen's d) and clinical judgment, not through p-values alone.",
+        "D": "A statistically significant p value does not remove bias. A result can have p = 0.03 and still be affected by attrition, measurement error, confounding, clustering, or poor blinding. Statistical significance addresses compatibility with the null model, not the overall validity of the study design."
+      },
+      "topic": "P Values",
+      "difficulty": "Easy",
+      "passageRef": "ps_stats2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stats2_004",
+      "passage": null,
+      "stem": "How should Cohen's d = 0.42 be interpreted?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The percentage of students who slept exactly 0.42 hours more"
+        },
+        {
+          "label": "B",
+          "text": "The probability of replication"
+        },
+        {
+          "label": "C",
+          "text": "A standardized effect size of moderate magnitude"
+        },
+        {
+          "label": "D",
+          "text": "The false-positive rate"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Cohen's d is not a percentage of students and not the raw number of hours slept. It is the difference between group means expressed in pooled standard-deviation units. If the workshop group slept 0.8 hours more, Cohen's d describes how large that difference is relative to variability in sleep, not how many students changed by exactly 0.42 hours.",
+        "B": "Cohen's d does not give the probability that the result will replicate. Replication depends on sample size, study design, true effect size, measurement quality, and sampling variability. Cohen's d only describes the standardized magnitude of the observed difference.",
+        "C": "Correct. Cohen's d expresses the mean difference in standard-deviation units, allowing effect magnitude to be compared across measures. A value around 0.42 is often considered small-to-moderate; it complements the p value by describing size rather than only statistical compatibility with the null.",
+        "D": "Cohen's d is a standardized effect size — the difference between group means divided by the pooled standard deviation. It is not a false-positive rate. The false-positive rate (Type I error, α) is set by the researcher (typically 0.05) and describes how often a true null hypothesis would be incorrectly rejected. Cohen's d quantifies how large the observed difference is, regardless of statistical significance."
+      },
+      "topic": "Effect Size",
+      "difficulty": "Medium",
+      "passageRef": "ps_stats2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stats2_005",
+      "passage": null,
+      "stem": "Why should the mediation result be interpreted cautiously?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Mediation is impossible in randomized studies"
+        },
+        {
+          "label": "B",
+          "text": "Stress may be one pathway, but baseline differences and measurement timing can complicate causal ordering"
+        },
+        {
+          "label": "C",
+          "text": "Stress scores are unrelated to psychology"
+        },
+        {
+          "label": "D",
+          "text": "Mediation always proves biological mechanism"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Mediation analysis is not impossible in randomized studies — it is commonly performed in them. Randomization strengthens causal inference about the total effect of the intervention, and mediation analysis then explores potential pathways. The caution arises because mediator-outcome relationships are observational even within a randomized design, so confounding of that specific path remains possible.",
+        "B": "Correct. A mediation model can be useful, but the pathway claim requires temporal and causal support: sleep should change before stress, and stress before exam performance. Baseline stress imbalance and imperfect measurement mean the result should be treated as suggestive rather than definitive.",
+        "C": "Stress scores are directly relevant to psychology and behavioral science. Perceived stress is a core psychological construct measured by validated instruments (e.g., the Perceived Stress Scale). The concern about mediation is methodological — whether stress truly mediates the sleep-performance relationship or merely correlates with both — not whether stress is a legitimate psychological variable.",
+        "D": "Mediation analysis can suggest a pathway, but it does not automatically prove a biological mechanism. The model may show that sleep changes are statistically associated with stress changes, which are associated with exam outcomes. Demonstrating a biological mechanism would require stronger temporal, experimental, and physiological evidence."
+      },
+      "topic": "Mediation Analysis",
+      "difficulty": "Hard",
+      "passageRef": "ps_stats2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stats2_006",
+      "passage": "A follow-up observational study surveys 900 students from five schools. Sleep duration, caffeine use, depressive symptoms, study time, socioeconomic background, and exam performance are measured at one time point. Sleep correlates with exam score (r = 0.28), but the association decreases after adjustment for study time and depressive symptoms. The authors warn that cross-sectional mediation models cannot establish temporal order without longitudinal or experimental evidence.",
+      "stem": "What is the main limitation of the follow-up observational study?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It cannot measure correlations"
+        },
+        {
+          "label": "B",
+          "text": "Large samples always invalidate results"
+        },
+        {
+          "label": "C",
+          "text": "Cross-sectional data cannot confidently establish whether sleep preceded exam performance"
+        },
+        {
+          "label": "D",
+          "text": "Adjustment removes all confounding"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Cross-sectional studies can and do measure correlations — correlation coefficients like Pearson's r are routinely computed from cross-sectional data. The limitation is not the inability to detect associations but the inability to determine temporal ordering. Because exposure and outcome are measured simultaneously, a cross-sectional design cannot establish whether sleep preceded exam performance or vice versa.",
+        "B": "A large sample does not invalidate results; it usually improves precision and statistical power. The limitation of a cross-sectional design is different: even a very large sample cannot determine whether sleep differences came before exam differences when both are measured at the same time.",
+        "C": "Correct. Because all variables are measured at one time point, temporal order is ambiguous. Better sleep might improve grades, strong students might sleep more, or third variables might affect both. Large sample size improves precision but cannot by itself solve causal direction.",
+        "D": "Adjustment can reduce measured confounding, but it does not remove all confounding. Residual confounding, unmeasured variables, measurement error, and incorrect model assumptions can remain. Adjustment also cannot solve the temporal-order problem in cross-sectional data."
+      },
+      "topic": "Cross-Sectional Design",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_stats2_007",
+      "passage": null,
+      "stem": "What does r = 0.28 indicate?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A modest positive linear association"
+        },
+        {
+          "label": "B",
+          "text": "A perfect causal relationship"
+        },
+        {
+          "label": "C",
+          "text": "No association"
+        },
+        {
+          "label": "D",
+          "text": "A negative association"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A correlation of 0.28 is positive but not large; higher sleep duration tends to accompany higher exam scores, with substantial unexplained variation. Correlation describes association, not causation, and does not rule out confounding by study time, health, or socioeconomic factors.",
+        "B": "A correlation of r = 0.28 is far from a perfect relationship and does not establish causation. It indicates that higher sleep tends to be associated with higher exam scores, but much of the variation remains unexplained and third variables could account for the association.",
+        "C": "An r of 0.28 is not 'no association.' While modest, it represents a statistically detectable positive linear relationship. An r of zero would indicate no linear association. The value 0.28 falls in the small-to-moderate range by conventional benchmarks (Cohen: 0.10 = small, 0.30 = moderate, 0.50 = large), indicating a real but not dominant relationship between the variables.",
+        "D": "An r of 0.28 is positive, not negative. A positive r means the two variables increase together — as reported sleep quality improves, exam scores tend to rise. A negative r would indicate an inverse relationship. The sign of the correlation coefficient directly indicates the direction of the linear association, and the passage reports a clearly positive value."
+      },
+      "topic": "Correlation",
+      "difficulty": "Easy",
+      "passageRef": "ps_stats2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stats2_008",
+      "passage": null,
+      "stem": "Why does adjustment for depressive symptoms reduce the sleep-performance association?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The sample size becomes zero after adjustment"
+        },
+        {
+          "label": "B",
+          "text": "Adjustment always creates stronger effects"
+        },
+        {
+          "label": "C",
+          "text": "Depressive symptoms are the same variable as sleep"
+        },
+        {
+          "label": "D",
+          "text": "Depressive symptoms may confound or partly mediate the relationship"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Adjustment does not reduce the sample size to zero. Statistical adjustment (e.g., adding covariates to a regression) partitions variance among predictors — it removes the portion of the sleep-performance association that is shared with depressive symptoms. The sample remains intact; only the estimated coefficient changes. The sample size is determined by data collection, not by the number of covariates.",
+        "B": "Adjustment does not always create stronger effects. If the adjusted variable explains part of the original association, the effect estimate can shrink, disappear, or sometimes increase depending on the causal structure. In the passage, adjustment for depressive symptoms reduces the sleep-performance association because those symptoms share variance with both variables.",
+        "C": "Depressive symptoms and sleep are distinct constructs measured by different instruments. While they are correlated — poor sleep can worsen depression, and depression can disrupt sleep — they are not the same variable. The reason adjustment reduces the association is that depressive symptoms share variance with both sleep and exam performance, acting as a confounder or partial mediator, not because the variables are identical.",
+        "D": "Correct. If depressive symptoms affect both sleep and academic performance, adjustment can reduce confounding. If sleep affects mood which affects performance, adjustment may also block part of the pathway. The attenuation signals shared variance, not automatic disproof of a sleep effect."
+      },
+      "topic": "Confounding and Adjustment",
+      "difficulty": "Hard",
+      "passageRef": "ps_stats2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stats2_009",
+      "passage": null,
+      "stem": "Which study would best strengthen causal evidence after the observational finding?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A longitudinal randomized sleep intervention measuring stress before later exam outcomes"
+        },
+        {
+          "label": "B",
+          "text": "A larger cross-sectional survey with no new timing data"
+        },
+        {
+          "label": "C",
+          "text": "A poll asking whether students like sleep"
+        },
+        {
+          "label": "D",
+          "text": "Removing all covariates from the analysis"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A randomized intervention improves confounder control, and longitudinal measurement helps establish temporal order from sleep change to stress change to later performance. This design directly addresses the weaknesses of cross-sectional mediation and simple correlation.",
+        "B": "A larger cross-sectional survey would increase statistical power and precision but would not strengthen causal evidence. The fundamental limitation of cross-sectional designs — inability to establish temporal ordering — is not solved by adding more participants. Causal inference requires either experimental manipulation (randomization) or at minimum longitudinal data showing that the exposure preceded the outcome.",
+        "C": "Asking whether students like sleep would measure attitudes, not whether changing sleep improves stress or later exam performance. A preference poll does not establish temporal order, manipulate the exposure, or control confounding, so it would add little causal evidence.",
+        "D": "Removing all covariates would generally weaken causal interpretation, not strengthen it, because confounders could distort the sleep-performance association. Covariate decisions should be based on the causal question, but simply dropping all adjustment does not address bias."
+      },
+      "topic": "Improving Causal Inference",
+      "difficulty": "Medium",
+      "passageRef": "ps_stats2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stats2_010",
+      "passage": null,
+      "stem": "Why can overadjustment be a problem in this context?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Covariates are never useful"
+        },
+        {
+          "label": "B",
+          "text": "Adjusting for a true mediator can hide part of the effect one wants to estimate"
+        },
+        {
+          "label": "C",
+          "text": "Regression cannot include more than one variable"
+        },
+        {
+          "label": "D",
+          "text": "Overadjustment means using too small a sample"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Covariates can be very useful when they are true confounders, because adjustment can reduce bias in the estimated association. The problem is not covariate use in general; it is adjusting for variables that lie on the causal pathway or otherwise distort the effect one intends to estimate.",
+        "B": "Correct. If improved sleep reduces stress and stress improves performance, controlling for stress estimates the direct effect not operating through stress and can understate the total intervention effect. Covariate choice must match the causal question rather than mechanically include every measured variable.",
+        "C": "Regression can and routinely does include multiple variables simultaneously — that is the entire purpose of multivariable regression. The concern about overadjustment is not about computational limits but about conceptual appropriateness: if a covariate lies on the causal pathway between exposure and outcome (i.e., is a mediator), adjusting for it removes the indirect effect, potentially masking a real causal relationship.",
+        "D": "Overadjustment does not mean using too small a sample. It means controlling for a variable that should not be controlled for in the chosen causal model, such as a mediator between sleep and exam performance. Small sample size is a power and precision problem, not the definition of overadjustment."
+      },
+      "topic": "Overadjustment",
+      "difficulty": "Hard",
+      "passageRef": "ps_stats2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

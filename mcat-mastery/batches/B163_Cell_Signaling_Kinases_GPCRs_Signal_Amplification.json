@@ -1,0 +1,351 @@
+{
+  "batch": "B163",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_signal3_001",
+      "passage": "A cell biology lab studies a hormone that binds a membrane receptor on liver cells. Within seconds, intracellular cAMP rises, protein kinase A becomes active, and glycogen phosphorylase activity increases. A nonhydrolyzable GTP analog prolongs the response, whereas a phosphodiesterase inhibitor increases response duration by slowing cAMP breakdown.\n\nTreatment | cAMP | PKA activity | Glycogen phosphorylase\nHormone | high | high | high\nReceptor antagonist | low | low | low\nPhosphodiesterase inhibitor | prolonged | prolonged | prolonged\n\nThe investigators propose that the receptor is a Gs-coupled GPCR activating adenylyl cyclase.",
+      "stem": "Which enzyme most directly produces cAMP in the hormone pathway?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Adenylyl cyclase"
+        },
+        {
+          "label": "B",
+          "text": "Protein kinase A"
+        },
+        {
+          "label": "C",
+          "text": "Phosphodiesterase"
+        },
+        {
+          "label": "D",
+          "text": "Glycogen phosphorylase"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Adenylyl cyclase converts ATP to cAMP after activation by Gsα. PKA responds to cAMP, phosphodiesterase degrades it, and glycogen phosphorylase is a downstream metabolic target.",
+        "B": "PKA is downstream of cAMP and cannot explain the initial rise in the second messenger.",
+        "C": "Phosphodiesterase lowers cAMP by hydrolysis, so inhibiting it prolongs signaling rather than producing cAMP.",
+        "D": "Glycogen phosphorylase acts on glycogen metabolism; it is activated downstream of the signaling cascade."
+      },
+      "topic": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_signal3_002",
+      "passage": null,
+      "stem": "Why does a nonhydrolyzable GTP analog prolong signaling?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It destroys the receptor ligand"
+        },
+        {
+          "label": "B",
+          "text": "It prevents Gα from turning itself off by GTP hydrolysis"
+        },
+        {
+          "label": "C",
+          "text": "It degrades cAMP instantly"
+        },
+        {
+          "label": "D",
+          "text": "It blocks all kinase activity"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Destroying ligand would shorten receptor activation rather than prolong the intracellular response.",
+        "B": "Correct. G proteins are active when bound to GTP and switch off when GTP is hydrolyzed to GDP. A nonhydrolyzable analog traps Gα in an active-like state, extending downstream signaling.",
+        "C": "Instant cAMP degradation would lower PKA activity, the opposite of a prolonged response.",
+        "D": "The pathway requires kinase activity downstream; blocking all kinases would suppress, not prolong, signaling."
+      },
+      "topic": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+      "difficulty": "Easy",
+      "passageRef": "bb_signal3_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_signal3_003",
+      "passage": null,
+      "stem": "What is the effect of phosphodiesterase inhibition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Shorter cAMP signaling"
+        },
+        {
+          "label": "B",
+          "text": "No effect on second messengers"
+        },
+        {
+          "label": "C",
+          "text": "Longer cAMP signaling"
+        },
+        {
+          "label": "D",
+          "text": "Direct receptor dimerization"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Shortening would occur if phosphodiesterase activity increased, not if it were inhibited.",
+        "B": "The passage directly shows prolonged cAMP, so saying no effect ignores the treatment table.",
+        "C": "Correct. Phosphodiesterase terminates cAMP signaling by converting cAMP to AMP. Inhibiting it slows cAMP breakdown, so PKA activity and downstream effects persist longer.",
+        "D": "Receptor dimerization describes receptor tyrosine kinases, not the cAMP degradation step."
+      },
+      "topic": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+      "difficulty": "Medium",
+      "passageRef": "bb_signal3_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_signal3_004",
+      "passage": "A second pathway is triggered by a growth factor receptor with intrinsic tyrosine kinase activity. Ligand binding causes receptor dimerization, autophosphorylation, recruitment of adaptor proteins, and activation of a Ras-MAPK cascade. A kinase-dead receptor binds ligand but fails to autophosphorylate. A constitutively active Ras mutant increases downstream ERK phosphorylation even when the receptor is blocked.",
+      "stem": "Which feature best distinguishes the growth factor receptor from the GPCR?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It is intracellular and binds steroid"
+        },
+        {
+          "label": "B",
+          "text": "It hydrolyzes glycogen directly"
+        },
+        {
+          "label": "C",
+          "text": "It uses cAMP as its only second messenger"
+        },
+        {
+          "label": "D",
+          "text": "It has intrinsic or associated tyrosine kinase signaling after dimerization"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage describes a membrane growth factor receptor, not an intracellular steroid receptor.",
+        "B": "Glycogen hydrolysis is metabolic output in the GPCR passage, not the receptor's catalytic activity.",
+        "C": "The RTK passage emphasizes Ras-MAPK, not cAMP as the only second messenger.",
+        "D": "Correct. Receptor tyrosine kinases dimerize and autophosphorylate tyrosine residues, creating docking sites for signaling proteins. That differs from GPCR signaling through heterotrimeric G proteins."
+      },
+      "topic": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_signal3_005",
+      "passage": null,
+      "stem": "Why does constitutively active Ras bypass receptor blockade?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ras is the extracellular ligand"
+        },
+        {
+          "label": "B",
+          "text": "Ras acts downstream of the receptor and can drive MAPK signaling without upstream activation"
+        },
+        {
+          "label": "C",
+          "text": "Ras degrades all phosphorylated ERK"
+        },
+        {
+          "label": "D",
+          "text": "Ras prevents GTP binding"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Ras is an intracellular small GTPase, not the extracellular growth factor ligand.",
+        "B": "Correct. If Ras is locked active downstream of the receptor, blocking receptor activation no longer prevents signaling to ERK. This is classic epistasis logic: downstream activation bypasses upstream inhibition.",
+        "C": "Active Ras increases ERK phosphorylation in the passage; it does not degrade ERK phosphorylation.",
+        "D": "Ras activity depends on GTP binding. Preventing GTP binding would inactivate Ras rather than make it constitutively active."
+      },
+      "topic": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+      "difficulty": "Medium",
+      "passageRef": "bb_signal3_004",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_signal3_006",
+      "passage": null,
+      "stem": "What does receptor autophosphorylation accomplish in the RTK pathway?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Creates phosphotyrosine docking sites for adaptor proteins"
+        },
+        {
+          "label": "B",
+          "text": "Turns the receptor into a GPCR"
+        },
+        {
+          "label": "C",
+          "text": "Removes all phosphate groups from ATP"
+        },
+        {
+          "label": "D",
+          "text": "Blocks ligand binding after dimerization"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Autophosphorylated tyrosines serve as recognition sites for SH2/PTB-domain proteins, organizing downstream signaling complexes such as the Ras-MAPK cascade.",
+        "B": "A receptor tyrosine kinase does not become a GPCR; the receptor classes remain mechanistically distinct.",
+        "C": "Kinase activity transfers phosphate groups from ATP to protein residues; it does not remove all phosphate from ATP nonspecifically.",
+        "D": "Ligand binding causes dimerization and activation; autophosphorylation is a consequence that propagates signal."
+      },
+      "topic": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+      "difficulty": "Medium",
+      "passageRef": "bb_signal3_004",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_signal3_007",
+      "passage": null,
+      "stem": "A kinase-dead receptor binds ligand but fails to signal because it cannot:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "enter the nucleus as a transcription factor"
+        },
+        {
+          "label": "B",
+          "text": "bind extracellular ligand"
+        },
+        {
+          "label": "C",
+          "text": "autophosphorylate and recruit downstream signaling proteins"
+        },
+        {
+          "label": "D",
+          "text": "hydrolyze cAMP"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "RTKs signal from the membrane through cascades; they do not need to enter the nucleus as the receptor itself.",
+        "B": "Ligand binding is preserved by definition in the kinase-dead receptor, so this cannot explain failure after ligand exposure.",
+        "C": "Correct. The passage states ligand binding remains intact, but autophosphorylation fails. Without phosphotyrosine docking sites, adaptor recruitment and downstream MAPK activation are impaired.",
+        "D": "cAMP hydrolysis belongs to phosphodiesterases in GPCR pathways, not kinase-dead RTK signaling."
+      },
+      "topic": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+      "difficulty": "Easy",
+      "passageRef": "bb_signal3_004",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_signal3_008",
+      "passage": null,
+      "stem": "Which result would place MEK downstream of Ras?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "MEK is secreted as the growth factor"
+        },
+        {
+          "label": "B",
+          "text": "MEK inhibition prevents ligand binding"
+        },
+        {
+          "label": "C",
+          "text": "MEK inhibition increases receptor autophosphorylation only"
+        },
+        {
+          "label": "D",
+          "text": "Active Ras fails to increase ERK when MEK is inhibited"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "MEK is an intracellular kinase in the MAPK cascade, not the extracellular ligand.",
+        "B": "Ligand binding occurs at the receptor and should not depend on MEK, a downstream kinase.",
+        "C": "Changing receptor autophosphorylation alone would suggest upstream feedback, not a required downstream link to ERK.",
+        "D": "Correct. If Ras activation cannot raise ERK phosphorylation when MEK is inhibited, MEK is required downstream of Ras to transmit the signal to ERK."
+      },
+      "topic": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+      "difficulty": "Medium",
+      "passageRef": "bb_signal3_004",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_signal3_009",
+      "passage": null,
+      "stem": "Why can signaling cascades amplify a small extracellular signal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "One activated component can activate many downstream molecules"
+        },
+        {
+          "label": "B",
+          "text": "Each receptor activates exactly one final protein only"
+        },
+        {
+          "label": "C",
+          "text": "Second messengers prevent enzyme activation"
+        },
+        {
+          "label": "D",
+          "text": "Kinases cannot phosphorylate more than one substrate"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cascades amplify because active enzymes and second messengers can influence multiple targets. One receptor can activate many G proteins, many cAMP molecules, or multiple kinase substrates.",
+        "B": "A strictly one-to-one chain would limit amplification and does not fit GPCR or kinase cascade biology.",
+        "C": "Second messengers often promote enzyme activation, as cAMP activates PKA in the passage.",
+        "D": "Kinases commonly phosphorylate multiple substrate molecules, enabling amplification."
+      },
+      "topic": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+      "difficulty": "Hard",
+      "passageRef": "bb_signal3_004",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_signal3_010",
+      "passage": null,
+      "stem": "Which process most directly terminates the GPCR signal upstream of cAMP degradation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ERK enters the nucleus"
+        },
+        {
+          "label": "B",
+          "text": "Gα hydrolyzes GTP to GDP"
+        },
+        {
+          "label": "C",
+          "text": "Ras becomes permanently active"
+        },
+        {
+          "label": "D",
+          "text": "Glycogen phosphorylase releases glucose"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "ERK nuclear entry belongs to the RTK pathway and is downstream transcriptional signaling, not GPCR shutoff.",
+        "B": "Correct. GTP hydrolysis returns Gα to its inactive GDP-bound state, reducing adenylyl cyclase stimulation. This terminates the signal upstream of phosphodiesterase-mediated cAMP breakdown.",
+        "C": "Permanently active Ras would sustain MAPK signaling, not terminate the GPCR cAMP pathway.",
+        "D": "Glycogen phosphorylase is a metabolic effector; its action does not switch off the receptor-proximal G protein."
+      },
+      "topic": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+      "difficulty": "Medium",
+      "passageRef": "bb_signal3_001",
+      "usePrevPassage": true
+    }
+  ]
+}

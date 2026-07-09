@@ -1,0 +1,338 @@
+{
+  "batch": "B085",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "DNA Replication & Repair",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_dnarep_001",
+      "passage": "A molecular biologist studies DNA replication in E. coli. She notes that replication begins at oriC and proceeds bidirectionally from two replication forks. DNA polymerase III synthesizes new DNA in the 5'→3' direction, reading the template 3'→5'. Because the two template strands are antiparallel, one strand (the leading strand) is synthesized continuously, while the other (the lagging strand) is synthesized discontinuously as Okazaki fragments. DNA primase lays down RNA primers to initiate synthesis, and DNA polymerase I replaces primers with DNA. DNA ligase seals the remaining nicks. She also studies proofreading (3'→5' exonuclease activity of Pol III), mismatch repair, nucleotide excision repair, and base excision repair.",
+      "stem": "DNA polymerase synthesizes new DNA only in the 5'→3' direction because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it adds nucleotides to the 3'-OH group of the growing strand — the incoming dNTP provides the energy for bond formation through hydrolysis of its pyrophosphate"
+        },
+        {
+          "label": "B",
+          "text": "the template strand runs in the 5'→3' direction as well"
+        },
+        {
+          "label": "C",
+          "text": "3'→5' synthesis would require an external energy source not available in the cell"
+        },
+        {
+          "label": "D",
+          "text": "the double helix can only be unwound in the 5'→3' direction"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. DNA polymerase catalyzes nucleophilic attack by the 3'-OH of the growing strand on the α-phosphate of the incoming dNTP, releasing pyrophosphate (PPi), which is hydrolyzed by pyrophosphatase (PP → 2Pi), driving the reaction forward. This chemistry is inherently directional — the energy comes from the incoming nucleotide's triphosphate. If synthesis ran 3'→5', the energy donor would be on the growing chain itself; errors removed by proofreading would also remove the energy source, making re-extension impossible. This biochemical constraint is why all known DNA polymerases synthesize 5'→3'.",
+        "B": "The template strand runs 3'→5' relative to the direction of synthesis (polymerase reads 3'→5' and synthesizes 5'→3'). The two strands are antiparallel. The template direction does not determine synthesis direction — it is the enzyme's chemistry.",
+        "C": "Cells have multiple energy sources (ATP, GTP). The reason 3'→5' synthesis does not occur is biochemical: the triphosphate energy would be on the chain terminus rather than the incoming nucleotide, making proofreading and re-extension energetically impossible.",
+        "D": "Helicase unwinds DNA at the replication fork, and both strands are replicated simultaneously regardless of their orientation. Unwinding direction does not constrain polymerase directionality."
+      },
+      "topic": "5'→3' Synthesis / Biochemical Basis",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_dnarep_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The lagging strand is synthesized discontinuously as Okazaki fragments because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it contains more thymine than the leading strand"
+        },
+        {
+          "label": "B",
+          "text": "its template runs 5'→3' toward the replication fork, so polymerase must synthesize short fragments away from the fork and restart as new template is exposed — each fragment requires a new RNA primer"
+        },
+        {
+          "label": "C",
+          "text": "DNA ligase continuously breaks the lagging strand into pieces"
+        },
+        {
+          "label": "D",
+          "text": "the lagging strand uses RNA polymerase instead of DNA polymerase"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The two parental strands are antiparallel. At the replication fork, one template (leading) runs 3'→5' toward the fork, allowing continuous 5'→3' synthesis in the same direction as fork movement. The other template (lagging) runs 5'→3' toward the fork — polymerase must synthesize away from the fork (5'→3'). As helicase exposes new template, a new RNA primer is laid, and another Okazaki fragment (~1-2 kb in prokaryotes, ~100-200 nt in eukaryotes) is started. Fragments are connected after primer removal (Pol I) and nick sealing (ligase).",
+        "A": "Base composition has nothing to do with lagging-strand discontinuity. Both strands follow Chargaff's rules. The discontinuity is purely a geometric consequence of antiparallel strand orientation and unidirectional synthesis.",
+        "C": "DNA ligase seals nicks — it does not create fragments. The fragments (Okazaki fragments) are formed because synthesis must restart repeatedly on the lagging strand. Ligase's role is to join adjacent fragments after primer replacement.",
+        "D": "DNA polymerase III synthesizes both the leading and lagging strands. RNA primase synthesizes short RNA primers (~10-12 nt) to provide the 3'-OH that DNA polymerase requires, but the bulk synthesis is by DNA Pol III, not RNA polymerase."
+      },
+      "topic": "Okazaki Fragments / Lagging Strand",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_dnarep_003",
+      "passage": null,
+      "stem": "DNA polymerase III has 3'→5' exonuclease (proofreading) activity, which means:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it degrades the template strand ahead of the replication fork"
+        },
+        {
+          "label": "B",
+          "text": "it adds nucleotides in the 3'→5' direction"
+        },
+        {
+          "label": "C",
+          "text": "it can detect and remove incorrectly paired nucleotides from the 3' end of the growing strand, then resynthesize with the correct base — reducing the error rate from ~10⁻⁵ to ~10⁻⁷"
+        },
+        {
+          "label": "D",
+          "text": "it replaces RNA primers with DNA"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Proofreading is an immediate quality control during replication. If DNA Pol III incorporates a wrong nucleotide, the mismatched base pair distorts the minor groove geometry, triggering a conformational shift that moves the 3' end of the new strand from the polymerase active site to the exonuclease active site. The incorrect nucleotide is excised (3'→5' direction), and the strand is returned to the polymerase site for correct re-synthesis. This reduces the error rate ~100-fold. Combined with mismatch repair (post-replicative), the overall error rate reaches ~10⁻⁹ to 10⁻¹⁰ per base pair.",
+        "A": "The exonuclease activity acts on the newly synthesized strand (removing incorrect bases from the 3' end), not the template strand. Degradation ahead of the fork is not part of proofreading.",
+        "B": "3'→5' exonuclease activity removes nucleotides in the 3'→5' direction (excision), but this is degradation, not synthesis. Synthesis always occurs 5'→3'. The proofreading exonuclease runs in the opposite direction to backtrack and remove errors.",
+        "D": "Primer replacement is the function of DNA polymerase I (Pol I) in E. coli, not Pol III's proofreading activity. Pol I has 5'→3' exonuclease activity that removes RNA primers and replaces them with DNA."
+      },
+      "topic": "Proofreading / 3'→5' Exonuclease",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_dnarep_004",
+      "passage": null,
+      "stem": "Nucleotide excision repair (NER) is particularly important for repairing:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "single base mismatches from replication errors"
+        },
+        {
+          "label": "B",
+          "text": "bulky, helix-distorting lesions such as thymine dimers caused by UV radiation — NER excises a ~12-13 nt segment surrounding the damage and resynthesizes using the undamaged strand"
+        },
+        {
+          "label": "C",
+          "text": "double-strand breaks caused by ionizing radiation"
+        },
+        {
+          "label": "D",
+          "text": "telomere shortening during replication"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. NER recognizes bulky lesions that distort the DNA double helix — most importantly UV-induced thymine dimers (cyclobutane pyrimidine dimers, CPDs, and 6-4 photoproducts). The NER pathway (in E. coli: UvrABC system; in humans: XP proteins) excises a short oligonucleotide patch (~12-13 nt in prokaryotes, ~24-32 nt in eukaryotes) containing the lesion, and DNA polymerase and ligase fill the gap using the undamaged strand as template. Defects in NER cause xeroderma pigmentosum (XP) — extreme UV sensitivity and >1000× increased skin cancer risk.",
+        "A": "Single base mismatches from replication errors are corrected by mismatch repair (MMR), not NER. MMR uses MutS/MutL/MutH (in E. coli) or MSH/MLH (in humans) to detect and correct mismatched bases shortly after replication.",
+        "C": "Double-strand breaks (DSBs) are repaired by nonhomologous end joining (NHEJ, error-prone) or homologous recombination (HR, error-free). NER handles single-strand lesions, not breaks.",
+        "D": "Telomere shortening is addressed by telomerase (a reverse transcriptase that extends telomeric repeats), not NER. Telomere maintenance is a replication problem, not a DNA damage repair issue."
+      },
+      "topic": "Nucleotide Excision Repair / UV Damage",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_dnarep_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "DNA ligase functions by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "unwinding the double helix at the replication fork"
+        },
+        {
+          "label": "B",
+          "text": "synthesizing RNA primers for Okazaki fragments"
+        },
+        {
+          "label": "C",
+          "text": "sealing nicks in the sugar-phosphate backbone by forming a phosphodiester bond between the 3'-OH of one fragment and the 5'-phosphate of the adjacent fragment"
+        },
+        {
+          "label": "D",
+          "text": "degrading damaged nucleotides from the strand"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. DNA ligase catalyzes the formation of a phosphodiester bond between adjacent nucleotides to seal single-strand nicks (breaks in the sugar-phosphate backbone). It joins the 3'-OH end of one Okazaki fragment to the 5'-phosphate of the next, after DNA Pol I has replaced the RNA primer with DNA. In E. coli, ligase uses NAD⁺ as a cofactor; in eukaryotes and bacteriophage T4, it uses ATP. Ligase is essential for completing lagging-strand synthesis, DNA repair, and recombination.",
+        "A": "Unwinding the double helix is the function of helicase (DnaB in E. coli). Helicase uses ATP hydrolysis to break hydrogen bonds between base pairs at the replication fork. Ligase performs the opposite function — it seals, not separates.",
+        "B": "RNA primer synthesis is performed by primase (DnaG in E. coli). Primase synthesizes short RNA primers (~10-12 nt) that provide the 3'-OH needed for DNA polymerase to initiate synthesis.",
+        "D": "Degradation of damaged nucleotides is performed by nucleases (exonucleases and endonucleases) in various DNA repair pathways. Ligase is a joining enzyme, not a degradative one."
+      },
+      "topic": "DNA Ligase / Nick Sealing",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_dnarep_006",
+      "passage": null,
+      "stem": "Helicase at the replication fork:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "synthesizes new DNA complementary to the template"
+        },
+        {
+          "label": "B",
+          "text": "prevents re-annealing of separated strands by coating single-stranded DNA"
+        },
+        {
+          "label": "C",
+          "text": "removes RNA primers and replaces them with DNA"
+        },
+        {
+          "label": "D",
+          "text": "uses ATP hydrolysis to break hydrogen bonds between base pairs, unwinding the double helix ahead of the polymerase"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Coating single-stranded DNA to prevent re-annealing and secondary structure formation is the function of single-stranded binding proteins (SSB in prokaryotes, RPA in eukaryotes). These stabilize the unwound template until polymerase arrives.",
+        "A": "DNA synthesis is performed by DNA polymerase, not helicase. Helicase's sole mechanical function is strand separation. It creates the substrate that polymerase then copies.",
+        "C": "Primer removal and DNA replacement is the function of DNA Pol I (in E. coli) using its 5'→3' exonuclease activity and polymerase activity. Helicase does not interact with primers.",
+        "D": "Correct. Helicase (DnaB in E. coli, MCM complex in eukaryotes) is a motor protein that uses ATP hydrolysis to translocate along DNA and separate the two strands by disrupting hydrogen bonds between base pairs. It moves ahead of DNA polymerase at the replication fork, generating single-stranded DNA templates. Helicase is loaded at the origin of replication (oriC) by DnaA and DnaC. Without helicase, the polymerase cannot access the template bases buried in the double helix."
+      },
+      "topic": "Helicase / Strand Separation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_dnarep_007",
+      "passage": null,
+      "stem": "In eukaryotic cells, telomerase is important because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it extends the 3' end of chromosomes by adding telomeric repeat sequences (TTAGGG in humans), compensating for the end-replication problem that would otherwise shorten chromosomes with each division"
+        },
+        {
+          "label": "B",
+          "text": "it replaces RNA primers with DNA at internal sites"
+        },
+        {
+          "label": "C",
+          "text": "it proofreads newly synthesized DNA for errors"
+        },
+        {
+          "label": "D",
+          "text": "it unwinds DNA at replication origins"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "C": "Proofreading is performed by the 3'→5' exonuclease activity of DNA polymerase, not telomerase. Telomerase specifically addresses telomere maintenance.",
+        "A": "Correct. The end-replication problem: when the final RNA primer on the lagging strand is removed at the chromosome end, DNA Pol cannot fill the gap (no upstream 3'-OH to extend from), causing progressive telomere shortening (~50-200 bp per division). Telomerase, a reverse transcriptase with an internal RNA template (TERC), extends the 3' overhang of telomeres by adding TTAGGG repeats. This prevents chromosome shortening and genome instability. Telomerase is active in germ cells, stem cells, and ~90% of cancers, but inactive in most somatic cells — contributing to the Hayflick limit and cellular aging.",
+        "B": "RNA primer replacement at internal sites is performed by DNA Pol I. Telomerase works specifically at chromosome ends (telomeres) and uses its own RNA component as a template for reverse transcription.",
+        "D": "DNA unwinding at replication origins is performed by helicase. Telomerase does not participate in replication initiation."
+      },
+      "topic": "Telomerase / End-Replication Problem",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_dnarep_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The researcher studies a mutant E. coli strain lacking functional mismatch repair. This strain would have:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "normal mutation rates because mismatch repair is not important"
+        },
+        {
+          "label": "B",
+          "text": "decreased mutation rates because other repair pathways fully compensate"
+        },
+        {
+          "label": "C",
+          "text": "increased mutation rates (mutator phenotype) — replication errors that escape proofreading are no longer corrected, leading to higher frequencies of base substitutions, insertions, and deletions"
+        },
+        {
+          "label": "D",
+          "text": "no DNA replication at all"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Mismatch repair (MMR) is the post-replicative quality control system that corrects errors missed by proofreading (~1 per 10⁷ bases). Without MMR, the error rate increases ~100-1000 fold (from ~10⁻⁹ to ~10⁻⁶-10⁻⁷), producing a mutator phenotype. This is significant in cancer biology: inherited mutations in human MMR genes (MSH2, MLH1) cause Lynch syndrome (hereditary nonpolyposis colorectal cancer, HNPCC), characterized by microsatellite instability and markedly elevated cancer risk.",
+        "A": "MMR is critically important — it corrects the ~99% of replication errors that escape proofreading. Without it, mutation rates increase dramatically.",
+        "B": "Other repair pathways (BER, NER) do not compensate for MMR loss because they repair different types of damage (oxidative lesions, bulky adducts), not replication-generated mismatches. Each repair pathway is specialized.",
+        "D": "MMR-deficient cells can still replicate DNA — replication and repair are separate processes. The cells simply accumulate more mutations per replication cycle, eventually leading to genomic instability and disease."
+      },
+      "topic": "Mismatch Repair / Mutator Phenotype",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_dnarep_009",
+      "passage": null,
+      "stem": "Topoisomerase relieves torsional strain during replication by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "adding methyl groups to newly synthesized DNA"
+        },
+        {
+          "label": "B",
+          "text": "degrading single-stranded DNA after helicase unwinding"
+        },
+        {
+          "label": "C",
+          "text": "synthesizing new DNA to bypass damaged regions"
+        },
+        {
+          "label": "D",
+          "text": "breaking and rejoining phosphodiester bonds in the DNA backbone to relax positive supercoils that accumulate ahead of the replication fork"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "SSB proteins stabilize single-stranded DNA. Topoisomerases work on double-stranded DNA topology (supercoiling), not on single-stranded DNA degradation.",
+        "A": "DNA methylation is performed by methyltransferases and is important for gene regulation and mismatch repair strand discrimination, not torsional strain relief.",
+        "C": "Bypass of damaged DNA regions is performed by translesion synthesis (TLS) polymerases (Y-family polymerases), not topoisomerases. TLS polymerases have relaxed fidelity but can replicate past lesions.",
+        "D": "Correct. As helicase unwinds DNA at the replication fork, the unreplicated DNA ahead becomes positively supercoiled (overwound) because the strands cannot freely rotate. This torsional strain would halt replication if not relieved. Topoisomerase I cuts one strand (relaxing supercoils one at a time), while Topoisomerase II (DNA gyrase in prokaryotes) cuts both strands and passes a segment through (introducing negative supercoils to relax positive ones). Bacterial DNA gyrase is a target of fluoroquinolone antibiotics (ciprofloxacin, levofloxacin)."
+      },
+      "topic": "Topoisomerase / Supercoiling",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_dnarep_010",
+      "passage": null,
+      "stem": "Semiconservative replication means:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "both new DNA molecules contain one original (parental) strand and one newly synthesized strand — demonstrated by the Meselson-Stahl experiment"
+        },
+        {
+          "label": "B",
+          "text": "one new DNA molecule gets both original strands and the other gets both new strands"
+        },
+        {
+          "label": "C",
+          "text": "the original DNA is completely destroyed and two entirely new molecules are synthesized"
+        },
+        {
+          "label": "D",
+          "text": "only one strand of the DNA is replicated while the other remains single-stranded"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Semiconservative replication: each daughter DNA molecule contains one parental strand (conserved) and one newly synthesized strand. This was demonstrated by Meselson and Stahl (1958) using ¹⁵N (heavy) and ¹⁴N (light) isotope labeling in E. coli. After one round of replication in light medium, all DNA had intermediate density (one heavy + one light strand). After two rounds, half was intermediate and half was light — exactly as predicted by semiconservative replication, ruling out conservative and dispersive models.",
+        "B": "This describes conservative replication, which was ruled out by the Meselson-Stahl experiment. In conservative replication, the parental duplex would remain intact (both heavy strands together) and the daughter would be entirely new (both light strands) — producing two distinct density bands after one generation, not one intermediate band.",
+        "C": "Complete destruction of the original DNA does not occur. Each parental strand serves as a template and is physically incorporated into one of the daughter molecules. The original information is preserved in the template strands.",
+        "D": "Both strands of the parental DNA serve as templates and are replicated. The replication fork copies both strands simultaneously (leading and lagging strand synthesis). No strand remains permanently single-stranded."
+      },
+      "topic": "Semiconservative Replication / Meselson-Stahl",
+      "difficulty": "Easy"
+    }
+  ]
+}

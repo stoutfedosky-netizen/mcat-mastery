@@ -1,0 +1,336 @@
+{
+  "batch": "B052",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Electrochemistry & Redox",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_electro_001",
+      "passage": "A biochemist studies cellular respiration by examining a galvanic (voltaic) cell that models the thermodynamics of the electron transport chain. The cell consists of a NADH/NAD\u207a half-cell (E\u00b0 = \u22120.32 V) and an O\u2082/H\u2082O half-cell (E\u00b0 = +0.82 V). Electrons flow spontaneously from NADH through the electron transport chain to oxygen. The biochemist calculates the standard cell potential and uses it to determine the free energy available to drive ATP synthesis.",
+      "stem": "The standard cell potential (E\u00b0_cell) for the spontaneous transfer of electrons from NADH to O\u2082 is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "+1.14 V, calculated as E\u00b0_cathode \u2212 E\u00b0_anode = (+0.82) \u2212 (\u22120.32) = +1.14 V"
+        },
+        {
+          "label": "B",
+          "text": "\u22121.14 V, indicating a non-spontaneous reaction"
+        },
+        {
+          "label": "C",
+          "text": "+0.50 V, calculated as the average of the two half-cell potentials"
+        },
+        {
+          "label": "D",
+          "text": "\u22120.50 V, calculated as E\u00b0_anode \u2212 E\u00b0_cathode"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. E\u00b0_cell = E\u00b0_cathode \u2212 E\u00b0_anode. The cathode is where reduction occurs \u2014 oxygen is reduced (O\u2082 \u2192 H\u2082O, E\u00b0 = +0.82 V). The anode is where oxidation occurs \u2014 NADH is oxidized to NAD\u207a (E\u00b0 = \u22120.32 V for the reduction half-reaction). E\u00b0_cell = (+0.82) \u2212 (\u22120.32) = +1.14 V. A positive E\u00b0_cell confirms spontaneity (\u0394G\u00b0 = \u2212nFE\u00b0_cell < 0). This 1.14 V represents the thermodynamic driving force for electron transfer from NADH to oxygen \u2014 sufficient to pump enough protons to synthesize approximately 2.5 ATP per NADH.",
+        "B": "A negative cell potential would indicate a non-spontaneous reaction requiring energy input. However, NADH oxidation by O\u2082 is highly exergonic and spontaneous under physiological conditions \u2014 it is the thermodynamic basis of all aerobic metabolism. The reaction proceeds because NADH (a strong reductant) is paired with O\u2082 (a strong oxidant), giving E\u00b0_cell = +1.14 V.",
+        "C": "0.50 V is the arithmetic mean of the two half-cell potentials [(+0.82 + (\u22120.32))/2]. Cell potential is not calculated by averaging. E\u00b0_cell = E\u00b0_cathode \u2212 E\u00b0_anode accounts for the fact that one half-reaction is reversed (oxidation at the anode).",
+        "D": "\u22120.50 V is the negative of the average \u2014 doubly incorrect. E\u00b0_cell requires identifying which electrode is the cathode (higher reduction potential, +0.82 V) and which is the anode (lower reduction potential, \u22120.32 V), then subtracting: (+0.82) \u2212 (\u22120.32) = +1.14 V."
+      },
+      "topic": "Standard Cell Potential / Galvanic Cell",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_electro_002",
+      "passage": null,
+      "passageRef": "cp_electro_001",
+      "stem": "The standard free energy change (\u0394G\u00b0) for the transfer of 2 moles of electrons from NADH to O\u2082 (E\u00b0_cell = +1.14 V, F = 96,500 C/mol) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\u2212220 kJ/mol, calculated from \u0394G\u00b0 = \u2212nFE\u00b0_cell = \u2212(2)(96,500)(1.14)"
+        },
+        {
+          "label": "B",
+          "text": "+220 kJ/mol, indicating energy input is required"
+        },
+        {
+          "label": "C",
+          "text": "\u22121.14 kJ/mol, because \u0394G\u00b0 = \u2212E\u00b0_cell in kilojoules"
+        },
+        {
+          "label": "D",
+          "text": "0 kJ/mol, because the reaction is at equilibrium"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. \u0394G\u00b0 = \u2212nFE\u00b0_cell = \u2212(2 mol)(96,500 C/mol)(1.14 V) = \u2212220,020 J/mol \u2248 \u2212220 kJ/mol. The negative sign confirms the reaction is exergonic and spontaneous. For comparison, hydrolysis of one ATP releases ~30 kJ/mol, so \u2212220 kJ/mol is thermodynamically sufficient to drive synthesis of multiple ATP molecules. (In practice, approximately 2.5 ATP are synthesized per NADH via chemiosmosis, with the rest dissipated as heat.)",
+        "B": "+220 kJ/mol would indicate a non-spontaneous reaction requiring energy input (like electrolysis). The NADH oxidation by O\u2082 is the most exergonic reaction in metabolism \u2014 it is the thermodynamic source of energy for all aerobic ATP production. A positive \u0394G\u00b0 contradicts both the positive E\u00b0_cell and the biological reality.",
+        "C": "\u0394G\u00b0 does not equal \u2212E\u00b0_cell in kilojoules. The relationship is \u0394G\u00b0 = \u2212nFE\u00b0_cell, where n (number of moles of electrons) and F (Faraday's constant, 96,500 C/mol) are essential multiplying factors. Without n and F, the units don't balance (volts \u2260 kJ/mol).",
+        "D": "\u0394G\u00b0 = 0 describes equilibrium. Far from equilibrium, the actual \u0394G (not \u0394G\u00b0) equals zero when the reaction has run to completion and Q = K. The standard free energy change of \u2212220 kJ/mol indicates a highly exergonic reaction far from equilibrium under standard conditions."
+      },
+      "topic": "\u0394G\u00b0 = \u2212nFE\u00b0 / Electrochemical Thermodynamics",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_electro_003",
+      "passage": null,
+      "stem": "In oxidation-reduction reactions, the oxidizing agent is the species that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "loses electrons and increases in oxidation number"
+        },
+        {
+          "label": "B",
+          "text": "neither gains nor loses electrons but facilitates the transfer"
+        },
+        {
+          "label": "C",
+          "text": "gains electrons and decreases in oxidation number, causing the other reactant to be oxidized"
+        },
+        {
+          "label": "D",
+          "text": "always contains oxygen in its chemical formula"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This describes the reducing agent \u2014 the species that loses electrons (is oxidized) and increases in oxidation number. The reducing agent donates electrons to the oxidizing agent.",
+        "B": "A catalyst facilitates reactions without being consumed and without gaining or losing electrons. The oxidizing agent is actively consumed in the redox reaction \u2014 it gains electrons and is chemically transformed to a reduced product.",
+        "C": "Correct. The oxidizing agent accepts electrons from the reducing agent. By accepting electrons, the oxidizing agent's oxidation number decreases (it is reduced). The mnemonic 'OIL RIG' helps: Oxidation Is Loss, Reduction Is Gain (of electrons). The oxidizing agent causes the other reactant to be oxidized (hence its name) while being reduced itself. Common oxidizing agents include O\u2082, F\u2082, H\u2082O\u2082, MnO\u2084\u207b, Cr\u2082O\u2087\u00b2\u207b, and NAD\u207a in biological systems.",
+        "D": "Many powerful oxidizing agents contain oxygen (O\u2082, H\u2082O\u2082, MnO\u2084\u207b, HNO\u2083), but not all do. F\u2082 is the strongest oxidizing agent and contains no oxygen. Conversely, some oxygen-containing compounds are reducing agents (e.g., oxalate, C\u2082O\u2084\u00b2\u207b). Oxidizing power is determined by reduction potential, not by the presence of oxygen in the formula."
+      },
+      "topic": "Oxidizing vs Reducing Agent",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_electro_004",
+      "passage": null,
+      "stem": "In a galvanic cell, oxidation occurs at the anode and reduction occurs at the cathode. Conventional current flows:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "from anode to cathode through the external circuit, in the same direction as electron flow"
+        },
+        {
+          "label": "B",
+          "text": "from anode to cathode through the salt bridge and from cathode to anode through the external circuit"
+        },
+        {
+          "label": "C",
+          "text": "only through the salt bridge, not through the external circuit"
+        },
+        {
+          "label": "D",
+          "text": "from cathode to anode through the external circuit, opposite to electron flow (electrons flow anode\u2192cathode; conventional current flows cathode\u2192anode)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Electrons flow from anode (oxidation, higher energy electrons) to cathode (reduction) through the external circuit. Conventional current (the historical convention of positive charge flow) is defined as flowing in the opposite direction of electron flow. So if electrons flow anode\u2192cathode, conventional current flows cathode\u2192anode in the external circuit.",
+        "B": "This reverses both pathways. Electrons flow through the external circuit (from anode to cathode), not through the salt bridge. The salt bridge allows ion migration between half-cells \u2014 cations flow toward the cathode half-cell and anions toward the anode half-cell to maintain electrical neutrality.",
+        "C": "The salt bridge carries ionic current between the two half-cells (completing the circuit inside the cell) but conventional current also flows through the external circuit (wire/load). Both pathways are necessary \u2014 the salt bridge prevents charge buildup in the half-cells while the external circuit allows electrons to flow and do electrical work.",
+        "D": "Correct. In a galvanic cell: electrons flow from anode \u2192 external circuit \u2192 cathode (negative to positive terminal). Conventional current (defined as the direction positive charges would flow) is opposite to electron flow: cathode \u2192 external circuit \u2192 anode. This is the standard convention used in circuit analysis, even though actual charge carriers (electrons in metals) flow the other way. In the electrolyte (including the salt bridge), current is carried by ions: cations migrate toward the cathode and anions migrate toward the anode."
+      },
+      "topic": "Galvanic Cell / Current Direction",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_electro_005",
+      "passage": null,
+      "stem": "The Nernst equation (E = E\u00b0 \u2212 (RT/nF)lnQ) describes how cell potential changes with concentration. For a galvanic cell at 25\u00b0C, increasing the concentration of the oxidizing agent (at the cathode) would:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decrease the cell potential, because higher concentration means more product"
+        },
+        {
+          "label": "B",
+          "text": "cause the reaction to reverse direction spontaneously"
+        },
+        {
+          "label": "C",
+          "text": "have no effect, because cell potential depends only on E\u00b0 and temperature"
+        },
+        {
+          "label": "D",
+          "text": "increase the cell potential, because higher [oxidizing agent] drives the reaction further from equilibrium, increasing the thermodynamic driving force"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Increasing the concentration of the oxidizing agent (a reactant in the overall cell reaction) would decrease Q (the reaction quotient). The Nernst equation shows E = E\u00b0 \u2212 (RT/nF)lnQ \u2014 when Q decreases, lnQ becomes more negative, so the subtracted term becomes less negative (or positive), increasing E. Decreasing the oxidant concentration would decrease the cell potential.",
+        "B": "The reaction reverses only when E becomes negative (Q > K, beyond equilibrium). Increasing the oxidizing agent concentration makes Q smaller, pushing the reaction further from equilibrium in the forward direction \u2014 the opposite of reversal.",
+        "C": "Cell potential depends on both E\u00b0 and the reaction quotient Q. The Nernst equation specifically shows how E deviates from E\u00b0 based on concentrations (through Q). Only at standard conditions (all concentrations = 1 M, gases at 1 atm) does E = E\u00b0.",
+        "D": "Correct. Increasing [oxidizing agent] drives Q lower (it's a reactant). From the Nernst equation, lower Q gives higher E. Intuitively, having more oxidant available increases the thermodynamic drive for the reduction half-reaction at the cathode, raising the cell potential. Conversely, increasing product concentration or decreasing reactant concentration would lower E toward zero (equilibrium). This principle is exploited in concentration cells."
+      },
+      "topic": "Nernst Equation / Concentration Effects",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_electro_006",
+      "passage": null,
+      "stem": "Electrolysis uses electrical energy to drive non-spontaneous reactions. In the electrolysis of water (2H\u2082O \u2192 2H\u2082 + O\u2082), which species is produced at the cathode?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "O\u2082, because oxygen is the primary product of water electrolysis"
+        },
+        {
+          "label": "B",
+          "text": "H\u2082, because reduction occurs at the cathode \u2014 H\u207a ions gain electrons to form H\u2082 gas"
+        },
+        {
+          "label": "C",
+          "text": "H\u2082O\u2082, because water partially oxidizes at the cathode"
+        },
+        {
+          "label": "D",
+          "text": "Na\u207a ions, because metal cations always migrate to the cathode"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "O\u2082 is produced at the anode in water electrolysis, not the cathode. At the anode, oxidation occurs: 2H\u2082O \u2192 O\u2082 + 4H\u207a + 4e\u207b. The cathode is where reduction occurs, producing H\u2082.",
+        "B": "Correct. The cathode in electrolysis is where reduction occurs. In water electrolysis: 4H\u207a + 4e\u207b \u2192 2H\u2082 (at the cathode). The cathode is connected to the negative terminal of the power supply, attracting cations (H\u207a) and supplying electrons for reduction. O\u2082 is produced at the anode (oxidation: 2H\u2082O \u2192 O\u2082 + 4H\u207a + 4e\u207b). The anode is connected to the positive terminal. Mnemonic for electrolytic cells: RED CAT, AN OX (Reduction at Cathode, Anode is Oxidation) \u2014 the same convention as galvanic cells.",
+        "C": "H\u2082O\u2082 is not a product of water electrolysis under normal conditions. At the cathode, water or H\u207a ions are reduced to hydrogen gas (H\u2082), not to hydrogen peroxide.",
+        "D": "Na\u207a ions are not present in pure water electrolysis. Even in solutions containing Na\u207a (like NaCl solution), Na\u207a is not reduced at the cathode under aqueous conditions because water is preferentially reduced instead (H\u2082 is produced rather than Na metal, which would react violently with water)."
+      },
+      "topic": "Electrolysis / Cathode vs Anode Products",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_electro_007",
+      "passage": null,
+      "stem": "Balancing a redox reaction in acidic solution requires the use of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "only H\u2082 molecules to balance hydrogen atoms"
+        },
+        {
+          "label": "B",
+          "text": "H\u2082O to balance oxygen atoms, H\u207a to balance hydrogen atoms, and electrons to balance charge"
+        },
+        {
+          "label": "C",
+          "text": "OH\u207b ions to balance oxygen, which converts the reaction from acidic to basic conditions"
+        },
+        {
+          "label": "D",
+          "text": "only electrons \u2014 all other atoms balance automatically in redox reactions"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "H\u2082 molecules are not used in balancing redox reactions \u2014 they would be a product or reactant if hydrogen gas is involved, not a balancing species. In acidic conditions, H\u207a ions (not H\u2082) are used to balance hydrogen atoms after oxygen has been balanced with water.",
+        "B": "Correct. The half-reaction method in acidic solution follows this sequence: (1) balance all atoms except O and H; (2) add H\u2082O to balance oxygen; (3) add H\u207a to balance hydrogen; (4) add electrons to balance charge. For example, balancing MnO\u2084\u207b \u2192 Mn\u00b2\u207a: Add 4H\u2082O to balance O, add 8H\u207a to balance H, add 5e\u207b to balance charge: MnO\u2084\u207b + 8H\u207a + 5e\u207b \u2192 Mn\u00b2\u207a + 4H\u2082O.",
+        "C": "Using OH\u207b to balance oxygen is the method for balancing in basic (not acidic) conditions. In basic solution, OH\u207b is a major species and can be used as a balancing species. Using OH\u207b in acidic conditions would artificially introduce hydroxide to a solution where it is not the relevant species.",
+        "D": "Atoms do not balance automatically \u2014 they must be explicitly balanced for each element. Electrons balance the net charge, but oxygen and hydrogen must be balanced with H\u2082O and H\u207a (in acid) or H\u2082O and OH\u207b (in base) before electrons are assigned."
+      },
+      "topic": "Balancing Redox Reactions / Half-Reaction Method",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_electro_008",
+      "passage": null,
+      "stem": "Faraday's law of electrolysis states that the mass of substance deposited at an electrode is proportional to the charge passed. If 2 moles of electrons are passed through a CuSO\u2084 solution, the mass of copper deposited at the cathode is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "63.5 g, because Cu\u00b2\u207a + 2e\u207b \u2192 Cu requires 2 moles of electrons per mole of copper, and the molar mass of Cu is 63.5 g/mol"
+        },
+        {
+          "label": "B",
+          "text": "127 g, because each electron deposits one atom of copper"
+        },
+        {
+          "label": "C",
+          "text": "31.75 g, because only half the electrons are effective"
+        },
+        {
+          "label": "D",
+          "text": "0 g, because copper cannot be deposited from an aqueous solution"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The cathodic half-reaction is Cu\u00b2\u207a + 2e\u207b \u2192 Cu\u2070. This means 2 moles of electrons deposit 1 mole of copper metal. Molar mass of Cu = 63.5 g/mol. Mass deposited = 1 mol \u00d7 63.5 g/mol = 63.5 g. Faraday's law: m = (Q/F) \u00d7 (M/n), where Q is charge passed (in coulombs), F = 96,500 C/mol e\u207b, M is molar mass, and n is the number of electrons per mole of analyte. This principle underlies electroplating, electrorefining, and electrochemical analytical methods.",
+        "B": "127 g would be 2 moles of copper (2 \u00d7 63.5). This error arises from confusing 'moles of electrons' with 'moles of copper deposited.' Cu\u00b2\u207a requires 2 electrons per atom, so 2 moles of electrons deposit only 1 mole (not 2 moles) of copper.",
+        "C": "31.75 g is half a mole of copper (0.5 \u00d7 63.5). This would result from treating 2 moles of electrons as depositing 0.5 moles of copper \u2014 the ratio is inverted. 2e\u207b per Cu atom means 2 mol e\u207b deposits 1 mol Cu, not 0.5 mol.",
+        "D": "Copper can definitely be deposited from aqueous CuSO\u2084 solution \u2014 this is the basis of copper electroplating. Cu\u00b2\u207a ions in solution are reduced to Cu metal at the cathode. Electroplating with copper from CuSO\u2084 solutions is a well-established industrial process."
+      },
+      "topic": "Faraday's Law / Electrolytic Deposition",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_electro_009",
+      "passage": null,
+      "stem": "Oxidation numbers help track electron transfer. In the reaction: Zn + CuSO\u2084 \u2192 ZnSO\u2084 + Cu, the oxidation number of zinc:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decreases from 0 to \u22122, indicating reduction"
+        },
+        {
+          "label": "B",
+          "text": "stays at 0 throughout, because zinc is a metal"
+        },
+        {
+          "label": "C",
+          "text": "increases from 0 to +2, indicating oxidation \u2014 zinc loses two electrons to become Zn\u00b2\u207a"
+        },
+        {
+          "label": "D",
+          "text": "changes from +2 to 0, indicating reduction of the zinc ion"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Decreasing oxidation number indicates reduction (gaining electrons). Zinc's oxidation number increases (from 0 to +2), indicating oxidation (losing electrons). This is the opposite of reduction.",
+        "B": "Elemental zinc (Zn metal) has oxidation number 0, but it changes during the reaction. Zinc atoms lose 2 electrons to become Zn\u00b2\u207a ions in ZnSO\u2084 \u2014 its oxidation number increases from 0 to +2. Metals can have any oxidation number in compounds; they are 0 only in their elemental form.",
+        "C": "Correct. In elemental zinc (Zn), the oxidation number is 0 (by convention, elements in their standard state have oxidation number 0). In ZnSO\u2084, zinc is Zn\u00b2\u207a (oxidation number +2). The increase from 0 to +2 represents loss of 2 electrons \u2014 oxidation. Zinc is the reducing agent; it reduces Cu\u00b2\u207a to Cu\u2070 while being oxidized to Zn\u00b2\u207a. This reaction forms the basis of the Daniell cell (galvanic cell).",
+        "D": "A change from +2 to 0 describes what happens to copper in this reaction (Cu\u00b2\u207a \u2192 Cu\u2070), not zinc. Copper is reduced (gains 2 electrons), while zinc is oxidized. This answer describes the copper half-reaction, not the zinc half-reaction."
+      },
+      "topic": "Oxidation Numbers / Identifying Oxidation/Reduction",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_electro_010",
+      "passage": null,
+      "stem": "A salt bridge in a galvanic cell maintains electrical neutrality by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "transferring electrons directly between the two half-cells"
+        },
+        {
+          "label": "B",
+          "text": "supplying additional reactants to the electrode surfaces"
+        },
+        {
+          "label": "C",
+          "text": "allowing ions to migrate between half-cells \u2014 anions migrate to the anode compartment and cations migrate to the cathode compartment \u2014 maintaining charge balance without mixing the electrode solutions"
+        },
+        {
+          "label": "D",
+          "text": "converting chemical energy directly to heat, preventing electrode polarization"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Electrons flow through the external circuit (the wire connecting the electrodes), not through the salt bridge. The salt bridge carries ionic current, not electronic current. Allowing electrons to pass through the salt bridge would short-circuit the cell by bypassing the external circuit and the load.",
+        "B": "The salt bridge contains an inert electrolyte (KCl, KNO\u2083, agar gel) that does not participate in the electrode reactions. It does not supply reactants \u2014 it only provides an ionic conducting path between the half-cells.",
+        "C": "Correct. As the cell operates, the anode compartment develops a positive charge buildup (Zn \u2192 Zn\u00b2\u207a + 2e\u207b; Zn\u00b2\u207a accumulates) and the cathode compartment develops a negative charge buildup (Cu\u00b2\u207a + 2e\u207b \u2192 Cu; Cu\u00b2\u207a is consumed). Without a salt bridge, this charge imbalance would create an electric field opposing further electron flow, and the cell would stop. The salt bridge allows anions (Cl\u207b or NO\u2083\u207b) to flow into the anode compartment (neutralizing Zn\u00b2\u207a buildup) and cations (K\u207a) to flow into the cathode compartment (replacing consumed Cu\u00b2\u207a). This maintains electroneutrality in both compartments, allowing continuous current flow.",
+        "D": "The salt bridge does not convert chemical energy to heat \u2014 it is an ionic conductor, not a resistive heater. Electrode polarization is prevented by maintaining ionic balance through ion migration, not through thermal effects."
+      },
+      "topic": "Salt Bridge / Ionic Current",
+      "difficulty": "Medium"
+    }
+  ]
+}

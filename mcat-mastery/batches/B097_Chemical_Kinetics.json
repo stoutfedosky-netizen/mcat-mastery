@@ -1,0 +1,338 @@
+{
+  "batch": "B097",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Chemical Kinetics & Reaction Rates",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_kinetics_001",
+      "passage": "A chemistry student studies reaction kinetics. She measures the rate of the reaction A → B at different concentrations and temperatures. At [A] = 0.10 M, the initial rate is 2.0 × 10⁻³ M/s. When [A] is doubled to 0.20 M, the rate quadruples to 8.0 × 10⁻³ M/s. She determines the rate law, calculates the rate constant, examines the effect of temperature on rate (Arrhenius equation), and studies how catalysts and enzymes lower activation energy.",
+      "stem": "Given that doubling [A] quadruples the rate, the reaction order with respect to A is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "zero order"
+        },
+        {
+          "label": "B",
+          "text": "first order"
+        },
+        {
+          "label": "C",
+          "text": "second order — rate = k[A]², and doubling [A] gives 2² = 4-fold rate increase, matching the observed data"
+        },
+        {
+          "label": "D",
+          "text": "third order"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Zero-order reactions have rate = k (independent of [A]). Doubling [A] would have no effect on rate, not a 4-fold increase.",
+        "B": "First-order reactions have rate = k[A]. Doubling [A] would double the rate (2¹ = 2), not quadruple it.",
+        "C": "Correct. Rate = k[A]ⁿ. If doubling [A] quadruples the rate: (2)ⁿ = 4, so n = 2 (second order). For second-order reactions, rate is proportional to the square of concentration. Doubling [A]: rate₂/rate₁ = (0.20/0.10)² = 4. The rate constant k = rate/[A]² = 2.0×10⁻³/(0.10)² = 0.20 M⁻¹s⁻¹. Second-order reactions have units of k = M⁻¹s⁻¹, and their integrated rate law is 1/[A] = 1/[A]₀ + kt (plot of 1/[A] vs t is linear).",
+        "D": "Third-order: doubling [A] would increase rate 8-fold (2³ = 8), not 4-fold."
+      },
+      "topic": "Reaction Order Determination",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_kinetics_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The Arrhenius equation (k = Ae^(-Ea/RT)) predicts that increasing temperature:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decreases the rate constant by reducing molecular collisions"
+        },
+        {
+          "label": "B",
+          "text": "increases the rate constant — higher temperature means more molecules have sufficient kinetic energy to overcome the activation energy barrier (Ea), increasing the fraction of effective collisions"
+        },
+        {
+          "label": "C",
+          "text": "has no effect on reaction rate"
+        },
+        {
+          "label": "D",
+          "text": "changes the equilibrium constant but not the rate constant"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Higher temperature increases molecular speeds and collision frequency, increasing the rate constant. The Arrhenius equation shows k increases with T because the exponential factor grows.",
+        "B": "Correct. The Arrhenius equation: k = Ae^(-Ea/RT). As T increases, -Ea/RT becomes less negative (smaller magnitude), so e^(-Ea/RT) increases, and k increases. Physically: higher temperature shifts the Maxwell-Boltzmann distribution rightward — more molecules exceed the activation energy threshold, increasing the fraction of collisions with sufficient energy to react. Rule of thumb: a 10°C increase roughly doubles the rate for many reactions (though this varies with Ea). The pre-exponential factor A represents collision frequency and orientation effects.",
+        "C": "Temperature is one of the most powerful factors affecting reaction rate. Nearly all chemical reactions accelerate with increasing temperature (rare exceptions exist in certain complex enzyme systems).",
+        "D": "Temperature changes both the rate constant (k, Arrhenius equation) and the equilibrium constant (K, van't Hoff equation). These are related but distinct quantities."
+      },
+      "topic": "Arrhenius Equation / Temperature Effects",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_kinetics_003",
+      "passage": null,
+      "stem": "A catalyst increases reaction rate by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increasing the temperature of the reaction"
+        },
+        {
+          "label": "B",
+          "text": "shifting the equilibrium toward products"
+        },
+        {
+          "label": "C",
+          "text": "providing an alternative reaction pathway with a lower activation energy — the catalyst is not consumed and does not change the overall ΔG or equilibrium position"
+        },
+        {
+          "label": "D",
+          "text": "increasing the concentration of reactants"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Catalysts do not change the temperature. They operate at the same temperature as the uncatalyzed reaction but lower the energy barrier. Temperature changes can increase rate, but this is a separate effect from catalysis.",
+        "B": "Catalysts do not shift equilibrium. They accelerate both forward and reverse reactions equally, reaching equilibrium faster but not changing its position. ΔG° and K are thermodynamic quantities unaffected by catalysts.",
+        "C": "Correct. Catalysts lower Ea by providing an alternative mechanistic pathway (transition state stabilization). They increase both forward and reverse rates equally, so the equilibrium constant K is unchanged (ΔG° is thermodynamic, not kinetic). Catalysts are regenerated — not consumed — in the overall reaction. Enzymes are biological catalysts that achieve enormous rate enhancements (10⁶-10¹⁷-fold) through transition state stabilization, proximity effects, acid-base catalysis, and covalent catalysis. The activation energy reduction means more molecules have sufficient energy to react at a given temperature.",
+        "D": "Catalysts do not change reactant concentrations. They work by lowering Ea, not by adding more reactant molecules."
+      },
+      "topic": "Catalysts / Activation Energy",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_kinetics_004",
+      "passage": null,
+      "stem": "For a first-order reaction, the half-life (t₁/₂) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dependent on the initial concentration of the reactant"
+        },
+        {
+          "label": "B",
+          "text": "t₁/₂ = 1/(k[A]₀), varying with initial concentration"
+        },
+        {
+          "label": "C",
+          "text": "t₁/₂ = [A]₀/(2k), proportional to initial concentration"
+        },
+        {
+          "label": "D",
+          "text": "t₁/₂ = ln2/k ≈ 0.693/k — independent of initial concentration, meaning each successive half-life is the same duration"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "First-order half-life is concentration-independent. Zero-order half-life (t₁/₂ = [A]₀/2k) does depend on initial concentration, decreasing as the reaction proceeds.",
+        "B": "t₁/₂ = 1/(k[A]₀) is the half-life for a second-order reaction (one reactant). It depends on [A]₀ — higher initial concentrations have shorter half-lives.",
+        "C": "t₁/₂ = [A]₀/(2k) is the half-life for a zero-order reaction. It is proportional to initial concentration — the half-life shortens as the reaction progresses.",
+        "D": "Correct. For first-order kinetics: [A] = [A]₀e^(-kt). Setting [A] = [A]₀/2: ½ = e^(-kt₁/₂) → ln(½) = -kt₁/₂ → t₁/₂ = ln2/k ≈ 0.693/k. The half-life is independent of [A]₀ — it takes the same time to go from 100% to 50% as from 50% to 25%. This is characteristic of first-order processes. Radioactive decay is first-order (t₁/₂ for ¹⁴C = 5730 years). Drug elimination often follows first-order kinetics (t₁/₂ determines dosing intervals)."
+      },
+      "topic": "First-Order Half-Life / t₁/₂ = ln2/k",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_kinetics_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The student constructs an energy diagram for the reaction. The activation energy (Ea) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the energy difference between reactants and products (ΔG)"
+        },
+        {
+          "label": "B",
+          "text": "the minimum energy required to initiate the reaction — the energy difference between the reactants and the transition state, representing the energy barrier that must be overcome for the reaction to proceed"
+        },
+        {
+          "label": "C",
+          "text": "always zero for spontaneous reactions"
+        },
+        {
+          "label": "D",
+          "text": "the energy released when bonds form in the products"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "ΔG is the free energy difference between products and reactants — it determines spontaneity and equilibrium, not rate. Ea (activation energy) determines rate. These are independent quantities: a reaction can be spontaneous (ΔG < 0) but slow (high Ea), or nonspontaneous (ΔG > 0) but fast (if energy is supplied).",
+        "B": "Correct. Ea is the energy barrier between the reactant ground state and the transition state (activated complex) — the highest-energy point along the reaction coordinate. Only molecules with kinetic energy ≥ Ea can react. Ea determines the rate, not the spontaneity — a reaction can have a large negative ΔG (very spontaneous) but also a high Ea (very slow without a catalyst). Diamond → graphite is thermodynamically favorable but kinetically slow (extremely high Ea). Catalysts lower Ea without changing ΔG, increasing the fraction of molecules that can surmount the barrier.",
+        "C": "Ea is never zero for chemical reactions requiring bond breaking. Even highly spontaneous reactions have a finite activation energy barrier. If Ea were zero, the reaction would occur instantaneously upon mixing.",
+        "D": "The energy released when product bonds form contributes to the overall ΔH/ΔG, not to Ea. Bond formation is energetically favorable, but Ea measures the energy required to reach the transition state, which involves partial bond breaking and formation."
+      },
+      "topic": "Activation Energy / Energy Diagrams",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_kinetics_006",
+      "passage": null,
+      "stem": "The rate-determining step of a multi-step reaction is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the fastest step, which determines the overall rate"
+        },
+        {
+          "label": "B",
+          "text": "the step that releases the most energy"
+        },
+        {
+          "label": "C",
+          "text": "the final step in the mechanism"
+        },
+        {
+          "label": "D",
+          "text": "the slowest step, which has the highest activation energy and acts as the bottleneck for the overall reaction — the overall rate cannot exceed the rate of this step"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The fastest step does not limit the overall rate — it can proceed as quickly as the slow step feeds it intermediates. The overall rate is determined by the bottleneck (slowest) step.",
+        "B": "The step releasing the most energy is the most thermodynamically favorable but is not necessarily the slowest. Thermodynamic favorability (energy release) and kinetic speed (activation energy) are independent properties.",
+        "C": "The rate-determining step can be any step in the mechanism — first, middle, or last. Its position depends on relative activation energies, not on its order in the sequence.",
+        "D": "Correct. In a multi-step mechanism, the overall rate is limited by the slowest step — like the narrowest section of a pipe limiting water flow. The rate-determining step (RDS) has the highest Ea transition state on the energy diagram. The rate law for the overall reaction is determined by the RDS: only reactants and intermediates appearing in or before the RDS appear in the rate law. Subsequent fast steps do not affect the overall rate. Example: SN1 reactions — the slow ionization (carbocation formation) is the RDS, making the rate law first-order in substrate only."
+      },
+      "topic": "Rate-Determining Step / Bottleneck",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_kinetics_007",
+      "passage": null,
+      "stem": "Enzymes are biological catalysts that achieve enormous rate enhancements primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stabilizing the transition state — the enzyme-substrate complex lowers the activation energy by binding the transition state more tightly than the ground-state substrate, reducing the energy barrier"
+        },
+        {
+          "label": "B",
+          "text": "changing the equilibrium position to favor products"
+        },
+        {
+          "label": "C",
+          "text": "increasing the temperature within the active site"
+        },
+        {
+          "label": "D",
+          "text": "increasing the concentration of substrate in solution"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Linus Pauling proposed and subsequent research confirmed that enzymes bind the transition state with greater affinity than the substrate ground state. This preferential stabilization lowers Ea. Mechanisms of transition-state stabilization include: proximity and orientation effects (positioning reactants optimally), electrostatic stabilization of charge development, acid-base catalysis (proton donation/acceptance), covalent catalysis (transient covalent intermediates), and metal ion catalysis. Rate enhancements of 10⁶-10¹⁷-fold are achieved without changing temperature or equilibrium. Transition state analogs are potent enzyme inhibitors because they mimic the geometry the enzyme binds most tightly.",
+        "B": "Like all catalysts, enzymes do not change ΔG° or K. They accelerate both forward and reverse reactions equally, reaching equilibrium faster without shifting its position.",
+        "C": "Enzymes operate at body temperature (~37°C) and do not locally increase temperature. Biological catalysis works by lowering Ea at constant temperature, not by thermal activation.",
+        "D": "Enzymes do not change substrate concentration. They work by lowering the activation energy for the reaction of substrate molecules already present."
+      },
+      "topic": "Enzyme Catalysis / Transition State Stabilization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_kinetics_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "For the second-order reaction determined earlier (rate = k[A]², k = 0.20 M⁻¹s⁻¹), how long would it take for [A] to decrease from 0.10 M to 0.050 M?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "50 s — from 1/[A] - 1/[A]₀ = kt → (20 - 10) = 0.20t → t = 10/0.20 = 50 s"
+        },
+        {
+          "label": "B",
+          "text": "100 s — this would result from using an incorrect value for k or misapplying the integrated second-order rate law"
+        },
+        {
+          "label": "C",
+          "text": "3.47 s (using first-order half-life formula incorrectly)"
+        },
+        {
+          "label": "D",
+          "text": "5.0 s"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Second-order integrated rate law: 1/[A] = 1/[A]₀ + kt. Solving for t: t = (1/[A] - 1/[A]₀)/k = (1/0.050 - 1/0.10)/0.20 = (20 - 10)/0.20 = 10/0.20 = 50 s. Note that for second-order reactions, half-life increases as concentration decreases: t₁/₂ = 1/(k[A]₀). Initial t₁/₂ = 1/(0.20 × 0.10) = 50 s. The next half-life (0.050 → 0.025 M) would be 100 s — each successive half-life doubles for second-order kinetics.",
+        "B": "100 s results from an arithmetic error or misapplication of the second-order integrated rate law. The correct calculation: 1/[A] - 1/[A]₀ = kt → (1/0.050 - 1/0.10) = 0.20t → (20 - 10) = 0.20t → t = 50 s. Common errors include forgetting to invert concentrations or using the wrong rate law (first-order instead of second-order).",
+        "C": "3.47 s would result from applying the first-order half-life formula: t₁/₂ = 0.693/k = 0.693/0.20 = 3.47 s. This is incorrect because the reaction is second-order, not first-order, and the first-order formula does not apply.",
+        "D": "5.0 s does not correspond to any correct calculation with the given values and rate law."
+      },
+      "topic": "Second-Order Integrated Rate Law",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_kinetics_009",
+      "passage": null,
+      "stem": "A reaction coordinate diagram for an exothermic reaction shows:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "products at a higher energy level than reactants"
+        },
+        {
+          "label": "B",
+          "text": "no transition state or activation energy barrier"
+        },
+        {
+          "label": "C",
+          "text": "products at a lower energy level than reactants, with a transition state peak between them — the energy difference between reactants and products is ΔH (negative for exothermic), and the peak height above reactants is Ea"
+        },
+        {
+          "label": "D",
+          "text": "a flat line with no energy changes"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Products higher than reactants describes an endothermic reaction (ΔH > 0, energy absorbed). For exothermic reactions, products are lower (energy released).",
+        "B": "All chemical reactions have a transition state and activation energy barrier. Even highly exothermic reactions (combustion, neutralization) must overcome an initial energy barrier to proceed.",
+        "C": "Correct. An exothermic reaction releases energy: products are at a lower energy level than reactants, and ΔH < 0. The diagram shows: reactants (starting energy) → transition state (peak, Ea above reactants) → products (lower energy than reactants). The Ea for the forward reaction is smaller than Ea for the reverse reaction (Ea,reverse = Ea,forward + |ΔH|). A catalyst lowers the peak (reduces Ea) without changing the reactant or product energy levels. Endothermic reactions show products at higher energy than reactants.",
+        "D": "A flat line with no energy changes describes no reaction occurring. All real reactions involve energy changes as bonds break and form."
+      },
+      "topic": "Energy Diagram / Exothermic Reaction",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_kinetics_010",
+      "passage": null,
+      "stem": "Collision theory states that for a reaction to occur, molecules must:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "be in the same phase (both gas or both liquid) — reactions between different phases never occur"
+        },
+        {
+          "label": "B",
+          "text": "collide with sufficient energy (≥ Ea) and with proper orientation — not all collisions lead to reaction because many lack the required energy or correct geometric alignment"
+        },
+        {
+          "label": "C",
+          "text": "be at absolute zero temperature for maximum collision efficiency"
+        },
+        {
+          "label": "D",
+          "text": "have identical molecular masses"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Reactions between different phases (heterogeneous reactions) do occur — examples include gas-solid catalysis, acid dissolving metal, and combustion of solid fuels. Heterogeneous reactions occur at the interface between phases.",
+        "B": "Correct. Collision theory: reaction rate depends on three factors: (1) collision frequency (proportional to concentration and temperature), (2) energy criterion (only collisions with KE ≥ Ea can overcome the barrier — the fraction meeting this criterion is given by the Boltzmann factor e^(-Ea/RT)), and (3) orientation criterion (molecules must collide in the correct geometric arrangement for bonds to break and form properly — the steric factor). Rate = Z × f × p, where Z = collision frequency, f = fraction with sufficient energy, p = steric factor. This explains why increasing temperature, concentration, and surface area all increase reaction rates.",
+        "C": "At absolute zero (0 K), molecular motion ceases and no collisions occur. Maximum collision efficiency requires higher temperatures that maximize the fraction of molecules with energy ≥ Ea.",
+        "D": "Molecular mass is irrelevant to collision theory's requirements. Molecules of any mass can react if they collide with sufficient energy and proper orientation."
+      },
+      "topic": "Collision Theory / Effective Collisions",
+      "difficulty": "Easy"
+    }
+  ]
+}

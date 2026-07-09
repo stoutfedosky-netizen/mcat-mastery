@@ -1,0 +1,352 @@
+{
+  "batch": "B168",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Solubility Equilibria & Ksp",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_ksp2_001",
+      "passage": "A chemistry lab studies precipitation of calcium fluoride. Students mix CaCl\u2082 and NaF solutions and compare the ion product Qsp with Ksp for CaF\u2082: CaF\u2082(s) \u21cc Ca\u00b2\u207a + 2F\u207b. The Ksp at the experiment temperature is 4.0 \u00d7 10\u207b\u00b9\u00b9.\n\nMixture | [Ca\u00b2\u207a] after mixing | [F\u207b] after mixing | Qsp\n1 | 1.0 \u00d7 10\u207b\u00b3 M | 1.0 \u00d7 10\u207b\u00b3 M | 1.0 \u00d7 10\u207b\u2079\n2 | 1.0 \u00d7 10\u207b\u2075 M | 1.0 \u00d7 10\u207b\u00b3 M | 1.0 \u00d7 10\u207b\u00b9\u00b9\n\nThe instructor emphasizes that stoichiometric exponents appear in Qsp and Ksp expressions. Adding a common ion can reduce molar solubility even if temperature is unchanged.",
+      "stem": "What is the correct Ksp expression for CaF\u2082?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ksp = [Ca\u00b2\u207a][F\u207b]\u00b2"
+        },
+        {
+          "label": "B",
+          "text": "Ksp = [Ca\u00b2\u207a]\u00b2[F\u207b]"
+        },
+        {
+          "label": "C",
+          "text": "Ksp = [CaF\u2082]/[Ca\u00b2\u207a][F\u207b]"
+        },
+        {
+          "label": "D",
+          "text": "Ksp = [Ca\u00b2\u207a] + [F\u207b]"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. For CaF\u2082(s) \u21cc Ca\u00b2\u207a + 2F\u207b, the solid is omitted and the fluoride concentration is squared because two fluoride ions are produced per formula unit.",
+        "B": "The calcium coefficient is one, so calcium is not squared. The exponent follows the balanced equation.",
+        "C": "Pure solids are omitted from Ksp expressions because their activity is effectively constant.",
+        "D": "Solubility products multiply activities with exponents; they are not simple sums."
+      },
+      "topic": "Solubility Equilibria & Ksp",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_ksp2_002",
+      "passage": null,
+      "stem": "Will Mixture 1 precipitate CaF\u2082?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "No, because Qsp equals zero"
+        },
+        {
+          "label": "B",
+          "text": "No, because Qsp < Ksp"
+        },
+        {
+          "label": "C",
+          "text": "Yes, because Qsp > Ksp"
+        },
+        {
+          "label": "D",
+          "text": "Only if CaF\u2082 is a gas"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The table gives a nonzero Qsp. Zero would require at least one ion concentration to be zero.",
+        "B": "Qsp is greater, not less, than Ksp. A Qsp below Ksp would indicate more solid can dissolve without precipitation.",
+        "C": "Correct. Mixture 1 has Qsp = 1.0 \u00d7 10\u207b\u2079, greater than Ksp = 4.0 \u00d7 10\u207b\u00b9\u00b9. The solution is supersaturated with respect to CaF\u2082, so precipitation is favored until Qsp falls to Ksp.",
+        "D": "CaF\u2082 is an ionic solid in this equilibrium, not a gas."
+      },
+      "topic": "Solubility Equilibria & Ksp",
+      "difficulty": "Easy",
+      "passageRef": "cp_ksp2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_ksp2_003",
+      "passage": null,
+      "stem": "Mixture 2 is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "guaranteed to precipitate immediately"
+        },
+        {
+          "label": "B",
+          "text": "supersaturated relative to CaF\u2082"
+        },
+        {
+          "label": "C",
+          "text": "exactly at Ksp if Qsp = 1.0 \u00d7 10\u207b\u00b9\u00b9"
+        },
+        {
+          "label": "D",
+          "text": "unsaturated relative to CaF\u2082"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Immediate precipitation is favored when Qsp exceeds Ksp, not when it is lower.",
+        "B": "Supersaturation requires Qsp > Ksp. Mixture 2 is below the solubility product.",
+        "C": "It is below Ksp, not equal to it. The exact equilibrium ion product would be 4.0 \u00d7 10\u207b\u00b9\u00b9.",
+        "D": "Correct. Qsp = 1.0 \u00d7 10\u207b\u00b9\u00b9 is below Ksp = 4.0 \u00d7 10\u207b\u00b9\u00b9, so the solution is unsaturated and can dissolve more CaF\u2082 before reaching equilibrium."
+      },
+      "topic": "Solubility Equilibria & Ksp",
+      "difficulty": "Medium",
+      "passageRef": "cp_ksp2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_ksp2_004",
+      "passage": null,
+      "stem": "Adding NaF to a saturated CaF\u2082 solution will generally:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase molar solubility without limit"
+        },
+        {
+          "label": "B",
+          "text": "decrease molar solubility by the common-ion effect"
+        },
+        {
+          "label": "C",
+          "text": "remove fluoride from the Ksp expression"
+        },
+        {
+          "label": "D",
+          "text": "change the formula to CaF"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "More common ion suppresses dissolution rather than increasing it without limit.",
+        "B": "Correct. Added fluoride is a common ion. Increasing [F\u207b] shifts the dissolution equilibrium left, so less CaF\u2082 dissolves and molar solubility decreases.",
+        "C": "Fluoride remains in the Ksp expression; its concentration is exactly what drives the common-ion effect.",
+        "D": "The compound formula and dissolution stoichiometry do not change when NaF is added."
+      },
+      "topic": "Solubility Equilibria & Ksp",
+      "difficulty": "Hard",
+      "passageRef": "cp_ksp2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_ksp2_005",
+      "passage": null,
+      "stem": "Why is fluoride squared in Qsp?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Two fluoride ions are produced per CaF\u2082 formula unit"
+        },
+        {
+          "label": "B",
+          "text": "Fluoride has twice the atomic mass of calcium"
+        },
+        {
+          "label": "C",
+          "text": "All anions are always squared"
+        },
+        {
+          "label": "D",
+          "text": "Calcium is a spectator ion"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The exponent comes from the balanced dissolution equation: each CaF\u2082 unit produces two F\u207b ions. Ksp expressions reflect stoichiometry, not atomic mass.",
+        "B": "Atomic mass does not determine equilibrium exponents. Stoichiometric coefficients do.",
+        "C": "Not all anions are squared; chloride in AgCl would have exponent one. The coefficient matters.",
+        "D": "Calcium is part of the equilibrium and appears in the expression with exponent one."
+      },
+      "topic": "Solubility Equilibria & Ksp",
+      "difficulty": "Medium",
+      "passageRef": "cp_ksp2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_ksp2_006",
+      "passage": "A second experiment dissolves Mg(OH)\u2082 in buffered solutions. The equilibrium is Mg(OH)\u2082(s) \u21cc Mg\u00b2\u207a + 2OH\u207b. In acidic solution, OH\u207b is consumed by H\u207a, and more solid dissolves. In basic solution, added OH\u207b suppresses dissolution. The students monitor pH, conductivity, and visible solid remaining after equilibration.",
+      "stem": "Why does Mg(OH)\u2082 dissolve more in acidic solution?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Low pH prevents all ion formation"
+        },
+        {
+          "label": "B",
+          "text": "H\u207a adds more solid Mg(OH)\u2082"
+        },
+        {
+          "label": "C",
+          "text": "Acid makes Ksp disappear"
+        },
+        {
+          "label": "D",
+          "text": "H\u207a consumes OH\u207b, shifting dissolution toward products"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Ion formation is not prevented; more Mg\u00b2\u207a can enter solution as OH\u207b is consumed.",
+        "B": "H\u207a does not add solid; it changes product concentration through neutralization.",
+        "C": "Ksp remains defined at a given temperature. Acid changes equilibrium position by consuming OH\u207b.",
+        "D": "Correct. Acid removes OH\u207b by forming water, lowering a product concentration. Le Ch\u00e2telier's principle shifts Mg(OH)\u2082 dissolution right, increasing solubility."
+      },
+      "topic": "Solubility Equilibria & Ksp",
+      "difficulty": "Medium",
+      "passageImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEwAAALQCAIAAAAFF3LvAABJCUlEQVR42u3deXwV1d0/8HPJypqEQAwiEBFXECJbwR0UcEERa3FBC4KoFKq4PtSl/toqaNGqtaiPVdSCdcGFiqAWV6SiZVFUFA2yKmHLArIGSH5/zON9pQnEgEtZ3u+/7p07d2buuScwn/s9cyZWVlYWAAAA9hY1NAEAACDkAAAACDkAAABCDgAAgJADAAAIOQAAAEIOAACAkAMAACDkAAAACDkAAICQAwAAIOQAAAAIOQAAAEIOAACAkAMAAAg5AAAAQg4AAICQAwAAIOQAAAAIOQAAgJADAAAg5AAAAAg5AAAAQg4AAICQAwAACDkAAABCDgAAgJAD7D6GDh0a+9aBBx5Y/qXp06fHynnrrbd2duOffPJJUlLSUUcdVWH5pEmTzjvvvKZNm6ampqanp7dt2/bGG29cuXJlhdWGDx8e7XrcuHEVXkpMTIzFYtnZ2SGEL774okaNGu3bty8tLa2w2kcfffTLX/7yoIMOSk1Nzc7OvuiiixYsWFD1MZeVlY0bN65bt25ZWVnJyckNGjTo3r37M888s7OffdiwYdHBf/jhhztasl3t27ePxWJ16tTZ0QrxZikvNTW1adOmvXv3njFjxn+9U1Xzk/4g79rN/XjdqfoefPDBf/7zn7ttO1fzzxxAyAF20aJFixYtWhR/uguppoIhQ4Zs3br18ssvjy/ZvHnzeeed17Nnz6effnrp0qWbN29es2bNBx98MGLEiBYtWkycOHEX9nLIIYd06dJl1qxZDz30UPnlL7/8cvv27ceOHbtgwYLNmzevWLFi3LhxHTp0+OKLL6o4JT3//PMvuuii1157bdWqVVu2bCkoKJgyZcq555572WWX7c7f3ebNm5cuXTphwoRjjjlm6tSpOvNuknD+u92pqKjo7LPPHjx48IYNG3wdgJAD7LvefPPNHyrk/POf/5w6dWqdOnX69u0bX3jppZc+/fTT213/m2++Ofvss995551d2Fd0yvjb3/528+bNodwv1lu2bElNTX355ZfXr1//wgsvJCQkFBYWXnHFFTvazlNPPbWjw3vooYeee+6579Mg99xzT1lZWVlZWW5u7o/3DW7ZsuXqq6/+7/aiXfukP037/JR+1O5UHY8//vgLL7yw17czIOQA7FBmZmb5kLN169Z33303hNCgQYNd2+Cdd94ZQjjttNPiI6/eeOONv/3tb9HjXr16zZgxY9OmTYWFhU8//XROTk6004EDB1YedfadevbsmZqaumrVqvg5ZUFBQc2aNbOzs3v37n3KKafUqlXrrLPO6tq1awjhtdde29EP2/Ezwquvvnrx4sWbNm369NNPu3XrFi18+OGHd6uvbOzYsdHZamlp6fr165988smEhIQQwqxZswoKCnTp/7o9qzsBCDnAXujYY48tH3JmzJixbt26EMJxxx1XeeWVK1cOGjQoKyurVq1axx9//LRp0/r37x+LxdLT06MVli1bNmXKlBDCmWeeGX/XX//61+hBnz59JkyY0L59+5SUlIyMjD59+kybNq1+/fohhLy8vFdffXVnD75WrVonnXRSCOF///d/45ntww8/zM/P//vf/x7KDfEPIWzbtm3NmjVhB8N7ogc33HBD06ZNU1JSDj/88EcffTQWi4UQ5syZU37l8ePHn3TSSQ0aNKhZs+aRRx552223VT0oaLvXQnz99df9+vVr2LBh9BFmzpy5C99dLBarVavWeeedd8ghh4Rvy2Lxb+pXv/pV48aNU1JSmjVrNmTIkOXLl5f/0mOx2LHHHjtz5szTTjutXr169erVO+ecc5YtW7Z8+fL+/ftnZmbWrVu3R48en332Wfk9vv3226effnrjxo2Tk5MzMzOPP/74J598sopPGl36lZqaunr16qFDhx5wwAEpKSlHHnnkY4899j3fVZ3eWDkSRzuaN29efOGSJUtq1KgRi8V69+4dQigtLb3vvvvatWtXp06dpKSkxo0bn3feeZ9//nnYydFiP153ij5jLBYrP8Q0PT09FotFJZqePXteddVV0fLevXvHG3ZH1+RUfQDV/C4quPDCC2OxWIMGDebNm9e7d++MjIzatWt37dr13//+t39ygfBDjQwGqGzIkCHRvxJ33XVX9CAvL6+srGzEiBEhhJSUlJEjR4ZvR7JFbyksLDzooIPK/wuTlJR06KGHhhDS0tKidcaMGRM/iY/vKyoWhRA+//zzykcyfPjw6NXrrrsuWvI///M/4T9LFnFRyWK//faLL4kKRwkJCUVFRdv9pCtXrqxZs2YIITk5efPmzdtd55prron22Llz5xdeeGHdunU7arcBAwZU/pc2Nzd39erV0QpXXnlltPCDDz7Y0ZL8/PwDDjig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8r86H3jggddcc825554bPZ03b178BHrFihXhPysb0YMK11jvSDzMVDiJrNCSVUtJSTnuuOMmTZoUzanw6KOP/r//9/8qnIxGrV1B+VnvthtOdpRYtm7deuqpp77xxhsJCQl9+/Z9+OGH586de/DBB1cz5MQjU9jJ6ePCDgYyVac3hh0Xc/Lz8//6179GYx3jA8BCCEccccRHH300ffr0G264oVOnTtHZfHQlSTWDxI/dneJtsmXLlngKja462yk7ewC79g2Wn9MvPrfhjqa/AxBygB9SixYtGjVqFL79PbjyWLXo1Dw7OzuEMGvWrPgPsfPmzSs/j2387LPC3VoGDx4cPZg4ceJpp532/vvvb968ubCw8Iknnjj22GPXrl0bnQWeeuqpu3Dw8TOn6PBCCDNmzLj22mujxx06dHjppZfio8K2q1WrVlFB4K233rr88su/+OKLkpKS1atXP/744/Er1Bs2bLjffvtFI8refffdVatWxd8+YcKE6EHVw+HiGjVqFJ1fvvfee/E0+Nlnn3399dc7+9lbtmx5xx13RI9HjBgxa9asEEJubm50PvrDjneaMWNGFAmuvPLKcePGDRw48LDDDoty2q6d/n4f1eyN23XBBRdEifeGG24IISQmJpa/a234drDZbbfdNn369NWrVx999NEhhLVr11bzC/qxu1Pl8Z95eXkVAlg8dlZRbPmh+nPVJk+eHCrVbFu3bu1fXUDIAcJPWczZUcgJIUQTLq1du/bSSy9dsWLFp59+euGFF1aYKCm6oqPCPGk9evQ477zzosevvPJKp06dUlNTMzMzL7zwwuhqhxo1ajz88MO7NkYlLy8vehCNOAohXHfdddFVIg0aNHjxxRcrV6UqSEpKKn919aGHHpqSktKwYcP+/ftHJ9A5OTmdO3cOIUSrrV+/vk+fPp9//vnq1atvuOGGaD66c845Z7tzx4Ud3EUkhFBcXHzppZcWFBTk5eX179+/OoN/Khs6dGj03W3bti2aZq1x48bRfSenTZs2YsSI4uLiDz/88JBDDonFYs2aNStfZNsp8Vu7Tps2LbqdzpAhQ6I0W1JS8tP32Or0xrCDu99G5awoJJx66qnxutBLL70UFWEuvvjiZcuWbdmyZcmSJdFq6enpUaza0d1mfrLu1KJFi+jBbbfdtmbNmvnz51eeii3+ZX3++ecFBQXxamcF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7E1lHACEHAAIyjgACDkAEJRxABByACAo4wAIOQBAUMYBEHIAICjjACDkAEBQxgFAyAEAd/8EQMgBAACEHABAGQdAyAEAABByACAo4wAg5AAAAEIOABCUcQCEHAAAACEHAIIyDgBCDgAAgJADAEEZB0DIAQAAEHIAICjjACDkAAAACDkAEJRxABByAAAAIQcACCEo4wAIOQAAAEIOAARlHACEHAAAACEHAIIyDoCQAwAAIOQAwF5GGQdAyAGAsDeNVQNAyAEAABByACCYcgAAIQcAAEDIAYCgjAMg5AAAAAg5ABCUcQAQcgAAAIQcAAjKOABCDgAAgJADAHs9ZRwAIQcAwt40Vg0AIQcAAEDIAYBgygEAhBwAAAAhBwCCKQcAhBwACKYcAEDIAYCgjAOAkAMAQRkHACEHAABAyAGAEMwcDSDkAAAACDkAEEw5AICQAwDBlAMACDkAAABCDgBBGScEY9UAhBwAAAAhBwCCKQcAEHIAIJhyAAAhBwCCMg6AkAMAQRkHACEHAABAyAGAYOZoAIQcAAAAIQcAgikHAIQcAAimHABAyAEAABByACCYcgAAIQcAAEDIASAo4wRlHAAhZ2+wYsWKc845p169ek2aNLn11lvjy4uKivr06VOvXr3s7OwRI0boDQAAsBdI3Bc+5AUXXNC0adOlS5fm5eWdeuqp2dnZl1xySQihX79+paWl8+fPX7RoUe/evbOzswcMGKBPAARlHACEnN3Zl19++eabb65atSotLa19+/ZdunR59913L7nkksWLF0+cODEvLy8rKysrK2v48OGjR48WcgAAIBiutps76KCDSktLMzMzt27d+vrrr7/++uu9e/cOIcyaNSs9Pb1FixbRau3atZszZ05JSYk+ARCUcQAIKjl7glatWi1atKhz586dO3cOIRQUFGRmZsZfzcjI2LZtW3FxcVZWlm4BAABCzh5g3rx569ev79OnT8+ePd97773S0tJYLFZhnRo1tlPaqrxaJCkpadWqVatXr9aNqI6kpCS9BR3m+9upZmk3/q6gjAMg5OzdateufdNNNx199NHLli1r2LBhYWFhKDfTWkJCQlpaWvW31rBhwxBCWVmZbkR15OfnN2rUSDugw3xPDRo00AgAhH38mpxXXnklLS1t8+bN0dPCwsKEhIT09PS2bdsWFhYuWrQoWj579uzWrVsnJSVV3kLZ9oQQli1bpgMB7EGUcQCEnL3EiSeemJ2dffXVV69Zs+ajjz667rrrLr744lq1auXk5HTv3n3w4MHLly+fMWPGyJEjhwwZokMAhL13ygEAhJy9RGpq6uTJkxctWtS0adMzzjjjrLPOuu+++6KXxo4dm5KS0rx58169eg0dOnTgwIE6BAAABNfkhD1hFulJkyZVXp6VlTVhwgSdACCYORqAoJIDAAAg5ABAMOUAAEIOAARTDgAg5ABAUMYBEHIAICjjACDkAAAACDkAEMwcDYCQAwAAIOQAEEw5AICQAwDBlAMACDkAAAB7WchZv379tm3bfoyVASCYcgCAXQ457du379SpU3XeX37Nd9555/DDD9+4cWN13rhTK+8RvvjiiwYNGixbtuyH3ezFF198/fXX66kAAPBfqOS8+uqrS5cu/TFW3v2VlZUNGjRoyJAh+++//w+75VtvvfWBBx6YOXOmzgoQTDkAQDUkbndp9U+pnXxHnn766Q8++GDixIk/+JYbN27cr1+/X//619OnT9fOAMGUAwB8lxrdunVLS0tr0KDBmWee+cknn4RKg9Byc3P79+8/c+bM3Nzc2rVrd+rUacqUKaHScLWzzjrrtttuCyHUrVv3wgsvjF599NFHO3fuXLdu3dTU1COOOOLuu++Olm935ffff7979+5169atV6/emWeeOW/evB0ddG5u7iWXXPLhhx926tSpdu3aXbt2XbJkSQjh97//fcOGDbOzs6+88sqSkpL4+js6jBBCQUHBpZde2qRJk9TU1JYtW959991lZWXf+VJlo0aNOuOMM+rVq7drRzh+/Pijjjqqdu3ahxxyyM0339yrV6/c3Nz4q3379n3vvffeeecd/RUAAL5T4muvvRY9mjhx4vTp02fPnt2kSZMKKxUVFZ122mmrVq2Kosipp546adKkHj16VL3pUaNGlb+Y5LPPPrv66qsbN27cp0+fyiu/+eabp5xySvy8f+LEif/617/ef//9Fi1abHfjq1at6tat2+rVq6P39uvX75RTTrnllluiV//85z83bdr0mmuu+c7D+MUvfvHmm29GL3366adXX311aWlp9MYqXqrg3XffnT179s0337xrR/jEE0/Ek15eXt6tt94aQmjTpk18U506dWrSpMlf/vKX4447TpcFCMaqAVClGn/84x9XrFixfPnyRx55pKio6KGHHqq80sSJE9u0afPZZ58VFhbefffdpaWl1157bYV1JkyYcOONN4YQvvnmm3HjxpWWlo4aNSo3N/fjjz8uKSnZuHHjv//977S0tKeeeqryymVlZYMHDw4hPPjggwUFBQUFBQ899NCGDRsq76X8IXXt2vWrr75atWrVSSed9NZbb/3pT3+aMGHC2rVrx48fn5iY+M9//jOEUPVhLFiw4M0337zssstWr15dUlIyZ86cFi1aPPLII1W/VNk///nPWCzWrVu3XTjCbdu2XXvttTVr1hwzZkxxcfGnn3568sknV9h+LBbr3r37a6+9VlpaqssCBGPVAKhS4nXXXRc9GjBgwIABA7a7Uv369Z999tm0tLQQwrBhw2bPnj127NiFCxceeOCBOwxPNWqsXLlyy5Yt//73v8eMGfPxxx9PmzZtzZo1xcXFlVf+9NNPP//88//5n/+57LLLoiWDBg2aN2/evffeu379+tq1a1d+S2pq6pgxY6KXLr/88tdff33QoEG9evUKIZxzzjmjRo3Kz8//zsOoWbNmCOHll1+uX79++/btTz755Ly8vGj7VbwUtlfJycnJqXCc1TzC9957b/ny5TfffPPFF18cQkhLSxs/fnzlhj3yyCMfeeSRzz///PDDD9drAQBgpyceqKBTp05Rwokcf/zxY8eOXbRoURUhJ4Tw5ptvDhw4cOHCheUXbrcW8eWXX4YQ7rjjjjvuuKPCS59//nnbtm0rv+XQQw+Nh4r09PQoBsRfrVu37vr167/zMBo1atS3b98nnnhi5MiRIYTk5OTTTz995MiRhx56aBUvVT6Y/Pz87OzsXTvC+fPnR00afyk9PT03N7eoqKj81qLt5+fnCzkAwe1xAPj+IScpKan80+gOngkJCVW85Ztvvvn5z3++Zs2a3r175+bmHnzwwUcdddSpp5663ZWruCXo2rVrt7u8cnknJSVlFw7jb3/7W48ePR5//PGpU6eWlJS88MIL77777pdfflm7du0qXqqwlzVr1uy33367doRbtmypnP1isdh2t7ZmzRpdFgAAwve/T86sWbPKTwX29ttvhxB2NCVA+PZen0VFRbfeeuvzzz//29/+9vzzz49ulLndPJOTkxNC+OMf/1hWyYknnvh9Pt53HkaNGjUuuuii1157rbCwcOrUqb169VqxYkU0WXMVL4VKw/l2OX40b948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Z2dnDxgwQJ9gHwkhUg0AsLeKlZWV7ZuffPHixTk5OXl5eS1atAgh3HfffY899tisWbOq23CxWNP7h+tAyDDwk1nSo1sIoemrUzQFwE/syLT9gkrOHmHWrFnp6elRwgkhtGvX7qqrriopKUlOTtaPEWMAAILhanucgoKCzMzM+NOMjIxt27YVFxdnZWXpFsgwAABCzp6ntLQ0FotVWFijRo2wvZFpOgpSCgCwz4rF9rCLXPbdkNOwYcPCwsJQbqa1hISEtLQ0nZjvY8mvbv/xNt76x9w47DHSs7UBAELO9rVt27awsHDRokU5OTkhhNmzZ7du3TopKanymjuKrVGFZ5+duYHtGzwy7PgnEB2GsDO/mekw6DDoMOw+HWbPUmOf/bZycnK6d+8+ePDg5cuXz5gxY+TIkUOGDNGJAQBgT1djX/7wY8eOTUlJad68ea9evYYOHTpw4EAdAgAAgvvkKPVqCnQYdBh0GHQYdJigkgMAACDkAAAACDkAAEBwTQ4AAEBQyQEAABByAAAAhBwAAAAhBwAAEHIAAACEHAAAACEHAABAyAEAABByAAAAIYftGTp06IknnqgdqNqmTZuGDh3aoEGDunXrnnLKKQsWLNAmVGHJkiVnnnlmWlpa48aNr7/++q1bt2oTtqu4uLh58+bvvfdefElRUVGfPn3q1auXnZ09YsQITUTVHSYvL69nz57p6emNGjW67LLL1q5dq5WoosPscSfAQs4umjZt2v33368d+E6XX375lClT3n333SVLlmRlZfXt21ebUIULL7wwMTFxwYIFr7322rPPPjtq1ChtQmVLly49+eSTFy5cWH5hv379NmzYMH/+/BdffHH06NFjxozRUOyow2zZsqVnz545OTkLFy585513Zs2adfnll2soqvgXZo87ARZywq79Nj9w4MD27dtrCqqWn58/duzYBx544JBDDsnIyPjb3/42ffp0zcKOlJWVTZ8+/dJLL83MzDz88MN79+799ttvaxYqmDRpUqtWrdq1a1d+4eLFiydOnHjPPfdkZWV17Nhx+PDho0eP1lbsqMPMmDFjwYIFf/rTnzIyMlq0aHHLLbf84x//KCsr01xst8PsiSfAQs6u+O1vf9uyZcuzzz5bU1C1d999t169el26dNEUVEcsFjv++OP/+te/FhYWfvHFFy+++KLOQ2UpKSmvvfZahQwza9as9PT0Fi1aRE/btWs3Z86ckpISzcV2O8zRRx+9ZcuW5OTk8O1PcvXr14/FYpqL7XaYPfEEWMjZaTNmzHjssceMVaM6vv766+bNm48ePbpJkyYZGRnnn3/+qlWrNAtV+Mtf/jJ9+vTMzMxDDz20SZMmw4YN0yZUcPLJJ3fo0KHCwoKCgszMzPjTjIyMbdu2FRcXay6222HKW7Nmze233z5w4EBtRRUdZo87ARZyds6WLVsGDBgwatSo7OxsrcF3KikpmTdv3qxZs2bPnj1nzpxVq1ZdcMEFmoUdKSgo6NKlywUXXFBUVPTFF19s2rTpoosu0ixUR2lpaeWf4WvU8L8832H9+vVnnHFGq1atbrrpJq3B3nQCnOhr2ym33XbbAQcc0K9fP01BddSvX7+kpOSBBx5ITU0NIYwaNapt27bFxcXp6ekah8peeuml0tLSUaNGxWKx9PT0++67r3379suXL/erCt+pYcOGhYWFodxMawkJCWlpaVqGUOUPK6effnrz5s0fe+yxxETnhOxVJ8A69M559tln586dW/7XslgstnTp0gMOOEDjUFm7du1KS0s3b94chZytW7ca8UwVatasuXnz5tLS0oSEhPDtz/BJSUlahu/Utm3bwsLCRYsW5eTkhBBmz57dunVrnYcqfPXVV926dTvjjDPuuOMO/zex950AK2TvnE8++aTsWyNHjjzhhBPKysokHHakTZs2xx9/fN++fVesWLF06dLrr7/+zDPPVMZhR7p161a7du2hQ4euWbNm4cKFw4YNO/3008tfaAE7kpOT071798GDBy9fvnzGjBkjR44cMmSIZiHs+C4oXbt2PfPMM//4xz9KOOyVJ8BCDvy4nn/++YyMjIMPPvjII49s1qzZY489pk3YkYyMjClTpixcuLBZs2bHHHPMYYcdNm7cOM1CNY0dOzYlJaV58+a9evUaOnSo68ipwoMPPpiXlxclnLh169ZpGfYaMXOiAwAAexOVHAAAQMgBAAAQcgAAAIQcAAAAIQcAABByAAAAhBwAAAAhBwAAQMgBAAAQcgAAACEHAABAyAEAABByAAAAhBwAAAAhBwAAEHIAAACEHAAAACEHAABAyAEAABByAAAAIQcAAEDIAQAAEHIAAACEHAAAACEHAAAQcgAAAIQcAAAAIQcAAEDIAQAAEHIAAAAhBwAAQMgBgJ20fv36bdu2aQcAhBwAfkSrV6++/vrrDzvssJo1a6anpx999NEPPPBA9aPIYYcddvLJJ1dnzXfeeefwww/fuHFj9LR9+/adOnX6iT/ssGHDYrHY/PnzKyyfN29eLBa79tpr9QeA3VyiJgCgaqtWrerYseOiRYuip5s2bZo+ffr06dOnTJny3HPPxWKxH3Bfr7766tKlS7U5AEElB4Afz5///OdFixadc845c+bMWb9+fXFx8RtvvHHUUUe98MILEydO/FF3PXPmzPfee89XAICQA8APad68eYmJiePGjWvdunWtWrXS0tK6dOny/PPPhxBeeeWV+GpTpkw54YQTatWqVbdu3e7du7/77ruhekPXWrRoccopp4QQzjrrrNtuuy2EULdu3QsvvDBUGq5WxS5yc3MvueSSe++999BDD01JSWnRosWf//znHX2i3Nzc/v37z5w5Mzc3t3bt2p06dZoyZYovGkDIAWBf0aZNm61bt77wwgvlF+bk5JSVld1///3R06effrpHjx5Tp07duHHjunXrpkyZcuKJJ5aPQN/fd+7imWeeGTZs2BdffFFSUvLll19eeeWVL7744o62VlRUdNppp82ZM2fDhg3vv//+qaee+uqrr/quAYQcAPYJw4YNO/bYY88///zmzZtfcsklDz300Ny5c8uvsHnz5iuuuCIxMfGee+5ZtWpVfn7+rbfeunXr1l/96lelpaXV39GECRNuvPHGEMI333wzbty4nd3FN99807t377y8vHXr1t1xxx0hhCeeeGJH+5o4cWKbNm0+++yzwsLCu+++u7S0tMKMAgcffHDsPx1++OE6A4CQA8DeoE6dOm+99da4cePatGkzYcKEyy67rFWrVgceeODjjz8erfDee++tXLnyiiuuuPLKKxs0aJCdnX3jjTf2799/4cKFc+bM+UGOoTq7qFOnzhNPPNGiRYvatWtff/31jRo1Wr58+Y42WL9+/Wefffawww7LyMgYNmzYhRde+MknnyxcuNDXDSDkALBPSEhI6Nu37wsvvLB69eq8vLxHH310v/3269+//9133x1CiCZe69q1a/m3RBfeLF68+Ac5gOrsIprhOv5qw4YNq5jkulOnTmlpafGnxx9/fHwvkby8vLL/9Nlnn+kJAEIOAHuhFi1a9O/ff9q0aUcdddStt94aQigrK6u8WjSKLDk5eUcvxW3YsOE7d1qdXaSkpJR/teq5rZOSkso/jeJQQkKC7xdAyAFgL/f111/HYrFLLrmkwvLExMQjjzyyuLi4pKQkJycnhPD666+XXyF62qRJk1CpKLR69er402XLllUxqCyUm+eg+ruojlmzZpWUlMSfvv3221F+840DCDkA7OUaN27ctm3bMWPGDB06dPr06StWrNi0adOXX355//33jx8/vmPHjsnJyZ07d27YsOF999137733rl69esWKFSNHjnz88cebNWvWqlWrChvMzs7++OOPH3744Y0bN3766afnn39+jRo1ymenEMKXX35Z4V07tYvqWLp06cUXX7xkyZLCwsJRo0Y99dRTnTt33n///X3jAEIOAHu/MWPGpKenjx49+uijj87Ozq5Zs2aLFi2GDBmSmJj4l7/8JYSQkpJyzz33bN26ddiwYQ0bNszOzr7hhhsSEhIeeOCBymPGzj///BDCoEGDatWq1bJly6KiopNOOimUmw8ghJCbm1thrrOd2kV1HHzwwZMnT27WrFlmZub111+fmpp6zz33+K4BhBwAwj5yn5y5c+dec801rVq1qlevXnJyck5OzqWXXvrxxx+3a9cuWueCCy6YPHnyscceG90t9NRTT506deqpp55aeWsDBw689dZbmzZtWqtWrdNOO+2VV14pf3nMueeee+yxx6akpFSYpXqndlEdWVlZkydPPuKII+rUqdOtW7epU6d27NjRdw2wd4ht91JOANiL5ebm1qlTZ9q0aZoCIKjkAAAACDkAAABCDgAAQHBNDgAAEFRyAAAAhBwAAAAhBwAAQMgBAAAQcgAAACEHAABAyAEAABByAAAAhBwAAAAhBwAAEHIAAACEHAAAACEHAABAyAEAABByAAAAIQcAAEDIAQAAEHIAAACEHAAAACEHAAAQcgAAAIQcAAAAIQcAAEDIAQAAEHIAAAAhBwAAQMgBAAAQcgAAAIQcAAAAIQcAANg7/X9eYhYwIVqMzgAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "cp_ksp2_007",
+      "passage": null,
+      "stem": "Adding strong base to Mg(OH)\u2082 equilibrium will:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "oxidize magnesium metal"
+        },
+        {
+          "label": "B",
+          "text": "increase dissolution by removing OH\u207b"
+        },
+        {
+          "label": "C",
+          "text": "suppress dissolution by adding OH\u207b"
+        },
+        {
+          "label": "D",
+          "text": "convert Mg\u00b2\u207a into glucose"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Magnesium in Mg(OH)\u2082 is already ionic; this is not a redox experiment with magnesium metal.",
+        "B": "Removing OH\u207b would increase dissolution, but strong base adds it.",
+        "C": "Correct. Strong base adds OH\u207b, a product of Mg(OH)\u2082 dissolution. The common-ion effect shifts equilibrium left and reduces solubility.",
+        "D": "Glucose formation is unrelated to magnesium hydroxide solubility."
+      },
+      "topic": "Solubility Equilibria & Ksp",
+      "difficulty": "Easy",
+      "passageRef": "cp_ksp2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_ksp2_008",
+      "passage": null,
+      "stem": "Which measurement would most directly indicate more Mg(OH)\u2082 dissolved?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Lower total ion concentration"
+        },
+        {
+          "label": "B",
+          "text": "Higher [Mg\u00b2\u207a] in solution"
+        },
+        {
+          "label": "C",
+          "text": "More visible solid remaining only"
+        },
+        {
+          "label": "D",
+          "text": "Lower conductivity in every case"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "More dissolution increases ions, so lower ion concentration is not expected.",
+        "B": "Correct. Dissolving Mg(OH)\u2082 releases Mg\u00b2\u207a and OH\u207b. Increased dissolved magnesium is direct evidence of increased dissolution.",
+        "C": "Visible solid can remain even at equilibrium with saturated solution. Amount of solid alone is less direct than ion concentration.",
+        "D": "Conductivity usually rises with dissolved ions, though buffer ions complicate interpretation. It would not necessarily fall."
+      },
+      "topic": "Solubility Equilibria & Ksp",
+      "difficulty": "Medium",
+      "passageRef": "cp_ksp2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_ksp2_009",
+      "passage": null,
+      "stem": "If temperature changes, why might Ksp change?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Dissolution equilibrium has temperature-dependent thermodynamics"
+        },
+        {
+          "label": "B",
+          "text": "Ksp is a universal constant for all temperatures"
+        },
+        {
+          "label": "C",
+          "text": "Solids enter the expression only at high temperature"
+        },
+        {
+          "label": "D",
+          "text": "Changing temperature removes stoichiometry"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Equilibrium constants depend on temperature because reaction free energies depend on enthalpy and entropy. A new temperature can produce a different Ksp.",
+        "B": "Ksp is constant only for a specified temperature, not universally.",
+        "C": "Pure solids are omitted regardless of ordinary temperature changes.",
+        "D": "Stoichiometric coefficients remain the same when temperature changes."
+      },
+      "topic": "Solubility Equilibria & Ksp",
+      "difficulty": "Hard",
+      "passageRef": "cp_ksp2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_ksp2_010",
+      "passage": null,
+      "stem": "Which statement best connects precipitation to Qsp?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Precipitation requires no ions in solution"
+        },
+        {
+          "label": "B",
+          "text": "Precipitation is favored when Qsp is zero"
+        },
+        {
+          "label": "C",
+          "text": "Precipitation is favored when Qsp exceeds Ksp"
+        },
+        {
+          "label": "D",
+          "text": "Precipitation ignores stoichiometry"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Precipitation requires ions to combine into a solid; no ions means no precipitate.",
+        "B": "If Qsp is zero, at least one ion is absent, so precipitation cannot occur for that salt.",
+        "C": "Correct. When Qsp > Ksp, ion concentrations exceed what can remain dissolved at equilibrium, so solid forms until Qsp falls to Ksp.",
+        "D": "Qsp uses stoichiometric exponents, as shown by fluoride and hydroxide terms."
+      },
+      "topic": "Solubility Equilibria & Ksp",
+      "difficulty": "Medium",
+      "passageRef": "cp_ksp2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

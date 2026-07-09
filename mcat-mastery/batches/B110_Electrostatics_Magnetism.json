@@ -1,0 +1,338 @@
+{
+  "batch": "B110",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Electrostatics & Magnetism",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_elec_001",
+      "passage": "A physics student studies electric charges, fields, and potentials. She examines Coulomb's law for the force between point charges, the concept of electric field and electric potential, and the behavior of charges in uniform electric fields. She also studies the relationship between electric and magnetic fields, the force on a moving charge in a magnetic field (Lorentz force), and the applications of electromagnetic principles in biological systems such as nerve conduction and medical imaging (MRI).",
+      "stem": "Coulomb's law states that the electrostatic force between two point charges is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "F = kq₁q₂/r² — directly proportional to the product of the charges and inversely proportional to the square of the distance between them; like charges repel and opposite charges attract"
+        },
+        {
+          "label": "B",
+          "text": "F = Gm₁m₂/r² — proportional to the product of the masses"
+        },
+        {
+          "label": "C",
+          "text": "F = ma — proportional to mass and acceleration"
+        },
+        {
+          "label": "D",
+          "text": "F = kq₁q₂/r — inversely proportional to the first power of distance"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Coulomb's law: F = kq₁q₂/r², where k = 8.99 × 10⁹ N·m²/C² (Coulomb's constant), q₁ and q₂ are the charges (in coulombs), and r is the distance between them. The force is attractive for opposite charges (F < 0) and repulsive for like charges (F > 0). The 1/r² dependence is the inverse-square law — doubling the distance reduces the force to 1/4. This has the same mathematical form as Newton's gravitational law but is enormously stronger: the electrostatic force between a proton and electron is ~10³⁹ times stronger than their gravitational attraction.",
+        "B": "F = Gm₁m₂/r² is Newton's law of universal gravitation. It has the same 1/r² form as Coulomb's law but uses masses and the gravitational constant G (6.67 × 10⁻¹¹ N·m²/kg²), not charges and Coulomb's constant.",
+        "C": "F = ma is Newton's second law of motion. It relates force to mass and acceleration but does not describe the electrostatic force between charges.",
+        "D": "A 1/r dependence (instead of 1/r²) would describe electric potential (V = kq/r), not force. The force follows an inverse-square law, meaning it decreases much more rapidly with distance than 1/r."
+      },
+      "topic": "Coulomb's Law / Electrostatic Force",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_elec_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The electric field (E) at a point in space represents:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the total energy stored in a capacitor"
+        },
+        {
+          "label": "B",
+          "text": "the force per unit charge that a positive test charge would experience at that point — E = F/q, with units of N/C or equivalently V/m; field lines point away from positive charges and toward negative charges"
+        },
+        {
+          "label": "C",
+          "text": "the magnetic flux through a closed surface"
+        },
+        {
+          "label": "D",
+          "text": "the current flowing through a conductor"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Energy stored in a capacitor is U = ½CV² = ½QV = Q²/2C. This relates to the electric field between the plates but is not the definition of the electric field itself.",
+        "B": "Correct. The electric field is defined as the force per unit positive test charge: E = F/q (units: N/C = V/m). For a point charge Q: E = kQ/r² (radially outward for positive Q, radially inward for negative Q). Field lines: start on positive charges, end on negative charges; density represents field strength; never cross. The electric field is a vector field — it has both magnitude and direction at every point. In a uniform electric field (e.g., between parallel plates): E = V/d (voltage divided by plate separation). A charge q in a field E experiences force F = qE.",
+        "C": "Magnetic flux (Φ_B = BA cosθ) describes the amount of magnetic field passing through a surface. This is a magnetic quantity, not an electric field definition.",
+        "D": "Current (I = Q/t or I = nAvd) describes the flow of charge through a conductor, not the electric field. Current results from an applied electric field but is a distinct physical quantity."
+      },
+      "topic": "Electric Field / E = F/q",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_elec_003",
+      "passage": null,
+      "stem": "Electric potential (voltage) at a point is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the force on a charge at that point"
+        },
+        {
+          "label": "B",
+          "text": "the electric potential energy per unit charge — V = U/q = kQ/r for a point charge; it is a scalar quantity, and the potential difference (ΔV) between two points determines the work done on a charge moving between them: W = qΔV"
+        },
+        {
+          "label": "C",
+          "text": "the number of field lines passing through a surface"
+        },
+        {
+          "label": "D",
+          "text": "the rate of change of magnetic flux"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Force on a charge is F = qE (electric field × charge). Electric potential is energy per unit charge, not force per charge (which is the electric field).",
+        "B": "Correct. Electric potential: V = U/q (potential energy per unit charge, units: volts = J/C). For a point charge Q: V = kQ/r (scalar — no direction, positive for positive Q, negative for negative Q). Potential difference: ΔV = V_B - V_A = -∫E·dr. Work done by the electric field on a charge q moving through ΔV: W = qΔV. Equipotential surfaces are perpendicular to electric field lines. A positive charge moves spontaneously from high to low potential (like a mass falling from high to low gravitational PE). Voltage in circuits represents the potential difference driving current flow.",
+        "C": "The number of field lines through a surface relates to electric flux (Φ_E = EA cosθ), used in Gauss's law, not electric potential.",
+        "D": "The rate of change of magnetic flux is related to induced EMF by Faraday's law (ε = -dΦ_B/dt), not to static electric potential."
+      },
+      "topic": "Electric Potential / Voltage / V = kQ/r",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_elec_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A positive charge is released from rest in a uniform electric field. The charge will:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "remain stationary because electric fields do not exert forces"
+        },
+        {
+          "label": "B",
+          "text": "move perpendicular to the field lines"
+        },
+        {
+          "label": "C",
+          "text": "move in the direction of the electric field (from high to low potential) — the force F = qE accelerates the positive charge along the field lines, gaining kinetic energy as it loses potential energy"
+        },
+        {
+          "label": "D",
+          "text": "move opposite to the field lines toward higher potential"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Electric fields exert forces on all charges: F = qE. This force accelerates the charge, causing motion.",
+        "B": "Perpendicular motion would occur only if there were a magnetic force (F = qv × B, which is perpendicular to both velocity and B). In a pure electric field, the force is along the field lines.",
+        "C": "Correct. A positive charge in an electric field experiences force F = qE in the direction of E. Since q > 0, the force is in the same direction as E (field lines point from + to -). The charge accelerates along field lines, from high potential to low potential. Energy conservation: loss in PE (qΔV) = gain in KE (½mv²). Negative charges experience force opposite to E (they move from low to high potential, opposite to field lines). In biological systems, ion channels exploit potential differences across membranes — Na⁺ moves down its electrochemical gradient during depolarization.",
+        "D": "A positive charge moves with the field lines (high → low potential), not against them. Negative charges move opposite to field lines (low → high potential)."
+      },
+      "topic": "Charge Motion in Electric Field",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_elec_005",
+      "passage": null,
+      "stem": "The force on a charge q moving with velocity v in a magnetic field B is given by the Lorentz force:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "F = qvB sinθ — the force is perpendicular to both v and B (cross product), meaning a magnetic field does no work on the charge (it changes direction but not speed)"
+        },
+        {
+          "label": "B",
+          "text": "F = qE (force from an electric field)"
+        },
+        {
+          "label": "C",
+          "text": "F = kq₁q₂/r² (Coulomb force between two charges)"
+        },
+        {
+          "label": "D",
+          "text": "F = mg (gravitational force)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Magnetic force: F = qv × B, magnitude F = qvB sinθ (θ = angle between v and B). Key properties: (1) F is perpendicular to both v and B (right-hand rule for positive charges); (2) no force when v is parallel to B (sinθ = 0); (3) maximum force when v ⊥ B (sinθ = 1); (4) since F ⊥ v always, the magnetic force does no work (W = F·d, and F ⊥ d → W = 0) — it changes the direction of velocity but not the speed (kinetic energy unchanged). A charge moving perpendicular to a uniform B follows circular motion: F = qvB = mv²/r → r = mv/qB. Applications: mass spectrometry, cyclotrons, MRI.",
+        "B": "F = qE is the electric force. The magnetic force is F = qv × B. Both contribute to the total Lorentz force: F = q(E + v × B).",
+        "C": "Coulomb's law gives the electrostatic force between two charges. The magnetic force on a moving charge in an external field is a different interaction.",
+        "D": "F = mg is the gravitational force. While gravity acts on charged particles, the magnetic force on a moving charge is a distinct electromagnetic phenomenon."
+      },
+      "topic": "Lorentz Force / F = qvB sinθ",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_elec_006",
+      "passage": null,
+      "stem": "Two parallel plates separated by distance d with voltage V between them create a uniform electric field of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E = kV/d²"
+        },
+        {
+          "label": "B",
+          "text": "E = Vd (field increases with separation)"
+        },
+        {
+          "label": "C",
+          "text": "E = V/d — the field is uniform (same magnitude and direction everywhere between the plates), directed from the positive plate to the negative plate"
+        },
+        {
+          "label": "D",
+          "text": "E = V²/d"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "kV/d² does not have the correct units or form. The correct relationship is simply E = V/d, derived from V = Ed for a uniform field.",
+        "B": "E = Vd would predict that increasing plate separation increases the field. In reality, at fixed voltage, increasing d decreases E (the same potential difference is spread over a larger distance).",
+        "C": "Correct. Between infinite parallel plates (or approximately, for plates much larger than their separation): E = V/d (units: V/m). The field is uniform — constant magnitude and direction everywhere between the plates (except near edges — fringe effects). Direction: from positive plate (+) to negative plate (-). A charge q between the plates experiences constant force F = qE = qV/d and undergoes constant acceleration (like projectile motion in a gravitational field). Capacitance of parallel plates: C = ε₀A/d. Energy stored: U = ½CV² = ½ε₀(A/d)V².",
+        "D": "E = V²/d does not have the correct units (V²/m would be V·V/m). The correct relationship is linear: E = V/d."
+      },
+      "topic": "Parallel Plate Electric Field / E = V/d",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_elec_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Capacitance (C) of a parallel plate capacitor is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "C = ε₀A/d — proportional to plate area A and inversely proportional to plate separation d; inserting a dielectric material between the plates increases capacitance by a factor of κ (dielectric constant): C = κε₀A/d"
+        },
+        {
+          "label": "B",
+          "text": "C = kq/r (Coulomb's constant times charge over distance)"
+        },
+        {
+          "label": "C",
+          "text": "independent of plate geometry and dielectric material"
+        },
+        {
+          "label": "D",
+          "text": "C = Vd/A (proportional to voltage and separation)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Parallel plate capacitor: C = ε₀A/d (vacuum) or C = κε₀A/d (with dielectric). ε₀ = 8.85 × 10⁻¹² F/m (permittivity of free space). Larger plates (more area for charge accumulation) → higher C. Smaller separation (stronger electric field for same charge) → higher C. Dielectric material (κ > 1) between plates: reduces E field (polarization of dielectric partially cancels applied field), allows more charge to accumulate at the same voltage → increases C. C = Q/V (charge stored per volt). Cell membranes act as biological capacitors: lipid bilayer is the dielectric (κ ≈ 2), with ionic charge on both surfaces.",
+        "B": "kq/r gives electric potential (V = kq/r), not capacitance. Capacitance relates charge to voltage: C = Q/V.",
+        "C": "Capacitance depends strongly on geometry (plate area, separation) and the dielectric material between the plates. These are the primary design parameters for capacitors.",
+        "D": "Capacitance is a property of the capacitor's geometry and dielectric, not of the applied voltage. C = Q/V, but C itself doesn't change with V (for ideal capacitors)."
+      },
+      "topic": "Capacitance / C = ε₀A/d / Dielectrics",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_elec_008",
+      "passage": null,
+      "stem": "In MRI (magnetic resonance imaging), the signal comes from:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "X-ray absorption by different tissues"
+        },
+        {
+          "label": "B",
+          "text": "radioactive decay of injected isotopes"
+        },
+        {
+          "label": "C",
+          "text": "ultrasound waves reflected by tissue interfaces"
+        },
+        {
+          "label": "D",
+          "text": "hydrogen nuclei (protons) in water and fat — placed in a strong magnetic field, protons align with B₀ and precess at the Larmor frequency; radiofrequency pulses tip the magnetization, and the relaxation signal (T1, T2) produces tissue contrast"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "X-ray absorption describes CT scanning and conventional radiography, not MRI. MRI uses no ionizing radiation.",
+        "B": "Radioactive decay of injected isotopes describes nuclear medicine (PET, SPECT), not MRI. MRI does not require radioactive tracers (though gadolinium contrast agents are sometimes used for enhanced imaging).",
+        "C": "Ultrasound waves reflected by tissue interfaces describes ultrasonography. MRI uses electromagnetic (RF) waves interacting with hydrogen nuclei in a magnetic field.",
+        "D": "Correct. MRI: (1) Strong external magnetic field B₀ (1.5-3 T typically) aligns hydrogen proton spins (parallel or antiparallel to B₀ — slight excess parallel → net magnetization M₀). (2) Protons precess at the Larmor frequency (ω = γB₀, where γ = 42.58 MHz/T for ¹H). (3) RF pulse at the Larmor frequency tips M₀ away from B₀ (resonance absorption). (4) After the RF pulse, protons relax back to equilibrium — T1 relaxation (spin-lattice, longitudinal recovery) and T2 relaxation (spin-spin, transverse decay) — emitting RF signals detected by receiver coils. Different tissues have different T1/T2 values → image contrast. No ionizing radiation — uses radiofrequency waves and magnetic fields."
+      },
+      "topic": "MRI / Nuclear Magnetic Resonance",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_elec_009",
+      "passage": null,
+      "stem": "The electric dipole moment of a molecule:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is zero for all molecules regardless of geometry"
+        },
+        {
+          "label": "B",
+          "text": "depends only on the total number of electrons"
+        },
+        {
+          "label": "C",
+          "text": "is a vector quantity (p = qd) pointing from the negative to the positive charge center — polar molecules (H₂O, NH₃) have permanent dipole moments due to asymmetric charge distribution, while nonpolar molecules (CO₂, CH₄) have zero net dipole moment due to symmetric geometry"
+        },
+        {
+          "label": "D",
+          "text": "can only be measured using mass spectrometry"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Many molecules have nonzero dipole moments. Only molecules with symmetric charge distributions (all bond dipoles cancel vectorially) have zero net dipole moment.",
+        "B": "Dipole moment depends on the distribution of charge (geometry and electronegativity differences), not the total electron count. CO₂ has many electrons but zero dipole moment due to linear symmetry.",
+        "C": "Correct. Dipole moment: p = qd (charge magnitude × separation distance, units: debye, D). It is a vector pointing from δ- to δ+ (by convention). Polar molecules have permanent dipoles due to asymmetric electron distribution: H₂O (bent geometry — two O-H bond dipoles don't cancel, μ = 1.85 D), NH₃ (pyramidal — three N-H dipoles + lone pair). Nonpolar molecules: CO₂ (linear, symmetric — two C=O dipoles cancel), CH₄ (tetrahedral — four C-H dipoles cancel by symmetry), CCl₄ (tetrahedral). Molecular polarity determines intermolecular forces: polar → dipole-dipole interactions, hydrogen bonding; nonpolar → London dispersion forces only.",
+        "D": "Dipole moments are measured by dielectric constant measurements, microwave spectroscopy, or computational methods — not mass spectrometry, which measures m/z of ions."
+      },
+      "topic": "Electric Dipole Moment / Molecular Polarity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_elec_010",
+      "passage": null,
+      "stem": "Gauss's law relates the total electric flux through a closed surface to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the magnetic field inside the surface"
+        },
+        {
+          "label": "B",
+          "text": "the velocity of charges moving through the surface"
+        },
+        {
+          "label": "C",
+          "text": "the gravitational potential at the surface"
+        },
+        {
+          "label": "D",
+          "text": "the total charge enclosed by the surface — Φ_E = Q_enclosed/ε₀; this is useful for calculating electric fields of highly symmetric charge distributions (spherical, cylindrical, planar)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Gauss's law for magnetism (∮B·dA = 0) states that the net magnetic flux through any closed surface is zero (no magnetic monopoles). This is a separate law from Gauss's law for electricity.",
+        "B": "The velocity of charges relates to current and magnetic force, not to electric flux and Gauss's law.",
+        "C": "Gravitational potential is unrelated to electric flux. Gauss's law is an electromagnetic principle.",
+        "D": "Correct. Gauss's law: Φ_E = ∮E·dA = Q_enc/ε₀. The total electric flux (field × area for uniform E and flat surface) through any closed surface (Gaussian surface) equals the enclosed charge divided by ε₀. This is one of Maxwell's four equations. It is powerful for calculating E fields with high symmetry: (1) spherical symmetry (point charge, uniformly charged sphere) → Gaussian sphere; (2) cylindrical symmetry (infinite line charge, coaxial cable) → Gaussian cylinder; (3) planar symmetry (infinite sheet, parallel plates) → Gaussian pillbox. For a point charge: Φ_E = q/ε₀ through any closed surface surrounding it, regardless of the surface's shape."
+      },
+      "topic": "Gauss's Law / Electric Flux",
+      "difficulty": "Hard"
+    }
+  ]
+}

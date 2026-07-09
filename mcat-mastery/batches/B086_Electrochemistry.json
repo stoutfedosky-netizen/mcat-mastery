@@ -1,0 +1,338 @@
+{
+  "batch": "B086",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Electrochemistry & Galvanic Cells",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_electro_001",
+      "passage": "A chemistry student constructs a galvanic cell using a zinc electrode (Zn²⁺/Zn, E° = -0.76 V) and a copper electrode (Cu²⁺/Cu, E° = +0.34 V). The zinc electrode is immersed in 1.0 M ZnSO₄ and the copper electrode in 1.0 M CuSO₄, connected by a salt bridge (KNO₃). She measures the cell potential, identifies the anode and cathode, and applies the Nernst equation to predict voltage changes at non-standard conditions. She also considers electrolytic cells, Faraday's law, and the relationship between ΔG and cell potential.",
+      "stem": "The standard cell potential (E°cell) for this galvanic cell is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "+1.10 V, calculated as E°cathode - E°anode = (+0.34) - (-0.76) = +1.10 V"
+        },
+        {
+          "label": "B",
+          "text": "-1.10 V"
+        },
+        {
+          "label": "C",
+          "text": "+0.42 V"
+        },
+        {
+          "label": "D",
+          "text": "-0.42 V"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. E°cell = E°cathode - E°anode. Cu²⁺/Cu (+0.34 V) has the more positive reduction potential, so it is the cathode (reduction occurs). Zn²⁺/Zn (-0.76 V) is the anode (oxidation occurs). E°cell = +0.34 - (-0.76) = +1.10 V. A positive E°cell indicates a spontaneous reaction (ΔG° < 0). Overall: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s). Zinc is oxidized (loses electrons), copper(II) is reduced (gains electrons).",
+        "B": "-1.10 V would result from reversing cathode and anode assignments. A galvanic (spontaneous) cell always has a positive E°cell. If you calculate a negative E°cell, the reaction written is nonspontaneous (it would require an electrolytic cell).",
+        "C": "+0.42 V results from incorrectly adding rather than subtracting: 0.34 + (-0.76) = -0.42, then taking the absolute value. The correct operation is E°cathode - E°anode, not addition.",
+        "D": "-0.42 V results from adding the potentials with incorrect signs. E°cell must be positive for a spontaneous galvanic cell."
+      },
+      "topic": "Standard Cell Potential / E°cell Calculation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_electro_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In this galvanic cell, the zinc electrode is the anode because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "zinc has a higher standard reduction potential than copper"
+        },
+        {
+          "label": "B",
+          "text": "zinc has a more negative reduction potential than copper — it is more easily oxidized (better reducing agent), so it loses electrons at the anode"
+        },
+        {
+          "label": "C",
+          "text": "zinc is reduced at the anode"
+        },
+        {
+          "label": "D",
+          "text": "copper spontaneously donates electrons to zinc"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The electrode with the more negative (less positive) standard reduction potential is preferentially oxidized in a galvanic cell. Zn (E° = -0.76 V) is a stronger reducing agent than Cu (E° = +0.34 V). At the anode, zinc is oxidized: Zn(s) → Zn²⁺(aq) + 2e⁻. The liberated electrons flow through the external circuit to the cathode, where Cu²⁺ is reduced: Cu²⁺(aq) + 2e⁻ → Cu(s). Mnemonic: An Ox, Red Cat (Anode = Oxidation, Reduction = Cathode).",
+        "A": "Zinc has a more negative reduction potential than copper, not higher. A more negative E° means the substance is harder to reduce and more easily oxidized — making it the anode, not the cathode.",
+        "C": "Oxidation occurs at the anode, not reduction. Reduction occurs at the cathode. The anode is where the oxidized species (zinc) loses electrons.",
+        "D": "Copper(II) ions accept electrons (are reduced); they do not donate them. Zinc donates electrons to copper through the external circuit."
+      },
+      "topic": "Anode vs Cathode / Oxidation-Reduction",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_electro_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The Nernst equation predicts that if [Zn²⁺] increases and [Cu²⁺] decreases, the cell potential will:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase, because higher product concentration drives the reaction forward"
+        },
+        {
+          "label": "B",
+          "text": "remain exactly at E°cell regardless of concentration changes"
+        },
+        {
+          "label": "C",
+          "text": "decrease, because Q increases (more products, fewer reactants) — by the Nernst equation E = E° - (RT/nF)ln Q, a larger Q reduces E"
+        },
+        {
+          "label": "D",
+          "text": "become zero immediately upon any concentration change"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The Nernst equation: E = E° - (RT/nF)ln Q, where Q = [Zn²⁺]/[Cu²⁺] for this cell. Increasing [Zn²⁺] (product) and decreasing [Cu²⁺] (reactant) increases Q. A larger Q makes the (RT/nF)ln Q term more positive, subtracting more from E°, reducing the cell potential. This is Le Chatelier's principle applied to electrochemistry: as the reaction proceeds and products accumulate, the driving force (E) diminishes. At equilibrium, Q = K and E = 0 (the battery is dead).",
+        "A": "Higher product concentration shifts the reaction backward (Le Chatelier's), reducing the cell potential, not increasing it. The reaction is less thermodynamically favorable as it approaches equilibrium.",
+        "B": "E°cell applies only under standard conditions (1 M concentrations, 25°C, 1 atm). Any deviation from standard conditions changes E according to the Nernst equation.",
+        "D": "The cell potential changes continuously as concentrations change, approaching zero at equilibrium. It does not drop to zero instantly upon small concentration changes."
+      },
+      "topic": "Nernst Equation / Concentration Effects",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_electro_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If the student connects a 1.5 V battery to the cell in reverse (forcing current backward), the cell becomes:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a more powerful galvanic cell"
+        },
+        {
+          "label": "B",
+          "text": "an electrolytic cell — the external voltage forces the nonspontaneous reverse reaction: Cu(s) + Zn²⁺(aq) → Cu²⁺(aq) + Zn(s)"
+        },
+        {
+          "label": "C",
+          "text": "a fuel cell"
+        },
+        {
+          "label": "D",
+          "text": "a capacitor"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Applying external voltage greater than E°cell (1.5 V > 1.10 V) in the reverse direction forces the nonspontaneous reverse reaction. Copper is now oxidized at the anode (Cu → Cu²⁺ + 2e⁻) and zinc is deposited at the cathode (Zn²⁺ + 2e⁻ → Zn). This is exactly how rechargeable batteries work — an external charger forces the reverse reaction, regenerating the reactants. The minimum voltage required to drive electrolysis is the decomposition potential (slightly above E°cell due to overpotential).",
+        "A": "Connecting a battery in reverse does not boost a galvanic cell. It opposes and reverses the spontaneous reaction, converting the galvanic cell into an electrolytic cell.",
+        "C": "A fuel cell is a type of galvanic cell that continuously converts chemical fuel (e.g., H₂ + O₂) to electricity. It does not describe a reversed galvanic cell.",
+        "D": "A capacitor stores energy in an electric field between parallel plates. It is not an electrochemical device and does not involve redox chemistry."
+      },
+      "topic": "Electrolysis of Galvanic Cell / Recharging",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_electro_003",
+      "passage": null,
+      "stem": "The salt bridge in a galvanic cell functions to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "allow electrons to flow between the half-cells"
+        },
+        {
+          "label": "B",
+          "text": "provide additional reactants for the cell reaction"
+        },
+        {
+          "label": "C",
+          "text": "increase the standard cell potential above its calculated value"
+        },
+        {
+          "label": "D",
+          "text": "maintain electrical neutrality in each half-cell by allowing ion migration — without it, charge buildup would stop the reaction"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "The salt bridge does not change E°cell. It enables the cell to function at its thermodynamically predicted potential by preventing charge buildup, but it does not add to the voltage.",
+        "A": "Electrons flow through the external wire (metal conductor), not through the salt bridge. The salt bridge carries ions (cations and anions), not electrons.",
+        "B": "The salt bridge contains an inert electrolyte (KNO₃) that does not participate in the redox reaction. It provides charge carriers for ion migration, not reactants.",
+        "D": "Correct. As the cell operates, the anode solution gains Zn²⁺ (becoming positively charged) and the cathode solution loses Cu²⁺ (becoming negatively charged from excess SO₄²⁻). Without charge balancing, this charge buildup would create an opposing potential that quickly halts electron flow. The salt bridge (KNO₃ in agar gel or glass tube) allows anions (NO₃⁻) to migrate toward the anode and cations (K⁺) toward the cathode, maintaining electrical neutrality. The salt bridge is inert — KNO₃ does not participate in the cell reaction."
+      },
+      "topic": "Salt Bridge / Electrical Neutrality",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_electro_004",
+      "passage": null,
+      "stem": "The relationship between standard Gibbs free energy change and cell potential is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ΔG° = -nFE°cell — a positive E°cell gives a negative ΔG° (spontaneous reaction), where n is moles of electrons transferred and F is Faraday's constant (96,485 C/mol)"
+        },
+        {
+          "label": "B",
+          "text": "ΔG° = nFE°cell (positive relationship)"
+        },
+        {
+          "label": "C",
+          "text": "ΔG° = E°cell / nF"
+        },
+        {
+          "label": "D",
+          "text": "ΔG° and E°cell are unrelated"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Missing the negative sign. ΔG° = +nFE°cell would incorrectly predict that a positive E°cell gives a positive ΔG° (nonspontaneous). The negative sign is essential — it ensures that favorable cell potentials correspond to favorable free energies.",
+        "A": "Correct. ΔG° = -nFE°cell links thermodynamics to electrochemistry. For the Zn-Cu cell: n = 2 (two electrons transferred), F = 96,485 C/mol, E°cell = +1.10 V. ΔG° = -(2)(96,485)(1.10) = -212,267 J/mol ≈ -212 kJ/mol. The negative ΔG° confirms spontaneity. Key relationships: positive E°cell → negative ΔG° → spontaneous (galvanic cell). Also: ΔG° = -RT ln K, so E°cell = (RT/nF) ln K, connecting cell potential to the equilibrium constant.",
+        "C": "Dividing E°cell by nF is dimensionally incorrect and has no physical meaning. The correct relationship is multiplication: ΔG° = -nFE°cell.",
+        "D": "ΔG° and E°cell are directly related through ΔG° = -nFE°cell. Both describe spontaneity: ΔG° < 0 and E°cell > 0 both indicate a spontaneous process."
+      },
+      "topic": "ΔG and Cell Potential / Thermodynamics",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_electro_006",
+      "passage": null,
+      "stem": "An electrolytic cell differs from a galvanic cell in that an electrolytic cell:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "uses a spontaneous reaction to generate electricity"
+        },
+        {
+          "label": "B",
+          "text": "does not involve oxidation-reduction reactions"
+        },
+        {
+          "label": "C",
+          "text": "uses an external power source to drive a nonspontaneous reaction — E°cell is negative and ΔG° is positive for the cell reaction"
+        },
+        {
+          "label": "D",
+          "text": "has no anode or cathode"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. In electrolytic cells, external electrical energy forces a nonspontaneous reaction to occur (ΔG° > 0, E°cell < 0). Examples: electrolysis of water (2H₂O → 2H₂ + O₂, E°cell = -1.23 V), electroplating, aluminum smelting, and recharging batteries. In electrolytic cells, the anode is positive (connected to the positive terminal of the power source) and the cathode is negative — the opposite convention from galvanic cells, though oxidation still occurs at the anode and reduction at the cathode.",
+        "A": "Using a spontaneous reaction to generate electricity describes a galvanic cell. Electrolytic cells consume electricity to drive nonspontaneous reactions.",
+        "B": "Both galvanic and electrolytic cells involve redox reactions (oxidation at the anode, reduction at the cathode). The distinction is spontaneity, not the type of reaction.",
+        "D": "Electrolytic cells have both an anode and a cathode. Oxidation occurs at the anode and reduction at the cathode, just as in galvanic cells."
+      },
+      "topic": "Electrolytic vs Galvanic Cells",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_electro_007",
+      "passage": null,
+      "stem": "Faraday's law of electrolysis relates the amount of substance deposited at an electrode to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the standard reduction potential of the substance"
+        },
+        {
+          "label": "B",
+          "text": "the temperature of the solution only"
+        },
+        {
+          "label": "C",
+          "text": "the total charge passed through the cell (q = It) — moles of substance deposited = q/(nF), where n is electrons per ion and F is Faraday's constant"
+        },
+        {
+          "label": "D",
+          "text": "the volume of the electrolyte solution"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Faraday's law: m = (MIt)/(nF), where m is mass deposited, M is molar mass, I is current (amperes), t is time (seconds), n is electrons transferred per ion, and F = 96,485 C/mol e⁻. Total charge q = It (coulombs). Moles of electrons = q/F. Moles of substance = (moles of electrons)/n. Example: to deposit 1 mol of Cu from Cu²⁺ requires 2 mol of electrons (n=2), so q = 2 × 96,485 = 192,970 C.",
+        "A": "The standard reduction potential determines whether a reaction is spontaneous and what voltage is needed, but it does not directly determine the amount of substance deposited. The amount depends on charge (current × time).",
+        "B": "Temperature affects reaction kinetics and the Nernst equation, but the stoichiometric relationship between charge and mass deposited (Faraday's law) is temperature-independent.",
+        "D": "Solution volume does not appear in Faraday's law. The amount deposited depends on charge passed and the stoichiometry of the reaction, not the solution volume."
+      },
+      "topic": "Faraday's Law / Electrolysis Calculations",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_electro_008",
+      "passage": null,
+      "stem": "In the standard hydrogen electrode (SHE), the half-reaction is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2H⁺(aq) + 2e⁻ → H₂(g), with E° defined as 0.00 V — all other standard reduction potentials are measured relative to this reference"
+        },
+        {
+          "label": "B",
+          "text": "Na⁺ + e⁻ → Na, with E° = +2.71 V"
+        },
+        {
+          "label": "C",
+          "text": "O₂ + 4H⁺ + 4e⁻ → 2H₂O, with E° = 0.00 V"
+        },
+        {
+          "label": "D",
+          "text": "Ag⁺ + e⁻ → Ag, with E° = 0.00 V"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The standard hydrogen electrode (SHE) is the universal reference: 2H⁺(aq, 1 M) + 2e⁻ ⇌ H₂(g, 1 atm), with E° ≡ 0.000 V by definition. All other standard reduction potentials are measured by coupling the test half-cell with the SHE. Positive E° means the species is reduced more easily than H⁺ (e.g., Cu²⁺/Cu = +0.34 V); negative E° means less easily (e.g., Zn²⁺/Zn = -0.76 V). The SHE uses a platinum electrode in contact with H₂ gas and H⁺ solution.",
+        "B": "The Na⁺/Na half-reaction has E° = -2.71 V (very negative — Na is a strong reducing agent), not +2.71 V. This is not the SHE.",
+        "C": "The oxygen reduction half-reaction has E° = +1.23 V, not 0.00 V. While this is an important half-reaction (water electrolysis, fuel cells), it is not the defined reference electrode.",
+        "D": "The Ag⁺/Ag half-reaction has E° = +0.80 V, not 0.00 V. Only the hydrogen electrode is defined as 0.00 V."
+      },
+      "topic": "Standard Hydrogen Electrode / Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_electro_010",
+      "passage": null,
+      "stem": "A strong reducing agent is a substance that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is easily reduced and has a very positive reduction potential"
+        },
+        {
+          "label": "B",
+          "text": "accepts electrons readily from other species"
+        },
+        {
+          "label": "C",
+          "text": "cannot participate in redox reactions"
+        },
+        {
+          "label": "D",
+          "text": "readily loses electrons (is easily oxidized) and has a very negative reduction potential — it reduces other species by donating electrons"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "Reducing agents are essential participants in redox reactions — they are defined by their role in transferring electrons to oxidizing agents.",
+        "A": "A very positive reduction potential indicates a strong oxidizing agent (easily reduced, readily accepts electrons), not a reducing agent. Examples: F₂ (E° = +2.87 V), Au³⁺ (E° = +1.50 V).",
+        "B": "Accepting electrons describes an oxidizing agent (the species being reduced). A reducing agent donates electrons.",
+        "D": "Correct. A reducing agent is oxidized (donates electrons) in the process of reducing another species. Strong reducing agents have very negative standard reduction potentials (e.g., Li: E° = -3.04 V, Na: E° = -2.71 V, Zn: E° = -0.76 V), meaning they strongly prefer oxidation over reduction. In the Zn-Cu cell, Zn is the reducing agent (oxidized at the anode, donates electrons to Cu²⁺). The activity series ranks metals by reducing strength: alkali metals > alkaline earth metals > transition metals > noble metals."
+      },
+      "topic": "Reducing Agents / Redox Activity",
+      "difficulty": "Easy"
+    }
+  ]
+}

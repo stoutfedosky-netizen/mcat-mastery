@@ -1,0 +1,352 @@
+{
+  "batch": "B165",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Electrochemistry II: Nernst Equation & Batteries",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_nernst2_001",
+      "passage": "A chemistry lab builds galvanic cells using Zn/Zn\u00b2\u207a and Cu/Cu\u00b2\u207a half-cells connected by a salt bridge. Under standard conditions, the cell produces a positive voltage and drives electrons through a wire from zinc to copper. Students then vary ion concentrations and observe that cell voltage changes even though the electrodes are made from the same metals.\n\nCondition | [Zn\u00b2\u207a] | [Cu\u00b2\u207a] | Measured cell voltage\nStandard | 1.0 M | 1.0 M | 1.10 V\nHigh Zn\u00b2\u207a | 10 M | 1.0 M | lower\nHigh Cu\u00b2\u207a | 1.0 M | 10 M | higher\n\nThe instructor summarizes the reaction as Zn(s) + Cu\u00b2\u207a(aq) \u2192 Zn\u00b2\u207a(aq) + Cu(s).",
+      "stem": "Which species is oxidized in the galvanic cell?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Cu\u00b2\u207a(aq)"
+        },
+        {
+          "label": "B",
+          "text": "Zn(s)"
+        },
+        {
+          "label": "C",
+          "text": "Cu(s)"
+        },
+        {
+          "label": "D",
+          "text": "The salt bridge ions only"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Cu\u00b2\u207a gains electrons to form Cu(s), so it is reduced rather than oxidized.",
+        "B": "Correct. Zinc metal loses electrons to form Zn\u00b2\u207a, so it is oxidized. Those electrons travel through the external circuit toward the copper half-cell.",
+        "C": "Copper metal is the reduction product in the stated spontaneous reaction, not the reactant being oxidized.",
+        "D": "Salt bridge ions maintain charge balance but are not the redox species in the net reaction."
+      },
+      "topic": "Electrochemistry II: Nernst Equation & Batteries",
+      "difficulty": "Medium",
+      "passageImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEwAAALQCAIAAAAFF3LvAABEYElEQVR42u3daZiU1Z0//FNszb6DdKOAgAqKuLQLBA2ILaiAgsOggsimiCOKQ6JR/8YxjAtqNCTKuEcdRESCisC4ARpEAkOAoNGAoqx2I5sNKEIDXc+L+0ldPb1RrPby+Vy+6L7rruqqU4e2vv37nXPH4vF4AAAAKCsqGAIAAEDIAQAAEHIAAACEHAAAACEHAAAQcgAAAIQcAAAAIQcAAEDIAQAAEHIAAAAhBwAAQMgBAAAQcgAAAIQcAAAAIQcAABByAAAAhBwAAAAhBwAAQMgBAAAQcgAAACEHAABAyAEAABByAAAAhBwAAAAhBwAAEHIAAACEHAAAACEHOCB33313LBaLxWIjR47Md1ObNm1isVibNm1KzrN96qmn3nvvvWJO+OUvfxnLo0KFCikpKY0aNercufO0adMSp916663RCX/7298O+3Mo3uzZs/v169e0adOUlJR69ep17tz56aef3rNnT/KPUPDJJ/NykhyZozYOyT/yQbxZh/L+Hl533HFHrICqVas2a9asT58+ixYt+sn/Ef0kYzV79uz+/fs3b968atWqderUad++/S9/+ct169aVmRd+5P51AEIOcMD/V/7ss89K7NP77rvvrrjiihtvvHHnzp3J3ysej+fk5GzevHnu3Lm9e/f+r//6r6P/HBL27t173XXXZWRkTJkyJTMzMycnJzs7e+7cuSNGjOjUqVN2dvbRHM9DGZlDHIef5JFLlN27d69bt+7NN9/s1KnT3LlzS/g/osP+2q+55pqMjIxJkyatXbt29+7d27dv//TTTx999NETTzzx5ZdfLu0vvJzMYRBygFJj3759//7v/15in95LL730xhtvhEP+s/rWrVt/qucwevTo559/vtCbFi1aNGTIkPCTFhySH5nD8l4k/8jjxo2Lx+PxePz0008vY//o9uzZM3r06J/2H9FRHt7rrrtu4sSJhd60a9eua6+9dubMmaX6hR+5fx2AkAMcpPfff3/GjBll47VMmjQpHo/v27dv27Zt06ZNq1+/fghhx44df/nLX36S5/O3v/3t8ccfj74eMWLEl19+uWvXrs8///yaa66JDr755puff/55ORyZcmLChAnRR+rc3Nwffvhh0qRJFStWDCEsXrx4y5Yt5WQQZs2alajV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naysrNTUVO8vZi+YvZDk7A3a1UqLGTNmVK1adefOndG3n3zySUpKShR18okXJoSQmZlp0tucQA8bAEBQySkhunbtmpaWNmrUqEceeWTVqlWjR4++5ZZbqlevbk5woIWdxJFSWtgBAAg2HgilZEOCvn37FnNC9erV33777XXr1jVr1uziiy/u06fPAw88YEJgcwIAgGDjgXI6cLFYZmZmWlqaASzniko1Jbmqoy+cYFUDmL1QpmevjQcg6GEDAAja1QA9bAAAQSUHykNVR2EHACCo5IDCDgAAQSUHSnthR1UHAEDIAZsTAAAQtKuBHjYAgKCSA+hhAwAIKjnAoRZ2VHUAAIJKDliuAwBAUMkBy3UAAIJKDmC5DgCAkAPoYQMACNrVQNTRwwYAEFRyoNz1sCnsAAAElRxQ2AEACCo5gM0JAACEHMDmBAAAQbsaoIcNACCo5IAeNj1sAAAhqORAeSjsHPaqTosWLX7729/mPfLqq69WqlQphJCdnR2LxZYvX17UfTdv3lz8CQnr168fMWJEs2bNqlWrdtJJJ91///05OTnFnL9x48YOHTpUrVr1rLPOWr9+vfkAAEElBygny3VuebHbkfvpdevWjcfjh/44y5cv79Sp05VXXvnBBx+kpaUtXrx46NChixcvfv3114u6y2OPPZaenj5jxoyuXbvOnz+/X79+n3322Y4dO/Kdtm3btu7du5snABBUcoAys1znD4PfO3LLdfJWcpYvX965c+eaNWuec8459913X5s2bRKnTZs27ZRTTqlevfpFF12UlZVV8HGGDx/evXv3//qv/2rVqlW1atXOO++8KVOmvP/++3//+9/Xr18fi8VWr14dnfnb3/62Q4cOIYSxY8eOHz9+zpw5bdq06d27dwhhx44dHQqoU6eO6QEAQg5QuqPO0elhy2f37t2XXHLJqaeeunbt2nvvvfehhx7Ke+vUqVOnT5/+1Vdfbdmy5e67785333Xr1n300UfXX3993oOnnXbatm3b2rVrV9RPzMnJueGGG7KysiZPnlylShXvPgAIOUD5Xa5zEGnntttui+Vx9dVX5zth5syZO3bsePTRR+vXr3/ppZcOHz48761jxoxp2bJlamrqwIEDly5dmu++X331VQihbdu2+X9hVSjuV9bo0aOfeeaZW2+9tUKFCuPGjfOmA4CQA9hy+gCiziOPPBLP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J25auHBht27datWqVbt27csuu2z58uUH8WweeeSRXr161a5dO4SQkpLSv3//ZcuW5f0pIYS///3vS5YsGTJkSIUK//+THzBgwIIFCz766KO8p82cObNdu3bp6enF/LhkzgHgJynsjH1v8H6TTHSrYg4ABx9y3n333QsvvHDWrFnbt2/fsmXL9OnTL7jggnXr1oUQPvjgg5///Ofvv//+999/v2PHjunTp3fq1GnlypUH9FTmz5+/ZMmSf/3Xf00ciRrS8hVzXnrppVgsNmTIkMSRDh06HHfccU888UTe01JSUmbNmjV+/PhifmIy5wBQcnrYACAc6O5qxx9/fMEzPvjggy5duoQQRo8evW/fvocffnjQoEHxeHzmzJnDhw9/5plnxowZc+ONN4YQnnrqqSiiTJ069ZZbbvnlL3/55ptvJv9U3nvvvVgsdtFFFyWOnHHGGaeffvorr7zywAMPRH+o27dv38SJEzMyMpo3bx7y7LHTrVu3N954Izc3N1HeiZrZ9u7dW8xPTOacYv5GWLly5U2bNm3evNk0onSpXLmyeUsZY0rjdy8c0dlbZreQXrVq1eeffz5w4MDbbrstOjJ06NChQ4eGED777LMVK1b86le/uuGGG6Kbrr/++uXLl//+97//4YcfatSoEZKu5LRo0SLf+cOGDbv55pvnzp3buXPnKAhlZWX97ne/y3ffU0899fnnn1+xYkXbtm2P2tg1atQo2MCUUigrKys1NdU4UJY0bNjQIOB3Lxy52RvK3sYDURln9erVIYTzzz+/4EN89dVXIYSHHnoo78bTjz322L59+1asWHFAw9ekSZN8BwcMGJCSkpLoWHvppZfq16/fu3fvfKdFdzxCb0C8MCGEzMxMkx4AAErrmpx9+/aFIhq3opsKtX379uSfyrZt26pXr57vYL169fr06TNlypTdu3dv27Zt2rRp11xzTUpKSr7TovrPtm3bvKMAZUP056TlY3sWc0506x3dXiz06qIACDn70axZsxDCxx9/XPCmFi1ahBAefvjhoqpASapfv36hKWXo0KHZ2dnvvPPOlClTdu3aFe1GEApc6yaE0KBBA+8oQBlTVM7JdzzvJUQBEHKScsIJJ7Ru3XrChAmPP/741q1bd+7c+fbbb9etW3fAgAHt27dv3rz5b37zmxdffHHr1q3btm378MMP27VrV6dOnR07diT/VNLS0r799ttQ2PYAzZs3nzp16pQpU84666z27dsXPGfjxo3RI+z3p2RkZPTt29cbDxBKSTGn0JyTOHJHtxdFHQDCge6uFkLYsWNHzZo1x40bd/nll99yyy233HJLdLxmzZq33357xYoVH3/88T59+uTd1jmE8Pvf/75WrVrJP5WOHTu+/fbbGzdubNy4cfi/m5sNHjx43LhxO3fu/MMf/lDoff/61782adKkVatW+V9epUr5NgYoeG3TgucAUHJyTtQpXWg9J/rtXTDVJI7YihogqOQUr0ePHu+99975559frVq1Bg0a9OzZc+7cuaeddloIoVevXrNnz77wwgtr1qxZq1atc845Z9KkSYkslPzjhxDmzZtX8KYhQ4Zs3769UqVKV199daH3nTdvXs+ePV0PDqBM5pyCf4rKe7CY6+oo7ACUT7GSU8SIx+Pt27c/+eSTJ0+eHA7wKqKdOnWaN29ep06djt7AxWKZmZlpaWmqQATbmEJJmr3FpBqFHfzuhXIyeyuUnKcSi8XuuuuuN998c8uWLQd0x+eff75z585HM+EAUGIp7AAQK1GFiNzc3A4dOnTt2nXs2LFJ3mXNmjVt27adPXt2x44dj3IkU8kh+HsMlPjZW1SqUdXB714ow7M3VtI+o3/++efnnXfep59+2rRp02TOHzhwYOPGjR999NGjX3cScvCrCkrL7NXDht+9IOQg5OBXFZTB2Svq4HcvlJPZW8nbBkAoN8t1iko70RFRByCUty2kAaBsb05gZwKAUPYuBgoA5a2w41qiAEElBwBsOQ1AUMkBAMt1ABByAEAPGwBBuxoA6GEDCCo5AMAB97Ap7AAElRwAUNgBIKjkAIDNCQAQcgDA5gQAQbsaAKCHDSCo5ACAHjY9bABBJQcAykVhR1UHIKjkAIDlOgAElRwAsFwHgKCSAwCW6wAIOQCAHjaAoF0NAEQdPWwAQSUHAMpdD5vCDkBQyQEAhR0AgkoOANicAEDIAQBsTgAQtKsBAHrYAIJKDgDoYdPDBiDkAIAeNgC0qwGAHjaAoJIDALjADkBQyQEAFHYAgkoOAGBzAgAhBwBsTqCHDQja1QAAPWwAQSUHANDDBhBUcgCAn6Cwo6oDBJUcAMByHYCgkgMAWK4DEFRyAADLdQCEHABADxtA0K4GAKLO0e5ha9GixW9/+9u8R1599dVKlSqFELKzs2Ox2PLly4u67+bNm4s/IYSwcuXKWGG+//77ou6ycePGDh06VK1a9ayzzlq/fr1ZAUElBwAo8z1sR6ewU7du3Xg8fogP0rp167wP8t1336Wnp3fo0KFmzZpF3eWxxx5LT0+fMWNG165d58+f369fv88++2zHjh35Ttu2bVv37t3NFggqOQCAwk6S8lZyli9f3rlz55o1a55zzjn33XdfmzZtEqdNmzbtlFNOqV69+kUXXZSVlVXMA8bj8YEDB9asWfO5554L/ywEjR8/vkWLFlWrVu3evfs333wTQhg7duz48ePnzJnTpk2b3r17hxB27NjRoYA6deqYISDkAAClOOr8hBfY2b179yWXXHLqqaeuXbv23nvvfeihh/LeOnXq1OnTp3/11Vdbtmy5++67i3mc++677+OPP37jjTeqV6+eOPjSSy/Nnj17+fLlmZmZY8aMCSHk5OTccMMNWVlZkydPrlKligkAQg4AUE6vJXrQaee2227Lu1rm6quvznfCzJkzd+zY8eijj9avX//SSy8dPnx43lvHjBnTsmXL1NTUgQMHLl26tKif8v77748ZM+bll19u1apV3uO//vWvW7Vq1aJFi8GDBy9atCiEMHr06GeeeebWW2+tUKHCuHHjvO8g5AAAetgOzCOPPBLPY9KkSflO+OSTT9q0aZOSkhJ9m56envfWZs2aRV/UqlXrxx9/LPRHrF27tn///nfffXePHj1CgZ0Poi9q1KixZ8+eEMITTzyReDK33nqrdxyCjQcAAJsTHN6dCSpVqpSbm1vUrRUqVMi76qbgCTk5OX379j333HPvueeegrdWrly5+LsDQSUHAFDYObzLdU455ZQVK1bs3r07+nbZsmUHdPdbbrll69atL7/8ciwW835BUMkBAPjJryXaq1ev2rVr33bbbb/5zW+WLFny9NNPp6amJnnfCRMmvPDCCwsXLqxbt663CRByAIDDE3UOsYetUqVK06ZNGz58eNOmTdPT04cMGTJnzpwk7ztx4sScnJwzzjgj3/FFixYlVuPsVzweX7BgQb6D69at69ChgzcdSpeYttSDHLhYLDMzMy0tzQBS6mRlZSX/x1Ewe9mvotrVDnG5zr333rtgwYJ33nnH7AWzN1iTAwCEUrjl9NKlSytXrvzBBx/s3r178eLFzz77bL9+/QwvELSrAQCltIftjDPO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QMgpKXbt2jVy5MiGDRvWqlXr4osv/vrrr40JpcW3337bt2/f2rVrH3fccffdd58BoVT47rvv+vXrV7t27SZNmjzwwAMGBL9ywcddIefwGzFixPvvvz9//vy1a9c2btx4wIABxoTSon///rVq1Vq3bt0bb7zx+9///rnnnjMmlHyDBg3auXPnypUr33rrrfHjx//xj380JviVCz7uFiUWj8e9hQcqKyvr2GOPff/997t27Wo0KF2++uqrE044YdOmTQ0aNAgh9OvXr2bNmj4vUsKtWbOmRYsWX375ZevWrUMIjz/++Isvvrh48WIjg1+54ONuUMk5XObPn1+7du0LLrjAUFDqtGrVKjc3t0GDBnv37p09e/bs2bP79OljWCjhFi9eXLdu3SjhhBDS09OXLVuWk5NjZPArF3zcFXIOm2+++aZly5bjx48/7rjj6tWrd/XVV2/atMmwULq0a9euR48e7du379ixo9GghNuyZUv0h/BIvXr19u3bl52dbWTwKxd83BVyDpucnJzly5cvXrx4yZIly5Yt27RpU//+/Q0Lpcvy5cu3bNlSvXr1nj17Gg1KuNzc3Fgslv9/YBX8Lwy/csHHXSHnENx6662xf1qwYEH9+vVzcnKefPLJRo0aNWvW7JFHHpk1a5a/KVIqZm/em2rUqHH33XcvXLgwMzPTQFGSNWrUaOvWrSHPTmsVK1asU6eOkaEU8SuX0qW0f9wVcpIybty4+D916NAhPT09Nzd39+7d0a179+4t+CdGKJmz95133qlTp05i9m7durVixYp169Y1UJRkZ5555tatW1evXh19u2TJkvbt21euXNnIUML5lUvpVdo/7tpd7SBdcMEFNWrUeP7553Nycq699to6deq8+eabhoVQGva8P+200zIyMh544IE1a9ZcddVVnTp1evbZZ40MJVz37t0rVKjwwgsvrFu3rnfv3mPGjBk2bJhhwa9c8HE3qOQcRq+//nq9evVOOOGEU089tXnz5i+++KIxoVSoWrXq//zP/6xevbpZs2a9evXq3bv3448/blgo+SZMmJCSktKyZcvLL7985MiREg5+5YKPu0ElBwAAKCdUcgAAACEHAABAyAEAABByAAAAhBwAAEDIAQAAEHIAAACEHAAAACEHAABAyAEAAIQcAAAAIQcAAEDIAQAAEHIAAACEHAAAQMgBAAAQcgAAAIQcAAAAIQcAAEDIAQAAhBwAAAAhBwAAQMgBAAAQcgAAAIQcAABAyAEAABByAAAAhBwAAAAhBwAAQMgBAACEHAAAACEHAABAyAGgbGvTpk1GRkby53/xxRcNGzbMzMxMHNm4ceNvfvOb0047rXbt2vXq1TvrrLMefvjh7OzsvPcaMmTI7bffbrQByqFYPB43CgAc5ZBz7LHHzpo1K5mT4/F4ly5dunTp8pvf/CY68vHHH//Lv/zLt99+m+/M5s2bT506NT09Pfr2m2++adOmzQcffHDWWWcZc4CgkgMAJcTkyZOXLl36i1/8Ivp2w4YNvXv3/vbbb6+55pqFCxfu3Llz69at7777bufOndesWXPZZZdt3rw5OrNp06aDBg26+eabjSGAkAMAR8/pp59+3XXX/f73vz/ppJNSUlJat279hz/8Ie8JjzzySK9evWrXrh19O2bMmM2bNz/44IMTJkw455xzqlWrVq9evW7dus2ZM6dfv36ZmZmPPvpo4r4DBgxYsGDBRx99ZJwBgnY1AAhHpV3t9NNP//rrr3fs2JH3hGnTpl122WUhhPnz53fq1OmNN97o3bt3CGHfvn3HHHNMrVq1Vq5cWbFixXwPu2nTpqZNmzZt2nTVqlXhn61uzZs379ix4+TJkw07QFDJAYCjY8eOHX369Pnyyy+///77hx56KIQwceLE6Kb33nsvFotddNFF0beZmZlbtmzp0qVLwYQTQmjUqNE555yzZs2anJyc6EgsFuvWrdusWbNyc3ONM4CQAwBHSc2aNSdOnNi6desaNWrcfvvtqampGzZsiG6aP39+ixYtatSoEX0brbdp0KBBUQ/VuHHjeDz+448/Jo6ceuqpW7duXbFihXEGEHIAIBy17rVq1aqFPAWZffv2RV9nZWU1adIkcVPDhg1DCFu2bCnqoTZv3ly9evU6deokjkR3z8rKMs4AQg4AHCUpKSl5v43FYomvt23bVr169cS3aWlp9evXnzNnzt69exMHf/jhh+iL77777n//93+7du2a99GiKtC2bduMM4CQAwA/vfr16+fNJxUrVrzyyivXrl374IMPJg527Njxwgsv/OSTT26++ebdu3fnuwBodIXQYjrcABByAODoSUtLy3fRz3vuuadhw4b33HPPNddcs2jRol27dv3ud7/bsGHD6aefPnHixHvuuef888/Pe/7GjRujxzGYAEIOAPz0OnbsuG7duiiohH+usXnrrbeaNGkyceLE6Do5GRkZn3/+eXRFhPfeey9xMdDIX//61yZNmrRq1cpgAgg5APDT69GjRwhh3rx5+ZLPsmXL7r333vbt29esWbNu3brp6eljx4791a9+tWjRovbt269cuTJx8rx583r27Jl3nQ8AwcVAAeCnEo/H27dvf/LJJyd5Nc/PPvvsiSeeeOyxx6Lt2qJric6bN69Tp04GE0DIAYASYdKkSYMHD87MzDyIzQOGDRv21Vdfffjhh4YRQMgBgJIiNze3Q4cOXbt2HTt27AHdcc2aNW3btp09e3bHjh0NI4CQAwAlyOeff37eeed9+umnTZs2Tf5eAwcObNy48aOPPmoAAYQcAACAYHc1AAAAIQcAAEDIAQAAEHIAAAAhBwAAQMgBAAAQcgAAAIQcAAAAIQcAABByAAAAhBwAAAAhBwAAQMgBAAAQcgAAACEHAABAyAEAABByAAAAhBwAAAAhBwAAEHIAAACEHAAAACEHAABAyAEAAIQcQwAAAAg5AAAAQg4AAICQAwAAIOQAAABCDgAAgJADAABQ0vx/SN/lkifTqWMAAAAASUVORK5CYII="
+    },
+    {
+      "id": "cp_nernst2_002",
+      "passage": null,
+      "stem": "Electrons flow through the wire from:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "copper cathode to zinc anode"
+        },
+        {
+          "label": "B",
+          "text": "solution to solution without electrodes"
+        },
+        {
+          "label": "C",
+          "text": "salt bridge to zinc only"
+        },
+        {
+          "label": "D",
+          "text": "zinc anode to copper cathode"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This reverses electron flow. The cathode consumes electrons; it does not send them to the anode in the spontaneous galvanic cell.",
+        "B": "Electrodes are required for electron transfer between the half-reactions and the wire.",
+        "C": "The salt bridge carries ions, not electrons through the external circuit.",
+        "D": "Correct. Oxidation occurs at the zinc anode, releasing electrons. Electrons flow through the wire to the copper cathode, where Cu\u00b2\u207a is reduced."
+      },
+      "topic": "Electrochemistry II: Nernst Equation & Batteries",
+      "difficulty": "Easy",
+      "passageRef": "cp_nernst2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nernst2_003",
+      "passage": null,
+      "stem": "Why does high [Zn\u00b2\u207a] lower the cell voltage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It increases product concentration and makes the spontaneous reaction less favorable"
+        },
+        {
+          "label": "B",
+          "text": "It removes all zinc metal instantly"
+        },
+        {
+          "label": "C",
+          "text": "It changes copper into a gas"
+        },
+        {
+          "label": "D",
+          "text": "It stops the salt bridge from carrying ions"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Zn\u00b2\u207a is a product of the overall reaction. Increasing product concentration raises Q and reduces the driving force according to the Nernst relationship.",
+        "B": "Zinc metal is still present as an electrode; higher Zn\u00b2\u207a shifts reaction tendency but does not instantly consume all solid zinc.",
+        "C": "Copper does not become a gas in this aqueous redox cell. The voltage change is concentration-dependent, not a phase change.",
+        "D": "The salt bridge can still maintain electroneutrality. The voltage shift comes from reaction quotient changes."
+      },
+      "topic": "Electrochemistry II: Nernst Equation & Batteries",
+      "difficulty": "Medium",
+      "passageRef": "cp_nernst2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nernst2_004",
+      "passage": null,
+      "stem": "Why does high [Cu\u00b2\u207a] increase voltage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It reverses the identity of anode and cathode necessarily"
+        },
+        {
+          "label": "B",
+          "text": "It makes Zn\u00b2\u207a disappear from solution"
+        },
+        {
+          "label": "C",
+          "text": "It increases reactant concentration for the reduction half-reaction"
+        },
+        {
+          "label": "D",
+          "text": "It blocks electron flow in the wire"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The electrodes need not switch roles merely because concentration changes within the described range. The reaction remains zinc oxidation coupled to copper reduction.",
+        "B": "Changing Cu\u00b2\u207a does not remove Zn\u00b2\u207a. The effect is on the reaction quotient, not selective disappearance of product.",
+        "C": "Correct. Cu\u00b2\u207a is a reactant in the spontaneous cell reaction. Increasing its concentration lowers Q and makes reduction more favorable, increasing cell voltage.",
+        "D": "Blocking electron flow would reduce current, not explain a higher open-circuit voltage."
+      },
+      "topic": "Electrochemistry II: Nernst Equation & Batteries",
+      "difficulty": "Hard",
+      "passageRef": "cp_nernst2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nernst2_005",
+      "passage": null,
+      "stem": "What is the role of the salt bridge?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It carries electrons faster than the wire"
+        },
+        {
+          "label": "B",
+          "text": "It maintains charge balance by allowing ion migration"
+        },
+        {
+          "label": "C",
+          "text": "It supplies all chemical energy"
+        },
+        {
+          "label": "D",
+          "text": "It plates copper onto zinc directly"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Electrons flow through the metal wire, not through the salt bridge solution.",
+        "B": "Correct. The salt bridge allows ions to migrate so charge does not build up in either half-cell. This permits continued electron flow in the external circuit.",
+        "C": "Chemical energy comes from the redox reaction, not the salt bridge itself.",
+        "D": "Copper plating occurs at the cathode surface, not by the salt bridge directly depositing copper on zinc."
+      },
+      "topic": "Electrochemistry II: Nernst Equation & Batteries",
+      "difficulty": "Medium",
+      "passageRef": "cp_nernst2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nernst2_006",
+      "passage": "A medical-device company tests a miniature battery for an implant. The battery must supply steady current at body temperature, but internal resistance causes terminal voltage to drop under high load. During discharge, reactants are consumed and products accumulate, gradually lowering the driving force. The team distinguishes electrolytic cells, which require external electrical energy, from galvanic cells, which produce electrical energy from spontaneous redox reactions.",
+      "stem": "Why does terminal voltage drop under high load in the implant battery?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The redox reaction stops being chemical"
+        },
+        {
+          "label": "B",
+          "text": "The battery becomes an ideal voltage source"
+        },
+        {
+          "label": "C",
+          "text": "Internal resistance causes an IR drop inside the battery"
+        },
+        {
+          "label": "D",
+          "text": "The electrodes have no resistance or polarization"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The battery remains a chemical redox device; high load changes voltage losses, not the nature of the reaction.",
+        "B": "An ideal voltage source would maintain terminal voltage regardless of load, which is the opposite of the observed drop.",
+        "C": "Correct. Real batteries have internal resistance and kinetic limitations. When current is high, voltage lost inside the cell increases, so terminal voltage delivered to the device falls.",
+        "D": "If there were no resistance or polarization, high load would not lower terminal voltage as described."
+      },
+      "topic": "Electrochemistry II: Nernst Equation & Batteries",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_nernst2_007",
+      "passage": null,
+      "stem": "During discharge, why does voltage gradually fall?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Reactants are consumed and products accumulate, reducing redox driving force"
+        },
+        {
+          "label": "B",
+          "text": "Products become reactants with infinite voltage"
+        },
+        {
+          "label": "C",
+          "text": "The battery gains unlimited Gibbs free energy"
+        },
+        {
+          "label": "D",
+          "text": "Current changes into mass"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. As discharge proceeds, the reaction quotient shifts toward products. That reduces the thermodynamic driving force and therefore cell voltage.",
+        "B": "Products accumulating generally lowers the forward driving force; it does not create infinite voltage.",
+        "C": "A discharging battery loses available free energy. It does not gain unlimited \u0394G for useful work.",
+        "D": "Current is charge flow, not mass conversion. The voltage decline follows chemical composition and internal losses."
+      },
+      "topic": "Electrochemistry II: Nernst Equation & Batteries",
+      "difficulty": "Easy",
+      "passageRef": "cp_nernst2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nernst2_008",
+      "passage": null,
+      "stem": "Which cell type requires external electrical energy to drive a nonspontaneous reaction?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A salt bridge alone"
+        },
+        {
+          "label": "B",
+          "text": "Galvanic cell"
+        },
+        {
+          "label": "C",
+          "text": "A fully discharged ideal cell producing power forever"
+        },
+        {
+          "label": "D",
+          "text": "Electrolytic cell"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "A salt bridge is not a complete electrochemical cell and cannot drive a redox reaction alone.",
+        "B": "A galvanic cell is spontaneous as written and produces electrical energy, at least until reactants are depleted.",
+        "C": "A fully discharged cell cannot produce power forever; that violates the chemical limitation described in the passage.",
+        "D": "Correct. An electrolytic cell uses external electrical work to drive a nonspontaneous redox reaction. That distinguishes it from a galvanic cell, which generates electrical energy from a spontaneous reaction."
+      },
+      "topic": "Electrochemistry II: Nernst Equation & Batteries",
+      "difficulty": "Medium",
+      "passageRef": "cp_nernst2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nernst2_009",
+      "passage": null,
+      "stem": "Which quantity is most directly related to maximum electrical work from a galvanic cell?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\u0394G = \u2212nFEcell"
+        },
+        {
+          "label": "B",
+          "text": "pH = pKa + log(A\u2212/HA)"
+        },
+        {
+          "label": "C",
+          "text": "PV = nRT"
+        },
+        {
+          "label": "D",
+          "text": "\u03bb = h/p"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. For electrochemical cells, Gibbs free energy and cell potential are linked by \u0394G = \u2212nFEcell. A positive Ecell corresponds to negative \u0394G for the spontaneous galvanic reaction.",
+        "B": "The Henderson-Hasselbalch equation describes buffers, not electrical work from redox reactions.",
+        "C": "The ideal gas law relates gas state variables, not redox free energy.",
+        "D": "The de Broglie relation concerns matter wavelength, not battery work."
+      },
+      "topic": "Electrochemistry II: Nernst Equation & Batteries",
+      "difficulty": "Hard",
+      "passageRef": "cp_nernst2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nernst2_010",
+      "passage": null,
+      "stem": "Why is voltage not determined only by electrode identity?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Electrode identity is irrelevant to standard potential"
+        },
+        {
+          "label": "B",
+          "text": "Ion concentrations and reaction quotient also affect cell potential"
+        },
+        {
+          "label": "C",
+          "text": "Voltage is independent of redox chemistry"
+        },
+        {
+          "label": "D",
+          "text": "Only wire length determines voltage"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Electrode identity strongly affects standard potential, so saying it is irrelevant overcorrects the point.",
+        "B": "Correct. Electrode materials set standard reduction potentials, but actual voltage also depends on concentrations through the Nernst equation. The table shows the same metals giving different voltages when ion concentrations change.",
+        "C": "Voltage is fundamentally tied to redox chemistry in the cell. Concentration effects refine, not replace, that chemistry.",
+        "D": "Wire length may affect resistance slightly, but it does not set the thermodynamic cell potential."
+      },
+      "topic": "Electrochemistry II: Nernst Equation & Batteries",
+      "difficulty": "Medium",
+      "passageRef": "cp_nernst2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

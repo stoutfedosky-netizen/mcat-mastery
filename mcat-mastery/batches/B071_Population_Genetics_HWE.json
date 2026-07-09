@@ -1,0 +1,338 @@
+{
+  "batch": "B071",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Population Genetics & Hardy-Weinberg Equilibrium",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "bb_popgen_001",
+      "passage": "A population geneticist studies a large, randomly mating population of wildflowers with two alleles (R and r) controlling flower color. RR and Rr plants have red flowers (R dominant), and rr plants have white flowers. She surveys 10,000 plants and finds 100 white-flowered individuals. She assumes Hardy-Weinberg equilibrium and uses the allele frequencies to calculate expected genotype frequencies. She also studies a small island population of 50 individuals that was founded by a few mainland migrants, and observes that allele frequencies in the island population differ markedly from the mainland source.",
+      "stem": "If 100 of 10,000 plants are white (rr), the frequency of the r allele (q) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.10, because q² = 100/10,000 = 0.01, so q = √0.01 = 0.10"
+        },
+        {
+          "label": "B",
+          "text": "0.01"
+        },
+        {
+          "label": "C",
+          "text": "0.90"
+        },
+        {
+          "label": "D",
+          "text": "0.50"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. White flowers = rr genotype. Frequency of rr = q² = 100/10,000 = 0.01. Therefore q = √0.01 = 0.10. This is the standard HWE approach: start with the recessive phenotype (the only genotype directly observable), calculate q², take the square root for q, then derive p = 1 - q = 0.90. From these, all genotype frequencies can be calculated.",
+        "B": "0.01 is q² (frequency of the rr genotype), not q (allele frequency). Confusing genotype frequency with allele frequency is a common MCAT trap. You must take the square root: q = √q² = √0.01 = 0.10.",
+        "C": "0.90 is the frequency of the dominant allele p (p = 1 - q = 1 - 0.10 = 0.90), not q.",
+        "D": "0.50 would mean equal allele frequencies, predicting 25% rr plants (0.5² = 0.25 = 2,500 white plants). Only 100 of 10,000 are white, indicating q is much less than 0.50."
+      },
+      "topic": "Hardy-Weinberg / Allele Frequency Calculation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_popgen_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "With p = 0.90 and q = 0.10, the expected frequency of heterozygous (Rr) carriers in the population is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.18"
+        },
+        {
+          "label": "B",
+          "text": "0.81"
+        },
+        {
+          "label": "C",
+          "text": "0.01"
+        },
+        {
+          "label": "D",
+          "text": "0.09"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "0.81 is p² = (0.90)² = 0.81, the frequency of homozygous dominant (RR) individuals — not heterozygotes.",
+        "A": "Correct. Heterozygote frequency = 2pq = 2(0.90)(0.10) = 0.18. This means 18% of the population (1,800 of 10,000) are heterozygous carriers who appear red-flowered but carry one r allele. Note that carriers (18%) far outnumber affected homozygotes (1%) — a key principle: for rare recessive traits, most alleles are hidden in the carrier population, not expressed in affected individuals.",
+        "C": "0.01 is q² = (0.10)² = 0.01, the frequency of homozygous recessive (rr) individuals — the white-flowered plants.",
+        "D": "0.09 results from calculating pq rather than 2pq. The factor of 2 accounts for the two ways to form a heterozygote (R from mother/r from father, or r from mother/R from father)."
+      },
+      "topic": "Hardy-Weinberg / Heterozygote Frequency",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_popgen_003",
+      "passage": null,
+      "stem": "Hardy-Weinberg equilibrium requires all of the following conditions EXCEPT:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "no mutation"
+        },
+        {
+          "label": "B",
+          "text": "no natural selection"
+        },
+        {
+          "label": "C",
+          "text": "random mating and no gene flow"
+        },
+        {
+          "label": "D",
+          "text": "small population size to reduce variability"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. HWE requires a large (ideally infinite) population, not a small one. Small populations are subject to genetic drift — random fluctuations in allele frequencies due to sampling error — which violates HWE. The five HWE conditions are: (1) no mutation, (2) random mating, (3) no natural selection, (4) no gene flow (migration), and (5) very large population size (no drift). Violating any condition causes allele frequencies to change across generations.",
+        "A": "No mutation is a required HWE condition. Mutation introduces new alleles, changing allele frequencies. Mutation rates are low (~10⁻⁶ per gene per generation), so this condition is approximately met in most populations over short time spans.",
+        "B": "No natural selection is required. Selection differentially favors certain genotypes, changing allele frequencies. If selection acts, the population will deviate from HWE predictions.",
+        "C": "Random mating and no gene flow are both required conditions. Non-random mating (e.g., inbreeding, assortative mating) changes genotype frequencies, and gene flow (migration) changes allele frequencies by introducing or removing alleles."
+      },
+      "topic": "Hardy-Weinberg Conditions",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_popgen_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The island population's allele frequencies differ from the mainland source population. This is most likely due to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "natural selection having identical effects on both populations"
+        },
+        {
+          "label": "B",
+          "text": "the island population being too large for drift to occur"
+        },
+        {
+          "label": "C",
+          "text": "increased gene flow between the island and mainland"
+        },
+        {
+          "label": "D",
+          "text": "the founder effect — a form of genetic drift where a small founding group carries a non-representative sample of the mainland allele frequencies"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "The island population is small (50 individuals), making drift strong, not negligible. A population of 50 is well within the range where drift significantly affects allele frequencies each generation.",
+        "A": "Identical selective pressures would tend to maintain similar allele frequencies, not create differences. The island environment may impose different selection, but the passage attributes the difference to the small founding population, pointing to genetic drift.",
+        "C": "Increased gene flow would homogenize allele frequencies between populations (making them more similar, not different). The island population's divergence suggests limited gene flow — consistent with geographic isolation.",
+        "D": "Correct. The founder effect occurs when a new population is established by a small number of individuals from a larger source population. The founders carry only a subset of the original genetic variation, and by chance their allele frequencies may differ substantially from the source. With only 50 individuals, sampling error is large. Over generations, drift can further change frequencies. The founder effect explains why rare diseases (e.g., Ellis-van Creveld syndrome in Amish populations) can be unusually common in isolated communities."
+      },
+      "topic": "Founder Effect / Genetic Drift",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_popgen_005",
+      "passage": null,
+      "stem": "Natural selection acts on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "phenotypes — individuals with advantageous traits survive and reproduce at higher rates, changing allele frequencies indirectly"
+        },
+        {
+          "label": "B",
+          "text": "genotypes directly, regardless of whether they are expressed"
+        },
+        {
+          "label": "C",
+          "text": "individual alleles in isolation from the organism"
+        },
+        {
+          "label": "D",
+          "text": "populations, not individuals"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Selection acts on phenotypes — the observable traits that affect an organism's survival and reproduction (fitness). Individuals with phenotypes better suited to the environment leave more offspring, and the alleles underlying those phenotypes increase in frequency. Natural selection cannot 'see' genotypes directly; a recessive allele hidden in a heterozygote is invisible to selection. This is why harmful recessive alleles persist in populations — they are shielded from selection in carriers.",
+        "B": "Selection acts on expressed phenotypes, not directly on genotypes. A recessive allele in a heterozygote (Aa) is not exposed to selection if the phenotype is determined by the dominant allele. Only when the genotype produces a phenotypic difference does selection act.",
+        "C": "Alleles do not exist in isolation — they are expressed within organisms that live, reproduce, and die. Selection evaluates the integrated phenotype of the whole organism, not individual alleles.",
+        "D": "Selection acts on individual differences in fitness. Evolution (change in allele frequencies) occurs at the population level as a consequence of differential individual reproduction, but the unit of selection is the individual organism."
+      },
+      "topic": "Natural Selection / Unit of Selection",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_popgen_006",
+      "passage": null,
+      "stem": "If a recessive lethal allele (aa is lethal, AA and Aa are normal) has a current frequency q = 0.02, the expected frequency of carriers (Aa) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.0004"
+        },
+        {
+          "label": "B",
+          "text": "0.9604"
+        },
+        {
+          "label": "C",
+          "text": "0.02"
+        },
+        {
+          "label": "D",
+          "text": "0.0392"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "0.9604 is p² = (0.98)² = 0.9604, the frequency of homozygous normals (AA), not carriers.",
+        "A": "0.0004 is q² = (0.02)² = 0.0004, the frequency of affected homozygotes (aa). This is the disease frequency, not the carrier frequency.",
+        "C": "0.02 is q (the allele frequency), not the carrier genotype frequency (2pq). Confusing allele frequency with genotype frequency is a common error.",
+        "D": "Correct. Carrier frequency = 2pq = 2(0.98)(0.02) = 0.0392, or about 3.92%. This means nearly 4% of the population carries the lethal allele despite only 0.04% (q²) being affected. For cystic fibrosis (q ≈ 0.02 in European populations), approximately 1 in 25 people is a carrier — vastly more common than the ~1 in 2,500 affected individuals. This demonstrates why recessive alleles persist: most copies are hidden in phenotypically normal carriers."
+      },
+      "topic": "Hardy-Weinberg / Carrier Frequency",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_popgen_007",
+      "passage": null,
+      "stem": "Gene flow between two populations tends to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase the genetic differences between them"
+        },
+        {
+          "label": "B",
+          "text": "make their allele frequencies more similar over time"
+        },
+        {
+          "label": "C",
+          "text": "increase genetic drift in both populations"
+        },
+        {
+          "label": "D",
+          "text": "cause mutations in the receiving population"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Gene flow (migration) is the movement of alleles between populations through migration and interbreeding. It acts as a homogenizing force, making allele frequencies of connected populations more similar over time. If one population has p=0.8 and another has p=0.2, gene flow will shift both toward an intermediate value. Gene flow counteracts the diversifying effects of genetic drift and local selection.",
+        "A": "Gene flow decreases genetic differences between populations by mixing gene pools. Forces that increase differences include genetic drift (in isolated small populations) and divergent natural selection.",
+        "C": "Gene flow does not increase genetic drift. Drift is driven by small population size. Gene flow can actually counteract drift by reintroducing alleles that might have been lost through random sampling.",
+        "D": "Gene flow introduces existing alleles from other populations through migration and interbreeding — it does not create new mutations. Mutation is a separate evolutionary force that generates novel alleles."
+      },
+      "topic": "Gene Flow / Homogenization",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_popgen_008",
+      "passage": null,
+      "stem": "Fitness in evolutionary biology refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "physical strength and endurance of an organism"
+        },
+        {
+          "label": "B",
+          "text": "the ability of an organism to survive to old age"
+        },
+        {
+          "label": "C",
+          "text": "the relative reproductive success of a genotype — measured by the number of viable, fertile offspring produced compared to other genotypes"
+        },
+        {
+          "label": "D",
+          "text": "the number of mutations an organism accumulates"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Evolutionary (Darwinian) fitness is the relative reproductive success of a genotype — specifically, the proportional contribution to the next generation's gene pool. Fitness = 1 - s, where s is the selection coefficient. An individual with fitness 1.0 has the highest reproductive success in the population. Fitness is always relative: it compares genotypes within the same population and environment. An organism that survives but does not reproduce has fitness = 0.",
+        "A": "Physical strength is unrelated to evolutionary fitness unless it translates into reproductive advantage. A strong organism that does not reproduce has zero fitness. Conversely, a physically weak organism that produces many viable offspring has high fitness.",
+        "B": "Survival to old age contributes to fitness only if it enables more reproduction. Post-reproductive survival has minimal direct fitness consequences (though inclusive fitness via kin support is possible).",
+        "D": "Mutation accumulation is unrelated to fitness. Most mutations are neutral or deleterious. Fitness measures reproductive output, not mutation count."
+      },
+      "topic": "Fitness / Reproductive Success",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_popgen_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the wildflower population, if a drought kills all white-flowered (rr) plants before they reproduce, this is an example of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "genetic drift, because the change is random"
+        },
+        {
+          "label": "B",
+          "text": "gene flow, because alleles are moving between populations"
+        },
+        {
+          "label": "C",
+          "text": "directional selection against the rr genotype, which will decrease the frequency of the r allele over generations"
+        },
+        {
+          "label": "D",
+          "text": "mutation, because the drought introduces new alleles"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Selective elimination of rr individuals before reproduction is directional selection against the recessive phenotype. Affected individuals have fitness = 0 (lethal selection). This removes r alleles from the gene pool (each rr individual removes two r alleles). Over generations, q will decrease, but slowly — because most r alleles are hidden in Rr carriers, which are phenotypically red and unaffected by the selection. Complete elimination of a recessive allele through phenotypic selection is nearly impossible because carriers are invisible to selection.",
+        "A": "This is not drift because the change is not random — white plants specifically die because of their phenotype. Drift refers to random changes unrelated to phenotype (sampling error in reproduction). Selective death based on phenotype is natural selection.",
+        "B": "Gene flow involves migration between populations. No movement of individuals between populations is described — the drought acts within a single population.",
+        "D": "Drought is an environmental selective pressure, not a mutagen. It does not introduce new alleles. It selectively removes existing genotypes based on their phenotypic fitness in drought conditions."
+      },
+      "topic": "Directional Selection / Recessive Allele",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_popgen_010",
+      "passage": null,
+      "stem": "Heterozygote advantage (overdominance) maintains both alleles in a population because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "both homozygous genotypes are equally fit"
+        },
+        {
+          "label": "B",
+          "text": "the heterozygote has higher fitness than either homozygote, so neither allele can be driven to fixation — selection maintains a stable polymorphism (balancing selection)"
+        },
+        {
+          "label": "C",
+          "text": "mutations continuously regenerate the less-fit allele"
+        },
+        {
+          "label": "D",
+          "text": "genetic drift prevents either allele from being eliminated"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. In heterozygote advantage, the heterozygote (Aa) has higher fitness than both homozygotes (AA and aa). Natural selection simultaneously removes both alleles from the population (by selecting against homozygotes) while favoring the heterozygous state. This creates a stable equilibrium allele frequency where neither allele can be eliminated. The classic example is sickle cell trait: HbAS heterozygotes are resistant to malaria (higher fitness) while HbSS causes sickle cell disease and HbAA lacks malaria protection. Both alleles persist in malaria-endemic regions.",
+        "A": "If both homozygotes were equally fit, there would be no selection, and the alleles would behave as selectively neutral (subject to drift). Heterozygote advantage requires the heterozygote to be more fit than both homozygotes.",
+        "C": "Mutation rates (~10⁻⁶) are too low to meaningfully counterbalance selection against a deleterious homozygous genotype. Heterozygote advantage maintains polymorphism through selection, not mutation.",
+        "D": "Drift is a random process that tends to eliminate alleles, not maintain them. In the sickle cell case, the HbS allele reaches frequencies of 10-20% in malaria regions — far too high to explain by drift alone, indicating strong balancing selection."
+      },
+      "topic": "Heterozygote Advantage / Balancing Selection",
+      "difficulty": "Hard"
+    }
+  ]
+}

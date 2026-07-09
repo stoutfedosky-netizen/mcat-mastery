@@ -1,0 +1,338 @@
+{
+  "batch": "B100",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Gene Expression & Regulation",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 3,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "bb_genereg_001",
+      "passage": "A molecular biologist studies how eukaryotic gene expression is regulated at multiple levels. She examines transcriptional regulation (promoters, enhancers, transcription factors, chromatin remodeling), post-transcriptional regulation (mRNA splicing, stability, and localization), translational control (initiation factors, miRNAs), and post-translational modifications (phosphorylation, ubiquitination). She also compares prokaryotic gene regulation (the lac operon) with eukaryotic systems and studies epigenetic mechanisms including DNA methylation and histone modification.",
+      "stem": "The lac operon in E. coli is an example of inducible gene regulation. In the absence of lactose:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the lac repressor binds the operator, blocking RNA polymerase from transcribing the structural genes (lacZ, lacY, lacA) — this is negative regulation that prevents unnecessary enzyme production when lactose is absent"
+        },
+        {
+          "label": "B",
+          "text": "all three structural genes are constitutively expressed at maximum levels"
+        },
+        {
+          "label": "C",
+          "text": "RNA polymerase cannot bind the promoter because it is methylated"
+        },
+        {
+          "label": "D",
+          "text": "the structural genes are permanently deleted from the chromosome"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The lac operon uses negative control: the lacI gene constitutively produces the lac repressor protein, which binds the operator (between promoter and structural genes) in the absence of lactose, physically blocking RNA polymerase from transcribing lacZ (β-galactosidase), lacY (permease), and lacA (transacetylase). When lactose is present, its isomer allolactose binds the repressor, causing a conformational change that releases it from the operator, allowing transcription. Additionally, maximal expression requires positive regulation by CAP-cAMP (catabolite activator protein), which binds upstream when glucose is low — ensuring lactose metabolism genes are fully expressed only when glucose is absent AND lactose is present.",
+        "B": "Constitutive expression would waste energy producing enzymes for lactose metabolism when no lactose is available. The repressor system ensures expression only when needed — a hallmark of inducible operons.",
+        "C": "DNA methylation is a eukaryotic gene silencing mechanism (at CpG islands). Prokaryotic gene regulation at the lac operon uses protein-DNA interactions (repressor-operator binding), not methylation-based silencing.",
+        "D": "Genes are not deleted in response to environmental changes. Gene regulation controls transcription without altering the DNA sequence. The structural genes remain intact in the chromosome regardless of lactose availability."
+      },
+      "topic": "Lac Operon / Inducible Regulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_genereg_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In eukaryotes, enhancers differ from promoters in that enhancers:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "are located immediately upstream of the gene and are where RNA polymerase binds"
+        },
+        {
+          "label": "B",
+          "text": "can be located thousands of base pairs upstream, downstream, or within introns of the gene they regulate — they increase transcription by binding transcription factors (activators) that interact with the mediator complex and RNA polymerase through DNA looping"
+        },
+        {
+          "label": "C",
+          "text": "silence gene expression by recruiting histone deacetylases"
+        },
+        {
+          "label": "D",
+          "text": "are found only in prokaryotes, not eukaryotes"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This describes the promoter (TATA box ~-25, upstream elements), not enhancers. RNA polymerase II binds the promoter (via TFIID/TBP at the TATA box). Enhancers do not directly bind RNA polymerase.",
+        "B": "Correct. Enhancers are cis-regulatory elements that can be located 10-1000+ kb from the promoter, in any orientation, and even within introns. They contain binding sites for transcription factors (activators) whose binding increases transcription rate. The intervening DNA loops out, bringing the enhancer-bound activators into contact with the mediator complex and general transcription factors at the promoter. This looping is facilitated by cohesin and CTCF proteins. Enhancers provide tissue-specific and temporal regulation — the same gene can have multiple enhancers driving expression in different cell types (e.g., globin gene enhancers for erythroid-specific expression).",
+        "C": "Elements that silence gene expression are called silencers (which recruit repressors and histone deacetylases/HDACs). Enhancers activate transcription; silencers repress it. They are functionally opposite regulatory elements.",
+        "D": "Enhancers are primarily a eukaryotic regulatory mechanism. Prokaryotic gene regulation uses operons, repressors, activators (like CAP), and sigma factors rather than distal enhancer elements with DNA looping."
+      },
+      "topic": "Enhancers / Eukaryotic Transcription Regulation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_genereg_003",
+      "passage": null,
+      "stem": "DNA methylation (addition of methyl groups to cytosine in CpG dinucleotides) typically:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "activates gene transcription by opening chromatin"
+        },
+        {
+          "label": "B",
+          "text": "has no effect on gene expression"
+        },
+        {
+          "label": "C",
+          "text": "silences gene expression — methylated CpG islands in promoter regions recruit methyl-CpG binding proteins (MBDs) that attract histone deacetylases, leading to chromatin condensation and transcriptional repression"
+        },
+        {
+          "label": "D",
+          "text": "causes point mutations that change the amino acid sequence"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "DNA methylation condenses chromatin and silences genes — the opposite of activation. Chromatin opening (euchromatin) is associated with histone acetylation and demethylation of DNA.",
+        "B": "DNA methylation has profound effects on gene expression. Aberrant methylation patterns are associated with cancer (hypermethylation of tumor suppressor promoters, global hypomethylation), imprinting disorders (Prader-Willi, Angelman syndromes), and aging.",
+        "C": "Correct. DNA methylation at CpG islands (clusters of CG dinucleotides, often in promoter regions) is an epigenetic mark associated with gene silencing. The mechanism: (1) DNA methyltransferases (DNMTs) add methyl groups to cytosine C5 position; (2) methyl-CpG binding proteins (MeCP2, MBD1-4) recognize and bind methylated CpGs; (3) MBDs recruit histone deacetylases (HDACs) and chromatin remodeling complexes; (4) histone deacetylation → chromatin condensation (heterochromatin) → transcriptional silencing. DNA methylation is heritable through cell division (maintenance methyltransferase DNMT1 methylates the newly synthesized strand). It plays roles in X-inactivation, genomic imprinting, and silencing of transposable elements.",
+        "D": "DNA methylation is an epigenetic modification — it does not change the DNA sequence or cause mutations. The methyl group is added to cytosine without altering base pairing (5-methylcytosine still pairs with guanine). However, 5-methylcytosine is prone to spontaneous deamination to thymine, which can cause C→T transition mutations if not repaired."
+      },
+      "topic": "DNA Methylation / Epigenetic Silencing",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_genereg_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Histone acetylation by histone acetyltransferases (HATs) promotes gene expression by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "adding methyl groups to DNA, compacting chromatin"
+        },
+        {
+          "label": "B",
+          "text": "degrading the mRNA after transcription"
+        },
+        {
+          "label": "C",
+          "text": "removing histones entirely from the DNA"
+        },
+        {
+          "label": "D",
+          "text": "neutralizing the positive charges on lysine residues of histone tails, weakening histone-DNA interactions and opening chromatin (euchromatin) — making the DNA more accessible to transcription factors and RNA polymerase"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Adding methyl groups to DNA is performed by DNA methyltransferases (DNMTs), not HATs. HATs add acetyl groups to histone proteins. DNA methylation and histone deacetylation both compact chromatin, but histone acetylation does the opposite — it opens chromatin.",
+        "B": "mRNA degradation is a post-transcriptional regulatory mechanism involving deadenylation, decapping, and exonuclease digestion. Histone acetylation operates at the transcriptional level by modifying chromatin accessibility.",
+        "C": "Histone acetylation loosens histone-DNA interactions but does not remove histones. Histone removal (nucleosome disassembly) can occur but involves separate chaperone proteins, not HATs. Acetylation simply reduces binding affinity.",
+        "D": "Correct. Histones are positively charged proteins (rich in Lys and Arg) that bind negatively charged DNA. Acetylation of lysine residues (adding an acetyl group from acetyl-CoA) neutralizes the positive charge, weakening the electrostatic attraction between histones and DNA. This relaxes chromatin structure (heterochromatin → euchromatin), exposing DNA to the transcriptional machinery. HATs are transcriptional coactivators; HDACs (histone deacetylases) are corepressors that remove acetyl groups, re-condense chromatin, and silence genes. The histone code hypothesis proposes that specific combinations of histone modifications (acetylation, methylation, phosphorylation, ubiquitination) create a regulatory 'code' read by effector proteins."
+      },
+      "topic": "Histone Acetylation / Chromatin Remodeling",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_genereg_005",
+      "passage": null,
+      "stem": "MicroRNAs (miRNAs) regulate gene expression post-transcriptionally by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "activating translation of their target mRNAs, increasing protein production"
+        },
+        {
+          "label": "B",
+          "text": "directly editing the DNA sequence of target genes"
+        },
+        {
+          "label": "C",
+          "text": "binding to complementary sequences in the 3' UTR of target mRNAs, leading to mRNA degradation or translational repression — this is a form of negative regulation that fine-tunes protein levels"
+        },
+        {
+          "label": "D",
+          "text": "splicing pre-mRNA to remove introns"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "miRNAs suppress translation or degrade mRNA — they are negative regulators. They do not activate translation. Some long non-coding RNAs can act as positive regulators, but miRNAs are characteristically repressive.",
+        "B": "miRNAs operate at the RNA level (post-transcriptional), not the DNA level. They do not edit or modify DNA sequences. DNA editing is performed by systems like CRISPR-Cas9 (artificial) or APOBEC enzymes (somatic hypermutation in B cells).",
+        "C": "Correct. miRNAs are short (~22 nt), non-coding RNAs processed from hairpin precursors (pri-miRNA → pre-miRNA by Drosha → mature miRNA by Dicer). The mature miRNA is loaded into the RISC complex (RNA-induced silencing complex, containing Argonaute protein) and guides it to complementary sequences in the 3' UTR of target mRNAs. Perfect complementarity → mRNA cleavage (like siRNA). Partial complementarity (more common in animals) → translational repression and mRNA destabilization. A single miRNA can regulate hundreds of target genes, and a single mRNA can be regulated by multiple miRNAs. miRNAs are involved in development, differentiation, and disease (oncogenic miRNAs, tumor-suppressor miRNAs).",
+        "D": "Pre-mRNA splicing (intron removal) is performed by the spliceosome (snRNPs: U1, U2, U4, U5, U6), not by miRNAs. miRNAs act on mature mRNA after processing, not during splicing."
+      },
+      "topic": "MicroRNA / Post-Transcriptional Regulation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_genereg_006",
+      "passage": null,
+      "stem": "Alternative splicing allows a single gene to produce:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "multiple different mRNA variants and protein isoforms by including or excluding specific exons during pre-mRNA processing — greatly increasing proteomic diversity beyond the gene count"
+        },
+        {
+          "label": "B",
+          "text": "only one possible mRNA and protein product"
+        },
+        {
+          "label": "C",
+          "text": "multiple copies of the same DNA sequence"
+        },
+        {
+          "label": "D",
+          "text": "different tRNAs for the same amino acid"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Alternative splicing produces different mature mRNAs from the same pre-mRNA by selectively including/excluding exons, using alternative 5' or 3' splice sites, or retaining introns. The human genome has ~20,000 genes but produces >100,000 protein variants, largely through alternative splicing. Example: the Drosophila DSCAM gene can produce 38,016 different mRNA variants through combinatorial exon selection. Tissue-specific splicing factors (SR proteins, hnRNPs) determine which exons are included in different cell types. Errors in splicing cause disease (β-thalassemia, spinal muscular atrophy, some cancers).",
+        "B": "If only one mRNA were produced, the proteome would be limited to ~20,000 proteins. Alternative splicing is one of the main mechanisms by which organisms achieve proteomic complexity beyond what gene count alone would predict.",
+        "C": "Multiple copies of a DNA sequence describes gene duplication or amplification, not alternative splicing. Alternative splicing operates on RNA, not DNA, and does not alter the gene itself.",
+        "D": "Different tRNAs for the same amino acid (isoacceptor tRNAs) arise from different genes, not from alternative splicing of a single gene. tRNA genes do not undergo the same splicing mechanisms as mRNA genes."
+      },
+      "topic": "Alternative Splicing / Proteomic Diversity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_genereg_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The researcher compares eukaryotic and prokaryotic gene regulation. A key difference is that eukaryotic regulation:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "occurs only at the translational level, with no transcriptional control"
+        },
+        {
+          "label": "B",
+          "text": "uses operons to coordinate expression of functionally related genes on polycistronic mRNA"
+        },
+        {
+          "label": "C",
+          "text": "is simpler than prokaryotic regulation, with fewer regulatory mechanisms"
+        },
+        {
+          "label": "D",
+          "text": "operates at multiple levels (chromatin remodeling, transcription, post-transcription, translation, post-translation) and uses monocistronic mRNAs — each gene has its own promoter, unlike the polycistronic operons of prokaryotes"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Eukaryotic regulation includes extensive transcriptional control — transcription factors, enhancers, and chromatin remodeling are arguably the most important regulatory level. Translational control is one of several levels, not the only one.",
+        "B": "Operons with polycistronic mRNAs are a prokaryotic feature. Eukaryotic genes are generally transcribed individually as monocistronic mRNAs. Some rare exceptions exist (e.g., in C. elegans), but operons are not a feature of mammalian gene regulation.",
+        "C": "Eukaryotic regulation is far more complex, not simpler. The multiple levels of regulation, combinatorial transcription factor logic, chromatin remodeling, and post-transcriptional mechanisms all add layers of complexity absent in prokaryotes.",
+        "D": "Correct. Eukaryotic gene regulation is far more complex than prokaryotic, operating at every level: (1) Epigenetic — DNA methylation, histone modifications; (2) Transcriptional — enhancers, silencers, combinatorial transcription factor binding; (3) Post-transcriptional — alternative splicing, miRNAs, mRNA stability (3' UTR regulatory elements); (4) Translational — initiation factor regulation, mTOR signaling; (5) Post-translational — phosphorylation, ubiquitin-proteasome degradation. Eukaryotic mRNAs are monocistronic (one gene per mRNA), requiring separate promoters for each gene. Prokaryotic operons produce polycistronic mRNAs (multiple genes, one promoter) for coordinated regulation."
+      },
+      "topic": "Eukaryotic vs Prokaryotic Regulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_genereg_008",
+      "passage": null,
+      "stem": "Ubiquitination of a protein typically targets it for:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increased stability and extended half-life"
+        },
+        {
+          "label": "B",
+          "text": "nuclear export and secretion"
+        },
+        {
+          "label": "C",
+          "text": "degradation by the 26S proteasome — ubiquitin-tagged proteins are recognized, unfolded, and proteolytically destroyed, controlling protein levels and removing damaged or misfolded proteins"
+        },
+        {
+          "label": "D",
+          "text": "insertion into the cell membrane"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Polyubiquitination (K48-linked) promotes degradation, not stability. It decreases protein half-life by targeting the protein for proteasomal destruction. Deubiquitinases (DUBs) can remove ubiquitin to rescue proteins from degradation.",
+        "B": "Ubiquitination does not directly target proteins for nuclear export or secretion. Nuclear export uses nuclear export signals (NES) recognized by exportin/CRM1. Secretory pathway targeting uses signal peptides recognized by SRP.",
+        "C": "Correct. Ubiquitination: ubiquitin (76 aa protein) is covalently attached to lysine residues on target proteins through E1 (activating), E2 (conjugating), and E3 (ligase, substrate-specific) enzymes. Polyubiquitination (chains of ≥4 ubiquitins linked through Lys48) targets the protein for 26S proteasome degradation. The proteasome unfolds the protein, removes ubiquitin (for recycling), and cleaves the protein into small peptides. This system regulates: cell cycle (cyclin degradation by APC/C), transcription factor turnover (p53 degraded by Mdm2/E3 ligase), quality control (misfolded protein elimination), and immune signaling (NF-κB pathway). Monoubiquitination has non-degradative roles (histone modification, endocytic sorting).",
+        "D": "Membrane protein insertion uses signal sequences and the Sec61 translocon (co-translational insertion in the ER) or post-translational insertion pathways, not ubiquitin tagging."
+      },
+      "topic": "Ubiquitin-Proteasome System",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_genereg_009",
+      "passage": null,
+      "stem": "X-chromosome inactivation (Lyonization) is an example of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a point mutation that changes protein function"
+        },
+        {
+          "label": "B",
+          "text": "alternative splicing producing different protein isoforms"
+        },
+        {
+          "label": "C",
+          "text": "gene amplification increasing copy number"
+        },
+        {
+          "label": "D",
+          "text": "epigenetic regulation — one X chromosome in each female cell is randomly inactivated (condensed into a Barr body) through XIST RNA coating, DNA methylation, and histone modification, ensuring dosage compensation between XX females and XY males"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "X-inactivation is not a mutation — it is a reversible epigenetic modification that silences an entire chromosome without changing its DNA sequence. The inactivated X can be reactivated in germ cells.",
+        "B": "Alternative splicing produces protein isoforms from a single gene. X-inactivation silences an entire chromosome (~800 genes), not specific exons of a single gene.",
+        "C": "Gene amplification increases DNA copy number. X-inactivation does not change copy number — both X chromosomes remain present; one is simply silenced epigenetically.",
+        "D": "Correct. X-inactivation ensures that females (XX) express the same dosage of X-linked genes as males (XY). In early embryonic development, one X chromosome per cell is randomly chosen for inactivation. The XIST gene (on the X to be inactivated) produces a long non-coding RNA that coats the chromosome in cis, recruiting Polycomb repressive complexes (PRC1, PRC2), histone deacetylases, and DNA methyltransferases. The result is heterochromatinization — the Barr body visible at the nuclear periphery. Inactivation is maintained clonally (all daughter cells inactivate the same X). Calico cats are a visible demonstration — patches of orange and black fur reflect clonal populations expressing different X-linked coat color alleles."
+      },
+      "topic": "X-Inactivation / Barr Body / XIST",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_genereg_010",
+      "passage": null,
+      "stem": "The proteasome degrades ubiquitinated proteins. If proteasome function is inhibited:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "all cellular proteins would be immediately synthesized at higher rates"
+        },
+        {
+          "label": "B",
+          "text": "damaged, misfolded, and regulatory proteins would accumulate — disrupting cell cycle control (cyclins not degraded), signaling pathways, and protein quality control, potentially leading to cell death"
+        },
+        {
+          "label": "C",
+          "text": "DNA replication would be directly enhanced"
+        },
+        {
+          "label": "D",
+          "text": "no cellular effects would occur because proteins are not normally degraded"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Proteasome inhibition does not directly increase protein synthesis rates. It prevents degradation, so protein levels rise due to reduced clearance, not increased production. The cell may actually decrease synthesis through the unfolded protein response.",
+        "B": "Correct. Proteasome inhibition causes accumulation of proteins normally targeted for degradation: misfolded/damaged proteins (ER stress, unfolded protein response), cell cycle regulators (cyclins accumulate, disrupting orderly cycle progression), pro-apoptotic proteins (can trigger apoptosis), and NF-κB's inhibitor IκB (blocking NF-κB signaling). Clinically, proteasome inhibitors (bortezomib/Velcade) are used to treat multiple myeloma — cancer cells are particularly sensitive because their high protein production rate makes them dependent on efficient protein quality control. Accumulation of toxic protein aggregates can trigger cell death.",
+        "C": "The proteasome degrades proteins, not nucleic acids. DNA replication is controlled by different machinery (replisomes, licensing factors). Indirectly, accumulation of cell cycle regulators could affect replication, but this is not a direct enhancement.",
+        "D": "Protein degradation is a critical ongoing process — cells continuously turn over proteins (average half-life of a human protein is ~1-2 days). The proteasome handles ~80% of intracellular protein degradation. Inhibiting it has severe consequences."
+      },
+      "topic": "Proteasome Inhibition / Protein Homeostasis",
+      "difficulty": "Hard"
+    }
+  ]
+}

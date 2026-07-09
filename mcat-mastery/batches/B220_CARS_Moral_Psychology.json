@@ -1,0 +1,246 @@
+{
+  "batch": "B220",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Moral Psychology, Empathy & Ethical Judgment",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_empathy_ethics_220_q0",
+      "passage": "In popular culture and political rhetoric alike, empathy is treated as an unalloyed moral good. It is the capacity that allows us to feel what others feel, to walk in their shoes, and to be moved by their suffering. To lack empathy is to be cold, perhaps even dangerous; to have it in abundance is to be compassionate and just. This veneration of empathy rests on the assumption that feeling another's pain reliably guides us toward right action. The compassionate person, the logic runs, will not harm others because she feels their hurt as her own. Empathy thus appears as the emotional engine of morality, and the call to cultivate it sounds like an obviously virtuous imperative.\n\nYet there are reasons to doubt that empathy deserves this moral pedestal. For one, empathy is systematically biased. It flows more readily toward those who are similar to us, those who are physically present, and those whose suffering is vivid and narratively compelling. A single identifiable victim—a child trapped in a well, a stranded animal—elicits a surge of empathic concern, while a statistical report about thousands suffering far away leaves us unmoved. This bias means that empathy can distort moral judgment, directing resources and attention toward the photogenic few at the expense of the invisible many. It is not a neutral moral compass; it is a spotlight that illuminates what is close, familiar, and dramatic, leaving the rest in darkness.\n\nFurthermore, empathy is susceptible to manipulation. Because it responds to vivid stories and identifiable victims, it can be weaponized by those who wish to mobilize public sentiment for dubious ends. A politician may invoke a single tragic case to justify a policy that harms a larger, less visible population. The empathic response, triggered by the salient story, can overwhelm more careful, impartial reasoning. In such cases, empathy does not guide morality; it hijacks it, lending emotional urgency to conclusions that might not survive a more detached analysis.\n\nCritics of this skepticism argue that empathy, whatever its flaws, remains indispensable. It motivates action in a way that abstract principles cannot. Knowing that a policy causes suffering is one thing; feeling that suffering is another, and the latter is often what moves people to protest, donate, or intervene. Moreover, the biases of empathy can be corrected, not by abandoning empathy, but by extending it—by deliberately cultivating empathy for distant strangers, for those unlike ourselves, for statistical victims. This counterargument thus reclaims empathy as a capacity to be refined rather than replaced.\n\nBut the rebuttal points to a deeper question: what role ought emotion play in moral judgment? The empathic model assumes that the right emotional response can guide us to the right action. However, a tradition stretching from Stoic philosophy to modern cognitive psychology suggests that emotions, however powerful, are not trustworthy guides. They can be capricious, self-serving, and shortsighted. A parent may feel overwhelming empathic love for her child and none for a stranger's child; is that a reliable moral compass? The alternative is not cold calculation, but a moral framework that treats empathy as one input among many, subject to correction by principles of fairness, rights, and the impartial assessment of consequences.\n\nPerhaps the most honest position is one that declines to either sanctify or discard empathy. Empathy can open the door to moral concern, but it cannot furnish the architecture of justice. It is a motive, not a method. To mistake it for a complete moral guide is to risk a compassion that is narrow, manipulable, and ultimately unfair. To discard it entirely is to lose a vital source of human connection and motivation. The task, then, is not to elevate empathy above criticism, nor to banish it from moral life, but to integrate it into a broader ethical framework that compensates for its weaknesses without extinguishing its strengths.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the central thesis of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Empathy is inherently unreliable and should be replaced by impartial moral reasoning based on abstract principles alone."
+        },
+        {
+          "label": "B",
+          "text": "Although empathy is biased and manipulable, it remains an important motivational force that should be integrated with, rather than replaced by, principled moral reasoning."
+        },
+        {
+          "label": "C",
+          "text": "The popular veneration of empathy is justified because its biases can be fully corrected by deliberately extending empathic concern to distant strangers."
+        },
+        {
+          "label": "D",
+          "text": "Empathy is primarily a political tool used to manipulate public sentiment, and its role in genuine moral judgment is negligible."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice overstates the author's conclusion. The author does not call for replacing empathy entirely with abstract principles. The final paragraph explicitly states that discarding empathy entirely would lose a vital source of connection and motivation. The argument is for integration, not replacement.",
+        "B": "Correct. The passage's central thesis is that empathy has significant flaws—bias, manipulability—that prevent it from being a complete moral guide, but it also acknowledges empathy's motivational power. The conclusion advocates integrating empathy into a broader ethical framework that compensates for its weaknesses.",
+        "C": "This choice endorses a rebuttal that the author ultimately does not fully accept. While the passage mentions the argument that biases can be corrected by extending empathy, the author goes on to question whether emotion ought to guide moral judgment at all, and the final synthesis treats empathy as needing supplementation, not just extension.",
+        "D": "This choice narrows empathy to a political tool and dismisses its role. While the passage notes empathy can be weaponized, it does not argue its role in moral judgment is negligible. The passage acknowledges empathy as a genuine, if limited, source of moral motivation."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_empathy_ethics_220_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's reference to a 'child trapped in a well' (paragraph 2) primarily serves to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "argue that empathic responses to vivid individual suffering are morally superior to concern for statistical victims."
+        },
+        {
+          "label": "B",
+          "text": "suggest that empathy is inherently sentimental and should be replaced by a rational calculus of suffering."
+        },
+        {
+          "label": "C",
+          "text": "illustrate how empathy's bias toward the vivid and identifiable can distort moral judgment by redirecting concern away from larger, less visible suffering."
+        },
+        {
+          "label": "D",
+          "text": "demonstrate that empathy is a reliable guide to moral action when the suffering is directly observable."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This is the opposite of the author's point. The example is used to show a problematic bias of empathy, not to endorse it as morally superior.",
+        "B": "This choice overstates the critique. The author is not calling empathy sentimental or demanding its replacement. The example demonstrates bias, not sentimentality, and the conclusion is integration, not replacement.",
+        "C": "Correct. The child in the well example illustrates how empathy responds to the vivid, identifiable victim while ignoring statistical suffering. This shows the bias that can distort moral judgment by directing attention toward the 'photogenic few' at the expense of the many.",
+        "D": "This choice misreads the function. The example is presented to demonstrate a flaw—the unreliability of empathy as a moral compass—not to claim that empathy is reliable when suffering is observable."
+      },
+      "topic": "Rhetorical Function",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_empathy_ethics_220_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's discussion of how politicians may invoke a single tragic case to justify harmful policy (paragraph 3) is used to support which of the following points?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Empathy can be manipulated to overwhelm impartial reasoning, leading to moral judgments that might not withstand detached analysis."
+        },
+        {
+          "label": "B",
+          "text": "Political rhetoric is inherently deceptive and should be excluded from serious moral deliberation."
+        },
+        {
+          "label": "C",
+          "text": "Empathy is the primary cause of unjust policies, as it prevents policymakers from considering statistical evidence."
+        },
+        {
+          "label": "D",
+          "text": "The public's empathic responses are the most reliable indicator of the moral worth of a policy."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The third paragraph argues that empathy is susceptible to manipulation, and the politician example supports this by showing how a salient, empathic trigger can hijack moral judgment. The author states that the empathic response 'overwhelm[s] more careful, impartial reasoning,' leading to conclusions that might not survive detached analysis.",
+        "B": "This choice is too broad. The passage does not argue that all political rhetoric is deceptive or should be excluded. The example is specifically about how empathy can be weaponized, not a general condemnation of political speech.",
+        "C": "This choice exaggerates the claim. The author does not say empathy is the primary cause of unjust policies; it is described as one factor that can hijack moral judgment when manipulated.",
+        "D": "This choice is the opposite of the author's point. The example is used to show that empathic responses can be misled, not that they are reliable indicators of moral worth."
+      },
+      "topic": "Author's Viewpoint",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_empathy_ethics_220_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the final paragraph, the author describes empathy as 'a motive, not a method.' This phrase most nearly means that empathy:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is an unreliable emotional impulse that has no legitimate role in ethical decision-making."
+        },
+        {
+          "label": "B",
+          "text": "can inspire moral concern and action, but cannot by itself provide a principled framework for determining what is just."
+        },
+        {
+          "label": "C",
+          "text": "is a method for feeling what others feel, but this feeling does not motivate action."
+        },
+        {
+          "label": "D",
+          "text": "operates as a complete ethical system when properly cultivated through deliberate practice."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice contradicts the passage. The author says discarding empathy would lose a vital source of connection and motivation. The phrase 'a motive, not a method' does not dismiss empathy's role; it distinguishes its function from that of a decision procedure.",
+        "B": "Correct. By calling empathy 'a motive, not a method,' the author means that empathy can provide the emotional impetus to care and act, but it cannot 'furnish the architecture of justice.' It lacks the principled structure needed to determine fair outcomes; it must be integrated with broader ethical frameworks.",
+        "C": "This choice misreads the passage. The author explicitly says empathy 'motivates action in a way that abstract principles cannot.' The 'motive, not a method' distinction is about motivation versus decision procedure, not about empathy failing to motivate.",
+        "D": "This choice is the opposite of the author's meaning. The entire passage argues against empathy as a complete ethical system. Even if cultivated, the author argues it needs supplementation by principles."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_empathy_ethics_220_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following scenarios best illustrates the author's concern about empathy's 'bias toward the photogenic few'?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A charity raises millions for a single injured animal featured in a viral video, while a preventable disease that kills thousands of children annually in the same region receives negligible donations."
+        },
+        {
+          "label": "B",
+          "text": "A doctor feels genuine sadness for all her patients equally, regardless of their background or condition, and treats them with uniform compassion."
+        },
+        {
+          "label": "C",
+          "text": "A jury is instructed to set aside emotional reactions and base its verdict solely on the evidence, resulting in an impartial decision."
+        },
+        {
+          "label": "D",
+          "text": "A community organizes a fair and equitable distribution of resources after carefully weighing the needs of all affected groups through deliberative discussion."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This scenario directly illustrates the bias the author describes: a vivid, identifiable victim (the injured animal in a viral video) elicits massive empathic concern and donations, while a far larger, less visible tragedy (preventable disease killing thousands) is neglected. This captures the 'spotlight' effect of empathy that illuminates the dramatic and familiar while leaving the statistical in darkness.",
+        "B": "This scenario describes an idealized, unbiased empathy that does not exhibit the biases the author critiques. The author argues that empathy is systematically biased, so this would not illustrate the concern.",
+        "C": "This scenario describes the deliberate setting aside of emotion in favor of impartial reasoning, which is more aligned with the corrective framework the author advocates, not the biased empathy being critiqued.",
+        "D": "This scenario describes a fair, principle-based deliberative process, which the author would likely endorse as part of the broader ethical framework needed to supplement empathy's biases."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_empathy_ethics_220_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would most likely respond to the claim that 'the biases of empathy can be fully corrected by deliberately cultivating empathy for distant strangers' by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "fully endorsing it, because expanding empathy's scope eliminates the need for impartial moral principles."
+        },
+        {
+          "label": "B",
+          "text": "rejecting it entirely, because empathy is an inherently selfish emotion that cannot be extended beyond one's immediate circle."
+        },
+        {
+          "label": "C",
+          "text": "acknowledging that such cultivation may reduce bias but insisting that empathy still remains an unreliable moral guide that needs supplementation by principles of fairness and impartial assessment."
+        },
+        {
+          "label": "D",
+          "text": "dismissing it as politically motivated and empirically unsupported by psychological research."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice goes beyond the author's position. While the author might accept that extending empathy can reduce bias, the passage argues that empathy needs supplementation by principles, not that it becomes a complete guide when expanded.",
+        "B": "This choice is too extreme. The author does not claim empathy is inherently selfish or cannot be extended. The passage acknowledges that empathy can be cultivated, and the final paragraph suggests integration rather than rejection.",
+        "C": "Correct. The passage mentions the counterargument that biases can be corrected by cultivating empathy for distant strangers, but then raises a deeper question about the role of emotion in moral judgment. The author ultimately argues that empathy is not a trustworthy guide on its own, and that it should be one input among many, subject to correction by principles. So the author would acknowledge the cultivation can help but still find it insufficient.",
+        "D": "This choice is too dismissive. The author engages with the counterargument seriously and does not dismiss it as politically motivated or empirically unsupported. The passage is a philosophical analysis, not an empirical one."
+      },
+      "topic": "Author's Response to a Claim",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_empathy_ethics_220_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the author's argument about empathy's role in moral judgment?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Psychological research demonstrates that people who score high on empathy scales are more likely to donate to both local and international charities, showing no significant bias toward identifiable victims."
+        },
+        {
+          "label": "B",
+          "text": "A study finds that empathetic individuals are more susceptible to emotional manipulation in political advertising, confirming the author's concern about empathy being weaponized."
+        },
+        {
+          "label": "C",
+          "text": "Historical analysis shows that major moral advances, such as the abolition of slavery, were primarily driven by abstract principle rather than empathic feeling."
+        },
+        {
+          "label": "D",
+          "text": "Neuroscientific evidence indicates that empathy and impartial moral reasoning activate entirely separate brain regions and rarely interact in decision-making."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A central pillar of the author's critique is that empathy is systematically biased—it flows more readily toward the similar, present, and vivid. If empirical research showed that highly empathetic people donate equally to both local and international causes without bias toward identifiable victims, this would directly undermine the claim that empathy inherently distorts moral judgment by favoring the photogenic few.",
+        "B": "This choice would strengthen the author's argument by confirming the manipulation concern raised in paragraph 3. It supports, rather than weakens, the critique of empathy.",
+        "C": "This choice would also strengthen the author's position. The author argues that empathy needs supplementation by principles; evidence that major moral advances were driven by principle rather than empathy would align with that claim.",
+        "D": "This choice is ambiguous but could be seen as strengthening by suggesting empathy and reasoning are separate, possibly supporting the idea that empathy needs to be integrated with reasoning. It does not directly weaken the critique of empathy's biases."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

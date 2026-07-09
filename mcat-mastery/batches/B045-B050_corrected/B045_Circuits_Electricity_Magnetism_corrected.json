@@ -1,0 +1,336 @@
+{
+  "batch": "B045",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Circuits, Electricity & Magnetism",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_circuit_001",
+      "passage": "A biomedical engineer designs a portable defibrillator circuit. The circuit contains a 200 μF capacitor charged to 5000 V. When discharged through the patient's chest (modeled as a 50 Ω resistor), the capacitor delivers its stored energy as a brief current pulse. The engineer also considers adding a 100 Ω resistor in series to limit the peak current and protect the circuit components.",
+      "stem": "The energy stored in the fully charged capacitor is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2500 J, calculated from E = ½CV²"
+        },
+        {
+          "label": "B",
+          "text": "1.0 J, calculated from E = CV"
+        },
+        {
+          "label": "C",
+          "text": "500 J, calculated from E = ½QV where Q = CV"
+        },
+        {
+          "label": "D",
+          "text": "5000 J, calculated from E = CV²"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Energy stored in a capacitor is E = ½CV² = ½(200 × 10⁻⁶ F)(5000 V)² = ½(2 × 10⁻⁴)(2.5 × 10⁷) = 2500 J. This is a substantial amount of energy — equivalent to the kinetic energy of a 50 kg object moving at 10 m/s — which is why defibrillator discharges can restore cardiac rhythm. The energy can also be calculated as E = ½QV or E = Q²/(2C), all yielding the same result.",
+        "B": "E = CV gives the charge (Q = CV = 200 × 10⁻⁶ × 5000 = 1.0 C), not the energy. The units of CV are coulombs, not joules. Energy requires the ½ factor and the square of the voltage: E = ½CV².",
+        "C": "500 J results from omitting the ½ factor or making an arithmetic error. The correct calculation gives ½(200 × 10⁻⁶)(5000²) = ½(200 × 10⁻⁶)(25 × 10⁶) = ½(5000) = 2500 J, not 500 J. While E = ½QV is a valid formula, applying it correctly with Q = CV = 1.0 C gives ½(1.0)(5000) = 2500 J.",
+        "D": "E = CV² omits the required ½ factor. The energy stored in a capacitor is ½CV², not CV². Omitting the ½ doubles the correct answer to 5000 J. The ½ arises because the voltage across the capacitor increases linearly as charge accumulates, so the average voltage during charging is V/2."
+      },
+      "topic": "Capacitor Energy / E = ½CV²",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuit_002",
+      "passage": null,
+      "passageRef": "cp_circuit_001",
+      "stem": "If the 100 Ω resistor is added in series with the 50 Ω patient resistance, the total resistance and peak current at the moment of discharge are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "150 Ω total; peak current = 5000/150 ≈ 33 A"
+        },
+        {
+          "label": "B",
+          "text": "33.3 Ω total; peak current = 5000/33.3 ≈ 150 A"
+        },
+        {
+          "label": "C",
+          "text": "150 Ω total; peak current = 5000/50 = 100 A"
+        },
+        {
+          "label": "D",
+          "text": "50 Ω total; peak current = 5000/150 ≈ 33 A"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Resistors in series add directly: R_total = 100 + 50 = 150 Ω. At the instant of discharge, the full 5000 V is across the total resistance (the capacitor hasn't discharged yet), so I_peak = V/R = 5000/150 ≈ 33.3 A. The added resistor reduces the peak current from 100 A (5000/50) to 33 A — a significant reduction that protects circuit components from damage while still delivering therapeutic energy.",
+        "B": "33.3 Ω would be the result of connecting 100 Ω and 50 Ω in parallel (1/R = 1/100 + 1/50; R = 33.3 Ω). The passage specifies the resistors are in series, not parallel. Series resistors add; parallel resistors combine as reciprocals.",
+        "C": "The total resistance is correctly calculated as 150 Ω, but the peak current incorrectly uses only the 50 Ω patient resistance in Ohm's law. When resistors are in series, the current flows through both, and Ohm's law must use the total series resistance: I = V/R_total = 5000/150 ≈ 33 A.",
+        "D": "The total resistance is given as 50 Ω (ignoring the added 100 Ω resistor), while the current calculation uses 150 Ω. Both values are internally inconsistent. Series resistance is 150 Ω, and the current through a 150 Ω total is 33 A."
+      },
+      "topic": "Series Resistance / Ohm's Law",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuit_003",
+      "passage": null,
+      "stem": "Two resistors (R₁ = 6 Ω and R₂ = 3 Ω) are connected in parallel across a 12 V battery. The equivalent resistance and total current drawn from the battery are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "9 Ω; 1.33 A"
+        },
+        {
+          "label": "B",
+          "text": "2 Ω; 6 A"
+        },
+        {
+          "label": "C",
+          "text": "4.5 Ω; 2.67 A"
+        },
+        {
+          "label": "D",
+          "text": "18 Ω; 0.67 A"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "9 Ω is the sum of 6 + 3, which gives the series equivalent, not the parallel equivalent. Parallel equivalent resistance is always less than the smallest individual resistor. For parallel: 1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, so R = 2 Ω.",
+        "B": "Correct. For parallel resistors: 1/R_eq = 1/R₁ + 1/R₂ = 1/6 + 1/3 = 1/6 + 2/6 = 3/6, so R_eq = 2 Ω. Total current: I = V/R_eq = 12/2 = 6 A. This can be verified by computing individual branch currents: I₁ = 12/6 = 2 A, I₂ = 12/3 = 4 A, total = 2 + 4 = 6 A. The parallel equivalent (2 Ω) is less than either individual resistor, which is always true for parallel combinations.",
+        "C": "4.5 Ω appears to use the formula R₁R₂/(R₁+R₂) incorrectly — perhaps (6×3)/(6+3) = 18/9 = 2, not 4.5. The product-over-sum formula gives 2 Ω, consistent with the reciprocal method.",
+        "D": "18 Ω would be the product R₁ × R₂ = 6 × 3 without dividing by the sum. The product-over-sum shortcut for two parallel resistors is R₁R₂/(R₁+R₂) = 18/9 = 2 Ω. The current at 18 Ω would be only 0.67 A — far less than what the battery delivers to a low-resistance parallel combination."
+      },
+      "topic": "Parallel Resistance / Current Division",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuit_004",
+      "passage": null,
+      "stem": "In a Wheatstone bridge circuit used to measure an unknown resistance, the bridge is balanced when no current flows through the galvanometer. At balance, the relationship among the four resistors (R₁, R₂, R₃, R_unknown) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "R₁ + R₂ = R₃ + R_unknown"
+        },
+        {
+          "label": "B",
+          "text": "R₁ × R₂ = R₃ × R_unknown"
+        },
+        {
+          "label": "C",
+          "text": "R₁/R₂ = R₃/R_unknown, which gives R_unknown = R₂R₃/R₁"
+        },
+        {
+          "label": "D",
+          "text": "All four resistors must be equal"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The Wheatstone bridge balance condition involves ratios, not sums. Adding resistances would be relevant for series combinations, but the bridge is a more complex network where the balance depends on the ratio of resistances in adjacent arms.",
+        "B": "This multiplies resistors within each branch rather than comparing the ratios of the two voltage-divider arms. The balanced Wheatstone bridge condition is R₁/R₂ = R₃/R_unknown, which cross-multiplies to R₁ × R_unknown = R₂ × R₃. The expression R₁ × R₂ = R₃ × R_unknown is not the correct balance condition.",
+        "C": "Correct. When the Wheatstone bridge is balanced (zero galvanometer current), the voltage drops across adjacent arms are equal, giving the ratio condition R₁/R₂ = R₃/R_unknown. Solving for the unknown: R_unknown = R₂R₃/R₁. This principle allows precise resistance measurement by adjusting known resistors until the galvanometer reads zero, eliminating the need for accurate voltage and current measurements.",
+        "D": "The four resistors do not need to be equal — the bridge balances when the ratios of adjacent arms are equal (R₁/R₂ = R₃/R_unknown). If all were equal, the bridge would balance, but this is only one of infinitely many balanced configurations."
+      },
+      "topic": "Wheatstone Bridge / Resistance Measurement",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_circuit_005",
+      "passage": null,
+      "stem": "A charged particle moves with velocity v perpendicular to a uniform magnetic field B. The magnetic force on the particle:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "accelerates the particle in the direction of B"
+        },
+        {
+          "label": "B",
+          "text": "is zero because magnetic fields do not exert forces on charges"
+        },
+        {
+          "label": "C",
+          "text": "decelerates the particle, eventually bringing it to rest"
+        },
+        {
+          "label": "D",
+          "text": "does no work on the particle because the force is always perpendicular to the velocity, causing circular motion at constant speed"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The magnetic force (F = qv × B) is perpendicular to both v and B by the cross-product rule. It cannot accelerate the particle along B because the force has no component in that direction. The force is centripetal — directed toward the center of the circular path, perpendicular to the velocity at all times.",
+        "B": "Magnetic fields do exert forces on moving charges — this is the basis of electric motors, cyclotrons, mass spectrometers, and MRI machines. The force F = qv × B is nonzero whenever a charged particle moves with any velocity component perpendicular to B. Only a stationary charge or one moving exactly parallel to B experiences zero magnetic force.",
+        "C": "The magnetic force cannot decelerate the particle because it is always perpendicular to the velocity. Only a force with a component antiparallel to velocity can reduce speed. The magnetic force changes direction, not speed — the particle orbits in a circle at constant speed indefinitely (in the absence of other forces).",
+        "D": "Correct. The Lorentz force on a moving charge in a magnetic field is F = qv × B, which is always perpendicular to the velocity. Because the force is perpendicular to displacement at every instant, it does zero work (W = F·d·cosθ, and cos90° = 0). The particle's kinetic energy and speed remain constant. The force changes the direction of velocity, not its magnitude, producing uniform circular motion with radius r = mv/(qB)."
+      },
+      "topic": "Magnetic Force / Circular Motion",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuit_006",
+      "passage": null,
+      "stem": "The resistance of a wire is proportional to its length and inversely proportional to its cross-sectional area: R = ρL/A. If a wire is stretched to twice its original length while its volume remains constant, the new resistance is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2× the original, because length doubled"
+        },
+        {
+          "label": "B",
+          "text": "4× the original, because both length increased and area decreased proportionally"
+        },
+        {
+          "label": "C",
+          "text": "unchanged, because volume is constant"
+        },
+        {
+          "label": "D",
+          "text": "½ the original, because the wire is thinner"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Doubling the length alone would double the resistance (R ∝ L). But the volume constraint (V = L × A) means that when length doubles, the cross-sectional area must halve to maintain constant volume. Both changes increase resistance: R = ρ(2L)/(A/2) = 4ρL/A = 4R₀.",
+        "B": "Correct. With constant volume V = LA, doubling L requires A → A/2. New resistance: R_new = ρ(2L)/(A/2) = ρ × 4L/A = 4R₀. The resistance quadruples because length doubles (×2 factor) and area halves (another ×2 factor), and these multiply: 2 × 2 = 4. This is why thin, long wires have much higher resistance than thick, short ones of the same material.",
+        "C": "Constant volume does not mean constant resistance. The resistance depends on the shape (length and cross-sectional area), not just the total amount of material. Reshaping a conductor changes how easily current flows through it even if the total material is unchanged.",
+        "D": "The wire being thinner (smaller A) increases resistance (R ∝ 1/A), not decreases it. Additionally, the wire is also longer, which further increases resistance. Both changes work in the same direction — to increase R."
+      },
+      "topic": "Resistivity / Wire Geometry",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_circuit_007",
+      "passage": null,
+      "stem": "Kirchhoff's junction rule states that the total current entering a junction equals the total current leaving. This rule is a direct consequence of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "conservation of energy"
+        },
+        {
+          "label": "B",
+          "text": "the relationship between electric and magnetic fields"
+        },
+        {
+          "label": "C",
+          "text": "Ohm's law"
+        },
+        {
+          "label": "D",
+          "text": "conservation of charge — charge cannot accumulate at a junction in a steady-state circuit"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Conservation of energy underlies Kirchhoff's loop rule (the sum of voltage changes around any closed loop is zero), not the junction rule. The loop rule states that energy gained by charges (from batteries) equals energy lost (in resistors) around a complete path.",
+        "B": "The relationship between electric and magnetic fields (Faraday's law, Ampère's law) governs electromagnetic induction and wave propagation. While related to circuit behavior in AC circuits, it is not the basis of the junction rule, which is purely a statement of charge conservation.",
+        "C": "Ohm's law (V = IR) relates voltage, current, and resistance across a single resistive element. It does not, by itself, dictate how currents divide at junctions. Kirchhoff's rules are independent principles that, combined with Ohm's law, allow complete circuit analysis.",
+        "D": "Correct. Kirchhoff's junction (node) rule expresses conservation of charge: in a steady-state DC circuit, charge cannot pile up at any junction. If 5 A enters a node, exactly 5 A must leave — otherwise charge would accumulate, creating a growing electric field that would redistribute current to prevent further accumulation. This is ΣI_in = ΣI_out, a direct consequence of the fact that electric charge is neither created nor destroyed."
+      },
+      "topic": "Kirchhoff's Junction Rule / Charge Conservation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_circuit_008",
+      "passage": null,
+      "stem": "A 10 V battery with an internal resistance of 2 Ω is connected to an external resistance of 8 Ω. The terminal voltage of the battery (voltage measured at its terminals) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "10 V, because the terminal voltage always equals the EMF"
+        },
+        {
+          "label": "B",
+          "text": "8 V, because some voltage is lost across the internal resistance"
+        },
+        {
+          "label": "C",
+          "text": "2 V, because the voltage drop equals the internal resistance times the current"
+        },
+        {
+          "label": "D",
+          "text": "0 V, because the internal resistance consumes all the voltage"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The terminal voltage equals the EMF only when no current flows (open circuit). When current flows, the internal resistance causes a voltage drop inside the battery, reducing the terminal voltage below the EMF. V_terminal = EMF − I × r_internal.",
+        "B": "Correct. Total resistance = 8 + 2 = 10 Ω. Current: I = EMF/R_total = 10/10 = 1 A. Voltage drop across internal resistance: V_internal = I × r = 1 × 2 = 2 V. Terminal voltage: V_terminal = EMF − V_internal = 10 − 2 = 8 V. The 2 V 'lost' inside the battery appears as heat dissipated in the internal resistance. This is why batteries under heavy load deliver less voltage than their rated EMF.",
+        "C": "2 V is the voltage drop across the internal resistance (I × r = 1 × 2 = 2 V), not the terminal voltage. The terminal voltage is the EMF minus this internal drop: 10 − 2 = 8 V. The 2 V represents what is lost internally, not what is available externally.",
+        "D": "The internal resistance (2 Ω) is a small fraction of the total resistance (10 Ω), so it consumes only 2/10 = 20% of the EMF. The remaining 80% (8 V) is delivered to the external circuit. The internal resistance would consume all voltage only if the external resistance were zero (a short circuit), giving I = 10/2 = 5 A and V_terminal = 0."
+      },
+      "topic": "Internal Resistance / Terminal Voltage",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuit_009",
+      "passage": null,
+      "stem": "An electric dipole consists of two equal and opposite charges separated by a small distance. The electric field at a point far from the dipole (r >> d) decreases with distance as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1/r (linear decrease)"
+        },
+        {
+          "label": "B",
+          "text": "1/r² (inverse square, like a point charge)"
+        },
+        {
+          "label": "C",
+          "text": "1/r³ (inverse cube)"
+        },
+        {
+          "label": "D",
+          "text": "the field is zero at all points because the charges cancel"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "1/r dependence describes the electric field from an infinite line charge, not a dipole. A dipole's field falls off faster than 1/r because the opposing contributions from the positive and negative charges increasingly cancel at large distances.",
+        "B": "1/r² describes the field from a single point charge (Coulomb's law: E = kq/r²). A dipole consists of two opposite charges whose fields partially cancel at large distances, causing the combined field to fall off faster than 1/r² — specifically as 1/r³.",
+        "C": "Correct. At distances much larger than the charge separation (r >> d), the electric field of a dipole falls off as 1/r³. This faster decrease compared to a single charge (1/r²) occurs because the positive and negative charges' fields increasingly cancel at large distances. The leading (1/r²) terms from each charge nearly cancel, leaving a residual field proportional to 1/r³ that depends on the dipole moment p = qd. This has biological relevance: the fields from polar molecules (like water) decrease rapidly with distance.",
+        "D": "The charges do not perfectly cancel at all points — if they did, water (a polar molecule with a permanent dipole) would generate no electric field, and hydrogen bonding would not exist. Complete cancellation occurs only at specific symmetry points (or at infinity). At finite distances, the dipole field is nonzero because the observer is slightly closer to one charge than the other."
+      },
+      "topic": "Electric Dipole / Field Distance Dependence",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_circuit_010",
+      "passage": null,
+      "stem": "The time constant (τ) of an RC circuit determines how quickly a capacitor charges or discharges. For a capacitor discharging through a resistor, the voltage decreases to approximately 37% of its initial value after:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "one time constant (τ = RC)"
+        },
+        {
+          "label": "B",
+          "text": "two time constants (2τ)"
+        },
+        {
+          "label": "C",
+          "text": "half a time constant (τ/2)"
+        },
+        {
+          "label": "D",
+          "text": "five time constants (5τ)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. During discharge, V(t) = V₀e^(−t/RC). At t = τ = RC: V = V₀e⁻¹ = V₀ × 0.368 ≈ 37% of the initial voltage. The time constant τ = RC sets the characteristic timescale: after 1τ, 37% remains; after 2τ, 13.5%; after 3τ, 5%; after 5τ, less than 1% (considered 'fully discharged' for practical purposes). For the defibrillator circuit in the passage, τ = RC = 50 Ω × 200 μF = 0.01 s = 10 ms — the discharge pulse is extremely brief.",
+        "B": "After two time constants, V = V₀e⁻² ≈ 13.5% of the initial value — the capacitor has lost about 86.5% of its voltage. The question asks for the time to reach 37%, which occurs at exactly one time constant.",
+        "C": "After half a time constant, V = V₀e^(−0.5) ≈ 60.7% of the initial value. The voltage has decreased, but not yet to 37%. More time (one full τ) is needed to reach the 37% level.",
+        "D": "After five time constants, V = V₀e⁻⁵ ≈ 0.67% — essentially zero for practical purposes. The 'rule of five time constants' states that a capacitor is considered fully charged or discharged after 5τ. The 37% level is reached much earlier, at exactly 1τ."
+      },
+      "topic": "RC Time Constant / Exponential Decay",
+      "difficulty": "Easy"
+    }
+  ]
+}

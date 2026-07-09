@@ -1,0 +1,337 @@
+{
+  "batch": "B078",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Organic Chemistry: Functional Groups & Reactions",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_ochem_001",
+      "passage": "An organic chemistry student identifies functional groups in a series of biomolecules. She examines the structures of amino acids (containing amine and carboxyl groups), fatty acids (long-chain carboxylic acids), acetaldehyde (an aldehyde), acetone (a ketone), ethanol (an alcohol), and ethyl acetate (an ester). She reviews nucleophilic addition and substitution reactions and predicts the products of reactions between these functional groups. She also studies oxidation-reduction relationships between alcohols, aldehydes, and carboxylic acids.",
+      "stem": "The functional group present in acetaldehyde (CH₃CHO) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an aldehyde — a carbonyl group (C=O) bonded to at least one hydrogen, located at the terminal carbon"
+        },
+        {
+          "label": "B",
+          "text": "a ketone — a carbonyl group flanked by two carbon groups"
+        },
+        {
+          "label": "C",
+          "text": "a carboxylic acid — a carbonyl bonded to a hydroxyl group (–COOH)"
+        },
+        {
+          "label": "D",
+          "text": "an ester — a carbonyl bonded to an alkoxy group (–COOR)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Acetaldehyde (CH₃CHO, or CH₃C(=O)H) contains an aldehyde functional group: a carbonyl (C=O) bonded to one hydrogen and one carbon substituent, located at the end (terminal position) of the carbon chain. Aldehydes are named with the suffix '-al' (ethanal = acetaldehyde). They can be oxidized to carboxylic acids (by KMnO₄, CrO₃) or reduced to primary alcohols (by NaBH₄, LiAlH₄). The carbonyl carbon is electrophilic, making aldehydes susceptible to nucleophilic addition.",
+        "B": "Ketones have a carbonyl flanked by two carbon groups (R₂C=O). Acetone (CH₃COCH₃) is a ketone; acetaldehyde is not because one substituent is hydrogen. Ketones are named with the suffix '-one' (propanone = acetone).",
+        "C": "Carboxylic acids contain –COOH (carbonyl + hydroxyl). Acetic acid (CH₃COOH) is a carboxylic acid; acetaldehyde (CH₃CHO) lacks the –OH group. Carboxylic acids are named with '-oic acid' (ethanoic acid).",
+        "D": "Esters contain –COOR (carbonyl bonded to an alkoxy group). Ethyl acetate (CH₃COOCH₂CH₃) is an ester. Acetaldehyde has no alkoxy group."
+      },
+      "topic": "Aldehydes / Functional Group ID",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_ochem_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The oxidation of a primary alcohol produces first an aldehyde, then (with excess oxidant) a carboxylic acid. This means the oxidation state of the carbon:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decreases at each step"
+        },
+        {
+          "label": "B",
+          "text": "increases at each step — the carbon goes from C–OH (alcohol) to C=O (aldehyde) to COOH (carboxylic acid), gaining oxygen bonds and losing hydrogen bonds"
+        },
+        {
+          "label": "C",
+          "text": "remains unchanged throughout"
+        },
+        {
+          "label": "D",
+          "text": "first increases then decreases"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Oxidation in organic chemistry is defined as gaining bonds to oxygen or losing bonds to hydrogen (or loss of electrons). Primary alcohol → aldehyde: a C–H bond is replaced by a C=O bond (oxidation). Aldehyde → carboxylic acid: the C–H bond on the carbonyl is replaced by a C–OH bond (further oxidation). Each step increases the oxidation state of the carbon. The reverse (reduction) uses reducing agents like NaBH₄ or LiAlH₄: carboxylic acid → aldehyde → primary alcohol.",
+        "A": "Oxidation increases the oxidation state, it does not decrease it. Decreasing oxidation state would be reduction (gaining C–H bonds, losing C–O bonds).",
+        "C": "Each transformation changes the bonding at the carbon center: alcohol (C–O single bond + C–H) → aldehyde (C=O) → carboxylic acid (C=O plus C–O–H). These are distinct oxidation states.",
+        "D": "The oxidation state increases monotonically from alcohol to aldehyde to carboxylic acid. There is no decrease between steps. Each step adds bonds to oxygen or removes bonds to hydrogen at the same carbon."
+      },
+      "topic": "Oxidation of Alcohols / Oxidation States",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_ochem_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The student observes that acetic acid (CH₃COOH) can hydrogen bond with water. This is because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "acetic acid contains only nonpolar C–C and C–H bonds"
+        },
+        {
+          "label": "B",
+          "text": "acetic acid contains O–H and C=O groups that can act as both hydrogen bond donors and acceptors — the O–H donates and the C=O accepts"
+        },
+        {
+          "label": "C",
+          "text": "acetic acid is completely nonpolar and cannot interact with water"
+        },
+        {
+          "label": "D",
+          "text": "hydrogen bonding only occurs between identical molecules"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Hydrogen bonding requires a hydrogen bond donor (H bonded to an electronegative atom: O–H, N–H, F–H) and a hydrogen bond acceptor (a lone pair on an electronegative atom: O, N, F). Acetic acid has both: the –O–H of the carboxyl group is a strong H-bond donor, and the C=O oxygen has two lone pairs that act as H-bond acceptors. This dual capacity makes carboxylic acids highly soluble in water (short-chain ones like acetic acid are miscible). In pure acetic acid, molecules form H-bonded dimers.",
+        "A": "While acetic acid does contain nonpolar C–C and C–H bonds, it also contains highly polar O–H and C=O bonds. The polar groups dominate the molecule's intermolecular interactions, making it water-miscible.",
+        "C": "Acetic acid is polar — its carboxyl group has a large dipole moment. The O–H and C=O bonds are strongly polar, enabling extensive hydrogen bonding with water. Only the methyl group is nonpolar.",
+        "D": "Hydrogen bonding occurs between any molecules with appropriate donor and acceptor groups, including between different species. Water-acetic acid, water-ethanol, and DNA base pairs are all examples of intermolecular H-bonding between different molecules."
+      },
+      "topic": "Hydrogen Bonding / Carboxylic Acids",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_ochem_003",
+      "passage": null,
+      "stem": "An ester is formed by the reaction of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "two alcohols via dehydration"
+        },
+        {
+          "label": "B",
+          "text": "a carboxylic acid and an amine (forming an amide bond)"
+        },
+        {
+          "label": "C",
+          "text": "a carboxylic acid and an alcohol, with loss of water (Fischer esterification) — the product contains a –COOR group"
+        },
+        {
+          "label": "D",
+          "text": "two carboxylic acids combining"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Fischer esterification: R–COOH + R'–OH ⇌ R–COOR' + H₂O (acid-catalyzed, reversible). The carboxylic acid provides the acyl group (RCO–) and the alcohol provides the alkoxy group (–OR'). The reaction is driven forward by excess alcohol or by removing water (Le Chatelier's principle). Esters have characteristic pleasant fruity odors (banana: isoamyl acetate; pineapple: ethyl butyrate). In biochemistry, triacylglycerols (fats) are triesters of glycerol and fatty acids.",
+        "A": "Two alcohols undergoing dehydration form an ether (R–O–R'), not an ester. Ether formation is an SN2 or E1 reaction, not esterification.",
+        "B": "A carboxylic acid reacting with an amine forms an amide bond (R–CO–NHR'), not an ester. Amide bonds are the linkage in peptides and proteins. Amides contain nitrogen; esters contain only carbon, hydrogen, and oxygen.",
+        "D": "Two carboxylic acids do not combine to form esters. An ester requires an alcohol component to provide the –OR' group. Acid anhydrides form when two carboxylic acids lose water (R–CO–O–CO–R'), but this is a different functional group."
+      },
+      "topic": "Fischer Esterification",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_ochem_004",
+      "passage": null,
+      "stem": "Nucleophilic addition to a carbonyl group (C=O) involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an electrophile attacking the oxygen of the carbonyl"
+        },
+        {
+          "label": "B",
+          "text": "addition of a proton to the carbonyl carbon"
+        },
+        {
+          "label": "C",
+          "text": "removal of the oxygen from the carbonyl group"
+        },
+        {
+          "label": "D",
+          "text": "a nucleophile attacking the electrophilic carbonyl carbon, breaking the π bond and forming a tetrahedral intermediate"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Protons are electrophiles, not nucleophiles. Protonation of the carbonyl oxygen (acid catalysis) activates the carbonyl toward nucleophilic attack on the carbon, but the proton adds to oxygen, not carbon.",
+        "A": "The oxygen is the electron-rich (nucleophilic/basic) atom in the carbonyl. Electrophiles (H⁺) can protonate the oxygen, but the main reaction pathway involves nucleophilic attack on the carbon, not electrophilic attack on the oxygen.",
+        "C": "The oxygen remains bonded to the carbon throughout nucleophilic addition. It becomes part of the hydroxyl group in the product (e.g., ketone → alcohol). Removal of the oxygen would require different chemistry (e.g., Wolff-Kishner reduction).",
+        "D": "Correct. The carbonyl carbon is electrophilic because the electronegative oxygen withdraws electron density through the C=O bond. A nucleophile (e.g., hydride from NaBH₄, cyanide, Grignard reagent, water) attacks this δ⁺ carbon, breaking the π bond and pushing electrons onto oxygen (which becomes an alkoxide). This produces a tetrahedral intermediate. Nucleophilic addition is the characteristic reaction of aldehydes and ketones. Carboxylic acid derivatives undergo nucleophilic acyl substitution instead (addition-elimination)."
+      },
+      "topic": "Nucleophilic Addition / Carbonyls",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_ochem_005",
+      "passage": null,
+      "stem": "Which of the following correctly ranks the acidity of functional groups from most acidic to least acidic?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "carboxylic acid O–H > alcohol O–H > alkane C–H"
+        },
+        {
+          "label": "B",
+          "text": "alkane C–H > alcohol O–H > carboxylic acid O–H"
+        },
+        {
+          "label": "C",
+          "text": "alcohol O–H > carboxylic acid O–H > amine N–H"
+        },
+        {
+          "label": "D",
+          "text": "amine N–H > carboxylic acid O–H > alcohol O–H"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "This ranking is reversed. Alkane C–H bonds are the least acidic (pKa ~50), not the most. Acidity decreases in the order: carboxylic acid > alcohol > alkane.",
+        "A": "Correct. Acidity ranking: carboxylic acids (pKa ~4-5) > alcohols (pKa ~15-18) > alkane C–H (pKa ~50). Carboxylic acids are the most acidic common organic functional group because their conjugate base (carboxylate, RCOO⁻) is resonance-stabilized — the negative charge delocalizes over two equivalent oxygen atoms. Alcohols are weakly acidic (similar to water, pKa 15.7). Alkane C–H bonds are essentially non-acidic under normal conditions.",
+        "C": "This incorrectly places alcohol above carboxylic acid. Carboxylic acids (pKa ~4-5) are ~10¹⁰ times more acidic than alcohols (pKa ~15-18) due to resonance stabilization of the conjugate base.",
+        "D": "Amines (pKa ~35-40 for conjugate acid of the N–H bond in the amine itself) are less acidic than both carboxylic acids and alcohols. This ranking is incorrect."
+      },
+      "topic": "Organic Acidity / Functional Group Ranking",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_ochem_006",
+      "passage": null,
+      "stem": "In an SN2 reaction:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the rate depends only on the substrate concentration (first-order kinetics)"
+        },
+        {
+          "label": "B",
+          "text": "a carbocation intermediate is formed as the rate-determining step"
+        },
+        {
+          "label": "C",
+          "text": "the nucleophile attacks the substrate in a single concerted step with backside attack, causing inversion of stereochemistry at the reaction center — the rate depends on both [substrate] and [nucleophile]"
+        },
+        {
+          "label": "D",
+          "text": "rearrangements commonly occur to form more stable carbocations"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. SN2 (substitution, nucleophilic, bimolecular) is a one-step concerted mechanism: the nucleophile attacks the electrophilic carbon from the back side (180° from the leaving group) as the leaving group departs simultaneously. This produces Walden inversion (stereochemical inversion at the chiral center). Rate = k[substrate][nucleophile] (second-order kinetics). SN2 is favored by: strong nucleophiles, primary substrates (minimal steric hindrance), polar aprotic solvents.",
+        "A": "First-order kinetics (rate depends only on [substrate]) characterizes SN1 reactions, not SN2. SN1 has a rate-determining ionization step (forming a carbocation) that does not involve the nucleophile. SN2 has second-order kinetics.",
+        "B": "Carbocation intermediates are formed in SN1 reactions, not SN2. SN2 is concerted — no intermediate is formed. The transition state has partial bonds to both the incoming nucleophile and the departing leaving group.",
+        "D": "Carbocation rearrangements (hydride/methyl shifts to form more stable carbocations) occur in SN1 and E1 mechanisms. SN2 has no carbocation intermediate and therefore no rearrangement."
+      },
+      "topic": "SN2 Mechanism / Stereochemistry",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_ochem_007",
+      "passage": null,
+      "stem": "Amides differ from esters in that amides:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "contain a nitrogen atom bonded to the carbonyl carbon, making the C–N bond partially double in character due to resonance — resulting in restricted rotation and higher stability"
+        },
+        {
+          "label": "B",
+          "text": "are more easily hydrolyzed than esters under mild conditions"
+        },
+        {
+          "label": "C",
+          "text": "contain no carbonyl group"
+        },
+        {
+          "label": "D",
+          "text": "are formed by the reaction of two alcohols"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Amides (R–CO–NR'₂) contain a nitrogen bonded to the carbonyl carbon. The nitrogen lone pair delocalizes into the C=O π system by resonance, giving the C–N bond ~40% double-bond character. This restricted rotation around the C–N bond is critical in biochemistry — it makes the peptide bond planar and rigid. Amides are more stable than esters toward hydrolysis because nitrogen is a better electron donor than oxygen, strengthening the C–N bond through resonance.",
+        "B": "Amides are harder to hydrolyze than esters, not easier. The resonance stabilization of the C–N bond makes amides kinetically and thermodynamically more resistant to nucleophilic attack. Protein digestion (amide hydrolysis) requires proteases and acidic conditions; ester hydrolysis occurs more readily under basic conditions (saponification).",
+        "C": "Amides do contain a carbonyl group (C=O). The amide functional group is –CO–NR₂, which is a carbonyl attached to a nitrogen. Without the carbonyl, it would simply be an amine.",
+        "D": "Two alcohols reacting form ethers (R–O–R'), not amides. Amides are formed by the reaction of a carboxylic acid (or acid derivative) with an amine, releasing water (condensation)."
+      },
+      "topic": "Amide Bond / Resonance Stability",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_ochem_009",
+      "passage": null,
+      "stem": "Reduction of a ketone (R₂C=O) with NaBH₄ produces:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a primary alcohol"
+        },
+        {
+          "label": "B",
+          "text": "an aldehyde"
+        },
+        {
+          "label": "C",
+          "text": "a carboxylic acid"
+        },
+        {
+          "label": "D",
+          "text": "a secondary alcohol — the hydride adds to the carbonyl carbon, converting C=O to C–OH with two carbon substituents retained"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Aldehydes are less oxidized than ketones — they are not a product of ketone reduction. Reduction of a ketone adds H to the carbonyl, going down the oxidation ladder to an alcohol. Aldehydes and ketones are at the same oxidation level but differ in substitution pattern.",
+        "A": "Primary alcohols are produced by reducing aldehydes (RCHO → RCH₂OH) or esters, not ketones. Ketones have two carbon groups and yield secondary alcohols upon reduction.",
+        "C": "Carboxylic acids are produced by oxidation of aldehydes or primary alcohols, not by reduction of ketones. Reduction goes in the opposite direction on the oxidation ladder: acid → aldehyde → alcohol.",
+        "D": "Correct. NaBH₄ (sodium borohydride) delivers hydride (H⁻) to the electrophilic carbonyl carbon. The C=O π bond breaks, oxygen becomes an alkoxide (then protonated to –OH during workup). Since a ketone has two carbon substituents on the carbonyl carbon, the product is a secondary alcohol (R₂CHOH). If the starting material were an aldehyde (RCHO), the product would be a primary alcohol (RCH₂OH). NaBH₄ selectively reduces aldehydes and ketones but not esters or carboxylic acids (LiAlH₄ is needed for those)."
+      },
+      "topic": "Ketone Reduction / NaBH₄",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_ochem_010",
+      "passage": null,
+      "stem": "The leaving group in an SN1 or SN2 reaction must be:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a strong nucleophile that attacks the substrate"
+        },
+        {
+          "label": "B",
+          "text": "a strong base that abstracts a proton"
+        },
+        {
+          "label": "C",
+          "text": "a weak base that can stabilize a negative charge after departure — good leaving groups include halides (Cl⁻, Br⁻, I⁻), tosylate, and water (when protonated)"
+        },
+        {
+          "label": "D",
+          "text": "any atom bonded to carbon, regardless of basicity"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Good leaving groups are weak bases (stable anions) — they can depart with the bonding electrons and exist independently without strong tendency to reattach. The leaving group ability correlates inversely with basicity: I⁻ > Br⁻ > Cl⁻ > F⁻ (iodide is the best halide leaving group because it is the weakest base). Tosylate (TsO⁻) and mesylate (MsO⁻) are excellent leaving groups. OH⁻ and NH₂⁻ are poor leaving groups (strong bases) — hydroxyl groups are converted to water (H₂O, a good leaving group) by protonation before substitution.",
+        "A": "The nucleophile attacks the substrate; the leaving group departs. They play opposite roles. Nucleophiles are electron-rich (often strong bases); leaving groups must be electron-stable (weak bases).",
+        "B": "Strong bases are poor leaving groups because they have high tendency to reform the bond. The best leaving groups are the weakest bases — they are stable as anions and do not readily attack carbon.",
+        "D": "Not every atom bonded to carbon can serve as a leaving group. Groups like –CH₃, –H, –NH₂, and –OH (unprotonated) are essentially non-leaving groups because they would depart as very strong bases (CH₃⁻, H⁻, NH₂⁻, OH⁻), which is energetically unfavorable."
+      },
+      "topic": "Leaving Groups / Basicity",
+      "difficulty": "Hard"
+    }
+  ]
+}

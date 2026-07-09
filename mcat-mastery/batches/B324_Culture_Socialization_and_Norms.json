@@ -1,0 +1,225 @@
+{
+  "batch": "B324",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Culture, Socialization & Norms",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 3,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_cultural_capital_clinic_324_q0",
+      "passage": "Researchers observed patient visits in two outpatient clinics. Patients who used medical vocabulary, brought written questions, and knew how referral systems worked were more likely to leave with clear follow-up plans. Patients unfamiliar with these norms often asked fewer questions, even when they were confused. Clinicians did not intend to treat patients differently, but the interaction style of more institutionally familiar patients fit the clinic's expectations more closely. The researchers described this as an example of cultural capital shaping healthcare navigation.",
+      "usePrevPassage": false,
+      "stem": "Which behavior best illustrates cultural capital in the passage?",
+      "choices": {
+        "D": "Knowing how to ask referral-system questions during the visit",
+        "A": "Having a specific blood type",
+        "B": "Experiencing sensory adaptation",
+        "C": "Reacting to a loud sound"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Cultural capital includes knowledge, habits, and styles that help people navigate institutions. Knowing how to ask about referrals and follow-up plans is institutionally useful knowledge in the clinic setting.",
+        "A": "Blood type is a biological characteristic, not institutional knowledge.",
+        "B": "Sensory adaptation is a perceptual process and does not explain clinic navigation.",
+        "C": "A startle response to sound is not a form of cultural capital."
+      },
+      "topic": "Culture and Inequality",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_cultural_capital_clinic_324_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why might clinicians treat patients differently even without intending to?",
+      "choices": {
+        "C": "Institutional norms may reward communication styles that some patients have learned more than others",
+        "A": "Clinicians can only understand patients with college degrees",
+        "B": "Patients unfamiliar with clinics never need follow-up care",
+        "D": "Cultural capital is identical to income"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage emphasizes fit between patient interaction style and clinic expectations. When institutions reward certain ways of speaking or preparing, unequal familiarity can produce unequal outcomes even without overt bias.",
+        "A": "The passage does not say clinicians can only understand college-educated patients.",
+        "B": "Patients unfamiliar with clinics may need follow-up but may not know how to secure it.",
+        "D": "Cultural capital can overlap with class but is not simply the same as income."
+      },
+      "topic": "Healthcare Inequality",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_cultural_capital_clinic_324_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which outcome would best support the researchers' interpretation?",
+      "choices": {
+        "B": "Patients with written questions receive clearer follow-up plans even after controlling for diagnosis severity",
+        "A": "All patients have the same shoe size",
+        "C": "Clinic lighting changes during the day",
+        "D": "Referral plans are unrelated to patient communication"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. If written questions predict follow-up clarity even when medical need is comparable, that supports the idea that communication style and institutional familiarity matter in care navigation.",
+        "A": "Shoe size has no relevance to institutional familiarity.",
+        "C": "Lighting changes do not test the role of cultural capital in communication.",
+        "D": "If referral plans were unrelated to communication, the cultural-capital interpretation would be weakened."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_cultural_capital_clinic_324_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A clinic trying to reduce this inequality should most likely do what?",
+      "choices": {
+        "A": "Provide structured question prompts and navigation support to all patients",
+        "B": "Expect patients to learn clinic norms without assistance",
+        "C": "Discourage patients from asking follow-up questions",
+        "D": "Give clearer plans only to patients who use technical vocabulary"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Structured prompts can make institutional expectations explicit, reducing the advantage held by patients who already know how to navigate the system. This intervention targets the mechanism described in the passage.",
+        "B": "Leaving norms implicit preserves the unequal advantage.",
+        "C": "Discouraging questions would worsen confusion and reduce patient agency.",
+        "D": "Rewarding technical vocabulary would reinforce the inequality the study identifies."
+      },
+      "topic": "Applied Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_cultural_capital_clinic_324_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most cautious?",
+      "choices": {
+        "D": "Clinic interaction patterns may contribute to unequal follow-up clarity, but other factors may also matter",
+        "A": "Cultural capital explains every healthcare difference",
+        "B": "Clinicians intentionally discriminated in every visit",
+        "C": "Follow-up plans never depend on medical complexity"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The observations support a sociological mechanism but do not eliminate other influences such as time pressure, insurance rules, diagnosis complexity, or language access. A cautious conclusion recognizes cultural capital as one contributor.",
+        "A": "Healthcare inequality has multiple causes, so one concept cannot explain every difference.",
+        "B": "The passage specifically says clinicians did not intend differential treatment.",
+        "C": "Medical complexity can still affect follow-up plans alongside communication style."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_socialization_food_norms_324_q5",
+      "passage": "A nutrition sociologist interviewed families about children's food preferences. In some households, children regularly helped cook vegetables and heard adults describe them as normal parts of dinner. In others, vegetables were treated as medicine-like foods that children had to endure before receiving dessert. Children in the first type of household more often described vegetables as familiar and tasty, whereas children in the second type more often described them as a chore. The researcher argued that food preferences are shaped through socialization, not only by individual taste receptors.",
+      "usePrevPassage": false,
+      "stem": "The passage most directly illustrates which process?",
+      "choices": {
+        "C": "Socialization of food norms within families",
+        "A": "Signal detection",
+        "B": "Role exit",
+        "D": "Retinal adaptation"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The study shows how repeated family practices and adult meanings shape children's attitudes toward vegetables. That is socialization: learning norms, values, and expectations through interaction with significant others.",
+        "A": "Signal detection concerns distinguishing signal from noise in perception.",
+        "B": "Role exit refers to leaving a social role, not learning food norms.",
+        "D": "Retinal adaptation does not explain meanings attached to dinner practices."
+      },
+      "topic": "Socialization",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_socialization_food_norms_324_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why did children in the cooking-involved households view vegetables more positively?",
+      "choices": {
+        "B": "They repeatedly encountered vegetables as familiar, normal, and socially valued foods",
+        "A": "They were born without taste receptors",
+        "C": "Cooking vegetables makes social learning impossible",
+        "D": "Dessert rewards always create intrinsic liking"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The passage suggests that involvement and adult framing made vegetables part of ordinary family life. Familiarity and positive modeling can shape preferences beyond raw sensory response.",
+        "A": "The passage does not claim biological absence of taste receptors.",
+        "C": "Cooking was part of the social learning process, not a barrier to it.",
+        "D": "Dessert rewards in the other household pattern made vegetables seem like an obstacle rather than intrinsically valued."
+      },
+      "topic": "Family and Culture",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socialization_food_norms_324_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Treating vegetables as something endured before dessert may unintentionally do what?",
+      "choices": {
+        "A": "Frame vegetables as an unpleasant requirement rather than a valued food",
+        "B": "Increase intrinsic motivation for vegetables automatically",
+        "C": "Remove all social meaning from meals",
+        "D": "Teach children that dessert has no reward value"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When adults present vegetables as a hurdle before dessert, children may learn that vegetables are low-value and dessert is the desirable reward. That meaning can shape later preferences.",
+        "B": "The passage indicates the opposite: children described vegetables as a chore.",
+        "C": "Meals remain highly social and meaning-laden in this pattern.",
+        "D": "Dessert is presented as the reward, so its reward value is reinforced."
+      },
+      "topic": "Learning and Socialization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socialization_food_norms_324_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A family-based intervention consistent with the passage would most likely do what?",
+      "choices": {
+        "D": "Involve children in cooking and model vegetables as ordinary enjoyable foods",
+        "A": "Use vegetables only as punishment",
+        "B": "Never let children see adults eat vegetables",
+        "C": "Describe vegetables as medicine that tastes bad but is required"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The more positive pattern came from participation and normalization. A practical intervention would change family routines and meanings around food rather than relying only on facts about nutrients.",
+        "A": "Using vegetables as punishment would likely worsen negative associations.",
+        "B": "Adult modeling is part of how food norms are learned, so hiding adult consumption would not help.",
+        "C": "The medicine-like framing was associated with vegetables feeling like a chore."
+      },
+      "topic": "Applied Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socialization_food_norms_324_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which statement best captures the researcher's argument?",
+      "choices": {
+        "C": "Food preferences emerge from interactions between biology and social experience",
+        "A": "Taste receptors are irrelevant to food choice",
+        "B": "Children's preferences are fixed at birth",
+        "D": "Family routines cannot affect eating behavior"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The researcher does not deny biology but argues against a biology-only explanation. The interviews show that household meanings, modeling, and participation help shape what foods children come to like.",
+        "A": "The passage says preferences are not only taste receptors, not that receptors do not matter at all.",
+        "B": "The differences between households argue against fixed preferences at birth.",
+        "D": "The passage directly shows family routines affecting food meanings and preferences."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

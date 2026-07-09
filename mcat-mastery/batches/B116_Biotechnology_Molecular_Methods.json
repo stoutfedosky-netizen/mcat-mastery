@@ -1,0 +1,351 @@
+{
+  "batch": "B116",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Biotechnology & Molecular Methods",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "D": 2,
+    "B": 3,
+    "C": 2
+  },
+  "questions": [
+    {
+      "id": "bb_biotech2_001",
+      "passage": "Researchers clone a 1.0 kb human cDNA into a 4.0 kb plasmid. The multiple-cloning site lies within the plasmid's lacZα sequence, and the plasmid also carries an ampicillin-resistance gene. PCR primers contain 20 nucleotides complementary to the cDNA plus noncomplementary 5′ tails bearing EcoRI sites. After amplification, both PCR product and plasmid are digested with EcoRI, ligated, and introduced into competent bacteria. A negative-control PCR lacking template produces no detectable amplicon, supporting the specificity of the amplification reagents.\n\nCells are plated on ampicillin with X-gal. Blue colonies and white colonies both appear. Plasmids from two white candidate colonies are digested with EcoRI and analyzed beside a size ladder:\n\nLane | Sample | Bands observed\n1 | DNA ladder | Reference sizes\n2 | Candidate A | 4.0 kb\n3 | Candidate B | 4.0 kb and 1.0 kb\n\nThe researchers then isolate RNA from bacteria carrying the confirmed recombinant construct, treat it with DNase, synthesize cDNA using reverse transcriptase, and perform quantitative PCR. A lower threshold cycle (Ct) is interpreted as more starting transcript when amplification efficiency is equivalent.",
+      "stem": "Why can the noncomplementary EcoRI sequences be included at the 5′ ends of the PCR primers?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The complementary 3′ region permits annealing, and the 5′ tails become incorporated into later amplicons"
+        },
+        {
+          "label": "B",
+          "text": "DNA polymerase removes all 5′ sequences before extension"
+        },
+        {
+          "label": "C",
+          "text": "EcoRI sites must be complementary to genomic DNA to function"
+        },
+        {
+          "label": "D",
+          "text": "The tails prevent primer extension until ligase is added"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Polymerase requires a base-paired 3′ end with a free hydroxyl for extension. During the first cycles, the 5′ tail is carried into product strands; subsequent cycles copy it as ordinary template, producing double-stranded EcoRI sites that permit digestion and ligation. Because the same site is used at both ends, orientation is not guaranteed and must be checked by colony PCR, restriction mapping, or sequencing. Primer design must distinguish the sequence that anneals to the template from any engineered 5′ tail. Only the complementary 3′ region directs initial amplification, while added sites enable later cloning.",
+        "B": "DNA polymerase does not routinely excise designed 5′ primer tails. Once the 3′ region anneals, the entire primer becomes part of the newly synthesized strand, so the added sequence is retained rather than removed. Primer design must distinguish the sequence that anneals to the template from any engineered 5′ tail.",
+        "C": "An engineered restriction site need not already exist in the template. Requiring complementarity across the tail would defeat the purpose of adding a new site through PCR. Primer design must distinguish the sequence that anneals to the template from any engineered 5′ tail.",
+        "D": "Ligase joins DNA ends after restriction digestion and does not activate PCR primers. The noncomplementary tail does not block extension as long as the primer's 3′ end anneals stably and correctly. Primer design must distinguish the sequence that anneals to the template from any engineered 5′ tail."
+      },
+      "topic": "PCR Primer Design / Restriction-Site Tails",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_biotech2_002",
+      "passage": null,
+      "stem": "Why are colonies containing an insert expected to appear white?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Insertion disrupts lacZα, preventing β-galactosidase complementation and X-gal cleavage"
+        },
+        {
+          "label": "B",
+          "text": "The insert destroys ampicillin resistance"
+        },
+        {
+          "label": "C",
+          "text": "Human cDNA enzymatically bleaches the colony"
+        },
+        {
+          "label": "D",
+          "text": "White colonies contain no plasmid"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The cloning site lies within lacZα, so insertional disruption prevents functional α-complementation in the host. Without active β-galactosidase, colorless X-gal is not converted to the blue product; white colonies are therefore enriched for recombinant plasmids. Blue-white screening is based on α-complementation of β-galactosidase. Colony color reports whether the cloning site interrupts lacZα; it does not directly measure expression of the inserted human protein.",
+        "B": "Loss of ampicillin resistance would prevent growth on the plate rather than create a white colony. Both blue and white colonies survived because both generally carried the selectable plasmid. Blue-white screening is based on α-complementation of β-galactosidase.",
+        "C": "The cDNA is not acting as a bleaching enzyme. Color arises from the bacterial lacZα/X-gal reporter system, independent of the human gene's normal biological function. Blue-white screening is based on α-complementation of β-galactosidase.",
+        "D": "Cells without plasmid should be killed by ampicillin and fail to form colonies. White color is a screening phenotype among survivors, not evidence that the plasmid is absent. Blue-white screening is based on α-complementation of β-galactosidase."
+      },
+      "topic": "Blue-White Screening / Insertional Inactivation",
+      "difficulty": "Medium",
+      "passageRef": "bb_biotech_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_biotech2_003",
+      "passage": null,
+      "stem": "What information does growth on ampicillin provide?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Proof that the cDNA is oriented correctly"
+        },
+        {
+          "label": "B",
+          "text": "Proof that the human protein is functional"
+        },
+        {
+          "label": "C",
+          "text": "Proof that lacZα is disrupted"
+        },
+        {
+          "label": "D",
+          "text": "Evidence that a cell carries an ampicillin-resistance plasmid, but not necessarily the insert"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Orientation requires mapping, sequencing, or an orientation-sensitive assay. Antibiotic survival cannot distinguish the two possible insert directions. Selection and screening answer different questions.",
+        "B": "Resistance is encoded by the plasmid marker and does not demonstrate transcription, translation, folding, or function of the human protein. Selection and screening answer different questions.",
+        "C": "Empty plasmids retain both ampicillin resistance and intact lacZα, producing blue survivors. Growth alone therefore cannot establish reporter disruption. Selection and screening answer different questions.",
+        "D": "Correct. Ampicillin performs selection: cells lacking a functional resistance plasmid die. Empty-vector and recombinant transformants both survive, so colony color, restriction analysis, or sequencing must provide the additional screen for the desired insert. Selection and screening answer different questions. Antibiotic selection identifies cells carrying a resistance plasmid, whereas a second assay is needed to distinguish empty vector from recombinant plasmid."
+      },
+      "topic": "Plasmid Selection / Antibiotic Resistance",
+      "difficulty": "Easy",
+      "passageRef": "bb_biotech_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_biotech2_004",
+      "passage": null,
+      "stem": "Which conclusion is best supported by the EcoRI digest results?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Candidate A contains the 1.0 kb cDNA insert"
+        },
+        {
+          "label": "B",
+          "text": "Candidate B contains the 1.0 kb insert within the 4.0 kb vector"
+        },
+        {
+          "label": "C",
+          "text": "Candidates A and B both contain the insert but in opposite orientations"
+        },
+        {
+          "label": "D",
+          "text": "Lane 3 proves that the insert is in the intended orientation"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Candidate A produces only a 4.0 kb band, consistent with empty vector linearized at its EcoRI site. No separate 1.0 kb fragment supports insertion. Restriction mapping conserves total plasmid length.",
+        "B": "Correct. Candidate B yields a 4.0 kb vector band plus a 1.0 kb insert band, accounting for the expected 5.0 kb recombinant plasmid. The digest therefore confirms insertion of the cDNA. Restriction mapping conserves total plasmid length. A correct interpretation must account for every expected fragment and recognize that circular uncut plasmid migration is not a reliable size standard.",
+        "C": "An inserted 1.0 kb fragment should appear after digestion regardless of orientation. Candidate A lacks that band, so orientation cannot explain the difference. Restriction mapping conserves total plasmid length.",
+        "D": "The two identical EcoRI ends allow either orientation. The digest confirms insert size and presence but not direction; orientation requires an asymmetric map, colony PCR, or sequencing. Restriction mapping conserves total plasmid length."
+      },
+      "topic": "Restriction Mapping / Fragment Analysis",
+      "difficulty": "Medium",
+      "passageRef": "bb_biotech_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_biotech2_005",
+      "passage": null,
+      "stem": "Which sample would be expected to have the lowest Ct in the RT-qPCR experiment?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The sample with the least starting target RNA"
+        },
+        {
+          "label": "B",
+          "text": "A no-reverse-transcriptase control containing only RNA"
+        },
+        {
+          "label": "C",
+          "text": "A sample with the greatest starting target RNA abundance"
+        },
+        {
+          "label": "D",
+          "text": "A no-template water control"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Less starting target requires more amplification cycles to cross the fluorescence threshold and therefore produces a higher Ct, assuming comparable efficiency. RT-qPCR begins with RNA converted to cDNA, whereas ordinary PCR begins with DNA.",
+        "B": "Without reverse transcriptase, RNA is not converted to the cDNA substrate used by standard DNA polymerase. A clean control should show no amplification; amplification would suggest residual DNA contamination. RT-qPCR begins with RNA converted to cDNA, whereas ordinary PCR begins with DNA.",
+        "C": "Correct. More initial transcript generates more cDNA, so fluorescence reaches the threshold in fewer cycles. Because amplification is exponential, even a small Ct difference can represent a substantial fold difference, commonly estimated as approximately twofold per cycle at 100% efficiency. RT-qPCR begins with RNA converted to cDNA, whereas ordinary PCR begins with DNA. Ct values are inverse indicators of starting template abundance when amplification efficiencies are comparable.",
+        "D": "A no-template control should remain negative. A low Ct in water would signal reagent contamination or nonspecific amplification rather than abundant biological transcript. RT-qPCR begins with RNA converted to cDNA, whereas ordinary PCR begins with DNA."
+      },
+      "topic": "RT-qPCR / Threshold Cycle",
+      "difficulty": "Medium",
+      "passageRef": "bb_biotech_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_biotech2_006",
+      "passage": "Investigators use CRISPR-Cas9 to test whether receptor R is required for a signaling response in cultured human cells. A guide RNA complementary to exon 2 is delivered with Cas9. Repair by nonhomologous end joining produces small insertions or deletions in many cells; a clonal line contains a one-base deletion predicted to cause a frameshift and premature stop codon. A second experiment supplies a donor DNA template with the desired sequence and homology arms. Unedited parental cells retain normal receptor abundance and signaling under the same culture and assay conditions.\n\nIn the frameshift clone, RT-qPCR shows nearly normal R mRNA, but Western blotting detects no full-length R protein. Flow cytometry using an antibody against an extracellular epitope also shows no surface receptor. The signaling response is lost. To address off-target effects, the researchers generate a second knockout with a different guide and introduce a cDNA encoding R that has silent changes preventing guide recognition. The second knockout reproduces the phenotype, and the rescue construct restores signaling.",
+      "stem": "What primarily determines which genomic sequence Cas9 targets?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The antibiotic-resistance gene"
+        },
+        {
+          "label": "B",
+          "text": "Base pairing between the guide RNA and target DNA adjacent to a compatible PAM"
+        },
+        {
+          "label": "C",
+          "text": "The size of the receptor protein"
+        },
+        {
+          "label": "D",
+          "text": "Random binding followed by Western blot selection"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Antibiotic markers can enrich transfected cells but do not direct Cas9 to a genomic locus. Target recognition is encoded in the guide sequence and PAM requirement. CRISPR targeting separates recognition from cleavage: guide-RNA base pairing provides sequence specificity, while Cas9 supplies nuclease activity near an appropriate PAM.",
+        "B": "Correct. The guide RNA contains a spacer complementary to the target, allowing RNA-DNA base pairing, while Cas9 additionally requires a nearby protospacer-adjacent motif. Mismatches—especially near the PAM-proximal seed region—can reduce cleavage but may also contribute to off-target activity. CRISPR targeting separates recognition from cleavage: guide-RNA base pairing provides sequence specificity, while Cas9 supplies nuclease activity near an appropriate PAM.",
+        "C": "Protein size is downstream of gene sequence and has no role in guiding nuclease localization. Cas9 acts on DNA before receptor protein is produced. CRISPR targeting separates recognition from cleavage: guide-RNA base pairing provides sequence specificity, while Cas9 supplies nuclease activity near an appropriate PAM.",
+        "D": "Cas9 targeting is sequence-directed rather than purely random. Western blotting evaluates protein consequences after editing; it does not select the cleavage site. CRISPR targeting separates recognition from cleavage: guide-RNA base pairing provides sequence specificity, while Cas9 supplies nuclease activity near an appropriate PAM."
+      },
+      "topic": "CRISPR-Cas9 / Target Specificity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_biotech2_007",
+      "passage": null,
+      "stem": "Why can a one-base deletion produced by nonhomologous end joining eliminate full-length receptor R?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It always deletes the entire chromosome"
+        },
+        {
+          "label": "B",
+          "text": "It converts every codon into an intron"
+        },
+        {
+          "label": "C",
+          "text": "It guarantees precise correction from the homologous chromosome"
+        },
+        {
+          "label": "D",
+          "text": "It shifts the reading frame, often creating an early stop codon downstream"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "NHEJ repairs a local double-strand break and does not normally delete an entire chromosome. Larger rearrangements are possible but not required for this phenotype. Double-strand break repair outcome depends on pathway choice.",
+        "B": "A small DNA deletion does not transform all coding sequence into introns. Exon-intron identity is established by gene structure and RNA splicing signals. Double-strand break repair outcome depends on pathway choice.",
+        "C": "Precise templated correction is associated with homology-directed repair, not ordinary NHEJ. The passage explicitly describes an error-prone indel outcome. Double-strand break repair outcome depends on pathway choice.",
+        "D": "Correct. A one-nucleotide deletion changes how triplets are grouped from the edit onward. The altered frame typically encodes unrelated amino acids and encounters a premature stop, producing a truncated product that may also trigger nonsense-mediated mRNA decay depending on stop location. Double-strand break repair outcome depends on pathway choice. NHEJ is fast but error-prone and often creates indels; HDR can install a designed sequence when a homologous donor and suitable cell-cycle context are available."
+      },
+      "topic": "CRISPR Knockout / Frameshift Mutation",
+      "difficulty": "Medium",
+      "passageRef": "bb_biotech_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_biotech2_008",
+      "passage": null,
+      "stem": "Nearly normal R mRNA with absent full-length protein most directly suggests a defect at which level?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Translation or post-translational protein stability"
+        },
+        {
+          "label": "B",
+          "text": "DNA replication only"
+        },
+        {
+          "label": "C",
+          "text": "Transcription initiation exclusively"
+        },
+        {
+          "label": "D",
+          "text": "Chromosome segregation"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. RT-qPCR indicates that transcript is present, whereas Western blotting shows failure to accumulate full-length protein. The frameshift can prevent productive translation and produce a truncated unstable polypeptide; the data localize the major discrepancy downstream of mRNA abundance. Measurements at different information-flow levels are not interchangeable. Normal mRNA with absent protein localizes the defect downstream of transcription but does not by itself distinguish failed translation from rapid degradation.",
+        "B": "A replication defect would affect genome duplication and potentially many loci, but it does not specifically explain preserved R transcript with missing R protein. Measurements at different information-flow levels are not interchangeable.",
+        "C": "Exclusive failure of transcription initiation should substantially lower R mRNA. The nearly normal RT-qPCR signal argues against this being the primary level of disruption. Measurements at different information-flow levels are not interchangeable.",
+        "D": "Chromosome segregation errors change chromosome distribution during mitosis and are not required to explain a sequence-specific frameshift phenotype. Measurements at different information-flow levels are not interchangeable."
+      },
+      "topic": "Central Dogma / mRNA-Protein Discordance",
+      "difficulty": "Hard",
+      "passageRef": "bb_biotech_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_biotech2_009",
+      "passage": null,
+      "stem": "Why does flow cytometry add information beyond the Western blot in this experiment?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It directly sequences the receptor gene"
+        },
+        {
+          "label": "B",
+          "text": "It measures only total RNA"
+        },
+        {
+          "label": "C",
+          "text": "It determines whether receptor is present on individual cell surfaces"
+        },
+        {
+          "label": "D",
+          "text": "It identifies every off-target mutation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Flow cytometry uses fluorescent probes or antibodies and does not determine nucleotide sequence. Sequencing is required to identify the exact edit. Western blotting measures protein in a lysate and provides approximate molecular mass, whereas flow cytometry measures fluorescence in individual cells and can specifically assess surface accessibility without lysing them.",
+        "B": "RT-qPCR measures RNA. Flow cytometry with an extracellular antibody measures cell-associated protein fluorescence, not total transcript. Western blotting measures protein in a lysate and provides approximate molecular mass, whereas flow cytometry measures fluorescence in individual cells and can specifically assess surface accessibility without lysing them.",
+        "C": "Correct. Western blotting tests protein abundance and approximate size in a pooled lysate. Nonpermeabilized flow cytometry detects accessible extracellular epitopes cell by cell, revealing surface localization and population heterogeneity that a bulk lysate cannot show. Western blotting measures protein in a lysate and provides approximate molecular mass, whereas flow cytometry measures fluorescence in individual cells and can specifically assess surface accessibility without lysing them.",
+        "D": "Flow cytometry cannot comprehensively map unintended genomic edits. Off-target assessment requires targeted or genome-wide sequencing and appropriate controls. Western blotting measures protein in a lysate and provides approximate molecular mass, whereas flow cytometry measures fluorescence in individual cells and can specifically assess surface accessibility without lysing them."
+      },
+      "topic": "Flow Cytometry vs Western Blot",
+      "difficulty": "Medium",
+      "passageRef": "bb_biotech_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_biotech2_010",
+      "passage": null,
+      "stem": "Which result provides the strongest combined evidence that loss of R, rather than an off-target edit, caused the signaling defect?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The first guide generated an indel"
+        },
+        {
+          "label": "B",
+          "text": "An independent guide reproduced the defect and guide-resistant R cDNA rescued it"
+        },
+        {
+          "label": "C",
+          "text": "Cas9 was detectable after transfection"
+        },
+        {
+          "label": "D",
+          "text": "The cells survived cloning"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "An indel confirms editing at the intended locus but does not exclude simultaneous off-target changes that could cause the phenotype. A strong causal test must separate the intended gene effect from guide-specific off-target damage.",
+        "B": "Correct. Independent guides are unlikely to share the same off-target profile, so phenotypic replication supports an on-target effect. Restoration by an R cDNA that evades guide recognition is a rescue experiment showing that supplying the missing gene product reverses the defect. A strong causal test must separate the intended gene effect from guide-specific off-target damage. Replication with independent guides and restoration by an untargetable rescue construct provide complementary evidence.",
+        "C": "Cas9 detection shows reagent delivery, not causal specificity. Active Cas9 could create both intended and unintended edits. A strong causal test must separate the intended gene effect from guide-specific off-target damage.",
+        "D": "Clonal survival indicates viability under the procedure but provides no evidence connecting receptor loss to the signaling response. A strong causal test must separate the intended gene effect from guide-specific off-target damage."
+      },
+      "topic": "Causal Validation / Independent Guides and Rescue",
+      "difficulty": "Hard",
+      "passageRef": "bb_biotech_006",
+      "usePrevPassage": true
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "batch": "B238",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Literary Theory, Authorial Intention & the Location of a Text's Meaning",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 1,
+    "B": 2,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_authorial_intention_238_q0",
+      "passage": "Suppose a poem long anthologized as a grave elegy for a drowned child, taught for generations as a model of restrained sorrow, is revealed by newly discovered correspondence to have been written as a private joke, a parody of elegiac conventions its author found ridiculous. Nothing on the page has changed. Every reading that moved a classroom to silence proceeded from the same words that will be assigned next term. The question the discovery forces is deceptively simple: did the poem's meaning change overnight, or did generations of readers simply get it wrong, or was the author's joke, all along, beside the point?\n\nOne answer, intentionalism, holds that a text means what its author meant by it. The position draws strength from how meaning works everywhere else. Utterances are acts of persons; the same sentence can be a warning, a promise, or a jest depending on what its speaker was doing with it, and stripping away the doer leaves marks on paper rather than a meaningful act. Intentionalists add a practical point: without intention there is no principled way to distinguish meaning from accident. A misprint that happens to form a resonant pun, a translation error that generates an arresting image, would stand on equal footing with deliberate art, and interpretation would lose its ability to say that anything in a text is there for a reason.\n\nThe opposing tradition answers that whatever authors may have wanted, the text they release is a public object governed by public conventions. Intentions are private, frequently unrecoverable, and, when recoverable, simply one more piece of evidence rather than a trump card. On this view, the elegy's case is easy: the poem succeeds as an elegy because its words, deployed within the conventions of the language and the genre, achieve an elegy's effects, and the author's smirk in a private letter has no more authority over the poem than a carpenter's opinion has over whether the chair he built is comfortable. A work that outgrows its maker's plan has not been misread; it has been read.\n\nYet the anti-intentionalist position, pressed hard, begins to strain. The public conventions it appeals to are themselves saturated with intention at one remove: irony, allusion, and parody are only detectable by positing a mind that meant something other than the surface sense, and a reader who forswears all reference to intention cannot, in principle, tell parody from earnest imitation, since the words of each may be identical. Even identifying the language of a text involves an assumption about what its producer was doing; a string of letters can spell different words in different languages, and only a hypothesis about the writer fixes which dictionary applies. Interpretation without any appeal to a purposive agent turns out to be difficult even to describe, let alone to practice.\n\nIntentionalism, however, faces strains of its own that the elegy case makes vivid. Authors fail. A writer may intend a devastating satire and produce, on the page, an entirely convincing elegy, and it is unclear why the intention that failed to register should govern the words that succeeded at something else. Authors also die, and their works persist into contexts they could not have imagined, acquiring resonances, historical ironies, applications, that no intention anticipated. To rule such meanings out of bounds because they were unintended is to insist that a work can never legitimately exceed its origin, a stricture most readers, and many authors, have found difficult to accept.\n\nBetween these poles, moderate positions have multiplied. One influential compromise holds that a text means what an appropriately informed reader would take its author to have intended, given the text and its public context, whether or not the actual author intended it. This preserves the grammar of intention, texts are still read as purposive acts, while detaching interpretation from the author's private mental history. Critics of the compromise observe that the postulated author is a construction, assembled by the interpreter from the very evidence in dispute, and that interpreters can therefore build the author their preferred reading requires, an objection that returns the debate, by a longer road, to the question of what constrains a reading.\n\nThe discovered correspondence, then, settles less than it seemed to. It adds a fact about the author without dictating what the fact is worth, and its worth is exactly what the theories dispute. Perhaps the most defensible conclusion is unglamorous: interpretation answers to two masters at once, the words on the page and the human act that put them there, and readings earn authority by managing that dual accountability rather than by dissolving it in either direction. The poem, meanwhile, will go on being taught, its gravity intact for readers who never learn of the letters, and altered permanently for those who do, which may itself be the clearest evidence that neither the page alone nor the author alone has ever been the whole story.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Newly discovered biographical evidence about an author should always override established readings of that author's work."
+        },
+        {
+          "label": "B",
+          "text": "Because intentions are private and frequently unrecoverable, the meaning of a literary work is fixed entirely by public linguistic conventions available to any reader."
+        },
+        {
+          "label": "C",
+          "text": "Works of literature have no determinate meaning at all, since the debate between intentionalists and their opponents has never been resolved."
+        },
+        {
+          "label": "D",
+          "text": "Both intentionalism and its opposite face serious difficulties, suggesting interpretation answers to the text and the purposive act together, not to either alone."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice resolves the opening puzzle in a direction the passage explicitly declines. The final paragraph states that the discovered correspondence adds a fact without dictating what the fact is worth, and the passage's conclusion assigns interpretation a dual accountability rather than granting biographical evidence automatic authority over established readings.",
+        "B": "This choice states the anti-intentionalist position that the fourth paragraph subjects to sustained criticism. The passage argues that public conventions are themselves saturated with intention at one remove, that parody cannot be distinguished from earnest imitation without positing a purposive mind, and that even identifying a text's language requires a hypothesis about its producer, so conventions alone cannot fix meaning.",
+        "C": "This choice converts an unresolved theoretical debate into a claim of radical indeterminacy the passage never makes. The conclusion holds that readings earn authority by managing accountability to both text and authorial act, which presupposes that some readings are better grounded than others, not that meaning is absent.",
+        "D": "Correct. The passage develops serious objections against intentionalism, authors fail and works legitimately exceed their origins, and against anti-intentionalism, conventions presuppose purposive minds, then examines a compromise that faces its own circularity objection, concluding that interpretation answers to two masters at once: the words on the page and the human act that produced them."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_authorial_intention_238_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the fourth paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "concede that the anti-intentionalist position, unlike intentionalism, requires no assumptions about the minds of authors."
+        },
+        {
+          "label": "B",
+          "text": "prove that parody is a more sophisticated literary form than earnest imitation."
+        },
+        {
+          "label": "C",
+          "text": "argue that agent-free interpretation is hard even to describe, since irony and even a text's language presuppose an intending mind."
+        },
+        {
+          "label": "D",
+          "text": "demonstrate that readers can reliably identify an author's private intentions from careful attention to textual evidence alone."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice states the opposite of the paragraph's argument. The paragraph contends that anti-intentionalism cannot escape assumptions about authors' minds, since the public conventions it invokes are saturated with intention at one remove, so the position does not achieve the freedom from mental assumptions this choice describes.",
+        "B": "This choice mistakes an illustrative device for a ranking of genres. Parody appears in the paragraph because its words may be identical to earnest imitation, showing that only a hypothesis about intention distinguishes them; the paragraph makes no claim about which form is more sophisticated.",
+        "C": "Correct. The paragraph presses the anti-intentionalist position and finds it straining: irony, allusion, and parody are detectable only by positing a mind that meant something beyond the surface, and even identifying which language a string of letters belongs to requires a hypothesis about the writer, so interpretation entirely without a purposive agent becomes difficult even to describe.",
+        "D": "This choice reverses the paragraph's direction. The paragraph argues that some appeal to a purposive agent is unavoidable in interpretation; it does not claim that private intentions can be reliably recovered from text alone, a stronger claim the passage nowhere endorses."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_authorial_intention_238_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The comparison to a carpenter's opinion about the comfort of a chair he built, in the third paragraph, is used to suggest that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "literary interpretation requires the same kind of technical training as skilled manual crafts."
+        },
+        {
+          "label": "B",
+          "text": "authors, like carpenters, should test their works on representative audiences before releasing them to the public."
+        },
+        {
+          "label": "C",
+          "text": "a maker's view of what a finished work accomplishes carries no special authority over its actual public effects."
+        },
+        {
+          "label": "D",
+          "text": "physical objects such as chairs possess meanings in the same way that poems do."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice draws an analogy about training that the comparison does not make. The carpenter appears in the paragraph to illustrate a point about authority over a finished object's qualities, not to suggest that interpreting literature demands craft apprenticeship or technical skill.",
+        "B": "This choice invents a recommendation about audience testing that appears nowhere in the paragraph. The comparison concerns whose judgment governs a finished work's qualities, not any process authors should follow before publication.",
+        "C": "Correct. Within the anti-intentionalist argument of the third paragraph, the comparison conveys that just as a chair's comfort is settled by how the chair actually functions rather than by its maker's opinion, a poem's success as an elegy is settled by what its words achieve within public conventions, so the author's private attitude, the smirk in the letter, has no privileged authority over the work.",
+        "D": "This choice literalizes the analogy beyond its function. The paragraph does not claim chairs possess meanings as poems do; it uses the chair's comfort as a parallel for a property settled by the object's public performance rather than by the maker's say-so."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_authorial_intention_238_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward the compromise position described in the sixth paragraph is best characterized as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "attentive but unconvinced, since the postulated author can be constructed to fit the interpreter's preferred reading."
+        },
+        {
+          "label": "B",
+          "text": "fully endorsing, since the compromise successfully resolves the dispute between intentionalists and their opponents on terms both can accept."
+        },
+        {
+          "label": "C",
+          "text": "contemptuous, treating the compromise as less serious than either of the positions it attempts to reconcile."
+        },
+        {
+          "label": "D",
+          "text": "uninterested, since the passage mentions the compromise only to dismiss moderate positions generally."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage presents the compromise carefully, noting what it preserves, texts still read as purposive acts, and what it detaches, the author's private mental history, but then relays the objection that the postulated author is assembled by the interpreter from the disputed evidence itself, which returns the debate to what constrains a reading, indicating the author finds the compromise instructive but not a genuine escape.",
+        "B": "This choice overlooks the objection with which the sixth paragraph ends. A position the passage describes as returning the debate, by a longer road, to its original question has not been presented as resolving the dispute, so full endorsement misstates the author's assessment.",
+        "C": "This choice imports a scornful tone absent from the paragraph. The compromise is described as influential and is examined on its merits; the passage registers a serious objection without belittling the position or treating it as less worthy of attention than the poles it mediates.",
+        "D": "This choice contradicts the space and care the paragraph devotes to the compromise. The passage explains the position's structure, its motivation, and the strongest criticism against it, which is not the treatment given to a view mentioned only for dismissal."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_authorial_intention_238_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A novelist states in interviews that her acclaimed novel was intended as a bitter condemnation of its narrator, yet reviewers and readers overwhelmingly experience the narrator as sympathetic, citing the warmth of the prose in which he is rendered. According to the fifth paragraph, this situation illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the impossibility of writing a genuinely condemnatory novel in the first person."
+        },
+        {
+          "label": "B",
+          "text": "a failed intention, raising why an aim that did not register should govern words that succeeded at something else."
+        },
+        {
+          "label": "C",
+          "text": "proof that the novelist is misrepresenting her original intentions to interviewers in order to align herself with her readers."
+        },
+        {
+          "label": "D",
+          "text": "the discovery of new biographical correspondence of the kind described in the opening paragraph."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice generalizes far beyond anything the passage claims. The fifth paragraph discusses intentions that fail to register in particular works; it asserts no categorical impossibility about first-person condemnation or any other technique.",
+        "B": "Correct. The fifth paragraph identifies authorial failure as a strain on intentionalism: a writer may intend a devastating satire and produce a convincing elegy, and it is unclear why the intention that failed should govern words that achieved something else. The novelist who intended condemnation but produced sympathy is a direct instance of this problem.",
+        "C": "This choice supplies an accusation of dishonesty the scenario does not support and the passage does not require. The fifth paragraph's argument concerns sincere intentions that fail to register on the page, so the novelist's truthfulness in interviews is compatible with, indeed presupposed by, the illustration.",
+        "D": "This choice confuses the scenario with the opening example's structure. The novel case involves an author's openly stated intention diverging from the work's achieved effect, not the discovery of hidden private documents that reframe a settled reading, which is the situation the first paragraph describes."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_authorial_intention_238_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following situations is most analogous to the problem the fourth paragraph raises about distinguishing parody from earnest imitation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A museum visitor prefers one of two paintings because its colors are brighter."
+        },
+        {
+          "label": "B",
+          "text": "A student memorizes a poem without understanding the meaning of several of its words."
+        },
+        {
+          "label": "C",
+          "text": "A translator renders a novel into another language and quietly changes several culturally specific references to suit the new audience."
+        },
+        {
+          "label": "D",
+          "text": "A listener cannot tell whether a flat delivery of an outrageous claim is sincere or deadpan, since the words are identical either way."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice involves a preference between two different objects with different perceptible properties. The parody problem concerns two performances whose observable content may be identical, distinguishable only by a hypothesis about the producer's intent, and a brightness preference has no such structure.",
+        "B": "This choice describes incomplete comprehension of vocabulary, a gap in the reader's knowledge of public conventions. The parody problem arises even for a reader with perfect command of the words, because the words themselves underdetermine whether they are meant straight or mockingly.",
+        "C": "This choice concerns alterations introduced in moving a text between languages, which changes the words themselves. The parody problem is defined by the words remaining identical while their status as earnest or mocking depends entirely on the mind behind them.",
+        "D": "Correct. Deadpan sarcasm and sincere assertion can be acoustically and verbally indistinguishable, so the listener can classify the utterance only by positing what the speaker meant, exactly paralleling the fourth paragraph's claim that parody and earnest imitation may share identical words and be told apart only by a hypothesis about an intending mind."
+      },
+      "topic": "Reasoning by Analogy",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_authorial_intention_238_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the intentionalist argument, described in the second paragraph, that without intention there is no principled way to distinguish meaning from accident?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that many celebrated authors revise their manuscripts extensively before publication, often changing their stated aims midway."
+        },
+        {
+          "label": "B",
+          "text": "A framework grounded entirely in textual structure and convention that reliably distinguishes functioning elements from typographical accidents."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that readers frequently disagree about which passages of a novel are the most artistically successful."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that some authors deliberately incorporate chance procedures into their compositional methods."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice, if anything, comports with the intentionalist picture, since extensive revision suggests deliberate shaping of the text. It does not address whether meaning could be distinguished from accident without reference to intention, which is the specific claim at issue.",
+        "B": "Correct. The intentionalist argument holds that only intention can separate deliberate art from lucky accident, so a misprinted pun would otherwise stand equal to crafted effects. A demonstrated framework that reliably makes exactly this separation using textual structure and convention alone, with no reference to authorial mental states, would show the distinction can be drawn on other grounds, directly undercutting the argument.",
+        "C": "This choice concerns disagreement about artistic success, an evaluative question distinct from the meaning-versus-accident distinction. Readers could disagree about quality while the question of whether intention is needed to separate meaning from accident remains untouched.",
+        "D": "This choice complicates the category of accident but does not weaken the intentionalist claim, since an author who deliberately adopts chance procedures has intentionally delegated composition to chance, folding the results back into an intentional framework rather than showing intention to be dispensable."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

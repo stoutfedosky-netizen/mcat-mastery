@@ -1,0 +1,335 @@
+{
+  "batch": "B189",
+  "section": "cars",
+  "sectionName": "Critical Analysis and Reasoning Skills",
+  "topicArea": "Public Health Ethics & Resource Allocation",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cars_pubhealth_001",
+      "passage": "When a novel respiratory pathogen emerges, public health authorities face a cruel arithmetic: ventilators, antivirals, and intensive-care beds are finite, yet demand can spike to many times the supply within weeks. Utilitarian frameworks counsel maximizing aggregate benefit — saving the most life-years — which tends to favor younger patients with better prognoses. Egalitarian frameworks insist that every person has an equal claim to care regardless of age, social status, or predicted outcome, and that any departure from equal treatment requires extraordinary justification. A third approach, prioritarianism, holds that benefits matter more the worse off the recipient is; on this view, the sickest patients deserve priority precisely because they stand to lose the most if untreated.\n\nCritics of pure utilitarianism argue that maximizing life-years can encode existing inequalities: communities with less access to preventive care arrive sicker and are then deprioritized for acute treatment, compounding disadvantage. Defenders respond that triage decisions are not the appropriate lever for addressing structural inequality; the goal at the bedside must be clinical efficiency, while justice concerns belong upstream in prevention and infrastructure funding. The debate intensifies when scarce resources must be allocated not just among individuals but among communities — when, for example, a limited vaccine supply must be distributed across regions with different infection rates, demographic profiles, and healthcare capacities.",
+      "stem": "The passage presents the utilitarian approach to resource allocation as primarily focused on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "maximizing the total benefit produced, typically measured in life-years saved"
+        },
+        {
+          "label": "B",
+          "text": "directing resources toward the sickest patients who have the most to lose"
+        },
+        {
+          "label": "C",
+          "text": "ensuring that every patient receives equal access to treatment regardless of prognosis"
+        },
+        {
+          "label": "D",
+          "text": "allocating resources based on patients' social contributions and economic productivity"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage states that 'utilitarian frameworks counsel maximizing aggregate benefit — saving the most life-years.' The focus is on producing the greatest total good across all recipients, which tends to favor patients with better prognoses (younger, less comorbid) because treating them yields more expected life-years per unit of resource invested.",
+        "B": "This describes prioritarianism, which the passage identifies as a third distinct approach. Prioritarians hold that 'benefits matter more the worse off the recipient is,' giving priority to the sickest. Utilitarianism prioritizes aggregate outcome maximization, which may favor healthier patients with better prognoses.",
+        "C": "This describes the egalitarian framework, not the utilitarian one. The passage explicitly contrasts these: egalitarians 'insist that every person has an equal claim to care regardless of age, social status, or predicted outcome,' while utilitarians focus on maximizing aggregate benefit.",
+        "D": "The passage does not attribute social-contribution criteria to utilitarianism. While some utilitarian calculations could theoretically incorporate social value, the passage specifically frames the approach in terms of life-years saved, not economic productivity or social worth."
+      },
+      "topic": "Identifying a framework's core principle",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cars_pubhealth_002",
+      "usePrevPassage": true,
+      "stem": "According to the passage, critics of pure utilitarianism argue that maximizing life-years can:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "eliminate all health disparities by directing resources to the most efficient treatments"
+        },
+        {
+          "label": "B",
+          "text": "reinforce existing inequalities because disadvantaged communities arrive sicker and are then deprioritized"
+        },
+        {
+          "label": "C",
+          "text": "violate individual autonomy by forcing patients to accept treatments they do not want"
+        },
+        {
+          "label": "D",
+          "text": "produce identical outcomes to the egalitarian approach in most real-world scenarios"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage presents the opposite concern: critics argue utilitarianism can encode rather than eliminate inequalities. Communities with less preventive care access arrive sicker and receive lower priority under utilitarian triage, 'compounding disadvantage' rather than correcting it.",
+        "B": "Correct. The passage states that 'communities with less access to preventive care arrive sicker and are then deprioritized for acute treatment, compounding disadvantage.' The critics' concern is that utilitarian allocation does not operate on a level playing field — prior inequities in prevention and access shape who presents with better prognoses, so maximizing life-years can systematically disadvantage already-marginalized groups.",
+        "C": "The passage does not raise autonomy or treatment refusal as a criticism of utilitarianism. The critique is specifically about distributional justice — who receives scarce resources — not about forcing treatment on unwilling patients.",
+        "D": "The passage contrasts utilitarianism and egalitarianism as distinct frameworks with different implications. It does not suggest they converge in practice; their disagreement about whether prognosis should influence allocation would produce different distributions of resources."
+      },
+      "topic": "Understanding a critique within the passage",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cars_pubhealth_003",
+      "usePrevPassage": true,
+      "stem": "The defenders of utilitarianism respond to the inequality critique by arguing that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "structural inequality does not actually affect health outcomes in emergency settings"
+        },
+        {
+          "label": "B",
+          "text": "egalitarian allocation would produce worse outcomes for all patients including disadvantaged ones"
+        },
+        {
+          "label": "C",
+          "text": "life-years calculations automatically correct for socioeconomic disparities"
+        },
+        {
+          "label": "D",
+          "text": "triage decisions should focus on clinical efficiency while justice concerns should be addressed through prevention and infrastructure"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The defenders do not deny that structural inequality affects outcomes. Their argument is about the appropriate site for intervention: they argue that 'triage decisions are not the appropriate lever for addressing structural inequality,' implying they acknowledge the inequality exists but believe the bedside is not where to fix it.",
+        "B": "While this is a possible argument, the passage does not attribute it to the defenders. Their stated response is about separating the sites of clinical efficiency and structural justice, not about claiming egalitarian allocation produces universally worse outcomes.",
+        "C": "The passage does not suggest life-years calculations self-correct for disparities. The critics' point is precisely that they do not — communities with worse baseline health get fewer life-years from treatment and thus receive lower priority. Defenders do not dispute this mechanism; they argue it should be addressed elsewhere.",
+        "D": "Correct. The passage states that defenders respond by arguing that 'the goal at the bedside must be clinical efficiency, while justice concerns belong upstream in prevention and infrastructure funding.' This is a division-of-labor argument: acute triage should optimize survival, while equity should be pursued through policies that ensure equal access to preventive care and healthcare infrastructure before emergencies occur."
+      },
+      "topic": "Identifying a counterargument within the text",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cars_pubhealth_004",
+      "usePrevPassage": true,
+      "stem": "The passage suggests that allocating a limited vaccine supply across regions with different infection rates and demographics differs from individual triage decisions primarily because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "regional allocation introduces additional complexity from competing community-level factors beyond individual prognosis"
+        },
+        {
+          "label": "B",
+          "text": "vaccines are less effective than ventilators and therefore require different ethical frameworks"
+        },
+        {
+          "label": "C",
+          "text": "communities, unlike individuals, cannot have rights that factor into allocation decisions"
+        },
+        {
+          "label": "D",
+          "text": "vaccine allocation is purely a logistical problem with no ethical dimensions"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage states that 'the debate intensifies when scarce resources must be allocated not just among individuals but among communities' with 'different infection rates, demographic profiles, and healthcare capacities.' The shift from individual to community allocation introduces competing factors that make the decision more complex: a utilitarian might prioritize high-infection regions, an egalitarian might demand equal per-capita distribution, and a prioritarian might favor the most under-resourced communities.",
+        "B": "The passage does not compare the medical effectiveness of vaccines and ventilators. The distinction is about the level of analysis — individual vs. community — not about the relative efficacy of different medical interventions.",
+        "C": "The passage does not claim communities cannot have rights. The communitarian perspective discussed later in the passage (regarding quarantine) explicitly frames community obligations and protections, suggesting the author recognizes community-level moral considerations.",
+        "D": "The passage explicitly frames vaccine allocation as ethically complex ('the debate intensifies'), not as a mere logistical exercise. The entire passage is about the ethical dimensions of resource allocation."
+      },
+      "topic": "Distinguishing levels of analysis",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cars_pubhealth_005",
+      "usePrevPassage": true,
+      "stem": "In the context of the passage, the term 'cruel arithmetic' most nearly conveys:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "that public health officials are deliberately indifferent to patient suffering"
+        },
+        {
+          "label": "B",
+          "text": "that mathematical models used in resource allocation are technically flawed"
+        },
+        {
+          "label": "C",
+          "text": "the painful reality that finite resources force choices about who receives potentially life-saving care"
+        },
+        {
+          "label": "D",
+          "text": "that utilitarian calculations are morally wrong and should be abandoned entirely"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The phrase does not attribute cruelty to officials' intentions. 'Cruel' modifies the arithmetic itself — the situation, not the decision-makers, is characterized as cruel. The passage presents authorities as facing a difficult problem, not as being callous.",
+        "B": "The passage does not question the technical accuracy of allocation models. 'Cruel arithmetic' refers to the moral weight of the calculations, not mathematical errors. The cruelty lies in the situation (finite resources, overwhelming demand) that necessitates the calculations.",
+        "C": "Correct. The passage introduces 'cruel arithmetic' immediately followed by the explanation that 'ventilators, antivirals, and intensive-care beds are finite, yet demand can spike to many times the supply.' The phrase captures the tension between the cold logic of resource allocation and its human consequences — someone must decide who receives care and, implicitly, who does not. The 'arithmetic' is 'cruel' because it forces quantification of human lives.",
+        "D": "The passage presents utilitarianism as one of several legitimate frameworks, not as morally wrong. 'Cruel arithmetic' is used to describe the broader situation of scarcity, which applies regardless of which ethical framework is adopted."
+      },
+      "topic": "Vocabulary in context — figurative language",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cars_pubhealth_006",
+      "passage": "The tension between individual rights and collective welfare surfaces again in quarantine policy. Compulsory quarantine restricts the liberty of individuals who may not yet be symptomatic, justified by the argument that the probability of transmission poses an unacceptable risk to others. John Stuart Mill's harm principle — the sole ground for restricting individual liberty is to prevent harm to others — has been invoked to support quarantine, but its application is contested. How probable must transmission be before restriction is justified? Must authorities demonstrate that a specific individual is infectious, or is membership in a high-risk group sufficient?\n\nLibertarian critics contend that group-based quarantine violates individual rights by treating people as vectors rather than persons, punishing them for a statistical probability rather than an act. Communitarian defenders counter that membership in a political community entails obligations, including the temporary surrender of movement when doing so protects vulnerable neighbors. Historical precedent is mixed: quarantine measures during the 1918 influenza pandemic varied widely in enforcement and effectiveness, and retrospective analyses suggest that cities implementing earlier, longer interventions experienced lower mortality. Yet these same analyses acknowledge that compliance was uneven and that enforcement disproportionately targeted immigrant and working-class communities, raising questions about whether public health measures can ever be applied without reflecting the power structures they operate within.",
+      "stem": "According to the passage, Mill's harm principle has been invoked in the quarantine debate to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "argue that individuals should never be restricted because liberty is an absolute right"
+        },
+        {
+          "label": "B",
+          "text": "demonstrate that quarantine is always unconstitutional regardless of disease severity"
+        },
+        {
+          "label": "C",
+          "text": "reject all government intervention in public health as paternalistic overreach"
+        },
+        {
+          "label": "D",
+          "text": "justify quarantine on the grounds that potential transmission constitutes harm to others"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Mill's harm principle does not make liberty absolute — it specifically allows restriction when necessary to prevent harm to others. The passage states it 'has been invoked to support quarantine,' not to oppose all restrictions.",
+        "B": "The passage discusses philosophical justification, not constitutional law. Mill's harm principle is a philosophical framework for evaluating when liberty restrictions are morally justified, not a legal standard for constitutionality.",
+        "C": "The harm principle permits government intervention when actions risk harming others. Using it to reject all intervention would be a misapplication; the principle specifically carves out harm-to-others as a legitimate ground for state action.",
+        "D": "Correct. The passage states that Mill's harm principle — 'the sole ground for restricting individual liberty is to prevent harm to others' — has been 'invoked to support quarantine.' The argument is that because asymptomatic individuals may transmit a pathogen, their freedom of movement poses a risk of harm to others, meeting Mill's threshold for justified restriction."
+      },
+      "topic": "Understanding the application of a philosophical principle",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cars_pubhealth_007",
+      "usePrevPassage": true,
+      "stem": "The passage identifies a key unresolved question in applying the harm principle to quarantine as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "whether infectious diseases actually exist or are social constructions"
+        },
+        {
+          "label": "B",
+          "text": "how probable transmission must be before restricting liberty is justified, and whether group membership alone suffices"
+        },
+        {
+          "label": "C",
+          "text": "whether Mill himself would have supported quarantine measures during his lifetime"
+        },
+        {
+          "label": "D",
+          "text": "whether quarantine is more effective than vaccination in all circumstances"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage does not question the reality of infectious diseases. The debate concerns the threshold of evidence and probability required to justify restricting individual liberty, not the existence of pathogens.",
+        "B": "Correct. The passage explicitly poses these questions: 'How probable must transmission be before restriction is justified? Must authorities demonstrate that a specific individual is infectious, or is membership in a high-risk group sufficient?' These are the application problems: the harm principle provides a general framework (restrict liberty to prevent harm), but its deployment requires specifying probability thresholds and whether individual or group-level evidence is required.",
+        "C": "While historically interesting, the passage does not raise questions about Mill's personal views as relevant to the current debate. The focus is on how the principle should be applied, not on its author's hypothetical preferences.",
+        "D": "The passage does not compare the effectiveness of quarantine and vaccination. The questions raised concern the ethical justification for quarantine, not its comparative medical efficacy."
+      },
+      "topic": "Identifying key unresolved questions in a debate",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cars_pubhealth_008",
+      "usePrevPassage": true,
+      "stem": "The libertarian and communitarian positions on quarantine, as presented in the passage, differ fundamentally on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "whether infectious diseases pose genuine health risks"
+        },
+        {
+          "label": "B",
+          "text": "whether governments should exist at all"
+        },
+        {
+          "label": "C",
+          "text": "the scientific evidence for quarantine effectiveness"
+        },
+        {
+          "label": "D",
+          "text": "the relative priority of individual rights versus community obligations"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Neither position disputes the health risks of infectious disease. Their disagreement is about the moral basis for restricting individual liberty in response to those risks — whether individual rights or community welfare takes precedence.",
+        "B": "Libertarians in this context advocate for limited government interference with individual liberty, not for the abolition of government. The passage presents libertarian critics as opposing specific quarantine policies, not as anarchists rejecting all state authority.",
+        "C": "The passage does not present their disagreement as being about empirical evidence. Both sides could accept the same epidemiological data while disagreeing about what it justifies morally. The dispute is normative (about values and rights), not empirical.",
+        "D": "Correct. Libertarians argue that 'group-based quarantine violates individual rights by treating people as vectors rather than persons,' prioritizing individual liberty. Communitarians counter that 'membership in a political community entails obligations, including the temporary surrender of movement when doing so protects vulnerable neighbors,' prioritizing collective welfare. The core disagreement is whether the individual's right to freedom of movement outweighs the community's need for protection, or vice versa."
+      },
+      "topic": "Contrasting philosophical positions",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cars_pubhealth_009",
+      "usePrevPassage": true,
+      "stem": "The passage's discussion of the 1918 influenza pandemic primarily serves to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "definitively prove that quarantine measures are always effective and should be universally implemented"
+        },
+        {
+          "label": "B",
+          "text": "argue that modern public health measures are entirely different from historical ones and cannot be compared"
+        },
+        {
+          "label": "C",
+          "text": "illustrate that historical evidence on quarantine is mixed — supporting effectiveness but also revealing inequitable enforcement"
+        },
+        {
+          "label": "D",
+          "text": "demonstrate that immigrant communities were primarily responsible for spreading the 1918 pandemic"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage explicitly qualifies the historical evidence: 'retrospective analyses suggest that cities implementing earlier, longer interventions experienced lower mortality,' but also notes 'compliance was uneven and enforcement disproportionately targeted immigrant and working-class communities.' This nuanced treatment precludes a definitive proof claim.",
+        "B": "The passage draws on historical evidence precisely because it is relevant to current debates. Introducing the 1918 case as a 'historical precedent' implies continuity and comparability, not discontinuity.",
+        "C": "Correct. The passage uses the 1918 pandemic to show that the historical record is complex: quarantine was associated with reduced mortality (supporting its effectiveness) but was also applied inequitably (raising justice concerns). This dual finding reinforces the passage's broader theme that public health measures operate within and can reflect existing power structures, complicating straightforward endorsements of quarantine policy.",
+        "D": "The passage does not blame immigrant communities for disease spread. It states that enforcement 'disproportionately targeted' these communities, which is a critique of inequitable implementation, not an attribution of disease causation. The passage raises this as a justice concern about how quarantine power was exercised."
+      },
+      "topic": "Understanding the function of historical evidence",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cars_pubhealth_010",
+      "usePrevPassage": true,
+      "stem": "The passage's concluding question — whether public health measures can ever be applied without reflecting the power structures they operate within — suggests the author believes that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the design and implementation of public health interventions are inseparable from the social contexts in which they occur"
+        },
+        {
+          "label": "B",
+          "text": "power structures are irrelevant to public health policy implementation"
+        },
+        {
+          "label": "C",
+          "text": "public health measures should be abandoned entirely because they inevitably produce injustice"
+        },
+        {
+          "label": "D",
+          "text": "only libertarian frameworks can adequately address the relationship between power and public health"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The concluding rhetorical question implies that public health measures inevitably reflect the social and political contexts in which they are deployed. The historical evidence (disproportionate enforcement against marginalized communities) is presented as illustrative of a general pattern. The author does not suggest this makes intervention wrong, but rather that designers and implementers of public health policy must reckon with the power dynamics that shape how measures are actually applied.",
+        "B": "The concluding question directly asserts the relevance of power structures. By asking whether measures 'can ever be applied without reflecting the power structures they operate within,' the author implies these structures are deeply relevant and difficult to separate from policy implementation.",
+        "C": "The passage does not advocate abandoning public health measures. The historical evidence presented shows that quarantine measures reduced mortality, and the tone throughout is one of critical engagement rather than wholesale rejection. The author raises concerns about equitable implementation, not about the legitimacy of intervention itself.",
+        "D": "The passage presents libertarianism as one perspective among several (alongside communitarianism and the harm principle). It does not privilege the libertarian framework as uniquely capable of addressing power dynamics. The concluding question transcends any single philosophical camp and raises a structural concern that all frameworks must confront."
+      },
+      "topic": "Inferring the author's implied position",
+      "difficulty": "hard"
+    }
+  ]
+}

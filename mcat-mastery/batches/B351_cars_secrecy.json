@@ -1,0 +1,246 @@
+{
+  "batch": "B351",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Secrecy, the Two-Person Country & the Price of Opacity",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_secrecy_351_q0",
+      "passage": "At some point in early childhood, usually undated and unwitnessed, a person makes the most consequential discovery of her cognitive life: nobody can see in. The thought she is having now is hers alone unless she chooses otherwise, and the adults who seemed omniscient are, in fact, guessing. The first deliberate secret follows within days, usually trivial, a hidden pebble, a fib about vegetables, and is not trivial at all, because it is the discovery of interiority conducted as an experiment. The child who keeps her first secret has learned that the self has a door, and everything interesting about secrecy follows from the question of when that door should open.\n\nA secret is not merely unknown information; it is information deliberately withheld by someone aware of the withholding, which distinguishes secrecy from its frequent companion, privacy. Privacy marks a zone where others may not look, whatever happens to be in it; secrecy actively conceals particular contents, and can operate inside or outside the private zone. The distinction matters because the two are defended differently: privacy is claimed as a right and needs no justifying content, while a secret invites the question of what, exactly, is being hidden and why. It also matters because keeping is work. A secret must be maintained, guarded in conversation, remembered as unsaid, and the effort is real enough that telling, when it finally comes, arrives as physical relief.\n\nShared, the secret changes function entirely: it stops being a wall and becomes a bond. Two people who hold what no one else holds have founded a small country with a population of two, complete with border, citizenship, and the ever-present possibility of treason. Confidences are the currency of intimacy, spent carefully and expected back, and every friendship deepens by increments of disclosure. But the gift is also a transfer of power, since the receiver leaves the exchange armed, and the teller knows it; part of the bond's strength is precisely the mutual vulnerability, each side holding what could hurt the other, disarmament by symmetry.\n\nInstitutions keep secrets too, and there the calculus turns public. States classify, firms guard formulas, and the defenses are not frivolous: diplomacy conducted in daylight becomes theater, and some knowledge is genuinely dangerous in circulation. The trouble is dynamical rather than principled. Institutional secrecy ratchets: classifying a document is cheap, reflexive, and safe for the classifier, while unclassifying one is slow, deliberate, and risky, so the stock of secrets grows by default, the stamp becomes a habit rather than a judgment, and oversight starves on a diet of redactions. A secrecy that begins as protection matures, reliably, into a management style.\n\nBetween persons, the hard cases are not about keeping but about conflicting obligations. The promised secret binds; the harmful secret indicts; and the two categories overlap in exactly the cases that matter, the confided abuse, the concealed danger, the fraud shown to the employee who signed a confidentiality agreement on her first day. Whistleblowing is the institutional form of the dilemma, the moment when the duty to tell is held to defeat the promise to keep, and its perennial controversy shows that no formula settles the ranking; each case prices loyalty against harm by hand.\n\nAgainst all of this now stands a culture of transparency, whose instinct is that concealment as such is suspect and that sunlight should reach everything. The instinct has victories to its credit, but as a universal principle it misreads what opacity does. Deliberation needs drafts that die unseen; selves need thoughts that are tried on and discarded without audit; and a demand for total visibility does not produce honesty so much as performance, everyone speaking for the record all the time. Some darkness is not hiding anything. It is where the unfinished lives.\n\nWhich returns the matter to the child and her pebble. The discovery that minds are opaque is simultaneously the discovery that honesty is a choice, since only a creature who could conceal can be credited with disclosing. Trust exists because we cannot check; the word is accepted where the interior cannot be audited, and this is not a defect in human arrangements but their foundation. A world without secrets would have no need of trust, and it takes only a moment's reflection to see that such a world would not be more honest. It would be less human.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Secrecy is the exercise of the mind's opacity, a tool that bonds and endangers by turns, and its possibility is what makes honesty a choice and trust foundational."
+        },
+        {
+          "label": "B",
+          "text": "Because institutional secrecy reliably and predictably matures into a self-serving management style, existing classification systems should be dismantled outright in favor of full public transparency."
+        },
+        {
+          "label": "C",
+          "text": "The distinction between secrecy and privacy shows that secrets, unlike private matters, always require moral justification."
+        },
+        {
+          "label": "D",
+          "text": "Shared secrets create intimacy, so friendships should be measured by the volume of confidences exchanged."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage runs from the child's discovery that nobody can see in, through the secret's work of keeping, its conversion into the two-person bond, the institutional ratchet, and the conflicting obligations, to the closing argument: opacity makes honesty a choice, trust exists because we cannot check, and a world without secrets would be less human, not more honest.",
+        "B": "This choice adopts the transparency instinct the sixth paragraph corrects. The ratchet critique is real, but the passage defends institutional secrecy's non-frivolous grounds and insists some opacity is constitutive, drafts, unaudited thoughts, so dismantlement is the caricature, not the conclusion.",
+        "C": "This choice sharpens the second paragraph's contrast into a rule it does not state. A secret invites the question of what is hidden, the passage says, while privacy needs no justifying content; inviting a question is not requiring justification, and the passage treats many kept secrets as innocent.",
+        "D": "This choice converts the currency metaphor into an accounting scheme. Confidences deepen friendship by increments, the third paragraph holds, but the bond rests on mutual vulnerability and care in the spending, and nothing proposes volume as intimacy's measure."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_secrecy_351_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the fourth paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "argue that state and corporate secrets differ fundamentally in their moral standing."
+        },
+        {
+          "label": "B",
+          "text": "demonstrate that diplomatic secrecy has historically prevented considerably more international wars than its harshest critics have ever claimed it caused."
+        },
+        {
+          "label": "C",
+          "text": "concede that institutional secrecy ultimately protects nothing of value and persists only as entrenched bureaucratic habit alone."
+        },
+        {
+          "label": "D",
+          "text": "grant institutional secrecy's genuine defenses while diagnosing its dynamical flaw, the ratchet growing secrets by default."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice invents a ranking between the paragraph's two examples. States classify and firms guard formulas as parallel illustrations of institutional keeping; no moral distinction between them is drawn or needed for the argument.",
+        "B": "This choice converts an illustration into a historical tally. Diplomacy in daylight becomes theater is offered as one non-frivolous defense; the paragraph counts no wars and adjudicates no history.",
+        "C": "This choice erases the paragraph's opening concession. The defenses are not frivolous, the text says plainly, and some knowledge is genuinely dangerous in circulation; the critique is that protection matures into management style, not that protection was never real.",
+        "D": "Correct. The paragraph moves in the passage's characteristic two steps: the defenses are not frivolous, daylight diplomacy as theater, dangerous knowledge, and then the trouble is dynamical rather than principled, classifying cheap and reflexive, unclassifying slow and risky, so secrets grow by default, the stamp becomes habit, and oversight starves. Concession, then mechanism."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_secrecy_351_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The description of two secret-sharers as having founded a small country with a population of two, in the third paragraph, most nearly conveys that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "close friendships built primarily on exchanged confidences tend over time to isolate both of their members from wider social circles entirely."
+        },
+        {
+          "label": "B",
+          "text": "a shared secret creates an exclusive bounded relation, membership defined by the knowledge held, betrayal always possible from within."
+        },
+        {
+          "label": "C",
+          "text": "the earliest documented secret societies deliberately modeled their internal structures on the national governments of their day and structures."
+        },
+        {
+          "label": "D",
+          "text": "secrets shared between two people are more secure than those held by institutions."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice mistakes exclusivity of knowledge for social isolation. The country's border encloses the secret, not the friends' lives; nothing suggests sharers withdraw from wider circles, only that this territory admits two.",
+        "B": "Correct. The metaphor's parts are itemized in the sentence itself: complete with border, citizenship, and the ever-present possibility of treason. The border is the knowledge's edge, citizenship is holding what no one else holds, and treason names betrayal from inside, the disclosure only a member could commit, which is why the paragraph grounds the bond in mutual vulnerability.",
+        "C": "This choice literalizes the figure into institutional history. Secret societies receive no mention, and the country is a two-person intimacy, not an organizational chart borrowed from statecraft.",
+        "D": "This choice extracts a security comparison the paragraph never makes. The institutional discussion arrives in the next paragraph on different terms, the ratchet, not relative leak-proofing, and the two-person country is about what sharing creates, not how well it holds."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_secrecy_351_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to the second paragraph, secrecy differs from privacy in that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "privacy fundamentally protects individual persons, their homes, and their families, while secrecy protects only institutions and their internal operations."
+        },
+        {
+          "label": "B",
+          "text": "secrecy actively conceals particular contents and invites the question of what is hidden; privacy marks a zone needing no justifying content."
+        },
+        {
+          "label": "C",
+          "text": "secrets are always temporary, while privacy is a permanent condition."
+        },
+        {
+          "label": "D",
+          "text": "privacy requires legal recognition, while secrecy is purely informal."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice assigns the two concepts to different owners. Both persons and institutions appear keeping secrets in the passage, and privacy's zone belongs to anyone; the distinction drawn is structural, concealment of contents versus a protected zone, not a division of clientele.",
+        "B": "Correct. The paragraph draws the line twice over: privacy marks a zone where others may not look, whatever happens to be in it, while secrecy actively conceals particular contents; and the two are defended differently, privacy claimed as a right needing no justifying content, the secret inviting the question of what, exactly, is being hidden and why.",
+        "C": "This choice imports a time dimension the paragraph never uses. Neither permanence nor expiry figures in the distinction; a secret can be kept for life and a private zone can be surrendered tomorrow.",
+        "D": "This choice converts claimed as a right into a statutory requirement. The paragraph describes how each is defended in argument, not their legal machinery, and secrecy operates inside formal institutions as readily as outside them."
+      },
+      "topic": "Perspective Attribution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_secrecy_351_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A new agency director makes classification the default for all internal documents, reasoning that staff can always request declassification later. Based on the fourth paragraph, the author would most likely predict that the policy will:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "succeed exactly as intended, since the genuine dangers of freely circulating knowledge justify defaulting toward institutional caution."
+        },
+        {
+          "label": "B",
+          "text": "fail only if the agency's declassification office is understaffed."
+        },
+        {
+          "label": "C",
+          "text": "engage the ratchet at full force, growing the stock of secrets by default while the slow path back makes the stamp a habit."
+        },
+        {
+          "label": "D",
+          "text": "improve deliberation, since the sixth paragraph establishes that drafts need to die unseen."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice stretches the paragraph's concession over its critique. Dangerous knowledge justifies some classification as judgment; the director's policy removes judgment entirely, installing the reflex the paragraph identifies as the mechanism of decay.",
+        "B": "This choice reduces a structural asymmetry to a staffing problem. Unclassifying is slow, deliberate, and risky for whoever attempts it, the paragraph says; the ratchet operates through incentives, not headcount, and no office size repairs a default that manufactures secrets faster than any review can price them.",
+        "C": "Correct. The policy is the ratchet legislated: classifying made cheap, reflexive, and safe, universal by default, while the return path stays slow and risky, request and await. The paragraph's forecast follows directly, the stock of secrets grows by default, the stamp becomes a habit rather than a judgment, oversight starves on redactions, and protection matures into a management style.",
+        "D": "This choice borrows the sixth paragraph's defense of opacity for the wrong patient. Drafts dying unseen protects deliberation's unfinished interior; blanket classification of all documents is the institutional reflex the fourth paragraph diagnoses, not the constitutive darkness the sixth defends."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_secrecy_351_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the third paragraph's claim that confidences function as the currency of intimacy, deepening friendship by increments of disclosure?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Studies finding closeness tracking shared time and activity while unmoved by disclosure, deep confidences to strangers producing no bond."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that some longstanding friendships fully survive even the outright betrayal of an important and damaging confidence between the parties."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that the frequency of confiding varies substantially across cultures."
+        },
+        {
+          "label": "D",
+          "text": "Surveys finding that most people deeply regret at least one important personal secret they have confided to a close friend over the course of their lives."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The claim makes disclosure intimacy's currency, friendship deepening by its increments. Closeness tracking time and shared activity while indifferent to disclosure would strip the currency of its purchasing power, and deep confidences to strangers yielding no bond would show the spending occurring without the intimacy, the mechanism severed at both ends.",
+        "B": "This choice tests the bond's resilience, not its source. Friendships surviving treason says nothing about whether confidences built the closeness in the first place; a strong currency can absorb a counterfeit incident.",
+        "C": "This choice documents variation in the practice's rate, which the claim accommodates easily; currencies circulate at different velocities in different economies, and cultural variation in confiding leaves its intimacy-building function untested.",
+        "D": "This choice records regret about particular expenditures, which presupposes the currency's power rather than undermining it; secrets are regretted precisely because telling them transferred something real."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_secrecy_351_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the fourth paragraph's claim that institutional secrecy ratchets, growing by default rather than by judgment?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that intelligence budgets have grown faster than inflation in most decades."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that leaked classified documents, once carefully examined by independent expert reviewers, rarely cause the concrete national-security harms their original classification confidently predicted."
+        },
+        {
+          "label": "C",
+          "text": "Surveys finding that most career officials sincerely believe their own agencies classify documents appropriately and with restraint in every case."
+        },
+        {
+          "label": "D",
+          "text": "Audits finding classification volumes climbing, most items failing the classifiers' own criteria on review, declassification queues decades behind, no one sanctioned for over-classifying."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice tracks spending, which grows for many reasons, personnel, technology, mission creep, and budget curves cannot distinguish secrets accumulated by judgment from secrets accumulated by reflex, the distinction the ratchet claim turns on.",
+        "B": "This choice bears on whether individual classifications were warranted, a related complaint, but harmless leaks are compatible with a careful system that errs conservatively; the ratchet is about the asymmetry of the mechanism, not the accuracy of particular stamps.",
+        "C": "This choice measures the classifiers' self-assessment, which the ratchet predicts would be favorable, the stamp having become habit precisely because it feels like prudence from inside; official confidence is the phenomenon, not evidence about it.",
+        "D": "Correct. The claim's parts are each caught in the act: volumes climbing yearly is the stock growing; the overwhelming share failing the system's own criteria shows stamping without judgment; decades-long declassification queues are the slow, risky return path; and the absence of any sanction for over-classifying is the cheapness and safety that makes the reflex rational. The ratchet documented tooth by tooth."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

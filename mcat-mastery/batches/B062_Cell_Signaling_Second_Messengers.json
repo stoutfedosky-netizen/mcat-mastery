@@ -1,0 +1,338 @@
+{
+  "batch": "B062",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Cell Signaling & Second Messengers",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "bb_signal_001",
+      "passage": "A pharmacologist investigates the signaling cascade activated when epinephrine binds to β₂-adrenergic receptors on bronchial smooth muscle cells. She observes that receptor activation leads to Gαs dissociation, adenylyl cyclase activation, cAMP production, and protein kinase A (PKA) activation, ultimately causing smooth muscle relaxation and bronchodilation. She also studies a parallel pathway in liver hepatocytes where glucagon activates the same Gαs-cAMP-PKA cascade but produces a different cellular outcome: glycogen breakdown. She notes that phosphodiesterases (PDEs) degrade cAMP and terminate the signal.",
+      "stem": "Epinephrine binding to the β₂-adrenergic receptor activates adenylyl cyclase through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a Gαs protein that exchanges GDP for GTP and dissociates from Gβγ to stimulate adenylyl cyclase"
+        },
+        {
+          "label": "B",
+          "text": "a Gαi protein that inhibits adenylyl cyclase, reducing cAMP"
+        },
+        {
+          "label": "C",
+          "text": "direct phosphorylation of adenylyl cyclase by the receptor's intrinsic kinase domain"
+        },
+        {
+          "label": "D",
+          "text": "release of intracellular calcium stores, which activates adenylyl cyclase"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. β₂-adrenergic receptors are Gαs-coupled GPCRs. Upon ligand binding, the receptor catalyzes GDP→GTP exchange on Gαs, causing Gαs-GTP to dissociate from Gβγ. Gαs-GTP then directly activates adenylyl cyclase, which converts ATP to cAMP. The intrinsic GTPase activity of Gαs eventually hydrolyzes GTP→GDP, terminating the signal. This is the canonical stimulatory G-protein pathway.",
+        "B": "Gαi inhibits adenylyl cyclase and decreases cAMP — the opposite of what β₂ stimulation does. Gαi-coupled receptors include α₂-adrenergic and muscarinic M₂ receptors. The β₂ receptor signals through Gαs (stimulatory), not Gαi (inhibitory).",
+        "C": "β₂-adrenergic receptors are GPCRs (seven-transmembrane receptors) and lack intrinsic kinase activity. Receptor tyrosine kinases (RTKs) such as the insulin and EGF receptors have kinase domains, but GPCRs signal through heterotrimeric G proteins.",
+        "D": "Calcium release from intracellular stores is mediated by the Gαq-PLCβ-IP₃ pathway, not the Gαs-adenylyl cyclase pathway. IP₃ binds IP₃ receptors on the ER to release Ca²⁺. The β₂-adrenergic receptor activates cAMP production, not calcium release."
+      },
+      "topic": "GPCR Signaling / Gαs-cAMP Pathway",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_signal_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The same Gαs-cAMP-PKA cascade produces bronchodilation in airway smooth muscle and glycogenolysis in hepatocytes. The different outcomes in different cell types are best explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "differences in the downstream PKA substrates expressed in each cell type, so the same kinase phosphorylates different targets"
+        },
+        {
+          "label": "B",
+          "text": "the cAMP molecule having a different chemical structure in each cell type"
+        },
+        {
+          "label": "C",
+          "text": "epinephrine binding to different receptor classes in each tissue"
+        },
+        {
+          "label": "D",
+          "text": "hepatocytes using a completely different second messenger system unrelated to cAMP"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "cAMP is chemically identical in all cell types — 3',5'-cyclic adenosine monophosphate. Second messengers do not change structure between tissues. Specificity comes from the effectors they activate, not from the messenger molecule itself.",
+        "A": "Correct. Signal specificity arises from cell-type-specific expression of downstream effectors. In bronchial smooth muscle, PKA phosphorylates myosin light-chain kinase (MLCK) and ion channels, causing relaxation. In hepatocytes, PKA phosphorylates phosphorylase kinase, which activates glycogen phosphorylase to break down glycogen. The upstream cascade (receptor → Gs → AC → cAMP → PKA) is identical — the tissue-specific response depends on which PKA substrates are present.",
+        "C": "While epinephrine does bind different receptor subtypes in different tissues (β₂ in airways, β₂ and α₁ in liver), the passage specifically describes the same Gαs-cAMP-PKA cascade operating in both tissues. The question asks why the same cascade produces different outputs.",
+        "D": "The passage explicitly states that glucagon activates the same Gαs-cAMP-PKA cascade in hepatocytes. Hepatocytes do use cAMP as the second messenger for glycogenolysis — the classic glucagon/epinephrine signaling pathway in liver relies on cAMP-PKA."
+      },
+      "topic": "Signal Specificity / Tissue-Specific Responses",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_signal_003",
+      "passage": null,
+      "stem": "Phospholipase C (PLC) cleaves phosphatidylinositol 4,5-bisphosphate (PIP₂) to produce which two second messengers?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cAMP and Ca²⁺"
+        },
+        {
+          "label": "B",
+          "text": "DAG and cGMP"
+        },
+        {
+          "label": "C",
+          "text": "IP₃ and cAMP"
+        },
+        {
+          "label": "D",
+          "text": "IP₃ and DAG"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "IP₃ is correct as one product, but cAMP is produced by adenylyl cyclase, not PLC. PLC generates IP₃ and DAG from PIP₂.",
+        "A": "cAMP is produced by adenylyl cyclase (Gαs pathway), not PLC. Ca²⁺ is released downstream of IP₃ but is not a direct product of PIP₂ cleavage. PLC produces IP₃ and DAG.",
+        "B": "DAG is correct as one product, but cGMP is produced by guanylyl cyclase (activated by nitric oxide or natriuretic peptides), not by PLC cleavage. The two PLC products are IP₃ and DAG.",
+        "D": "Correct. PLC hydrolyzes PIP₂ into two second messengers: inositol 1,4,5-trisphosphate (IP₃), which is water-soluble and diffuses through the cytosol to bind IP₃ receptors on the ER and release stored Ca²⁺, and diacylglycerol (DAG), which remains membrane-bound and activates protein kinase C (PKC). This dual-messenger system is downstream of Gαq-coupled receptors."
+      },
+      "topic": "PLC Pathway / IP₃ and DAG",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_signal_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Phosphodiesterases (PDEs) terminate cAMP signaling by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "preventing ATP from entering the cell"
+        },
+        {
+          "label": "B",
+          "text": "dephosphorylating PKA substrates to reverse their activation"
+        },
+        {
+          "label": "C",
+          "text": "hydrolyzing cAMP to 5'-AMP, reducing the cAMP concentration and inactivating PKA"
+        },
+        {
+          "label": "D",
+          "text": "blocking the β₂-adrenergic receptor from binding epinephrine"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. PDEs cleave the 3',5'-phosphodiester bond in cAMP, converting it to inactive 5'-AMP. This reduces intracellular cAMP concentration, causing the regulatory subunits of PKA to rebind the catalytic subunits, inactivating the kinase. PDE inhibitors (caffeine, theophylline, sildenafil for cGMP) prolong second messenger signaling by preventing this degradation.",
+        "A": "ATP enters the cell through metabolic pathways (glucose oxidation, oxidative phosphorylation) and is the substrate for adenylyl cyclase. PDEs do not block ATP entry — they degrade the cAMP product.",
+        "B": "Dephosphorylation of PKA substrates is performed by protein phosphatases (e.g., PP1), not PDEs. Phosphatases remove the phosphate groups that PKA adds. PDEs specifically degrade the cyclic nucleotide second messenger.",
+        "D": "Receptor desensitization is mediated by β-arrestin and GRK (G-protein-coupled receptor kinase), not PDEs. PDEs act downstream at the level of the second messenger, not at the receptor."
+      },
+      "topic": "Phosphodiesterase / cAMP Degradation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_signal_005",
+      "passage": null,
+      "stem": "Receptor tyrosine kinases (RTKs) differ from G-protein-coupled receptors (GPCRs) in that RTKs:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "have seven transmembrane domains and signal through heterotrimeric G proteins"
+        },
+        {
+          "label": "B",
+          "text": "are exclusively found in prokaryotic organisms"
+        },
+        {
+          "label": "C",
+          "text": "always produce cAMP as their primary second messenger"
+        },
+        {
+          "label": "D",
+          "text": "dimerize upon ligand binding and autophosphorylate tyrosine residues on their intracellular domains, creating docking sites for signaling proteins"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "RTKs are found in eukaryotes, particularly metazoans. Prokaryotes primarily use two-component signaling systems (histidine kinase + response regulator) rather than tyrosine kinase receptors.",
+        "A": "Seven transmembrane domains and heterotrimeric G proteins describe GPCRs, not RTKs. RTKs have a single transmembrane helix, an extracellular ligand-binding domain, and an intracellular tyrosine kinase domain.",
+        "C": "cAMP is the primary second messenger of the Gαs-coupled GPCR pathway. RTKs typically signal through the Ras-MAPK cascade, PI3K-Akt pathway, or PLCγ-IP₃/DAG pathway, not through cAMP.",
+        "D": "Correct. RTKs (e.g., insulin receptor, EGF receptor, PDGF receptor) are single-pass transmembrane proteins that dimerize upon ligand binding. Dimerization brings the intracellular kinase domains into proximity, enabling cross-phosphorylation (trans-autophosphorylation) of tyrosine residues. These phosphotyrosines serve as docking sites for SH2-domain-containing proteins (Grb2, PLCγ, PI3K), activating downstream cascades including Ras-MAPK and PI3K-Akt."
+      },
+      "topic": "Receptor Tyrosine Kinases / RTK vs GPCR",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_signal_006",
+      "passage": null,
+      "stem": "Signal amplification in the GPCR-cAMP pathway occurs because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "each ligand-receptor complex can only activate one G protein before being internalized"
+        },
+        {
+          "label": "B",
+          "text": "one receptor activates many G proteins, each G protein activates one adenylyl cyclase producing many cAMP molecules, and each PKA phosphorylates many substrates — creating a multiplicative cascade"
+        },
+        {
+          "label": "C",
+          "text": "cAMP is amplified by being converted to a larger molecule"
+        },
+        {
+          "label": "D",
+          "text": "the receptor itself phosphorylates thousands of downstream targets directly"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Signal amplification is built into the cascade architecture: one active receptor can activate ~100 Gαs molecules during its active lifetime; each Gαs activates one adenylyl cyclase, but each cyclase produces ~1000 cAMP molecules; cAMP activates PKA, and each PKA catalytic subunit can phosphorylate many substrate molecules. This creates exponential amplification — one epinephrine molecule can ultimately cause the release of millions of glucose molecules from glycogen.",
+        "A": "A single active receptor can activate many G proteins sequentially — the receptor remains active as long as the ligand is bound, catalyzing GDP→GTP exchange on multiple G proteins. This is the first amplification step in the cascade.",
+        "C": "cAMP is not converted to a larger molecule. Amplification occurs through the enzymatic cascade (one enzyme producing many product molecules), not through chemical growth of the messenger.",
+        "D": "GPCRs do not have intrinsic kinase activity and cannot directly phosphorylate downstream targets. The phosphorylation is performed by PKA, which is several steps downstream of the receptor."
+      },
+      "topic": "Signal Amplification / GPCR Cascade",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_signal_007",
+      "passage": null,
+      "stem": "Nitric oxide (NO) is an unusual signaling molecule because it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "binds to a cell-surface receptor and activates a G protein"
+        },
+        {
+          "label": "B",
+          "text": "requires a membrane transporter to enter target cells"
+        },
+        {
+          "label": "C",
+          "text": "is a gas that diffuses freely across cell membranes and activates soluble guanylyl cyclase to produce cGMP"
+        },
+        {
+          "label": "D",
+          "text": "is stored in vesicles and released by exocytosis like a classical neurotransmitter"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. NO is a small, lipophilic, gaseous radical synthesized by nitric oxide synthase (NOS) from arginine. It diffuses freely across membranes without needing a receptor or transporter. In target cells, NO binds the heme group of soluble guanylyl cyclase (sGC), activating it to produce cGMP from GTP. cGMP activates protein kinase G (PKG), which causes smooth muscle relaxation (vasodilation). NO is short-lived (~5 seconds) due to rapid reaction with oxygen and hemoglobin.",
+        "A": "NO does not bind a cell-surface receptor — it passes directly through the membrane. Cell-surface receptor binding is characteristic of peptide hormones and other hydrophilic ligands that cannot cross the lipid bilayer.",
+        "B": "NO is a small nonpolar gas that crosses membranes by simple diffusion. No transporter is needed. This membrane permeability is what makes NO effective as a paracrine signal — it rapidly reaches nearby cells.",
+        "D": "NO is not stored in vesicles. It is synthesized on demand (NO synthase is activated by Ca²⁺-calmodulin) and immediately diffuses to target cells. Its instability (half-life ~5 seconds) makes storage impossible."
+      },
+      "topic": "Nitric Oxide / cGMP Signaling",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_signal_008",
+      "passage": null,
+      "stem": "Which of the following correctly describes the role of Ca²⁺ as a second messenger?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ca²⁺ levels are maintained high in the cytoplasm at rest to keep signaling proteins constitutively active"
+        },
+        {
+          "label": "B",
+          "text": "Ca²⁺ is released from the ER in response to IP₃ and activates downstream effectors including calmodulin, PKC, and calcineurin"
+        },
+        {
+          "label": "C",
+          "text": "Ca²⁺ is synthesized de novo in the cytoplasm upon receptor activation"
+        },
+        {
+          "label": "D",
+          "text": "Ca²⁺ signaling only occurs in neurons and has no role in other cell types"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Resting cytoplasmic [Ca²⁺] is maintained very low (~100 nM) by SERCA pumps (ER uptake) and plasma membrane Ca²⁺-ATPases. Upon IP₃ binding to ER receptors, Ca²⁺ floods the cytoplasm (rising to ~1 µM), activating calmodulin (which activates CaM kinases and calcineurin), PKC (in concert with DAG), synaptotagmin (triggering vesicle fusion), and many other effectors. The signal is terminated by Ca²⁺ reuptake into the ER and extrusion from the cell.",
+        "A": "Resting cytoplasmic Ca²⁺ is maintained very low, not high. The ~10,000-fold gradient between ER/extracellular (~mM) and cytoplasm (~100 nM) is essential — it allows small releases to produce large fold-changes, enabling sensitive signaling. Constitutively high Ca²⁺ would prevent signal discrimination.",
+        "C": "Ca²⁺ is an element and cannot be synthesized de novo. It is stored in the ER (and mitochondria) and enters the cytoplasm through IP₃ receptor channels, ryanodine receptors, or voltage-gated Ca²⁺ channels in the plasma membrane.",
+        "D": "Ca²⁺ signaling is universal across cell types. In muscle, Ca²⁺ triggers contraction (troponin C in skeletal, calmodulin in smooth). In secretory cells, Ca²⁺ triggers exocytosis. In immune cells, Ca²⁺-calcineurin activates NFAT transcription. In eggs, Ca²⁺ waves prevent polyspermy."
+      },
+      "topic": "Calcium Signaling / IP₃-Ca²⁺",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_signal_009",
+      "passage": null,
+      "stem": "A Ras GTPase-activating protein (GAP) terminates Ras signaling by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "promoting GDP→GTP exchange on Ras, keeping it active"
+        },
+        {
+          "label": "B",
+          "text": "stimulating Ras GTPase activity to hydrolyze GTP→GDP, returning Ras to its inactive state"
+        },
+        {
+          "label": "C",
+          "text": "degrading Ras protein through the proteasome"
+        },
+        {
+          "label": "D",
+          "text": "blocking the downstream MAPK cascade without affecting Ras itself"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Ras is a molecular switch: active when GTP-bound, inactive when GDP-bound. Ras has intrinsic GTPase activity, but it is very slow. GAPs dramatically accelerate GTP hydrolysis (by ~10⁵-fold), converting Ras-GTP → Ras-GDP and terminating signaling. Mutations that impair Ras GTPase activity or GAP binding (common at codons 12, 13, 61) lock Ras in the active state, causing constitutive MAPK signaling — a major oncogenic mechanism in ~30% of human cancers.",
+        "A": "GDP→GTP exchange is promoted by guanine nucleotide exchange factors (GEFs), such as SOS (Son of Sevenless), not GAPs. GEFs activate Ras; GAPs inactivate it. They are opposing regulators of the Ras switch.",
+        "C": "GAPs regulate Ras activity through GTP hydrolysis, not through protein degradation. Ras turnover via the proteasome does occur but is a separate process from signal termination by GAPs.",
+        "D": "GAPs act directly on Ras, not downstream of it. They accelerate Ras's intrinsic GTPase activity. Blocking MAPK without affecting Ras would require a different type of inhibitor."
+      },
+      "topic": "Ras GTPase / GAP Regulation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_signal_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Caffeine prolongs the effects of epinephrine signaling because caffeine:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "directly activates the β₂-adrenergic receptor"
+        },
+        {
+          "label": "B",
+          "text": "stimulates adenylyl cyclase to produce more cAMP"
+        },
+        {
+          "label": "C",
+          "text": "inhibits protein phosphatases, preventing dephosphorylation of PKA substrates"
+        },
+        {
+          "label": "D",
+          "text": "inhibits phosphodiesterase, slowing the degradation of cAMP and keeping PKA active longer"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Caffeine is a nonselective phosphodiesterase inhibitor. By blocking PDE-mediated hydrolysis of cAMP → 5'-AMP, caffeine allows cAMP to accumulate and persist, prolonging PKA activation. This is why caffeine potentiates sympathetic nervous system effects — the cAMP signal lasts longer than it would without PDE inhibition. Other PDE inhibitors include theophylline (asthma treatment), milrinone (heart failure), and sildenafil (PDE5 inhibitor for cGMP in erectile tissue).",
+        "A": "Caffeine does not bind the β₂-adrenergic receptor. It acts intracellularly by inhibiting PDEs and by antagonizing adenosine receptors (A₁, A₂A), which is how it promotes wakefulness. It does not mimic or potentiate receptor binding.",
+        "B": "Caffeine does not stimulate adenylyl cyclase directly. Adenylyl cyclase is activated by Gαs-GTP downstream of receptor activation. Caffeine acts downstream of cAMP production, at the level of cAMP degradation.",
+        "C": "Caffeine's primary mechanism is PDE inhibition, not phosphatase inhibition. Okadaic acid and calyculin A are examples of protein phosphatase inhibitors, but caffeine does not share this mechanism."
+      },
+      "topic": "PDE Inhibitors / Caffeine Mechanism",
+      "difficulty": "Easy"
+    }
+  ]
+}

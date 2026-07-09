@@ -1,0 +1,338 @@
+{
+  "batch": "B082",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Digestive System & Nutrition",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_digest_001",
+      "passage": "A gastroenterologist evaluates a patient with malabsorption. She reviews the anatomy of the GI tract and the roles of digestive enzymes. In the mouth, salivary amylase begins starch digestion. In the stomach, pepsin (activated from pepsinogen by HCl at pH ~2) digests proteins. The pancreas secretes bicarbonate (neutralizing gastric acid) and enzymes (trypsin, chymotrypsin, lipase, pancreatic amylase) into the duodenum. Bile salts from the liver emulsify fats. Absorption occurs primarily in the small intestine (duodenum, jejunum, ileum), with the large intestine absorbing water and electrolytes.",
+      "stem": "Pepsinogen is converted to active pepsin by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "HCl in the stomach — the low pH (1.5-3.5) cleaves the inhibitory propeptide from pepsinogen, producing active pepsin, which then autocatalytically activates more pepsinogen"
+        },
+        {
+          "label": "B",
+          "text": "trypsin in the duodenum"
+        },
+        {
+          "label": "C",
+          "text": "salivary amylase in the mouth"
+        },
+        {
+          "label": "D",
+          "text": "bile salts in the duodenum"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Chief cells in the gastric glands secrete pepsinogen (an inactive zymogen). Gastric parietal cells secrete HCl, creating a highly acidic environment (pH 1.5-3.5). This low pH induces a conformational change in pepsinogen, cleaving the inhibitory N-terminal peptide and producing active pepsin. Pepsin then autocatalytically activates more pepsinogen (positive feedback). Pepsin is an endopeptidase optimally active at pH 2 that cleaves proteins preferentially at hydrophobic residues. Secretion as an inactive zymogen protects the chief cells from self-digestion.",
+        "B": "Trypsin activates other pancreatic zymogens (chymotrypsinogen, proelastase, procarboxypeptidase) in the duodenum, not pepsinogen in the stomach. Trypsin itself is activated from trypsinogen by enterokinase (enteropeptidase) on the duodenal brush border.",
+        "C": "Salivary amylase digests starch (α-1,4-glycosidic bonds), not proteins. It functions at oral pH (~6.8) and is inactivated by gastric acid upon reaching the stomach.",
+        "D": "Bile salts emulsify dietary fats (increasing surface area for lipase action) but do not activate pepsinogen. Bile salts function in the duodenum, not the stomach."
+      },
+      "topic": "Pepsinogen Activation / Gastric Acid",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_digest_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The pancreas secretes bicarbonate into the duodenum to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "acidify the duodenal contents further for continued pepsin activity"
+        },
+        {
+          "label": "B",
+          "text": "neutralize gastric acid, raising the pH to ~7-8, which is optimal for pancreatic enzyme activity and protects the duodenal mucosa from acid damage"
+        },
+        {
+          "label": "C",
+          "text": "digest carbohydrates directly"
+        },
+        {
+          "label": "D",
+          "text": "stimulate HCl secretion by parietal cells"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Acidic chyme (pH ~2) entering the duodenum stimulates S cells to release secretin, which signals pancreatic ductal cells to secrete HCO₃⁻-rich fluid. This neutralizes the acid (pH rises to 7-8), providing the alkaline environment needed for pancreatic enzymes (trypsin optimum pH ~8, lipase ~8, amylase ~7). Neutralization also protects the duodenal epithelium, which lacks the thick mucus barrier of the stomach. Failure to neutralize (as in Zollinger-Ellison syndrome) causes duodenal ulceration.",
+        "A": "Pepsin is optimally active at pH 2 and is irreversibly denatured at pH > 6. Pancreatic bicarbonate inactivates pepsin by raising pH — it does not support pepsin activity. Protein digestion in the duodenum is continued by trypsin and chymotrypsin (which work at alkaline pH).",
+        "C": "Bicarbonate is a buffer, not a digestive enzyme. Carbohydrate digestion in the duodenum is performed by pancreatic amylase, not bicarbonate.",
+        "D": "Bicarbonate counteracts HCl rather than stimulating its production. HCl secretion is stimulated by gastrin, histamine, and acetylcholine acting on parietal cells in the stomach."
+      },
+      "topic": "Pancreatic Bicarbonate / pH Neutralization",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_digest_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Trypsinogen is activated to trypsin by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "HCl in the stomach"
+        },
+        {
+          "label": "B",
+          "text": "pepsin in the stomach"
+        },
+        {
+          "label": "C",
+          "text": "enterokinase (enteropeptidase) on the duodenal brush border — trypsin then activates other pancreatic zymogens in a cascade"
+        },
+        {
+          "label": "D",
+          "text": "bile salts in the gallbladder"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Trypsinogen (secreted by pancreatic acinar cells) is activated by enterokinase (enteropeptidase), a serine protease anchored in the duodenal brush border membrane. Enterokinase cleaves a hexapeptide from trypsinogen, producing active trypsin. Trypsin then activates the remaining pancreatic zymogens: chymotrypsinogen → chymotrypsin, proelastase → elastase, procarboxypeptidase → carboxypeptidase, and procolipase → colipase (which helps lipase function at the lipid-water interface). Trypsin also autocatalytically activates more trypsinogen. This cascade ensures that powerful proteases are activated only in the duodenal lumen, preventing pancreatic self-digestion.",
+        "A": "HCl activates pepsinogen in the stomach, not trypsinogen. Trypsinogen activation occurs in the alkaline duodenal environment (pH 7-8).",
+        "B": "Pepsin functions in the stomach and is inactivated by the alkaline duodenal pH. It does not activate pancreatic zymogens.",
+        "D": "Bile salts emulsify fats but do not activate proteolytic zymogens. Bile salt release is stimulated by cholecystokinin (CCK), which also stimulates pancreatic enzyme secretion, but the activation of trypsinogen is specifically by enterokinase."
+      },
+      "topic": "Zymogen Activation / Enterokinase Cascade",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_digest_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The patient's malabsorption could result from damage to which organ?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the spleen, which digests all food before it enters the intestine"
+        },
+        {
+          "label": "B",
+          "text": "the pancreas — without pancreatic enzymes (lipase, amylase, trypsin) and bicarbonate, digestion of fats, carbohydrates, and proteins is severely impaired, leading to malabsorption"
+        },
+        {
+          "label": "C",
+          "text": "the kidneys, which are responsible for digesting proteins"
+        },
+        {
+          "label": "D",
+          "text": "the heart, which pumps digestive enzymes to the intestine"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The exocrine pancreas produces enzymes essential for digesting all three macronutrient classes: lipase (fats → fatty acids + monoglyceride), amylase (starch → maltose), and proteases (trypsin, chymotrypsin — proteins → peptides → amino acids). It also secretes bicarbonate to neutralize gastric acid. Pancreatic insufficiency (from chronic pancreatitis, cystic fibrosis, or pancreatic cancer) causes maldigestion → malabsorption, manifesting as steatorrhea (fatty stools), weight loss, and fat-soluble vitamin deficiencies (A, D, E, K). Treatment: oral pancreatic enzyme replacement.",
+        "A": "The spleen is part of the lymphatic/immune system, not the digestive system. It filters blood, removes old red blood cells, and stores platelets and white blood cells. It has no role in food digestion.",
+        "C": "The kidneys filter blood, regulate electrolytes and acid-base balance, and produce urine. They are not involved in macronutrient digestion. Renal failure can cause uremia and GI symptoms but not malabsorption of ingested food.",
+        "D": "The heart pumps blood, not digestive enzymes. While adequate cardiac output ensures blood flow to the gut (necessary for absorption), the heart does not produce or transport digestive enzymes."
+      },
+      "topic": "Pancreatic Insufficiency / Malabsorption",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_digest_003",
+      "passage": null,
+      "stem": "Bile salts emulsify dietary fats by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "chemically breaking covalent bonds in triglycerides"
+        },
+        {
+          "label": "B",
+          "text": "absorbing fats directly into the bloodstream"
+        },
+        {
+          "label": "C",
+          "text": "acting as amphipathic molecules that coat fat droplets, breaking them into smaller micelles and increasing the surface area available for pancreatic lipase"
+        },
+        {
+          "label": "D",
+          "text": "converting fats into glucose for energy"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "B": "Fat absorption occurs through enterocytes after enzymatic digestion. Bile salts assist in forming mixed micelles that transport digestion products (fatty acids, monoglycerides) to the brush border for absorption, but they do not absorb fats directly into blood.",
+        "A": "Bile salts do not break covalent bonds — they physically disperse large fat droplets into smaller ones. Chemical hydrolysis of ester bonds in triglycerides is performed by lipase. Emulsification increases the efficiency of lipase by increasing substrate accessibility.",
+        "C": "Correct. Bile salts (conjugated bile acids synthesized from cholesterol in the liver, stored in the gallbladder, released into the duodenum) are amphipathic — they have hydrophobic and hydrophilic faces. They coat large fat globules and break them into small droplets (~1 µm micelles), increasing the total surface area exposed to pancreatic lipase by ~1000-fold. This mechanical (not chemical) process is emulsification. Lipase (with its colipase cofactor) then hydrolyzes triglycerides at the oil-water interface into monoacylglycerol and free fatty acids for absorption.",
+        "D": "Fats cannot be converted to glucose in humans (fatty acids cannot undergo net gluconeogenesis). Fats are broken down by β-oxidation to acetyl-CoA, which enters the citric acid cycle for energy production."
+      },
+      "topic": "Bile Salts / Fat Emulsification",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_digest_005",
+      "passage": null,
+      "stem": "The primary site of nutrient absorption in the GI tract is the:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stomach, where most digestion and absorption occurs"
+        },
+        {
+          "label": "B",
+          "text": "large intestine (colon), which absorbs all macronutrients"
+        },
+        {
+          "label": "C",
+          "text": "esophagus, which has extensive absorptive villi"
+        },
+        {
+          "label": "D",
+          "text": "small intestine — its enormous surface area (villi, microvilli, circular folds) maximizes absorption of amino acids, monosaccharides, fatty acids, vitamins, and minerals"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The small intestine (duodenum + jejunum + ileum, ~6 m long) is the primary absorptive organ. Its surface area is amplified ~600-fold by three levels of folding: circular folds (plicae circulares), villi (finger-like projections, 0.5-1.5 mm), and microvilli (brush border, ~1 µm). Total absorptive surface area: ~200-300 m² (roughly a tennis court). Iron and calcium are absorbed in the duodenum. Most nutrients (glucose, amino acids, fatty acids) in the jejunum. Vitamin B12 and bile salts in the ileum.",
+        "A": "The stomach primarily performs mechanical churning and chemical digestion (HCl + pepsin). It absorbs very little — mainly water, ethanol, aspirin, and some lipid-soluble drugs. Nutrient absorption occurs downstream in the small intestine.",
+        "B": "The large intestine absorbs water, electrolytes (Na⁺, K⁺), and short-chain fatty acids produced by bacterial fermentation. It does not absorb proteins, carbohydrates, or lipids in significant quantities — those are absorbed in the small intestine.",
+        "C": "The esophagus is a muscular tube that transports food from the pharynx to the stomach by peristalsis. It has no villi and performs no significant absorption or digestion."
+      },
+      "topic": "Small Intestine / Absorptive Surface Area",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_digest_006",
+      "passage": null,
+      "stem": "Lipids absorbed by enterocytes are packaged into:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "chylomicrons — large lipoprotein particles containing triglycerides, cholesterol, and apolipoproteins that are secreted into lacteals (lymphatic capillaries) and enter the bloodstream via the thoracic duct"
+        },
+        {
+          "label": "B",
+          "text": "glucose molecules for immediate use"
+        },
+        {
+          "label": "C",
+          "text": "amino acids for protein synthesis"
+        },
+        {
+          "label": "D",
+          "text": "red blood cells for transport to tissues"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Inside enterocytes, absorbed fatty acids and monoacylglycerol are re-esterified into triglycerides in the smooth ER. These are combined with cholesterol, phospholipids, and apolipoprotein B-48 to form chylomicrons (~75-1200 nm diameter). Chylomicrons are too large to enter capillaries, so they are exocytosed into lacteals (lymphatic vessels in villi) and travel via the lymphatic system → thoracic duct → left subclavian vein → systemic circulation. In the bloodstream, lipoprotein lipase on capillary endothelium hydrolyzes triglycerides, delivering fatty acids to tissues.",
+        "B": "Lipids are not converted to glucose in enterocytes. Fatty acids are reassembled into triglycerides and packaged into chylomicrons. Glucose is absorbed separately through SGLT1/GLUT2 transporters and enters portal blood directly.",
+        "C": "Lipids are not converted to amino acids. Amino acids are absorbed from digested proteins via specific amino acid transporters in the brush border and enter portal blood.",
+        "D": "Red blood cells are oxygen-carrying cells formed in the bone marrow. They are not involved in lipid transport. Lipid transport is the function of lipoproteins (chylomicrons, VLDL, LDL, HDL)."
+      },
+      "topic": "Chylomicrons / Lipid Absorption",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_digest_008",
+      "passage": null,
+      "stem": "Glucose is absorbed from the intestinal lumen into enterocytes by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "passive diffusion directly through the lipid bilayer"
+        },
+        {
+          "label": "B",
+          "text": "pinocytosis of glucose-containing fluid"
+        },
+        {
+          "label": "C",
+          "text": "SGLT1 (sodium-glucose cotransporter) on the apical membrane — secondary active transport driven by the Na⁺ gradient established by basolateral Na⁺/K⁺-ATPase"
+        },
+        {
+          "label": "D",
+          "text": "direct entry through gap junctions between enterocytes"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "B": "Pinocytosis is a minor, nonspecific uptake mechanism. The vast majority of glucose absorption is transporter-mediated (SGLT1), which is rapid, efficient, and saturable.",
+        "A": "Glucose is hydrophilic and cannot passively diffuse through the lipid bilayer. It requires carrier proteins (SGLT1 on apical, GLUT2 on basolateral) for membrane transport.",
+        "C": "Correct. Glucose absorption uses two-step transcellular transport: (1) Apical: SGLT1 cotransports Na⁺ and glucose from the lumen into the enterocyte (secondary active transport — the Na⁺ gradient provides the driving force, maintained by basolateral Na⁺/K⁺-ATPase). (2) Basolateral: GLUT2 facilitates glucose exit into the interstitial fluid and portal blood (facilitated diffusion down the concentration gradient). Fructose uses a different apical transporter (GLUT5, facilitated diffusion) because it is not Na⁺-coupled.",
+        "D": "Enterocyte tight junctions limit paracellular transport. Most nutrient absorption is transcellular (through the enterocyte), not paracellular (between enterocytes). Tight junctions maintain the epithelial barrier."
+      },
+      "topic": "Glucose Absorption / SGLT1",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_digest_009",
+      "passage": null,
+      "stem": "The hormone cholecystokinin (CCK) is released from I cells of the duodenum in response to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the presence of fatty acids and amino acids in the duodenal lumen — CCK stimulates pancreatic enzyme secretion and gallbladder contraction (bile release)"
+        },
+        {
+          "label": "B",
+          "text": "high blood glucose levels"
+        },
+        {
+          "label": "C",
+          "text": "dehydration and low blood volume"
+        },
+        {
+          "label": "D",
+          "text": "the presence of acid in the duodenum"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. CCK is released when fat and protein digestion products (fatty acids, amino acids, small peptides) contact I cells in the duodenal and jejunal mucosa. CCK has two primary targets: (1) the pancreas — stimulates acinar cells to secrete digestive enzymes (lipase, amylase, proteases); (2) the gallbladder — stimulates smooth muscle contraction, releasing stored bile into the common bile duct and duodenum. CCK also slows gastric emptying (ensuring adequate duodenal processing time), promotes satiety, and stimulates growth of the exocrine pancreas.",
+        "B": "High blood glucose stimulates insulin release from pancreatic β-cells, not CCK release. CCK responds to luminal nutrients (fats and proteins), not blood glucose levels.",
+        "C": "Dehydration and low blood volume stimulate ADH (from the posterior pituitary) and the RAAS (renin from juxtaglomerular cells). These are renal/cardiovascular hormones, not GI hormones.",
+        "D": "Acid in the duodenum stimulates secretin release from S cells, not CCK. Secretin triggers pancreatic bicarbonate secretion to neutralize the acid. CCK and secretin are complementary GI hormones with different triggers and targets."
+      },
+      "topic": "Cholecystokinin / GI Hormones",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_digest_010",
+      "passage": null,
+      "stem": "Vitamin B12 absorption requires:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "direct passive diffusion across the duodenal epithelium"
+        },
+        {
+          "label": "B",
+          "text": "bile salt emulsification like dietary fats"
+        },
+        {
+          "label": "C",
+          "text": "active transport across the jejunal epithelium without any cofactors"
+        },
+        {
+          "label": "D",
+          "text": "intrinsic factor (IF), a glycoprotein secreted by gastric parietal cells — the B12-IF complex is absorbed by receptor-mediated endocytosis in the terminal ileum"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Vitamin B12 (cobalamin) absorption is a multi-step process: (1) dietary B12 is released from food proteins by gastric acid and pepsin; (2) free B12 binds R-protein (haptocorrin) in saliva/stomach; (3) pancreatic proteases degrade R-protein in the duodenum, releasing B12; (4) free B12 binds intrinsic factor (IF, secreted by gastric parietal cells); (5) the B12-IF complex binds cubilin receptors on ileal enterocytes and is absorbed by receptor-mediated endocytosis. Without IF (as in pernicious anemia or after gastrectomy), B12 is not absorbed, leading to megaloblastic anemia and neurological damage.",
+        "A": "B12 is a large, complex molecule (MW ~1355 g/mol) that cannot passively diffuse across membranes. It requires the IF-dependent receptor-mediated endocytosis pathway in the ileum.",
+        "B": "Bile salts emulsify dietary fats. B12 is water-soluble (despite being large) and does not require emulsification. Its absorption pathway is entirely distinct from lipid absorption.",
+        "C": "B12 absorption requires intrinsic factor and occurs in the terminal ileum, not the jejunum. Without IF, only ~1% of oral B12 is absorbed by passive diffusion — insufficient to prevent deficiency."
+      },
+      "topic": "Vitamin B12 / Intrinsic Factor",
+      "difficulty": "Hard"
+    }
+  ]
+}

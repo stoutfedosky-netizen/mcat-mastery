@@ -1,0 +1,338 @@
+{
+  "batch": "B089",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Social Psychology: Attitudes & Attribution",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_socpsy_001",
+      "passage": "A social psychologist studies how people explain behavior and form attitudes. She conducts an experiment where participants read about a student who failed an exam. When told the student was from their own school, participants attributed the failure to external factors (hard test, bad professor). When told the student was from a rival school, participants attributed the failure to internal factors (laziness, low intelligence). She also examines cognitive dissonance theory, the elaboration likelihood model of persuasion, conformity, obedience, and the bystander effect in a series of follow-up studies.",
+      "stem": "The tendency to attribute others' negative outcomes to their character while attributing our own negative outcomes to situational factors illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the fundamental attribution error (FAE) combined with the actor-observer bias — we overemphasize dispositional factors for others' behavior and situational factors for our own"
+        },
+        {
+          "label": "B",
+          "text": "the mere exposure effect"
+        },
+        {
+          "label": "C",
+          "text": "Maslow's hierarchy of needs"
+        },
+        {
+          "label": "D",
+          "text": "classical conditioning"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The fundamental attribution error (FAE) is the tendency to overattribute others' behavior to internal dispositions (personality, character) while underweighting situational factors. The actor-observer bias extends this: as actors, we explain our own behavior situationally (I failed because the test was unfair); as observers, we explain others' behavior dispositionally (they failed because they are lazy). The in-group/out-group dimension in the passage adds another layer — self-serving bias and ultimate attribution error favor dispositional attributions for out-group members' failures.",
+        "B": "The mere exposure effect is increased liking for stimuli simply because of repeated exposure. It relates to attitude formation through familiarity, not to causal attribution of behavior.",
+        "C": "Maslow's hierarchy is a motivational theory (physiological → safety → belonging → esteem → self-actualization), not an attribution theory.",
+        "D": "Classical conditioning (Pavlov) is an associative learning process. While attitudes can be formed through conditioning, the phenomenon described is attribution bias, not conditioning."
+      },
+      "topic": "Fundamental Attribution Error / Actor-Observer Bias",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socpsy_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Cognitive dissonance theory (Festinger) predicts that when a person's behavior contradicts their beliefs:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the person experiences no psychological discomfort"
+        },
+        {
+          "label": "B",
+          "text": "the person experiences uncomfortable psychological tension and is motivated to reduce it — often by changing their beliefs to align with their behavior, adding consonant cognitions, or trivializing the inconsistency"
+        },
+        {
+          "label": "C",
+          "text": "the person immediately changes their behavior to match their beliefs, with no attitude change"
+        },
+        {
+          "label": "D",
+          "text": "external rewards always reduce dissonance"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Cognitive dissonance is the aversive state arising from holding two inconsistent cognitions (e.g., 'I value honesty' but 'I just lied'). People are motivated to reduce this tension through several strategies: (1) change the attitude ('lying isn't that bad'), (2) change the behavior (stop lying), (3) add consonant cognitions ('everyone lies sometimes'), or (4) trivialize the inconsistency ('it was a small lie'). Festinger's classic $1/$20 experiment showed that less external justification (lower payment) produced more attitude change — the insufficient justification effect.",
+        "A": "Dissonance produces significant discomfort. fMRI studies show activation of the anterior cingulate cortex (conflict monitoring) during dissonance. People actively seek to resolve it.",
+        "C": "Attitude change (not just behavior change) is a core prediction. In fact, the most interesting prediction is that behavior often changes attitudes — people rationalize their actions to reduce dissonance.",
+        "D": "External rewards can actually reduce dissonance by providing external justification ('I lied because I was paid well'). The insufficient justification effect shows that smaller rewards produce more attitude change because less external justification is available, forcing internal justification."
+      },
+      "topic": "Cognitive Dissonance / Festinger",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socpsy_003",
+      "passage": null,
+      "stem": "The elaboration likelihood model (ELM) of persuasion proposes two routes to attitude change:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "conscious and unconscious routes, determined by sleep quality"
+        },
+        {
+          "label": "B",
+          "text": "verbal and nonverbal routes, determined by language ability"
+        },
+        {
+          "label": "C",
+          "text": "the authoritative route and the democratic route, determined by political orientation"
+        },
+        {
+          "label": "D",
+          "text": "the central route (careful evaluation of argument quality by motivated, able audiences) and the peripheral route (reliance on superficial cues like source attractiveness, number of arguments, or emotional appeals by less motivated audiences)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "ELM is not political theory. It is a dual-process model of persuasion applicable to any domain (advertising, health campaigns, political messaging, interpersonal influence).",
+        "A": "ELM does not involve conscious/unconscious distinctions related to sleep. It distinguishes between high-elaboration (central) and low-elaboration (peripheral) processing.",
+        "B": "ELM is not about verbal vs nonverbal communication. Both routes can involve any modality. The distinction is depth of processing, not communication channel.",
+        "D": "Correct. ELM (Petty & Cacioppo): Central route — when motivation and ability to process are high, persuasion depends on argument strength and evidence quality. Attitude change via central route is more durable, resistant to counterarguments, and predictive of behavior. Peripheral route — when motivation or ability is low, persuasion depends on superficial cues (attractive spokesperson, catchy slogan, social proof, number of arguments rather than quality). Peripheral attitude change is weaker and less persistent. MCAT tip: identify whether a scenario describes central (thoughtful analysis) or peripheral (heuristic cues) processing."
+      },
+      "topic": "Elaboration Likelihood Model / Persuasion",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socpsy_004",
+      "passage": null,
+      "stem": "The bystander effect describes the finding that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "more bystanders always increase the speed of helping in emergencies"
+        },
+        {
+          "label": "B",
+          "text": "people are more likely to intervene in an emergency when many other bystanders are present"
+        },
+        {
+          "label": "C",
+          "text": "the presence of other bystanders reduces the likelihood that any individual will help — due to diffusion of responsibility and pluralistic ignorance"
+        },
+        {
+          "label": "D",
+          "text": "bystanders always call emergency services immediately regardless of group size"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Darley and Latané's research showed that as the number of bystanders increases, the probability that any individual will help decreases. Two key mechanisms: (1) Diffusion of responsibility — each person feels less personally responsible ('someone else will help'); (2) Pluralistic ignorance — each person looks to others for cues about whether the situation is an emergency; if no one reacts, each concludes it must not be serious. Additional factors: evaluation apprehension (fear of embarrassment if the situation is not really an emergency) and audience inhibition.",
+        "A": "More bystanders typically slow helping, not speed it. This counterintuitive finding is what makes the bystander effect important — common sense predicts more people = more help, but the opposite occurs.",
+        "B": "This is the opposite of the bystander effect. People are less likely to intervene when many bystanders are present.",
+        "D": "The bystander effect specifically demonstrates that people often do not call for help when others are present, due to diffusion of responsibility."
+      },
+      "topic": "Bystander Effect / Diffusion of Responsibility",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_socpsy_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the psychologist's experiment, participants attributed the rival student's failure to laziness. This in-group/out-group attribution pattern is explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "social identity theory — people favor their in-group by making dispositional attributions for out-group failures and situational attributions for in-group failures, maintaining positive group identity"
+        },
+        {
+          "label": "B",
+          "text": "Piaget's stages of cognitive development"
+        },
+        {
+          "label": "C",
+          "text": "the gate control theory of pain"
+        },
+        {
+          "label": "D",
+          "text": "retroactive interference"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Social identity theory (Tajfel) explains how group membership shapes attribution. The ultimate attribution error (Pettigrew) extends the FAE to intergroup contexts: in-group members' positive outcomes are attributed dispositionally, while their negative outcomes are attributed situationally. For out-group members, the pattern reverses — negative outcomes are attributed dispositionally (confirming negative stereotypes), and positive outcomes are attributed situationally or dismissed as exceptions. This maintains positive in-group distinctiveness and social identity.",
+        "B": "Piaget's stages (sensorimotor, preoperational, concrete operational, formal operational) describe cognitive development in children, not intergroup attribution patterns.",
+        "C": "Gate control theory explains pain perception modulation in the spinal cord, not social attribution processes.",
+        "D": "Retroactive interference is a memory phenomenon where new information disrupts recall of old information. It is unrelated to attribution bias."
+      },
+      "topic": "Social Identity Theory / In-Group Bias",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_socpsy_006",
+      "passage": null,
+      "stem": "Milgram's obedience experiments demonstrated that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "people never obey authority figures under any circumstances"
+        },
+        {
+          "label": "B",
+          "text": "a surprising majority of participants (65%) obeyed authority figures to the point of administering apparently dangerous electric shocks — obedience increased with proximity to the authority figure and decreased with proximity to the victim"
+        },
+        {
+          "label": "C",
+          "text": "obedience is entirely determined by personality traits, not situational factors"
+        },
+        {
+          "label": "D",
+          "text": "only psychologically disturbed individuals would follow harmful orders"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Milgram (1963) found that 65% of participants delivered the maximum 450V shock when instructed by a lab-coated authority figure, despite hearing the confederate's screams. Key situational factors: obedience increased when the authority was nearby and legitimate, the victim was distant or in another room, and no dissenting confederates were present. Obedience decreased when the victim was in the same room, the authority was absent, or peers refused. The experiments demonstrated the power of situational factors (authority, institutional setting, incremental commitment) over personality.",
+        "A": "Milgram's core finding was that most ordinary people do obey authority, even to administer apparently harmful shocks. This was deeply counterintuitive and disturbing.",
+        "C": "Milgram specifically demonstrated that situational factors (authority presence, institutional legitimacy, victim distance) were far more powerful predictors of obedience than personality traits. Pre-experiment predictions by psychiatrists vastly underestimated obedience rates.",
+        "D": "Participants were normal, psychologically healthy volunteers from the New Haven community — not disturbed individuals. The universality of obedience across demographics was a key finding."
+      },
+      "topic": "Milgram / Obedience to Authority",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_socpsy_007",
+      "passage": null,
+      "stem": "Asch's conformity experiments showed that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "people never conform to incorrect group judgments"
+        },
+        {
+          "label": "B",
+          "text": "larger groups always produce less conformity"
+        },
+        {
+          "label": "C",
+          "text": "conformity only occurs in ambiguous situations, never with clear-cut answers"
+        },
+        {
+          "label": "D",
+          "text": "approximately 75% of participants conformed to a clearly incorrect majority at least once — conformity was driven by normative social influence (desire to fit in) and informational social influence (assuming the group must be correct)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Conformity generally increases with group size up to about 3-4 members, then plateaus. Larger groups do not produce less conformity — they produce equal or slightly more.",
+        "A": "Most participants conformed at least once, and the overall conformity rate was substantial. The experiments were groundbreaking precisely because people conformed even when the correct answer was obvious.",
+        "C": "Asch's experiments used unambiguous stimuli (clearly different line lengths) and still found conformity. Conformity was stronger in ambiguous situations (Sherif's autokinetic effect), but Asch showed it occurs even with clear answers.",
+        "D": "Correct. Asch (1951) had participants judge line lengths with confederates who unanimously gave wrong answers. ~75% conformed at least once; ~32% of all trials showed conformity. Two types of social influence: (1) Normative — conforming to be accepted, avoid rejection (compliance without private acceptance); (2) Informational — conforming because others are seen as a source of valid information (most powerful in ambiguous situations). Conformity increased with group size (up to ~3-4), unanimity, public responses, and when participants felt less competent."
+      },
+      "topic": "Asch Conformity / Normative vs Informational Influence",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socpsy_008",
+      "passage": null,
+      "stem": "Self-serving bias refers to the tendency to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "attribute one's own successes to internal factors (talent, effort) and failures to external factors (bad luck, unfair circumstances) — protecting self-esteem"
+        },
+        {
+          "label": "B",
+          "text": "attribute others' successes to luck and others' failures to their character"
+        },
+        {
+          "label": "C",
+          "text": "accurately assess one's own strengths and weaknesses without distortion"
+        },
+        {
+          "label": "D",
+          "text": "always blame oneself for negative outcomes regardless of circumstances"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Self-serving bias is an attributional pattern that protects self-esteem: successes → 'I'm talented/hardworking' (internal, stable attribution); failures → 'the test was unfair/I was unlucky' (external, unstable attribution). This asymmetric pattern is well-documented across cultures (though more pronounced in individualistic cultures). It serves ego-protective and self-presentational functions. Depression is associated with reduced self-serving bias (depressive realism) or even reversed patterns (self-blaming for failures, externalizing successes).",
+        "B": "This describes attributions about others, not oneself. Self-serving bias specifically concerns self-attributions. The pattern described for others relates more to the fundamental attribution error or in-group/out-group bias.",
+        "C": "Accurate self-assessment without distortion would indicate an absence of cognitive bias. Self-serving bias is specifically a distortion that favors positive self-evaluation.",
+        "D": "Always blaming oneself for negative outcomes is characteristic of depressive attributional style (internal, stable, global attributions for failure), not self-serving bias."
+      },
+      "topic": "Self-Serving Bias / Attribution",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_socpsy_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The foot-in-the-door technique is a persuasion strategy that works by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "starting with a large, unreasonable request that is refused, then following with a smaller, target request"
+        },
+        {
+          "label": "B",
+          "text": "making the target request immediately without any preliminary steps"
+        },
+        {
+          "label": "C",
+          "text": "first making a small, easy request that is accepted, then escalating to the larger target request — compliance with the initial request creates commitment and consistency pressure"
+        },
+        {
+          "label": "D",
+          "text": "threatening consequences for non-compliance"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Foot-in-the-door (FITD): first ask for something small (sign a petition), then later ask for something larger (donate money). Agreeing to the small request creates a self-perception of being helpful/supportive (Bem's self-perception theory) and commitment (consistency principle — Cialdini). The person then feels pressure to remain consistent with this self-image by agreeing to the larger request. Freedman and Fraser (1966) demonstrated this: people who agreed to a small request (small sign in window) were much more likely to later agree to a large request (billboard on lawn).",
+        "A": "This describes the door-in-the-face technique (DITF), the opposite strategy. DITF starts large, gets refused, then presents the smaller target request, leveraging the reciprocity norm and contrast effect.",
+        "B": "Making the target request directly is less effective than FITD. The preliminary small request builds commitment and self-perception that increase later compliance.",
+        "D": "Threatening consequences is coercion, not persuasion. FITD works through internal motivation (self-perception, consistency), not external threats."
+      },
+      "topic": "Foot-in-the-Door / Compliance Techniques",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socpsy_010",
+      "passage": null,
+      "stem": "The just-world hypothesis is the belief that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the world is fundamentally chaotic with no connection between behavior and outcomes"
+        },
+        {
+          "label": "B",
+          "text": "all social inequalities are caused by biological differences"
+        },
+        {
+          "label": "C",
+          "text": "people get what they deserve — good things happen to good people and bad things happen to bad people — which can lead to victim-blaming when bad events befall innocent people"
+        },
+        {
+          "label": "D",
+          "text": "justice can only be achieved through legal systems, not individual morality"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The just-world hypothesis (Lerner, 1980) is the cognitive bias that the world is fundamentally fair — people's outcomes reflect their character and actions. While this belief can be psychologically comforting (the world is predictable, hard work pays off), it has a dark side: when bad things happen to good people, observers may blame the victim (she must have done something to deserve it) to preserve their belief in a just world. This victim-blaming tendency has been documented in responses to poverty, sexual assault, illness, and natural disasters.",
+        "A": "The just-world hypothesis is the opposite of perceiving the world as chaotic. It assumes systematic fairness and deservingness.",
+        "B": "Biological determinism is a separate concept. The just-world hypothesis focuses on moral deservingness, not biological differences, though both can be used to rationalize inequality.",
+        "D": "The just-world hypothesis is about perceived cosmic fairness, not institutional justice systems. It is a psychological belief pattern, not a political philosophy about courts and laws."
+      },
+      "topic": "Just-World Hypothesis / Victim Blaming",
+      "difficulty": "Easy"
+    }
+  ]
+}

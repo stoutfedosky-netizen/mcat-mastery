@@ -1,0 +1,227 @@
+{
+  "batch": "B192",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Circuits, Electrochemistry & Cardiac Signals",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_circuits_electrochem_cardiac_192_q0",
+      "passage": "A biomedical engineering team built a wearable patch that records a lead II-like cardiac signal while powering a low-current sensor from a Zn/Cu galvanic cell. In a saline test chamber at 25 C, the cell used Zn(s)|Zn2+(0.010 M) and Cu2+(1.0 M)|Cu(s). Standard reduction potentials were -0.76 V for Zn2+/Zn and +0.34 V for Cu2+/Cu. The sensor drew 80 microA through a 12.0 kOhm equivalent resistance. During exercise testing, motion increased electrode-skin impedance and introduced a slowly varying baseline drift, but the R peaks remained detectable after high-pass filtering.",
+      "usePrevPassage": false,
+      "stem": "Which electrode is the anode in the galvanic cell?",
+      "choices": {
+        "A": "Zn, because zinc ions are reduced at the metal surface.",
+        "B": "Cu, because copper has the more positive reduction potential.",
+        "C": "Zn, because zinc is oxidized while copper ions are reduced.",
+        "D": "Cu, because electrons leave the cell through the cathode."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Zinc ions are reduced at the cathode in an electrolytic cell where the reaction is driven in reverse, but in this spontaneous galvanic cell zinc metal is oxidized. The cell notation Zn(s)|Zn2+ places zinc on the anode side by convention, consistent with its lower reduction potential.",
+        "B": "Copper has the more positive standard reduction potential (+0.34 V), meaning it is more readily reduced than zinc. This makes copper the cathode, where reduction occurs, not the anode. The cathode is where electrons arrive from the external circuit.",
+        "C": "Correct. In a galvanic cell, the electrode with the lower (more negative) standard reduction potential undergoes oxidation and serves as the anode. Zinc has E° = -0.76 V compared to copper's +0.34 V, so Zn(s) is oxidized to Zn2+ at the anode. Electrons released by zinc travel through the external circuit to the copper cathode, where Cu2+ ions are reduced to Cu(s). This electron flow from anode to cathode through the external circuit is what powers the sensor.",
+        "D": "Electrons leave the anode through the external circuit and enter the cathode, not the reverse. In a galvanic cell, copper serves as the cathode because Cu2+ is reduced there. Electrons flow from zinc to copper through the wire, and current is conventionally described as flowing in the opposite direction."
+      },
+      "topic": "Electrochemistry",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_circuits_electrochem_cardiac_192_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What is the standard cell potential for the Zn/Cu cell?",
+      "choices": {
+        "A": "+0.42 V",
+        "B": "+1.10 V",
+        "C": "-1.10 V",
+        "D": "+0.76 V"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Subtracting the magnitudes 0.76 - 0.34 = 0.42 V ignores the sign convention. The standard cell potential uses E°cell = E°cathode - E°anode with the reduction potentials as given, not their absolute values. Proper application yields +0.34 - (-0.76) = +1.10 V.",
+        "B": "Correct. The standard cell potential is calculated as E°cell = E°cathode - E°anode using standard reduction potentials. Copper is the cathode at +0.34 V and zinc is the anode at -0.76 V, giving +0.34 - (-0.76) = +1.10 V. A positive E°cell confirms that the reaction is spontaneous under standard conditions, which is required for a galvanic cell. This value also sets the maximum potential difference available to drive current through the sensor circuit before accounting for nonstandard concentrations.",
+        "C": "A negative cell potential would indicate a nonspontaneous reaction requiring external energy, which describes an electrolytic cell, not the spontaneous galvanic cell in the passage. Reversing the cathode and anode assignments in the formula produces the negative sign error.",
+        "D": "Using only the zinc half-cell potential of 0.76 V ignores the copper reduction half-reaction entirely. The cell potential requires both half-reactions because the voltage depends on the difference between cathode and anode reduction potentials, not on a single electrode in isolation."
+      },
+      "topic": "Nernst equation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_circuits_electrochem_cardiac_192_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "How does the nonstandard ion concentration initially affect the cell voltage?",
+      "choices": {
+        "A": "It increases Ecell because Q = [Zn2+]/[Cu2+] is less than 1.",
+        "B": "It makes Ecell exactly zero because concentrations are unequal.",
+        "C": "It decreases Ecell because zinc metal has a low concentration.",
+        "D": "It reverses the reaction because Cu2+ is more concentrated."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. For the reaction Zn + Cu2+ → Zn2+ + Cu, the reaction quotient Q = [Zn2+]/[Cu2+] = 0.010/1.0 = 0.010. Pure solids are omitted from Q. The Nernst equation subtracts (0.0592/n)·log Q from E°cell, and since log(0.010) = -2, the correction term is positive, increasing Ecell above the standard value of 1.10 V. This illustrates Le Chatelier's principle: low product concentration and high reactant concentration shift the equilibrium toward products, increasing the driving force.",
+        "B": "Unequal concentrations shift the cell potential logarithmically through the Nernst equation. A cell potential of zero occurs at equilibrium, where Q equals the equilibrium constant K, not simply when concentrations are unequal. The given concentrations place Q well below K, so Ecell is positive and above E°cell.",
+        "C": "The low Zn2+ and high Cu2+ concentrations favor the forward reaction, which supports rather than reverses the spontaneous galvanic direction. Higher Cu2+ concentration provides more oxidizing agent at the cathode, increasing the driving force for zinc oxidation at the anode.",
+        "D": "Pure solids like Zn(s) and Cu(s) do not appear in the reaction quotient because their activities are defined as unity. The zinc metal concentration is not the reason for the voltage deviation from the standard value; it is the dissolved ion concentrations that matter."
+      },
+      "topic": "Electrochemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuits_electrochem_cardiac_192_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The sensor drawing 80 microA through 12.0 kOhm requires about what voltage?",
+      "choices": {
+        "A": "0.0067 V",
+        "B": "150 V",
+        "C": "9.6 V",
+        "D": "0.96 V"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dividing current by resistance (I/R) produces units of amperes per ohm, which equals inverse volts squared — a physically meaningless quantity. Ohm's law requires multiplication: V = I × R. The very small result of 0.0067 V would not plausibly power a sensor.",
+        "B": "This value results from treating 80 microamperes as 80 amperes (omitting the micro prefix). Since 80 A through 12 kΩ would yield 960,000 V, even rounding errors in this approach produce absurdly high voltages far beyond any small galvanic cell.",
+        "C": "A value of 9.6 V is tenfold too high and may result from misplacing a decimal point or miscounting a power of ten in the unit conversion. The correct computation with careful prefix handling yields 0.96 V.",
+        "D": "Correct. Ohm's law gives V = IR = 80 × 10^-6 A × 12,000 Ω = 0.96 V. Converting the micro prefix to 10^-6 and kilo to 10^3 is essential for obtaining the correct magnitude. This voltage is below the estimated Zn/Cu cell potential of approximately 1.10 V under standard conditions, confirming that the galvanic cell could plausibly power the sensor before accounting for internal resistance and electrode polarization losses."
+      },
+      "topic": "Circuits",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuits_electrochem_cardiac_192_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why is high-pass filtering useful for the motion artifact described?",
+      "choices": {
+        "A": "It converts ventricular depolarization into mechanical contraction.",
+        "B": "Baseline drift is low frequency, whereas R peaks contain faster voltage changes.",
+        "C": "It selectively amplifies DC offsets from dried adhesive.",
+        "D": "It removes all frequencies above the R-peak bandwidth."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A high-pass filter attenuates low-frequency components while preserving higher frequencies. The ventricular depolarization (QRS complex) contains relatively fast voltage changes that pass through the filter, so the cardiac signal is preserved, not converted into mechanical contraction.",
+        "B": "Correct. The passage describes motion artifact as a slowly varying baseline drift, which occupies the low-frequency portion of the signal spectrum. A high-pass filter attenuates these low-frequency components while allowing faster voltage changes, such as the QRS complex and R peaks, to pass with less distortion. This frequency-domain separation is possible because cardiac depolarization events occur on a faster time scale than postural sway or electrode movement, making the high-pass filter an effective tool for isolating the diagnostic signal.",
+        "C": "A high-pass filter suppresses low-frequency signals, including DC offsets and slow baseline wander. It does not selectively amplify them. If it amplified DC offsets from dried adhesive, the motion artifact would worsen rather than improve.",
+        "D": "Removing high frequencies above the R-peak bandwidth describes a low-pass filter, not a high-pass filter. A low-pass filter would potentially blunt the sharp R-peak features that the clinician needs to detect, which is the opposite of the intended effect."
+      },
+      "topic": "Signal processing",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuits_electrochem_cardiac_192_q5",
+      "passage": "The same patch was tested during a paced-breathing trial. Five R peaks occurred at 0.70, 1.60, 2.50, 3.35, and 4.20 s. The analog front end included a 0.50 microF coupling capacitor in series with a 330 kOhm resistor to reduce low-frequency drift. A notch filter attenuated 60 Hz mains interference. When the adhesive dried, contact resistance rose from 8 kOhm to 40 kOhm, decreasing signal amplitude without changing the underlying ventricular depolarization timing measured by a reference ECG.",
+      "usePrevPassage": false,
+      "stem": "The R-R interval from 0.70 s to 1.60 s corresponds to what heart rate?",
+      "choices": {
+        "A": "About 67 beats/min",
+        "B": "About 90 beats/min",
+        "C": "About 54 beats/min",
+        "D": "About 120 beats/min"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The R-R interval from 0.70 s to 1.60 s is 0.90 s per beat. Heart rate in beats per minute equals 60 s/min divided by the interval in seconds: 60/0.90 ≈ 66.7 beats/min, or about 67 bpm. This calculation uses the time between consecutive ventricular depolarization peaks, which directly reflects the cardiac cycle length. Amplitude information is not needed for rate determination, only the timing of successive R waves on the ECG tracing.",
+        "B": "A rate of 90 beats/min corresponds to an R-R interval of 60/90 = 0.667 s, which is shorter than the measured 0.90 s interval. This answer confuses a faster heart rate with the actual timing data from the tracing, where the 0.90 s spacing indicates a slower rhythm.",
+        "C": "A rate of 54 beats/min corresponds to an R-R interval of 60/54 ≈ 1.11 s, which is longer than the measured 0.90 s interval. This rate would describe a slower rhythm than what the passage data indicate.",
+        "D": "A rate of 120 beats/min corresponds to an R-R interval of 60/120 = 0.50 s, far shorter than the 0.90 s measured in the tracing. This rate describes a substantially faster rhythm, approximately double the actual heart rate derived from the data."
+      },
+      "topic": "Cardiac physiology",
+      "difficulty": "Easy",
+      "passageImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAAHCCAIAAAA/+dtNAAAWWElEQVR4nO3dX2he9f3A8ZM/TYaTlgmiBbdGKptjQaumlg5kgtNatTCLu+nFJhOMVisq3inIT8S5GxXFtf7BXuiGaBjMVAb2z6YXskHWiYrmplq14kVxE7FWTdpn/Hwki0mTPH/O85zv55zXCy+ampycfHqec97POed50lOr1TIAgJh6i14BAIDWSRkAIDApAwAEJmUAgMCkDAAQmJQBAAKTMgBAYFIGAAhMygAAgUkZACAwKQMABCZlAIDApAwAEJiUAQACkzIAQGBSBgAITMoAAIFJGQAgMCkDAAQmZQCAwKQMABCYlJlraGgor6+d+XDO3z/00ENNLXZycvKpp55qea0AoMSkTAGaTZmzzz77N7/5TcdWBwACkzJL+OSTT0ZHR6+++uorr7xy//799XMkGzdu/OlPf7p9+/Ysyw4fPrxly5YrrrjipptuamTi999//5EjRzZv3lw/W3PzzTc/9thjc5b58ccf/+pXv9q0adPmzZsPHz485wTPvffee9VVV1100UW7du2avQI33HDDWWed1f42AQCR1Pi2VatWzf5w27ZtExMTtVrtgw8+uOiii2q12u233/7qq6/++9//Pvvss2u12ujo6HPPPVer1Xbt2nX66aefcFFzljnz4emnn7537975y7zxxhvHxsZqtdozzzxz++23z/6SlStX/v73v6/Vau++++7w8PDiKwAApddTq9WKrqm0DA0NHTx4cObD4eHhM888s/7njz766B//+MfRo0f/9Kc/vfPOO08++eShQ4eGh4f/+c9/Dg4OTk9Pr1q16sMPP5y/qDnLnPnwjDPOeP/993t7ez/77LPZy/zJT37yr3/9a2Bg4NixY0eOHFm+fPnMl6xcuXJycnLFihVZlq1ateq9995bZAUAoPRcYFrC9PT02NjY+Pj4n//854cffrivr+/aa6/Nsuz666/v7f3/6U1NTdU/8/jx4812YX9/f30hc5Z57Nix+qL6+vqWL18++0uWLVtW75gsy3p6etpcAQCITsosYd26dfVbUvbs2fPggw9mWfbaa6/94he/+OKLL7766qssyy688MK//OUvWZa9+OKLDZbE8a/N/ps5y7zgggvqy3z66afvueeeb/2Dfd06s7WwAgBQGv1Fr0Byvvrqq40b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reh1SMjIyEiWZRMTE1mVno15QOYyzEXGOL56df0MmVEvPsxG5lOpF3919ByMAbY8vcqObiTVQ6SUifHvlDsHV6jy8biyB2NKeYh0r0xF1XdkdmdQeh7mlJ57ZQCAwKQMABCYlAEAApMyAEBgUgYACEzKAACBSRkAIDApAwAEJmUAgMCkDAAQmJQBAAKTMgBAYFIGAAhMygAAgUkZACAwKQMABCZlAIDApAwAEJiUAQACkzIAQGBSBgAITMoAAIFJGQAgMCkDAAQmZQCAwKQMABCYlAEAApMyAEBgUgYACEzKAACBSRkAIDApAwAEJmUAgMD6i16BFI2MjBS9CgBAQ5yVAQAC66nVakWvAwBAi5yVAQACkzIAQGBSBgAITMoAAIFJGQAgMCkDAAQmZQCAwKQMABCYlAEAApMyAEBgUgYACEzKAACBSRkAIDApAwAEJmUAgMCkDAAQmJQBAAKTMgBAYFIGAAhMygAAgUkZACAwKQMABCZlAIDApAwAEJiUAQACkzIAQGBSBgAITMoAAIFJGQAgMCkDAAQmZQCAwKQMABCYlAEAApMyAEBgUgYACEzKAACBSRkAIDApAwAEJmUAgMCkDNC0l156aWpqaubDqampPXv2mCNQCCkDFfLQQw9lWTY5OfnUU0+1vJDDhw+PjY0tW7Zs5m+WLVv23HPPHT58OKfVBGhCT61Wa+bzgcCGhoYOHjzY5kIeeOCBH/zgB9dcc83sv3z++ecPHTp02223tblwgGY5KwNVcf/99x85cmTz5s31pqn/5dDQ0LZt284///ydO3eOjo6ed95527dvz7Lsk08+GR0dvfrqq6+88sr9+/fPXs7evXvXrl2bZdnjjz/+s5/97OKLL/7rX/86MjKyd+/egn4yoNKclYEqnpWZ+cPKlSt37dp12mmnnXvuubt37z711FMvu+yyt99++5Zbbvn1r399wQUXHDp0aMuWLa+88srMQn70ox+99dZbfX19P/zhD/fv3//RRx898MADjzzyyPDw8OTkZKE/H1BF/UWvAFCknp6eNWvW9PX1DQwMrFmzpre39+jRo1mW7du37913361/zueff37s2LG+vr76h9PT0/U/X3rppTfeeON1111XP5Ez+0ZggK6RMlBpAwMD9S4ZHBzs7f3fFefp6emxsbHBwcHjx4///e9/n+mYLMtOOeWUzz777OSTT3700UdfffXVHTt2jI2N/fa3vz3llFMK+iGASnOvDFTI8a818pnr1q3btWtXlmV79ux58MEHZ/+vkZGRt99++9NPP73qqqvWrl27Y8eO3bt3T05OjoyMdGzFARbkrAxUyPr167ds2fLss88u+Zn33XffrbfeunPnzv7+/vpLuGdcc801+/btW7t27YYNGy677LLjx4/fcccde/fu/eUvf9nJdQc4Mbf9As2p1Wqjo6OPPvrozFvLTE1Nbdu2bceOHUYJdJ+UAQACc68MABCYlAEAApMyAEBgUgYACEzKAACBSRkAIDApAwAEJmUAgMCkDAAQmJQBAAKTMgBAYFIGAAhMygAAgUkZACAwKQMABCZlAIDApAwAEJiUAQACkzIAQGBSBgAITMoAAIFJGQAgMCkDAAQmZQCAwKQMABCYlAEAApMyAEBgUgYACEzKAACBSRkAIDApAwAEJmUAgMCkDACQxfVfdf8jKDA+tKUAAAAASUVORK5CYII=",
+      "passageImageCaption": "Figure 1. Simulated lead II tracing with R peaks during the paced-breathing trial."
+    },
+    {
+      "id": "cp_circuits_electrochem_cardiac_192_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What is the main purpose of the notch filter?",
+      "choices": {
+        "A": "To remove all ventricular depolarization signals.",
+        "B": "To measure oxygen saturation from red light absorption.",
+        "C": "To attenuate 60 Hz electrical interference from mains power.",
+        "D": "To convert alternating current into direct current."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Removing all ventricular depolarization signals would defeat the purpose of ECG recording. A notch filter targets a very narrow frequency band, such as the 60 Hz interference, while preserving the broader spectrum of diagnostically useful cardiac signals including the QRS complex.",
+        "B": "A notch filter is a frequency-selective filter that suppresses signals in a narrow band while passing frequencies above and below it. Pulse oximetry uses optical absorption of red and infrared light through pulsating arterial blood and is entirely separate from the electrical notch filter in the ECG circuit.",
+        "C": "Correct. A notch filter suppresses a narrow band of frequencies centered on the interference source. In regions using 60 Hz alternating current for mains power, electromagnetic interference at that frequency can contaminate the ECG recording. The notch filter attenuates the 60 Hz component while retaining the diagnostically important ECG frequency content that lies mostly between 0.5 and 40 Hz. In countries with 50 Hz mains power, the notch filter would be centered at 50 Hz instead.",
+        "D": "Rectification converts alternating current to direct current using diodes, which is a fundamentally different circuit function from frequency-selective attenuation. A notch filter does not convert AC to DC; it removes a narrow frequency band from the signal."
+      },
+      "topic": "Instrumentation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_circuits_electrochem_cardiac_192_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If contact resistance rises while the reference ECG timing is unchanged, what is the best interpretation?",
+      "choices": {
+        "A": "The patient's SA node stopped firing.",
+        "B": "The galvanic cell reversed polarity in the myocardium.",
+        "C": "The notch filter created new R peaks.",
+        "D": "The recording interface worsened, but ventricular depolarization timing did not change."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A stopped sinoatrial node would cause significant rhythm changes, such as junctional escape rhythms or pauses, which would alter R-R intervals on the reference ECG. The passage states that the reference ECG timing was unchanged, so SA node arrest is not supported.",
+        "B": "The Zn/Cu galvanic cell is a battery powering the sensor electronics. It is not an electrochemical half-cell inside the heart muscle. The myocardial action potential arises from ion channels in cardiac cells, not from zinc or copper electrodes implanted in the myocardium.",
+        "C": "While aggressive filtering can theoretically introduce artifacts, the passage does not provide evidence that the notch filter generated new peaks. The unchanged reference ECG timing confirms that the R-peak pattern reflects true ventricular depolarization events, not filter-created artifacts.",
+        "D": "Correct. The passage states that dried adhesive raised contact resistance from 8 kΩ to 40 kΩ, decreasing the recorded signal amplitude without changing the underlying ventricular depolarization timing on a reference ECG. This pattern is characteristic of a recording interface degradation: increased electrode-skin impedance attenuates the voltage signal detected at the skin surface, but the electrical activity generated by the heart remains unchanged. The clinician should address the interface, not reassess the patient's cardiac physiology."
+      },
+      "topic": "Measurement artifact",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuits_electrochem_cardiac_192_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What is the RC time constant of the coupling network?",
+      "choices": {
+        "A": "0.165 s",
+        "B": "660 s",
+        "C": "1.5 ms",
+        "D": "0.83 s"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The time constant τ = RC = 330,000 Ω × 0.50 × 10^-6 F = 0.165 s. This value defines the characteristic time over which the coupling capacitor charges or discharges through the resistor. A time constant of 0.165 s means that frequencies well below 1/(2π·0.165) ≈ 1 Hz are attenuated, which effectively reduces slow baseline wander while allowing the faster QRS complex (with frequency content around 5-20 Hz) to pass with relatively little distortion.",
+        "B": "Treating microfarads as farads (omitting the 10^-6 factor) inflates the answer by a factor of one million. The capacitance is 0.50 μF = 0.50 × 10^-6 F, and multiplying by 330,000 Ω gives 0.165 s, not 660 s. Careful unit conversion with SI prefixes is essential for circuit calculations.",
+        "C": "A time constant of 1.5 ms results from using an incorrect resistance value or missing the kilo prefix on the 330 kΩ resistor. The resistance is 330 × 10^3 Ω, and pairing it with 0.50 × 10^-6 F gives 0.165 s, three orders of magnitude larger than 1.5 ms.",
+        "D": "A time constant of 0.83 s would require either a larger capacitance or a larger resistance than the stated values. For example, 0.83 s would correspond to about 2.5 μF with 330 kΩ, or 1.66 MΩ with 0.50 μF. Neither matches the passage specifications."
+      },
+      "topic": "RC circuits",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuits_electrochem_cardiac_192_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which change would most directly improve signal amplitude when adhesive dries?",
+      "choices": {
+        "A": "Increasing the notch depth at 60 Hz only.",
+        "B": "Lowering electrode-skin impedance with fresh conductive gel.",
+        "C": "Decreasing Cu2+ concentration in the battery chamber.",
+        "D": "Reporting R-R intervals in milliseconds instead of seconds."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Increasing the notch filter depth at 60 Hz more effectively attenuates mains interference but does not address the fundamental problem: raised contact resistance at the electrode-skin interface reducing signal amplitude. The two issues are independent aspects of signal quality.",
+        "B": "Correct. Dried adhesive raised electrode-skin contact resistance from 8 kΩ to 40 kΩ, creating a larger voltage drop at the skin interface and reducing the amplitude of the recorded ECG signal. Applying fresh conductive gel restores a low-impedance electrical connection between the electrode and skin, directly reversing the amplitude loss. This intervention targets the identified cause of signal degradation without altering the galvanic cell power supply, filter settings, or the patient's cardiac rhythm.",
+        "C": "Decreasing Cu2+ concentration in the galvanic cell battery would reduce the cell's Nernst-predicted voltage and available power, but the signal amplitude problem originates at the electrode-skin interface, not in the power supply. The two circuits serve different functions in the wearable patch.",
+        "D": "Reporting R-R intervals in milliseconds instead of seconds changes the units of expression but not the physical measurement or signal quality. Unit conversion does not improve electrical coupling or restore lost signal amplitude caused by dried adhesive."
+      },
+      "topic": "Biomedical circuits",
+      "difficulty": "Hard"
+    }
+  ]
+}

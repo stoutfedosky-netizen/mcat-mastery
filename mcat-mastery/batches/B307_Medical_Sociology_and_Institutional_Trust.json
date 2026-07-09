@@ -1,0 +1,225 @@
+{
+  "batch": "B307",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Medical Sociology & Institutional Trust",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_institutional_trust_vaccination_307_q0",
+      "passage": "A county health department surveyed parents after a vaccine-information campaign. Parents reporting high trust in local clinics were more likely to schedule appointments after receiving the same informational brochure. Parents with low trust often said the brochure felt generic and did not address past experiences of dismissal. Community health workers suggested that trust-building conversations might be necessary before factual messages could be persuasive.",
+      "usePrevPassage": false,
+      "stem": "According to the passage, which pattern was observed?",
+      "choices": {
+        "C": "Trust in local clinics was associated with greater scheduling after the brochure",
+        "A": "The opposite pattern was reported",
+        "B": "The groups or conditions were identical",
+        "D": "The passage did not report any outcome differences"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage identifies this specific relationship: Trust in local clinics was associated with greater scheduling after the brochure. This is the central empirical pattern around which the study or scenario is organized, and it is the pattern the later interpretation depends on.",
+        "A": "The reported evidence does not support the reverse pattern.",
+        "B": "The passage describes meaningful differences rather than identical outcomes.",
+        "D": "The passage gives concrete outcomes or interview findings, so differences were reported."
+      },
+      "topic": "Institutional Trust",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_institutional_trust_vaccination_307_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which concept best explains the scenario?",
+      "choices": {
+        "B": "institutional trust",
+        "A": "classical conditioning only",
+        "C": "sensory adaptation",
+        "D": "the bystander effect"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The scenario is best explained by institutional trust because the key issue is that Trust affects whether information is interpreted as credible, respectful, and relevant. This connects the data to a core P/S framework rather than treating the finding as an isolated fact.",
+        "A": "Classical conditioning is too narrow or unrelated to the social or cognitive process emphasized here.",
+        "C": "Sensory adaptation concerns reduced responsiveness to constant sensory input, not the mechanism described.",
+        "D": "The bystander effect concerns failures to help in groups and is not the main process in this passage."
+      },
+      "topic": "Institutional Trust",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_institutional_trust_vaccination_307_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What mechanism most plausibly accounts for the pattern?",
+      "choices": {
+        "D": "Trust affects whether information is interpreted as credible, respectful, and relevant.",
+        "A": "A random change in DNA sequence during the study",
+        "B": "A complete absence of social context",
+        "C": "The physical impossibility of changing behavior"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The passage points to this mechanism directly: Trust affects whether information is interpreted as credible, respectful, and relevant. It explains why the observed groups or conditions differ and gives students a way to connect the empirical details to MCAT-level behavioral science.",
+        "A": "The passage does not describe mutation or biological inheritance as the explanation.",
+        "B": "The scenario is explicitly embedded in social, clinical, or developmental context.",
+        "C": "The passage shows behavior or experience varying across conditions, so change is possible."
+      },
+      "topic": "Institutional Trust",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_institutional_trust_vaccination_307_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application would best follow from the passage?",
+      "choices": {
+        "A": "Pair factual brochures with trusted community messengers and opportunities for questions.",
+        "B": "Ignore the context and focus only on individual blame",
+        "C": "Use the least specific intervention possible",
+        "D": "Assume the finding applies identically to every person without adaptation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The best application is to Pair factual brochures with trusted community messengers and opportunities for questions. This response targets the mechanism described in the passage rather than relying on blame, vague advice, or one-size-fits-all reasoning.",
+        "B": "Individual blame misses the contextual mechanism described in the passage.",
+        "C": "A nonspecific intervention would not address the particular barrier or process identified.",
+        "D": "P/S findings often guide interventions, but they still need adaptation to context and individual differences."
+      },
+      "topic": "Applied Psychology and Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_institutional_trust_vaccination_307_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What is the most important limitation to keep in mind?",
+      "choices": {
+        "D": "The survey cannot prove trust caused scheduling because prior experiences may shape both trust and behavior.",
+        "A": "The passage cannot be interpreted because it contains words rather than equations",
+        "B": "Any behavioral study is automatically causal",
+        "C": "The topic is outside the Psychological/Social Foundations section"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The key limitation is that The survey cannot prove trust caused scheduling because prior experiences may shape both trust and behavior. This keeps the inference aligned with the design and prevents overclaiming beyond what the passage can support.",
+        "A": "P/S passages often use verbal descriptions and interviews; that does not make them uninterpretable.",
+        "B": "Behavioral studies vary in design, and causal inference depends on assignment, controls, and measurement.",
+        "C": "The concepts tested here are directly relevant to the P/S section."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_sick_role_work_policy_307_q5",
+      "passage": "A medical sociology study examined employees with chronic illness in workplaces with flexible or rigid sick-leave policies. Workers in flexible settings reported fewer conflicts between treatment appointments and job expectations. Workers in rigid settings more often delayed care to avoid penalties. Interviewees said they wanted to meet work obligations but also needed institutional recognition that illness sometimes disrupts ordinary role performance.",
+      "usePrevPassage": false,
+      "stem": "According to the passage, which pattern was observed?",
+      "choices": {
+        "C": "Flexible sick-leave policies were associated with fewer conflicts between treatment and work",
+        "A": "The opposite pattern was reported",
+        "B": "The groups or conditions were identical",
+        "D": "The passage did not report any outcome differences"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage identifies this specific relationship: Flexible sick-leave policies were associated with fewer conflicts between treatment and work. This is the central empirical pattern around which the study or scenario is organized, and it is the pattern the later interpretation depends on.",
+        "A": "The reported evidence does not support the reverse pattern.",
+        "B": "The passage describes meaningful differences rather than identical outcomes.",
+        "D": "The passage gives concrete outcomes or interview findings, so differences were reported."
+      },
+      "topic": "Sick Role And Role Conflict",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sick_role_work_policy_307_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which concept best explains the scenario?",
+      "choices": {
+        "B": "sick role and role conflict",
+        "A": "classical conditioning only",
+        "C": "sensory adaptation",
+        "D": "the bystander effect"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The scenario is best explained by sick role and role conflict because the key issue is that Chronic illness can create tension between the patient role and worker role, especially when institutions fail to accommodate care. This connects the data to a core P/S framework rather than treating the finding as an isolated fact.",
+        "A": "Classical conditioning is too narrow or unrelated to the social or cognitive process emphasized here.",
+        "C": "Sensory adaptation concerns reduced responsiveness to constant sensory input, not the mechanism described.",
+        "D": "The bystander effect concerns failures to help in groups and is not the main process in this passage."
+      },
+      "topic": "Sick Role And Role Conflict",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sick_role_work_policy_307_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What mechanism most plausibly accounts for the pattern?",
+      "choices": {
+        "A": "Chronic illness can create tension between the patient role and worker role, especially when institutions fail to accommodate care.",
+        "B": "A random change in DNA sequence during the study",
+        "C": "A complete absence of social context",
+        "D": "The physical impossibility of changing behavior"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage points to this mechanism directly: Chronic illness can create tension between the patient role and worker role, especially when institutions fail to accommodate care. It explains why the observed groups or conditions differ and gives students a way to connect the empirical details to MCAT-level behavioral science.",
+        "B": "The passage does not describe mutation or biological inheritance as the explanation.",
+        "C": "The scenario is explicitly embedded in social, clinical, or developmental context.",
+        "D": "The passage shows behavior or experience varying across conditions, so change is possible."
+      },
+      "topic": "Sick Role And Role Conflict",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sick_role_work_policy_307_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application would best follow from the passage?",
+      "choices": {
+        "C": "Create flexible leave policies that legitimize necessary care without excessive penalties.",
+        "A": "Ignore the context and focus only on individual blame",
+        "B": "Use the least specific intervention possible",
+        "D": "Assume the finding applies identically to every person without adaptation"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The best application is to Create flexible leave policies that legitimize necessary care without excessive penalties. This response targets the mechanism described in the passage rather than relying on blame, vague advice, or one-size-fits-all reasoning.",
+        "A": "Individual blame misses the contextual mechanism described in the passage.",
+        "B": "A nonspecific intervention would not address the particular barrier or process identified.",
+        "D": "P/S findings often guide interventions, but they still need adaptation to context and individual differences."
+      },
+      "topic": "Applied Psychology and Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sick_role_work_policy_307_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What is the most important limitation to keep in mind?",
+      "choices": {
+        "B": "The study compares existing workplaces, so workplace culture and job type may also contribute to the outcomes.",
+        "A": "The passage cannot be interpreted because it contains words rather than equations",
+        "C": "Any behavioral study is automatically causal",
+        "D": "The topic is outside the Psychological/Social Foundations section"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The key limitation is that The study compares existing workplaces, so workplace culture and job type may also contribute to the outcomes. This keeps the inference aligned with the design and prevents overclaiming beyond what the passage can support.",
+        "A": "P/S passages often use verbal descriptions and interviews; that does not make them uninterpretable.",
+        "C": "Behavioral studies vary in design, and causal inference depends on assignment, controls, and measurement.",
+        "D": "The concepts tested here are directly relevant to the P/S section."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

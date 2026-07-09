@@ -1,0 +1,338 @@
+{
+  "batch": "B061",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Enzyme Kinetics & Inhibition",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_enzyme_001",
+      "passage": "A biochemistry graduate student characterizes a newly purified enzyme that catalyzes the hydrolysis of a synthetic substrate. She measures initial reaction velocity (v₀) at increasing substrate concentrations [S] while keeping enzyme concentration constant. The resulting Michaelis-Menten curve shows a hyperbolic relationship, with Vmax = 200 µmol/min and Km = 5 mM. She then repeats the experiment in the presence of two different inhibitors. Inhibitor X increases the apparent Km to 15 mM without changing Vmax. Inhibitor Y decreases the apparent Vmax to 100 µmol/min without changing Km.",
+      "stem": "Based on the kinetic data, Inhibitor X is best classified as a:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "noncompetitive inhibitor, because it decreases Vmax without changing Km"
+        },
+        {
+          "label": "B",
+          "text": "uncompetitive inhibitor, because it binds only to the enzyme-substrate complex"
+        },
+        {
+          "label": "C",
+          "text": "competitive inhibitor, because it increases Km without affecting Vmax — consistent with binding at the active site and competing with substrate"
+        },
+        {
+          "label": "D",
+          "text": "irreversible inhibitor, because the Km change indicates permanent enzyme modification"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Noncompetitive inhibitors decrease Vmax without changing Km — that describes Inhibitor Y, not Inhibitor X. The question states X increases Km without changing Vmax.",
+        "B": "Uncompetitive inhibitors bind only the ES complex, decreasing both apparent Vmax and apparent Km by the same factor. Inhibitor X does not decrease Vmax, ruling out uncompetitive inhibition. Uncompetitive inhibition produces parallel lines on a Lineweaver-Burk plot.",
+        "C": "Correct. A competitive inhibitor binds the active site and competes with substrate for binding. At saturating [S], substrate outcompetes the inhibitor, so Vmax is unchanged. However, more substrate is needed to reach half-Vmax, so the apparent Km increases. The hallmark of competitive inhibition is increased Km with unchanged Vmax on a Lineweaver-Burk plot — the lines share the same y-intercept (1/Vmax) but have different x-intercepts (-1/Km).",
+        "D": "Irreversible inhibitors covalently modify the enzyme, permanently inactivating it. They reduce the effective enzyme concentration (lowering Vmax) and cannot be overcome by adding more substrate. A reversible Km shift is inconsistent with irreversible inhibition."
+      },
+      "topic": "Competitive Inhibition / Km and Vmax",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enzyme_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Inhibitor Y decreases Vmax without changing Km. On a Lineweaver-Burk (double-reciprocal) plot, this pattern would appear as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "lines intersecting on the x-axis, with different y-intercepts"
+        },
+        {
+          "label": "B",
+          "text": "parallel lines with the same slope"
+        },
+        {
+          "label": "C",
+          "text": "lines intersecting on the y-axis, with different x-intercepts"
+        },
+        {
+          "label": "D",
+          "text": "a single unchanged line regardless of inhibitor concentration"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Pure noncompetitive inhibition changes Vmax but not Km. On a Lineweaver-Burk plot (1/v vs 1/[S]), the y-intercept is 1/Vmax and the x-intercept is -1/Km. Decreased Vmax raises 1/Vmax (higher y-intercept) while unchanged Km keeps -1/Km the same (same x-intercept). The lines therefore intersect on the x-axis. The slope (Km/Vmax) increases because Vmax decreases while Km stays constant.",
+        "B": "Parallel lines characterize uncompetitive inhibition, where both Km and Vmax decrease proportionally. In noncompetitive inhibition the slopes differ because only Vmax changes.",
+        "C": "Lines intersecting on the y-axis (same 1/Vmax, different 1/Km) characterize competitive inhibition — Inhibitor X, not Inhibitor Y.",
+        "D": "Any inhibitor changes the kinetic parameters and therefore shifts the line on a Lineweaver-Burk plot. An unchanged line would mean no inhibition at all."
+      },
+      "topic": "Lineweaver-Burk Plot / Noncompetitive Inhibition",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_enzyme_003",
+      "passage": null,
+      "stem": "The Michaelis constant (Km) of an enzyme for its substrate is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the substrate concentration at which the reaction velocity equals Vmax"
+        },
+        {
+          "label": "B",
+          "text": "the dissociation constant of the enzyme-inhibitor complex"
+        },
+        {
+          "label": "C",
+          "text": "the maximum rate of the enzyme-catalyzed reaction"
+        },
+        {
+          "label": "D",
+          "text": "the substrate concentration at which the reaction velocity equals one-half Vmax"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "The dissociation constant of an enzyme-inhibitor complex is Ki, not Km. Km relates to the enzyme-substrate interaction and equals (k₋₁ + kcat)/k₁ in the Michaelis-Menten derivation.",
+        "A": "Vmax is the theoretical maximum velocity approached asymptotically at saturating [S]. No finite [S] gives exactly Vmax — the enzyme approaches but never fully reaches it. Km corresponds to Vmax/2, not Vmax.",
+        "C": "The maximum rate is Vmax, not Km. Vmax depends on enzyme concentration (Vmax = kcat × [E]total), while Km is an intrinsic property of the enzyme-substrate interaction.",
+        "D": "Correct. Km is defined as the substrate concentration at which v₀ = Vmax/2. It reflects the substrate concentration needed to half-saturate the enzyme. A low Km indicates high apparent affinity (the enzyme reaches half-maximal velocity at low [S]), while a high Km indicates lower apparent affinity. Km is derived from the Michaelis-Menten equation: v₀ = Vmax[S]/(Km + [S])."
+      },
+      "topic": "Michaelis-Menten Kinetics / Km Definition",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_enzyme_004",
+      "passage": null,
+      "stem": "Enzymes accelerate reactions by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "changing the equilibrium constant of the reaction to favor products"
+        },
+        {
+          "label": "B",
+          "text": "increasing the temperature of the local reaction environment"
+        },
+        {
+          "label": "C",
+          "text": "lowering the activation energy (ΔG‡) of the reaction without changing the overall ΔG"
+        },
+        {
+          "label": "D",
+          "text": "providing energy to drive thermodynamically unfavorable reactions forward"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Enzymes are biological catalysts that lower the activation energy barrier (ΔG‡) between reactants and products. They stabilize the transition state through complementary binding, electrostatic stabilization, covalent catalysis, and proximity/orientation effects. Crucially, enzymes do not change the overall thermodynamics (ΔG) or the equilibrium constant (Keq) — they accelerate both forward and reverse reactions equally, allowing equilibrium to be reached faster.",
+        "A": "Catalysts do not alter Keq. The equilibrium position is determined by the free energy difference between products and reactants (ΔG° = -RT ln Keq), which is a thermodynamic property independent of the reaction pathway. Enzymes change the kinetics (rate), not the thermodynamics (equilibrium).",
+        "B": "Enzymes do not increase local temperature. They lower the activation energy through molecular mechanisms (transition state stabilization, acid-base catalysis, covalent intermediates), achieving rate enhancements of 10⁶–10¹⁷-fold without any temperature change.",
+        "D": "Enzymes cannot make thermodynamically unfavorable reactions (positive ΔG) spontaneous. They only accelerate reactions that are already thermodynamically favorable (negative ΔG) or are coupled to exergonic processes. An enzyme speeds up the approach to equilibrium but cannot shift where equilibrium lies."
+      },
+      "topic": "Enzyme Catalysis / Activation Energy",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_enzyme_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If the student doubles the enzyme concentration while keeping all other conditions constant, the expected result is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Km doubles because more enzyme is present to bind substrate"
+        },
+        {
+          "label": "B",
+          "text": "Vmax remains unchanged because it depends only on substrate concentration"
+        },
+        {
+          "label": "C",
+          "text": "both Km and Vmax double proportionally"
+        },
+        {
+          "label": "D",
+          "text": "Vmax doubles because Vmax is directly proportional to total enzyme concentration"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Vmax depends on enzyme concentration, not substrate concentration. At saturating [S], every enzyme molecule is working at kcat, so more enzyme means more product per unit time.",
+        "A": "Km is an intrinsic property of the enzyme-substrate interaction that does not depend on enzyme concentration. It reflects the substrate concentration needed to half-saturate any amount of enzyme. Doubling [E] does not change the affinity of each individual enzyme molecule for substrate.",
+        "C": "Only Vmax changes with enzyme concentration. Km is independent of [E]total — it depends on the rate constants k₁, k₋₁, and kcat, which are properties of the individual enzyme-substrate interaction.",
+        "D": "Correct. Vmax = kcat × [E]total, so doubling [E]total doubles Vmax. Each additional enzyme molecule contributes the same catalytic rate, so total maximal velocity scales linearly with enzyme concentration. This relationship is fundamental to the Michaelis-Menten framework and is why enzyme assays must be performed at constant [E] to compare kinetic parameters."
+      },
+      "topic": "Enzyme Concentration / Vmax",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enzyme_006",
+      "passage": null,
+      "stem": "Allosteric enzymes differ from Michaelis-Menten enzymes in that allosteric enzymes:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "always have a single subunit with one active site"
+        },
+        {
+          "label": "B",
+          "text": "display a sigmoidal (S-shaped) velocity-versus-[S] curve rather than a hyperbolic curve, reflecting cooperative substrate binding"
+        },
+        {
+          "label": "C",
+          "text": "cannot be regulated by small molecules"
+        },
+        {
+          "label": "D",
+          "text": "obey the Michaelis-Menten equation at all substrate concentrations"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Allosteric enzymes typically have multiple subunits and display cooperative substrate binding — binding of substrate to one subunit increases the affinity of other subunits. This produces a sigmoidal v vs. [S] curve rather than the hyperbolic curve predicted by Michaelis-Menten kinetics. The Hill coefficient (nH) quantifies cooperativity: nH > 1 indicates positive cooperativity, nH = 1 is non-cooperative (Michaelis-Menten), and nH < 1 is negative cooperativity.",
+        "A": "Allosteric enzymes are typically multi-subunit oligomeric complexes (e.g., hemoglobin is a tetramer, ATCase is a dodecamer). The multiple subunit architecture is what enables cooperativity and allosteric regulation. Single-subunit enzymes generally follow Michaelis-Menten kinetics.",
+        "C": "The opposite is true — allosteric enzymes are specifically characterized by regulation through small-molecule effectors that bind at sites distinct from the active site. Positive effectors (activators) shift the curve leftward; negative effectors (inhibitors) shift it rightward.",
+        "D": "Allosteric enzymes do not obey the Michaelis-Menten equation because their cooperative binding violates the assumption of independent substrate binding. They require modified equations (Hill equation) to describe their kinetics."
+      },
+      "topic": "Allosteric Enzymes / Cooperativity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enzyme_007",
+      "passage": null,
+      "stem": "An enzyme has a kcat of 1000 s⁻¹ and a Km of 10 mM. The catalytic efficiency (kcat/Km) of this enzyme is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1 × 10⁵ M⁻¹s⁻¹"
+        },
+        {
+          "label": "B",
+          "text": "1 × 10⁸ M⁻¹s⁻¹"
+        },
+        {
+          "label": "C",
+          "text": "10 M⁻¹s⁻¹"
+        },
+        {
+          "label": "D",
+          "text": "1 × 10⁴ M⁻¹s⁻¹"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. kcat/Km = 1000 s⁻¹ / 0.010 M = 1 × 10⁵ M⁻¹s⁻¹. Note the unit conversion: 10 mM = 0.010 M. Catalytic efficiency (kcat/Km) is a second-order rate constant that measures how efficiently an enzyme converts substrate to product at low [S]. The diffusion-controlled upper limit is approximately 10⁸–10⁹ M⁻¹s⁻¹ (diffusion limit), so this enzyme is well below that ceiling.",
+        "B": "10⁸ M⁻¹s⁻¹ would approach the diffusion limit. The calculation gives 1000/0.01 = 10⁵, not 10⁸. An enzyme at 10⁸ would need either a much higher kcat or a much lower Km.",
+        "C": "10 M⁻¹s⁻¹ results from dividing without proper unit conversion (1000/10 = 100, not 10). The correct calculation requires converting mM to M: 10 mM = 0.01 M, giving 1000/0.01 = 10⁵.",
+        "D": "10⁴ M⁻¹s⁻¹ results from an arithmetic error. The correct division is 1000 s⁻¹ ÷ 0.010 M = 100,000 = 10⁵ M⁻¹s⁻¹."
+      },
+      "topic": "Catalytic Efficiency / kcat/Km",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enzyme_008",
+      "passage": null,
+      "stem": "Feedback inhibition in metabolic pathways typically involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the substrate of the first enzyme activating the last enzyme in the pathway"
+        },
+        {
+          "label": "B",
+          "text": "the end product of the pathway acting as a competitive inhibitor of the substrate-binding site of the first enzyme"
+        },
+        {
+          "label": "C",
+          "text": "the end product of the pathway inhibiting an early (often the first committed) enzyme allosterically, preventing overproduction"
+        },
+        {
+          "label": "D",
+          "text": "irreversible inactivation of all enzymes in the pathway when product accumulates"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Feedback (end-product) inhibition is a regulatory strategy in which the final product of a biosynthetic pathway allosterically inhibits the first committed step. This prevents wasteful overproduction when the product has accumulated. Classic examples include isoleucine inhibiting threonine deaminase, CTP inhibiting ATCase in pyrimidine synthesis, and cholesterol inhibiting HMG-CoA reductase. The inhibition is allosteric (at a regulatory site, not the active site) and reversible.",
+        "A": "Substrate activating the last enzyme describes feedforward activation, not feedback inhibition. In feedback inhibition, the product (not substrate) of the pathway regulates an upstream enzyme.",
+        "B": "Feedback inhibition is typically allosteric, not competitive. The end product usually does not resemble the substrate structurally enough to compete at the active site. Instead, it binds a distinct regulatory site and induces a conformational change that reduces catalytic activity.",
+        "D": "Feedback inhibition is reversible allosteric regulation, not irreversible inactivation. When product levels fall, the inhibition is relieved and flux through the pathway resumes. Irreversible inactivation of all pathway enzymes would be metabolically catastrophic."
+      },
+      "topic": "Feedback Inhibition / Metabolic Regulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enzyme_009",
+      "passage": null,
+      "stem": "A serine protease uses a catalytic triad (Ser-His-Asp) to cleave peptide bonds. The role of the histidine residue in this mechanism is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "act as a general base, abstracting a proton from serine's hydroxyl to enhance its nucleophilicity, then as a general acid, donating a proton to the leaving group"
+        },
+        {
+          "label": "B",
+          "text": "directly attack the carbonyl carbon of the substrate peptide bond"
+        },
+        {
+          "label": "C",
+          "text": "stabilize the oxyanion hole through hydrogen bonding"
+        },
+        {
+          "label": "D",
+          "text": "serve as the primary nucleophile in the acyl-enzyme intermediate"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Histidine functions as a charge relay: it abstracts a proton from serine's –OH, making serine a stronger nucleophile for attack on the carbonyl carbon. During the breakdown of the tetrahedral intermediate, histidine donates a proton to the amine leaving group, facilitating peptide bond cleavage. Aspartate stabilizes the positive charge that develops on histidine during this process, completing the charge relay system.",
+        "B": "Serine, not histidine, attacks the carbonyl carbon. Histidine's role is to activate serine by deprotonation, not to perform the nucleophilic attack directly.",
+        "C": "The oxyanion hole is formed by backbone amide NH groups (not histidine) that stabilize the negatively charged oxygen of the tetrahedral intermediate through hydrogen bonding. This stabilization lowers the activation energy for formation of the intermediate.",
+        "D": "Serine is the primary nucleophile that forms the covalent acyl-enzyme intermediate. The acyl group becomes esterified to serine's hydroxyl during catalysis. Histidine activates serine but does not itself form a covalent bond with the substrate."
+      },
+      "topic": "Serine Protease Mechanism / Catalytic Triad",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_enzyme_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If the student adds a large excess of substrate to the reaction containing competitive Inhibitor X, the reaction velocity will approach:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "zero, because the inhibitor permanently blocks the active site"
+        },
+        {
+          "label": "B",
+          "text": "the original Vmax (200 µmol/min), because excess substrate outcompetes the inhibitor for the active site"
+        },
+        {
+          "label": "C",
+          "text": "half of Vmax, because the inhibitor can never be fully overcome"
+        },
+        {
+          "label": "D",
+          "text": "a value higher than Vmax, because the substrate and inhibitor together stimulate the enzyme"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Competitive inhibition is overcome by saturating substrate concentrations. Since the inhibitor and substrate compete for the same active site, adding enough substrate shifts the equilibrium toward enzyme-substrate binding. At infinite [S], the probability of inhibitor occupying the active site approaches zero, and velocity approaches the original Vmax. This is the defining feature of competitive inhibition and why it changes apparent Km (more substrate needed) but not Vmax.",
+        "A": "Competitive inhibitors bind reversibly, not permanently. They can be displaced from the active site by sufficient substrate. Permanent blockade would characterize irreversible inhibitors that form covalent bonds with active-site residues.",
+        "C": "Competitive inhibition can be fully overcome at saturating [S]. The velocity approaches the full original Vmax, not just half. Uncompetitive and noncompetitive inhibitors cannot be overcome by excess substrate — their effects on Vmax persist.",
+        "D": "Velocity cannot exceed Vmax. Vmax represents the rate when every enzyme molecule is saturated with substrate and operating at kcat. Neither substrate nor inhibitor can make an enzyme work faster than its intrinsic catalytic rate constant."
+      },
+      "topic": "Competitive Inhibition / Substrate Saturation",
+      "difficulty": "Easy"
+    }
+  ]
+}

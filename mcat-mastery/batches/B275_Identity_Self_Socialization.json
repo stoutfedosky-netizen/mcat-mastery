@@ -1,0 +1,225 @@
+{
+  "batch": "B275",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Identity Self Socialization",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_identity_self_socialization_275_q0",
+      "passage": "A developmental psychologist interviewed 160 adolescents during the first year of high school. Students reported how often they imagined classmates judging clothing, speech, or posts and completed a self-concept clarity scale. Frequent imagined judgment was associated with lower clarity and more friend-group changes. Several students said they learned who they were by noticing how others reacted, especially during the transition into new peer environments.",
+      "usePrevPassage": false,
+      "stem": "Learning who one is by noticing others\u2019 reactions reflects:",
+      "choices": {
+        "A": "Biological determinism",
+        "B": "Looking-glass self",
+        "C": "Object permanence",
+        "D": "Formal operational conservation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "This would attribute behavior mainly to biology. The passage emphasizes social context, expectations, resources, or institutions rather than fixed biological causation. The passage focus is reflected peer reactions, so this option is less directly supported.",
+        "B": "Correct. The self is shaped through imagining how others see and judge the person. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Object permanence is an infant\u2019s understanding that hidden objects continue to exist. It is unrelated to adolescent self-concept shaped by peers. The relevant evidence instead centers on reflected peer reactions.",
+        "D": "Conservation concerns understanding that quantity remains stable despite appearance changes. The adolescent passage is about reflected self-appraisal. The relevant evidence instead centers on reflected peer reactions."
+      },
+      "topic": "Self-Concept",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_identity_self_socialization_275_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Lower clarity during transition is consistent with:",
+      "choices": {
+        "A": "Identity exploration influenced by peer context",
+        "B": "Fixed-ratio reinforcement",
+        "C": "Population aging",
+        "D": "Absolute threshold"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Adolescence and new peer environments can intensify exploration and sensitivity to evaluation. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "A fixed-ratio schedule rewards behavior after a set number of responses. The passage does not describe a predictable response-count reward rule. The passage focus is identity transition, so this option is less directly supported.",
+        "C": "Population aging is a rising proportion of older adults. The stem is not about age structure driving social needs. The passage focus is identity transition, so this option is less directly supported.",
+        "D": "Absolute threshold is the minimum stimulus detected about 50% of the time. The question is not about minimum sensory intensity. The passage focus is identity transition, so this option is less directly supported."
+      },
+      "topic": "Adolescent Development",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_identity_self_socialization_275_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A key limitation of the self-concept association is:",
+      "choices": {
+        "A": "Random assignment",
+        "B": "Hippocampus",
+        "C": "Lower self-concept clarity may increase imagined peer judgment.",
+        "D": "Positive reinforcement"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Random assignment allocates participants to conditions by chance. The stem may ask about measurement or observational limitations rather than an experimental solution. The passage focus is directionality, so this option is less directly supported.",
+        "B": "The hippocampus is important for new explicit memory formation. The stem does not ask about declarative memory neurobiology. The passage focus is directionality, so this option is less directly supported.",
+        "C": "Correct. The association could be bidirectional because the study did not manipulate peer feedback. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Positive reinforcement adds a consequence that increases behavior. The stem is asking about a different mechanism rather than an added reward increasing a response. The passage focus is directionality, so this option is less directly supported."
+      },
+      "topic": "Correlational Research",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_identity_self_socialization_275_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Dressing like a friend group to gain acceptance is:",
+      "choices": {
+        "A": "Obedience",
+        "B": "Anomie",
+        "C": "Social reproduction",
+        "D": "Conformity"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Obedience is following an authority\u2019s direct command. The passage does not describe a command from an authority figure. The passage focus is peer norm matching, so this option is less directly supported.",
+        "B": "Anomie is weakened norms or normlessness. The stem does not describe social norm breakdown. The passage focus is peer norm matching, so this option is less directly supported.",
+        "C": "Social reproduction is the transmission of inequality across generations. The stem does not trace class advantage across generations. The passage focus is peer norm matching, so this option is less directly supported.",
+        "D": "Correct. The student adjusts behavior to match group norms and gain belonging. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Conformity",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_identity_self_socialization_275_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What best tests whether feedback changes clarity?",
+      "choices": {
+        "A": "Context effect",
+        "B": "Drive-reduction theory",
+        "C": "Measure clarity before and after a structured peer-feedback intervention.",
+        "D": "Negative symptom"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A context effect occurs when setting changes responses. The stem does not describe measurement setting altering scores. The passage focus is peer feedback intervention, so this option is less directly supported.",
+        "B": "Drive-reduction theory explains behavior motivated by physiological needs and homeostasis. The stem is not primarily about internal need states. The passage focus is peer feedback intervention, so this option is less directly supported.",
+        "C": "Correct. Pre-post measurement around manipulated feedback establishes temporal order more clearly. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Negative symptoms reduce normal function, such as motivation or social engagement. The stem does not describe diminished function. The passage focus is peer feedback intervention, so this option is less directly supported."
+      },
+      "topic": "Research Design",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_identity_self_socialization_275_q5",
+      "passage": "Sociologists studied adults in evening nursing programs while working full time and caring for family. Weekly diaries described difficulty completing readings, labs, and clinical paperwork in the same week, as well as tension between employment, caregiving, and student expectations. Supportive supervisors and family members were associated with fewer missed assignments. One participant wrote that shift swaps helped them be a better worker and student.",
+      "usePrevPassage": false,
+      "stem": "Difficulty meeting readings, labs, and paperwork within the student role is:",
+      "choices": {
+        "A": "Role conflict",
+        "B": "Role strain",
+        "C": "Role exit",
+        "D": "Achieved status"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Role conflict is tension between different roles. The stem either stays within one role or asks about a different process. The passage focus is demands inside student role, so this option is less directly supported.",
+        "B": "Correct. The demands conflict within one role: being a student. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Role exit means disengaging from a central social role. The passage does not describe leaving such a role. The passage focus is demands inside student role, so this option is less directly supported.",
+        "D": "An achieved status is a social position earned through action or effort, such as completing training. The stem asks about tension within a role rather than how a status is obtained. The relevant evidence instead centers on demands inside student role."
+      },
+      "topic": "Role Strain",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_identity_self_socialization_275_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Tension between worker, caregiver, and student expectations is:",
+      "choices": {
+        "A": "Role conflict",
+        "B": "Role strain",
+        "C": "Social loafing",
+        "D": "Medicalization"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Separate roles impose incompatible demands on time and energy. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Role strain is difficulty meeting expectations within one role. The stem is not limited to competing demands inside a single role. The passage focus is multiple role expectations, so this option is less directly supported.",
+        "C": "Social loafing is reduced effort when individual contributions are not identifiable in a group task. The stem is not about anonymous group productivity. The passage focus is multiple role expectations, so this option is less directly supported.",
+        "D": "Medicalization defines nonmedical problems as medical issues. The passage does not describe expanding medical labels onto social life. The passage focus is multiple role expectations, so this option is less directly supported."
+      },
+      "topic": "Role Conflict",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_identity_self_socialization_275_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Supportive supervisors and family members provide:",
+      "choices": {
+        "A": "Cultural capital",
+        "B": "Sick role",
+        "C": "Group polarization",
+        "D": "Social support"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Cultural capital includes valued skills, credentials, tastes, and knowledge. The passage item is not mainly about institutionalized cultural resources. The passage focus is instrumental help, so this option is less directly supported.",
+        "B": "The sick role describes expectations for a person recognized as ill. Nursing students balancing obligations are not being described as patients exempt from roles. The relevant evidence instead centers on instrumental help.",
+        "C": "Group polarization is movement toward more extreme views after group discussion. The passage does not describe attitude extremity after discussion. The passage focus is instrumental help, so this option is less directly supported.",
+        "D": "Correct. Shift swaps and family help are instrumental resources that reduce missed assignments. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Social Support",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_identity_self_socialization_275_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which policy most reduces role conflict?",
+      "choices": {
+        "A": "Selection bias",
+        "B": "Flexible clinical scheduling coordinated with work obligations",
+        "C": "Semantic memory",
+        "D": "Gate-control theory"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Selection bias occurs when group membership or participation is systematically nonrandom. The stem does not describe self-selection or volunteer differences. The passage focus is schedule conflict, so this option is less directly supported.",
+        "B": "Correct. Changing institutional schedules directly reduces incompatibility between worker and student roles. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Semantic memory stores facts and meanings. The stem does not ask about general knowledge. The passage focus is schedule conflict, so this option is less directly supported.",
+        "D": "Gate-control theory proposes that nonpainful input can modulate pain signaling. The stem is not about pain modulation. The passage focus is schedule conflict, so this option is less directly supported."
+      },
+      "topic": "Institutional Support",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_identity_self_socialization_275_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What connects the two passages?",
+      "choices": {
+        "A": "Social environments shape self-concept and role performance.",
+        "B": "Biological determinism",
+        "C": "Positive symptom",
+        "D": "Sensory adaptation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Peers shape identity, while supervisors and family shape ability to meet role expectations. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "This would attribute behavior mainly to biology. The passage emphasizes social context, expectations, resources, or institutions rather than fixed biological causation. The passage focus is social context across life, so this option is less directly supported.",
+        "C": "Positive symptoms add experiences such as hallucinations or delusions. The stem does not describe an added psychotic experience. The passage focus is social context across life, so this option is less directly supported.",
+        "D": "Sensory adaptation is reduced receptor responsiveness to constant stimulation. The item centers on cognition, social context, or decision processes instead. The passage focus is social context across life, so this option is less directly supported."
+      },
+      "topic": "Socialization",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "batch": "B098",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Emotion, Stress & Coping",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_emotion_001",
+      "passage": "A health psychologist studies the relationship between stress, emotion, and health outcomes. She examines how the autonomic nervous system and HPA axis mediate the stress response, compares the James-Lange, Cannon-Bard, and Schachter-Singer theories of emotion, and investigates coping strategies used by patients with chronic illness. She also studies the general adaptation syndrome (GAS), the role of appraisal in stress perception, and the health effects of chronic cortisol elevation.",
+      "stem": "The James-Lange theory of emotion proposes that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "physiological arousal precedes and causes the emotional experience — we feel afraid because we run, not the reverse; the perception of bodily changes (racing heart, sweating) IS the emotion"
+        },
+        {
+          "label": "B",
+          "text": "emotional experience and physiological arousal occur simultaneously and independently"
+        },
+        {
+          "label": "C",
+          "text": "cognitive appraisal of arousal determines the specific emotion experienced"
+        },
+        {
+          "label": "D",
+          "text": "emotions are purely cognitive with no physiological component"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. James-Lange: stimulus → physiological response → emotional experience. Example: you encounter a bear → your heart races and you tremble → you interpret these bodily changes as fear. The theory predicts that different emotions should have distinct physiological signatures (some support: anger involves increased blood flow to hands, fear involves blood flow to legs). Facial feedback hypothesis is related — adopting an emotional facial expression can induce the corresponding emotion. Criticisms: some emotions share similar physiological profiles (fear and excitement both involve sympathetic activation), and people with spinal cord injuries still report emotions despite reduced bodily feedback.",
+        "B": "Simultaneous and independent emotional experience and arousal describes the Cannon-Bard theory. Cannon argued that bodily changes are too slow and nonspecific to differentiate emotions, so the thalamus simultaneously triggers both cortical emotional experience and peripheral physiological responses.",
+        "C": "Cognitive appraisal of arousal describes the Schachter-Singer (two-factor) theory. This theory proposes that emotion requires both physiological arousal AND a cognitive label for that arousal. The classic epinephrine experiment showed that participants' emotions were influenced by the social context (happy vs angry confederate) when they had unexplained arousal.",
+        "D": "All major emotion theories acknowledge a physiological component. The purely cognitive view underestimates the role of bodily states, autonomic responses, and limbic system activation in emotional experience."
+      },
+      "topic": "James-Lange Theory / Emotion",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_emotion_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The general adaptation syndrome (GAS) described by Selye consists of three stages:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "denial, anger, and acceptance"
+        },
+        {
+          "label": "B",
+          "text": "alarm, resistance, and exhaustion — the initial fight-or-flight response (alarm) transitions to sustained coping (resistance), and prolonged stress leads to physiological breakdown (exhaustion) with immune suppression and organ damage"
+        },
+        {
+          "label": "C",
+          "text": "encoding, storage, and retrieval"
+        },
+        {
+          "label": "D",
+          "text": "id, ego, and superego"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Denial, anger, and acceptance are components of the Kübler-Ross model of grief (five stages: denial, anger, bargaining, depression, acceptance), not the GAS.",
+        "B": "Correct. Selye's GAS: (1) Alarm — the body detects a stressor and activates the sympathetic nervous system (fight-or-flight: epinephrine, norepinephrine) and HPA axis (cortisol). Resources are mobilized, heart rate and blood pressure increase. (2) Resistance — the body adapts to the ongoing stressor, maintaining elevated cortisol and allostatic load. Coping mechanisms are engaged, and outward appearance may seem normal, but physiological resources are being depleted. (3) Exhaustion — prolonged stress overwhelms adaptive capacity: immune function declines (cortisol suppresses lymphocytes, NK cells), vulnerability to illness increases (cardiovascular disease, depression, metabolic syndrome), and organ systems begin to fail.",
+        "C": "Encoding, storage, and retrieval are stages of memory processing (information processing model), not the stress response.",
+        "D": "Id, ego, and superego are components of Freud's structural model of personality, not stages of the stress response."
+      },
+      "topic": "General Adaptation Syndrome / Selye",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_emotion_003",
+      "passage": null,
+      "stem": "The HPA (hypothalamic-pituitary-adrenal) axis is activated during stress. The sequence is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "adrenal cortex releases CRH → pituitary releases cortisol → hypothalamus releases ACTH"
+        },
+        {
+          "label": "B",
+          "text": "hypothalamus releases CRH → anterior pituitary releases ACTH → adrenal cortex releases cortisol"
+        },
+        {
+          "label": "C",
+          "text": "the sequence runs in reverse during stress compared to rest"
+        },
+        {
+          "label": "D",
+          "text": "all three structures release the same hormone simultaneously"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This reverses the order. The cascade begins at the hypothalamus (CRH), not the adrenal cortex. CRH is a hypothalamic hormone, ACTH is pituitary, and cortisol is adrenal.",
+        "B": "Correct. HPA axis: (1) Hypothalamus releases corticotropin-releasing hormone (CRH) into the hypophyseal portal system; (2) CRH stimulates the anterior pituitary to release adrenocorticotropic hormone (ACTH) into systemic circulation; (3) ACTH stimulates the adrenal cortex (zona fasciculata) to synthesize and release cortisol (a glucocorticoid). Cortisol then exerts negative feedback on both the hypothalamus and pituitary, suppressing further CRH and ACTH release. Chronic stress can dysregulate this feedback, leading to sustained cortisol elevation and its pathological consequences.",
+        "C": "The HPA axis runs in the same direction (hypothalamus → pituitary → adrenal) during both stress and rest. During stress, the axis is upregulated (more CRH, ACTH, cortisol). At rest, basal activity maintains normal cortisol levels with diurnal variation.",
+        "D": "Each structure releases a different hormone: hypothalamus (CRH), pituitary (ACTH), adrenal cortex (cortisol). The cascade is sequential, not simultaneous, with each hormone triggering the next step."
+      },
+      "topic": "HPA Axis / Stress Hormone Cascade",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_emotion_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The psychologist studies coping strategies. Problem-focused coping differs from emotion-focused coping in that problem-focused coping:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "involves denial and avoidance of the stressor"
+        },
+        {
+          "label": "B",
+          "text": "focuses on managing emotional distress rather than changing the situation"
+        },
+        {
+          "label": "C",
+          "text": "aims to directly address and change the stressful situation itself — through planning, information-seeking, and taking concrete action to modify the source of stress"
+        },
+        {
+          "label": "D",
+          "text": "is always maladaptive and harmful"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Denial and avoidance are maladaptive emotion-focused strategies, not problem-focused coping. Problem-focused coping involves active engagement with the stressor, not avoidance.",
+        "B": "Managing emotional distress describes emotion-focused coping, which is the complementary strategy. The question asks about problem-focused coping, which targets the situation rather than the emotional response.",
+        "C": "Correct. Lazarus and Folkman's coping framework: Problem-focused coping targets the stressor directly — making a study plan for an exam, seeking medical treatment for illness, negotiating a workplace conflict. It is most effective when the situation is controllable/changeable. Emotion-focused coping targets the emotional response — meditation, seeking social support, reappraisal, journaling. It is more appropriate when the situation cannot be changed (terminal illness, grief). Most effective coping uses both strategies flexibly. Maladaptive coping (substance use, denial, isolation) can be either problem-avoidant or emotion-avoidant.",
+        "D": "Problem-focused coping is generally adaptive, especially for controllable stressors. It becomes less useful only when the situation truly cannot be changed, in which case emotion-focused coping may be more appropriate."
+      },
+      "topic": "Problem-Focused vs Emotion-Focused Coping",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_emotion_005",
+      "passage": null,
+      "stem": "Lazarus's cognitive appraisal theory of stress proposes that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "all events are equally stressful to all individuals regardless of interpretation"
+        },
+        {
+          "label": "B",
+          "text": "stress depends not on the event itself but on how the individual appraises it — primary appraisal assesses threat/challenge, secondary appraisal assesses available resources and coping options"
+        },
+        {
+          "label": "C",
+          "text": "physiological responses precede any cognitive evaluation of the stressor"
+        },
+        {
+          "label": "D",
+          "text": "stress is entirely determined by genetics with no cognitive component"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Lazarus's central insight is that the same event produces different stress responses in different individuals based on their cognitive appraisal. Subjective interpretation is the key mediator.",
+        "B": "Correct. Lazarus's transactional model: stress is not inherent in events but arises from the interaction between the person and the environment. Primary appraisal: 'Is this event threatening, challenging, or benign?' (threat appraisal → distress; challenge appraisal → eustress). Secondary appraisal: 'Do I have the resources to cope?' (sufficient resources → manageable; insufficient → overwhelming stress). Reappraisal can change the stress response — cognitive restructuring is a therapeutic technique based on this principle. Two people experiencing the same job loss may appraise it differently: one as catastrophic (threat), another as an opportunity (challenge).",
+        "C": "Lazarus argued that cognitive appraisal precedes (or at least occurs simultaneously with) the emotional and physiological response. This contrasts with the James-Lange sequence (physiology → emotion) but acknowledges that some rapid emotional responses may bypass conscious appraisal (LeDoux's low road through the amygdala).",
+        "D": "While genetic factors influence stress reactivity (temperament, cortisol sensitivity), Lazarus's theory emphasizes cognitive appraisal as the primary determinant. Stress is transactional, not purely genetic."
+      },
+      "topic": "Lazarus / Cognitive Appraisal Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_emotion_006",
+      "passage": null,
+      "stem": "Chronic stress and sustained cortisol elevation can lead to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "enhanced immune function and increased lymphocyte activity"
+        },
+        {
+          "label": "B",
+          "text": "improved long-term memory consolidation in all brain regions"
+        },
+        {
+          "label": "C",
+          "text": "immune suppression (decreased lymphocyte proliferation and NK cell activity), hippocampal atrophy (dendritic retraction, impaired neurogenesis), and increased risk of cardiovascular disease, depression, and metabolic syndrome"
+        },
+        {
+          "label": "D",
+          "text": "no measurable health effects because the body fully adapts"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Acute, short-term stress can temporarily enhance some immune functions (preparing for injury during fight-or-flight). However, chronic stress suppresses immune function through sustained cortisol action — the opposite of enhancement.",
+        "B": "Acute moderate stress enhances amygdala-dependent emotional memory consolidation (via norepinephrine). However, chronic cortisol damages the hippocampus, impairing declarative memory consolidation. The relationship between stress and memory is an inverted-U: moderate stress enhances, chronic stress impairs.",
+        "C": "Correct. Chronic cortisol elevation produces widespread pathology: (1) Immune: cortisol suppresses NF-κB, reduces pro-inflammatory cytokines, decreases lymphocyte proliferation and NK cell cytotoxicity — increasing susceptibility to infections and possibly cancer; (2) Neural: cortisol causes dendritic atrophy in hippocampal CA3 neurons, reduces BDNF, and impairs neurogenesis in the dentate gyrus — contributing to memory deficits and depression; (3) Metabolic: promotes gluconeogenesis, insulin resistance, visceral fat deposition (Cushing's-like features); (4) Cardiovascular: promotes endothelial dysfunction, hypertension, atherosclerosis. This is Selye's exhaustion stage.",
+        "D": "The body attempts to adapt (Selye's resistance stage) but cannot maintain adaptation indefinitely. Allostatic overload — the cumulative wear and tear of chronic stress — produces measurable, well-documented health consequences."
+      },
+      "topic": "Chronic Stress / Health Effects / Cortisol",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_emotion_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The Schachter-Singer (two-factor) theory of emotion proposes that emotion requires:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "only physiological arousal — cognitive labels are unnecessary"
+        },
+        {
+          "label": "B",
+          "text": "only cognitive appraisal — physiological arousal plays no role"
+        },
+        {
+          "label": "C",
+          "text": "neither cognition nor arousal — emotions are innate reflexes"
+        },
+        {
+          "label": "D",
+          "text": "both physiological arousal AND a cognitive label for that arousal — the same state of arousal can be experienced as different emotions depending on how it is interpreted in context"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This is essentially the James-Lange position. Schachter-Singer adds the cognitive labeling component — arousal alone is insufficient; the interpretation of that arousal determines the specific emotion.",
+        "B": "This would be a purely cognitive theory of emotion. Schachter-Singer explicitly requires physiological arousal as a necessary component — without arousal, no emotion occurs (demonstrated by the control group in the epinephrine experiment).",
+        "C": "All major emotion theories acknowledge both innate and learned components. The Schachter-Singer theory specifically requires both arousal and cognitive interpretation, not purely reflexive responses.",
+        "D": "Correct. Schachter and Singer (1962): emotion = arousal + cognitive label. In their epinephrine experiment, participants who received epinephrine (causing physiological arousal) without being told about its effects experienced emotions that matched the social context: happy confederate → happy emotion; angry confederate → anger. Participants who were informed about the drug's effects attributed their arousal to the drug, not to emotion. This demonstrated that identical physiological arousal can produce different emotions based on cognitive interpretation. The theory bridges James-Lange (arousal matters) and Cannon-Bard (cognition matters)."
+      },
+      "topic": "Schachter-Singer / Two-Factor Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_emotion_008",
+      "passage": null,
+      "stem": "Type A behavior pattern is associated with increased cardiovascular disease risk and is characterized by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "competitiveness, time urgency, hostility, and high achievement drive — particularly the hostility component has been linked to coronary heart disease risk"
+        },
+        {
+          "label": "B",
+          "text": "relaxed, easygoing temperament with low ambition"
+        },
+        {
+          "label": "C",
+          "text": "social withdrawal and avoidance of all interpersonal contact"
+        },
+        {
+          "label": "D",
+          "text": "excessive sleep and low energy expenditure"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Friedman and Rosenman identified Type A behavior: time-pressured, competitive, impatient, hostile, and driven. The Western Collaborative Group Study (1974) linked Type A to approximately double the CHD risk. Subsequent research narrowed the critical component to hostility (cynical distrust, chronic anger) rather than ambition or time urgency per se. Hostility promotes sustained sympathetic activation, elevated cortisol, endothelial damage, and inflammation — all contributing to atherosclerosis. Type B pattern (relaxed, patient, unhurried) is associated with lower cardiovascular risk. Type D (distressed — negative affectivity + social inhibition) has also been linked to poor cardiac outcomes.",
+        "B": "Relaxed and easygoing describes Type B behavior pattern, which is associated with lower cardiovascular risk. Type A is the opposite — driven, impatient, and hostile.",
+        "C": "Social withdrawal and avoidance describe social anxiety or avoidant personality features, not Type A behavior. Type A individuals are often highly socially engaged (aggressively competitive in interpersonal contexts).",
+        "D": "Excessive sleep and low energy are more consistent with depression or chronic fatigue, not Type A behavior. Type A individuals are characteristically high-energy, driven, and often sleep-deprived by choice."
+      },
+      "topic": "Type A Behavior / Cardiovascular Risk",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_emotion_009",
+      "passage": null,
+      "stem": "The fight-or-flight response is mediated primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the parasympathetic nervous system, which promotes rest and digestion"
+        },
+        {
+          "label": "B",
+          "text": "the somatic nervous system, which controls voluntary skeletal muscle"
+        },
+        {
+          "label": "C",
+          "text": "the endocrine system only, with no neural component"
+        },
+        {
+          "label": "D",
+          "text": "the sympathetic nervous system — releasing norepinephrine from postganglionic neurons and epinephrine from the adrenal medulla, causing increased heart rate, bronchodilation, glycogenolysis, and redirected blood flow to muscles"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The parasympathetic nervous system promotes 'rest and digest' — the opposite of fight-or-flight. It slows heart rate (vagus nerve, M₂ receptors), stimulates digestion, and constricts pupils. It is dominant during calm, restful states.",
+        "B": "The somatic nervous system controls voluntary skeletal muscle movements. While running from a predator involves somatic motor neurons, the autonomic physiological preparation (heart rate, blood pressure, energy mobilization) is controlled by the sympathetic division.",
+        "C": "The fight-or-flight response has both a rapid neural component (sympathetic nervous system — seconds) and a slower endocrine component (HPA axis — minutes to hours). The neural component provides the immediate response; the endocrine component sustains it.",
+        "D": "Correct. The sympathetic division of the autonomic nervous system mediates fight-or-flight: preganglionic neurons (ACh, nicotinic receptors) → postganglionic neurons (NE, adrenergic receptors on target organs) and the adrenal medulla (Epi and NE directly into blood). Effects: ↑HR (β₁), bronchodilation (β₂), pupil dilation (α₁), glycogenolysis (β₂ in liver), lipolysis (β₃ in adipose), ↓GI motility (α₂, β₂), ↑blood flow to skeletal muscle (β₂ vasodilation). The HPA axis provides the slower, sustained hormonal component (cortisol). The two systems (sympathetic + HPA) work together to mobilize the body's resources for confronting or escaping a threat."
+      },
+      "topic": "Fight-or-Flight / Sympathetic Nervous System",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_emotion_010",
+      "passage": null,
+      "stem": "Learned helplessness (Seligman) occurs when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an organism always succeeds in escaping aversive stimuli and becomes overconfident"
+        },
+        {
+          "label": "B",
+          "text": "classical conditioning produces a phobic response to a neutral stimulus"
+        },
+        {
+          "label": "C",
+          "text": "repeated meditation produces a state of enlightened acceptance"
+        },
+        {
+          "label": "D",
+          "text": "an organism exposed to uncontrollable aversive events learns that its responses have no effect on outcomes — leading to passive behavior, motivational deficits, and depressive symptoms even when escape becomes possible"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Consistent success would not produce helplessness — it would produce a sense of self-efficacy (Bandura) and expectation of controllability. Learned helplessness specifically results from uncontrollable aversive experiences.",
+        "B": "Phobic conditioning (Watson's Little Albert experiment) produces fear of a specific stimulus through classical conditioning. Learned helplessness is a different phenomenon — it produces generalized passivity from perceived uncontrollability, not a specific phobia.",
+        "C": "Meditation does not produce learned helplessness. Acceptance in meditation is an active, intentional cognitive process, whereas learned helplessness is passive resignation born from perceived lack of control.",
+        "D": "Correct. Seligman's experiments (1967): dogs exposed to inescapable shocks later failed to escape avoidable shocks — they had 'learned' that their behavior was ineffective. This model has three components: motivational deficit (reduced attempts to respond), cognitive deficit (difficulty learning new response-outcome associations), and emotional deficit (depression-like passivity). Learned helplessness has been applied to human depression: individuals who perceive events as uncontrollable, internal, stable, and global (attributional style) are more vulnerable to depression. Cognitive-behavioral therapy targets these maladaptive attributions. Later research added that a sense of control (even illusory) protects against learned helplessness."
+      },
+      "topic": "Learned Helplessness / Seligman / Depression",
+      "difficulty": "Medium"
+    }
+  ]
+}

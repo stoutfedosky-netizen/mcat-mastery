@@ -1,0 +1,343 @@
+{
+  "batch": "B128",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Social Inequality, Prejudice & Discrimination",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_inequal_001",
+      "passage": "A sociologist studies how race, class, gender, and other social categories interact to shape individuals' access to resources, experiences of discrimination, and health outcomes. She examines theories of prejudice (cognitive, motivational, and sociocultural explanations), the mechanisms of institutional and individual discrimination, and strategies for reducing intergroup conflict. Her research includes stereotype threat experiments, implicit bias measurement (IAT), and analysis of residential segregation patterns.",
+      "stem": "Prejudice, discrimination, and stereotypes are related but distinct concepts. Prejudice specifically refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a preconceived negative attitude or affective response toward a group and its members — it is an attitude (cognitive and emotional), distinct from discrimination (behavior) and stereotypes (cognitive generalizations)"
+        },
+        {
+          "label": "B",
+          "text": "any behavioral action taken against a member of an outgroup"
+        },
+        {
+          "label": "C",
+          "text": "an accurate statistical generalization about a group"
+        },
+        {
+          "label": "D",
+          "text": "a legal policy mandating equal treatment of all citizens"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Prejudice is an attitude — a negative prejudgment of a group that involves affective (emotional) and cognitive (belief) components. It is distinguished from: discrimination — the behavioral manifestation of prejudice (differential treatment based on group membership, which can occur without prejudice and vice versa); stereotypes — cognitive generalizations about group characteristics (which can be positive, negative, or neutral, and may or may not accompany prejudice). A person can hold prejudice without discriminating (internal attitude without external action) or discriminate without personal prejudice (following institutional norms or policies).",
+        "B": "Behavioral action against an outgroup member describes discrimination, not prejudice. Discrimination is the behavioral expression of bias — it can be individual (personal actions) or institutional (systemic policies and practices).",
+        "C": "Statistical generalization about a group is closer to a stereotype. Stereotypes are cognitive schemas — simplified mental representations of group characteristics. They need not be negative, and their accuracy is debated. Prejudice specifically involves a negative evaluative attitude.",
+        "D": "Legal policies mandating equal treatment describe anti-discrimination law (civil rights legislation). This is the opposite of prejudice — it attempts to counteract discriminatory behavior."
+      },
+      "topic": "Prejudice / Discrimination / Stereotypes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_inequal_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Stereotype threat (Steele & Aronson) occurs when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stereotypes are completely eliminated from a person's awareness"
+        },
+        {
+          "label": "B",
+          "text": "a person performs better than expected because stereotypes motivate increased effort"
+        },
+        {
+          "label": "C",
+          "text": "awareness of a negative stereotype about one's group creates anxiety and performance decrements in the stereotyped domain — the threat of confirming the stereotype interferes with cognitive performance"
+        },
+        {
+          "label": "D",
+          "text": "stereotypes improve accuracy of social perception in all contexts"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Stereotype threat occurs precisely because of awareness, not elimination, of stereotypes. If the stereotype were not salient, the threat would not operate.",
+        "B": "Stereotype threat typically impairs performance, not improves it. The anxiety and cognitive load from monitoring one's behavior against the stereotype consume working memory resources that would otherwise support task performance. Some individuals may initially try harder, but the net effect is usually negative.",
+        "C": "Correct. Steele and Aronson (1995): when a negative stereotype about one's group is made salient (e.g., 'this test measures intellectual ability' to Black students), performance drops relative to a control condition where the stereotype is not activated. Mechanisms: increased anxiety, heightened self-monitoring, reduced working memory capacity, and physiological stress responses. Stereotype threat affects any group for which a relevant negative stereotype exists (women in math, white men in athletics, elderly in memory). Interventions: reframing the test, affirming valued identities, normalizing difficulty, and growth mindset instruction.",
+        "D": "Stereotypes oversimplify and can distort social perception. While they may contain a 'kernel of truth' about group averages, they are applied to individuals regardless of individual characteristics, reducing perceptual accuracy."
+      },
+      "topic": "Stereotype Threat / Steele & Aronson",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_inequal_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Institutional discrimination differs from individual discrimination in that institutional discrimination:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "requires conscious prejudice from every individual within the institution"
+        },
+        {
+          "label": "B",
+          "text": "operates through organizational policies, practices, and structures that systematically disadvantage certain groups — even without individual prejudice among decision-makers"
+        },
+        {
+          "label": "C",
+          "text": "is always illegal while individual discrimination is always legal"
+        },
+        {
+          "label": "D",
+          "text": "affects only majority groups, never minority groups"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Institutional discrimination can operate without conscious prejudice from any specific individual. Policies that appear neutral on their face (e.g., 'we only hire from these three universities,' legacy admissions, criminal background checks for housing) can systematically disadvantage certain groups even if no individual actor intends discrimination.",
+        "B": "Correct. Institutional (structural/systemic) discrimination: embedded in laws, policies, norms, and practices of institutions (education, housing, healthcare, criminal justice, employment). Examples: redlining (denied mortgages to neighborhoods by racial composition), school funding tied to property taxes (perpetuating resource inequality), sentencing disparities, resume callback disparities by name. It is self-perpetuating — historical discrimination creates conditions (wealth gaps, educational disparities) that current 'neutral' policies then compound.",
+        "C": "Both institutional and individual discrimination can be illegal depending on the context and jurisdiction. Anti-discrimination laws (Civil Rights Act, Fair Housing Act) target both individual acts and institutional practices.",
+        "D": "Institutional discrimination primarily affects minority and marginalized groups, not majority groups. It is defined by its systematic disadvantaging of groups with less social power."
+      },
+      "topic": "Institutional vs Individual Discrimination",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_inequal_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The Implicit Association Test (IAT) measures:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "explicit, consciously reported attitudes about social groups"
+        },
+        {
+          "label": "B",
+          "text": "physiological stress responses to intergroup contact"
+        },
+        {
+          "label": "C",
+          "text": "intelligence differences between groups"
+        },
+        {
+          "label": "D",
+          "text": "implicit (automatic, unconscious) associations between social categories and evaluative attributes — faster response times when a category is paired with a congruent stereotype suggest stronger implicit bias"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The IAT specifically measures implicit (automatic) associations, not explicit (conscious, deliberate) attitudes. Explicit attitudes are measured by self-report scales and questionnaires. People's implicit and explicit attitudes can diverge — someone who consciously endorses egalitarian values may still show implicit biases.",
+        "B": "Physiological stress responses (cortisol, cardiovascular reactivity) can be measured during intergroup interactions but are not what the IAT assesses. The IAT is a behavioral reaction-time measure.",
+        "C": "The IAT does not measure intelligence. It measures the speed of automatic associations between social categories (e.g., Black/White faces) and evaluative attributes (e.g., pleasant/unpleasant words). Differences in association speed reveal implicit biases.",
+        "D": "Correct. The IAT (Greenwald et al., 1998): participants categorize stimuli (faces, names, words) using shared response keys. When a social category and a congruent stereotype share a key (e.g., 'Black + unpleasant'), responses are faster than when they share an incongruent key ('Black + pleasant'). The speed difference indexes implicit bias strength. Limitations: test-retest reliability is moderate, individual-level prediction of behavior is weak, and the IAT's role in predicting discrimination at the individual level is debated."
+      },
+      "topic": "Implicit Association Test / Implicit Bias",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_inequal_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The contact hypothesis (Allport) proposes that intergroup prejudice can be reduced when groups interact under conditions of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "competition for scarce resources with no authority oversight"
+        },
+        {
+          "label": "B",
+          "text": "complete social isolation with no intergroup contact whatsoever"
+        },
+        {
+          "label": "C",
+          "text": "equal status, cooperative goals, institutional support, and personal acquaintance — mere contact without these conditions may actually increase prejudice"
+        },
+        {
+          "label": "D",
+          "text": "anonymity and lack of individuating information"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Competition for scarce resources increases intergroup hostility (realistic conflict theory, Sherif's Robbers Cave experiment). Competition is the opposite of the cooperative goals that the contact hypothesis requires.",
+        "B": "Social isolation would prevent any contact, making prejudice reduction through contact impossible. The contact hypothesis requires meaningful intergroup interaction, not isolation.",
+        "C": "Correct. Allport's (1954) contact hypothesis: four conditions optimize prejudice reduction through intergroup contact: (1) Equal status — groups must have comparable standing in the contact situation; (2) Common/cooperative goals — groups work toward shared objectives; (3) Institutional support — authorities endorse and facilitate the contact; (4) Personal acquaintance — interactions allow individuals to know each other as persons, not just group members. Pettigrew and Tropp's (2006) meta-analysis confirmed that contact reliably reduces prejudice, with stronger effects when Allport's conditions are met. Jigsaw classroom (Aronson) applies these principles to education.",
+        "D": "Anonymity and lack of individuating information promote deindividuation and can increase stereotyping. The contact hypothesis requires personal acquaintance — getting to know outgroup members as individuals — to break down stereotypic perceptions."
+      },
+      "topic": "Contact Hypothesis / Allport / Prejudice Reduction",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_inequal_006",
+      "passage": "Researchers examine intersectionality — how overlapping social identities (race, gender, class, sexuality, disability) create unique experiences of privilege and oppression that cannot be understood by examining any single category alone. They study how a Black woman's experience of discrimination differs from that of a Black man or a White woman, and how socioeconomic status interacts with racial identity to shape health disparities. They also examine social reproduction theory — how educational and economic institutions reproduce existing class structures across generations.",
+      "stem": "Intersectionality (Crenshaw) argues that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "overlapping social identities create unique, compounded experiences of privilege or oppression that cannot be reduced to the sum of individual identity effects — a Black woman's experience is qualitatively different from adding 'Black experience' to 'woman experience'"
+        },
+        {
+          "label": "B",
+          "text": "social identities like race and gender operate independently and can be understood by studying each one separately"
+        },
+        {
+          "label": "C",
+          "text": "all forms of social disadvantage are identical and interchangeable"
+        },
+        {
+          "label": "D",
+          "text": "social categories have no effect on individual outcomes"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Kimberlé Crenshaw (1989) introduced intersectionality to describe how race and gender interact in Black women's experiences of discrimination. Key insight: Black women face forms of discrimination that are neither purely racial (shared with Black men) nor purely gendered (shared with White women) — they are uniquely positioned at the intersection. Example: employment discrimination cases where Black women were not hired, but employers could point to hiring both Black men and White women — the intersection-specific discrimination was invisible to single-axis analysis. Intersectionality has since been applied broadly to understand how multiple social categories interact to shape power, privilege, and oppression.",
+        "B": "The central claim of intersectionality is precisely that identities do not operate independently. Studying race alone or gender alone misses the unique experiences created by their intersection. Additive models (disadvantage = race + gender + class) are insufficient.",
+        "C": "Intersectionality emphasizes that different forms of disadvantage are qualitatively distinct and interact in complex ways. Race-based discrimination, gender-based discrimination, and class-based disadvantage are not identical or interchangeable — they have different histories, mechanisms, and manifestations.",
+        "D": "Extensive sociological and psychological research demonstrates that social categories strongly affect individual outcomes including income, health, education, criminal justice involvement, and social mobility."
+      },
+      "topic": "Intersectionality / Crenshaw / Overlapping Identities",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_inequal_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Social reproduction theory explains how class inequality persists across generations through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "genetic inheritance of intelligence that determines class position"
+        },
+        {
+          "label": "B",
+          "text": "random chance with no systematic patterns"
+        },
+        {
+          "label": "C",
+          "text": "direct government mandates assigning children to their parents' class"
+        },
+        {
+          "label": "D",
+          "text": "institutional mechanisms — educational systems, cultural capital transmission, and economic structures that advantage children from privileged backgrounds and disadvantage those from lower-class backgrounds, reproducing the class structure"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Social reproduction theory (Bourdieu, Bowles & Gintis) argues that class reproduction is social and institutional, not genetic. While genetic factors influence some individual outcomes, the theory emphasizes how social structures — not biology — perpetuate inequality. Genetic determinism ignores the overwhelming evidence of institutional and cultural mechanisms.",
+        "B": "Class reproduction shows strong systematic patterns — children born into wealthy families disproportionately become wealthy adults, and children born into poverty disproportionately remain in poverty. This is not random; it is structurally produced.",
+        "C": "Modern democracies do not formally assign class positions. Social reproduction operates through indirect mechanisms — differential access to quality education, social networks, cultural knowledge, and economic resources — rather than direct governmental mandates.",
+        "D": "Correct. Social reproduction: Bourdieu identified three forms of capital transmitted across generations: economic capital (wealth, income), social capital (networks, connections), and cultural capital (education, cultural knowledge, habitus). Children from privileged backgrounds inherit all three, giving them advantages in educational institutions that reward cultural capital, in labor markets that value social connections, and in economic systems that compound wealth. Bowles and Gintis emphasized how schools reproduce class by socializing working-class students for compliance and middle/upper-class students for leadership — the 'correspondence principle.'"
+      },
+      "topic": "Social Reproduction / Bourdieu / Cultural Capital",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_inequal_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The concept of relative deprivation helps explain social unrest because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "absolute poverty always produces revolution"
+        },
+        {
+          "label": "B",
+          "text": "people compare their situation to a reference group — perceived unfairness in comparison to others, not absolute deprivation, generates frustration and collective action"
+        },
+        {
+          "label": "C",
+          "text": "wealthy individuals experience more deprivation than poor individuals"
+        },
+        {
+          "label": "D",
+          "text": "deprivation is entirely subjective and has no measurable effects"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Absolute poverty does not automatically produce social unrest. Some of the poorest populations have low rates of collective action, while social movements often arise in groups experiencing improvement that falls short of expectations (Tocqueville's paradox, J-curve theory).",
+        "B": "Correct. Relative deprivation (Stouffer, 1949; Runciman, 1966): people assess their well-being not in absolute terms but by comparison to reference groups. Frustration arises when perceived outcomes fall short of perceived entitlements. Types: egoistic (individual comparison) and fraternalistic (group comparison). Rising expectations theory: when conditions improve and then stall, the gap between expectations and reality widens, increasing frustration. This helps explain why social movements often emerge during periods of rising — not absolute — deprivation.",
+        "C": "Relative deprivation can affect people at any income level, but the concept specifically addresses perceived unfairness, not objective wealth. Wealthy individuals who perceive themselves as unfairly disadvantaged relative to even wealthier peers can experience relative deprivation.",
+        "D": "While deprivation is perceived and comparative, its effects are very real and measurable: social unrest, collective action, political radicalization, and individual psychological distress."
+      },
+      "topic": "Relative Deprivation / Social Comparison",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_inequal_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In-group bias (in-group favoritism) refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the tendency to evaluate members of one's own group more favorably than members of outgroups — this operates even in minimal group paradigms where group assignment is arbitrary"
+        },
+        {
+          "label": "B",
+          "text": "the tendency to always evaluate outgroup members positively"
+        },
+        {
+          "label": "C",
+          "text": "a complete lack of group identity in all social contexts"
+        },
+        {
+          "label": "D",
+          "text": "the genetic inability to perceive group differences"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In-group bias: preferential treatment of, and positive attitudes toward, members of one's own group relative to outgroups. Tajfel's minimal group paradigm (1971) demonstrated that even arbitrary group assignment (e.g., based on coin flip or preference for abstract paintings) produces in-group favoritism in resource allocation. This suggests that social categorization alone — without competition, conflict, or prior history — is sufficient to generate bias. Social identity theory (Tajfel & Turner) explains this through self-esteem maintenance: people derive part of their identity from group membership and enhance self-regard by favoring their in-group.",
+        "B": "In-group bias involves favoring one's own group, not evaluating outgroups positively. Outgroup derogation (negative evaluation of outgroups) often accompanies in-group favoritism but is not the same phenomenon.",
+        "C": "Group identity is a fundamental feature of human social cognition. People naturally categorize themselves and others into groups based on shared characteristics. In-group bias is a consequence of this categorization.",
+        "D": "Perceiving group differences is a normal cognitive process (social categorization). In-group bias is a motivational and evaluative phenomenon, not a perceptual inability."
+      },
+      "topic": "In-Group Bias / Minimal Group Paradigm / Tajfel",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_inequal_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The just-world hypothesis (Lerner) suggests that people:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "accurately perceive all social outcomes as fair and deserved"
+        },
+        {
+          "label": "B",
+          "text": "recognize that social outcomes are entirely random"
+        },
+        {
+          "label": "C",
+          "text": "tend to believe that the world is fundamentally fair — leading to victim-blaming (attributing negative outcomes to victims' character or behavior) to maintain the belief that bad things happen to bad people and good things happen to good people"
+        },
+        {
+          "label": "D",
+          "text": "never make attributions about others' outcomes"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The just-world hypothesis describes a cognitive bias, not accurate perception. The world is not always fair — structural inequalities, random events, and systemic discrimination produce undeserved outcomes. The hypothesis explains why people believe the world is fair despite evidence to the contrary.",
+        "B": "The just-world belief is the opposite of perceiving randomness. People with strong just-world beliefs actively resist the idea that outcomes are random or undeserved, because randomness threatens their sense of control and predictability.",
+        "C": "Correct. Lerner (1980): the just-world hypothesis is the belief that people generally get what they deserve. When confronted with innocent suffering, maintaining this belief requires either helping the victim (restoring justice) or derogating the victim (they must have done something to deserve it). Victim-blaming preserves the comforting belief in a just world: 'She must have been careless,' 'He should have worked harder.' This bias contributes to tolerance of inequality, resistance to social welfare, and secondary victimization of crime victims, disaster survivors, and people experiencing poverty.",
+        "D": "People constantly make attributions about others' outcomes — fundamental attribution error (dispositional attributions for others' outcomes) and the just-world hypothesis are two major patterns in how people explain social outcomes."
+      },
+      "topic": "Just-World Hypothesis / Victim-Blaming",
+      "difficulty": "Medium"
+    }
+  ]
+}

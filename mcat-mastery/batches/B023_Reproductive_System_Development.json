@@ -1,0 +1,498 @@
+{
+  "batch": "B023",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Reproductive System & Development",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 4,
+    "B": 3,
+    "C": 4,
+    "D": 4
+  },
+  "questions": [
+    {
+      "id": "bb_repro_001",
+      "passage": "A reproductive endocrinologist studies the menstrual cycle in a 28-year-old patient. On day 14 of a regular 28-day cycle, ultrasound confirms ovulation. Blood tests show a surge in luteinizing hormone (LH) and follicle-stimulating hormone (FSH) immediately preceding ovulation, followed by rising progesterone levels in the luteal phase. The patient is attempting to conceive and asks about the hormonal basis of the cycle.",
+      "stem": "The LH surge that triggers ovulation is an example of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Positive feedback, because rising estrogen from the dominant follicle stimulates the anterior pituitary to release a burst of LH"
+        },
+        {
+          "label": "B",
+          "text": "Negative feedback, because LH suppresses further estrogen production"
+        },
+        {
+          "label": "C",
+          "text": "Constitutive secretion, because the pituitary releases LH at a constant rate throughout the cycle"
+        },
+        {
+          "label": "D",
+          "text": "Paracrine signaling, because LH acts only on cells immediately adjacent to the pituitary"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "During the late follicular phase, the dominant follicle produces high sustained levels of estradiol. When estradiol exceeds a threshold concentration for a sufficient duration (~200 pg/mL for ~50 hours), it switches from inhibiting to stimulating GnRH pulsatility and LH release from the anterior pituitary. This positive feedback loop produces the LH surge that triggers ovulation.",
+        "B": "Negative feedback would reduce LH secretion as estrogen rises. The LH surge is the opposite \u2014 rising estrogen above a threshold triggers increased LH release. This is one of the few examples of positive feedback in endocrinology.",
+        "C": "LH secretion is pulsatile and varies dramatically across the cycle. It is lowest in the early follicular and luteal phases and peaks sharply at the midcycle surge. This is not constitutive secretion.",
+        "D": "LH is an endocrine hormone \u2014 it is released into the bloodstream and acts on distant target cells (ovarian follicle cells). Paracrine signaling involves local diffusion to nearby cells, not systemic blood-borne transport."
+      },
+      "topic": "LH Surge / Positive Feedback",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_002",
+      "passage": null,
+      "passageRef": "bb_repro_001",
+      "stem": "After ovulation, the ruptured follicle transforms into the corpus luteum, which produces progesterone. Progesterone's primary role in the luteal phase is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stimulate another LH surge to trigger a second ovulation"
+        },
+        {
+          "label": "B",
+          "text": "stimulate the growth of new ovarian follicles for the next cycle"
+        },
+        {
+          "label": "C",
+          "text": "maintain the endometrial lining in a secretory state prepared for embryo implantation, while suppressing further ovulation via negative feedback on GnRH and LH"
+        },
+        {
+          "label": "D",
+          "text": "thin the endometrial lining to prepare for menstruation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Progesterone suppresses GnRH pulsatility and LH secretion via negative feedback. It does not stimulate another LH surge. A second ovulation in the same cycle is prevented by progesterone's inhibitory effects on the hypothalamic-pituitary axis.",
+        "B": "Progesterone suppresses follicular development during the luteal phase. New follicle recruitment begins only after progesterone levels drop during menstruation, allowing FSH to rise and initiate the next follicular phase.",
+        "C": "Progesterone transforms the estrogen-primed endometrium into a secretory state: endometrial glands secrete glycogen-rich fluid, blood vessel density increases, and the stroma becomes receptive to embryo implantation. Simultaneously, progesterone exerts negative feedback on the hypothalamic-pituitary axis, suppressing GnRH pulsatility and preventing further FSH/LH surges and ovulation. If pregnancy occurs, the corpus luteum is maintained by hCG from the embryo; if not, it degenerates, progesterone drops, and menstruation follows.",
+        "D": "Progesterone maintains and thickens the endometrium during the luteal phase \u2014 it does not thin it. Endometrial thinning and shedding (menstruation) occur when progesterone levels fall after corpus luteum degeneration."
+      },
+      "topic": "Progesterone / Luteal Phase",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_003",
+      "passage": null,
+      "passageRef": "bb_repro_001",
+      "stem": "If fertilization occurs, the developing embryo secretes human chorionic gonadotropin (hCG). The function of hCG in early pregnancy is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stimulate the corpus luteum to continue producing progesterone, preventing menstruation and maintaining the endometrium"
+        },
+        {
+          "label": "B",
+          "text": "directly stimulate the endometrium to grow without hormonal support from the ovary"
+        },
+        {
+          "label": "C",
+          "text": "suppress the maternal immune system to prevent rejection of the embryo"
+        },
+        {
+          "label": "D",
+          "text": "trigger a second LH surge to ensure adequate hormonal support"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "hCG is structurally similar to LH and binds the same receptor on the corpus luteum. It rescues the corpus luteum from degeneration, maintaining progesterone production during the first trimester until the placenta takes over progesterone synthesis (~weeks 8-12). Without hCG, the corpus luteum would degenerate, progesterone would drop, and menstruation would occur, terminating the pregnancy. hCG is the hormone detected by pregnancy tests.",
+        "B": "The endometrium requires hormonal support (primarily progesterone) to maintain its secretory state. hCG acts indirectly on the endometrium by maintaining the corpus luteum's progesterone production, not by directly stimulating endometrial growth.",
+        "C": "While maternal immune tolerance of the embryo is important, hCG's primary role is maintaining the corpus luteum and progesterone production. Immune tolerance involves multiple mechanisms (trophoblast MHC expression, regulatory T cells, local immunosuppressive factors) that are not primarily driven by hCG.",
+        "D": "hCG does not trigger an LH surge. It performs a function similar to LH (maintaining the corpus luteum) but through continuous secretion by the trophoblast, not through a pituitary surge mechanism."
+      },
+      "topic": "hCG / Corpus Luteum Maintenance",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_repro_004",
+      "passage": "A developmental biologist studies early embryonic development. After fertilization, the zygote undergoes a series of rapid mitotic divisions called cleavage. By day 5, the embryo has developed into a blastocyst containing an inner cell mass (which will form the embryo) and a trophoblast layer (which will form the placenta). The blastocyst implants in the uterine endometrium around day 6-7.",
+      "stem": "The cleavage divisions that convert the zygote into a blastocyst differ from typical somatic cell divisions in that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cleavage divisions skip S phase and divide without DNA replication"
+        },
+        {
+          "label": "B",
+          "text": "cleavage divisions produce cells with half the normal chromosome number"
+        },
+        {
+          "label": "C",
+          "text": "cleavage divisions are meiotic rather than mitotic"
+        },
+        {
+          "label": "D",
+          "text": "cleavage divisions are very rapid, with minimal or no G1 and G2 phases, so the overall size of the embryo does not increase even as cell number increases"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Cleavage divisions include S phase \u2014 DNA must be replicated before each division to maintain the diploid chromosome number. Skipping S phase would produce cells with progressively fewer chromosomes, which does not occur.",
+        "B": "Cleavage produces diploid cells. The zygote is diploid (2n), and each mitotic division produces diploid daughter cells. Haploid cells are produced only by meiosis during gametogenesis.",
+        "C": "Cleavage divisions are mitotic, not meiotic. Each blastomere receives a complete diploid set of chromosomes. Meiosis occurs only in the gonads during gametogenesis. If cleavage were meiotic, cells would become haploid after the first division.",
+        "D": "Cleavage divisions are characterized by abbreviated cell cycles with very short (or absent) G1 and G2 phases. The cells divide rapidly without growing between divisions, so each successive cell (blastomere) is smaller than the last. The total mass of the embryo remains approximately constant (equal to the original zygote), but the cell number increases exponentially. This is a key difference from typical somatic cell division, where cells grow back to full size before dividing."
+      },
+      "topic": "Cleavage / Early Embryonic Development",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_005",
+      "passage": null,
+      "passageRef": "bb_repro_004",
+      "stem": "The inner cell mass of the blastocyst is significant because it contains cells that are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "totipotent \u2014 capable of forming all cell types including extraembryonic tissues like the placenta"
+        },
+        {
+          "label": "B",
+          "text": "terminally differentiated \u2014 no longer capable of cell division"
+        },
+        {
+          "label": "C",
+          "text": "unipotent \u2014 already committed to forming only one specific tissue type"
+        },
+        {
+          "label": "D",
+          "text": "pluripotent \u2014 capable of differentiating into all cell types of the body (all three germ layers) but not extraembryonic tissues"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Totipotent cells can form all cell types including extraembryonic tissues. The zygote and the first few blastomeres (up to approximately the 8-cell stage) are totipotent. By the blastocyst stage, the inner cell mass has lost the ability to form trophoblast (extraembryonic) tissue, so these cells are pluripotent, not totipotent.",
+        "B": "Inner cell mass cells are actively dividing and undifferentiated. Terminal differentiation refers to cells that have fully specialized and permanently exited the cell cycle (e.g., mature neurons, red blood cells). ICM cells are the opposite \u2014 maximally undifferentiated and mitotically active.",
+        "C": "Unipotent cells are committed to a single cell lineage. Inner cell mass cells can form all body tissues from all three germ layers \u2014 they are far more versatile than unipotent cells.",
+        "D": "The inner cell mass contains pluripotent cells \u2014 they can differentiate into all three germ layers (ectoderm, mesoderm, endoderm) and therefore all cell types of the adult body. However, they cannot form the trophoblast or other extraembryonic tissues. These are embryonic stem cells (ESCs), which are the basis for stem cell research. Pluripotency is the hallmark of the inner cell mass."
+      },
+      "topic": "Pluripotency / Stem Cells",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_repro_006",
+      "passage": null,
+      "stem": "During gastrulation, the three primary germ layers are established. The nervous system and epidermis develop from which germ layer?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Endoderm, which also forms the lining of the digestive tract and associated organs"
+        },
+        {
+          "label": "B",
+          "text": "Mesoderm, which also forms muscle, bone, and the circulatory system"
+        },
+        {
+          "label": "C",
+          "text": "Ectoderm, which forms the outermost layer and includes neural tissue and skin epidermis"
+        },
+        {
+          "label": "D",
+          "text": "Trophoblast, which forms the placenta and other extraembryonic structures"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Endoderm forms the lining of the gastrointestinal tract, respiratory tract, liver, pancreas, thyroid, and bladder epithelium. It does not form the nervous system or epidermis.",
+        "B": "Mesoderm forms muscle (skeletal, cardiac, smooth), bone, cartilage, connective tissue, the circulatory system (heart, blood vessels, blood), kidneys, and reproductive organs. It does not form the nervous system or epidermis.",
+        "C": "Ectoderm is the outermost germ layer and gives rise to the nervous system (brain, spinal cord, peripheral nerves \u2014 via the neural tube and neural crest), the epidermis of the skin, hair, nails, tooth enamel, and the lens of the eye. The neural plate forms from ectoderm during neurulation and folds into the neural tube, which becomes the central nervous system.",
+        "D": "The trophoblast is not a germ layer \u2014 it is an extraembryonic tissue that forms the fetal contribution to the placenta. The three germ layers (ectoderm, mesoderm, endoderm) are derived from the inner cell mass, not the trophoblast."
+      },
+      "topic": "Germ Layers / Ectoderm",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_repro_007",
+      "passage": null,
+      "stem": "Spermatogenesis occurs in the seminiferous tubules of the testes. The process begins with spermatogonia (diploid stem cells) and ends with mature spermatozoa (haploid). The correct order of cell types during spermatogenesis is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Spermatogonium \u2192 primary spermatocyte \u2192 secondary spermatocyte \u2192 spermatid \u2192 spermatozoon"
+        },
+        {
+          "label": "B",
+          "text": "Spermatogonium \u2192 spermatid \u2192 primary spermatocyte \u2192 secondary spermatocyte \u2192 spermatozoon"
+        },
+        {
+          "label": "C",
+          "text": "Spermatogonium \u2192 secondary spermatocyte \u2192 primary spermatocyte \u2192 spermatid \u2192 spermatozoon"
+        },
+        {
+          "label": "D",
+          "text": "Spermatid \u2192 spermatogonium \u2192 primary spermatocyte \u2192 secondary spermatocyte \u2192 spermatozoon"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Spermatogenesis proceeds: spermatogonium (2n, stem cell) undergoes mitosis to maintain the stem cell pool and produce primary spermatocytes (2n). Primary spermatocytes undergo meiosis I to produce secondary spermatocytes (n, with sister chromatids). Secondary spermatocytes undergo meiosis II to produce spermatids (n). Spermatids undergo spermiogenesis (morphological maturation \u2014 acrosome formation, flagellum development, cytoplasm reduction) to become mature spermatozoa.",
+        "B": "Spermatids come after secondary spermatocytes, not before primary spermatocytes. This order violates the sequence of meiotic divisions.",
+        "C": "Primary spermatocytes undergo meiosis I before secondary spermatocytes undergo meiosis II. Reversing their order contradicts the sequential nature of meiosis.",
+        "D": "Spermatids are near the end of the process, not the beginning. Spermatogonia are the starting stem cells."
+      },
+      "topic": "Spermatogenesis / Meiosis",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_repro_008",
+      "passage": null,
+      "stem": "Oogenesis differs from spermatogenesis in several important ways. One key difference is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "oogenesis produces four functional gametes from each primary oocyte, while spermatogenesis produces only two from each primary spermatocyte"
+        },
+        {
+          "label": "B",
+          "text": "oogenesis begins at puberty, while spermatogenesis begins during fetal development"
+        },
+        {
+          "label": "C",
+          "text": "oogenesis does not involve meiosis \u2014 eggs are produced entirely by mitotic divisions"
+        },
+        {
+          "label": "D",
+          "text": "meiosis I in oogenesis is arrested at prophase I from fetal development until ovulation, which can be decades later"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Oogenesis produces only one functional gamete (ovum) from each primary oocyte. The other three cells become polar bodies \u2014 small, nonfunctional cells that receive minimal cytoplasm. Spermatogenesis produces four functional spermatozoa from each primary spermatocyte. This answer has the numbers reversed.",
+        "B": "This is reversed. Oogenesis begins during fetal development (oogonia proliferate and primary oocytes enter meiosis I in utero). Spermatogenesis begins at puberty. The male germ cells (spermatogonia) are present in the fetal testes but do not begin meiosis until puberty under testosterone stimulation.",
+        "C": "Oogenesis involves both mitosis (oogonial divisions during fetal development) and meiosis (meiosis I and II during ovulation and fertilization). All gamete production requires meiosis to produce haploid cells.",
+        "D": "Primary oocytes begin meiosis I during fetal development and arrest at prophase I (the dictyate stage). They remain arrested until shortly before ovulation, which can be 12\u201350+ years later. At ovulation, meiosis I resumes and completes, producing a secondary oocyte and a first polar body. The secondary oocyte immediately arrests at metaphase II and remains arrested until fertilization. Only upon sperm entry does meiosis II complete, producing the mature ovum and a second polar body. This two-stage arrest \u2014 prophase I until ovulation, metaphase II until fertilization \u2014 is unique to oogenesis and is a key MCAT distinction."
+      },
+      "topic": "Oogenesis vs Spermatogenesis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_009",
+      "passage": null,
+      "stem": "Testosterone is produced by Leydig cells in the testes in response to stimulation by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "FSH from the anterior pituitary"
+        },
+        {
+          "label": "B",
+          "text": "Estrogen from the adrenal cortex"
+        },
+        {
+          "label": "C",
+          "text": "Inhibin from Sertoli cells"
+        },
+        {
+          "label": "D",
+          "text": "LH from the anterior pituitary"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "FSH acts on Sertoli cells (not Leydig cells) in the seminiferous tubules, stimulating them to support spermatogenesis and produce androgen-binding protein (ABP) and inhibin. FSH does not directly stimulate testosterone production by Leydig cells.",
+        "B": "While the adrenal cortex does produce small amounts of androgens (DHEA, androstenedione), estrogen from the adrenal cortex does not stimulate testicular testosterone production. The primary regulator of Leydig cell testosterone synthesis is LH from the anterior pituitary.",
+        "C": "Inhibin is produced by Sertoli cells and selectively inhibits FSH secretion from the anterior pituitary. It does not stimulate testosterone production. Inhibin provides negative feedback specifically on FSH, separate from testosterone's negative feedback on both LH and GnRH.",
+        "D": "LH binds to receptors on Leydig cells (interstitial cells) in the testes, stimulating them to produce testosterone. This is the primary regulatory mechanism for testosterone synthesis. The hypothalamic-pituitary-gonadal axis operates through negative feedback: GnRH from the hypothalamus stimulates LH (and FSH) from the anterior pituitary; LH stimulates testosterone from Leydig cells; testosterone feeds back to inhibit both GnRH and LH secretion."
+      },
+      "topic": "HPG Axis / Testosterone Regulation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_repro_010",
+      "passage": null,
+      "stem": "The placenta serves as the interface between maternal and fetal circulations. Which of the following is a function of the placenta?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Direct mixing of maternal and fetal blood to ensure efficient nutrient transfer"
+        },
+        {
+          "label": "B",
+          "text": "Gas exchange, nutrient transfer, and waste removal between maternal and fetal blood without direct mixing of the two circulations"
+        },
+        {
+          "label": "C",
+          "text": "Production of fetal red blood cells during the first trimester"
+        },
+        {
+          "label": "D",
+          "text": "Providing the fetus with a mature immune system by transferring maternal T cells"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Maternal and fetal blood do not mix directly in normal pregnancy. The placenta maintains a barrier (syncytiotrophoblast layer) between the maternal blood in the intervillous space and the fetal blood in the chorionic villi capillaries. Nutrients, gases, and waste products cross this barrier by diffusion, facilitated transport, and active transport.",
+        "B": "The placenta facilitates exchange of O\u2082, CO\u2082, glucose, amino acids, electrolytes, and waste products (urea, bilirubin) between maternal and fetal circulations across the placental barrier. Maternal blood bathes the chorionic villi, and exchange occurs across the thin syncytiotrophoblast without the two bloodstreams physically mixing. The placenta also produces hormones (hCG, progesterone, estrogen, human placental lactogen) essential for maintaining pregnancy.",
+        "C": "Fetal red blood cell production (hematopoiesis) occurs initially in the yolk sac, then in the fetal liver and spleen, and finally in the fetal bone marrow. The placenta does not produce fetal red blood cells.",
+        "D": "While maternal IgG antibodies do cross the placenta (conferring passive immunity to the fetus), maternal T cells do not normally cross. Transfer of maternal T cells would risk graft-versus-host disease. Passive immunity from maternal IgG provides temporary protection against pathogens the mother has encountered."
+      },
+      "topic": "Placental Function / Fetal-Maternal Exchange",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_011",
+      "passage": null,
+      "stem": "During fertilization, the acrosome reaction occurs when the sperm contacts the zona pellucida of the oocyte. The acrosome reaction involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "release of hydrolytic enzymes from the acrosome that digest the zona pellucida, allowing the sperm to penetrate and reach the oocyte membrane"
+        },
+        {
+          "label": "B",
+          "text": "fusion of the sperm and oocyte nuclei in the cytoplasm"
+        },
+        {
+          "label": "C",
+          "text": "release of cortical granules from the sperm to prevent polyspermy"
+        },
+        {
+          "label": "D",
+          "text": "duplication of the sperm's DNA in preparation for the first cleavage division"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The acrosome is a specialized lysosome-like vesicle at the tip of the sperm head containing hydrolytic enzymes (including hyaluronidase and acrosin). When the sperm binds to ZP3 glycoprotein on the zona pellucida, the acrosomal membrane fuses with the sperm plasma membrane, releasing these enzymes. The enzymes locally digest the zona pellucida, creating a path for the sperm to reach and fuse with the oocyte's plasma membrane.",
+        "B": "Nuclear fusion (karyogamy) occurs after the sperm has entered the oocyte, not during the acrosome reaction. The sperm and egg pronuclei form, replicate their DNA, and their chromosomes align on the first mitotic spindle.",
+        "C": "Cortical granules are released from the oocyte (not the sperm) after sperm-oocyte membrane fusion. The cortical reaction modifies ZP proteins to prevent additional sperm from binding (the zona block to polyspermy). This is a maternal defense mechanism.",
+        "D": "Sperm DNA does not replicate during the acrosome reaction. DNA replication occurs after the sperm nucleus decondenses within the oocyte and forms the male pronucleus."
+      },
+      "topic": "Acrosome Reaction / Fertilization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_012",
+      "passage": null,
+      "stem": "After the sperm fuses with the oocyte membrane, the cortical reaction prevents polyspermy by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "destroying all remaining sperm in the reproductive tract"
+        },
+        {
+          "label": "B",
+          "text": "modifying the zona pellucida proteins so that additional sperm can no longer bind"
+        },
+        {
+          "label": "C",
+          "text": "causing the oocyte to rapidly complete mitosis, leaving no time for additional sperm entry"
+        },
+        {
+          "label": "D",
+          "text": "releasing hormones that signal the ovary to stop ovulating"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The cortical reaction affects the zona pellucida surrounding the fertilized egg, not sperm elsewhere in the reproductive tract. Other sperm are not destroyed \u2014 they simply cannot penetrate the modified zona.",
+        "B": "Upon sperm-oocyte fusion, intracellular Ca\u00b2\u207a waves trigger exocytosis of cortical granules from the oocyte. The enzymes released (including cortical granule serine protease) cleave ZP2 and modify ZP3, hardening the zona pellucida and preventing additional sperm from binding or penetrating. This is the slow block to polyspermy (complementing the fast block \u2014 membrane depolarization).",
+        "C": "After fertilization, the oocyte completes meiosis II (not mitosis). The cortical reaction is a specific exocytotic event, not related to the timing of meiotic completion.",
+        "D": "The cortical reaction is a local event at the egg surface. It does not involve hormonal signaling to the ovary. Hormonal regulation of ovulation is a separate process controlled by the hypothalamic-pituitary-gonadal axis."
+      },
+      "topic": "Cortical Reaction / Polyspermy Block",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_013",
+      "passage": null,
+      "stem": "Identical (monozygotic) twins arise when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "two separate eggs are fertilized by two different sperm"
+        },
+        {
+          "label": "B",
+          "text": "a single fertilized egg splits into two embryos during early development"
+        },
+        {
+          "label": "C",
+          "text": "one sperm fertilizes two eggs simultaneously"
+        },
+        {
+          "label": "D",
+          "text": "the mother releases two eggs that are fertilized by sperm from different fathers"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Two separate eggs fertilized by two different sperm produces fraternal (dizygotic) twins. These twins are genetically distinct siblings who happen to develop simultaneously. They share ~50% of their DNA, the same as any siblings.",
+        "B": "Monozygotic twins arise from a single zygote that splits into two separate embryos during early development (typically before day 14). Because they originate from one fertilized egg, they are genetically identical. The timing of the split determines whether they share a placenta and/or amniotic sac.",
+        "C": "One sperm cannot fertilize two eggs. Each fertilization event requires one sperm and one egg. This is biologically impossible.",
+        "D": "Two eggs fertilized by different fathers (superfecundation) produces fraternal twins with different paternal genetic contributions. These are dizygotic twins, not monozygotic."
+      },
+      "topic": "Monozygotic Twins / Early Development",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_repro_014",
+      "passage": null,
+      "stem": "The sex of a human embryo is determined at fertilization by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the mother's egg, which can carry either an X or Y chromosome"
+        },
+        {
+          "label": "B",
+          "text": "environmental temperature during the first trimester, as in some reptiles"
+        },
+        {
+          "label": "C",
+          "text": "the father's sperm, which carries either an X or Y chromosome, because the egg always contributes an X chromosome"
+        },
+        {
+          "label": "D",
+          "text": "random inactivation of one X chromosome in the developing embryo"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The mother's egg always carries an X chromosome (females are XX, so every egg receives one X). The sex-determining chromosome comes from the father's sperm: X-bearing sperm produce XX (female) offspring, Y-bearing sperm produce XY (male) offspring.",
+        "B": "Human sex determination is genetic (XX/XY system), not temperature-dependent. Temperature-dependent sex determination occurs in some reptiles (e.g., crocodilians, some turtles) but not in mammals.",
+        "C": "Human sex is determined by the sex chromosome carried by the fertilizing sperm. All eggs carry one X chromosome. Sperm carry either an X or a Y chromosome (males are XY, so meiosis produces equal proportions of X-bearing and Y-bearing sperm). XX = female, XY = male. The SRY gene on the Y chromosome initiates male sexual differentiation by directing gonadal development into testes.",
+        "D": "X-inactivation (lyonization) occurs in female (XX) embryos to equalize X-linked gene dosage with males (XY). One X chromosome in each cell is randomly inactivated. This is a gene dosage compensation mechanism, not a sex determination mechanism."
+      },
+      "topic": "Sex Determination / XX-XY System",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_repro_015",
+      "passage": null,
+      "stem": "Neural crest cells are a transient population of cells that arise from the ectoderm during neurulation. They migrate throughout the embryo and differentiate into a remarkably diverse set of cell types. Which of the following is derived from neural crest cells?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Cardiac muscle cells of the heart"
+        },
+        {
+          "label": "B",
+          "text": "Hepatocytes (liver cells)"
+        },
+        {
+          "label": "C",
+          "text": "Melanocytes (pigment-producing cells of the skin)"
+        },
+        {
+          "label": "D",
+          "text": "Alveolar epithelial cells of the lungs"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Cardiac muscle cells derive from mesoderm (specifically, cardiogenic mesoderm). Mesoderm gives rise to all muscle types (skeletal, cardiac, smooth), bone, cartilage, and connective tissue.",
+        "B": "Hepatocytes derive from endoderm. The liver develops from an outgrowth of the foregut endoderm (the hepatic diverticulum). Endoderm forms the epithelial lining of the digestive and respiratory tracts and their associated glands.",
+        "C": "Neural crest cells are remarkable for their migratory capacity and differentiation potential. They give rise to melanocytes, peripheral nervous system neurons and glia (including Schwann cells), adrenal medulla chromaffin cells, craniofacial cartilage and bone, smooth muscle of great vessels, and dental pulp cells. Melanocytes migrate from the neural crest to the epidermis, hair follicles, and iris during development.",
+        "D": "Alveolar epithelial cells derive from endoderm. The lungs develop from an outgrowth of the foregut, and the alveolar epithelium is endodermally derived."
+      },
+      "topic": "Neural Crest Derivatives / Embryology",
+      "difficulty": "Hard"
+    }
+  ]
+}

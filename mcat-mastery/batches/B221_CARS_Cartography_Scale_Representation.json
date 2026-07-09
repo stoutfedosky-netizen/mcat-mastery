@@ -1,0 +1,246 @@
+{
+  "batch": "B221",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Cartography, Scale & the Ethics of Representation",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_cartography_scale_221_q0",
+      "passage": "Every map begins with a betrayal. To make a place visible, it must first make most of that place disappear. A coastline becomes a line; a city becomes a dot; a mountain becomes a set of nested curves; a neighborhood becomes a name printed at a size determined by someone else’s hierarchy of importance. This is not a defect in maps. It is the condition that allows them to work. A map that attempted to include every smell, argument, footpath, pothole, memory, fence, and informal shortcut would not be more faithful to a place. It would be unusable. The question is therefore not whether a map simplifies, but what kind of simplification it asks us to trust.\n\nThis is why accuracy in cartography is never a single virtue. A subway map may distort geographic distance in order to clarify transfers. A nautical chart may neglect the shape of inland neighborhoods while recording hazards invisible from the shore. A property survey may ignore the lived texture of a street while rendering ownership with legal precision. Each of these maps is accurate only within the discipline of its purpose. Trouble begins when the discipline disappears from view and the map’s omissions come to look like the world’s own emptiness.\n\nModern digital maps intensify this problem by making interpretation feel like immediacy. The blue dot appears to place us directly inside reality. Satellite layers seem to remove the drafter’s hand altogether, replacing symbolic convention with photographic evidence. Turn-by-turn directions spare us the need to form a mental picture of the route. Yet the smoothness of the interface conceals a dense sequence of decisions: which roads are treated as primary, which names are displayed at which zoom level, which borders are accepted as authoritative, which businesses appear first, which routes are deemed efficient, and which forms of movement are presumed normal. The more effortless the map becomes, the easier it is to forget that it has a point of view.\n\nOlder maps often reveal this point of view more plainly. The blank spaces on colonial maps, for instance, did not merely confess ignorance; they could transform inhabited regions into available ones by making local presence illegible. Lines drawn across deserts, rivers, or grazing lands could convert negotiated territories into administrative units. A name printed on a map could outlast the people who had used another name for centuries. To map a place was often to prepare it for possession. But it would be too simple to conclude that maps are nothing but instruments of domination. They can guide rescue workers, record endangered languages, defend land claims, and expose environmental harm. A map can be criticized precisely because it makes claims that can be compared with experience, testimony, and other maps. Its power lies not in being false, but in making a partial view appear sufficient.\n\nScale is one of the most effective ways a map hides its partiality. We tend to imagine that zooming in brings us closer to the truth, while zooming out gives only a broad approximation. But scale does not arrange truth from vague to precise. It changes the kind of truth available. A map of a single block may show entrances, alleys, and curb cuts while erasing the watershed that makes the block flood. A continental map may reveal migration corridors while erasing the corner store that anchors a neighborhood. Neither view corrects the other. Each makes certain relations visible by sacrificing others. The danger is not choosing a scale; it is mistaking the chosen scale for reality itself.\n\nA more responsible cartographic culture would not ask maps to become impossible mirrors of the world. It would ask them to become more honest about their grammar. Legends, projections, data sources, uncertain borders, missing regions, alternate names, and known distortions are not decorative apparatus. They are the means by which a map admits that it is an argument about space, not space itself. Such admissions do not weaken a map’s usefulness. They allow users to understand the conditions under which its usefulness holds.\n\nThe mature map reader, then, is neither a cynic nor a believer. The believer treats the map as a neutral window and mistakes its clarity for innocence. The cynic treats every map as manipulation and loses the ability to distinguish a careful representation from a careless one. Both surrender the difficult task of judgment. We need maps because we cannot carry the world whole in our minds. But we should read them with the same question we bring to any powerful simplification: what has been made easy to see, what has been made difficult to notice, and who benefits when that difference is forgotten?",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Maps are most dangerous when they are inaccurate, because their practical authority depends on the precision with which they reproduce physical geography."
+        },
+        {
+          "label": "B",
+          "text": "Modern digital maps have made older forms of cartography obsolete by allowing users to navigate without relying on symbolic conventions."
+        },
+        {
+          "label": "C",
+          "text": "Because maps have historically been used to support conquest and administration, they should be regarded primarily as instruments of domination."
+        },
+        {
+          "label": "D",
+          "text": "Maps are necessary but selective representations whose usefulness depends on recognizing the purposes, omissions, and assumptions that shape them."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice narrows the argument to inaccuracy, but the passage’s central concern is not simply whether maps are precise or imprecise. The author argues that even useful and accurate maps simplify according to a purpose. The danger arises when those purposeful omissions become invisible and the map’s partial view appears sufficient.",
+        "B": "This choice reflects a view the passage explicitly challenges. Digital maps may feel immediate, but the author argues that they conceal interpretation behind a smooth interface. Satellite layers, blue dots, and turn-by-turn directions do not remove convention; they can make convention harder to notice.",
+        "C": "This choice captures one important historical criticism discussed in the fourth paragraph, but it overstates the author’s position. The author notes that maps have supported possession and domination, yet also insists that maps can guide rescue work, defend land claims, record languages, and expose harm. The passage rejects both naïve trust and total cynicism.",
+        "D": "Correct. The passage argues that maps must simplify in order to function, but that their simplifications are shaped by purpose, scale, conventions, and power. The author’s main claim is that mature map use requires recognizing maps as useful but partial arguments about space rather than neutral mirrors of the world."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_cartography_scale_221_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The examples of the subway map, nautical chart, and property survey in the second paragraph primarily serve to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "show that the most accurate maps are those that minimize distortion and preserve geographic scale."
+        },
+        {
+          "label": "B",
+          "text": "illustrate that a map’s accuracy depends on the particular purpose for which its simplifications are designed."
+        },
+        {
+          "label": "C",
+          "text": "suggest that legal and commercial maps are less trustworthy than maps created for travel or navigation."
+        },
+        {
+          "label": "D",
+          "text": "demonstrate that older cartographic practices were more transparent about their limitations than modern digital maps."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice reverses the point of the examples. The subway map may distort distance precisely in order to be accurate for its purpose: clarifying transfers. The author is not praising preservation of geographic scale as the highest form of accuracy.",
+        "B": "Correct. The examples show that accuracy is purpose-relative. A subway map, nautical chart, and property survey each leave out many features, but those omissions are not failures if they serve the map’s function. The paragraph argues that maps become problematic when their governing purpose is forgotten.",
+        "C": "This choice invents a hierarchy the passage does not support. The author does not say property surveys are less trustworthy than transportation or nautical maps. Each type of map has its own discipline of relevance and its own possible distortions.",
+        "D": "This choice draws from a later contrast between older and digital maps, but that is not the function of these examples. The second paragraph is about the purpose-dependent nature of cartographic accuracy, not the historical difference between analog and digital mapping."
+      },
+      "topic": "Function of Examples",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_cartography_scale_221_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the fourth paragraph, the discussion of blank spaces on colonial maps suggests that such spaces could:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "make inhabited regions appear available by rendering local forms of presence and knowledge invisible."
+        },
+        {
+          "label": "B",
+          "text": "demonstrate an unusually honest willingness by mapmakers to admit the limits of their geographical knowledge."
+        },
+        {
+          "label": "C",
+          "text": "prove that colonial administrators usually lacked any practical interest in the territories they mapped."
+        },
+        {
+          "label": "D",
+          "text": "show that maps became politically dangerous only when they contained deliberate factual errors."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage states that blank spaces on colonial maps did not merely confess ignorance; they could transform inhabited regions into available ones by making local presence illegible. The blankness therefore had political consequences because it made existing people and practices disappear from the map’s account of space.",
+        "B": "This choice is a partial reading that misses the author’s emphasis. While a blank could seem to admit ignorance, the passage says it did not merely do that. The author stresses how blankness could actively recode inhabited land as available.",
+        "C": "This choice is unsupported and contrary to the paragraph’s implication. The passage suggests that mapping could prepare a place for possession, which implies practical administrative interest rather than lack of interest.",
+        "D": "This choice misunderstands the author’s view of cartographic power. The problem is not only deliberate factual error. A map can be dangerous through omission, naming, scale, and classification even when it is not simply lying."
+      },
+      "topic": "Inference",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_cartography_scale_221_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following best characterizes the author’s view of the claim that maps are instruments of domination?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The claim is entirely false because maps are objective tools whose usefulness is independent of political context."
+        },
+        {
+          "label": "B",
+          "text": "The claim is historically accurate but irrelevant to modern digital maps, which no longer depend on naming or borders."
+        },
+        {
+          "label": "C",
+          "text": "The claim identifies a real danger, but becomes too simple if it ignores maps’ practical uses and their capacity to be tested against other evidence."
+        },
+        {
+          "label": "D",
+          "text": "The claim is the only responsible conclusion once one recognizes that every map omits more than it includes."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice reflects the naïve position the author rejects. The passage repeatedly argues that maps are shaped by purpose, omission, naming, scale, and authority. Their usefulness is not independent of political and interpretive context.",
+        "B": "This choice is not supported by the passage. Modern digital maps still depend on choices about names, borders, route priorities, and forms of movement. The author does not treat domination as a concern limited to older maps.",
+        "C": "Correct. The author acknowledges that maps can prepare places for possession and make local presence invisible. However, the passage warns that it is too simple to treat maps as nothing but instruments of domination, since maps can also aid rescue, record languages, defend claims, and be criticized by comparison with experience, testimony, and other maps.",
+        "D": "This choice turns the author’s critique into total cynicism. The passage says all maps omit, but it does not conclude that omission makes every map merely domination. The author’s preferred stance requires judgment among different kinds of maps, not blanket suspicion."
+      },
+      "topic": "Author's Viewpoint",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_cartography_scale_221_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following examples would best illustrate the author’s preferred approach to cartography?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A city navigation app hides its routing criteria so users can follow directions without being distracted by technical information."
+        },
+        {
+          "label": "B",
+          "text": "A national atlas removes disputed place names in order to present a unified picture of the country’s territory."
+        },
+        {
+          "label": "C",
+          "text": "A flood-risk map displays elevation data, marks areas where measurements are incomplete, identifies its projection, and notes that neighborhood-level drainage conditions may alter local risk."
+        },
+        {
+          "label": "D",
+          "text": "A historical map is rejected as useless because its borders and names reflect the political assumptions of the period in which it was produced."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice exemplifies the concealment the author criticizes. The passage is concerned with maps that make their interpretive decisions invisible, especially when smoothness or ease leads users to forget that the map has a point of view.",
+        "B": "This choice suppresses disagreement in order to create a falsely unified view. The author specifically values the display of uncertain borders, alternate names, and known distortions because these features reveal the map’s grammar and limits.",
+        "C": "Correct. This example makes its conditions of use visible. By showing data sources, incompleteness, projection, and local limitations, the map remains useful while admitting that it is a selective argument about space rather than a complete mirror of reality.",
+        "D": "This choice represents the cynical extreme the author rejects. A historically situated map may be limited or politically charged, but that does not make it useless. The author argues for critical judgment, not wholesale dismissal."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_cartography_scale_221_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author’s discussion of scale most strongly implies which of the following?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Increasing detail does not necessarily produce a truer map; it changes which relationships the map can reveal and which it must obscure."
+        },
+        {
+          "label": "B",
+          "text": "Small-scale maps are preferable to large-scale maps because they better capture the broad systems that shape human life."
+        },
+        {
+          "label": "C",
+          "text": "A map becomes more objective as it moves from local features to continental or global patterns."
+        },
+        {
+          "label": "D",
+          "text": "The limitations of scale can be overcome if cartographers combine enough local and regional data into a single comprehensive image."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage explicitly rejects the idea that zooming in moves from vagueness toward truth. Scale changes the kind of truth available: a block-level map and a continental map reveal different relations by sacrificing others. Detail is therefore not the same as completeness.",
+        "B": "This choice simply reverses the common preference for local detail without capturing the author’s point. The author does not say broad-scale maps are better; each scale reveals and hides different things.",
+        "C": "This choice is unsupported. The passage does not associate objectivity with distance or breadth. A continental map can erase local realities just as a block-level map can erase broader systems.",
+        "D": "This choice repeats the fantasy of a complete map that the passage rejects. Adding more data does not eliminate the need for selection, scale, purpose, and interpretation. A comprehensive image would still have to choose how to organize and prioritize information."
+      },
+      "topic": "Inference",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_cartography_scale_221_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the author’s argument about modern digital maps?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Studies show that many users prefer turn-by-turn directions because they reduce the stress of navigating unfamiliar cities."
+        },
+        {
+          "label": "B",
+          "text": "Most widely used digital map platforms prominently disclose routing assumptions, disputed borders, ranking criteria, data gaps, and alternate place names in ways users regularly consult."
+        },
+        {
+          "label": "C",
+          "text": "Historical research shows that some paper maps were also shaped by political assumptions, commercial priorities, and incomplete data."
+        },
+        {
+          "label": "D",
+          "text": "Digital maps are frequently updated more quickly than printed maps when roads close, businesses move, or new public transit routes are added."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice does not weaken the author’s argument. The passage does not deny that digital maps are convenient or reduce stress. Its concern is that their convenience can make their interpretive assumptions less visible.",
+        "B": "Correct. The author argues that modern digital maps intensify the problem of hidden interpretation because smooth interfaces conceal decisions about routes, borders, names, businesses, and movement. If major platforms prominently disclosed these assumptions and users actually consulted them, the claim that digital maps make interpretation feel like immediacy would be significantly weakened.",
+        "C": "This choice would not weaken the argument; it aligns with it. The author explicitly recognizes that older maps have points of view and political histories. The passage’s claim is not that paper maps were neutral, but that digital maps can hide interpretation through seamlessness.",
+        "D": "This choice supports the practical usefulness of digital maps, but the author does not deny that usefulness. A map can be updated quickly and still conceal the assumptions that determine what is displayed, prioritized, or treated as authoritative."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

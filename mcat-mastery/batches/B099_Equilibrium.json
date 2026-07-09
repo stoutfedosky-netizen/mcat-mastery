@@ -1,0 +1,338 @@
+{
+  "batch": "B099",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Equilibrium & Le Chatelier's Principle",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_equil_001",
+      "passage": "A chemistry student studies chemical equilibrium. She examines the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = -92 kJ/mol (exothermic). At equilibrium at 500 K, the equilibrium constant Kc = 0.50. She applies Le Chatelier's principle to predict shifts upon changes in concentration, pressure, temperature, and addition of a catalyst. She also studies the relationship between Kc and Kp, the reaction quotient Q, and the significance of the equilibrium constant's magnitude.",
+      "stem": "For the Haber reaction, Kc = [NH₃]²/([N₂][H₂]³) = 0.50 at 500 K. This value indicates that at equilibrium:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the reaction strongly favors products (mostly NH₃)"
+        },
+        {
+          "label": "B",
+          "text": "the reaction has not yet begun"
+        },
+        {
+          "label": "C",
+          "text": "only reactants are present with no products formed"
+        },
+        {
+          "label": "D",
+          "text": "the mixture contains comparable amounts of reactants and products — Kc near 1 means neither side is heavily favored"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Kc = 0.50 does not strongly favor products. Strong product favorability would require Kc >> 1 (e.g., Kc = 10⁶). At Kc = 0.50, reactants are slightly favored but both sides are significantly present.",
+        "B": "At equilibrium, the forward and reverse reactions proceed at equal rates. Kc describes the equilibrium state, which has been reached — the reaction has been proceeding in both directions.",
+        "C": "If only reactants were present, Kc would be effectively zero. Kc = 0.50 indicates substantial product (NH₃) formation at equilibrium.",
+        "D": "Correct. The magnitude of K indicates equilibrium position: K >> 1 (e.g., 10⁶) means products strongly favored; K << 1 (e.g., 10⁻⁶) means reactants favored; K ≈ 1 (0.1-10 range) means comparable amounts of both. Kc = 0.50 is close to 1, indicating that at 500 K, the equilibrium mixture contains significant amounts of both N₂/H₂ and NH₃. Industrially, this is why the Haber process uses high pressure (Le Chatelier's — shifts toward fewer moles of gas) and moderate temperature (compromise between thermodynamic favorability and kinetic speed) to maximize NH₃ yield."
+      },
+      "topic": "Equilibrium Constant / Magnitude Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_equil_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If additional N₂ is added to the equilibrium mixture at constant volume, Le Chatelier's principle predicts that the equilibrium will:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "shift to the left (toward reactants), producing more N₂ and H₂"
+        },
+        {
+          "label": "B",
+          "text": "shift to the right (toward products), consuming N₂ and H₂ to produce more NH₃ — the system partially counteracts the increase in [N₂] by consuming some of the added N₂"
+        },
+        {
+          "label": "C",
+          "text": "not shift at all because adding reactants has no effect"
+        },
+        {
+          "label": "D",
+          "text": "shift to the right and completely consume all added N₂"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Adding a reactant shifts the equilibrium toward products (right), not reactants (left). The system tries to consume the excess reactant, not produce more.",
+        "B": "Correct. Le Chatelier's principle: when a system at equilibrium is disturbed, it shifts to partially counteract the disturbance. Adding N₂ increases [N₂] above its equilibrium value — Q < K (reaction quotient is less than the equilibrium constant because the denominator increased). The system shifts right (forward reaction accelerates) until Q = K again. New equilibrium has: higher [N₂] (but not as high as immediately after addition), lower [H₂] (consumed), and higher [NH₃] (produced). The shift partially, not completely, offsets the disturbance.",
+        "C": "Adding reactants always shifts the equilibrium (for reactions where the added species appears in the equilibrium expression). The system is no longer at equilibrium after the addition (Q ≠ K) and must readjust.",
+        "D": "The shift is partial, not complete. The new equilibrium will have more N₂ than the original (before addition) but less than immediately after addition. Le Chatelier's principle predicts partial counteraction."
+      },
+      "topic": "Le Chatelier's / Concentration Change",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_equil_003",
+      "passage": null,
+      "stem": "Increasing the total pressure on the Haber equilibrium (N₂ + 3H₂ ⇌ 2NH₃) by decreasing volume would:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "have no effect on the equilibrium position"
+        },
+        {
+          "label": "B",
+          "text": "shift the equilibrium to the left (more moles of gas)"
+        },
+        {
+          "label": "C",
+          "text": "shift the equilibrium to the right (toward NH₃) — the system shifts toward the side with fewer moles of gas (2 mol products vs 4 mol reactants) to partially reduce the pressure increase"
+        },
+        {
+          "label": "D",
+          "text": "change the value of Kc"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Pressure changes affect gas-phase equilibria where the mole count differs between sides. With 4 mol reactant gas vs 2 mol product gas, the equilibrium shifts.",
+        "B": "Shifting left would increase total moles of gas, further increasing pressure — the opposite of what Le Chatelier's predicts. The system shifts to reduce pressure, which means favoring the side with fewer moles.",
+        "C": "Correct. Le Chatelier's for pressure changes (gas-phase reactions): increasing pressure by decreasing volume shifts equilibrium toward the side with fewer total moles of gas. Reactant side: 1 + 3 = 4 moles of gas. Product side: 2 moles of gas. The system shifts right (fewer moles), producing more NH₃ and partially reducing the pressure increase. This is why the industrial Haber process uses high pressures (150-300 atm) — it drives NH₃ formation. Note: adding an inert gas at constant volume does NOT shift equilibrium because partial pressures of reactive species are unchanged.",
+        "D": "Kc (and Kp) are temperature-dependent only. Changing pressure, concentration, or adding a catalyst does not change the value of K. The system shifts until Q = K again at the same K value."
+      },
+      "topic": "Le Chatelier's / Pressure Change",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_equil_004",
+      "passage": null,
+      "stem": "Since the Haber reaction is exothermic (ΔH = -92 kJ/mol), increasing the temperature would:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "shift the equilibrium to the left (toward reactants) — for an exothermic reaction, heat is a 'product,' so adding heat shifts the equilibrium away from products, decreasing Kc"
+        },
+        {
+          "label": "B",
+          "text": "have no effect on the equilibrium because temperature is not a factor"
+        },
+        {
+          "label": "C",
+          "text": "shift the equilibrium to the right, producing more NH₃"
+        },
+        {
+          "label": "D",
+          "text": "increase Kc for the reaction"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Le Chatelier's for temperature: treat heat as a product (exothermic) or reactant (endothermic). N₂ + 3H₂ ⇌ 2NH₃ + heat. Increasing T adds 'heat,' shifting equilibrium left (toward reactants). Unlike concentration and pressure changes, temperature changes actually alter the value of K: for exothermic reactions, K decreases with increasing T (van't Hoff equation: d(ln K)/dT = ΔH°/RT²). For endothermic reactions, K increases with T. The Haber process uses moderate temperatures (~400-500°C) as a kinetic compromise — higher T makes equilibrium less favorable but speeds up the reaction.",
+        "B": "Temperature is the most fundamental factor affecting equilibrium — it is the only factor that changes the value of K itself. Concentration and pressure changes shift equilibrium without changing K.",
+        "C": "For exothermic reactions, increasing temperature shifts equilibrium away from products, not toward them. More NH₃ would be produced at lower temperatures (thermodynamically), but the reaction would be too slow without sufficient thermal energy.",
+        "D": "For exothermic reactions, Kc decreases with increasing temperature. The van't Hoff equation confirms: positive ΔH (endothermic) → K increases with T; negative ΔH (exothermic) → K decreases with T."
+      },
+      "topic": "Le Chatelier's / Temperature Change",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_equil_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Adding a catalyst to the Haber reaction at equilibrium would:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "shift the equilibrium to produce more NH₃"
+        },
+        {
+          "label": "B",
+          "text": "increase the rate of the forward reaction only"
+        },
+        {
+          "label": "C",
+          "text": "increase both forward and reverse reaction rates equally — reaching equilibrium faster but not changing the equilibrium position or Kc"
+        },
+        {
+          "label": "D",
+          "text": "change the value of Kc"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Catalysts do not shift equilibrium. They accelerate approach to the same equilibrium position that would eventually be reached without the catalyst.",
+        "B": "Catalysts accelerate both forward and reverse reactions equally. If only the forward rate increased, K would change (K = k_forward/k_reverse), contradicting thermodynamics.",
+        "C": "Correct. A catalyst lowers the activation energy for both the forward and reverse reactions equally (by the same amount), since both reactions pass through the same transition state. This means both rates increase by the same factor, and the ratio (which determines K) is unchanged. A catalyst allows equilibrium to be reached faster but does not shift it. For the Haber process, an iron catalyst (with K₂O and Al₂O₃ promoters) is used to make the reaction kinetically feasible at moderate temperatures — without it, the reaction would be too slow despite being thermodynamically favorable.",
+        "D": "K depends only on temperature (ΔG° = -RT ln K). Catalysts lower Ea without affecting ΔG° or ΔH°, so K is unchanged."
+      },
+      "topic": "Catalysts and Equilibrium",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_equil_006",
+      "passage": null,
+      "stem": "The reaction quotient Q is calculated using the same expression as K but with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "current (non-equilibrium) concentrations — if Q < K, the reaction shifts right; if Q > K, it shifts left; if Q = K, the system is at equilibrium"
+        },
+        {
+          "label": "B",
+          "text": "equilibrium concentrations only"
+        },
+        {
+          "label": "C",
+          "text": "only initial concentrations before any reaction occurs"
+        },
+        {
+          "label": "D",
+          "text": "temperature values instead of concentrations"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Q has the same mathematical form as K (products over reactants, raised to stoichiometric powers) but uses current concentrations at any point, not necessarily equilibrium. Comparing Q to K predicts the direction of shift: Q < K: too few products relative to equilibrium → net forward reaction (shift right). Q > K: too many products → net reverse reaction (shift left). Q = K: at equilibrium, no net change. This is how we determine whether a system needs to shift and in which direction after any perturbation.",
+        "B": "Using equilibrium concentrations gives K itself, not Q. Q is specifically for non-equilibrium conditions to predict which way the system will shift.",
+        "C": "Q can be calculated at any point during the reaction, including with initial concentrations, intermediate concentrations, or concentrations after a perturbation. It is not limited to initial concentrations.",
+        "D": "Q uses concentrations (or partial pressures), not temperature. Temperature determines K, while current concentrations determine Q."
+      },
+      "topic": "Reaction Quotient Q vs K",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_equil_007",
+      "passage": null,
+      "stem": "The relationship between Kc and Kp for gas-phase reactions is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kp = Kc always, regardless of the reaction"
+        },
+        {
+          "label": "B",
+          "text": "Kp = Kc(RT)^Δn, where Δn = moles of gaseous products minus moles of gaseous reactants — they are equal only when Δn = 0"
+        },
+        {
+          "label": "C",
+          "text": "Kp = Kc/RT for all reactions"
+        },
+        {
+          "label": "D",
+          "text": "Kp and Kc are unrelated quantities"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Kp = Kc only when Δn = 0. For reactions where the number of moles of gas changes, Kp ≠ Kc.",
+        "B": "Correct. Kp uses partial pressures; Kc uses molar concentrations. From PV = nRT: P = (n/V)RT = CRT (where C = concentration). Substituting into Kp: Kp = Kc(RT)^Δn. For the Haber reaction: Δn = 2 - (1+3) = -2, so Kp = Kc(RT)⁻². When Δn = 0 (equal moles of gas on both sides, e.g., H₂ + I₂ ⇌ 2HI), Kp = Kc. For MCAT calculations, identify Δn and apply the conversion factor.",
+        "C": "Kp = Kc/RT would apply only if Δn = -1. The general relationship requires the (RT)^Δn term, which varies by reaction.",
+        "D": "Kp and Kc are related through the ideal gas law. They express the same equilibrium position but in different units (pressure vs concentration)."
+      },
+      "topic": "Kc vs Kp / Δn Conversion",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_equil_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "For the Haber reaction, which of the following conditions would maximize NH₃ production at equilibrium?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "high temperature and low pressure"
+        },
+        {
+          "label": "B",
+          "text": "high temperature and high pressure"
+        },
+        {
+          "label": "C",
+          "text": "low temperature and low pressure"
+        },
+        {
+          "label": "D",
+          "text": "low temperature and high pressure — low T favors the exothermic direction (more NH₃), and high P favors the side with fewer moles of gas (products)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "High T shifts equilibrium left (less NH₃ for this exothermic reaction) and low P shifts left (favoring more moles of gas). Both conditions oppose NH₃ formation.",
+        "B": "High P favors NH₃ (good), but high T opposes it (bad for this exothermic reaction). This combination gives mixed results.",
+        "C": "Low T favors NH₃ (good), but low P opposes it (bad — favors the side with more moles of gas). This combination also gives mixed results.",
+        "D": "Correct. Optimal thermodynamic conditions for NH₃: (1) Low temperature — the forward reaction is exothermic (ΔH = -92 kJ/mol), so lower T shifts equilibrium right, increasing K and favoring NH₃. (2) High pressure — the product side has fewer moles of gas (2 vs 4), so increased pressure shifts equilibrium right. Industrially, the Haber process compromises: moderate T (~400-500°C, to maintain adequate reaction rate despite lower K) with high P (~150-300 atm) and an iron catalyst. The trade-off between thermodynamic favorability (low T) and kinetic feasibility (high T for reaction speed) is a classic MCAT concept."
+      },
+      "topic": "Optimizing Equilibrium / Haber Process",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_equil_009",
+      "passage": null,
+      "stem": "A very large equilibrium constant (K >> 1, e.g., K = 10¹⁰) indicates that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the reaction is very slow and may never reach equilibrium"
+        },
+        {
+          "label": "B",
+          "text": "at equilibrium, the mixture is overwhelmingly products — the forward reaction is strongly favored thermodynamically"
+        },
+        {
+          "label": "C",
+          "text": "the reaction is endothermic"
+        },
+        {
+          "label": "D",
+          "text": "the reaction has not occurred"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "K describes the equilibrium position (thermodynamics), not the rate of reaching it (kinetics). A reaction can have K = 10¹⁰ (strongly favored) but be very slow (high Ea). Catalysts address rate without changing K.",
+        "B": "Correct. K is the ratio of product to reactant concentrations (raised to stoichiometric powers) at equilibrium. K = 10¹⁰ means the numerator (products) vastly exceeds the denominator (reactants) — the equilibrium lies far to the right. The reaction goes essentially to completion. Example: acid-base neutralization (K ≈ 10¹⁴ for strong acid + strong base). Conversely, K << 1 (e.g., 10⁻¹⁰) means reactants dominate and very little product forms. K relates to ΔG° via ΔG° = -RT ln K: large K → large negative ΔG° (very spontaneous).",
+        "C": "The magnitude of K does not directly indicate whether a reaction is endothermic or exothermic. A large K simply means products are favored. Both endothermic and exothermic reactions can have large or small K values depending on conditions.",
+        "D": "K = 10¹⁰ indicates the reaction has occurred extensively — products overwhelmingly dominate. If the reaction had not occurred, concentrations would not reflect this large ratio."
+      },
+      "topic": "Large K / Equilibrium Position",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_equil_010",
+      "passage": null,
+      "stem": "Adding an inert gas (e.g., argon) to a gas-phase equilibrium at constant volume:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "shifts the equilibrium toward products"
+        },
+        {
+          "label": "B",
+          "text": "shifts the equilibrium toward reactants"
+        },
+        {
+          "label": "C",
+          "text": "has no effect on the equilibrium position — the partial pressures and concentrations of all reactive species remain unchanged because the inert gas does not participate in the reaction"
+        },
+        {
+          "label": "D",
+          "text": "changes the value of Kc"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "No shift occurs because the partial pressures of reactive species are unaffected. An inert gas does not appear in the equilibrium expression.",
+        "B": "No shift occurs in either direction for the same reason.",
+        "C": "Correct. At constant volume, adding inert gas increases total pressure but does not change the partial pressures of any reactive species (partial pressure = mole fraction × total pressure, but both mole fraction and total pressure change in ways that cancel for the reactive species at constant volume — more precisely, partial pressure = nRT/V, and n, T, V for each reactive species are unchanged). Since Q is calculated from partial pressures (or concentrations) of reactive species only, Q remains equal to K, and no shift occurs. Note: adding inert gas at constant pressure (allowing volume to expand) can shift equilibrium by effectively diluting the reactive species.",
+        "D": "Kc depends only on temperature. Adding inert gas at constant volume and temperature does not change Kc, Q, or the equilibrium position."
+      },
+      "topic": "Inert Gas / No Equilibrium Shift",
+      "difficulty": "Medium"
+    }
+  ]
+}

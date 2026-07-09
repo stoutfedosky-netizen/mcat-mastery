@@ -1,0 +1,338 @@
+{
+  "batch": "B104",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Microbiology: Viruses & Bacteria",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_micro_001",
+      "passage": "A microbiologist studies pathogenic microorganisms. She examines bacterial cell structure — peptidoglycan cell walls, plasmids, flagella, pili, and the distinction between Gram-positive (thick peptidoglycan, teichoic acids) and Gram-negative (thin peptidoglycan, outer membrane with lipopolysaccharide/LPS) organisms. She also investigates viral structure and replication, including the lytic and lysogenic cycles of bacteriophages, and the replication strategies of RNA and DNA viruses in human cells. She studies bacterial genetics: transformation (uptake of free DNA), transduction (phage-mediated DNA transfer), and conjugation (F-pilus-mediated transfer of plasmid DNA).",
+      "stem": "Gram-positive bacteria differ from Gram-negative bacteria in that Gram-positive bacteria have:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a thin peptidoglycan layer and an outer membrane containing lipopolysaccharide (LPS)"
+        },
+        {
+          "label": "B",
+          "text": "a thick peptidoglycan layer with teichoic acids but no outer membrane — they retain crystal violet stain during the Gram staining procedure because the thick peptidoglycan traps the dye-iodine complex after alcohol decolorization"
+        },
+        {
+          "label": "C",
+          "text": "no cell wall at all"
+        },
+        {
+          "label": "D",
+          "text": "a nucleus and membrane-bound organelles"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This describes Gram-negative bacteria (thin peptidoglycan + outer membrane with LPS). Gram-negatives include E. coli, Salmonella, Neisseria, and Pseudomonas. The LPS outer membrane is a potent endotoxin (Lipid A component triggers septic shock).",
+        "B": "Correct. Gram-positive bacteria: thick peptidoglycan layer (20-80 nm, multiple layers), teichoic acids (wall teichoic acids anchored in peptidoglycan; lipoteichoic acids anchored in the plasma membrane), no outer membrane. During Gram staining: (1) crystal violet stains all cells purple; (2) iodine mordant forms CV-I complex; (3) alcohol decolorization — thick peptidoglycan dehydrates and traps CV-I (stays purple); Gram-negative thin peptidoglycan cannot retain the stain (decolorizes); (4) safranin counterstain — Gram-negatives turn pink/red. Examples: Staphylococcus, Streptococcus, Bacillus, Clostridium.",
+        "C": "Mycoplasma species lack cell walls (no peptidoglycan), but these are exceptions — most bacteria have cell walls. Gram-positive bacteria have particularly thick peptidoglycan cell walls.",
+        "D": "Bacteria are prokaryotes — they lack a membrane-bound nucleus and organelles. Nuclei and membrane-bound organelles are eukaryotic features."
+      },
+      "topic": "Gram-Positive vs Gram-Negative / Cell Wall",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_micro_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Bacterial conjugation involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "uptake of free DNA fragments from the environment by competent bacteria"
+        },
+        {
+          "label": "B",
+          "text": "transfer of DNA between bacteria via a bacteriophage vector"
+        },
+        {
+          "label": "C",
+          "text": "binary fission producing two identical daughter cells"
+        },
+        {
+          "label": "D",
+          "text": "direct transfer of plasmid DNA (typically the F plasmid) from a donor (F⁺) to a recipient (F⁻) bacterium through a sex pilus — this is the primary mechanism for horizontal transfer of antibiotic resistance genes on plasmids"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Uptake of free DNA from the environment describes transformation, discovered by Griffith (1928, Streptococcus pneumoniae) and confirmed by Avery-MacLeod-McCarty (1944). Naturally competent bacteria can take up exogenous DNA; others require artificial methods (heat shock, electroporation).",
+        "B": "Phage-mediated DNA transfer describes transduction. Generalized transduction: any bacterial gene is accidentally packaged into a phage capsid. Specialized transduction: specific genes adjacent to the prophage integration site are excised and transferred (e.g., λ phage in E. coli).",
+        "C": "Binary fission is asexual reproduction (chromosome replication → cell division), producing genetically identical daughter cells (barring mutation). It is not a mechanism of genetic exchange.",
+        "D": "Correct. Conjugation requires cell-to-cell contact via the F (fertility) pilus. The F⁺ donor extends the pilus to contact an F⁻ recipient, forming a mating bridge. One strand of the F plasmid is nicked, transferred to the recipient, and both cells synthesize the complementary strand. Result: both cells are F⁺. Hfr (high frequency recombination) strains have the F plasmid integrated into the chromosome — conjugation transfers chromosomal genes. Conjugation is a major mechanism for spreading antibiotic resistance (R plasmids carrying β-lactamase, efflux pumps, etc.) between bacterial species."
+      },
+      "topic": "Conjugation / Horizontal Gene Transfer",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_micro_003",
+      "passage": null,
+      "stem": "Viruses are considered obligate intracellular parasites because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "they have their own ribosomes and can synthesize proteins independently"
+        },
+        {
+          "label": "B",
+          "text": "they can grow on nutrient agar plates like bacteria"
+        },
+        {
+          "label": "C",
+          "text": "they lack the metabolic machinery (ribosomes, ATP-generating systems) to replicate independently and must hijack host cell processes for protein synthesis, genome replication, and assembly"
+        },
+        {
+          "label": "D",
+          "text": "they are larger than all bacteria and can be seen with the naked eye"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Viruses lack ribosomes entirely — this is a fundamental distinction from all cellular life. They depend on host ribosomes for translation of their mRNA into proteins.",
+        "B": "Viruses cannot grow on agar plates because they require living cells to replicate. Viral cultivation requires cell culture, embryonated eggs, or living organisms. This is why Koch's postulates had to be modified for viral pathogens.",
+        "C": "Correct. Viruses consist of a nucleic acid genome (DNA or RNA, never both) enclosed in a protein capsid (± lipid envelope). They lack ribosomes, metabolic enzymes, and ATP-generating machinery. To replicate, they must enter a host cell and commandeer its: ribosomes (for viral protein translation), nucleotides and amino acids (building blocks), energy (ATP from host metabolism), and in some cases, polymerases (DNA viruses often use host DNA polymerase; RNA viruses typically encode their own RNA-dependent RNA polymerase). This absolute dependence on host cells is why viruses cannot replicate outside living cells.",
+        "D": "Viruses are much smaller than bacteria (typically 20-300 nm vs bacteria at 0.5-5 μm). They require electron microscopy for visualization. Some exceptions exist (Mimivirus, ~750 nm), but these are unusual."
+      },
+      "topic": "Obligate Intracellular Parasites / Viral Structure",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_micro_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The lytic cycle of a bacteriophage differs from the lysogenic cycle in that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the lytic cycle integrates the phage genome into the host chromosome as a prophage"
+        },
+        {
+          "label": "B",
+          "text": "the lysogenic cycle immediately kills the host cell upon infection"
+        },
+        {
+          "label": "C",
+          "text": "both cycles are identical with no functional differences"
+        },
+        {
+          "label": "D",
+          "text": "the lytic cycle involves immediate replication of the phage, assembly of new virions, and lysis (destruction) of the host cell — releasing progeny phages, while the lysogenic cycle integrates the phage DNA into the host chromosome as a prophage that replicates passively with the host"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Prophage integration describes the lysogenic cycle, not the lytic. In the lytic cycle, phage DNA remains separate and immediately directs production of new phages.",
+        "B": "Immediate host killing describes the lytic cycle. The lysogenic cycle preserves the host cell — the phage genome replicates passively as a prophage, and the cell continues to grow and divide normally.",
+        "C": "The cycles are fundamentally different in outcome: lytic kills the host immediately; lysogenic allows the host to survive with integrated phage DNA.",
+        "D": "Correct. Lytic cycle: phage attaches → injects DNA → immediate takeover of host machinery → viral genome replication + protein synthesis → assembly of new virions → host cell lysis (lysozyme degrades peptidoglycan) → release of ~100-200 new phages. Lysogenic cycle: phage DNA integrates into host chromosome (prophage) → replicated with host DNA during cell division → can persist indefinitely. Environmental stress (UV radiation, chemicals) can trigger prophage excision and entry into the lytic cycle (induction). Lysogeny can confer new properties on the host (lysogenic conversion): e.g., Corynebacterium diphtheriae only produces diphtheria toxin when lysogenized by β-phage."
+      },
+      "topic": "Lytic vs Lysogenic Cycle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_micro_005",
+      "passage": null,
+      "stem": "Retroviruses (e.g., HIV) are unique among viruses because they:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "carry reverse transcriptase, which converts their single-stranded RNA genome into double-stranded DNA — this DNA integrates into the host genome as a provirus, allowing long-term persistence and serving as a template for new viral RNA and proteins"
+        },
+        {
+          "label": "B",
+          "text": "contain a double-stranded DNA genome like bacteria"
+        },
+        {
+          "label": "C",
+          "text": "replicate exclusively in the cytoplasm without involving the host nucleus"
+        },
+        {
+          "label": "D",
+          "text": "have no genome at all and rely entirely on host DNA"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Retroviral replication: (1) ssRNA genome enters cell with reverse transcriptase (RT); (2) RT synthesizes a cDNA copy (RNA → DNA, violating the 'central dogma' as originally stated); (3) RT's RNase H activity degrades the RNA template; (4) RT synthesizes the second DNA strand → dsDNA; (5) integrase inserts the dsDNA into the host chromosome (provirus); (6) host RNA polymerase II transcribes proviral DNA → new viral RNA (both mRNA for proteins and genomic RNA for new virions). HIV targets CD4⁺ T cells — progressive depletion leads to AIDS. Antiretroviral therapy targets RT (AZT, NRTIs), protease (PIs), and integrase (INSTIs).",
+        "B": "Retroviruses have a single-stranded RNA genome (+ssRNA, diploid — two copies). The DNA intermediate is synthesized by reverse transcriptase after infection, not carried in the virion.",
+        "C": "Retroviral DNA must integrate into the host chromosome in the nucleus. Integration is essential for the retroviral life cycle — integrase catalyzes the insertion. Some retroviruses (lentiviruses like HIV) can enter the intact nucleus; others require nuclear envelope breakdown during mitosis.",
+        "D": "Retroviruses carry a complete RNA genome (two copies of ~10 kb ssRNA) encoding gag, pol, and env genes. They absolutely have a genome — it is just RNA rather than DNA."
+      },
+      "topic": "Retroviruses / Reverse Transcriptase / HIV",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_micro_006",
+      "passage": null,
+      "stem": "Endotoxin (lipopolysaccharide/LPS) is found in:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the thick peptidoglycan layer of Gram-positive bacteria"
+        },
+        {
+          "label": "B",
+          "text": "the protein capsid of viruses"
+        },
+        {
+          "label": "C",
+          "text": "the outer membrane of Gram-negative bacteria — LPS is released upon bacterial death or lysis and triggers a potent inflammatory response (fever, vasodilation, septic shock) through TLR4 activation on immune cells"
+        },
+        {
+          "label": "D",
+          "text": "the nuclear membrane of eukaryotic cells"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Gram-positive bacteria lack an outer membrane and therefore do not have LPS. They produce exotoxins (secreted proteins: botulinum toxin, tetanus toxin, diphtheria toxin) and have lipoteichoic acid (which can trigger inflammation through TLR2, but is less potent than LPS).",
+        "B": "Viruses have protein capsids (and sometimes lipid envelopes derived from host membranes), not LPS. Viral components trigger different innate immune pathways (TLR3, 7, 8 for nucleic acids; RIG-I, MDA5 for cytoplasmic RNA).",
+        "C": "Correct. LPS is a major component of the outer leaflet of the Gram-negative outer membrane. Structure: Lipid A (toxic moiety, embedded in outer membrane) + core polysaccharide + O-antigen (variable, serotype-specific). When released (bacterial lysis, antibiotic treatment), Lipid A binds LPS-binding protein → CD14 → TLR4/MD-2 on macrophages, activating NF-κB → massive cytokine release (TNF-α, IL-1, IL-6). Low doses: beneficial immune activation. High doses: systemic inflammatory response syndrome (SIRS), septic shock, DIC, multi-organ failure. Unlike exotoxins, endotoxin is heat-stable (not inactivated by autoclaving) and cannot be converted to a toxoid.",
+        "D": "LPS is exclusively a prokaryotic (Gram-negative bacterial) structure. Eukaryotic nuclear membranes contain phospholipids but not LPS."
+      },
+      "topic": "Endotoxin / LPS / Gram-Negative",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_micro_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Bacterial transformation, as demonstrated by Griffith's experiment with Streptococcus pneumoniae, showed that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "heat-killed virulent (smooth) bacteria could transform living non-virulent (rough) bacteria into virulent forms — the 'transforming principle' was later identified as DNA by Avery, MacLeod, and McCarty"
+        },
+        {
+          "label": "B",
+          "text": "bacteriophages transfer bacterial DNA between cells"
+        },
+        {
+          "label": "C",
+          "text": "bacteria can transfer DNA through direct cell-to-cell contact via pili"
+        },
+        {
+          "label": "D",
+          "text": "bacteria reproduce only by budding, not binary fission"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Griffith (1928): mice injected with live R (rough, non-virulent) + heat-killed S (smooth, virulent) bacteria died, and live S bacteria were recovered. Something from the dead S bacteria 'transformed' the R bacteria. Avery-MacLeod-McCarty (1944) identified the transforming principle as DNA: only DNase treatment destroyed transforming activity; RNase and protease did not. This was landmark evidence that DNA (not protein) is the hereditary material, preceding Hershey-Chase (1952) and Watson-Crick (1953). Natural transformation requires competence — the ability to take up free DNA from the environment.",
+        "B": "Phage-mediated transfer describes transduction, not transformation. Zinder and Lederberg (1952) discovered transduction in Salmonella.",
+        "C": "DNA transfer via pili describes conjugation, not transformation. Transformation involves uptake of free DNA without cell-cell contact.",
+        "D": "Bacteria reproduce by binary fission (chromosome replication → septum formation → daughter cell separation). Budding occurs in some organisms (yeast) but is not the typical bacterial reproductive mode."
+      },
+      "topic": "Griffith's Experiment / Transformation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_micro_008",
+      "passage": null,
+      "stem": "Antibiotic resistance in bacteria can spread through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "only vertical transmission from parent to daughter cell during binary fission"
+        },
+        {
+          "label": "B",
+          "text": "horizontal gene transfer — including conjugation (R plasmid transfer via pili), transformation (uptake of resistance genes from lysed bacteria), and transduction (phage-mediated transfer) — allowing resistance to spread between unrelated bacterial species"
+        },
+        {
+          "label": "C",
+          "text": "infection of bacteria by eukaryotic viruses"
+        },
+        {
+          "label": "D",
+          "text": "spontaneous generation of resistance genes from non-living matter"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Vertical transmission occurs but is not the only mechanism. Horizontal gene transfer allows rapid, cross-species spread — a single conjugation event can transfer resistance to an entirely different bacterial species, accelerating the antibiotic resistance crisis.",
+        "B": "Correct. Antibiotic resistance spreads through both vertical transmission (binary fission — daughter cells inherit resistance genes) and horizontal gene transfer (HGT): (1) Conjugation — R plasmids carrying multiple resistance genes (β-lactamases, aminoglycoside-modifying enzymes, efflux pumps) transfer between cells via F pilus. This is the most clinically significant HGT mechanism. (2) Transformation — bacteria take up free DNA (including resistance genes) released from dead cells. (3) Transduction — phages accidentally package and transfer resistance genes. HGT can cross species boundaries, spreading resistance from non-pathogenic to pathogenic organisms.",
+        "C": "Eukaryotic viruses infect eukaryotic cells, not bacteria. Bacteriophages infect bacteria. Phages can mediate transduction, but this involves bacterial viruses, not eukaryotic ones.",
+        "D": "Spontaneous generation was disproven by Pasteur. Resistance genes arise through random mutation or are acquired through HGT from other organisms that already possess them."
+      },
+      "topic": "Antibiotic Resistance / HGT",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_micro_009",
+      "passage": null,
+      "stem": "The influenza virus undergoes antigenic shift, which involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "minor point mutations in surface antigens (hemagglutinin, neuraminidase) that cause gradual antigenic change from season to season"
+        },
+        {
+          "label": "B",
+          "text": "reassortment of genome segments between different influenza strains (e.g., human and avian) co-infecting the same cell — producing a novel virus with dramatically different surface antigens to which the population has little or no immunity, potentially causing pandemics"
+        },
+        {
+          "label": "C",
+          "text": "the virus losing its genome entirely and becoming non-infectious"
+        },
+        {
+          "label": "D",
+          "text": "the host immune system strengthening the virus through antibody-dependent enhancement"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Minor point mutations causing gradual change describes antigenic drift — the reason for annual flu vaccine updates. Drift occurs in all influenza strains through RNA-dependent RNA polymerase errors (high error rate, no proofreading). Shift is a sudden, major change distinct from the gradual drift process.",
+        "B": "Correct. Antigenic shift: influenza has a segmented RNA genome (8 segments). When two different influenza strains co-infect the same cell (often in a mixing vessel host like pigs), their genome segments can reassort — producing a novel virus with a new combination of hemagglutinin (HA) and/or neuraminidase (NA) subtypes. This 'shift' creates a dramatically different virus against which existing antibodies provide little protection, potentially triggering pandemics (1918 H1N1, 1957 H2N2, 1968 H3N2, 2009 H1N1). Antigenic shift is why influenza pandemics are unpredictable and potentially devastating.",
+        "C": "Influenza does not lose its genome. Antigenic shift produces a new combination of existing segments, not a loss of genetic material.",
+        "D": "Antibody-dependent enhancement (ADE) is a phenomenon seen with some viruses (dengue, potentially SARS-CoV-2) where non-neutralizing antibodies enhance viral entry into cells. It is a separate concept from antigenic shift."
+      },
+      "topic": "Antigenic Shift vs Drift / Influenza",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_micro_010",
+      "passage": null,
+      "stem": "Bacterial endospores (produced by Bacillus and Clostridium species) are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reproductive structures that allow bacteria to multiply rapidly"
+        },
+        {
+          "label": "B",
+          "text": "the primary mechanism for bacterial conjugation"
+        },
+        {
+          "label": "C",
+          "text": "dormant, highly resistant structures formed in response to nutrient deprivation — containing a dehydrated core with dipicolinic acid, they can survive extreme heat, radiation, desiccation, and chemical disinfection for centuries"
+        },
+        {
+          "label": "D",
+          "text": "found in all bacterial species without exception"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Endospores are survival structures, not reproductive. Binary fission is the reproductive mechanism. One vegetative cell → one endospore → one vegetative cell (upon germination). No increase in cell number occurs through sporulation.",
+        "B": "Conjugation involves F pili and plasmid transfer. Endospores are completely unrelated to conjugation — they are dormancy structures that protect the cell during environmental stress.",
+        "C": "Correct. Endospores are survival structures (not reproductive — one cell produces one spore, which germinates into one cell). Formation (sporulation) is triggered by nutrient depletion: the cell compartmentalizes, one compartment develops into a spore with multiple protective layers (cortex, spore coat). Unique features: dehydrated core (minimal free water), dipicolinic acid complexed with Ca²⁺ (stabilizes DNA), small acid-soluble proteins (SASPs, protect DNA from UV). Spores survive: boiling (100°C — must autoclave at 121°C, 15 min), radiation, centuries of dormancy (viable spores recovered from ~1000-year-old samples). Clinically relevant: Clostridium botulinum (botulism from improperly canned food), C. tetani (tetanus), C. difficile (antibiotic-associated colitis), Bacillus anthracis (anthrax).",
+        "D": "Endospore formation is limited to certain Gram-positive genera, primarily Bacillus (aerobic) and Clostridium (anaerobic). Most bacterial species do not form endospores."
+      },
+      "topic": "Bacterial Endospores / Survival Structures",
+      "difficulty": "Medium"
+    }
+  ]
+}

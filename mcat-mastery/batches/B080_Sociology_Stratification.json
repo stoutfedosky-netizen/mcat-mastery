@@ -1,0 +1,338 @@
+{
+  "batch": "B080",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Sociology: Stratification & Inequality",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_socstrat_001",
+      "passage": "A sociologist studies patterns of social stratification in a mid-sized American city. She collects data on income, education, occupational prestige, and health outcomes across neighborhoods. She finds that residents of wealthier neighborhoods have higher life expectancy (82 years) compared to residents of poorer neighborhoods three miles away (74 years). She applies theoretical frameworks from Marx (class conflict), Weber (multidimensional stratification), and functionalist perspectives to interpret her findings. She also examines how race, gender, and socioeconomic status intersect to produce compounded disadvantage.",
+      "stem": "Weber's multidimensional model of stratification differs from Marx's class-based model by proposing that social inequality is determined by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "class (economic position), status (social prestige), and power (political influence) — three analytically distinct dimensions that can vary independently"
+        },
+        {
+          "label": "B",
+          "text": "only the ownership of the means of production"
+        },
+        {
+          "label": "C",
+          "text": "biological differences between individuals"
+        },
+        {
+          "label": "D",
+          "text": "purely random chance with no systematic pattern"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Weber expanded on Marx's economic determinism by identifying three dimensions of stratification: (1) class — economic position (wealth, income, property), similar to Marx; (2) status (Stand) — social prestige or honor, which can be independent of wealth (a professor may have high status but moderate income); (3) party/power — ability to influence political decisions through organizations. These dimensions often correlate but can diverge. A retired celebrity may have high status but declining economic class. Weber's multidimensional model provides a more nuanced view of inequality than Marx's dichotomous bourgeoisie-proletariat framework.",
+        "B": "Ownership of the means of production is Marx's central concept, not Weber's. Marx defined two main classes: the bourgeoisie (owning capital) and the proletariat (selling labor). Weber acknowledged economic class but argued it was insufficient to explain all forms of social inequality.",
+        "C": "Biological differences as the basis of inequality is biological determinism (a largely discredited perspective in sociology). Both Marx and Weber focused on social and economic structures, not biological traits, as the sources of stratification.",
+        "D": "Social stratification shows systematic, predictable patterns — it is not random. Both Marx and Weber identified structural causes of inequality (economic systems, social institutions, power dynamics)."
+      },
+      "topic": "Weber vs Marx / Dimensions of Stratification",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socstrat_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The finding that poorer neighborhoods have lower life expectancy is an example of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the biomedical model, which attributes all health outcomes to individual genetics"
+        },
+        {
+          "label": "B",
+          "text": "health disparities linked to social determinants of health — including access to healthcare, nutrition, environmental quality, and chronic stress associated with socioeconomic disadvantage"
+        },
+        {
+          "label": "C",
+          "text": "reverse causation, where poor health always causes poverty rather than the other way around"
+        },
+        {
+          "label": "D",
+          "text": "random variation unrelated to social factors"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Social determinants of health (SDOH) are the conditions in which people are born, grow, work, and age — including socioeconomic status, education, employment, housing, and access to healthcare. Lower SES is associated with: reduced access to quality healthcare and healthy food (food deserts), greater exposure to environmental toxins (pollution, lead, mold), higher rates of chronic stress (allostatic load), and increased prevalence of risk behaviors (smoking, substance use). The 8-year life expectancy gap across neighborhoods illustrates how social stratification produces health inequity.",
+        "A": "The biomedical model focuses on individual biology (genetics, pathogens, physiology) and ignores social context. It cannot explain why neighborhood of residence predicts life expectancy. The biopsychosocial model and social determinants framework provide more complete explanations.",
+        "C": "While poor health can contribute to downward social mobility (reverse causation), decades of epidemiological research demonstrate that socioeconomic disadvantage is a strong independent predictor of poor health outcomes. The relationship is bidirectional but predominantly SES → health.",
+        "D": "An 8-year gap in life expectancy between neighborhoods three miles apart is far too large and systematic to be random variation. It reflects structural inequalities in resource distribution, environmental exposure, and healthcare access."
+      },
+      "topic": "Social Determinants of Health / Health Disparities",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_socstrat_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Social mobility refers to movement between social strata. The sociologist observes that children from wealthy families are more likely to remain wealthy as adults. This illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "high upward mobility, because wealth provides motivation to work harder"
+        },
+        {
+          "label": "B",
+          "text": "class reproduction — the tendency for social class to be transmitted across generations through mechanisms like inherited wealth, social networks, and access to elite education"
+        },
+        {
+          "label": "C",
+          "text": "horizontal mobility, because the children move to different occupations of equal prestige"
+        },
+        {
+          "label": "D",
+          "text": "absolute mobility, which measures changes in living standards across generations"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Class reproduction (Bourdieu) describes how social class perpetuates across generations through multiple mechanisms: economic capital (inherited wealth, property), social capital (connections, networks that provide opportunities), and cultural capital (knowledge, tastes, behaviors valued by dominant institutions — embodied, objectified, and institutionalized). Children of wealthy families attend elite schools, have professional mentors, and possess cultural knowledge that facilitates access to high-status positions. This structural reproduction of inequality limits intergenerational social mobility.",
+        "A": "The persistence of wealth across generations reflects limited mobility, not high upward mobility. Upward mobility would mean children from poor families regularly reaching higher social strata. The observation describes the opposite: stratification stability.",
+        "C": "Horizontal mobility refers to movement between positions of roughly equal status (e.g., teacher to social worker) without changing social class. The observation describes staying in the same class across generations, which is class reproduction, not horizontal mobility.",
+        "D": "Absolute mobility measures whether overall living standards improve across generations (e.g., children earning more than parents in real terms, even if relative position stays the same). The question focuses on relative position maintenance, not absolute standard improvement."
+      },
+      "topic": "Class Reproduction / Social Mobility",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_socstrat_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The sociologist argues that dominant groups maintain institutional arrangements that systematically preserve unequal access to resources across race, gender, and socioeconomic status. This interpretation is most consistent with which theoretical perspective?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "functionalism, which views inequality as beneficial for society"
+        },
+        {
+          "label": "B",
+          "text": "biological determinism, which attributes outcomes to genetic differences"
+        },
+        {
+          "label": "C",
+          "text": "conflict theory, which emphasizes how dominant groups maintain power through institutional structures that systematically disadvantage marginalized groups across multiple dimensions"
+        },
+        {
+          "label": "D",
+          "text": "exchange theory, which focuses on rational cost-benefit calculations in individual relationships"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Conflict theory (rooted in Marx, extended by contemporary scholars including feminist and critical race theorists) analyzes how power structures create and maintain inequality. Compounded disadvantage across race, gender, and SES reflects institutional discrimination — not individual failings or functional necessity. Conflict theorists argue that dominant groups use economic, political, and cultural power to maintain their position, creating systemic barriers for subordinate groups. The sociologist's data showing how multiple dimensions of inequality intersect aligns with conflict theory's emphasis on structural power dynamics.",
+        "A": "Functionalism views stratification as necessary and beneficial for society (Davis-Moore). It would not frame compounded disadvantage as a problem requiring structural change but rather as an outcome of differential social contributions. This does not adequately explain why race and gender (ascribed characteristics) predict outcomes independently of individual effort.",
+        "B": "Biological determinism attributes social outcomes to genetic differences between groups. This perspective has been thoroughly critiqued by social scientists who demonstrate that social stratification is produced by historical, economic, and institutional forces — not inherent biological differences between racial or gender groups.",
+        "D": "Exchange theory (Homans, Blau) analyzes social interactions as rational exchanges of resources and rewards. While useful for understanding interpersonal dynamics, it is not designed to explain large-scale patterns of structural inequality across race, gender, and class."
+      },
+      "topic": "Conflict Theory / Structural Inequality",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_socstrat_003",
+      "passage": null,
+      "stem": "The functionalist perspective on social stratification (Davis-Moore thesis) argues that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stratification is universal and necessary — unequal rewards motivate talented individuals to fill the most important and demanding positions in society"
+        },
+        {
+          "label": "B",
+          "text": "inequality is inherently unjust and must be eliminated through revolution"
+        },
+        {
+          "label": "C",
+          "text": "social class is determined entirely by individual effort, with no structural barriers"
+        },
+        {
+          "label": "D",
+          "text": "stratification is a purely modern phenomenon that did not exist in pre-industrial societies"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Elimination of inequality through revolution is the Marxist/conflict theory perspective, not functionalism. Conflict theorists view stratification as the result of power struggles between competing groups, not as functionally necessary.",
+        "A": "Correct. Davis and Moore (1945) argued that stratification is a functional necessity: society must distribute its members into various positions and motivate them to fulfill role obligations. More important positions (requiring greater skill, training, or talent) offer higher rewards (income, prestige, power) to attract qualified individuals. Critics argue this circular reasoning (important positions are highly rewarded → highly rewarded positions must be important) ignores structural barriers to mobility, inherited privilege, and the fact that many essential jobs (childcare, sanitation) are poorly compensated.",
+        "C": "This describes a pure meritocracy, which is an idealized concept. Even functionalists acknowledge that the system does not perfectly match talent to positions — nepotism, discrimination, and unequal access to education create deviations from meritocratic ideals.",
+        "D": "Stratification exists in virtually all known societies, including pre-industrial ones (caste systems, feudal hierarchies, ranked societies). Functionalists specifically argue that its universality demonstrates its social necessity."
+      },
+      "topic": "Davis-Moore Thesis / Functionalism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socstrat_004",
+      "passage": null,
+      "stem": "Intersectionality theory (Crenshaw) examines how:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a single dimension of identity (class only) determines all social outcomes"
+        },
+        {
+          "label": "B",
+          "text": "different highways intersect in urban planning"
+        },
+        {
+          "label": "C",
+          "text": "multiple social identities (race, gender, class, sexuality) intersect to create unique patterns of privilege and oppression that cannot be understood by examining any single dimension alone"
+        },
+        {
+          "label": "D",
+          "text": "individuals freely choose which social categories to belong to"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Crenshaw (1989) introduced intersectionality to describe how overlapping social identities produce compounded experiences of discrimination. A Black woman may face barriers that are different from those faced by white women (sexism alone) or Black men (racism alone) — her experience is shaped by the intersection of race and gender simultaneously. The sociologist's finding that race, gender, and SES intersect to produce compounded disadvantage directly illustrates intersectionality. This framework has become central to contemporary sociology and public health.",
+        "A": "Intersectionality explicitly rejects single-dimension analysis. It argues that examining only class (or only race, or only gender) misses the complexity of how multiple identities interact to shape an individual's social position and experiences.",
+        "B": "Intersectionality is a sociological concept about overlapping social identities, not a term from urban planning or transportation engineering.",
+        "D": "Social categories like race, gender, and class are largely ascribed (assigned by society based on perceived characteristics), not freely chosen. Intersectionality examines how these socially constructed categories interact to produce structural advantages and disadvantages."
+      },
+      "topic": "Intersectionality / Compounded Disadvantage",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socstrat_006",
+      "passage": null,
+      "stem": "Symbolic interactionism would analyze social stratification by focusing on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "large-scale structural forces like class conflict and economic systems"
+        },
+        {
+          "label": "B",
+          "text": "the functions that inequality serves for society as a whole"
+        },
+        {
+          "label": "C",
+          "text": "the biological basis of intelligence as the driver of social position"
+        },
+        {
+          "label": "D",
+          "text": "how individuals construct and negotiate social status through everyday interactions, language, and symbolic displays — such as clothing, speech patterns, and consumer goods that signal class membership"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Analyzing the functions of inequality is structural functionalism (Davis-Moore thesis). Symbolic interactionism does not focus on societal-level functions but on how individuals create and interpret social reality through interaction.",
+        "A": "Large-scale structural analysis is the domain of macro-level theories: conflict theory (Marx — class struggle, exploitation) and structural functionalism (Durkheim — social solidarity, functional necessity). Symbolic interactionism operates at the micro/interpersonal level.",
+        "C": "Biological explanations of social position (Social Darwinism, IQ hereditarianism) are separate from symbolic interactionism. Symbolic interactionism focuses on socially constructed meanings, not biological determinism.",
+        "D": "Correct. Symbolic interactionism (Mead, Goffman, Blumer) is a micro-level theoretical perspective that examines how individuals create meaning through social interaction and symbols. Applied to stratification, it focuses on: how people perform class identity (Goffman's impression management), how language and cultural consumption signal social position (Bourdieu's distinction), how stereotypes and stigma are constructed through daily interactions, and how individuals internalize or resist class labels. This contrasts with macro-level theories (functionalism, conflict theory) that focus on structures."
+      },
+      "topic": "Symbolic Interactionism / Micro-Level Analysis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socstrat_007",
+      "passage": null,
+      "stem": "The concept of 'meritocracy' assumes that social position is determined primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "individual talent, effort, and achievement — those who work hardest and are most capable rise to the top"
+        },
+        {
+          "label": "B",
+          "text": "inherited social class with no opportunity for mobility"
+        },
+        {
+          "label": "C",
+          "text": "random assignment with no relationship to individual qualities"
+        },
+        {
+          "label": "D",
+          "text": "geographic location as the sole determinant of success"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Meritocracy is the belief that social position should be (or is) determined by individual merit — talent, hard work, and achievement rather than ascribed characteristics (birth, race, gender, family wealth). While meritocratic ideals underpin many educational and occupational systems, sociologists have extensively documented how structural factors (unequal access to education, discrimination, inherited wealth, social networks) create systematic deviations from true meritocracy. The concept of meritocracy can also serve as legitimizing ideology — convincing people that existing inequality is fair and deserved.",
+        "B": "Inherited social class with no mobility describes a caste system (closed stratification), the opposite of meritocracy. In a true meritocracy, birth circumstances would have no influence on adult social position.",
+        "C": "Random assignment would be a lottery system, not meritocracy. Meritocracy specifically ties outcomes to individual qualities, not chance.",
+        "D": "While geographic location affects opportunity (urban vs rural, wealthy vs poor nations), meritocracy specifically claims that individual qualities determine success regardless of external factors."
+      },
+      "topic": "Meritocracy / Achievement vs Ascription",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_socstrat_008",
+      "passage": null,
+      "stem": "Relative poverty is defined as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "having income below a fixed threshold needed for basic survival (food, shelter, clothing)"
+        },
+        {
+          "label": "B",
+          "text": "voluntarily choosing to live with fewer material possessions"
+        },
+        {
+          "label": "C",
+          "text": "having no income or resources of any kind"
+        },
+        {
+          "label": "D",
+          "text": "lacking sufficient resources to maintain a standard of living considered normal in one's society — it is contextual and changes with societal norms"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Voluntary simplicity (minimalism) is a lifestyle choice, not poverty. Poverty (relative or absolute) is involuntary deprivation — lacking resources one would prefer to have.",
+        "A": "Income below a fixed survival threshold describes absolute poverty (e.g., the World Bank's $2.15/day international poverty line). Absolute poverty is about survival; relative poverty is about social participation and comparison.",
+        "C": "Having no resources at all describes extreme or absolute destitution, not relative poverty specifically. Both relatively and absolutely poor people may have some resources.",
+        "D": "Correct. Relative poverty is measured against the prevailing standard of living in a given society. A person is relatively poor if they lack the resources to participate fully in the customary activities of their community. Someone in relative poverty in the US might have access to food and shelter but lack internet, transportation, or healthcare that are considered necessities by societal standards. This contrasts with absolute poverty (below a fixed minimum for survival). Relative poverty highlights inequality — you can have rising absolute standards while relative poverty increases if wealth gaps grow."
+      },
+      "topic": "Relative vs Absolute Poverty",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_socstrat_010",
+      "passage": null,
+      "stem": "Cultural capital (Bourdieu) refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "financial assets like stocks and real estate"
+        },
+        {
+          "label": "B",
+          "text": "political connections and lobbying power"
+        },
+        {
+          "label": "C",
+          "text": "knowledge, skills, education, and cultural competencies that provide advantages in social institutions — including familiarity with dominant cultural norms, artistic knowledge, and educational credentials"
+        },
+        {
+          "label": "D",
+          "text": "physical fitness and athletic ability"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Bourdieu identified three forms of capital that reproduce social class: (1) economic capital (money, property); (2) social capital (networks, relationships); (3) cultural capital — existing in three states: embodied (dispositions, tastes, manners internalized through socialization), objectified (cultural goods — art, books, instruments), and institutionalized (educational credentials, degrees). Children from privileged families arrive at school already equipped with cultural capital valued by educational institutions (vocabulary, behavioral norms, familiarity with 'legitimate' culture), giving them systematic advantages.",
+        "A": "Financial assets are economic capital, not cultural capital. Bourdieu distinguished these as separate forms of capital that can be converted into one another (e.g., economic capital → elite education → cultural capital → high-status employment → economic capital).",
+        "B": "Political connections represent a combination of social capital (networks) and power (Weber's third dimension). Cultural capital specifically refers to knowledge, skills, and cultural competencies.",
+        "D": "Physical fitness describes a form of embodied capital but is not what Bourdieu meant by cultural capital. Cultural capital specifically refers to culturally valued knowledge, dispositions, and credentials that confer advantages within social institutions."
+      },
+      "topic": "Cultural Capital / Bourdieu",
+      "difficulty": "Medium"
+    }
+  ]
+}

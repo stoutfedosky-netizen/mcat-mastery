@@ -1,0 +1,500 @@
+{
+  "batch": "B010",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Water & Solutions: Acid-Base Chemistry, Buffers, Titrations & Ksp",
+  "questionCount": 15,
+  "questions": [
+    {
+      "id": "cp_soln_001",
+      "passage": "A biochemistry student prepares a buffer solution for an enzyme kinetics experiment. The experiment requires a buffer at pH 4.75 using acetic acid (CH₃COOH, pKa = 4.76) and sodium acetate (CH₃COONa). The student prepares 1.0 L of buffer containing 0.10 M acetic acid and 0.10 M sodium acetate.\n\nThe Henderson-Hasselbalch equation relates the pH of a buffer to the pKa of the weak acid and the ratio of conjugate base to acid:\npH = pKa + log([A⁻]/[HA])\n\nThe student needs the buffer to maintain pH during the experiment as small amounts of HCl or NaOH are added during pH-stat titrations.",
+      "stem": "What is the pH of the buffer solution as prepared?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3.76"
+        },
+        {
+          "label": "B",
+          "text": "4.76"
+        },
+        {
+          "label": "C",
+          "text": "5.76"
+        },
+        {
+          "label": "D",
+          "text": "7.00"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This would result from pH = pKa + log(0.1) = 4.76 + (−1) = 3.76, which corresponds to a 10:1 ratio of acid to conjugate base ([A⁻]/[HA] = 0.1). But the buffer contains equal concentrations of acetic acid and sodium acetate (both 0.10 M), so [A⁻]/[HA] = 1, not 0.1.",
+        "B": "Correct. Using Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]) = 4.76 + log(0.10/0.10) = 4.76 + log(1) = 4.76 + 0 = 4.76. When the concentrations of the weak acid and its conjugate base are equal, log(1) = 0, and the pH equals the pKa. This is a fundamental principle: a buffer is most effective (has maximum buffer capacity) when pH = pKa, because the acid and conjugate base are present in equal concentrations and can equally neutralize added acid or base. This is why the student chose acetic acid (pKa = 4.76) for a target pH of 4.75 — the pKa closely matches the desired pH.",
+        "C": "This would result from pH = pKa + log(10) = 4.76 + 1 = 5.76, corresponding to a 10:1 ratio of conjugate base to acid. This would require 10 times more sodium acetate than acetic acid. The buffer as prepared has a 1:1 ratio.",
+        "D": "pH 7.00 is the pH of pure water, not of an acetic acid/acetate buffer. A buffer made from a weak acid (pKa = 4.76) and its conjugate base will have an acidic pH near the pKa, not a neutral pH. A pH of 7.00 would require a buffer system with a pKa near 7 (such as the phosphate buffer system, H₂PO₄⁻/HPO₄²⁻, pKa₂ = 7.2)."
+      },
+      "topic": "Henderson-Hasselbalch: pH = pKa",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_soln_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If the student adds 0.01 mol of NaOH to the 1.0 L buffer, what is the approximate new pH?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4.67"
+        },
+        {
+          "label": "B",
+          "text": "4.85"
+        },
+        {
+          "label": "C",
+          "text": "5.76"
+        },
+        {
+          "label": "D",
+          "text": "12.00"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This would correspond to more acid than conjugate base after NaOH addition, which is impossible. NaOH is a strong base that converts HA to A⁻, increasing the [A⁻]/[HA] ratio and raising the pH. A pH below the original 4.76 would require adding acid, not base.",
+        "B": "Correct. NaOH neutralizes acetic acid: CH₃COOH + NaOH → CH₃COO⁻ + H₂O. Adding 0.01 mol NaOH converts 0.01 mol acetic acid to 0.01 mol acetate. New concentrations: [HA] = 0.10 − 0.01 = 0.09 M; [A⁻] = 0.10 + 0.01 = 0.11 M. pH = 4.76 + log(0.11/0.09) = 4.76 + log(1.22) = 4.76 + 0.087 ≈ 4.85. The pH shifts by only 0.09 units despite adding a strong base — this is buffering in action. Without the buffer, adding 0.01 mol NaOH to 1.0 L of water would raise the pH from 7 to 12. The buffer resists the pH change by converting the added base into the conjugate base of a weak acid, consuming the OH⁻ before it can dramatically alter pH.",
+        "C": "This would require a 10:1 ratio of A⁻ to HA, meaning nearly all the acetic acid was neutralized. Adding only 0.01 mol NaOH to a buffer containing 0.10 mol HA converts only 10% of the acid — far from the 10:1 ratio needed for pH 5.76.",
+        "D": "pH 12 would result from adding 0.01 mol NaOH to unbuffered water (pOH = −log(0.01) = 2, so pH = 12). The buffer prevents this extreme pH change by consuming the NaOH through reaction with acetic acid. This comparison powerfully illustrates why buffers are essential in biological and laboratory settings."
+      },
+      "topic": "Buffer Action: Adding Strong Base",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The student's colleague suggests using a phosphate buffer (H₂PO₄⁻/HPO₄²⁻, pKa₂ = 7.20) instead of the acetate buffer for the experiment at pH 4.75. Why is this substitution problematic?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Phosphate buffers are toxic to enzymes and cannot be used in biological experiments"
+        },
+        {
+          "label": "B",
+          "text": "The phosphate buffer's pKa is too far from the target pH, so it would have minimal buffering capacity at pH 4.75"
+        },
+        {
+          "label": "C",
+          "text": "Phosphate buffers only work at pH values above 10"
+        },
+        {
+          "label": "D",
+          "text": "The phosphate buffer would produce the same pH as the acetate buffer, making the substitution unnecessary"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Phosphate buffers are widely used in biological experiments and are generally well-tolerated by enzymes. Phosphate-buffered saline (PBS) is one of the most common biological buffers. The problem is not toxicity but pH range — every buffer system is effective only within approximately ±1 pH unit of its pKa.",
+        "B": "Correct. A buffer has effective buffering capacity only within approximately ±1 pH unit of its pKa. The phosphate buffer (pKa₂ = 7.20) is effective between roughly pH 6.2 and 8.2. At pH 4.75, which is 2.45 units below the pKa₂, the Henderson-Hasselbalch equation gives: 4.75 = 7.20 + log([HPO₄²⁻]/[H₂PO₄⁻]), so log([HPO₄²⁻]/[H₂PO₄⁻]) = −2.45, meaning the ratio is approximately 1:282. At this ratio, essentially all the buffer exists as the acid form (H₂PO₄⁻), with negligible conjugate base (HPO₄²⁻). The buffer would have almost no capacity to neutralize added acid because there is no conjugate base reserve. This is why buffer selection requires matching the pKa to the target pH.",
+        "C": "The phosphate buffer system (pKa₂ = 7.20) works effectively in the pH range of approximately 6.2–8.2, not above 10. Phosphoric acid has three ionizations (pKa₁ = 2.15, pKa₂ = 7.20, pKa₃ = 12.4), with the third providing buffering capacity near pH 12. The statement that phosphate buffers only work above pH 10 is factually incorrect.",
+        "D": "The two buffers would not produce the same pH if prepared with equal concentrations of acid and conjugate base. An equimolar acetate buffer has pH = pKa = 4.76, while an equimolar phosphate buffer (H₂PO₄⁻/HPO₄²⁻) has pH = pKa₂ = 7.20. The buffer pH is determined by the pKa of the system, not by the identity of the buffer components."
+      },
+      "topic": "Buffer Selection and Effective Range",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_004",
+      "passage": "A chemistry laboratory performs a titration of 50.0 mL of 0.10 M acetic acid (CH₃COOH, pKa = 4.76) with 0.10 M NaOH. The titration curve is monitored by pH meter. Key points on the curve are recorded:\n\nInitial pH (before any NaOH added): 2.88\nHalf-equivalence point (25.0 mL NaOH added): pH = 4.76\nEquivalence point (50.0 mL NaOH added): pH = 8.72\nPost-equivalence (excess NaOH): pH rises steeply toward 13\n\nFor comparison, the lab also titrates 50.0 mL of 0.10 M HCl with 0.10 M NaOH and observes an equivalence point at pH 7.00.",
+      "stem": "Why is the equivalence point of the acetic acid–NaOH titration at pH 8.72 rather than pH 7.00?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Excess NaOH is present at the equivalence point"
+        },
+        {
+          "label": "B",
+          "text": "The acetate ion (CH₃COO⁻) produced at the equivalence point is a weak base that hydrolyzes water, generating OH⁻"
+        },
+        {
+          "label": "C",
+          "text": "Acetic acid is not fully neutralized at the equivalence point"
+        },
+        {
+          "label": "D",
+          "text": "The indicator used in the titration is inaccurate at acidic pH values"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "At the equivalence point, by definition, moles of NaOH added exactly equal moles of acetic acid originally present. There is no excess NaOH. Excess base appears only past the equivalence point, where the pH rises steeply. The elevated pH at the equivalence point has a different cause.",
+        "B": "Correct. At the equivalence point, all acetic acid has been converted to sodium acetate: CH₃COOH + NaOH → CH₃COONa + H₂O. The solution contains only acetate ions (CH₃COO⁻) and Na⁺ (a spectator ion). Acetate is the conjugate base of the weak acid acetic acid, and it undergoes hydrolysis: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. This reaction produces OH⁻, making the solution basic (pH > 7). The weaker the parent acid (higher pKa), the stronger its conjugate base and the higher the equivalence-point pH. For the HCl–NaOH titration, Cl⁻ is the conjugate base of a strong acid and does not hydrolyze, so the equivalence point is at pH 7.00. This principle — that the equivalence point pH depends on the nature of the species present, not just on stoichiometric neutralization — is critical for selecting appropriate indicators for titrations.",
+        "C": "At the equivalence point, acetic acid is fully neutralized — this is the definition of the equivalence point. Every mole of acetic acid has reacted with a mole of NaOH. The elevated pH is not due to incomplete neutralization but due to the basic nature of the product (acetate ion).",
+        "D": "The pH is measured by a pH meter, not an indicator, so indicator accuracy is irrelevant. Furthermore, the elevated equivalence-point pH is a thermodynamic property of the acetate solution, not an artifact of the measurement method."
+      },
+      "topic": "Weak Acid–Strong Base Titration",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "At the half-equivalence point (25.0 mL NaOH added), the pH equals 4.76 — exactly the pKa of acetic acid. Which of the following best explains why pH = pKa at this specific point?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Half the acetic acid has been neutralized, so [CH₃COOH] = [CH₃COO⁻], and log(1) = 0"
+        },
+        {
+          "label": "B",
+          "text": "The solution has maximum buffering capacity at this point because the NaOH concentration equals the acetic acid concentration"
+        },
+        {
+          "label": "C",
+          "text": "The pKa changes during the titration and happens to equal the pH at the halfway point"
+        },
+        {
+          "label": "D",
+          "text": "All the acetic acid has dissociated at this point, releasing H⁺ ions equal to the pKa value"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. At the half-equivalence point, exactly half the original acetic acid has been converted to acetate by NaOH. If we started with 0.005 mol CH₃COOH (50 mL × 0.10 M), then at the half-equivalence point, 0.0025 mol remains as CH₃COOH and 0.0025 mol has been converted to CH₃COO⁻. The concentrations are equal: [HA] = [A⁻]. Applying Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]) = pKa + log(1) = pKa + 0 = pKa. This relationship — pH = pKa when [HA] = [A⁻] — is one of the most important results in acid-base chemistry. It provides a direct experimental method for determining the pKa of an unknown weak acid: titrate it with strong base and read the pH at the half-equivalence point.",
+        "B": "While the solution does have strong buffering capacity at the half-equivalence point (because [HA] = [A⁻]), this is a consequence of the equal concentrations, not the explanation for why pH = pKa. The explanation lies in the Henderson-Hasselbalch equation: log(1) = 0 eliminates the ratio term, leaving pH = pKa. Additionally, 'NaOH concentration equals acetic acid concentration' is misleading — the NaOH has been consumed by reaction with acetic acid; it is the resulting acetate concentration that equals the remaining acid concentration.",
+        "C": "The pKa is an intrinsic property of the acid that depends on its molecular structure and the temperature, not on how far a titration has progressed. It does not change during the titration. The pH changes as the ratio of [A⁻]/[HA] changes, but pKa remains constant throughout.",
+        "D": "At the half-equivalence point, only half the acetic acid has been neutralized, not all of it. Acetic acid is a weak acid that does not fully dissociate under any circumstances (its Ka is small). The remaining acetic acid exists in equilibrium with its conjugate base. The pKa value is a logarithmic measure of acid strength (−log Ka), not a number of H⁺ ions."
+      },
+      "topic": "Half-Equivalence Point",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_006",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If the student were to titrate a weaker acid (pKa = 9.0) with NaOH, how would the titration curve differ from the acetic acid titration curve?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The equivalence point would be at a lower pH, and the initial pH would be higher"
+        },
+        {
+          "label": "B",
+          "text": "The equivalence point would be at a higher pH, and the initial pH would be higher"
+        },
+        {
+          "label": "C",
+          "text": "The equivalence point would be at pH 7.00 because all weak acid titrations reach neutral pH"
+        },
+        {
+          "label": "D",
+          "text": "The titration curve would be identical because the NaOH concentration is the same"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A higher pKa means the acid is weaker. A weaker acid produces a more basic conjugate base, which hydrolyzes water more extensively at the equivalence point, giving a higher equivalence-point pH, not lower.",
+        "B": "Correct. A weaker acid (higher pKa) differs in two key ways. First, the initial pH is higher because a weaker acid donates fewer protons to solution at the same concentration. For a 0.10 M acid with pKa = 9.0: Ka = 10⁻⁹, so [H⁺] = √(Ka × C) = √(10⁻⁹ × 0.10) = √(10⁻¹⁰) = 10⁻⁵, giving pH = 5.00 (compared to 2.88 for acetic acid). Second, the equivalence point pH is higher because the conjugate base of a weaker acid is a stronger base. It hydrolyzes water more extensively, producing more OH⁻. The half-equivalence point would occur at pH = pKa = 9.0 (compared to 4.76 for acetic acid). The entire curve shifts upward, and the buffering region spans a higher pH range.",
+        "C": "Only strong acid–strong base titrations reach an equivalence point at pH 7. Weak acid–strong base titrations always have equivalence points above 7 because the conjugate base of the weak acid hydrolyzes water to produce OH⁻. The weaker the acid, the higher the equivalence-point pH.",
+        "D": "The titration curve depends on the properties of the analyte (the substance being titrated), not just the titrant. Different weak acids have different initial pH values, different buffering regions, and different equivalence-point pH values — all determined by their pKa and concentration. The NaOH concentration determines only the volume needed to reach equivalence."
+      },
+      "topic": "Titration Curve Comparison",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_soln_007",
+      "passage": "A renal physiologist studies the solubility of calcium phosphate, Ca₃(PO₄)₂, in simulated body fluids. The Ksp of calcium phosphate is 2.07 × 10⁻³³ at body temperature. The dissolution equilibrium is:\n\nCa₃(PO₄)₂(s) ⇌ 3Ca²⁺(aq) + 2PO₄³⁻(aq)\n\nThe physiologist investigates how changes in calcium concentration and pH affect the precipitation and dissolution of calcium phosphate in kidney tubules, as these factors are relevant to the formation of kidney stones.",
+      "stem": "A patient's blood test shows elevated serum calcium levels (hypercalcemia). Based on Le Chatelier's principle, how would this affect the solubility of calcium phosphate in the kidney?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Solubility increases because more Ca²⁺ drives the equilibrium toward dissolving more solid"
+        },
+        {
+          "label": "B",
+          "text": "Solubility decreases because the elevated Ca²⁺ shifts the equilibrium toward precipitation, increasing the risk of kidney stone formation"
+        },
+        {
+          "label": "C",
+          "text": "Solubility is unchanged because Ksp is a constant that does not depend on ion concentrations"
+        },
+        {
+          "label": "D",
+          "text": "Solubility increases because hypercalcemia raises body temperature, increasing Ksp"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This reverses Le Chatelier's principle. Adding more of a product (Ca²⁺ is on the product side of the dissolution equilibrium) shifts the equilibrium toward the reactant side (solid calcium phosphate), favoring precipitation and decreasing solubility — not increasing it.",
+        "B": "Correct. This is the common ion effect — a direct application of Le Chatelier's principle to solubility equilibria. Elevated Ca²⁺ in the blood and filtrate increases the ion product Q = [Ca²⁺]³[PO₄³⁻]². When Q > Ksp, the solution is supersaturated and precipitation occurs: the equilibrium shifts left to consume the excess Ca²⁺, forming solid calcium phosphate. This directly increases the risk of calcium phosphate kidney stone formation. Clinically, hypercalcemia from hyperparathyroidism, malignancy, or excessive vitamin D intake is a well-known risk factor for nephrolithiasis (kidney stones). Treatment strategies include hydration (diluting ion concentrations) and addressing the underlying cause of hypercalcemia.",
+        "C": "While Ksp itself is a constant at a given temperature, solubility — the amount of solid that can dissolve — does depend on the concentrations of ions already in solution. Adding a common ion (Ca²⁺) reduces the additional amount of Ca₃(PO₄)₂ that can dissolve before Q reaches Ksp. The distinction between Ksp (a constant) and solubility (variable depending on conditions) is essential.",
+        "D": "Hypercalcemia does not significantly raise body temperature. Body temperature is regulated by homeostatic mechanisms (hypothalamic thermoregulation) and is not affected by serum calcium levels in this way. While Ksp does depend on temperature, the clinically relevant effect is the common ion effect from elevated Ca²⁺."
+      },
+      "topic": "Common Ion Effect & Ksp",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The physiologist observes that acidifying the urine (lowering pH) increases the solubility of calcium phosphate, reducing stone formation. Which of the following best explains this observation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Lower pH increases Ksp by changing the thermodynamic stability of calcium phosphate"
+        },
+        {
+          "label": "B",
+          "text": "Lower pH protonates PO₄³⁻ to form HPO₄²⁻, removing free PO₄³⁻ from solution and shifting the dissolution equilibrium to the right"
+        },
+        {
+          "label": "C",
+          "text": "Lower pH directly breaks down the crystal structure of calcium phosphate"
+        },
+        {
+          "label": "D",
+          "text": "Lower pH increases the concentration of Ca²⁺, which promotes dissolution through the common ion effect"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The true thermodynamic Ksp is a constant at a given temperature and does not change with pH. What pH affects is the effective solubility by altering the speciation of phosphate ions — protonation of PO₄³⁻ removes it from the Ksp equilibrium, shifting dissolution to the right. The distinction between Ksp (constant) and effective solubility (pH-dependent) is important.",
+        "B": "Correct. At lower pH (higher [H⁺]), the phosphate ion PO₄³⁻ is protonated: PO₄³⁻ + H⁺ → HPO₄²⁻ (and further to H₂PO₄⁻ at even lower pH). This removes free PO₄³⁻ from solution, reducing the ion product Q = [Ca²⁺]³[PO₄³⁻]². When Q falls below Ksp, the equilibrium shifts right (toward dissolution) to regenerate PO₄³⁻, dissolving solid calcium phosphate. Importantly, the true thermodynamic Ksp does not change with pH at a fixed temperature — what changes is the effective (conditional) solubility, because pH controls the speciation of phosphate and thus the concentration of free PO₄³⁻ available to participate in the Ksp equilibrium. This is why salts of basic anions (phosphate, carbonate, hydroxide) are more soluble in acidic conditions — the acid consumes the anion, pulling the equilibrium toward dissolution. Clinically, urinary acidification (through diet, ammonium chloride, or ascorbic acid) is one strategy for reducing calcium phosphate stone risk, though it may increase the risk of other stone types (e.g., uric acid stones, which are less soluble at low pH).",
+        "C": "Acids do not directly break down crystal lattices through a mechanical or structural mechanism. The dissolution effect operates through equilibrium chemistry: acid protonates the phosphate anion, shifting the solubility equilibrium. The crystal structure itself is not disrupted by pH changes — individual ions are removed from the surface by the equilibrium shift.",
+        "D": "This is backwards. Lower pH does not increase [Ca²⁺] — calcium ion concentration is not directly affected by pH in this context. More importantly, increasing [Ca²⁺] would be the common ion effect, which decreases solubility (as discussed in the previous question). The mechanism here involves decreasing [PO₄³⁻] through protonation."
+      },
+      "topic": "pH-Dependent Solubility",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_soln_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If the molar solubility of a sparingly soluble salt AB is s, and its dissolution is AB(s) ⇌ A⁺(aq) + B⁻(aq), what is the Ksp in terms of s?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ksp = s"
+        },
+        {
+          "label": "B",
+          "text": "Ksp = s²"
+        },
+        {
+          "label": "C",
+          "text": "Ksp = 2s²"
+        },
+        {
+          "label": "D",
+          "text": "Ksp = 4s³"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Ksp = s would only apply if the Ksp expression involved only one ion concentration, not a product of two. For AB ⇌ A⁺ + B⁻, Ksp = [A⁺][B⁻]. Since both ions are produced in equal amounts from dissolution, [A⁺] = [B⁻] = s, and Ksp = s × s = s².",
+        "B": "Correct. For a 1:1 salt AB dissolving as AB(s) ⇌ A⁺(aq) + B⁻(aq), each mole of AB that dissolves produces one mole of A⁺ and one mole of B⁻. If the molar solubility is s, then [A⁺] = s and [B⁻] = s. Ksp = [A⁺][B⁻] = s × s = s². For different stoichiometries, the relationship changes: for AB₂ ⇌ A²⁺ + 2B⁻, [A²⁺] = s and [B⁻] = 2s, giving Ksp = (s)(2s)² = 4s³. Correctly setting up the Ksp expression with stoichiometric coefficients is essential for converting between Ksp and molar solubility.",
+        "C": "Ksp = 2s² would require a coefficient of 2 in the Ksp expression, which only appears when an ion has a stoichiometric coefficient greater than 1 (e.g., A₂B ⇌ 2A⁺ + B²⁻ gives Ksp = [A⁺]²[B²⁻] = (2s)²(s) = 4s³). For a simple 1:1 salt, no coefficients appear in the Ksp expression beyond the first power.",
+        "D": "Ksp = 4s³ is the expression for a salt with 1:2 or 2:1 stoichiometry, such as AB₂ ⇌ A²⁺ + 2B⁻ (giving Ksp = s × (2s)² = 4s³) or A₂B ⇌ 2A⁺ + B²⁻ (giving Ksp = (2s)² × s = 4s³). For a 1:1 salt, the simpler relationship Ksp = s² applies."
+      },
+      "topic": "Ksp and Molar Solubility",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_soln_010",
+      "passage": "A clinical pharmacologist studies the osmotic properties of intravenous (IV) solutions used in patient care. Three solutions are compared to normal human blood plasma, which has an osmolarity of approximately 290 mOsm/L:\n\nSolution X: 0.9% NaCl (normal saline), osmolarity ≈ 308 mOsm/L\nSolution Y: 0.45% NaCl (half-normal saline), osmolarity ≈ 154 mOsm/L\nSolution Z: 5% dextrose in water (D5W), osmolarity ≈ 278 mOsm/L\n\nThe pharmacologist notes that Solution X is approximately isotonic with blood, Solution Y is hypotonic, and Solution Z is initially isotonic but becomes effectively hypotonic after the dextrose is metabolized.",
+      "stem": "What would happen to red blood cells placed in Solution Y (0.45% NaCl, hypotonic)?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Water would flow out of the cells by osmosis, causing them to shrink (crenation)"
+        },
+        {
+          "label": "B",
+          "text": "Water would flow into the cells by osmosis, causing them to swell and potentially lyse (hemolysis)"
+        },
+        {
+          "label": "C",
+          "text": "No net water movement would occur because NaCl cannot cross the cell membrane"
+        },
+        {
+          "label": "D",
+          "text": "The cells would actively pump water out to maintain their volume"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Crenation (shrinkage) occurs in hypertonic solutions, where the extracellular solute concentration is higher than the intracellular concentration, causing water to flow out of the cell. Solution Y is hypotonic (lower solute concentration than the cytoplasm), so water flows into the cell, not out.",
+        "B": "Correct. In a hypotonic solution, the extracellular solute concentration (154 mOsm/L) is lower than the intracellular concentration (~290 mOsm/L). Water moves by osmosis from the region of lower solute concentration (higher water concentration) to the region of higher solute concentration (lower water concentration) — that is, into the cell. As water enters, the cell swells. Red blood cells lack a nucleus and organelles, giving them limited capacity to accommodate volume increases. If the osmotic gradient is large enough, the membrane stretches beyond its capacity and ruptures, releasing hemoglobin into the surrounding solution — a process called hemolysis. This is clinically significant: administering a hypotonic IV solution too rapidly can cause hemolysis, leading to hemoglobinuria and potentially acute kidney injury.",
+        "C": "While NaCl (as Na⁺ and Cl⁻ ions) crosses the cell membrane poorly without specific transporters, osmosis depends on the total solute concentration difference across the membrane, not on whether specific solutes can cross. Water is the molecule that moves — it flows freely across the semipermeable membrane in response to the osmotic gradient. The impermeability of the membrane to the solute is actually what creates the osmotic effect.",
+        "D": "Red blood cells do not have active water pumps. No mammalian cell actively transports water. Water movement is passive, driven by osmotic gradients across the semipermeable membrane. Cells can regulate their volume by adjusting intracellular solute concentrations (regulatory volume decrease/increase), but this involves ion transport, not water pumping, and red blood cells have limited capacity for this."
+      },
+      "topic": "Osmosis and Tonicity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_soln_011",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Normal saline (0.9% NaCl) has an osmolarity of approximately 308 mOsm/L rather than the 154 mOsm/L expected from 0.154 M NaCl. This is because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "NaCl is a nonelectrolyte that does not dissociate in water"
+        },
+        {
+          "label": "B",
+          "text": "NaCl is a strong electrolyte that fully dissociates into Na⁺ and Cl⁻, approximately doubling the number of solute particles"
+        },
+        {
+          "label": "C",
+          "text": "NaCl reacts with water to form additional solute particles through hydrolysis"
+        },
+        {
+          "label": "D",
+          "text": "The mass percentage (0.9%) overestimates the actual concentration of NaCl"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "NaCl is an ionic compound that fully dissociates in water: NaCl → Na⁺ + Cl⁻. It is a strong electrolyte, not a nonelectrolyte. Nonelectrolytes (like glucose or urea) dissolve without dissociating and have a van't Hoff factor (i) of 1. NaCl has i ≈ 2 because each formula unit produces two ions.",
+        "B": "Correct. NaCl is a strong electrolyte that completely dissociates: NaCl → Na⁺ + Cl⁻. Each formula unit of NaCl produces two particles in solution. Colligative properties (osmotic pressure, boiling point elevation, freezing point depression, vapor pressure lowering) depend on the total number of solute particles, not on their identity. Therefore, 0.154 M NaCl produces approximately 0.154 × 2 = 0.308 M total particles, giving an osmolarity of ~308 mOsm/L. The van't Hoff factor (i) quantifies this effect: i = actual particles produced per formula unit. For NaCl, i ≈ 2 (slightly less in practice due to ion pairing at higher concentrations). For CaCl₂, i ≈ 3 (Ca²⁺ + 2Cl⁻). For glucose (a nonelectrolyte), i = 1.",
+        "C": "NaCl does not hydrolyze in water. Na⁺ is the conjugate acid of the strong base NaOH and does not react with water. Cl⁻ is the conjugate base of the strong acid HCl and does not react with water. Both ions are spectator ions that exist as free, hydrated ions in solution without undergoing any chemical reaction.",
+        "D": "The mass percentage correctly represents the amount of NaCl present. 0.9 g NaCl per 100 mL = 9 g/L. Molar mass of NaCl = 58.44 g/mol. Molarity = 9/58.44 ≈ 0.154 M. This is the correct molar concentration. The discrepancy between molarity (0.154 M) and osmolarity (308 mOsm/L) arises from dissociation, not from an error in the mass percentage."
+      },
+      "topic": "Colligative Properties: van't Hoff Factor",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_012",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Solution Z (5% dextrose in water) is described as initially isotonic but becoming effectively hypotonic after dextrose is metabolized. Which of the following best explains this phenomenon?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Metabolizing dextrose raises blood osmolarity, making the remaining solution relatively hypotonic"
+        },
+        {
+          "label": "B",
+          "text": "Dextrose metabolism removes solute particles from the infused fluid, leaving behind essentially free water that dilutes body fluid compartments"
+        },
+        {
+          "label": "C",
+          "text": "Dextrose is converted to NaCl in the body, changing the solution's ionic composition"
+        },
+        {
+          "label": "D",
+          "text": "The dextrose precipitates out of solution after infusion, reducing the osmolarity"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This reverses the logic. Metabolizing dextrose removes solute particles from the infused fluid, not from the blood. The infused fluid loses its osmolality as the dextrose is consumed, leaving water without solute — effectively a hypotonic contribution to the body fluid compartments.",
+        "B": "Correct. D5W initially has an osmolarity of ~278 mOsm/L (near isotonic) due to dissolved glucose (dextrose). After infusion, cells rapidly metabolize the glucose: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O. The CO₂ is exhaled and the metabolic water joins the body water pool. The net effect is that the glucose — the only solute providing osmolarity — is consumed, leaving behind essentially free water. This free water distributes across all body fluid compartments (intracellular and extracellular), diluting solute concentrations and lowering osmolarity. D5W is therefore used clinically to provide free water for hydration, not for volume expansion. It is effectively a hypotonic solution delivered in an isotonic vehicle (the glucose prevents hemolysis during infusion).",
+        "C": "Dextrose (glucose) is metabolized to CO₂ and H₂O through glycolysis and oxidative metabolism, not converted to NaCl. There is no biochemical pathway that converts a carbohydrate to an ionic salt.",
+        "D": "Dextrose (glucose) is highly soluble in water and does not precipitate from solution under physiological conditions. The reduction in effective osmolarity occurs because glucose is metabolized (consumed by cells), not because it falls out of solution."
+      },
+      "topic": "Effective Tonicity: D5W",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_soln_013",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "Identify the conjugate acid-base pairs in the following equilibrium: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻",
+      "choices": [
+        {
+          "label": "A",
+          "text": "NH₃/NH₄⁺ and H₂O/OH⁻"
+        },
+        {
+          "label": "B",
+          "text": "NH₃/OH⁻ and H₂O/NH₄⁺"
+        },
+        {
+          "label": "C",
+          "text": "NH₄⁺/NH₃ and H₂O/OH⁻"
+        },
+        {
+          "label": "D",
+          "text": "NH₄⁺/OH⁻ and NH₃/H₂O"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This lists the pairs as base/conjugate acid and acid/conjugate base, which reverses the conventional notation. Conjugate acid-base pairs are conventionally written as acid/base (the species with the extra proton listed first). NH₄⁺ is the conjugate acid of NH₃, so the pair is NH₄⁺/NH₃, not NH₃/NH₄⁺.",
+        "B": "NH₃ and OH⁻ are not a conjugate pair — they differ by more than one proton and are on the same side of the equation as reactant and product, respectively. Conjugate pairs must be connected by the transfer of exactly one proton, and they appear on opposite sides of the equilibrium.",
+        "C": "Correct. In this equilibrium, NH₃ acts as a Brønsted-Lowry base by accepting a proton from H₂O. NH₃ + H⁺ → NH₄⁺, making NH₄⁺/NH₃ a conjugate acid-base pair (they differ by one proton). H₂O acts as a Brønsted-Lowry acid by donating a proton to NH₃. H₂O → OH⁻ + H⁺, making H₂O/OH⁻ a conjugate acid-base pair. The convention lists each pair as acid/base: NH₄⁺ (acid, the proton donor in the reverse reaction) / NH₃ (base, the proton acceptor in the forward reaction), and H₂O (acid, the proton donor in the forward reaction) / OH⁻ (base, the proton acceptor in the reverse reaction). This reaction also illustrates the amphoteric nature of water — it acts as an acid here but as a base when interacting with acids like HCl.",
+        "D": "NH₄⁺ and OH⁻ are both products of the forward reaction and are not a conjugate pair. A conjugate acid-base pair consists of two species that are interconverted by the gain or loss of a single proton. NH₄⁺ and OH⁻ differ by far more than one proton and represent entirely different chemical species."
+      },
+      "topic": "Conjugate Acid-Base Pairs",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_soln_014",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "A student is given four acids at 0.10 M concentration and asked to rank them by pH from lowest (most acidic) to highest (least acidic): HCl (strong acid), HF (pKa = 3.17), CH₃COOH (pKa = 4.76), and HCN (pKa = 9.21). Which ranking is correct?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "HCl < HF < CH₃COOH < HCN"
+        },
+        {
+          "label": "B",
+          "text": "HCN < CH₃COOH < HF < HCl"
+        },
+        {
+          "label": "C",
+          "text": "HCl < CH₃COOH < HF < HCN"
+        },
+        {
+          "label": "D",
+          "text": "HF < HCl < HCN < CH₃COOH"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. pH from lowest to highest corresponds to strongest acid to weakest acid at equal concentration. HCl is a strong acid that fully dissociates, giving the lowest pH: pH = −log(0.10) = 1.0. For weak acids at equal concentration, lower pKa means stronger acid (more dissociation, more H⁺, lower pH). HF (pKa = 3.17) is the strongest weak acid, followed by acetic acid (pKa = 4.76), followed by HCN (pKa = 9.21, the weakest). Approximate pH values: HF ≈ 2.1, CH₃COOH ≈ 2.9, HCN ≈ 5.1. Therefore: HCl (1.0) < HF (2.1) < CH₃COOH (2.9) < HCN (5.1). The key relationships: strong acids have the lowest pH at any concentration; among weak acids, lower pKa = stronger acid = lower pH.",
+        "B": "This ranks from weakest to strongest, which would be highest to lowest pH, not lowest to highest. The question asks for lowest pH first (most acidic), which is the strongest acid first: HCl.",
+        "C": "This incorrectly places acetic acid (pKa = 4.76) as more acidic than HF (pKa = 3.17). Lower pKa indicates a stronger acid, so HF dissociates more than acetic acid and produces a lower pH at equal concentration.",
+        "D": "This places HF below HCl, which is incorrect — HCl is a strong acid with complete dissociation, so it produces the lowest pH. It also incorrectly places HCN above acetic acid. Since HCN has a higher pKa (9.21 > 4.76), it is a weaker acid and produces a higher pH than acetic acid."
+      },
+      "topic": "Acid Strength and pH Ranking",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_015",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "The autoionization of water is described by the equilibrium: 2H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq), with Kw = [H₃O⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25°C. If the temperature is raised to 37°C (body temperature), Kw increases to approximately 2.4 × 10⁻¹⁴. What is the pH of pure water at 37°C?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "7.00"
+        },
+        {
+          "label": "B",
+          "text": "6.81"
+        },
+        {
+          "label": "C",
+          "text": "7.20"
+        },
+        {
+          "label": "D",
+          "text": "6.00"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "pH 7.00 is the pH of pure water at 25°C, where Kw = 1.0 × 10⁻¹⁴ and [H⁺] = [OH⁻] = 1.0 × 10⁻⁷ M. At 37°C, Kw is larger, meaning water autoionizes to a greater extent, and [H⁺] is higher than 10⁻⁷. The pH of pure water is 7.00 only at 25°C.",
+        "B": "Correct. In pure water at any temperature, [H₃O⁺] = [OH⁻] (water is the only source of both ions). If Kw = [H⁺][OH⁻] = [H⁺]² = 2.4 × 10⁻¹⁴, then [H⁺] = √(2.4 × 10⁻¹⁴) = 1.55 × 10⁻⁷ M. pH = −log(1.55 × 10⁻⁷) ≈ 6.81. Crucially, this water is still neutral — it has equal concentrations of H⁺ and OH⁻. The pH of neutrality is not always 7; it is the pH at which [H⁺] = [OH⁻], which depends on temperature. At body temperature, neutral pH is approximately 6.81, not 7.00. This has implications for clinical pH measurement: blood pH of 7.40 at 37°C is further from neutral (6.81) than it would be at 25°C, meaning blood is actually more basic relative to neutral water than the number 7.40 alone might suggest.",
+        "C": "pH 7.20 would mean [H⁺] = 10⁻⁷·²⁰ = 6.31 × 10⁻⁸ M, and Kw would equal (6.31 × 10⁻⁸)² = 3.98 × 10⁻¹⁵, which is smaller than Kw at 25°C. Since autoionization increases with temperature (it is endothermic), Kw must increase, making [H⁺] larger and pH lower, not higher.",
+        "D": "pH 6.00 would correspond to [H⁺] = 10⁻⁶ M and Kw = (10⁻⁶)² = 10⁻¹². This is two orders of magnitude larger than the given Kw of 2.4 × 10⁻¹⁴. A Kw of 10⁻¹² would correspond to a much higher temperature than 37°C. The calculation error likely involves taking the log of Kw directly rather than first calculating [H⁺] = √Kw."
+      },
+      "topic": "Water Autoionization and Temperature",
+      "difficulty": "Hard"
+    }
+  ]
+}

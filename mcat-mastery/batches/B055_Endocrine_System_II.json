@@ -1,0 +1,336 @@
+{
+  "batch": "B055",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Endocrine System II: Hormones, Feedback & Disease",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "bb_endo_001",
+      "passage": "A 45-year-old patient presents to her physician with fatigue, cold intolerance, weight gain, constipation, and dry skin over the past six months. Physical examination reveals bradycardia, a delayed relaxation phase of deep tendon reflexes, and a slightly enlarged thyroid gland (goiter). Laboratory results show elevated TSH and low free T4. The physician diagnoses primary hypothyroidism and prescribes levothyroxine (synthetic T4) replacement therapy.",
+      "stem": "Elevated TSH combined with low free T4 indicates primary hypothyroidism because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "excess T4 is inhibiting TSH production, creating a compensatory increase in free T4"
+        },
+        {
+          "label": "B",
+          "text": "the hypothalamus is overproducing TRH, which directly suppresses thyroid function"
+        },
+        {
+          "label": "C",
+          "text": "the pituitary is failing to produce TSH, causing low thyroid output"
+        },
+        {
+          "label": "D",
+          "text": "the thyroid gland is failing to produce adequate T4, removing negative feedback on the pituitary, which responds by secreting more TSH in an attempt to stimulate thyroid output"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Excess T4 would suppress, not stimulate, TSH production through negative feedback. High T4 + high TSH would be inconsistent with normal HPT axis function and could indicate a TSH-secreting pituitary tumor (TSHoma) \u2014 a rare condition. The question describes the opposite pattern (low T4, high TSH).",
+        "B": "TRH (thyrotropin-releasing hormone) from the hypothalamus stimulates TSH release from the pituitary, which then stimulates thyroid hormone production. High TRH would drive high TSH and likely high T4, not the pattern of high TSH + low T4 seen here. Additionally, TRH does not directly act on the thyroid.",
+        "C": "Pituitary failure to produce TSH would cause low TSH and low T4 (secondary hypothyroidism), not high TSH and low T4. If the pituitary fails, it cannot drive thyroid production \u2014 both TSH and T4 would be low. The key in this case is that TSH is elevated, indicating the pituitary is working hard to stimulate a failing thyroid.",
+        "D": "Correct. In primary hypothyroidism, the thyroid gland itself is defective \u2014 it produces insufficient T4 and T3. In a normal HPT axis, T3/T4 provide negative feedback on both the hypothalamus (suppressing TRH) and the pituitary (suppressing TSH). When T4 is low, this negative feedback is removed. The pituitary, sensing inadequate T4, releases more TSH in a compensatory attempt to stimulate the failing thyroid. The hallmark of primary hypothyroidism is therefore high TSH with low T4 \u2014 the pituitary is responding normally to a failing gland. This is distinguished from secondary (pituitary failure: low TSH + low T4) and tertiary (hypothalamic failure: low TRH \u2192 low TSH \u2192 low T4) hypothyroidism."
+      },
+      "topic": "HPT Axis / Primary Hypothyroidism / Negative Feedback",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_endo_002",
+      "passage": null,
+      "passageRef": "bb_endo_001",
+      "stem": "T4 (thyroxine) is a prohormone that must be converted to T3 (triiodothyronine) to exert its primary biological effects. This conversion occurs primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "peripheral deiodination by deiodinase enzymes \u2014 removal of one iodine atom from the outer ring of T4 produces active T3, while removal from the inner ring produces inactive reverse T3 (rT3)"
+        },
+        {
+          "label": "B",
+          "text": "phosphorylation by thyroid hormone receptor kinases in the nucleus"
+        },
+        {
+          "label": "C",
+          "text": "glucuronidation in the liver, which activates T4 by making it more water-soluble"
+        },
+        {
+          "label": "D",
+          "text": "direct conversion by thyroid peroxidase at the follicular cell membrane"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Three deiodinase enzymes (D1, D2, D3) regulate thyroid hormone activation and inactivation. Type 1 (D1) and Type 2 (D2) deiodinases remove iodine from the 5'-outer ring of T4, producing active T3 (~80% of circulating T3 comes from peripheral T4 conversion). D2 is particularly important in target tissues (brain, pituitary, brown fat). Type 3 (D3) removes iodine from the 5-inner ring, producing inactive reverse T3 (rT3). Stress, illness, and fasting increase rT3 production (euthyroid sick syndrome). T3 is ~3-4\u00d7 more potent than T4 and binds thyroid hormone receptors with much higher affinity.",
+        "B": "Thyroid hormone receptors are nuclear receptors (TR\u03b1, TR\u03b2) that bind T3 directly. T3 binding to TR changes corepressor to coactivator recruitment, altering transcription. The receptor does not phosphorylate T4 \u2014 the hormone is deiodinated (loses an iodine) to become T3. Thyroid hormones are not activated by phosphorylation.",
+        "C": "Glucuronidation is a Phase II detoxification reaction that makes molecules more water-soluble for renal excretion \u2014 it inactivates (not activates) thyroid hormones. Glucuronide conjugates of thyroid hormones are excreted in bile and urine. This is a major pathway for T4/T3 metabolism and elimination, not activation.",
+        "D": "Thyroid peroxidase (TPO) is an enzyme in thyroid follicular cells that organifies iodide (I\u207b \u2192 active iodine) and couples iodotyrosines on thyroglobulin to form T3 and T4 within the thyroid gland. It does not convert T4 to T3 at the follicular membrane \u2014 that conversion occurs in peripheral tissues by deiodinases."
+      },
+      "topic": "Thyroid Hormone / T4 to T3 Conversion / Deiodinases",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_endo_003",
+      "passage": null,
+      "stem": "Type 1 diabetes mellitus results from autoimmune destruction of pancreatic \u03b2-cells. The absence of insulin causes:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decreased glucagon secretion, reducing blood glucose by suppressing hepatic glucose output"
+        },
+        {
+          "label": "B",
+          "text": "hyperglycemia, increased lipolysis (producing ketone bodies that can cause diabetic ketoacidosis), and negative nitrogen balance due to protein catabolism \u2014 because insulin normally promotes glucose uptake, inhibits lipolysis, and promotes protein synthesis"
+        },
+        {
+          "label": "C",
+          "text": "exclusively increased glycogen synthesis in the liver, normalizing blood glucose"
+        },
+        {
+          "label": "D",
+          "text": "decreased glucose absorption from the GI tract, which is the primary mechanism of hyperglycemia"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Insulin normally suppresses glucagon secretion from \u03b1-cells. Without insulin, glucagon secretion increases (not decreases), driving even more hepatic glucose output (glycogenolysis and gluconeogenesis), worsening hyperglycemia. Unregulated glucagon in the absence of insulin is a major contributor to diabetic ketoacidosis.",
+        "B": "Correct. Insulin is a pleiotropic anabolic hormone with multiple effects: (1) promotes GLUT4-mediated glucose uptake in muscle and adipose tissue; (2) promotes glycogen synthesis and inhibits glycogenolysis in liver and muscle; (3) inhibits lipolysis in adipose tissue (by inhibiting hormone-sensitive lipase); (4) promotes protein synthesis and inhibits protein catabolism. Without insulin: glucose uptake fails \u2192 hyperglycemia; lipolysis increases \u2192 fatty acids released \u2192 liver converts to ketone bodies (acetoacetate, \u03b2-hydroxybutyrate) \u2192 ketoacidosis; protein catabolism increases \u2192 negative nitrogen balance and muscle wasting. Glucagon, cortisol, and growth hormone (counter-regulatory hormones) are unopposed, further worsening hyperglycemia.",
+        "C": "Without insulin, glycogen synthesis is impaired (glycogen synthase is less active) and glycogenolysis is increased (glucagon-stimulated). The liver produces more glucose, not less. Glycogen synthesis cannot normalize blood glucose in the absence of insulin.",
+        "D": "GI glucose absorption (via SGLT1 in the intestinal epithelium and GLUT2 in portal blood) does not require insulin. Glucose is absorbed normally from the gut in type 1 diabetes \u2014 in fact, glucose absorption continues normally but peripheral uptake fails because insulin-responsive GLUT4 transporters are not translocated to the cell surface without insulin signaling."
+      },
+      "topic": "Insulin / Type 1 Diabetes / Metabolic Effects",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_endo_004",
+      "passage": null,
+      "stem": "Cortisol is a glucocorticoid produced by the adrenal cortex in response to stress. Its metabolic effects include:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "promoting glucose uptake in muscle and adipose tissue by stimulating GLUT4 translocation"
+        },
+        {
+          "label": "B",
+          "text": "decreasing hepatic gluconeogenesis and increasing insulin sensitivity"
+        },
+        {
+          "label": "C",
+          "text": "inhibiting protein synthesis throughout the body"
+        },
+        {
+          "label": "D",
+          "text": "raising blood glucose by stimulating hepatic gluconeogenesis and glycogenolysis, inhibiting peripheral glucose uptake, and mobilizing substrates through proteolysis and lipolysis"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "GLUT4 translocation is stimulated by insulin, not cortisol. In fact, cortisol opposes insulin action \u2014 it decreases insulin sensitivity and inhibits glucose uptake in peripheral tissues. Chronic corticosteroid therapy causes hyperglycemia (steroid-induced diabetes) by opposing insulin's actions.",
+        "B": "Cortisol increases hepatic gluconeogenesis (by inducing PEPCK, glucose-6-phosphatase) and decreases insulin sensitivity \u2014 the opposite of what this answer states. Cortisol is a counter-regulatory hormone that elevates blood glucose during stress.",
+        "C": "Cortisol does increase protein catabolism (especially in muscle) to provide amino acids as gluconeogenic substrates, but this is not the same as globally inhibiting protein synthesis. Cortisol increases synthesis of some proteins (hepatic enzymes, gluconeogenic enzymes, acute-phase proteins) while reducing protein synthesis in muscle and lymphoid tissue.",
+        "D": "Correct. Cortisol's primary metabolic role is to ensure adequate blood glucose during stress (the 'fight or flight' resource mobilization): (1) stimulates hepatic gluconeogenesis by inducing enzymes (PEPCK, pyruvate carboxylase) and providing substrates; (2) stimulates hepatic glycogenolysis; (3) inhibits glucose uptake in muscle and adipose tissue (insulin resistance); (4) promotes lipolysis in adipose tissue, providing fatty acids as alternative fuel and glycerol as gluconeogenic substrate; (5) promotes proteolysis in muscle, providing amino acids for gluconeogenesis. Net effect: blood glucose rises (hyperglycemia). Chronic excess cortisol (Cushing's syndrome) causes central obesity, muscle wasting, hyperglycemia, osteoporosis, and immunosuppression."
+      },
+      "topic": "Cortisol / Stress Response / Metabolic Effects",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_endo_005",
+      "passage": null,
+      "stem": "Growth hormone (GH) secretion from the anterior pituitary is regulated by opposing hypothalamic hormones. GH secretion increases in response to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sleep (especially deep NREM sleep), fasting, exercise, and stress \u2014 conditions associated with increased metabolic demand or low nutrient availability"
+        },
+        {
+          "label": "B",
+          "text": "hyperglycemia after a meal, which signals adequate nutrient availability"
+        },
+        {
+          "label": "C",
+          "text": "IGF-1 (insulin-like growth factor), which stimulates more GH in a positive feedback loop"
+        },
+        {
+          "label": "D",
+          "text": "somatostatin (SRIF) from the hypothalamus, which stimulates pituitary GH release"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. GH secretion is pulsatile and highest during deep NREM sleep (especially slow-wave sleep stages N3), which is why adequate sleep is important for growth and tissue repair. GH also increases with fasting (low glucose and low amino acids signal the need for metabolic mobilization), exercise (acute stress), physical or psychological stress, and puberty. These stimuli trigger GHRH (and ghrelin) release from the hypothalamus, while the negative feedback loop involves IGF-1 (produced by the liver in response to GH) suppressing both GH and GHRH.",
+        "B": "Hyperglycemia after a meal suppresses GH secretion. GH is a counter-regulatory hormone \u2014 it antagonizes insulin action (raises blood glucose). After eating (when glucose is already high), GH is suppressed to avoid further hyperglycemia. Fasting (low glucose) stimulates GH secretion, promoting lipolysis and protein-sparing effects.",
+        "C": "IGF-1 (produced by the liver under GH stimulation) exerts negative feedback \u2014 it suppresses GH secretion from the pituitary and GHRH from the hypothalamus. This is a classic negative feedback loop, not positive. In acromegaly (excess GH from a pituitary tumor), elevated IGF-1 should suppress GH but fails to do so because the tumor is autonomous.",
+        "D": "Somatostatin (somatotropin release-inhibiting factor, SRIF) inhibits GH secretion from the pituitary \u2014 it is the opposing hormone to GHRH (growth hormone-releasing hormone, which stimulates GH). The name 'SRIF' indicates its inhibitory function. Exogenous somatostatin analogues (octreotide) are used to treat acromegaly by suppressing excess GH."
+      },
+      "topic": "Growth Hormone Regulation / GH Secretion Stimuli",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_endo_006",
+      "passage": null,
+      "stem": "Aldosterone is a mineralocorticoid that regulates blood pressure by acting on the distal nephron. It is released primarily in response to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "high blood glucose detected by adrenal cortex cells"
+        },
+        {
+          "label": "B",
+          "text": "ACTH from the pituitary, which is the sole regulator of aldosterone production"
+        },
+        {
+          "label": "C",
+          "text": "low blood osmolarity, which signals the need for more sodium reabsorption"
+        },
+        {
+          "label": "D",
+          "text": "high extracellular K\u207a concentration and angiotensin II \u2014 both directly stimulate the adrenal zona glomerulosa to produce aldosterone, increasing Na\u207a reabsorption and K\u207a excretion"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The adrenal cortex does not have glucose sensors analogous to pancreatic \u03b2-cells. Glucose is not a direct regulator of aldosterone secretion. Aldosterone is regulated primarily by the RAAS (angiotensin II) and potassium concentration, not by blood glucose.",
+        "B": "ACTH does stimulate aldosterone (as well as cortisol) in the adrenal cortex, but it is not the sole or primary regulator. The major regulators of aldosterone are angiotensin II (from the RAAS cascade: renin \u2192 angiotensin I \u2192 ACE \u2192 angiotensin II) and hyperkalemia. ACTH is more important for cortisol regulation; RAAS and K\u207a are more important for aldosterone.",
+        "C": "Low blood osmolarity (hypo-osmolarity) stimulates ADH (vasopressin) release, not aldosterone. ADH increases water reabsorption; aldosterone increases Na\u207a reabsorption. The triggers are different: osmolarity and volume for ADH; angiotensin II, K\u207a, and volume for aldosterone.",
+        "D": "Correct. Aldosterone is regulated by two primary stimuli: (1) Angiotensin II \u2014 produced when renin (from juxtaglomerular cells in response to low renal perfusion, low NaCl delivery to the macula densa, or sympathetic activation) cleaves angiotensinogen \u2192 angiotensin I \u2192 ACE \u2192 angiotensin II. Angiotensin II acts on zona glomerulosa cells to increase aldosterone synthesis; (2) Hyperkalemia \u2014 directly depolarizes zona glomerulosa cells, stimulating aldosterone release. Aldosterone increases Na\u207a reabsorption (via ENaC) and K\u207a secretion (via ROMK) in the distal nephron/collecting duct. This expands blood volume (Na\u207a retains water) and lowers serum K\u207a."
+      },
+      "topic": "Aldosterone / RAAS / Regulators of Secretion",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_endo_007",
+      "passage": null,
+      "stem": "Parathyroid hormone (PTH) is secreted when plasma calcium falls. PTH raises blood calcium by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "inhibiting osteoclast activity, which prevents bone resorption and retains calcium in bone"
+        },
+        {
+          "label": "B",
+          "text": "stimulating calcium loss in the urine to restore extracellular calcium balance"
+        },
+        {
+          "label": "C",
+          "text": "acting on bone (stimulating osteoclast-mediated resorption), kidneys (increasing Ca\u00b2\u207a reabsorption and activating vitamin D), and indirectly on the GI tract (via activated vitamin D increasing Ca\u00b2\u207a absorption)"
+        },
+        {
+          "label": "D",
+          "text": "directly binding intestinal enterocytes to increase calcium absorption without requiring vitamin D"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "PTH activates (not inhibits) osteoclast-mediated bone resorption. PTH binds receptors on osteoblasts, which then signal osteoclasts (via RANKL/OPG pathway) to resorb bone and release Ca\u00b2\u207a and phosphate into the bloodstream. Inhibiting osteoclasts would cause calcium to remain in bone and blood calcium would fall further.",
+        "B": "PTH increases calcium reabsorption in the kidney (at the distal tubule), not calcium loss. PTH promotes calcium retention in the body by stimulating: (1) renal Ca\u00b2\u207a reabsorption (reducing urinary Ca\u00b2\u207a loss), (2) renal 1-alpha-hydroxylase activation (converting 25-OH-D \u2192 1,25-(OH)\u2082-D, active vitamin D), and (3) bone resorption. Urinary calcium loss is reduced, not increased, by PTH.",
+        "C": "Correct. PTH acts through a coordinated three-organ system: (1) Bone \u2014 PTH binds osteoblast PTH1R receptors \u2192 osteoblasts produce RANKL \u2192 RANKL binds RANK on osteoclast precursors \u2192 osteoclast activation \u2192 bone resorption \u2192 Ca\u00b2\u207a and PO\u2084 released; (2) Kidney \u2014 PTH increases Ca\u00b2\u207a reabsorption in the distal tubule, decreases phosphate reabsorption (phosphaturia), and activates 1\u03b1-hydroxylase in the proximal tubule to produce calcitriol (1,25-(OH)\u2082D\u2083); (3) Gut (indirectly) \u2014 calcitriol produced in response to PTH acts on intestinal enterocytes to upregulate TRPV5/6 and calbindin-D9k, increasing Ca\u00b2\u207a absorption. Net effect: blood Ca\u00b2\u207a rises, blood phosphate falls.",
+        "D": "PTH does not directly act on intestinal enterocytes. PTH receptors are not expressed on intestinal cells. The intestinal effect of PTH is entirely indirect \u2014 PTH stimulates the kidney to produce calcitriol (active vitamin D), which is the hormone that directly upregulates intestinal calcium transporters."
+      },
+      "topic": "PTH / Calcium Homeostasis / Three-Organ Action",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_endo_008",
+      "passage": null,
+      "stem": "The posterior pituitary (neurohypophysis) secretes ADH and oxytocin. These hormones differ from most other pituitary hormones in that they are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "synthesized in the anterior pituitary and secreted through the posterior lobe"
+        },
+        {
+          "label": "B",
+          "text": "lipid-soluble steroid hormones that diffuse freely across cell membranes"
+        },
+        {
+          "label": "C",
+          "text": "synthesized in hypothalamic nuclei (supraoptic and paraventricular nuclei), transported along axons to the posterior pituitary, and released into the circulation from axon terminals"
+        },
+        {
+          "label": "D",
+          "text": "regulated by portal blood from the anterior pituitary to the posterior pituitary"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "ADH and oxytocin are not synthesized in the anterior pituitary. The anterior pituitary (adenohypophysis) produces TSH, ACTH, GH, FSH, LH, and prolactin \u2014 all different hormones with a different embryological origin and cell type. The posterior pituitary is composed of axon terminals from hypothalamic neurons, not secretory cells.",
+        "B": "ADH (vasopressin) and oxytocin are small peptide hormones (9 amino acids each), not lipid-soluble steroids. They bind G-protein-coupled receptors on cell surfaces (V1R, V2R for ADH; OTR for oxytocin) and act through second messenger cascades. Steroid hormones are derived from cholesterol and diffuse into cells to bind intracellular receptors.",
+        "C": "Correct. ADH and oxytocin are synthesized in the cell bodies of magnocellular neurons in the hypothalamic supraoptic nucleus (ADH predominant) and paraventricular nucleus (oxytocin and ADH). These neurons project their axons through the pituitary stalk to the posterior pituitary (neurohypophysis). The hormones are transported down the axons packaged in secretory granules, stored in axon terminals in the posterior pituitary, and released into fenestrated capillaries in response to action potentials. The posterior pituitary is therefore a neural structure (part of the brain), not a true endocrine gland.",
+        "D": "The hypothalamic-hypophyseal portal system delivers hypothalamic releasing/inhibiting hormones from the median eminence to the anterior pituitary capillaries, regulating anterior pituitary hormone secretion. The posterior pituitary is a neural extension of the hypothalamus \u2014 it communicates via axonal action potentials, not via portal blood flow."
+      },
+      "topic": "Posterior Pituitary / Hypothalamic Neurosecretion",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_endo_009",
+      "passage": null,
+      "stem": "Epinephrine (adrenaline) is released from the adrenal medulla during the stress response. Its effects include:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decreasing heart rate, dilating blood vessels in skeletal muscle, and lowering blood glucose to conserve energy for recovery"
+        },
+        {
+          "label": "B",
+          "text": "increasing heart rate (\u03b2\u2081), dilating airways (\u03b2\u2082), constricting skin and gut vessels (\u03b1\u2081), dilating skeletal muscle vessels (\u03b2\u2082), increasing glycogenolysis and gluconeogenesis \u2014 mobilizing resources for fight or flight"
+        },
+        {
+          "label": "C",
+          "text": "exclusively acting on the heart by binding cardiac muscarinic receptors to increase force of contraction"
+        },
+        {
+          "label": "D",
+          "text": "stimulating insulin secretion to promote glucose uptake into cells during the stress response"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Epinephrine increases, not decreases, heart rate (positive chronotropy via \u03b2\u2081 receptors). During a stress response, the cardiovascular system is activated to deliver more oxygen to working muscles. Vasodilation in skeletal muscle occurs via \u03b2\u2082 receptors, but vasoconstriction occurs in skin, gut, and kidney (\u03b1\u2081). Blood glucose is increased by epinephrine (glycogenolysis), not lowered.",
+        "B": "Correct. Epinephrine activates adrenergic receptors throughout the body, coordinating the integrated 'fight or flight' response: (\u03b2\u2081) Heart \u2014 increased rate and contractility (positive chronotropy and inotropy); (\u03b2\u2082) Lung \u2014 bronchodilation (increases airway caliber for more O\u2082 delivery); (\u03b2\u2082) Skeletal muscle vessels \u2014 vasodilation (increases blood flow to working muscles); (\u03b1\u2081) Skin, gut, kidney vessels \u2014 vasoconstriction (redirects blood from non-essential organs to muscles and heart); (\u03b2\u2081/\u03b2\u2082 on liver) \u2014 glycogenolysis; (\u03b1\u2081 on adipose) \u2014 lipolysis; (\u03b2\u2082 on pancreatic \u03b2-cells) \u2014 inhibits insulin secretion. This coordinated response maximizes energy availability and physical performance during acute stress.",
+        "C": "Epinephrine binds adrenergic receptors (\u03b1 and \u03b2 subtypes), not muscarinic receptors. Muscarinic receptors bind acetylcholine (parasympathetic neurotransmitter). Cardiac muscarinic receptor (M2) activation actually decreases heart rate \u2014 the opposite of epinephrine's \u03b2\u2081 effect.",
+        "D": "Epinephrine inhibits insulin secretion via \u03b1\u2082 adrenergic receptors on pancreatic \u03b2-cells (not stimulates it). During stress, the body needs to maintain high blood glucose for brain and muscle function, so insulin release is suppressed. Simultaneously, glucagon secretion from \u03b1-cells is promoted by epinephrine (\u03b2\u2082), further raising blood glucose."
+      },
+      "topic": "Epinephrine / Fight-or-Flight Response",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_endo_010",
+      "passage": null,
+      "stem": "Negative feedback is the primary regulatory mechanism of most endocrine axes. In the hypothalamic-pituitary-gonadal (HPG) axis, high levels of estrogen during the late follicular phase of the menstrual cycle shift from negative to positive feedback, triggering:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "suppression of FSH and LH, ending follicular development"
+        },
+        {
+          "label": "B",
+          "text": "the LH surge, which triggers ovulation approximately 36\u201340 hours later"
+        },
+        {
+          "label": "C",
+          "text": "progesterone release from the corpus luteum before ovulation"
+        },
+        {
+          "label": "D",
+          "text": "decreased estrogen synthesis as a protective mechanism against overstimulation"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Estrogen typically does suppress FSH and LH (negative feedback) throughout most of the cycle. However, when estrogen rises above a critical threshold for a sustained period (late follicular phase), the feedback switches from negative to positive. The LH surge (and a smaller FSH surge) follows \u2014 it does not suppress FSH/LH at this critical moment.",
+        "B": "Correct. The LH surge is the defining hormonal event of the menstrual cycle that triggers ovulation. When estrogen (primarily estradiol from the dominant follicle) exceeds ~200 pg/mL for >36 hours, it switches the hypothalamus and pituitary from negative to positive feedback \u2014 upregulating GnRH receptor expression and sensitizing the pituitary to GnRH. This triggers a massive LH surge (and smaller FSH surge). The LH surge initiates the resumption of oocyte meiosis, cumulus expansion, ovarian wall breakdown, and ovulation ~36\u201340 hours later. The precise timing of this switch from negative to positive feedback makes the LH surge self-limiting \u2014 after ovulation, the corpus luteum produces both estrogen and progesterone, and progesterone restores negative feedback.",
+        "C": "Progesterone is produced by the corpus luteum after ovulation \u2014 the corpus luteum forms from the ruptured follicle after the egg is released. Before ovulation (pre-surge and immediately post-surge), significant progesterone secretion has not yet occurred. The LH surge precedes and causes ovulation; progesterone rise follows ovulation.",
+        "D": "If high estrogen decreased estrogen synthesis, that would be classic negative feedback \u2014 not the positive feedback switch described. The estrogen positive feedback (unusually stimulating more LH/FSH rather than suppressing them) is an exception to the usual endocrine negative feedback rule and is unique to this critical window in the menstrual cycle."
+      },
+      "topic": "HPG Axis / LH Surge / Positive Feedback",
+      "difficulty": "Hard"
+    }
+  ]
+}

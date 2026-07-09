@@ -1,0 +1,337 @@
+{
+  "batch": "B030",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Cell Biology & Membrane Transport",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 3,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "bb_cell_001",
+      "passage": "A cell biologist studies the plasma membrane of a eukaryotic cell. The membrane consists of a phospholipid bilayer with embedded and associated proteins. The phospholipids have hydrophilic head groups facing the aqueous environment on both sides and hydrophobic fatty acid tails forming the interior of the bilayer. Cholesterol molecules are interspersed among the phospholipids, modulating membrane fluidity. The biologist treats the membrane with a detergent that disrupts hydrophobic interactions.",
+      "stem": "The fluid mosaic model of the plasma membrane describes it as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a carbohydrate matrix with lipids and proteins suspended within it"
+        },
+        {
+          "label": "B",
+          "text": "a rigid, static structure where phospholipids and proteins are fixed in position"
+        },
+        {
+          "label": "C",
+          "text": "a single layer of phospholipids with proteins attached only to the exterior surface"
+        },
+        {
+          "label": "D",
+          "text": "a dynamic structure in which phospholipids and many proteins move laterally within the bilayer, with proteins embedded in or associated with the lipid matrix like a mosaic"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The primary structural component is the phospholipid bilayer, not a carbohydrate matrix. Carbohydrates are present (glycolipids, glycoproteins) on the extracellular surface, forming the glycocalyx, but they are not the structural matrix.",
+        "B": "The fluid mosaic model (Singer and Nicolson, 1972) specifically emphasizes fluidity \u2014 phospholipids move laterally within each leaflet, and many membrane proteins diffuse within the plane of the membrane. The membrane is dynamic, not rigid.",
+        "C": "The membrane is a bilayer (two layers), not a monolayer. Both leaflets contribute to the structure, and proteins can be found on either surface, spanning the membrane, or embedded within it.",
+        "D": "The fluid mosaic model describes the plasma membrane as a two-dimensional fluid: phospholipids move laterally (~2 \u03bcm/s) and occasionally flip between leaflets (much rarer, facilitated by flippases). Integral membrane proteins are embedded in the bilayer (some spanning it as transmembrane proteins), while peripheral proteins associate with the membrane surface. The 'mosaic' aspect reflects the patchy distribution of proteins within the lipid sea."
+      },
+      "topic": "Fluid Mosaic Model / Membrane Structure",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_cell_002",
+      "passage": null,
+      "passageRef": "bb_cell_001",
+      "stem": "Cholesterol's role in the plasma membrane is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "serve as the primary energy storage molecule in the membrane"
+        },
+        {
+          "label": "B",
+          "text": "form channels that allow ions to pass through the membrane"
+        },
+        {
+          "label": "C",
+          "text": "modulate membrane fluidity \u2014 reducing fluidity at high temperatures by restricting phospholipid movement, and preventing solidification at low temperatures by disrupting regular packing"
+        },
+        {
+          "label": "D",
+          "text": "anchor the membrane to the cytoskeleton through covalent bonds"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Energy is stored as triglycerides (in adipose tissue) and glycogen, not as cholesterol in membranes. Cholesterol's membrane role is structural, not metabolic.",
+        "B": "Cholesterol does not form ion channels. Ion channels are proteins (Na\u207a, K\u207a, Ca\u00b2\u207a, Cl\u207b channels) with specific selectivity filters. Cholesterol modulates the lipid environment around these protein channels but does not function as a channel itself.",
+        "C": "Cholesterol is a bidirectional fluidity buffer. Its rigid steroid ring interacts with the fatty acid tails of phospholipids. At high temperatures, cholesterol reduces fluidity by restricting phospholipid movement (its rigid ring limits the motion of nearby fatty acid chains). At low temperatures, it prevents crystallization by disrupting the regular packing of fatty acid tails, maintaining membrane flexibility. This homeoviscous adaptation is essential for membrane function across temperature ranges.",
+        "D": "The membrane is connected to the cytoskeleton through specific linker proteins (e.g., spectrin-ankyrin in red blood cells, ERM proteins), not through cholesterol. Cholesterol is embedded within the hydrophobic interior of the bilayer and does not directly interact with cytoskeletal elements."
+      },
+      "topic": "Cholesterol / Membrane Fluidity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cell_003",
+      "passage": null,
+      "stem": "Glucose enters most cells via facilitated diffusion through GLUT transporters. Facilitated diffusion differs from simple diffusion in that it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "uses a membrane protein (carrier or channel) to transport the solute down its concentration gradient without energy input"
+        },
+        {
+          "label": "B",
+          "text": "requires metabolic energy (ATP) to move glucose against its concentration gradient"
+        },
+        {
+          "label": "C",
+          "text": "can move glucose from low concentration to high concentration"
+        },
+        {
+          "label": "D",
+          "text": "does not require a concentration gradient because the transport protein provides the driving force"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Facilitated diffusion uses a membrane protein (GLUT transporters are carrier proteins that undergo conformational changes) to transport glucose down its concentration gradient without energy expenditure. It differs from simple diffusion in requiring a specific protein \u2014 small nonpolar molecules (O\u2082, CO\u2082, steroid hormones) cross the bilayer by simple diffusion without protein assistance, while polar/charged molecules like glucose require facilitated transport.",
+        "B": "Facilitated diffusion does not require ATP. It is a passive process driven by the concentration gradient. Active transport (e.g., Na\u207a/K\u207a-ATPase) requires ATP to move substances against their gradient. GLUT transporters facilitate passive glucose movement down its gradient.",
+        "C": "Facilitated diffusion moves solutes down their concentration gradient (high to low), not against it. Movement against a gradient requires active transport with energy input.",
+        "D": "Facilitated diffusion is driven by the concentration gradient, just like simple diffusion. The transport protein does not provide energy or driving force \u2014 it provides a pathway (a specific binding site and conformational change) that allows the polar glucose molecule to cross the hydrophobic bilayer, which it otherwise could not penetrate."
+      },
+      "topic": "Facilitated Diffusion / GLUT Transporters",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_cell_004",
+      "passage": "A physiologist studies the Na\u207a/K\u207a-ATPase (sodium-potassium pump) in a nerve cell. This transmembrane protein uses the energy from ATP hydrolysis to transport 3 Na\u207a ions out of the cell and 2 K\u207a ions into the cell per cycle. The pump maintains the electrochemical gradients essential for nerve impulse transmission.",
+      "stem": "The Na\u207a/K\u207a-ATPase is classified as primary active transport because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it moves ions down their concentration gradients using facilitated diffusion"
+        },
+        {
+          "label": "B",
+          "text": "it requires no energy because the electrochemical gradient provides the driving force"
+        },
+        {
+          "label": "C",
+          "text": "it uses the Na\u207a gradient established by another pump to drive K\u207a transport"
+        },
+        {
+          "label": "D",
+          "text": "it directly uses energy from ATP hydrolysis to move ions against their electrochemical gradients"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The Na\u207a/K\u207a-ATPase moves Na\u207a out of the cell against its concentration gradient (high [Na\u207a] outside) and K\u207a into the cell against its gradient (high [K\u207a] inside). This is the opposite of facilitated diffusion, which moves substances down their gradients.",
+        "B": "The pump moves ions against their gradients, which requires energy input. Without ATP hydrolysis, the ions would flow in the opposite direction (down their gradients).",
+        "C": "Using the Na\u207a gradient to drive transport of another substance describes secondary active transport (e.g., SGLT1, the Na\u207a-glucose co-transporter). The Na\u207a/K\u207a-ATPase is primary active transport because it directly hydrolyzes ATP \u2014 it is the pump that creates the Na\u207a gradient used by secondary transporters.",
+        "D": "Primary active transport directly couples ATP hydrolysis to substrate transport. The Na\u207a/K\u207a-ATPase hydrolyzes one ATP per cycle to move 3 Na\u207a out and 2 K\u207a in \u2014 both against their electrochemical gradients. The phosphorylation of the pump by ATP induces conformational changes that alternately expose ion binding sites to opposite sides of the membrane. This is the most abundant active transporter in animal cells, consuming approximately 25% of cellular ATP."
+      },
+      "topic": "Primary Active Transport / Na\u207a/K\u207a-ATPase",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cell_005",
+      "passage": null,
+      "passageRef": "bb_cell_004",
+      "stem": "The Na\u207a/K\u207a-ATPase transports 3 Na\u207a out and 2 K\u207a in per cycle. This unequal transport of positive charges contributes to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a net outward movement of positive charge, contributing slightly to the negative resting membrane potential (electrogenic pump)"
+        },
+        {
+          "label": "B",
+          "text": "neutralization of the membrane potential to zero"
+        },
+        {
+          "label": "C",
+          "text": "equal distribution of Na\u207a and K\u207a across the membrane"
+        },
+        {
+          "label": "D",
+          "text": "depolarization of the membrane, making the interior more positive"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The pump moves 3 positive charges out and 2 positive charges in per cycle, producing a net outward current of one positive charge. This makes the inside of the cell slightly more negative \u2014 the pump is electrogenic, directly contributing approximately \u22123 to \u22125 mV to the resting membrane potential. The majority of the resting potential (~\u221270 mV) comes from K\u207a leak channels, but the pump's electrogenicity provides a small additional hyperpolarizing contribution.",
+        "B": "The pump contributes to the negative resting potential, not to neutralization. A membrane potential of zero would eliminate the driving force for all ion-dependent signaling.",
+        "C": "The pump maintains unequal distribution of Na\u207a and K\u207a \u2014 that is its purpose. It keeps [Na\u207a] high outside and [K\u207a] high inside. Equal distribution would eliminate the electrochemical gradients needed for neural signaling and secondary active transport.",
+        "D": "If more positive charges are moved out than in, the pump would make the interior more negative (hyperpolarize), not more positive. Depolarization means making the interior less negative \u2014 the opposite of what the pump does."
+      },
+      "topic": "Electrogenic Pump / Resting Potential",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cell_006",
+      "passage": null,
+      "stem": "Osmosis is the net movement of water across a semipermeable membrane. If a red blood cell is placed in a hypotonic solution:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "water will flow out of the cell, causing it to shrink (crenate)"
+        },
+        {
+          "label": "B",
+          "text": "solutes will flow into the cell to equalize concentrations"
+        },
+        {
+          "label": "C",
+          "text": "there will be no net water movement because the membrane is impermeable to water"
+        },
+        {
+          "label": "D",
+          "text": "water will flow into the cell, causing it to swell and potentially lyse (hemolysis)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "In a hypotonic solution, the solute concentration outside is lower than inside the cell. Water moves from low solute concentration (outside) to high solute concentration (inside) by osmosis. The cell swells, not shrinks. Crenation occurs in hypertonic solutions.",
+        "B": "In osmosis, water moves to equalize solute concentration \u2014 not solutes. The semipermeable membrane allows water to pass but restricts solute movement. (In reality, some solutes do cross via specific transporters, but osmosis specifically describes water movement.)",
+        "C": "The plasma membrane is permeable to water, primarily through aquaporin channels and to a lesser extent by direct diffusion through the lipid bilayer. If the membrane were impermeable to water, osmosis could not occur.",
+        "D": "In a hypotonic solution, the extracellular fluid has lower osmolarity than the intracellular fluid. Water moves down its concentration gradient (from where water concentration is higher \u2014 the dilute solution \u2014 to where it is lower \u2014 inside the cell). The influx of water causes the cell to swell. Red blood cells, lacking a rigid cell wall, may swell to the point of membrane rupture \u2014 hemolysis. This is why intravenous fluids must be isotonic (0.9% NaCl or equivalent)."
+      },
+      "topic": "Osmosis / Tonicity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_cell_007",
+      "passage": null,
+      "stem": "Endocytosis is the process by which cells internalize extracellular material by engulfing it with the plasma membrane. Receptor-mediated endocytosis differs from phagocytosis in that it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "does not involve the plasma membrane"
+        },
+        {
+          "label": "B",
+          "text": "requires clathrin-coated pits and specific receptor-ligand interactions to selectively internalize particular molecules"
+        },
+        {
+          "label": "C",
+          "text": "can only occur in prokaryotic cells"
+        },
+        {
+          "label": "D",
+          "text": "involves the secretion of material out of the cell"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "All forms of endocytosis involve the plasma membrane invaginating to form vesicles that bring material into the cell. Receptor-mediated endocytosis uses coated pits in the plasma membrane.",
+        "B": "Receptor-mediated endocytosis is highly selective. Specific receptors on the cell surface bind their ligands (e.g., LDL receptors bind LDL particles). The receptor-ligand complexes concentrate in clathrin-coated pits, which invaginate and pinch off to form clathrin-coated vesicles. This mechanism allows cells to efficiently internalize specific molecules at low extracellular concentrations. Phagocytosis, by contrast, engulfs large particles (bacteria, debris) non-selectively through actin-driven pseudopod extension.",
+        "C": "Prokaryotic cells generally do not perform endocytosis because they lack the endomembrane system and cytoskeletal machinery needed for membrane invagination and vesicle formation. Endocytosis is primarily a eukaryotic process.",
+        "D": "Secretion of material out of the cell is exocytosis, not endocytosis. These are opposite processes: endocytosis = inward, exocytosis = outward."
+      },
+      "topic": "Receptor-Mediated Endocytosis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cell_008",
+      "passage": null,
+      "stem": "The endomembrane system includes the endoplasmic reticulum, Golgi apparatus, lysosomes, and vesicles. Proteins destined for secretion are synthesized on ribosomes bound to the rough endoplasmic reticulum (RER). The correct pathway for a secretory protein from synthesis to export is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Free ribosome \u2192 cytoplasm \u2192 plasma membrane \u2192 extracellular space"
+        },
+        {
+          "label": "B",
+          "text": "RER \u2192 Golgi apparatus (cis to trans) \u2192 secretory vesicle \u2192 plasma membrane \u2192 extracellular space"
+        },
+        {
+          "label": "C",
+          "text": "Golgi \u2192 RER \u2192 lysosome \u2192 plasma membrane"
+        },
+        {
+          "label": "D",
+          "text": "Smooth ER \u2192 mitochondria \u2192 Golgi \u2192 extracellular space"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Secretory proteins are not synthesized on free ribosomes. They contain a signal peptide that directs the ribosome-mRNA complex to the RER membrane via the signal recognition particle (SRP). Free ribosomes synthesize cytoplasmic, nuclear, and mitochondrial/peroxisomal proteins.",
+        "B": "Secretory proteins follow the endomembrane pathway: (1) synthesized on RER-bound ribosomes and translocated into the ER lumen, where they are folded and glycosylated; (2) transported in COPII vesicles to the cis-Golgi; (3) modified sequentially through the Golgi stacks (cis \u2192 medial \u2192 trans) with further glycosylation and processing; (4) sorted and packaged into secretory vesicles at the trans-Golgi network; (5) vesicles fuse with the plasma membrane (exocytosis), releasing the protein extracellularly.",
+        "C": "The pathway flows from RER to Golgi, not Golgi to RER. Retrograde transport (Golgi \u2192 ER) occurs via COPI vesicles for retrieval of ER-resident proteins, but this is not the secretory pathway.",
+        "D": "Mitochondria are not part of the endomembrane system and are not involved in the secretory pathway. Smooth ER is involved in lipid synthesis and detoxification, not in secretory protein processing."
+      },
+      "topic": "Secretory Pathway / Endomembrane System",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cell_009",
+      "passage": null,
+      "stem": "Lysosomes are membrane-bound organelles containing hydrolytic enzymes that function optimally at acidic pH (~4.5\u20135.0). The acidic pH within lysosomes is maintained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "passive diffusion of H\u207a ions into the lysosome down their concentration gradient"
+        },
+        {
+          "label": "B",
+          "text": "synthesis of H\u207a ions inside the lysosome by resident enzymes"
+        },
+        {
+          "label": "C",
+          "text": "V-type H\u207a-ATPases (proton pumps) in the lysosomal membrane that actively transport H\u207a into the lysosomal lumen using ATP"
+        },
+        {
+          "label": "D",
+          "text": "leakage of cytoplasmic acid into the lysosome through membrane defects"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The cytoplasm is near-neutral pH (~7.2), while the lysosomal lumen is pH ~4.5\u20135.0. H\u207a concentration is much higher inside the lysosome than in the cytoplasm \u2014 so H\u207a is being moved against its concentration gradient. This requires active transport, not passive diffusion.",
+        "B": "H\u207a ions are not synthesized \u2014 they are protons, fundamental particles that cannot be created by enzymatic reactions. The H\u207a concentration is increased by pumping protons from the cytoplasm into the lysosomal lumen.",
+        "C": "V-type (vacuolar) H\u207a-ATPases are ATP-dependent proton pumps that actively transport H\u207a from the cytoplasm into the lysosomal lumen, maintaining the ~100-fold H\u207a concentration gradient. This acidic environment is essential for the activity of lysosomal hydrolases (proteases, lipases, glycosidases, nucleases), which have evolved to function optimally at low pH. If lysosomal contents leak into the cytoplasm (neutral pH), the enzymes are largely inactive \u2014 a safety mechanism.",
+        "D": "The lysosomal membrane is intact and does not have defects that allow acid leakage. If it did, the hydrolytic enzymes would be released into the cytoplasm, potentially digesting cellular components (this occurs in certain disease states and cell death pathways)."
+      },
+      "topic": "Lysosomal Acidification / V-ATPase",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cell_010",
+      "passage": null,
+      "stem": "A cell biologist uses fluorescence recovery after photobleaching (FRAP) to study membrane protein mobility. She bleaches a small region of fluorescently labeled membrane proteins and measures how quickly fluorescence recovers as unbleached proteins diffuse into the bleached area. She finds that one protein recovers rapidly while another does not recover at all. The immobile protein is most likely:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a peripheral membrane protein that is loosely associated with the membrane surface"
+        },
+        {
+          "label": "B",
+          "text": "a lipid molecule that diffuses freely within the bilayer"
+        },
+        {
+          "label": "C",
+          "text": "an integral membrane protein that is anchored to the cytoskeleton or extracellular matrix, restricting its lateral diffusion"
+        },
+        {
+          "label": "D",
+          "text": "a secreted protein that is no longer associated with the membrane"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Peripheral membrane proteins are associated with the membrane surface through electrostatic interactions or lipid anchors. Some peripheral proteins are mobile, but the FRAP experiment specifically tests lateral diffusion within the membrane. A protein showing zero recovery is likely physically restrained, not loosely associated.",
+        "B": "Lipid molecules diffuse rapidly within the bilayer (lateral diffusion coefficient ~1 \u03bcm\u00b2/s) and would show rapid fluorescence recovery. Lipids are not expected to be immobile in FRAP experiments.",
+        "C": "Some integral membrane proteins are tethered to the cortical cytoskeleton (actin filaments, spectrin network) or to extracellular matrix components, which restricts or prevents their lateral movement. In FRAP, these anchored proteins cannot diffuse into the bleached region, so fluorescence does not recover. Examples include band 3 protein in red blood cells (anchored to spectrin via ankyrin) and E-cadherin at adherens junctions (linked to actin via catenins).",
+        "D": "A secreted protein would no longer be embedded in the membrane and would not be detected in a membrane-focused FRAP experiment. The experiment specifically bleaches membrane-associated fluorescence."
+      },
+      "topic": "Membrane Protein Mobility / FRAP",
+      "difficulty": "Hard"
+    }
+  ]
+}

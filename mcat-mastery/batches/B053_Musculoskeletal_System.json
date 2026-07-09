@@ -1,0 +1,336 @@
+{
+  "batch": "B053",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Musculoskeletal System",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_musc_001",
+      "passage": "A sports medicine physician evaluates a patient who tore his anterior cruciate ligament (ACL) during a soccer match. An MRI confirms complete ACL rupture. The physician explains that the ACL is a dense connective tissue structure composed primarily of type I collagen fibers organized into bundles that resist tensile forces. The knee joint contains cartilage, synovial fluid, and several ligaments and tendons that coordinate joint stability and movement. The physician notes that skeletal muscle contraction producing excessive rotational force was the mechanism of injury.",
+      "stem": "The ACL's resistance to tensile forces is primarily attributable to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "elastin fibers that stretch and recoil under load"
+        },
+        {
+          "label": "B",
+          "text": "the hydroxyapatite mineral crystals embedded in the ligament matrix"
+        },
+        {
+          "label": "C",
+          "text": "type I collagen fibers arranged in parallel bundles, which provide high tensile strength along the axis of loading"
+        },
+        {
+          "label": "D",
+          "text": "the synovial fluid lubricating the ligament surface"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Elastin fibers provide elasticity and recoil (as in arterial walls and lung parenchyma) but not high tensile strength. Ligaments and tendons are stiff, not highly elastic \u2014 their function is to resist elongation under load, not to stretch and recoil. Elastin is present in small amounts in some ligaments, but type I collagen is the primary tensile element.",
+        "B": "Hydroxyapatite crystals (Ca\u2081\u2080(PO\u2084)\u2086(OH)\u2082) provide compressive strength and mineral hardness in bone. They are not found in significant quantities in ligaments. Bone's compressive strength comes from its mineral component; tensile strength in connective tissues comes from collagen.",
+        "C": "Correct. Type I collagen is the primary structural protein in tendons, ligaments, skin, and bone. Its triple-helix structure and parallel bundle organization provide exceptional tensile strength along the fiber axis (tensile strength ~50\u2013100 MPa). The collagen fibers are slightly crimped at rest, providing a toe region of increasing stiffness as the crimp is taken up, then a linear region of high stiffness under increasing load. Complete ACL rupture occurs when load exceeds the ultimate tensile strength of the collagen bundles.",
+        "D": "Synovial fluid lubricates the articular surfaces of the joint (reducing friction between cartilage surfaces) but does not contribute to ligament tensile strength. Ligaments are avascular, dense connective tissue with no direct synovial fluid contact that would contribute to their tensile properties."
+      },
+      "topic": "Connective Tissue / Collagen and Ligament Mechanics",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_musc_002",
+      "passage": null,
+      "passageRef": "bb_musc_001",
+      "stem": "Skeletal muscle contraction is initiated by neural signals. The sequence from motor neuron firing to force production begins with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "acetylcholine release at the neuromuscular junction, binding nicotinic receptors on the muscle end plate, generating an action potential that propagates into the T-tubule system and triggers Ca\u00b2\u207a release from the sarcoplasmic reticulum"
+        },
+        {
+          "label": "B",
+          "text": "direct mechanical coupling between the motor neuron axon and the muscle fiber, which physically pulls the sarcomere"
+        },
+        {
+          "label": "C",
+          "text": "adrenaline binding to \u03b2-adrenergic receptors on the muscle surface, which directly opens Ca\u00b2\u207a channels"
+        },
+        {
+          "label": "D",
+          "text": "motor neuron action potentials directly opening voltage-gated K\u207a channels in the muscle membrane to depolarize the cell"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The neuromuscular junction sequence: (1) Motor neuron action potential triggers Ca\u00b2\u207a influx at the axon terminal, causing synaptic vesicles to fuse and release acetylcholine (ACh) into the synaptic cleft. (2) ACh binds nicotinic acetylcholine receptors (nAChRs, ligand-gated Na\u207a/K\u207a channels) on the motor end plate. (3) Na\u207a influx depolarizes the end plate, generating an end-plate potential that triggers an action potential. (4) The action potential propagates along the sarcolemma and into T-tubules. (5) Voltage sensors in T-tubules (DHP receptors) activate ryanodine receptors in the sarcoplasmic reticulum, releasing Ca\u00b2\u207a. (6) Ca\u00b2\u207a binds troponin C, moving tropomyosin to expose myosin binding sites on actin. (7) Cross-bridge cycling produces force.",
+        "B": "There is no direct mechanical coupling between the motor neuron and the muscle fiber. Neuromuscular transmission is entirely chemical \u2014 the neuron releases a neurotransmitter (acetylcholine) into the synaptic cleft, and the signal is transduced into an electrical signal in the muscle by receptor binding. Physical contact between the axon and muscle does not generate force.",
+        "C": "Adrenaline (epinephrine) does modulate cardiac and smooth muscle via \u03b2-adrenergic receptors, but skeletal muscle contraction is initiated by acetylcholine at the neuromuscular junction, not by circulating catecholamines. Adrenaline can enhance skeletal muscle performance through metabolic effects but does not directly trigger contraction.",
+        "D": "Motor neuron action potentials do not directly open ion channels in the muscle. The neuromuscular junction is a chemical synapse \u2014 the signal is converted from electrical (in the neuron) to chemical (ACh) and back to electrical (muscle action potential). Voltage-gated K\u207a channels repolarize the muscle after depolarization but are not the initiating event."
+      },
+      "topic": "Neuromuscular Junction / Excitation-Contraction Coupling",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_musc_003",
+      "passage": null,
+      "stem": "The sarcomere is the basic contractile unit of skeletal muscle, bounded by two Z-discs. During maximal shortening:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the I-bands widen because actin filaments lengthen"
+        },
+        {
+          "label": "B",
+          "text": "the Z-discs move apart as the sarcomere expands"
+        },
+        {
+          "label": "C",
+          "text": "the A-band shortens as myosin filaments compress"
+        },
+        {
+          "label": "D",
+          "text": "the H-zone disappears and the I-bands narrow as actin filaments slide toward the center, increasing overlap with myosin"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Actin filaments do not lengthen during contraction \u2014 the sliding filament theory holds that filament lengths are constant. The I-band (which contains only thin actin filaments, not myosin) narrows as actin slides toward the center and the overlap with myosin increases. Widening I-bands would occur during stretching, not shortening.",
+        "B": "Z-discs move closer together (not farther apart) during shortening, because actin filaments are anchored to Z-discs and being pulled inward. Moving Z-discs apart would describe sarcomere lengthening (stretching), the opposite of contraction.",
+        "C": "The A-band (defined by the full length of myosin thick filaments) remains constant in length throughout contraction because myosin filaments do not change length. This constancy of the A-band was critical evidence for the sliding filament theory \u2014 if thick filaments shortened, the A-band would shorten too.",
+        "D": "Correct. The sliding filament theory (Huxley): myosin cross-bridges pull actin filaments toward the center of the sarcomere. As actin slides inward: (1) I-bands (zone of actin only) narrow because actin overlaps more with myosin; (2) H-zone (zone of myosin only, no actin overlap) narrows and disappears at maximal shortening because actin filaments reach the center; (3) A-band (full length of myosin) remains constant because myosin filaments don't shorten; (4) Z-discs move closer together. The sarcomere shortens but individual filament lengths are unchanged."
+      },
+      "topic": "Sarcomere / Sliding Filament Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_musc_004",
+      "passage": null,
+      "stem": "Troponin and tropomyosin regulate skeletal muscle contraction by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "directly hydrolyzing ATP to provide energy for cross-bridge cycling"
+        },
+        {
+          "label": "B",
+          "text": "physically blocking myosin binding sites on actin at rest; Ca\u00b2\u207a binding to troponin C causes a conformational change that moves tropomyosin, exposing the binding sites and allowing cross-bridge formation"
+        },
+        {
+          "label": "C",
+          "text": "synthesizing acetylcholine at the neuromuscular junction to initiate the action potential"
+        },
+        {
+          "label": "D",
+          "text": "forming the structural backbone of the thick filament"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "ATP hydrolysis is performed by the myosin head (myosin ATPase activity) during the cross-bridge cycle. Troponin and tropomyosin are regulatory proteins \u2014 they control access to binding sites, not energy transduction. The ATPase activity of myosin drives the power stroke.",
+        "B": "Correct. The troponin-tropomyosin system is the molecular switch for skeletal muscle contraction. At rest: tropomyosin (a coiled-coil protein running along the actin filament groove) physically covers the myosin-binding sites on actin, preventing cross-bridge formation. When Ca\u00b2\u207a is released: Ca\u00b2\u207a binds troponin C (part of the troponin complex: TnC, TnI, TnT). This causes conformational changes that move tropomyosin deeper into the groove, exposing the myosin-binding sites. Myosin heads can now attach to actin and undergo the cross-bridge cycle. When Ca\u00b2\u207a is removed (pumped back into the SR by SERCA pumps), tropomyosin returns to its blocking position and the muscle relaxes.",
+        "C": "Acetylcholine synthesis and release occur in the motor neuron axon terminal, not in the muscle fiber. Troponin and tropomyosin are structural proteins of the thin filament (actin-containing filament) within the sarcomere and have no role in neurotransmitter synthesis.",
+        "D": "The thick filament backbone is composed of myosin heavy chains \u2014 hundreds of myosin molecules with their tails bundled together forming the backbone and their heads projecting outward as cross-bridges. Troponin and tropomyosin are components of the thin (actin) filament, not the thick filament."
+      },
+      "topic": "Troponin-Tropomyosin / Ca\u00b2\u207a Regulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_musc_005",
+      "passage": null,
+      "stem": "Bone remodeling is a continuous process involving osteoblasts and osteoclasts. Osteoclasts resorb bone by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "secreting collagen to build new bone matrix"
+        },
+        {
+          "label": "B",
+          "text": "stimulating osteoblasts to deposit calcium phosphate"
+        },
+        {
+          "label": "C",
+          "text": "creating an acidic microenvironment beneath the cell that dissolves hydroxyapatite and secreting proteases that degrade the organic collagen matrix"
+        },
+        {
+          "label": "D",
+          "text": "physically compressing the bone with contractile forces, reducing its volume"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Collagen synthesis for new bone matrix is performed by osteoblasts (bone-forming cells), not osteoclasts (bone-resorbing cells). Osteoclasts degrade existing bone matrix; they do not produce collagen.",
+        "B": "Osteoclasts work antagonistically to osteoblasts, not cooperatively in bone formation. Osteoblast-stimulated calcium deposition is the anabolic side of bone remodeling. Osteoclasts perform the catabolic side \u2014 dissolving mineral and degrading organic matrix.",
+        "C": "Correct. Osteoclasts are large, multinucleated cells that resorb bone through two coordinated mechanisms: (1) They form a sealed 'ruffled border' zone where they secrete hydrochloric acid (via V-type H\u207a-ATPase and Cl\u207b channels), creating a highly acidic microenvironment (pH ~4.5) that dissolves the mineral component (hydroxyapatite: Ca\u2081\u2080(PO\u2084)\u2086(OH)\u2082); (2) They secrete proteolytic enzymes (cathepsin K, matrix metalloproteinases) that degrade the exposed organic collagen matrix. Osteoclast activity is regulated by RANK/RANKL/OPG signaling. Excess osteoclast activity causes osteoporosis.",
+        "D": "Osteoclasts are cells (~100 \u03bcm), not mechanical devices. They dissolve bone through chemical processes (acid secretion and enzyme activity), not through physical compression. Bone responds to compressive forces (Wolff's law \u2014 bone remodels to withstand habitual loading), but osteoclasts themselves do not apply compressive forces."
+      },
+      "topic": "Bone Remodeling / Osteoclast Function",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_musc_006",
+      "passage": null,
+      "stem": "A patient with myasthenia gravis has antibodies against nicotinic acetylcholine receptors at the neuromuscular junction. This autoimmune condition would be expected to cause:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "uncontrolled, spastic muscle contractions because excessive ACh stimulates the muscle"
+        },
+        {
+          "label": "B",
+          "text": "muscle weakness that worsens with repeated activity, because the reduced number of functional receptors means each stimulus produces a weaker end-plate potential, with fatigue worsening as ACh is depleted"
+        },
+        {
+          "label": "C",
+          "text": "increased muscle strength because antibody binding activates the receptors"
+        },
+        {
+          "label": "D",
+          "text": "paralysis of cardiac muscle specifically, because the heart has the highest density of nicotinic receptors"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Uncontrolled spastic contractions (as in nerve agent poisoning or organophosphate toxicity, which block AChE and allow ACh to accumulate) would result from excessive receptor stimulation. In myasthenia gravis, anti-AChR antibodies block and destroy receptors, reducing effective stimulation \u2014 causing weakness, not spasticity.",
+        "B": "Correct. Anti-AChR antibodies reduce the number of functional nicotinic receptors on the motor end plate through three mechanisms: blocking ACh binding, accelerating receptor internalization, and activating complement-mediated destruction. With fewer functional receptors, each ACh release event produces a smaller end-plate potential. The 'safety margin' of neuromuscular transmission decreases. With repeated activity, presynaptic ACh stores partially deplete, further reducing the end-plate potential, eventually falling below threshold for action potential generation. This explains the characteristic fatigability of myasthenia gravis \u2014 weakness worsens with use and improves with rest.",
+        "C": "Antibody binding in myasthenia gravis blocks and destroys nicotinic receptors rather than activating them. Receptor activation (agonism) would require the antibody to mimic ACh's action at the binding site. Instead, these are blocking/destructive antibodies that reduce receptor density and function.",
+        "D": "Cardiac muscle uses muscarinic acetylcholine receptors (M2 subtype, GPCR) in the conduction system, not nicotinic receptors (which are ligand-gated ion channels). Nicotinic receptors at the neuromuscular junction are specifically NMJ-type (muscle-type nAChR, \u03b1\u2081\u03b2\u2081\u03b3\u03b4). Myasthenia gravis antibodies target skeletal muscle nAChR and do not significantly affect cardiac function."
+      },
+      "topic": "Myasthenia Gravis / Neuromuscular Transmission",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_musc_007",
+      "passage": null,
+      "stem": "Smooth muscle differs from skeletal muscle in that smooth muscle:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "contains sarcomeres with clearly defined I-bands and A-bands visible under electron microscopy"
+        },
+        {
+          "label": "B",
+          "text": "is under voluntary control via somatic motor neurons"
+        },
+        {
+          "label": "C",
+          "text": "lacks troponin and uses calmodulin-dependent myosin light-chain kinase (MLCK) to regulate contraction in response to Ca\u00b2\u207a"
+        },
+        {
+          "label": "D",
+          "text": "requires the same neural stimulation pattern as skeletal muscle to maintain sustained contraction"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Skeletal and cardiac muscle have the striated appearance (visible sarcomeres with I-bands, A-bands, Z-discs, H-zones) that gives them the 'striated muscle' designation. Smooth muscle lacks this organized sarcomere structure \u2014 its actin and myosin filaments are arranged in a non-parallel, oblique network anchored to dense bodies (functional equivalents of Z-discs). This is why smooth muscle appears smooth under microscopy.",
+        "B": "Smooth muscle is involuntary \u2014 it is controlled by the autonomic nervous system, hormones, and local factors (stretch, chemicals, temperature). Voluntary (somatic) motor neuron control is exclusive to skeletal muscle. Smooth muscle in blood vessels, the GI tract, airways, and bladder contracts and relaxes in response to autonomic signals without conscious control.",
+        "C": "Correct. Skeletal muscle uses troponin C as the Ca\u00b2\u207a sensor \u2014 Ca\u00b2\u207a binds TnC to move tropomyosin off actin binding sites. Smooth muscle lacks troponin entirely. Instead, Ca\u00b2\u207a binds calmodulin (a ubiquitous Ca\u00b2\u207a-sensing protein), and the Ca\u00b2\u207a-calmodulin complex activates myosin light-chain kinase (MLCK). MLCK phosphorylates the regulatory myosin light chain, enabling myosin ATPase activity and cross-bridge cycling. Relaxation occurs when MLCK is inactivated and myosin light-chain phosphatase (MLCP) dephosphorylates the light chain.",
+        "D": "Smooth muscle is specialized for sustained, low-energy contractions (tonic contractions) that skeletal muscle cannot sustain \u2014 it does not fatigue easily and uses much less ATP per force produced (the 'latch' state, where dephosphorylated cross-bridges maintain force without cycling). Sustained tonic contraction (as in blood vessel walls) would cause rapid fatigue in skeletal muscle."
+      },
+      "topic": "Smooth Muscle / Regulatory Differences from Skeletal Muscle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_musc_008",
+      "passage": null,
+      "stem": "Rigor mortis \u2014 the stiffening of muscles after death \u2014 occurs because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ATP production stops, so myosin heads become permanently bound to actin because ATP is required for cross-bridge detachment (the release step of the cycle)"
+        },
+        {
+          "label": "B",
+          "text": "myosin rapidly decomposes after death, fusing with actin permanently"
+        },
+        {
+          "label": "C",
+          "text": "the nervous system continues firing after death, maintaining muscle tone"
+        },
+        {
+          "label": "D",
+          "text": "Ca\u00b2\u207a is actively pumped out of the muscle, preventing cross-bridge cycling"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Understanding rigor mortis requires understanding the normal cross-bridge cycle: (1) ATP binds the myosin head \u2192 head detaches from actin; (2) ATP is hydrolyzed (ADP + Pi) \u2192 head cocks into high-energy conformation; (3) Head binds actin; (4) Pi released \u2192 power stroke; (5) ADP released \u2192 rigor state (head strongly bound, no ATP). After death, ATP production ceases (no mitochondrial function, glycolysis exhausts substrates). Without ATP, myosin heads cannot detach from actin after the power stroke \u2014 they remain in the 'rigor state' (strongly bound). All cross-bridges become permanently engaged, producing stiffness. Rigor mortis begins 2\u20136 hours after death and resolves after 24\u201348 hours as muscle proteins begin to decompose.",
+        "B": "Myosin does not decompose rapidly enough to explain rigor mortis onset within hours of death. Protein degradation by autolytic enzymes and bacteria contributes to rigor resolution (after ~48 hours), not its onset.",
+        "C": "Neural activity ceases at death (neurons require ATP and ion gradients to fire). Continued neural firing cannot occur after cardiac arrest and brain death. Neural activity during life maintains muscle tone, but rigor mortis occurs in its absence.",
+        "D": "After death, Ca\u00b2\u207a is actually released from the sarcoplasmic reticulum into the cytoplasm (because SERCA pumps require ATP to function and can no longer pump Ca\u00b2\u207a back). This Ca\u00b2\u207a release activates cross-bridge formation. The problem is that without ATP, the cross-bridges cannot complete their cycle and detach, causing permanent attachment \u2014 rigor."
+      },
+      "topic": "Rigor Mortis / Cross-Bridge Cycle and ATP",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_musc_009",
+      "passage": null,
+      "stem": "Cartilage differs from bone in that cartilage:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is calcified and contains hydroxyapatite mineral crystals for rigidity"
+        },
+        {
+          "label": "B",
+          "text": "is avascular and receives nutrients by diffusion through its matrix, which limits its regenerative capacity after injury"
+        },
+        {
+          "label": "C",
+          "text": "contains osteocytes in lacunae connected by canaliculi"
+        },
+        {
+          "label": "D",
+          "text": "is always more rigid than cortical bone"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Cartilage is mostly uncalcified (hyaline cartilage and fibrocartilage). Some calcification occurs in the deep zones of articular cartilage and in growth plate cartilage undergoing endochondral ossification, but cartilage is defined by the absence of the extensive mineralization that characterizes bone.",
+        "B": "Correct. Cartilage is avascular \u2014 it contains no blood vessels. Chondrocytes (cartilage cells) receive oxygen and nutrients by diffusion through the extracellular matrix (a gel of type II collagen and proteoglycans, primarily aggrecan). This avascularity limits oxygen and nutrient delivery, keeps the metabolic rate low, and severely restricts regenerative capacity after injury. Articular cartilage injuries heal poorly because there are no blood vessels to deliver repair cells and growth factors. This is why ACL and meniscal tears require surgical repair \u2014 the avascular environment cannot mount an effective healing response.",
+        "C": "Osteocytes in lacunae connected by canaliculi describe bone (specifically, the osteocyte-lacunocanalicular network that allows bone cells to sense mechanical loading and communicate). Chondrocytes in cartilage are located in lacunae but are not connected by canaliculi \u2014 they are isolated in the avascular matrix.",
+        "D": "Cortical bone is among the stiffest biological materials (E \u2248 15\u201325 GPa). Hyaline cartilage is far less rigid (E \u2248 0.5\u20131.5 MPa for equilibrium modulus), allowing it to deform and distribute load across joint surfaces. Cartilage is not more rigid than bone; it is a flexible, load-distributing material."
+      },
+      "topic": "Cartilage vs Bone / Avascularity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_musc_010",
+      "passage": null,
+      "stem": "A patient with Duchenne muscular dystrophy (DMD) lacks functional dystrophin. Dystrophin normally:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "serves as the primary ATP source for myosin cross-bridge cycling"
+        },
+        {
+          "label": "B",
+          "text": "forms the troponin complex that regulates Ca\u00b2\u207a-dependent contraction"
+        },
+        {
+          "label": "C",
+          "text": "is the main structural protein of the thick filament"
+        },
+        {
+          "label": "D",
+          "text": "links the actin cytoskeleton to the extracellular matrix via the dystrophin-associated glycoprotein complex, providing mechanical stability to the sarcolemma during contraction"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "ATP for myosin cross-bridge cycling comes from mitochondrial oxidative phosphorylation and cytoplasmic creatine phosphate and glycolysis. Dystrophin is a structural scaffolding protein, not a metabolic enzyme. It provides mechanical support during contraction, not chemical energy.",
+        "B": "The troponin complex (TnC, TnI, TnT) is a separate system of three proteins that regulates Ca\u00b2\u207a-dependent myosin binding on the thin filament. Dystrophin is a cytoskeletal protein that links actin to the sarcolemma (cell membrane), unrelated to the regulatory troponin system.",
+        "C": "The thick filament is composed of myosin heavy chains. Dystrophin is associated with the thin actin filament (it binds F-actin at its N-terminus) but is not part of the thick filament at all.",
+        "D": "Correct. Dystrophin is a large rod-shaped protein (427 kDa) that forms a critical mechanical link: its N-terminus binds F-actin (intracellular), and its C-terminus binds the dystrophin-associated protein complex (DAPC/DGC) embedded in the sarcolemma. The DAPC connects to laminin in the extracellular matrix via dystroglycans. This linkage distributes the mechanical forces of contraction from actin to the extracellular matrix, protecting the sarcolemma from tear-induced damage. Without dystrophin, the sarcolemma is mechanically fragile, rupturing with each contraction, causing Ca\u00b2\u207a influx, proteolysis, and progressive muscle fiber degeneration."
+      },
+      "topic": "Dystrophin / Mechanical Stability of Muscle",
+      "difficulty": "Hard"
+    }
+  ]
+}

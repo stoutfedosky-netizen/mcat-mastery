@@ -1,0 +1,343 @@
+{
+  "batch": "B042",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Language & Communication",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "C": 2,
+    "B": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_lang_001",
+      "passage": "Neurologists evaluated a right-handed bilingual patient after an ischemic stroke involving the left inferior frontal cortex. Before the stroke, she spoke both languages fluently. Afterward, her speech in both languages became slow, effortful, and grammatically simplified. She usually understood spoken instructions and correctly identified pictured objects, but she struggled to repeat long sentences and to generate verbs when shown nouns. Her writing showed the same abbreviated grammar as her speech.\n\nFunctional MRI during a verb-generation task showed reduced activation near the lesion and increased activation in adjacent left-hemisphere cortex. Six months of language therapy improved sentence production, although speech remained less fluent than before the stroke. The clinicians cautioned that language depends on a distributed network: lesion location can predict a syndrome without implying that a single cortical area performs every component of language. They also noted that right-handed adults usually show left-hemisphere language dominance, but individual variation and postinjury reorganization can occur.",
+      "stem": "Which diagnosis best matches the patient's principal language deficit?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Broca-type aphasia"
+        },
+        {
+          "label": "B",
+          "text": "Wernicke-type aphasia"
+        },
+        {
+          "label": "C",
+          "text": "Pure alexia"
+        },
+        {
+          "label": "D",
+          "text": "Prosopagnosia"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The patient shows slow, effortful, grammatically simplified speech with relatively intact comprehension \u2014 the hallmark of Broca's (expressive/nonfluent) aphasia. The left inferior frontal cortex lesion corresponds to Broca's area. Phonemic cueing helps because the lexical representation is preserved but retrieval/production is impaired.",
+        "B": "Wernicke's aphasia produces fluent but meaningless speech with severely impaired comprehension. This patient has the opposite pattern: effortful speech but intact comprehension. Wernicke's area is in the posterior superior temporal gyrus, not the inferior frontal cortex.",
+        "C": "Pure alexia (alexia without agraphia) is a reading deficit caused by disconnection between visual cortex and language areas. The patient's primary deficit is spoken language production, not reading. Pure alexia typically involves left occipital lesions, not inferior frontal cortex lesions.",
+        "D": "Prosopagnosia is the inability to recognize familiar faces, caused by damage to the fusiform face area in the temporal lobe. The patient's deficits are in language production, not face recognition. The lesion location (left inferior frontal cortex) does not correspond to face-processing regions."
+      },
+      "topic": "Aphasia / Broca-Type Language Deficit",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_lang_002",
+      "passage": null,
+      "stem": "Which observation most strongly supports the clinicians' claim that the lesion affected language production rather than the motor control of speech alone?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The patient was right-handed"
+        },
+        {
+          "label": "B",
+          "text": "The stroke was ischemic"
+        },
+        {
+          "label": "C",
+          "text": "Writing showed the same agrammatic pattern as speech"
+        },
+        {
+          "label": "D",
+          "text": "Therapy lasted six months"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Handedness provides information about hemispheric language lateralization (most right-handers are left-hemisphere dominant for language), but it does not explain the cross-modal dissociation between speech and writing. The question asks what the writing pattern reveals about language production architecture.",
+        "B": "The stroke type (ischemic vs. hemorrhagic) affects the extent and location of damage but does not explain why writing shows the same agrammatic pattern as speech. The question asks about the linguistic significance of the cross-modal finding.",
+        "C": "Correct. The finding that writing shows the same agrammatic pattern as speech indicates that the grammatical deficit is not limited to the speech-output system \u2014 it affects language formulation at a level shared by both spoken and written production. This suggests the lesion disrupts a central language-planning process (syntactic/grammatical encoding) that feeds into multiple output modalities, not just the articulatory motor system for speech.",
+        "D": "Therapy duration is a clinical detail about recovery timeline. It does not explain the cross-modal agrammatism observed at the time of evaluation. The question asks about what the shared writing-speech pattern reveals about language organization."
+      },
+      "topic": "Language Production / Cross-Modal Evidence",
+      "difficulty": "Hard",
+      "passageRef": "ps_lang_001"
+    },
+    {
+      "id": "ps_lang_003",
+      "passage": null,
+      "stem": "The increased activation in adjacent left-hemisphere cortex after therapy most directly illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The all-or-none law"
+        },
+        {
+          "label": "B",
+          "text": "Neuroplasticity"
+        },
+        {
+          "label": "C",
+          "text": "The mere exposure effect"
+        },
+        {
+          "label": "D",
+          "text": "Sensory adaptation"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The all-or-none law describes action potential firing in neurons \u2014 a neuron either fires completely or not at all. It is a physiological principle about neural signaling, not about the brain's capacity to reorganize after damage.",
+        "B": "Correct. The passage describes increased right-hemisphere activation during verb generation after left-hemisphere damage. This recruitment of brain regions not typically dominant for the task demonstrates neuroplasticity \u2014 the brain's ability to reorganize functionally after injury by engaging alternative neural circuits to compensate for damaged areas.",
+        "C": "The mere exposure effect is a psychological phenomenon in which repeated exposure to a stimulus increases liking for it. It describes a preference change, not neural reorganization after brain damage.",
+        "D": "Sensory adaptation is the decreased sensitivity of sensory receptors to a constant, unchanging stimulus. It is a perceptual phenomenon unrelated to post-stroke neural reorganization or language recovery."
+      },
+      "topic": "Neuroplasticity / Functional Reorganization",
+      "difficulty": "Medium",
+      "passageRef": "ps_lang_001"
+    },
+    {
+      "id": "ps_lang_004",
+      "passage": null,
+      "stem": "Why does the passage caution against concluding that the left inferior frontal cortex performs every aspect of language?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The patient spoke two languages"
+        },
+        {
+          "label": "B",
+          "text": "All cognition is controlled by the right hemisphere"
+        },
+        {
+          "label": "C",
+          "text": "fMRI cannot measure any neural activity"
+        },
+        {
+          "label": "D",
+          "text": "Language functions emerge from interacting distributed networks"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The patient speaking two languages is relevant to understanding bilingual language representation but does not by itself support distributed network processing. Bilingualism is a characteristic of the patient, not a theoretical conclusion about brain organization.",
+        "B": "The evidence shows left-hemisphere damage caused language deficits, directly contradicting the claim that all cognition is controlled by the right hemisphere. Language is predominantly left-lateralized in most right-handed individuals, and this patient's left-hemisphere stroke caused the aphasia.",
+        "C": "The passage describes fMRI showing both reduced activation near the lesion and increased activation in alternative regions. fMRI clearly can measure neural activity \u2014 the imaging results are central evidence in the case. Claiming fMRI cannot measure activity contradicts the passage.",
+        "D": "Correct. The clinical picture \u2014 selective production impairment with preserved comprehension, cross-modal agrammatism, right-hemisphere compensation visible on fMRI \u2014 supports a distributed network model. Language functions emerge from coordinated activity across multiple interconnected brain regions rather than from a single localized center. Damage to one node (Broca's area) impairs its specific contribution while leaving other network components available for partial compensation."
+      },
+      "topic": "Distributed Language Networks",
+      "difficulty": "Medium",
+      "passageRef": "ps_lang_001"
+    },
+    {
+      "id": "ps_lang_005",
+      "passage": null,
+      "stem": "The bilateral impairment of both previously fluent languages most reasonably suggests that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both languages relied substantially on overlapping left-hemisphere networks"
+        },
+        {
+          "label": "B",
+          "text": "Only the second language was represented cortically"
+        },
+        {
+          "label": "C",
+          "text": "The right hemisphere was completely destroyed"
+        },
+        {
+          "label": "D",
+          "text": "Bilingual adults cannot recover language after stroke"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The patient's impairment in both languages after a left-hemisphere lesion indicates that both languages share substantial neural infrastructure in the left-hemisphere language network. If each language were represented in completely separate brain regions, damage to one region might impair only one language. The co-impairment suggests overlapping cortical representation.",
+        "B": "If only the second language were represented cortically (and the first were subcortical or differently organized), left cortical damage might selectively impair the second language while sparing the first. The co-impairment of both languages argues against this asymmetry.",
+        "C": "The passage describes increased right-hemisphere activation on fMRI, indicating the right hemisphere is intact and contributing to compensation. If it were completely destroyed, no right-hemisphere activation would be visible on imaging.",
+        "D": "The passage describes a patient who is recovering language function with the help of right-hemisphere compensation and therapy. This demonstrates that bilingual adults can recover language after stroke, directly contradicting this claim."
+      },
+      "topic": "Bilingualism / Overlapping Representation",
+      "difficulty": "Medium",
+      "passageRef": "ps_lang_001"
+    },
+    {
+      "id": "ps_lang_006",
+      "passage": "Researchers tested whether 8-month-old infants could detect statistical regularities in an unfamiliar stream of syllables. During familiarization, the stream contained no pauses, but syllables within each invented \u201cword\u201d followed one another with a transitional probability of 1.0. At word boundaries, the probability fell to 0.33. During testing, infants listened longer to sequences that crossed a word boundary than to sequences that preserved the high-probability groupings.\n\nA second experiment compared 6-month-old and 12-month-old infants on a consonant contrast used in Hindi but not English. English-learning 6-month-olds discriminated the contrast, whereas most 12-month-olds did not. Hindi-learning 12-month-olds retained the distinction. Investigators argued that infants begin with broad sensitivity to speech contrasts, then become tuned to patterns in the language they hear. They emphasized that statistical learning does not by itself settle the debate between nativist and learning-based theories because innate constraints and environmental input may interact.",
+      "stem": "The infants' longer listening to boundary-crossing sequences most directly indicates that they:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Understood the meanings of the invented words"
+        },
+        {
+          "label": "B",
+          "text": "Detected differences in transitional probability"
+        },
+        {
+          "label": "C",
+          "text": "Had learned written spelling rules"
+        },
+        {
+          "label": "D",
+          "text": "Could produce the syllable sequences"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The infants could not have understood meanings of the invented words \u2014 the artificial language had no semantic content, no referential context, and no real-world associations. The syllable stream was purely phonological. The infants tracked statistical patterns in sound sequences, not word meanings.",
+        "B": "Correct. Infants listened longer to sequences that crossed word boundaries (low transitional probability) than to sequences preserving high-probability groupings. This differential listening demonstrates that 8-month-olds tracked the transitional probabilities between syllables \u2014 detecting that some syllable pairs always co-occur (within-word, probability 1.0) while others rarely follow each other (across-word, probability 0.33). This is statistical learning applied to speech segmentation.",
+        "C": "Eight-month-old infants cannot read and have no knowledge of written spelling rules. The experiment used an auditory speech stream with no visual or written component. The learning mechanism is auditory statistical tracking, not literacy-based.",
+        "D": "The experiment measured listening preferences (a receptive/perceptual measure), not production. Infants were not asked to say or produce the syllable sequences. The evidence shows they perceived and distinguished the statistical patterns, not that they could reproduce them."
+      },
+      "topic": "Statistical Learning / Word Segmentation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_lang_007",
+      "passage": null,
+      "stem": "The age-related loss of the non-English consonant distinction among English-learning infants is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Object permanence"
+        },
+        {
+          "label": "B",
+          "text": "Perceptual narrowing"
+        },
+        {
+          "label": "C",
+          "text": "Overregularization"
+        },
+        {
+          "label": "D",
+          "text": "Semantic priming"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Object permanence (Piaget) is the understanding that objects continue to exist when not visible. It is a cognitive milestone typically achieved around 8 months and is unrelated to the loss of non-native phonetic discrimination described in the passage.",
+        "B": "Correct. Perceptual narrowing is the developmental process by which infants' initially broad perceptual abilities become tuned to their native language environment. Six-month-olds can discriminate phonetic contrasts from any language; by 12 months, sensitivity to non-native contrasts declines as the perceptual system specializes for the contrasts that matter in the infant's linguistic environment.",
+        "C": "Overregularization is a language production error in which children apply regular grammatical rules to irregular forms (e.g., 'goed' instead of 'went'). It concerns morphological production, not the perceptual discrimination of phonetic contrasts tested in this experiment.",
+        "D": "Semantic priming is a cognitive effect in which exposure to a related word speeds recognition of a target word (e.g., 'doctor' primes 'nurse'). It is a word-level processing phenomenon in literate individuals, not an explanation for developmental changes in infant phonetic perception."
+      },
+      "topic": "Language Development / Perceptual Narrowing",
+      "difficulty": "Medium",
+      "passageRef": "ps_lang_006"
+    },
+    {
+      "id": "ps_lang_008",
+      "passage": null,
+      "stem": "Which finding provides the strongest evidence that experience, rather than maturation alone, influenced phoneme discrimination?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both age groups heard consonants"
+        },
+        {
+          "label": "B",
+          "text": "Older infants had larger vocabularies"
+        },
+        {
+          "label": "C",
+          "text": "The study used two experiments"
+        },
+        {
+          "label": "D",
+          "text": "Hindi-learning 12-month-olds retained a contrast lost by English-learning peers"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Both age groups hearing consonants is a basic experimental condition, not a finding that reveals the role of language experience. The question asks what finding most directly demonstrates that language environment shapes development \u2014 hearing consonants is the stimulus, not the result.",
+        "B": "Vocabulary size was not measured in this phonetic discrimination study. The experiment tested perception of consonant contrasts, not lexical knowledge. Vocabulary differences would not explain the specific loss of a non-native phonetic contrast.",
+        "C": "The number of experiments is a methodological detail about study design. It does not reveal anything about how language experience shapes perceptual development.",
+        "D": "Correct. The finding that Hindi-learning 12-month-olds retained a Hindi consonant contrast that English-learning 12-month-olds lost directly demonstrates that language experience shapes perceptual development. Both groups could discriminate the contrast at 6 months, but by 12 months, only infants with relevant environmental exposure maintained the ability. This divergence based on linguistic environment is the strongest evidence for experience-dependent perceptual narrowing."
+      },
+      "topic": "Language Experience / Comparative Evidence",
+      "difficulty": "Hard",
+      "passageRef": "ps_lang_006"
+    },
+    {
+      "id": "ps_lang_009",
+      "passage": null,
+      "stem": "Why do the investigators conclude that statistical learning does not disprove nativist theories?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Infants showed no learning"
+        },
+        {
+          "label": "B",
+          "text": "Nativism claims language is learned only through reinforcement"
+        },
+        {
+          "label": "C",
+          "text": "Innate constraints and experience could jointly produce the observed behavior"
+        },
+        {
+          "label": "D",
+          "text": "Transitional probabilities cannot be calculated"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The infants clearly showed learning \u2014 they discriminated statistically coherent sequences from boundary-crossing sequences after just minutes of exposure. Claiming no learning occurred contradicts the experimental results described in the passage.",
+        "B": "Nativism (Chomsky) proposes that language acquisition is guided by innate biological knowledge of grammar (Universal Grammar), not that language is learned through reinforcement. Reinforcement-based learning is the behaviorist position (Skinner). This answer conflates two opposing theoretical traditions.",
+        "C": "Correct. The findings support an interactionist account: infants come equipped with innate statistical learning mechanisms (biological readiness), and these mechanisms extract patterns from the specific linguistic input they receive (environmental influence). Neither pure nativism nor pure empiricism alone explains the data \u2014 the learning is both biologically constrained and input-dependent.",
+        "D": "The experiment directly demonstrated that infants computed transitional probabilities \u2014 they discriminated high-probability from low-probability syllable sequences. Claiming transitional probabilities cannot be calculated contradicts the experimental evidence presented in the passage."
+      },
+      "topic": "Language Acquisition / Nature and Nurture",
+      "difficulty": "Hard",
+      "passageRef": "ps_lang_006"
+    },
+    {
+      "id": "ps_lang_010",
+      "passage": null,
+      "stem": "A strong version of linguistic relativity would predict that speakers of languages with different obligatory spatial terms should:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Differ systematically in some habitual spatial judgments"
+        },
+        {
+          "label": "B",
+          "text": "Possess identical spatial concepts in every task"
+        },
+        {
+          "label": "C",
+          "text": "Lose the ability to learn additional terms"
+        },
+        {
+          "label": "D",
+          "text": "Show identical brain lesions after stroke"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. If speakers of languages with different spatial reference systems (e.g., absolute cardinal directions vs. relative left/right) show systematic differences in spatial reasoning tasks, this supports the Sapir-Whorf hypothesis (linguistic relativity): the language one speaks influences habitual patterns of thought. Research with Kuuk Thaayorre speakers and other groups has found such cross-linguistic differences in spatial cognition.",
+        "B": "If all speakers possessed identical spatial concepts regardless of language, this would refute linguistic relativity \u2014 suggesting language has no influence on spatial thought. The passage implies the opposite: systematic differences exist, supporting some version of the hypothesis.",
+        "C": "The passage does not claim that speakers of any language lose the ability to learn new spatial terms. Linguistic relativity concerns habitual patterns of thought, not absolute cognitive limits. Adults can learn new linguistic categories; the question is whether habitual language use shapes default cognitive patterns.",
+        "D": "Linguistic relativity concerns the relationship between language and thought, not brain lesion patterns. Identical brain lesions after stroke would be a neuroanatomical finding, not evidence about whether language influences spatial cognition. Stroke damage patterns depend on vascular anatomy, not linguistic experience."
+      },
+      "topic": "Linguistic Relativity / Testable Prediction",
+      "difficulty": "Medium",
+      "passageRef": "ps_lang_006"
+    }
+  ]
+}

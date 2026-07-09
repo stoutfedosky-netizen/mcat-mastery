@@ -1,0 +1,352 @@
+{
+  "batch": "B161",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Mitochondrial Energetics & Inheritance",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_mito2_001",
+      "passage": "A biochemistry lab isolates mitochondria from cultured muscle cells and measures oxygen consumption rate (OCR), ATP synthesis, and proton-gradient size after adding different compounds. Substrates for the TCA cycle are supplied, and ADP is added at time 0. The inner mitochondrial membrane remains intact unless specifically disrupted.\n\nTreatment | OCR | ATP synthesis | Proton gradient | Key observation\nControl | high | high | moderate | ADP stimulates respiration\nOligomycin | low | low | high | ATP synthase blocked\nFCCP | very high | low | low | membrane proton leak\nRotenone | low | low | low | Complex I inhibited\n\nThe investigators explain that electron transport pumps protons from the matrix to the intermembrane space, creating a proton-motive force. ATP synthase uses downhill proton flow to phosphorylate ADP. They warn that oxygen consumption and ATP synthesis can be uncoupled if proton movement bypasses ATP synthase.",
+      "stem": "Why does oligomycin lower oxygen consumption despite leaving the electron transport chain proteins physically present?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It directly donates electrons to oxygen at Complex IV."
+        },
+        {
+          "label": "B",
+          "text": "It blocks ATP synthase, increasing the electrochemical proton-motive force and slowing further proton pumping."
+        },
+        {
+          "label": "C",
+          "text": "It collapses the proton gradient by carrying protons across the membrane."
+        },
+        {
+          "label": "D",
+          "text": "It converts mitochondrial DNA into nuclear DNA."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Direct electron donation to oxygen would bypass regulated electron transport and would not explain low OCR with a high proton gradient. The passage's key observation is ATP synthase blockade, not artificial reduction of oxygen.",
+        "B": "Correct. Oligomycin blocks proton flow through ATP synthase. As protons accumulate outside the matrix, the electrochemical proton-motive force increases, creating a thermodynamic barrier to additional proton pumping; electron transport and oxygen consumption therefore slow even though the complexes are present.",
+        "C": "Collapsing the gradient by proton leak describes an uncoupler such as FCCP, not oligomycin. FCCP produces very high OCR with low ATP because electron transport races to restore the gradient.",
+        "D": "Oligomycin affects a membrane protein complex; it does not relocate or convert mitochondrial DNA. The experimental readout changes within respiration, not genome compartmentalization."
+      },
+      "topic": "Oxidative Phosphorylation Inhibitors",
+      "difficulty": "Medium",
+      "passageImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEwAAALQCAIAAAAFF3LvAABVTElEQVR42u3deXwV1cE//gkhBMIWCMGwI0ZBBURAhbqwKSKoCLWooEVFFBTF2tYqWvvUKuiP2rqUUq0LFa1aVFAUUVQQKejDotYNBdkhrEkA2UKS+/tjHu83zQ4GSML7/fL18mbu3Jk5Z84dzueeWWIikUgAAABQWVRRBQAAgJADAAAg5AAAAAg5AAAAQg4AACDkAAAACDkAAABCDgAAgJADAAAg5AAAAEIOAACAkAMAACDkAAAACDkAAABCDgAAIOQAAAAIOQAAAEIOAACAkAMAACDkAAAAQg4AAICQAwAAIOQAAAAIOQAAAEIOAAAg5AAAAAg5AAAAQg5UPqNGjYr5wbHHHpv3rQULFsTkMWfOnHD6rbfeGk759NNP887/t7/97Z133jlEm/fFF18ckfrp3LlzTExMrVq1ip+tqDr5kR+54447YgqoXr168+bNBwwYsHDhwsNcGwdRzOLlazNlvvwSffHFF3Fxcaeeemp0SiQSee65584777yGDRtWq1atQYMGvXv3/te//lXJGvYhdaCHgrLd72+++ebll1/evHnz6tWrJyYmduzY8a677tq8eXNR87/33nuDBg1q0qRJfHx8vXr1unXr9vjjj+/fv7/Mv4bXXXdd+Nm2bduWw7327bffVqlSpXPnzrm5uf5lBCEHKpVVq1atWrUq+mc01ZQoIyNj4MCBI0eO3L17t2o81Pbt27d27dpp06adeeaZc+fOraClKCdt5qabbsrOzh4xYkQ04VxxxRVXXXXVu+++u2XLlv3792/btm3WrFmXXXbZDTfcoO2V8926b9++yy+//MILL3zppZfWrl27b9++7du3f/LJJ2PHjk1NTZ0+fXq++bOzs6+77rpzzz13ypQpGzZsyMrKyszMnDt37ogRI84888zMzMwy/Bru2bNnypQp4esvv/zyf//3f8vbvjvhhBN69OixePHiJ554QksGIQcqm9mzZ5cYch5++OFIJBKJRDp06BBO+cc//jF16tSjud4K1slhsH///ttuu62CFrPQNnOYq/Gdd96ZO3durVq1hgwZEk558cUXX3rppUJnfuKJJ1555RWHiIPYrYfN9ddfX9Tu27lz58CBAz/88MO8E2+77bannnqq0PkXLlx4zTXXlOHXcOrUqTt27Ij++cwzz5TD3Rcm+XvuuWffvn0aMwg5UEkkJSXlDTnZ2dnz588PgqBBgwYq54ibPHly2PvPzc3dtWvXCy+8EBsbGwTB4sWLt23bpn4Ozh//+McgCPr27Rs9HTHaQb/ttttWr169d+/er7766rzzzgsnPvnkkyqt3Hr//fefffbZ8HX//v0XLly4d+/e9PT0l156qWXLluExbdiwYdFzsT799NPHHnssfD1ixIhly5aFu/vKK68MJ06bNu2rr74qq6/hP/7xjyAIjjnmmJ/85CdBELzwwgt79uwpb3V44YUXVq9efcuWLUVlRUDIgYrnrLPOyhtyFi5c+P333wdBcPbZZwfFnkB/4YUX/uIXvwjfGjBgQL4T66dMmdKrV68GDRrUqFGjXbt2999/f77zWPbu3Tt27Ni2bdvWqFEjKSnpjDPOePzxxwueFL579+4777wzPM/+1FNPjZ74UcoVhZdAVK9efevWraNGjWratGl8fHy7du0mTZqUdyHr168fOnRocnJyQkJCr169Fi1alG8tl1xySUxMTMuWLV999dXU1NSaNWv27du3qIsKPvjgg379+jVp0qRatWpJSUnnnHPOCy+88CN3U0xMTEJCwuWXX37CCScEP/xEHb7YvHnzjTfeGF5a0KJFi5tuumnjxo3RD+bm5j722GOdOnWqVatWXFxckyZNLr/88m+++SY6w5VXXhkTE9OgQYOlS5cOGDCgXr16NWvW7NmzZ97zagoWs6gKKb74RbWZoq7NKJOdm8+GDRtmzZoVBMHFF18c5DnbKnwxZsyY5s2bx8fHn3jiic8880xMTEwQBJ999ll0zuJru/R7/0c27KLqv8TdXZoiFFT8YgvdreGLmJiYjz76KLqcRYsWhROLGS050M37+9//Hr4YNGjQtGnTOnfuHF5jM2jQoHnz5tWvXz8IgmXLlr399tvhbI8//njww/jPxIkTU1NTw909efLk/v37X3bZZdOmTUtNTT3Qr2Gh1q9f/+6774bVMmjQoCAItm/fnm/Iq8RdVpp9WkyrK82OCI97eSsHOIQiwKF00003hd+1hx56KHyxbNmySCQyduzYIAji4+PHjRsX/HAmW/iR0aNHh1M++eSTSCTSr1+/fF/bcHokErn22msLfqk7dOiwdevWcIY9e/aEv2vmc/XVV+fbvBYtWuSbZ9asWdFSlLiicDlVq1Y97rjj8s322muvhfOkpaU1bdo071s1atQI+0Y1a9YM5+nfv38QBLVq1apRo0bww0UdBeskEonMmjWratWqhf6gW2g1Fuo3v/lNvp+Qs7OzMzIynnjiiSpVqoQ7KDs7OxKJrF+/vmAVNW3adM2aNeEHb7755oIb07BhwxUrVoQzhKds1ahRIzk5Oe881atX/+CDD4ra5qIqpPjiF9VmCq2TMtm5BT399NPRDmh04i9/+ctwYteuXadOnfr9998X+tkSa7vEvV9WDbuo+i9xd5dYhEIVv9hCd+vLL78cvr799tujy7nrrrvCiTNnzix0vx/E5oVj0UEQfPPNNwXfveOOO8J3f/3rX4dTTjzxxOCHK2SKP0iW/mtYlOhRdNasWWvXrg0zc69evUpft6WZofhWV5odEYlEwuHN2NjYjIwM/z7CISXkwGEKOdEf7J944olIJNK7d+9weOfPf/5z8SEnEolE55k6dWp0ydEfVs8+++yvv/568+bN0b5C//79w3l++9vfBj+cC7558+Zvv/32pJNOCqfMnTs37+alpKTMnTt3z5490e7CgAEDSr+i6HKOOeaY2bNn7969O9rp6du3b74O5eWXX75hw4Zly5adeeaZ4ZR8IScIgk6dOoXzrF27ttA6Of3004Mg6Nix46pVq/bs2fPGG2+E/aFoz+aAQk5Q9E26wjkHDBgQbucbb7yxa9eu999/P4xnAwcOjEQimZmZ4Xk1V1555ZYtW/bu3fv2228nJCSEP2PnDTlBECQlJc2cOTMzM/Mvf/lLuM3HH398Tk5OMSGnYIWUWPxC20zB5ZfVzi1o8ODBQRDUr18/78Q1a9bUrVs3Wr1xcXE/+clP7rnnns8//zzvbMXXdmmKX1YNu9D6L83uLrEIBZVmsQV36969exMTE8NWFF3UySefHARBcnLy/v37C93vB7p50dGtBg0aFDrDtGnTwhl++tOfhlOqVasWBEG1atVyc3NLGXJK/BoWJQxU9evXD8vbpUuXcDho1apVpazb0lR+8a2uNDsiEolER7qmTZvm30cQcqAyhJy1a9eGP4RfccUV+/fvD69SuPPOOw865LRu3To8/2HTpk3Rid27d8/762mjRo2CIGjUqFH0d9AXX3yxV69ezz77bPgjenTzHnnkkehCwm076aSTSr+i6HIef/zxcIb9+/fHx8cHQdCmTZtIJJKbmxv2bpOSknbt2hXt8oa/uRYMOS+99FLeaixNYgkvDDjxxBPLKuT0799/+/btkUhk8+bNYW9mxIgR0c+GATI2NjYzMzN607zOnTu/+eabu3fvLriuaMh57LHHohMHDhwYTpw/f37xISdfhZRY/FKGnDLZuYU644wzgiA4/fTT801fsGBBwRGhIAguvfTSzMzM0tR2aYpfVg270PovcXcfXBFK04oK3a3Dhg0LfrhhdyQSWb58efjnyJEjC93vB7F569atC5eQmppa6MZHT8Q999xzwx5/+GdiYmKJB8lSfg2L8vHHH+cboA5HS4Ig+J//+Z9S1m1pKr/EVlfijohEIitWrAgnPvDAA/59hEPKNTlw+ISX38yZMyd6Qc4555xzcIvasGFDeLL4mWee2bBhw7yXEEQHatLS0tLS0sKfHsMfKYMguOyyy959992rrrqqZs2awX8/ryb6Ovw9MrxstzQryneqT/iiatWq4fktYXdn3bp127dvD3u94e+jQRA0a9asVatWhRawXbt2pamHTZs2vfrqq3fccUeXLl1Wr14dBEF2dvaP31OnnHLKxx9/PG3atDp16gRBsGTJkvAqpr/97W/R53j84Q9/CIIgJyfn888/b968edhjXrRoUb9+/RITE7t16/bAAw9s2LCh4MJ79OgRfd2zZ8/wxeeff178JhVaIT+y+GW1c4u65CMIgrzjNqEuXbosXbp02rRp1157bdhHDL388svh4E+JtX1AxS+rhp23/kvc3aUpQsuWLfM+Fubuu+8+oFaUV/RS/ldffTUcIogOmRY6f+lrOCp6uEhPTy90mdHp4VcmPj4+PLNr165dB/1YmHxfw6DYWw6Ew1DRwBy+mDRpUiQSKc0uK33lF9PqSrMjomUp5slCQODGA1CxhJEmLS0tvOo0NjY2er7WgYrea+iYY47JOz36Z3p6ehgqwt+qS1xg7dq1o6/DRBR2TUqzoqKWExcXFwRB2MnYtWtXOLFevXp55y/YCc7bHw2KfbJer169GjVq9NOf/vTBBx/8+OOPwxWFP1EHB353tb17986dOze8UOGzzz7729/+Fu2cRS+XL6p7FxMT8+qrr0b7wVlZWXPnzr3zzjuPO+64gle65y1atBqLv666YIWUSfHLaucGRTzRJW/nOK+qVav279//qaeeWrly5YoVK/74xz+GzWDGjBlf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hZy33nqrUaNGycnJw4cP37FjRxAEixcvTkxMTE1NDefp1KnTZ599lpWVpU0AAICQU14sXLhw0qRJ+c5VW79+/ebNm7t27bps2bI5c+YsXLhw2LBhQRBs27YtKSkpOlu9evVycnIyMzO1CQAAqNCqVpqS7N+//9prrx0/fnxKSkre6U2aNIlEIuHrk08++eGHH+7Ro8e2bdtyc3NjYmLyZ74qhaS+grOF4uLitmzZsnXrVs2IUtJa0GDQZtBmqHDi4uKEnCPm/vvvb9q06dChQ4ufrVWrVkEQpKWlJScnp6enR6dnZGTExsbWrVu39GtMTk4OgiCaoKBEDRo0UAloMGgzaDNULGlpaULOEfPyyy9/+eWXeUddYmJi1q5d++mnn1566aXp6ekJCQlBEPznP/+Jj49v1apVrVq10tPTV61a1bJlyyAIlixZ0r59+0JzaqExJiYmZsOGDY0bN9buAQAgcE3OofDFF19EbxI9bty4bt26RSKRpk2b9uzZs3HjxqNHj87MzPzkk09uu+22W265JSEhoWXLlr179x45cuTGjRsXLlw4bty4m266SYMAAAAhp7xLSEh466231q5d27x58z59+gwYMCD63M/JkyeHozr9+/cfNWpUeEMCAAAgcOOB8uaOO+644447on+2bt165syZBWdr2LDhtGnTNAIAAAiM5AAAAAg5AAAAQg4AAICQAwAACDkAAABCDgAAgJADAAAg5AAAAAg5AACAkAMAACDkAAAACDkAAABCDgAAgJADAAAIOQAAAEIOAACAkAMAACDkAAAACDkAAICQAwAAIOQAAAAIOQAAAEIOAACAkAMAAAg5AAAAQg4AAICQAwAAIOQAAAAIOQAAgJADAAAg5AAAAAg5AAAAQg4AAICQAwAACDkAAABCDgAAgJADAAAg5AAAAEIOAACAkAMAACDkAAAACDkAAABCDgAAIOQAAAAIOQAAAEIOAACAkAMAACDkAAAAQg4AAICQAwAAIOQAAAAIOQAAAEIOAAAg5AAAAAg5AAAAQg4AAICQAwAAIOQAAABCDgAAgJADAAAg5AAAAAg5AAAAQg4AACDkAAAACDkAAABCDgAAgJADAAAg5AAAAEIOAACAkAMAACDkAAAACDkAAICQowoAAAAhBwAAQMgBCIJ23QYoLABwSFVVBXAYerqPlqLL+/kHU4+Sbn2+eSpHwYsqfokVUpmKDwBCDlB4b7gi9np/zJBFwc9WlBook4GaCr3fAUDIAQ6461yeO76H7lyscMlHW9nzLvNRXwMAEHKgoii0415Mj7kc/sxfmv596bdW2YufwfAOAAg5ULGTT4k9/iPY5S3b/n1RHyl0LeVhYKeY4h/0hpVyv8s5ACDkQCUZ5ymmu384e/yH+br5Yvr9R2Rg51Bkm4PY7wCAkAOVf3jnUA9uHPF7goXLP1JJ7wjeBy9c+OyzO/kKAICQA0dj2inz7n55u99xaZJeWW2Yez0DgJADHJm0U+bd/UN0sc1hK/uPzHsVovgAgJADR/VdCsrwoo7y1rkv/R0aKmXxAQAhB47egZ1K37k/dFfqCzYAIOQA5evBOwfd46+4nfvSDO/INgAg5ABHS+apTJ37YsriaTMAIOQAlb/frx4AgMqqiioAAACEHAAAACEHAABAyAEAABByAAAAIQcAAEDIAQAAEHIAAACEHAAAACEHAAAQcgAAAIQcAAAAIQcAAEDIAQAAEHIAAAAhBwAAQMgBAAAQcgAAAIQcAAAAIQcAABByAAAAhBwAAAAhBwAAQMgBAAAQcgAAACEHAABAyAEAABByAAAAhBwAAIA8IScmj2rVqqWkpFx88cVLliwp/mPffvttgwYNNmzYcDi3tU2bNueee27eKRMnTjzhhBMOdDmdO3fu0qVLaea85pprbr/9dq0EAAAq6kjO/v37N23aNH369B49eqxYsaKoz0QikeHDh990002NGzc+sls/Y8aMCy64IPrnpk2bLr300jp16jRr1uy+++6LTs/IyBg0aFCdOnVSUlLGjh1b4vSo++67b+LEiYsWLdJQAACgwoSclStXRn6wd+/er7/+evDgwTt27Jg4cWJRn3nppZc++eSTX/7yl0d20/ft2zd79uy8IWfw4MG1a9deu3bt1KlTH3nkkSeffDKcPnTo0N27dy9fvvz111+fMGHCjTfe+NFHHxWc/vTTT+dbRZMmTYYOHXrzzTdrKAAAUCFHcuLj49u0afPggw8GQVDMSM748eMvuuiiOnXqhH926NDh6quvXrRoUYcOHWrWrNmlS5dZs2ZFZ+7QocN111336aefdunSpWbNmj179lyzZk0QBPfee29ycnJKSsro0aOzsrKi88+aNatbt24JCQm1a9fu3bv3/Pnzi9qMDz74IDc3t3v37uFaBg0aNHv27M8//7xx48a33377GWecMX/+/HvvvTcpKWn69OlJSUmJiYmnn376HXfccfPNN3fp0mX16tXTp0//7rvvxowZs2DBguzs7Ouuuy41NfXRRx/Nu5YhQ4Z89NFHH374obYCAAAVL+Ts27fvyy+/vO2224IgKOpal/nz5y9ZsuRnP/tZ3okZGRl9+/b97LPPdu/e/fHHH19wwQVvv/129N0tW7acd955H3/88e7du2fPnj106NAHH3zwd7/73datWzdt2vToo48+9thjwQ9jROeff/7cuXP37Nnz/fffz5o1q3v37jNnzix0S956663u3btXr149uvFJSUmLFy8O1/LOO+/k5ub+7ne/S09PD4Lg2WefDdfSqVOnPXv2RCKRxYsXJyYmxsfH/+tf/7r11ls3b94ciUS+++670aNHv/7669G1dOnSpVmzZn/5y1+0FQAAqBgh59hjj43eeKB69ept27adMmVKgwYNRo8eXegH3nnnnZiYmPPOOy/vxOnTp59yyilff/11enr6n//859zc3F/96ld53+3Zs+e6deu2bNnSq1evOXPm/OlPf5o2bdqOHTumTJlStWrVd955J0wpt9xyS9WqVR9++OEtW7akpaXdd9992dnZN954Y25ublDYBTl9+/YtuJbU1NQqVars37//zTffnDZt2qOPPnrMMcdE11KvXr1IJJKdnb1t27akpKQgCHbu3DlgwIAwSv32t78NguD555+PLjYmJqZ3797vvvtuodsAAACUN1WDAlehnH/++X/4wx9SUlKCIkZyWrZsWbNmzbwT69ev//LLL9etWzcIgltvvXXJkiWTJ09euXLlscceGwRB9erVn3766fAjI0aMeO+994YPH96/f/8gCC699NLx48enpaUFQfDRRx9t3rz5l7/8ZTRf3XXXXd99990zzzzz2WefnXrqqXnXuGLFim+//TbvBTnRtSxbtuz555+/8sor4+Pj+/fv//jjj9euXbtFixbhWqLRJTc3NyYmJgiCWrVqPf/886tWrQqC4JZbbnnyySc3btyYd11PPfVUEASxsbH5qiIuLm7Lli1bt27VjCg9DQZtBq0FbYaKJS4uruKFnJUrV7Zs2XL//v2vvvrq8OHDjz/++AceeCA5ObmoD6SlpRXMP126dAkTTuicc86ZPHnyqlWrwpDTunXraChKTEwMgqBdu3bRmWvXrr1r164gCMKY0bNnz7xLPvfcc5955pnVq1fnCzkzZsw4/vjjjzvuuOiUvGs55phjgiBYv379hg0bkpOT09PTW7RoEa4lIyMjJiYmNjY2nF6zZs02bdrUqFEjIyMjNja2bt26ycnJOTk5pam7sJYikYimT+k1aNBAJaDNoLWgzVCB5B0qCCrWNTlxcXGXXXbZSy+99MEHH/Tp02fv3r1FfWD79u0JCQnFx7swJESHPvIN+wRBEB8fHxR2Z+qCE8OTxKpVqxYUuCAn7zBOEARZWVl169bdt2/f/ytblSqJiYkdO3ZMT0+PlmjJkiU1atSIiYkJp2dlZYUbs2TJkvbt28fFxYXDO8F/n4wXBMGrr74aySMIgsP8mCAAAOCAbzxwwQUX3HzzzUuWLMl7RU0+9evX3759e76JixcvznuHtA8++CAIgtTU1APalJYtWwZB8N577+WdGP7ZrFmzvBP37t07e/bsvBfkBEFQt27dlJSU2267bfv27eGt4Xr16pWQkNCyZcvevXsvXbo0Ozt74cKF48aNC0dgwunr1q3LysoKp990002FblhmZmYQBOEFPAAAQEUKOUEQjB07tnnz5hMnTvz4448L/UDjxo03bdqUb+LatWuvueaaNWvWpKenjx8//sUXX+zateuBPiq0a9euycnJjz322COPPBLeeG3cuHH/+Mc/WrRo0bZt27xzzpkzJwiCbt26/VdJqlSZMWPGqlWrmjdvHt4/YPjw4eFbkydPrlKlyrJly/r37z9q1KjoyGw4ffHixeH0YcOGFbphmzdvDguuuQAAQMULOTVr1nzsscdyc3NvuOGG7OzsQqPI2rVrw35/1PHHHz9jxowWLVokJSXdfvvt1atXf/jhhw90U+Lj4x9++OHs7Oxbb701fITOmDFjYmNjJ06cmO8UshkzZvTo0SN68+io44477s0339y+fXt4e7ToSXQNGzZs3779iSeeuGHDhjvvvDM6f8OGDVu2bNm1a9d80/NZtGhRSkpK3ut/AACAChNygiC4+OKLL7nkks8++6zQoNKvX78gCObNm5d3YsOGDWfMmHHSSSfVqlXrvPPOmzt37umnn34QWzN48OAZM2acddZZCQkJdevWveCCC+bOnZvv2pugsAtyDql58+ZdeOGFBa/VAQAAyqGq4ZUw+UydOrWoD5x66qlt27Z96aWX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VatWBUGwbNmy8M9HH320Y8eOqoW8/v3vf1etWnXfvn3hn6+//npCQkJubq7GQzH27NlzwgknnHbaad26dXO0oRgbNmyoUqXKe++9558nSiM3N7dq1apvvfVW+Odtt912/vnnazDk88Ybb9SpU+f6668PgmDBggXFH1UqSuNxutqBWbx4cWJiYmpqavhnp06dPvvss6ysLDVD1E9+8pP9+/dXq1Yt/DMtLa1+/foxMTEaD8W45557Tj755IEDBzraULz58+fXqVOnR48e/nmiNGJiYs4555y///3v6enp33777euvvx42Hg2GvOLj4999990JEyaU5qhSURqPkHNgtm3blpSUFP2zXr16OTk5mZmZaoZCbd++/YEHHhg2bJjGQzEWLlw4adKkv/71r442lGj9+vWtWrWaMGFCs2bN6tWrd8UVV2zZskWDoRh/+ctfFixYkJSU1Lp162bNmt16660aDPmce+65p512Wik7vRWl8Qg5ByY3NzcmJiZ/JVZRjRRi165dF110Udu2be+++26Nh6Doi7iuvfba8ePHp6SkONpQoqysrKVLly5evHjJkiWfffbZli1bBg8erMEQFP3jbI8ePQYPHpyRkfHtt9/u3bv3qquu0mD4MZ3eitJ43HjgwCQnJ6enpwd5bi4RGxtbt25dNUPBf1f69evXqlWrSZMmVa1aVeOhKPfff3/Tpk2HDh3qaENp1K9fPysra+LEidWrVw+CYPz48R07dszMzNRgKNQbb7yRm5s7fvz4mJiYxMTExx57rHPnzhs3btRgOOhOb0VpPCL7genYsWN6enp4xVUQBEuWLGnfvn1cXJyaIa9169adddZZ55xzzvPPPx+9OEfjoVAvv/zyzJkzY2JiYmJi7rzzzg8++CAmJmbdunUaDIXq1KlTbm7uvn37wj+zs7PDn1Q1GApVo0aNffv25ebm5v25PS4uToPhoDu9FabxuKHEgerdu3efPn3S0tL+93//t3Hjxk8++aQ6Ia+MjIzjjz/+9ttv13g4UOPGjYveXU2DoSjdu3fv16/fxo0b16xZ07179/79+2swFCU9Pb1Ro0YjRozIzMxcsWLFOeec069fPw2GQu3fvz/Ic3e1YhpJhWg8Qs4B27RpU//+/WvUqNGoUaOxY8eqEAr2Uwv+mrBz506NhwMNORoMRXVbr7zyytq1a9etW3fo0KEZGRkaDMX44osvzj///Lp16zZq1Oj666/XYCh9yCmqkVSIxhMTiUSMxwEAAJWGa3IAAAAhBwAAQMgBAAAQcgAAAIQcAABAyAEAABByAAAAhBwAAAAhBwAAQMgBAACEHAAAACEHAABAyAEAABByAAAAhBwAAEDIAQAAEHIAAACEHAAAACEHAABAyAEAAIQcAAAAIQcAAEDIAQAAEHIAAACEHAAAQMgBAAAQcgAAAIQcAAAAIQcAAEDIAQAAhBwAAAAhBwAqjl27duXk5KgHACEHgApp1KhRMUW78sorgyDo3Llzly5dDs/2fPvttw0aNNiwYcOBfrCsNvLDDz888cQT9+zZ8yOXc80119x+++0aGICQA8BRLRKJDB8+/KabbmrcuPGR2oa333577dq1P345991338SJExctWmS3AhwpMZFIRC0AHOVefvnln/3sZ88888zVV199RDbgxRdfvP7669etW1enTp0jVQl33333/fffv3Pnzlq1agU/epRs8eLFCxYs0LQAAiM5AJQrec8E69Chw3XXXffpp5926dKlZs2aPXv2XLNmTRAE9957b3JyckpKyujRo7OysqKf/fjjj3v37l27du06depcfPHFS5cuLWZF48ePv+iii6IJ54DWVXAjH3nkkdatW8fHx6empj766KPRtbRp0+bcc8/Nu97U1NQ+ffoEQXDJJZfcf//9QRDUrl07PFWv+CJs27bt+uuvb9asWfXq1U8++eQ///nPeX80HDJkyEcfffThhx9qQgDBkTpDAICj3JQpU4IgeOaZZ/JN79Sp0xlnnBG+PuWUUy6++OIGDRpE/wXp3r37Aw88kPfflD/+8Y/hzO+//361atXyvlW/fv1ly5YVuvZ///vfQRBMnTo1OuWA1pVvI2vXrp3vX7rXXnstfLd169a9evXKu+rjjjvu/PPPj0Qi/fv3zxtRSixCjx498q0luj2RSCQ3N7dZs2aDBg3StACOCCM5AJTW9OnTe/bsuW7dui1btvTq1WvOnDl/+tOfpk2btmPHjilTplStWvWdd94Jfz4bOXJkEAR/+9vftm3btm3btieeeGL37t2/+tWvCl3sO++8ExMTc9555x3EugrauXPngAEDli1b9v333z/44INBEDz//PMlFm3atGl33XVX+PHnnnuu+CKsWLFi9uzZN9xww9atW7Oysj777LPU1NSnnnoqurSYmJjevXu/++67ubm5mg1A4HQ1AMqt6tWrP/30002aNGnQoMGIESOCIBg+fHj//v1r16596aWXduzYMS0tLQiCr7766ptvvvnFL35xww031K9fv379+sOHD7/xxhvfeOONXbt2FVzs/PnzW7ZsWbNmzYNYV0G1atV6/vnnU1NTa9asefvttzdq1Gjjxo0HWtLii1CjRo0gCN56662HHnpo+vTpLVu2XLZs2VdffZV3Ce3atUtPT//mm280GwAhB4Dyq3Xr1tEokpiYGHblo+/Wrl07HLj47rvvgiB48MEH896T+k9/+lNOTk6hnf60tLSUlJSDW1dBbdq0CUNIKDk5+SAefVN8ERo1ajRkyJA1a9aMGzfupz/9aXJy8sCBA/MVLSxRUUkMACEHgHIh32BLEATx8fEFZysmVOzYsaPgxO3btyckJBzcugrKN1tMTEzeP/NFo927dxe6kBKL8Oyzzz777LO9evWKi4vLysqaOnVqt27d8o5Thdu/fft2zQZAyAGgwmvZsmUQBP/f//f/FbwStHv37gXnr1+//uEJA7GxsVu3bo3+uWHDhqLOZCuxCFWqVLnqqqvefffd9PT0uXPn9u/ff9OmTXnvGZ2ZmRkEQVJSkvYAIOQAUOG1b9++RYsWv//97ydNmpSenr59+/Y5c+a0bdu2bt26O3fuLDh/48aNN23adBg2LCUl5fPPP3/yySf37Nnz1VdfXXHFFVWq/L9/B6tWrRr8cKJa8UWYMWNGTEzMr371q7S0tOrVq7dq1Soct8kbaTZv3hwWTXsAEHIAqPBiY2Mfe+yxvXv3XnPNNUlJSYmJiT169Pjyyy//8Ic/FLy/cxAEXbt2Xbt2bZgKDqkrrrgiCILhw4cnJCScfPLJGRkZvXr1CvIMKAVB0KFDh1/96lfFF+G8887r0KHDQw891Lhx47i4uKZNm/7zn//s0aPHqaeeGl3aokWLUlJSjjvuOO0BQMgBoDK46KKL3nvvvV69etWqVat27dqnn376Cy+8cMsttxQ6c79+/YIgmDdv3qHeqmHDht13333NmzdPSEjo27fvzJkz4+Liou9edtllZ511Vnx8/Jdffll8EeLi4mbMmDF8+PDmzZtXq1atadOmt95667Rp0/Kua968eRdeeGG+K4IAODxi8j6hGQCCI/FY6vbt25900kkvvfRS5SjR/PnzzzzzzHnz5p155pn2L4CQA8DR6IUXXrj66qs3bNhQOa7UHzZs2HfffTdnzhx7FkDIAeAolZub26VLl549ez7wwAMVvSyrV68+8cQT33vvva5du9qzAEIOAEevr7766qyzzvr888+bNGlSoQty1VVXNWzY8KGHHrJPAYQcAACAwN3VAAAAhBwAAEDIAQAAEHIAAACEHAAAACEHAABAyAEAAIQcAAAAIQcAAEDIAQAAEHIAAAAhRxUAAABCDgAAgJADAAAg5AAAAAg5AACAkAMAACDkAAAACDkAAABCDgAAgJADAAAIOQAAAEIOAACAkAMAACDkAAAACDkAAICQAwAAIOQAAAAIOQAAAEIOAABAUf5/ag076PABAssAAAAASUVORK5CYII="
+    },
+    {
+      "id": "bb_mito2_002",
+      "passage": null,
+      "stem": "Which treatment best illustrates uncoupling of electron transport from ATP synthesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "FCCP"
+        },
+        {
+          "label": "B",
+          "text": "Control"
+        },
+        {
+          "label": "C",
+          "text": "Oligomycin"
+        },
+        {
+          "label": "D",
+          "text": "Rotenone"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. FCCP dissipates the proton gradient by allowing protons to cross the inner membrane without passing through ATP synthase. Electron transport accelerates to rebuild the gradient, so OCR becomes very high while ATP synthesis remains low.",
+        "B": "Control mitochondria couple oxygen consumption to ATP production: ADP stimulates respiration, the proton gradient is maintained, and ATP synthesis is high. That is the opposite of uncoupling.",
+        "C": "Oligomycin blocks ATP synthase and causes the gradient to rise, slowing OCR. That is inhibition of ATP synthase rather than uncoupling by proton leak. The OCR pattern distinguishes it from FCCP.",
+        "D": "Rotenone inhibits Complex I, reducing electron entry into the ETC. Low OCR and low gradient reflect upstream electron-transport inhibition, not a leak that separates OCR from ATP synthesis."
+      },
+      "topic": "Uncouplers",
+      "difficulty": "Easy",
+      "passageRef": "bb_mito2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_mito2_003",
+      "passage": null,
+      "stem": "Why is the proton gradient low after rotenone treatment?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Rotenone increases oxygen reduction at Complex IV."
+        },
+        {
+          "label": "B",
+          "text": "Rotenone opens ATP synthase permanently."
+        },
+        {
+          "label": "C",
+          "text": "Complex I inhibition reduces electron flow and proton pumping."
+        },
+        {
+          "label": "D",
+          "text": "Rotenone supplies unlimited ADP."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "If oxygen reduction at Complex IV increased, OCR would rise. The table shows low OCR, so this choice contradicts the key data and the known upstream site of rotenone action.",
+        "B": "Opening ATP synthase permanently would tend to drain the gradient through ATP synthase and might increase ATP turnover if electron transport continued. Rotenone's stated target is Complex I, not ATP synthase gating.",
+        "C": "Correct. Rotenone inhibits Complex I, limiting transfer of electrons from NADH into the electron transport chain. With less electron flow, proton pumping falls, so the proton gradient and ATP synthesis decrease.",
+        "D": "ADP availability can stimulate respiration in coupled mitochondria, but unlimited ADP cannot overcome a block at Complex I. Substrate and ADP are present; electron entry into the ETC is impaired."
+      },
+      "topic": "Complex I Inhibition",
+      "difficulty": "Medium",
+      "passageRef": "bb_mito2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_mito2_004",
+      "passage": null,
+      "stem": "In the control condition, why does adding ADP stimulate respiration?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ADP blocks all proton pumping."
+        },
+        {
+          "label": "B",
+          "text": "ADP directly oxidizes oxygen to water."
+        },
+        {
+          "label": "C",
+          "text": "ADP destroys the inner mitochondrial membrane."
+        },
+        {
+          "label": "D",
+          "text": "ADP use by ATP synthase allows protons to flow downhill, reducing backpressure on the ETC."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "ADP does not block proton pumping; it relieves the gradient by supporting ATP synthase activity. Blocking pumping would lower OCR and ATP production, opposite the ADP-stimulated control pattern.",
+        "B": "Oxygen is reduced to water at Complex IV by electrons from the ETC, not by ADP directly. ADP stimulates respiration indirectly by permitting ATP synthase turnover.",
+        "C": "ADP does not destroy the inner membrane. The membrane must remain intact to maintain the proton gradient that couples respiration to ATP synthesis.",
+        "D": "Correct. ADP provides substrate for ATP synthase, allowing protons to flow back into the matrix through the enzyme. This ADP-stimulated, actively phosphorylating condition is State 3 respiration; it partially dissipates the gradient, reduces backpressure, and increases electron transport and oxygen consumption."
+      },
+      "topic": "Respiratory Control",
+      "difficulty": "Hard",
+      "passageRef": "bb_mito2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_mito2_005",
+      "passage": null,
+      "stem": "Which location has the higher proton concentration during normal oxidative phosphorylation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Intermembrane space"
+        },
+        {
+          "label": "B",
+          "text": "Mitochondrial matrix"
+        },
+        {
+          "label": "C",
+          "text": "Nuclear envelope"
+        },
+        {
+          "label": "D",
+          "text": "Cytosolic ribosome active site"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. ETC complexes pump protons from the matrix into the intermembrane space, creating higher proton concentration and positive charge outside the inner membrane. ATP synthase harnesses proton return to the matrix.",
+        "B": "The matrix is where protons return through ATP synthase, but electron transport pumps protons out of the matrix. During normal oxidative phosphorylation, the matrix is relatively alkaline compared with the intermembrane space.",
+        "C": "The nuclear envelope is not part of the mitochondrial proton gradient. It has membranes, but the passage concerns the inner mitochondrial membrane and intermembrane space.",
+        "D": "Ribosomes catalyze translation and do not store the mitochondrial proton gradient. This option confuses protein synthesis machinery with oxidative phosphorylation compartments."
+      },
+      "topic": "Mitochondrial Proton Gradient",
+      "difficulty": "Easy",
+      "passageRef": "bb_mito2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_mito2_006",
+      "passage": "A genetics clinic evaluates a family with exercise intolerance, lactic acidosis, and neurologic symptoms. Sequencing identifies a pathogenic variant in mitochondrial DNA (mtDNA) encoding a respiratory-chain subunit. The mother carries the variant in 60% of mtDNA molecules in blood. Her three children have different mutant loads in blood and muscle.\n\nFamily member | Blood heteroplasmy | Muscle heteroplasmy | Symptoms\nMother | 60% | 72% | mild\nChild 1 | 15% | 20% | none\nChild 2 | 55% | 80% | moderate\nChild 3 | 90% | 95% | severe\n\nThe counselor explains maternal inheritance, heteroplasmy, and threshold effects. Because oocytes receive a sample of maternal mitochondria, siblings can inherit different proportions of mutant mtDNA. Tissues with high ATP demand, such as muscle and nervous tissue, are often affected when oxidative phosphorylation is impaired.",
+      "stem": "Why do the siblings have different heteroplasmy levels despite sharing the same mother?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Mitochondrial DNA is inherited only from the father."
+        },
+        {
+          "label": "B",
+          "text": "Random segregation and sampling of maternal mitochondria can produce different mutant loads in different oocytes."
+        },
+        {
+          "label": "C",
+          "text": "Every child must inherit exactly 60% mutant mtDNA in every tissue."
+        },
+        {
+          "label": "D",
+          "text": "Heteroplasmy means the nuclear genome has four alleles per gene."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Human mitochondrial DNA is typically maternally inherited. Paternal inheritance would not explain why all children are at risk through the affected mother or why their mutant loads differ.",
+        "B": "Correct. During oogenesis and early development, mitochondrial genomes segregate through a bottleneck-like sampling process. Different oocytes and tissues can therefore receive different proportions of mutant and wild-type mtDNA, producing variable heteroplasmy among siblings.",
+        "C": "The table directly contradicts fixed 60% inheritance: the children range from 15% to 90% in blood and differ by tissue. Heteroplasmy is variable, not copied as a single uniform percentage.",
+        "D": "Heteroplasmy refers to coexistence of mutant and wild-type mitochondrial genomes within cells or tissues. It is not a statement about nuclear allele number."
+      },
+      "topic": "Mitochondrial Heteroplasmy",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_mito2_007",
+      "passage": null,
+      "stem": "Which family member best illustrates a threshold effect?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Child 1, because low muscle heteroplasmy is associated with no symptoms"
+        },
+        {
+          "label": "B",
+          "text": "The father, because he is not listed"
+        },
+        {
+          "label": "C",
+          "text": "Child 3, because high muscle heteroplasmy is associated with severe symptoms"
+        },
+        {
+          "label": "D",
+          "text": "Any individual, because heteroplasmy never affects phenotype"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Child 1 helps show that low heteroplasmy may remain below a disease threshold, but the clearest threshold-effect example is the severe phenotype at very high mutant load. The question asks for the best illustration among the listed data.",
+        "B": "The father is not informative for maternal mtDNA inheritance or threshold effects in this dataset. His absence from the table cannot illustrate a mutant-load threshold.",
+        "C": "Correct. Child 3 has 95% mutant mtDNA in muscle and severe symptoms, consistent with crossing a tissue-specific threshold where oxidative phosphorylation becomes insufficient. The comparison with Child 1 shows why mutant load matters.",
+        "D": "The passage and table show the opposite: higher heteroplasmy generally tracks with more severe symptoms. Threshold effects mean phenotype appears once mutant load exceeds tissue tolerance."
+      },
+      "topic": "Threshold Effects",
+      "difficulty": "Medium",
+      "passageRef": "bb_mito2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_mito2_008",
+      "passage": null,
+      "stem": "Why might muscle heteroplasmy predict symptoms better than blood heteroplasmy in this family?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Blood heteroplasmy is always exactly equal to brain heteroplasmy."
+        },
+        {
+          "label": "B",
+          "text": "Blood cells contain no mitochondria of any kind."
+        },
+        {
+          "label": "C",
+          "text": "Muscle DNA is inherited paternally."
+        },
+        {
+          "label": "D",
+          "text": "Muscle has high ATP demand and is directly involved in the exercise-intolerance phenotype."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Heteroplasmy can differ across tissues. Blood, muscle, and nervous tissue may have different mutant loads, which is why clinical interpretation often requires attention to affected tissues.",
+        "B": "Mature red blood cells lack mitochondria, but blood samples include leukocytes and other nucleated cells that can contain mtDNA. The table reports blood heteroplasmy, so saying blood has no mitochondrial information is too broad.",
+        "C": "Muscle mitochondrial DNA is maternally inherited like mtDNA in other tissues. Tissue differences arise from segregation and selection, not paternal inheritance in muscle.",
+        "D": "Correct. Muscle depends heavily on oxidative phosphorylation during exercise, so mutant load in muscle is closely tied to exercise intolerance and lactic acidosis. Blood heteroplasmy is easier to sample but may not match the affected tissue."
+      },
+      "topic": "Tissue-Specific Energy Demand",
+      "difficulty": "Medium",
+      "passageRef": "bb_mito2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_mito2_009",
+      "passage": null,
+      "stem": "The lactic acidosis in affected individuals most directly reflects:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "complete absence of glycolysis in all cells."
+        },
+        {
+          "label": "B",
+          "text": "increased reliance on anaerobic glycolysis when oxidative phosphorylation is impaired."
+        },
+        {
+          "label": "C",
+          "text": "excess mitochondrial ATP production in muscle."
+        },
+        {
+          "label": "D",
+          "text": "conversion of lactate into mitochondrial DNA."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Glycolysis is increased, not absent, when mitochondrial ATP production is impaired. Cells use glycolysis as a compensatory ATP source.",
+        "B": "Correct. When oxidative phosphorylation cannot meet ATP demand, cells rely more on glycolysis, regenerating NAD\u207a by reducing pyruvate to lactate. Accumulated lactate contributes to metabolic acidosis, especially during exertion.",
+        "C": "The disorder reflects inadequate respiratory-chain ATP production, not excess mitochondrial ATP. High ATP production would not explain exercise intolerance or lactate accumulation.",
+        "D": "Lactate is a metabolic product, not a precursor converted into mtDNA. This option confuses energy metabolism with genome replication."
+      },
+      "topic": "Lactic Acidosis",
+      "difficulty": "Medium",
+      "passageRef": "bb_mito2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_mito2_010",
+      "passage": null,
+      "stem": "Which counseling statement is most consistent with the inheritance pattern described?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "An affected mother can transmit the mtDNA variant to children of any sex, but only daughters typically pass it to the next generation."
+        },
+        {
+          "label": "B",
+          "text": "Only sons can inherit mitochondrial DNA variants."
+        },
+        {
+          "label": "C",
+          "text": "Affected fathers transmit mtDNA variants to all daughters."
+        },
+        {
+          "label": "D",
+          "text": "Mitochondrial variants follow Mendelian autosomal recessive ratios exactly."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. mtDNA is typically inherited from the mother, so an affected mother can pass variants to sons and daughters. However, sons generally do not transmit mtDNA to their children, whereas daughters can transmit it to the next generation.",
+        "B": "Both sons and daughters can inherit mtDNA from their mother. Sex affects onward transmission more than initial inheritance from the mother.",
+        "C": "This describes an X-linked-style intuition, not mitochondrial inheritance. Fathers generally do not transmit mtDNA variants to children because sperm mitochondria are not the usual source of embryonic mitochondria.",
+        "D": "Mitochondrial inheritance does not follow exact autosomal recessive Mendelian ratios. Heteroplasmy, bottleneck effects, and tissue thresholds create variable expression among maternal relatives."
+      },
+      "topic": "Maternal Inheritance",
+      "difficulty": "Hard",
+      "passageRef": "bb_mito2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

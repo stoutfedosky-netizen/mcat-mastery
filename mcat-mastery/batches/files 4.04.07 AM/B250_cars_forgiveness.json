@@ -1,0 +1,246 @@
+{
+  "batch": "B250",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Philosophy of Forgiveness, Its Conditions & the Question of Standing",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_forgiveness_250_q0",
+      "passage": "At the sentencing hearing, before the judge has spoken, the victim's sister rises and announces that she forgives the defendant. The room exhales; editorials the next morning call the statement grace. A smaller number of observers report a different reaction, harder to voice without seeming churlish: unease. Was the forgiveness hers to give, when the person wronged is not in the room to give it? Did it come too quickly to be more than a performance of virtue? And did its public staging place a quiet demand on every future victim who declines to match it? The applause and the unease together mark forgiveness as a concept under more strain than its reputation suggests.\n\nStart with what forgiveness is not, since the concept lives in a crowded neighborhood. To excuse an act is to deny full responsibility, he could not have known; to justify it is to deny that it was wrong, anyone would have done the same; to forget is merely to lose the grievance rather than to address it. Forgiveness is stranger than any of these: it affirms that the act was wrong, that the actor was responsible, and that resentment would be warranted, and then forswears the resentment anyway. Its paradoxical texture comes from holding the judgment while releasing the response the judgment licenses.\n\nOne tradition insists that this release must be earned. Forgiveness, on this view, properly answers repentance: the wrongdoer's acknowledgment, remorse, and repair are what make forgiving something other than condoning. To forgive the unrepentant is to announce that the wrong did not finally matter, which insults the victim, including oneself, and cheapens the moral standard the wrong violated. Withheld forgiveness, far from being a failure of charity, can be a form of protest, the sustained assertion that what happened was not acceptable and remains not accepted.\n\nThe opposing tradition finds this picture too transactional. Forgiveness that waits upon repentance is a receipt, issued when the account is settled, and it chains the victim's inner life to the wrongdoer's schedule: the offender who never repents thereby retains permanent tenancy in the victim's resentment. Unconditional forgiveness, on this account, is not condonation but liberation, the victim's refusal to let the wrong keep dictating terms. Yet this tradition has its own modern deformation. Repackaged as self-care, forgiveness becomes a wellness technique, and the pressure to heal converts a gift the victim may give into a task the victim has failed if she does not give it quickly. A culture that hurries its victims toward closure has confused their peace with its own comfort.\n\nThe sister's announcement raises a further question the traditions share: standing. Forgiveness seems to belong to the wronged; my forgiving an insult delivered to you has an air of impertinence, and the gravest cases make the point sharply, since the person most wronged may be beyond forgiving. Third parties can forgive wrongs done to them in the ripple, the sister may forgive the grief inflicted on her, but the core offense may be, strictly, unforgivable by anyone still living. Collective versions stretch the concept further: officials apologize for institutions, descendants receive apologies for ancestors, and whatever such ceremonies accomplish, reconciliation, acknowledgment, settlement, it is worth asking whether forgiveness is the accurate name for a transaction between parties neither of whom was there.\n\nInstitutions have nonetheless tried to build forgiveness into procedure, most visibly in commissions that trade truthful confession for amnesty. The bargains have real achievements to their name, testimony that would otherwise have died with its holders, transitions that might otherwise have burned. But proceduralized forgiveness runs a characteristic risk: the script assigns the victim her part, and a hearing that expects absolution converts refusal into obstruction. Forgiveness commanded, scheduled, or structurally presumed is no longer the thing itself, since the release must be free to be given at all, and a process that cannot survive the victim's no was never really asking.\n\nWhat the concept seems to require, in the end, is exactly what makes it rare: a release that is neither owed, since owed forgiveness collapses into settlement, nor extracted, since extracted forgiveness collapses into performance, but given, if at all, on the victim's own calendar and terms. The sister's statement may have been precisely that, the fruit of a private reckoning the courtroom merely witnessed, or it may have been the reckoning's substitute. The words are identical in either case, which is the unsettling point: forgiveness is one of the few moral acts whose authenticity is invisible from the outside, and the audiences that applaud it, like the institutions that schedule it, are always at some risk of praising the costume.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The victim's sister acted improperly at the sentencing hearing and should have remained silent."
+        },
+        {
+          "label": "B",
+          "text": "Forgiveness affirms wrongdoing and responsibility while forswearing warranted resentment, and its integrity is threatened from several directions, by transactional conditions, by therapeutic and institutional pressure, and by questions of standing, since a release that is owed or extracted is no longer forgiveness."
+        },
+        {
+          "label": "C",
+          "text": "Unconditional forgiveness is superior to conditional forgiveness because it liberates victims from their offenders' schedules."
+        },
+        {
+          "label": "D",
+          "text": "Truth commissions have proven that forgiveness can be successfully institutionalized without cost."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice resolves the opening case in a direction the passage deliberately leaves open. The final paragraph states the statement may have been the fruit of a private reckoning or its substitute, and that the words are identical in either case; no verdict on the sister's propriety is delivered.",
+        "B": "Correct. The passage defines forgiveness against excuse, justification, and forgetting, then tracks the threats to its integrity: the conditional tradition risks turning it into a settled receipt, the unconditional tradition's therapeutic deformation converts a gift into a task, standing problems limit who may give it, and proceduralized versions cannot survive the victim's refusal, yielding the conclusion that forgiveness must be neither owed nor extracted.",
+        "C": "This choice awards victory to one tradition in a dispute the passage stages without adjudicating. The unconditional view's liberation argument is presented alongside its own modern deformation, the wellness pressure that hurries victims toward closure, so the passage credits and criticizes both traditions rather than ranking them.",
+        "D": "This choice erases the sixth paragraph's central caution. The commissions are credited with real achievements, testimony preserved, transitions managed, but the paragraph insists that scripted absolution converts refusal into obstruction and that a process which cannot survive the victim's no was never really asking, which is a substantial cost."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_forgiveness_250_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the fifth paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "resolve the dispute between the conditional and unconditional traditions in favor of the former."
+        },
+        {
+          "label": "B",
+          "text": "argue that collective apologies between officials and descendants are morally worthless."
+        },
+        {
+          "label": "C",
+          "text": "introduce the problem of standing, who may forgive a given wrong, and press it from individual cases to collective ceremonies where neither party to the exchange was present for the offense."
+        },
+        {
+          "label": "D",
+          "text": "explain the procedural design of truth commissions."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice assigns the paragraph an adjudicating role it does not play. The paragraph explicitly raises a question the traditions share, setting the conditional-unconditional dispute aside to examine who has authority to forgive at all, which cuts across both positions.",
+        "B": "This choice sharpens the paragraph's genuine skepticism into a dismissal it avoids. The passage allows that collective ceremonies may accomplish reconciliation, acknowledgment, or settlement, and asks only whether forgiveness is the accurate name for the transaction, a conceptual question rather than a verdict of worthlessness.",
+        "C": "Correct. The paragraph opens with the sister's announcement raising the question of standing, establishes that forgiveness seems to belong to the wronged, distinguishes what third parties can forgive, the ripple, from the core offense that may be unforgivable by anyone living, and then stretches the problem to institutional apologies and ancestral wrongs, asking whether the concept still applies.",
+        "D": "This choice confuses the paragraph with its successor. Truth commissions and their confession-for-amnesty structure are the sixth paragraph's subject; the fifth is occupied with the prior question of who possesses the authority to forgive."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_forgiveness_250_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to the second paragraph, forgiveness differs from excusing and justifying in that forgiveness:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "denies that the actor bore full responsibility for the act."
+        },
+        {
+          "label": "B",
+          "text": "requires that the memory of the wrong eventually fade."
+        },
+        {
+          "label": "C",
+          "text": "asserts that the act, viewed in context, was not actually wrong."
+        },
+        {
+          "label": "D",
+          "text": "maintains the judgments that the act was wrong and the actor responsible while forswearing the resentment those judgments would license."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice describes excusing, which the paragraph defines precisely as denying full responsibility, he could not have known. Forgiveness, by contrast, affirms responsibility as one of the judgments it holds while releasing the response.",
+        "B": "This choice describes forgetting, which the paragraph distinguishes as merely losing the grievance rather than addressing it. Forgiveness addresses the wrong directly, holding the judgment in view, which is compatible with the memory persisting indefinitely.",
+        "C": "This choice describes justifying, defined in the paragraph as denying that the act was wrong, anyone would have done the same. Forgiveness affirms the wrongness; that affirmation is half of what gives the concept its paradoxical texture.",
+        "D": "Correct. The paragraph states that forgiveness affirms that the act was wrong, that the actor was responsible, and that resentment would be warranted, and then forswears the resentment anyway, locating its strangeness in holding the judgment while releasing the response the judgment licenses, which is exactly what separates it from excuse, justification, and forgetting."
+      },
+      "topic": "Categorization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_forgiveness_250_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward the repackaging of forgiveness as a wellness technique is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "critical, holding that the pressure to heal converts a gift the victim may give into a task she has failed by withholding, serving the culture's comfort rather than her peace."
+        },
+        {
+          "label": "B",
+          "text": "approving, since anything that encourages victims to release resentment sooner serves their interests."
+        },
+        {
+          "label": "C",
+          "text": "neutral, since the passage merely reports the therapeutic framing without evaluation."
+        },
+        {
+          "label": "D",
+          "text": "dismissive of the unconditional tradition entirely because of its therapeutic offshoot."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The fourth paragraph labels the therapeutic repackaging a deformation, describes the conversion of gift into task with the victim positioned as having failed if she does not give it quickly, and closes with the pointed charge that a culture hurrying its victims toward closure has confused their peace with its own comfort, an unmistakably critical assessment.",
+        "B": "This choice endorses exactly the haste the paragraph condemns. The passage's complaint is that the wellness framing pressures victims onto a schedule, and the final paragraph insists forgiveness be given, if at all, on the victim's own calendar and terms.",
+        "C": "This choice misses the evaluative vocabulary saturating the paragraph. Words like deformation, pressure, and the accusation of confusing victims' peace with cultural comfort are judgments, not neutral reportage of a framing.",
+        "D": "This choice punishes the tradition for its offshoot in a way the passage does not. The unconditional view's liberation argument, freeing the victim from the offender's schedule, is presented respectfully before the deformation is identified; the criticism targets the repackaging, not the tradition's core claim."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_forgiveness_250_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A company's mediation program requires that harassment complaints conclude with a reconciliation session in which the complainant is asked to state acceptance of the offender's apology; complainants who decline are recorded as unwilling to participate in resolution. Based on the sixth paragraph, the author would most likely object that the program:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "errs only in allowing offenders to apologize before the investigation concludes."
+        },
+        {
+          "label": "B",
+          "text": "correctly recognizes that institutional settings require forgiveness to be scheduled in advance."
+        },
+        {
+          "label": "C",
+          "text": "structurally presumes absolution and converts the complainant's refusal into obstruction, and a process that cannot survive the victim's no was never really asking."
+        },
+        {
+          "label": "D",
+          "text": "should replace the reconciliation session with a public ceremony to give the acceptance more weight."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice locates the flaw in sequencing, as though timing the apology later would cure the program. The sixth paragraph's objection is structural: the script assigns the victim her part regardless of when the apology arrives, and the recorded penalty for declining is what converts the release into an extraction.",
+        "B": "This choice affirms what the paragraph denies. Forgiveness commanded, scheduled, or structurally presumed is declared no longer the thing itself, because the release must be free to be given at all; institutional convenience does not alter that requirement.",
+        "C": "Correct. The program mirrors the proceduralized forgiveness the sixth paragraph analyzes: the session expects absolution, the complainant is assigned her part, and declining is recorded as unwillingness to resolve, exactly the conversion of refusal into obstruction that the passage says reveals the process was never really asking.",
+        "D": "This choice intensifies the defect it should cure. The opening paragraph already flags the pressure that public staging places on victims, and a ceremony would add audience expectation to structural presumption, moving further from a release given on the victim's own calendar and terms."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_forgiveness_250_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the conditional tradition's claim, presented in the third paragraph, that forgiving the unrepentant announces that the wrong did not finally matter?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Extensive case documentation of victims who forgave unrepentant offenders while simultaneously and durably maintaining public protest, pursuit of accountability, and explicit condemnation of the acts, with observers and offenders alike reporting that the wrongs' seriousness was communicated undiminished."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that most offenders who receive forgiveness eventually express remorse."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that victims who withhold forgiveness report higher levels of sustained anger."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that public announcements of forgiveness receive extensive media coverage."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The conditional claim is that unconditional forgiveness necessarily condones, announcing the wrong did not matter. Documented cases in which victims forgave the unrepentant while durably maintaining protest, accountability, and condemnation, with the wrongs' seriousness communicated undiminished, would show release of resentment and assertion of the wrong's gravity coexisting, breaking the inference from forgiveness to condonation.",
+        "B": "This choice describes remorse arriving after forgiveness, which if anything comports with the conditional tradition's emphasis on repentance while leaving untouched its claim about what forgiving the still-unrepentant announces at the time.",
+        "C": "This choice reports an emotional cost of withholding, which supports the unconditional tradition's liberation argument but does not address the conditional claim at issue, namely whether forgiving the unrepentant communicates that the wrong did not matter.",
+        "D": "This choice measures publicity, which relates to the opening paragraph's staging concern rather than to the conceptual link between unconditional forgiveness and condonation that the question asks about."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_forgiveness_250_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the final paragraph's claim that the authenticity of forgiveness is invisible from the outside?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that forgiveness statements at sentencing hearings have become more common over time."
+        },
+        {
+          "label": "B",
+          "text": "Studies finding that trained observers, judges, clinicians, and close acquaintances, performed no better than chance when asked to distinguish, from testimony, demeanor, and wording, declared forgiveness that the declarers privately affirmed from declared forgiveness they privately disavowed, even with extended observation."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that victims often consult family members before making public statements."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that audiences applaud forgiveness statements more loudly than expressions of grief."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice tracks the frequency of public declarations, which bears on the staging pressures the passage discusses elsewhere but says nothing about whether genuine and performed forgiveness can be told apart by observers.",
+        "B": "Correct. The claim is that the words are identical whether the statement is the fruit of a private reckoning or its substitute, making authenticity invisible from outside. Studies in which even trained and intimate observers cannot beat chance at separating privately affirmed from privately disavowed declarations, despite extended observation, would demonstrate that invisibility empirically and at its strongest.",
+        "C": "This choice describes deliberation before speaking, which could accompany either authentic or performed forgiveness and therefore provides no evidence about whether the difference is externally detectable.",
+        "D": "This choice measures audience enthusiasm, which the final paragraph treats as part of the problem, applause at risk of praising the costume, rather than as evidence about observers' ability to detect what lies beneath it."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

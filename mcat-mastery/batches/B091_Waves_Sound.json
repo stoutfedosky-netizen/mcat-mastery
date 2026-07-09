@@ -1,0 +1,338 @@
+{
+  "batch": "B091",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Waves & Sound",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_waves_001",
+      "passage": "A physics student studies wave phenomena. She generates a sound wave with frequency f = 500 Hz traveling through air (v = 340 m/s). She measures wavelength, studies the Doppler effect when a source moves toward and away from a stationary observer, and examines standing waves on a string and in open/closed pipes. She also reviews the decibel scale, interference patterns, and how ultrasound is used in medical imaging.",
+      "stem": "The wavelength of the 500 Hz sound wave in air (v = 340 m/s) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.68 m — from λ = v/f = 340/500 = 0.68 m"
+        },
+        {
+          "label": "B",
+          "text": "170,000 m"
+        },
+        {
+          "label": "C",
+          "text": "500 m"
+        },
+        {
+          "label": "D",
+          "text": "340 m"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The wave equation v = fλ relates speed, frequency, and wavelength. Solving for wavelength: λ = v/f = 340 m/s ÷ 500 Hz = 0.68 m = 68 cm. This is within the audible range (humans hear ~20 Hz - 20,000 Hz, corresponding to wavelengths ~17 m to 1.7 cm in air). Higher frequency = shorter wavelength at the same speed. This relationship applies to all waves (sound, light, water), though speeds differ by medium.",
+        "B": "170,000 results from multiplying v × f (340 × 500), which is dimensionally incorrect for wavelength. λ = v/f (division, not multiplication).",
+        "C": "500 m confuses frequency (500 Hz) with wavelength. Frequency and wavelength are different quantities with different units.",
+        "D": "340 m confuses the speed of sound with the wavelength. Speed is constant in a given medium; wavelength varies with frequency."
+      },
+      "topic": "Wave Equation / λ = v/f",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_waves_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "When the sound source moves toward a stationary observer (Doppler effect), the observer perceives:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a lower frequency (lower pitch) because the waves spread out"
+        },
+        {
+          "label": "B",
+          "text": "a higher frequency (higher pitch) — the source catches up to previously emitted wavefronts, compressing the wavelength and increasing the frequency perceived by the observer"
+        },
+        {
+          "label": "C",
+          "text": "the same frequency regardless of motion"
+        },
+        {
+          "label": "D",
+          "text": "no sound at all"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. When a sound source approaches, each successive wavefront is emitted from a position closer to the observer, compressing the distance between wavefronts (shorter wavelength, higher frequency). The Doppler equation for a moving source/stationary observer: f_observed = f_source × v/(v - v_source), where v_source is positive toward the observer. For a source moving away: f_observed = f_source × v/(v + v_source) — lower frequency. Medical application: Doppler ultrasound measures blood flow velocity by detecting frequency shifts of reflected ultrasound waves from moving red blood cells.",
+        "A": "Approaching sources produce higher frequency, not lower. Lower frequency (longer wavelength) is perceived when the source moves away from the observer.",
+        "C": "Relative motion between source and observer always produces a frequency shift. The only way frequency is unchanged is if there is no relative motion along the line connecting them.",
+        "D": "Sound is still transmitted — only its perceived frequency changes. The Doppler effect alters frequency, not the ability to detect the wave."
+      },
+      "topic": "Doppler Effect / Frequency Shift",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_waves_003",
+      "passage": null,
+      "stem": "The intensity of sound is measured in decibels (dB). An increase of 10 dB corresponds to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a 10-fold increase in sound intensity, often perceived approximately as a doubling of loudness — the decibel scale is logarithmic: β = 10 log(I/I₀)"
+        },
+        {
+          "label": "B",
+          "text": "a doubling of intensity"
+        },
+        {
+          "label": "C",
+          "text": "a halving of intensity"
+        },
+        {
+          "label": "D",
+          "text": "no perceptible change in loudness"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The decibel scale: β = 10 log₁₀(I/I₀), where I₀ = 10⁻¹² W/m² (threshold of hearing). Each 10 dB increase represents a 10-fold increase in intensity (10 log(10) = 10). Perceptually, a 10 dB increase is perceived as approximately a doubling of loudness. Important reference points: 0 dB = threshold of hearing, 60 dB = normal conversation, 85 dB = prolonged exposure causes hearing damage, 120 dB = threshold of pain, 140 dB = jet engine. Because the scale is logarithmic, it compresses the enormous range of human hearing (10⁻¹² to 10⁰ W/m² = 12 orders of magnitude).",
+        "B": "A doubling of intensity corresponds to an increase of ~3 dB (10 log(2) = 3.01), not 10 dB. The logarithmic scale means intensity doubles are much smaller than 10 dB.",
+        "C": "A halving of intensity is a decrease of ~3 dB, not an increase of 10 dB.",
+        "D": "A 10 dB change is clearly perceptible — it sounds approximately twice as loud. Even 1 dB changes can be detected under ideal conditions."
+      },
+      "topic": "Decibel Scale / Sound Intensity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_waves_004",
+      "passage": null,
+      "stem": "Constructive interference occurs when two waves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "meet completely out of phase (crest meets trough), canceling each other"
+        },
+        {
+          "label": "B",
+          "text": "have different frequencies and cannot interact"
+        },
+        {
+          "label": "C",
+          "text": "meet in phase (crest meets crest), and their amplitudes add together to produce a wave with greater amplitude"
+        },
+        {
+          "label": "D",
+          "text": "travel in the same direction at different speeds"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Constructive interference: when two waves are in phase (phase difference = 0° or multiples of 360°), their displacements add (superposition principle), producing a resultant wave with amplitude equal to the sum of the individual amplitudes. For two identical waves: A_total = 2A. Constructive interference occurs when the path length difference between two sources is an integer multiple of the wavelength (nλ). This principle applies to all wave types — sound, light, water.",
+        "A": "Crest meeting trough (180° out of phase) describes destructive interference, where amplitudes subtract. For two identical waves completely out of phase, the result is zero amplitude (complete cancellation).",
+        "B": "Waves of different frequencies can interact — they produce beats (periodic amplitude variation at the beat frequency f_beat = |f₁ - f₂|). Waves do not need identical frequencies to interfere.",
+        "D": "Waves traveling in the same direction at different speeds describes dispersion (different velocities for different wavelengths), not constructive interference. Interference requires waves to overlap in space."
+      },
+      "topic": "Constructive Interference / Superposition",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_waves_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In a pipe that is closed at one end and open at the other, only odd harmonics are present. The fundamental frequency has a wavelength equal to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2L (twice the length of the pipe)"
+        },
+        {
+          "label": "B",
+          "text": "L (the length of the pipe)"
+        },
+        {
+          "label": "C",
+          "text": "L/2 (half the length)"
+        },
+        {
+          "label": "D",
+          "text": "4L — the closed end is a displacement node and the open end is a displacement antinode, so the fundamental fits one quarter wavelength in the pipe: L = λ/4, so λ = 4L"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. In a closed pipe, the closed end must be a node (zero displacement — air cannot move at a rigid boundary) and the open end must be an antinode (maximum displacement). The simplest standing wave fitting these conditions is one quarter wavelength: L = λ₁/4 → λ₁ = 4L. Only odd harmonics are possible: f₁ = v/4L, f₃ = 3v/4L, f₅ = 5v/4L (no even harmonics, because even harmonics would require a node or antinode pattern incompatible with the boundary conditions). This gives closed pipes their distinctive, hollow timbre.",
+        "A": "2L is the fundamental wavelength for a pipe open at both ends (or a string fixed at both ends), where L = λ/2. This boundary condition allows both even and odd harmonics.",
+        "B": "L would make L = λ, fitting one full wavelength — this is the second harmonic of an open pipe, not the fundamental of a closed pipe.",
+        "C": "L/2 would make L = λ/2, fitting half a wavelength — this is the fundamental for an open pipe. Closed pipes have longer fundamental wavelengths (λ = 4L vs 2L)."
+      },
+      "topic": "Standing Waves / Closed Pipe Harmonics",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_waves_006",
+      "passage": null,
+      "stem": "Ultrasound used in medical imaging has a frequency:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "below 20 Hz (infrasound)"
+        },
+        {
+          "label": "B",
+          "text": "between 20 Hz and 20,000 Hz (audible range)"
+        },
+        {
+          "label": "C",
+          "text": "above 20,000 Hz (above human hearing) — typically 1-20 MHz for medical applications, providing high spatial resolution for imaging internal structures"
+        },
+        {
+          "label": "D",
+          "text": "of exactly 500 Hz"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Ultrasound = frequencies above human hearing (>20 kHz). Medical ultrasound typically uses 1-20 MHz. Higher frequencies provide better resolution (shorter wavelength → finer detail) but less penetration depth (higher absorption). Applications: obstetric imaging (fetal development), cardiac echocardiography, abdominal imaging, Doppler blood flow measurement, and guided biopsies. Ultrasound works by pulse-echo: short pulses are emitted, reflected at tissue boundaries (impedance mismatches), and the return time and intensity reveal depth and tissue type.",
+        "A": "Infrasound (<20 Hz) is below human hearing. It is produced by earthquakes, volcanic eruptions, and large machinery. It is not used for medical imaging.",
+        "B": "The audible range (20 Hz - 20 kHz) is sound we can hear. Medical imaging uses frequencies well above this range to achieve the short wavelengths needed for resolution.",
+        "D": "500 Hz is within the audible range and would have a wavelength of ~0.68 m in air — far too long for medical imaging resolution."
+      },
+      "topic": "Ultrasound / Medical Imaging",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_waves_007",
+      "passage": null,
+      "stem": "The speed of sound is fastest in:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "steel (~5000 m/s) — solids have the highest elastic modulus, allowing sound waves to propagate fastest through tightly coupled particles"
+        },
+        {
+          "label": "B",
+          "text": "air at room temperature (~340 m/s)"
+        },
+        {
+          "label": "C",
+          "text": "water (~1500 m/s) — faster than air because of water's greater density and elastic modulus"
+        },
+        {
+          "label": "D",
+          "text": "a vacuum, where nothing impedes propagation"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "D": "Sound cannot travel through a vacuum. It requires a medium (gas, liquid, or solid) because it is a mechanical wave — it propagates through particle vibrations, not electromagnetic fields. This distinguishes sound from light.",
+        "A": "Correct. Sound speed depends on the medium: v = √(elastic modulus / density). Solids have the highest elastic modulus (stiffness) relative to density, making sound travel fastest. General order: solids > liquids > gases (steel ~5000 m/s > water ~1500 m/s > air ~340 m/s). Sound requires a material medium (particles to vibrate) — it cannot travel through a vacuum. Temperature also affects speed: in air, v ≈ 331 + 0.6T (°C) m/s.",
+        "B": "Air has the slowest sound speed among common media because it has the lowest elastic modulus and density. While 340 m/s seems fast, it is much slower than in liquids or solids.",
+        "C": "Water is intermediate (~1500 m/s) — faster than air but slower than most solids. The higher density and elastic modulus of water compared to air explain the faster speed."
+      },
+      "topic": "Speed of Sound / Medium Dependence",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_waves_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Two speakers emit identical 500 Hz sound waves. At a point equidistant from both speakers, the listener hears:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "destructive interference and silence"
+        },
+        {
+          "label": "B",
+          "text": "constructive interference — maximum loudness — because the path lengths are equal, the waves arrive in phase (path difference = 0 = 0λ)"
+        },
+        {
+          "label": "C",
+          "text": "no sound at all because the waves cancel completely at all points"
+        },
+        {
+          "label": "D",
+          "text": "a different frequency than 500 Hz"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. At a point equidistant from both speakers, the path difference is zero. Both waves arrive with identical phase, producing constructive interference — the amplitudes add, giving maximum loudness (A_total = 2A). Destructive interference occurs at points where the path difference is an odd multiple of half-wavelength (λ/2, 3λ/2, etc.), creating nodes of minimum intensity. The interference pattern creates alternating regions of loud and quiet sound.",
+        "A": "Destructive interference requires a path difference of (n + ½)λ. At the equidistant point, path difference = 0, so interference is constructive.",
+        "C": "Waves cancel only at specific locations where destructive interference occurs (path difference = odd multiples of λ/2), not at all points. At the equidistant point, they reinforce.",
+        "D": "Interference of two waves at the same frequency produces the same frequency at the observation point — only amplitude varies. Different frequencies would be heard as beats (f_beat = |f₁ - f₂|), but the waves are identical."
+      },
+      "topic": "Interference Pattern / Path Difference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_waves_009",
+      "passage": null,
+      "stem": "A transverse wave differs from a longitudinal wave in that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "transverse waves cannot travel through any medium"
+        },
+        {
+          "label": "B",
+          "text": "longitudinal waves have no frequency"
+        },
+        {
+          "label": "C",
+          "text": "in transverse waves, particle displacement is perpendicular to wave propagation — light and waves on a string are transverse; sound is longitudinal (displacement parallel to propagation)"
+        },
+        {
+          "label": "D",
+          "text": "transverse and longitudinal waves are identical"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Transverse waves: particle oscillation is perpendicular to the direction of energy propagation (examples: light/electromagnetic waves, waves on a string, surface water waves). Longitudinal waves: particle oscillation is parallel to propagation (examples: sound waves, pressure waves, P-waves in earthquakes). Sound in air creates alternating compressions and rarefactions along the direction of travel. Light can be polarized (transverse only); sound cannot (longitudinal only). Some waves (surface water waves) have both transverse and longitudinal components.",
+        "A": "Transverse waves travel through many media — strings, surfaces, and even vacuum (electromagnetic waves). They cannot, however, travel through the bulk of fluids (liquids and gases support longitudinal but not transverse waves in their interior).",
+        "B": "Both transverse and longitudinal waves have frequency, wavelength, amplitude, and speed. These are universal wave properties independent of wave type.",
+        "D": "They are fundamentally different in the direction of particle displacement relative to propagation."
+      },
+      "topic": "Transverse vs Longitudinal Waves",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_waves_010",
+      "passage": null,
+      "stem": "Beats are produced when two waves of slightly different frequencies interfere. The beat frequency is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the sum of the two frequencies: f_beat = f₁ + f₂"
+        },
+        {
+          "label": "B",
+          "text": "the product of the two frequencies"
+        },
+        {
+          "label": "C",
+          "text": "always zero regardless of frequency difference"
+        },
+        {
+          "label": "D",
+          "text": "the absolute difference: f_beat = |f₁ - f₂| — the listener hears periodic amplitude fluctuations at this rate"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. When two waves of similar frequencies f₁ and f₂ superimpose, the resultant wave has a frequency equal to the average (f₁+f₂)/2 and an amplitude that oscillates at the beat frequency f_beat = |f₁-f₂|. For example, two tuning forks at 440 Hz and 442 Hz produce 2 beats per second — the sound gets louder and softer twice per second. Musicians use beats to tune instruments: when two notes are perfectly in tune, the beat frequency is zero (no oscillation). Beats are an audible manifestation of alternating constructive and destructive interference.",
+        "A": "The sum of frequencies does not produce beats. The beat frequency is the difference, not the sum. The sum divided by two gives the average perceived pitch.",
+        "B": "The product of frequencies has no physical meaning in the context of wave interference or beats.",
+        "C": "Beat frequency is zero only when f₁ = f₂ (identical frequencies). When frequencies differ, the beat frequency equals their absolute difference."
+      },
+      "topic": "Beats / Frequency Difference",
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "batch": "B174",
+  "section": "bb",
+  "sectionName": "Biological and Biochemical Foundations of Living Systems",
+  "topicArea": "GPCR Signal Transduction / Cell Cycle Control and Tumor Suppressors",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "B174_Q0",
+      "passage": "A pharmacology research group investigated the signaling cascade downstream of the β₁-adrenergic receptor (β₁-AR), a G protein-coupled receptor expressed predominantly in cardiac myocytes. Binding of norepinephrine to β₁-AR activates the stimulatory G protein (Gαs), which stimulates adenylyl cyclase to convert ATP to cyclic AMP (cAMP). The resulting increase in cAMP activates protein kinase A (PKA), which phosphorylates multiple targets involved in cardiac contractility.\n\nThe researchers measured intracellular cAMP concentration, PKA activity, and calcium transient amplitude in isolated rat ventricular cardiomyocytes under five conditions.\n\nCondition | Treatment | cAMP (pmol/mg) | PKA activity (fold) | Ca²⁺ transient (fold)\n1 | No drug (baseline) | 2.1 | 1.0 | 1.0\n2 | 1 μM norepinephrine | 8.4 | 3.8 | 2.6\n3 | 1 μM norepinephrine + 10 μM propranolol | 2.3 | 1.1 | 1.1\n4 | 1 μM norepinephrine + 100 μM IBMX | 14.2 | 5.6 | 3.8\n5 | 10 μM forskolin | 11.6 | 4.9 | 3.2\n\nPropranolol is a β-adrenergic antagonist. IBMX is a nonselective phosphodiesterase inhibitor. Forskolin is a direct activator of adenylyl cyclase that does not require receptor or G protein activation.",
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": false,
+      "stem": "The data from Condition 3 demonstrate that propranolol prevents norepinephrine-stimulated signaling by:",
+      "choices": {
+        "A": "directly activating phosphodiesterase, thereby accelerating cAMP hydrolysis to 5'-AMP",
+        "B": "competitively blocking norepinephrine binding at β₁-AR, preventing Gαs activation and downstream cAMP production",
+        "C": "binding to the catalytic subunit of PKA, inhibiting its kinase activity independently of cAMP levels",
+        "D": "activating the inhibitory G protein Gαi, which directly opposes adenylyl cyclase stimulation by Gαs"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Propranolol is classified as a β-adrenergic receptor antagonist, not a phosphodiesterase activator. If propranolol activated phosphodiesterase, cAMP produced by forskolin in Condition 5 would also be affected, but the passage identifies IBMX as the phosphodiesterase inhibitor and propranolol as the receptor blocker. The near-baseline cAMP in Condition 3 indicates that cAMP production was prevented, not that its degradation was accelerated.",
+        "B": "As a competitive β-adrenergic antagonist, propranolol binds the ligand-binding site of β₁-AR without activating it, preventing norepinephrine from engaging the receptor. Without receptor activation, Gαs remains GDP-bound and inactive, adenylyl cyclase is not stimulated, and cAMP levels remain near baseline. The data confirm this: Condition 3 shows cAMP, PKA activity, and calcium transients all near baseline values despite the presence of norepinephrine, consistent with receptor-level blockade.",
+        "C": "If propranolol directly inhibited PKA, cAMP levels would still rise in Condition 3 because receptor activation and adenylyl cyclase stimulation would proceed normally. The data show that cAMP itself remains at baseline (2.3 pmol/mg), indicating the blockade occurs upstream of cAMP production at the receptor level, not downstream at the kinase level.",
+        "D": "Propranolol is not a Gαi agonist. It functions by occupying the β₁-AR binding site without triggering receptor activation. Gαi-mediated inhibition of adenylyl cyclase is associated with different receptor subtypes (such as muscarinic M₂ receptors) and is mechanistically distinct from competitive receptor antagonism."
+      },
+      "topic": "GPCR antagonism mechanism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B174_Q1",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The elevated cAMP levels in Condition 4 compared to Condition 2, despite identical norepinephrine concentrations, are best explained by IBMX:",
+      "choices": {
+        "A": "increasing the catalytic rate of adenylyl cyclase, producing cAMP faster",
+        "B": "acting as a partial agonist at β₁-AR, providing additional receptor stimulation",
+        "C": "inhibiting phosphodiesterase, which reduces the rate of cAMP hydrolysis and allows cAMP to accumulate to higher steady-state levels",
+        "D": "directly activating Gαs independently of receptor binding"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "IBMX is identified in the passage as a phosphodiesterase inhibitor, not an adenylyl cyclase activator. Forskolin (Condition 5) is the agent that directly activates adenylyl cyclase. IBMX works on the degradation side of the cAMP balance, not the synthesis side.",
+        "B": "IBMX does not bind β₁-AR and has no agonist activity at adrenergic receptors. Its pharmacological target is phosphodiesterase, the enzyme responsible for hydrolyzing cAMP to 5'-AMP. The passage explicitly describes IBMX as a nonselective phosphodiesterase inhibitor.",
+        "C": "Intracellular cAMP concentration reflects the balance between synthesis by adenylyl cyclase and degradation by phosphodiesterase. In Condition 2, norepinephrine stimulates cAMP production, but phosphodiesterase continuously hydrolyzes cAMP, limiting its accumulation. In Condition 4, IBMX blocks phosphodiesterase while norepinephrine maintains the same rate of cAMP synthesis. With degradation impaired, cAMP accumulates to a higher steady-state concentration (14.2 vs 8.4 pmol/mg), producing greater downstream PKA activation and larger calcium transients.",
+        "D": "IBMX does not interact with G proteins. Gαs is activated through receptor-mediated GDP-to-GTP exchange, not by small-molecule phosphodiesterase inhibitors. The enhanced cAMP in Condition 4 results from reduced degradation, not increased G protein activation."
+      },
+      "topic": "Phosphodiesterase inhibition and cAMP dynamics",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B174_Q2",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The ability of forskolin (Condition 5) to elevate cAMP in the absence of norepinephrine indicates that forskolin:",
+      "choices": {
+        "A": "activates adenylyl cyclase directly, bypassing the receptor and G protein steps of the signaling cascade",
+        "B": "prevents cAMP degradation by inhibiting phosphodiesterase with higher potency than IBMX",
+        "C": "mimics norepinephrine by binding to the orthosteric site of β₁-AR",
+        "D": "inhibits protein phosphatases, preventing dephosphorylation of PKA substrates"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The passage states that forskolin is a direct activator of adenylyl cyclase that does not require receptor or G protein activation. Condition 5 shows elevated cAMP (11.6 pmol/mg) with forskolin alone, confirming that adenylyl cyclase can be stimulated independently of the upstream β₁-AR → Gαs pathway. This makes forskolin a valuable pharmacological tool for dissecting receptor-dependent from receptor-independent effects in cAMP signaling.",
+        "B": "Forskolin and IBMX have different molecular targets. Forskolin activates adenylyl cyclase (cAMP synthesis), while IBMX inhibits phosphodiesterase (cAMP degradation). The passage explicitly distinguishes these mechanisms. If forskolin were a phosphodiesterase inhibitor, it would require ongoing cAMP synthesis to show an effect, but it raises cAMP even without receptor stimulation.",
+        "C": "Forskolin does not bind β₁-AR. If it were a receptor agonist, propranolol would be expected to block its effects, and its mechanism would be receptor-dependent. The passage distinguishes forskolin from receptor-mediated stimulation by noting that it does not require receptor or G protein activation.",
+        "D": "Forskolin's primary action is on adenylyl cyclase, not on protein phosphatases. The increased cAMP, PKA activity, and calcium transients in Condition 5 all trace to enhanced cAMP production, not to altered dephosphorylation of downstream substrates."
+      },
+      "topic": "Forskolin and adenylyl cyclase activation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "B174_Q3",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "In the signaling cascade described, the increase in calcium transient amplitude that accompanies PKA activation in cardiomyocytes most likely results from PKA-mediated phosphorylation of:",
+      "choices": {
+        "A": "the Na⁺/K⁺-ATPase, which raises intracellular Na⁺ and drives reverse-mode operation of the Na⁺/Ca²⁺ exchanger",
+        "B": "troponin C, which increases the sensitivity of myofilaments to calcium but does not affect calcium release",
+        "C": "beta-arrestin, which desensitizes the receptor and terminates signaling",
+        "D": "L-type calcium channels, increasing Ca²⁺ entry during the action potential, and phospholamban, relieving its inhibition of SERCA to enhance sarcoplasmic reticulum Ca²⁺ loading and subsequent release"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "PKA does phosphorylate the Na⁺/K⁺-ATPase in some contexts, but this increases pump activity (lowering intracellular Na⁺), which would promote forward-mode NCX operation and Ca²⁺ extrusion, not Ca²⁺ entry. The primary PKA targets responsible for enhanced calcium transients in cardiomyocytes are L-type calcium channels and phospholamban.",
+        "B": "Troponin C is the calcium-binding subunit of the troponin complex and is not a major PKA substrate. PKA does phosphorylate troponin I, which reduces myofilament calcium sensitivity and promotes relaxation (lusitropy), but this would decrease, not increase, the contractile response to a given calcium transient. The calcium transient itself is enlarged by upstream effects on calcium channels and SR loading.",
+        "C": "Beta-arrestin-mediated receptor desensitization is a feedback mechanism that attenuates signaling over time. Phosphorylation of beta-arrestin or the receptor contributes to receptor internalization and signal termination, which would reduce rather than enhance the downstream calcium response. This is a regulatory mechanism, not the effector pathway for increased contractility.",
+        "D": "PKA phosphorylation of L-type Ca²⁺ channels increases their open probability during the plateau phase of the cardiac action potential, allowing greater Ca²⁺ influx. PKA also phosphorylates phospholamban, relieving its tonic inhibition of the sarcoplasmic reticulum Ca²⁺-ATPase (SERCA). This increases SR Ca²⁺ reuptake between beats, which enlarges the SR Ca²⁺ store available for release during the next contraction. Together, these two targets account for the increased calcium transient amplitude observed with β₁-adrenergic stimulation."
+      },
+      "topic": "PKA targets in cardiac excitation-contraction coupling",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "B174_Q4",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "If a gain-of-function mutation caused Gαs to lose its intrinsic GTPase activity and remain permanently GTP-bound, the predicted effect on cardiomyocytes would be:",
+      "choices": {
+        "A": "decreased cAMP because constitutive GTP binding would inactivate Gαs",
+        "B": "normal baseline signaling, because ligand binding at the receptor would still be required to initiate the cascade",
+        "C": "persistently elevated cAMP and PKA activity independent of norepinephrine, because adenylyl cyclase would be constitutively stimulated",
+        "D": "compensatory downregulation of adenylyl cyclase expression that would fully restore cAMP to baseline levels"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Gαs is active when GTP-bound and inactive when GDP-bound. Loss of GTPase activity means Gαs cannot hydrolyze GTP to GDP, so it remains in the active, GTP-bound state permanently. This would increase, not decrease, adenylyl cyclase stimulation and cAMP production.",
+        "B": "The GTPase activity of Gαs is the normal shutoff mechanism: after receptor-stimulated GDP-to-GTP exchange, intrinsic GTPase activity returns Gαs to the GDP-bound, inactive state. Without this GTPase activity, even a single activation event would leave Gαs permanently active, and basal nucleotide exchange would eventually produce constitutive activity independent of receptor stimulation.",
+        "C": "Without intrinsic GTPase activity, Gαs cannot return to the GDP-bound inactive state after activation. The GTP-bound Gαs constitutively stimulates adenylyl cyclase, producing sustained elevation of cAMP and persistent PKA activation regardless of whether norepinephrine is present. This scenario mirrors the mechanism of cholera toxin, which ADP-ribosylates Gαs and inhibits its GTPase activity, and is also seen in certain activating GNAS mutations associated with McCune-Albright syndrome.",
+        "D": "While compensatory receptor downregulation does occur with chronic β-adrenergic stimulation, the mutation bypasses the receptor entirely by constitutively activating Gαs. Downregulation of receptor number or adenylyl cyclase expression would attenuate but not eliminate the effect of a permanently active G protein, and the question asks about the predicted effect of the mutation, not about long-term compensatory responses."
+      },
+      "topic": "Constitutive G protein activation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B174_Q5",
+      "passage": "Researchers investigating tumor suppressor function in cell cycle control generated cell lines with targeted gene deletions and assessed their response to DNA damage. The parental cell line (wild-type, WT) and four mutant lines were exposed to 5 Gy of ionizing radiation (IR), which induces DNA double-strand breaks. Cell cycle distribution was measured by flow cytometry, and apoptosis was assessed by Annexin V staining at 12 hours post-irradiation.\n\nCell line | Genotype | % in G1 (12h post-IR) | % Apoptosis (12h post-IR)\nWT | Wild-type | 78 | 15\n2 | p53−/− | 38 | 3\n3 | Rb−/− | 52 | 12\n4 | p21−/− | 36 | 14\n5 | p53−/−; Rb−/− | 32 | 2\n\nUnirradiated WT cells showed 35% in G1. All irradiated cell lines retained G2/M arrest comparable to wild-type, indicating the G2/M checkpoint operates independently of p53 and Rb. The researchers noted that p21 (also designated CDKN1A) is a cyclin-dependent kinase inhibitor whose expression is transcriptionally regulated by p53.",
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": false,
+      "stem": "The failure of p53−/− cells to arrest in G1 after irradiation is most directly attributable to loss of:",
+      "choices": {
+        "A": "p53-dependent transcriptional induction of p21, which normally inhibits cyclin-CDK complexes to maintain Rb in a hypophosphorylated, growth-suppressive state",
+        "B": "p53-mediated activation of cyclin D-CDK4/6, which drives cells through the restriction point",
+        "C": "p53's function as a direct kinase that phosphorylates Rb to prevent E2F release",
+        "D": "p53-dependent expression of cyclin E, which is required for G1 arrest following DNA damage"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "After DNA damage, ATM/ATR-mediated signaling stabilizes p53, which acts as a transcription factor to induce p21 expression. p21 inhibits cyclin E-CDK2 and cyclin D-CDK4/6 complexes, preventing Rb phosphorylation. Hypophosphorylated Rb sequesters E2F transcription factors, blocking expression of genes required for S-phase entry. Without p53, p21 is not induced, CDKs remain active, Rb is phosphorylated, E2F is released, and cells progress into S phase despite DNA damage. This pathway directly links p53 loss to G1 checkpoint failure.",
+        "B": "Cyclin D-CDK4/6 promotes cell cycle progression, and p53 does not activate these complexes. p53's role in G1 arrest is to induce p21, which inhibits CDK activity. Activation of cyclin D-CDK4/6 would promote cell cycle progression, not arrest—the opposite of what the G1 checkpoint accomplishes.",
+        "C": "p53 is a transcription factor, not a kinase. It does not directly phosphorylate Rb or any other substrate. p53 exerts its cell cycle effects through transcriptional regulation of target genes, most importantly p21. Rb phosphorylation is carried out by cyclin-CDK complexes, not by p53.",
+        "D": "Cyclin E drives G1-to-S transition and is not required for G1 arrest. p53 does not induce cyclin E expression; rather, cyclin E-CDK2 is a target inhibited by the p53-p21 axis. Increased cyclin E activity would promote S-phase entry, the opposite of G1 checkpoint arrest."
+      },
+      "topic": "p53-p21-Rb pathway in G1 checkpoint",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B174_Q6",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The observation that p21−/− cells failed to arrest in G1 but maintained near-wild-type apoptosis rates (14% vs 15%) most strongly suggests that:",
+      "choices": {
+        "A": "p21 is required for both cell cycle arrest and apoptosis following DNA damage",
+        "B": "p21 knockout cells upregulate alternative CDK inhibitors that restore apoptotic signaling",
+        "C": "p53 is nonfunctional in p21−/− cells because p21 is required for p53 stability",
+        "D": "p53-dependent apoptosis proceeds through a pathway independent of p21, such as transcriptional activation of pro-apoptotic Bcl-2 family members like BAX and PUMA"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "If p21 were required for apoptosis, p21−/− cells would show reduced apoptosis similar to p53−/− cells (3%). The data show that p21−/− cells maintain 14% apoptosis despite complete loss of G1 arrest, indicating that p21 is essential for cell cycle arrest but dispensable for apoptosis.",
+        "B": "While compensatory upregulation of other CDK inhibitors (such as p27) is possible, CDK inhibitors mediate cell cycle arrest rather than apoptosis. The question is about how apoptosis is maintained without p21, which requires a p21-independent apoptotic pathway, not compensatory CDK inhibition.",
+        "C": "p53 stability is regulated primarily by MDM2-mediated ubiquitination, not by p21. If p53 were nonfunctional in p21−/− cells, the apoptosis rate would resemble that of p53−/− cells (3%). The near-normal apoptosis rate in p21−/− cells (14%) indicates that p53 remains functional and is driving apoptosis through a p21-independent mechanism.",
+        "D": "The data dissociate two functions of p53: cell cycle arrest (which requires p21 as the effector) and apoptosis (which proceeds independently of p21). p53 induces apoptosis by transcriptionally activating pro-apoptotic BH3-only proteins such as PUMA and NOXA, and by directly activating BAX. These apoptotic targets are distinct from p21, explaining why p21−/− cells lose G1 arrest but retain the apoptotic response to DNA damage."
+      },
+      "topic": "Dissociating p53 effector pathways",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "B174_Q7",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The partial G1 arrest observed in Rb−/− cells (52% in G1 vs 78% for WT) is best explained by:",
+      "choices": {
+        "A": "complete loss of all checkpoint function, with the 52% representing normal cycling distribution",
+        "B": "p53-induced p21 still inhibiting CDKs, which produces partial arrest through Rb-independent mechanisms or through other CDK substrates that slow cell cycle progression",
+        "C": "Rb−/− cells compensating by fully replacing Rb function with the related pocket protein p107",
+        "D": "residual Rb protein expression due to incomplete gene deletion in cell line 3"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The unirradiated WT baseline is 35% in G1. The Rb−/− cells show 52% in G1 after irradiation, which is significantly above baseline, indicating that substantial G1 delay still occurs despite Rb loss. If all checkpoint function were eliminated, the distribution would resemble the unirradiated baseline or the p53−/− cells (38%).",
+        "B": "In Rb−/− cells, the p53-p21 axis remains intact. p53 is stabilized by DNA damage and induces p21, which inhibits cyclin-CDK complexes. While the canonical downstream target of this inhibition is Rb (kept hypophosphorylated to sequester E2F), p21-mediated CDK inhibition may also slow cell cycle progression through effects on other CDK substrates or through non-Rb pocket proteins such as p107 and p130. This explains the partial but incomplete G1 arrest in Rb−/− cells.",
+        "C": "While p107 is a related pocket protein that can partially compensate for Rb loss, full compensation would produce G1 arrest comparable to wild-type (78%). The intermediate value (52%) suggests partial, not complete, compensation. The answer choice overstates the degree of functional replacement.",
+        "D": "The cell line is described as a targeted Rb knockout (Rb−/−), indicating complete loss of functional Rb protein. Incomplete deletion would be a technical artifact not supported by the experimental description. The partial arrest is more parsimoniously explained by Rb-independent checkpoint mechanisms that remain operational."
+      },
+      "topic": "Rb-independent checkpoint mechanisms",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "B174_Q8",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The retention of G2/M arrest in all irradiated cell lines supports the conclusion that the G2/M checkpoint:",
+      "choices": {
+        "A": "is regulated by ATM/ATR-Chk1/Chk2 pathways that inhibit CDC25 phosphatases and activate Wee1 kinase, preventing activation of the cyclin B-CDK1 complex independently of p53",
+        "B": "is exclusively regulated by p53, and the observed arrest reflects incomplete p53 knockout rather than an alternative pathway",
+        "C": "requires functional Rb to prevent transcription of mitotic genes by E2F",
+        "D": "depends entirely on p21-mediated inhibition of cyclin B-CDK1"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The data show that p53−/−, Rb−/−, p21−/−, and double-knockout cell lines all retain G2/M arrest after irradiation. This demonstrates that the G2/M checkpoint operates through a p53- and Rb-independent mechanism. The primary regulators of G2/M arrest are the ATM/ATR kinases, which activate Chk1 and Chk2. These checkpoint kinases phosphorylate and inhibit CDC25 phosphatases, preventing them from removing inhibitory phosphorylation on CDK1. Simultaneously, Wee1 kinase maintains inhibitory phosphorylation on CDK1. Together, these mechanisms block cyclin B-CDK1 activation and mitotic entry without requiring p53 or its downstream targets.",
+        "B": "If G2/M arrest were exclusively p53-dependent, both p53−/− cell lines (lines 2 and 5) would show loss of G2/M arrest. The passage explicitly states that all irradiated cell lines retained G2/M arrest comparable to wild-type, and the researchers concluded that this checkpoint is p53-independent.",
+        "C": "Rb's primary function is regulation of the G1/S transition through E2F sequestration. If Rb were required for G2/M arrest, Rb−/− cells would show impaired G2/M arrest, but the data show they do not. G2/M checkpoint regulation involves CDK1 phosphorylation status, not Rb-E2F interactions.",
+        "D": "p21 primarily inhibits G1-phase CDKs (cyclin D-CDK4/6 and cyclin E-CDK2). While p21 can interact with cyclin B-CDK1, the retention of G2/M arrest in p21−/− cells demonstrates that p21 is not essential for this checkpoint. The G2/M checkpoint relies on CDC25 inhibition and Wee1 activation rather than on CKI-mediated CDK1 inhibition."
+      },
+      "topic": "G2/M checkpoint regulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B174_Q9",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "A drug that specifically inhibits MDM2, the E3 ubiquitin ligase that targets p53 for proteasomal degradation, would be predicted to produce which of the following effects in wild-type cells exposed to DNA damage?",
+      "choices": {
+        "A": "Decreased p53 protein levels due to accelerated proteasomal turnover",
+        "B": "No effect on cell cycle regulation because MDM2 does not interact with p53",
+        "C": "Selective inhibition of the G2/M checkpoint without affecting G1 arrest",
+        "D": "Stabilization of p53 protein, leading to enhanced p21 induction, stronger G1 arrest, and increased apoptotic response"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "MDM2 promotes p53 degradation through ubiquitination. Inhibiting MDM2 would prevent this degradation, causing p53 protein to accumulate rather than decrease. This is the opposite of what MDM2 inhibition would produce.",
+        "B": "MDM2 is the principal negative regulator of p53 in unstressed cells. The MDM2-p53 interaction is one of the most well-characterized regulatory relationships in cell biology. MDM2 binds p53's transactivation domain, ubiquitinates p53, and promotes its proteasomal degradation, maintaining low p53 levels under normal conditions.",
+        "C": "The data from the passage demonstrate that the G2/M checkpoint operates independently of p53. Stabilizing p53 via MDM2 inhibition would therefore enhance p53-dependent responses (G1 arrest and apoptosis) without substantially affecting the G2/M checkpoint, which is regulated by the ATM/ATR-Chk1/Chk2-CDC25 axis. This is the opposite of the prediction stated in this answer choice.",
+        "D": "MDM2 inhibition would prevent the ubiquitination and proteasomal degradation of p53, allowing p53 protein to accumulate to higher levels after DNA damage. Elevated p53 would increase transcription of its target genes, including p21 (enhancing G1 arrest) and pro-apoptotic genes such as BAX and PUMA (enhancing apoptosis). This mechanism underlies the therapeutic rationale for MDM2 inhibitors (such as nutlins) in cancers that retain wild-type p53."
+      },
+      "topic": "MDM2 inhibition and p53 regulation",
+      "difficulty": "Medium"
+    }
+  ]
+}

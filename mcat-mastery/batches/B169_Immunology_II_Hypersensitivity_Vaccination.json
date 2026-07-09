@@ -1,0 +1,351 @@
+{
+  "batch": "B169",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Immunology II: Hypersensitivity & Vaccination",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_immuno2_001",
+      "passage": "An immunology clinic compares four adverse immune reactions. Patient A develops hives and wheezing minutes after peanut exposure. Patient B develops hemolytic anemia after a drug binds red blood cell surfaces. Patient C develops serum sickness with immune-complex deposition after receiving an animal-derived antitoxin. Patient D develops a delayed rash 48 hours after poison ivy exposure.\n\nPatient | Timing | Main mediator | Pattern\nA | minutes | IgE/mast cells | immediate\nB | hours-days | IgG/complement | cell surface\nC | days | immune complexes | deposition\nD | 48-72 h | T cells | delayed\n\nThe physician reviews hypersensitivity types I-IV.",
+      "stem": "Patient A's reaction is most consistent with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Type II hypersensitivity"
+        },
+        {
+          "label": "B",
+          "text": "Type I hypersensitivity"
+        },
+        {
+          "label": "C",
+          "text": "Type III hypersensitivity"
+        },
+        {
+          "label": "D",
+          "text": "Type IV hypersensitivity"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Type II involves antibodies against cell-surface or matrix antigens, such as drug-coated red cells.",
+        "B": "Correct. Immediate hives and wheezing after allergen exposure reflect IgE-mediated mast-cell degranulation, the hallmark of Type I hypersensitivity.",
+        "C": "Type III involves immune-complex deposition and complement activation over days.",
+        "D": "Type IV is T-cell mediated and delayed, usually appearing after 48-72 hours."
+      },
+      "topic": "Immunology II: Hypersensitivity & Vaccination",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_immuno2_002",
+      "passage": null,
+      "stem": "Patient B's hemolytic anemia is Type II because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "antibodies target antigens on cell surfaces leading to complement or phagocyte-mediated damage"
+        },
+        {
+          "label": "B",
+          "text": "IgE binds mast cells after peanut exposure"
+        },
+        {
+          "label": "C",
+          "text": "immune complexes deposit in vessel walls only"
+        },
+        {
+          "label": "D",
+          "text": "T cells respond after 72 hours"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Drug-modified red cell surfaces can become targets for IgG or IgM, activating complement or phagocytosis. That cell-surface antibody pattern is Type II.",
+        "B": "IgE mast-cell activation describes Patient A and Type I allergy.",
+        "C": "Immune complex deposition describes Type III reactions such as serum sickness.",
+        "D": "Delayed T-cell responses describe Type IV, not antibody-coated red cells."
+      },
+      "topic": "Immunology II: Hypersensitivity & Vaccination",
+      "difficulty": "Easy",
+      "passageRef": "bb_immuno2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_immuno2_003",
+      "passage": null,
+      "stem": "Serum sickness in Patient C is best classified as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Type II hypersensitivity"
+        },
+        {
+          "label": "B",
+          "text": "Type I hypersensitivity"
+        },
+        {
+          "label": "C",
+          "text": "Type III hypersensitivity"
+        },
+        {
+          "label": "D",
+          "text": "Type IV hypersensitivity"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Type II targets fixed antigens on cell surfaces, not circulating complexes depositing in tissues.",
+        "B": "Type I would be rapid IgE-mediated mast-cell activation, not delayed immune-complex deposition.",
+        "C": "Correct. Serum sickness occurs when soluble antigen-antibody complexes deposit in tissues and activate complement. That immune-complex mechanism is Type III.",
+        "D": "Type IV is mediated by T cells rather than immune complexes."
+      },
+      "topic": "Immunology II: Hypersensitivity & Vaccination",
+      "difficulty": "Medium",
+      "passageRef": "bb_immuno2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_immuno2_004",
+      "passage": null,
+      "stem": "Poison ivy delayed rash is Type IV because it is mediated mainly by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "circulating immune complexes"
+        },
+        {
+          "label": "B",
+          "text": "IgE cross-linking"
+        },
+        {
+          "label": "C",
+          "text": "free histamine alone"
+        },
+        {
+          "label": "D",
+          "text": "T cells"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Immune complexes define Type III, not classic poison ivy contact dermatitis.",
+        "B": "IgE cross-linking produces immediate Type I reactions such as anaphylaxis or urticaria.",
+        "C": "Histamine contributes to some inflammation but does not define the delayed T-cell mechanism.",
+        "D": "Correct. Type IV hypersensitivity is delayed and T-cell mediated. Poison ivy haptens modify skin proteins, leading to T-cell recognition and inflammation after 48-72 hours."
+      },
+      "topic": "Immunology II: Hypersensitivity & Vaccination",
+      "difficulty": "Hard",
+      "passageRef": "bb_immuno2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_immuno2_005",
+      "passage": null,
+      "stem": "Which treatment most directly reverses life-threatening Type I anaphylaxis acutely?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Epinephrine"
+        },
+        {
+          "label": "B",
+          "text": "A booster vaccine"
+        },
+        {
+          "label": "C",
+          "text": "A delayed patch test"
+        },
+        {
+          "label": "D",
+          "text": "Oral iron"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Epinephrine rapidly bronchodilates, vasoconstricts, and supports blood pressure during anaphylaxis. It addresses the acute physiologic consequences of mast-cell mediator release.",
+        "B": "A booster vaccine builds adaptive memory over time and does not treat acute anaphylaxis.",
+        "C": "Patch testing can diagnose delayed contact hypersensitivity but does not reverse airway compromise.",
+        "D": "Oral iron treats iron deficiency, not allergic shock."
+      },
+      "topic": "Immunology II: Hypersensitivity & Vaccination",
+      "difficulty": "Medium",
+      "passageRef": "bb_immuno2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_immuno2_006",
+      "passage": "A vaccine trial compares an inactivated viral vaccine with an mRNA vaccine encoding a surface antigen. Both increase neutralizing antibodies after two doses. Memory B cells and T cells are measured six months later. A booster increases antibody titers rapidly, consistent with immunologic memory. The researchers distinguish active immunity from passive antibody transfer and note that adjuvants enhance innate immune activation to improve adaptive responses.",
+      "stem": "Vaccination produces active immunity because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "preformed antibodies are transferred only"
+        },
+        {
+          "label": "B",
+          "text": "the host generates its own adaptive response and memory"
+        },
+        {
+          "label": "C",
+          "text": "no lymphocytes are involved"
+        },
+        {
+          "label": "D",
+          "text": "antigens are never presented"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Passive immunity is transfer of preformed antibodies, such as immune globulin, not vaccination's main mechanism.",
+        "B": "Correct. Active immunity means the recipient's immune system responds to antigen, generating effector cells and memory B/T cells. Vaccines are designed to induce that response.",
+        "C": "Lymphocytes are central to adaptive vaccine responses.",
+        "D": "Antigen presentation is required to activate T cells and support robust antibody responses."
+      },
+      "topic": "Immunology II: Hypersensitivity & Vaccination",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_immuno2_007",
+      "passage": null,
+      "stem": "Why does a booster produce a rapid antibody rise?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The antigen deletes plasma cells"
+        },
+        {
+          "label": "B",
+          "text": "All antibodies become innate receptors"
+        },
+        {
+          "label": "C",
+          "text": "Memory B cells respond faster than naïve B cells"
+        },
+        {
+          "label": "D",
+          "text": "Boosters prevent clonal expansion"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Boosters stimulate memory cells; they do not delete plasma cells as the desired effect.",
+        "B": "Antibodies do not become innate receptors; they are adaptive immune proteins.",
+        "C": "Correct. Memory B cells generated by earlier doses require less activation time and can rapidly differentiate into antibody-secreting cells. That produces a faster, larger secondary response.",
+        "D": "Clonal expansion is part of the booster response, not something boosters prevent."
+      },
+      "topic": "Immunology II: Hypersensitivity & Vaccination",
+      "difficulty": "Easy",
+      "passageRef": "bb_immuno2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_immuno2_008",
+      "passage": null,
+      "stem": "What is the role of an adjuvant?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Prevent antigen presentation"
+        },
+        {
+          "label": "B",
+          "text": "Replace all antigen in the vaccine"
+        },
+        {
+          "label": "C",
+          "text": "Provide passive antibodies only"
+        },
+        {
+          "label": "D",
+          "text": "Enhance innate activation to strengthen adaptive immunity"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Adjuvants generally improve antigen presentation and immune activation rather than preventing it.",
+        "B": "Adjuvants support responses to antigen; they do not replace the antigenic target entirely.",
+        "C": "Passive antibodies are transferred directly and do not require an adjuvant to induce host memory.",
+        "D": "Correct. Adjuvants activate innate immune pathways and improve costimulation/cytokine signals, making adaptive responses to the antigen stronger and more durable."
+      },
+      "topic": "Immunology II: Hypersensitivity & Vaccination",
+      "difficulty": "Medium",
+      "passageRef": "bb_immuno2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_immuno2_009",
+      "passage": null,
+      "stem": "Neutralizing antibodies protect primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "killing infected cells by MHC I recognition directly"
+        },
+        {
+          "label": "B",
+          "text": "blocking pathogen attachment or entry into host cells"
+        },
+        {
+          "label": "C",
+          "text": "digesting antigen in lysosomes before binding"
+        },
+        {
+          "label": "D",
+          "text": "turning into memory T cells"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "MHC I recognition of infected cells is performed by cytotoxic T cells, not antibodies directly.",
+        "B": "Correct. Neutralizing antibodies bind pathogen surface structures and prevent receptor binding, fusion, or entry. That stops infection before productive intracellular replication.",
+        "C": "Antibodies bind extracellular antigen before lysosomal processing; they do not need to digest antigen first.",
+        "D": "B cells and T cells are distinct lineages. Antibodies do not transform into memory T cells."
+      },
+      "topic": "Immunology II: Hypersensitivity & Vaccination",
+      "difficulty": "Hard",
+      "passageRef": "bb_immuno2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_immuno2_010",
+      "passage": null,
+      "stem": "Which feature would best show durable vaccine memory?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Antigen-specific memory B and T cells detectable months later"
+        },
+        {
+          "label": "B",
+          "text": "Only fever on injection day"
+        },
+        {
+          "label": "C",
+          "text": "Immediate antibody disappearance"
+        },
+        {
+          "label": "D",
+          "text": "No response to booster"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Long-lived memory lymphocytes months after vaccination indicate durable adaptive immunity. A rapid booster response would further support functional memory.",
+        "B": "Fever can reflect innate activation but does not prove durable antigen-specific memory.",
+        "C": "Immediate antibody disappearance would suggest poor persistence and does not show memory by itself.",
+        "D": "No booster response would argue against effective immunologic memory."
+      },
+      "topic": "Immunology II: Hypersensitivity & Vaccination",
+      "difficulty": "Medium",
+      "passageRef": "bb_immuno2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

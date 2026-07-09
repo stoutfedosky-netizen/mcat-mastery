@@ -1,0 +1,225 @@
+{
+  "batch": "B304",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Culture, Identity & Socialization",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 3,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_bicultural_identity_stress_304_q0",
+      "passage": "A university study interviewed immigrant-origin students about bicultural identity. Students who felt they could integrate family cultural values with campus norms described lower acculturative stress and more belonging. Students who felt pressure to abandon one setting for the other described more role conflict, language-related embarrassment, and reluctance to use campus support services. The study emphasized that identity development occurs within families, peer groups, and institutions rather than only inside the individual.",
+      "usePrevPassage": false,
+      "stem": "According to the passage, which pattern was observed?",
+      "choices": {
+        "D": "Bicultural integration was associated with lower stress and stronger belonging",
+        "A": "The opposite pattern was reported",
+        "B": "The groups or conditions were identical",
+        "C": "The passage did not report any outcome differences"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The passage identifies this specific relationship: Bicultural integration was associated with lower stress and stronger belonging. This is the central empirical pattern around which the study or scenario is organized, and it is the pattern the later interpretation depends on.",
+        "A": "The reported evidence does not support the reverse pattern.",
+        "B": "The passage describes meaningful differences rather than identical outcomes.",
+        "C": "The passage gives concrete outcomes or interview findings, so differences were reported."
+      },
+      "topic": "Acculturation And Bicultural Identity Integration",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_bicultural_identity_stress_304_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which concept best explains the scenario?",
+      "choices": {
+        "C": "acculturation and bicultural identity integration",
+        "A": "classical conditioning only",
+        "B": "sensory adaptation",
+        "D": "the bystander effect"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The scenario is best explained by acculturation and bicultural identity integration because the key issue is that Students with integrated identities could move between family and campus contexts without treating them as mutually exclusive. This connects the data to a core P/S framework rather than treating the finding as an isolated fact.",
+        "A": "Classical conditioning is too narrow or unrelated to the social or cognitive process emphasized here.",
+        "B": "Sensory adaptation concerns reduced responsiveness to constant sensory input, not the mechanism described.",
+        "D": "The bystander effect concerns failures to help in groups and is not the main process in this passage."
+      },
+      "topic": "Acculturation And Bicultural Identity Integration",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_bicultural_identity_stress_304_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What mechanism most plausibly accounts for the pattern?",
+      "choices": {
+        "B": "Students with integrated identities could move between family and campus contexts without treating them as mutually exclusive.",
+        "A": "A random change in DNA sequence during the study",
+        "C": "A complete absence of social context",
+        "D": "The physical impossibility of changing behavior"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The passage points to this mechanism directly: Students with integrated identities could move between family and campus contexts without treating them as mutually exclusive. It explains why the observed groups or conditions differ and gives students a way to connect the empirical details to MCAT-level behavioral science.",
+        "A": "The passage does not describe mutation or biological inheritance as the explanation.",
+        "C": "The scenario is explicitly embedded in social, clinical, or developmental context.",
+        "D": "The passage shows behavior or experience varying across conditions, so change is possible."
+      },
+      "topic": "Acculturation And Bicultural Identity Integration",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_bicultural_identity_stress_304_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application would best follow from the passage?",
+      "choices": {
+        "A": "Create support programs that validate multiple cultural identities rather than requiring assimilation.",
+        "B": "Ignore the context and focus only on individual blame",
+        "C": "Use the least specific intervention possible",
+        "D": "Assume the finding applies identically to every person without adaptation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The best application is to Create support programs that validate multiple cultural identities rather than requiring assimilation. This response targets the mechanism described in the passage rather than relying on blame, vague advice, or one-size-fits-all reasoning.",
+        "B": "Individual blame misses the contextual mechanism described in the passage.",
+        "C": "A nonspecific intervention would not address the particular barrier or process identified.",
+        "D": "P/S findings often guide interventions, but they still need adaptation to context and individual differences."
+      },
+      "topic": "Applied Psychology and Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_bicultural_identity_stress_304_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What is the most important limitation to keep in mind?",
+      "choices": {
+        "D": "Interviews reveal meaning and mechanisms but cannot prove bicultural integration alone caused lower stress.",
+        "A": "The passage cannot be interpreted because it contains words rather than equations",
+        "B": "Any behavioral study is automatically causal",
+        "C": "The topic is outside the Psychological/Social Foundations section"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The key limitation is that Interviews reveal meaning and mechanisms but cannot prove bicultural integration alone caused lower stress. This keeps the inference aligned with the design and prevents overclaiming beyond what the passage can support.",
+        "A": "P/S passages often use verbal descriptions and interviews; that does not make them uninterpretable.",
+        "B": "Behavioral studies vary in design, and causal inference depends on assignment, controls, and measurement.",
+        "C": "The concepts tested here are directly relevant to the P/S section."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_gender_socialization_roles_304_q5",
+      "passage": "A sociology class analyzed interviews with adolescents about household chores, career expectations, and emotional expression. Many participants said family members and media models shaped what behaviors seemed masculine, feminine, or acceptable. Some adolescents challenged these expectations when peer groups or teachers offered alternative role models. The researchers concluded that gender socialization is ongoing and can be reinforced or contested across multiple settings.",
+      "usePrevPassage": false,
+      "stem": "According to the passage, which pattern was observed?",
+      "choices": {
+        "C": "Family and media were described as agents shaping gender-role expectations",
+        "A": "The opposite pattern was reported",
+        "B": "The groups or conditions were identical",
+        "D": "The passage did not report any outcome differences"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage identifies this specific relationship: Family and media were described as agents shaping gender-role expectations. This is the central empirical pattern around which the study or scenario is organized, and it is the pattern the later interpretation depends on.",
+        "A": "The reported evidence does not support the reverse pattern.",
+        "B": "The passage describes meaningful differences rather than identical outcomes.",
+        "D": "The passage gives concrete outcomes or interview findings, so differences were reported."
+      },
+      "topic": "Gender Socialization",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_gender_socialization_roles_304_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which concept best explains the scenario?",
+      "choices": {
+        "B": "gender socialization",
+        "A": "classical conditioning only",
+        "C": "sensory adaptation",
+        "D": "the bystander effect"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The scenario is best explained by gender socialization because the key issue is that Repeated messages from family, peers, teachers, and media make certain behaviors seem expected or inappropriate. This connects the data to a core P/S framework rather than treating the finding as an isolated fact.",
+        "A": "Classical conditioning is too narrow or unrelated to the social or cognitive process emphasized here.",
+        "C": "Sensory adaptation concerns reduced responsiveness to constant sensory input, not the mechanism described.",
+        "D": "The bystander effect concerns failures to help in groups and is not the main process in this passage."
+      },
+      "topic": "Gender Socialization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_gender_socialization_roles_304_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What mechanism most plausibly accounts for the pattern?",
+      "choices": {
+        "A": "Repeated messages from family, peers, teachers, and media make certain behaviors seem expected or inappropriate.",
+        "B": "A random change in DNA sequence during the study",
+        "C": "A complete absence of social context",
+        "D": "The physical impossibility of changing behavior"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage points to this mechanism directly: Repeated messages from family, peers, teachers, and media make certain behaviors seem expected or inappropriate. It explains why the observed groups or conditions differ and gives students a way to connect the empirical details to MCAT-level behavioral science.",
+        "B": "The passage does not describe mutation or biological inheritance as the explanation.",
+        "C": "The scenario is explicitly embedded in social, clinical, or developmental context.",
+        "D": "The passage shows behavior or experience varying across conditions, so change is possible."
+      },
+      "topic": "Gender Socialization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_gender_socialization_roles_304_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application would best follow from the passage?",
+      "choices": {
+        "D": "Provide diverse role models and reduce rigid expectations in schools and media.",
+        "A": "Ignore the context and focus only on individual blame",
+        "B": "Use the least specific intervention possible",
+        "C": "Assume the finding applies identically to every person without adaptation"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The best application is to Provide diverse role models and reduce rigid expectations in schools and media. This response targets the mechanism described in the passage rather than relying on blame, vague advice, or one-size-fits-all reasoning.",
+        "A": "Individual blame misses the contextual mechanism described in the passage.",
+        "B": "A nonspecific intervention would not address the particular barrier or process identified.",
+        "C": "P/S findings often guide interventions, but they still need adaptation to context and individual differences."
+      },
+      "topic": "Applied Psychology and Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_gender_socialization_roles_304_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What is the most important limitation to keep in mind?",
+      "choices": {
+        "C": "The study is qualitative and context-specific, so it should not be treated as a universal measurement of every adolescent experience.",
+        "A": "The passage cannot be interpreted because it contains words rather than equations",
+        "B": "Any behavioral study is automatically causal",
+        "D": "The topic is outside the Psychological/Social Foundations section"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The key limitation is that The study is qualitative and context-specific, so it should not be treated as a universal measurement of every adolescent experience. This keeps the inference aligned with the design and prevents overclaiming beyond what the passage can support.",
+        "A": "P/S passages often use verbal descriptions and interviews; that does not make them uninterpretable.",
+        "B": "Behavioral studies vary in design, and causal inference depends on assignment, controls, and measurement.",
+        "D": "The concepts tested here are directly relevant to the P/S section."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

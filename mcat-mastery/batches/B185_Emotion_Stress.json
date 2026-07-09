@@ -1,0 +1,335 @@
+{
+  "batch": "B185",
+  "section": "ps",
+  "sectionName": "Psychological, Social, and Biological Foundations of Behavior",
+  "topicArea": "Theories of Emotion & Stress",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_emotion_001",
+      "passage": "A health psychology study investigates the relationship between emotional processing and physiological stress responses. In Experiment 1, participants view emotionally arousing images (threat-related, disgust-related, and positive) while researchers measure heart rate (HR), galvanic skin response (GSR), and cortisol levels. All image categories produce increased HR and GSR compared to neutral images, but only threat-related images produce a significant cortisol increase.\n\nIn Experiment 2, participants are assigned to cognitive reappraisal (reframe anxiety as excitement), suppression (hide emotional expressions), or control conditions before a public speaking task. The reappraisal group reports lower anxiety and receives higher performance ratings despite similar cortisol levels to controls.",
+      "stem": "The finding that all emotionally arousing images produce similar HR and GSR increases regardless of valence is most consistent with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Schachter-Singer two-factor theory — physiological arousal is undifferentiated and requires cognitive labeling"
+        },
+        {
+          "label": "B",
+          "text": "James-Lange theory — each emotion has a unique physiological signature"
+        },
+        {
+          "label": "C",
+          "text": "Cannon-Bard theory — arousal and emotion are independent parallel processes"
+        },
+        {
+          "label": "D",
+          "text": "Facial feedback hypothesis — expressions directly produce emotional experience"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Schachter-Singer two-factor theory proposes that emotional experience results from (1) generalized physiological arousal and (2) cognitive interpretation of that arousal. The finding that HR and GSR increase similarly across all emotional categories supports the claim that arousal is relatively undifferentiated. The subjective emotional experience (fear vs. joy) depends on cognitive labeling of the arousal based on contextual cues, not on distinct physiological patterns.",
+        "B": "James-Lange theory predicts each emotion has a distinct peripheral physiological profile. If correct, threat, disgust, and positive images should produce distinguishable HR and GSR patterns. The finding of similar autonomic responses across categories contradicts this prediction of emotion-specific physiological signatures.",
+        "C": "Cannon-Bard theory states that a stimulus simultaneously triggers both arousal and conscious emotion via the thalamus. While it predicts similar arousal across emotions, it specifically claims arousal and emotion are independent parallel processes, not that arousal requires cognitive labeling. Two-factor theory's emphasis on cognitive interpretation more directly explains this finding.",
+        "D": "The facial feedback hypothesis does not make predictions about HR and GSR patterns across emotional categories. The study measured autonomic responses to viewed images, not facial muscle activity, making this theory peripheral to this finding."
+      },
+      "topic": "Schachter-Singer two-factor theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ps_emotion_002",
+      "usePrevPassage": true,
+      "stem": "The cortisol increase specific to threat images most likely reflects activation of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The parasympathetic nervous system via the vagus nerve"
+        },
+        {
+          "label": "B",
+          "text": "The hypothalamic-pituitary-adrenal (HPA) axis"
+        },
+        {
+          "label": "C",
+          "text": "The enteric nervous system responding to visceral disgust"
+        },
+        {
+          "label": "D",
+          "text": "The somatic nervous system controlling voluntary muscle tension"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Parasympathetic activation promotes rest-and-digest functions and does not stimulate cortisol release. Cortisol is produced by the adrenal cortex under HPA axis regulation, not parasympathetic control.",
+        "B": "Correct. Cortisol is released through the HPA axis: amygdala detects threat → hypothalamus releases CRH → anterior pituitary releases ACTH → adrenal cortex releases cortisol. The selectivity to threat images (not positive or disgust) reflects the HPA axis being particularly responsive to stimuli signaling danger or uncontrollability. Cortisol mobilizes energy and suppresses non-essential functions for sustained stress responses.",
+        "C": "The enteric nervous system regulates GI function and does not produce cortisol. The selective cortisol response to threat, not disgust, further rules out enteric involvement.",
+        "D": "The somatic nervous system controls voluntary skeletal muscle and does not regulate cortisol release. Cortisol is mediated through the endocrine HPA axis."
+      },
+      "topic": "HPA axis and cortisol",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ps_emotion_003",
+      "usePrevPassage": true,
+      "stem": "The reappraisal group's lower anxiety despite similar cortisol best supports:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Yerkes-Dodson law — performance peaks at moderate arousal"
+        },
+        {
+          "label": "B",
+          "text": "James-Lange theory — changing physiology directly changes emotion"
+        },
+        {
+          "label": "C",
+          "text": "Lazarus's cognitive appraisal theory — emotional response depends on how a person evaluates the situation"
+        },
+        {
+          "label": "D",
+          "text": "Selye's GAS — stress responses are uniform regardless of coping strategy"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Since all groups had similar cortisol (arousal), Yerkes-Dodson would predict similar performance. The performance difference despite similar arousal implicates cognitive factors beyond arousal level.",
+        "B": "James-Lange predicts that similar physiology produces similar emotion. The reappraisal group's lower anxiety despite equivalent cortisol contradicts this — subjective experience diverged from physiological state.",
+        "C": "Correct. Lazarus's theory distinguishes primary appraisal (is this threatening?) from secondary appraisal (can I cope?). Cognitive reappraisal changes the evaluation without changing physiology. By reframing anxiety as excitement, participants changed their appraisal from threat to challenge, reducing distress and improving performance even with similar cortisol. This dissociation directly supports Lazarus's contention that emotional experience is shaped by cognitive evaluation.",
+        "D": "If responses were uniform regardless of coping, all groups should show identical outcomes. The differential outcomes contradict GAS's prediction of non-specific uniform responding."
+      },
+      "topic": "Lazarus cognitive appraisal theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ps_emotion_004",
+      "usePrevPassage": true,
+      "stem": "Research on emotional suppression consistently shows it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reduces subjective experience by blocking facial feedback signals"
+        },
+        {
+          "label": "B",
+          "text": "eliminates both physiological and subjective emotional components"
+        },
+        {
+          "label": "C",
+          "text": "has no measurable effect on any emotional component"
+        },
+        {
+          "label": "D",
+          "text": "increases physiological arousal and cognitive load while failing to reduce subjective experience"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Research (Gross, 2002) shows suppression does not effectively reduce subjective experience. People still report feeling the emotion even when inhibiting expressions. The cognitive effort of monitoring expressions can paradoxically increase attention to the emotional content.",
+        "B": "Suppression does not eliminate either component. It may amplify physiological arousal while leaving subjective experience largely intact. Complete elimination would require the emotion never being generated.",
+        "C": "Suppression has clearly measurable effects — increased physiological arousal and cognitive load. It does reduce observable behavior but at physiological and cognitive costs.",
+        "D": "Correct. Gross's process model shows suppression is a response-focused strategy that: (1) increases sympathetic activation because the effort of inhibition creates additional stress, (2) increases cognitive load by consuming working memory for monitoring behavior, and (3) fails to reduce subjective experience. In contrast, reappraisal (antecedent-focused) effectively reduces both subjective distress and physiological arousal by intervening earlier in the emotional process."
+      },
+      "topic": "Emotional suppression vs reappraisal",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ps_emotion_005",
+      "usePrevPassage": true,
+      "stem": "A person interprets a racing heart as excitement before a roller coaster but as fear in a dark parking lot. This illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "misattribution of arousal — identical physiological states receive different emotional labels based on context"
+        },
+        {
+          "label": "B",
+          "text": "classical conditioning of fear to environmental cues"
+        },
+        {
+          "label": "C",
+          "text": "the fight-or-flight response producing different autonomic patterns"
+        },
+        {
+          "label": "D",
+          "text": "opponent-process theory of emotion"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This directly illustrates misattribution of arousal from Schachter-Singer's two-factor theory. The identical physiological state (racing heart) receives different emotional labels based on cognitive appraisal of the situation. The Dutton and Aron (1974) bridge study famously demonstrated this — men on a fear-arousing suspension bridge misattributed their physiological arousal to attraction toward a female interviewer.",
+        "B": "Classical conditioning could explain acquired fear of specific stimuli but the scenario describes interpreting the same state differently in two novel contexts without prior conditioning.",
+        "C": "If fight-or-flight produced different autonomic patterns, the person would experience different physiological states. The scenario describes the same sensation labeled differently, pointing to cognitive labeling rather than differential activation.",
+        "D": "Solomon's opponent-process theory describes how repeated exposure leads to an opposing emotional response over time, not simultaneous different interpretations of the same arousal in different contexts."
+      },
+      "topic": "Misattribution of arousal",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ps_emotion_006",
+      "passage": "A longitudinal study tracks 300 medical residents over three years, measuring perceived stress (Perceived Stress Scale), burnout dimensions (emotional exhaustion, depersonalization, reduced personal accomplishment), salivary cortisol awakening response, and coping strategies (problem-focused, emotion-focused, avoidant). At baseline, perceived stress and cortisol correlate at r = 0.45. By year one, avoidant copers show highest burnout and cortisol. Problem-focused copers show moderate stress but low burnout.\n\nBy year three, the avoidant-coping group shows blunted cortisol awakening responses despite continued high perceived stress and burnout, consistent with HPA axis dysregulation from chronic stress.",
+      "stem": "The three burnout dimensions correspond to which model?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Selye's general adaptation syndrome (alarm, resistance, exhaustion)"
+        },
+        {
+          "label": "B",
+          "text": "Kübler-Ross's five stages of grief"
+        },
+        {
+          "label": "C",
+          "text": "Maslach's burnout inventory (emotional exhaustion, depersonalization, reduced personal accomplishment)"
+        },
+        {
+          "label": "D",
+          "text": "Erikson's psychosocial development model"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Selye's GAS describes physiological stress stages (alarm, resistance, exhaustion), not psychological burnout dimensions. These are temporal stages of bodily stress response, distinct from the three simultaneous dimensions of occupational burnout.",
+        "B": "Kübler-Ross's model describes grief stages (denial, anger, bargaining, depression, acceptance), which address loss, not chronic occupational stress.",
+        "C": "Correct. Maslach's Burnout Inventory defines burnout through three dimensions: emotional exhaustion (feeling drained by work), depersonalization (cynical detachment from patients/clients), and reduced personal accomplishment (feeling ineffective). The passage names all three. The MBI is the most widely validated measure of occupational burnout across healthcare, education, and service professions.",
+        "D": "Erikson's eight psychosocial stages address identity and development across the lifespan, not occupational burnout."
+      },
+      "topic": "Maslach burnout model",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ps_emotion_007",
+      "usePrevPassage": true,
+      "stem": "The blunted cortisol in year three despite continued high stress is most consistent with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "successful physiological adaptation"
+        },
+        {
+          "label": "B",
+          "text": "improved coping skills"
+        },
+        {
+          "label": "C",
+          "text": "measurement error in the cortisol assay"
+        },
+        {
+          "label": "D",
+          "text": "the exhaustion stage of Selye's GAS, where chronic stress depletes adaptive resources"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Successful adaptation would be accompanied by reduced perceived stress and burnout. The continued high stress and burnout alongside blunted cortisol suggests pathological dysregulation, not healthy adaptation.",
+        "B": "If improved coping explained blunted cortisol, perceived stress and burnout should also decrease. They don't, suggesting the cortisol blunting reflects physiological dysregulation, not psychological improvement.",
+        "C": "Modern cortisol immunoassays are reliable across longitudinal studies. The pattern of cortisol blunting in chronically stressed populations has been replicated independently in many studies and reflects a known biological mechanism.",
+        "D": "Correct. Selye's GAS predicts that prolonged stress leads to exhaustion, where adaptive resources including HPA axis function become depleted. Chronic HPA activation leads to receptor downregulation, reduced adrenal sensitivity to ACTH, and flattened diurnal cortisol. The continued high stress and burnout alongside blunted cortisol is the hallmark of HPA axis dysregulation — a maladaptive state, not recovery."
+      },
+      "topic": "HPA axis dysregulation and chronic stress",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ps_emotion_008",
+      "usePrevPassage": true,
+      "stem": "Problem-focused coping is most accurately described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "directly addressing the stress source through planning, information-seeking, and action"
+        },
+        {
+          "label": "B",
+          "text": "managing emotional responses through relaxation or seeking social support for comfort"
+        },
+        {
+          "label": "C",
+          "text": "avoiding thoughts about the stressor through distraction or substance use"
+        },
+        {
+          "label": "D",
+          "text": "reinterpreting the stressor's meaning to reduce emotional impact"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Problem-focused coping (Lazarus & Folkman, 1984) involves direct action to alter the stress source: creating action plans, seeking information, breaking problems into steps, time management, and skill acquisition. It is most effective when stressors are controllable. For residents, this includes studying to improve competence and organizing workload efficiently.",
+        "B": "This describes emotion-focused coping, which targets emotional distress rather than the stressor itself. Seeking emotional support and relaxation manage feelings about the problem rather than solving it.",
+        "C": "This describes avoidant coping, a maladaptive strategy. The passage specifically contrasts avoidant copers (worst outcomes) with problem-focused copers (best outcomes).",
+        "D": "This describes cognitive reappraisal, an emotion-focused or meaning-focused strategy. Reappraisal changes thinking about a stressor without directly changing the situation, unlike problem-focused coping which involves concrete action."
+      },
+      "topic": "Problem-focused coping",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ps_emotion_009",
+      "usePrevPassage": true,
+      "stem": "The correlation of r = 0.45 between perceived stress and cortisol suggests:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "perceived stress causes exactly 45% of cortisol variance"
+        },
+        {
+          "label": "B",
+          "text": "a positive relationship exists, but substantial cortisol variance is unexplained by perceived stress alone"
+        },
+        {
+          "label": "C",
+          "text": "the measures are essentially interchangeable for assessing stress"
+        },
+        {
+          "label": "D",
+          "text": "the relationship is too weak to be meaningful"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The correlation r = 0.45 does not represent percentage of variance. The coefficient of determination r² = 0.20 means perceived stress accounts for ~20% of cortisol variance, not 45%. The remaining 80% reflects other factors (genetics, sleep, diet, circadian rhythm).",
+        "B": "Correct. An r of 0.45 indicates a moderate positive correlation — as perceived stress increases, cortisol tends to increase. But r² = 0.20 means only ~20% of cortisol variance is explained by perceived stress. The remaining 80% reflects other determinants. This demonstrates that subjective stress and physiological cortisol are related but distinct constructs, which is a robust and clinically important finding in health psychology.",
+        "C": "Interchangeable measures would require r values near 0.90+. At r = 0.45, these are related but clearly distinct constructs capturing different aspects of the stress experience.",
+        "D": "An r of 0.45 is a moderate and meaningful correlation in psychological research. Effect sizes above r = 0.30 are generally considered practically significant. The stress-cortisol relationship has important clinical implications."
+      },
+      "topic": "Correlation interpretation",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ps_emotion_010",
+      "usePrevPassage": true,
+      "stem": "A resident with chronic insomnia, weight gain, and difficulty concentrating may be experiencing allostatic overload, which refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "normal physiological adjustments to maintain homeostasis during acute stress"
+        },
+        {
+          "label": "B",
+          "text": "the immediate fight-or-flight response to a single stressor"
+        },
+        {
+          "label": "C",
+          "text": "the psychological tendency to overestimate threat severity"
+        },
+        {
+          "label": "D",
+          "text": "cumulative physiological wear from chronic stress system activation beyond adaptive capacity"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This describes allostasis itself — the normal adaptive process of maintaining stability through physiological change. Allostatic overload is the pathological consequence when these adaptive systems are chronically activated beyond capacity.",
+        "B": "The fight-or-flight response is an acute reaction, not a cumulative process. Allostatic overload specifically refers to damage from prolonged or repeated stress system activation.",
+        "C": "Threat overestimation is a cognitive bias that may contribute to chronic stress but is a psychological process, not a physiological concept. Allostatic overload describes physical consequences of chronic stress on body systems.",
+        "D": "Correct. Allostatic overload (McEwen, 1998) describes cumulative physiological cost of chronic stress. When the HPA axis, sympathetic nervous system, and immune pathways are repeatedly activated, the resulting wear produces cardiovascular, metabolic, immune, and neural damage. Insomnia (dysregulated circadian cortisol), weight gain (cortisol-driven visceral fat), and cognitive impairment (hippocampal damage) are classic manifestations."
+      },
+      "topic": "Allostatic overload",
+      "difficulty": "medium"
+    }
+  ]
+}

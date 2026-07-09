@@ -1,0 +1,499 @@
+{
+  "batch": "B021",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Optics, Light & Electromagnetic Radiation",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cp_optics_001",
+      "passage": "An ophthalmologist uses a slit-lamp biomicroscope to examine a patient's eye. The patient has a refractive error: distant objects are focused in front of the retina when the ciliary muscles are fully relaxed. The patient's uncorrected far point is 50 cm from the eye. The ophthalmologist prescribes corrective lenses to restore the far point to infinity.",
+      "stem": "The patient's refractive condition is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Hyperopia (farsightedness), because the focal point falls behind the retina"
+        },
+        {
+          "label": "B",
+          "text": "Myopia (nearsightedness), because parallel rays from distant objects converge before reaching the retina"
+        },
+        {
+          "label": "C",
+          "text": "Astigmatism, because the cornea has an irregular curvature"
+        },
+        {
+          "label": "D",
+          "text": "Presbyopia, because the lens has lost elasticity with age"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "In hyperopia, the eye has insufficient converging power, and the focal point would fall behind the retina. Distant objects would be blurred but the far point would be virtual (behind the eye), not at a finite distance in front. The passage states objects focus in front of the retina, which is myopia.",
+        "B": "In myopia, the eye's optical system (cornea + lens) has too much converging power relative to the axial length of the eye. Parallel rays from distant objects are brought to a focus in front of the retina, producing a blurred image. The uncorrected far point is at a finite distance (50 cm here) rather than at infinity. Diverging (concave/negative) lenses are needed to move the focal point back onto the retina.",
+        "C": "Astigmatism involves irregular corneal curvature producing different focal lengths in different meridians, causing directionally distorted images. The passage describes a simple focal length error with a well-defined far point, consistent with myopia, not astigmatism.",
+        "D": "Presbyopia involves age-related loss of lens elasticity, reducing accommodation (near focusing ability). It affects the near point, not the far point. The passage describes a far-point defect."
+      },
+      "topic": "Myopia / Refractive Errors",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_002",
+      "passage": null,
+      "passageRef": "cp_optics_001",
+      "stem": "The corrective lens needed for this patient should have a focal length of approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\u221225 cm, because the corrective power must be twice the refractive error"
+        },
+        {
+          "label": "B",
+          "text": "+50 cm (converging lens), because the lens must add converging power to focus on the retina"
+        },
+        {
+          "label": "C",
+          "text": "\u221250 cm (diverging lens), because the lens must create a virtual image at the patient's far point for objects at infinity"
+        },
+        {
+          "label": "D",
+          "text": "+100 cm, because a weak converging lens will shift the focal point forward"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The focal length is determined directly by the far point distance, not by doubling. f = \u221250 cm, not \u221225 cm.",
+        "B": "A converging lens would add more focusing power, making the myopia worse by moving the focal point even further in front of the retina. Myopia requires a diverging lens to spread rays before they enter the eye.",
+        "C": "The corrective lens must take an object at infinity (parallel rays) and create a virtual image at the patient's far point (50 cm). Using the thin lens equation with object distance = infinity and image distance = \u221250 cm (virtual, same side as object): 1/f = 1/\u221e + 1/(\u221250) = \u22121/50. So f = \u221250 cm = \u22120.5 m, giving a power of \u22122.0 diopters. The negative focal length indicates a diverging (concave) lens.",
+        "D": "A converging lens of any power would worsen myopia. The correction requires a diverging lens with negative focal length."
+      },
+      "topic": "Thin Lens Equation / Corrective Lenses",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_optics_003",
+      "passage": null,
+      "passageRef": "cp_optics_001",
+      "stem": "When the ophthalmologist shines a narrow beam of white light through a prism to examine the patient's retina, the light separates into its component colors. The violet light bends more than the red light because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "violet light has a shorter wavelength, which corresponds to a higher index of refraction in the glass, producing greater bending according to Snell's law"
+        },
+        {
+          "label": "B",
+          "text": "violet light has a higher amplitude, which increases the force of refraction at the glass surface"
+        },
+        {
+          "label": "C",
+          "text": "red light is absorbed more strongly by the glass, leaving violet to emerge at a steeper angle"
+        },
+        {
+          "label": "D",
+          "text": "violet light travels faster in glass than red light, causing it to bend more at the interface"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Dispersion occurs because the index of refraction of glass varies with wavelength \u2014 shorter wavelengths (violet, ~400 nm) experience a higher index of refraction than longer wavelengths (red, ~700 nm). By Snell's law (n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082), a higher n\u2082 produces a greater change in angle upon entering the glass. This wavelength-dependent refraction separates white light into its spectrum.",
+        "B": "Amplitude determines the intensity (brightness) of light, not its degree of refraction. Refraction depends on the change in wave speed between media, which is wavelength-dependent, not amplitude-dependent.",
+        "C": "While some absorption does occur, the separation of colors in a prism is due to differential refraction, not differential absorption. Both red and violet light are transmitted through the glass.",
+        "D": "Violet light travels slower in glass than red light (higher index = slower speed = v = c/n). A higher index means more bending, not faster travel. This answer reverses the relationship between speed and refraction."
+      },
+      "topic": "Dispersion / Snell's Law",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_optics_004",
+      "passage": "A radiologist reviews a patient's chest X-ray. The X-ray tube operates at a voltage of 120 kVp, producing a spectrum of X-ray photons with maximum energy of 120 keV. The radiologist notes that bone appears white (radiopaque), soft tissue appears gray, and air-filled lungs appear dark (radiolucent). A lead apron with a thickness of 0.5 mm is used to shield the patient's reproductive organs during the procedure.",
+      "stem": "X-ray photons with a maximum energy of 120 keV correspond to a minimum wavelength of approximately (h = 6.63 \u00d7 10\u207b\u00b3\u2074 J\u00b7s, 1 eV = 1.6 \u00d7 10\u207b\u00b9\u2079 J):",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.03 \u00d7 10\u207b\u00b9\u2074 m, which falls in the gamma ray range"
+        },
+        {
+          "label": "B",
+          "text": "1.03 \u00d7 10\u207b\u2078 m, which falls in the ultraviolet range"
+        },
+        {
+          "label": "C",
+          "text": "5.5 \u00d7 10\u207b\u2077 m, which falls in the visible light range"
+        },
+        {
+          "label": "D",
+          "text": "1.03 \u00d7 10\u207b\u00b9\u00b9 m, calculated from \u03bb = hc/E using the maximum photon energy"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "A wavelength of 10\u207b\u00b9\u2074 m is nuclear-scale and far shorter than diagnostic X-ray wavelengths. It would correspond to a photon energy in the MeV range (roughly 100 MeV), not 120 keV. Diagnostic X-rays have wavelengths on the order of 10\u207b\u00b9\u00b9 m (0.01 nm).",
+        "B": "10\u207b\u2078 m = 10 nm, which is in the extreme UV / soft X-ray boundary. This is three orders of magnitude too large for 120 keV photons.",
+        "C": "5.5 \u00d7 10\u207b\u2077 m = 550 nm, which is visible green light. Visible photons have energies of ~2\u20133 eV, not 120,000 eV.",
+        "D": "E = 120 keV = 120,000 \u00d7 1.6 \u00d7 10\u207b\u00b9\u2079 = 1.92 \u00d7 10\u207b\u00b9\u2074 J. \u03bb = hc/E = (6.63 \u00d7 10\u207b\u00b3\u2074)(3 \u00d7 10\u2078) / (1.92 \u00d7 10\u207b\u00b9\u2074) = 1.99 \u00d7 10\u207b\u00b2\u2075 / 1.92 \u00d7 10\u207b\u00b9\u2074 \u2248 1.03 \u00d7 10\u207b\u00b9\u00b9 m = 0.0103 nm. This is squarely in the X-ray range (0.01\u201310 nm). The minimum wavelength corresponds to the maximum energy photon."
+      },
+      "topic": "Photon Energy / Electromagnetic Spectrum",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_optics_005",
+      "passage": null,
+      "passageRef": "cp_optics_004",
+      "stem": "Bone appears white on an X-ray because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "bone emits visible white light when struck by X-ray photons"
+        },
+        {
+          "label": "B",
+          "text": "bone has a low atomic number and is transparent to X-rays"
+        },
+        {
+          "label": "C",
+          "text": "calcium and phosphorus in bone have high atomic numbers relative to soft tissue, causing greater X-ray absorption and less transmission to the detector"
+        },
+        {
+          "label": "D",
+          "text": "bone reflects X-rays back toward the X-ray tube, creating a bright spot on the image"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Bone does not emit visible light in response to X-rays. The white appearance on an X-ray film or detector represents areas where fewer X-ray photons reached the detector because they were absorbed by the dense material.",
+        "B": "This is the opposite of what happens. Bone is radiopaque (absorbs X-rays) because of its high-Z components. Low atomic number materials like air are radiolucent (transparent to X-rays).",
+        "C": "X-ray absorption increases with atomic number (approximately proportional to Z\u00b3 for photoelectric absorption). Calcium (Z=20) and phosphorus (Z=15) in hydroxyapatite absorb X-rays much more effectively than the carbon (Z=6), hydrogen (Z=1), nitrogen (Z=7), and oxygen (Z=8) that compose soft tissue. Fewer photons pass through bone, leaving that region unexposed (white) on the detector.",
+        "D": "X-rays are not reflected by bone. They are either absorbed (photoelectric effect) or scattered (Compton scattering). The image is formed by differential transmission, not reflection."
+      },
+      "topic": "X-ray Absorption / Atomic Number",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_006",
+      "passage": "A physics student sets up a double-slit experiment using monochromatic green laser light (\u03bb = 532 nm). The two slits are separated by 0.20 mm, and an interference pattern is observed on a screen 2.0 m away. The student measures the distance from the central maximum to the first-order bright fringe.",
+      "stem": "The distance from the central maximum to the first-order bright fringe is approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "53 mm, because double-slit fringes are always widely spaced"
+        },
+        {
+          "label": "B",
+          "text": "5.3 cm, because the fringe spacing is proportional to L/\u03bb"
+        },
+        {
+          "label": "C",
+          "text": "0.53 mm, because the fringe spacing equals the slit separation"
+        },
+        {
+          "label": "D",
+          "text": "5.3 mm, using y = \u03bbL/d = (532 \u00d7 10\u207b\u2079)(2.0)/(0.20 \u00d7 10\u207b\u00b3)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "53 mm is off by a factor of 10 from the correct value. Fringe spacing depends on the specific experimental parameters, not a general rule about double-slit experiments.",
+        "B": "5.3 cm is off by a factor of 10. The calculation gives 5.3 mm. Additionally, the stated formula (L/\u03bb) is inverted \u2014 fringe spacing is proportional to \u03bbL/d, not L/\u03bb.",
+        "C": "The fringe spacing depends on \u03bb, L, and d \u2014 it does not simply equal the slit separation. With \u03bb = 532 nm, L = 2 m, and d = 0.2 mm, the spacing is much larger than 0.53 mm.",
+        "D": "For double-slit interference, the position of the mth bright fringe is y = m\u03bbL/d. For m=1: y = (1)(532 \u00d7 10\u207b\u2079 m)(2.0 m) / (0.20 \u00d7 10\u207b\u00b3 m) = 1.064 \u00d7 10\u207b\u2076 / 2.0 \u00d7 10\u207b\u2074 = 5.32 \u00d7 10\u207b\u00b3 m = 5.3 mm. The small angle approximation (sin\u03b8 \u2248 tan\u03b8 \u2248 y/L) is valid because y << L."
+      },
+      "topic": "Double-Slit Interference / Fringe Spacing",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_optics_007",
+      "passage": null,
+      "passageRef": "cp_optics_006",
+      "stem": "If the student replaces the green laser (532 nm) with a red laser (635 nm) while keeping all other parameters constant, the interference pattern will:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "remain unchanged because interference depends only on slit separation, not wavelength"
+        },
+        {
+          "label": "B",
+          "text": "have more closely spaced fringes because red light has a longer wavelength"
+        },
+        {
+          "label": "C",
+          "text": "have more widely spaced fringes because fringe spacing is proportional to wavelength"
+        },
+        {
+          "label": "D",
+          "text": "disappear because red light cannot produce interference patterns"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Fringe spacing y = \u03bbL/d is directly proportional to wavelength. Changing from 532 nm to 635 nm will change the pattern.",
+        "B": "This reverses the relationship. Fringe spacing is proportional to \u03bb, so a longer wavelength produces wider spacing, not narrower.",
+        "C": "Since y = \u03bbL/d, increasing \u03bb from 532 nm to 635 nm increases the fringe spacing by a factor of 635/532 \u2248 1.19. The fringes become about 19% more widely spaced. This is consistent with the general principle that longer wavelengths diffract more.",
+        "D": "All wavelengths of light can produce interference patterns. Red light, like all coherent monochromatic light, produces clear double-slit interference fringes."
+      },
+      "topic": "Interference / Wavelength Dependence",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_008",
+      "passage": null,
+      "stem": "Total internal reflection occurs when light travels from a medium with a higher index of refraction to one with a lower index and the angle of incidence exceeds the critical angle. If light travels from glass (n = 1.50) to water (n = 1.33), the critical angle is approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "62.5\u00b0, calculated from sin\u03b8c = n\u2082/n\u2081 = 1.33/1.50 = 0.887"
+        },
+        {
+          "label": "B",
+          "text": "41.8\u00b0, calculated from sin\u03b8c = n\u2081/n\u2082 = 1.50/1.33"
+        },
+        {
+          "label": "C",
+          "text": "90\u00b0, because total internal reflection can only occur at the glass-air interface"
+        },
+        {
+          "label": "D",
+          "text": "48.8\u00b0, calculated from sin\u03b8c = 1/n\u2081 = 1/1.50"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The critical angle is found from Snell's law at the point where the refracted angle equals 90\u00b0: n\u2081sin\u03b8c = n\u2082sin90\u00b0 \u2192 sin\u03b8c = n\u2082/n\u2081 = 1.33/1.50 = 0.887 \u2192 \u03b8c = arcsin(0.887) \u2248 62.5\u00b0. For angles of incidence greater than 62.5\u00b0, light will undergo total internal reflection at the glass-water interface.",
+        "B": "This inverts the ratio. sin\u03b8c = n\u2082/n\u2081 (lower index over higher index), not n\u2081/n\u2082. Using n\u2081/n\u2082 = 1.50/1.33 = 1.128 gives sin\u03b8c > 1, which is impossible.",
+        "C": "Total internal reflection can occur at any interface where light passes from a higher-n to a lower-n medium, not just glass-air. The glass-water interface supports total internal reflection because n_glass > n_water. The critical angle depends on the specific indices of both media.",
+        "D": "sin\u03b8c = 1/n\u2081 gives the critical angle for a glass-air interface (n\u2082 = 1.00), not a glass-water interface. For glass-water, sin\u03b8c = 1.33/1.50, which gives a larger critical angle than 1/1.50 would."
+      },
+      "topic": "Total Internal Reflection / Critical Angle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_optics_009",
+      "passage": null,
+      "stem": "A photon of ultraviolet light has a wavelength of 250 nm. Compared to a photon of infrared light with a wavelength of 1000 nm, the UV photon has:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4 times the energy but the same frequency, because frequency is a property of the source, not the photon"
+        },
+        {
+          "label": "B",
+          "text": "1/4 the energy, because longer wavelengths carry more energy"
+        },
+        {
+          "label": "C",
+          "text": "the same energy but higher frequency, because all photons carry the same quantum of energy"
+        },
+        {
+          "label": "D",
+          "text": "4 times the energy and 4 times the frequency, because E = hf = hc/\u03bb and both are inversely proportional to wavelength"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Frequency and energy are both properties of the photon, and they are proportional (E = hf). A photon with 4\u00d7 the energy necessarily has 4\u00d7 the frequency. The frequency is determined by the wavelength, not independently by the source.",
+        "B": "Energy is inversely proportional to wavelength: E = hc/\u03bb. Shorter wavelengths carry more energy, not less. This is why UV radiation is more biologically damaging than IR.",
+        "C": "Different photons carry different amounts of energy depending on their frequency. The quantum of energy is hf, which varies with f. All photons of the same frequency carry the same energy, but photons of different frequencies do not.",
+        "D": "E = hf = hc/\u03bb. The UV photon (250 nm) has a wavelength 4 times shorter than the IR photon (1000 nm), so it has 4 times the energy and 4 times the frequency. Since f = c/\u03bb, halving the wavelength doubles the frequency, and quartering it quadruples the frequency. Energy and frequency are directly proportional (E = hf) and both inversely proportional to wavelength."
+      },
+      "topic": "Photon Energy / Frequency / Wavelength",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_010",
+      "passage": null,
+      "stem": "A student places an object 15 cm in front of a converging (convex) lens with a focal length of 10 cm. The image formed is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "real, inverted, and located 30 cm on the opposite side of the lens"
+        },
+        {
+          "label": "B",
+          "text": "virtual, upright, and located 30 cm on the same side as the object"
+        },
+        {
+          "label": "C",
+          "text": "real, inverted, and located 6 cm on the opposite side of the lens"
+        },
+        {
+          "label": "D",
+          "text": "virtual, upright, and located 6 cm on the same side as the object"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Using the thin lens equation: 1/f = 1/do + 1/di \u2192 1/10 = 1/15 + 1/di \u2192 1/di = 1/10 \u2212 1/15 = 3/30 \u2212 2/30 = 1/30 \u2192 di = +30 cm. The positive image distance indicates a real image on the opposite side of the lens. Magnification m = \u2212di/do = \u221230/15 = \u22122, meaning the image is inverted and twice the size of the object.",
+        "B": "A virtual image at 30 cm would require a negative di, but the calculation gives di = +30 cm (real). Virtual, upright images from converging lenses only occur when the object is inside the focal length (do < f).",
+        "C": "di = 6 cm would require 1/6 = 1/10 \u2212 1/15 = 1/30, which is incorrect. 1/6 \u2260 1/30.",
+        "D": "The object is outside the focal length (15 cm > 10 cm), so a converging lens produces a real, inverted image, not a virtual, upright one."
+      },
+      "topic": "Thin Lens Equation / Image Formation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_optics_011",
+      "passage": null,
+      "stem": "An endoscope uses fiber optic cables to transmit light into the body. Light is guided through the fiber by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "diffraction of light around the curved fiber walls"
+        },
+        {
+          "label": "B",
+          "text": "total internal reflection at the interface between the high-index glass core and the low-index cladding"
+        },
+        {
+          "label": "C",
+          "text": "constructive interference of light waves within the fiber"
+        },
+        {
+          "label": "D",
+          "text": "polarization of light along the fiber axis, preventing it from escaping through the walls"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Diffraction involves the bending of waves around obstacles or through apertures. Light guidance in fiber optics relies on reflection, not diffraction. Diffraction would cause light to spread out, not remain confined.",
+        "B": "Fiber optic cables have a high-index glass core surrounded by a lower-index cladding. When light enters the core at a sufficiently steep angle (greater than the critical angle at the core-cladding interface), it undergoes total internal reflection at each bounce and propagates along the fiber with minimal loss. This principle allows endoscopes to transmit images and illumination through curved paths inside the body.",
+        "C": "While interference effects can occur in specialized fibers (e.g., photonic crystal fibers), standard fiber optic light guidance is based on total internal reflection, not constructive interference.",
+        "D": "Polarization describes the orientation of the electric field oscillation. Standard fiber optics do not rely on polarization for light confinement. Both polarization states propagate through standard multimode fibers."
+      },
+      "topic": "Fiber Optics / Total Internal Reflection",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_012",
+      "passage": null,
+      "stem": "The intensity of electromagnetic radiation from a point source decreases with distance according to the inverse square law. If a light detector measures an intensity of 400 W/m\u00b2 at a distance of 2 m from a point source, the intensity at 4 m from the source is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "200 W/m\u00b2, because intensity decreases linearly with distance"
+        },
+        {
+          "label": "B",
+          "text": "100 W/m\u00b2, because intensity is inversely proportional to the square of the distance"
+        },
+        {
+          "label": "C",
+          "text": "800 W/m\u00b2, because intensity increases with distance from a point source"
+        },
+        {
+          "label": "D",
+          "text": "50 W/m\u00b2, because the intensity drops by a factor of 8 when distance doubles"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The inverse square law states I \u221d 1/r\u00b2, not I \u221d 1/r. Linear decrease would be an inverse (first power) law, not an inverse square law. Doubling the distance reduces intensity by a factor of 4, not 2.",
+        "B": "By the inverse square law: I\u2081/I\u2082 = r\u2082\u00b2/r\u2081\u00b2. With r\u2081 = 2 m and r\u2082 = 4 m: I\u2082 = I\u2081 \u00d7 (r\u2081/r\u2082)\u00b2 = 400 \u00d7 (2/4)\u00b2 = 400 \u00d7 1/4 = 100 W/m\u00b2. The energy from a point source spreads over the surface area of a sphere (4\u03c0r\u00b2), so doubling the radius quadruples the area and reduces the intensity to one-quarter.",
+        "C": "Intensity decreases with distance from a point source, not increases. Energy conservation requires that the same total power is distributed over an ever-larger spherical area.",
+        "D": "Doubling the distance reduces intensity by a factor of 2\u00b2 = 4, not 8. A factor of 8 would apply if intensity followed an inverse cube law, which electromagnetic radiation from a point source does not."
+      },
+      "topic": "Inverse Square Law / Electromagnetic Intensity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_013",
+      "passage": null,
+      "stem": "A polarizing filter transmits only light whose electric field oscillates along the filter's transmission axis. Unpolarized light of intensity I\u2080 passes through two polarizing filters in sequence. The first filter's axis is vertical, and the second is oriented at 45\u00b0 to the vertical. The intensity of light emerging from the second filter is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "I\u2080/4, because the first filter halves the intensity and the second reduces it by cos\u00b245\u00b0 = 1/2"
+        },
+        {
+          "label": "B",
+          "text": "I\u2080/2, because only the second filter affects the intensity"
+        },
+        {
+          "label": "C",
+          "text": "Zero, because the two filters are not aligned"
+        },
+        {
+          "label": "D",
+          "text": "I\u2080, because polarized light passes through any polarizing filter without loss"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "After the first polarizer, unpolarized light of intensity I\u2080 is reduced to I\u2080/2 (only the component aligned with the vertical axis passes). The now vertically polarized light hits the second filter at 45\u00b0. By Malus's law, the transmitted intensity is (I\u2080/2)cos\u00b245\u00b0 = (I\u2080/2)(1/2) = I\u2080/4. The total transmitted intensity is one-quarter of the original.",
+        "B": "Both filters affect the intensity. The first filter halves the intensity of unpolarized light (from I\u2080 to I\u2080/2). The second filter further reduces it according to Malus's law.",
+        "C": "Zero transmission occurs only when the two filters are perpendicular (90\u00b0 apart). At 45\u00b0, cos\u00b245\u00b0 = 0.5, so half the polarized light from the first filter passes through the second.",
+        "D": "Polarized light loses intensity when passing through a polarizer oriented at any angle other than 0\u00b0 to its polarization direction. Malus's law (I = I\u2080cos\u00b2\u03b8) governs the transmitted intensity."
+      },
+      "topic": "Malus's Law / Polarization",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_optics_014",
+      "passage": null,
+      "stem": "Which region of the electromagnetic spectrum has wavelengths immediately shorter than visible light and is responsible for causing sunburn and DNA damage in skin cells?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Infrared radiation"
+        },
+        {
+          "label": "B",
+          "text": "Microwave radiation"
+        },
+        {
+          "label": "C",
+          "text": "Ultraviolet radiation"
+        },
+        {
+          "label": "D",
+          "text": "X-ray radiation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Infrared radiation has wavelengths longer than visible light (>700 nm), not shorter. It is associated with thermal energy and heat sensation, not sunburn or DNA damage.",
+        "B": "Microwave radiation has wavelengths much longer than visible light (millimeters to centimeters). It is used in communication and microwave ovens and does not cause sunburn.",
+        "C": "Ultraviolet (UV) radiation occupies the electromagnetic spectrum immediately below visible light (wavelengths ~10\u2013400 nm). UV-B (280\u2013315 nm) and UV-A (315\u2013400 nm) penetrate the skin and can cause direct DNA damage through formation of pyrimidine dimers (particularly thymine dimers). This DNA damage triggers the inflammatory response perceived as sunburn and, if unrepaired, can lead to mutations and skin cancer.",
+        "D": "X-rays have wavelengths shorter than UV (0.01\u201310 nm) and are not immediately adjacent to visible light. While X-rays can damage DNA, they are not the primary cause of sunburn from solar radiation because most X-rays from the sun are absorbed by the atmosphere."
+      },
+      "topic": "Electromagnetic Spectrum / UV Radiation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_015",
+      "passage": null,
+      "stem": "A concave (converging) mirror has a focal length of 20 cm. An object is placed 10 cm in front of the mirror (inside the focal point). The image formed is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "real, inverted, and located 20 cm in front of the mirror"
+        },
+        {
+          "label": "B",
+          "text": "virtual, upright, and located 20 cm behind the mirror"
+        },
+        {
+          "label": "C",
+          "text": "real, inverted, and located at the focal point"
+        },
+        {
+          "label": "D",
+          "text": "no image is formed when the object is inside the focal point of a concave mirror"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "For an object inside the focal point of a concave mirror, the reflected rays diverge and do not form a real image in front of the mirror. A real, inverted image is formed only when the object is outside the focal point.",
+        "B": "Using the mirror equation: 1/f = 1/do + 1/di \u2192 1/20 = 1/10 + 1/di \u2192 1/di = 1/20 \u2212 1/10 = 1/20 \u2212 2/20 = \u22121/20 \u2192 di = \u221220 cm. The negative image distance indicates a virtual image located 20 cm behind the mirror. Magnification m = \u2212di/do = \u2212(\u221220)/10 = +2, so the image is upright and twice the size of the object. This is the principle behind magnifying/shaving mirrors.",
+        "C": "The image is not at the focal point. The focal point is where parallel rays converge, not where an image forms for an object at 10 cm. The mirror equation gives di = \u221220 cm (behind the mirror).",
+        "D": "An image is always formed \u2014 when the object is inside the focal point, the reflected rays diverge, but they appear to originate from a point behind the mirror, forming a virtual image."
+      },
+      "topic": "Concave Mirror / Virtual Image",
+      "difficulty": "Medium"
+    }
+  ]
+}

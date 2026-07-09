@@ -1,0 +1,338 @@
+{
+  "batch": "B068",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Atomic Structure & Periodic Trends",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_atom_001",
+      "passage": "A chemist analyzes periodic trends across Period 2 (Li → Ne) and down Group 17 (F → I). She notes that atomic radius decreases across the period while ionization energy generally increases, with anomalies at Be→B and N→O. She explains these trends using effective nuclear charge (Z_eff) and electron configuration stability. She also observes that chlorine has a more negative electron affinity than fluorine, despite fluorine's higher electronegativity.",
+      "stem": "Atomic radius decreases from Li to Ne because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "electrons are removed across the period, reducing electron-electron repulsion"
+        },
+        {
+          "label": "B",
+          "text": "the principal quantum number increases across the period"
+        },
+        {
+          "label": "C",
+          "text": "increasing nuclear charge (Z) with electrons added to the same principal shell increases Z_eff, pulling valence electrons closer to the nucleus"
+        },
+        {
+          "label": "D",
+          "text": "electrons are added to inner shells, which are closer to the nucleus"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "B": "The principal quantum number stays at n=2 across Period 2 (2s and 2p subshells). It increases when moving to the next period (n=3). Same-shell electron addition with increasing Z is what drives the contraction.",
+        "A": "Electrons are added across the period, not removed. Each element has one more electron than its predecessor. The increasing nuclear charge outweighs the modest increase in electron-electron repulsion.",
+        "C": "Correct. Across Period 2, each successive element adds one proton and one electron. Electrons are added to the same shell (n=2), so shielding from inner electrons remains approximately constant. However, Z increases by one each time, so Z_eff (Z minus inner electron shielding) increases. Higher Z_eff pulls valence electrons closer, shrinking the atom. From Li (Z_eff ≈ 1.3) to F (Z_eff ≈ 5.2), the trend is dramatic.",
+        "D": "Electrons are added to the valence shell (n=2), not inner shells. Inner shell configuration (1s²) remains constant across Period 2."
+      },
+      "topic": "Periodic Trends / Atomic Radius",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_atom_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The first ionization energy of nitrogen is higher than that of oxygen, despite oxygen having a greater Z. This anomaly occurs because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "nitrogen's half-filled 2p³ configuration has extra stability from exchange energy, making electron removal more difficult"
+        },
+        {
+          "label": "B",
+          "text": "oxygen is a smaller atom, so its electrons are harder to remove"
+        },
+        {
+          "label": "C",
+          "text": "nitrogen has more protons than oxygen"
+        },
+        {
+          "label": "D",
+          "text": "oxygen's valence electrons are in a higher energy level than nitrogen's"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Nitrogen (2p³) has a half-filled p subshell with one electron in each p orbital (all parallel spin). This configuration is stabilized by maximized exchange energy (favorable same-spin electron interactions) and minimized electron-electron repulsion (no paired electrons). Removing an electron disrupts this stability, requiring more energy. Oxygen (2p⁴) has one paired electron in a p orbital; the repulsion between paired electrons makes one slightly easier to remove, lowering its IE below nitrogen's.",
+        "B": "Oxygen is slightly smaller than nitrogen (higher Z_eff), which would predict higher IE for oxygen. The observed reversal is due to the electronic configuration effect overwhelming the size effect.",
+        "C": "Nitrogen (Z=7) has fewer protons than oxygen (Z=8). More protons in oxygen increase Z_eff, but this is overridden by the half-filled stability of nitrogen's 2p³ configuration.",
+        "D": "Both nitrogen and oxygen have valence electrons in n=2 orbitals (2p). They are in the same principal energy level."
+      },
+      "topic": "Ionization Energy / Half-Filled Stability",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_atom_003",
+      "passage": null,
+      "stem": "The number of orbitals in the n=3 shell is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "B": "18 is the maximum number of electrons in n=3 (2n² = 2×9 = 18), not the number of orbitals. Each of the 9 orbitals holds 2 electrons.",
+        "A": "3 is the number of subshells in n=3 (s, p, d), not the number of orbitals. Each subshell contains multiple orbitals: s has 1, p has 3, d has 5.",
+        "C": "Correct. The number of orbitals in shell n is n². For n=3: 3² = 9 orbitals. These are: one 3s orbital, three 3p orbitals, and five 3d orbitals (1 + 3 + 5 = 9). Each orbital holds a maximum of 2 electrons, so the maximum electron capacity is 2n² = 18 electrons.",
+        "D": "6 is the number of electrons in a filled p subshell (3 orbitals × 2 electrons), not the total number of orbitals in the n=3 shell."
+      },
+      "topic": "Quantum Numbers / Orbital Count",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_atom_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Chlorine has a more negative (more exothermic) electron affinity than fluorine because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "fluorine has fewer protons and attracts electrons less strongly"
+        },
+        {
+          "label": "B",
+          "text": "chlorine has a larger atomic radius, which always correlates with more negative electron affinity"
+        },
+        {
+          "label": "C",
+          "text": "chlorine is less electronegative than fluorine"
+        },
+        {
+          "label": "D",
+          "text": "chlorine's 3p orbital is larger, reducing electron-electron repulsion when adding an electron — more energy is released"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Larger atomic radius generally correlates with less negative electron affinity (weaker attraction). Chlorine's case is an exception driven by orbital size effects on repulsion, not by a general radius-affinity rule.",
+        "A": "Fluorine (Z=9) actually has high effective nuclear charge for its small size. The issue is not weaker attraction but excessive repulsion in the small 2p orbital.",
+        "C": "While true that chlorine is less electronegative, electronegativity and electron affinity are related but distinct. Electronegativity is a tendency to attract bonding electrons; electron affinity is the energy change when gaining an electron. The repulsion effect in fluorine's small orbitals is the specific cause.",
+        "D": "Correct. Although fluorine has higher Z_eff and electronegativity, its 2p orbitals are very compact. Adding an electron to the already electron-dense 2p shell creates strong electron-electron repulsion, reducing the energy released. Chlorine's 3p orbitals are larger, so the added electron experiences less repulsion, and more energy is released upon electron capture. This makes chlorine's electron affinity more negative (~-349 kJ/mol) than fluorine's (~-328 kJ/mol), despite fluorine being more electronegative overall."
+      },
+      "topic": "Electron Affinity / Fluorine vs Chlorine",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_atom_005",
+      "passage": null,
+      "stem": "An element with the electron configuration [Ar] 4s² 3d¹⁰ 4p⁵ is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "chlorine"
+        },
+        {
+          "label": "B",
+          "text": "iodine"
+        },
+        {
+          "label": "C",
+          "text": "bromine"
+        },
+        {
+          "label": "D",
+          "text": "arsenic"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. [Ar] represents the argon core (18 electrons). Adding 4s²(2) + 3d¹⁰(10) + 4p⁵(5) = 17 more electrons gives Z = 18 + 17 = 35, which is bromine. Bromine is in Period 4, Group 17 (halogens), with the expected configuration of a fourth-period halogen — the d-block is filled (3d¹⁰) and the p-block is one electron short of a complete octet (4p⁵).",
+        "A": "Chlorine (Z=17) has the configuration [Ne] 3s² 3p⁵ — it is in Period 3 and has no d electrons. Its noble gas core is neon, not argon.",
+        "B": "Iodine (Z=53) has the configuration [Kr] 5s² 4d¹⁰ 5p⁵ — it is in Period 5 with a krypton core, not argon.",
+        "D": "Arsenic (Z=33) has the configuration [Ar] 4s² 3d¹⁰ 4p³ — it has 4p³, not 4p⁵. Arsenic is in Group 15, not Group 17."
+      },
+      "topic": "Electron Configuration / Element ID",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_atom_006",
+      "passage": null,
+      "stem": "In multi-electron atoms, the energy of an orbital depends on both n and l because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the Pauli exclusion principle splits orbital energies"
+        },
+        {
+          "label": "B",
+          "text": "all orbitals within a shell have identical energy regardless of l"
+        },
+        {
+          "label": "C",
+          "text": "the magnetic quantum number mₗ determines energy splitting"
+        },
+        {
+          "label": "D",
+          "text": "electrons in lower-l orbitals (s < p < d) penetrate closer to the nucleus and experience less shielding, lowering their energy relative to higher-l orbitals of the same n"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "This is true only for hydrogen. In multi-electron atoms, orbitals within a shell have different energies depending on l (e.g., 3s < 3p < 3d).",
+        "A": "The Pauli principle limits orbital occupancy to 2 electrons with opposite spins but does not cause energy differences between orbitals of different l. Pauli is about exclusion, not energy splitting.",
+        "C": "mₗ determines the spatial orientation of an orbital but does not affect energy in the absence of an external magnetic field. Orbitals with the same n and l but different mₗ are degenerate (equal energy) unless a magnetic field lifts the degeneracy.",
+        "D": "Correct. In hydrogen (one electron), orbital energy depends only on n. In multi-electron atoms, electron-electron repulsion and shielding create l-dependent energy differences. s-orbital electrons penetrate closer to the nucleus (higher probability density near the nucleus) and are less shielded by inner electrons, so they have lower energy than p orbitals of the same n. Similarly, p < d < f in energy for the same n. This explains the n+l rule (Madelung rule) for filling order."
+      },
+      "topic": "Orbital Energy / Penetration and Shielding",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_atom_007",
+      "passage": null,
+      "stem": "Which set of ions is isoelectronic with neon (10 electrons)?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Li⁺, Be²⁺, B³⁺"
+        },
+        {
+          "label": "B",
+          "text": "Na⁺, Mg²⁺, O²⁻"
+        },
+        {
+          "label": "C",
+          "text": "K⁺, Ca²⁺, Cl⁻"
+        },
+        {
+          "label": "D",
+          "text": "F⁻, Ne, Na⁺ — but this includes a neutral atom, not all ions"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Isoelectronic species have the same number of electrons. Ne has 10 electrons. Na⁺ = 11 - 1 = 10 electrons. Mg²⁺ = 12 - 2 = 10 electrons. O²⁻ = 8 + 2 = 10 electrons. All three ions have 10 electrons and the electron configuration 1s²2s²2p⁶, identical to neon.",
+        "A": "Li⁺ = 3-1 = 2 electrons (like He), Be²⁺ = 4-2 = 2 electrons, B³⁺ = 5-3 = 2 electrons. These are isoelectronic with helium (2 electrons), not neon (10).",
+        "C": "K⁺ = 19-1 = 18 electrons, Ca²⁺ = 20-2 = 18 electrons, Cl⁻ = 17+1 = 18 electrons. These are isoelectronic with argon (18 electrons), not neon.",
+        "D": "While F⁻ (10 electrons) and Na⁺ (10 electrons) are indeed isoelectronic with Ne, the question asks specifically about ions. Ne is a neutral atom included in the set, making this option poorly formed. Choice B provides three ions that are all isoelectronic with neon."
+      },
+      "topic": "Isoelectronic Species",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_atom_008",
+      "passage": null,
+      "stem": "Electronegativity generally increases across a period and decreases down a group because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "larger atoms have more electrons, which attract bonding electrons more strongly"
+        },
+        {
+          "label": "B",
+          "text": "across a period, increasing Z_eff strengthens electron attraction; down a group, increasing distance and shielding weaken it"
+        },
+        {
+          "label": "C",
+          "text": "electronegativity depends only on atomic mass"
+        },
+        {
+          "label": "D",
+          "text": "noble gases have the highest electronegativity in each period"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Electronegativity measures an atom's ability to attract bonding electrons. Across a period, Z_eff increases while atomic radius decreases, strengthening the pull on shared electrons (F > O > N > C). Down a group, valence electrons are farther from the nucleus with more shielding, weakening attraction (F > Cl > Br > I). Fluorine has the highest electronegativity (3.98 on the Pauling scale) due to its high Z_eff and small size.",
+        "A": "Larger atoms actually have lower electronegativity because their valence electrons are farther from the nucleus. More electrons does not mean stronger attraction — increased shielding reduces the effective pull on bonding electrons.",
+        "C": "Electronegativity depends on Z_eff and atomic radius, not atomic mass. Mass is related to nuclear composition (protons + neutrons) but does not determine electronic attraction.",
+        "D": "Noble gases are generally not assigned electronegativity values on the Pauling scale because they rarely form bonds. Halogens (Group 17) have the highest electronegativities in each period."
+      },
+      "topic": "Electronegativity / Periodic Trends",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_atom_009",
+      "passage": null,
+      "stem": "The Heisenberg uncertainty principle states that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an electron's exact position and momentum cannot both be known simultaneously with arbitrary precision — ΔxΔp ≥ ℏ/2"
+        },
+        {
+          "label": "B",
+          "text": "electrons orbit the nucleus in fixed circular paths"
+        },
+        {
+          "label": "C",
+          "text": "the energy of an electron is always uncertain"
+        },
+        {
+          "label": "D",
+          "text": "atoms cannot be observed because they are too small"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Heisenberg uncertainty principle is a fundamental limit of quantum mechanics: the product of the uncertainties in position (Δx) and momentum (Δp) of a particle must be at least ℏ/2. This means the more precisely we know an electron's position, the less precisely we can know its momentum, and vice versa. This is not a measurement limitation but a fundamental property of nature. It explains why electrons are described by probability distributions (orbitals) rather than fixed trajectories.",
+        "B": "Fixed circular orbits describe the Bohr model, which was superseded by quantum mechanics. The uncertainty principle specifically prohibits well-defined trajectories for electrons — their positions are described by probability clouds (orbitals).",
+        "C": "Energy can be determined precisely for stationary states (definite energy eigenstates). The uncertainty principle primarily concerns the position-momentum pair and the energy-time pair, not energy alone.",
+        "D": "The uncertainty principle is not about observational difficulty due to small size. It is a fundamental physical principle that applies to all quantum particles regardless of measurement technology."
+      },
+      "topic": "Heisenberg Uncertainty Principle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_atom_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The electron affinity anomaly at Be and N (less negative than their neighbors) in the Period 2 data is explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "their large atomic radii, which reduce electron attraction"
+        },
+        {
+          "label": "B",
+          "text": "Be's filled 2s² subshell and N's half-filled 2p³ subshell — both are extra stable, making addition of an electron to the next subshell or paired orbital energetically less favorable"
+        },
+        {
+          "label": "C",
+          "text": "the fact that Be and N are metals, which do not gain electrons"
+        },
+        {
+          "label": "D",
+          "text": "relativistic effects on their inner electrons"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Beryllium (1s²2s²) has a completely filled 2s subshell. Adding an electron would require placing it in the higher-energy 2p subshell, making the process less favorable. Nitrogen (1s²2s²2p³) has a half-filled 2p subshell with maximum exchange energy stabilization. Adding an electron forces pairing in a 2p orbital, increasing repulsion and reducing the energy released. Both cases represent disruption of particularly stable electronic configurations.",
+        "A": "Be and N have relatively small atomic radii (high Z_eff across Period 2), which would actually favor electron capture. The anomaly arises from electronic configuration stability, not size.",
+        "C": "Be is a metal but can still have measurable electron affinity. N is a nonmetal. The classification as metal/nonmetal does not determine whether electron affinity anomalies occur — the explanation is electronic configuration stability.",
+        "D": "Relativistic effects are significant only for heavy elements (Z > 70) where inner electrons approach the speed of light. For Period 2 elements (Z = 4-7), relativistic effects are negligible."
+      },
+      "topic": "Electron Affinity Anomalies / Shell Stability",
+      "difficulty": "Hard"
+    }
+  ]
+}

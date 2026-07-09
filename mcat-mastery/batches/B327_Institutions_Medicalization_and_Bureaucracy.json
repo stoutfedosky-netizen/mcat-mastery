@@ -1,0 +1,225 @@
+{
+  "batch": "B327",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Institutions, Medicalization & Bureaucracy",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_bureaucracy_patient_navigation_327_q0",
+      "passage": "A hospital introduced a centralized referral office to reduce missed specialty appointments. The new office required standardized forms, eligibility checks, and appointment-confirmation calls. Administrators reported fewer lost referrals, but some clinicians complained that urgent cases moved slowly when paperwork was incomplete. Patients with limited English proficiency had the most difficulty understanding the forms unless interpreters were involved. A sociologist studying the change described bureaucracy as both a tool for coordination and a potential source of barriers.",
+      "usePrevPassage": false,
+      "stem": "What feature of bureaucracy is most clearly shown by standardized referral forms?",
+      "choices": {
+        "C": "Formal rules and procedures",
+        "A": "Charismatic authority only",
+        "B": "Sensory adaptation",
+        "D": "Primary reinforcement"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Standardized forms, eligibility checks, and confirmation calls are formalized procedures used to coordinate work. They are classic bureaucratic features because they make actions more predictable and documentable.",
+        "A": "Charismatic authority is based on personal appeal, not standardized paperwork.",
+        "B": "Sensory adaptation is a perceptual process unrelated to hospital referrals.",
+        "D": "Primary reinforcement involves biologically meaningful rewards, not institutional procedures."
+      },
+      "topic": "Social Institutions",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_bureaucracy_patient_navigation_327_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why did the centralized office reduce some lost referrals?",
+      "choices": {
+        "B": "Centralization created a consistent process for tracking appointments",
+        "A": "It eliminated the need for specialists",
+        "C": "It removed all patient language barriers",
+        "D": "It made urgent cases automatically faster"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. A single office with standardized checks can reduce fragmentation by tracking whether referrals are completed. This coordination benefit explains why fewer referrals were lost.",
+        "A": "The system coordinates specialty appointments; it does not eliminate specialists.",
+        "C": "Language barriers remained unless interpreters were involved.",
+        "D": "Urgent cases could move slowly when paperwork was incomplete."
+      },
+      "topic": "Healthcare Systems",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_bureaucracy_patient_navigation_327_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "How did the bureaucracy create barriers?",
+      "choices": {
+        "D": "Incomplete paperwork and language demands could delay or confuse access",
+        "A": "It made forms unnecessary",
+        "B": "It prevented any coordination from occurring",
+        "C": "It ensured all patients understood the process equally"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The same formal procedures that improved tracking also created obstacles when forms were incomplete or hard to understand. The barrier was especially clear for patients with limited English proficiency.",
+        "A": "Forms were central to the system, not unnecessary.",
+        "B": "The system did coordinate referrals, as shown by fewer lost referrals.",
+        "C": "Understanding was unequal, especially without interpreters."
+      },
+      "topic": "Institutions",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_bureaucracy_patient_navigation_327_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A hospital trying to preserve benefits while reducing barriers should most likely do what?",
+      "choices": {
+        "A": "Keep referral tracking but add interpreter support and urgent-case exceptions",
+        "B": "Return to an entirely informal referral process",
+        "C": "Ignore language access because forms are standardized",
+        "D": "Require every urgent case to wait for routine paperwork"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This approach keeps the coordination advantage of centralized tracking while addressing the specific barriers identified in the passage: language access and delays from incomplete paperwork in urgent cases.",
+        "B": "An entirely informal system could bring back lost referrals.",
+        "C": "Standardization does not remove the need for language access.",
+        "D": "Urgent-case exceptions would reduce delays; forcing routine paperwork could worsen them."
+      },
+      "topic": "Applied Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_bureaucracy_patient_navigation_327_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion best reflects the sociological interpretation?",
+      "choices": {
+        "D": "Institutions can improve coordination while also producing unequal access if procedures are not designed inclusively",
+        "A": "Bureaucracy is always harmful and never useful",
+        "B": "Standardized procedures eliminate inequality automatically",
+        "C": "Hospitals cannot be studied sociologically"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The passage describes both benefits and barriers. A balanced sociological conclusion recognizes that formal systems can solve coordination problems yet still disadvantage patients when language or paperwork demands are not addressed.",
+        "A": "The fewer lost referrals show bureaucracy can be useful.",
+        "B": "The difficulties for limited-English patients show standardization does not automatically eliminate inequality.",
+        "C": "Hospitals are institutions and can be analyzed sociologically."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_medicalization_sleepiness_327_q5",
+      "passage": "A media analysis examined advertisements for products aimed at daytime sleepiness. Some ads framed occasional tiredness after short sleep as a medical problem requiring a product, while others emphasized sleep hygiene, shift schedules, and workload. Physicians interviewed by the researchers said that persistent excessive sleepiness can reflect a disorder, but ordinary fatigue after insufficient sleep should not always be medicalized. The researchers used the case to discuss how normal experiences can be redefined as medical problems depending on social context, marketing, and professional authority.",
+      "usePrevPassage": false,
+      "stem": "The passage is primarily about which sociological process?",
+      "choices": {
+        "C": "Medicalization",
+        "A": "Role exit",
+        "B": "Habituation",
+        "D": "Classical conditioning"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage describes ordinary fatigue being framed as a medical problem requiring a product. That is medicalization: redefining a nonmedical or normal life experience as a medical condition requiring intervention.",
+        "A": "Role exit is leaving a social role, not redefining tiredness as medical.",
+        "B": "Habituation is reduced response to repeated stimuli.",
+        "D": "Classical conditioning is learning through stimulus pairing and does not capture the social framing in the passage."
+      },
+      "topic": "Medicalization",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_medicalization_sleepiness_327_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why did physicians distinguish persistent excessive sleepiness from ordinary fatigue?",
+      "choices": {
+        "B": "They recognized that some symptoms may require care while not all tiredness should be treated as disease",
+        "A": "They denied that sleep disorders exist",
+        "C": "They claimed marketing is always medically accurate",
+        "D": "They rejected all sleep-hygiene advice"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The physicians offered a boundary: persistent excessive sleepiness can be clinically meaningful, but fatigue after insufficient sleep may reflect lifestyle or work conditions. This avoids both under-treatment and over-medicalization.",
+        "A": "The passage says persistent sleepiness can reflect a disorder, so sleep disorders are not denied.",
+        "C": "The analysis questions marketing frames rather than treating them as always accurate.",
+        "D": "Sleep hygiene is mentioned as a relevant nonmedical factor."
+      },
+      "topic": "Health and Society",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_medicalization_sleepiness_327_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "How can marketing contribute to medicalization?",
+      "choices": {
+        "A": "It can frame common experiences as problems needing products",
+        "B": "It removes professional authority from all health decisions",
+        "C": "It prevents consumers from learning about symptoms",
+        "D": "It makes biological processes irrelevant"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Advertisements can shape how people interpret normal experiences by presenting them as treatable deficits. In the passage, some ads turned occasional tiredness into a product-requiring problem.",
+        "B": "Marketing may influence interpretation, but professional authority still matters.",
+        "C": "Ads often provide information, though it may be selective or persuasive.",
+        "D": "Medicalization involves social framing; it does not make biology irrelevant."
+      },
+      "topic": "Medical Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_medicalization_sleepiness_327_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A balanced public-health message would most likely say what?",
+      "choices": {
+        "C": "Seek care for persistent or severe sleepiness while also addressing sleep habits and schedules",
+        "A": "Never seek medical care for sleepiness",
+        "B": "Treat every tired afternoon as a disorder",
+        "D": "Use products instead of changing short sleep or workload"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage supports distinguishing potentially clinical symptoms from ordinary fatigue related to insufficient sleep or schedule demands. A balanced message would include both medical evaluation and social/behavioral context.",
+        "A": "Persistent excessive sleepiness can require evaluation, so never seeking care is unsafe.",
+        "B": "Medicalizing every tired afternoon is the problem the passage warns about.",
+        "D": "Products may not address root causes such as sleep duration or shift schedules."
+      },
+      "topic": "Applied Medical Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_medicalization_sleepiness_327_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most defensible?",
+      "choices": {
+        "B": "Whether a state is seen as medical can depend on professional, commercial, and social framing",
+        "A": "Medical categories are never based on real symptoms",
+        "C": "Advertising alone determines all diagnoses",
+        "D": "Ordinary fatigue and sleep disorders are always identical"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The passage emphasizes that classification can be shaped by social forces while still allowing that some symptoms reflect genuine disorders. It is a nuanced account of medicalization rather than a denial of medicine.",
+        "A": "The physicians acknowledge real disorders, so the passage is not denying symptoms.",
+        "C": "Advertising can influence framing but does not alone determine all diagnoses.",
+        "D": "The passage explicitly separates ordinary fatigue from persistent excessive sleepiness."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

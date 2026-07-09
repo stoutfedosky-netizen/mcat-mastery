@@ -1,0 +1,225 @@
+{
+  "batch": "B202",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Memory & Learning",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_memory_learning_202_q0",
+      "passage": "Researchers at a medical school investigated the encoding specificity principle by examining context-dependent memory in 120 first-year medical students. Participants were randomly assigned to one of four conditions in a 2×2 factorial design. During the encoding phase, half the students studied a list of 50 pharmacology terms in a quiet lecture hall, while the other half studied the same list in a noisy hospital simulation lab. During the retrieval phase 48 hours later, participants were tested in either the same environment or the switched environment.\n\nFree recall scores (number of terms correctly recalled out of 50) were analyzed by two-way ANOVA. Results showed a significant interaction between encoding context and retrieval context (F(1,116) = 12.34, p < 0.001). Students who studied and were tested in the same environment (matched conditions) recalled an average of 32.4 terms (SD = 6.1), compared to 24.8 terms (SD = 7.3) for those in mismatched conditions. The main effect of encoding environment was not significant (F(1,116) = 0.89, p = 0.35), but the main effect of retrieval environment was marginal (F(1,116) = 3.21, p = 0.07). Post-hoc paired comparisons revealed that the context-dependent advantage was larger for students who encoded in the noisy lab and retrieved in the noisy lab (35.1 vs. 23.9) than for those in the quiet-quiet versus quiet-noisy comparison (29.7 vs. 25.6).",
+      "usePrevPassage": false,
+      "stem": "The significant interaction between encoding and retrieval context in this study most directly supports which memory principle?",
+      "choices": {
+        "A": "The encoding specificity principle, which states that retrieval is enhanced when the context at test matches the context during encoding.",
+        "B": "The levels-of-processing framework, which predicts that deeper semantic encoding produces stronger memory traces.",
+        "C": "The spacing effect, which shows that distributed practice leads to better long-term retention than massed practice.",
+        "D": "Proactive interference, which occurs when previously learned material impairs recall of newly learned information."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The encoding specificity principle (Tulving & Thomson, 1973) proposes that memory retrieval is optimized when the cues present at retrieval match those encoded during learning. The study’s 2×2 design directly tested this by crossing encoding and retrieval environments. The significant interaction—with matched conditions outperforming mismatched conditions—is the empirical signature of encoding specificity. The environmental context (noise level, physical setting) served as an incidental encoding cue that facilitated retrieval when reinstated.",
+        "B": "The levels-of-processing framework (Craik & Lockhart, 1972) concerns the depth of cognitive processing during encoding, not environmental context. All participants studied the same material with presumably similar cognitive engagement. The study manipulated physical context, not processing depth, so the interaction effect does not test this framework.",
+        "C": "The spacing effect relates to the temporal distribution of study sessions (spaced vs. massed) and predicts that spreading study over time improves retention. This study used a single encoding session for all participants and manipulated environmental context, not study schedule. The 48-hour retention interval was constant across all conditions.",
+        "D": "Proactive interference occurs when older memories disrupt retrieval of newer ones (e.g., an old phone number interfering with recall of a new one). The study did not involve competing memory lists or sequential learning tasks. The performance difference was driven by context match/mismatch, not by interference from prior learning."
+      },
+      "topic": "Encoding Specificity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_memory_learning_202_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The non-significant main effect of encoding environment (F(1,116) = 0.89, p = 0.35) indicates that:",
+      "choices": {
+        "A": "the noisy lab produced significantly worse encoding than the quiet lecture hall.",
+        "B": "the type of encoding environment interacted with retrieval environment to affect recall.",
+        "C": "neither encoding environment was inherently better or worse for learning pharmacology terms when averaged across retrieval conditions.",
+        "D": "overall recall performance did not differ significantly between those who studied in the quiet lecture hall versus the noisy lab when collapsed across retrieval contexts."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A non-significant main effect (p = 0.35) means there was no statistically detectable difference between the two encoding environments when averaging across retrieval conditions. If the noisy lab produced significantly worse encoding, the main effect would have been significant with a lower p-value.",
+        "B": "The interaction between encoding and retrieval contexts is reported separately (F(1,116) = 12.34, p < 0.001) and was indeed significant. However, the question asks specifically about the non-significant main effect of encoding environment, which addresses whether one environment was overall superior, not how the two factors interacted.",
+        "C": "While this interpretation captures the general idea, the statistical precision is important. A non-significant main effect means the data did not provide sufficient evidence to conclude that the environments differed in encoding quality. It does not prove they are equivalent—only that any difference was too small to detect with this sample size.",
+        "D": "Correct. In a two-way ANOVA, the main effect of encoding environment tests whether the marginal mean recall across both retrieval conditions differs between quiet and noisy encoding groups. With F(1,116) = 0.89 and p = 0.35, there is insufficient evidence to reject the null hypothesis of no difference. This means the quiet hall and noisy lab produced similar average recall when retrieval context is not considered. The environment’s impact on memory manifests through its interaction with retrieval context, not through an overall encoding advantage."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_memory_learning_202_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The finding that context-dependent recall was stronger for students who encoded in the noisy lab compared to the quiet lecture hall suggests that:",
+      "choices": {
+        "A": "noisy environments always produce stronger memories due to increased arousal.",
+        "B": "the noisy lab provided more distinctive contextual cues that became more strongly associated with the studied material during encoding.",
+        "C": "students in the quiet lecture hall used deeper processing strategies that made them less reliant on environmental context.",
+        "D": "the noisy lab caused state-dependent memory effects due to physiological stress responses."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The data do not support the claim that noisy environments always produce stronger memories. The non-significant main effect of encoding environment shows that the noisy lab did not produce overall superior memory. The noisy lab’s advantage was specific to the matched retrieval condition, consistent with a contextual cue explanation rather than a general arousal benefit.",
+        "B": "Correct. The noisy hospital simulation lab likely provided more salient and distinctive environmental features (equipment sounds, simulated clinical activity, novel spatial layout) compared to a familiar lecture hall. According to the encoding specificity and distinctiveness frameworks, more distinctive contexts create stronger context-to-memory associations. When these distinctive cues are reinstated at retrieval, the memory benefit is larger. The relatively generic lecture hall provides fewer distinctive cues, producing a weaker context-dependent effect.",
+        "C": "The study did not measure processing depth, and there is no evidence that lecture hall students used different strategies. All participants studied the same material under the same time constraints. The difference in context-dependence magnitude is more parsimoniously explained by the distinctiveness of contextual cues than by unmeasured differences in cognitive strategy.",
+        "D": "State-dependent memory involves internal physiological states (e.g., drug-induced states, mood) rather than external environmental contexts. While the noisy lab may have produced some stress, the experimental manipulation was explicitly environmental (context-dependent), not pharmacological or mood-based. The distinction between context-dependent and state-dependent memory is important in cognitive psychology."
+      },
+      "topic": "Context-Dependent Memory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_memory_learning_202_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A student who performs well on pharmacology exams taken in a lecture hall but struggles to recall the same information during clinical rotations in the hospital would illustrate:",
+      "choices": {
+        "A": "retroactive interference from new clinical experiences overwriting pharmacology knowledge.",
+        "B": "a failure of transfer-appropriate processing, where study methods did not match clinical application demands.",
+        "C": "context-dependent memory failure, where the retrieval environment (hospital) mismatches the encoding environment (lecture hall).",
+        "D": "anterograde amnesia due to the stress of the clinical environment."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Retroactive interference occurs when new learning disrupts recall of older material. While clinical experiences might create some interference, the scenario specifically describes an environment-dependent performance difference (succeeding in the lecture hall, failing in the hospital), which is the hallmark of context-dependent memory, not interference.",
+        "B": "Transfer-appropriate processing focuses on whether the type of cognitive processing at encoding matches the type required at retrieval (e.g., semantic study for conceptual tests, perceptual study for perceptual tests). The scenario emphasizes a change in physical environment, not a mismatch in processing type. If the student used the same cognitive approach in both settings, the issue is contextual, not processing-based.",
+        "C": "Correct. This is a direct application of the encoding specificity principle demonstrated in the study. The student encoded pharmacology information in the physical context of a lecture hall. At retrieval in the hospital—a different physical environment with different sights, sounds, and sensory cues—the contextual retrieval cues that were present during encoding are absent. This mismatch reduces the effectiveness of retrieval, consistent with the significant interaction found in the study’s data.",
+        "D": "Anterograde amnesia is the inability to form new memories after a brain injury or neurological event (e.g., hippocampal damage). The student can recall information in one setting but not another, which indicates intact memory formation with context-dependent retrieval failure, not amnesia. Stress does not cause true anterograde amnesia."
+      },
+      "topic": "Memory Application",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_memory_learning_202_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The researchers used free recall rather than recognition testing. Compared to a recognition test, free recall is more sensitive to context effects because:",
+      "choices": {
+        "A": "free recall requires self-generated retrieval cues, making participants more reliant on environmental context to access stored memories.",
+        "B": "recognition tests are easier and produce ceiling effects that mask any context-dependent differences.",
+        "C": "free recall measures implicit memory, which is more susceptible to environmental manipulation.",
+        "D": "recognition tests activate different brain regions that are immune to contextual influences."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Free recall provides no external retrieval cues—participants must generate their own access routes to stored memories. In this situation, environmental context serves as a powerful cue: reinstating the encoding context provides additional retrieval paths. Recognition testing, by contrast, presents the target items directly, providing strong, explicit retrieval cues that can override the need for contextual support. This is why context effects are reliably larger in recall than in recognition (Godden & Baddeley, 1975, 1980).",
+        "B": "While recognition can produce higher overall performance than recall, this does not inherently cause ceiling effects. A well-calibrated recognition test with adequate difficulty (e.g., using similar lures) can avoid ceiling effects. The key difference is in cue availability, not difficulty level.",
+        "C": "Free recall is a measure of explicit (declarative) memory, not implicit memory. Implicit memory is assessed through tasks like priming, skill learning, or perceptual identification, where participants are not consciously trying to recall studied material. The free recall task used in this study explicitly asked participants to recall pharmacology terms.",
+        "D": "Recognition and recall share overlapping neural substrates, including the hippocampus and prefrontal cortex. While there are some differences in neural activation patterns (e.g., recollection vs. familiarity), both memory processes are influenced by contextual factors. The difference in context sensitivity is cognitive (cue availability), not neuroanatomical."
+      },
+      "topic": "Memory Retrieval",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_memory_learning_202_q5",
+      "passage": "A cognitive psychology laboratory examined how working memory capacity (WMC) modulates the effect of cognitive load on clinical reasoning in medical trainees. Eighty third-year medical students first completed the operation span task (OSPAN) to measure WMC, yielding a mean score of 42.3 (SD = 12.7, range 15–75). Students were median-split into high-WMC (n = 40, mean OSPAN = 53.1) and low-WMC (n = 40, mean OSPAN = 31.5) groups.\n\nAll participants then completed a clinical reasoning task under two cognitive load conditions (within-subjects, counterbalanced): low load (single patient presentation) and high load (simultaneous presentation of three patients with overlapping symptoms). Performance was measured as diagnostic accuracy (percentage of correct diagnoses). Under low cognitive load, high-WMC and low-WMC groups performed similarly (87.2% vs. 84.1%, p = 0.21). Under high cognitive load, performance diverged significantly: high-WMC students maintained 78.4% accuracy, while low-WMC students dropped to 59.3% (p < 0.001). Error analysis revealed that low-WMC students under high load committed significantly more conjunction errors (combining symptoms from different patients) than any other group.",
+      "usePrevPassage": false,
+      "stem": "The performance divergence between high-WMC and low-WMC students under high cognitive load is most consistent with which model of working memory?",
+      "choices": {
+        "A": "Atkinson and Shiffrin’s modal model, which predicts that rehearsal time determines long-term storage.",
+        "B": "Paivio’s dual coding theory, which predicts that visual and verbal codes independently support memory.",
+        "C": "Craik and Lockhart’s levels-of-processing framework, which predicts that elaborative rehearsal produces durable memories.",
+        "D": "Baddeley’s multicomponent model, in which the central executive manages attention and coordinates information from the phonological loop and visuospatial sketchpad."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The Atkinson-Shiffrin modal model focuses on information flow between sensory register, short-term store, and long-term store, with rehearsal as the primary transfer mechanism. It does not account for individual differences in executive control or the capacity limitations revealed under cognitive load. The observed WMC × load interaction specifically implicates an executive attention component not modeled in the original modal framework.",
+        "B": "Dual coding theory addresses how verbal and imaginal representations work together to enhance memory encoding and retrieval. It does not explain why individual differences in working memory capacity selectively impair performance under high cognitive load. The clinical reasoning task involved managing multiple information streams simultaneously, which is an executive control problem, not a coding format problem.",
+        "C": "Levels of processing addresses encoding depth (shallow perceptual vs. deep semantic) and its effect on memory strength. It does not account for real-time resource allocation under cognitive load or individual differences in attentional control. The divergence under high load reflects executive capacity limitations during active processing, not depth of encoding.",
+        "D": "Correct. Baddeley’s model (1974, 2000) proposes a central executive that directs attention, coordinates information from subsidiary stores (phonological loop, visuospatial sketchpad, episodic buffer), and manages multiple tasks. Under low load, both groups had sufficient executive resources. Under high load (three simultaneous patients), the central executive must actively maintain, update, and compare multiple patient presentations while inhibiting cross-patient confusion. High-WMC individuals have more efficient central executive function, maintaining performance. Low-WMC students’ executive resources are overwhelmed, leading to binding errors (conjunction errors) when symptom sets from different patients are confused."
+      },
+      "topic": "Working Memory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_memory_learning_202_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The conjunction errors committed by low-WMC students (combining symptoms from different patients) most likely result from a failure of:",
+      "choices": {
+        "A": "sensory memory, which failed to register the patient information accurately.",
+        "B": "inhibitory control, which normally prevents irrelevant information from intruding into the active problem representation.",
+        "C": "long-term memory retrieval, because students could not recall similar cases from their clinical training.",
+        "D": "source monitoring, which failed to identify past experiences relevant to diagnosis."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Sensory memory (iconic and echoic) holds brief, raw perceptual representations for milliseconds to seconds. The clinical presentations were available for extended viewing, providing ample time for information to transfer beyond sensory memory. Conjunction errors arise during active cognitive processing, not during initial perceptual registration.",
+        "B": "Correct. Conjunction errors occur when features from one mental representation (Patient A’s symptoms) intrude into another (Patient B’s case). This reflects a failure of inhibitory control—a key function of the central executive. Under high cognitive load, the executive must actively suppress currently irrelevant patient information while processing the focal patient. Low-WMC individuals have less efficient inhibitory mechanisms, allowing symptoms to “migrate” between patient representations. This is consistent with the inhibitory deficit theory of WMC (Hasher & Zacks, 1988).",
+        "C": "Long-term memory retrieval of prior cases (pattern recognition from clinical training) is a different cognitive process from managing active patient information. Conjunction errors involve mixing up currently presented information, not failing to retrieve similar past cases. The errors are prospective (confusing active inputs) rather than retrospective (failing to access stored knowledge).",
+        "D": "Source monitoring involves attributing memories to their correct origin (e.g., did I read this or hear it?). While conjunction errors share some features with source monitoring failures, they occur during active information management, not memory attribution. The students are not misattributing past experiences; they are confusing simultaneously presented current information, which is an executive control failure."
+      },
+      "topic": "Executive Function",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_memory_learning_202_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The within-subjects cognitive load manipulation was counterbalanced across participants. This counterbalancing primarily addresses the threat of:",
+      "choices": {
+        "A": "order effects, which could confound the load comparison if all participants received low load first and high load second.",
+        "B": "experimenter bias, which could influence how instructions are delivered across conditions.",
+        "C": "attrition bias, which could result if participants dropped out after the more difficult condition.",
+        "D": "ecological validity, which could be limited if the task does not resemble real clinical settings."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In a within-subjects design, participants complete all conditions, and the order of conditions can systematically influence performance through practice effects (improvement from experience), fatigue effects (decline from tiredness), or carryover effects (one condition affecting the next). If all participants completed low load first and high load second, any performance decline could reflect fatigue rather than cognitive load. Counterbalancing—having half the participants receive low load first and the other half high load first—distributes these order effects equally across conditions, preventing them from confounding the comparison.",
+        "B": "Experimenter bias is addressed through blinding procedures (single-blind or double-blind designs), standardized protocols, and automated administration. Counterbalancing the order of conditions does not prevent an experimenter from treating participants differently. If the same researcher administered both conditions, standardization of instructions would be the appropriate control.",
+        "C": "Attrition bias occurs when participants who drop out differ systematically from those who remain, threatening internal validity. Counterbalancing does not prevent dropouts; it addresses order effects. If attrition were a concern, the researchers would track dropout rates and perform intention-to-treat analyses.",
+        "D": "Ecological validity refers to whether experimental tasks and settings resemble real-world conditions. Using clinical scenarios (patient presentations) enhances ecological validity, but counterbalancing does not affect this. Ecological validity is a design choice, not something addressed by condition ordering."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_memory_learning_202_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A medical school implements environmental context reinstatement as a study strategy, advising students to study in settings similar to their exam rooms. According to the dual-store model, this strategy would primarily enhance:",
+      "choices": {
+        "A": "procedural memory, because environmental cues activate motor sequences learned during clinical training.",
+        "B": "semantic memory, because the exam room context strengthens conceptual knowledge of medical facts.",
+        "C": "episodic memory retrieval, because environmental context cues reinstate the spatiotemporal encoding context associated with specific study episodes.",
+        "D": "sensory memory, because the physical environment extends the duration of the iconic memory trace."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Procedural memory encodes motor skills and habitual behaviors (e.g., suturing technique, physical exam maneuvers) and is stored in the basal ganglia and cerebellum. It is not primarily activated by environmental context cues during written exams. Environmental reinstatement targets declarative memories encoded in relation to specific contexts, not implicit motor procedures.",
+        "B": "Semantic memory stores general factual knowledge independent of the specific time and place it was learned (e.g., knowing that the heart has four chambers). By definition, semantic memories are context-free. Environmental reinstatement specifically aids episodic memory, which encodes contextual details, not semantic memory, which abstracts away from encoding context.",
+        "C": "Correct. Episodic memory stores personally experienced events bound to their spatiotemporal context (Tulving, 1972). When a student studies pharmacology terms in a specific room, the material is encoded alongside contextual features of that room (lighting, seating arrangement, ambient sounds). According to the encoding specificity principle, presenting those same contextual cues at retrieval reactivates the episodic trace, facilitating recall. This is precisely the mechanism demonstrated in the passage’s study.",
+        "D": "Sensory memory (iconic for visual, echoic for auditory) persists for only 250 ms to 4 seconds and reflects raw sensory registration. It is not modulated by environmental context in any meaningful way. Study strategies target long-term memory encoding and retrieval, not the brief sensory persistence phase."
+      },
+      "topic": "Memory Systems",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_memory_learning_202_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The researchers used a within-subjects design for the cognitive load manipulation but a between-subjects design for WMC. The primary advantage of the within-subjects load comparison is that it:",
+      "choices": {
+        "A": "allows causal inference about the effect of WMC on diagnostic accuracy.",
+        "B": "increases the generalizability of findings to other medical specialties.",
+        "C": "prevents practice effects from influencing the results.",
+        "D": "controls for individual differences in baseline clinical knowledge, since each participant serves as their own control across load conditions."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Within-subjects designs increase statistical power and control within-person variability, but they do not strengthen causal inference about between-subjects variables like WMC. WMC was measured and used for group assignment, not experimentally manipulated. Causal claims about WMC would require experimental manipulation of executive resources (e.g., dual-task paradigms), not just measurement.",
+        "B": "Within-subjects designs do not inherently increase generalizability (external validity). Generalizability depends on sample representativeness, setting diversity, and task ecological validity, not on whether a factor is manipulated within or between subjects.",
+        "C": "Within-subjects designs are actually more susceptible to practice effects, not less. When participants complete both low-load and high-load conditions, performance on the second condition may be influenced by experience with the first. The researchers addressed this with counterbalancing, but the design itself does not prevent practice effects.",
+        "D": "Correct. In a within-subjects design, each participant experiences both the low-load and high-load conditions. This means each person’s cognitive load effect is calculated as the difference in their own performance across conditions, eliminating between-person variability in baseline clinical knowledge, intelligence, test-taking strategy, and other stable individual differences. This increases statistical power to detect the load manipulation’s effect compared to a between-subjects design where different individuals are in each condition."
+      },
+      "topic": "Research Design",
+      "difficulty": "Medium"
+    }
+  ]
+}

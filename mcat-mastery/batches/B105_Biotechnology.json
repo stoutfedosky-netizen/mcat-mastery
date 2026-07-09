@@ -1,0 +1,339 @@
+{
+  "batch": "B105",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Biotechnology: PCR, Gel Electrophoresis & Blotting",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "bb_biotech_001",
+      "passage": "A molecular biology student studies common biotechnology techniques. She performs polymerase chain reaction (PCR) to amplify a specific gene, runs gel electrophoresis to separate DNA fragments by size, uses restriction enzymes to cut DNA at specific sequences, and performs Southern, Northern, and Western blots to detect specific DNA, RNA, and protein targets, respectively. She also studies recombinant DNA technology, gene cloning using plasmid vectors, and CRISPR-Cas9 gene editing.",
+      "stem": "PCR (polymerase chain reaction) amplifies a specific DNA sequence through repeated cycles of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "denaturation (~95°C, separates double-stranded DNA), annealing (~55-65°C, primers bind to complementary sequences), and extension (~72°C, Taq polymerase synthesizes new strands) — each cycle doubles the target DNA, yielding 2ⁿ copies after n cycles"
+        },
+        {
+          "label": "B",
+          "text": "transcription, translation, and post-translational modification"
+        },
+        {
+          "label": "C",
+          "text": "ligation, transformation, and selection"
+        },
+        {
+          "label": "D",
+          "text": "centrifugation, filtration, and crystallization"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. PCR: (1) Denaturation (~95°C) — heat separates dsDNA into single strands; (2) Annealing (~55-65°C) — short oligonucleotide primers (designed to flank the target sequence) hybridize to complementary template strands; (3) Extension (~72°C) — Taq polymerase (from Thermus aquaticus, heat-stable) extends primers in the 5'→3' direction, synthesizing new complementary strands. Each cycle doubles the target: after 30 cycles, ~2³⁰ ≈ 10⁹ copies (billion-fold amplification). PCR requires: template DNA, primers, dNTPs, Taq polymerase, Mg²⁺, and a thermocycler. Applications: forensics, diagnostics, cloning, mutagenesis, pathogen detection.",
+        "B": "Transcription (DNA→RNA), translation (RNA→protein), and post-translational modification are steps of gene expression, not PCR. PCR amplifies DNA without involving RNA or protein synthesis.",
+        "C": "Ligation, transformation, and selection are steps in molecular cloning (inserting DNA into a plasmid vector → introducing into bacteria → selecting transformants). These are distinct from PCR amplification.",
+        "D": "Centrifugation, filtration, and crystallization are physical separation techniques used in biochemistry, not steps of PCR."
+      },
+      "topic": "PCR / Thermal Cycling",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_biotech_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Gel electrophoresis separates DNA fragments based on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "their color — different DNA sequences produce different colors"
+        },
+        {
+          "label": "B",
+          "text": "size — smaller fragments migrate faster through the agarose or polyacrylamide gel matrix toward the positive electrode (anode), because DNA is negatively charged (phosphate backbone) and smaller molecules encounter less resistance"
+        },
+        {
+          "label": "C",
+          "text": "their temperature of melting"
+        },
+        {
+          "label": "D",
+          "text": "alphabetical order of their nucleotide sequences"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "DNA fragments are not inherently colored. They must be stained (ethidium bromide, SYBR Green) or labeled (fluorescent dyes, radioactive isotopes) for visualization. The staining is uniform — it does not distinguish sequences.",
+        "B": "Correct. DNA is uniformly negatively charged (phosphodiester backbone) and migrates toward the positive electrode (anode) in an electric field. The gel matrix (agarose for large fragments, polyacrylamide for small fragments/sequencing) acts as a molecular sieve — smaller fragments navigate the pores more easily and migrate faster. Separation is by size, not charge (charge-to-mass ratio is constant for DNA). Visualization: ethidium bromide (intercalates, fluoresces under UV) or SYBR Green/Safe. Size is determined by comparison to a DNA ladder (molecular weight marker) run alongside samples.",
+        "C": "Melting temperature (Tm) relates to DNA base composition and length but is not the basis for gel electrophoresis separation. Gel electrophoresis separates by size under denaturing or non-denaturing conditions.",
+        "D": "DNA sequences are not separated alphabetically. Separation is purely physical — based on the ability of molecules of different sizes to move through the gel matrix under an electric field."
+      },
+      "topic": "Gel Electrophoresis / Size Separation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_biotech_003",
+      "passage": null,
+      "stem": "Restriction enzymes (restriction endonucleases) are used in molecular biology to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "synthesize new DNA from an RNA template"
+        },
+        {
+          "label": "B",
+          "text": "amplify DNA through repeated thermal cycling"
+        },
+        {
+          "label": "C",
+          "text": "cut double-stranded DNA at specific palindromic recognition sequences (typically 4-8 bp) — producing either sticky ends (overhanging single-stranded regions) or blunt ends, enabling precise DNA manipulation for cloning and mapping"
+        },
+        {
+          "label": "D",
+          "text": "join DNA fragments together by forming phosphodiester bonds"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Synthesizing DNA from RNA describes reverse transcriptase (retroviruses). Restriction enzymes cut existing DNA; they do not synthesize new DNA.",
+        "B": "DNA amplification through thermal cycling describes PCR (using Taq polymerase). Restriction enzymes cut DNA at specific sites but do not amplify it.",
+        "C": "Correct. Restriction enzymes (naturally used by bacteria to destroy foreign DNA — restriction-modification system) recognize specific palindromic sequences and cleave both strands. Example: EcoRI recognizes 5'-GAATTC-3' and cuts between G and A, producing sticky ends (4-nt 5' overhangs: 5'-AATT). Sticky ends from the same enzyme are complementary and can be ligated with DNA from any source cut by the same enzyme — the basis of recombinant DNA technology. BamHI, HindIII, and NotI are other common restriction enzymes. Restriction mapping uses fragment sizes from different enzyme digestions to determine the physical map of a DNA molecule.",
+        "D": "Joining DNA fragments by forming phosphodiester bonds describes DNA ligase. Restriction enzymes and ligase are complementary tools: restriction enzymes cut DNA, ligase joins compatible ends."
+      },
+      "topic": "Restriction Enzymes / Palindromic Sequences",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_biotech_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A Southern blot is used to detect:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "specific RNA sequences in a sample"
+        },
+        {
+          "label": "B",
+          "text": "specific proteins using antibodies"
+        },
+        {
+          "label": "C",
+          "text": "carbohydrates on cell surfaces"
+        },
+        {
+          "label": "D",
+          "text": "specific DNA sequences — DNA is digested with restriction enzymes, separated by gel electrophoresis, transferred to a membrane, and hybridized with a labeled complementary probe"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Specific RNA detection uses a Northern blot (named by analogy to Southern). Northern blots separate RNA by electrophoresis and hybridize with DNA or RNA probes to detect specific mRNA species.",
+        "B": "Specific protein detection using antibodies describes a Western blot (immunoblot). Proteins are separated by SDS-PAGE, transferred to PVDF or nitrocellulose membrane, and probed with specific antibodies.",
+        "C": "Cell surface carbohydrate detection uses lectin staining or mass spectrometry, not blotting techniques. There is no standard 'carbohydrate blot' in the SNoW DRoP nomenclature.",
+        "D": "Correct. Southern blot (Edwin Southern, 1975): (1) digest genomic DNA with restriction enzymes → defined fragments; (2) separate fragments by gel electrophoresis; (3) denature (NaOH) and transfer (blot) to nitrocellulose or nylon membrane; (4) hybridize with a labeled probe (radioactive ³²P or fluorescent) complementary to the target sequence; (5) detect bound probe by autoradiography or fluorescence. Applications: detecting gene mutations, RFLP analysis, gene copy number, transgene integration. The mnemonic: Southern (DNA), Northern (RNA), Western (protein) — SNoW DRoP (Southern-Northern-Western, DNA-RNA-Protein)."
+      },
+      "topic": "Southern Blot / DNA Detection",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_biotech_005",
+      "passage": null,
+      "stem": "CRISPR-Cas9 gene editing works by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "using a guide RNA (gRNA) to direct the Cas9 endonuclease to a specific complementary DNA sequence, where Cas9 creates a double-strand break — the cell's repair mechanisms (NHEJ or HDR) then modify the gene, enabling gene knockout, correction, or insertion"
+        },
+        {
+          "label": "B",
+          "text": "randomly mutating every gene in the genome simultaneously"
+        },
+        {
+          "label": "C",
+          "text": "inserting transposable elements at random positions throughout the chromosome"
+        },
+        {
+          "label": "D",
+          "text": "using UV radiation to induce thymine dimers at specific sites"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. CRISPR-Cas9: (1) A guide RNA (~20 nt spacer + scaffold) is designed to match the target DNA sequence adjacent to a PAM (protospacer adjacent motif, e.g., NGG for SpCas9); (2) gRNA directs Cas9 to the target → Cas9 creates a double-strand break (DSB); (3) Cell repair pathways: NHEJ (non-homologous end joining — error-prone, causes insertions/deletions → gene knockout) or HDR (homology-directed repair — using a supplied template → precise gene editing/correction/insertion). CRISPR is faster, cheaper, and more versatile than previous gene editing tools (ZFNs, TALENs). Applications: disease gene correction, cancer research, agriculture, potential therapeutic gene therapy.",
+        "B": "CRISPR-Cas9 is highly specific — the gRNA targets a single ~20 bp sequence in the genome. Off-target effects can occur but are generally rare and can be minimized with optimized gRNA design. It does not randomly mutate all genes.",
+        "C": "Transposable elements (transposons) insert at semi-random positions. CRISPR is a targeted system that cuts at a specific, programmer-defined sequence. Some CRISPR-based systems have been adapted for transposition, but standard CRISPR-Cas9 creates targeted DSBs.",
+        "D": "UV radiation causes random thymine dimers wherever adjacent thymines occur on the same strand. This is non-specific mutagen damage, not targeted gene editing."
+      },
+      "topic": "CRISPR-Cas9 / Gene Editing",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_biotech_006",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In recombinant DNA technology, a plasmid vector must contain:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "only a promoter sequence and nothing else"
+        },
+        {
+          "label": "B",
+          "text": "an origin of replication (ori, for autonomous replication in host cells), a selectable marker (e.g., antibiotic resistance gene, to identify transformed cells), and a multiple cloning site (MCS, with unique restriction enzyme sites for DNA insertion)"
+        },
+        {
+          "label": "C",
+          "text": "eukaryotic chromosomal telomeres"
+        },
+        {
+          "label": "D",
+          "text": "reverse transcriptase coding sequence"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A promoter alone is insufficient. Without an origin of replication, the plasmid cannot replicate in the host cell and would be lost during cell division. Without a selectable marker, transformed cells cannot be distinguished from non-transformed ones.",
+        "B": "Correct. Essential plasmid vector components: (1) Origin of replication (ori) — allows autonomous replication in the host cell (e.g., E. coli), independent of chromosomal replication. Copy number varies (high-copy vs low-copy plasmids). (2) Selectable marker — typically an antibiotic resistance gene (ampicillin, kanamycin) that allows only transformed bacteria (carrying the plasmid) to grow on selective media. (3) Multiple cloning site (MCS/polylinker) — a short region containing unique restriction enzyme recognition sites where foreign DNA is inserted. Additional features: promoter (for expression vectors), reporter genes (GFP, lacZ for blue-white screening), regulatory elements.",
+        "C": "Telomeres are linear chromosome end-protection structures (eukaryotic). Plasmids are circular — they do not have ends and therefore do not need telomeres. Yeast artificial chromosomes (YACs) require telomeres because they are linear.",
+        "D": "Reverse transcriptase is a retroviral enzyme used in cDNA synthesis. It is not a required plasmid component. cDNA libraries may be created using reverse transcriptase, but the enzyme is not part of the vector itself."
+      },
+      "topic": "Plasmid Vectors / Recombinant DNA",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_biotech_007",
+      "passage": null,
+      "stem": "SDS-PAGE separates proteins primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "their biological activity and enzymatic function"
+        },
+        {
+          "label": "B",
+          "text": "their isoelectric point (pI)"
+        },
+        {
+          "label": "C",
+          "text": "their native three-dimensional shape"
+        },
+        {
+          "label": "D",
+          "text": "molecular weight — SDS (sodium dodecyl sulfate) denatures proteins and coats them with uniform negative charge proportional to length, so migration through the polyacrylamide gel depends only on size"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "SDS denatures proteins, destroying biological activity and enzymatic function. Separation is purely by size, not function. Activity-based assays require native (non-denaturing) conditions.",
+        "B": "Separation by pI (isoelectric point) describes isoelectric focusing (IEF), a different technique. In IEF, proteins migrate through a pH gradient until they reach their pI (where net charge = 0). SDS-PAGE separates by MW, not pI.",
+        "C": "Native PAGE separates by a combination of charge, size, and shape. SDS-PAGE specifically denatures proteins, eliminating shape as a variable and isolating size as the separation principle.",
+        "D": "Correct. SDS-PAGE (sodium dodecyl sulfate–polyacrylamide gel electrophoresis): SDS is an anionic detergent that: (1) denatures proteins (disrupts non-covalent interactions); (2) coats proteins uniformly with negative charge (~1 SDS per 2 amino acids), overwhelming any intrinsic charge differences; (3) β-mercaptoethanol or DTT reduces disulfide bonds. Result: all proteins are linear, negatively charged rods with charge proportional to length (molecular weight). In the gel, smaller proteins migrate faster. MW is estimated by comparison to a protein ladder (known MW standards). Western blotting uses SDS-PAGE as the separation step."
+      },
+      "topic": "SDS-PAGE / Protein Separation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_biotech_008",
+      "passage": null,
+      "stem": "A Western blot detects a specific protein by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "hybridizing with a complementary DNA probe"
+        },
+        {
+          "label": "B",
+          "text": "staining with ethidium bromide under UV light"
+        },
+        {
+          "label": "C",
+          "text": "separating proteins by SDS-PAGE, transferring to a membrane, and probing with a primary antibody specific to the target protein — followed by a labeled secondary antibody for detection"
+        },
+        {
+          "label": "D",
+          "text": "sequencing the protein's amino acids directly on the gel"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "DNA probe hybridization describes Southern blots (DNA) or Northern blots (RNA). Western blots use antibodies, not nucleic acid probes, because the target is protein.",
+        "B": "Ethidium bromide stains nucleic acids (intercalates into dsDNA, fluoresces under UV). It does not stain proteins. Protein gels are stained with Coomassie blue or silver stain for total protein visualization, but Western blots use antibody-based detection for specificity.",
+        "C": "Correct. Western blot (immunoblot): (1) proteins separated by SDS-PAGE; (2) transferred (blotted) to PVDF or nitrocellulose membrane; (3) membrane blocked (BSA or milk — prevents non-specific antibody binding); (4) incubated with primary antibody (specific to target protein); (5) incubated with secondary antibody (anti-species antibody conjugated to HRP, AP, or fluorescent label — detects the primary antibody); (6) detection by chemiluminescence, colorimetric, or fluorescent methods. Western blots are used for: confirming protein expression, detecting post-translational modifications, clinical diagnostics (HIV confirmation — detecting anti-HIV antibodies, though newer methods are replacing this).",
+        "D": "Protein sequencing (Edman degradation or mass spectrometry) is a separate analytical technique. Western blots detect the presence and size of a specific protein but do not determine its amino acid sequence."
+      },
+      "topic": "Western Blot / Immunoblotting",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_biotech_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The researcher uses blue-white screening to identify bacterial colonies containing recombinant plasmids. White colonies indicate:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the plasmid was not taken up by the bacteria"
+        },
+        {
+          "label": "B",
+          "text": "the bacteria are dead and non-viable"
+        },
+        {
+          "label": "C",
+          "text": "the insert was not properly ligated into the vector"
+        },
+        {
+          "label": "D",
+          "text": "successful insertion of foreign DNA into the lacZ gene within the MCS — disrupting β-galactosidase production (insertional inactivation), so the colony cannot cleave X-gal into the blue product"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Bacteria without plasmid would not grow on antibiotic-containing plates (the selectable marker provides resistance). All colonies on the plate have taken up the plasmid — the question is whether the plasmid contains the insert.",
+        "B": "Dead bacteria do not form colonies. All visible colonies contain living, actively dividing cells.",
+        "C": "If the insert were not properly ligated, the plasmid would re-circularize without insert — the lacZ gene would remain intact, and the colony would be blue, not white.",
+        "D": "Correct. Blue-white screening: the vector contains the lacZ gene (encoding β-galactosidase) with the MCS inside it. X-gal (chromogenic substrate) + IPTG (inducer) are added to the plates. Blue colonies: intact lacZ → functional β-galactosidase → cleaves X-gal → blue product. The plasmid re-circularized without insert. White colonies: foreign DNA inserted into the MCS → disrupts lacZ → no functional β-galactosidase → X-gal not cleaved → white. White colonies are picked for further analysis (miniprep, restriction digest confirmation) to verify the insert."
+      },
+      "topic": "Blue-White Screening / Insertional Inactivation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_biotech_010",
+      "passage": null,
+      "stem": "RT-PCR (reverse transcription PCR) differs from standard PCR in that RT-PCR:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "uses RNA as the starting material — reverse transcriptase first converts mRNA to complementary DNA (cDNA), which is then amplified by standard PCR, allowing detection and quantification of gene expression levels"
+        },
+        {
+          "label": "B",
+          "text": "amplifies protein sequences instead of nucleic acids"
+        },
+        {
+          "label": "C",
+          "text": "uses only RNA primers instead of DNA primers"
+        },
+        {
+          "label": "D",
+          "text": "runs the PCR reaction in reverse, converting DNA back to RNA"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. RT-PCR: (1) reverse transcriptase converts RNA → cDNA (using oligo-dT primers that anneal to poly-A tails of mRNA, or random hexamer primers for total RNA); (2) cDNA is then amplified by standard PCR. This allows analysis of gene expression (which genes are being transcribed). qRT-PCR (quantitative, real-time) adds fluorescent reporters (SYBR Green, TaqMan probes) to quantify the amount of starting mRNA — widely used for gene expression profiling, viral load quantification (HIV, SARS-CoV-2), and diagnostic testing.",
+        "B": "PCR and RT-PCR amplify nucleic acids only. Protein sequences cannot be amplified by any polymerase-based technique. Protein analysis uses Western blots, mass spectrometry, ELISA, and other methods.",
+        "C": "Both standard PCR and RT-PCR use DNA primers (short oligonucleotide sequences). The reverse transcription step uses either oligo-dT, random hexamers, or gene-specific primers — all of which are DNA oligonucleotides.",
+        "D": "PCR does not run in reverse. RT-PCR uses reverse transcriptase to create a DNA copy of RNA (reverse of the normal DNA→RNA direction of transcription), then amplifies that DNA copy by standard PCR. The name refers to the reverse transcription step, not a reversal of PCR."
+      },
+      "topic": "RT-PCR / Gene Expression Analysis",
+      "difficulty": "Medium"
+    }
+  ]
+}

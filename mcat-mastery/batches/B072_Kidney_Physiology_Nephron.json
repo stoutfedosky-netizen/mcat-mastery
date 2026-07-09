@@ -1,0 +1,339 @@
+{
+  "batch": "B072",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Kidney Physiology & Nephron Function",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_kidney_001",
+      "passage": "A renal physiologist studies nephron function using micropuncture techniques. She measures glomerular filtration rate (GFR) at 125 mL/min and documents that the proximal convoluted tubule reabsorbs ~65% of filtered Na⁺, water, glucose, and amino acids obligatorily. She traces fluid through the loop of Henle, noting the descending limb is water-permeable but solute-impermeable, while the thick ascending limb actively transports NaCl but is water-impermeable. She examines the collecting duct's response to ADH and aldosterone, and measures urine osmolarity ranging from 50 mOsm/L (dilute) to 1200 mOsm/L (concentrated) depending on hydration status.",
+      "stem": "The primary driving force for glomerular filtration is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "active transport of solutes across the glomerular basement membrane"
+        },
+        {
+          "label": "B",
+          "text": "secretory activity of podocytes"
+        },
+        {
+          "label": "C",
+          "text": "osmotic pressure of the filtrate in Bowman's space"
+        },
+        {
+          "label": "D",
+          "text": "the hydrostatic pressure of blood in the glomerular capillaries, which exceeds the opposing oncotic pressure and Bowman's capsule hydrostatic pressure"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Podocytes are specialized epithelial cells that form the visceral layer of Bowman's capsule. Their foot processes create filtration slits that allow passage of small molecules but do not actively secrete or pump anything.",
+        "A": "Glomerular filtration is passive (pressure-driven), not active. No ATP-dependent transport is involved in the filtration step itself. Active transport occurs later in the tubules for reabsorption and secretion.",
+        "C": "Oncotic pressure in Bowman's space is negligible because proteins are not filtered. Oncotic pressure of plasma proteins in the glomerular capillaries opposes filtration by retaining water in the blood.",
+        "D": "Correct. Glomerular filtration is a passive, pressure-driven process. Net filtration pressure = glomerular capillary hydrostatic pressure (~55 mmHg) - oncotic pressure of plasma proteins (~30 mmHg) - Bowman's capsule hydrostatic pressure (~15 mmHg) ≈ 10 mmHg. This net pressure forces water and small solutes through the filtration barrier (fenestrated endothelium, basement membrane, podocyte foot processes). Proteins and cells are retained because the barrier is size- and charge-selective."
+      },
+      "topic": "Glomerular Filtration / Starling Forces",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_kidney_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Water reabsorption in the proximal convoluted tubule is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "regulated by ADH, which inserts aquaporins into the proximal tubule membrane"
+        },
+        {
+          "label": "B",
+          "text": "obligatory — water follows solute (primarily Na⁺) reabsorption osmotically, keeping the tubular fluid isosmotic to plasma"
+        },
+        {
+          "label": "C",
+          "text": "independent of solute reabsorption"
+        },
+        {
+          "label": "D",
+          "text": "active, requiring direct ATP hydrolysis to move water molecules"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. In the proximal tubule, Na⁺ is actively reabsorbed (Na⁺/K⁺-ATPase on the basolateral membrane drives the gradient) along with glucose (SGLT cotransporters), amino acids, and bicarbonate. Water follows passively by osmosis through abundant aquaporin-1 channels. Because water and solutes are reabsorbed proportionally, the tubular fluid remains isosmotic (~300 mOsm/L) throughout the proximal tubule. This reabsorption is obligatory — it occurs regardless of hydration status.",
+        "A": "ADH acts on the collecting duct, not the proximal tubule. ADH causes insertion of aquaporin-2 channels in the collecting duct principal cells. The proximal tubule has constitutive aquaporin-1 channels that are not regulated by ADH.",
+        "C": "Water reabsorption is tightly coupled to solute reabsorption in the proximal tubule. If Na⁺ reabsorption is blocked (e.g., by carbonic anhydrase inhibitors), water reabsorption also decreases.",
+        "D": "Water is never actively transported in the nephron. It always moves passively by osmosis, following osmotic gradients created by active solute transport."
+      },
+      "topic": "Proximal Tubule / Obligatory Water Reabsorption",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_kidney_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The thick ascending limb of the loop of Henle is called the 'diluting segment' because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it reabsorbs water but not solutes, diluting the medullary interstitium"
+        },
+        {
+          "label": "B",
+          "text": "it adds water to the tubular fluid to dilute it"
+        },
+        {
+          "label": "C",
+          "text": "it secretes urea into the tubular fluid"
+        },
+        {
+          "label": "D",
+          "text": "it actively transports NaCl out of the tubular fluid without allowing water to follow (water-impermeable), making the remaining fluid hypo-osmotic"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "Urea recycling occurs primarily in the inner medullary collecting duct (under ADH stimulation), not in the thick ascending limb. The TAL's primary function is NaCl reabsorption.",
+        "A": "The ascending limb is water-impermeable — it does not reabsorb water. The descending limb reabsorbs water (water-permeable, solute-impermeable). The ascending limb does the opposite: removes solute but not water.",
+        "B": "No segment of the nephron adds water to the tubular fluid. Water either stays in the tubule or is reabsorbed out of it. The dilution occurs because solute is removed while water is trapped inside.",
+        "D": "Correct. The thick ascending limb (TAL) actively pumps NaCl out via the Na⁺/K⁺/2Cl⁻ cotransporter (NKCC2, the target of loop diuretics like furosemide) into the medullary interstitium, but its walls are impermeable to water. Solute removal without water loss dilutes the tubular fluid from ~1200 mOsm/L at the hairpin turn to ~100 mOsm/L by the time it enters the distal tubule. This NaCl transport also contributes to the medullary osmotic gradient essential for concentrating urine."
+      },
+      "topic": "Thick Ascending Limb / Diluting Segment",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_kidney_004",
+      "passage": null,
+      "stem": "ADH (vasopressin) promotes water reabsorption in the collecting duct by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increasing Na⁺ reabsorption via ENaC channels"
+        },
+        {
+          "label": "B",
+          "text": "binding V2 receptors on principal cells, activating cAMP signaling, and triggering insertion of aquaporin-2 water channels into the apical membrane"
+        },
+        {
+          "label": "C",
+          "text": "directly increasing GFR to filter more water"
+        },
+        {
+          "label": "D",
+          "text": "blocking aldosterone receptors to prevent Na⁺ loss"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. ADH binds V2 receptors on the basolateral membrane of collecting duct principal cells, activating Gs → adenylyl cyclase → cAMP → PKA. PKA phosphorylates aquaporin-2 (AQP2) vesicles, causing their fusion with the apical membrane. AQP2 channels allow water to move from the tubular lumen into the cell, then into the hypertonic medullary interstitium via constitutive AQP3/AQP4 on the basolateral membrane. Without ADH, AQP2 is removed from the membrane by endocytosis, and the collecting duct becomes water-impermeable.",
+        "A": "ENaC-mediated Na⁺ reabsorption is stimulated by aldosterone, not ADH. While Na⁺ reabsorption creates an osmotic gradient that aids water reabsorption, the direct mechanism of ADH is AQP2 insertion.",
+        "C": "ADH does not directly increase GFR. GFR is determined by glomerular hydrostatic pressure, afferent/efferent arteriolar tone, and plasma oncotic pressure. ADH acts downstream at the collecting duct.",
+        "D": "ADH and aldosterone act through separate receptor systems and have complementary effects. ADH promotes water reabsorption; aldosterone promotes Na⁺ reabsorption and K⁺ secretion. ADH does not block aldosterone."
+      },
+      "topic": "ADH / Aquaporin-2 Mechanism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_kidney_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Without ADH, the urine would be:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "concentrated (hyperosmotic), because the collecting duct maximally reabsorbs water"
+        },
+        {
+          "label": "B",
+          "text": "identical in osmolarity to plasma (isosmotic)"
+        },
+        {
+          "label": "C",
+          "text": "dilute (hypo-osmotic), because the collecting duct is impermeable to water and the dilute fluid from the ascending limb passes through unmodified"
+        },
+        {
+          "label": "D",
+          "text": "impossible to produce — ADH is required for all urine formation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Without ADH, the collecting duct lacks AQP2 channels and is water-impermeable. The fluid entering the collecting duct from the distal tubule is already dilute (~100 mOsm/L) because the thick ascending limb removed NaCl without water. This dilute fluid passes through the collecting duct without water reabsorption and is excreted as dilute urine (~50-100 mOsm/L). This is what occurs in diabetes insipidus (central: no ADH production; nephrogenic: kidneys unresponsive to ADH), causing massive dilute urine output.",
+        "A": "Concentrated urine requires ADH to make the collecting duct permeable to water, allowing equilibration with the hypertonic medullary interstitium. Without ADH, this concentration step cannot occur.",
+        "B": "Isosmotic fluid leaves the proximal tubule, but the loop of Henle dilutes it. Without ADH, the dilute fluid is not concentrated back to isosmoticity — it stays dilute.",
+        "D": "Urine formation proceeds normally without ADH — filtration, reabsorption in the proximal tubule and loop of Henle, and secretion in the distal tubule all continue. Only the final concentration step (collecting duct water reabsorption) is ADH-dependent."
+      },
+      "topic": "ADH Absence / Dilute Urine",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_kidney_006",
+      "passage": null,
+      "stem": "Aldosterone acts on the distal convoluted tubule and collecting duct to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase Na⁺ reabsorption (via ENaC) and K⁺ secretion (via ROMK), raising blood volume and pressure"
+        },
+        {
+          "label": "B",
+          "text": "decrease Na⁺ reabsorption to lower blood pressure"
+        },
+        {
+          "label": "C",
+          "text": "insert aquaporin-2 channels for water reabsorption"
+        },
+        {
+          "label": "D",
+          "text": "inhibit K⁺ secretion and increase calcium reabsorption"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Aldosterone is a mineralocorticoid produced by the adrenal cortex zona glomerulosa. It binds intracellular mineralocorticoid receptors in DCT and collecting duct principal cells, upregulating transcription of ENaC (epithelial sodium channel, apical) and Na⁺/K⁺-ATPase (basolateral). Increased Na⁺ reabsorption creates an electrochemical gradient that drives K⁺ secretion through ROMK channels. Na⁺ retention expands blood volume and raises blood pressure. Aldosterone release is stimulated by angiotensin II, hyperkalemia, and (to a lesser extent) ACTH.",
+        "B": "Aldosterone increases Na⁺ reabsorption and blood pressure. Blocking aldosterone (spironolactone, eplerenone) decreases Na⁺ reabsorption and lowers blood pressure — these are K⁺-sparing diuretics.",
+        "C": "Aquaporin-2 insertion is the mechanism of ADH, not aldosterone. Aldosterone promotes Na⁺/K⁺ exchange, not direct water channel insertion.",
+        "D": "Aldosterone increases K⁺ secretion, not inhibits it. This is why hyperaldosteronism causes hypokalemia (low K⁺). Calcium reabsorption in the DCT is regulated by PTH, not aldosterone."
+      },
+      "topic": "Aldosterone / Na⁺-K⁺ Exchange",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_kidney_007",
+      "passage": null,
+      "stem": "Glucose is normally completely reabsorbed in the proximal tubule by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "passive diffusion through the cell membrane"
+        },
+        {
+          "label": "B",
+          "text": "sodium-glucose cotransporters (SGLT2 and SGLT1) on the apical membrane, driven by the Na⁺ gradient — secondary active transport"
+        },
+        {
+          "label": "C",
+          "text": "pinocytosis of glucose molecules"
+        },
+        {
+          "label": "D",
+          "text": "facilitated diffusion via aquaporin channels"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Glucose reabsorption is secondary active transport: Na⁺/K⁺-ATPase on the basolateral membrane creates a low intracellular [Na⁺]. This gradient drives Na⁺ and glucose into the cell together through apical SGLT2 (low affinity, high capacity, S1/S2 segments) and SGLT1 (high affinity, low capacity, S3 segment). Glucose exits the cell basolaterally via facilitated diffusion through GLUT2. At normal plasma glucose (~100 mg/dL), all glucose is reabsorbed. Above the transport maximum (Tm, ~375 mg/min), glucose appears in urine (glucosuria), as in uncontrolled diabetes mellitus.",
+        "A": "Glucose is hydrophilic and cannot passively diffuse through the lipid bilayer. It requires carrier proteins (SGLT for uptake, GLUT for exit) for membrane transport.",
+        "C": "Pinocytosis (cell drinking) is a minor mechanism for reabsorbing some filtered proteins in the proximal tubule but is not the mechanism for glucose reabsorption.",
+        "D": "Aquaporins are water channels, not glucose transporters. GLUT transporters facilitate glucose diffusion on the basolateral membrane, but the apical uptake is Na⁺-coupled active transport (SGLT)."
+      },
+      "topic": "Glucose Reabsorption / SGLT",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_kidney_008",
+      "passage": null,
+      "stem": "The countercurrent multiplier system in the loop of Henle establishes the medullary osmotic gradient by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "active NaCl transport out of the thick ascending limb combined with the countercurrent flow of tubular fluid — the single effect is multiplied by the hairpin architecture"
+        },
+        {
+          "label": "B",
+          "text": "active water transport out of the descending limb"
+        },
+        {
+          "label": "C",
+          "text": "passive NaCl diffusion into the ascending limb"
+        },
+        {
+          "label": "D",
+          "text": "urea secretion from the proximal tubule into the medulla"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The countercurrent multiplier works by: (1) the thick ascending limb actively pumps NaCl into the medullary interstitium (the 'single effect' — creating a 200 mOsm/L difference at any horizontal level); (2) countercurrent flow in the hairpin loop multiplies this single effect longitudinally, creating a gradient from ~300 mOsm/L at the cortex to ~1200 mOsm/L at the papilla. The descending limb equilibrates with this gradient by losing water (water-permeable), concentrating the fluid that then enters the ascending limb for further NaCl extraction.",
+        "B": "Water is never actively transported in the kidney. The descending limb loses water passively by osmosis, driven by the hypertonic medullary interstitium created by ascending limb NaCl transport.",
+        "C": "The ascending limb removes NaCl from the tubular fluid (secretion would add NaCl to the lumen — the opposite). NaCl is actively transported out of the ascending limb lumen into the interstitium.",
+        "D": "Urea recycling occurs primarily from the inner medullary collecting duct (under ADH stimulation) into the medullary interstitium, contributing ~50% of medullary osmolarity. It is not secreted from the proximal tubule."
+      },
+      "topic": "Countercurrent Multiplier",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_kidney_009",
+      "passage": null,
+      "stem": "Renin is released by juxtaglomerular cells in response to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "high blood pressure in the afferent arteriole"
+        },
+        {
+          "label": "B",
+          "text": "increased NaCl delivery to the macula densa"
+        },
+        {
+          "label": "C",
+          "text": "low blood pressure, decreased NaCl at the macula densa, or sympathetic β₁ stimulation"
+        },
+        {
+          "label": "D",
+          "text": "high potassium levels in the blood"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Renin release is stimulated by three mechanisms: (1) decreased stretch of afferent arteriolar baroreceptors (low blood pressure); (2) decreased NaCl delivery to macula densa cells (detected via NKCC2 transporter activity, signaling low GFR); (3) sympathetic nervous system activation via β₁-adrenergic receptors on JG cells. Renin cleaves angiotensinogen → angiotensin I → (ACE in lungs) → angiotensin II, which stimulates aldosterone, vasoconstriction, and ADH release — the RAAS pathway.",
+        "A": "High blood pressure stretches afferent arteriolar baroreceptors, which inhibits renin release. Renin is released in response to low blood pressure (decreased stretch).",
+        "B": "Increased NaCl delivery to the macula densa signals adequate or high GFR and suppresses renin release. Low NaCl delivery signals inadequate filtration and stimulates renin.",
+        "D": "High potassium (hyperkalemia) directly stimulates aldosterone secretion from the adrenal cortex zona glomerulosa, bypassing renin and angiotensin. Renin release is not directly stimulated by potassium."
+      },
+      "topic": "RAAS / Renin Release Triggers",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_kidney_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A patient with no ADH production (central diabetes insipidus) would be expected to produce:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "small volumes of highly concentrated urine"
+        },
+        {
+          "label": "B",
+          "text": "normal urine volume with normal osmolarity"
+        },
+        {
+          "label": "C",
+          "text": "large volumes of very dilute urine, because the collecting duct cannot reabsorb water without ADH-mediated aquaporin-2 insertion"
+        },
+        {
+          "label": "D",
+          "text": "no urine at all, because ADH is required for filtration"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Without ADH, the collecting duct lacks AQP2 and is water-impermeable. The ~20-25 L/day of dilute fluid that normally reaches the collecting duct cannot be concentrated. Instead of reabsorbing ~19-24 L and excreting 0.5-2 L, the patient excretes 10-20 L/day of very dilute urine (~50-100 mOsm/L). This causes severe dehydration and intense thirst (polydipsia). Treatment: synthetic ADH (desmopressin, DDAVP).",
+        "A": "Concentrated urine requires ADH to open AQP2 channels. Without ADH, the collecting duct passes water through unmodified — the exact opposite of concentration.",
+        "B": "Urine volume would be massively increased (up to 20 L/day) and osmolarity dramatically decreased. Normal urine production requires intact ADH signaling.",
+        "D": "Glomerular filtration does not require ADH. Filtration is driven by hydrostatic pressure and occurs independently of hormonal regulation of water reabsorption. All nephron functions upstream of the collecting duct operate normally without ADH."
+      },
+      "topic": "Diabetes Insipidus / ADH Deficiency",
+      "difficulty": "Easy"
+    }
+  ]
+}

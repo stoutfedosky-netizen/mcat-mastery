@@ -1,0 +1,225 @@
+{
+  "batch": "B276",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Groups Conformity Social Influence",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_groups_conformity_social_influence_276_q0",
+      "passage": "A lab replicated an Asch-style line task. Each participant sat with six confederates who gave wrong answers on selected trials. In the unanimous-majority condition, participants conformed on 36% of critical trials. When one confederate gave the correct answer before the participant, conformity fell to 9%. When participants wrote answers privately, conformity fell to 13%. Participants later said they often knew the correct line but did not want to appear difficult.",
+      "usePrevPassage": false,
+      "stem": "Knowing the correct answer but matching the group to avoid disapproval is:",
+      "choices": {
+        "A": "Informational social influence",
+        "B": "Cognitive dissonance",
+        "C": "Normative social influence",
+        "D": "Deindividuation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Informational influence is relying on others because the correct answer is uncertain. It is not the best fit when people know the answer but fear disapproval. The passage focus is public conformity despite private knowledge, so this option is less directly supported.",
+        "B": "Cognitive dissonance is discomfort from inconsistent beliefs or actions. The line-task stem identifies conformity driven by fear of social disapproval. The relevant evidence instead centers on public conformity despite private knowledge.",
+        "C": "Correct. The motive is acceptance and avoiding rejection, not believing the group is correct. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Deindividuation is reduced self-awareness in anonymous groups. The Asch-style task centers on public pressure to match a majority. The relevant evidence instead centers on public conformity despite private knowledge."
+      },
+      "topic": "Normative Influence",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_groups_conformity_social_influence_276_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The dissenting confederate reduced conformity by breaking:",
+      "choices": {
+        "A": "Social reproduction",
+        "B": "Unanimity",
+        "C": "Primary deviance",
+        "D": "Absolute threshold"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Social reproduction is the transmission of inequality across generations. The stem does not trace class advantage across generations. The passage focus is unanimous majority, so this option is less directly supported.",
+        "B": "Correct. A single ally makes dissent socially easier and weakens majority pressure. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Primary deviance is an initial norm violation before a deviant identity forms. A dissenting confederate reduced conformity by breaking unanimity. The relevant evidence instead centers on unanimous majority.",
+        "D": "Absolute threshold is the minimum stimulus detected about 50% of the time. The question is not about minimum sensory intensity. The passage focus is unanimous majority, so this option is less directly supported."
+      },
+      "topic": "Conformity Factors",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_groups_conformity_social_influence_276_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Private written answers reduced conformity because they reduced:",
+      "choices": {
+        "A": "Signal detection sensitivity",
+        "B": "Role exit",
+        "C": "Positive reinforcement",
+        "D": "Public evaluation pressure"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Sensitivity is the ability to distinguish signal from noise. It is not the best answer when false alarms change because of expectation or response style. The passage focus is privacy and conformity, so this option is less directly supported.",
+        "B": "Role exit means disengaging from a central social role. The passage does not describe leaving such a role. The passage focus is privacy and conformity, so this option is less directly supported.",
+        "C": "Positive reinforcement adds a consequence that increases behavior. The stem is asking about a different mechanism rather than an added reward increasing a response. The passage focus is privacy and conformity, so this option is less directly supported.",
+        "D": "Correct. Less visible responses lower the need to publicly match the group. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Evaluation Pressure",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_groups_conformity_social_influence_276_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What would increase informational social influence?",
+      "choices": {
+        "A": "Make the line differences very ambiguous.",
+        "B": "Normative social influence",
+        "C": "Obedience",
+        "D": "Discriminant validity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Ambiguity makes others seem like useful sources of information about the correct answer. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Normative influence is conformity to gain acceptance or avoid rejection. It is not the main process when ambiguity makes others seem informative. The passage focus is ambiguous perceptual judgment, so this option is less directly supported.",
+        "C": "Obedience is following an authority\u2019s direct command. The passage does not describe a command from an authority figure. The passage focus is ambiguous perceptual judgment, so this option is less directly supported.",
+        "D": "Discriminant validity means weak relation with unrelated measures. The passage does not use an unrelated comparison measure. The passage focus is ambiguous perceptual judgment, so this option is less directly supported."
+      },
+      "topic": "Informational Influence",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_groups_conformity_social_influence_276_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Best-supported conclusion from the line task?",
+      "choices": {
+        "A": "Biological determinism",
+        "B": "Difference threshold",
+        "C": "Medicalization",
+        "D": "Conformity is stronger with unanimity and public responding."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This would attribute behavior mainly to biology. The passage emphasizes social context, expectations, resources, or institutions rather than fixed biological causation. The passage focus is conformity data, so this option is less directly supported.",
+        "B": "Difference threshold is the smallest detectable difference between stimuli. The passage item asks about a broader psychological or sociological concept. The passage focus is conformity data, so this option is less directly supported.",
+        "C": "Medicalization defines nonmedical problems as medical issues. The passage does not describe expanding medical labels onto social life. The passage focus is conformity data, so this option is less directly supported.",
+        "D": "Correct. Conformity fell when unanimity was broken and when responses were private. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Data Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_groups_conformity_social_influence_276_q5",
+      "passage": "A workplace study examined group productivity during data entry. Employees worked alone or in four-person teams. When individual entries were identifiable, team members averaged 104 entries/hour. When only the team total was recorded, members averaged 82 entries/hour. In an emergency simulation, participants who believed they were the only witness reported the emergency in 91% of trials; those who believed four others also heard it reported in 54%.",
+      "usePrevPassage": false,
+      "stem": "Lower data-entry effort when only team totals were recorded is:",
+      "choices": {
+        "A": "Group polarization",
+        "B": "Obedience",
+        "C": "Social loafing",
+        "D": "Bystander effect"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Group polarization is movement toward more extreme views after group discussion. The passage does not describe attitude extremity after discussion. The passage focus is anonymous group productivity, so this option is less directly supported.",
+        "B": "Obedience is following an authority\u2019s direct command. The passage does not describe a command from an authority figure. The passage focus is anonymous group productivity, so this option is less directly supported.",
+        "C": "Correct. Reduced identifiability lowered individual effort in a group task. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "The bystander effect is reduced helping when other potential helpers are present. The passage item may concern effort, conformity, or another social process. The passage focus is anonymous group productivity, so this option is less directly supported."
+      },
+      "topic": "Social Loafing",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_groups_conformity_social_influence_276_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Lower emergency reporting when others were present is:",
+      "choices": {
+        "A": "Reciprocal determinism",
+        "B": "Diffusion of responsibility",
+        "C": "Stigma",
+        "D": "Mere exposure"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Reciprocal determinism is a broad interaction among person, behavior, and environment. The emergency result more specifically shows diffusion of responsibility. The relevant evidence instead centers on shared responsibility.",
+        "B": "Correct. Each participant may feel less personally obligated when several others could help. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Stigma is negative labeling or devaluation of a person or group. The stem does not describe discrediting or stereotyping a marked identity. The passage focus is shared responsibility, so this option is less directly supported.",
+        "D": "Mere exposure is increased liking after repeated exposure. The student worry is about confirming a negative group stereotype during evaluation. The relevant evidence instead centers on shared responsibility."
+      },
+      "topic": "Bystander Effect",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_groups_conformity_social_influence_276_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What would reduce social loafing?",
+      "choices": {
+        "A": "Make each employee\u2019s entry count identifiable.",
+        "B": "Population aging",
+        "C": "Context effect",
+        "D": "SSRI delayed onset"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Identifiability restores accountability for individual effort. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Population aging is a rising proportion of older adults. The stem is not about age structure driving social needs. The passage focus is identifiable contributions, so this option is less directly supported.",
+        "C": "A context effect occurs when setting changes responses. The stem does not describe measurement setting altering scores. The passage focus is identifiable contributions, so this option is less directly supported.",
+        "D": "SSRIs often require weeks for therapeutic benefit. The stem is not about medication adherence or side-effect timing. The passage focus is identifiable contributions, so this option is less directly supported."
+      },
+      "topic": "Accountability",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_groups_conformity_social_influence_276_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What would increase helping in the emergency simulation?",
+      "choices": {
+        "A": "Habituation",
+        "B": "Cultural capital",
+        "C": "Assign one participant by name to call for help.",
+        "D": "Cannon-Bard theory"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Habituation is decreased response to repeated stimulation. The passage item does not describe reduced response after repeated harmless exposure. The passage focus is specific responsibility assignment, so this option is less directly supported.",
+        "B": "Cultural capital includes valued skills, credentials, tastes, and knowledge. The passage item is not mainly about institutionalized cultural resources. The passage focus is specific responsibility assignment, so this option is less directly supported.",
+        "C": "Correct. Naming one person reduces ambiguity and diffusion of responsibility. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Cannon-Bard theory proposes simultaneous emotion and arousal. It does not emphasize misattribution or labeling of arousal. The passage focus is specific responsibility assignment, so this option is less directly supported."
+      },
+      "topic": "Helping",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_groups_conformity_social_influence_276_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Best distinction between social loafing and diffusion of responsibility?",
+      "choices": {
+        "A": "Working memory",
+        "B": "Loafing concerns reduced group-task effort; diffusion concerns reduced helping responsibility.",
+        "C": "Positive symptom",
+        "D": "Fixed-interval reinforcement"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Working memory temporarily maintains and manipulates information. The stem does not involve active short-term updating. The passage focus is group effort versus helping, so this option is less directly supported.",
+        "B": "Correct. Both involve others reducing action, but the task contexts differ. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Positive symptoms add experiences such as hallucinations or delusions. The stem does not describe an added psychotic experience. The passage focus is group effort versus helping, so this option is less directly supported.",
+        "D": "A fixed-interval schedule depends on time elapsed before reinforcement. The passage does not describe a reward after a fixed amount of time. The passage focus is group effort versus helping, so this option is less directly supported."
+      },
+      "topic": "Group Processes",
+      "difficulty": "Hard"
+    }
+  ]
+}

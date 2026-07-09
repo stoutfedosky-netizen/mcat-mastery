@@ -1,0 +1,338 @@
+{
+  "batch": "B079",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Nervous System & Neurotransmission",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_neuro_001",
+      "passage": "A neuroscientist studies synaptic transmission at a neuromuscular junction (NMJ). She records the resting membrane potential of a motor neuron at -70 mV. When stimulated, an action potential propagates along the axon at 120 m/s (myelinated A-alpha fiber). At the axon terminal, voltage-gated Ca²⁺ channels open, triggering acetylcholine (ACh) vesicle fusion and release into the synaptic cleft. ACh binds nicotinic receptors on the muscle fiber, producing an end-plate potential that triggers a muscle action potential. She also studies inhibitory postsynaptic potentials (IPSPs) mediated by GABA and glycine at other synapses.",
+      "stem": "The resting membrane potential of -70 mV is maintained primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "equal permeability of the membrane to Na⁺ and K⁺"
+        },
+        {
+          "label": "B",
+          "text": "the high resting permeability to K⁺ through leak channels — K⁺ flows out of the cell down its concentration gradient, leaving negative charges behind, driving the membrane potential toward E_K (approximately -90 mV)"
+        },
+        {
+          "label": "C",
+          "text": "active transport of Ca²⁺ out of the cell"
+        },
+        {
+          "label": "D",
+          "text": "Cl⁻ channels that depolarize the membrane"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. At rest, the membrane is ~40-100× more permeable to K⁺ than Na⁺ due to K⁺ leak channels (two-pore domain K⁺ channels). K⁺ diffuses out of the cell down its concentration gradient ([K⁺]in ~140 mM > [K⁺]out ~4 mM), leaving behind non-diffusible anions (proteins, organic phosphates), creating the negative resting potential. The Na⁺/K⁺-ATPase (3 Na⁺ out, 2 K⁺ in per cycle) maintains the concentration gradients and contributes a small electrogenic component (~-3 mV). The resting potential (-70 mV) lies between E_K (-90 mV) and E_Na (+60 mV), closer to E_K due to higher K⁺ permeability.",
+        "A": "At rest, Na⁺ permeability is much lower than K⁺ permeability (ratio ~1:40). Equal permeability would produce a membrane potential near 0 mV (between E_K and E_Na), which does not match the observed -70 mV. During an action potential, Na⁺ permeability transiently exceeds K⁺ permeability.",
+        "C": "Ca²⁺ transport contributes minimally to the resting potential. Intracellular [Ca²⁺] is maintained very low (~100 nM) by SERCA pumps and plasma membrane Ca²⁺-ATPases, but this is primarily for signaling purposes, not for establishing the resting potential.",
+        "D": "Cl⁻ is distributed near its equilibrium potential (~-70 to -80 mV) at rest, contributing little net current. Cl⁻ channels (e.g., GABA_A receptors) mediate inhibition, not depolarization. In mature neurons, Cl⁻ influx hyperpolarizes or stabilizes the membrane."
+      },
+      "topic": "Resting Membrane Potential / K⁺ Leak",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "During the rising phase of an action potential, the membrane rapidly depolarizes from -70 mV to approximately +30 mV because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "K⁺ rushes into the cell through voltage-gated K⁺ channels"
+        },
+        {
+          "label": "B",
+          "text": "Cl⁻ exits the cell through voltage-gated Cl⁻ channels"
+        },
+        {
+          "label": "C",
+          "text": "the Na⁺/K⁺-ATPase reverses direction"
+        },
+        {
+          "label": "D",
+          "text": "voltage-gated Na⁺ channels open, allowing Na⁺ to rush into the cell down both its concentration gradient and electrical gradient, driving the membrane toward E_Na (+60 mV)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "There are no significant voltage-gated Cl⁻ channels in typical neurons. Cl⁻ channels are primarily ligand-gated (GABA_A, glycine receptors). Even if Cl⁻ exited, it would depolarize the membrane, but this is not the mechanism of the action potential.",
+        "A": "K⁺ movement during an action potential is outward, not inward. Voltage-gated K⁺ channels open with a delay (after Na⁺ channels) and allow K⁺ efflux, which repolarizes the membrane back toward E_K. K⁺ influx would depolarize further, which is the opposite of K⁺'s actual role.",
+        "C": "The Na⁺/K⁺-ATPase operates continuously and does not reverse direction during action potentials. It is far too slow (~100 ions/sec) to account for the rapid depolarization (occurring in <1 ms). The action potential is driven by ion channel opening, not pump reversal.",
+        "D": "Correct. When a stimulus depolarizes the membrane to threshold (~-55 mV), voltage-gated Na⁺ channels open rapidly. Na⁺ rushes in driven by both its concentration gradient ([Na⁺]out ~145 mM > [Na⁺]in ~12 mM) and the electrical gradient (negative inside attracts positive Na⁺). This inward Na⁺ current depolarizes the membrane toward E_Na (+60 mV), though the action potential peaks at ~+30 mV because Na⁺ channels begin to inactivate and K⁺ channels open. The Na⁺ channel activation is regenerative (positive feedback): depolarization opens more Na⁺ channels, causing more depolarization."
+      },
+      "topic": "Action Potential / Na⁺ Channel Activation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "At the neuromuscular junction, ACh release from the axon terminal requires:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Na⁺ influx into the terminal triggering vesicle fusion directly"
+        },
+        {
+          "label": "B",
+          "text": "Ca²⁺ influx through voltage-gated Ca²⁺ channels — Ca²⁺ binds synaptotagmin on vesicles, triggering SNARE-mediated vesicle fusion with the presynaptic membrane and ACh exocytosis into the cleft"
+        },
+        {
+          "label": "C",
+          "text": "K⁺ efflux from the terminal pushing vesicles toward the membrane"
+        },
+        {
+          "label": "D",
+          "text": "passive diffusion of ACh through the terminal membrane without vesicle involvement"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. When the action potential reaches the axon terminal, it depolarizes the membrane and opens voltage-gated Ca²⁺ channels (N-type and P/Q-type). Ca²⁺ flows in from the extracellular space (high [Ca²⁺]out) and binds synaptotagmin (a Ca²⁺ sensor on synaptic vesicles). This triggers interaction with the SNARE complex (synaptobrevin, syntaxin, SNAP-25), causing vesicle fusion with the presynaptic membrane and release of ACh into the synaptic cleft by exocytosis. Each vesicle contains ~5,000-10,000 ACh molecules (one quantum).",
+        "A": "Na⁺ influx generates the action potential that depolarizes the terminal, but it is Ca²⁺ influx that directly triggers vesicle fusion. Blocking Ca²⁺ channels (e.g., with Cd²⁺) prevents neurotransmitter release even when action potentials reach the terminal.",
+        "C": "K⁺ efflux repolarizes the terminal after the action potential but plays no direct role in vesicle fusion. K⁺ does not interact with the vesicle fusion machinery.",
+        "D": "ACh is a hydrophilic quaternary ammonium compound that cannot diffuse through the lipid bilayer. It must be released by vesicle exocytosis (quantal release). This was demonstrated by Katz and colleagues using miniature end-plate potentials (mEPPs)."
+      },
+      "topic": "Synaptic Transmission / Ca²⁺-Dependent Release",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_neuro_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The neuroscientist notes that the myelinated motor neuron conducts at 120 m/s. If demyelination occurred (as in multiple sclerosis), conduction velocity would:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase because the axon becomes thinner"
+        },
+        {
+          "label": "B",
+          "text": "remain unchanged because myelin has no effect on conduction"
+        },
+        {
+          "label": "C",
+          "text": "decrease dramatically — without myelin insulation, current leaks across the membrane, and conduction reverts to slow continuous propagation or fails entirely at demyelinated segments"
+        },
+        {
+          "label": "D",
+          "text": "double because more ion channels are exposed"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Demyelination removes the insulating sheath, increasing membrane capacitance and decreasing membrane resistance. Current generated at one node leaks out through the exposed membrane instead of reaching the next node. This slows conduction from ~120 m/s to ~1 m/s or causes conduction block (the signal fails to reach the next node). In multiple sclerosis, autoimmune demyelination of CNS axons produces variable neurological deficits (vision loss, weakness, sensory changes, cognitive impairment) depending on which white matter tracts are affected.",
+        "A": "Demyelination does not change axon diameter. Even if it did, thinner axons conduct more slowly (higher internal resistance), not faster.",
+        "B": "Myelin dramatically affects conduction velocity — myelinated fibers conduct 50-120× faster than unmyelinated fibers of similar diameter. The difference between saltatory and continuous conduction is enormous.",
+        "D": "More exposed ion channels would make continuous conduction possible but much slower than saltatory conduction. The benefit of myelin is not in hiding channels but in insulating internodal segments to allow fast current spread between nodes."
+      },
+      "topic": "Demyelination / Multiple Sclerosis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_003",
+      "passage": null,
+      "stem": "Myelin increases the speed of action potential conduction because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "myelin insulates the axon, forcing current to jump between nodes of Ranvier (saltatory conduction) — this skips the slow sequential depolarization along the entire membrane"
+        },
+        {
+          "label": "B",
+          "text": "myelin increases the diameter of the axon"
+        },
+        {
+          "label": "C",
+          "text": "myelin removes all ion channels from the axon"
+        },
+        {
+          "label": "D",
+          "text": "myelin increases the number of Na⁺ channels uniformly along the axon"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Myelin wraps around the axon but does not significantly increase its internal diameter. Conduction velocity does increase with axon diameter (lower internal resistance), but myelin's effect is through insulation and saltatory conduction.",
+        "A": "Correct. Myelin (formed by Schwann cells in PNS, oligodendrocytes in CNS) wraps around the axon, creating a high-resistance, low-capacitance insulating sheath. Ion channels are concentrated at the nodes of Ranvier (gaps between myelin segments). Current generated at one node spreads rapidly along the myelinated internode (little charge leakage) and depolarizes the next node to threshold. This saltatory ('jumping') conduction is much faster (~120 m/s in large myelinated fibers) than continuous conduction in unmyelinated fibers (~1 m/s).",
+        "C": "Myelin does not remove all ion channels — it concentrates voltage-gated Na⁺ channels at the nodes of Ranvier. Without these channels, the action potential could not regenerate at each node. The internodal membrane beneath the myelin has very few channels.",
+        "D": "Myelin concentrates Na⁺ channels at nodes of Ranvier specifically, not uniformly along the axon. If Na⁺ channels were distributed uniformly, conduction would be continuous (slower), not saltatory."
+      },
+      "topic": "Myelination / Saltatory Conduction",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_neuro_005",
+      "passage": null,
+      "stem": "An inhibitory postsynaptic potential (IPSP) makes the postsynaptic neuron less likely to fire by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "depolarizing the membrane toward threshold"
+        },
+        {
+          "label": "B",
+          "text": "opening voltage-gated Na⁺ channels to increase Na⁺ influx"
+        },
+        {
+          "label": "C",
+          "text": "hyperpolarizing the membrane (moving it further from threshold) — typically by opening Cl⁻ channels (driving Cl⁻ in) or K⁺ channels (driving K⁺ out)"
+        },
+        {
+          "label": "D",
+          "text": "increasing intracellular Ca²⁺ concentration to trigger neurotransmitter release"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. IPSPs move the membrane potential away from the firing threshold (-55 mV), reducing the probability of an action potential. GABA_A receptors (Cl⁻ channels) allow Cl⁻ influx, hyperpolarizing toward E_Cl (~-80 mV). GABA_B receptors (metabotropic, via Gi) open K⁺ channels (GIRKs), allowing K⁺ efflux and hyperpolarization toward E_K (~-90 mV). Glycine receptors also open Cl⁻ channels. IPSPs are graded potentials that summate with EPSPs at the axon hillock — if the net sum fails to reach threshold, no action potential fires.",
+        "A": "Depolarizing the membrane toward threshold describes an excitatory postsynaptic potential (EPSP), which makes firing more likely — the opposite of an IPSP.",
+        "B": "Opening voltage-gated Na⁺ channels causes rapid depolarization (the action potential upstroke). IPSPs involve ligand-gated Cl⁻ or K⁺ channels, not voltage-gated Na⁺ channels.",
+        "D": "Increasing intracellular Ca²⁺ triggers neurotransmitter release from the presynaptic terminal, not inhibition of the postsynaptic cell. Postsynaptic Ca²⁺ elevation is associated with excitation and synaptic plasticity (LTP), not inhibition."
+      },
+      "topic": "IPSP / Inhibitory Neurotransmission",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_006",
+      "passage": null,
+      "stem": "The refractory period of an action potential ensures:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "action potentials can travel backward along the axon"
+        },
+        {
+          "label": "B",
+          "text": "multiple action potentials can fire simultaneously at the same point on the axon"
+        },
+        {
+          "label": "C",
+          "text": "unidirectional propagation and a maximum firing frequency — during the absolute refractory period, no stimulus can trigger another action potential because Na⁺ channels are inactivated"
+        },
+        {
+          "label": "D",
+          "text": "the resting potential is permanently maintained at -70 mV"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The absolute refractory period (ARP, ~1-2 ms) occurs when Na⁺ channels are inactivated (h-gate closed) and cannot be reopened regardless of stimulus strength. This prevents re-excitation of the membrane behind the propagating action potential, enforcing unidirectional propagation. It also sets the maximum firing rate (~500-1000 Hz). The relative refractory period (RRP) follows: some Na⁺ channels have recovered, but the membrane is hyperpolarized (K⁺ channels still open), requiring a stronger-than-normal stimulus to reach threshold. During the RRP, action potentials can fire but have higher threshold and reduced amplitude.",
+        "A": "The refractory period prevents backward propagation. The membrane immediately behind the action potential is in its refractory period and cannot be re-excited, ensuring the signal travels forward toward the axon terminal.",
+        "B": "The absolute refractory period prevents simultaneous firing at the same location. Each point on the axon must recover before it can fire again. This temporal spacing of action potentials is what limits firing frequency.",
+        "D": "The resting potential is restored after each action potential (by K⁺ efflux and Na⁺/K⁺-ATPase activity), but the refractory period is not about maintaining the resting potential — it is about the time-dependent recovery of Na⁺ channel availability."
+      },
+      "topic": "Refractory Period / Unidirectional Propagation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_007",
+      "passage": null,
+      "stem": "Acetylcholinesterase (AChE) in the synaptic cleft rapidly degrades ACh to terminate the signal. Inhibiting AChE would:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "prolong ACh signaling by allowing ACh to persist in the cleft and continuously stimulate receptors — causing sustained depolarization of the postsynaptic membrane"
+        },
+        {
+          "label": "B",
+          "text": "prevent ACh release from the presynaptic terminal"
+        },
+        {
+          "label": "C",
+          "text": "decrease the duration of ACh signaling at the receptor"
+        },
+        {
+          "label": "D",
+          "text": "convert ACh into norepinephrine"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "C": "AChE inhibition increases the duration of signaling, not decreases it. Without degradation, ACh remains bound to receptors and continues activating them.",
+        "A": "Correct. AChE hydrolyzes ACh → choline + acetate, terminating the signal within milliseconds. Inhibiting AChE (by nerve agents like sarin, pesticides like malathion, or therapeutic drugs like donepezil for Alzheimer's) allows ACh to accumulate in the cleft, producing prolonged receptor activation. At the NMJ, this causes sustained muscle contraction → paralysis. In the parasympathetic nervous system, excess ACh causes bradycardia, bronchoconstriction, miosis, salivation, and lacrimation (SLUDGE symptoms).",
+        "B": "AChE inhibition does not affect ACh release — it affects degradation after release. Presynaptic release mechanisms (Ca²⁺-dependent exocytosis) are independent of cleft-side esterase activity. Botulinum toxin (not AChE inhibition) blocks ACh release.",
+        "D": "AChE does not convert ACh to norepinephrine. These are separate neurotransmitter systems with different synthetic enzymes (choline acetyltransferase for ACh; dopamine β-hydroxylase for NE). AChE specifically cleaves the ester bond in ACh."
+      },
+      "topic": "Acetylcholinesterase / Signal Termination",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_neuro_008",
+      "passage": null,
+      "stem": "The autonomic nervous system consists of the sympathetic and parasympathetic divisions. Sympathetic activation ('fight or flight') causes:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decreased heart rate, bronchoconstriction, and pupil constriction"
+        },
+        {
+          "label": "B",
+          "text": "decreased blood glucose and vasodilation in all vessels equally"
+        },
+        {
+          "label": "C",
+          "text": "enhanced digestive activity and salivation"
+        },
+        {
+          "label": "D",
+          "text": "increased heart rate, bronchodilation, pupil dilation, and redirection of blood flow from digestive organs to skeletal muscles"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Sympathetic activation increases blood glucose (glycogenolysis, gluconeogenesis), not decreases it. Vasoconstriction is selective — sympathetic constricts splanchnic and cutaneous vessels (α₁) while dilating skeletal muscle vessels (β₂), redirecting blood to muscles.",
+        "A": "Decreased HR, bronchoconstriction, and pupil constriction (miosis) are parasympathetic ('rest and digest') effects, not sympathetic. Parasympathetic fibers use ACh at both preganglionic (nicotinic) and postganglionic (muscarinic) synapses.",
+        "C": "Enhanced digestion (increased peristalsis, secretion, sphincter relaxation) and salivation are parasympathetic effects. Sympathetic activation inhibits digestion by reducing blood flow to the gut and decreasing motility.",
+        "D": "Correct. Sympathetic activation prepares the body for physical exertion: ↑HR (β₁ on heart), bronchodilation (β₂ on airway smooth muscle), mydriasis/pupil dilation (α₁ on radial muscle of iris), vasoconstriction in skin/gut (α₁) with vasodilation in skeletal muscle (β₂), glycogenolysis (β₂ in liver → ↑blood glucose), lipolysis (β₃ in adipose). Neurotransmitter: norepinephrine from postganglionic neurons (exception: ACh on sweat glands). Adrenal medulla releases epinephrine into the blood."
+      },
+      "topic": "Sympathetic Nervous System / Fight or Flight",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_neuro_010",
+      "passage": null,
+      "stem": "Spatial summation at the axon hillock occurs when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "multiple synaptic inputs from different neurons arrive simultaneously, and their EPSPs and IPSPs sum algebraically to determine whether threshold is reached"
+        },
+        {
+          "label": "B",
+          "text": "a single synapse fires repeatedly in rapid succession"
+        },
+        {
+          "label": "C",
+          "text": "the axon hillock physically moves closer to the synapses"
+        },
+        {
+          "label": "D",
+          "text": "neurotransmitter is released from the postsynaptic cell"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Repeated firing from a single synapse in rapid succession describes temporal summation, not spatial summation. Temporal summation occurs when EPSPs arrive before the previous one decays, building on each other.",
+        "A": "Correct. Spatial summation integrates inputs from multiple synapses arriving at approximately the same time. If three excitatory synapses each produce a 5 mV EPSP simultaneously, they sum to ~15 mV — potentially reaching the ~15 mV depolarization needed for threshold. Inhibitory inputs (IPSPs) subtract from the sum. The axon hillock is the integration zone because it has the highest density of voltage-gated Na⁺ channels and the lowest threshold. This allows a single neuron to integrate thousands of inputs and make a binary decision (fire or not).",
+        "C": "The axon hillock does not physically move. Spatial summation refers to the convergence of signals from spatially distributed synapses, not physical movement of cellular structures.",
+        "D": "Neurotransmitter is released from the presynaptic cell, not the postsynaptic cell. The postsynaptic cell receives the signal. Retrograde signaling (e.g., endocannabinoids) does occur but is not what spatial summation describes."
+      },
+      "topic": "Spatial Summation / Neural Integration",
+      "difficulty": "Medium"
+    }
+  ]
+}

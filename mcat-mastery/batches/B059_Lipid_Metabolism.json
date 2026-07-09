@@ -1,0 +1,337 @@
+{
+  "batch": "B059",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Lipid Metabolism: Fatty Acid Synthesis & Beta-Oxidation",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_lipid_001",
+      "passage": "A biochemist studies lipid metabolism in hepatocytes under two conditions: fed state (high insulin, abundant glucose) and fasted state (low insulin, elevated glucagon). In the fed state, excess acetyl-CoA from glucose oxidation is converted to fatty acids via de novo lipogenesis. In the fasted state, stored triacylglycerols are hydrolyzed by lipases, releasing fatty acids for beta-oxidation. The biochemist notes that fatty acid synthesis and beta-oxidation are reciprocally regulated and cannot occur simultaneously at full capacity.",
+      "stem": "De novo fatty acid synthesis occurs primarily in the cytoplasm and requires acetyl-CoA. However, acetyl-CoA is produced in the mitochondrial matrix and cannot directly cross the inner mitochondrial membrane. How does acetyl-CoA reach the cytoplasm?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It is transported directly through mitochondrial porin channels as free acetyl-CoA"
+        },
+        {
+          "label": "B",
+          "text": "It is first converted to acetate, freely diffuses across the membrane, then is reconverted to acetyl-CoA"
+        },
+        {
+          "label": "C",
+          "text": "It is converted to citrate in the mitochondria (by condensing with oxaloacetate), exported via the citrate shuttle, and then cleaved back to acetyl-CoA and oxaloacetate in the cytoplasm by ATP-citrate lyase"
+        },
+        {
+          "label": "D",
+          "text": "Cytoplasmic ribosomes synthesize acetyl-CoA directly from amino acids without requiring mitochondrial acetyl-CoA"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The inner mitochondrial membrane is impermeable to acetyl-CoA \u2014 it is a large, charged molecule that cannot pass through porin channels. Porins allow passage of small molecules through the outer mitochondrial membrane, but the inner membrane has highly selective transport proteins. This impermeability is precisely why an indirect shuttle mechanism is required.",
+        "B": "While acetate can cross the mitochondrial membrane and be converted to acetyl-CoA by acetyl-CoA synthetase, this is not the primary route for de novo fatty acid synthesis. The major pathway uses the citrate shuttle. Acetate transfer is a minor pathway primarily relevant to ethanol metabolism.",
+        "C": "Correct. The citrate shuttle (tricarboxylate transport system) is the mechanism for acetyl-CoA export: (1) Acetyl-CoA condenses with oxaloacetate (via citrate synthase) to form citrate in the mitochondrial matrix; (2) citrate is exported via the citrate transporter; (3) in the cytoplasm, ATP-citrate lyase cleaves citrate back to acetyl-CoA and oxaloacetate, consuming ATP; (4) cytoplasmic acetyl-CoA then serves as the substrate for fatty acid synthesis. The oxaloacetate is converted to malate and back to the mitochondria to complete the cycle.",
+        "D": "Ribosomes synthesize proteins, not metabolites like acetyl-CoA. Acetyl-CoA is a small-molecule intermediate produced by metabolic reactions (primarily pyruvate dehydrogenase and fatty acid beta-oxidation), not by ribosomes. Cytoplasmic protein synthesis has no role in generating acetyl-CoA."
+      },
+      "topic": "Citrate Shuttle / Acetyl-CoA Export",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_lipid_002",
+      "passage": null,
+      "passageRef": "bb_lipid_001",
+      "stem": "Acetyl-CoA carboxylase (ACC) is the committed, rate-limiting enzyme of fatty acid synthesis. It converts acetyl-CoA to malonyl-CoA. ACC is allosterically activated by citrate and inhibited by palmitoyl-CoA. This regulation makes metabolic sense because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "citrate signals abundant acetyl-CoA and energy, indicating conditions favorable for fat synthesis; palmitoyl-CoA signals that the end product has accumulated, providing negative feedback"
+        },
+        {
+          "label": "B",
+          "text": "citrate inhibits fat synthesis to prevent ATP waste when the cell has enough energy"
+        },
+        {
+          "label": "C",
+          "text": "palmitoyl-CoA activates fat synthesis to ensure continuous production of membrane lipids"
+        },
+        {
+          "label": "D",
+          "text": "ACC regulation is purely genetic and is not affected by small-molecule allosteric effectors"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Citrate, which spills from the mitochondria when the TCA cycle is saturated with acetyl-CoA, signals energy abundance \u2014 conditions ideal for fat synthesis. Its activation of ACC (and promotion of its polymerization into active filaments) is therefore a logical 'go' signal. Palmitoyl-CoA \u2014 the end product of de novo synthesis \u2014 provides feedback inhibition: when fatty acids have accumulated, continued synthesis would be wasteful. This product inhibition is a classic example of negative feedback regulation of a biosynthetic pathway.",
+        "B": "Citrate activates ACC, not inhibits it. Citrate spills from the TCA cycle when energy is abundant and signals that excess carbon is available for storage as fat. Inhibiting fat synthesis when energy is plentiful would prevent the cell from storing energy \u2014 the opposite of metabolic logic.",
+        "C": "Palmitoyl-CoA inhibits ACC, not activates it. As the 16-carbon fatty acid product accumulates, it signals that synthesis has produced enough fat and should slow. If palmitoyl-CoA activated ACC, fat synthesis would increase indefinitely as product accumulated \u2014 a runaway feedback loop.",
+        "D": "ACC is a paradigmatic example of allosteric regulation. Its activity is powerfully regulated by small-molecule effectors: citrate activates by promoting polymerization, palmitoyl-CoA inhibits by promoting depolymerization, and AMP-activated protein kinase (AMPK) phosphorylates and inactivates ACC during energy stress. Hormones (insulin activates, glucagon inhibits via phosphorylation) also regulate ACC."
+      },
+      "topic": "ACC Regulation / Fatty Acid Synthesis Control",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_lipid_003",
+      "passage": null,
+      "passageRef": "bb_lipid_001",
+      "stem": "Beta-oxidation of a saturated fatty acid produces acetyl-CoA, NADH, and FADH\u2082. For each cycle of beta-oxidation of a fatty acid with n carbons:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "one cycle removes 2 carbons as acetyl-CoA, produces 1 NADH and 1 FADH\u2082, and shortens the chain by 2 carbons"
+        },
+        {
+          "label": "B",
+          "text": "one cycle removes 3 carbons as propionyl-CoA and produces 2 NADH"
+        },
+        {
+          "label": "C",
+          "text": "one cycle removes the entire fatty acid chain at once, producing all acetyl-CoA molecules simultaneously"
+        },
+        {
+          "label": "D",
+          "text": "one cycle produces ATP directly by substrate-level phosphorylation"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Each round of beta-oxidation consists of four reactions: (1) acyl-CoA dehydrogenase \u2014 oxidation produces FADH\u2082; (2) enoyl-CoA hydratase \u2014 hydration; (3) L-3-hydroxyacyl-CoA dehydrogenase \u2014 oxidation produces NADH; (4) thiolase \u2014 thiolytic cleavage releases acetyl-CoA and shortens the acyl chain by 2 carbons. A 16-carbon palmitoyl-CoA undergoes 7 rounds to produce 8 acetyl-CoA, 7 NADH, and 7 FADH\u2082. Each acetyl-CoA then enters the TCA cycle for further oxidation.",
+        "B": "Saturated even-chain fatty acids are degraded 2 carbons at a time as acetyl-CoA, not 3 carbons as propionyl-CoA. Propionyl-CoA (a 3-carbon product) is produced only from odd-chain fatty acids (the last cycle yields acetyl-CoA + propionyl-CoA) and from branched-chain amino acid catabolism. Additionally, FADH\u2082 is produced in the first step of beta-oxidation \u2014 two NADH per cycle is incorrect.",
+        "C": "Beta-oxidation is a sequential, cyclical process. The entire fatty acid chain is not cleaved at once \u2014 each cycle removes exactly 2 carbons from the carboxyl end as acetyl-CoA. The process repeats until only a 2-carbon acetyl-CoA remains. Complete cleavage in a single step is enzymatically impossible and would bypass the energy-capturing oxidation steps.",
+        "D": "Beta-oxidation does not directly produce ATP by substrate-level phosphorylation. The energy from beta-oxidation is captured as reduced electron carriers (NADH and FADH\u2082), which transfer electrons to the ETC for ATP production via oxidative phosphorylation. Substrate-level phosphorylation (direct ATP production) occurs in glycolysis and the TCA cycle, not in beta-oxidation."
+      },
+      "topic": "Beta-Oxidation / Per-Cycle Products",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_lipid_004",
+      "passage": null,
+      "stem": "Fatty acid synthesis and beta-oxidation are reciprocally regulated, meaning they cannot both be maximally active simultaneously. A key regulatory molecule that ensures this is malonyl-CoA, which:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "activates carnitine acyltransferase I (CAT I), increasing fatty acid entry into the mitochondria for beta-oxidation"
+        },
+        {
+          "label": "B",
+          "text": "activates ATP-citrate lyase, accelerating both synthesis and oxidation simultaneously"
+        },
+        {
+          "label": "C",
+          "text": "directly inhibits thiolase, stopping the last step of beta-oxidation"
+        },
+        {
+          "label": "D",
+          "text": "inhibits carnitine acyltransferase I (CAT I), blocking transport of fatty acids into the mitochondria and preventing futile cycling when synthesis is active"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Malonyl-CoA inhibits CAT I, not activates it. If malonyl-CoA activated fatty acid entry into the mitochondria, both synthesis (producing malonyl-CoA) and oxidation (consuming fatty acids) would run simultaneously \u2014 creating a futile cycle that wastes energy by synthesizing and degrading fats at the same time.",
+        "B": "ATP-citrate lyase cleaves cytoplasmic citrate to produce acetyl-CoA and oxaloacetate \u2014 it is a step in the citrate shuttle that supports fatty acid synthesis. Malonyl-CoA does not activate ATP-citrate lyase. More importantly, simultaneously accelerating both synthesis and oxidation would create a wasteful futile cycle.",
+        "C": "Thiolase catalyzes the final thiolytic cleavage step of beta-oxidation, releasing acetyl-CoA. While thiolase is inhibited by acetyl-CoA (product inhibition), malonyl-CoA does not directly inhibit thiolase. Malonyl-CoA's regulatory effect is at the mitochondrial entry point (CPT-1), not at individual enzymatic steps within beta-oxidation.",
+        "D": "Correct. Malonyl-CoA \u2014 the first committed intermediate of fatty acid synthesis and an indicator that synthesis is active \u2014 allosterically inhibits carnitine acyltransferase I (CPT-1), the enzyme that transfers fatty acyl groups onto carnitine for transport across the inner mitochondrial membrane. This inhibition ensures that when de novo synthesis is producing fatty acids, those fatty acids are not simultaneously transported into the mitochondria and oxidized. This elegant reciprocal control prevents the futile cycle of simultaneous synthesis and degradation."
+      },
+      "topic": "Malonyl-CoA / CPT-1 Inhibition",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_lipid_005",
+      "passage": null,
+      "stem": "Triacylglycerols (triglycerides) are the primary form of long-term energy storage in adipose tissue. During fasting, hormone-sensitive lipase (HSL) hydrolyzes triacylglycerols to release fatty acids. HSL is activated by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "insulin, signaling fed state and abundant glucose"
+        },
+        {
+          "label": "B",
+          "text": "elevated cytoplasmic calcium, independent of hormone signaling"
+        },
+        {
+          "label": "C",
+          "text": "glucagon and epinephrine via cAMP-dependent protein kinase A (PKA), which phosphorylates and activates HSL during fasting or stress"
+        },
+        {
+          "label": "D",
+          "text": "malonyl-CoA, which directly activates lipolysis in adipocytes"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Insulin inhibits HSL (via protein phosphatase 1, which dephosphorylates and inactivates it) and stimulates lipogenesis. Insulin signaling promotes fat storage in the fed state. Glucagon and epinephrine, not insulin, activate HSL for fat mobilization.",
+        "B": "While calcium does play roles in cell signaling, HSL activation during fasting is primarily regulated by the glucagon/epinephrine \u2192 cAMP \u2192 PKA \u2192 HSL phosphorylation pathway. Calcium-independent activation is not the primary mechanism for HSL activation during lipolysis.",
+        "C": "Correct. During fasting: glucagon rises \u2192 activates adenylyl cyclase \u2192 increases cAMP \u2192 activates protein kinase A \u2192 PKA phosphorylates HSL at multiple sites, activating it \u2192 HSL hydrolyzes stored triacylglycerols to fatty acids and glycerol. Epinephrine activates HSL through the same pathway (\u03b2-adrenergic receptors \u2192 cAMP \u2192 PKA) during stress. The released fatty acids are exported to tissues for beta-oxidation, while glycerol goes to the liver for gluconeogenesis.",
+        "D": "Malonyl-CoA is an inhibitor of fatty acid entry into mitochondria (inhibits CPT-1) and a signal that fatty acid synthesis is active. It does not activate lipolysis. When malonyl-CoA levels are high (fed state, active synthesis), HSL is actually suppressed by insulin. Malonyl-CoA and HSL activation are on opposite ends of the fed/fasted metabolic switch."
+      },
+      "topic": "Lipolysis / HSL Activation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_lipid_006",
+      "passage": null,
+      "stem": "Ketone bodies (acetoacetate, \u03b2-hydroxybutyrate, acetone) are produced in the liver during prolonged fasting. The condition of elevated ketone bodies in the blood is called ketosis. Ketone bodies are synthesized from:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "excess glucose in the liver when glycogen stores are full"
+        },
+        {
+          "label": "B",
+          "text": "amino acids converted directly to ketone bodies without passing through acetyl-CoA"
+        },
+        {
+          "label": "C",
+          "text": "glycerol released by lipolysis in adipocytes"
+        },
+        {
+          "label": "D",
+          "text": "acetyl-CoA that cannot enter the TCA cycle because oxaloacetate is depleted by gluconeogenesis, so acetyl-CoA is instead diverted to HMG-CoA and then to ketone bodies"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Ketone bodies are produced during fasting \u2014 when glucose is low, not high. Excess glucose leads to glycogen synthesis and de novo lipogenesis, not ketogenesis. Glucose and ketone body production are inversely related: high glucose (fed state) suppresses ketogenesis; low glucose (fasted state) promotes it.",
+        "B": "Amino acids can be ketogenic (their carbon skeletons enter as acetyl-CoA or acetoacetyl-CoA) or glucogenic (entering as pyruvate, OAA, \u03b1-ketoglutarate, etc.). However, ketogenic amino acid catabolism still proceeds through acetyl-CoA or acetoacetyl-CoA as intermediates \u2014 not directly to ketone bodies. The principal source of ketone bodies during fasting is fatty acid beta-oxidation, not amino acid catabolism.",
+        "C": "Glycerol from lipolysis is a 3-carbon molecule that goes to the liver for gluconeogenesis (glycerol \u2192 DHAP \u2192 glucose), not for ketone body synthesis. Glycerol cannot be converted to fatty acids or ketone bodies directly.",
+        "D": "Correct. During prolonged fasting: (1) glucagon activates lipolysis \u2192 fatty acids flood the liver; (2) beta-oxidation produces large amounts of acetyl-CoA; (3) the TCA cycle cannot process all this acetyl-CoA because OAA (the TCA entry acceptor) is depleted \u2014 it has been consumed by gluconeogenesis (OAA \u2192 PEP); (4) excess acetyl-CoA is diverted to ketogenesis: 2 acetyl-CoA \u2192 acetoacetyl-CoA \u2192 HMG-CoA (by HMG-CoA synthase) \u2192 acetoacetate \u2192 \u03b2-hydroxybutyrate or acetone. The liver exports ketone bodies as fuel for the brain, heart, and skeletal muscle \u2014 tissues that can convert them back to acetyl-CoA via the TCA cycle."
+      },
+      "topic": "Ketogenesis / OAA Depletion",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_lipid_007",
+      "passage": null,
+      "stem": "Fatty acid synthesis requires NADPH as the reducing agent (not NADH). The primary cytoplasmic source of NADPH for fatty acid synthesis is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the electron transport chain, which produces NADPH instead of NADH when operating in reverse"
+        },
+        {
+          "label": "B",
+          "text": "the pentose phosphate pathway (glucose-6-phosphate \u2192 ribulose-5-phosphate), which generates 2 NADPH per glucose-6-phosphate in its oxidative phase"
+        },
+        {
+          "label": "C",
+          "text": "glycolysis, which produces NADPH at the glyceraldehyde-3-phosphate dehydrogenase step"
+        },
+        {
+          "label": "D",
+          "text": "the urea cycle, which generates NADPH as a byproduct of arginine hydrolysis"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The ETC produces a proton gradient that drives ATP synthesis \u2014 it does not produce NADPH. The ETC oxidizes NADH and FADH\u2082 (converting them to NAD\u207a and FAD) and uses the electrons to reduce O\u2082 to water. It does not run in reverse to produce NADPH under normal conditions.",
+        "B": "Correct. The oxidative phase of the pentose phosphate pathway (PPP) is the major source of cytoplasmic NADPH. Glucose-6-phosphate dehydrogenase (G6PD) catalyzes the committed step, and two rounds of oxidation (G6P \u2192 6-phosphogluconate \u2192 ribulose-5-phosphate) produce 2 NADPH per glucose-6-phosphate processed. NADPH is essential for fatty acid synthesis (fatty acid synthase uses it for reduction), cholesterol synthesis, glutathione reductase (antioxidant defense), and cytochrome P450 enzymes. A secondary source of cytoplasmic NADPH is the malic enzyme (malate \u2192 pyruvate + CO\u2082 + NADPH).",
+        "C": "Glycolysis produces NADH (at glyceraldehyde-3-phosphate dehydrogenase), not NADPH. NADH and NADPH are chemically similar (differ by a phosphate group) but are used in different metabolic contexts: NADH primarily for energy (ETC), NADPH primarily for biosynthesis and antioxidant defense.",
+        "D": "The urea cycle converts ammonia to urea and requires ATP; it does not generate NADPH. The cycle's enzymes (carbamoyl phosphate synthetase, ornithine transcarbamylase, argininosuccinate synthetase, argininosuccinate lyase, arginase) do not produce NADPH as a byproduct. Arginine hydrolysis (by arginase) yields urea and ornithine, not NADPH."
+      },
+      "topic": "NADPH Sources / Pentose Phosphate Pathway",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_lipid_008",
+      "passage": null,
+      "stem": "Phospholipids are major structural components of cell membranes. They differ from triacylglycerols in that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "phospholipids contain a phosphate group and a polar head group in place of the third fatty acid, making them amphipathic (having both hydrophobic and hydrophilic regions)"
+        },
+        {
+          "label": "B",
+          "text": "phospholipids contain three fatty acid chains while triacylglycerols contain only two"
+        },
+        {
+          "label": "C",
+          "text": "triacylglycerols are found in cell membranes while phospholipids are stored in adipose tissue"
+        },
+        {
+          "label": "D",
+          "text": "phospholipids are always saturated while triacylglycerols always contain unsaturated fatty acids"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Both phospholipids and triacylglycerols have a glycerol backbone with fatty acids esterified at positions sn-1 and sn-2. The critical difference is at position sn-3: triacylglycerols have a third fatty acid, while phospholipids have a phosphate esterified to a polar head group (choline in phosphatidylcholine, ethanolamine in phosphatidylethanolamine, serine in phosphatidylserine, etc.). This phosphate-head group makes phospholipids amphipathic \u2014 they have hydrophobic fatty acid tails and a hydrophilic head. Amphipathicity is what drives spontaneous bilayer formation, making phospholipids ideal membrane structural components.",
+        "B": "This has it backwards. Triacylglycerols have three fatty acid chains on a glycerol backbone. Phospholipids have two fatty acids and one phosphate-head group combination. The phosphate replaces (not adds to) the third fatty acid.",
+        "C": "The biological roles are reversed. Triacylglycerols (triglycerides) are the primary form of energy storage in adipose tissue (lipid droplets). Phospholipids are the structural components of all cellular membranes (plasma membrane, organelle membranes). Triacylglycerols are not typically found in membranes; their complete hydrophobicity (no charged head group) prevents them from forming stable bilayers.",
+        "D": "Both phospholipids and triacylglycerols can contain any combination of saturated and unsaturated fatty acids. The degree of saturation is not determined by the lipid class but by the specific fatty acids incorporated. Membrane fluidity is regulated by the ratio of saturated to unsaturated fatty acids in phospholipids \u2014 unsaturated fatty acids (with cis double bonds) increase fluidity."
+      },
+      "topic": "Phospholipids vs Triacylglycerols",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_lipid_009",
+      "passage": null,
+      "stem": "Eicosanoids (prostaglandins, thromboxanes, leukotrienes) are lipid signaling molecules derived from arachidonic acid, a 20-carbon polyunsaturated fatty acid. Aspirin reduces inflammation by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "blocking arachidonic acid release from membrane phospholipids by inhibiting phospholipase A\u2082"
+        },
+        {
+          "label": "B",
+          "text": "irreversibly acetylating and inhibiting cyclooxygenase (COX), preventing arachidonic acid from being converted to prostaglandins and thromboxanes"
+        },
+        {
+          "label": "C",
+          "text": "activating lipoxygenase, which converts arachidonic acid to anti-inflammatory leukotrienes"
+        },
+        {
+          "label": "D",
+          "text": "blocking the prostaglandin receptor on target cells, preventing prostaglandin binding"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Phospholipase A\u2082 is inhibited by corticosteroids (via lipocortin/annexin A1), not by aspirin. Phospholipase A\u2082 releases arachidonic acid from membrane phospholipids \u2014 blocking this step would prevent all downstream eicosanoid synthesis. Aspirin acts downstream of arachidonic acid release, specifically at COX.",
+        "B": "Correct. Aspirin (acetylsalicylic acid) irreversibly inhibits both COX-1 and COX-2 by covalently acetylating a serine residue in the enzyme's active channel, blocking access of arachidonic acid. COX (prostaglandin H\u2082 synthase) converts arachidonic acid to prostaglandin G\u2082 and then H\u2082 \u2014 the precursor to all prostaglandins, thromboxanes, and prostacyclin. Without functional COX, prostaglandin synthesis is blocked, reducing inflammation, fever, and pain. The irreversible nature of aspirin's inhibition explains its unique antiplatelet effect: platelets (which lack nuclei) cannot synthesize new COX, so their thromboxane A\u2082 production is permanently suppressed for the platelet's lifespan (~10 days).",
+        "C": "Lipoxygenase is a separate pathway from COX \u2014 it converts arachidonic acid to leukotrienes (important in asthma and allergic reactions). Aspirin does not activate lipoxygenase. Some evidence suggests aspirin may slightly increase certain lipoxin synthesis (anti-inflammatory mediators), but it does not activate lipoxygenase directly. Additionally, leukotrienes include both pro- and anti-inflammatory subtypes.",
+        "D": "Aspirin acts on the enzyme producing prostaglandins (COX), not on the receptor that prostaglandins bind. Receptor antagonists for prostaglandins exist (e.g., misoprostol analogs) but these are different agents. Blocking the receptor rather than synthesis would not be 'irreversible' in the same way."
+      },
+      "topic": "Eicosanoids / Aspirin / COX Inhibition",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_lipid_010",
+      "passage": null,
+      "stem": "The metabolic state after a meal (fed state) is characterized by high insulin and low glucagon. In this state, adipose tissue primarily:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "undergoes maximal beta-oxidation to supply fatty acids to the liver"
+        },
+        {
+          "label": "B",
+          "text": "produces ketone bodies to supply the brain with alternative fuel"
+        },
+        {
+          "label": "C",
+          "text": "takes up fatty acids from the blood (delivered as VLDL and chylomicrons) and stores them as triacylglycerols under insulin stimulation"
+        },
+        {
+          "label": "D",
+          "text": "releases glycerol for hepatic gluconeogenesis"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Beta-oxidation in adipose tissue is suppressed in the fed state. High insulin activates phosphodiesterase, lowering cAMP, inhibiting PKA, and therefore inactivating HSL (the lipase that mobilizes fatty acids for beta-oxidation). The fed state promotes fat storage, not fat mobilization.",
+        "B": "Ketone body production occurs in the liver, not adipose tissue. Moreover, ketogenesis is a fasted-state response to low glucose and high fatty acid flux. In the fed state, high insulin and glucose suppress glucagon and ketone body synthesis entirely.",
+        "C": "Correct. In the fed state, insulin promotes fat storage in adipose tissue by: (1) activating lipoprotein lipase (LPL) on capillary endothelium, which hydrolyzes triglycerides in VLDL and chylomicrons, releasing fatty acids; (2) stimulating fatty acid uptake into adipocytes; (3) activating glycolysis and glucose uptake (GLUT4) in adipocytes to provide glycerol-3-phosphate for triacylglycerol synthesis; (4) inhibiting HSL (preventing lipolysis). Simultaneously, the liver receives chylomicron remnants and uses glucose for glycogen and VLDL synthesis.",
+        "D": "Glycerol release occurs during lipolysis in the fasted state, not the fed state. When HSL is active (fasting, stress), triacylglycerols are hydrolyzed to fatty acids and glycerol. The glycerol is then transported to the liver for gluconeogenesis. In the fed state, HSL is suppressed and glycerol is not released."
+      },
+      "topic": "Fed State / Adipose Tissue Metabolism",
+      "difficulty": "Easy"
+    }
+  ]
+}

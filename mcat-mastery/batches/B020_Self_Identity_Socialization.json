@@ -1,0 +1,495 @@
+{
+  "section": "ps",
+  "questions": [
+    {
+      "id": "ps_self_001",
+      "passage": "Sociologists studying physician socialization observed first-year medical residents during their initial months of clinical rotations. Researchers used participant observation and semi-structured interviews to document how residents managed interactions with patients, attending physicians, and nursing staff.\n\nResidents reported significant anxiety about appearing competent. When presenting cases to attending physicians during morning rounds, residents rehearsed their presentations, adopted formal medical jargon, and omitted uncertainties they had expressed privately. One resident stated: 'In front of the attending, I project confidence even when I have no idea what's going on. In the call room with other interns, I admit I'm terrified.'\n\nThe researchers noted that residents quickly learned unwritten rules about emotional display. When delivering bad news to patients, residents adopted a composed, empathetic demeanor regardless of their internal emotional state. Several residents described deliberately modifying their speech patterns, posture, and facial expressions depending on the audience. One resident observed that interactions with nursing staff required a different self-presentation than interactions with attending physicians, noting: 'With nurses, I can't be too authoritative because I need their help, but I can't seem too uncertain because they need to trust my orders.'\n\nOver the course of the year, residents reported that behaviors initially experienced as performances gradually became internalized. By the end of the year, many residents stated that the 'doctor persona' no longer felt like an act but had become part of their identity.",
+      "stem": "The resident's description of projecting confidence during rounds while admitting fear in the call room most directly illustrates which concept from Goffman's dramaturgical analysis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Role strain, in which conflicting expectations within a single role create psychological tension"
+        },
+        {
+          "label": "B",
+          "text": "Role exit, in which an individual disengages from a role that was previously central to their identity"
+        },
+        {
+          "label": "C",
+          "text": "Impression management, broadly defined as controlling how others perceive oneself"
+        },
+        {
+          "label": "D",
+          "text": "The distinction between front-stage and back-stage regions of social performance"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Role strain involves difficulty fulfilling the demands of a single role due to competing expectations within that role. While residents do experience tension, the passage specifically describes different behaviors in different settings (rounds vs. call room) \u2014 a spatial/audience distinction, not competing expectations within one setting.",
+        "B": "Role exit refers to the process of disengaging from a role that was central to one's identity. The residents are not leaving a role; they are actively constructing and maintaining one.",
+        "C": "Impression management is a broad concept referring to any effort to control others' perceptions. While the resident is managing impressions, the specific contrast between public rounds performance and private call-room admissions maps more precisely to Goffman's front-stage/back-stage distinction (choice D). Impression management is the overarching category; front-stage/back-stage is the specific structural feature of the dramaturgical model that the scenario illustrates.",
+        "D": "Goffman's dramaturgical model distinguishes between front-stage behavior \u2014 performances given before an audience where individuals attempt to present a desired image \u2014 and back-stage behavior \u2014 private settings where individuals can relax and drop the performance. The resident's confidence during rounds (front stage, with the attending as audience) and admitted fear in the call room (back stage, with peers only) is a textbook illustration of this distinction."
+      },
+      "difficulty": "Easy",
+      "topic": "Goffman's Dramaturgical Analysis / Front-Stage & Back-Stage"
+    },
+    {
+      "id": "ps_self_002",
+      "passage": null,
+      "stem": "The residents' practice of modifying speech patterns, posture, and facial expressions depending on whether they are interacting with attendings, patients, or nurses is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Anticipatory socialization, in which individuals adopt the norms and behaviors of a group they aspire to join"
+        },
+        {
+          "label": "B",
+          "text": "Role performance adjusted across multiple distinct audiences within the same occupational role"
+        },
+        {
+          "label": "C",
+          "text": "Role conflict arising from simultaneous occupancy of incompatible social positions"
+        },
+        {
+          "label": "D",
+          "text": "Peer socialization, in which behavioral norms are transmitted through interactions with status equals"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Anticipatory socialization occurs when individuals adopt the behaviors of a group they have not yet joined. The residents are already in the physician role; they are adjusting their performance within that role for different audiences, not preparing for a future role.",
+        "B": "The residents occupy a single role (medical resident) but present themselves differently depending on the audience. With attendings, they project competence and use formal jargon. With patients, they adopt an empathetic demeanor. With nurses, they balance authority and approachability. This is role performance \u2014 the active, audience-specific enactment of a social role \u2014 adjusted across interaction partners.",
+        "C": "Role conflict arises when an individual occupies two or more roles with incompatible demands (e.g., being both a parent and an employee with conflicting time demands). Here, the residents occupy one role (physician) and adjust their performance within it for different audiences, which is role performance, not role conflict.",
+        "D": "Peer socialization involves learning norms from equals. While residents do learn from each other in the call room, the passage emphasizes deliberate behavioral modification across three different audience types, which is role performance rather than the mechanism of peer socialization."
+      },
+      "difficulty": "Medium",
+      "topic": "Role Performance / Audience Segregation"
+    },
+    {
+      "id": "ps_self_003",
+      "passage": null,
+      "stem": "The finding that residents' initially deliberate performances gradually became internalized over the course of the year best supports which theoretical concept?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Bem's self-perception theory, in which individuals infer their own attitudes by observing their behavior"
+        },
+        {
+          "label": "B",
+          "text": "Cognitive dissonance reduction, in which individuals change their beliefs to align with their behaviors"
+        },
+        {
+          "label": "C",
+          "text": "Mead's concept of the generalized other, in which individuals internalize the attitudes and expectations of the broader community"
+        },
+        {
+          "label": "D",
+          "text": "Secondary socialization, in which individuals acquire role-specific knowledge and identities through institutional participation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Self-perception theory (Bem) proposes that people infer their attitudes from observing their own behavior, especially when internal cues are weak. While this could partially explain why residents begin to feel like doctors after acting like doctors, the passage emphasizes institutional socialization and the internalization of community expectations \u2014 a more sociological process than Bem's individual-cognitive mechanism.",
+        "B": "Cognitive dissonance reduction occurs when an individual resolves the discomfort of holding contradictory beliefs and behaviors by changing one to match the other. While there is some surface similarity (behavior eventually matches internal state), the passage describes a gradual socialization process of identity internalization, not the resolution of a specific cognitive inconsistency.",
+        "C": "Correct. Mead's generalized other refers to the internalization of the attitudes, expectations, and norms of the broader social group. As residents repeatedly perform the physician role and learn the expectations of the medical community, those expectations become incorporated into their self-concept. The 'doctor persona' no longer feels like a performance because the professional community's standards have become part of the self. The initially conscious role-playing is replaced by genuine identification with the physician role.",
+        "D": "Secondary socialization does occur during medical training \u2014 it is the broader process of acquiring role-specific knowledge and identity through institutional participation. However, the specific mechanism emphasized in the question is the internalization of the professional community's expectations into the self-concept, which maps more directly onto Mead's generalized other. Secondary socialization is the context; the generalized other is the specific mechanism of identity formation described."
+      },
+      "difficulty": "Hard",
+      "topic": "Mead's Generalized Other / Professional Socialization"
+    },
+    {
+      "id": "ps_self_004",
+      "passage": null,
+      "stem": "If a follow-up study found that residents who reported the highest levels of anxiety about appearing competent also reported the greatest sense of personal identity change by year's end, this finding would be most consistent with which prediction?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Individuals who experience less role strain are more open to identity change during professional socialization"
+        },
+        {
+          "label": "B",
+          "text": "Individuals with high self-efficacy are more likely to successfully adopt new professional identities"
+        },
+        {
+          "label": "C",
+          "text": "Greater initial discrepancy between the performed self and the experienced self may lead to more profound identity transformation through socialization"
+        },
+        {
+          "label": "D",
+          "text": "The degree of identity change during socialization is primarily determined by the prestige of the social role being adopted"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This is the opposite of the finding. Residents with the highest anxiety experienced the greatest discrepancy between their performed confident self and their privately fearful self \u2014 that is, more role strain, not less. The result suggests that greater initial strain is associated with more identity change, not that less strain promotes openness to change. The prediction in this answer contradicts the direction of the reported correlation.",
+        "B": "High self-efficacy would predict less anxiety about appearing competent, not more. The residents described as most anxious would be those with lower initial self-efficacy. This answer contradicts the finding.",
+        "C": "This answer initially seems counterintuitive \u2014 the most anxious residents would appear to have more role strain, not less. However, the key is the direction of identity change. High anxiety about appearing competent indicates strong motivation to conform to the role's expectations. These residents invest heavily in the performance, and that intense engagement with the role creates the conditions for deep internalization. The 'strain' itself becomes the engine of socialization: the discomfort of performing a self that feels foreign drives residents to resolve the gap by making the performed self their real self. This is most consistent with socialization theories predicting that effortful engagement with a new role accelerates identity transformation.",
+        "D": "Role prestige is held constant in this study \u2014 all residents are entering the same profession. Individual variation in anxiety within the same role cannot be explained by prestige differences."
+      },
+      "difficulty": "Hard",
+      "topic": "Identity Transformation / Role Strain"
+    },
+    {
+      "id": "ps_self_005",
+      "passage": "A longitudinal study followed 240 college students from freshman orientation through two years post-graduation, assessing identity development using Marcia's identity status model. Marcia expanded Erikson's concept of identity versus role confusion into four statuses based on two dimensions: whether an individual has undergone an identity crisis (a period of active exploration) and whether they have made a commitment to a set of values, beliefs, and goals.\n\nThe four statuses are: identity diffusion (no crisis, no commitment), identity foreclosure (commitment without crisis \u2014 values adopted from authority figures without personal exploration), identity moratorium (currently in crisis, no commitment yet), and identity achievement (commitment following crisis).\n\nResults showed that at freshman orientation, 45% of students were classified as foreclosed, 32% as diffused, 18% as in moratorium, and 5% as identity-achieved. By senior year, these proportions had shifted: 15% foreclosed, 20% diffused, 25% moratorium, and 40% achieved. Two years post-graduation, 8% were foreclosed, 12% diffused, 10% moratorium, and 70% achieved.\n\nThe researchers also found that students who transitioned from foreclosure to moratorium during college often reported a precipitating event \u2014 such as exposure to diverse peers, a challenging course, or a significant relationship \u2014 that prompted them to question previously unexamined values. Students who remained foreclosed throughout college tended to maintain close ties with their family of origin and to socialize primarily within homogeneous peer groups.",
+      "stem": "According to Marcia's model, a student who enters college intending to become a lawyer because 'that's what my family expects' and who has never considered alternative career paths would be classified in which identity status?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Identity diffusion, because the student has not actively explored identity options"
+        },
+        {
+          "label": "B",
+          "text": "Identity foreclosure, because the student has made a commitment without undergoing a personal crisis of exploration"
+        },
+        {
+          "label": "C",
+          "text": "Identity moratorium, because the student is still in the process of exploration"
+        },
+        {
+          "label": "D",
+          "text": "Identity achievement, because the student has a clear career goal and sense of direction"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Identity diffusion is characterized by both the absence of crisis and the absence of commitment. This student does have a commitment (becoming a lawyer), so diffusion does not apply. Diffusion would describe a student with no particular career direction and no interest in exploring one.",
+        "B": "Identity foreclosure is defined by commitment without crisis. The student has a clear commitment (law career) but has adopted it directly from family expectations without personal exploration or questioning. The phrase 'that's what my family expects' combined with never considering alternatives is the hallmark of foreclosure \u2014 values and goals are inherited from authority figures rather than independently examined.",
+        "C": "Identity moratorium is defined by active exploration without yet having made a commitment. This student is not currently exploring alternatives; they have accepted the family's plan without question. Moratorium would describe a student who is actively questioning their career direction and considering multiple options.",
+        "D": "Identity achievement requires both crisis (a period of active exploration and questioning) and commitment. While this student has a commitment, they have not undergone a crisis \u2014 they have never considered alternative paths. Having a clear goal without personal exploration is foreclosure, not achievement."
+      },
+      "difficulty": "Easy",
+      "topic": "Marcia's Identity Statuses / Foreclosure"
+    },
+    {
+      "id": "ps_self_006",
+      "passage": null,
+      "stem": "The study found that students who transitioned from foreclosure to moratorium were often prompted by exposure to diverse peers or challenging courses. This finding is most consistent with which concept?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Resocialization, in which individuals are stripped of their previous identity and given a new one by a total institution"
+        },
+        {
+          "label": "B",
+          "text": "Operant conditioning, in which new behaviors are acquired through reinforcement schedules"
+        },
+        {
+          "label": "C",
+          "text": "Agents of socialization, in which institutions and social groups influence the development of identity and values"
+        },
+        {
+          "label": "D",
+          "text": "Assimilation, in which minority group members adopt the cultural norms of the dominant group"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Resocialization in total institutions (prisons, military boot camp, monasteries) involves a deliberate, often coercive stripping of prior identity and replacement with a new one. College is not a total institution, and the transition described is voluntary and gradual, triggered by exposure rather than institutional control.",
+        "B": "Operant conditioning involves learning through reinforcement and punishment. The passage does not describe students being reinforced or punished for particular identity positions; it describes exposure to new perspectives that prompt internal questioning \u2014 a cognitive and social process, not a behavioral conditioning process.",
+        "C": "Agents of socialization \u2014 family, peers, education, media, religion \u2014 do influence identity development. Diverse peers and challenging courses are agents of socialization. This answer correctly identifies the mechanism. However, the passage specifically describes these agents as catalysts for questioning previously unexamined values, which is the definition of entering moratorium. The concept of agents of socialization is the best fit for the mechanism by which foreclosed students are prompted to explore.",
+        "D": "Assimilation refers to minority group members adopting the cultural practices of a dominant group. The passage describes students questioning their own previously held values after exposure to diversity, not adopting a dominant group's culture. The process is one of exploration and questioning, not cultural conformity."
+      },
+      "difficulty": "Medium",
+      "topic": "Agents of Socialization / Identity Exploration"
+    },
+    {
+      "id": "ps_self_007",
+      "passage": null,
+      "stem": "Between freshman orientation and two years post-graduation, the proportion of students classified as identity-achieved increased from 5% to 70%. According to Erikson's developmental framework, this pattern is best explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the resolution of the identity versus role confusion crisis, which Erikson placed during late adolescence and young adulthood"
+        },
+        {
+          "label": "B",
+          "text": "the resolution of the intimacy versus isolation crisis, which typically follows successful identity formation"
+        },
+        {
+          "label": "C",
+          "text": "the resolution of the industry versus inferiority crisis, which Erikson placed during school age"
+        },
+        {
+          "label": "D",
+          "text": "regression to an earlier psychosocial stage caused by the stress of the college-to-career transition"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Erikson's fifth stage \u2014 identity versus role confusion \u2014 spans adolescence and young adulthood (roughly ages 12\u201320+). The college-through-post-graduation period falls squarely within this window. The progression from 5% achieved to 70% achieved reflects the normative resolution of this crisis: most individuals successfully explore and commit to an identity during this developmental period. Marcia's model operationalizes Erikson's stage by categorizing the specific patterns of exploration and commitment.",
+        "B": "Intimacy versus isolation is Erikson's sixth stage, which follows identity formation. While some students may be entering this stage post-graduation, the data being described \u2014 movement from foreclosure and diffusion through moratorium to achievement \u2014 specifically tracks identity formation, not intimacy development.",
+        "C": "Industry versus inferiority is Erikson's fourth stage, occurring during the school-age years (roughly 6\u201311). By college, individuals have typically resolved this stage. The data describe identity exploration and commitment, not the development of competence and work habits.",
+        "D": "While Erikson's theory allows for revisiting earlier stages, the data show the opposite of regression \u2014 a systematic movement toward identity achievement. The increase from 5% to 70% achieved reflects forward developmental progress, not regression."
+      },
+      "difficulty": "Easy",
+      "topic": "Erikson's Psychosocial Development / Identity vs. Role Confusion"
+    },
+    {
+      "id": "ps_self_008",
+      "passage": null,
+      "stem": "Students who remained foreclosed throughout college maintained close ties with family and homogeneous peer groups. A researcher hypothesizes that these social networks actively discouraged identity exploration. This hypothesis is most consistent with which theoretical framework?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Rational choice theory, which predicts that individuals will avoid identity exploration when the expected costs outweigh the expected benefits"
+        },
+        {
+          "label": "B",
+          "text": "Conflict theory, which predicts that dominant groups use socialization to maintain existing power structures and suppress critical examination of social norms"
+        },
+        {
+          "label": "C",
+          "text": "Social constructionism, which argues that all identities are products of social interaction and have no essential or fixed qualities"
+        },
+        {
+          "label": "D",
+          "text": "Functionalism, which predicts that socialization institutions maintain social stability by transmitting shared values across generations"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Rational choice theory frames decisions in terms of cost-benefit analysis. While students might implicitly weigh the costs of questioning family values (conflict, uncertainty) against the benefits (personal growth, autonomy), the passage emphasizes the role of social networks in maintaining foreclosure \u2014 a structural and relational explanation, not an individual-rational one.",
+        "B": "Conflict theory could apply if the family and peer networks were specifically maintaining power hierarchies through socialization. While there are elements of social reproduction, the passage focuses on value transmission and social cohesion within homogeneous groups, which is more functionalist than conflict-oriented. Conflict theory would predict that these groups maintain foreclosure to preserve their own group's advantages within a stratified system.",
+        "C": "Social constructionism holds that identities are constructed through social interaction. While this is broadly consistent with the passage, social constructionism does not specifically predict that homogeneous networks would discourage exploration. It would simply note that the foreclosed identity is itself a social construction, without predicting the specific pattern described.",
+        "D": "Functionalism emphasizes that social institutions (including families and peer groups) serve the function of transmitting shared values across generations, maintaining social cohesion and stability. Families that maintain close ties and homogeneous peer groups that reinforce existing values are performing this socializing function. From a functionalist perspective, discouraging identity exploration is not malicious \u2014 it is a mechanism for ensuring continuity and social stability. This matches the researcher's hypothesis that these networks actively discouraged the questioning of inherited values."
+      },
+      "difficulty": "Hard",
+      "topic": "Functionalism / Socialization and Social Stability"
+    },
+    {
+      "id": "ps_self_009",
+      "passage": "Researchers conducted a modified minimal group paradigm experiment to investigate how social categorization affects resource allocation and self-concept. Participants (N = 180) were randomly assigned to one of two groups based on an ostensibly trivial criterion \u2014 their preference for paintings by one of two abstract artists they had never encountered before. Participants were told which group they belonged to but had no face-to-face interaction with in-group or out-group members.\n\nIn Phase 1, participants allocated monetary rewards between anonymous in-group and out-group members using a set of allocation matrices. Results showed that 72% of participants allocated more resources to in-group members, even when maximizing joint payoff would have benefited both groups more. Notably, 38% of participants chose options that maximized the difference between in-group and out-group payoffs rather than maximizing the absolute in-group payoff.\n\nIn Phase 2, participants completed self-esteem measures before and after the allocation task. Participants who showed the strongest in-group favoritism demonstrated a statistically significant increase in self-esteem from pre- to post-task, whereas participants who allocated equally showed no change. The researchers also measured participants' identification with their assigned group; higher group identification predicted both greater in-group favoritism and greater self-esteem increases.\n\nIn Phase 3, the researchers revealed the random nature of group assignment. When informed that their group membership was arbitrary, most participants expressed surprise at their own behavior and reported that the group label had 'felt real' during the task.",
+      "stem": "The finding that 38% of participants maximized the difference between in-group and out-group payoffs rather than maximizing absolute in-group payoff most directly challenges which explanation for in-group favoritism?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Realistic conflict theory, which attributes intergroup bias to competition over tangible resources"
+        },
+        {
+          "label": "B",
+          "text": "Self-interest theory, which predicts that individuals allocate resources to maximize their own personal payoff"
+        },
+        {
+          "label": "C",
+          "text": "Social identity theory, which attributes in-group favoritism to the motivation to maintain positive social identity through favorable intergroup comparisons"
+        },
+        {
+          "label": "D",
+          "text": "Self-categorization theory, which proposes that individuals cognitively classify themselves and others into social categories"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Realistic conflict theory (Sherif) predicts that intergroup hostility arises from competition over scarce resources. The minimal group paradigm is specifically designed to test whether in-group favoritism occurs in the absence of realistic conflict \u2014 there is no competition, no history, and no interaction. The mere existence of favoritism challenges realistic conflict theory, but the specific finding about maximizing difference (rather than absolute in-group gain) more directly challenges a different explanation.",
+        "B": "If participants were motivated purely by self-interest or by rational desire to benefit their in-group, they would choose options that maximize absolute in-group payoff. Instead, 38% chose options that maximized the relative advantage of their in-group over the out-group, even when this meant a lower absolute payoff for the in-group. This is irrational from a self-interest perspective. The behavior reveals that the goal is not resource maximization but establishing favorable intergroup differentiation \u2014 exactly what social identity theory predicts, and directly contradicting pure self-interest accounts.",
+        "C": "Social identity theory is not challenged by this finding \u2014 it is supported by it. SIT predicts that individuals are motivated to achieve positive distinctiveness for their in-group through favorable comparisons with out-groups. Maximizing relative advantage (even at the cost of absolute gain) is the signature prediction of SIT.",
+        "D": "Self-categorization theory explains how individuals classify themselves into groups, which is a prerequisite for in-group favoritism. The finding about maximizing difference does not challenge the categorization process itself; it speaks to the motivational consequence of categorization."
+      },
+      "difficulty": "Hard",
+      "topic": "Social Identity Theory / In-Group Favoritism"
+    },
+    {
+      "id": "ps_self_010",
+      "passage": null,
+      "stem": "The finding that in-group favoritism was associated with increased self-esteem is most directly predicted by which component of social identity theory?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The frustration-aggression hypothesis, which proposes that blocked goals produce hostility that is redirected toward out-groups"
+        },
+        {
+          "label": "B",
+          "text": "The contact hypothesis, which proposes that positive intergroup contact reduces prejudice and increases mutual self-esteem"
+        },
+        {
+          "label": "C",
+          "text": "The self-esteem hypothesis, which proposes that successful intergroup discrimination enhances personal self-esteem by elevating the status of one's social identity"
+        },
+        {
+          "label": "D",
+          "text": "The just-world hypothesis, which proposes that individuals believe people get what they deserve"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The frustration-aggression hypothesis proposes that frustration leads to aggression, which may be displaced onto out-groups (scapegoating). There is no frustration or blocked goals in this experiment. Participants freely allocate resources, and the self-esteem increase is linked to favoritism, not to the release of frustration.",
+        "B": "The contact hypothesis (Allport) proposes that intergroup contact under certain conditions (equal status, common goals, institutional support) can reduce prejudice. In this study, there is no intergroup contact at all \u2014 groups never interact. The self-esteem changes are related to in-group favoritism, not positive contact.",
+        "C": "Correct. Social identity theory proposes that part of self-esteem derives from group membership. When an individual's in-group is positively differentiated from out-groups \u2014 as occurs through favorable resource allocation \u2014 the elevated status of the in-group enhances the individual's social identity, which in turn boosts personal self-esteem. The self-esteem hypothesis within SIT proposes a bidirectional link: threatened self-esteem motivates in-group favoritism, and successful discrimination enhances self-esteem. The data directly support this: participants who showed the most favoritism gained the most self-esteem.",
+        "D": "The just-world hypothesis (Lerner) predicts that people believe the world is fair and that people get what they deserve. This might predict that participants justify their biased allocations after the fact, but it does not predict the specific link between in-group favoritism and self-esteem increase."
+      },
+      "difficulty": "Medium",
+      "topic": "Social Identity Theory / Self-Esteem Hypothesis"
+    },
+    {
+      "id": "ps_self_011",
+      "passage": null,
+      "stem": "In Phase 3, participants expressed surprise at their own behavior and reported that the arbitrary group label had 'felt real.' This reaction best illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Deindividuation, in which individuals lose self-awareness and personal responsibility in group settings"
+        },
+        {
+          "label": "B",
+          "text": "The fundamental attribution error, in which observers attribute others' behavior to dispositional rather than situational factors"
+        },
+        {
+          "label": "C",
+          "text": "Groupthink, in which the desire for group cohesion overrides realistic appraisal of alternatives"
+        },
+        {
+          "label": "D",
+          "text": "The Thomas theorem, which states that situations defined as real become real in their consequences"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Deindividuation involves a loss of self-awareness and personal identity, typically occurring in crowds, under anonymity, or in conditions of arousal. In this experiment, participants made individual decisions in isolation. Their later ability to reflect on and be surprised by their own behavior indicates that self-awareness was maintained. The group label influenced behavior through social categorization and identity processes, not through the loss of individual identity that characterizes deindividuation.",
+        "B": "The fundamental attribution error involves attributing others' behavior to personality rather than situation. Here, participants are surprised by their own behavior, not making attributions about others. The surprise itself suggests they recognize the situational power of the group label \u2014 the opposite of FAE.",
+        "C": "Groupthink requires a cohesive group making decisions together, with pressure toward conformity and suppression of dissent. In this experiment, participants never interacted with anyone; they made allocation decisions individually. There is no group deliberation or conformity pressure.",
+        "D": "Correct. The Thomas theorem states that if people define situations as real, they are real in their consequences. Even though the group assignment was entirely arbitrary, participants treated the group label as meaningful \u2014 it 'felt real' \u2014 and this subjective definition produced measurable behavioral consequences: biased resource allocation and self-esteem changes. Their surprise when the random assignment was revealed confirms that a socially constructed category, once accepted as real, generates real effects on behavior and self-concept."
+      },
+      "difficulty": "Medium",
+      "topic": "Thomas Theorem / Social Construction of Reality"
+    },
+    {
+      "id": "ps_self_012",
+      "passage": null,
+      "stem": "Higher group identification predicted both greater in-group favoritism and greater self-esteem increases. If a critic argues that participants with higher self-esteem may have been more likely to identify with any assigned group, regardless of its nature, which methodological concern does this raise?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Confounding, because pre-existing self-esteem may independently affect both group identification and favoritism, making the causal direction ambiguous"
+        },
+        {
+          "label": "B",
+          "text": "Demand characteristics, because participants may have identified with their group in response to cues about the researchers' expectations"
+        },
+        {
+          "label": "C",
+          "text": "Low ecological validity, because the minimal group paradigm does not reflect the complexity of real-world group memberships"
+        },
+        {
+          "label": "D",
+          "text": "Selection bias, because participants who volunteered for the study may not be representative of the broader population"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The critic's argument identifies a classic confounding problem. If pre-existing self-esteem independently influences both group identification (people with higher self-esteem are more willing to identify with any group) and favoritism (people with higher self-esteem may be more assertive in allocating resources), then the observed correlation between identification and favoritism/self-esteem change could be spurious \u2014 driven by a third variable (baseline self-esteem) rather than by a causal link between identification and favoritism.",
+        "B": "Demand characteristics occur when participants respond to perceived researcher expectations rather than the experimental manipulation. While this is a valid concern for the minimal group paradigm generally, the critic's specific argument is about pre-existing self-esteem as a confound, not about participants guessing the hypothesis.",
+        "C": "Low ecological validity is a general criticism of the minimal group paradigm \u2014 arbitrary laboratory groups differ from real-world groups with history, conflict, and shared identity. This is a valid concern but does not address the specific issue the critic raises about pre-existing self-esteem.",
+        "D": "Selection bias concerns whether the sample represents the population. The critic's argument is about within-study variation (some participants have higher self-esteem than others), not about whether the overall sample is representative."
+      },
+      "difficulty": "Hard",
+      "topic": "Research Methods / Confounding Variables"
+    },
+    {
+      "id": "ps_self_013",
+      "passage": null,
+      "stem": "A child playing pretend by taking on the role of a firefighter and directing other children to act as the people being rescued is demonstrating which stage in Mead's theory of self-development?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The preparatory stage, in which children imitate others without understanding the meaning of their actions"
+        },
+        {
+          "label": "B",
+          "text": "The play stage, in which children take on the role of one specific other at a time"
+        },
+        {
+          "label": "C",
+          "text": "The game stage, in which children understand and coordinate multiple roles simultaneously"
+        },
+        {
+          "label": "D",
+          "text": "The generalized other stage, in which the individual has fully internalized society's norms and values"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The preparatory stage involves simple imitation without role understanding \u2014 a toddler 'talking' on a toy phone without understanding the social function of conversation. The child described is actively taking on a specific role (firefighter) with apparent understanding of what that role involves, which goes beyond mere imitation.",
+        "B": "In Mead's play stage, children take on the role of specific significant others one at a time. The child is pretending to be a firefighter \u2014 adopting a single, specific role \u2014 and directing others to take on complementary roles. This is characteristic of the play stage, where children practice role-taking by inhabiting one role at a time. The key is that the child is focused on one role (firefighter) rather than understanding the full system of interconnected roles.",
+        "C": "The game stage involves understanding multiple roles simultaneously and how they relate to each other \u2014 as in organized sports, where a player must understand their own position and the roles of all other players at the same time. While the child is directing others, the emphasis is on pretending to be the firefighter, not on simultaneously understanding and coordinating multiple interdependent roles within a rule-governed system.",
+        "D": "The generalized other is the culmination of Mead's developmental sequence, in which the individual internalizes the attitudes and expectations of the broader community. This is an abstract cognitive achievement, not a stage of pretend play."
+      },
+      "difficulty": "Easy",
+      "topic": "Mead's Stages of Self-Development / Play Stage"
+    },
+    {
+      "id": "ps_self_014",
+      "passage": null,
+      "stem": "A college student notices that her peers treat her as outgoing and funny, and over time she begins to see herself as an extroverted person. This process is best described by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The looking-glass self, in which an individual's self-concept develops through perceived judgments of others"
+        },
+        {
+          "label": "B",
+          "text": "Social comparison theory, in which individuals evaluate themselves by comparing their abilities and opinions to those of others"
+        },
+        {
+          "label": "C",
+          "text": "Self-serving bias, in which individuals attribute positive outcomes to their own character traits"
+        },
+        {
+          "label": "D",
+          "text": "Self-fulfilling prophecy, in which an initial expectation leads to behavior that causes the expectation to come true"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Cooley's looking-glass self involves three steps: (1) we imagine how we appear to others, (2) we imagine their judgment of that appearance, and (3) we develop a self-feeling (pride, shame) based on that imagined judgment. The student perceives that others see her as outgoing and funny (step 1), interprets this as a positive judgment (step 2), and incorporates 'extroverted person' into her self-concept (step 3). This is a textbook example of the looking-glass self.",
+        "B": "Social comparison theory (Festinger) involves evaluating one's own abilities and opinions by comparing them to others' \u2014 for example, judging one's intelligence by comparing test scores with classmates. The student is not comparing herself to others; she is forming her self-concept based on how others respond to her.",
+        "C": "Self-serving bias involves attributing successes to internal factors (character, ability) and failures to external factors (luck, situation). The student is not making attributions about success or failure; she is forming an identity based on reflected appraisals from others.",
+        "D": "Self-fulfilling prophecy occurs when an expectation causes behavior that makes the expectation come true \u2014 for example, a teacher who expects a student to fail gives less attention, causing the student to actually fail. While there may be an element of self-fulfilling prophecy here (being treated as outgoing may encourage outgoing behavior), the passage specifically emphasizes the development of self-concept through perceived others' judgments, which is the looking-glass self."
+      },
+      "difficulty": "Easy",
+      "topic": "Cooley's Looking-Glass Self"
+    },
+    {
+      "id": "ps_self_015",
+      "passage": null,
+      "stem": "A 10-year-old child says that stealing medicine to save a dying spouse is wrong because 'you'll get arrested and go to jail.' According to Kohlberg's theory, this reasoning reflects which level of moral development?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Preconventional morality, because the child evaluates the action in terms of its consequences for the self \u2014 specifically, punishment avoidance"
+        },
+        {
+          "label": "B",
+          "text": "Conventional morality, because the child appeals to law and order as the basis for moral judgment"
+        },
+        {
+          "label": "C",
+          "text": "Postconventional morality, because the child recognizes the existence of legal systems and their enforcement"
+        },
+        {
+          "label": "D",
+          "text": "Conventional morality, because the child defers to authority figures' expectations of proper behavior"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Preconventional morality (Kohlberg's Level 1) is characterized by self-focused reasoning. At Stage 1, moral judgments are based on avoiding punishment; at Stage 2, on self-interest and instrumental exchange. The child's reasoning \u2014 'you'll get arrested and go to jail' \u2014 focuses entirely on the personal consequence (punishment) rather than on social norms, duty, or abstract principles. This is Stage 1 preconventional reasoning.",
+        "B": "Conventional morality's Stage 4 (law and order) does involve respect for laws, but the reasoning is motivated by maintaining social order and fulfilling one's duty to society \u2014 'stealing is wrong because laws exist to hold society together.' The child's reasoning is not about social order; it is about personal consequences (getting arrested). This distinction is important: the same conclusion ('stealing is wrong') can reflect different moral stages depending on the reasoning behind it.",
+        "C": "Postconventional morality (Level 3) involves reasoning about abstract ethical principles \u2014 justice, individual rights, social contracts \u2014 that may transcend specific laws. Recognizing that laws exist and that breaking them leads to arrest does not demonstrate abstract ethical reasoning. The child's focus is entirely on the personal consequence (jail), not on any principle. Postconventional reasoning might sound like: 'The right to life supersedes property rights, so stealing the medicine is justified.'",
+        "D": "Conventional morality's Stage 3 (good interpersonal relationships) involves conforming to social expectations and seeking approval. The child does not reference what others expect or think; the reasoning is purely about self-relevant punishment. Deference to authority at the conventional level involves a principled respect for social roles, not merely fear of punishment."
+      },
+      "difficulty": "Medium",
+      "topic": "Kohlberg's Moral Development / Preconventional Stage"
+    }
+  ],
+  "batch": "B020",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Self, Identity & Socialization",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 3
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "batch": "B060",
+  "section": "cars",
+  "topicArea": "Definition / Kuhn's Paradigm",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "cars_natsci_001",
+      "stem": "Kuhn's 'paradigm' is best defined in the passage as:",
+      "choices": [
+        {
+          "text": "a framework of shared assumptions, methods, and exemplary problems that defines what counts as a legitimate scientific question and acceptable answer within a scientific community",
+          "label": "A"
+        },
+        {
+          "text": "a specific experimental result that forces scientists to revise their theories",
+          "label": "B"
+        },
+        {
+          "text": "a period of rapid discovery in which anomalies are quickly resolved",
+          "label": "C"
+        },
+        {
+          "text": "a neutral set of evaluation criteria used to compare competing scientific theories",
+          "label": "D"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage defines paradigm as 'a framework of assumptions, methods, and exemplary problems that defines what counts as a legitimate scientific question and what constitutes an acceptable answer.' This framework is not just a theory but a comprehensive structure — it governs methodology, problem selection, and criteria of adequacy. Scientists trained within a paradigm see and evaluate phenomena through its lens, which is why anomalies are initially explained away rather than triggering immediate theoretical revision.",
+        "B": "An experimental result that forces theory revision is an anomaly — the accumulation of anomalies is what strains a paradigm and eventually precipitates a crisis. A paradigm is not a result but the framework within which results are generated and interpreted.",
+        "C": "The passage describes anomaly accumulation as occurring within a paradigm and eventually leading to crisis — not as a period of rapid resolution. Paradigms persist precisely because anomalies do not quickly displace them. Crisis and eventual revolution (not rapid resolution) are what follow anomaly accumulation.",
+        "D": "Neutral evaluation criteria are what Kuhn's critics demand and what his later work partially conceded (accuracy, simplicity, fertility). The passage raises the question of whether these criteria are themselves paradigm-neutral. A paradigm is not a set of neutral criteria — it is the framework that may shape what counts as accuracy or simplicity in the first place."
+      },
+      "topic": "Definition / Kuhn's Paradigm",
+      "difficulty": "Easy",
+      "usePrevPassage": false,
+      "passage": "The history of science is often told as a story of discovery — of patient observation leading inevitably to truth, each experiment adding a brick to an ever-rising wall of knowledge. This narrative, which we might call the accumulation model, pictures scientific progress as gradual, rational, and essentially linear: earlier scientists saw part of the truth, later scientists saw more, and we see most of all. Thomas Kuhn's alternative account, developed in his landmark 1962 work, disrupted this comfortable image so thoroughly that the phrase paradigm shift entered everyday language.\n\nFor Kuhn, normal science operates within a paradigm — a framework of shared assumptions, methods, and exemplary problems that defines what counts as a legitimate scientific question and what constitutes an acceptable answer. Scientists trained within a paradigm do not spend their days questioning its foundations; they solve puzzles whose parameters the paradigm has already established. Anomalies accumulate — results that the paradigm cannot easily explain — but scientists initially explain them away through auxiliary hypotheses, revised measurements, or appeals to experimental error rather than abandon the paradigm, because their entire scientific training has invested them deeply in its assumptions and practices.\n\nWhen anomalies multiply beyond what the paradigm can absorb, a crisis emerges, and the field becomes receptive to an alternative framework. Paradigm shifts, in Kuhn's account, are not rational progressions from less complete to more complete knowledge. They are gestalt switches — sudden, wholesale restructurings in which scientists come to see the same phenomena entirely differently. The shift from Ptolemaic to Copernican astronomy was not a matter of evidence gradually overwhelming resistance; Ptolemy's geocentric model could accommodate most available astronomical data through the addition of epicycles. The switch required not incremental refutation but revolution, in which a new generation trained within the Copernican framework simply displaced practitioners committed to the old one.\n\nCritics have charged that Kuhn's account makes scientific progress appear arbitrary. If paradigms are incommensurable — if they frame reality so differently that practitioners of competing paradigms literally cannot understand each other's evidence in the same way — then there is no rational basis for choosing between them, and the history of science becomes a sequence of fashions rather than a march toward truth. Kuhn's later work attempted to soften this implication, conceding that paradigms could be compared on external criteria such as accuracy, simplicity, scope, and fertility. But whether these criteria are themselves paradigm-neutral, or are inevitably shaped by the very frameworks they are supposed to evaluate, remains a matter of active philosophical dispute."
+    },
+    {
+      "id": "cars_natsci_002",
+      "stem": "The author describes the shift from Ptolemaic to Copernican astronomy primarily to:",
+      "choices": [
+        {
+          "text": "illustrate Kuhn's claim that paradigm shifts involve wholesale conceptual restructuring rather than simple evidence-driven replacement, since Ptolemy's model could accommodate the data through epicycles",
+          "label": "A"
+        },
+        {
+          "text": "demonstrate that the Ptolemaic model was factually wrong and the Copernican model was obviously correct from the available evidence",
+          "label": "B"
+        },
+        {
+          "text": "argue that astronomy is unique among sciences in undergoing paradigm shifts",
+          "label": "C"
+        },
+        {
+          "text": "show that Copernicus was a more careful observer than Ptolemy",
+          "label": "D"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Ptolemaic-Copernican example is used to illustrate that paradigm shifts cannot be explained by the accumulation model (evidence gradually proving one theory wrong and another right). Because Ptolemy's geocentric model could accommodate the available data by adding epicycles, the shift to heliocentrism required a different explanation — a gestalt switch in which the same phenomena were seen entirely differently. The example concretizes Kuhn's abstract claim about revolution vs. rational accumulation.",
+        "B": "The passage explicitly states the opposite: 'Ptolemy's model could accommodate most available data through the addition of epicycles.' The Copernican shift was not driven by evidence overwhelming the Ptolemaic model — the older model could explain the observations. This is precisely Kuhn's point: paradigm change is not simply a matter of evidence proving one model wrong.",
+        "C": "The passage does not suggest astronomy is uniquely prone to paradigm shifts. Kuhn's theory applies to all natural sciences — the astronomy example is illustrative, not a claim about astronomy's special nature. The passage presents this as a historical instance of a general theoretical point.",
+        "D": "The passage makes no comparison between Ptolemy and Copernicus as observers or data collectors. The argument is about the nature of theoretical change, not about the quality of empirical observation by specific scientists."
+      },
+      "topic": "Rhetorical Function / Historical Example",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_natsci_003",
+      "stem": "The critics' charge that Kuhn's account 'makes scientific progress arbitrary' is based on the claim that:",
+      "choices": [
+        {
+          "text": "Kuhn failed to provide sufficient historical examples of paradigm shifts",
+          "label": "A"
+        },
+        {
+          "text": "Kuhn's account is too optimistic about scientists' ability to recognize anomalies",
+          "label": "B"
+        },
+        {
+          "text": "Kuhn ignored the role of experimental evidence in driving scientific change",
+          "label": "C"
+        },
+        {
+          "text": "if paradigms are incommensurable — unable to communicate across incompatible frameworks — then there is no neutral standpoint from which to rationally choose between them, leaving theory choice without rational justification",
+          "label": "D"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The critics' charge is not about the quantity of historical examples. Kuhn's book is largely a work of historical scholarship about scientific change. The philosophical objection concerns the logical implication of incommensurability for rational theory choice, not the adequacy of the historical record.",
+        "B": "Kuhn's account is actually pessimistic about scientists' immediate recognition of anomalies — he argues they initially explain anomalies away and resist paradigm change. The critics' concern is not about anomaly recognition but about rational criteria for choosing between paradigms once a crisis has arisen.",
+        "C": "Kuhn does not ignore experimental evidence — he acknowledges that evidence plays a role but argues it is always theory-laden and interpreted through the paradigm's framework. The critics' concern is specifically about the implications of incommensurability for rational choice, not about whether Kuhn acknowledges experimental evidence at all.",
+        "D": "Correct. The critics' charge targets the logical consequence of incommensurability: if two paradigms cannot communicate across their incompatible frameworks (they use different concepts, see different problems as important, define accuracy differently), then any criteria used to choose between them will be internal to one paradigm or the other — there is no paradigm-neutral standpoint from which to adjudicate. This would make theory choice a matter of social, psychological, or generational factors rather than rational evaluation, rendering 'progress' an arbitrary or sociological phenomenon."
+      },
+      "topic": "Critics' Argument / Incommensurability",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_natsci_004",
+      "stem": "Kuhn's concession that paradigms can be compared on 'accuracy, simplicity, and fertility' was intended to:",
+      "choices": [
+        {
+          "text": "prove that the accumulation model of science is correct after all",
+          "label": "A"
+        },
+        {
+          "text": "show that paradigm shifts occur randomly and without any rational basis",
+          "label": "B"
+        },
+        {
+          "text": "respond to the charge of arbitrariness by providing criteria for inter-paradigm comparison, while leaving open the question of whether these criteria are themselves paradigm-neutral",
+          "label": "C"
+        },
+        {
+          "text": "demonstrate that Ptolemy's model was simpler than Copernicus's",
+          "label": "D"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Conceding that paradigms can be compared on certain criteria does not vindicate the accumulation model. The accumulation model holds that science progresses by steadily adding true facts. Kuhn's model, even with criteria for comparison, still involves revolutionary restructurings rather than steady accumulation. The concession softens the arbitrariness charge without rehabilitating the accumulation model.",
+        "B": "The concession is specifically designed to show that paradigm choice is not purely arbitrary — criteria like accuracy and simplicity provide some rational basis for comparison. Kuhn's later work moves away from the stronger relativist implications of his earlier argument.",
+        "C": "Correct. By offering criteria (accuracy, simplicity, fertility), Kuhn responded to critics who accused him of leaving theory choice irrational. However, the passage notes that 'whether these criteria are themselves neutral, or are shaped by the paradigms they are supposed to evaluate, remains a matter of philosophical dispute.' The concession provides partial rational grounding for paradigm comparison while acknowledging the unresolved philosophical question of whether these criteria transcend the paradigms that use them.",
+        "D": "The passage does not compare the simplicity of Ptolemaic and Copernican models — in fact, the Ptolemaic model became increasingly complex as epicycles were added, while the Copernican model was initially not simpler in practice. The passage mentions accuracy, simplicity, and fertility as abstract criteria, not as applied to this specific case."
+      },
+      "topic": "Kuhn's Response / Evaluation Criteria",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_natsci_005",
+      "stem": "The author's overall stance toward Kuhn's account of scientific change is best described as:",
+      "choices": [
+        {
+          "text": "fully endorsing Kuhn's view and dismissing the critics' objections as misguided",
+          "label": "A"
+        },
+        {
+          "text": "strongly rejecting Kuhn's account in favor of the traditional accumulation model",
+          "label": "B"
+        },
+        {
+          "text": "critically engaged — presenting Kuhn's central contribution while accurately representing both the critics' objection and the unresolved philosophical question it raises",
+          "label": "C"
+        },
+        {
+          "text": "indifferent to the debate, presenting it as too technical for general readers",
+          "label": "D"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The author does not dismiss the critics. The passage gives substantive voice to the arbitrariness charge and notes that the question of whether evaluation criteria are paradigm-neutral 'remains a matter of philosophical dispute' — suggesting genuine unresolved tension rather than a settled debate in Kuhn's favor.",
+        "B": "The author describes the accumulation model as a 'comfortable image' disrupted by Kuhn, and presents Kuhn's arguments with evident seriousness and depth. The passage does not rehabilitate the accumulation model or suggest that the critics have fully refuted Kuhn.",
+        "C": "Correct. The author presents Kuhn's main contribution (paradigm shifts as gestalt switches rather than rational accumulation) with clarity and the astronomy example to illustrate it, then gives the critics' response (arbitrariness from incommensurability), then Kuhn's reply (evaluation criteria), and finally the remaining philosophical dispute. This structure is critically engaged — taking the argument seriously at each step without resolving it in favor of one side.",
+        "D": "The passage is clearly written for readers who can engage with philosophical argument — it uses technical terms (incommensurable, gestalt switch, paradigm) without excessive simplification. The author is involved in the debate, not indifferent to it."
+      },
+      "topic": "Author's Stance",
+      "difficulty": "Easy",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_natsci_006",
+      "stem": "The author's purpose in describing Watson and Crick's 'celebrated understatement' is primarily to:",
+      "choices": [
+        {
+          "text": "criticize Watson and Crick for failing to fully explain the implications of their discovery",
+          "label": "A"
+        },
+        {
+          "text": "demonstrate that Watson and Crick were unaware of reverse transcriptase",
+          "label": "B"
+        },
+        {
+          "text": "argue that the double helix structure was less important than the central dogma it implied",
+          "label": "C"
+        },
+        {
+          "text": "establish the historical moment when the central dogma's implications were first recognized, while noting the characteristic scientific modesty with which the claim was made",
+          "label": "D"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The author calls the understatement 'celebrated' and 'perhaps the most celebrated in scientific literature,' conveying admiration rather than criticism. The author's tone toward Watson and Crick's formulation is appreciative — the understatement is a rhetorical virtue, not a flaw.",
+        "B": "Watson and Crick published in 1953; reverse transcriptase was discovered in 1970. There is no suggestion in the passage that Watson and Crick were unaware of something not yet discovered. The passage is not about gaps in their knowledge but about the introduction of a key concept.",
+        "C": "The passage treats the double helix structure and the central dogma it implied as related achievements of equal importance, not as competitors. The author does not claim one was less significant than the other — the discovery of the structure provided the physical basis for the informational principle.",
+        "D": "Correct. The opening anecdote serves two functions: it anchors the central dogma's origin in a specific historical moment (the 1953 paper) and characterizes the way the insight was introduced — with notable understatement ('it has not escaped our notice') rather than triumphant declaration. The author uses this to introduce the central dogma as the passage's organizing concept before tracing its complications."
+      },
+      "topic": "Rhetorical Function / Opening Anecdote",
+      "difficulty": "Easy",
+      "usePrevPassage": false,
+      "passage": "When James Watson and Francis Crick published the double helix structure of DNA in 1953, they closed their landmark paper with what has become perhaps the most celebrated understatement in scientific literature: it has not escaped our notice that the specific pairing we have postulated immediately suggests a possible copying mechanism for the genetic material. The remark pointed, with deliberate modesty, to what would become the central dogma of molecular biology: the principle that biological information flows from DNA to RNA to protein, a pathway so fundamental that virtually all of cellular life depends on its operation.\n\nThe dogma provided molecular biology with an organizing framework of extraordinary power. It explained how genetic information is stored, how it is transmitted from one generation to the next, and how it is expressed as the proteins that carry out the work of living cells. For a generation of biologists, the central dogma was not merely a hypothesis but the conceptual architecture within which all molecular questions were framed.\n\nYet the history of the central dogma is also a history of complications that tested the framework's boundaries without collapsing it. Reverse transcriptase, discovered independently by David Baltimore and Howard Temin in 1970, demonstrated that RNA can be copied back into DNA, apparently violating the dogma's directional principle. The discovery forced a clarification: Francis Crick himself pointed out that his original formulation had not excluded RNA-to-DNA information transfer; it had only excluded the possibility of direct protein-to-nucleic-acid information transfer, which would have been a far more radical violation. The dogma, properly understood, was more permissive than its popular summary suggested.\n\nThe discovery of prions — misfolded proteins capable of inducing conformational changes in normally folded proteins without any nucleic acid intermediary — further complicated the picture, challenging the assumption that heritable biological information must be encoded in nucleotide sequence. Prions propagate structural information from protein to protein, a form of inheritance that the central dogma's original vocabulary was not designed to describe.\n\nWhat makes the central dogma enduring, despite these complications, is not its absolute correctness but its utility as an organizing framework. Most of what happens in most cells most of the time follows the DNA-to-RNA-to-protein pathway, and the dogma's predictive power for understanding normal cellular function remains enormous. The complications are real and biologically important, but they are exceptions that define the rule's scope — each one illuminating, by contrast, how thoroughly the standard pathway dominates biological information flow in the natural world."
+    },
+    {
+      "id": "cars_natsci_007",
+      "stem": "The discovery of reverse transcriptase is presented in the passage as:",
+      "choices": [
+        {
+          "text": "a complete refutation of the central dogma that rendered it scientifically useless",
+          "label": "A"
+        },
+        {
+          "text": "an apparent violation that required clarification of Crick's original formulation, rather than abandonment of the central dogma",
+          "label": "B"
+        },
+        {
+          "text": "proof that information can flow directly from proteins to DNA",
+          "label": "C"
+        },
+        {
+          "text": "irrelevant to the central dogma because reverse transcriptase only occurs in viruses",
+          "label": "D"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The author explicitly argues the opposite: the central dogma retains 'enormous' predictive power despite complications. Reverse transcriptase is described as a complication and exception, not as a refutation that destroys the dogma's utility. The author's framework is 'exceptions that define the rule,' not 'refutation that eliminates the rule.'",
+        "B": "Correct. The passage states that Crick clarified his original formulation 'had not excluded RNA-to-DNA transfer — it had only excluded direct protein-to-nucleic acid information transfer.' Reverse transcriptase therefore represents an 'apparent violation' that required conceptual clarification of what the dogma actually claimed, rather than a genuine falsification requiring abandonment of the dogma. RNA-to-DNA information flow was not what Crick had excluded; protein-to-nucleic-acid flow was.",
+        "C": "Protein-to-DNA information transfer is what the central dogma does exclude (and still does). Reverse transcriptase demonstrates RNA-to-DNA transfer, which Crick's clarified formulation did not exclude. Prions challenge the idea that nucleic acid sequence is the only heritable information, but the passage does not attribute protein-to-DNA information flow to reverse transcriptase.",
+        "D": "The passage does not describe reverse transcriptase as irrelevant or as solely occurring in viruses (though it was initially characterized in retroviruses). The passage presents the discovery as genuinely complicating the picture and requiring Crick's clarification — not as a peripheral detail."
+      },
+      "topic": "Reverse Transcriptase / Conceptual Clarification",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_natsci_008",
+      "stem": "The author's claim that the central dogma's complications are 'exceptions that define the rule' implies that:",
+      "choices": [
+        {
+          "text": "the central dogma is incorrect and should be replaced with a model that encompasses all exceptions",
+          "label": "A"
+        },
+        {
+          "text": "prions and reverse transcriptase are more important than the standard pathway for understanding cell biology",
+          "label": "B"
+        },
+        {
+          "text": "the existence of exceptions clarifies the rule's scope and highlights the predominance of the standard pathway, rather than undermining the dogma's usefulness",
+          "label": "C"
+        },
+        {
+          "text": "no further exceptions to the central dogma will be discovered",
+          "label": "D"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The author explicitly argues that the central dogma's 'predictive power for normal cellular function remains enormous' and that it is useful precisely because 'most of what happens in most cells most of the time follows the DNA → RNA → protein pathway.' Replacing it would discard a powerful organizing framework.",
+        "B": "The author presents the exceptions (reverse transcriptase, prions) as 'real and biologically important' but explicitly subordinates them: 'they are exceptions that define the rule.' The standard pathway is the dominant phenomenon; the exceptions are illuminating precisely because they are departures from the norm.",
+        "C": "Correct. 'Exceptions that define the rule' is a logical claim: the existence of known exceptions specifies the boundaries of the rule's application. Each exception (RNA → DNA via reverse transcriptase, protein misfolding information in prions) clarifies what the dogma does and does not cover. Rather than weakening the central dogma, the exceptions illuminate 'how thoroughly the standard pathway dominates biological information flow' — they are contrast cases that sharpen rather than erase the rule.",
+        "D": "The author makes no claim about the future discovery of exceptions. Scientific knowledge is always open to revision, and the author's framework ('exceptions that define the rule') would be consistent with additional exceptions being discovered without undermining the central dogma's utility."
+      },
+      "topic": "Inference / Exceptions and Rules",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_natsci_009",
+      "stem": "Which of the following would most strengthen the author's argument that the central dogma remains a useful framework despite its complications?",
+      "choices": [
+        {
+          "text": "Evidence that prions are found in all living organisms, suggesting protein-to-protein information transfer is the primary mode of inheritance",
+          "label": "A"
+        },
+        {
+          "text": "Evidence that the vast majority of gene expression across thousands of sequenced genomes follows the DNA → RNA → protein pathway, with reverse transcriptase-dependent events representing a small fraction",
+          "label": "B"
+        },
+        {
+          "text": "Evidence that Crick originally intended to exclude RNA-to-DNA transfer in his formulation of the central dogma",
+          "label": "C"
+        },
+        {
+          "text": "Evidence that Watson and Crick were aware of prions when they published their 1953 paper",
+          "label": "D"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "If prions were found in all organisms and protein-to-protein transfer were the primary mode of inheritance, this would suggest the exception is actually the dominant phenomenon — fundamentally undermining the author's claim that DNA → RNA → protein is the standard pathway. This evidence would weaken, not strengthen, the argument.",
+        "B": "Correct. The author's case for the central dogma's utility rests on the empirical claim that 'most of what happens in most cells most of the time' follows the standard pathway. Genome-wide evidence confirming that the vast majority of gene expression across diverse organisms follows this pathway would directly substantiate the 'most of the time' claim, while confirming that reverse transcriptase events are exceptions rather than the rule. This is the kind of quantitative support that would most directly strengthen the argument.",
+        "C": "Whether Crick intended to exclude RNA-to-DNA transfer is a historical question about his original intentions — the passage already addresses this. Even if Crick did intend to exclude it, this would be a clarification of his formulation, not evidence that the central dogma is a useful framework for cell biology. The author's argument about utility depends on empirical prevalence, not on Crick's original intentions.",
+        "D": "Watson and Crick published in 1953; prions were not characterized until the 1980s by Stanley Prusiner. The suggestion that they were aware of prions is historically implausible, and even if true, their awareness of prions would not constitute evidence for the central dogma's current utility."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_natsci_010",
+      "stem": "Both passages in this section deal with scientific frameworks. The view of scientific frameworks shared by both authors is most accurately described as:",
+      "choices": [
+        {
+          "text": "scientific frameworks are permanently correct once established and should not be revised",
+          "label": "A"
+        },
+        {
+          "text": "scientific frameworks are useful even when they have known limitations, because they organize understanding and generate productive inquiry — their value lies in utility and scope, not in perfect correctness",
+          "label": "B"
+        },
+        {
+          "text": "scientific frameworks are arbitrary social constructs with no connection to empirical reality",
+          "label": "C"
+        },
+        {
+          "text": "the primary purpose of scientific frameworks is to prevent anomalies from being recognized",
+          "label": "D"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Neither author defends the permanence of scientific frameworks. Kuhn's entire argument is that paradigms are eventually replaced through revolutions. The second passage acknowledges that the central dogma has 'complications' and exceptions. Both authors recognize frameworks as revisable.",
+        "B": "Correct. Both passages argue that scientific frameworks retain value despite known limitations. Kuhn's later work concedes that paradigms can be compared on criteria like accuracy and fertility — they are not merely arbitrary. The second author explicitly argues that the central dogma's 'predictive power for normal cellular function remains enormous' despite complications, because it organizes understanding of what happens 'most of the time.' Both authors distinguish between utility (does the framework organize productive inquiry?) and perfect correctness (does it have zero exceptions?). Utility, not infallibility, is the standard.",
+        "C": "Neither author defends pure social constructivism. Kuhn's critics charged him with this implication, but his later concessions about evaluation criteria represent a rejection of pure arbitrariness. The second author explicitly treats the central dogma as empirically grounded — its utility depends on what actually happens in cells.",
+        "D": "Kuhn argues that paradigms cause scientists to explain anomalies away initially, but the purpose of a paradigm is not to prevent recognition of anomalies — it is to enable normal science to proceed productively. The second passage treats the central dogma's exceptions as recognized and important, not suppressed."
+      },
+      "topic": "Cross-Passage Synthesis / Framework Utility",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    }
+  ],
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "batch": "B176",
+  "section": "cars",
+  "sectionName": "Critical Analysis and Reasoning Skills",
+  "topicArea": "Artistic Genius and Originality / Cultural Artifact Repatriation",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "B176_Q0",
+      "passage": "The concept of artistic genius, as it developed in the Romantic era, rested on a set of assumptions that most art historians now regard as mythological. The genius was imagined as a solitary creator whose work sprang from an inner wellspring uncontaminated by influence or convention. Originality, on this account, was not merely a desirable quality but the defining mark of authentic art: a work was great precisely to the extent that it owed nothing to what came before.\n\nSocial historians of art have dismantled this picture with considerable thoroughness. Every so-called original breakthrough, they have shown, was embedded in networks of apprenticeship, patronage, workshop collaboration, and material constraint. Caravaggio's dramatic chiaroscuro did not spring fully formed from solitary meditation; it drew on northern European printmaking, theatrical stagecraft, and the specific properties of oil paint on coarsely woven canvas. To strip away these conditions and attribute the result to genius is not merely inaccurate but actively distorting: it mystifies what is in fact a comprehensible process of creative labor within a social and material context.\n\nYet the most perceptive critics in this revisionist tradition acknowledge that something resists complete sociological reduction. The same workshops, the same patrons, and roughly the same materials were available to hundreds of painters, yet only a few produced work that their contemporaries recognized as exceptional. The social conditions were necessary but manifestly not sufficient. A fully adequate account of artistic creation would need to explain this differential without resorting either to the mystifications of genius or to the flattening claim that context determines everything.\n\nOne promising direction treats originality not as creation from nothing but as a distinctive mode of recombination. On this view, the artist's achievement lies in perceiving unexpected connections among existing elements—techniques, motifs, genres, materials—and synthesizing them into configurations that could not have been predicted from the elements alone. This shifts the emphasis from the artist's interior life to the work itself: the question is not where the idea came from but what the finished object does that nothing before it did. The genius mystique is replaced by an account that is both more honest about the social embeddedness of creation and more precise about what distinguishes extraordinary work from competent execution.",
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": false,
+      "stem": "The main argument of the passage is that:",
+      "choices": {
+        "A": "neither the Romantic concept of solitary genius nor a purely sociological account adequately explains artistic originality, and a more satisfactory framework would treat originality as a distinctive mode of recombination within social and material contexts",
+        "B": "the Romantic concept of genius remains the most accurate framework for understanding artistic creation because social context cannot account for individual differences in quality",
+        "C": "social historians have conclusively demonstrated that originality is an illusion and that all art is fully determined by material and institutional conditions",
+        "D": "artistic greatness is primarily the product of patronage networks and workshop training, making the individual artist's contribution negligible"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The passage moves through three stages: it presents the Romantic genius myth, describes its sociological critique, and then notes the insufficiency of both extremes. The final paragraph proposes recombination as an alternative framework that preserves the reality of exceptional individual achievement while acknowledging social embeddedness. This synthetic position—rejecting both mystification and reductive determinism—is the passage's central argument.",
+        "B": "The passage explicitly describes the Romantic genius concept as mythological and credits social historians with dismantling it with considerable thoroughness. While the passage notes limits to sociological reduction, it does not rehabilitate the Romantic framework; it proposes a third alternative that replaces the genius mystique with a more precise account.",
+        "C": "The passage specifically rejects the claim that social context is sufficient to explain artistic outcomes. Paragraph three argues that identical conditions produced wildly different results, meaning context was necessary but not sufficient. The passage treats the flattening claim that context determines everything as one extreme to be avoided, not as its conclusion.",
+        "D": "While the passage emphasizes the importance of patronage and workshops, it explicitly argues that these conditions were necessary but manifestly not sufficient. The passage devotes its final two paragraphs to arguing that individual artists do something distinctive that cannot be reduced to institutional context, making the individual contribution far from negligible."
+      },
+      "topic": "Main argument identification",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B176_Q1",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The author's discussion of Caravaggio in paragraph 2 primarily serves to:",
+      "choices": {
+        "A": "celebrate Caravaggio as the greatest example of Romantic artistic genius",
+        "B": "argue that Caravaggio's techniques were entirely derivative and unoriginal",
+        "C": "provide a concrete example illustrating the social historians' claim that apparently original breakthroughs were embedded in networks of influence and material practice",
+        "D": "demonstrate that oil painting technology was the sole determinant of artistic quality in the Baroque period"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The Caravaggio example appears in the paragraph devoted to dismantling the genius myth, not celebrating it. The author uses Caravaggio to show how social and material factors contributed to his distinctive style, which is the opposite of attributing his achievement to solitary genius.",
+        "B": "The passage does not claim Caravaggio was derivative. It argues that his innovations drew on identifiable sources and conditions, which is different from being derivative. The final paragraph suggests that exceptional artists achieve a distinctive recombination of existing elements, implying that drawing on sources does not negate originality.",
+        "C": "The Caravaggio example illustrates the social historians' methodology: by tracing the specific influences and material conditions behind a seemingly unprecedented style, they show that creative achievement is embedded in a network of practices rather than springing from isolated inspiration. The example makes the abstract claim concrete by connecting chiaroscuro to specific sources (printmaking, theater, canvas texture).",
+        "D": "The passage lists oil paint as one of several factors, alongside northern printmaking and theatrical stagecraft. It does not single out any one factor as solely determinative. The broader argument is that multiple social and material conditions collectively shaped the work, not that any single technology was the sole cause."
+      },
+      "topic": "Rhetorical function of an example",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B176_Q2",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "Based on the passage, which of the following would the author most likely consider an example of the \"distinctive mode of recombination\" described in the final paragraph?",
+      "choices": {
+        "A": "A painter who perfectly replicates the techniques of an earlier master without modification",
+        "B": "A sculptor who works in total isolation without any exposure to prior art or artistic traditions",
+        "C": "A poet who publishes only autobiographical reflections without engaging with literary conventions",
+        "D": "A composer who synthesizes West African rhythmic patterns with European harmonic structures to create a form of music that neither tradition alone could have predicted"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Perfect replication without modification represents competent execution rather than originality. The passage's recombination model defines originality as perceiving unexpected connections and synthesizing existing elements into unpredictable configurations. Replication, by definition, produces a predictable result and does not involve novel synthesis.",
+        "B": "Working in total isolation is the Romantic genius model that the passage critiques. The recombination framework explicitly requires engagement with existing elements—techniques, motifs, materials—that are then recombined in distinctive ways. An artist with no exposure to prior traditions would have no existing elements to recombine.",
+        "C": "Publishing autobiographical reflections without engaging literary conventions locates originality in personal experience rather than in the work itself. The passage specifically shifts emphasis from the artist's interior life to the work itself and asks what the finished object does that nothing before it did, which requires engagement with existing artistic elements.",
+        "D": "This example embodies the passage's definition precisely: existing elements from two distinct traditions are synthesized into a configuration that could not have been predicted from the elements alone. The result is socially embedded (drawing on identifiable sources) yet genuinely novel (producing something neither tradition contained), which is exactly the balance the recombination model aims to capture."
+      },
+      "topic": "Application of passage concepts",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B176_Q3",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The phrase \"necessary but manifestly not sufficient\" in paragraph 3 indicates that the author believes social conditions:",
+      "choices": {
+        "A": "are irrelevant to artistic creation and can be safely disregarded",
+        "B": "must be present for exceptional art to be produced, but alone cannot explain why only some artists working under those conditions produce exceptional work",
+        "C": "are the only factors needed to explain artistic quality, making individual talent irrelevant",
+        "D": "become less important as an artist matures and develops a personal style"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Calling social conditions necessary directly contradicts calling them irrelevant. A necessary condition is one that must be present for an outcome to occur. The passage treats social context as indispensable, just not as the complete explanation.",
+        "B": "In logic, a necessary condition must be present for the outcome, but its presence alone does not guarantee the outcome. The author applies this precisely: identical social conditions produced both extraordinary and ordinary art, proving that something beyond context is needed. The phrase captures the middle position between the genius myth (which ignores context) and sociological reductionism (which treats context as the whole explanation).",
+        "C": "If social conditions were sufficient, then everyone working under the same conditions would produce the same quality of art. The passage argues against this by pointing out that only a few artists produced exceptional work despite sharing conditions with hundreds of others. Sufficiency is exactly what the passage denies.",
+        "D": "The passage does not discuss the trajectory of individual artistic development or suggest that social conditions matter more at early stages. The distinction between necessary and sufficient is a logical point about explanation, not a developmental claim about artistic careers."
+      },
+      "topic": "Interpretation of a key phrase",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B176_Q4",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following claims, if true, would most directly challenge the recombination model of originality proposed in the final paragraph?",
+      "choices": {
+        "A": "Neuroscientific research demonstrates that exceptional artists exhibit patterns of neural connectivity not found in other individuals exposed to identical artistic training, suggesting that originality depends on a biologically unique perceptual apparatus rather than on how existing elements are combined",
+        "B": "Art market prices for works attributed to famous artists are consistently higher than prices for identical works attributed to unknown artists",
+        "C": "Many artists report that their most original ideas came to them during periods of social isolation",
+        "D": "Workshop-produced art from the Renaissance was often indistinguishable in quality from art attributed to individual masters"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The recombination model locates originality in a distinctive mode of perceiving connections among existing elements, implying that the process is in principle accessible to analysis through the work itself. If neuroscience showed that originality depends on a biologically unique perceptual apparatus, this would reintroduce a version of the innate genius concept—relocating the mystery from the Romantic soul to the brain—and would suggest that recombination is itself determined by an unteachable biological endowment, undermining the model's claim to offer a more precise and less mystifying account.",
+        "B": "Market price differentials reflect attribution and reputation effects, not the nature of artistic creation itself. The recombination model is a theory about how originality works, not about how art is valued commercially. Price data does not address whether originality consists of novel recombination of existing elements.",
+        "C": "Reports of ideas arising during isolation do not challenge the recombination model, because the model's claim is about the sources of the elements being recombined, not about the social setting in which the recombination occurs. An artist can combine influences absorbed during earlier periods of engagement even while working alone.",
+        "D": "This finding would support the social historians' argument that context matters more than individual identity, which the passage already acknowledges. It does not challenge the recombination model specifically, because the model is designed to explain what distinguishes exceptional work from competent workshop production, not to deny that workshops could produce high-quality art."
+      },
+      "topic": "Challenging an argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "B176_Q5",
+      "passage": "The question of whether cultural artifacts should be returned to their countries of origin has become one of the most contentious issues in international cultural policy. On one side stand institutions that describe themselves as encyclopedic or universal museums, which argue that their collections serve a cosmopolitan educational mission that transcends national boundaries. A Greek vase displayed in a northern European museum, on this view, makes ancient Mediterranean culture accessible to audiences who could never travel to Athens and enriches cross-cultural understanding in ways that a collection confined to its country of origin cannot.\n\nCritics of this position counter that the cosmopolitan argument conceals a history of appropriation. Many of the objects in universal collections were acquired under conditions that ranged from dubious to overtly coercive: wartime looting, colonial extraction, purchases from intermediaries who had no legitimate authority to sell. To invoke educational mission as a justification for retaining these objects is, in the critics' view, to launder the circumstances of acquisition under the cover of high-minded principle. The educational value of a stolen object does not nullify the wrong of its theft.\n\nA third position seeks to move beyond the binary of retention and return. Advocates of this view propose long-term loan agreements, joint stewardship arrangements, and collaborative exhibition programs that distribute both physical access and interpretive authority. Under such arrangements, an artifact might spend rotating periods in its country of origin and in the borrowing institution, while both parties share curatorial responsibility and exhibition revenue. These models have been tried in limited cases with some success, though critics note that they still leave ultimate ownership unresolved—a deliberate ambiguity that favors the institution currently in possession.\n\nWhat complicates the debate further is that the concept of a legitimate country of origin is itself historically constructed. The modern nation-state that claims an artifact may bear little political or cultural continuity with the civilization that produced it. The borders, languages, and ethnic compositions of most countries have shifted dramatically over centuries. Insisting on return to a present-day state may impose a nationalist framework on objects that predate the very idea of the nation. Yet this observation cuts both ways: if national identity is contingent, then so is the universal museum's claim to represent a neutral, supranational perspective. Every institution, including the cosmopolitan one, is situated within a particular political and economic context that shapes what it collects, how it displays, and whom it serves.",
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": false,
+      "stem": "The author's treatment of the universal museum argument is best described as:",
+      "choices": {
+        "A": "wholly endorsing its cosmopolitan educational mission as the strongest justification for retaining cultural artifacts",
+        "B": "acknowledging its stated rationale while exposing the historical circumstances and political positioning that undercut its claim to neutrality",
+        "C": "dismissing it entirely as a transparent rationalization for colonial theft",
+        "D": "engaging each position critically, acknowledging the museum's stated rationale while identifying limitations in both the cosmopolitan claim and the repatriation argument"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The passage presents the universal museum argument but then introduces two layers of critique: the critics' charge that it conceals appropriation (paragraph 2), and the final paragraph's observation that the universal museum is itself situated within a particular political context. This dual critique prevents the passage from reading as an endorsement.",
+        "B": "This answer captures part of the passage's approach—the author does acknowledge the museum's rationale and raise critiques of it. However, it describes the author as focused primarily on undermining the museum's position. The passage applies the same critical scrutiny to the repatriation argument (questioning the concept of country of origin in paragraph 4), making the author's approach even-handed rather than one-sidedly directed at the museum's claim to neutrality.",
+        "C": "The passage does not dismiss the universal museum argument entirely. It presents it fairly in paragraph 1, and while paragraph 2 raises the appropriation critique, the passage does not adopt this critique as its own conclusion. The final paragraph's even-handed treatment of both positions indicates a more nuanced approach than dismissal.",
+        "D": "The passage presents multiple positions—universal museum, repatriation advocates, loan compromise, and historical-constructivist critique—and raises complications for each without definitively siding with any. The author acknowledges the museum's cosmopolitan rationale (paragraph 1), presents the appropriation critique (paragraph 2), describes and critiques the compromise model (paragraph 3), and then complicates the repatriation claim by questioning the concept of country of origin (paragraph 4). This even-handed critical engagement with all sides characterizes the passage's overall approach."
+      },
+      "topic": "Author's treatment of an argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "B176_Q6",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The observation that \"the concept of a legitimate country of origin is itself historically constructed\" (paragraph 4) functions in the passage to:",
+      "choices": {
+        "A": "support the universal museum's claim that artifacts belong to all of humanity rather than to any single nation",
+        "B": "argue that repatriation claims should be evaluated based solely on the current geopolitical situation",
+        "C": "complicate the repatriation argument by questioning whether modern nation-states are the appropriate recipients of artifacts that predate those states, while also noting that this objection applies equally to the museum's claim of neutrality",
+        "D": "definitively resolve the debate by showing that neither side has a legitimate claim to contested artifacts"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "While the observation might initially seem to support the universal museum, the passage immediately turns the same logic against the museum: if national identity is contingent, so is the museum's claim to a neutral, supranational perspective. The observation is used to complicate both sides, not to support one.",
+        "B": "The passage does not argue for evaluating claims based on current geopolitics. The point is that both historical and present-day frameworks for assigning ownership are problematic, which is a deeper philosophical observation than a recommendation about evaluation criteria.",
+        "C": "The passage explicitly states that the observation cuts both ways. It problematizes repatriation by questioning the continuity between modern states and ancient civilizations, but it also problematizes the universal museum by noting that every institution is situated in a particular political and economic context. This double-edged function adds complexity to both positions rather than resolving the debate in favor of either.",
+        "D": "The passage does not claim to resolve the debate. It describes the observation as something that complicates the debate further, suggesting ongoing difficulty rather than resolution. The passage's overall posture is one of analytical complication, not decisive adjudication."
+      },
+      "topic": "Function of a claim within an argument",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B176_Q7",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "Based on the passage, which of the following scenarios would most directly illustrate the concern raised by critics of the loan-agreement model described in paragraph 3?",
+      "choices": {
+        "A": "A museum signs a renewable five-year loan with a source country but retains legal title to the artifact, giving the museum the power to terminate the agreement at any time",
+        "B": "Two institutions collaborate on a joint exhibition that travels to multiple countries and shares revenue equally",
+        "C": "A source country voluntarily agrees to permanently lend an artifact to a foreign museum in exchange for financial support for its national museum system",
+        "D": "An international treaty establishes a binding arbitration process for resolving disputed artifact ownership claims"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "The critics' specific concern is that loan arrangements leave ultimate ownership unresolved in a way that favors the institution currently in possession. A renewable loan where the museum retains legal title exemplifies this precisely: the artifact circulates, creating an appearance of shared stewardship, but the power to end the arrangement remains with the possessing institution, preserving the underlying asymmetry that critics object to.",
+        "B": "A joint exhibition with equal revenue sharing represents the collaborative ideal that the loan model's advocates envision. This scenario does not illustrate the critics' concern about unresolved ownership; it shows the model working as intended.",
+        "C": "A voluntary permanent loan with financial compensation represents a negotiated exchange, which is different from the critics' concern about deliberate ambiguity. If the arrangement is genuinely voluntary and involves compensation, it may address rather than exemplify the power imbalance the critics identify.",
+        "D": "A binding arbitration process would directly resolve the ownership question, which is exactly what the critics say the loan model fails to do. An arbitration treaty addresses the gap the critics identify rather than illustrating it."
+      },
+      "topic": "Application of a critique to a scenario",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B176_Q8",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The phrase \"launder the circumstances of acquisition\" (paragraph 2) most nearly means:",
+      "choices": {
+        "A": "investigate and publicly document the provenance of each artifact in the collection",
+        "B": "use an appealing justification to obscure the morally problematic means by which the objects were obtained",
+        "C": "physically restore artifacts that have been damaged during transport or storage",
+        "D": "return artifacts to their countries of origin in exchange for diplomatic concessions"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Laundering implies concealment, not transparency. Investigating and documenting provenance would be the opposite of laundering—it would expose rather than obscure the circumstances of acquisition. The critics' point is that invoking educational mission covers up problematic origins, not that it reveals them.",
+        "B": "The metaphor of laundering draws on its financial sense: making something obtained through illegitimate means appear legitimate. The critics argue that the universal museum's educational rationale functions to disguise the coercive, extractive, or otherwise problematic conditions under which artifacts were acquired. The high-minded principle of cosmopolitan education serves as a cover story that legitimizes retention of improperly obtained objects.",
+        "C": "Physical restoration has no connection to the metaphor of laundering. The passage is discussing the rhetorical and ethical dimensions of how museums justify their collections, not the physical condition of the objects.",
+        "D": "The passage does not describe artifact return in exchange for diplomatic concessions. The laundering metaphor refers to the process of making dubious acquisitions appear legitimate through appeals to educational mission, not to any form of exchange or negotiation."
+      },
+      "topic": "Interpretation of figurative language",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "B176_Q9",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The final sentence of the passage—\"Every institution, including the cosmopolitan one, is situated within a particular political and economic context that shapes what it collects, how it displays, and whom it serves\"—most strongly implies that:",
+      "choices": {
+        "A": "universal museums should be abolished because they cannot transcend their political contexts",
+        "B": "only government-run museums in artifacts' countries of origin can provide legitimate cultural stewardship",
+        "C": "the educational quality of a museum collection is determined entirely by the economic resources available to it",
+        "D": "the universal museum's claim to represent a neutral, supranational perspective is undermined by the fact that it is itself a product of specific historical and political circumstances"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The sentence does not call for abolition. It makes an epistemological point—that no institution can occupy a view from nowhere—not a policy recommendation. The passage's overall approach is to complicate the debate, not to propose institutional destruction.",
+        "B": "The passage does not privilege government-run museums in source countries. The final paragraph problematizes the concept of country of origin itself, undermining the assumption that source-country institutions have an automatic claim to legitimacy. The sentence applies its critique to all institutions, not selectively.",
+        "C": "The sentence identifies political and economic context as shaping factors, but it does not claim that economic resources entirely determine educational quality. The point is about situatedness and perspective, not about resource allocation.",
+        "D": "The sentence directly targets the universal museum's claim to neutrality by arguing that it, like all institutions, is embedded in a particular political and economic context. If collection, display, and audience are shaped by context, then the museum's self-presentation as a neutral custodian of universal human culture is challenged by its own contingent circumstances. This is the passage's final critical move against the cosmopolitan argument."
+      },
+      "topic": "Inference from author's reasoning",
+      "difficulty": "Medium"
+    }
+  ]
+}

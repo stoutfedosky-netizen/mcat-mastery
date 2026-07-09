@@ -1,0 +1,336 @@
+{
+  "batch": "B032",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Sensing the Environment",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_sense_001",
+      "passage": "A neuroscientist studies the human visual system. Light enters the eye through the cornea and lens, which focus it onto the retina at the back of the eye. The retina contains two types of photoreceptors: rods (sensitive to low light levels, providing scotopic vision) and cones (responsible for color vision and high-acuity photopic vision). The fovea, a small central region of the retina, contains the highest density of cones and no rods.",
+      "stem": "A person trying to see a faint star at night would be better served by looking slightly to the side of the star rather than directly at it because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cones are more sensitive to dim light than rods"
+        },
+        {
+          "label": "B",
+          "text": "the peripheral retina has higher visual acuity than the fovea"
+        },
+        {
+          "label": "C",
+          "text": "looking directly at the star causes the cornea to block the incoming light"
+        },
+        {
+          "label": "D",
+          "text": "the fovea contains only cones, which require higher light intensity to activate, while the peripheral retina contains rods that are more sensitive to dim light"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Rods are more sensitive to dim light than cones \u2014 this is reversed. Cones require higher light intensity (photopic conditions) to function.",
+        "B": "The fovea has the highest visual acuity, not the periphery. Acuity depends on cone density and the 1:1 ratio of foveal cones to retinal ganglion cells. Peripheral vision has lower acuity but greater light sensitivity due to rod convergence.",
+        "C": "The cornea is transparent and does not block incoming light regardless of gaze direction. It is the primary refractive surface of the eye.",
+        "D": "Rods are approximately 100\u00d7 more sensitive to light than cones because they contain more photopigment (rhodopsin) and have greater signal amplification in their phototransduction cascade. The fovea contains only cones (optimized for daytime acuity and color), so directly fixating a faint star projects its image onto cones that cannot detect the dim photons. Looking slightly off-axis projects the star's image onto the peripheral retina, where rods are abundant and can detect the faint light. This technique is called 'averted vision' and is well-known to astronomers."
+      },
+      "topic": "Rods vs Cones / Scotopic Vision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sense_002",
+      "passage": null,
+      "passageRef": "ps_sense_001",
+      "stem": "Color vision is mediated by three types of cone photoreceptors, each maximally sensitive to a different range of wavelengths. This model of color vision is known as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Opponent-process theory, which proposes three opposing color channels (red-green, blue-yellow, black-white)"
+        },
+        {
+          "label": "B",
+          "text": "Feature detection theory, which proposes that specialized cortical neurons detect specific colors"
+        },
+        {
+          "label": "C",
+          "text": "Place theory, which proposes that different locations on the retina encode different colors"
+        },
+        {
+          "label": "D",
+          "text": "Trichromatic (Young-Helmholtz) theory, which proposes that color perception arises from the relative activation of three cone types (short/blue, medium/green, long/red wavelength-sensitive)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Opponent-process theory (Hering) describes color processing at a higher level \u2014 retinal ganglion cells and lateral geniculate nucleus neurons that respond in opposing pairs (red vs. green, blue vs. yellow, black vs. white). This theory complements trichromatic theory but describes a different stage of processing. The question asks about the three types of cone photoreceptors, which is the trichromatic theory.",
+        "B": "Feature detection (Hubel & Wiesel) describes cortical neurons that respond to specific visual features (edges, orientations, movement). While color processing does involve specialized cortical areas (V4), the three-cone-type model at the photoreceptor level is trichromatic theory.",
+        "C": "Place theory refers to pitch perception in the auditory system (frequency-to-location mapping on the basilar membrane), not color vision.",
+        "D": "The trichromatic (Young-Helmholtz) theory proposes that color perception at the photoreceptor level is based on three types of cones: S-cones (short wavelength, ~420 nm peak, 'blue'), M-cones (medium wavelength, ~530 nm peak, 'green'), and L-cones (long wavelength, ~560 nm peak, 'red'). Any color can be perceived by the brain as a unique ratio of activation across these three cone types. Color blindness results from the absence or dysfunction of one or more cone types."
+      },
+      "topic": "Trichromatic Theory / Color Vision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sense_003",
+      "passage": null,
+      "stem": "Sound waves enter the ear canal and cause the tympanic membrane (eardrum) to vibrate. These vibrations are transmitted through three small bones (ossicles) in the middle ear to the oval window of the cochlea. The ossicles amplify sound by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "concentrating the force from the larger tympanic membrane onto the smaller oval window, increasing pressure, and leveraging the mechanical advantage of the ossicular chain"
+        },
+        {
+          "label": "B",
+          "text": "generating new sound waves at a different frequency than the original"
+        },
+        {
+          "label": "C",
+          "text": "filtering out high-frequency sounds before they reach the inner ear"
+        },
+        {
+          "label": "D",
+          "text": "converting sound waves into electrical signals that travel directly to the brain"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The ossicles amplify sound through two main mechanisms: (1) area ratio \u2014 the tympanic membrane (~55 mm\u00b2) is much larger than the oval window (~3.2 mm\u00b2), so the same force is concentrated onto a smaller area, increasing pressure by approximately 17\u00d7; (2) lever action \u2014 the ossicular chain acts as a lever system providing ~1.3\u00d7 mechanical advantage. Combined, these mechanisms produce approximately 22\u00d7 pressure amplification, which is essential for efficient transmission of sound energy from the air-filled middle ear to the fluid-filled cochlea (impedance matching).",
+        "B": "The ossicles transmit the same frequencies as the incoming sound \u2014 they do not generate new frequencies or change pitch. They amplify the pressure without altering the frequency composition of the signal.",
+        "C": "The ossicles do not selectively filter frequencies. They transmit a wide range of frequencies to the cochlea. Frequency discrimination occurs in the cochlea via the tonotopic organization of the basilar membrane.",
+        "D": "The ossicles are mechanical structures (malleus, incus, stapes) that transmit vibrations. They do not convert sound to electrical signals \u2014 that transduction occurs in the cochlea's hair cells. The ossicles are a mechanical amplifier, not a transducer."
+      },
+      "topic": "Middle Ear Ossicles / Sound Amplification",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sense_004",
+      "passage": null,
+      "stem": "Within the cochlea, the basilar membrane vibrates in response to sound. Different frequencies cause maximum vibration at different positions along the membrane. High-frequency sounds cause maximum vibration near the base (oval window end), while low-frequency sounds cause maximum vibration near the apex. This frequency-to-location mapping is described by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Frequency theory, which proposes that the entire basilar membrane vibrates at the frequency of the incoming sound"
+        },
+        {
+          "label": "B",
+          "text": "Volley theory, which proposes that groups of neurons fire in alternation to encode high frequencies"
+        },
+        {
+          "label": "C",
+          "text": "Gate control theory, which proposes that neural gates in the spinal cord modulate pain signals"
+        },
+        {
+          "label": "D",
+          "text": "Place theory, which proposes that the perception of pitch corresponds to the location of maximum vibration on the basilar membrane"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Frequency theory (Rutherford) proposes that the basilar membrane vibrates as a whole at the frequency of the sound, with the rate of neural firing matching the sound frequency. This works for low frequencies (<500 Hz) but cannot explain high-frequency perception because neurons cannot fire faster than ~1000 Hz. The question describes frequency-specific locations, which is place theory.",
+        "B": "Volley theory (Wever) extends frequency theory by proposing that groups of neurons take turns firing to represent frequencies above an individual neuron's maximum firing rate. While volley theory does contribute to pitch perception at moderate frequencies (500-5000 Hz), the question specifically describes the tonotopic mapping of frequency to location \u2014 which is place theory.",
+        "C": "Gate control theory (Melzack & Wall) describes pain modulation in the spinal cord, not pitch perception. It is unrelated to auditory processing.",
+        "D": "Place theory (Helmholtz/von B\u00e9k\u00e9sy) proposes that different positions on the basilar membrane respond maximally to different frequencies due to the membrane's varying width and stiffness (narrow and stiff at the base \u2192 high frequencies; wide and flexible at the apex \u2192 low frequencies). Hair cells at each location transduce the mechanical vibration into neural signals, and the brain interprets pitch based on which hair cells are activated. This tonotopic organization is maintained through the auditory pathway to the auditory cortex."
+      },
+      "topic": "Place Theory / Tonotopic Organization",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sense_005",
+      "passage": null,
+      "stem": "Somatosensory receptors in the skin detect touch, pressure, temperature, and pain. Free nerve endings that respond to potentially damaging stimuli (extreme heat, intense pressure, chemical irritants) and transmit pain signals are called:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Meissner's corpuscles, which detect light touch and texture"
+        },
+        {
+          "label": "B",
+          "text": "Pacinian corpuscles, which detect deep pressure and vibration"
+        },
+        {
+          "label": "C",
+          "text": "Nociceptors, which are unencapsulated free nerve endings that detect noxious (potentially tissue-damaging) stimuli"
+        },
+        {
+          "label": "D",
+          "text": "Merkel cells, which detect sustained pressure and fine spatial detail"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Meissner's corpuscles are encapsulated mechanoreceptors in the dermal papillae of glabrous (hairless) skin. They detect light touch, texture discrimination, and low-frequency vibration. They adapt rapidly and are not pain receptors.",
+        "B": "Pacinian corpuscles are large, encapsulated mechanoreceptors deep in the dermis and subcutaneous tissue. They detect deep pressure and high-frequency vibration, adapting very rapidly. They do not transmit pain signals.",
+        "C": "Nociceptors are free nerve endings (no specialized receptor capsule) found throughout the body in skin, muscle, joints, and viscera. They respond to stimuli that threaten tissue damage: extreme temperatures (>43\u00b0C or <15\u00b0C), intense mechanical force, and chemical irritants (bradykinin, prostaglandins, substance P). Pain signals travel via two fiber types: fast, sharp pain via myelinated A\u03b4 fibers, and slow, dull/burning pain via unmyelinated C fibers. Nociceptors can be sensitized by inflammation (hyperalgesia).",
+        "D": "Merkel cells (Merkel disc receptors) are slowly adapting mechanoreceptors that detect sustained pressure and fine spatial detail (texture, edges, Braille). They are found in the basal epidermis and provide high-resolution tactile information, not pain."
+      },
+      "topic": "Nociceptors / Pain Reception",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sense_006",
+      "passage": null,
+      "stem": "The vestibular system in the inner ear detects head position and movement. The semicircular canals detect:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "linear acceleration and gravity (translational movement)"
+        },
+        {
+          "label": "B",
+          "text": "rotational acceleration (angular movement of the head) through deflection of the cupula by endolymph flow"
+        },
+        {
+          "label": "C",
+          "text": "sound frequency and pitch"
+        },
+        {
+          "label": "D",
+          "text": "changes in barometric pressure"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Linear acceleration and gravity are detected by the otolith organs (utricle and saccule), not the semicircular canals. The otolith organs contain calcium carbonate crystals (otoconia) on a gelatinous membrane that shifts with gravity and linear acceleration, bending stereocilia on hair cells.",
+        "B": "The three semicircular canals (anterior, posterior, lateral) are oriented in three perpendicular planes, detecting rotational acceleration in any direction. When the head rotates, the bony canal moves but the endolymph fluid inside initially lags behind (inertia). This relative motion deflects the cupula (a gelatinous structure in the ampulla of each canal), bending the embedded hair cell stereocilia and generating neural signals. The brain integrates signals from all three canals to determine the axis and magnitude of rotation.",
+        "C": "Sound detection occurs in the cochlea via the organ of Corti, not in the semicircular canals. The vestibular and auditory systems share the inner ear but have distinct structures and functions.",
+        "D": "Barometric pressure changes are not detected by the vestibular system. The vestibular system detects head movement and position relative to gravity."
+      },
+      "topic": "Semicircular Canals / Rotational Acceleration",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sense_007",
+      "passage": null,
+      "stem": "Signal transduction in sensory systems converts physical stimuli into neural signals. In vision, the phototransduction cascade in rod cells involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "light activating rhodopsin, which activates transducin (a G-protein), which activates phosphodiesterase (PDE), which decreases cGMP levels, causing Na\u207a channels to close and the cell to hyperpolarize"
+        },
+        {
+          "label": "B",
+          "text": "light directly opening Na\u207a channels in the rod cell membrane, causing depolarization"
+        },
+        {
+          "label": "C",
+          "text": "light causing the rod cell to release more neurotransmitter (glutamate) onto bipolar cells"
+        },
+        {
+          "label": "D",
+          "text": "light activating voltage-gated Ca\u00b2\u207a channels that trigger action potentials in rod cells"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Phototransduction in rods: (1) Light photon isomerizes 11-cis retinal to all-trans retinal within rhodopsin, activating it. (2) Activated rhodopsin activates transducin (a G\u03b1 protein). (3) Transducin activates phosphodiesterase (PDE). (4) PDE hydrolyzes cGMP to GMP, reducing intracellular [cGMP]. (5) cGMP-gated Na\u207a channels close (they require cGMP to stay open). (6) Reduced Na\u207a influx hyperpolarizes the rod cell. (7) Hyperpolarization reduces glutamate release from the rod's synaptic terminal. Counterintuitively, light causes hyperpolarization and decreased neurotransmitter release \u2014 the opposite of most sensory receptors.",
+        "B": "Light causes Na\u207a channels to close, not open, in rod cells. In darkness, Na\u207a channels are held open by cGMP (the 'dark current'). Light reduces cGMP, closing the channels and hyperpolarizing the cell. This is the opposite of the expected response.",
+        "C": "Light decreases glutamate release, not increases it. In darkness, rods are relatively depolarized and tonically release glutamate. Light hyperpolarizes the cell, reducing glutamate release. This inverted signaling is a unique feature of photoreceptor biology.",
+        "D": "Rod cells do not fire action potentials. They are graded potential neurons that modulate neurotransmitter release through graded changes in membrane potential. Action potentials in the visual pathway first appear in retinal ganglion cells."
+      },
+      "topic": "Phototransduction / Rod Cell Signaling",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_sense_008",
+      "passage": null,
+      "stem": "Weber's law states that the just noticeable difference (JND) between two stimuli is proportional to the magnitude of the original stimulus. A practical implication of this law is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a 1-pound weight added to a 10-pound load is just as noticeable as a 1-pound weight added to a 100-pound load"
+        },
+        {
+          "label": "B",
+          "text": "detecting a small change in a loud sound requires a proportionally larger absolute change than detecting the same relative change in a quiet sound"
+        },
+        {
+          "label": "C",
+          "text": "all sensory systems have the same Weber fraction"
+        },
+        {
+          "label": "D",
+          "text": "sensory adaptation does not occur because the JND remains constant regardless of stimulus intensity"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Weber's law predicts the opposite. The JND is proportional to the baseline stimulus: \u0394I/I = k. For weight discrimination, if k \u2248 0.02, a 10-pound load requires ~0.2 pounds to detect a difference, while a 100-pound load requires ~2 pounds. The same 1-pound addition would be easily detected at 10 pounds but barely noticeable at 100 pounds.",
+        "B": "Weber's law (\u0394I/I = k, where k is the Weber fraction) means that detecting a change requires a proportionally larger absolute change when the baseline stimulus is stronger. For example, if the Weber fraction for loudness is ~0.10, then from a baseline sound intensity of 100 units you need an increase of 10 units to notice a difference, but from a baseline of 1000 units you need an increase of 100 units. The relative change (10%) stays constant, but the absolute change scales with the baseline. This is why you can easily hear someone whisper in a quiet room but need them to shout to be heard at a concert \u2014 the same absolute increase in sound energy is noticeable in one context and imperceptible in the other.",
+        "C": "Different sensory modalities have different Weber fractions. Weight discrimination has a Weber fraction of ~0.02 (very sensitive), brightness ~0.08, and taste ~0.20 (least sensitive). The fractions reflect differences in sensory system precision.",
+        "D": "Weber's law describes the relationship between stimulus magnitude and JND, not sensory adaptation. Sensory adaptation (decreased sensitivity during prolonged stimulation) is a separate phenomenon."
+      },
+      "topic": "Weber's Law / Just Noticeable Difference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sense_009",
+      "passage": null,
+      "stem": "Sensory adaptation refers to the decreased sensitivity of a sensory system to a constant, unchanging stimulus. An example of sensory adaptation is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "jumping at a sudden loud noise because it is unexpected"
+        },
+        {
+          "label": "B",
+          "text": "being unable to hear a whispered conversation in a noisy room"
+        },
+        {
+          "label": "C",
+          "text": "no longer noticing the smell of your own home after being inside for several minutes, despite visitors immediately noticing the scent"
+        },
+        {
+          "label": "D",
+          "text": "seeing more clearly after getting new prescription glasses"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Jumping at a sudden noise is a startle reflex, not sensory adaptation. It is a response to a novel stimulus, not decreased sensitivity to a constant one.",
+        "B": "Difficulty hearing a whisper in noise is masking \u2014 the louder stimulus interferes with detection of the quieter one. This is a perceptual limitation, not adaptation to a constant stimulus.",
+        "C": "Olfactory adaptation is a classic example: olfactory receptor neurons decrease their firing rate during prolonged exposure to the same odorant. The scent has not changed, but your sensory system has reduced its response. Visitors notice the smell because their olfactory receptors have not adapted to it. This adaptation allows the sensory system to focus on changes in the environment rather than constant background stimuli.",
+        "D": "Improved vision with corrective lenses is a change in sensory input (better-focused images on the retina), not a change in the sensory system's sensitivity to a constant stimulus."
+      },
+      "topic": "Sensory Adaptation / Olfaction",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sense_010",
+      "passage": null,
+      "stem": "The gate control theory of pain proposes that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "pain signals are transmitted directly from nociceptors to the brain without any modulation"
+        },
+        {
+          "label": "B",
+          "text": "the spinal cord contains neural 'gates' that can modulate pain signals \u2014 non-painful input (touch, pressure via large A\u03b2 fibers) can close the gate and reduce pain perception, while nociceptive input (via small C and A\u03b4 fibers) opens the gate"
+        },
+        {
+          "label": "C",
+          "text": "pain is entirely psychological and has no physiological basis"
+        },
+        {
+          "label": "D",
+          "text": "all pain signals are processed exclusively in the thalamus without cortical involvement"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Pain signals are extensively modulated before reaching the brain. The dorsal horn of the spinal cord is a major site of modulation, where descending signals from the brain and local interneuron activity can amplify or suppress pain transmission. Direct, unmodulated transmission is an oversimplification.",
+        "B": "Melzack and Wall's gate control theory (1965) proposes that neurons in the substantia gelatinosa of the spinal cord dorsal horn act as a 'gate' that modulates pain signal transmission to the brain. Large-diameter A\u03b2 fibers (carrying touch and pressure information) activate inhibitory interneurons that 'close the gate,' reducing pain signal transmission. Small-diameter C and A\u03b4 fibers (carrying pain) 'open the gate.' This explains why rubbing an injury can reduce pain \u2014 the A\u03b2 fiber activation closes the gate on nociceptive signals. Descending signals from the brain (endorphins, serotonin) also modulate the gate.",
+        "C": "Pain has well-established physiological mechanisms: nociceptors, pain-specific neural pathways (spinothalamic tract), and brain regions involved in pain processing (somatosensory cortex, anterior cingulate, insula). Psychological factors modulate pain perception but do not replace its physiological basis.",
+        "D": "Pain signals reach the thalamus (relay station) but are then projected to multiple cortical areas: primary somatosensory cortex (localization), anterior cingulate cortex (emotional/affective component), and insular cortex (interoception). Pain processing involves distributed cortical networks, not just the thalamus."
+      },
+      "topic": "Gate Control Theory / Pain Modulation",
+      "difficulty": "Medium"
+    }
+  ]
+}

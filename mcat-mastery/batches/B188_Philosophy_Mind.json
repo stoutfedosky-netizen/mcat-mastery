@@ -1,0 +1,335 @@
+{
+  "batch": "B188",
+  "section": "cars",
+  "sectionName": "Critical Analysis and Reasoning Skills",
+  "topicArea": "Philosophy of Mind & Consciousness",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 3,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cars_mind_001",
+      "passage": "The debate over consciousness has long divided philosophers into two broad camps. On one side stand the physicalists, who maintain that mental states are nothing more than brain states — that the subjective experience of seeing red or tasting coffee is fully accounted for by patterns of neural activity. On the other side are those who insist that subjective experience, what philosophers call qualia, resists reduction to any physical description. Thomas Nagel famously argued that even a complete neuroscience of bat echolocation would fail to capture what it is like to be a bat. The argument does not deny that bats have brains or that their brains process sonar signals; rather, it claims that the first-person character of experience constitutes a category that third-person science cannot, in principle, fully explain.\n\nDavid Chalmers sharpened this intuition with his conceivability argument: we can coherently conceive of a being physically identical to a conscious person yet entirely lacking inner experience — a philosophical zombie. If such a scenario is conceivable, Chalmers argues, then consciousness is not logically entailed by physical facts alone. Critics respond that conceivability does not guarantee possibility; we can conceive of water that is not H₂O, yet this is metaphysically impossible. Daniel Dennett goes further, arguing that the very notion of qualia rests on a confusion. What we call subjective experience, Dennett contends, is an artifact of the way the brain narrates its own processes to itself — a series of judgments about internal states rather than a separate ontological category. On this view, once every functional and behavioral fact about a person is accounted for, there is nothing left over that requires explanation.",
+      "stem": "The passage characterizes Nagel's bat argument as making which specific claim about the limits of science?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Neuroscience cannot study bat brains because bat echolocation is too different from human perception"
+        },
+        {
+          "label": "B",
+          "text": "A complete physical account of bat echolocation would still not capture the first-person character of the bat's experience"
+        },
+        {
+          "label": "C",
+          "text": "Bats are not conscious because their perceptual systems lack the complexity required for subjective experience"
+        },
+        {
+          "label": "D",
+          "text": "Only organisms with language can have subjective experiences that science could potentially describe"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage explicitly states that Nagel's argument 'does not deny that bats have brains or that their brains process sonar signals.' He accepts that neuroscience can study bat neurology — his point is that this third-person study cannot capture the first-person experiential quality of what it is like to be a bat.",
+        "B": "Correct. The passage states that Nagel argued 'even a complete neuroscience of bat echolocation would fail to capture what it is like to be a bat.' The key claim is not that science is unable to study bats, but that third-person scientific description cannot, in principle, fully explain the first-person character of experience. This is a claim about a categorical gap between objective description and subjective experience.",
+        "C": "The passage presents Nagel as arguing that bats do have subjective experience ('what it is like to be a bat' presupposes there is something it is like). His point is precisely that we cannot access this experience through science, not that it does not exist.",
+        "D": "The passage makes no connection between language and consciousness in Nagel's argument. The bat example was chosen specifically because bats have a radically different perceptual modality (echolocation), not because they lack language."
+      },
+      "topic": "Author's characterization of a philosophical argument",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cars_mind_002",
+      "usePrevPassage": true,
+      "stem": "Based on the passage, Chalmers' conceivability argument and the critics' water analogy differ primarily on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "whether philosophical zombies could actually exist in the physical world"
+        },
+        {
+          "label": "B",
+          "text": "whether conceivability is a reliable guide to what is genuinely possible"
+        },
+        {
+          "label": "C",
+          "text": "whether water is composed of hydrogen and oxygen atoms"
+        },
+        {
+          "label": "D",
+          "text": "whether consciousness can be studied using neuroimaging technology"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While this is related to the debate, the passage frames the disagreement more precisely as a dispute about the inference from conceivability to possibility. Chalmers uses conceivability to argue that consciousness is not entailed by physical facts; critics challenge the inferential step itself rather than directly claiming zombies are physically possible or impossible.",
+        "B": "Correct. The passage states that Chalmers argues: if philosophical zombies are conceivable, consciousness is not logically entailed by physical facts. Critics respond that 'conceivability does not guarantee possibility' — we can conceive of water that is not H₂O, yet this is metaphysically impossible. The core disagreement is about whether conceiving of something coherently establishes that it is genuinely possible. Chalmers relies on this inference; critics deny it.",
+        "C": "The water example is used as an analogy to challenge the conceivability-to-possibility inference, not to dispute chemistry. Both sides accept that water is H₂O; the critics' point is that we can conceive of it being otherwise even though it is not metaphysically possible, showing that conceivability can mislead.",
+        "D": "Neuroimaging is discussed in the second passage but is not part of the Chalmers-critics exchange in the first passage. Their disagreement concerns the logical relationship between conceivability and possibility, not empirical methodology."
+      },
+      "topic": "Identifying the crux of a philosophical disagreement",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cars_mind_003",
+      "usePrevPassage": true,
+      "stem": "Dennett's position, as described in the passage, is best characterized as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "agreeing with Nagel that qualia exist but arguing they can be captured by neuroscience"
+        },
+        {
+          "label": "B",
+          "text": "maintaining that subjective experience is a genuine phenomenon that transcends physical explanation"
+        },
+        {
+          "label": "C",
+          "text": "denying that qualia constitute a separate ontological category and treating them as cognitive judgments about brain processes"
+        },
+        {
+          "label": "D",
+          "text": "remaining agnostic about the existence of consciousness while focusing on behavioral evidence"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Dennett does not agree that qualia exist as traditionally defined. The passage says he argues 'the very notion of qualia rests on a confusion.' He rejects the concept rather than accepting it and claiming science can capture it.",
+        "B": "This describes the anti-physicalist position (Nagel/Chalmers), not Dennett's. The passage explicitly contrasts Dennett's view with theirs — he argues that once functional and behavioral facts are accounted for, 'there is nothing left over that requires explanation.'",
+        "C": "Correct. The passage states that Dennett argues subjective experience is 'an artifact of the way the brain narrates its own processes to itself — a series of judgments about internal states rather than a separate ontological category.' He eliminates qualia as a distinct explanatory target by reinterpreting them as cognitive operations. This is an eliminativist or deflationary position about consciousness.",
+        "D": "The passage does not present Dennett as agnostic. He takes a strong position: once functional facts are accounted for, nothing remains unexplained. This is a definite commitment, not a suspension of judgment."
+      },
+      "topic": "Characterizing a philosopher's argumentative position",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cars_mind_004",
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most strengthen the critics' response to Chalmers' conceivability argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A study showing that most people find the concept of philosophical zombies incoherent upon reflection"
+        },
+        {
+          "label": "B",
+          "text": "A proof that any logically conceivable scenario must be physically possible in some possible world"
+        },
+        {
+          "label": "C",
+          "text": "Evidence that consciousness correlates with specific neural patterns in all tested species"
+        },
+        {
+          "label": "D",
+          "text": "A demonstration that what seems conceivable often reflects limited understanding rather than genuine logical possibility"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This would challenge whether zombies are truly conceivable, which is a different objection from the one the critics make. The critics in the passage accept the conceivability of zombies (for argument's sake) but deny that conceivability entails possibility. A survey about intuitions doesn't address the logical gap between conceivability and possibility.",
+        "B": "This would actually strengthen Chalmers' argument, not the critics'. If conceivability guaranteed possibility, then conceivable zombies would be genuinely possible, supporting Chalmers' conclusion that consciousness is not entailed by physical facts. The critics need to deny this inference, not affirm it.",
+        "C": "Empirical correlations between consciousness and neural patterns are consistent with physicalism but do not address the logical issue at the heart of the conceivability debate. Chalmers could accept all such correlations while maintaining that the correlation is contingent rather than necessary — which is precisely his point about zombies.",
+        "D": "Correct. The critics argue that conceivability does not guarantee possibility (using the water/H₂O example). A demonstration that apparent conceivability often reflects cognitive limitations rather than genuine logical possibility would directly support their claim that the inference from 'I can conceive of zombies' to 'zombies are possible' is unreliable. This would undermine the very step on which Chalmers' argument depends."
+      },
+      "topic": "Identifying evidence that strengthens an argument",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cars_mind_005",
+      "usePrevPassage": true,
+      "stem": "The passage uses the phrase 'a separate ontological category' in reference to qualia. In context, 'ontological' most nearly means:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "relating to the fundamental nature of what exists or what kind of thing something is"
+        },
+        {
+          "label": "B",
+          "text": "relating to the study of knowledge and how beliefs are justified"
+        },
+        {
+          "label": "C",
+          "text": "relating to moral obligations and ethical duties"
+        },
+        {
+          "label": "D",
+          "text": "relating to the logical structure of valid arguments"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In philosophy, ontology concerns the nature of being and existence — what kinds of things exist and how they relate to each other. When the passage describes qualia as a 'separate ontological category,' it means qualia would constitute a fundamentally different kind of thing from physical processes. Dennett's denial that qualia form a separate ontological category means he rejects the claim that subjective experiences exist as a distinct type of entity beyond physical brain processes.",
+        "B": "This describes epistemology, the study of knowledge, justification, and belief. While epistemological questions (how do we know about consciousness?) are related, 'ontological category' specifically concerns what kind of thing qualia are, not how we come to know about them.",
+        "C": "This describes ethics or deontology. The passage discusses consciousness and the nature of experience, not moral duties or obligations. 'Ontological' concerns existence and being, not moral requirements.",
+        "D": "This describes logic or formal reasoning. While the passage discusses logical conceivability, the term 'ontological category' specifically addresses what kinds of things exist, not the structure of arguments about them."
+      },
+      "topic": "Vocabulary in context — philosophical terminology",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cars_mind_006",
+      "passage": "The clinical relevance of this debate became acute with advances in neuroimaging. In 2006, Adrian Owen's group reported that a patient diagnosed as being in a vegetative state could modulate brain activity in response to verbal commands — imagining playing tennis activated motor cortex in patterns indistinguishable from those of healthy volunteers. Subsequent studies identified a minority of behaviorally unresponsive patients who could answer yes-or-no questions via fMRI, raising the question of whether they possess conscious experience that their damaged motor systems cannot express.\n\nSkeptics caution that neural activity matching conscious patterns does not prove consciousness: automatic, unconscious processing might produce identical activation maps. The philosophical zombie argument cuts both ways here — if a physical duplicate could lack consciousness, then matching brain scans cannot guarantee its presence. Proponents counter that this skepticism, if taken seriously, applies equally to other minds generally; we never have direct access to anyone else's consciousness, yet we do not typically doubt it. The pragmatic upshot is that neuroimaging evidence, while not philosophically decisive, may warrant reclassifying certain patients and altering their care.",
+      "stem": "The Owen study's finding is significant primarily because it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "proved conclusively that all vegetative-state patients are conscious"
+        },
+        {
+          "label": "B",
+          "text": "established that fMRI is more accurate than clinical examination for diagnosing all neurological conditions"
+        },
+        {
+          "label": "C",
+          "text": "invalidated the physicalist account of consciousness by showing brain activity without behavior"
+        },
+        {
+          "label": "D",
+          "text": "demonstrated that some behaviorally unresponsive patients may have preserved cognitive function undetectable by standard clinical assessment"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage states that 'subsequent studies identified a minority of behaviorally unresponsive patients' who could modulate brain activity — not all. The finding applies to some patients, not universally. The passage also notes that skeptics raise legitimate objections about whether matching neural activity proves consciousness.",
+        "B": "The passage discusses one specific clinical context (vegetative-state assessment), not all neurological conditions. It also notes limitations ('neural activity matching conscious patterns does not prove consciousness'), indicating fMRI is not presented as universally superior to clinical examination.",
+        "C": "The passage does not present the Owen finding as invalidating physicalism. Both physicalists and anti-physicalists could accommodate the finding — physicalists would say the brain activity constitutes the consciousness, while anti-physicalists might question whether brain activity guarantees conscious experience (the zombie argument 'cuts both ways').",
+        "D": "Correct. The passage describes how the Owen study 'reported that a patient diagnosed as being in a vegetative state could modulate brain activity in response to verbal commands.' The significance is that standard clinical assessment (which relies on behavioral responses) may miss preserved cognitive function in patients whose motor systems are too damaged to produce observable behavior. This challenges the diagnostic category and may warrant changes in patient care."
+      },
+      "topic": "Understanding the significance of empirical findings",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cars_mind_007",
+      "usePrevPassage": true,
+      "stem": "The passage states that the philosophical zombie argument 'cuts both ways' in the clinical context. This means:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the argument supports both diagnosing consciousness from brain scans and doubting such diagnoses"
+        },
+        {
+          "label": "B",
+          "text": "the argument applies equally to patients and to healthy controls"
+        },
+        {
+          "label": "C",
+          "text": "the argument is logically contradictory and therefore invalid"
+        },
+        {
+          "label": "D",
+          "text": "the argument supports only the skeptics' position against neuroimaging-based diagnosis"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage explains that if a physical duplicate could lack consciousness (the zombie argument), then matching brain scans cannot guarantee consciousness in unresponsive patients. However, proponents note that this same skepticism 'applies equally to other minds generally' — we never have direct access to anyone's consciousness. The argument thus works against neuroimaging-based diagnosis (brain scans don't prove consciousness) but also against extreme skepticism about it (if we apply that standard consistently, we'd doubt everyone's consciousness). It 'cuts both ways' because it can support either side depending on how consistently one applies it.",
+        "B": "While the passage mentions that the skepticism applies to 'other minds generally,' the phrase 'cuts both ways' specifically refers to the argument's ability to support both sides of the clinical debate, not merely to its applicability to different populations.",
+        "C": "The passage does not suggest the argument is contradictory. Rather, it suggests the argument has implications that work for both sides of the debate, making it a double-edged sword rather than a decisive argument for either position.",
+        "D": "The passage explicitly shows the argument supporting both sides: skeptics use it to doubt consciousness in unresponsive patients, but proponents use the same logic to show that such skepticism, applied consistently, would undermine our ordinary ascription of consciousness to anyone."
+      },
+      "topic": "Interpreting figurative language in argumentation",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cars_mind_008",
+      "usePrevPassage": true,
+      "stem": "Which of the following best captures the 'pragmatic upshot' the passage attributes to neuroimaging evidence?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Neuroimaging resolves the philosophical debate about consciousness definitively"
+        },
+        {
+          "label": "B",
+          "text": "Neuroimaging evidence should be ignored because it cannot philosophically prove consciousness"
+        },
+        {
+          "label": "C",
+          "text": "Neuroimaging may justify clinical reclassification and care changes even though it does not philosophically prove consciousness"
+        },
+        {
+          "label": "D",
+          "text": "Neuroimaging proves that all vegetative-state patients should be immediately reclassified as conscious"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage explicitly states that neuroimaging evidence is 'not philosophically decisive,' ruling out a definitive resolution. The pragmatic upshot is specifically distinguished from a philosophical resolution — it concerns practical clinical action despite theoretical uncertainty.",
+        "B": "The passage explicitly argues the opposite — that neuroimaging evidence 'may warrant reclassifying certain patients and altering their care.' The pragmatic upshot is that the evidence matters clinically even if it is philosophically inconclusive.",
+        "C": "Correct. The passage concludes that 'neuroimaging evidence, while not philosophically decisive, may warrant reclassifying certain patients and altering their care.' This captures the pragmatic (practical, action-guiding) upshot: the evidence justifies clinical changes even though it does not resolve the philosophical question of whether matching brain activity guarantees consciousness. This is a middle-ground position between certainty and dismissal.",
+        "D": "The passage specifies 'certain patients' (a minority who show command-following brain activity), not all vegetative-state patients. The pragmatic upshot is moderate and qualified, not a sweeping universal reclassification."
+      },
+      "topic": "Identifying the author's conclusion",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cars_mind_009",
+      "usePrevPassage": true,
+      "stem": "The proponents' response to the skeptics — that doubting neuroimaging evidence would require doubting all other minds — employs which reasoning strategy?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Arguing from analogy by comparing unresponsive patients to a fundamentally different category of beings"
+        },
+        {
+          "label": "B",
+          "text": "Circular reasoning that assumes consciousness exists in order to prove it exists"
+        },
+        {
+          "label": "C",
+          "text": "Appeal to authority by citing established clinical guidelines"
+        },
+        {
+          "label": "D",
+          "text": "Reductio ad absurdum — showing that the skeptics' reasoning, applied consistently, leads to an unacceptable conclusion"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The proponents are not comparing patients to a different category; rather, they are pointing out that the same epistemic limitation (no direct access to another's consciousness) applies to all minds, including those we ordinarily accept as conscious. This is not an analogy between different categories but a demonstration of logical consistency within one epistemic framework.",
+        "B": "The proponents do not assume consciousness to prove it. They argue that the skeptics' standard of evidence, if applied consistently, would undermine beliefs we all hold (that other people are conscious). This is a critique of the standard, not a circular assumption about consciousness.",
+        "C": "The passage does not mention clinical guidelines or appeal to authoritative sources. The proponents' argument is philosophical, not institutional.",
+        "D": "Correct. The proponents show that if we apply the skeptics' standard (brain scans cannot prove consciousness) consistently, we would have to doubt the consciousness of all other people, since 'we never have direct access to anyone else's consciousness.' This consequence — universal doubt about other minds — is so extreme that it functions as a reductio: the skeptics' reasoning, if applied consistently, leads to an absurd conclusion that no one would accept, suggesting the reasoning is too demanding."
+      },
+      "topic": "Identifying rhetorical strategies",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cars_mind_010",
+      "usePrevPassage": true,
+      "stem": "Based on the passage as a whole, the author's stance toward the consciousness debate can best be described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "strongly favoring physicalism and dismissing all non-physical accounts of consciousness"
+        },
+        {
+          "label": "B",
+          "text": "strongly favoring anti-physicalism and arguing that consciousness can never be scientifically studied"
+        },
+        {
+          "label": "C",
+          "text": "presenting multiple perspectives without explicitly endorsing one, while suggesting practical implications of the evidence"
+        },
+        {
+          "label": "D",
+          "text": "arguing that the entire debate is meaningless because consciousness is a linguistic artifact"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The author presents physicalist views (Dennett) alongside anti-physicalist arguments (Nagel, Chalmers) without declaring either position correct. The passage gives substantive treatment to both sides, which is inconsistent with strongly favoring physicalism.",
+        "B": "The author does not endorse anti-physicalism. The passage presents Nagel and Chalmers' arguments but also gives voice to physicalist critiques. Additionally, the discussion of neuroimaging in the second passage suggests the author sees scientific evidence as relevant to the debate, not irrelevant.",
+        "C": "Correct. The passage presents physicalist (Dennett), anti-physicalist (Nagel, Chalmers), and middle-ground positions without the author explicitly siding with any camp. The concluding discussion of neuroimaging adopts a pragmatic tone — acknowledging philosophical irresolution while noting clinical implications. The phrase 'while not philosophically decisive, may warrant reclassifying certain patients' exemplifies this balanced, practically oriented stance.",
+        "D": "The passage presents the debate as substantive and consequential (particularly for patient care), not meaningless. While Dennett deflates the concept of qualia, the author does not endorse this as the final word and presents it alongside competing views."
+      },
+      "topic": "Identifying authorial stance and tone",
+      "difficulty": "medium"
+    }
+  ]
+}

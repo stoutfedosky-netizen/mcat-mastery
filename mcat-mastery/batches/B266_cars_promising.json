@@ -1,0 +1,246 @@
+{
+  "batch": "B266",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Promising, the Bindingness Puzzle & Words That Create Debts",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 1,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_promising_266_q0",
+      "passage": "Two children hook little fingers on a playground, and something changes that no instrument can detect. Before the gesture, tomorrow was open; after it, tomorrow contains a debt. The pinky-swear is the whole institution in miniature, and the institution is stranger than its familiarity lets on: with a few words, a creature made of breath and forgetfulness binds its future self, manufactures an obligation out of air, and hands another person a claim against a day that does not yet exist.\n\nThe strangeness sharpens under analysis. Saying I promise does not describe anything, the way saying it is raining does; the utterance performs the very act it names, and the performance somehow installs a duty. But what does the installing? One venerable answer points to the practice: promising is an institution with constitutive rules, like a game, and to utter the formula is to invoke the rules, which include the rule that promises are kept. Another points past the practice to the person: promising invites another to rely on you, and once she has built her plans on your word, betraying the reliance inflicts a concrete harm. On the first account the wrong of breach is rule-breaking; on the second it is injury.\n\nEach account, pressed, develops a limp. The reliance theory stumbles over the deathbed promise: a vow made to a dying friend, witnessed by no one, relied upon by no one who survives, still binds, and most people feel its force precisely when keeping it costs something and no one would ever know. Where there is no reliance to injure, the obligation persists, which the injury account cannot easily say. The practice theory, meanwhile, must explain why the institution's rules obligate someone who never agreed to the institution, and it wobbles before the promise made between strangers on a desert island, outside any ongoing practice, which seems to bind anyway. The obligation outruns both of its official explanations, which may be the most interesting fact about it.\n\nWhatever grounds the duty, its edges are well mapped. A promise extracted at knifepoint binds no one; the formula was uttered, but the conditions of its magic were absent. A promise to do wrong binds no one either, since the machinery of obligation cannot be used to license what was already forbidden. And the promisee holds the release: she, and only she, can waive the performance, which suggests that a promise is best understood as a transfer, the promisor hands over a claim on his future conduct, and the promisee owns the performance until she gives it back.\n\nThe institution scales up and hardens. Oaths, contracts, and treaties are promising dressed in procedure, and law added what the playground lacks: enforcement. But the addition changed the substance. A contract, in most legal systems, can be efficiently breached, broken and paid for, damages substituting for performance, and the substitution reveals the difference between the legal instrument and its moral ancestor. A promise proper asks for the doing, not the making-whole; the friend who pays you for missing your wedding has misunderstood what he owed, and the payment is a second injury wearing the costume of a remedy.\n\nThere remain the promises we make to ourselves, the resolutions, the private vows, and they expose the machinery's dependence on there being two parties. If promisor and promisee are the same person, the release clause swallows the bond: you can always let yourself off, and an obligation waivable at will by its own debtor is hardly an obligation at all. Yet self-promises plainly do something, people organize decades around them, and their force may be better described as identity than as duty: breaking one injures no promisee, but it erodes the self that was being built by the keeping.\n\nThe playground gesture, then, deserves its solemnity. A creature that can bind its future self is a different kind of creature: one that can be relied upon across time, planned around, built with. Promising is the small technology by which selves acquire continuity and strangers acquire partners, and its notorious fragility, breath against a whole uncertain future, is not a defect. A promise that could not be broken would not bind; it would merely happen. The obligation lives exactly in the freedom it survives.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The deathbed promise and the desert island case together prove that promissory obligation is an illusion sustained by nothing more than social convention."
+        },
+        {
+          "label": "B",
+          "text": "Promising creates genuine obligation that outruns its leading explanations, the technology by which selves gain continuity and strangers become partners."
+        },
+        {
+          "label": "C",
+          "text": "The reliance theory correctly explains promissory obligation, since inviting another to depend on one's word is what installs the duty."
+        },
+        {
+          "label": "D",
+          "text": "Legal contracts have improved on the moral promise by adding enforcement and the option of efficient breach with damages."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice draws the skeptical conclusion the third paragraph pointedly avoids. The hard cases show that the obligation outruns both official explanations, called the most interesting fact about it; an unexplained duty that persists in the counterexamples is presented as real, not illusory.",
+        "B": "Correct. The passage sets the puzzle, words installing a duty, tests the practice and reliance accounts against the deathbed and desert-island cases, maps the edges, coercion, wrongful content, the promisee's release, contrasts the promise proper with the payable contract, and concludes with the technology claim: continuity for selves, partnership for strangers, the obligation living in the freedom it survives.",
+        "C": "This choice crowns a theory the third paragraph disables. The deathbed promise binds where no surviving person relies, which the injury account cannot easily say; the passage leaves both theories limping rather than declaring reliance the winner.",
+        "D": "This choice reads the fifth paragraph's contrast backwards. Efficient breach is what reveals the difference between the legal instrument and its moral ancestor, and the friend who pays for missing the wedding commits a second injury; the addition changed the substance is diagnosis, not praise."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_promising_266_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the third paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "resolve the dispute between the two theories by showing that each covers the cases the other cannot."
+        },
+        {
+          "label": "B",
+          "text": "argue that deathbed promises should be made legally enforceable despite the absence of surviving witnesses to confirm them."
+        },
+        {
+          "label": "C",
+          "text": "press each account against a counterexample it cannot absorb, concluding that the obligation outruns both explanations."
+        },
+        {
+          "label": "D",
+          "text": "introduce the conditions, coercion and wrongful content, under which the promissory formula fails to bind."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice converts twin failures into a division of labor the paragraph never proposes. Each account develops a limp, and the conclusion is that the obligation outruns both, a residue neither theory captures, not a complementary settlement between them.",
+        "B": "This choice mistakes a thought experiment for a legal proposal. The deathbed promise tests whether obligation survives the absence of reliance; enforcement belongs to the fifth paragraph's contracts, and no legal recommendation appears anywhere in the passage.",
+        "C": "Correct. The paragraph administers the tests in sequence: the reliance theory stumbles over the deathbed vow, binding where no survivor relies, and the practice theory wobbles before the desert-island promise, binding outside any institution. The verdict follows: the obligation outruns both of its official explanations, which may be the most interesting fact about it.",
+        "D": "This choice assigns the paragraph the fourth paragraph's cartography. Knifepoint promises and promises to do wrong are the edges mapped afterward; the third paragraph's business is the two theories and their counterexamples."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_promising_266_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to the second paragraph, a proponent of the practice account would hold that the wrong of breaking a promise consists in:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "violating the constitutive rules of an institution that the promissory formula invokes."
+        },
+        {
+          "label": "B",
+          "text": "inflicting concrete harm on someone who built her plans upon the promisor's word."
+        },
+        {
+          "label": "C",
+          "text": "damaging the promisor's own reputation as a person whose word can be trusted."
+        },
+        {
+          "label": "D",
+          "text": "performing an utterance that describes the world falsely, like a mistaken weather report."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The second paragraph presents the practice account in exactly these terms: promising is an institution with constitutive rules, like a game, uttering the formula invokes the rules, which include the rule that promises are kept, and on this account the wrong of breach is rule-breaking.",
+        "B": "This choice states the rival theory. Concrete harm to someone who relied is the injury account's answer, explicitly contrasted with the practice view in the paragraph's closing sentence: rule-breaking on the first account, injury on the second.",
+        "C": "This choice imports a self-regarding cost the paragraph never mentions. Reputation appears nowhere in either account; the practice theory locates the wrong in the violated institution, not in the promisor's diminished credibility.",
+        "D": "This choice reverses the paragraph's opening distinction. Saying I promise does not describe anything, unlike saying it is raining; the utterance performs the act it names, so breach cannot be a false description, on either theory."
+      },
+      "topic": "Perspective Attribution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_promising_266_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The claim that the promisee owns the performance, in the fourth paragraph, most nearly means that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the promised act belongs to the promisee as a claim that only she can waive, having been transferred to her."
+        },
+        {
+          "label": "B",
+          "text": "the promisee is legally entitled to monetary damages if the promised performance never actually takes place."
+        },
+        {
+          "label": "C",
+          "text": "the promisee may compel the promisor to perform through whatever means prove necessary."
+        },
+        {
+          "label": "D",
+          "text": "promises are property that promisees may sell or assign to third parties at will."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The paragraph derives the ownership figure from the release: the promisee, and only she, can waive the performance, which suggests the promise is a transfer, the promisor handing over a claim on his future conduct that the promisee owns until she gives it back. Ownership names her exclusive power of release.",
+        "B": "This choice imports the fifth paragraph's legal machinery into a moral analysis that resists it. Damages are the contract's substitute for performance, and the passage insists the promise proper asks for the doing, not the making-whole; the ownership claim concerns waiver, not compensation.",
+        "C": "This choice converts a power of release into a power of enforcement. The promisee's distinctive authority is to let the promisor off; nothing in the paragraph licenses compulsion, which belongs, if anywhere, to the law's later additions.",
+        "D": "This choice extends the property metaphor past its work. The transfer runs from promisor to promisee, and the only transaction the paragraph derives from it is the give-back of release; assignment to third parties is nowhere contemplated and would sit oddly with the release being hers alone."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_promising_266_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A logistics firm's internal handbook instructs managers to treat delivery commitments as flexible, budgeting compensation payments for broken promises as an ordinary cost of doing business. Based on the fifth paragraph, the author would most likely say the firm has:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "correctly recognized that all promises, commercial or personal, are ultimately payable in damages."
+        },
+        {
+          "label": "B",
+          "text": "violated the constitutive rules of promising, which forbid budgeting for any possibility of breach."
+        },
+        {
+          "label": "C",
+          "text": "confused promises with resolutions, since a firm making commitments to itself may always waive them without wronging anyone."
+        },
+        {
+          "label": "D",
+          "text": "a defensible commercial posture that would misunderstand promises proper, where payment cannot substitute for the doing."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice generalizes the contract's logic to the whole institution, exactly the move the fifth paragraph blocks. Efficient breach reveals the difference between the legal instrument and its moral ancestor; the wedding example exists to show that some promises are not payable at all.",
+        "B": "This choice invents a rule and misapplies the practice account besides. The passage treats contract law as legitimately permitting efficient breach within its own domain; the objection arises only when payment is mistaken for what a promise proper asks, the doing itself.",
+        "C": "This choice reaches for the sixth paragraph's self-promise machinery, but the firm's commitments run to customers, genuine second parties who hold the release; nothing in the case involves a promisor and promisee who are the same person.",
+        "D": "Correct. The fifth paragraph grants contracts their own substance, breach and damages are how the legal instrument works, while marking the boundary: a promise proper asks for the performance, not the making-whole, and the friend who pays for missing the wedding delivers a second injury dressed as a remedy. The handbook is at home in commerce and toxic beyond it."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_promising_266_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the third paragraph's use of the deathbed promise against the reliance theory?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that deathbed promises are rare and that most promises are made between living parties who interact repeatedly."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that people who break deathbed promises rarely suffer any social penalty, since no witnesses survive."
+        },
+        {
+          "label": "C",
+          "text": "Studies finding the felt bindingness of deathbed vows disappears once people fully internalize that no survivor relied, force tracking imagined reliance."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that dying promisees typically extract promises precisely because they expect their wishes to be honored and obeyed long after their deaths."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice measures the counterexample's frequency, which is beside its function. A single binding promise without reliance suffices to show the theory incomplete; rarity does not repair the gap, since theories must cover their hard cases, not merely their common ones.",
+        "B": "This choice concerns enforcement, not obligation. The paragraph's datum is that the vow binds precisely when no one would ever know; absent social penalty is built into the case already and is what makes the persisting felt force telling.",
+        "C": "Correct. The counterexample's engine is the intuition that the vow binds where no surviving person relies. Studies finding that the felt bindingness evaporates once the absence of reliance is fully internalized, with the force tracking imagined reliance all along, would reclaim the case for the reliance theory: the intuition would rest on a covert reliance assumption rather than refuting the account.",
+        "D": "This choice describes the promisee's expectations before death, which the reliance theory cannot use: the theory grounds obligation in harm to someone who relied, and after the promisee's death no survivor's plans are injured, so pre-death expectations leave the counterexample intact."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_promising_266_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the fourth paragraph's claim that the promisee, and only she, holds the power of release?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that most promisors report feeling relieved when their promises are waived by the people they were made to."
+        },
+        {
+          "label": "B",
+          "text": "Surveys finding that promises are considered more binding when they are made in writing rather than orally."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that many promisors keep their promises even at very substantial personal cost when no release from the original promisee is forthcoming."
+        },
+        {
+          "label": "D",
+          "text": "Cross-cultural studies finding a promisee's waiver dissolves the felt obligation, while identical waivers by family, bystanders, or authorities leave it intact."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice records the promisor's relief at release, which confirms that waiver by the promisee works, but the claim's distinctive content is exclusivity, only she, and relief data involve no comparison with attempted releases by anyone else.",
+        "B": "This choice concerns the medium of the promise, writing versus speech, a variable the release claim never touches; how binding a promise feels at formation says nothing about who can dissolve it afterward.",
+        "C": "This choice shows promises binding in the absence of release, which is consistent with the claim but does not test it; costly keeping demonstrates the obligation's force, not the location or exclusivity of the power to waive it.",
+        "D": "Correct. The claim has two parts: the promisee's waiver releases, and no one else's does. Studies finding her waiver reliably dissolves the felt obligation while identical waivers from family, bystanders, or authorities leave it intact confirm both parts at once, across cultures, isolating the promisee as the sole holder of the release the transfer account predicts."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

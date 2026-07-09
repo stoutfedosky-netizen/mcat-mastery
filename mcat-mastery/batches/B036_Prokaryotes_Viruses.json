@@ -1,0 +1,337 @@
+{
+  "batch": "B036",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Prokaryotes & Viruses",
+  "questionCount": 10,
+  "answerDistribution": {
+    "C": 3,
+    "A": 3,
+    "D": 2,
+    "B": 2
+  },
+  "questions": [
+    {
+      "id": "bb_micro_001",
+      "passage": "A temperate bacteriophage infects a bacterial cell. In some cells, phage DNA integrates into the bacterial chromosome and is copied whenever the bacterium divides. Exposure to DNA-damaging ultraviolet radiation causes the viral genome to excise, replicate, assemble new particles, and lyse the host. Some resulting particles accidentally package fragments of bacterial DNA.",
+      "stem": "Integrated phage DNA in the bacterial chromosome is called a:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "plasmid"
+        },
+        {
+          "label": "B",
+          "text": "prion"
+        },
+        {
+          "label": "C",
+          "text": "prophage"
+        },
+        {
+          "label": "D",
+          "text": "capsid"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "A plasmid is an extrachromosomal circular DNA that replicates independently of the bacterial chromosome. While plasmids can carry genes (including antibiotic resistance), they are not integrated into the chromosome. An integrated phage genome is specifically called a prophage.",
+        "B": "A prion is an infectious protein \u2014 a misfolded form of a normal cellular protein that can template the misfolding of other copies. Prions do not contain nucleic acid and are unrelated to bacteriophage biology.",
+        "C": "Correct. When a temperate phage integrates its DNA into the host bacterial chromosome, the integrated form is called a prophage. The prophage is replicated passively along with the bacterial chromosome during cell division (lysogeny). It remains dormant until an inducing signal (such as UV-induced DNA damage activating the SOS response) triggers excision and entry into the lytic cycle.",
+        "D": "A capsid is the protein shell that surrounds and protects viral nucleic acid. It is a structural component of the virion, not a term for integrated viral DNA. The capsid is assembled during the lytic cycle, not during lysogeny."
+      },
+      "topic": "Lysogeny / Prophage",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_micro_002",
+      "passage": null,
+      "stem": "UV exposure causes the phage to enter which pathway?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The lytic cycle"
+        },
+        {
+          "label": "B",
+          "text": "Binary fission"
+        },
+        {
+          "label": "C",
+          "text": "Conjugation"
+        },
+        {
+          "label": "D",
+          "text": "Endospore formation"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. UV radiation causes DNA damage (primarily thymine dimers) that activates the bacterial SOS response. This triggers the prophage to excise from the chromosome and enter the lytic cycle: the phage DNA replicates independently, directs synthesis of structural proteins, assembles new virions, and produces lysozyme that lyses the host cell, releasing phage particles. This transition from lysogeny to lysis is called prophage induction.",
+        "B": "Binary fission is the normal asexual reproduction of bacteria \u2014 chromosome replication followed by cell division into two daughter cells. It is not a viral process and does not involve phage excision or virion assembly.",
+        "C": "Conjugation is horizontal gene transfer between bacteria through direct cell-to-cell contact via a pilus. It transfers DNA (typically plasmids) between living bacterial cells and does not involve bacteriophage.",
+        "D": "Endospore formation is a survival strategy of certain bacteria (Bacillus, Clostridium) in response to environmental stress. It produces a dormant, highly resistant cell form. Phage induction is a completely different process involving viral replication, not bacterial sporulation."
+      },
+      "topic": "Phage Induction / Lytic Cycle",
+      "difficulty": "Easy",
+      "passageRef": "bb_micro_001"
+    },
+    {
+      "id": "bb_micro_003",
+      "passage": null,
+      "stem": "Transfer of accidentally packaged bacterial DNA by these phage particles is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Transformation"
+        },
+        {
+          "label": "B",
+          "text": "Conjugation"
+        },
+        {
+          "label": "C",
+          "text": "Transposition"
+        },
+        {
+          "label": "D",
+          "text": "Transduction"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Transformation is the uptake of free (naked) DNA from the environment by a competent bacterial cell. It does not involve bacteriophage at all. The DNA in transformation comes from lysed cells or experimental preparations, not from phage particles.",
+        "B": "Conjugation requires direct cell-to-cell contact through a sex pilus and commonly transfers plasmid DNA. It is a cell-to-cell mechanism that does not involve viral intermediaries.",
+        "C": "Transposition is the movement of transposable elements (transposons, insertion sequences) between locations within or between DNA molecules inside a single cell. While transposition can move genes, it is an intracellular process, not phage-mediated gene transfer between cells.",
+        "D": "Correct. Transduction is the transfer of bacterial DNA between cells via bacteriophage particles. In generalized transduction, during lytic replication, the phage packaging machinery occasionally packages random fragments of the host bacterial chromosome into phage heads instead of phage DNA. These defective particles can inject the bacterial DNA into a new host, where it may recombine into the recipient's chromosome. Specialized transduction, by contrast, transfers only genes adjacent to the prophage integration site."
+      },
+      "topic": "Horizontal Gene Transfer / Transduction",
+      "difficulty": "Medium",
+      "passageRef": "bb_micro_001"
+    },
+    {
+      "id": "bb_micro_004",
+      "passage": null,
+      "stem": "Direct plasmid transfer through a sex pilus is called:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Translation"
+        },
+        {
+          "label": "B",
+          "text": "Conjugation"
+        },
+        {
+          "label": "C",
+          "text": "Transduction"
+        },
+        {
+          "label": "D",
+          "text": "Transformation"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Translation is the process of synthesizing proteins from mRNA templates on ribosomes. It is a step in gene expression, not a mechanism of DNA transfer between cells.",
+        "B": "Correct. Conjugation is the direct transfer of DNA (typically plasmid DNA) from a donor bacterium to a recipient through a sex pilus (F pilus) or direct membrane contact. The donor (F\u207a or Hfr cell) replicates the transferred DNA during the process. Conjugation can transfer antibiotic resistance genes, virulence factors, and metabolic capabilities between bacterial species, making it a major driver of horizontal gene transfer and antibiotic resistance spread.",
+        "C": "Transduction is phage-mediated DNA transfer \u2014 bacteriophage particles carry bacterial DNA from one cell to another. It does not require cell-to-cell contact or a pilus.",
+        "D": "Transformation is the uptake of free DNA from the environment. It does not require a pilus or cell-to-cell contact; the recipient cell must be naturally or artificially competent to take up naked DNA."
+      },
+      "topic": "Horizontal Gene Transfer / Conjugation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_micro_005",
+      "passage": null,
+      "stem": "Bacterial binary fission differs from mitosis because bacteria generally:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "produce four daughter cells"
+        },
+        {
+          "label": "B",
+          "text": "lack a nucleus and mitotic spindle"
+        },
+        {
+          "label": "C",
+          "text": "replicate RNA instead of DNA"
+        },
+        {
+          "label": "D",
+          "text": "divide only after meiosis"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Binary fission produces exactly two genetically identical daughter cells from one parent cell. Four daughter cells would result from two rounds of division, not one round of binary fission.",
+        "B": "Correct. Bacteria are prokaryotes \u2014 they lack a membrane-bound nucleus, so their single circular chromosome is not enclosed in a nuclear envelope. During binary fission, chromosome segregation occurs without a mitotic spindle apparatus. Instead, the replicated chromosomes are attached to the plasma membrane and are separated as the cell elongates. The FtsZ protein (a tubulin homolog) forms a contractile ring at the division site, driving cytokinesis.",
+        "C": "Bacteria replicate DNA, not RNA, as their genetic material. While bacteria do transcribe RNA from their DNA genome, chromosome replication during binary fission involves DNA-dependent DNA polymerase (DNA Pol III), producing a faithful copy of the DNA chromosome.",
+        "D": "Bacteria reproduce exclusively by binary fission (and occasionally by budding). They do not undergo meiosis, which is a eukaryotic process that reduces ploidy and generates gametes. Meiosis requires homologous chromosomes, a spindle apparatus, and a nuclear envelope \u2014 all features absent in prokaryotes."
+      },
+      "topic": "Binary Fission / Prokaryotic Division",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_micro_006",
+      "passage": null,
+      "stem": "Cytosolic bacterial ribosomes are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "70S, composed of 50S and 30S subunits"
+        },
+        {
+          "label": "B",
+          "text": "80S, composed of 60S and 40S subunits"
+        },
+        {
+          "label": "C",
+          "text": "50S, composed of 30S and 20S subunits"
+        },
+        {
+          "label": "D",
+          "text": "identical to the eukaryotic nucleus"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Prokaryotic (bacterial and archaeal) cytoplasmic ribosomes are 70S, composed of a 50S large subunit and a 30S small subunit. The 'S' refers to Svedberg units, a measure of sedimentation rate during centrifugation (S values are not simply additive). The difference in ribosome size between prokaryotes (70S) and eukaryotic cytoplasm (80S) is clinically significant: many antibiotics (chloramphenicol, tetracycline, erythromycin, aminoglycosides) selectively target 70S ribosomes, killing bacteria without affecting human 80S ribosomes.",
+        "B": "80S ribosomes composed of 60S and 40S subunits are found in the eukaryotic cytoplasm. Bacteria contain 70S ribosomes. Notably, mitochondrial and chloroplast ribosomes are also 70S, consistent with the endosymbiotic theory of their prokaryotic origin.",
+        "C": "50S is the large subunit of a prokaryotic ribosome, not a complete ribosome. The complete bacterial ribosome sediments at 70S. Furthermore, '30S and 20S subunits' is not the correct composition \u2014 the actual subunits are 50S (large) and 30S (small). Svedberg units are not additive (50S + 30S \u2260 80S), because sedimentation depends on shape and density, not just mass.",
+        "D": "A ribosome and a nucleus are fundamentally different cellular structures. Ribosomes are RNA-protein complexes (~20 nm) that catalyze protein synthesis; the nucleus is a large membrane-bound organelle (~5-10 \u03bcm) that houses the genome. Bacteria lack nuclei entirely \u2014 this is a defining feature of prokaryotes."
+      },
+      "topic": "Bacterial Ribosomes / 70S",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_micro_007",
+      "passage": null,
+      "stem": "A defining feature of Gram-positive bacteria is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an outer membrane containing abundant lipopolysaccharide"
+        },
+        {
+          "label": "B",
+          "text": "complete absence of peptidoglycan from the envelope"
+        },
+        {
+          "label": "C",
+          "text": "a membrane-bound nucleus enclosing the chromosome"
+        },
+        {
+          "label": "D",
+          "text": "a thick peptidoglycan wall without an outer membrane"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "An outer membrane containing lipopolysaccharide (LPS) is the defining feature of Gram-negative bacteria, not Gram-positive. The outer membrane of Gram-negatives contains LPS in its outer leaflet, with lipid A being the endotoxin component responsible for septic shock.",
+        "B": "Gram-positive bacteria have the thickest peptidoglycan layer of any bacterial group \u2014 approximately 20\u201380 nm thick, comprising up to 90% of the cell wall by weight. Absence of peptidoglycan describes Mycoplasma species, which completely lack cell walls.",
+        "C": "No bacteria have a membrane-bound nucleus \u2014 this is a defining characteristic of prokaryotes. Organisms with membrane-bound nuclei are eukaryotes. The bacterial chromosome resides in the nucleoid region without membrane enclosure.",
+        "D": "Correct. Gram-positive bacteria have a thick peptidoglycan cell wall (20\u201380 nm) external to the plasma membrane, with no outer membrane. During Gram staining, the crystal violet\u2013iodine complex is trapped within the thick peptidoglycan matrix and resists decolorization by alcohol, so the cells retain the purple stain. Gram-positive walls also contain teichoic acids and lipoteichoic acids, which contribute to cell wall rigidity and can activate immune responses."
+      },
+      "topic": "Gram-Positive Cell Envelope",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_micro_008",
+      "passage": null,
+      "stem": "The endotoxin associated with Gram-negative bacteria is primarily:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "teichoic acid"
+        },
+        {
+          "label": "B",
+          "text": "cellulose"
+        },
+        {
+          "label": "C",
+          "text": "lipopolysaccharide"
+        },
+        {
+          "label": "D",
+          "text": "ergosterol"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Teichoic acids are polymers of glycerol phosphate or ribitol phosphate found in Gram-positive cell walls. They contribute to wall structure and can activate innate immunity, but they are not the endotoxin associated with Gram-negative sepsis.",
+        "B": "Cellulose is a structural polysaccharide found in plant cell walls and some bacterial biofilms, but it is not an endotoxin. Bacterial endotoxin is specifically the lipid A component of LPS.",
+        "C": "Correct. Lipopolysaccharide (LPS) is the endotoxin of Gram-negative bacteria. It is an integral component of the outer membrane, with its lipid A moiety embedded in the membrane. When Gram-negative bacteria lyse, released LPS activates the innate immune system through TLR4 (Toll-like receptor 4) on macrophages, triggering massive cytokine release that can lead to septic shock, disseminated intravascular coagulation, and multi-organ failure. Endotoxin is heat-stable and cannot be destroyed by autoclaving.",
+        "D": "Ergosterol is the primary sterol in fungal cell membranes (analogous to cholesterol in animal membranes). It is the target of antifungal drugs like amphotericin B. It is not a bacterial component and has no role in endotoxin biology."
+      },
+      "topic": "Gram-Negative Bacteria / LPS",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_micro_009",
+      "passage": null,
+      "stem": "Which structure is absent from all bacteria?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Plasma membrane"
+        },
+        {
+          "label": "B",
+          "text": "Ribosome"
+        },
+        {
+          "label": "C",
+          "text": "Membrane-bound nucleus"
+        },
+        {
+          "label": "D",
+          "text": "Circular DNA"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "All cells \u2014 prokaryotic and eukaryotic \u2014 have a plasma membrane that separates the cytoplasm from the external environment. The plasma membrane is essential for maintaining electrochemical gradients, transport, and cell integrity.",
+        "B": "All cells contain ribosomes for protein synthesis. Bacterial ribosomes (70S) differ from eukaryotic cytoplasmic ribosomes (80S), but both are present and functionally analogous.",
+        "C": "Correct. The defining feature of prokaryotes (bacteria and archaea) is the absence of a membrane-bound nucleus. Their DNA resides in the nucleoid \u2014 a region of the cytoplasm that is not enclosed by a nuclear envelope. This means bacterial transcription and translation can occur simultaneously (coupled transcription-translation), unlike in eukaryotes where mRNA must be exported from the nucleus before translation.",
+        "D": "Most bacteria have a single circular chromosome composed of double-stranded DNA. While some bacteria have linear chromosomes (e.g., Borrelia), circular chromosomes are the norm. Circular DNA is not absent from bacteria \u2014 it is a characteristic feature."
+      },
+      "topic": "Prokaryotic Cell Structure",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_micro_010",
+      "passage": null,
+      "stem": "An enveloped animal virus commonly acquires its envelope during:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "budding through a host membrane"
+        },
+        {
+          "label": "B",
+          "text": "translation on free viral ribosomes"
+        },
+        {
+          "label": "C",
+          "text": "binary fission"
+        },
+        {
+          "label": "D",
+          "text": "formation of peptidoglycan"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Enveloped viruses acquire their lipid bilayer envelope by budding through a host cell membrane \u2014 typically the plasma membrane, but sometimes the nuclear membrane or ER/Golgi membranes. During budding, viral glycoproteins that were inserted into the host membrane are incorporated into the envelope. The host cell may survive this process (unlike lysis in non-enveloped virus release), allowing continued viral production. The envelope's host-derived lipids make enveloped viruses more susceptible to detergents, desiccation, and heat than non-enveloped viruses.",
+        "B": "Viruses do not have their own ribosomes \u2014 they are obligate intracellular parasites that hijack host cell ribosomes for protein synthesis. 'Free viral ribosomes' do not exist. Viral mRNA is translated on host ribosomes in the cytoplasm or on host rough ER.",
+        "C": "Binary fission is bacterial cell division. Viruses do not undergo binary fission because they are not cells \u2014 they replicate by commandeering host cellular machinery to produce new viral components, which then assemble into virions.",
+        "D": "Peptidoglycan is a component of bacterial cell walls, not viral envelopes. Viral envelopes are lipid bilayers derived from host membranes, studded with viral glycoproteins. No virus produces peptidoglycan."
+      },
+      "topic": "Enveloped Viruses / Budding",
+      "difficulty": "Medium"
+    }
+  ]
+}

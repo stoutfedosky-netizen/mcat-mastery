@@ -1,0 +1,344 @@
+{
+  "batch": "B152",
+  "section": "cars",
+  "topicArea": "Central Thesis Identification",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "cars_law_001",
+      "stem": "Based on the passage, the primary distinction between retributive justice and restorative justice lies in:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "whether punishment should be proportional to the severity of the crime"
+        },
+        {
+          "label": "B",
+          "text": "whether victims should be permitted to testify during sentencing hearings"
+        },
+        {
+          "label": "C",
+          "text": "whether judges or juries should determine criminal sentences"
+        },
+        {
+          "label": "D",
+          "text": "whether the focus of the justice system should be on deserved punishment or on repairing harm to relationships"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Proportionality is a feature within retributive theory (punishment proportional to moral transgression), but it is not the axis of distinction between retributive and restorative justice. The passage contrasts retributivism's focus on deserved suffering with restorative justice's focus on repairing violated relationships. Proportionality is an internal principle of retribution, not the distinguishing difference between the two frameworks.",
+        "B": "Victim testimony during sentencing is a procedural detail not discussed in the passage. While restorative justice involves victims in facilitated dialogues, the passage's central contrast between the two frameworks is philosophical (deserved punishment vs. relationship repair), not procedural (who testifies and when).",
+        "C": "The passage does not discuss the procedural question of whether judges or juries determine sentences. This is a structural feature of the adversarial legal system rather than a philosophical distinction between justice paradigms. Both retributive and restorative approaches can operate within either judge-based or jury-based systems.",
+        "D": "Correct. The passage explicitly contrasts retributivism—which holds that punishment is intrinsically deserved by wrongdoers, focused on proportional suffering for moral transgression—with restorative justice, which frames crime as a violation of relationships and focuses on repairing harm, reintegrating offenders, and restoring moral agency. The fundamental distinction is the purpose and focus of the justice response: punishing versus healing."
+      },
+      "topic": "Central Thesis Identification",
+      "difficulty": "Easy",
+      "usePrevPassage": false,
+      "passage": "The tension between retributive and restorative justice philosophies has shaped criminal sentencing debates for decades. Retributivists contend that punishment is intrinsically deserved by wrongdoers — that justice requires proportional suffering in response to moral transgression, independent of any consequentialist benefits like deterrence or incapacitation. On this view, a murderer deserves harsh punishment simply because murder is gravely wrong, not because punishing the murderer will reduce future crime. Critics argue that retributivism reduces justice to institutionalized vengeance, failing to address the underlying social conditions that produce criminal behavior and offering victims little beyond the spectacle of state-imposed suffering.\n\nRestorative justice, by contrast, frames crime as a violation of relationships rather than an abstract breach of law. Restorative practices bring together victims, offenders, and community members in facilitated dialogues aimed at repairing harm, reintegrating offenders, and restoring the moral agency of all parties. The offender is asked not merely to endure punishment but to understand the damage done; the victim is invited not merely to witness punishment but to describe the meaning of the harm. Proponents point to evidence from jurisdictions that have implemented restorative conferencing programs, showing reduced recidivism rates and higher victim satisfaction compared to traditional prosecution.\n\nThe appeal of restorative justice lies partly in its refusal to treat justice as a transaction between the state and the accused alone. A burglary, for example, may leave behind fear, humiliation, and a fractured sense of safety that a prison sentence does not repair. But skeptics question whether restorative justice can adequately address severe crimes like homicide, arguing that the power imbalance between victim and offender makes genuinely voluntary participation impossible. Even when a survivor chooses dialogue, the setting may pressure forgiveness or emotional resolution in ways that reproduce harm under the language of healing.\n\nA third perspective, therapeutic jurisprudence, examines whether legal processes themselves produce therapeutic or anti-therapeutic consequences for participants. Therapeutic jurisprudence does not advocate for any particular outcome but rather asks whether judicial procedures — from arraignment to sentencing — promote the psychological wellbeing of defendants, victims, and communities. This framework has been particularly influential in the design of specialized courts for drug offenses, domestic violence, and mental health cases, where judges adopt a problem-solving orientation rather than a purely adversarial one. Its distinctiveness lies in shifting attention from the moral purpose of punishment to the effects that legal procedures have on the people moving through them.\n\nThe passage therefore treats justice not as a single answer to wrongdoing but as a dispute over what kind of moral damage crime creates."
+    },
+    {
+      "id": "cars_law_002",
+      "stem": "The passage suggests that critics of retributivism would most likely argue that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the justice system should focus on addressing social conditions that contribute to crime rather than on punishing offenders"
+        },
+        {
+          "label": "B",
+          "text": "punishment is effective at deterring future criminal behavior"
+        },
+        {
+          "label": "C",
+          "text": "victims' rights should take precedence over offenders' due process protections"
+        },
+        {
+          "label": "D",
+          "text": "all crimes, including homicide, should be resolved through restorative conferencing"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage states that critics argue retributivism 'fails to address the underlying social conditions that produce criminal behavior.' This implies that critics believe the justice system should focus upstream—on the structural and social factors driving crime—rather than exclusively on punishing individuals after crimes occur. This reflects a systemic critique of retributivism's individualistic focus on moral desert.",
+        "B": "Deterrence is a consequentialist justification for punishment, and the passage notes that retributivism explicitly operates independently of consequentialist benefits like deterrence. Critics of retributivism argue it reduces justice to institutionalized vengeance; they would not defend punishment on deterrence grounds since that would be a different justification for the same punitive approach they criticize.",
+        "C": "The passage does not frame the retributivism debate in terms of victims' rights versus due process. This answer introduces a specific legal tension (victim advocacy versus defendant protections) that the passage does not address. The critics' concern is with the philosophical basis of retribution (vengeance) and its neglect of social causes, not with procedural rights.",
+        "D": "The passage attributes this concern to skeptics of restorative justice, not to critics of retributivism. Skeptics question whether restorative justice can adequately address severe crimes like homicide. Critics of retributivism are challenging the punishment paradigm, not necessarily endorsing universal application of restorative conferencing."
+      },
+      "topic": "Author Viewpoint & Inference",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_law_003",
+      "stem": "According to the passage, the power imbalance concern raised by skeptics of restorative justice is most relevant to cases involving:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "minor property crimes where both parties have roughly equal social standing"
+        },
+        {
+          "label": "B",
+          "text": "traffic violations processed through administrative courts"
+        },
+        {
+          "label": "C",
+          "text": "severe interpersonal crimes where the victim has suffered significant trauma"
+        },
+        {
+          "label": "D",
+          "text": "corporate regulatory offenses where the offender is an institution"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Minor property crimes with equal social standing between parties would minimize, not maximize, the power imbalance concern. The skeptics' objection specifically targets severe crimes where the harm is so substantial that the victim may feel coerced into participating or unable to engage as a genuine equal in dialogue with the person who harmed them.",
+        "B": "Traffic violations are administrative matters that do not involve the interpersonal harm dynamics at the center of the power imbalance argument. The passage connects this concern to crimes like homicide, where the severity of harm creates a profound asymmetry between victim and offender that makes voluntary, balanced dialogue problematic.",
+        "C": "Correct. The passage states that skeptics question whether restorative justice can address severe crimes like homicide, arguing that the power imbalance between victim and offender makes genuinely voluntary participation impossible. Severe interpersonal crimes—where the victim has experienced significant physical or psychological trauma—create the greatest asymmetry, as the traumatized victim may be psychologically unable to engage as an equal with the person who caused their suffering.",
+        "D": "Corporate regulatory offenses involve institutional offenders, not the interpersonal victim-offender dynamic the passage discusses. The power imbalance concern in the passage is about individual victims facing individual offenders in cases of severe harm, not about regulatory proceedings against corporate entities."
+      },
+      "topic": "Application of Passage Arguments",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_law_004",
+      "stem": "The passage characterizes therapeutic jurisprudence as distinct from both retributive and restorative justice primarily because it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "focuses on whether legal processes promote psychological wellbeing rather than advocating for a particular outcome"
+        },
+        {
+          "label": "B",
+          "text": "rejects the concept of criminal responsibility entirely"
+        },
+        {
+          "label": "C",
+          "text": "operates exclusively in federal courts rather than state courts"
+        },
+        {
+          "label": "D",
+          "text": "prioritizes incapacitation of dangerous offenders above all other goals"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage explicitly states that therapeutic jurisprudence 'does not advocate for any particular outcome but rather asks whether judicial procedures—from arraignment to sentencing—promote the psychological wellbeing of defendants, victims, and communities.' This process-oriented focus distinguishes it from retributivism (which advocates deserved punishment) and restorative justice (which advocates relationship repair). Therapeutic jurisprudence is meta-analytical—it evaluates the therapeutic consequences of whatever approach is used.",
+        "B": "The passage does not state that therapeutic jurisprudence rejects criminal responsibility. It examines whether legal processes produce therapeutic or anti-therapeutic consequences for participants. Specialized courts for drug offenses and domestic violence still operate within a framework of criminal law and responsibility; they simply adopt a problem-solving orientation within that framework.",
+        "C": "The passage does not restrict therapeutic jurisprudence to federal courts. It mentions specialized courts for drug offenses, domestic violence, and mental health cases, which operate at state and local levels. The passage makes no distinction based on court jurisdiction.",
+        "D": "Incapacitation—physically preventing offenders from committing future crimes through confinement—is a consequentialist justification for imprisonment not discussed in the passage's description of therapeutic jurisprudence. Therapeutic jurisprudence focuses on the psychological effects of legal processes on all participants, not on isolating dangerous individuals."
+      },
+      "topic": "Comparative Analysis",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_law_005",
+      "stem": "Which finding, if true, would most weaken the restorative justice proponents' argument as presented in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Restorative conferencing programs are more expensive to administer than traditional prosecution"
+        },
+        {
+          "label": "B",
+          "text": "Recidivism rates are no lower in jurisdictions with restorative conferencing than in those using traditional prosecution, and victim satisfaction scores are equivalent"
+        },
+        {
+          "label": "C",
+          "text": "Retributive sentencing guidelines have become more standardized across states"
+        },
+        {
+          "label": "D",
+          "text": "Therapeutic jurisprudence has been adopted by more courts than restorative justice programs"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Cost is a practical concern but does not weaken the proponents' argument as presented. The passage cites reduced recidivism and higher victim satisfaction as the evidence base for restorative justice. If these outcomes are achieved, higher cost would be a logistical challenge, not a refutation of the program's effectiveness. The proponents' argument is about justice outcomes, not cost-efficiency.",
+        "B": "Correct. The passage states that proponents point to evidence showing 'reduced recidivism rates and higher victim satisfaction compared to traditional prosecution.' If new evidence demonstrated that restorative conferencing produces neither lower recidivism nor higher victim satisfaction—the two specific empirical claims proponents rely upon—the evidentiary foundation of their argument would be directly undermined. This directly contradicts the passage's cited evidence.",
+        "C": "Standardization of retributive sentencing across states is a development within the retributive framework that does not address the empirical claims about restorative justice's outcomes. The proponents' argument is about restorative justice's comparative effectiveness, not about whether retributive approaches are consistently applied.",
+        "D": "Therapeutic jurisprudence's broader adoption does not weaken restorative justice claims about recidivism and victim satisfaction. The passage presents these as complementary frameworks with different focuses (process vs. outcome), not as competing approaches where one's success undermines the other."
+      },
+      "topic": "Weakening Arguments",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_law_006",
+      "stem": "The author's main argument regarding mandatory minimum sentencing is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "mandatory minimums successfully eliminated sentencing disparities as intended"
+        },
+        {
+          "label": "B",
+          "text": "judicial discretion in sentencing invariably leads to racial discrimination"
+        },
+        {
+          "label": "C",
+          "text": "mandatory minimums should be expanded to cover a broader range of offenses"
+        },
+        {
+          "label": "D",
+          "text": "mandatory minimums transferred discretion from judges to prosecutors, producing new forms of inequality"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage directly contradicts this claim. While mandatory minimums were intended to eliminate disparities, the author argues their unintended consequences included amplified racial disparities and a power shift to prosecutors. The passage describes mandatory minimums as producing 'mechanical equality' in theory while failing in practice.",
+        "B": "While the passage notes that pre-mandatory-minimum judicial discretion produced disparities, it does not claim that judicial discretion invariably leads to racial discrimination. The passage's critique is directed at mandatory minimums for relocating and amplifying disparities, not at judicial discretion for being inherently discriminatory.",
+        "C": "The passage presents no argument for expanding mandatory minimums. Its tone is critical, documenting unintended consequences like coerced plea bargains, racial disparities, and the shift of discretion to prosecutors. Advocating expansion would contradict the passage's analysis of these negative outcomes.",
+        "D": "Correct. The passage's central argument is that mandatory minimums, designed to eliminate disparities caused by judicial discretion, instead shifted discretion to prosecutors through charging decisions. This transfer created new, less visible forms of inequality. The passage tracks this argument through three stages: the political rationale for mandatory minimums, the shift of power to prosecutors and resulting plea bargain coercion, and the amplification of racial disparities through differential charging practices."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Easy",
+      "usePrevPassage": false,
+      "passage": "The expansion of mandatory minimum sentencing laws in the United States during the 1980s and 1990s was driven by a convergence of political incentives and public fear of crime. Legislators on both sides of the political spectrum endorsed mandatory minimums as a tool for ensuring consistent, tough sentences for drug offenses, arguing that judicial discretion had produced unacceptable disparities — with similarly situated defendants receiving vastly different sentences depending on which judge presided. By removing judicial discretion in sentencing, mandatory minimums promised a kind of mechanical equality: identical charges would yield identical prison terms.\n\nThe unintended consequences of this approach became apparent within a decade. Because prosecutors retained full charging discretion while judges lost sentencing discretion, the locus of power in the criminal justice system shifted dramatically from the bench to the prosecution. Prosecutors could effectively determine sentences by choosing which charges to file, creating leverage that transformed plea bargaining from negotiation into coercion. The formal sentence still appeared to be imposed by law, but the practical sentence was often set earlier, in an office where charging decisions were made with little public explanation and limited review.\n\nThis shift mattered because most criminal cases never reached trial. Over 95% of federal criminal cases were resolved through guilty pleas, many entered by defendants who might have prevailed at trial but could not risk the sentencing exposure that trial conviction would bring. Mandatory minimums therefore altered not only punishment after conviction but also the bargaining environment before conviction. The harsher the mandatory sentence attached to a charge, the more rational it became for defendants to plead guilty to lesser charges, even when they disputed important facts.\n\nRacial disparities, far from being eliminated by mandatory minimums, were amplified. The notorious 100-to-1 crack-to-powder cocaine sentencing disparity meant that five grams of crack cocaine triggered the same mandatory five-year sentence as five hundred grams of powder cocaine. Because crack was disproportionately associated with Black communities and powder cocaine with White communities, this sentencing structure produced vast racial inequalities in federal incarceration rates. Scholars argued that mandatory minimums had simply relocated the source of disparity from judicial sentencing to prosecutorial charging — a less visible and less accountable stage of the process. The promise of equal treatment by rule thus concealed a deeper inequality in how those rules were invoked.\n\nThis relocation of discretion made the system harder to criticize because disparity no longer appeared in the sentence itself. It appeared earlier, in the charging choices that determined which sentence was legally available."
+    },
+    {
+      "id": "cars_law_007",
+      "stem": "The passage implies that the shift to prosecutorial discretion was particularly problematic because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "prosecutors lack legal training compared to judges"
+        },
+        {
+          "label": "B",
+          "text": "prosecutors are elected officials who are vulnerable to political pressure"
+        },
+        {
+          "label": "C",
+          "text": "charging decisions are less transparent and less subject to review than judicial sentencing decisions"
+        },
+        {
+          "label": "D",
+          "text": "the Sixth Amendment prohibits prosecutors from influencing sentencing outcomes"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage does not suggest prosecutors lack legal training. Both prosecutors and judges are law-trained professionals. The concern is about the structural location of discretion (visible judicial sentencing vs. less visible prosecutorial charging), not about the qualifications of the decision-makers.",
+        "B": "While some prosecutors are indeed elected (a valid real-world concern), the passage does not make this argument. The passage focuses on the structural features of prosecutorial discretion—its lack of visibility and accountability—rather than on the electoral pressures facing prosecutors.",
+        "C": "Correct. The passage describes the shift as relocating 'the source of disparity from judicial sentencing to prosecutorial charging—a less visible and less accountable stage of the process.' Judicial sentencing occurs in open court, is subject to appellate review, and is governed by sentencing guidelines. Prosecutorial charging decisions are made internally, with far less public scrutiny and fewer mechanisms for review. This reduced accountability makes it harder to identify and challenge disparities.",
+        "D": "The passage does not reference the Sixth Amendment or any constitutional prohibition on prosecutorial influence over sentencing. The Sixth Amendment guarantees the right to a speedy trial, confrontation of witnesses, and assistance of counsel, but the passage's argument is structural and practical, not constitutional."
+      },
+      "topic": "Implicit Reasoning",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_law_008",
+      "stem": "The author mentions the 100-to-1 crack-to-powder cocaine disparity primarily to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "argue that cocaine should be legalized to eliminate sentencing disparities"
+        },
+        {
+          "label": "B",
+          "text": "illustrate how mandatory minimums amplified racial inequalities through differential sentencing structures"
+        },
+        {
+          "label": "C",
+          "text": "demonstrate that judges intentionally discriminated against Black defendants before mandatory minimums"
+        },
+        {
+          "label": "D",
+          "text": "show that powder cocaine is pharmacologically identical to crack cocaine"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage does not argue for cocaine legalization. The crack-powder disparity is cited as evidence of how mandatory minimum structures produced racially disparate outcomes, not as grounds for decriminalization. The author's argument is about sentencing policy, not drug policy.",
+        "B": "Correct. The crack-to-powder disparity serves as the passage's primary concrete example of how mandatory minimums amplified racial inequalities. The 100-to-1 ratio meant that small quantities of crack triggered the same severe sentences as much larger quantities of powder cocaine. Because crack was disproportionately associated with Black communities, this sentencing structure produced racially disparate incarceration rates—demonstrating that mandatory minimums, rather than eliminating bias, embedded it into the sentencing structure itself.",
+        "C": "The passage does not claim judges intentionally discriminated before mandatory minimums. It acknowledges that judicial discretion produced disparities but focuses its critique on how mandatory minimums failed to solve these disparities and instead created new ones through prosecutorial discretion and racially skewed sentencing structures.",
+        "D": "The passage does not discuss the pharmacological comparison between crack and powder cocaine. The crack-powder example is used to illustrate sentencing policy consequences, not to make a pharmacological argument. Whether the substances are pharmacologically similar is a scientific question the passage does not address."
+      },
+      "topic": "Rhetorical Purpose",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_law_009",
+      "stem": "Based on the passage, which reform would most directly address the problems the author identifies with mandatory minimum sentencing?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Increasing the length of mandatory minimum sentences to provide greater deterrence"
+        },
+        {
+          "label": "B",
+          "text": "Transferring all criminal cases from state courts to federal courts"
+        },
+        {
+          "label": "C",
+          "text": "Eliminating plea bargaining entirely so all cases go to trial"
+        },
+        {
+          "label": "D",
+          "text": "Restoring judicial discretion while implementing transparent sentencing guidelines and prosecutorial charging oversight"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Increasing sentence lengths would worsen the problems the passage identifies. Longer mandatory minimums would give prosecutors even greater leverage in plea negotiations (defendants face greater risk from trial) and could amplify racial disparities if charging patterns remain unchanged. This reform moves in the opposite direction of the passage's critique.",
+        "B": "Transferring cases to federal courts would not address the structural problems of mandatory minimums, which operate at the federal level as the passage describes. The crack-powder disparity and the 95% guilty plea rate are specifically federal criminal justice statistics. Moving more cases into this system would not resolve the discretion and disparity issues.",
+        "C": "Eliminating plea bargaining would be impractical given that over 95% of federal cases are currently resolved through pleas, and the passage does not argue against plea bargaining per se—it argues against the coercive dynamics that mandatory minimums created within the plea bargaining process. The problem is the leverage prosecutors hold, not the existence of plea bargaining itself.",
+        "D": "Correct. The passage identifies two core problems: the loss of judicial discretion and the shift of unchecked power to prosecutors. Restoring judicial discretion would allow judges to tailor sentences to individual circumstances, while transparent sentencing guidelines would constrain that discretion to prevent the original disparities that motivated mandatory minimums. Adding prosecutorial charging oversight would address the accountability gap the passage identifies ('a less visible and less accountable stage'). This combination addresses both the original problem and the unintended consequences."
+      },
+      "topic": "Application & Reform",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_law_010",
+      "stem": "The phrase 'mechanical equality' as used in the passage most nearly means:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "superficial uniformity that treats identical charges the same without considering relevant differences among defendants"
+        },
+        {
+          "label": "B",
+          "text": "genuine fairness achieved through individualized consideration of each case"
+        },
+        {
+          "label": "C",
+          "text": "equality enforced through automated computer algorithms rather than human decision-making"
+        },
+        {
+          "label": "D",
+          "text": "a system where all participants in the justice process are treated with equal dignity and respect"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage uses 'mechanical equality' to describe the promise of mandatory minimums: 'identical charges would yield identical prison terms.' The word 'mechanical' conveys rigidity and automaticity—like a machine that processes inputs uniformly without judgment. The passage's subsequent discussion of unintended consequences implies that this superficial uniformity masked deeper inequalities, as prosecutors could manipulate charges to produce different effective sentences for similarly situated defendants. The mechanical equality was formal, not substantive.",
+        "B": "Genuine fairness through individualized consideration is the opposite of what 'mechanical equality' describes. The passage contrasts mechanical equality—identical charges yielding identical terms—with the nuanced, case-specific assessment that judicial discretion would allow. The word 'mechanical' implies rigid, formula-driven uniformity without room for individual circumstances.",
+        "C": "The passage does not refer to computer algorithms or automated systems. 'Mechanical' is used metaphorically to describe the rigid, formula-like nature of mandatory minimums—not literally to describe technological automation of sentencing decisions.",
+        "D": "Equal dignity and respect describes a procedural ideal of the justice system that is distinct from the sentencing uniformity the passage discusses. 'Mechanical equality' in context refers specifically to identical sentences for identical charges, not to the broader concept of dignified treatment of all participants."
+      },
+      "topic": "Vocabulary in Context",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    }
+  ],
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  }
+}

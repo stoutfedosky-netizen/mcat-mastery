@@ -1,0 +1,509 @@
+{
+  "batch": "B014",
+  "section": "cars",
+  "topicArea": "Rhetorical Function / Author Purpose",
+  "questionCount": 15,
+  "questions": [
+    {
+      "id": "cars_socsci_001",
+      "stem": "The author's discussion of Bem's precognition paper primarily serves to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "demonstrate that peer review is an unreliable mechanism for evaluating scientific claims"
+        },
+        {
+          "label": "B",
+          "text": "argue that paranormal phenomena deserve serious scientific investigation"
+        },
+        {
+          "label": "C",
+          "text": "illustrate how established methodological standards could validate implausible conclusions, revealing systemic flaws"
+        },
+        {
+          "label": "D",
+          "text": "criticize Bem personally for exploiting weaknesses in the peer review system"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage does not argue that peer review itself is unreliable. The Bem example illustrates a problem with the statistical and methodological conventions that peer reviewers apply, not with the review process itself. The author's critique targets the tools used to evaluate evidence, not the system of evaluation.",
+        "B": "The author does not suggest that precognition warrants serious study. The Bem paper is used as a reductio ad absurdum — if the methods can 'prove' the paranormal, the methods are the problem. The passage explicitly states 'the outrage was directed not at Bem but at the system.'",
+        "C": "The Bem case is introduced as a dramatic example of the broader epistemological failure the passage describes. If standard methods can produce evidence for precognition, the methods themselves cannot distinguish real from spurious effects. This illustrates the systemic flaw — the collapse of discovery and confirmation — that the rest of the passage explores.",
+        "D": "The passage explicitly states that outrage was directed at the system, not at Bem. The author frames Bem as someone who 'followed every convention,' suggesting his paper was a symptom of systemic problems rather than individual misconduct."
+      },
+      "topic": "Rhetorical Function / Author Purpose",
+      "difficulty": "Medium",
+      "usePrevPassage": false,
+      "passage": "The replication crisis in psychology has forced a reckoning that extends far beyond methodological reform. When Daryl Bem published his 2011 paper claiming to demonstrate precognition — the ability to perceive future events — in a flagship social psychology journal, the outrage was directed not at Bem but at the system that allowed such a paper to pass peer review using the field's own accepted methods. Bem had followed every convention: preregistered hypotheses, adequate sample sizes by the standards of the day, and p-values below the sacred .05 threshold. If the tools of normal science could produce evidence for the paranormal, the tools themselves were broken.\n\nThe deeper issue, however, was not p-hacking or underpowered studies. It was that psychology had constructed an epistemological framework in which the distinction between discovery and confirmation had collapsed. The same data set that generated a hypothesis also tested it. Researchers explored dozens of variables, found a pattern, and then reported only the successful path as though it had been the plan all along. This was not fraud — it was the culture. The phrase 'hypothesizing after the results are known,' or HARKing, gave a name to a practice so ubiquitous that many researchers did not recognize it as problematic until it was named.\n\nCritics of the reform movement argue that the pendulum has swung too far. Preregistration, they contend, privileges confirmatory science at the expense of exploratory work — the very mode of inquiry that produces novel discoveries. A preregistered study can confirm what we already suspect, but it cannot surprise us. The most celebrated findings in psychology — cognitive dissonance, bystander apathy, stereotype threat — emerged from open-ended investigations that would struggle to survive today's methodological gatekeeping. By demanding that researchers specify their analyses before seeing the data, the reform movement risks creating a science that is rigorous but sterile.\n\nThis tension reveals a fundamental paradox in the epistemology of the social sciences. The phenomena under study — human cognition, motivation, and social behavior — are inherently variable, context-dependent, and reflexive. A finding in physics can be expected to replicate because the laws governing particle behavior do not change between laboratories. A finding in social psychology may fail to replicate not because the original study was flawed but because the participants, the cultural moment, or the very awareness of the finding has altered the phenomenon. Social science studies its own audience, and that audience has a disconcerting habit of rewriting the script.\n\nThe most productive path forward may require abandoning the physics-envy that has shaped psychology's self-image since the discipline's founding. Rather than treating non-replication as failure, the field might reconceptualize it as data — evidence that a phenomenon is bounded by context, culture, or historical moment. This would demand a different kind of rigor: not the mechanical application of preregistered protocols, but the careful mapping of a finding's boundary conditions, the systematic cataloging of where and when and for whom a result holds. Such a science would be messier, but it might also be truer to its subject."
+    },
+    {
+      "id": "cars_socsci_002",
+      "stem": "Based on the passage, the author would most likely agree with which of the following statements about preregistration?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It is a necessary and sufficient reform that resolves the replication crisis."
+        },
+        {
+          "label": "B",
+          "text": "It addresses real methodological problems but may inadvertently constrain the types of knowledge the field can produce."
+        },
+        {
+          "label": "C",
+          "text": "It is fundamentally incompatible with the study of human behavior and should be abandoned."
+        },
+        {
+          "label": "D",
+          "text": "It was developed primarily to prevent deliberate fraud by researchers."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The author presents preregistration as a partial solution that introduces new problems. The passage describes a 'fundamental paradox' and argues that the field needs a different kind of rigor beyond mechanical preregistered protocols. Calling preregistration 'sufficient' contradicts the author's explicit argument.",
+        "B": "The passage acknowledges that HARKing and the collapse of discovery/confirmation are real problems that preregistration addresses. However, the author also presents the critics' argument that preregistration 'privileges confirmatory science at the expense of exploratory work' and may create science that is 'rigorous but sterile.' The author's final proposal — mapping boundary conditions rather than applying protocols mechanically — suggests agreement that preregistration is helpful but incomplete.",
+        "C": "The author does not call for abandoning preregistration. The passage presents the tension between confirmatory and exploratory science as a genuine paradox requiring balance, not as a reason to reject methodological reform entirely.",
+        "D": "The passage explicitly distinguishes HARKing from fraud: 'This was not fraud — it was the culture.' Preregistration is presented as addressing widespread cultural practices, not deliberate dishonesty."
+      },
+      "topic": "Author Attitude / Inference",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_socsci_003",
+      "stem": "The author claims that social science 'studies its own audience.' This statement most directly supports which of the following arguments made in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Psychology's methodological conventions were borrowed from physics and are therefore inappropriate for studying human behavior."
+        },
+        {
+          "label": "B",
+          "text": "The replication crisis is primarily caused by researchers' failure to use adequate sample sizes."
+        },
+        {
+          "label": "C",
+          "text": "Non-replication in psychology may reflect genuine variability in the phenomena being studied, not just methodological error."
+        },
+        {
+          "label": "D",
+          "text": "Exploratory research is inherently more valuable than confirmatory research in the social sciences."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "While the author does criticize 'physics-envy,' the specific claim that social science studies its own audience is not about borrowed methods. It is about the reflexive nature of social phenomena — participants' awareness of findings can change their behavior, creating genuine variability that makes replication uncertain.",
+        "B": "Sample size is not mentioned in connection with this claim. The 'studies its own audience' argument is about the ontological nature of social phenomena (they change when observed and publicized), not about statistical power.",
+        "C": "The author uses the reflexivity of social science to argue that non-replication might be 'data' rather than failure — evidence that a finding is 'bounded by context, culture, or historical moment.' The claim that social science studies its own audience directly explains why phenomena might genuinely differ across replications, supporting the reconceptualization of non-replication the author proposes.",
+        "D": "The author presents the tension between exploratory and confirmatory science as a genuine dilemma, not as a clear hierarchy. The 'studies its own audience' claim supports the argument that non-replication has multiple causes, not that one mode of research is superior."
+      },
+      "topic": "Textual Evidence / Reasoning Within the Text",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_socsci_004",
+      "stem": "Suppose a large-scale, preregistered replication of the bystander effect fails to find a significant effect in a sample of participants who have all completed a university course on social psychology. How would the author most likely interpret this result?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "As evidence that the original bystander effect studies were methodologically flawed and their conclusions invalid"
+        },
+        {
+          "label": "B",
+          "text": "As evidence that preregistration is too rigid a framework for studying context-dependent social phenomena"
+        },
+        {
+          "label": "C",
+          "text": "As confirmation that non-replication is always caused by awareness of the phenomenon rather than by methodological differences"
+        },
+        {
+          "label": "D",
+          "text": "As a boundary condition — evidence that knowledge of the bystander effect alters the phenomenon, consistent with the reflexive nature of social science"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The author explicitly argues against interpreting non-replication as proof that original findings were flawed. The passage proposes reconceptualizing non-replication as 'data' about boundary conditions, not as evidence of error.",
+        "B": "While the author has concerns about preregistration, this specific result would not illustrate preregistration's limitations. The study was conducted properly; the finding is about the phenomenon itself, not the method.",
+        "C": "The word 'always' makes this too strong. The author acknowledges multiple causes of non-replication (context, culture, historical moment, participant awareness). This scenario is consistent with the author's framework, but the author would not claim awareness is the only cause.",
+        "D": "This scenario is a near-perfect illustration of the author's core argument. Participants who know about the bystander effect may deliberately override the diffusion of responsibility, changing the phenomenon itself. The author would interpret this as mapping a boundary condition — the bystander effect holds for naive participants but not for those educated about it — exactly the 'careful mapping' the passage advocates."
+      },
+      "topic": "Application / Reasoning Beyond the Text",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_socsci_005",
+      "stem": "Which of the following findings, if true, would most weaken the author's central argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A meta-analysis showing that preregistered studies in psychology produce effect sizes nearly identical to those of non-preregistered studies"
+        },
+        {
+          "label": "B",
+          "text": "Evidence that the majority of non-replications in psychology can be traced to specific, identifiable methodological errors rather than to contextual variability"
+        },
+        {
+          "label": "C",
+          "text": "A survey showing that most psychologists support the reform movement and view preregistration favorably"
+        },
+        {
+          "label": "D",
+          "text": "A finding that physics experiments also show higher non-replication rates than previously believed"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This would actually support the critics of preregistration (suggesting it doesn't change much), but the author's central argument is about reconceptualizing non-replication as boundary-condition data, not about whether preregistration changes effect sizes. This finding is tangential to the core claim.",
+        "B": "The author's central argument is that non-replication in psychology may reflect genuine variability in context-dependent phenomena rather than methodological failure. If most non-replications were actually traceable to specific errors (wrong statistical test, contaminated sample, coding mistakes), the explanation would be mundane methodology, not the reflexive, context-bound nature of social phenomena. This directly undermines the argument that psychology needs a new epistemological framework.",
+        "C": "The popularity of preregistration among psychologists does not address whether the author's epistemological argument about non-replication is correct. The author's claim is conceptual, not about the sociology of the reform movement.",
+        "D": "This would partially support the author by showing that non-replication is not unique to psychology. However, it could also undermine the author's specific claim that social science is special because it 'studies its own audience.' If physics also fails to replicate, the explanation cannot be reflexivity."
+      },
+      "topic": "Weakening the Argument / Reasoning Beyond the Text",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_socsci_006",
+      "stem": "According to the passage, the primary criticism of applying 'emotional labor' to personal relationships is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "personal relationships involve genuine emotion, whereas workplace interactions are always performed insincerely"
+        },
+        {
+          "label": "B",
+          "text": "the expanded usage distorts Hochschild's findings by implying that all emotional management is equally exhausting"
+        },
+        {
+          "label": "C",
+          "text": "removing the employer-employee power asymmetry eliminates the structural critique that gave the concept its analytical force"
+        },
+        {
+          "label": "D",
+          "text": "emotional management in personal relationships is voluntary and therefore cannot constitute labor"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage does not claim that workplace emotional expressions are always insincere. Hochschild's point is that the management of feeling is required and extracted by an employer, not that the feelings are necessarily fake. The passage does not set up a sincerity/insincerity distinction.",
+        "B": "The passage does not make the claim that the expanded usage implies equal exhaustion. The criticism is about analytical precision and the loss of structural critique, not about comparing the subjective intensity of different emotional experiences.",
+        "C": "The passage states directly that in Hochschild's framework, the power asymmetry was 'structural, not interpersonal' and that when applied to personal contexts, 'the structural critique evaporates.' The criticism is that removing the employment relationship strips away the Marxist analytical framework of alienated labor that made the concept theoretically distinctive.",
+        "D": "The passage does not argue that personal emotional management is voluntary. In fact, the defenders' position is that women are expected — not choosing — to perform this work. The voluntariness of personal emotional management is not the axis of the debate as presented."
+      },
+      "topic": "Comprehension / Author's Argument",
+      "difficulty": "Medium",
+      "usePrevPassage": false,
+      "passage": "The concept of emotional labor, introduced by sociologist Arlie Hochschild in 1983, originally described the work performed by employees who must manage their emotional expressions as part of their job requirements. Flight attendants, Hochschild argued, were paid not merely to serve beverages and demonstrate safety equipment but to produce a particular emotional atmosphere — warmth, calm, deference — regardless of their actual feelings. This management of feeling for a wage constituted a form of labor as real and as exhausting as physical exertion, yet it remained invisible in economic analyses that counted only tangible outputs.\n\nThe concept has since migrated far beyond its original scope. In contemporary usage, emotional labor has become a catchall term for any emotionally demanding interaction: remembering a partner's family's birthdays, managing a friend's crisis, navigating a difficult conversation with a neighbor. This expansion has been both celebrated as consciousness-raising and criticized as concept creep — the gradual stretching of a precise academic term until it encompasses such a broad range of experiences that it loses analytical power.\n\nThe sociological stakes of this dilution are significant. Hochschild's original formulation was embedded in a Marxist framework of alienated labor: the flight attendant's smile was not freely given but extracted by an employer who profited from it. The power asymmetry was structural, not interpersonal. When the term is applied to the annoyance of planning a dinner party or the fatigue of listening to a friend's complaints, the structural critique evaporates. What remains is a vocabulary of personal grievance dressed in the authority of social theory.\n\nDefenders of the expanded usage counter that the boundary between paid and unpaid emotional management is itself a product of gendered social structures. Women, they argue, perform disproportionate emotional management in both professional and domestic contexts, and restricting the term to paid work artificially separates two manifestations of the same underlying inequality. If a woman is expected to soothe her male partner's emotions, mediate family conflicts, and maintain social networks — all while this labor goes unrecognized and uncompensated — the structural dimension is present even in the absence of a formal employer.\n\nThe debate ultimately hinges on what we want our concepts to do. A narrow definition preserves analytical precision and keeps the structural critique intact but risks rendering invisible the vast landscape of unpaid emotional management that falls outside formal employment. A broad definition captures lived experience more fully but sacrifices the theoretical framework that gave the concept its critical edge. The challenge for sociology is not to choose one over the other but to develop a vocabulary supple enough to distinguish between the flight attendant's manufactured smile and the exhausted partner's midnight reassurances while recognizing that both emerge from social structures that distribute emotional burdens unevenly."
+    },
+    {
+      "id": "cars_socsci_007",
+      "stem": "The passage suggests that defenders of the expanded definition of emotional labor would most likely argue that Hochschild's original framework is limited because it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "fails to acknowledge that men also perform significant emotional labor in both professional and domestic settings"
+        },
+        {
+          "label": "B",
+          "text": "treats the boundary between paid and unpaid work as natural rather than as a product of gendered social structures"
+        },
+        {
+          "label": "C",
+          "text": "was based on a single occupational case study and cannot be generalized to other professions"
+        },
+        {
+          "label": "D",
+          "text": "relies on a Marxist framework that has been discredited by contemporary sociological research"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The defenders' argument as presented focuses on women's disproportionate burden, not on men's contributions. The passage does not mention defenders arguing that men perform significant emotional labor.",
+        "B": "The passage states that defenders 'counter that the boundary between paid and unpaid emotional management is itself a product of gendered social structures.' They argue that restricting the concept to paid work 'artificially separates two manifestations of the same underlying inequality.' This frames Hochschild's original boundary as a social construction, not a natural division.",
+        "C": "The passage does not mention the generalizability of Hochschild's case study as a point of contention. The debate is about whether the concept should extend beyond paid employment, not about whether it applies to multiple professions.",
+        "D": "The passage does not suggest that the Marxist framework has been discredited. The defenders argue that the structural dimension exists in unpaid contexts too — they are expanding the framework, not rejecting it."
+      },
+      "topic": "Inference / Reasoning Within the Text",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_socsci_008",
+      "stem": "The author's characterization of the expanded usage as 'a vocabulary of personal grievance dressed in the authority of social theory' most strongly conveys:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sympathy for individuals who feel emotionally burdened in personal relationships"
+        },
+        {
+          "label": "B",
+          "text": "admiration for how ordinary people have adopted academic concepts to articulate their experiences"
+        },
+        {
+          "label": "C",
+          "text": "a belief that personal relationships should never be analyzed through sociological frameworks"
+        },
+        {
+          "label": "D",
+          "text": "concern that personal complaints gain undeserved intellectual legitimacy by borrowing sociological terminology"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The phrase 'personal grievance dressed in the authority of social theory' is critical, not sympathetic. It suggests that individual complaints are being elevated through borrowed academic language. While the author may recognize that personal emotional burdens are real, this specific phrase conveys skepticism about the application of structural theory to personal experiences.",
+        "B": "The phrase is clearly critical, not admiring. 'Dressed in the authority of' implies disguise or borrowed prestige, not genuine intellectual enrichment.",
+        "C": "The author does not argue that personal relationships are beyond sociological analysis. The final paragraph explicitly envisions a vocabulary that can address both paid and unpaid emotional management. The concern is about losing analytical precision, not about keeping sociology out of personal life.",
+        "D": "The metaphor of 'dressing' personal grievance in theoretical 'authority' implies that the grievance and the theory are ill-matched — the theoretical clothing doesn't fit the personal complaint. This conveys concern that the sociological term is lending unearned analytical weight to experiences that are interpersonal rather than structural, undermining the concept's critical power."
+      },
+      "topic": "Rhetorical Analysis / Tone",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_socsci_009",
+      "stem": "Suppose a researcher finds that nurses in understaffed hospitals who are required to maintain a reassuring demeanor with patients experience significantly higher rates of burnout than nurses in well-staffed hospitals who are given more latitude to express authentic emotions. This finding would best support:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the defenders' argument that emotional labor occurs in all caregiving contexts regardless of compensation"
+        },
+        {
+          "label": "B",
+          "text": "the critics' argument that concept creep has made emotional labor indistinguishable from ordinary interpersonal fatigue"
+        },
+        {
+          "label": "C",
+          "text": "the author's concluding proposal that sociology needs concepts that can distinguish between structurally imposed and freely chosen emotional management"
+        },
+        {
+          "label": "D",
+          "text": "Hochschild's original framework, because the nurses' emotional management is employer-mandated, structurally constrained, and linked to measurable harm"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The defenders' argument focuses on extending emotional labor to unpaid personal contexts. This finding involves paid, employer-mandated emotional management in a professional setting — squarely within Hochschild's original scope, not the expanded one.",
+        "B": "This finding shows a clear structural mechanism (institutional understaffing + mandated demeanor) producing measurable harm (burnout), which is the opposite of concept creep. The emotional management here is not ordinary interpersonal fatigue — it is institutionally extracted.",
+        "C": "While the author's proposal is relevant, this specific finding does not test the distinction between structural and personal emotional labor. It involves only the structural category (employer-mandated, occupational). A study comparing nurses' work burnout with the fatigue of managing family emotions would better test the author's proposal.",
+        "D": "This scenario perfectly illustrates Hochschild's model: an employer requires employees to produce a specific emotional display (reassurance), the requirement is structural (institutional staffing decisions constrain the nurse's emotional options), and the consequence is measurable occupational harm (burnout). The structural power asymmetry and alienation of feeling that define Hochschild's concept are clearly present."
+      },
+      "topic": "Application / Reasoning Beyond the Text",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_socsci_010",
+      "stem": "Which of the following best describes the author's overall stance in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The author acknowledges the merits of both positions and argues that the field needs more nuanced conceptual tools rather than a simple choice between narrow and broad definitions."
+        },
+        {
+          "label": "B",
+          "text": "The author sides with the defenders and argues that the expanded definition better captures gendered inequality."
+        },
+        {
+          "label": "C",
+          "text": "The author fully supports Hochschild's narrow definition and rejects the expanded usage as intellectually dishonest."
+        },
+        {
+          "label": "D",
+          "text": "The author is neutral and presents both sides without expressing any preference or recommendation."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The final paragraph states that 'the challenge for sociology is not to choose one over the other but to develop a vocabulary supple enough to distinguish' between different types of emotional management 'while recognizing that both emerge from social structures.' This is an explicit call for conceptual refinement that incorporates both sides.",
+        "B": "The author presents the defenders' argument fairly but does not endorse it. The passage also acknowledges the critics' concern that the broad definition 'sacrifices the theoretical framework that gave the concept its critical edge.'",
+        "C": "While the author is sympathetic to the structural critique and uses pointed language about 'concept creep,' the final paragraph explicitly resists choosing the narrow definition: it acknowledges that restricting the term 'risks rendering invisible' unpaid emotional management.",
+        "D": "The author does express a preference — for developing more nuanced conceptual tools. The final paragraph is prescriptive, not merely descriptive. 'The challenge for sociology is... to develop a vocabulary supple enough' is a clear recommendation."
+      },
+      "topic": "Main Idea / Author's Position",
+      "difficulty": "Easy",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_socsci_011",
+      "stem": "The author presents the coaching of guards by Zimbardo's research team primarily as evidence that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Zimbardo deliberately committed research fraud to produce predetermined results"
+        },
+        {
+          "label": "B",
+          "text": "the observed behaviors may have been produced by demand characteristics rather than by the power of the situation itself"
+        },
+        {
+          "label": "C",
+          "text": "the guards were inherently cruel individuals who were selected because of their personality traits"
+        },
+        {
+          "label": "D",
+          "text": "prison environments are not psychologically harmful to inmates"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage does not accuse Zimbardo of deliberate fraud. The coaching is presented as a confound — an alternative explanation for the results — not as evidence of intentional fabrication. The distinction between a methodological flaw and deliberate dishonesty is important.",
+        "B": "The coaching, combined with guards 'performing for the researchers' and a prisoner faking a breakdown, introduces demand characteristics as a rival explanation. If participants were responding to what they perceived the experimenters wanted rather than to the situation itself, Zimbardo's conclusion about situational power is undermined. The behaviors would reflect compliance with experimenter expectations, not the role-conformity effect Zimbardo claimed.",
+        "C": "The passage does not suggest the guards were inherently cruel. In fact, the random assignment procedure means that personality-based explanations are controlled for. The coaching issue is about experimenter influence, not participant disposition.",
+        "D": "The passage does not argue that prison environments are benign. The critique is specific to whether the Stanford Prison Experiment demonstrated what it claimed, not a broader claim about the psychology of incarceration."
+      },
+      "topic": "Textual Evidence / Function of Detail",
+      "difficulty": "Easy",
+      "usePrevPassage": false,
+      "passage": "In 1971, Philip Zimbardo transformed the basement of Stanford University's psychology building into a mock prison and assigned college students randomly to the roles of guards or prisoners. Within days, the guards had become cruel and the prisoners had become passive or emotionally broken. Zimbardo halted the study after six days and drew a sweeping conclusion: ordinary people, placed in pathological social structures, will conform to the roles those structures prescribe. The individual is less the author of behavior than the stage on which situational forces perform.\n\nThis interpretation became foundational. For decades, the Stanford Prison Experiment was taught as a definitive demonstration of situational power — evidence that good people do bad things when institutions demand it. It was invoked to explain Abu Ghraib, corporate fraud, and the behavior of concentration camp guards. The lesson was seductive in its simplicity: fix the situation and you fix the behavior.\n\nRecent scholarship has substantially complicated this narrative. Recordings from the experiment reveal that Zimbardo and his research team actively coached the guards, suggesting cruel behaviors and expressing disappointment when guards were lenient. Several guards later reported that they were performing for the researchers, not succumbing to the role. One prisoner who appeared to have a breakdown later admitted he had faked it to get released from an experiment he found boring. The demand characteristics of the study — participants' awareness of what the experimenters wanted to see — may have produced the very behaviors Zimbardo attributed to situational forces.\n\nMore fundamentally, the experiment's theoretical framework has been challenged by the BBC Prison Study, a partial replication conducted in 2002 under more controlled conditions. In the BBC study, guards did not spontaneously become tyrannical. Instead, the critical variable was identification with the group: when guards developed a shared social identity and leadership structure, they acted cohesively; when they did not, the power vacuum was filled by prisoners who organized collectively and overthrew the guard regime. The researchers concluded that tyranny is not an automatic consequence of power but a product of active identity leadership — someone must articulate a vision that makes cruelty seem legitimate and necessary.\n\nThe implications extend beyond the laboratory. If Zimbardo was right, then atrocity is a structural inevitability that can only be prevented by dismantling toxic institutions. If the BBC researchers are right, then atrocity requires ideological entrepreneurs who frame cruelty as virtuous — and can be prevented by challenging those frames before they take hold. The first view locates agency in the situation; the second restores it to the individual, though an individual understood as embedded in and shaped by group identity rather than acting as an isolated rational agent."
+    },
+    {
+      "id": "cars_socsci_012",
+      "stem": "Based on the BBC Prison Study findings described in the passage, which of the following scenarios would most likely produce tyrannical behavior by guards?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Guards are placed in a prison environment with no instruction or oversight, and one charismatic guard articulates a philosophy that dehumanizes the prisoners."
+        },
+        {
+          "label": "B",
+          "text": "Guards are placed in a prison environment with strict rules that prohibit any interaction with prisoners beyond necessary commands."
+        },
+        {
+          "label": "C",
+          "text": "Guards are individually isolated from one another and given independent authority over separate groups of prisoners."
+        },
+        {
+          "label": "D",
+          "text": "Guards and prisoners are rotated between roles every 24 hours to prevent identification with either group."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The BBC study concluded that tyranny requires 'active identity leadership — someone must articulate a vision that makes cruelty seem legitimate and necessary.' A charismatic guard who develops a dehumanizing philosophy provides exactly this: a shared social identity and an ideological frame that justifies cruelty. This matches the BBC model's prediction that tyranny is not automatic but requires identity entrepreneurship.",
+        "B": "Strict rules and limited interaction would reduce the opportunity for both tyranny and identity formation. The BBC model emphasizes that cohesive group identity and leadership, not rule-following, produce tyrannical behavior. Rigid external structure might prevent the organic development of a shared cruel identity.",
+        "C": "Isolating guards from each other would prevent the development of shared social identity, which the BBC study identified as the critical variable. Without group cohesion and collective identity, individual guards are unlikely to develop systematic cruelty — they lack the social reinforcement and ideological framework.",
+        "D": "Frequent role rotation would prevent the strong identification with the guard role that the BBC study found necessary for tyrannical behavior to emerge. Without stable group membership, neither guards nor prisoners would develop the cohesive identity that enables collective action."
+      },
+      "topic": "Application / Reasoning Beyond the Text",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_socsci_013",
+      "stem": "The passage's final paragraph presents the Zimbardo and BBC interpretations as having different implications for preventing atrocity. The key difference is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Zimbardo's view suggests individuals can resist situational forces through moral willpower, while the BBC view suggests they cannot"
+        },
+        {
+          "label": "B",
+          "text": "the BBC view places greater emphasis on biological predisposition to aggression than Zimbardo's situationist model"
+        },
+        {
+          "label": "C",
+          "text": "Zimbardo's view locates the cause in institutional structures, while the BBC view locates it in identity-based leadership that can be challenged"
+        },
+        {
+          "label": "D",
+          "text": "both views agree on the mechanism but disagree about whether institutional reform or individual punishment is the better response"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This reverses Zimbardo's position. Zimbardo's situationist view minimizes individual agency — the point is that ordinary people succumb to situational forces regardless of their moral character. The BBC view restores some agency by locating the mechanism in identity leadership rather than structural inevitability.",
+        "B": "Neither model invokes biological predisposition. The BBC model emphasizes social identity and ideological leadership, not biology. Both models are social-psychological, not biological.",
+        "C": "The passage explicitly states: Zimbardo's view 'locates agency in the situation' and prevention requires 'dismantling toxic institutions.' The BBC view holds that atrocity 'requires ideological entrepreneurs who frame cruelty as virtuous' and 'can be prevented by challenging those frames.' One targets structures; the other targets identity narratives.",
+        "D": "The two views disagree fundamentally about the mechanism: situational forces versus identity leadership. They do not share a common mechanism with different policy prescriptions. The passage frames them as competing theoretical explanations, not as shared analyses with different practical conclusions."
+      },
+      "topic": "Comparative Analysis / Main Argument",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_socsci_014",
+      "stem": "A historian studying genocidal regimes finds that in every documented case, the escalation to mass violence was preceded by a prolonged propaganda campaign that portrayed the targeted group as subhuman or existentially threatening. This finding would most strengthen the position of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Zimbardo, because it shows that institutional structures inevitably produce cruelty when propaganda is a feature of the environment"
+        },
+        {
+          "label": "B",
+          "text": "neither position, because historical examples cannot validate laboratory experiments"
+        },
+        {
+          "label": "C",
+          "text": "both positions equally, because propaganda can be interpreted as either a situational force or an identity leadership tool"
+        },
+        {
+          "label": "D",
+          "text": "the BBC researchers, because it suggests that mass atrocity requires deliberate ideological framing that constructs cruelty as legitimate"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Zimbardo's model predicts that placing people in pathological structures automatically produces cruelty. The finding that a prolonged propaganda campaign is necessary suggests that the structure alone is insufficient — deliberate persuasion by ideological leaders is required. This undermines rather than supports Zimbardo's automaticity claim.",
+        "B": "The passage explicitly applies both models to real-world cases (Abu Ghraib, concentration camps). The argument is about which theoretical framework better explains atrocity, and real-world evidence is relevant to adjudicating between them.",
+        "C": "While propaganda could theoretically be interpreted through either lens, the specific finding — that propaganda is a necessary precursor — aligns more closely with the BBC model. Zimbardo's model predicts structural inevitability without requiring propaganda; the BBC model specifically predicts that someone must 'articulate a vision that makes cruelty seem legitimate.' A necessary propaganda campaign is an identity leadership activity.",
+        "D": "The finding that propaganda is a necessary precursor to genocide directly supports the BBC researchers' conclusion that tyranny 'requires ideological entrepreneurs who frame cruelty as virtuous.' Propaganda campaigns are precisely the mechanism by which leaders construct a shared identity that frames mass violence as legitimate, necessary, and even moral."
+      },
+      "topic": "Strengthening the Argument / Reasoning Beyond the Text",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_socsci_015",
+      "stem": "The author states that the BBC study's interpretation 'restores agency to the individual, though an individual understood as embedded in and shaped by group identity.' This qualification most likely serves to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "acknowledge that the BBC model does not return to a simple, pre-Zimbardo view of individual moral responsibility"
+        },
+        {
+          "label": "B",
+          "text": "argue that the BBC model is ultimately no different from Zimbardo's situationism"
+        },
+        {
+          "label": "C",
+          "text": "suggest that the BBC researchers believe individuals are incapable of resisting group influence"
+        },
+        {
+          "label": "D",
+          "text": "dismiss the BBC model as internally contradictory because it simultaneously invokes individual agency and group influence"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The qualification prevents a misreading: the BBC model does not simply return to the 'bad apples' view that individual character determines behavior. Instead, it proposes a more nuanced account in which agency exists but operates through group identification and leadership dynamics. The author signals that the BBC model occupies a middle ground between pure situationism and pure individualism.",
+        "B": "The author presents the two models as meaningfully different — they lead to different prevention strategies. The qualification distinguishes the BBC model's form of agency (embedded, identity-based) from both Zimbardo's denial of agency and a naive individualism, preserving the distinction rather than collapsing it.",
+        "C": "The BBC model does not suggest helplessness in the face of group influence. The passage states that atrocity 'can be prevented by challenging those frames before they take hold,' implying that individuals and societies can resist ideological manipulation — agency is constrained but not eliminated.",
+        "D": "The author does not present the combination of individual agency and group influence as contradictory. Rather, the qualification frames it as a more sophisticated understanding of agency — one that recognizes both personal responsibility and social context. This is presented as a strength of the model, not a weakness."
+      },
+      "topic": "Rhetorical Function / Author Purpose",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    }
+  ],
+  "answerDistribution": {
+    "A": 3,
+    "B": 4,
+    "C": 4,
+    "D": 4
+  }
+}

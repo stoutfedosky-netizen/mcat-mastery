@@ -1,0 +1,344 @@
+{
+  "batch": "B203",
+  "section": "cars",
+  "topicArea": "Main Idea",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "cars_philosophy_tech_203_q0",
+      "stem": "Which of the following best captures the author’s main argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Algorithms must be recognized as full moral agents to ensure they are held accountable for harmful decisions."
+        },
+        {
+          "label": "B",
+          "text": "The distributed responsibility model is the only philosophically coherent framework for algorithmic accountability."
+        },
+        {
+          "label": "C",
+          "text": "Legal systems have already adapted sufficiently to address the challenges posed by algorithmic decision-making."
+        },
+        {
+          "label": "D",
+          "text": "The philosophical debate over algorithmic moral agency, while unresolved, should not prevent the development of practical accountability mechanisms."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage explicitly states that algorithms do not satisfy classical criteria for moral agency (intentionality, deliberation, awareness of consequences) and does not argue that they should be recognized as full moral agents. The pragmatic synthesis proposed in the final paragraph specifically suggests setting aside the agency question rather than resolving it in favor of full agency attribution.",
+        "B": "The distributed responsibility model is presented as one approach among several, and the passage notes its limitations—specifically the criticism that distributing responsibility often dilutes it. The author does not endorse this model as the sole coherent framework but rather uses it as a stepping stone toward the pragmatic synthesis in the final paragraph.",
+        "C": "The passage directly contradicts this claim. The fourth paragraph argues that legal systems “struggle to assign liability,” that product liability law is inadequate because it was designed for physical defects, and that tort law faces the black box problem. The author characterizes current legal adaptation as “piecemeal and reactive.”",
+        "D": "Correct. The passage traces a progression from identifying the philosophical gap (algorithms lack moral agency but produce morally significant outcomes) through competing theoretical responses (distributed responsibility, expanded moral vocabulary, Floridi’s intermediate categories) to a pragmatic conclusion. The final paragraph synthesizes this arc by proposing that practical accountability mechanisms—auditing, documentation, institutional responsibility chains—can mitigate algorithmic harm without requiring philosophical consensus on machine morality."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium",
+      "usePrevPassage": false,
+      "passage": "The deployment of algorithmic decision-making systems in domains once governed by human judgment—criminal sentencing, medical diagnosis, hiring—has prompted a philosophical reckoning with the concept of moral agency. Classical accounts of moral responsibility require that an agent possess intentionality, the capacity for deliberation, and awareness of consequences. Algorithms, as currently conceived, satisfy none of these criteria. They optimize objective functions without understanding the stakes of their outputs. Yet the practical consequences of their decisions are indistinguishable from those rendered by human agents: a denied parole, a missed diagnosis, a rejected application.\n\nSome philosophers have responded by proposing a distributed model of moral responsibility, in which accountability is shared among the designers who specify the objective function, the engineers who select training data, the institutions that deploy the system, and the regulators who permit its use. This framework has the advantage of preserving the principle that moral responsibility requires moral agency while acknowledging the diffused causal structure of algorithmic harm. Critics counter that distribution often becomes dilution: when everyone is responsible, no one is.\n\nAn alternative view holds that our moral vocabulary must evolve. If an algorithm consistently produces discriminatory outcomes, the argument goes, it is morally relevant regardless of whether it meets traditional criteria for agency. This view does not attribute consciousness to algorithms but insists that moral evaluation must track consequences, not just intentions. The philosopher Luciano Floridi has argued for an intermediate category of “moral patient”—entities that can be affected by moral actions—and suggested that sufficiently autonomous systems may warrant a novel category of moral consideration that neither reduces to full agency nor dismisses their ethical significance entirely.\n\nThe implications extend beyond academic philosophy. Legal systems predicated on individual culpability struggle to assign liability when an algorithm harms someone. Product liability law can address some cases, but it was designed for physical defects, not the epistemic opacity of machine learning. Tort law requires demonstrating negligence, yet the developers of a neural network may be unable to explain why it reached a particular conclusion—the so-called black box problem. Without a coherent philosophical framework for algorithmic responsibility, legal adaptation will remain piecemeal and reactive.\n\nA pragmatic synthesis may be possible. Rather than resolving the metaphysical question of whether algorithms can be moral agents, society might focus on designing systems of accountability that function regardless. Mandatory auditing, transparent documentation of training data, and clear chains of institutional responsibility could mitigate harm without requiring consensus on the nature of machine morality. This approach treats the agency question as practically, if not philosophically, secondary."
+    },
+    {
+      "id": "cars_philosophy_tech_203_q1",
+      "stem": "As used in the passage, the phrase “epistemic opacity” most nearly refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the inability to understand or explain how a machine learning system arrives at its specific outputs."
+        },
+        {
+          "label": "B",
+          "text": "the deliberate concealment of algorithmic source code by technology companies."
+        },
+        {
+          "label": "C",
+          "text": "the philosophical uncertainty about whether algorithms possess consciousness."
+        },
+        {
+          "label": "D",
+          "text": "the difficulty of gathering sufficient training data for machine learning models."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage introduces “epistemic opacity” in the context of the black box problem: developers of neural networks “may be unable to explain why it reached a particular conclusion.” Epistemic refers to knowledge and understanding; opacity refers to lack of transparency. Together, the phrase describes the fundamental challenge that the internal reasoning processes of complex machine learning models are not accessible to human inspection or explanation, even by their creators.",
+        "B": "While corporate secrecy around algorithms is a real concern, the passage uses “epistemic opacity” to describe a property of the technology itself—the inherent difficulty of explaining neural network decisions—not deliberate concealment by companies. Even with full source code access, a deep neural network’s specific decision pathway may be inexplicable due to the complexity of its learned parameters.",
+        "C": "The question of machine consciousness is part of the broader moral agency discussion in the passage, but epistemic opacity refers specifically to the explainability of algorithmic outputs, not to metaphysical questions about consciousness. The two concepts are distinct: opacity is about what we can know about the system’s reasoning, not about the system’s subjective experience.",
+        "D": "Data sufficiency is a practical machine learning concern (sample size, representativeness), but it is unrelated to epistemic opacity. A model trained on abundant data can still be epistemically opaque if its decision-making process is too complex to decompose into interpretable reasoning steps."
+      },
+      "topic": "Vocabulary in Context",
+      "difficulty": "Easy",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_philosophy_tech_203_q2",
+      "stem": "The passage mentions Luciano Floridi’s concept of a “moral patient.” Based on the passage, which of the following would Floridi most likely categorize as a moral patient?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A software engineer who designs a biased hiring algorithm."
+        },
+        {
+          "label": "B",
+          "text": "A corporation that deploys an algorithm without auditing it for fairness."
+        },
+        {
+          "label": "C",
+          "text": "A job applicant who is unfairly rejected by an algorithmic screening tool."
+        },
+        {
+          "label": "D",
+          "text": "A regulatory body that fails to establish guidelines for algorithmic accountability."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "A software engineer is a moral agent—a person with intentionality, the capacity for deliberation, and awareness of consequences. Floridi’s concept of a moral patient specifically refers to entities that can be affected by moral actions, not those who perform them. The engineer would bear moral responsibility as an agent, not receive moral consideration as a patient.",
+        "B": "A corporation is an institutional moral agent that bears responsibility for its decisions (deployment without auditing). While the legal and philosophical status of corporate agency is debated, the passage’s use of “moral patient” clearly denotes entities on the receiving end of moral actions, not those performing them.",
+        "C": "Correct. The passage defines a moral patient as an entity “that can be affected by moral actions.” A job applicant who is unfairly rejected by an algorithm is directly and negatively affected by the system’s output. The applicant is the one who experiences the consequences of the algorithmic decision, making them the moral patient in this scenario—the entity toward whom moral obligations are owed.",
+        "D": "A regulatory body that fails to act is an institutional agent whose inaction has moral implications. Like the corporation, it is on the acting/failing-to-act side of the moral equation, not the affected side. A regulatory body’s failure to establish guidelines is a form of moral omission, not an instance of being morally affected."
+      },
+      "topic": "Application",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_philosophy_tech_203_q3",
+      "stem": "The critics who argue that “when everyone is responsible, no one is” are most directly challenging the:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "pragmatic synthesis proposed in the final paragraph."
+        },
+        {
+          "label": "B",
+          "text": "distributed model of moral responsibility described in the second paragraph."
+        },
+        {
+          "label": "C",
+          "text": "consequentialist view that moral evaluation should track outcomes rather than intentions."
+        },
+        {
+          "label": "D",
+          "text": "classical criteria for moral agency (intentionality, deliberation, awareness of consequences)."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The pragmatic synthesis proposed in the final paragraph is distinct from the distributed responsibility model. The pragmatic approach focuses on designing accountability systems (auditing, documentation) rather than distributing responsibility among agents. The critics’ objection targets the dilution of responsibility, which is a problem specific to the distributed model, not to the pragmatic system-design approach.",
+        "B": "Correct. The distributed model of moral responsibility, described in the second paragraph, proposes that accountability be shared among designers, engineers, institutions, and regulators. The criticism that “when everyone is responsible, no one is” directly targets this model’s central feature: by spreading responsibility across many actors, no single party bears sufficient accountability to ensure corrective action. This is a classic critique of collective responsibility frameworks in moral philosophy.",
+        "C": "The consequentialist view (tracking outcomes rather than intentions) is presented in the third paragraph as an alternative to the distributed model, not as part of it. The critics’ objection about diluted responsibility addresses how responsibility is allocated among agents, not whether moral evaluation should focus on consequences versus intentions.",
+        "D": "The classical criteria for moral agency are presented in the first paragraph as the philosophical baseline that algorithms fail to meet. The critics’ objection is not about whether algorithms are moral agents but about the practical adequacy of distributing human responsibility across multiple parties. They are critiquing a specific accountability framework, not the definition of agency itself."
+      },
+      "topic": "Author’s Reasoning",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_philosophy_tech_203_q4",
+      "stem": "If a court successfully held a technology company liable for algorithmic discrimination under existing product liability law, this outcome would most directly weaken the author’s claim that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "algorithms do not satisfy classical criteria for moral agency."
+        },
+        {
+          "label": "B",
+          "text": "the distributed responsibility model faces the problem of diluted accountability."
+        },
+        {
+          "label": "C",
+          "text": "machine learning models are epistemically opaque."
+        },
+        {
+          "label": "D",
+          "text": "product liability law is inadequate for addressing the harms caused by algorithmic systems."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "A court holding a company liable does not change whether algorithms satisfy criteria for moral agency. Legal liability for the company does not imply moral agency for the algorithm—it attributes responsibility to the human institution that deployed the system. The philosophical question of algorithmic agency is independent of how courts assign corporate liability.",
+        "B": "A successful product liability case would assign liability to a specific company, not distribute it among multiple parties. This would actually be consistent with the dilution critique (by concentrating responsibility) rather than weakening it. The distributed model and the dilution criticism operate at the level of moral philosophy, not courtroom outcomes.",
+        "C": "Epistemic opacity is a technical property of neural networks—the difficulty of explaining their decision-making processes—not a legal claim. A court could find a company liable based on the discriminatory impact of its algorithm without requiring a full explanation of the model’s internal logic. Establishing liability does not make the model more interpretable.",
+        "D": "Correct. The author argues in the fourth paragraph that product liability law “was designed for physical defects, not the epistemic opacity of machine learning” and is therefore inadequate. A successful court case using existing product liability doctrine would directly demonstrate that this legal framework can, in fact, accommodate algorithmic harms without modification, undermining the author’s assertion of inadequacy."
+      },
+      "topic": "Reasoning Beyond the Text",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_philosophy_tech_203_q5",
+      "stem": "The author’s discussion of the narcolepsy/surgeon example primarily serves to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "demonstrate that the therapy-enhancement distinction fails to track morally relevant differences in some cases."
+        },
+        {
+          "label": "B",
+          "text": "argue that all uses of modafinil should be considered therapeutic."
+        },
+        {
+          "label": "C",
+          "text": "provide evidence that cognitive enhancement is safe and effective."
+        },
+        {
+          "label": "D",
+          "text": "illustrate that surgeons are held to different ethical standards than other professionals."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The example presents two uses of the same drug—one classified as therapy (narcoleptic patient), the other as enhancement (healthy surgeon)—where the clinical consequences may be identical or even favor the enhancement case. The author uses this to argue that the therapy-enhancement distinction “is doing philosophical work it cannot sustain” because it morally differentiates scenarios that have the same practical stakes. The example functions as a counterexample that destabilizes the distinction by exposing its inability to capture what actually matters morally.",
+        "B": "The author does not argue that the surgeon’s use of modafinil is therapeutic. Instead, the author acknowledges that the surgeon’s use would be classified as enhancement (exceeding “normal” wakefulness) but questions whether this classification is morally meaningful when the clinical outcomes are the same or better.",
+        "C": "The example does not address the safety or efficacy of modafinil through clinical evidence. It is a philosophical thought experiment designed to probe a conceptual distinction, not a pharmacological argument. The author assumes the drug works in both cases and asks whether the moral evaluation should differ.",
+        "D": "The example is not about professional ethics standards for surgeons. The surgeon’s profession is incidental—what matters is that a healthy person uses a drug to perform above baseline in a high-stakes context. The example could substitute any professional to make the same philosophical point."
+      },
+      "topic": "Author’s Purpose",
+      "difficulty": "Medium",
+      "usePrevPassage": false,
+      "passage": "The prospect of cognitive enhancement technologies—from pharmacological nootropics to brain-computer interfaces—has generated a distinctive philosophical anxiety that echoes, but departs from, older debates about the ethics of human augmentation. Unlike prosthetics or corrective surgery, which restore impaired function to a species-typical baseline, cognitive enhancements promise to elevate performance beyond normal human limits. This distinction between therapy and enhancement is central to the debate, though its boundaries are less stable than its defenders assume.\n\nConsider modafinil, a wakefulness-promoting agent originally developed for narcolepsy. When a narcoleptic patient takes modafinil, few object: the drug corrects a pathological deficit. When a healthy surgeon takes modafinil to remain alert during a grueling overnight shift, the moral calculus shifts. The surgeon’s baseline wakefulness is “normal,” so the drug is now an enhancement. Yet the consequences for the patient on the operating table may be identical—or even better in the second case. A strict therapy-enhancement distinction would morally differentiate these scenarios despite their identical clinical stakes, which suggests the distinction is doing philosophical work it cannot sustain.\n\nOpponents of cognitive enhancement marshal several arguments. The authenticity objection holds that enhanced cognition is not truly “yours”—that achievements produced under pharmacological or technological augmentation lack the moral weight of unassisted accomplishments. The fairness objection contends that access to enhancements will track socioeconomic privilege, compounding existing inequalities. The coercion objection warns that once enhancements become widespread, opting out will cease to be a genuine choice: students who decline cognitive enhancers will be competing on unequal terms, effectively coerced by social pressure.\n\nProponents counter each objection in turn. Regarding authenticity, they note that we do not discount a writer’s work because they used a word processor rather than a quill, or an athlete’s vision correction because they wear contact lenses. Tools that extend human capacity have always been integrated into our conception of authentic achievement. The line between tool and enhancement is one of degree, not kind. On fairness, proponents observe that the solution to unequal access is equitable distribution, not prohibition—just as the inequitable distribution of education does not invalidate education itself. On coercion, they argue that social pressure to excel is not unique to enhancement technologies; it pervades every competitive domain from academics to athletics.\n\nWhat makes cognitive enhancement philosophically distinctive is its proximity to personal identity. A drug that enhances memory, a device that sharpens attention, or an interface that accelerates reasoning touches the very capacities through which we experience and interpret the world. If these capacities are modified, the question arises: who is the subject of the enhanced experience? This is not merely academic. A society in which cognitive capacities are purchasable commodities is one in which the Enlightenment ideal of inherent human equality—the notion that moral status does not depend on cognitive performance—faces its most direct challenge."
+    },
+    {
+      "id": "cars_philosophy_tech_203_q6",
+      "stem": "The proponents’ response to the authenticity objection relies on which of the following analogical reasoning strategies?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Arguing that the moral status of an activity depends on its legal classification."
+        },
+        {
+          "label": "B",
+          "text": "Showing that tools already accepted as legitimate (word processors, contact lenses) function as cognitive or perceptual enhancements, undermining a principled distinction between them and newer technologies."
+        },
+        {
+          "label": "C",
+          "text": "Demonstrating that enhanced achievements produce greater social benefit than unenhanced ones."
+        },
+        {
+          "label": "D",
+          "text": "Establishing that cognitive enhancement is natural because other species also modify their cognitive environments."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The proponents’ response does not invoke legal categories. They argue from common moral intuitions about accepted tools (word processors, contact lenses), not from any legal framework. The distinction between legitimate and illegitimate enhancement is philosophical, not juridical.",
+        "B": "Correct. The proponents use analogical reasoning to collapse the boundary between accepted tools and contested enhancements. A word processor enhances a writer’s productivity beyond what a quill allows; contact lenses enhance visual acuity beyond uncorrected capacity. We do not discount the resulting achievements as inauthentic. By showing that the line between tool and enhancement is “one of degree, not kind,” the proponents argue that cognitive enhancers are continuous with technologies already integrated into our conception of authentic achievement.",
+        "C": "The proponents’ authenticity argument does not rest on social benefit calculations. It rests on the consistency of our moral evaluations: if we accept tool-assisted achievements as authentic, we should apply the same standard to pharmacological or technological cognitive enhancements. The argument is about moral consistency, not utilitarian outcomes.",
+        "D": "The passage makes no reference to other species or naturalistic arguments. The proponents ground their argument in human cultural history (quills vs. word processors, uncorrected vs. corrected vision), not in cross-species comparisons. The appeal is to cultural precedent, not biological naturalness."
+      },
+      "topic": "Reasoning Within the Text",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_philosophy_tech_203_q7",
+      "stem": "The author’s claim that cognitive enhancement touches “the very capacities through which we experience and interpret the world” implies that cognitive enhancement is philosophically distinct from other forms of augmentation because it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is more expensive and therefore less accessible than physical enhancements."
+        },
+        {
+          "label": "B",
+          "text": "raises health risks that physical prosthetics do not."
+        },
+        {
+          "label": "C",
+          "text": "potentially alters the subjective perspective of the enhanced individual, not just their performance."
+        },
+        {
+          "label": "D",
+          "text": "has no historical precedent, unlike physical tools and prosthetics."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Cost and accessibility are addressed under the fairness objection, not the identity-related concern in the final paragraph. The philosophical distinctiveness the author highlights is about the relationship between cognitive capacities and personal identity, not about economic barriers.",
+        "B": "Health risks are not discussed in the passage. The philosophical distinctiveness of cognitive enhancement is framed in terms of identity and subjective experience, not physical safety. A perfectly safe cognitive enhancer would still raise the identity questions the author describes.",
+        "C": "Correct. The final paragraph argues that cognitive capacities—memory, attention, reasoning—are constitutive of how we experience and interpret reality. Modifying these capacities does not merely improve performance (like a faster prosthetic leg) but potentially changes the subject of the experience. The question “who is the subject of the enhanced experience?” reveals the author’s core concern: cognitive enhancement is proximate to personal identity in a way that other augmentations are not.",
+        "D": "The passage acknowledges extensive historical precedent for cognitive augmentation through tools (word processors, writing systems). The author’s point is not that cognitive enhancement is unprecedented but that its new forms (pharmacological, neural interface) are qualitatively closer to the core of personal identity than earlier tools, raising distinct philosophical questions about selfhood."
+      },
+      "topic": "Inference",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_philosophy_tech_203_q8",
+      "stem": "Which of the following, if true, would most strengthen the coercion objection described in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that professional licensing boards have begun requiring demonstrated cognitive enhancement use as a condition of certification in high-stakes fields."
+        },
+        {
+          "label": "B",
+          "text": "Studies showing that cognitive enhancers produce only marginal performance improvements."
+        },
+        {
+          "label": "C",
+          "text": "Data showing that the majority of enhancement users report choosing to enhance freely and without external pressure."
+        },
+        {
+          "label": "D",
+          "text": "Research demonstrating that cognitive enhancement has no effect on competitive outcomes in academic settings."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The coercion objection warns that once enhancements become widespread, opting out will cease to be a genuine choice. If licensing boards require demonstrated enhancement use, the coercion becomes institutional rather than merely social: professionals who decline enhancement would be legally barred from practice. This transforms the coercion objection from a speculative concern about social pressure into a concrete example of formal institutional compulsion, significantly strengthening the objection.",
+        "B": "If enhancements produce only marginal improvements, the competitive pressure to use them would be reduced, weakening the coercion objection. The objection depends on enhancements providing sufficient advantage that non-users are placed at a meaningful disadvantage. Marginal effects would make opting out less costly.",
+        "C": "Self-reported free choice among current users would directly undermine the coercion objection by providing empirical evidence that enhancement use is voluntary. The objection rests on the prediction that choice will become constrained as adoption spreads; data showing users feel unconstrained would challenge this prediction.",
+        "D": "If enhancements have no effect on competitive outcomes, there would be no competitive disadvantage to opting out, eliminating the coercive pressure entirely. The coercion objection requires that non-users face meaningful disadvantages, which would not exist if enhancements are competitively neutral."
+      },
+      "topic": "Strengthen/Weaken",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_philosophy_tech_203_q9",
+      "stem": "The final paragraph’s reference to “the Enlightenment ideal of inherent human equality” functions in the passage to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "introduce a historical claim about the origins of cognitive enhancement."
+        },
+        {
+          "label": "B",
+          "text": "provide evidence that cognitive enhancement was debated during the Enlightenment period."
+        },
+        {
+          "label": "C",
+          "text": "undermine the proponents’ argument that cognitive enhancement is analogous to existing tools."
+        },
+        {
+          "label": "D",
+          "text": "frame the stakes of the cognitive enhancement debate by connecting it to a foundational moral principle threatened by the commodification of cognitive capacities."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The reference to the Enlightenment does not claim that cognitive enhancement existed or was discussed during that period. It invokes a moral-philosophical principle—inherent human equality—that originated in Enlightenment thought and is now challenged by the prospect of purchasable cognitive capacities.",
+        "B": "The passage does not suggest that cognitive enhancement was a topic of Enlightenment-era debate. The reference uses the Enlightenment as a source of a moral principle (that moral status does not depend on cognitive performance), not as a historical period in which enhancement technologies were discussed.",
+        "C": "The Enlightenment reference does not directly engage with the proponents’ analogical argument about tools. It operates at a higher level—framing the societal stakes—rather than rebutting a specific argument about word processors and contact lenses.",
+        "D": "Correct. The author invokes the Enlightenment ideal of inherent human equality to elevate the discussion from philosophical abstraction to civilizational stakes. If cognitive capacities become purchasable commodities, the principle that all humans have equal moral status regardless of cognitive ability faces a “direct challenge.” The reference functions rhetorically to signal that the enhancement debate is not merely academic but threatens a foundational commitment of liberal democratic societies."
+      },
+      "topic": "Author’s Purpose",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    }
+  ],
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  }
+}

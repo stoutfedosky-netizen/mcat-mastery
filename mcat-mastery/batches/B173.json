@@ -1,0 +1,245 @@
+{
+  "batch": "B173",
+  "section": "ps",
+  "sectionName": "Psychological, Social, and Biological Foundations of Behavior",
+  "topicArea": "Stress Appraisal and Coping / Social Determinants of Health",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "B173_Q0",
+      "passage": "A university research team investigated how undergraduate students' cognitive appraisal of academic stressors related to their coping strategies and subsequent performance. Drawing on the transactional model of stress, the researchers hypothesized that students who appraised a demanding course as a challenge rather than a threat would employ more problem-focused coping and achieve higher grades.\n\nParticipants (N = 240) enrolled in an introductory organic chemistry course completed surveys at three time points: the beginning of the semester, one week before the first midterm, and one week after grades were posted. At baseline, participants reported demographic information, self-efficacy beliefs, and locus of control orientation. Before the midterm, participants completed a cognitive appraisal measure that classified their primary appraisal of the upcoming exam as challenge-oriented or threat-oriented. After grades were posted, participants reported their coping strategies using a standardized inventory distinguishing problem-focused coping (increased study time, seeking tutoring, forming study groups), emotion-focused coping (venting, distancing, positive reframing), and avoidant coping (denial, behavioral disengagement, substance use).\n\nResults showed that 58% of participants endorsed a predominantly challenge appraisal, while 42% endorsed a predominantly threat appraisal. Challenge-appraisal students reported significantly higher problem-focused coping (M = 3.8, SD = 0.7) compared to threat-appraisal students (M = 2.9, SD = 0.9; p < 0.001). Threat-appraisal students reported significantly higher avoidant coping (M = 3.1, SD = 1.0) compared to challenge-appraisal students (M = 1.9, SD = 0.8; p < 0.001). Emotion-focused coping did not differ significantly between groups (p = 0.34). After controlling for baseline self-efficacy and high school GPA, challenge appraisal predicted higher midterm scores (β = 0.28, p < 0.01). Mediation analysis indicated that problem-focused coping partially mediated the relationship between challenge appraisal and exam performance.\n\nStudents with an internal locus of control were more likely to endorse a challenge appraisal (OR = 2.4, 95% CI: 1.6–3.5), while those with an external locus of control were more likely to endorse a threat appraisal.",
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": false,
+      "stem": "In the transactional model of stress, primary appraisal refers to the process by which an individual:",
+      "choices": {
+        "A": "evaluates the coping resources available to manage a stressor",
+        "B": "determines the objective difficulty of a task based on prior experience",
+        "C": "selects among problem-focused, emotion-focused, and avoidant coping strategies",
+        "D": "evaluates whether a situation is irrelevant, benign-positive, or stressful—including whether a stressful event is perceived as harmful, threatening, or challenging"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Evaluating available coping resources describes secondary appraisal, not primary appraisal. In the transactional model, secondary appraisal follows primary appraisal and involves assessing what can be done about the situation—what resources and options one has. The passage distinguishes between appraising the event itself and the coping response to it.",
+        "B": "Primary appraisal is a subjective evaluation of personal significance, not an objective assessment of task difficulty. Two students facing the same exam can arrive at different primary appraisals depending on their individual perception of the stakes and their relationship to the event. The passage demonstrates this by showing that students in the same course differed in appraisal type.",
+        "C": "Selecting among coping strategies occurs after both primary and secondary appraisal have been completed. Coping selection is a behavioral response to the appraisal process, not the appraisal itself. The passage treats coping as an outcome variable that follows from appraisal, not as part of the appraisal process.",
+        "D": "Primary appraisal is the initial evaluation of an event's personal significance. The individual determines whether the event is irrelevant, benign-positive, or stressful. If stressful, the event is further classified as involving harm or loss (damage already done), threat (anticipated harm), or challenge (potential for growth or mastery). The passage's distinction between challenge and threat appraisals reflects this primary appraisal classification within the transactional model."
+      },
+      "topic": "Lazarus's transactional model of stress",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B173_Q1",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The finding that problem-focused coping partially mediated the relationship between challenge appraisal and exam performance indicates that:",
+      "choices": {
+        "A": "part of the effect of challenge appraisal on exam scores was explained by the increased use of problem-focused coping, but challenge appraisal also had a direct effect not accounted for by coping",
+        "B": "problem-focused coping and challenge appraisal independently predicted exam scores with no overlap in their explanatory power",
+        "C": "the relationship between challenge appraisal and exam performance was entirely spurious, fully explained by coping as a confounding variable",
+        "D": "problem-focused coping moderated the appraisal-performance relationship, meaning challenge appraisal improved performance only when coping was above a threshold level"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Partial mediation means that some of the effect of the independent variable (challenge appraisal) on the outcome (exam performance) operates through the mediator (problem-focused coping), but a significant direct effect remains after accounting for the mediator. This means challenge appraisal leads to more problem-focused coping, which improves performance, but challenge appraisal also improves performance through other pathways not captured by the coping measure.",
+        "B": "Independent prediction without overlap describes a situation with no mediation. If problem-focused coping were a mediator, its inclusion in the model would reduce the direct effect of challenge appraisal on performance, indicating shared variance. Independent effects would mean the two variables contribute separately, which contradicts the definition of mediation.",
+        "C": "Full confounding would mean that the appraisal-performance relationship disappears entirely when coping is controlled. Partial mediation is different: the independent variable genuinely influences the mediator, which in turn influences the outcome. The key distinction is that mediation implies a causal chain (appraisal → coping → performance), while confounding implies a third variable that spuriously creates an apparent relationship.",
+        "D": "Moderation describes an interaction effect in which the strength or direction of the appraisal-performance relationship depends on the level of coping. Mediation describes a process through which the effect operates. The passage specifically uses the term mediation, which implies that coping is part of the causal pathway, not a boundary condition."
+      },
+      "topic": "Mediation in research design",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "B173_Q2",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The researchers controlled for baseline self-efficacy and high school GPA in the regression analysis most likely to:",
+      "choices": {
+        "A": "increase statistical power by adding predictors to the regression model",
+        "B": "allow causal conclusions despite the observational design of the study",
+        "C": "reduce the likelihood that observed associations between appraisal and performance were attributable to pre-existing differences in academic ability or confidence",
+        "D": "convert the quasi-experimental design into a true randomized experiment"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Adding covariates to a regression model does not increase statistical power; in fact, it can reduce power by consuming degrees of freedom if the covariates are not meaningfully related to the outcome. The purpose of including these covariates was to address confounding, not to enhance power.",
+        "B": "Statistical control for confounders does not transform an observational study into one capable of supporting causal conclusions. Unmeasured confounders may still exist, and the lack of random assignment means that observed associations could reflect selection effects not captured by the covariates. Controlling reduces specific threats to internal validity but does not establish causality.",
+        "C": "Students who enter a course with higher self-efficacy or stronger academic records may be more likely to appraise the exam as a challenge and also more likely to perform well. Without controlling for these pre-existing differences, the observed association between challenge appraisal and performance might simply reflect the fact that stronger students both appraise more positively and score higher. Including these covariates helps isolate the contribution of appraisal style beyond what is predicted by prior ability and confidence.",
+        "D": "No statistical technique can convert an observational or quasi-experimental design into a true experiment. Randomized experiments require random assignment of participants to conditions before the intervention, which cannot be achieved retroactively through statistical analysis. The study design remains observational regardless of which covariates are included."
+      },
+      "topic": "Controlling for confounders in research",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B173_Q3",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The finding that internal locus of control predicted challenge appraisal is most consistent with:",
+      "choices": {
+        "A": "the James-Lange theory, which holds that physiological arousal determines emotional experience",
+        "B": "social cognitive theory, which emphasizes that self-beliefs about personal control shape how individuals interpret and respond to environmental demands",
+        "C": "drive reduction theory, which posits that behavior is motivated by the need to reduce physiological tension",
+        "D": "psychoanalytic defense mechanisms, which describe unconscious strategies for managing anxiety"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The James-Lange theory addresses the sequence of physiological arousal and emotional experience, not the role of control beliefs in stress appraisal. The finding is about cognitive appraisal of a stressor, not about the relationship between bodily states and emotions.",
+        "B": "Social cognitive theory (Bandura) emphasizes reciprocal determinism among personal factors, behavior, and environment. Central to the theory is the idea that beliefs about personal agency—including self-efficacy and perceived control—shape how individuals interpret situations. Students with an internal locus of control believe their outcomes result from their own actions, which aligns with appraising a difficult exam as a challenge to be mastered rather than a threat imposed by external forces beyond their control.",
+        "C": "Drive reduction theory explains motivation as the reduction of internal tension states arising from biological needs. It does not address cognitive appraisal of academic stressors or the role of control beliefs in interpreting events. The finding is about how self-beliefs influence perception, not about tension reduction.",
+        "D": "Psychoanalytic defense mechanisms operate unconsciously to protect the ego from anxiety. While defense mechanisms could theoretically influence stress responses, the passage describes a conscious cognitive appraisal process shaped by locus of control beliefs. The finding is more directly explained by social cognitive theory's emphasis on self-beliefs and agency than by unconscious defensive processes."
+      },
+      "topic": "Theoretical frameworks in psychology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B173_Q4",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "A student who responds to a poor midterm grade by telling herself, \"This experience will make me stronger and better prepared for the final,\" is using which type of coping?",
+      "choices": {
+        "A": "Emotion-focused coping through positive reframing, which alters the emotional significance of the stressor without directly changing the situation",
+        "B": "Problem-focused coping through active planning, which addresses the root cause of the stress",
+        "C": "Avoidant coping through denial, which involves refusing to acknowledge the stressor",
+        "D": "Problem-focused coping through seeking instrumental support from peers"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Positive reframing is a form of emotion-focused coping in which the individual reinterprets a negative event in a more positive light. The student is not changing the grade or modifying her study behavior; she is changing the meaning she assigns to the experience. By viewing the poor grade as a growth opportunity, she reduces its emotional impact without altering the situation itself. The passage classifies positive reframing under emotion-focused coping.",
+        "B": "Active planning involves developing a concrete strategy to address the source of stress, such as creating a study schedule or meeting with a professor. The student's statement reinterprets the meaning of the event but does not describe any specific behavioral action to change future performance. Reframing is cognitive and emotion-focused, not action-oriented and problem-focused.",
+        "C": "Denial involves refusing to accept that the stressor exists or is significant. The student is not denying the poor grade; she is acknowledging it and reinterpreting its significance in a more positive framework. Positive reframing requires recognition of the negative event, which distinguishes it from denial.",
+        "D": "Seeking instrumental support involves obtaining practical help from others, such as asking a classmate for notes or visiting a tutor. The student's self-directed cognitive reinterpretation does not involve any social or instrumental support-seeking behavior."
+      },
+      "topic": "Coping strategy classification",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "B173_Q5",
+      "passage": "Researchers analyzed county-level data from a national health survey to examine relationships between socioeconomic status (SES), social capital, and health outcomes. The cross-sectional study included data from 1,200 counties across diverse geographic regions. SES was operationalized through three measures: median household income, educational attainment (percentage of adults with a bachelor's degree or higher), and unemployment rate. Social capital was measured using voter turnout, civic organization density, and a survey-based social trust index.\n\nHealth outcomes included age-adjusted all-cause mortality rates, diabetes prevalence, and self-reported counts of physically and mentally unhealthy days per month.\n\nMultiple regression analyses revealed that median household income was the strongest predictor of age-adjusted mortality (β = −0.42, p < 0.001), followed by educational attainment (β = −0.31, p < 0.001). Social capital independently predicted mortality after controlling for SES indicators (β = −0.18, p < 0.01). A significant interaction emerged between SES and social capital: the protective association of social capital with lower mortality was stronger in low-SES counties than in high-SES counties (interaction β = 0.15, p < 0.05).\n\nDiabetes prevalence was most strongly predicted by educational attainment (β = −0.38, p < 0.001) and unemployment rate (β = 0.25, p < 0.001). Self-reported poor mental health days were predicted by unemployment (β = 0.33, p < 0.001) and low social trust (β = −0.22, p < 0.01). Income was not a significant predictor of mental health days after controlling for the other SES measures and social capital.",
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": false,
+      "stem": "Fundamental cause theory would explain the persistent association between SES and mortality observed across different diseases and historical periods by arguing that:",
+      "choices": {
+        "A": "genetic variation linked to socioeconomic position accounts for differential disease susceptibility across income groups",
+        "B": "personality traits common among lower-SES individuals, such as impulsivity, directly increase mortality risk",
+        "C": "higher-SES individuals possess flexible resources—including money, knowledge, power, and social connections—that can be deployed to avoid health risks regardless of which specific diseases or risk factors are prevalent",
+        "D": "government health policies systematically exclude lower-SES communities from access to all forms of medical care"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Fundamental cause theory does not invoke genetic explanations for SES-mortality gradients. The theory focuses on social and economic resources that enable health-protective behavior, not on biological differences between socioeconomic groups. Attributing health disparities to genetic variation conflates social position with biological endowment.",
+        "B": "Attributing mortality differences to personality traits individualizes what fundamental cause theory treats as a structural phenomenon. The theory argues that SES operates through flexible resources that are socially distributed, not through personality characteristics. This explanation also risks blaming individuals for health outcomes shaped by systemic inequalities.",
+        "C": "Fundamental cause theory (Link and Phelan) holds that SES is a fundamental cause of disease because it embodies access to flexible resources that can be used to avoid risks and adopt protective strategies. These resources—money, knowledge, prestige, power, and beneficial social connections—can be redeployed as the specific mechanisms linking SES to health change over time. This explains why the SES-mortality gradient persists even as particular diseases and risk factors rise and fall in importance.",
+        "D": "While unequal access to healthcare is one pathway through which SES affects health, fundamental cause theory is broader than healthcare policy. The theory encompasses all flexible resources, not just access to medical services. Moreover, it explains why disparities persist even in contexts where formal healthcare access is equalized, because higher-SES individuals still deploy other resources to maintain health advantages."
+      },
+      "topic": "Fundamental cause theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B173_Q6",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The significant interaction between SES and social capital in predicting mortality indicates that:",
+      "choices": {
+        "A": "the effects of SES and social capital are completely redundant, measuring the same underlying construct",
+        "B": "social capital is protective only in high-SES counties and has no effect in low-SES counties",
+        "C": "the relationship between SES and mortality is the same regardless of the level of social capital in a county",
+        "D": "social capital has a larger protective association with mortality in low-SES counties than in high-SES counties, suggesting it may partially buffer the health effects of economic disadvantage"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "If SES and social capital were completely redundant, adding social capital to a model already containing SES would not improve prediction, and there would be no significant independent or interaction effects. The data show that social capital independently predicts mortality beyond SES (β = −0.18), and their interaction is significant, indicating they are related but distinct constructs.",
+        "B": "The interaction indicates that social capital's protective effect is stronger in low-SES counties, not absent. A positive interaction coefficient between SES and social capital means that as SES increases, the additional protective effect of social capital diminishes—but it remains present. Social capital is protective across SES levels, with a larger effect where economic resources are limited.",
+        "C": "A significant interaction term directly contradicts the claim that the relationship is the same at all levels. By definition, a significant interaction means the association between one predictor and the outcome varies depending on the level of the other predictor. If there were no interaction, the slopes would be parallel across SES levels.",
+        "D": "The positive interaction coefficient (β = 0.15) indicates that the protective effect of social capital on mortality is attenuated at higher SES levels and amplified at lower SES levels. This pattern suggests that social capital may serve as a partial buffer against the health disadvantages of low economic resources—community trust, civic engagement, and organizational density may provide health-relevant resources that partially compensate for limited individual economic means."
+      },
+      "topic": "Statistical interaction interpretation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "B173_Q7",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "The use of county-level rather than individual-level data in this study introduces the risk of:",
+      "choices": {
+        "A": "the Hawthorne effect, in which participants change behavior because they know they are being observed",
+        "B": "ecological fallacy, in which associations observed at the group level are incorrectly assumed to hold for individuals within those groups",
+        "C": "attrition bias, in which differential dropout distorts the study results",
+        "D": "demand characteristics, in which participants infer the study hypothesis and adjust their responses accordingly"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The Hawthorne effect applies when participants alter their behavior due to awareness of being studied. County-level data are aggregated from surveys and records, and counties are not sentient entities that can change behavior in response to observation. This bias is relevant to individual-level behavioral studies, not ecological analyses of population health data.",
+        "B": "Ecological fallacy occurs when conclusions about individuals are drawn from data collected at the group level. For example, the finding that counties with higher income have lower mortality does not necessarily mean that higher-income individuals within a given county have lower mortality than their lower-income neighbors. The association could be driven by county-level factors such as infrastructure quality or environmental conditions that affect all residents, not by individual income.",
+        "C": "Attrition bias arises in longitudinal studies when participants drop out differentially. This is a cross-sectional study using existing county-level data, so there is no longitudinal follow-up and no participant dropout that could produce attrition bias.",
+        "D": "Demand characteristics apply when human participants in a study infer what the researcher expects and modify their responses. County-level data analysis involves aggregated statistics, not direct interaction with participants who could discern and respond to experimenter expectations."
+      },
+      "topic": "Ecological fallacy and study design limitations",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B173_Q8",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "A researcher argues that the association between unemployment and self-reported poor mental health days could reflect reverse causation. This concern is most directly attributable to:",
+      "choices": {
+        "A": "the absence of a placebo control group in the study",
+        "B": "the use of self-report measures rather than clinical diagnoses",
+        "C": "the cross-sectional design, which captures associations at a single time point and cannot establish whether unemployment preceded mental health deterioration or vice versa",
+        "D": "the study's reliance on county-level rather than individual-level data"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A placebo control is relevant to experimental studies testing interventions, not to observational studies examining associations between socioeconomic variables and health outcomes. The concern about reverse causation relates to temporal ordering, not to the absence of a control condition.",
+        "B": "Self-report measurement introduces potential biases such as social desirability or recall bias, but these are distinct from the reverse causation concern. Even if mental health were measured by clinical diagnosis rather than self-report, a cross-sectional design would still be unable to determine whether unemployment caused mental health problems or mental health problems led to job loss.",
+        "C": "Cross-sectional studies measure all variables at a single time point, making it impossible to determine which variable preceded the other. The association between unemployment and poor mental health days could mean that unemployment causes psychological distress, that pre-existing mental health conditions lead to job loss, or that both are caused by a third variable. Establishing temporal precedence requires longitudinal data with repeated measurements over time.",
+        "D": "Using county-level data introduces ecological fallacy concerns, which are distinct from reverse causation. Reverse causation is a temporal ordering problem that applies equally to individual-level and group-level cross-sectional data. Even individual-level cross-sectional data would face the same ambiguity about whether unemployment preceded or followed mental health decline."
+      },
+      "topic": "Cross-sectional design limitations",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "B173_Q9",
+      "passage": null,
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": true,
+      "stem": "Based on the regression results, which intervention would be most consistent with the strongest observed association with lower county-level all-cause mortality?",
+      "choices": {
+        "A": "Programs that raise median household income in low-income counties, given that income was the strongest predictor of mortality",
+        "B": "Campaigns to increase voter turnout as a proxy for building social capital in all counties regardless of SES",
+        "C": "Universal screening for diabetes, since diabetes prevalence was significantly predicted by educational attainment",
+        "D": "Expanding mental health services, since unemployment predicted poor mental health days"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Median household income had the largest standardized regression coefficient for predicting age-adjusted all-cause mortality (β = −0.42), making it the variable with the strongest observed association with the outcome. While the cross-sectional design limits causal inference, interventions targeting the variable with the strongest association are most consistent with the data. Income-raising programs in low-income counties address the variable most strongly linked to mortality in the regression model.",
+        "B": "Voter turnout was one component of the social capital measure, which did predict mortality (β = −0.18) but with a substantially smaller effect size than income (β = −0.42). Additionally, the interaction finding suggests social capital is most protective in low-SES counties, so an untargeted campaign across all counties regardless of SES would not be the most efficient strategy suggested by the data.",
+        "C": "Diabetes prevalence was a separate outcome variable in the analysis, not a predictor of mortality. Screening for diabetes could improve diabetes outcomes, but the question asks about reducing all-cause mortality. The regression model for mortality identified income and education as the strongest predictors, not diabetes prevalence.",
+        "D": "Unemployment predicted self-reported poor mental health days, which is a different outcome from all-cause mortality. While mental health and mortality may be related, the regression model for mortality specifically identified income and educational attainment as the strongest predictors. Expanding mental health services addresses a different outcome than the one specified in the question."
+      },
+      "topic": "Applying research findings to interventions",
+      "difficulty": "Medium"
+    }
+  ]
+}

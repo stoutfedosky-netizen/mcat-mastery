@@ -1,0 +1,179 @@
+{
+  "batch": "B007",
+  "section": "cars",
+  "topicArea": "Author Attitude Attribution",
+  "questionCount": 5,
+  "questions": [
+    {
+      "id": "cars_arts_011",
+      "stem": "Benjamin's attitude toward the loss of aura, as presented in the passage, is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "purely celebratory, viewing the destruction of aura as an unqualified democratic achievement"
+        },
+        {
+          "label": "B",
+          "text": "purely elegiac, mourning the loss of authentic artistic experience"
+        },
+        {
+          "label": "C",
+          "text": "ambivalent, recognizing both the loss of unique presence and the liberation from entrenched authority"
+        },
+        {
+          "label": "D",
+          "text": "indifferent, treating the change as technologically inevitable and morally neutral"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage explicitly attributes to Benjamin a recognition of loss — the destruction of 'unique, unrepeatable presence' and the severing of art from 'its lived environment.' These are real losses in his account, not neutral changes. A purely celebratory reading would ignore the first paragraph's emphasis on what aura provided.",
+        "B": "The passage states that 'Benjamin's analysis was not simply nostalgic.' He recognized the loss of aura as also a liberation — reproduction 'democratized access' and freed art from entanglement with political and religious authority. A purely elegiac reading contradicts the passage's explicit denial of nostalgia.",
+        "C": "Correct. The passage carefully presents Benjamin as holding both dimensions in view: aura carried genuine experiential value (unique presence, historical weight, spatial context) but was also entangled with power structures (religious cult value, aristocratic social distinction). Its destruction simultaneously impoverished the experience of art and opened art to democratic and political possibilities. This ambivalence — loss and liberation as inseparable aspects of the same process — is the core of Benjamin's position as the passage presents it.",
+        "D": "Benjamin was not indifferent to the change. He analyzed its implications in both directions — as loss and as liberation — which demonstrates engaged evaluation, not neutral detachment. The passage presents him as deeply invested in understanding the meaning of the transformation, not as treating it as a mere technological fact."
+      },
+      "topic": "Author Attitude Attribution",
+      "difficulty": "Medium",
+      "usePrevPassage": false,
+      "passage": "Walter Benjamin argued in 1935 that mechanical reproduction — photography, film, sound recording — fundamentally altered the nature of art by destroying what he called its aura: the sense of unique, unrepeatable presence that an original artwork possesses by virtue of being embedded in a specific time, place, and tradition. A cathedral fresco seen in situ carries the weight of its history, its spatial context, its ritual function; the same image reproduced in a textbook has been stripped of all this, reduced to visual information severed from its lived environment.\n\nBenjamin's analysis was not simply nostalgic. He recognized that the loss of aura was also a liberation. Traditional art's aura had been entangled with political and religious authority — the cult value of sacred images, the power of aristocratic collections to signify social distinction. Reproduction democratized access to art, making images available to audiences who would never enter a Florentine chapel or a Parisian salon. The photograph and the film, by severing art from its ritual foundations, opened it to new, explicitly political uses.\n\nNearly a century later, digital reproduction has extended Benjamin's analysis to a point he could not have foreseen. A digital file can be copied without any loss of quality, shared instantaneously across the globe, and modified by anyone with basic software. The distinction between original and copy, which still held for photographs and films (a negative, a master reel), has effectively collapsed. In the digital realm, there is no original — only an indefinite series of identical instances. Even the language of ownership becomes unstable: one may possess a file, stream access to it, remix it, or encounter it detached from any authorial context, all without changing the visible object on the screen.\n\nThis collapse has provoked two opposing reactions. Cultural conservatives mourn the death of artistic authenticity, arguing that when everything is equally available and endlessly reproducible, nothing retains the capacity to command reverence or sustained attention. The artwork becomes content — interchangeable, disposable, scrolled past in the same gesture that dismisses an advertisement. Digital optimists counter that this is precisely what makes the present moment so artistically fertile: freed from the gatekeeping institutions that determined which objects deserved an aura, creativity now flows horizontally through networks, remixed and recombined by communities rather than handed down by authorities.\n\nThe difficulty is that both reactions inherit part of Benjamin's insight while simplifying its ambivalence. Digital circulation can flatten attention, but it can also generate forms of participation unavailable to the solitary viewer before a consecrated original. The loss of aura may therefore be neither cultural catastrophe nor automatic emancipation. It is a change in the social life of images, and its meaning depends on whether reproduction produces critical engagement or merely accelerates consumption."
+    },
+    {
+      "id": "cars_arts_012",
+      "stem": "The passage suggests that digital reproduction differs from earlier forms of mechanical reproduction (photography, film) primarily because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "digital reproduction produces lower-quality copies than analog methods"
+        },
+        {
+          "label": "B",
+          "text": "digital reproduction eliminates the distinction between original and copy entirely, whereas earlier technologies preserved it in attenuated form"
+        },
+        {
+          "label": "C",
+          "text": "digital reproduction is available only to wealthy institutions, unlike photography which was accessible to all"
+        },
+        {
+          "label": "D",
+          "text": "digital reproduction restored the aura that earlier mechanical reproduction had destroyed"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage states the opposite: digital files 'can be copied without any loss of quality.' Digital reproduction is presented as surpassing earlier methods in fidelity, not as producing inferior copies.",
+        "B": "Correct. The passage draws a specific distinction: earlier reproductive technologies (photography, film) still maintained some trace of the original-copy hierarchy — 'a negative, a master reel' served as the source from which copies were derived. Digital reproduction collapses this entirely: 'there is no original — only an indefinite series of identical instances.' The shift from an attenuated original-copy distinction to its complete elimination represents a qualitative change that 'extended Benjamin's analysis to a point he could not have foreseen.' The difference is not just quantitative (more copies, faster distribution) but ontological (the concept of an original ceases to apply).",
+        "C": "The passage presents digital tools as broadly accessible — images can be 'modified by anyone with basic software' and shared 'instantaneously across the globe.' This suggests wide accessibility, not restriction to wealthy institutions. Photography's accessibility is not contrasted unfavorably with digital technology's.",
+        "D": "Digital reproduction intensifies the destruction of aura rather than restoring it. If anything, the passage suggests that digital technology has pushed the loss of aura further than Benjamin imagined possible. The cultural conservatives' concern about artwork becoming disposable 'content' reflects an intensified, not reversed, version of Benjamin's original analysis."
+      },
+      "topic": "Comparative Analysis",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_arts_013",
+      "stem": "The 'cultural conservatives' described in the final paragraph would most likely view which of the following developments with the greatest concern?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A major museum digitizing its collection and making high-resolution images freely available online"
+        },
+        {
+          "label": "B",
+          "text": "A new law requiring copyright registration for all digital artworks"
+        },
+        {
+          "label": "C",
+          "text": "A university adding courses on the history of photography to its art history curriculum"
+        },
+        {
+          "label": "D",
+          "text": "A gallery hosting an exhibition of original oil paintings by contemporary artists"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The cultural conservatives argue that 'when everything is equally available and endlessly reproducible, nothing retains the capacity to command reverence or sustained attention.' A museum digitizing its collection and making it freely available online is a direct instantiation of this concern: artworks that previously required physical pilgrimage (to a specific museum, in a specific city) become digital content available to anyone with an internet connection. The aura generated by the artwork's unique physical presence in the museum — its spatial context, its scale, its relationship to other works — is stripped away, and the image becomes one more item in an infinite scroll. This is precisely the transformation from 'artwork' to 'content' that the conservatives lament.",
+        "B": "Copyright registration creates legal scarcity and ownership — it re-imposes some version of the original-copy distinction by legally designating certain instances as authorized. The conservatives, who mourn the loss of scarcity and reverence, would likely view copyright protection favorably, not with concern.",
+        "C": "Adding photography courses to a curriculum does not intensify the reproduction or decontextualization of art. It is an educational expansion that the conservatives would likely view neutrally or positively, as it involves sustained scholarly attention to artistic media rather than casual consumption.",
+        "D": "An exhibition of original oil paintings in a physical gallery is exactly the kind of experience the conservatives would endorse. It preserves the elements they value: physical uniqueness, spatial context, the irreplaceability of the in-person encounter. This represents the persistence of aura, not its destruction."
+      },
+      "topic": "Reasoning Beyond the Text: Prediction",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_arts_014",
+      "stem": "Which of the following, if true, would most directly undermine the digital optimists' argument as presented in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Studies showing that digital art creation tools have become less expensive over the past decade"
+        },
+        {
+          "label": "B",
+          "text": "Evidence that algorithmically driven platforms systematically amplify commercially viable content while suppressing experimental and challenging work"
+        },
+        {
+          "label": "C",
+          "text": "Data showing that more people visit art museums today than at any previous point in history"
+        },
+        {
+          "label": "D",
+          "text": "Research indicating that most professional artists still use traditional media alongside digital tools"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Cheaper tools would strengthen the optimists' argument by making creative production more accessible. This supports the claim that creativity 'flows horizontally through networks' rather than being controlled by gatekeeping institutions.",
+        "B": "Correct. The digital optimists argue that digital reproduction frees creativity from 'gatekeeping institutions that determined which objects deserved an aura,' allowing horizontal, community-driven creative production. If algorithmic platforms replace institutional gatekeepers with algorithmic gatekeepers — and if those algorithms systematically favor commercial over experimental content — then digital technology has not eliminated gatekeeping but transformed it. The old institutional authorities (museums, galleries, publishers) have been replaced by new ones (platform algorithms, engagement metrics), and the new gatekeepers may be even less accountable. This directly undermines the optimists' key claim that digital reproduction enables genuinely democratic creativity.",
+        "C": "Increased museum attendance does not address the digital optimists' argument, which is about digital creativity and distribution, not about physical museums. If anything, this data might suggest that aura still has cultural pull, which is relevant to the conservatives' position rather than the optimists'.",
+        "D": "Professional artists using traditional media alongside digital tools is compatible with the optimists' position — digital tools expand the creative palette without eliminating traditional options. This does not challenge the claim that digital reproduction enables horizontal creativity."
+      },
+      "topic": "Reasoning Beyond the Text: Weakening",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_arts_015",
+      "stem": "Based on the passage as a whole, the author's own position on the cultural significance of digital reproduction is most likely that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "digital reproduction is an unambiguous threat to artistic culture that must be resisted"
+        },
+        {
+          "label": "B",
+          "text": "digital reproduction is an unambiguous advance that has made art more democratic and accessible"
+        },
+        {
+          "label": "C",
+          "text": "the cultural significance of digital reproduction, like earlier mechanical reproduction, involves genuine gains and genuine losses that resist simple evaluation"
+        },
+        {
+          "label": "D",
+          "text": "the debate between conservatives and optimists is too recent to evaluate, and the author withholds judgment entirely"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage does not align with the conservative position exclusively. The author presents both reactions to digital reproduction with equal substantive weight, and the passage's treatment of Benjamin — who saw both loss and liberation — suggests a model of ambivalent analysis rather than one-sided resistance.",
+        "B": "The passage gives the conservatives' concerns real weight — the transformation of artwork into disposable 'content' is described vividly, not dismissed. An unambiguous endorsement of digital reproduction would require dismissing these concerns, which the passage does not do.",
+        "C": "Correct. The passage's structure mirrors Benjamin's own ambivalence. Benjamin saw mechanical reproduction as simultaneously destroying aura (a loss) and democratizing access (a gain). The passage extends this framework to digital reproduction: the conservatives identify real losses (reverence, sustained attention, the concept of authenticity) and the optimists identify real gains (horizontal creativity, liberation from gatekeeping, community remixing). By presenting both positions substantively without endorsing either, and by using Benjamin's ambivalent framework as the passage's intellectual foundation, the author signals that digital reproduction — like its predecessors — involves a transformation too complex for simple celebration or mourning.",
+        "D": "The author does not simply withhold judgment — the passage actively constructs an analytical framework (Benjamin's ambivalence extended to the digital age) that constitutes a position. Choosing to present both sides with equal weight and framing the transformation as carrying both gains and losses is itself a judgment: it is a rejection of the simplistic evaluations offered by both camps."
+      },
+      "topic": "Author's Overall Position",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    }
+  ],
+  "answerDistribution": {
+    "A": 1,
+    "B": 2,
+    "C": 2,
+    "D": 0
+  }
+}

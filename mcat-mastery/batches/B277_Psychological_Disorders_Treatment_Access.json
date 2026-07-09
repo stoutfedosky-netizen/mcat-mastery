@@ -1,0 +1,225 @@
+{
+  "batch": "B277",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Psychological Disorders Treatment Access",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_psychological_disorders_treatment_access_277_q0",
+      "passage": "A community mental-health clinic compared adults newly diagnosed with major depressive disorder. All were offered CBT; some also received an SSRI. Intake PHQ-9 averaged 18. After 12 weeks, patients attending at least eight CBT sessions averaged 9, while those attending fewer than four averaged 15. Patients reporting transportation barriers were twice as likely to miss sessions. Among SSRI users, side effects and delayed perceived benefit were common reasons for early discontinuation.",
+      "usePrevPassage": false,
+      "stem": "What does the CBT attendance pattern most directly suggest?",
+      "choices": {
+        "A": "Random assignment",
+        "B": "Semantic memory",
+        "C": "Absolute threshold",
+        "D": "Greater treatment engagement was associated with lower depressive symptoms."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Random assignment allocates participants to conditions by chance. The stem may ask about measurement or observational limitations rather than an experimental solution. The passage focus is CBT attendance and symptoms, so this option is less directly supported.",
+        "B": "Semantic memory stores facts and meanings. The stem does not ask about general knowledge. The passage focus is CBT attendance and symptoms, so this option is less directly supported.",
+        "C": "Absolute threshold is the minimum stimulus detected about 50% of the time. The question is not about minimum sensory intensity. The passage focus is CBT attendance and symptoms, so this option is less directly supported.",
+        "D": "Correct. More sessions corresponded with lower PHQ-9 scores, though attendance was not randomly assigned. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Treatment Outcomes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_psychological_disorders_treatment_access_277_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "CBT for depression most directly targets:",
+      "choices": {
+        "A": "Maladaptive thoughts and behaviors",
+        "B": "Free association only",
+        "C": "Dopamine blockade",
+        "D": "Population aging"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. CBT uses cognitive restructuring and behavioral activation to change patterns maintaining depression. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Free association is characteristic of psychoanalytic therapy. CBT is more structured and targets current thoughts and behaviors. The relevant evidence instead centers on CBT mechanism.",
+        "C": "Dopamine receptor blockade is a medication mechanism associated with some antipsychotics. CBT is psychotherapy targeting thoughts and behaviors. The relevant evidence instead centers on CBT mechanism.",
+        "D": "Population aging is a rising proportion of older adults. The stem is not about age structure driving social needs. The passage focus is CBT mechanism, so this option is less directly supported."
+      },
+      "topic": "Psychotherapy",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_psychological_disorders_treatment_access_277_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Transportation-related missed sessions are:",
+      "choices": {
+        "A": "Positive symptom",
+        "B": "Primary aging",
+        "C": "Structural barriers to treatment access",
+        "D": "Conditioned taste aversion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Positive symptoms add experiences such as hallucinations or delusions. The stem does not describe an added psychotic experience. The passage focus is transportation barrier, so this option is less directly supported.",
+        "B": "Primary aging refers to biological changes due to aging itself. The clinic passage attributes missed sessions to transportation barriers. The relevant evidence instead centers on transportation barrier.",
+        "C": "Correct. External travel constraints reduce care use even when treatment is offered. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Conditioned taste aversion is avoidance of a flavor after illness. Missed therapy due to transportation is a practical access barrier, not food aversion. The relevant evidence instead centers on transportation barrier."
+      },
+      "topic": "Access to Care",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_psychological_disorders_treatment_access_277_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why might SSRI users stop before benefit appears?",
+      "choices": {
+        "A": "Classical conditioning",
+        "B": "SSRI benefits can take weeks while side effects may occur earlier.",
+        "C": "Bystander effect",
+        "D": "Role strain"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Classical conditioning pairs stimuli so a neutral cue comes to elicit a response. The passage item is about social, cognitive, or operant processes rather than stimulus pairing. The passage focus is SSRI timing, so this option is less directly supported.",
+        "B": "Correct. Delayed therapeutic onset plus early side effects can undermine adherence. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "The bystander effect is reduced helping when other potential helpers are present. The passage item may concern effort, conformity, or another social process. The passage focus is SSRI timing, so this option is less directly supported.",
+        "D": "Role strain is difficulty meeting expectations within one role. The stem is not limited to competing demands inside a single role. The passage focus is SSRI timing, so this option is less directly supported."
+      },
+      "topic": "Medication Adherence",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_psychological_disorders_treatment_access_277_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What clinic change most directly targets missed sessions?",
+      "choices": {
+        "A": "Telehealth sessions or transportation vouchers",
+        "B": "Discriminant validity",
+        "C": "Group polarization",
+        "D": "Habituation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. These interventions address the practical travel barrier linked to lower attendance. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Discriminant validity means weak relation with unrelated measures. The passage does not use an unrelated comparison measure. The passage focus is session attendance barrier, so this option is less directly supported.",
+        "C": "Group polarization is movement toward more extreme views after group discussion. The passage does not describe attitude extremity after discussion. The passage focus is session attendance barrier, so this option is less directly supported.",
+        "D": "Habituation is decreased response to repeated stimulation. The passage item does not describe reduced response after repeated harmless exposure. The passage focus is session attendance barrier, so this option is less directly supported."
+      },
+      "topic": "Access Intervention",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_psychological_disorders_treatment_access_277_q5",
+      "passage": "A campus survey assessed stigma among 600 students. Students read a vignette about a peer hearing accusatory voices and becoming socially withdrawn. Higher stigma scores predicted lower willingness to recommend counseling and higher likelihood of calling the peer dangerous. Open responses showed some students confused hallucinations with dissociative identity disorder. An education module explained positive symptoms, negative symptoms, and differences among psychotic, personality, and dissociative disorders.",
+      "usePrevPassage": false,
+      "stem": "Hearing accusatory voices is a:",
+      "choices": {
+        "A": "Negative symptom",
+        "B": "Dissociative fugue",
+        "C": "Somatic symptom",
+        "D": "Positive symptom"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Negative symptoms reduce normal function, such as motivation or social engagement. The stem does not describe diminished function. The passage focus is hallucinations, so this option is less directly supported.",
+        "B": "Dissociative fugue involves travel or wandering with memory disruption. Hearing accusatory voices is an auditory hallucination, not fugue. The relevant evidence instead centers on hallucinations.",
+        "C": "Somatic symptom presentations center on distressing physical symptoms. Hearing voices is not a physical symptom complaint. The relevant evidence instead centers on hallucinations.",
+        "D": "Correct. Auditory hallucinations are added abnormal experiences. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Psychotic Symptoms",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_psychological_disorders_treatment_access_277_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Social withdrawal in the vignette is a:",
+      "choices": {
+        "A": "Positive symptom",
+        "B": "Panic attack",
+        "C": "Negative symptom",
+        "D": "Manic episode"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Positive symptoms add experiences such as hallucinations or delusions. The stem does not describe an added psychotic experience. The passage focus is reduced social function, so this option is less directly supported.",
+        "B": "A panic attack is sudden intense fear with physical symptoms. The vignette describes psychotic symptoms and social withdrawal. The relevant evidence instead centers on reduced social function.",
+        "C": "Correct. Withdrawal reflects reduced social engagement or motivation. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "A manic episode involves elevated or irritable mood, increased energy, and decreased need for sleep. The vignette describes withdrawal, not mania. The relevant evidence instead centers on reduced social function."
+      },
+      "topic": "Negative Symptoms",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_psychological_disorders_treatment_access_277_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Calling the peer dangerous because of symptoms is:",
+      "choices": {
+        "A": "Eustress",
+        "B": "Stigma",
+        "C": "Cultural lag",
+        "D": "Sensory adaptation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Eustress is beneficial stress. Labeling a peer with psychotic symptoms as dangerous is stigmatizing, not an adaptive stress response. The relevant evidence instead centers on danger stereotype.",
+        "B": "Correct. It labels and stereotypes a person based on mental-health symptoms. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Cultural lag is delayed adjustment of norms to material change. The child-learning stem is about modeled behavior and incentives, not social adaptation to technology. The relevant evidence instead centers on danger stereotype.",
+        "D": "Sensory adaptation is reduced receptor responsiveness to constant stimulation. The item centers on cognition, social context, or decision processes instead. The passage focus is danger stereotype, so this option is less directly supported."
+      },
+      "topic": "Stigma",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_psychological_disorders_treatment_access_277_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why was the module\u2019s diagnostic distinction relevant?",
+      "choices": {
+        "A": "Drive-reduction theory",
+        "B": "Context effect",
+        "C": "Social capital",
+        "D": "Students confused hallucinations with dissociative identity disorder."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Drive-reduction theory explains behavior motivated by physiological needs and homeostasis. The stem is not primarily about internal need states. The passage focus is psychosis versus dissociation, so this option is less directly supported.",
+        "B": "A context effect occurs when setting changes responses. The stem does not describe measurement setting altering scores. The passage focus is psychosis versus dissociation, so this option is less directly supported.",
+        "C": "Social capital involves resources accessed through social networks. The stem is asking about another mechanism or a more direct concept. The passage focus is psychosis versus dissociation, so this option is less directly supported.",
+        "D": "Correct. Correcting category errors can reduce misinformation that fuels stigma. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Mental Health Literacy",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_psychological_disorders_treatment_access_277_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which outcome best shows reduced help-seeking stigma?",
+      "choices": {
+        "A": "More students recommend counseling for the vignette peer after the module.",
+        "B": "Working memory",
+        "C": "Difference threshold",
+        "D": "Role exit"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The original stigma problem involved lower counseling recommendation, so this outcome directly addresses it. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Working memory temporarily maintains and manipulates information. The stem does not involve active short-term updating. The passage focus is help-seeking recommendation, so this option is less directly supported.",
+        "C": "Difference threshold is the smallest detectable difference between stimuli. The passage item asks about a broader psychological or sociological concept. The passage focus is help-seeking recommendation, so this option is less directly supported.",
+        "D": "Role exit means disengaging from a central social role. The passage does not describe leaving such a role. The passage focus is help-seeking recommendation, so this option is less directly supported."
+      },
+      "topic": "Stigma Reduction",
+      "difficulty": "Hard"
+    }
+  ]
+}

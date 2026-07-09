@@ -1,0 +1,351 @@
+{
+  "batch": "B160",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Fluids II: Viscosity, Poiseuille Flow & Continuity",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_fluids2_001",
+      "passage": "A cardiovascular engineering group tests microfluidic channels designed to mimic arterioles. A glycerol-water mixture is driven through cylindrical channels of different radii using the same pressure difference across each channel. Flow is laminar, and the investigators model volume flow rate with Poiseuille's law: $Q = \\frac{\\pi r^4 \\Delta P}{8\\eta L}$. They also measure average fluid speed using $v = Q/A$.\n\nChannel | Radius | Length | Viscosity | Relative Q\n1 | r | L | η | 1.0\n2 | 2r | L | η | 16.0\n3 | r | 2L | η | 0.5\n\nWhen the mixture is replaced with a more viscous solution, flow decreases. The researchers emphasize that pressure difference drives bulk flow, viscosity resists internal shear, and vessel radius has an unusually large effect because it appears to the fourth power. They later connect this model to physiologic vasoconstriction and vasodilation.",
+      "stem": "Why does doubling channel radius increase relative flow from 1.0 to 16.0?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Flow is proportional to radius squared."
+        },
+        {
+          "label": "B",
+          "text": "Flow is proportional to radius to the fourth power."
+        },
+        {
+          "label": "C",
+          "text": "Flow is independent of radius."
+        },
+        {
+          "label": "D",
+          "text": "Flow decreases as radius increases."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Radius squared describes cross-sectional area, not Poiseuille flow rate. Area matters for average velocity, but laminar resistance also depends strongly on wall shear across the radius. The table's 16-fold increase rules out a merely four-fold area effect.",
+        "B": "Correct. Poiseuille's law contains r⁴, so replacing r with 2r multiplies flow by 2⁴ = 16 when pressure difference, viscosity, and length are unchanged. This is why small physiologic changes in arteriole radius can dramatically alter blood flow.",
+        "C": "If flow were independent of radius, Channels 1 and 2 would have the same Q. The experimental table is designed to isolate radius and shows a large change. Ignoring radius misses the main clinical implication of vasodilation and vasoconstriction.",
+        "D": "Increasing radius lowers resistance and increases flow for a fixed pressure difference. This answer reverses the sign of the relationship and would predict the opposite of both the equation and the table."
+      },
+      "topic": "Poiseuille's Law",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluids2_002",
+      "passage": null,
+      "stem": "Which change would most directly decrease flow in Channel 1 if all other variables were fixed?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Shortening the channel"
+        },
+        {
+          "label": "B",
+          "text": "Increasing pressure difference"
+        },
+        {
+          "label": "C",
+          "text": "Increasing viscosity"
+        },
+        {
+          "label": "D",
+          "text": "Doubling radius"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Shortening the channel reduces resistance because L is in the denominator. A shorter tube should increase, not decrease, flow for the same pressure difference and fluid viscosity.",
+        "B": "A larger pressure difference would increase flow because ΔP is in the numerator. That is the driving force for bulk fluid movement through the channel, so this option has the direction wrong.",
+        "C": "Correct. Viscosity η appears in the denominator of Poiseuille's law, so increasing viscosity increases internal friction and decreases Q. This matches the passage's more viscous solution producing lower flow.",
+        "D": "Doubling radius would create a 16-fold increase in Q under the ideal laminar model. This is the strongest way to increase flow, not decrease it."
+      },
+      "topic": "Viscosity and Resistance",
+      "difficulty": "Easy",
+      "passageRef": "cp_fluids2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_fluids2_003",
+      "passage": null,
+      "stem": "If Channel 2 has 16 times the flow of Channel 1 and four times the area, what is its average fluid speed relative to Channel 1?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4 times as large"
+        },
+        {
+          "label": "B",
+          "text": "The same"
+        },
+        {
+          "label": "C",
+          "text": "1/4 as large"
+        },
+        {
+          "label": "D",
+          "text": "16 times as large"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Average speed is v = Q/A. Doubling radius makes area four times larger, but Poiseuille flow becomes 16 times larger, so v₂/v₁ = 16/4 = 4.",
+        "B": "Equal speed would require Q and A to increase by the same factor. They do not: Q changes by 16, while A changes by 4. The fourth-power flow relationship outpaces the area change.",
+        "C": "This would be true only if area increased while flow stayed fixed. Here Q rises 16-fold and area rises four-fold, so v = Q/A increases rather than decreases.",
+        "D": "This ignores the larger cross-sectional area. Flow increases 16-fold, but velocity divides that flow across four times the area, leaving a four-fold speed increase."
+      },
+      "topic": "Continuity and Average Speed",
+      "difficulty": "Medium",
+      "passageRef": "cp_fluids2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_fluids2_004",
+      "passage": null,
+      "stem": "Why does doubling channel length halve flow in Channel 3?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Longer channels have lower resistance."
+        },
+        {
+          "label": "B",
+          "text": "Length appears in the numerator of Poiseuille's law."
+        },
+        {
+          "label": "C",
+          "text": "Length changes fluid density to zero."
+        },
+        {
+          "label": "D",
+          "text": "Flow is inversely proportional to length."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Longer channels produce more viscous resistance, not less. The fluid experiences shear over a greater distance, so maintaining the same flow would require a larger pressure difference.",
+        "B": "Length appears in the denominator, not the numerator. If it were in the numerator, doubling length would double flow, contradicting the table and the physical idea of resistance.",
+        "C": "Channel length does not make density zero. Density is not the manipulated variable in the Poiseuille expression used here. The observed change follows from increased viscous resistance.",
+        "D": "Correct. Poiseuille's law gives Q ∝ 1/L when r, ΔP, and η are fixed. Doubling L therefore halves Q, matching Channel 3's relative flow of 0.5."
+      },
+      "topic": "Tube Length and Flow Resistance",
+      "difficulty": "Medium",
+      "passageRef": "cp_fluids2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_fluids2_005",
+      "passage": null,
+      "stem": "Which physiologic change is most analogous to increasing Channel 2's radius?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Vasodilation of arterioles"
+        },
+        {
+          "label": "B",
+          "text": "Vasoconstriction of arterioles"
+        },
+        {
+          "label": "C",
+          "text": "Increasing blood viscosity only"
+        },
+        {
+          "label": "D",
+          "text": "Lengthening every capillary"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Vasodilation increases vessel radius, lowering resistance and increasing flow. Because radius enters to the fourth power in the ideal laminar model, small changes in arteriole diameter can strongly affect tissue perfusion.",
+        "B": "Vasoconstriction decreases vessel radius and would sharply reduce flow if other variables were unchanged. It is the opposite of increasing radius in the channel experiment.",
+        "C": "Increasing viscosity would reduce flow, not mimic a larger radius. It changes η in the denominator rather than r in the numerator.",
+        "D": "Lengthening capillaries would increase resistance and reduce flow. The passage's Channel 3 shows the length effect directly, and it is not analogous to radius enlargement."
+      },
+      "topic": "Vascular Resistance",
+      "difficulty": "Easy",
+      "passageRef": "cp_fluids2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_fluids2_006",
+      "passage": "A second experiment models blood flow through a branching vessel. In one region, a vessel narrows from a cross-sectional area of 4.0 mm² to 1.0 mm². The fluid is treated as incompressible, so the continuity equation A₁v₁ = A₂v₂ applies. Pressure sensors show a lower static pressure in the narrowed region at high flow speed.\n\nRegion | Cross-sectional area | Average speed | Static pressure\nWide segment | 4.0 mm² | 10 cm/s | higher\nNarrow segment | 1.0 mm² | ? | lower\n\nThe investigators caution that real blood is non-Newtonian in some settings, but the continuity and Bernoulli-style reasoning provide a useful approximation. They also note that turbulent flow is more likely when speed, vessel diameter, and density are high or viscosity is low.",
+      "stem": "Why does average speed increase in the narrowed segment?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Fluid molecules become smaller in the narrow segment."
+        },
+        {
+          "label": "B",
+          "text": "Incompressible fluid must maintain volume flow rate through different cross-sectional areas."
+        },
+        {
+          "label": "C",
+          "text": "Pressure is always highest where speed is highest."
+        },
+        {
+          "label": "D",
+          "text": "The continuity equation applies only to gases."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The fluid is treated as incompressible, so the molecules do not shrink to fit the narrowing. Speed changes because the same volume must pass through a smaller cross-sectional area per unit time.",
+        "B": "Correct. For incompressible steady flow, A₁v₁ = A₂v₂. Reducing area from 4.0 to 1.0 mm² requires speed to increase four-fold to maintain the same volume flow rate through the vessel.",
+        "C": "Bernoulli-style reasoning predicts lower static pressure where speed is higher in this idealized setting. The table also reports lower pressure in the narrowed region, so this option reverses the pressure-speed association.",
+        "D": "Continuity applies to incompressible liquids as well as to many fluid-flow approximations. The passage explicitly applies it to a blood-flow model, not a gas-only scenario."
+      },
+      "topic": "Continuity Equation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_fluids2_007",
+      "passage": null,
+      "stem": "Using the table, what speed is expected in the narrow segment?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2.5 cm/s"
+        },
+        {
+          "label": "B",
+          "text": "10 cm/s"
+        },
+        {
+          "label": "C",
+          "text": "40 cm/s"
+        },
+        {
+          "label": "D",
+          "text": "160 cm/s"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This divides speed by four when area decreases by four. Continuity requires the opposite: smaller area increases speed for the same volume flow rate.",
+        "B": "The speed would remain 10 cm/s only if area were unchanged or if flow rate decreased proportionally. The passage states the fluid is incompressible and uses continuity through the narrowing.",
+        "C": "Correct. A₁v₁ = A₂v₂ gives (4.0 mm²)(10 cm/s) = (1.0 mm²)v₂, so v₂ = 40 cm/s. The table withholds the narrow-segment speed, so the value must be calculated from continuity rather than read directly.",
+        "D": "This multiplies by 16, confusing the fourth-power radius effect from Poiseuille's law with the area-speed relationship in continuity. The area changes by a factor of four, not sixteen."
+      },
+      "topic": "Continuity Calculation",
+      "difficulty": "Medium",
+      "passageRef": "cp_fluids2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_fluids2_008",
+      "passage": null,
+      "stem": "Why is static pressure lower in the narrowed high-speed region under the ideal approximation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Pressure sensors cannot work in narrow regions."
+        },
+        {
+          "label": "B",
+          "text": "The fluid has no kinetic energy there."
+        },
+        {
+          "label": "C",
+          "text": "Higher speed always requires higher static pressure."
+        },
+        {
+          "label": "D",
+          "text": "Some pressure energy is associated with increased kinetic energy of flow."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage reports pressure-sensor measurements, so sensor failure is unsupported. The pressure drop is interpreted physically, not dismissed as an instrument artifact.",
+        "B": "The narrowed region has greater kinetic energy per volume because speed is higher. Saying it has no kinetic energy contradicts the table's increased velocity.",
+        "C": "This reverses the ideal Bernoulli relationship in the passage. Pressure drives flow overall, but local static pressure can be lower in a fast-moving narrowed region.",
+        "D": "Correct. In Bernoulli-style reasoning for steady ideal flow, higher speed corresponds to greater kinetic-energy density and lower static pressure along a streamline. The narrowed region trades some static pressure for faster flow."
+      },
+      "topic": "Bernoulli Principle",
+      "difficulty": "Medium",
+      "passageRef": "cp_fluids2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_fluids2_009",
+      "passage": null,
+      "stem": "Which change would most increase risk of turbulent flow in this model?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Lower speed and higher viscosity"
+        },
+        {
+          "label": "B",
+          "text": "Higher speed and lower viscosity"
+        },
+        {
+          "label": "C",
+          "text": "Lower density and lower diameter"
+        },
+        {
+          "label": "D",
+          "text": "Replacing flow with complete stasis"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Lower speed and higher viscosity both reduce Reynolds-number-like tendency toward turbulence. Viscosity damps velocity fluctuations, making laminar flow more likely.",
+        "B": "Correct. Turbulence becomes more likely with higher speed and lower viscosity, because inertial effects dominate over viscous damping. The passage specifically identifies those variables as increasing turbulent risk.",
+        "C": "Lower density and smaller diameter generally reduce Reynolds number when other variables are fixed. That would make turbulence less likely, not more likely.",
+        "D": "Complete stasis means no bulk flow, so turbulence cannot develop. Turbulence requires motion with unstable velocity fluctuations."
+      },
+      "topic": "Turbulence and Reynolds Factors",
+      "difficulty": "Medium",
+      "passageRef": "cp_fluids2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_fluids2_010",
+      "passage": null,
+      "stem": "Which statement best explains why real blood may deviate from the ideal fluid model used in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Blood contains cells and can show shear-dependent viscosity rather than behaving as a simple Newtonian fluid."
+        },
+        {
+          "label": "B",
+          "text": "Blood has no volume, so continuity cannot ever approximate its motion."
+        },
+        {
+          "label": "C",
+          "text": "Blood pressure is identical in every vessel at all times."
+        },
+        {
+          "label": "D",
+          "text": "Red blood cells eliminate all viscous resistance."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Blood is a suspension of cells and proteins, so its apparent viscosity can vary with shear rate, vessel diameter, and hematocrit. The passage's continuity and Bernoulli-style equations remain useful approximations, but real blood is not always a simple Newtonian fluid with constant viscosity.",
+        "B": "Blood has volume and can be modeled as incompressible in many cardiovascular settings. The continuity approximation works precisely because volume flow is conserved through changing cross-sectional areas. This option turns a useful limitation into an impossible claim.",
+        "C": "Blood pressure is not identical everywhere; pressure differences drive flow through the circulation. The passage's narrowed segment even has lower static pressure than the wide segment. Equal pressure would not explain sustained bulk movement.",
+        "D": "Red blood cells do not eliminate viscous resistance. They are one reason blood can deviate from Newtonian behavior, especially in small vessels or at low shear. Viscosity remains central to flow resistance."
+      },
+      "topic": "Non-Newtonian Blood Flow",
+      "difficulty": "Medium",
+      "passageRef": "cp_fluids2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

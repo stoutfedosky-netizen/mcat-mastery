@@ -1,0 +1,343 @@
+{
+  "batch": "B049",
+  "section": "cars",
+  "sectionName": "Critical Analysis and Reasoning Skills",
+  "topicArea": "Arts, Culture & Aesthetics II",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cars_arts2_001",
+      "passage": "The concept of 'authenticity' in popular music has always been contested terrain. In the 1960s, folk purists accused Bob Dylan of betrayal when he performed with an electric band — the acoustic guitar was seen as the instrument of genuine expression, while amplification signaled commercial compromise. Decades later, hip-hop faced similar accusations: sampling and digital production were dismissed by rock critics as inauthentic because they involved assembling existing sounds rather than performing them live.\n\nYet both accusations rest on a historically arbitrary definition of what counts as 'real' musicianship. The acoustic guitar was itself a manufactured technology; early folk recordings relied on microphone placement and studio mixing. The electric guitar did not corrupt folk expression — it extended its palette. Similarly, the turntablist who manipulates vinyl records and the producer who programs beats exercise creative judgment every bit as complex as the guitarist's, even if the physical gestures differ.\n\nThe deeper issue is that authenticity debates typically function as boundary-policing mechanisms for cultural hierarchies. When critics call a genre 'inauthentic,' they are rarely making a neutral observation about production methods. They are defending the cultural prestige of established forms against emerging ones that threaten to redistribute cultural authority. Authenticity rhetoric, in this view, is less about sound than about who gets to be called an artist.",
+      "stem": "The author's central argument is that authenticity in popular music:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is a historically constructed and culturally contested concept that often functions to defend established cultural hierarchies rather than to identify genuine artistic merit"
+        },
+        {
+          "label": "B",
+          "text": "can be objectively determined by analyzing the production technology used in recording"
+        },
+        {
+          "label": "C",
+          "text": "is irrelevant to music criticism because all music is equally valid"
+        },
+        {
+          "label": "D",
+          "text": "was a meaningful concept in the 1960s but has lost all significance in the digital age"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage traces how authenticity accusations have recurred across genres and decades, each time privileging established forms over emerging ones. The author argues that these debates are not neutral aesthetic judgments but 'boundary-policing mechanisms for cultural hierarchies' — they protect the prestige of dominant forms by labeling challengers as inauthentic. Authenticity rhetoric is 'less about sound than about who gets to be called an artist.'",
+        "B": "The author argues the opposite: production technology is a historically arbitrary criterion. Acoustic guitars were once new technology too, and studio recording always involved technological mediation. The passage specifically rejects the idea that any particular technology defines genuine musicianship.",
+        "C": "The author does not claim all music is equally valid or that authenticity is irrelevant. The argument is more specific: authenticity claims are culturally constructed and serve hierarchical functions. The passage engages seriously with authenticity as a concept — it deconstructs how the concept is used, rather than dismissing the entire category of aesthetic evaluation.",
+        "D": "The passage presents authenticity debates as recurring across decades (1960s folk, later hip-hop), not as a concept that expired after a particular era. The argument is about the persistent cultural function of authenticity rhetoric, not about its historical decline."
+      },
+      "topic": "Main Argument / Cultural Authenticity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_arts2_002",
+      "passage": null,
+      "passageRef": "cars_arts2_001",
+      "stem": "The author's comparison of the folk-electric controversy to the hip-hop sampling debate primarily serves to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "demonstrate that Bob Dylan and hip-hop producers used identical musical techniques"
+        },
+        {
+          "label": "B",
+          "text": "argue that hip-hop is aesthetically superior to folk music"
+        },
+        {
+          "label": "C",
+          "text": "prove that all musical innovation is inevitably criticized by audiences"
+        },
+        {
+          "label": "D",
+          "text": "show that authenticity accusations recur across genres and eras, suggesting they reflect cultural dynamics rather than objective musical properties"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The author does not claim the techniques are identical — acoustic guitar, electric guitar, turntables, and digital production are different technologies. The comparison is structural: in both cases, an established form labeled a newer form as inauthentic based on its production technology, and in both cases the accusation reflected arbitrary cultural boundaries.",
+        "B": "The passage does not rank folk and hip-hop aesthetically. The author's argument is about the cultural function of authenticity rhetoric, not about which genre is better. Asserting the superiority of either genre would undermine the passage's critical analysis of hierarchical judgment.",
+        "C": "The passage does not make the universal claim that all innovation faces criticism. The argument is specifically about authenticity rhetoric as a boundary-policing mechanism, not about the inevitability of audience resistance to novelty.",
+        "D": "Correct. By showing that nearly identical accusations (technology corrupts authentic expression) were leveled against electric folk in the 1960s and digital hip-hop decades later, the author demonstrates that these debates follow a recurring pattern. The recurrence suggests the accusations reflect cultural boundary-policing — defending established prestige against challengers — rather than objective deficiencies in the newer music. The structural parallel strengthens the argument that authenticity is a social construct, not a musical property."
+      },
+      "topic": "Rhetorical Function / Cross-Genre Comparison",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_arts2_003",
+      "passage": null,
+      "passageRef": "cars_arts2_001",
+      "stem": "Based on the passage, the author would most likely agree that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "music critics should abandon all evaluative judgments about musical quality"
+        },
+        {
+          "label": "B",
+          "text": "commercial success proves that a musical form is artistically valuable"
+        },
+        {
+          "label": "C",
+          "text": "acoustic instruments are inherently superior to electronic instruments"
+        },
+        {
+          "label": "D",
+          "text": "when critics label a genre as inauthentic, they should examine whether their judgment reflects aesthetic reasoning or the defense of cultural hierarchies"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The author critiques a specific type of evaluative judgment (authenticity rhetoric) but does not advocate abandoning all aesthetic evaluation. The argument targets the cultural function of authenticity claims, not the entire enterprise of music criticism.",
+        "B": "The passage does not equate commercial success with artistic value. The folk purists' concern about 'commercial compromise' suggests that the relationship between commerce and art is complicated, but the author does not resolve this by simply endorsing commercial success as proof of value.",
+        "C": "The passage explicitly argues against the privileging of acoustic over electronic instruments. The acoustic guitar 'was itself a manufactured technology,' and electric amplification 'did not corrupt folk expression — it extended its palette.' Acoustic superiority is precisely the stance the author deconstructs.",
+        "D": "Correct. The passage's conclusion — that authenticity rhetoric is 'less about sound than about who gets to be called an artist' — implies that critics should be self-reflective about whether their judgments serve genuine aesthetic purposes or merely defend cultural territory. This aligns with the author's critical stance without requiring the abandonment of all evaluation."
+      },
+      "topic": "Inference / Author's Position",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_arts2_004",
+      "passage": null,
+      "passageRef": "cars_arts2_001",
+      "stem": "Which finding would most weaken the author's claim that authenticity debates function primarily as cultural boundary-policing?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that audiences consistently and independently identify the same musical properties as 'authentic' across cultures and historical periods, regardless of which genre holds cultural prestige"
+        },
+        {
+          "label": "B",
+          "text": "Evidence that record labels use authenticity marketing to increase sales"
+        },
+        {
+          "label": "C",
+          "text": "Evidence that professional musicians disagree about what constitutes genuine artistry"
+        },
+        {
+          "label": "D",
+          "text": "Evidence that new genres are always initially rejected before gaining acceptance"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. If authenticity judgments were consistent across cultures and eras — if people reliably identified the same properties as authentic regardless of cultural context — this would suggest authenticity is an objective musical property rather than a culturally constructed tool for hierarchy maintenance. The author's argument depends on authenticity being culturally variable and tied to prestige dynamics. Universal agreement on authentic properties would undermine this by showing that authenticity judgments track something real about the music rather than something about power.",
+        "B": "Record labels exploiting authenticity marketing would support the author's argument, not weaken it. If authenticity is commercially instrumentalized, it reinforces the claim that the concept serves institutional interests rather than identifying genuine musical properties.",
+        "C": "Disagreement among musicians about genuine artistry is consistent with the author's argument that authenticity is contested and culturally constructed. If experts can't agree, the concept is unlikely to identify an objective property.",
+        "D": "Universal initial rejection of new genres would support the pattern the author identifies — each new form is labeled inauthentic before eventually gaining acceptance. This strengthens rather than weakens the boundary-policing interpretation."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_arts2_005",
+      "passage": null,
+      "passageRef": "cars_arts2_001",
+      "stem": "The author's tone throughout the passage is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "nostalgic for the era of acoustic folk music before commercial and technological corruption"
+        },
+        {
+          "label": "B",
+          "text": "neutral and descriptive, offering no evaluative perspective on authenticity debates"
+        },
+        {
+          "label": "C",
+          "text": "hostile toward all forms of music criticism"
+        },
+        {
+          "label": "D",
+          "text": "analytically critical — deconstructing authenticity rhetoric while maintaining respect for the creative practices it marginalizes"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The author does not romanticize acoustic folk music — the passage explicitly argues that 'the acoustic guitar was itself a manufactured technology' and that folk purists' authenticity claims were arbitrary. There is no nostalgia for a pre-electric era.",
+        "B": "The author is not neutral — the passage takes a clear critical position that authenticity debates 'function as boundary-policing mechanisms for cultural hierarchies.' This is an evaluative claim, not a neutral description. The passage argues against the legitimacy of authenticity accusations.",
+        "C": "The passage criticizes a specific type of music criticism (authenticity-based hierarchy) but does not attack all music criticism. The author's position implies that criticism should be aware of its cultural assumptions, not that criticism itself is illegitimate.",
+        "D": "Correct. The author systematically deconstructs authenticity rhetoric (showing it to be historically arbitrary and hierarchically motivated) while simultaneously defending the creative legitimacy of the practices that authenticity accusations marginalize (hip-hop production, turntablism, digital composition). The tone is analytical and critical rather than angry or dismissive — the author engages with the arguments rather than caricaturing them."
+      },
+      "topic": "Author's Tone",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_arts2_006",
+      "passage": "The modern museum presents a paradox that its founders would not have recognized. When the great public museums opened in the nineteenth century — the Louvre, the British Museum, the Metropolitan — they were instruments of civic education, designed to elevate public taste by exposing citizens to masterpieces. The assumption was clear: art educates because some works are objectively superior, and exposure to them improves the viewer.\n\nContemporary museum practice has largely abandoned this assumption without abandoning the institution. Curators now speak of 'access' and 'engagement' rather than 'elevation,' emphasizing the visitor's experience rather than the artwork's inherent authority. Interactive installations, community-curated exhibitions, and digital participation platforms transform the museum from a temple of fixed values into a forum for negotiated meaning.\n\nCritics of this shift worry that the museum has sacrificed its core educational mission for popularity. If every response to art is equally valid, why maintain expert curation at all? Why not simply let audiences choose what to see and how to interpret it? The critic's concern is that the democratization of interpretation empties the museum of the very authority that made it worth visiting.\n\nDefenders counter that the old model was never as objective as it claimed. The canon of 'masterpieces' reflected the tastes of a narrow social elite — overwhelmingly European, male, and upper-class. Expanding whose voices shape the museum does not destroy its educational function; it deepens it by including perspectives that the original model excluded.",
+      "stem": "The passage presents the evolution of the modern museum as a tension between:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "public funding and private ownership of art"
+        },
+        {
+          "label": "B",
+          "text": "digital technology and traditional display methods"
+        },
+        {
+          "label": "C",
+          "text": "the museum's historical role as an authority on artistic value and its contemporary emphasis on inclusive, participatory engagement"
+        },
+        {
+          "label": "D",
+          "text": "European art and non-Western art"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Funding models are not discussed in the passage. The tension is about the museum's educational philosophy — authority vs. participation — not about how museums are financed or who owns the art.",
+        "B": "Digital platforms are mentioned as one example of participatory engagement, but the tension is broader: it encompasses the entire shift from 'elevation' to 'engagement,' from expert authority to visitor experience. Technology is a tool within this shift, not the central tension.",
+        "C": "Correct. The passage traces a shift from the nineteenth-century model (museum as authority, masterpieces objectively educate) to the contemporary model (museum as forum, visitor experience is central). The tension is between preserving the institution's authoritative educational function and democratizing interpretation. Critics worry democratization empties the museum of authority; defenders argue the old authority was never truly objective. This tension — authority vs. inclusion — is the passage's organizing framework.",
+        "D": "While the defenders mention that the canon was 'overwhelmingly European, male, and upper-class,' the passage's central tension is not specifically about European vs. non-Western art. It is about the broader philosophical question of whether the museum should prescribe aesthetic values or facilitate diverse encounters with art."
+      },
+      "topic": "Main Tension / Museum Philosophy",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_arts2_007",
+      "passage": null,
+      "passageRef": "cars_arts2_006",
+      "stem": "The defenders' argument that the canon reflected 'the tastes of a narrow social elite' functions in the passage to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "prove that no artwork has any aesthetic value"
+        },
+        {
+          "label": "B",
+          "text": "challenge the premise that the old museum model was objectively authoritative, thereby justifying the shift toward inclusion as an improvement rather than a decline"
+        },
+        {
+          "label": "C",
+          "text": "argue that museums should display only non-Western art"
+        },
+        {
+          "label": "D",
+          "text": "support the critics' concern that democratization destroys educational quality"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The defenders do not argue that art has no value. They argue that the selection of which art was valued reflected a biased social process, not that value itself is nonexistent. Their position is that expanding the selection criteria improves the museum's educational function.",
+        "B": "Correct. By showing that the 'objectivity' of the old canon was actually the taste of a specific social group, the defenders undermine the critics' premise that the old model represented neutral, universal artistic authority. If the old authority was socially constructed (reflecting elite European male taste), then replacing it with broader participation is not a loss of objectivity — because the objectivity was never there. This reframes the contemporary shift as a correction of bias rather than a decline from excellence.",
+        "C": "The defenders argue for 'expanding whose voices shape the museum,' not for excluding any particular tradition. Replacing one narrow canon with another would repeat the same error in the opposite direction. The argument is for plurality, not for substitution.",
+        "D": "The defenders are responding to the critics, not supporting them. The critics worry that democratization destroys authority; the defenders counter that the authority was never as objective as claimed, so its 'loss' is not what the critics assume."
+      },
+      "topic": "Rhetorical Function / Counter-Argument",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_arts2_008",
+      "passage": null,
+      "passageRef": "cars_arts2_006",
+      "stem": "The critics' concern that 'if every response to art is equally valid, why maintain expert curation at all' is best understood as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a defense of the democratization of museum practice"
+        },
+        {
+          "label": "B",
+          "text": "a practical argument about museum funding"
+        },
+        {
+          "label": "C",
+          "text": "a reductio ad absurdum — pushing the logic of participatory engagement to an extreme to reveal what the critics see as its untenable conclusion"
+        },
+        {
+          "label": "D",
+          "text": "an endorsement of community-curated exhibitions"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The critics oppose the democratization of interpretation — they worry it 'sacrifices the core educational mission.' This statement is a critique of democratization, not a defense of it.",
+        "B": "The argument is philosophical (about the purpose and authority of the museum), not practical (about funding). Whether to maintain expert curation is a question about institutional mission, not about budgets.",
+        "C": "Correct. The critics take the premise of participatory engagement ('visitor experience is central, all responses are valid') and extend it to its logical extreme: if all responses are equally valid, expert curation has no justification, and the museum has no reason to exist as a curated institution. This is a reductio ad absurdum — the critics accept the opponents' premise for the sake of argument and show that it leads to a conclusion the opponents themselves would reject (the dissolution of curatorial expertise). The rhetorical move challenges defenders to explain why expert selection still matters if interpretation is fully democratized.",
+        "D": "Community-curated exhibitions are part of the participatory model that the critics are questioning, not endorsing. The critics see community curation as part of the problem — the erosion of expert authority."
+      },
+      "topic": "Argument Strategy / Reductio Ad Absurdum",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_arts2_009",
+      "passage": null,
+      "passageRef": "cars_arts2_006",
+      "stem": "The author's overall stance toward the museum debate can best be described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "firmly supporting the critics and opposing all forms of participatory engagement"
+        },
+        {
+          "label": "B",
+          "text": "presenting both sides with analytical balance, giving voice to the critics' concern about authority while acknowledging the defenders' point about the constructed nature of the old canon"
+        },
+        {
+          "label": "C",
+          "text": "entirely dismissive of the museum as an institution"
+        },
+        {
+          "label": "D",
+          "text": "arguing that technology will inevitably replace physical museums"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The author presents the critics' concern seriously but does not endorse it. The defenders' counterargument — that the old authority was socially constructed — is also presented without dismissal. The passage maintains analytical balance rather than taking either side.",
+        "B": "Correct. The author gives substantive voice to both positions: the critics' worry about the loss of educational authority is presented as a genuine concern ('the democratization of interpretation empties the museum of the very authority that made it worth visiting'), while the defenders' response is presented as a legitimate counter ('the old model was never as objective as it claimed'). Neither position is dismissed or ridiculed. This balanced presentation allows the reader to weigh the arguments rather than being directed to a predetermined conclusion.",
+        "C": "The author discusses the museum's evolving philosophy with seriousness and nuance, not dismissiveness. Both the old and new models are treated as responding to real concerns (aesthetic education, social inclusion), and the debate is presented as significant.",
+        "D": "Technology is mentioned briefly as one element of participatory engagement. The passage does not argue for the replacement of physical museums with digital platforms — the debate is about curatorial philosophy, not about institutional format."
+      },
+      "topic": "Author's Stance / Analytical Balance",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_arts2_010",
+      "passage": null,
+      "passageRef": "cars_arts2_006",
+      "stem": "Which of the following would the passage's defenders most likely cite as evidence supporting their position?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A study showing that museum attendance dropped after interactive installations were introduced"
+        },
+        {
+          "label": "B",
+          "text": "Historical evidence that the founders of major museums explicitly excluded women, non-Western cultures, and working-class perspectives from their collections and display priorities"
+        },
+        {
+          "label": "C",
+          "text": "Evidence that expert curators unanimously agree on which works constitute masterpieces"
+        },
+        {
+          "label": "D",
+          "text": "A finding that visitors prefer unguided museum visits with no interpretive signage"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Dropping attendance after participatory changes would support the critics' concern that the new model fails to attract visitors, not the defenders' argument. The defenders argue that inclusion improves the museum; declining attendance would suggest the opposite.",
+        "B": "Correct. The defenders' central claim is that the old canon reflected narrow social biases, not objective aesthetic judgment. Historical evidence of explicit exclusion — documented policies or practices that prevented women, non-Western artists, and working-class voices from entering the collection — would directly support this claim by showing that the 'authority' of the original museum was constructed through systematic exclusion rather than through universal aesthetic evaluation.",
+        "C": "Unanimous expert agreement on masterpieces would support the critics' position — it would suggest that expert judgment converges on objective quality, validating the old authoritative model. The defenders argue the opposite: that 'objective' quality is actually a reflection of social position.",
+        "D": "Visitors preferring unguided visits might support a certain model of museum experience but does not address the defenders' specific argument about whose voices shaped the canon. The defenders' position is about representational equity in curation, not about visitor preference for or against interpretive guidance."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Medium"
+    }
+  ]
+}

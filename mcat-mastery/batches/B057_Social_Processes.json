@@ -1,0 +1,336 @@
+{
+  "batch": "B057",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Social Processes: Conformity, Obedience & Group Dynamics",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_social_001",
+      "passage": "Solomon Asch conducted a series of classic conformity experiments in which participants judged the length of lines in a group setting. Unknown to the one real participant, all other group members were confederates instructed to give obviously incorrect answers on certain trials. Approximately 75% of participants conformed to the incorrect group consensus on at least one trial, while only 5% would make such errors when alone. Post-experiment interviews revealed that some participants genuinely doubted their own perceptions, while others knew the group was wrong but went along to avoid social disapproval.",
+      "stem": "The finding that participants conformed even when the correct answer was objectively obvious illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "informational social influence only \u2014 participants assumed the group had additional information that justified their answers"
+        },
+        {
+          "label": "B",
+          "text": "groupthink, where the participants reached consensus through group deliberation and mutual persuasion"
+        },
+        {
+          "label": "C",
+          "text": "obedience to authority, where participants followed instructions from the experimenter to give wrong answers"
+        },
+        {
+          "label": "D",
+          "text": "that normative social influence (desire to fit in and avoid social rejection) can override accurate sensory perception and lead to conformity even without genuine belief change in all participants"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Informational social influence (conforming because you believe others have better information) may have contributed for some participants who genuinely doubted their perceptions. However, since the correct answer was objectively obvious and participants correctly answered alone, informational influence cannot fully explain the conformity. Post-experiment interviews revealed that many participants knew the group was wrong but conformed anyway to avoid social disapproval \u2014 pure normative influence.",
+        "B": "Groupthink (Janis) occurs in cohesive decision-making groups where pressure for unanimity leads to poor decisions without adequate critical analysis. It involves deliberation and persuasion. Asch's paradigm involves rapid perceptual judgment under silent group pressure, not deliberate group decision-making. Participants did not deliberate \u2014 they simply heard incorrect answers and then had to give their own.",
+        "C": "Obedience to authority involves following direct orders from a person in a position of power. In Asch's paradigm, there is no authority figure giving orders \u2014 the social pressure comes from peers (other apparent participants, actually confederates). The phenomenon is conformity (peer pressure), not obedience (authority compliance). Milgram's experiments studied obedience.",
+        "D": "Correct. Asch's experiments demonstrated the power of normative social influence \u2014 conforming to avoid social disapproval or rejection, even when you know the group is wrong. Deutsch and Gerard's distinction between informational (conforming because you believe the group is right) and normative (conforming to avoid disapproval) influence helps interpret the two types of conformers found in post-experiment interviews: those who genuinely came to doubt their perception (informational) and those who knew the group was wrong but conformed anyway (normative). The fact that objectively obvious line comparisons still produced 37% conformity on critical trials shows the extraordinary power of social pressure."
+      },
+      "topic": "Conformity / Normative vs Informational Social Influence",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_002",
+      "passage": null,
+      "passageRef": "ps_social_001",
+      "stem": "Asch found that conformity was greatly reduced when at least one confederate gave the correct answer (a 'partner' effect). This finding suggests that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "having any ally who shares your accurate perception dramatically reduces normative pressure, because the threat of social isolation is eliminated or reduced"
+        },
+        {
+          "label": "B",
+          "text": "participants only conform when all group members unanimously disagree"
+        },
+        {
+          "label": "C",
+          "text": "adding one more confederate has no effect on conformity rates"
+        },
+        {
+          "label": "D",
+          "text": "the dissenting confederate provided informational influence that changed participants' perceptions of line length"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When even one confederate gave the correct answer, conformity rates dropped dramatically (from ~37% to ~5%). The presence of a social ally serves multiple functions: (1) it validates the participant's perception and undermines the unanimity of the opposing majority; (2) it reduces the fear of social isolation \u2014 you are not alone in your deviance; (3) it models non-conforming behavior as socially possible. The ally effect demonstrates that social influence depends critically on unanimity \u2014 even a single dissenter liberates others to express their genuine views.",
+        "B": "While unanimity is an important condition that produces maximum conformity, this answer overstates the requirement. Even with a 7-confederate majority (and one ally for the participant), conformity still increases somewhat compared to no pressure \u2014 unanimity maximizes pressure, but non-unanimous majorities still produce conformity. The key point is that unanimity dramatically amplifies conformity, and a single ally dramatically reduces it.",
+        "C": "Adding one dissenting confederate is one of the most powerful manipulations in the paradigm \u2014 it cuts conformity by approximately 75-80%. This is a huge effect, not no effect.",
+        "D": "The dissenting confederate confirmed the participant's accurate perception but did not change what participants could see \u2014 the lines were objectively clear. The effect is primarily normative (social validation and reduced isolation fear), not informational (new information about line length). The dissenter's role is social support, not information provision."
+      },
+      "topic": "Conformity / Ally Effect / Unanimity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_003",
+      "passage": null,
+      "stem": "In Milgram's obedience experiments, the majority of participants administered what they believed were dangerous electric shocks to an innocent person when ordered to do so by an experimenter. The primary situational factor that maintained obedience was:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the personal aggressiveness of the participants, who were selected for authoritarian personalities"
+        },
+        {
+          "label": "B",
+          "text": "the promise of monetary compensation, which provided a powerful incentive to continue"
+        },
+        {
+          "label": "C",
+          "text": "the presence of other participants who were also obeying, creating conformity pressure"
+        },
+        {
+          "label": "D",
+          "text": "gradual commitment through incremental steps (foot-in-the-door), the legitimacy of the authority figure, physical distance from the victim, and the agentic state \u2014 participants transferred moral responsibility to the authority"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Milgram explicitly tested whether personality differences (authoritarianism) could explain the results and found that obedience was remarkably high across a wide range of personalities. Situational factors (authority legitimacy, distance from the victim, graduated commitment) were far more predictive than individual personality characteristics. This was a key finding: ordinary people with no particular aggressive tendencies would obey under the right situational pressures.",
+        "B": "Participants were paid $4.50 simply for showing up, not contingent on how far they went. The payment was not conditional on the level of shock administered and was described as payment for participation, not as an incentive to continue. Milgram specifically controlled for this by paying everyone at the beginning regardless of their behavior.",
+        "C": "Milgram's paradigm did not involve other participants \u2014 it was one na\u00efve participant and confederates (the experimenter and the 'learner'). Milgram did conduct variations with multiple confederates, and found that when peers refused to continue, obedience dropped dramatically (a confederate-refusal condition). But in the standard paradigm, conformity pressure from peers was not a factor.",
+        "D": "Correct. Multiple situational factors maintained obedience: (1) Graduated commitment \u2014 participants started with small shocks (15V) and each step was only 15V more, making it difficult to refuse without seeming inconsistent with prior behavior (foot-in-the-door); (2) Authority legitimacy \u2014 the experimenter wore a lab coat and was associated with Yale University, lending prestige; (3) Physical/psychological distance \u2014 when the learner was in another room (remote condition), obedience was highest (~65%); with the learner in the same room, obedience dropped significantly; (4) Agentic state \u2014 participants defined themselves as agents of the authority rather than autonomous moral agents, transferring responsibility: 'I'm just following orders'; (5) Social scripts \u2014 being in an experiment defined the situation as scientific, legitimizing actions that would be clearly wrong outside the lab."
+      },
+      "topic": "Obedience / Milgram / Situational Factors",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_social_004",
+      "passage": null,
+      "stem": "Social facilitation refers to the finding that the presence of others improves performance on simple or well-learned tasks but impairs performance on complex or novel tasks. Zajonc's explanation proposed that the presence of others:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increases motivation through competition, helping all types of performance equally"
+        },
+        {
+          "label": "B",
+          "text": "creates evaluation apprehension only in people with social anxiety, so facilitation effects only occur in a small subset of people"
+        },
+        {
+          "label": "C",
+          "text": "provides informational cues that guide behavior appropriately for every type of task"
+        },
+        {
+          "label": "D",
+          "text": "increases physiological arousal, which enhances the emission of dominant responses \u2014 the most practiced/automatic behaviors. For simple tasks, the dominant response is correct; for complex tasks, the dominant response is often an error"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The presence of others does not help all performance equally \u2014 the pattern depends on task difficulty. Simple/dominant tasks improve (facilitation), complex/new tasks worsen (impairment). If presence improved all tasks equally, the effect would be called uniform enhancement, not social facilitation/inhibition.",
+        "B": "Zajonc's original formulation proposed that mere presence (even non-evaluating others) is sufficient to produce arousal and social facilitation effects. Nickerson and others later proposed evaluation apprehension as the key mechanism (we are aroused because we care about being judged), and Blank and Baron proposed distraction as a mechanism. All three mechanisms may contribute, but facilitation effects are not limited to socially anxious individuals.",
+        "C": "Observational cues from an audience might provide some information for certain tasks, but this cannot explain impaired performance on complex tasks or why the same audience would help some but harm others performing different tasks. Zajonc's explanation is simpler and more general.",
+        "D": "Correct. Zajonc's drive theory of social facilitation proposed that the mere presence of others (not necessarily evaluation) increases general physiological arousal. This arousal increases the probability of emitting dominant responses \u2014 the behaviors that are most practiced and automatic for that individual in that situation. For simple or well-learned tasks, the dominant (most practiced) response is correct, so arousal improves performance. For complex, new, or difficult tasks, the dominant response is often an incorrect habit or error \u2014 arousal increases the probability of these errors, impairing performance. This explains why expert typists type faster with an audience (simple for them) but novice typists type slower (complex for them)."
+      },
+      "topic": "Social Facilitation / Zajonc's Drive Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_005",
+      "passage": null,
+      "stem": "Deindividuation refers to a psychological state that can occur in groups in which:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "individuals become more self-aware and reflective when embedded in a large crowd"
+        },
+        {
+          "label": "B",
+          "text": "group members are more likely to think independently because anonymity frees them from social norms"
+        },
+        {
+          "label": "C",
+          "text": "reduced self-awareness and accountability in group settings can lead to lowered inhibitions and increased likelihood of impulsive, antisocial, or norm-violating behavior"
+        },
+        {
+          "label": "D",
+          "text": "group members adopt the most extreme position held by any individual member through rational deliberation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Deindividuation is specifically associated with decreased (not increased) self-awareness. Public self-consciousness (awareness of how one appears to others) decreases in anonymous crowd conditions, reducing the internal monitoring of behavior against personal standards. Increased self-awareness is the opposite of deindividuation.",
+        "B": "Anonymity in deindividuation does not produce independent thinking or positive norm-breaking \u2014 it reduces adherence to personal standards while increasing responsiveness to immediate situational cues and group norms. If the group context is prosocial, deindividuation can increase prosocial behavior; if antisocial, it can increase antisocial behavior. The effect is group-norm amplification, not individual independence.",
+        "C": "Correct. Deindividuation (Festinger, Zimbardo) occurs in conditions that reduce individual identifiability and self-awareness: large crowds, anonymity (masks, uniforms, darkness), arousal, and diffusion of responsibility. Under deindividuation: (1) reduced private self-awareness decreases monitoring of behavior against personal values; (2) reduced public self-awareness decreases concern about others' judgment; (3) increased responsiveness to immediate group norms (which may be violent, sexual, or otherwise norm-violating). Classic examples include mob violence, looting, online harassment (cyberbullying under anonymity), and group vandalism. Laboratory evidence includes Zimbardo's finding that participants who wore bags over their heads and were not identified administered more severe shocks than identified participants.",
+        "D": "Adopting the most extreme position through deliberation describes group polarization, not deindividuation. Group polarization occurs when group discussion shifts opinions toward a more extreme position in the direction of the initial group tendency \u2014 it is a rational deliberation process, not a loss of identity and inhibition."
+      },
+      "topic": "Deindividuation / Anonymity / Group Behavior",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_006",
+      "passage": null,
+      "stem": "Bystander effect refers to the finding that individuals are less likely to intervene in an emergency when other people are present. The two primary psychological mechanisms identified by Darley and Latan\u00e9 are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "conformity to social norms and imitation of the leader in the group"
+        },
+        {
+          "label": "B",
+          "text": "diffusion of responsibility (each person assumes others will help, so personal responsibility decreases) and pluralistic ignorance (each person looks to others for cues about whether a situation is an emergency, and misinterprets others' calm behavior as signaling non-emergency)"
+        },
+        {
+          "label": "C",
+          "text": "group polarization shifting members toward the most cautious position and conformity to the slowest responder"
+        },
+        {
+          "label": "D",
+          "text": "increased personal distress that paralyzes action and social comparison reducing altruistic motivation"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Conformity to social norms and imitation of a leader describe group processes relevant to other phenomena. While social influence is involved in the bystander effect (pluralistic ignorance is a form of informational social influence), the specific mechanisms identified by Darley and Latan\u00e9 are diffusion of responsibility and pluralistic ignorance \u2014 not norm conformity to a leader.",
+        "B": "Correct. Darley and Latan\u00e9's research on the bystander effect (stimulated by the Kitty Genovese case) identified two mechanisms: (1) Diffusion of responsibility \u2014 the more bystanders present, the less each individual feels personally responsible for taking action. ('Someone else will call 911.') In a genuine emergency, an individual alone feels full responsibility; in a large group, each person's share of responsibility is diluted. (2) Pluralistic ignorance \u2014 in ambiguous situations, people look to others for cues about whether action is needed. If others appear calm (as they also hesitantly wait), each person misinterprets this collective calm as evidence that the situation is not an emergency, when in fact everyone is uncertain and waiting for someone else to act. These mechanisms interact to reduce helping in group settings.",
+        "C": "Group polarization shifts opinions toward extreme positions after discussion \u2014 it is a deliberation phenomenon, not a response to emergencies. Conformity to the slowest responder is not an established psychological mechanism for the bystander effect.",
+        "D": "Personal distress (empathic distress) can sometimes motivate helping (as a way to reduce one's own distress) or can trigger escape responses. This is not the primary mechanism of the bystander effect. Social comparison reducing altruism is too vague to be the specific mechanism identified by Darley and Latan\u00e9."
+      },
+      "topic": "Bystander Effect / Diffusion of Responsibility / Pluralistic Ignorance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_007",
+      "passage": null,
+      "stem": "Groupthink is a pattern of defective decision-making that can occur in highly cohesive groups. Symptoms include illusion of invulnerability, collective rationalization, and suppression of dissent. Groupthink is most likely to occur when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the group is large, heterogeneous, and has diverse leadership"
+        },
+        {
+          "label": "B",
+          "text": "the group is highly cohesive, isolated from external opinions, under stress, and led by a directive leader who makes their preferences known early in deliberation"
+        },
+        {
+          "label": "C",
+          "text": "group members are encouraged to play devil's advocate and evaluate all options critically"
+        },
+        {
+          "label": "D",
+          "text": "the group uses majority-rule voting for all decisions, which distributes power evenly"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Heterogeneous groups with diverse leadership are less prone to groupthink \u2014 diversity of perspectives and multiple sources of leadership naturally generate dissenting views. Groupthink is promoted by high cohesion and homogeneity (everyone thinks similarly and wants to maintain harmony).",
+        "B": "Correct. Janis identified antecedent conditions that promote groupthink: (1) High group cohesion \u2014 members value the group and are motivated to maintain harmony, making dissent uncomfortable; (2) Structural faults \u2014 isolation from outside views, lack of impartial leadership, lack of clear decision-making procedures; (3) Situational stressors \u2014 external threat, time pressure, moral dilemmas; (4) Directive leadership \u2014 when the leader states their preferred solution early, members censor themselves to align with the leader and avoid conflict. Classic examples: Bay of Pigs invasion, Challenger disaster decision, Enron's Board of Directors.",
+        "C": "Encouraging devil's advocacy and critical evaluation are preventive measures against groupthink, not conditions that promote it. Janis recommended explicitly appointing a devil's advocate, bringing in outside experts, and encouraging criticism as antidotes to groupthink.",
+        "D": "Majority-rule voting with distributed power creates a structured decision procedure that reduces some groupthink risks by ensuring minority views are heard before voting. Unstructured consensus-seeking under a directive leader is more conducive to groupthink than formal voting procedures."
+      },
+      "topic": "Groupthink / Conditions and Symptoms",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_008",
+      "passage": null,
+      "stem": "Fundamental attribution error (FAE) refers to the tendency to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "overestimate the role of dispositional (internal) factors and underestimate the role of situational (external) factors when explaining other people's behavior"
+        },
+        {
+          "label": "B",
+          "text": "attribute one's own failures to dispositional factors and successes to situational factors"
+        },
+        {
+          "label": "C",
+          "text": "equally weigh dispositional and situational factors when making causal attributions about others"
+        },
+        {
+          "label": "D",
+          "text": "attribute other people's behavior entirely to situational constraints, ignoring their internal characteristics"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The fundamental attribution error (Ross) is the tendency to over-emphasize internal, dispositional explanations (personality, character, intentions) and under-emphasize external, situational explanations when explaining the behavior of others. Example: when a driver cuts you off, FAE leads to 'that person is aggressive/rude' rather than considering situational explanations (they may be rushing to a hospital, they didn't see you). FAE is robust across many cultures but is more pronounced in individualistic (Western) cultures than collectivist (East Asian) cultures, suggesting it reflects cultural emphasis on individual agency.",
+        "B": "Attributing own failures to situations and successes to disposition describes self-serving bias \u2014 a motivation-based attribution pattern where we protect our ego by taking credit for successes ('I'm talented') and deflecting blame for failures ('circumstances were bad'). This is distinct from FAE, which specifically concerns attributions about others.",
+        "C": "Equally weighting dispositional and situational factors would represent balanced, accurate attribution. FAE specifically describes an imbalance \u2014 overweighting disposition and underweighting situation \u2014 when explaining others' behavior.",
+        "D": "Attributing others' behavior entirely to situational factors would be the opposite of FAE. In FAE, we over-attribute to disposition and under-attribute to situation. Ignoring internal factors entirely and explaining everything by situation would be an extreme situationist bias \u2014 the mirror image of FAE."
+      },
+      "topic": "Fundamental Attribution Error / Causal Attribution",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_social_009",
+      "passage": null,
+      "stem": "Social identity theory (Tajfel and Turner) proposes that individuals categorize themselves and others into groups, and that group membership influences self-concept. A key prediction is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "people avoid identifying with any social group to maintain individuality"
+        },
+        {
+          "label": "B",
+          "text": "people are naturally indifferent to the distinctions between in-groups and out-groups"
+        },
+        {
+          "label": "C",
+          "text": "people favor their in-group and derogate out-groups to maintain positive social identity \u2014 even when group membership is based on trivial, arbitrary criteria (minimal group paradigm)"
+        },
+        {
+          "label": "D",
+          "text": "intergroup conflict is always based on realistic competition for scarce resources"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Social identity theory proposes the opposite \u2014 people actively categorize themselves into groups and derive significant parts of their self-concept from group memberships. Humans are a deeply social species, and group identification (family, nationality, team, profession) is a fundamental psychological process, not something people avoid.",
+        "B": "Social identity theory predicts (and minimal group paradigm experiments demonstrate) that people are not indifferent to in-group/out-group distinctions. Even arbitrary, meaningless group divisions (assigned based on coin flip or aesthetic preference) produce in-group favoritism and out-group discrimination \u2014 showing that mere categorization itself generates intergroup bias.",
+        "C": "Correct. Tajfel and Turner's minimal group paradigm showed that even the most trivial group divisions (randomly assigning people to 'Klee' vs. 'Kandinsky' groups based on art preference, or by coin flip) produced in-group favoritism in resource allocation: participants gave more points to in-group members than out-group members, even at the cost of absolute maximization. Social identity theory explains this through the motive to maintain positive self-esteem via a positive social identity \u2014 if my group is good and valued, my self-esteem is protected. This requires the in-group to compare favorably to the out-group (downward social comparison with the out-group).",
+        "D": "Realistic conflict theory (Sherif's Robbers Cave experiment) proposes that intergroup hostility arises from actual competition for scarce resources. While this explains some intergroup conflict, Tajfel's minimal group paradigm demonstrated that realistic conflict is not necessary \u2014 mere categorization is sufficient to produce discrimination, even with no scarce resources, no history, and no meaningful group differences."
+      },
+      "topic": "Social Identity Theory / In-group Bias / Minimal Group Paradigm",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_social_010",
+      "passage": null,
+      "stem": "Cognitive dissonance theory (Festinger) predicts that when people hold inconsistent cognitions, they experience psychological discomfort and are motivated to reduce it. A person who smokes while knowing it causes cancer would most likely reduce dissonance by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "immediately quitting smoking because the health evidence is conclusive and dissonance motivates rational behavior"
+        },
+        {
+          "label": "B",
+          "text": "changing one of the inconsistent cognitions \u2014 either by quitting smoking, rationalizing that the health risks are exaggerated, minimizing personal susceptibility ('I won't get cancer'), or adding consonant cognitions ('It reduces my stress')"
+        },
+        {
+          "label": "C",
+          "text": "increasing cigarette consumption to demonstrate commitment to their choice"
+        },
+        {
+          "label": "D",
+          "text": "experiencing no dissonance because smoking provides sufficient reward to justify the behavior"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While quitting is one way to resolve dissonance (removing the inconsistent behavior), it is cognitively demanding and addictively difficult. Cognitive dissonance theory does not predict that people will always take the most rational course \u2014 they are just as likely (or more likely) to change their attitudes and perceptions to align with their behavior, especially when the behavior is difficult to change. Research shows that smokers frequently rationalize rather than quit.",
+        "B": "Correct. Cognitive dissonance predicts that people will reduce the inconsistency through one of several routes: (1) Behavior change \u2014 quit smoking (most rational but most effortful); (2) Cognitive change \u2014 change the belief ('The cancer link is overblown,' 'I'm not at risk,' 'My grandfather smoked and lived to 90'); (3) Adding new consonant cognitions \u2014 'Smoking reduces my stress and I'd gain weight without it'; (4) Reducing the importance of the inconsistent cognition \u2014 'Life is short, you could get hit by a bus.' Which strategy is used depends on resistance to change \u2014 behaviors that are addictive or identity-central are changed less often than beliefs, so smokers often rationalize rather than quit.",
+        "C": "Increasing behavior to demonstrate commitment is not a dissonance reduction strategy. It would increase the dissonance (the behavior-knowledge discrepancy grows). This might describe commitment or consistency effects in other contexts, but not dissonance reduction.",
+        "D": "Festinger's theory proposes that inconsistent cognitions produce dissonance regardless of reward \u2014 the discomfort arises from inconsistency, not from insufficient justification. In fact, when a behavior has high justification (good reasons or high reward), dissonance is lower than when the behavior has insufficient justification (the 'insufficient justification effect')."
+      },
+      "topic": "Cognitive Dissonance / Dissonance Reduction Strategies",
+      "difficulty": "Easy"
+    }
+  ]
+}

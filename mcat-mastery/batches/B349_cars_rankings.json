@@ -1,0 +1,246 @@
+{
+  "batch": "B349",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Rankings, Lists & the Ordinal Illusion",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_rankings_349_q0",
+      "passage": "The magazine arrives with its annual verdict: the hundred best restaurants, the fifty best colleges, the ten best places to live, each institution assigned its integer and arranged in descending order of worth. The format is so familiar that its strangeness has stopped registering. Somewhere a committee has taken things as unlike as a Basque tasting menu and a Tokyo noodle counter and declared one of them fourth. The declaration will move reservations, tuition dollars, and moving vans. It is worth pausing, before the reservations are made and the deposits sent, over what kind of statement fourth actually is, and what happens to a world that organizes itself around such statements.\n\nThe list, as a technology, is ancient and honorable. Inventories, genealogies, commandments: the list is thought's filing cabinet, and its power is real, since a list makes a domain graspable, portable, and checkable in a way prose never manages. The ranked list adds a second operation, and the addition changes everything. To rank is to compress: a restaurant is ambience, price, consistency, invention, service, and memory, a dozen dimensions at least, and the ranking's single integer is what remains after all of them have been forced through one hole. The number is clean because the information is gone.\n\nCall this the ordinal illusion: the impression, produced by the format itself, that fourth and fifth differ in the way four and five do, by a fixed and knowable interval, when in fact the underlying qualities may be incommensurable, the gaps irregular, and the order itself an artifact of how the compression was weighted. Change the weights, reasonable people do, and third becomes eleventh without anything in the world having changed. The list's authority comes from arithmetic; its content comes from choices the arithmetic conceals.\n\nWhat rankings conceal in method they enforce in effect, because institutions do not merely receive their ranks; they reorganize around them. The measure becomes the target. Colleges discovered which inputs the formulas reward and bought those inputs, hospitals learned which cases flatter the mortality statistics and managed their intake accordingly, and the phenomenon is general enough to have its own law, quoted in every methods seminar and forgotten in every boardroom: a measure that becomes a target ceases to be a good measure. The deeper effect is stranger still. A widely followed ranking does not just describe the hierarchy; it produces it, since applicants, donors, and journalists all steer by the list, and their steering delivers the outcomes the list predicted. The ranking manufactures the quality it claims to measure.\n\nThe defense of rankings deserves its full weight. Before the lists, the same hierarchies operated invisibly, administered by word of mouth, old networks, and accidents of geography, and a published ranking at least drags the criteria into daylight where they can be disputed. For the outsider without connections, the applicant from nowhere, the diner new to the city, the list is a map of a territory the insiders never needed mapped. And some domains genuinely reward the format: where a single dimension dominates, times, prices, error rates, ordering is honest work, and the integer earns its authority.\n\nThe trouble is that the format does not stay where it is honest. Ranking migrates from the measurable to the immeasurable on the strength of its costume, and the costume is convincing: a numbered list looks like knowledge whether or not knowledge is present. Top-ten journalism flourishes because the format pre-organizes attention, sparing both writer and reader the work of judgment while wearing judgment's uniform. The reader who asks what the ranking measures, who chose the weights, and who profits from the answer is not being cynical; she is doing the reading the format was designed to make unnecessary.\n\nNone of this argues for burning the lists. It argues for reading them as documents with authors, which is what they are: compressions built on choices, defensible where one dimension rules, dangerous where many do, and self-fulfilling wherever enough eyes follow them. The magazine's fourth is not a fact about the restaurant; it is a fact about the magazine. A culture that remembers the difference can use its rankings. One that forgets does the rankings' bidding and calls the obedience taste.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Because rankings inevitably manufacture the very hierarchies they claim to measure, published lists should be replaced by the informal networks that preceded them."
+        },
+        {
+          "label": "B",
+          "text": "The ordinal illusion shows that no meaningful comparison between institutions of different kinds is ever possible."
+        },
+        {
+          "label": "C",
+          "text": "Top-ten journalism succeeds because readers prefer pre-organized attention to the work of judgment."
+        },
+        {
+          "label": "D",
+          "text": "Ranked lists are authored compressions whose integer authority conceals weighted choices and reshapes what it measures, defensible only where one dimension rules."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice reverses the fifth paragraph's defense and the conclusion's disclaimer. The pre-list world ran the same hierarchies invisibly, and the published list at least drags the criteria into daylight; none of this argues for burning the lists, the final paragraph says, but for reading them as authored documents.",
+        "B": "This choice inflates the illusion into a ban on comparison. The ordinal illusion concerns the format's false precision, gaps irregular, order an artifact of weights, while the fifth paragraph grants whole domains where ordering is honest work; the target is the costume, not comparison itself.",
+        "C": "This choice promotes one exhibit of the format's migration to the thesis. Top-ten journalism illustrates ranking wearing judgment's uniform where knowledge is absent; the passage's account runs wider, compression, the illusion, reactivity, manufacture, and the defense.",
+        "D": "Correct. The passage anatomizes the ranked list as compression through one hole, names the ordinal illusion and the concealed weights, shows measures becoming targets and rankings manufacturing the quality they claim to measure, credits the daylight defense and the single-dimension domains, and closes on the reading practice: fourth is a fact about the magazine, and the difference is usable only while remembered."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_rankings_349_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the fifth paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "give the defense of rankings its full weight: the old invisible hierarchies, the outsider's map, and the honest single-dimension domains."
+        },
+        {
+          "label": "B",
+          "text": "concede that the ordinal illusion applies only to cultural rankings, not to quantitative ones."
+        },
+        {
+          "label": "C",
+          "text": "argue that word-of-mouth reputation was more accurate than published rankings."
+        },
+        {
+          "label": "D",
+          "text": "identify the specific weighting choices and data submissions that make the best-known college rankings chronically unreliable."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The paragraph announces its office, the defense deserves its full weight, and delivers three credits: the same hierarchies once operated invisibly through networks and geography, the published list drags criteria into daylight and maps the territory for outsiders, and single-dimension domains, times, prices, error rates, reward the format honestly. The case for rankings, stated before the sixth paragraph resumes the case against their migration.",
+        "B": "This choice converts the paragraph's carve-out into a boundary for the illusion. Honest domains are those where one dimension dominates; the illusion's home is multidimensional compression wherever it occurs, and no cultural-quantitative line is drawn.",
+        "C": "This choice inverts the paragraph's comparison. Word of mouth administered the old hierarchy invisibly, which is presented as the defect the published list remedies; accuracy is not awarded to the whisper network anywhere.",
+        "D": "This choice assigns the paragraph the fourth's material and a specificity neither has. Colleges buying rewarded inputs belongs to the reactivity discussion; the fifth paragraph defends, and no formula's weights are itemized in either."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_rankings_349_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The claim that the number is clean because the information is gone, in the second paragraph, most nearly means that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ranking committees routinely discard the underlying data sheets from which their published lists were originally computed."
+        },
+        {
+          "label": "B",
+          "text": "the single integer's tidiness is achieved by the compression that discarded the dimensions it summarizes."
+        },
+        {
+          "label": "C",
+          "text": "published rankings are usually free of arithmetical errors."
+        },
+        {
+          "label": "D",
+          "text": "readers prefer round numbers, so lists stop at ten, fifty, or one hundred."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice literalizes the sentence into records management. The gone information is the dimensions themselves, ambience, price, consistency, invention, forced through one hole, not the committee's spreadsheets; no claim about data retention appears.",
+        "B": "Correct. The sentence caps the paragraph's account of ranking as compression: a restaurant is a dozen dimensions at least, and the ranking's single integer is what remains after all of them have been forced through one hole. The integer's cleanness is not accuracy but residue, tidy precisely because the multiplicity that would complicate it has been squeezed out, which is the trade the third paragraph's ordinal illusion then exploits.",
+        "C": "This choice hears clean as error-free. The passage's complaint is never computational, the arithmetic conceals choices rather than containing mistakes, and the third paragraph locates the trouble in weights, not sums.",
+        "D": "This choice drifts to the aesthetics of list lengths. The sentence concerns what compression does to information within a single rank, not why lists end at round numbers, a subject the passage never raises."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_rankings_349_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to the fourth paragraph, a widely followed ranking manufactures the quality it claims to measure because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ranking committees secretly coordinate with the institutions they evaluate."
+        },
+        {
+          "label": "B",
+          "text": "applicants, donors, and journalists steer by the list, and their steering delivers the predicted outcomes."
+        },
+        {
+          "label": "C",
+          "text": "the formulas are recalculated annually, so each year's list inherits the previous year's errors."
+        },
+        {
+          "label": "D",
+          "text": "institutions systematically falsify the data they submit in order to climb the published tables year over year."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice invents a conspiracy where the paragraph describes a mechanism. The manufacture requires no coordination at all, only many independent actors steering by the same document; the effect is structural, which is what makes it stranger than corruption.",
+        "B": "Correct. The paragraph states the loop in one sentence: a widely followed ranking does not just describe the hierarchy; it produces it, since applicants, donors, and journalists all steer by the list, and their steering delivers the outcomes the list predicted. The prophecy fulfills itself through the followers' aggregated behavior, no bad faith required.",
+        "C": "This choice substitutes a compounding-error story for a self-fulfillment story. Nothing in the paragraph concerns annual recalculation or inherited mistakes; the manufactured hierarchy would emerge even from a flawless formula, provided enough eyes followed it.",
+        "D": "This choice picks the wrong reactivity. Institutions buying rewarded inputs and managing intake is gaming, the measure-becomes-target problem; the manufacture claim is the deeper effect the paragraph builds afterward, driven by the audience's steering, not the institutions' fraud."
+      },
+      "topic": "Perspective Attribution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_rankings_349_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A running magazine ranks marathon shoes purely by independently measured weight, the lightest first, labeling the list lightest shoes of the year. Based on the fifth and sixth paragraphs, the author would most likely judge this list:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "misleading, since even weight rankings manufacture the market position they claim to record."
+        },
+        {
+          "label": "B",
+          "text": "dishonest, because the ordinal illusion afflicts any ranked format regardless of its subject matter."
+        },
+        {
+          "label": "C",
+          "text": "honest work, since a single measurable dimension dominates and the label claims no more than the measurement delivers."
+        },
+        {
+          "label": "D",
+          "text": "incomplete, because a responsible ranking would compress cushioning, durability, and price into the same integer alongside weight."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice extends the manufacture loop to a case its mechanism cannot reach. Steering by the list cannot change a shoe's measured weight; the self-fulfilling effect operates where the ranked quality responds to the following, hierarchies of prestige, not grams on a scale.",
+        "B": "This choice misplaces the illusion's home. The illusion arises when incommensurable dimensions are compressed and weighted; a single-dimension ordering has real, fixed intervals, and the fifth paragraph names exactly this class, times, prices, error rates, as where the integer earns its authority.",
+        "C": "Correct. The fifth paragraph reserves honesty for domains where a single dimension dominates, and the sixth's complaint is the format migrating beyond them in judgment's uniform. This list stays home: one measurable quantity, independently measured, with a label, lightest, that claims only what was measured. It is the passage's own example class made concrete.",
+        "D": "This choice recommends precisely the compression the passage warns about. Forcing cushioning, durability, and price through one hole with weight would recreate the concealed weighting and the ordinal illusion; the narrow label is the list's virtue, not its failure."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_rankings_349_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the third paragraph's claim that ranked order is substantially an artifact of how the compression was weighted?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sensitivity analyses finding the same institutions in nearly identical positions across every reasonable weighting scheme."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that most readers never examine the methodology sections of published rankings."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that rival magazines ranking the very same domain produce lists that differ sharply and persistently from one another."
+        },
+        {
+          "label": "D",
+          "text": "Surveys finding that ranking committees sincerely believe their chosen weights are the correct ones."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The claim's evidence is counterfactual instability: change the weights, reasonable people do, and third becomes eleventh without anything in the world having changed. Order surviving every reasonable weighting scheme would remove that instability, showing the ranks track something in the institutions rather than in the committee's choices, the artifact claim contradicted at its mechanism.",
+        "B": "This choice documents readers' inattention to method, which is the sixth paragraph's complaint about the format doing the reader's work; whether the order depends on the weights is a property of the compression, untouched by who reads the fine print.",
+        "C": "This choice confirms the claim rather than weakening it. Rival lists diverging sharply over the same domain is exactly what weight-dependence predicts, different choices, different orders, the artifact visible in the disagreement.",
+        "D": "This choice reports the committees' sincerity, which the claim never questioned. Weights chosen in good faith are still choices, and the order's dependence on them is unaffected by how earnestly they were selected."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_rankings_349_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the fourth paragraph's claim that the measure becomes the target, ceasing to be a good measure?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that university applications rise measurably and durably in the years immediately after an institution first enters a prominent national top-ten list."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that ranking formulas have grown more complex over the past three decades."
+        },
+        {
+          "label": "C",
+          "text": "Studies finding institutions' scores on the formula's inputs climbing while independently assessed quality stayed flat, diverging further after each methodology was published."
+        },
+        {
+          "label": "D",
+          "text": "Surveys finding that administrators privately doubt the rankings their institutions publicize."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice measures the list's influence on applicants, which feeds the manufacture loop, steering delivering predicted outcomes, rather than the targeting claim; rising applications say nothing about whether the measured inputs came apart from the quality.",
+        "B": "This choice tracks formula complexity, which is neutral between explanations: methods can elaborate for many reasons, and complexity alone shows neither gaming nor the measure's decay as a measure.",
+        "C": "Correct. The claim is that institutions reorganize around the formula until the measure stops measuring. Input scores climbing while independently assessed quality stays flat is that decoupling caught directly, the numbers improving without the thing improving, and the divergence widening after each methodology's publication ties the gaming to the moment the target became visible, the mechanism time-stamped.",
+        "D": "This choice records private skepticism, which coexists comfortably with a still-functioning measure; administrators can doubt what remains accurate, and their opinion of the rankings is not evidence about the inputs' relation to quality."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "batch": "B037",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Respiratory, Renal & Digestive Systems",
+  "questionCount": 10,
+  "answerDistribution": {
+    "D": 3,
+    "B": 3,
+    "C": 2,
+    "A": 2
+  },
+  "questions": [
+    {
+      "id": "bb_system_001",
+      "passage": "A patient with chronic kidney disease has a reduced glomerular filtration rate (GFR), elevated plasma creatinine, and impaired ability to excrete acid and potassium. During dehydration, vasopressin levels rise. The renin-angiotensin-aldosterone system is also activated, increasing sodium retention and potassium secretion in functioning nephrons.",
+      "stem": "Why does plasma creatinine rise when GFR falls?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Creatinine is secreted only by the lungs"
+        },
+        {
+          "label": "B",
+          "text": "Creatinine is converted into glucose"
+        },
+        {
+          "label": "C",
+          "text": "Reduced filtration decreases its clearance from plasma"
+        },
+        {
+          "label": "D",
+          "text": "Low GFR increases its filtration"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Creatinine is produced from muscle creatine metabolism and cleared primarily by the kidneys \u2014 it is not secreted by the lungs. The lungs eliminate CO\u2082, not nitrogenous waste products like creatinine.",
+        "B": "Creatinine is not converted to glucose. Gluconeogenesis uses substrates like lactate, glycerol, and amino acids, not creatinine. Creatinine is a waste product with no metabolic recycling pathway.",
+        "C": "Correct. Creatinine is produced at a relatively constant rate by skeletal muscle (proportional to muscle mass) and cleared almost entirely by glomerular filtration, with a minor contribution from tubular secretion. When GFR falls, the kidneys filter less creatinine per minute, but production continues at the same rate. The result is accumulation: plasma creatinine rises until a new steady state is reached where the reduced GFR \u00d7 higher plasma concentration = the unchanged production rate. This is why serum creatinine is used clinically as an inverse marker of GFR.",
+        "D": "A lower GFR means less plasma is filtered per unit time, so less creatinine is removed from the blood. This answer states the opposite \u2014 low GFR decreases filtration, not increases it. If filtration increased, plasma creatinine would fall, not rise."
+      },
+      "topic": "Renal Function / GFR and Creatinine",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_system_002",
+      "passage": null,
+      "stem": "Vasopressin increases water reabsorption primarily by adding aquaporins to the:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "proximal-tubule apical membrane"
+        },
+        {
+          "label": "B",
+          "text": "ascending limb of the loop of Henle"
+        },
+        {
+          "label": "C",
+          "text": "glomerular basement membrane"
+        },
+        {
+          "label": "D",
+          "text": "collecting-duct apical membrane"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The proximal tubule reabsorbs approximately 65% of filtered water, but this occurs constitutively through aquaporin-1 channels and is driven by osmotic gradients created by sodium reabsorption. It is not regulated by vasopressin. Vasopressin specifically targets the collecting duct by triggering insertion of aquaporin-2 channels into the apical membrane of principal cells.",
+        "B": "The thick ascending limb of the loop of Henle is water-impermeable by design \u2014 this is essential for creating the medullary osmotic gradient. It actively reabsorbs NaCl (via NKCC2 cotransporter) without allowing water to follow, diluting the tubular fluid. Vasopressin does not add aquaporins to this segment.",
+        "C": "The glomerular basement membrane is the filtration barrier, not a site of vasopressin-regulated water reabsorption. Filtration is driven by hydrostatic pressure and is not regulated by vasopressin.",
+        "D": "Correct. Vasopressin (antidiuretic hormone, ADH) binds V2 receptors on the basolateral membrane of collecting duct principal cells, activating a cAMP signaling cascade that triggers translocation of aquaporin-2 (AQP2) water channels from intracellular vesicles to the apical membrane. This increases the water permeability of the collecting duct, allowing water to be reabsorbed from the tubular fluid into the hypertonic medullary interstitium. Without vasopressin, the collecting duct is relatively water-impermeable, and dilute urine is produced."
+      },
+      "topic": "ADH / Collecting Duct",
+      "difficulty": "Medium",
+      "passageRef": "bb_system_001"
+    },
+    {
+      "id": "bb_system_003",
+      "passage": null,
+      "stem": "Aldosterone acts on distal nephron principal cells to increase:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sodium reabsorption and potassium secretion"
+        },
+        {
+          "label": "B",
+          "text": "bicarbonate loss"
+        },
+        {
+          "label": "C",
+          "text": "water secretion without ion movement"
+        },
+        {
+          "label": "D",
+          "text": "glucose filtration"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Aldosterone is a mineralocorticoid hormone produced by the adrenal cortex (zona glomerulosa) in response to angiotensin II and hyperkalemia. It binds intracellular receptors in distal tubule and collecting duct principal cells, upregulating expression of ENaC (epithelial sodium channels) on the apical membrane and Na\u207a/K\u207a-ATPase on the basolateral membrane. This increases sodium reabsorption from the tubular fluid and creates an electrochemical gradient that drives potassium secretion into the lumen through ROMK channels.",
+        "B": "Aldosterone does not primarily cause bicarbonate loss. While complex interactions between acid-base and potassium handling exist in the distal nephron, aldosterone's principal effect is on sodium and potassium transport, not bicarbonate excretion.",
+        "C": "Aldosterone promotes sodium (and consequently water) reabsorption, not water secretion. The retained sodium creates an osmotic force that draws water from the tubular lumen into the peritubular space, concentrating rather than diluting the urine.",
+        "D": "Glucose filtration depends on plasma glucose concentration and GFR, not on aldosterone. Glucose is filtered at the glomerulus and reabsorbed in the proximal tubule by SGLT2, a process independent of aldosterone signaling."
+      },
+      "topic": "Aldosterone / Electrolyte Handling",
+      "difficulty": "Medium",
+      "passageRef": "bb_system_001"
+    },
+    {
+      "id": "bb_system_004",
+      "passage": null,
+      "stem": "Primary hypoventilation initially causes:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "metabolic alkalosis from acid excretion"
+        },
+        {
+          "label": "B",
+          "text": "respiratory alkalosis from CO\u2082 loss"
+        },
+        {
+          "label": "C",
+          "text": "metabolic acidosis from bicarbonate loss"
+        },
+        {
+          "label": "D",
+          "text": "respiratory acidosis from CO\u2082 retention"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Metabolic alkalosis involves primary HCO\u2083\u207b excess (from vomiting, diuretic use, or alkali ingestion). Hypoventilation does not raise pH \u2014 it lowers it by retaining CO\u2082.",
+        "B": "Respiratory alkalosis results from hyperventilation (excessive CO\u2082 removal), which is the opposite of hypoventilation. Hyperventilation reduces pCO\u2082, shifting the equilibrium leftward, decreasing H\u207a, and raising pH. Common causes include anxiety, high altitude, and early salicylate poisoning.",
+        "C": "Metabolic acidosis is characterized by primary HCO\u2083\u207b loss or excess acid production from metabolic sources (lactic acidosis, diabetic ketoacidosis, renal failure). The primary disturbance in the question is ventilatory (CO\u2082 retention), making it respiratory, not metabolic.",
+        "D": "Correct. Hypoventilation means inadequate alveolar ventilation \u2014 the lungs are not eliminating CO\u2082 fast enough. CO\u2082 accumulates in the blood (hypercapnia), driving the equilibrium CO\u2082 + H\u2082O \u21cc H\u2082CO\u2083 \u21cc H\u207a + HCO\u2083\u207b to the right. The increased H\u207a production lowers blood pH, producing respiratory acidosis. Causes include COPD, neuromuscular disease, CNS depression (opioids), and obesity hypoventilation syndrome."
+      },
+      "topic": "Ventilation / Acid-Base Balance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_system_005",
+      "passage": null,
+      "stem": "The Bohr effect promotes oxygen unloading in metabolically active tissue because increased CO\u2082 and H\u207a:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase hemoglobin's affinity for oxygen"
+        },
+        {
+          "label": "B",
+          "text": "irreversibly destroy hemoglobin's heme groups"
+        },
+        {
+          "label": "C",
+          "text": "prevent oxygen from diffusing across capillaries"
+        },
+        {
+          "label": "D",
+          "text": "decrease hemoglobin's affinity for oxygen"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Increased O\u2082 affinity is the opposite of the Bohr effect. A leftward shift of the oxyhemoglobin dissociation curve (increased affinity) would cause hemoglobin to hold onto oxygen more tightly, which is counterproductive in metabolically active tissue that needs oxygen delivery.",
+        "B": "Physiological unloading of oxygen does not destroy heme groups. The Bohr effect is a reversible allosteric change in hemoglobin's quaternary structure (R-state to T-state transition), not a destructive modification. Hemoglobin cycles between loading in the lungs and unloading in tissues thousands of times during its ~120-day lifespan in red blood cells.",
+        "C": "Oxygen diffusion across capillary walls is driven by the partial pressure gradient (pO\u2082 in blood > pO\u2082 in tissue). CO\u2082 and H\u207a do not block diffusion \u2014 they facilitate oxygen release by decreasing hemoglobin's affinity, which increases the free O\u2082 available for diffusion.",
+        "D": "Correct. The Bohr effect describes the rightward shift of the oxyhemoglobin dissociation curve in response to increased CO\u2082, decreased pH, and increased temperature \u2014 conditions found in metabolically active tissues. H\u207a and CO\u2082 bind to hemoglobin at sites distinct from the heme oxygen-binding sites, stabilizing the T (tense) state, which has lower oxygen affinity. This promotes oxygen unloading precisely where it is needed most. In the lungs, low CO\u2082 and high pH favor the R (relaxed) state, promoting oxygen loading."
+      },
+      "topic": "Hemoglobin / Bohr Effect",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_system_006",
+      "passage": null,
+      "stem": "Pulmonary surfactant helps prevent alveolar collapse by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "raising tension at the air-liquid interface"
+        },
+        {
+          "label": "B",
+          "text": "lowering tension at the air-liquid interface"
+        },
+        {
+          "label": "C",
+          "text": "blocking perfusion through pulmonary capillary beds"
+        },
+        {
+          "label": "D",
+          "text": "thickening the alveolar gas-diffusion barrier"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Raising surface tension would increase the inward collapsing force on alveoli according to the Law of Laplace (P = 2T/r). Higher tension makes small alveoli more prone to collapse (atelectasis), which is the opposite of surfactant's protective function.",
+        "B": "Correct. Pulmonary surfactant is a complex mixture of phospholipids (primarily dipalmitoylphosphatidylcholine, DPPC) and surfactant proteins (SP-A, SP-B, SP-C, SP-D) secreted by type II alveolar pneumocytes. By reducing surface tension at the air-liquid interface, surfactant decreases the pressure needed to keep alveoli open (Law of Laplace: P = 2T/r). Crucially, surfactant's effect is proportionally greater in smaller alveoli (where r is small and collapsing pressure would otherwise be highest), equalizing pressures across alveoli of different sizes and preventing small alveoli from collapsing into larger ones.",
+        "C": "Surfactant operates at the air-liquid interface within alveoli and has no effect on capillary blood flow. Pulmonary perfusion is regulated by hypoxic pulmonary vasoconstriction and other mechanisms, not by surfactant.",
+        "D": "Surfactant does not thicken the alveolar barrier. The gas exchange barrier (alveolar epithelium + basement membrane + capillary endothelium) is approximately 0.5 \u03bcm thick. Surfactant forms a thin film at the air-liquid interface and does not add significant thickness to the diffusion pathway."
+      },
+      "topic": "Pulmonary Surfactant / Surface Tension",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_system_007",
+      "passage": null,
+      "stem": "Pancreatic bicarbonate released into the duodenum primarily:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "digests proteins directly"
+        },
+        {
+          "label": "B",
+          "text": "emulsifies lipids"
+        },
+        {
+          "label": "C",
+          "text": "neutralizes acidic chyme"
+        },
+        {
+          "label": "D",
+          "text": "activates gastric pepsin"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Pancreatic proteases (trypsin, chymotrypsin, carboxypeptidase) digest proteins. Bicarbonate is an inorganic ion that cannot hydrolyze peptide bonds \u2014 it has no enzymatic activity. Its role is purely chemical: pH buffering.",
+        "B": "Bile salts, produced by the liver and stored in the gallbladder, emulsify dietary lipids by breaking large fat globules into smaller micelles. Bicarbonate does not have amphipathic properties and cannot emulsify fat.",
+        "C": "Correct. Acidic chyme (pH ~2) enters the duodenum from the stomach. Pancreatic bicarbonate (HCO\u2083\u207b), secreted in response to secretin, neutralizes this acid, raising the duodenal pH to approximately 6\u20137. This is essential because pancreatic digestive enzymes (lipase, trypsin, amylase) have optimal activity near neutral pH and would be inactivated by the acidic gastric conditions. Bicarbonate also protects the duodenal mucosa from acid-induced damage.",
+        "D": "Pepsin is a gastric protease that functions optimally at pH 1.5\u20133.5 in the stomach. Pepsin is irreversibly denatured when pH rises above ~6. Pancreatic bicarbonate actually inactivates any pepsin that enters the duodenum \u2014 it does not activate it."
+      },
+      "topic": "Pancreas / Bicarbonate",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_system_008",
+      "passage": null,
+      "stem": "Bile salts assist lipid digestion mainly by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "emulsifying fat and forming micelles"
+        },
+        {
+          "label": "B",
+          "text": "hydrolyzing peptide bonds"
+        },
+        {
+          "label": "C",
+          "text": "transporting oxygen"
+        },
+        {
+          "label": "D",
+          "text": "acidifying the small intestine"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Bile salts are amphipathic molecules synthesized from cholesterol in the liver and stored in the gallbladder. Their hydrophobic face interacts with dietary lipids while their hydrophilic face interacts with the aqueous intestinal contents. This emulsifies large fat globules into smaller droplets (increasing the surface area for lipase activity) and helps form mixed micelles that transport fatty acids, monoglycerides, and fat-soluble vitamins to the intestinal brush border for absorption. Bile salts are recycled via enterohepatic circulation (~95% reabsorbed in the terminal ileum).",
+        "B": "Peptide bond hydrolysis is performed by proteolytic enzymes: pepsin in the stomach, trypsin and chymotrypsin from the pancreas, and aminopeptidases and dipeptidases on the brush border. Bile salts have no proteolytic activity.",
+        "C": "Oxygen transport is performed by hemoglobin in red blood cells. Bile salts are digestive emulsifiers in the gastrointestinal tract and have no role in gas transport.",
+        "D": "Bile is alkaline (pH ~7.5\u20138.5), not acidic. It contributes to neutralizing gastric acid in the duodenum alongside pancreatic bicarbonate. Bile salts do not acidify the small intestine."
+      },
+      "topic": "Bile / Lipid Absorption",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_system_009",
+      "passage": null,
+      "stem": "The descending limb of the loop of Henle is characterized by relatively high permeability to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sodium but not water"
+        },
+        {
+          "label": "B",
+          "text": "water"
+        },
+        {
+          "label": "C",
+          "text": "plasma proteins"
+        },
+        {
+          "label": "D",
+          "text": "glucose only"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The ascending limb (particularly the thick ascending limb) actively reabsorbs sodium, potassium, and chloride via the NKCC2 cotransporter but is impermeable to water. This is the opposite of the descending limb's properties. The ascending limb's water impermeability is what creates the dilute tubular fluid that enters the distal tubule.",
+        "B": "Correct. The thin descending limb of the loop of Henle is highly permeable to water (via aquaporin-1 channels) but relatively impermeable to solutes. As tubular fluid descends into the increasingly hypertonic medullary interstitium, water moves out of the tubule by osmosis, concentrating the tubular fluid. By the hairpin turn, the tubular fluid osmolarity approximately equals the surrounding medullary interstitium (~1200 mOsm/kg at the tip). This water removal is a passive process driven by the medullary concentration gradient created by the countercurrent multiplier.",
+        "C": "Plasma proteins are too large to be filtered through the glomerular basement membrane under normal conditions. They are not present in the tubular fluid in significant amounts and are not a relevant consideration for loop of Henle permeability.",
+        "D": "Glucose reabsorption occurs almost entirely in the proximal convoluted tubule via SGLT2 (majority) and SGLT1 (remainder) cotransporters. The loop of Henle does not significantly reabsorb glucose."
+      },
+      "topic": "Loop of Henle / Countercurrent System",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_system_010",
+      "passage": null,
+      "stem": "Villi and microvilli improve intestinal absorption primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reducing blood supply"
+        },
+        {
+          "label": "B",
+          "text": "increasing epithelial surface area"
+        },
+        {
+          "label": "C",
+          "text": "preventing enzyme secretion"
+        },
+        {
+          "label": "D",
+          "text": "eliminating concentration gradients"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Reducing blood supply would impair absorption, not improve it. Villi contain a rich capillary network and a central lacteal (lymphatic vessel) that receive absorbed nutrients. Adequate perfusion is essential for maintaining the concentration gradients that drive continued absorption.",
+        "B": "Correct. Villi (finger-like projections of the mucosa, ~0.5\u20131.5 mm tall) and microvilli (brush border \u2014 microscopic projections on the apical surface of each enterocyte, ~1 \u03bcm tall) collectively increase the absorptive surface area of the small intestine by approximately 600-fold compared to a flat tube. The total absorptive surface area is estimated at ~32 m\u00b2 (roughly the size of a studio apartment). This enormous surface area maximizes contact between nutrients and transport proteins, enabling efficient absorption of the ~9 L of fluid and nutrients that pass through the small intestine daily.",
+        "C": "Brush-border enzymes (lactase, sucrase, maltase, aminopeptidases, dipeptidases) are anchored in the microvilli membrane and perform the final steps of carbohydrate and protein digestion. Villi and microvilli increase rather than prevent enzyme exposure to luminal contents.",
+        "D": "Concentration gradients are essential driving forces for nutrient absorption (both passive and active transport). Villi do not eliminate gradients \u2014 they increase the surface area over which gradient-driven transport can occur, enhancing total absorptive capacity."
+      },
+      "topic": "Small Intestine / Surface Area",
+      "difficulty": "Easy"
+    }
+  ]
+}

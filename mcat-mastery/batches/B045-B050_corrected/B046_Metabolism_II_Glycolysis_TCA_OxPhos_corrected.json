@@ -1,0 +1,337 @@
+{
+  "batch": "B046",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Metabolism II: Glycolysis, TCA Cycle & Oxidative Phosphorylation",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 3,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "bb_metab_001",
+      "passage": "A researcher studies glucose metabolism in hepatocytes. Under aerobic conditions, glucose is converted to pyruvate via glycolysis in the cytoplasm. Pyruvate enters the mitochondrial matrix, where pyruvate dehydrogenase converts it to acetyl-CoA. Acetyl-CoA enters the citric acid (TCA) cycle, generating NADH and FADH₂ that feed into the electron transport chain (ETC) on the inner mitochondrial membrane. The researcher adds oligomycin, an ATP synthase inhibitor, and observes that oxygen consumption drops dramatically.",
+      "stem": "Glycolysis produces a net yield of how many ATP per glucose molecule?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 ATP, because 4 ATP are produced by substrate-level phosphorylation but 2 ATP are consumed in the energy investment phase"
+        },
+        {
+          "label": "B",
+          "text": "4 ATP, because no ATP is consumed during glycolysis"
+        },
+        {
+          "label": "C",
+          "text": "36 ATP, because glycolysis is the primary ATP-generating pathway"
+        },
+        {
+          "label": "D",
+          "text": "0 ATP, because glycolysis only produces NADH"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Glycolysis consumes 2 ATP in the energy investment phase (hexokinase and phosphofructokinase reactions) and produces 4 ATP by substrate-level phosphorylation (phosphoglycerate kinase and pyruvate kinase, 2 each per triose processed, × 2 trioses per glucose). Net yield: 4 − 2 = 2 ATP per glucose. Glycolysis also produces 2 NADH, which can generate additional ATP via the ETC if oxygen is available.",
+        "B": "4 ATP is the gross yield from substrate-level phosphorylation, but this ignores the 2 ATP consumed in the investment phase (glucose → glucose-6-phosphate by hexokinase, and fructose-6-phosphate → fructose-1,6-bisphosphate by PFK-1). The net yield accounts for both investment and payoff: 4 − 2 = 2 ATP.",
+        "C": "36 ATP (sometimes cited as 30–32 in more recent estimates) is the approximate total yield from complete oxidation of one glucose through glycolysis, pyruvate dehydrogenase, the TCA cycle, and oxidative phosphorylation combined. Glycolysis alone contributes only 2 of these ATP molecules.",
+        "D": "Glycolysis does produce NADH (2 per glucose), but it also produces ATP by substrate-level phosphorylation. The phosphoglycerate kinase and pyruvate kinase reactions each transfer a phosphate group directly from a substrate to ADP, generating ATP without requiring the electron transport chain."
+      },
+      "topic": "Glycolysis / Net ATP Yield",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_metab_002",
+      "passage": null,
+      "passageRef": "bb_metab_001",
+      "stem": "When oligomycin inhibits ATP synthase, oxygen consumption drops because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "oligomycin directly inhibits cytochrome c oxidase (Complex IV), preventing oxygen reduction"
+        },
+        {
+          "label": "B",
+          "text": "ATP synthase is required to produce the NADH that feeds the electron transport chain"
+        },
+        {
+          "label": "C",
+          "text": "oligomycin destroys the inner mitochondrial membrane, eliminating the compartment for oxidative phosphorylation"
+        },
+        {
+          "label": "D",
+          "text": "without ATP synthase activity, the proton gradient builds up and cannot be dissipated, which slows electron transport because the ETC cannot pump protons against an excessively steep gradient"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Oligomycin specifically binds the F₀ subunit of ATP synthase, blocking the proton channel. It does not directly inhibit any electron transport chain complex. Complex IV (cytochrome c oxidase) is unaffected by oligomycin — it is inhibited by cyanide and carbon monoxide instead.",
+        "B": "NADH is produced by glycolysis (cytoplasm), pyruvate dehydrogenase, and the TCA cycle (mitochondrial matrix) — none of which require ATP synthase. ATP synthase consumes the proton gradient to make ATP; it does not produce NADH. The ETC accepts electrons from NADH and FADH₂ produced by upstream metabolic pathways.",
+        "C": "Oligomycin does not damage membrane integrity. It specifically targets the proton channel of ATP synthase (F₀ subunit) without disrupting the lipid bilayer. The inner mitochondrial membrane remains intact — which is precisely why the proton gradient builds up rather than dissipating.",
+        "D": "Correct. ATP synthase normally allows protons to flow down their electrochemical gradient from the intermembrane space back into the matrix, using this energy to synthesize ATP. When oligomycin blocks this proton channel, the proton gradient increases because protons accumulate in the intermembrane space with no way to return. The ETC complexes (I, III, IV) must pump protons against this gradient, and as the gradient steepens, the energy required to pump each additional proton increases until the complexes can no longer overcome the back-pressure. Electron transport slows, and since O₂ is the terminal electron acceptor at Complex IV, oxygen consumption drops."
+      },
+      "topic": "Oligomycin / Chemiosmotic Coupling",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_metab_003",
+      "passage": null,
+      "passageRef": "bb_metab_001",
+      "stem": "Pyruvate dehydrogenase converts pyruvate to acetyl-CoA. This reaction is classified as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a reversible isomerization that rearranges pyruvate without removing carbon"
+        },
+        {
+          "label": "B",
+          "text": "a hydrolysis reaction that adds water to break the pyruvate carbon skeleton"
+        },
+        {
+          "label": "C",
+          "text": "a substrate-level phosphorylation that directly produces ATP"
+        },
+        {
+          "label": "D",
+          "text": "an oxidative decarboxylation that removes CO₂ and transfers electrons to NAD⁺, producing NADH and acetyl-CoA"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The reaction removes a carbon atom as CO₂ (decarboxylation), reducing the 3-carbon pyruvate to a 2-carbon acetyl group. This is not an isomerization (which rearranges atoms without changing the molecular formula). The reaction is also irreversible under physiological conditions, committing carbon to the TCA cycle.",
+        "B": "The pyruvate dehydrogenase reaction does not involve hydrolysis (bond cleavage by water addition). It is an oxidative decarboxylation requiring coenzyme A (CoA-SH), NAD⁺, thiamine pyrophosphate (TPP), lipoic acid, and FAD as cofactors. Water is not a reactant in this complex multi-step reaction.",
+        "C": "No ATP is produced by pyruvate dehydrogenase. The energy from the oxidation is captured as NADH and the thioester bond of acetyl-CoA. Substrate-level phosphorylation (direct transfer of a phosphate to ADP) occurs at specific steps in glycolysis and the TCA cycle (succinyl-CoA synthetase), not at this step.",
+        "D": "Correct. Pyruvate dehydrogenase catalyzes oxidative decarboxylation: pyruvate (3C) → acetyl-CoA (2C) + CO₂ + NADH. The reaction simultaneously removes a carbon as CO₂ (decarboxylation) and transfers electrons to NAD⁺ (oxidation). The remaining 2-carbon acetyl group is attached to coenzyme A, forming acetyl-CoA. This reaction is catalyzed by a large multi-enzyme complex requiring five cofactors: TPP, lipoic acid, CoA, FAD, and NAD⁺. It is irreversible and tightly regulated (inhibited by ATP, NADH, and acetyl-CoA)."
+      },
+      "topic": "Pyruvate Dehydrogenase / Oxidative Decarboxylation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_metab_004",
+      "passage": null,
+      "stem": "The TCA cycle occurs in the mitochondrial matrix and processes one acetyl-CoA to produce:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 NADH, 1 FADH₂, 1 GTP (or ATP), and 2 CO₂"
+        },
+        {
+          "label": "B",
+          "text": "1 NADH, 3 FADH₂, 2 GTP, and 1 CO₂"
+        },
+        {
+          "label": "C",
+          "text": "2 NADH, 2 FADH₂, 2 GTP, and 3 CO₂"
+        },
+        {
+          "label": "D",
+          "text": "10 NADH, 2 FADH₂, and no CO₂"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Each turn of the TCA cycle (processing one acetyl-CoA) produces: 3 NADH (at isocitrate dehydrogenase, α-ketoglutarate dehydrogenase, and malate dehydrogenase), 1 FADH₂ (at succinate dehydrogenase/Complex II), 1 GTP by substrate-level phosphorylation (at succinyl-CoA synthetase, equivalent to 1 ATP), and 2 CO₂ (at isocitrate dehydrogenase and α-ketoglutarate dehydrogenase). Since each glucose produces 2 acetyl-CoA, the per-glucose TCA yield is doubled: 6 NADH, 2 FADH₂, 2 GTP, and 4 CO₂.",
+        "B": "The NADH and FADH₂ counts are reversed. The TCA cycle produces more NADH (3) than FADH₂ (1) per turn, not the other way around. Only one step (succinate dehydrogenase) produces FADH₂, while three steps produce NADH. Also, only 1 GTP is produced per turn, not 2.",
+        "C": "2 NADH per turn undercounts — three dehydrogenase reactions produce NADH. Three CO₂ per turn overcounts — only two decarboxylation reactions occur (isocitrate → α-ketoglutarate and α-ketoglutarate → succinyl-CoA). The two acetyl-CoA carbons are fully oxidized to 2 CO₂, not 3.",
+        "D": "10 NADH per acetyl-CoA is far too high. 10 NADH is the approximate total from complete glucose oxidation (2 from glycolysis + 2 from pyruvate dehydrogenase + 6 from the TCA cycle for 2 acetyl-CoA). Additionally, every turn of the TCA cycle releases 2 CO₂ — it is not CO₂-free."
+      },
+      "topic": "TCA Cycle / Per-Turn Yield",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_metab_005",
+      "passage": null,
+      "stem": "In the electron transport chain, NADH donates electrons to Complex I, while FADH₂ donates electrons to Complex II. NADH generates more ATP per molecule than FADH₂ because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "NADH is a larger molecule with more chemical bonds to break"
+        },
+        {
+          "label": "B",
+          "text": "Complex II pumps more protons than Complex I"
+        },
+        {
+          "label": "C",
+          "text": "FADH₂ electrons are lower in energy and cannot reach Complex IV"
+        },
+        {
+          "label": "D",
+          "text": "electrons from Complex I pass through three proton-pumping complexes (I, III, IV), while electrons from Complex II bypass Complex I and pass through only two (III, IV), pumping fewer protons"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "ATP yield depends on the number of protons pumped across the inner membrane, not on the molecular size of the electron donor. The energy available for proton pumping comes from the redox potential difference between the electron donor and oxygen, not from breaking bonds within the donor molecule itself.",
+        "B": "Complex II (succinate dehydrogenase) does not pump any protons across the inner membrane. Complex I pumps ~4 protons per pair of electrons. This answer reverses the actual relationship — Complex I pumps more protons, not Complex II.",
+        "C": "FADH₂ electrons do reach Complex IV — the terminal step where oxygen is reduced to water. The electrons from both NADH and FADH₂ ultimately converge at Complex IV via cytochrome c. The difference is not in the endpoint but in the entry point: Complex I (for NADH) vs. Complex II (for FADH₂).",
+        "D": "Correct. Electrons from NADH enter at Complex I and pass through Complexes I → CoQ → III → Cyt c → IV → O₂. At each of the three complexes with proton-pumping capacity (I, III, IV), protons are translocated from matrix to intermembrane space. Total: ~10 protons pumped per NADH. Electrons from FADH₂ enter at Complex II (succinate dehydrogenase), which does not pump protons. They then pass through III → IV, pumping protons at only two sites. Total: ~6 protons per FADH₂. Fewer protons pumped = fewer protons available to drive ATP synthase = less ATP (approximately 2.5 ATP per NADH vs. 1.5 per FADH₂)."
+      },
+      "topic": "ETC / NADH vs FADH₂ ATP Yield",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_metab_006",
+      "passage": null,
+      "stem": "The inner mitochondrial membrane must remain impermeable to protons for oxidative phosphorylation to function because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "proton impermeability prevents oxygen from entering the mitochondria"
+        },
+        {
+          "label": "B",
+          "text": "proton leakage would short-circuit the gradient, allowing protons to return to the matrix without passing through ATP synthase, uncoupling electron transport from ATP production"
+        },
+        {
+          "label": "C",
+          "text": "protons would denature the electron transport chain complexes if they contacted them directly"
+        },
+        {
+          "label": "D",
+          "text": "the inner membrane must be electrically neutral at all times"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Oxygen is a small nonpolar molecule that crosses membranes freely by simple diffusion. Proton impermeability has nothing to do with oxygen access — O₂ reaches the mitochondrial matrix regardless of membrane permeability properties.",
+        "B": "Correct. The chemiosmotic hypothesis (Mitchell) requires a proton-impermeable membrane to maintain the electrochemical gradient (proton-motive force) generated by the ETC. If protons could leak freely across the membrane, they would flow down their gradient without passing through ATP synthase, dissipating the gradient as heat rather than using it to make ATP. This is exactly what uncoupling proteins (like UCP1 in brown fat) do intentionally — they create a proton leak to generate heat for thermogenesis. Chemical uncouplers (DNP, FCCP) work similarly, collapsing the gradient and maximizing oxygen consumption while reducing ATP synthesis.",
+        "C": "ETC complexes are transmembrane proteins that interact with protons as part of their normal function — Complexes I, III, and IV pump protons across the membrane, and proton contact is essential for their mechanism. Protons do not denature these complexes; they are integral to the pumping process.",
+        "D": "The inner membrane is not electrically neutral — the proton gradient creates a significant voltage difference (membrane potential, ΔΨ ≈ −180 mV, matrix-negative). This electrical component of the proton-motive force is a major driver of ATP synthesis. The membrane's function is to maintain this charge separation, not to eliminate it."
+      },
+      "topic": "Chemiosmotic Coupling / Proton Gradient",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_metab_007",
+      "passage": null,
+      "stem": "During anaerobic conditions, pyruvate is converted to lactate by lactate dehydrogenase. The primary purpose of this reaction is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "produce additional ATP beyond what glycolysis provides"
+        },
+        {
+          "label": "B",
+          "text": "generate CO₂ for the bicarbonate buffer system"
+        },
+        {
+          "label": "C",
+          "text": "regenerate NAD⁺ from NADH so that glycolysis can continue in the absence of oxygen"
+        },
+        {
+          "label": "D",
+          "text": "store energy in lactate for later use by the TCA cycle"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The lactate dehydrogenase reaction does not produce ATP. Its function is to recycle NAD⁺. ATP production in anaerobic conditions comes from glycolysis itself (substrate-level phosphorylation), not from the pyruvate → lactate conversion.",
+        "B": "The lactate dehydrogenase reaction does not produce CO₂. It reduces pyruvate to lactate using NADH as the electron donor: pyruvate + NADH + H⁺ → lactate + NAD⁺. CO₂ production from pyruvate occurs in the pyruvate dehydrogenase reaction (aerobic) and in alcoholic fermentation (yeast), but not in the LDH reaction.",
+        "C": "Correct. Glycolysis requires NAD⁺ as an electron acceptor at the glyceraldehyde-3-phosphate dehydrogenase step. Under aerobic conditions, NADH is reoxidized to NAD⁺ by the electron transport chain. Under anaerobic conditions (no ETC activity), NADH accumulates and NAD⁺ is depleted, which would halt glycolysis. Lactate dehydrogenase solves this by transferring electrons from NADH to pyruvate, regenerating NAD⁺ and allowing glycolysis to continue producing 2 ATP per glucose — the cell's only ATP source without oxygen.",
+        "D": "While lactate can be converted back to pyruvate (in the liver via the Cori cycle) and subsequently oxidized, the primary purpose of the LDH reaction is not energy storage. It is an emergency measure to maintain glycolytic flux when oxygen is unavailable. Lactate is more of a metabolic waste product (from the working muscle's perspective) than an energy storage molecule."
+      },
+      "topic": "Anaerobic Glycolysis / NAD⁺ Regeneration",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_metab_008",
+      "passage": null,
+      "stem": "Phosphofructokinase-1 (PFK-1) is the primary regulatory enzyme of glycolysis. It is allosterically inhibited by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AMP and fructose-2,6-bisphosphate, which signal low energy charge"
+        },
+        {
+          "label": "B",
+          "text": "ATP and citrate, which signal high energy charge and sufficient TCA cycle intermediates"
+        },
+        {
+          "label": "C",
+          "text": "glucose-6-phosphate, which is the substrate of the first glycolytic step"
+        },
+        {
+          "label": "D",
+          "text": "NADH, which directly binds to the PFK-1 active site"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "AMP and fructose-2,6-bisphosphate are allosteric activators of PFK-1, not inhibitors. They signal that the cell needs more ATP (low energy charge) and stimulate glycolysis to increase ATP production. This answer correctly identifies the energy-sensing function but reverses the direction — these molecules activate, not inhibit.",
+        "B": "Correct. PFK-1 is allosterically inhibited by ATP (high energy charge — the cell has enough ATP and doesn't need more from glycolysis) and citrate (the first intermediate of the TCA cycle — abundant citrate signals that the TCA cycle is saturated with substrate and glycolysis can slow down). PFK-1 is activated by AMP and ADP (low energy charge) and by fructose-2,6-bisphosphate (produced by PFK-2 in response to insulin signaling). This regulation makes PFK-1 the committed step and primary flux-controlling point of glycolysis.",
+        "C": "Glucose-6-phosphate does inhibit hexokinase (the first step), not PFK-1 (the third step). This is a valid regulatory mechanism — product inhibition of hexokinase — but it applies to a different enzyme. PFK-1 is inhibited by downstream metabolic signals (ATP, citrate), not by upstream substrates.",
+        "D": "NADH does not directly bind PFK-1. NADH inhibits other metabolic enzymes (pyruvate dehydrogenase, isocitrate dehydrogenase, α-ketoglutarate dehydrogenase) as a signal of sufficient reducing equivalents. PFK-1 regulation is primarily through adenine nucleotides (ATP vs. AMP) and citrate, not through NADH."
+      },
+      "topic": "PFK-1 Regulation / Allosteric Control",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_metab_009",
+      "passage": null,
+      "stem": "The theoretical maximum ATP yield from complete oxidation of one glucose molecule under aerobic conditions is approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 ATP"
+        },
+        {
+          "label": "B",
+          "text": "4 ATP"
+        },
+        {
+          "label": "C",
+          "text": "30–32 ATP"
+        },
+        {
+          "label": "D",
+          "text": "100 ATP"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "2 ATP is the net yield from glycolysis alone (substrate-level phosphorylation). Complete aerobic oxidation includes the TCA cycle and oxidative phosphorylation, which generate substantially more ATP from the NADH and FADH₂ produced throughout the pathway.",
+        "B": "4 ATP would account for glycolysis (2 net) plus TCA cycle substrate-level phosphorylation (2 GTP). This ignores the major contribution of oxidative phosphorylation, which generates the vast majority of ATP from the ~10 NADH and 2 FADH₂ produced during complete glucose oxidation.",
+        "C": "Correct. Complete aerobic oxidation of glucose produces approximately 30–32 ATP (updated estimate; older textbooks cited 36–38). The breakdown: glycolysis yields 2 ATP + 2 NADH; pyruvate dehydrogenase yields 2 NADH; the TCA cycle (×2 turns) yields 6 NADH + 2 FADH₂ + 2 GTP. Each NADH yields ~2.5 ATP via oxidative phosphorylation, and each FADH₂ yields ~1.5 ATP. Total: 2 + 2 + (10 × 2.5) + (2 × 1.5) = 2 + 2 + 25 + 3 = 32 ATP. The range (30–32) reflects uncertainty about the efficiency of NADH shuttle systems and the H⁺/ATP ratio of ATP synthase.",
+        "D": "100 ATP per glucose is far beyond what the thermodynamics of glucose oxidation can support. The free energy of glucose oxidation (ΔG°' ≈ −2870 kJ/mol) divided by the free energy of ATP hydrolysis (ΔG°' ≈ −30.5 kJ/mol) gives a theoretical maximum of ~94, but the actual efficiency (~40%) yields only 30–32 ATP."
+      },
+      "topic": "Total ATP Yield / Aerobic Oxidation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_metab_010",
+      "passage": null,
+      "stem": "2,4-dinitrophenol (DNP) is a chemical uncoupler that carries protons across the inner mitochondrial membrane, bypassing ATP synthase. Treatment of cells with DNP would:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase ATP production because more protons are available to drive ATP synthase"
+        },
+        {
+          "label": "B",
+          "text": "stop all electron transport because the proton gradient is essential for ETC function"
+        },
+        {
+          "label": "C",
+          "text": "increase oxygen consumption while decreasing ATP production, because the ETC runs faster to compensate for the dissipated gradient but the energy is released as heat rather than captured as ATP"
+        },
+        {
+          "label": "D",
+          "text": "have no effect because protons cannot cross lipid bilayers under any circumstances"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "DNP dissipates the proton gradient by providing an alternative pathway for protons to cross the membrane — bypassing ATP synthase. Fewer protons flow through ATP synthase, so ATP production decreases, not increases. The gradient energy is converted to heat instead of ATP.",
+        "B": "Electron transport actually increases (not stops) when the gradient is dissipated. Without the back-pressure of a steep proton gradient, the ETC complexes can pump protons more easily, running the chain faster. Oxygen consumption increases because Complex IV reduces O₂ to H₂O at an accelerated rate. The ETC does not require a gradient to function — it generates the gradient.",
+        "C": "Correct. DNP uncouples electron transport from ATP synthesis. By carrying protons across the membrane (bypassing ATP synthase), DNP collapses the proton-motive force. The ETC, no longer working against a steep gradient, speeds up — consuming more oxygen. But the energy that would have driven ATP synthesis is instead dissipated as heat. This is why DNP was historically (and dangerously) used as a weight-loss drug: it increases metabolic rate and heat production while 'wasting' caloric energy. The effect is identical to the physiological function of UCP1 in brown adipose tissue (non-shivering thermogenesis).",
+        "D": "While the inner mitochondrial membrane is normally impermeable to protons (which is essential for maintaining the gradient), DNP is a lipid-soluble weak acid that can pick up a proton on one side, diffuse through the membrane in its protonated form, and release the proton on the other side. This artificially creates a proton leak that the membrane's normal impermeability is designed to prevent."
+      },
+      "topic": "Uncouplers / DNP / Thermogenesis",
+      "difficulty": "Hard"
+    }
+  ]
+}

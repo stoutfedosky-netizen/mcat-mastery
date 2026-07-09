@@ -1,0 +1,246 @@
+{
+  "batch": "B215",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Translation, Equivalence & the Ethics of Interpretation",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_translation_equivalence_215_q0",
+      "passage": "When a translator renders a poem from one language into another, it is tempting to speak as though the original were simply being carried across a border, intact and undamaged, into a new tongue. The vocabulary of translation encourages this illusion. A translator is said to “convey” the author’s meaning, “preserve” the poem’s spirit, or “capture” its voice, as though sense floated free of the words that first gave it shape, waiting only for a sufficiently skilled hand to transfer it into new sounds. Yet translation is never a mere transfer. It is an act of reconstruction, and inevitably of loss, in which a second author reassembles meaning from materials the original never possessed.\n\nThis difficulty is often hidden because readers tend to equate a good translation with invisibility. A translation that reads fluently, that offers no strange turns of phrase, that could pass for something written originally in the target language, appears successful; one that startles or resists appears clumsy, even when that resistance preserves something essential about the original’s rhythm or worldview. The fluent translation therefore often satisfies a desire not for the foreign text itself, but for a foreign text that has stopped being foreign. In this sense, fluent translation can become a subtle form of erasure. It allows readers to encounter another literature without confronting the friction, the untranslatable idiom, the different grammar of thought, through which that literature actually means what it means.\n\nBut the opposite impulse is no less problematic. Some translators and critics, reacting against domestication, now insist that a translation should preserve every foreign syntactic structure and every untranslatable pun, as though awkwardness alone guaranteed fidelity. They treat strangeness as a mark of honesty. This reverence for difficulty can be as sentimental as the craving for fluency. A translation crowded with footnotes and foreignisms is not automatically truer than a smooth one; opacity may obscure as much as it reveals. To leave a phrase deliberately strange may preserve evidence of its foreignness, but it may also strand readers outside meanings the original conveyed effortlessly to its first audience. The cult of the foreign and the cult of the fluent are mirror images: each imagines that fidelity can be secured by a single stylistic posture.\n\nA more serious theory of translation would begin by admitting that a text does not possess one pure meaning waiting to be relayed. It carries several kinds of meaning at once: semantic content, rhythmic pattern, cultural allusion, historical register. No translation can convey all of these equally. Every choice privileges some dimension of the original while muting another. To translate a proverb into its nearest cultural equivalent may preserve its persuasive force but disguise its foreignness. To translate it literally may preserve that foreignness but strip away the very familiarity that gave the proverb its rhetorical weight in the first place. The translator’s task, then, is not to choose between fidelity and betrayal, but among competing fidelities.\n\nThis is why the most responsible translations often appear unglamorous. They do not pretend to erase the distance between languages, nor do they fetishize that distance for its own sake. Instead, they make their own choices legible. A translator’s note may explain a pun that could not survive intact. A deliberately unusual sentence structure may be retained where it carries meaning, yet smoothed where it would only confuse. A culturally specific reference may be glossed rather than either replaced or left opaque. Such choices disappoint readers who want translation to deliver either perfect transparency or defiant foreignness. But their restraint reflects a deeper honesty: the recognition that translation is not the opposite of interpretation, but one of its forms.\n\nPublishers, however, rarely advertise this ambiguity. Cover copy tends to promise that a translation “captures” the original “perfectly” or restores a voice “as if written in English.” Prize committees favor translations praised for seeming untranslated. Readers prefer books that feel effortless rather than negotiated. Thus the interpretive complexity of translation is often flattened into a simpler claim of transparency. The text arrives smoother, more familiar, more complete — and perhaps less able to testify to the very distance it crossed to reach its new readers.\n\nThe question, finally, is not whether translation should be attempted. Without it, most readers would have no access to literatures beyond their own language. The question is whether translation can resist the temptation to make that crossing look effortless. A literary culture mature enough to read in translation should also be mature enough to notice the seams. Meaning does not arrive intact from one language to another. It arrives reconstructed, partial, and interpreted, and sometimes altered beyond the translator’s awareness. To pretend otherwise is not to honor the original, but to flatten it until it reflects only our own comfort.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Translation is inherently deceptive because it replaces the original text’s meaning with the translator’s own voice."
+        },
+        {
+          "label": "B",
+          "text": "The best translations are those that preserve every foreign syntactic feature of the source language."
+        },
+        {
+          "label": "C",
+          "text": "Fidelity in translation depends primarily on transferring the author’s original meaning while minimizing stylistic alteration."
+        },
+        {
+          "label": "D",
+          "text": "Translation is an interpretive process that must balance competing dimensions of meaning rather than simply transfer or preserve a single authentic original."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice is too extreme. The passage criticizes translations that hide the foreignness of a text and create an illusion of effortless transfer, but it does not claim translation is inherently deceptive. The final paragraph explicitly notes that without translation, most readers would have no access to literatures beyond their own. The author’s target is translation that pretends not to interpret, not translation itself.",
+        "B": "This choice captures one pole in the debate but mistakes that pole for the author’s position. The author criticizes fluent, invisible translation, but also criticizes the opposite impulse of preserving every foreign structure as though awkwardness guaranteed fidelity. The passage says opacity may obscure as much as it reveals, so preserving foreignness at all costs is not the endorsed solution.",
+        "C": "This choice reflects a view the passage complicates rather than endorses. The author mentions conveying the author’s meaning as part of translation’s common language, but then argues a text carries several kinds of meaning at once. Semantic content is one relevant dimension, but not the exclusive standard the author uses to define fidelity.",
+        "D": "Correct. The passage’s central claim is that translation is not a neutral transfer of a single meaning across languages. A text carries multiple dimensions of meaning at once, and every translation choice emphasizes some of those dimensions while muting others. The author frames responsible translation as an interpretive balancing of competing fidelities, not as simple recovery, concealment, or preservation of one privileged meaning."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_translation_equivalence_215_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would most likely agree with which of the following statements about fluent, invisible translations?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They are the most reliable indicator that a translation has been done responsibly."
+        },
+        {
+          "label": "B",
+          "text": "They can mislead readers into believing they are encountering a foreign text without the friction that gives it meaning."
+        },
+        {
+          "label": "C",
+          "text": "They should be avoided because awkward, foreignizing translations are always more faithful."
+        },
+        {
+          "label": "D",
+          "text": "They are valuable only when they help a book attract prizes and wide readership."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice reverses the author’s concern. The passage says readers tend to equate a good translation with invisibility, but that tendency is presented as a problem, not a virtue. Fluency may satisfy the reader’s desire for effortless reading while concealing the friction and reconstruction the text actually underwent.",
+        "B": "Correct. The author argues that fluent translations often satisfy a desire not for the foreign text itself, but for a foreign text that has stopped being foreign. Such translations can therefore mislead readers by allowing them to encounter another literature without confronting the friction, untranslatable idiom, or different grammar of thought that constitutes that literature’s actual meaning.",
+        "C": "This choice goes too far in the opposite direction. The author does not claim that awkward, foreignizing translations are always more faithful. In fact, the passage directly criticizes translators who treat strangeness as a mark of honesty, warning that opacity may obscure as much as it reveals. Both extremes are rejected.",
+        "D": "This choice is too narrow. The passage connects effortless-seeming translations with prize committees and reader preference, but the author’s concern runs deeper than marketing or recognition. The real issue is that fluency can create a false relationship to the original by making reconstruction seem effortless."
+      },
+      "topic": "Author's Viewpoint",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_translation_equivalence_215_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the third paragraph, the author discusses translators who insist on preserving every foreign structure primarily in order to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "show that opposition to domestication can become another simplistic view of fidelity."
+        },
+        {
+          "label": "B",
+          "text": "argue that translations should be made more literal than they currently are."
+        },
+        {
+          "label": "C",
+          "text": "suggest that these translators understand the source text better than fluent translators do."
+        },
+        {
+          "label": "D",
+          "text": "prove that translation between languages is fundamentally impossible."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The third paragraph complicates the argument by showing that the reaction against domestication can become its own sentimental simplification. Treating strangeness as an automatic mark of honesty is, for the author, just as reductive as treating fluency as fidelity. The paragraph’s function is to reject the idea that awkwardness automatically guarantees truth to the original.",
+        "B": "This choice misreads the paragraph’s purpose. The author is not using the discussion of foreignizing translators to call for more literal translation generally. The preferred approach described later in the passage is modest, legible intervention, not maximal literalism. The point is to avoid both extremes, not to swing toward one.",
+        "C": "This choice reverses the author’s attitude. The foreignizing translators in this paragraph are not presented as superior; they are criticized for sentimentalizing difficulty. The author treats their position as another form of simplification, not as a more sophisticated grasp of the source text.",
+        "D": "This choice is too broad and not the paragraph’s main function. The passage as a whole treats perfect equivalence as philosophically complicated, but the third paragraph specifically targets the opposite extreme: the assumption that unassimilated foreignness is inherently more faithful."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_translation_equivalence_215_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The phrase competing fidelities in the fourth paragraph most nearly means:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "factual claims about a text’s meaning that cannot all be historically verified."
+        },
+        {
+          "label": "B",
+          "text": "incompatible marketing narratives that publishers create to appeal to different readers."
+        },
+        {
+          "label": "C",
+          "text": "different legitimate dimensions of a text’s meaning that cannot all be conveyed equally."
+        },
+        {
+          "label": "D",
+          "text": "opposing theories about whether translation should be done by native or non-native speakers."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice incorrectly turns the phrase into a problem of evidence or verification. The author is not mainly saying that different claims about the text’s meaning are uncertain or unprovable. Instead, the passage says multiple real dimensions of meaning coexist within a text, even though a translation cannot foreground all of them at once.",
+        "B": "This choice is tempting because publishers do market translations, but it narrows the phrase too much. The author’s point in this paragraph is not about audience-targeted marketing narratives. The competition exists within the text’s own layered meaning: semantic content, rhythm, cultural allusion, and historical register.",
+        "C": "Correct. The phrase refers to the fact that a text possesses multiple legitimate dimensions of meaning at once, but any translation choice prioritizes some of those dimensions while muting others. For example, translating a proverb culturally may preserve its persuasive force while disguising its foreignness; translating it literally does the reverse. Both are legitimate, but not simultaneously achievable.",
+        "D": "This choice introduces a debate the passage does not discuss. The author does not frame translation as a conflict between native and non-native translators. The issue is not who performs the translation, but how translation choices inevitably prioritize certain dimensions of meaning over others."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_translation_equivalence_215_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following examples would best illustrate the author’s preferred approach to translation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A translator rewrites a foreign idiom into a familiar English idiom so that readers never notice anything unusual."
+        },
+        {
+          "label": "B",
+          "text": "A translator refuses to alter any grammatical structure from the source language because doing so would erase the text’s foreignness."
+        },
+        {
+          "label": "C",
+          "text": "A translator smooths some sentences for clarity, retains a few culturally specific terms with brief glosses, and adds a note explaining an untranslatable pun."
+        },
+        {
+          "label": "D",
+          "text": "A translator publishes the text with no notes or alterations, believing that any unglossed foreignness is inherently more authentic than an adapted version."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice resembles the invisibility model the author distrusts. Rewriting an idiom so that readers notice nothing unusual erases the friction that the author says constitutes the source literature’s actual meaning. The author would likely see this as a translation that overclaims transparency and hides its own reconstructive role.",
+        "B": "This choice represents the opposite extreme: refusing any adaptation because every foreign structure must remain untouched. The author criticizes this stance by noting that opacity may obscure as much as it reveals, and that strangeness alone does not guarantee fidelity. Rigid literalism is not automatically more honest than adaptation.",
+        "C": "Correct. This example closely matches the passage’s preferred model of modest, legible intervention. The author praises translations that smooth some passages for clarity, gloss culturally specific terms, and explain choices through translator’s notes, making the translator’s partiality visible rather than either erasing or fetishizing the text’s foreignness.",
+        "D": "This choice repeats the cult of the foreign view the author rejects. The author does not believe unglossed foreignness is inherently more authentic than adaptation. Untranslated strangeness may be meaningful, but treating it as automatically superior is another simplistic stylistic posture."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_translation_equivalence_215_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author’s attitude toward publishers’ public presentation of translation is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "critical, because publishers often simplify translation into a claim of seamless transparency rather than an interpretive achievement."
+        },
+        {
+          "label": "B",
+          "text": "dismissive, because publishers lack the expertise necessary to evaluate translations responsibly."
+        },
+        {
+          "label": "C",
+          "text": "admiring, because publishers help readers understand the full complexity of translation decisions."
+        },
+        {
+          "label": "D",
+          "text": "neutral, because publishers merely reflect reader preferences without shaping them."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The sixth paragraph criticizes publishers for flattening the interpretive complexity of translation into a simpler claim of transparency. Cover copy promising perfect capture, prize committees favoring translations that seem untranslated, and reader preference for effortless prose all encourage a false sense that translation involves no reconstruction or loss.",
+        "B": "This choice overstates the criticism and targets the wrong issue. The author does not claim publishers lack expertise. The problem is not incompetence, but the public narrative that turns interpretive translation into a triumphalist claim of transparency and equivalence.",
+        "C": "This choice is nearly the opposite of the author’s view. The passage says publishers rarely advertise translation’s ambiguity and instead promise perfect capture. The author’s criticism is precisely that publishers fail to help readers see the interpretive complexity involved.",
+        "D": "This choice understates publishers’ role. The passage does say reader preference matters, but publishers are not described as merely passive. Cover copy, prize narratives, and marketing language actively shape how readers understand and expect translation to work."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_translation_equivalence_215_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the author’s argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that most readers prefer translations that read fluently and require no additional explanation."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that many publishers now include translator’s prefaces describing specific choices, rejected alternatives, and the dimensions of meaning each choice sacrifices."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that literal translations take longer to produce than fluent ones."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that many authors intended their works to be adapted for new audiences over time."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice would not weaken the author’s argument; it would support part of it. The passage argues that readers often prefer books that feel effortless rather than negotiated. Evidence of this preference would reinforce the author’s concern that fluency can encourage a misleading relationship to the source text.",
+        "B": "Correct. A major part of the author’s argument is that publishers rarely advertise translation’s ambiguity and instead promise seamless transparency. If many publishers already included prefaces documenting specific choices, rejected alternatives, and the dimensions of meaning sacrificed, that would weaken the claim that public presentation commonly flattens translation into a simple claim of equivalence.",
+        "C": "This choice is largely irrelevant to the author’s central reasoning. Production time might affect a translator’s workflow, but the passage is concerned with fidelity, interpretation, and the visibility of a translation’s partiality. Time spent does not directly challenge the author’s philosophical argument about competing fidelities.",
+        "D": "This choice would complicate simple appeals to authorial intention, but it would not weaken the author’s main argument. If authors expected their works to be adapted over time, that would actually support the idea that a text does not possess one fixed meaning and that translation must negotiate among several legitimate dimensions."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

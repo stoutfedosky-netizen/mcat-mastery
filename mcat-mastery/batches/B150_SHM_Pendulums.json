@@ -1,0 +1,335 @@
+{
+  "batch": "B150",
+  "section": "cp",
+  "sectionName": "Chemical and Physical Foundations of Biological Systems",
+  "topicArea": "Simple Harmonic Motion & Pendulums",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "cp_shm_001",
+      "passage": "A biomedical engineering team designed a vibration-isolation platform for a sensitive atomic force microscope (AFM). The platform rests on four identical springs, each with spring constant k = 2,000 N/m, supporting a total mass of 80 kg (platform plus microscope). The team modeled the system as a single mass on a spring to predict its natural frequency and ensure it did not match building vibration frequencies (typically 10–30 Hz). During testing, the platform was displaced 2.0 cm from equilibrium and released. The engineers measured the resulting oscillation and compared it to their calculated predictions. They also considered adding a viscous damping mechanism to reduce oscillation amplitude over time. For their calculations, they used g = 10 m/s².",
+      "stem": "When the four springs support the platform in parallel, the effective spring constant of the system is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "500 N/m"
+        },
+        {
+          "label": "B",
+          "text": "2,000 N/m"
+        },
+        {
+          "label": "C",
+          "text": "4,000 N/m"
+        },
+        {
+          "label": "D",
+          "text": "8,000 N/m"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This value (500 N/m) would result from placing four springs in series, where 1/k_eff = 1/k₁ + 1/k₂ + 1/k₃ + 1/k₄ = 4/2000, giving k_eff = 500 N/m. However, springs supporting a platform from below act in parallel, not in series, because each spring shares the same displacement when the platform moves.",
+        "B": "This is the spring constant of a single spring (2,000 N/m), not the effective constant of the combined system. When multiple springs act in parallel, their constants add because each spring independently exerts a restoring force proportional to the shared displacement.",
+        "C": "This value would be correct for two springs in parallel (2 × 2,000 = 4,000 N/m) but underestimates the system by a factor of two. All four springs share the same displacement, so all four contribute their full restoring force.",
+        "D": "Correct. Springs in parallel share the same displacement, so the effective spring constant is the sum of individual constants: k_eff = k₁ + k₂ + k₃ + k₄ = 4 × 2,000 = 8,000 N/m. Each spring independently exerts a force F = kx on the platform, and the total restoring force is F_total = 4kx = k_eff·x. This is analogous to resistors in parallel in circuits, where parallel combination increases the effective parameter (conductance for resistors, stiffness for springs)."
+      },
+      "topic": "Springs in Parallel",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_shm_002",
+      "usePrevPassage": true,
+      "stem": "The natural frequency of oscillation of the platform system is closest to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.6 Hz"
+        },
+        {
+          "label": "B",
+          "text": "0.5 Hz"
+        },
+        {
+          "label": "C",
+          "text": "10 Hz"
+        },
+        {
+          "label": "D",
+          "text": "50 Hz"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The natural frequency is f = (1/2π)√(k_eff/m). With k_eff = 8,000 N/m and m = 80 kg: f = (1/2π)√(8000/80) = (1/2π)√100 = 10/(2π) ≈ 10/6.28 ≈ 1.6 Hz. This is well below the building vibration range of 10–30 Hz, confirming that the platform design avoids resonance with typical structural vibrations. The angular frequency ω = √(k/m) = 10 rad/s, and f = ω/2π ≈ 1.6 Hz.",
+        "B": "This underestimates the frequency. Using f = (1/2π)√(k_eff/m) = (1/2π)√(8000/80) = (1/2π)√100 = 10/2π ≈ 10/6.28 ≈ 1.6 Hz. A frequency of 0.5 Hz would correspond to a much heavier mass or softer springs.",
+        "C": "A frequency of 10 Hz would place the platform at the lower edge of the building vibration range, which would be problematic. This value equals ω/2π only if you mistakenly use ω = √(k/m) without dividing by 2π, confusing angular frequency (rad/s) with ordinary frequency (Hz). The angular frequency is 10 rad/s, but the ordinary frequency is 10/2π ≈ 1.6 Hz.",
+        "D": "50 Hz significantly overestimates the natural frequency. This might arise from using k = 8,000 without dividing by mass, or from arithmetic errors in the square root. The correct calculation gives √(8000/80) = √100 = 10 rad/s, which converts to approximately 1.6 Hz."
+      },
+      "topic": "Natural Frequency",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_shm_003",
+      "usePrevPassage": true,
+      "stem": "The maximum velocity of the platform during its oscillation after being displaced 2.0 cm from equilibrium is closest to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.05 m/s"
+        },
+        {
+          "label": "B",
+          "text": "0.63 m/s"
+        },
+        {
+          "label": "C",
+          "text": "0.20 m/s"
+        },
+        {
+          "label": "D",
+          "text": "2.0 m/s"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This underestimates v_max by a factor of 4. The maximum velocity v_max = Aω = (0.02 m)(10 rad/s) = 0.20 m/s. A value of 0.05 m/s might result from using ω = 2.5 rad/s or from a unit conversion error with the amplitude.",
+        "B": "This value (0.63 m/s) might arise from using v_max = 2πfA with an incorrect frequency, or from confusing the amplitude units. The correct calculation uses ω (not 2πf separately), giving 0.020 × 10 = 0.20 m/s.",
+        "C": "Correct. Maximum velocity in SHM occurs at the equilibrium position, where all potential energy has converted to kinetic energy. v_max = Aω, where A = 0.020 m (2.0 cm) and ω = √(k_eff/m) = √(8000/80) = 10 rad/s. Therefore v_max = (0.020)(10) = 0.20 m/s. Equivalently, using energy conservation: ½kA² = ½mv²_max → v_max = A√(k/m) = 0.020 × 10 = 0.20 m/s.",
+        "D": "This is 100 times the correct answer and could result from failing to convert the amplitude from centimeters to meters: using A = 2.0 m instead of 0.020 m. Always convert to SI units before calculating: 2.0 cm = 0.020 m."
+      },
+      "topic": "SHM Kinematics",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_shm_004",
+      "usePrevPassage": true,
+      "stem": "At the instant the platform passes through the equilibrium position during oscillation, which statement is correct?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Velocity is maximum and acceleration is zero"
+        },
+        {
+          "label": "B",
+          "text": "Both velocity and acceleration are at their maximum values"
+        },
+        {
+          "label": "C",
+          "text": "Both velocity and acceleration are zero"
+        },
+        {
+          "label": "D",
+          "text": "Velocity is zero and acceleration is at its maximum value"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. At the equilibrium position, displacement x = 0. Since acceleration in SHM is proportional to displacement (a = -ω²x), acceleration equals zero at equilibrium. Simultaneously, all the system's energy is kinetic (no spring potential energy at x = 0), so velocity is at its maximum value v_max = Aω. The velocity and acceleration functions are 90° out of phase, so when one is at its extreme, the other is at zero.",
+        "B": "In SHM, velocity and acceleration are never simultaneously at their maximum values. They are 90° out of phase: velocity leads displacement by 90° (v = Aω cos(ωt)), while acceleration is 180° out of phase with displacement (a = -Aω² sin(ωt)). When velocity is maximum (at equilibrium), acceleration is zero, and vice versa.",
+        "C": "Both quantities cannot be zero simultaneously in an oscillating system—this would mean the system has no energy and has stopped moving. If velocity and acceleration were both zero, there would be no kinetic energy and no restoring force, so the system would remain stationary.",
+        "D": "This describes the situation at maximum displacement (the amplitude), not at equilibrium. At the turning points (x = ±A), the platform momentarily stops (v = 0) and acceleration is maximum (a = -ω²A) as the spring exerts maximum restoring force."
+      },
+      "topic": "SHM Phase Relationships",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_shm_005",
+      "usePrevPassage": true,
+      "stem": "The engineers decide to add viscous damping. If the system is underdamped, which change to the oscillation would they observe?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The frequency increases and amplitude remains constant"
+        },
+        {
+          "label": "B",
+          "text": "The amplitude decreases exponentially while the system oscillates at a frequency slightly lower than the natural frequency"
+        },
+        {
+          "label": "C",
+          "text": "The system returns to equilibrium without oscillating"
+        },
+        {
+          "label": "D",
+          "text": "The period becomes exactly twice the undamped period"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "In an underdamped system, the frequency does not increase—it actually decreases slightly. The damped frequency ω_d = √(ω₀² - γ²) is less than ω₀, not greater. Additionally, the amplitude does not remain constant; it decays exponentially due to energy dissipation by the damping force.",
+        "B": "Correct. In underdamped oscillation, the system oscillates with exponentially decreasing amplitude: x(t) = Ae^(-γt)cos(ω_d·t), where γ is the damping coefficient divided by 2m. The damped angular frequency ω_d = √(ω₀² - γ²) is slightly lower than the natural frequency ω₀ because the damping force opposes motion and effectively slows the oscillation. The system continues to oscillate through equilibrium but with progressively smaller amplitude until it effectively stops.",
+        "C": "Returning to equilibrium without oscillating describes an overdamped or critically damped system, not an underdamped one. Critical damping (γ = ω₀) is the boundary: the system returns to equilibrium in the minimum time without overshooting. Overdamping (γ > ω₀) returns even more slowly without oscillation. Underdamping (γ < ω₀) by definition involves oscillation.",
+        "D": "The period change in an underdamped system is small, not a factor of two. For light damping (γ << ω₀), T_d = 2π/ω_d ≈ 2π/ω₀ × (1 + γ²/2ω₀²), which is only slightly larger than the undamped period. A doubling of the period would require extremely heavy damping approaching the critically damped regime."
+      },
+      "topic": "Damped Oscillations",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_shm_006",
+      "passage": "A physiology laboratory used simple pendulums to demonstrate principles of oscillatory motion relevant to understanding biological rhythms. Experiment A used a 1.0 m string with a 0.10 kg brass bob. Experiment B used the same string length with a 0.50 kg steel bob. Experiment C shortened the string to 0.25 m with the original brass bob. All experiments were conducted with small angular displacements (θ < 10°) in the same room. The students were asked to predict how changes in mass, length, and amplitude would affect the period. Additionally, the instructor demonstrated a physical (compound) pendulum consisting of a uniform rod of length L = 1.0 m and mass M = 0.30 kg pivoted about one end. Students were told the moment of inertia of a uniform rod about one end is I = ML²/3. Use g = 10 m/s².",
+      "stem": "Comparing Experiments A and B, the period of oscillation for the heavier steel bob (Experiment B) compared to the lighter brass bob (Experiment A) will be:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "five times longer because the period is proportional to mass"
+        },
+        {
+          "label": "B",
+          "text": "shorter because heavier objects swing faster"
+        },
+        {
+          "label": "C",
+          "text": "the same because the period of a simple pendulum is independent of mass"
+        },
+        {
+          "label": "D",
+          "text": "√5 times longer because the period depends on the square root of mass"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The period of a simple pendulum is T = 2π√(L/g). Mass does not appear in this equation. The gravitational force and inertia both scale linearly with mass, so these effects cancel exactly. A five-fold mass increase does not change the period at all.",
+        "B": "Heavier objects do not swing faster in a simple pendulum. While the gravitational force is larger for the heavier bob, so is its inertia (resistance to acceleration). These two effects cancel exactly, producing identical angular acceleration and therefore identical periods for any mass.",
+        "C": "Correct. For a simple pendulum at small angles, T = 2π√(L/g). The period depends only on the string length and gravitational acceleration, not on the bob mass. This is because the restoring torque (mgL sinθ ≈ mgLθ) and the rotational inertia (mL²) both scale proportionally with mass m, which cancels from the equation of motion. Experiments A and B have the same length (1.0 m), so they have identical periods regardless of the mass difference.",
+        "D": "The period does not depend on the square root of mass either. This answer applies a relationship that does not exist for simple pendulums. In a mass-spring system, T = 2π√(m/k) does depend on mass, but the simple pendulum's period is T = 2π√(L/g), which is mass-independent."
+      },
+      "topic": "Simple Pendulum Period",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_shm_007",
+      "usePrevPassage": true,
+      "stem": "The period of Experiment C (L = 0.25 m) compared to Experiment A (L = 1.0 m) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "one-half of Experiment A's period"
+        },
+        {
+          "label": "B",
+          "text": "one-quarter of Experiment A's period"
+        },
+        {
+          "label": "C",
+          "text": "twice Experiment A's period"
+        },
+        {
+          "label": "D",
+          "text": "four times Experiment A's period"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. T = 2π√(L/g), so the ratio T_C/T_A = √(L_C/L_A) = √(0.25/1.0) = √(1/4) = 1/2. Experiment C's period is half of Experiment A's period. For Experiment A: T_A = 2π√(1.0/10) = 2π√(0.1) ≈ 2π(0.316) ≈ 2.0 s. For Experiment C: T_C = 2π√(0.25/10) = 2π√(0.025) ≈ 2π(0.158) ≈ 1.0 s. The shorter string indeed has half the period.",
+        "B": "One-quarter would be correct if the period were directly proportional to length (T ∝ L), but the period depends on the square root of length: T = 2π√(L/g). Reducing L by a factor of 4 reduces T by √4 = 2, giving half the period, not one-quarter.",
+        "C": "A longer period for the shorter pendulum contradicts the physics. Shorter pendulums oscillate faster (shorter period) because the restoring torque acts over a smaller arc, returning the bob to equilibrium more quickly. T ∝ √L means shorter L gives shorter T.",
+        "D": "Four times the period would mean the shorter pendulum is much slower, which is the opposite of what occurs. This might result from inverting the length ratio (using L_A/L_C = 4 and squaring rather than taking the square root)."
+      },
+      "topic": "Pendulum Length Dependence",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_shm_008",
+      "usePrevPassage": true,
+      "stem": "The period of the physical pendulum (uniform rod pivoted at one end) compared to a simple pendulum of the same length (1.0 m) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "shorter, because the distributed mass creates a smaller effective length"
+        },
+        {
+          "label": "B",
+          "text": "the same, because both have the same total length"
+        },
+        {
+          "label": "C",
+          "text": "longer, because the moment of inertia of the rod exceeds that of a point mass at the same distance"
+        },
+        {
+          "label": "D",
+          "text": "exactly √(2/3) times the simple pendulum period"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "While the center of mass of the rod is at L/2 (shorter than L), the moment of inertia about the pivot is ML²/3, which is larger than M(L/2)² = ML²/4 that would apply for a point mass at the center of mass. The net effect is a period that is √(2/3) of the simple pendulum, not simply shorter because of a smaller effective length.",
+        "B": "The period is not the same because a physical pendulum's period depends on both the moment of inertia about the pivot and the distance from the pivot to the center of mass. T_physical = 2π√(I/mgd), where I = ML²/3 and d = L/2. This gives a different result than the simple pendulum formula T = 2π√(L/g).",
+        "C": "While the moment of inertia (ML²/3) does exceed that of a point mass at the center of mass (ML²/4), the physical pendulum's period is actually shorter than the simple pendulum of the same length, not longer. The calculation yields T_phys/T_simple = √(2/3) < 1.",
+        "D": "Correct. The physical pendulum period is T = 2π√(I/mgd), where I = ML²/3 (moment of inertia about the pivot end) and d = L/2 (distance from pivot to center of mass). So T_phys = 2π√(ML²/3 ÷ Mg(L/2)) = 2π√(2L/3g). The simple pendulum period is T_simple = 2π√(L/g). The ratio is T_phys/T_simple = √(2L/3g ÷ L/g) = √(2/3) ≈ 0.816. The physical pendulum oscillates about 18% faster because its mass distribution effectively shortens its equivalent pendulum length."
+      },
+      "topic": "Physical Pendulum",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_shm_009",
+      "usePrevPassage": true,
+      "stem": "A student takes the Experiment A pendulum to the top of a mountain where gravitational acceleration is 9.8 m/s² instead of 10 m/s². The period at the mountaintop compared to the laboratory will be:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "slightly shorter because lower gravity reduces the restoring force"
+        },
+        {
+          "label": "B",
+          "text": "exactly the same because gravity does not affect pendulum motion"
+        },
+        {
+          "label": "C",
+          "text": "slightly longer because the weaker gravitational restoring force slows the oscillation"
+        },
+        {
+          "label": "D",
+          "text": "much longer because the period is inversely proportional to g"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "While lower gravity does reduce the restoring force, a smaller restoring force produces a longer period, not a shorter one. With less gravitational force pulling the bob back toward equilibrium, the pendulum swings more slowly and takes longer to complete each cycle.",
+        "B": "Gravity absolutely affects pendulum motion—it provides the restoring force. The period formula T = 2π√(L/g) explicitly includes g. If gravity were removed entirely (g → 0), the period would become infinite (no oscillation). Gravity's role in pendulums differs from its role in free-fall problems, where mass cancels; here, g determines how quickly the restoring force returns the bob to equilibrium.",
+        "C": "Correct. T = 2π√(L/g), so decreasing g increases T. At the mountaintop: T_mountain = 2π√(1.0/9.8) versus T_lab = 2π√(1.0/10). The ratio T_mountain/T_lab = √(10/9.8) = √1.0204 ≈ 1.010, so the period increases by approximately 1%. The weaker gravity at altitude provides a smaller restoring torque, causing the pendulum to swing slightly more slowly.",
+        "D": "The period is not inversely proportional to g; it is inversely proportional to √g. If T ∝ 1/g, a 2% change in g would cause a 2% period change. The actual relationship T ∝ 1/√g means a 2% decrease in g produces only a ~1% increase in T. The change is small, not dramatic."
+      },
+      "topic": "Gravitational Effects on Pendulums",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_shm_010",
+      "usePrevPassage": true,
+      "stem": "The total mechanical energy of the Experiment A pendulum at the maximum angular displacement is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "entirely kinetic because the bob is moving fastest at the extremes of its swing"
+        },
+        {
+          "label": "B",
+          "text": "entirely potential because the bob is momentarily at rest at its maximum displacement"
+        },
+        {
+          "label": "C",
+          "text": "equally divided between kinetic and potential energy"
+        },
+        {
+          "label": "D",
+          "text": "zero because the potential and kinetic energies cancel at the turning point"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The bob is not moving fastest at the extremes—it is momentarily at rest there. Maximum velocity occurs as the bob passes through the lowest point (equilibrium), where all energy is kinetic. At maximum displacement, the bob reverses direction, so its instantaneous velocity (and thus kinetic energy) is zero.",
+        "B": "Correct. At maximum angular displacement, the bob has reached its highest point and momentarily stops before reversing direction. Its velocity is zero, so kinetic energy KE = ½mv² = 0. All the mechanical energy is stored as gravitational potential energy PE = mgh, where h is the height gained above the equilibrium position. As the bob swings back toward equilibrium, PE converts to KE. At equilibrium, all energy is kinetic. The total mechanical energy E = KE + PE remains constant throughout the swing (neglecting air resistance).",
+        "C": "The energy is not equally divided at maximum displacement. Equal partition of energy would occur at an intermediate angle during the swing, not at the turning points. At the extremes, energy is 100% potential; at equilibrium, it is 100% kinetic. Only at specific intermediate positions is it evenly split.",
+        "D": "Mechanical energy is never zero during oscillation (unless the system has no energy). Potential and kinetic energies are both non-negative (KE = ½mv² ≥ 0, PE = mgh ≥ 0 above the reference point) and cannot cancel each other. The total E = KE + PE is positive and conserved."
+      },
+      "topic": "Energy in SHM",
+      "difficulty": "Easy"
+    }
+  ],
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  }
+}

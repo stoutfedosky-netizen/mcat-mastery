@@ -1,0 +1,336 @@
+{
+  "batch": "B054",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Molecular Genetics: Replication, Transcription & Translation",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "bb_molgene_001",
+      "passage": "A molecular biologist studies DNA replication in E. coli. She uses density-gradient centrifugation (Meselson-Stahl experiment) to distinguish newly synthesized DNA from old DNA. Cells grown in \u00b9\u2075N-containing medium (heavy DNA) are transferred to \u00b9\u2074N medium (light DNA). After one generation, all DNA appears at an intermediate density; after two generations, DNA appears at intermediate and light densities in equal amounts. The biologist also maps the replication origins and uses electron microscopy to observe replication bubbles.",
+      "stem": "The result from the first generation (all DNA at intermediate density) is consistent with which model of DNA replication?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Semiconservative replication, in which each new double helix contains one parental strand and one newly synthesized strand"
+        },
+        {
+          "label": "B",
+          "text": "Dispersive replication, in which parental DNA is fragmented and redistributed randomly"
+        },
+        {
+          "label": "C",
+          "text": "Conservative replication, in which the parental strands remain together and the new molecule is entirely new"
+        },
+        {
+          "label": "D",
+          "text": "Rolling-circle replication, which is used only by bacteriophages"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Semiconservative replication (Watson and Crick's original prediction, confirmed by Meselson and Stahl in 1958) predicts: Generation 1 \u2014 both new double helices contain one old (\u00b9\u2075N) strand and one new (\u00b9\u2074N) strand \u2192 all DNA at intermediate density (one band). Generation 2 \u2014 two helices contain one old + one new strand (intermediate), and two helices contain two new strands (light) \u2192 equal amounts of intermediate and light density (two bands in 1:1 ratio). This matches the experimental data perfectly.",
+        "B": "Dispersive replication would also produce one intermediate-density band after one generation (all DNA hybrid), which is consistent. However, after two generations, dispersive replication would give two bands of intermediate density (both slightly less \u00b9\u2075N than after generation 1), not one intermediate and one light. The generation-2 result (intermediate + light in equal amounts) rules out dispersive replication.",
+        "C": "Conservative replication would predict two populations after the first generation: fully heavy DNA (the parental double helix, kept together) and fully light DNA (the entirely new molecule). The centrifuge would show two bands \u2014 not one intermediate band. The observation of only one intermediate-density band rules out conservative replication.",
+        "D": "Rolling-circle replication is used by bacteriophages and some plasmids, but the Meselson-Stahl experiment tests which model applies to chromosomal replication in E. coli. More fundamentally, rolling-circle replication produces a long linear copy of circular DNA \u2014 it would not produce the banding patterns described and is not one of the three models tested by the density-gradient experiment."
+      },
+      "topic": "DNA Replication / Meselson-Stahl / Semiconservative",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_molgene_002",
+      "passage": null,
+      "passageRef": "bb_molgene_001",
+      "stem": "DNA polymerase III (the primary replicative polymerase in E. coli) synthesizes DNA in the 5'\u21923' direction and cannot initiate new strands. This means that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "one strand (leading strand) is synthesized continuously toward the replication fork, while the other (lagging strand) is synthesized discontinuously away from the fork as Okazaki fragments"
+        },
+        {
+          "label": "B",
+          "text": "both strands are synthesized simultaneously toward the replication fork in the 5'\u21923' direction"
+        },
+        {
+          "label": "C",
+          "text": "both strands are synthesized in the 3'\u21925' direction, following the movement of the replication fork"
+        },
+        {
+          "label": "D",
+          "text": "only one strand is replicated; the other remains as the parental template"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. DNA polymerase synthesizes only 5'\u21923', but the two template strands run antiparallel. This creates an asymmetry: (1) The leading strand template runs 3'\u21925' (in the direction of fork movement), so the leading strand is synthesized continuously 5'\u21923', following the fork. (2) The lagging strand template runs 5'\u21923' (opposite to fork movement), so the lagging strand must be synthesized in short 5'\u21923' fragments (Okazaki fragments, ~1000-2000 nt in prokaryotes) that are later joined by DNA ligase. Each Okazaki fragment requires a new RNA primer (made by primase), extending away from the fork.",
+        "B": "Both strands cannot simultaneously move toward the fork in 5'\u21923' direction because the template strands are antiparallel \u2014 extending 5'\u21923' toward the fork on one template means extending 5'\u21923' away from the fork on the complementary antiparallel template. The lagging strand must be synthesized in the opposite direction (away from the fork) as Okazaki fragments.",
+        "C": "DNA polymerase cannot synthesize 3'\u21925' \u2014 this is an absolute biochemical constraint. The 3'\u21925' exonuclease activity of DNA polymerase is for proofreading (removing misincorporated bases from the 3' end), not for synthesis.",
+        "D": "Both strands are replicated \u2014 this is the basis of semiconservative replication confirmed by Meselson and Stahl. Semi-conservative replication requires replication of both parental strands. If only one strand were replicated, the resulting two molecules would have different compositions (one parental, one entirely new), not the intermediate-density hybrid observed."
+      },
+      "topic": "DNA Replication / Leading and Lagging Strands",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_molgene_003",
+      "passage": null,
+      "stem": "Transcription in eukaryotes differs from prokaryotic transcription in that eukaryotic transcription:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "occurs simultaneously with translation on the same mRNA molecule (coupled transcription-translation)"
+        },
+        {
+          "label": "B",
+          "text": "produces mRNA that is immediately ready for translation without processing"
+        },
+        {
+          "label": "C",
+          "text": "uses DNA-dependent DNA polymerase to synthesize RNA from a DNA template"
+        },
+        {
+          "label": "D",
+          "text": "requires RNA polymerase II for mRNA synthesis, occurs in the nucleus, and produces pre-mRNA that undergoes 5' capping, 3' polyadenylation, and splicing of introns before export to the cytoplasm"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Coupled transcription-translation (where ribosomes attach to mRNA while it is still being transcribed) is a feature of prokaryotes, where there is no nuclear membrane separating transcription from translation. In eukaryotes, transcription occurs in the nucleus and translation in the cytoplasm \u2014 they are spatially and temporally separated.",
+        "B": "Prokaryotic mRNA is functional immediately after transcription (though some modifications like Shine-Dalgarno sequences are built in). Eukaryotic mRNA requires extensive post-transcriptional processing before it is export-ready and translatable.",
+        "C": "RNA synthesis uses RNA polymerase (RNA-dependent nucleotide polymerization using a DNA template), not DNA polymerase. DNA-dependent DNA polymerase replicates DNA. The 'dependent/template' relationship: RNA Pol uses DNA as template to produce RNA; DNA Pol uses DNA as template to produce DNA; reverse transcriptase uses RNA as template to produce DNA.",
+        "D": "Correct. Eukaryotic mRNA synthesis (by RNA Pol II in the nucleus) involves three critical processing steps: (1) 5' capping \u2014 addition of a 7-methylguanosine cap to the 5' end, which protects mRNA from degradation and is required for ribosome recruitment; (2) 3' polyadenylation \u2014 cleavage ~20 nt downstream of the AATAAA signal and addition of a poly-A tail (~100-250 adenines) by poly-A polymerase, which promotes stability and export; (3) Splicing \u2014 spliceosome-mediated removal of introns and joining of exons to produce mature mRNA. The processed mRNA is then exported to the cytoplasm for translation."
+      },
+      "topic": "Eukaryotic Transcription / mRNA Processing",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_molgene_004",
+      "passage": null,
+      "stem": "Translation begins with initiation, when the ribosome assembles at the mRNA start codon. In eukaryotes, the start codon is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AUG, which codes for methionine and is recognized by the initiator Met-tRNA in the ribosomal P-site"
+        },
+        {
+          "label": "B",
+          "text": "UAA, which codes for the first amino acid"
+        },
+        {
+          "label": "C",
+          "text": "GGG, which codes for glycine and serves as the translation start site"
+        },
+        {
+          "label": "D",
+          "text": "UAG, which signals the ribosome to begin translation"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The universal start codon is AUG, which codes for methionine. In eukaryotes, translation initiation involves: scanning of the 5' cap by the 43S pre-initiation complex (containing the small 40S ribosomal subunit and initiator Met-tRNA\u1d62) until the first AUG in optimal Kozak context is encountered. The initiator Met-tRNA\u1d62 occupies the P-site, and the 60S large subunit joins to form the 80S initiation complex. In prokaryotes, the start codon is also AUG (occasionally GUG), but is identified differently via the Shine-Dalgarno sequence pairing with 16S rRNA.",
+        "B": "UAA is one of the three stop codons (along with UAG and UGA) \u2014 it signals the termination of translation, not its initiation. No amino acid is incorporated at a stop codon; instead, release factors trigger disassembly of the translation complex.",
+        "C": "GGG is a codon for glycine (one of four glycine codons: GGU, GGC, GGA, GGG). It is not a start codon. GGG cannot serve as a translation initiation site in any organism \u2014 initiation requires the AUG codon and the specific initiator tRNA.",
+        "D": "UAG is one of the three stop codons \u2014 it signals termination, not initiation. The three stop codons (UAA, UAG, UGA) are called 'ochre,' 'amber,' and 'opal' (or 'umber'), respectively. None codes for an amino acid under normal circumstances."
+      },
+      "topic": "Translation Initiation / Start Codon",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_molgene_005",
+      "passage": null,
+      "stem": "The genetic code is described as 'degenerate' because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "many codons code for more than one amino acid"
+        },
+        {
+          "label": "B",
+          "text": "the code varies significantly between different organisms"
+        },
+        {
+          "label": "C",
+          "text": "the code cannot specify all 20 amino acids \u2014 some amino acids have no codons"
+        },
+        {
+          "label": "D",
+          "text": "most amino acids are encoded by more than one codon (multiple codons can specify the same amino acid), with synonymous codons often differing only in the third position"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This reverses the definition. Degenerate means multiple codons specify one amino acid \u2014 not that one codon specifies multiple amino acids. Each codon specifies exactly one amino acid (or a stop signal) \u2014 the code is unambiguous. Serine (6 codons), leucine (6 codons), and arginine (6 codons) are the most degenerate amino acids.",
+        "B": "The genetic code is nearly universal \u2014 it is the same in virtually all organisms from bacteria to humans (with minor exceptions in mitochondria and a few organisms that use slightly altered codes). The near-universality of the genetic code is evidence that all life shares a common ancestor.",
+        "C": "All 20 standard amino acids have at least one codon. Of the 64 possible codons, 61 code for amino acids and 3 are stop codons. No amino acid lacks a codon, and no codon codes for more than one amino acid.",
+        "D": "Correct. Degeneracy means that most of the 20 amino acids have more than one codon. With 64 codons total (4\u00b3 = 64) encoding 20 amino acids + 3 stop signals, there must be redundancy. Third-position degeneracy (wobble position) is most common: the third nucleotide of the codon can often vary without changing the amino acid (e.g., GCU, GCC, GCA, GCG all encode alanine). The wobble hypothesis (Crick) explains this: the anticodon's first position (5' end) can pair with multiple third-position nucleotides of the codon. This degeneracy provides some protection against point mutations in the third codon position."
+      },
+      "topic": "Genetic Code / Degeneracy",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_molgene_006",
+      "passage": null,
+      "stem": "A missense mutation changes a single nucleotide such that one amino acid is substituted for another in the protein. The severity of a missense mutation's effect on protein function depends primarily on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the position in the genome where the mutation occurs"
+        },
+        {
+          "label": "B",
+          "text": "whether the substituted amino acid has similar chemical properties to the original at that position \u2014 conservative substitutions (similar properties) may be tolerated while nonconservative ones at critical sites often impair function"
+        },
+        {
+          "label": "C",
+          "text": "the size of the gene containing the mutation"
+        },
+        {
+          "label": "D",
+          "text": "whether the mutation changes the mRNA length"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Position in the genome (chromosome location) is not the primary determinant of functional impact. What matters is whether the mutated codon is in a coding sequence, and if so, where in the protein the amino acid change occurs. Mutations at structurally or functionally critical positions (active sites, protein-protein interfaces, disulfide bond-forming cysteines) are more likely to be deleterious.",
+        "B": "Correct. The functional impact of a missense mutation depends on: (1) Conservation \u2014 amino acids at highly conserved positions are more likely to be functionally critical; substitutions there are generally more harmful; (2) Chemical properties \u2014 conservative substitutions (e.g., Glu \u2192 Asp: both acidic; Val \u2192 Ile: both nonpolar aliphatic) often preserve function because the amino acid at that position performs the same chemical role. Nonconservative substitutions (e.g., Glu \u2192 Lys: negative charge changed to positive) at critical sites severely impair function. Example: sickle cell anemia results from a nonconservative Glu\u2192Val substitution at position 6 of \u03b2-globin \u2014 the loss of the charged glutamate creates a hydrophobic patch that causes HbS polymerization.",
+        "C": "Gene size (number of nucleotides or amino acids) is not directly relevant to whether a specific missense mutation impairs function. A critical mutation at position 6 of a 146-residue protein (HbS) has severe consequences; a conservative mutation at a non-critical position in a large enzyme might have no detectable effect.",
+        "D": "Missense mutations change one nucleotide, replacing one codon with another that codes for a different amino acid. The mRNA length is unchanged \u2014 missense mutations affect codon identity, not reading frame or stop codon position. Mutations that change mRNA length are frameshifts (insertions/deletions that shift the reading frame)."
+      },
+      "topic": "Missense Mutations / Conservative vs Nonconservative",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_molgene_007",
+      "passage": null,
+      "stem": "A frameshift mutation is caused by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "substitution of one purine for another purine (transition mutation), preserving the reading frame"
+        },
+        {
+          "label": "B",
+          "text": "insertion or deletion of a number of nucleotides not divisible by 3, shifting the reading frame and altering all codons downstream of the mutation"
+        },
+        {
+          "label": "C",
+          "text": "methylation of cytosine residues in the promoter, silencing gene expression"
+        },
+        {
+          "label": "D",
+          "text": "inversion of a DNA segment, reversing the sequence of a chromosome region"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Purine-to-purine substitutions are transition mutations (e.g., A\u2192G, G\u2192A) \u2014 they change one nucleotide without changing the reading frame. These are missense mutations (if they change the amino acid) or silent mutations (if the new codon still codes for the same amino acid). They do not shift the reading frame.",
+        "B": "Correct. The genetic code is read in triplets (codons) starting from the AUG start codon. Insertions or deletions of 1, 2, 4, 5 (any number not divisible by 3) nucleotides shift the reading frame because the downstream triplet groupings change entirely. Every codon 3' of the mutation codes for a different (incorrect) amino acid, and a premature stop codon often appears in the new reading frame. Frameshifts are generally more deleterious than missense mutations because they disrupt the entire downstream sequence rather than changing a single amino acid. Insertions/deletions of 3 (or multiples of 3) nucleotides do not frameshift \u2014 they add or remove complete codons.",
+        "C": "Promoter methylation and epigenetic silencing affect gene expression (reducing transcription) but do not change the DNA sequence or shift the reading frame. Epigenetic changes alter gene regulation, not protein sequence.",
+        "D": "Chromosomal inversions rearrange genomic segments but do not necessarily shift the reading frame \u2014 the sequence within each segment remains intact. Inversions can disrupt genes at the inversion breakpoints or alter gene regulation, but they are classified as chromosomal rearrangements, not frameshift mutations."
+      },
+      "topic": "Frameshift Mutations / Insertions and Deletions",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_molgene_008",
+      "passage": null,
+      "stem": "The CRISPR-Cas9 system used for genome editing works by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "inserting a new gene randomly throughout the genome using retroviral integration"
+        },
+        {
+          "label": "B",
+          "text": "methylating specific DNA sequences to silence gene expression without cutting the DNA"
+        },
+        {
+          "label": "C",
+          "text": "amplifying specific DNA sequences through polymerase chain reaction for diagnostic analysis"
+        },
+        {
+          "label": "D",
+          "text": "using a guide RNA (gRNA) complementary to a target DNA sequence to direct the Cas9 endonuclease to make a double-strand break at a specific genomic location, which can be repaired by error-prone NHEJ or by homology-directed repair using a template"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Retroviral integration involves insertion of viral DNA randomly into the host genome \u2014 an imprecise process that can disrupt genes at insertion sites. CRISPR-Cas9 is a targeted editing tool that makes a specific double-strand break at a defined location. The two technologies work by completely different mechanisms and with different levels of precision.",
+        "B": "Epigenome editing tools (like dCas9-DNMT3A for methylation) do exist, but standard Cas9 makes a double-strand cut in the DNA backbone \u2014 it is a nuclease (DNA-cutting enzyme), not a methylase. The question describes standard CRISPR-Cas9 function.",
+        "C": "Polymerase chain reaction (PCR) amplifies specific DNA sequences for analysis or cloning. PCR does not edit the genome \u2014 it creates copies of DNA in vitro without making any changes to the original genomic sequence.",
+        "D": "Correct. CRISPR-Cas9 genome editing: (1) A single guide RNA (sgRNA) is designed to be complementary to ~20 nt of the target DNA adjacent to a PAM sequence (5'-NGG-3' for SpCas9); (2) The sgRNA-Cas9 complex scans the genome and binds its target by Watson-Crick base pairing; (3) Cas9 makes a blunt-end double-strand break at the target location; (4) The cell repairs the break by: NHEJ (non-homologous end joining) \u2014 error-prone, introducing insertions/deletions that often disrupt gene function (gene knockout), or HDR (homology-directed repair) \u2014 if a template is provided, allowing precise sequence correction (gene correction or insertion). This system originates from the bacterial adaptive immune system (CRISPR arrays) that stores viral sequence memories."
+      },
+      "topic": "CRISPR-Cas9 / Genome Editing",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_molgene_009",
+      "passage": null,
+      "stem": "In eukaryotic gene expression, alternative splicing allows one pre-mRNA to produce multiple protein isoforms by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "adding different 5' caps to different mRNA copies, changing their translation efficiency"
+        },
+        {
+          "label": "B",
+          "text": "varying the poly-A tail length on different copies of the mRNA"
+        },
+        {
+          "label": "C",
+          "text": "including or excluding different combinations of exons during splicing, so the same gene can produce mRNAs with different exon combinations encoding proteins with distinct functions"
+        },
+        {
+          "label": "D",
+          "text": "changing the reading frame after translation begins, producing different protein sequences from the same mRNA"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "5' capping is a uniform modification \u2014 all eukaryotic mRNAs receive the same 7-methylguanosine cap. Different cap structures do not produce different protein isoforms from the same pre-mRNA. The cap's role is translation initiation and mRNA stability, not isoform diversity.",
+        "B": "Poly-A tail length varies among mRNAs and influences stability and translational efficiency, but variation in poly-A tail length does not change the protein sequence or produce distinct functional isoforms. Poly-A tails are in the 3' UTR and are not translated.",
+        "C": "Correct. Alternative splicing is the mechanism by which a single pre-mRNA can be processed into multiple mature mRNAs with different exon combinations. The spliceosome can include or skip specific exons (exon skipping), use alternative 5' or 3' splice sites, or retain introns. Each combination encodes a protein isoform with potentially different domains, binding partners, localization signals, or activities. Classic examples: troponin T (heart vs. skeletal muscle isoforms), Drosophila DSCAM (38,016 potential isoforms), and Bcl-x (anti-apoptotic Bcl-xL vs. pro-apoptotic Bcl-xS). ~95% of human multi-exon genes undergo alternative splicing.",
+        "D": "Changes in reading frame during translation do not produce normal protein isoforms \u2014 frameshifts are mutations that disrupt protein sequence entirely. Ribosomes do read in a consistent frame from AUG to stop codon; deliberate frameshifting is an unusual regulatory mechanism in some viruses but is not how eukaryotic cells generate protein diversity."
+      },
+      "topic": "Alternative Splicing / Gene Expression Diversity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_molgene_010",
+      "passage": null,
+      "stem": "Telomerase is a reverse transcriptase that extends the telomeres of chromosomes. Telomerase activity is important in:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "repairing double-strand DNA breaks caused by ionizing radiation"
+        },
+        {
+          "label": "B",
+          "text": "removing RNA primers from Okazaki fragments on the lagging strand"
+        },
+        {
+          "label": "C",
+          "text": "germ cells, stem cells, and cancer cells \u2014 maintaining telomere length to prevent replicative senescence and allowing indefinite cell division"
+        },
+        {
+          "label": "D",
+          "text": "normal somatic cells throughout the body, where it continuously maintains chromosome length"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Double-strand break repair is performed by homologous recombination (error-free) or non-homologous end joining (error-prone) \u2014 these are DNA repair pathways unrelated to telomerase. Telomerase extends telomeres at chromosome ends, not at internal double-strand breaks.",
+        "B": "RNA primer removal from Okazaki fragments is performed by RNase H and DNA polymerase I (in prokaryotes) or FEN1 and RNase H (in eukaryotes), followed by gap-filling by DNA polymerase and ligation by DNA ligase. Telomerase is a reverse transcriptase that extends single-stranded 3' overhangs at chromosome ends \u2014 it is not involved in Okazaki fragment processing.",
+        "C": "Correct. Telomerase uses its own internal RNA template (TERC in humans) to add TTAGGG repeats to chromosome 3' ends, compensating for the progressive shortening caused by the end-replication problem. Telomerase is active in germ cells (maintaining germline genome integrity across generations), stem cells (maintaining proliferative capacity), and ~90% of cancer cells (conferring replicative immortality \u2014 one of Hanahan and Weinberg's hallmarks of cancer). Inhibiting telomerase is an active area of anticancer drug development.",
+        "D": "Most differentiated somatic cells in adults do not express significant levels of telomerase \u2014 their telomeres shorten with each cell division, eventually triggering replicative senescence (Hayflick limit ~50-70 divisions). This telomere shortening acts as a tumor-suppressive mechanism. The exceptions are the germ cells, stem cells, and cancer cells described in choice C."
+      },
+      "topic": "Telomerase / Replicative Immortality",
+      "difficulty": "Medium"
+    }
+  ]
+}

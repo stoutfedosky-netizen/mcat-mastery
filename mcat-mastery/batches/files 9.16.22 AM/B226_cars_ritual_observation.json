@@ -1,0 +1,246 @@
+{
+  "batch": "B226",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Anthropology, Ritual & the Observer's Paradox",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_ritual_observation_226_q0",
+      "passage": "An ethnographer who wishes to understand a community's ritual faces a bind that cannot be dissolved by more careful fieldwork alone. To grasp what a rite means to its participants, she must come close enough that its internal logic feels unremarkable rather than exotic, close enough, that is, to stop noticing what a stranger would notice. Yet the moment she achieves that closeness, she loses the very distance that made the practice visible as something requiring explanation in the first place. Insiders rarely articulate the assumptions their own practices depend on; a competent performer of a rite is, almost by definition, someone who no longer has to think about why it is performed in a particular way. The observer who becomes sufficiently inside to understand ceases, in the same movement, to be able to say what she understands.\n\nEarly responses to this bind treated the anthropologist's outsider position as an asset rather than a liability. On the functionalist view, a rite served a social purpose, cohesion among kin groups, release of accumulated tension, reinforcement of authority, that participants themselves need not recognize and might even deny if asked directly. The analyst's task was to diagnose this hidden function from outside, and native testimony, where it conflicted with the diagnosis, could simply be set aside as naive or self-serving. The appeal of this approach was its apparent rigor: it did not depend on what informants happened to say. Its weakness was the same. A functional account could survive any outcome. A rite that appeared to produce harmony was evidence of cohesion; a rite that produced open conflict could just as easily be described as a controlled release of tension that prevented worse conflict later. An explanation immune to disconfirmation in this way is not obviously an explanation at all.\n\nThe reaction against functionalism swung the discipline toward interpretation from within. Meaning, on this newer view, could not be diagnosed by an outsider applying a theory; it had to be recovered through sustained attention to what participants themselves said, believed, and took for granted, a method sometimes described as thick description. The ethnographer's task shifted from diagnosis to translation. But translation carries its own difficulty, since much of what a ritual means to its performers is precisely what they do not say. A farmer who holds a plow a particular way during a planting rite is unlikely to offer, on request, an articulate theory of why; he simply holds it that way, as his father did. Pressed for an explanation, informants sometimes produce careful accounts of practices they perform half-consciously, accounts that may reflect what they believe an anthropologist wants to hear as readily as they reflect any settled native theory. Pure reliance on stated belief therefore risks substituting one kind of fiction, the participant's improvised rationale, for another, the analyst's imposed theory.\n\nA further complication undermines both approaches at once. Rituals frequently persist through changes in the very circumstances a functional or original explanation would cite as their cause. A rain rite may continue for generations after a community relocates to land served by reliable irrigation, long after any plausible original purpose has become moot. This durability suggests that a rite's meaning is not fixed permanently at its point of origin but is repeatedly reattached to new circumstances, sometimes inconsistently, sometimes by different participants in incompatible ways. Reattachment, moreover, need not be uniform within a single community. Two participants in the same ceremony may hold interpretations that cannot be reconciled, one treating it as an act of gratitude, another as an obligation owed to ancestors, a third as simply what is done at this time of year, with no reliable way to certify any one of these as the community's authentic, singular meaning. The ethnographer who searches for the meaning that the community holds has already presupposed a coherence that the community, examined closely, does not actually possess.\n\nNone of the classical strategies, then, fully escapes the original bind. Siding with function risks unfalsifiable diagnosis; siding with stated belief risks mistaking improvisation for tradition; searching for origins risks explaining a practice by a purpose it may no longer serve or may never have served in the way supposed. Some contemporary ethnographers have concluded that the paradox admits no solution, only forms of disciplined management: marking clearly which claims are the analyst's inference and which are directly reported participant testimony, and resisting the narrative pressure to resolve a ritual's plural, sometimes contradictory meanings into a single coherent account simply because coherence makes for better prose.\n\nThis is not merely a technical scruple. An ethnography that resolves ambiguity too cleanly substitutes the anthropologist's need for a tidy narrative for the plural, unresolved reality of a practice as it is actually lived by the people who perform it, a substitution that has real consequences for how those people and their traditions come to be represented and understood by readers who will likely never visit them. Yet an ethnography that refuses interpretation altogether, retreating into pure description for fear of imposing false coherence, abdicates the very task that makes anthropology more than an inventory of observed behavior. Between these two failures lies a kind of writing that is considerably harder to produce and, once produced, harder to defend before a discipline that still prizes clear conclusions. It is, nonetheless, very likely the only kind of writing that has any claim to being faithful to what ritual actually is for the people whose lives it structures.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ritual has no genuine meaning beyond what individual anthropologists choose to impose on it during fieldwork."
+        },
+        {
+          "label": "B",
+          "text": "Thick description, because it relies on participant testimony rather than imported external theory, is the only reliable method for understanding a community's rituals."
+        },
+        {
+          "label": "C",
+          "text": "Rituals persist primarily because they continue to serve the same social function that originally caused them to develop."
+        },
+        {
+          "label": "D",
+          "text": "The ethnographer's classic strategies each fail to resolve the paradox between the closeness understanding requires and the distance description requires."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice is far too strong. The passage does not claim that ritual meaning is nothing but an anthropologist's imposition; it argues that classical methods for recovering that meaning each face specific, describable failures. Rejecting the possibility of any genuine ritual meaning goes well beyond what the passage's argument supports.",
+        "B": "This choice mistakes one of the two failed extremes for the passage's conclusion. The third and fourth paragraphs show that relying purely on stated participant belief risks mistaking improvised rationalization for settled tradition, since much of a ritual's logic goes unarticulated even by its most fluent performers.",
+        "C": "This choice is directly contradicted by the fourth paragraph, which describes a rain rite persisting for generations after its original purpose, reliable irrigation, has made the rite functionally unnecessary. Persistence, the passage argues, often outlives the function that supposedly explains it.",
+        "D": "Correct. The passage systematically shows that diagnosing hidden function, relying on native testimony, and tracing origin each fail to resolve the underlying bind between the proximity required for understanding a ritual and the distance required to describe it, concluding that ethnographers can only manage this tension through disciplined, transparent method rather than resolve it outright."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_ritual_observation_226_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the second paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "illustrate a weakness of functionalist explanation: it can accommodate any outcome without risk of being disproven."
+        },
+        {
+          "label": "B",
+          "text": "argue that functionalist anthropologists deliberately ignored evidence that contradicted their theories."
+        },
+        {
+          "label": "C",
+          "text": "demonstrate that hidden social functions can never meaningfully explain any ritual practice."
+        },
+        {
+          "label": "D",
+          "text": "introduce thick description as a method that corrects functionalist diagnosis and resolves the interpretive difficulties the passage has described."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The paragraph's central example shows that a functionalist account can interpret both harmony and open conflict as confirmation of the same underlying social function, cohesion in one case and controlled tension-release in the other. An explanation compatible with any outcome offers no way to be shown wrong, which the paragraph presents as its decisive weakness.",
+        "B": "This choice overstates the criticism. The passage does not accuse functionalist anthropologists of deliberately ignoring contrary evidence; it argues that their theoretical framework structurally accommodates any evidence, a more fundamental problem than dishonesty or willful blindness.",
+        "C": "This choice goes beyond the paragraph's claim. The author criticizes the unfalsifiability of functionalist explanation, not the coherence of hidden social function as a concept; the passage never asserts that hidden functions can never meaningfully explain a ritual, only that this particular mode of establishing them is flawed.",
+        "D": "This choice describes the role of the third paragraph, not the second. Thick description and interpretive anthropology are introduced afterward, in the paragraph responding to functionalism's weaknesses, not within the paragraph that lays out those weaknesses in the first place."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_ritual_observation_226_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's use of the word reattached in the fourth paragraph most nearly refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the physical restoration of ritual objects that have been damaged or lost over time."
+        },
+        {
+          "label": "B",
+          "text": "the renewal or alteration of a ritual's meaning by later participants under changed circumstances."
+        },
+        {
+          "label": "C",
+          "text": "the process by which anthropologists revise their own theories after conducting additional fieldwork."
+        },
+        {
+          "label": "D",
+          "text": "the tendency of communities to abandon rituals entirely once the original purpose that generated them has become practically obsolete."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice confuses the term with an unrelated concept from museum conservation. The passage's use of reattached has nothing to do with repairing physical objects; it describes how meaning, not matter, is renewed for a ritual practice.",
+        "B": "Correct. The paragraph explains that a rite persisting after its original circumstances have changed, such as a rain rite continuing after a community gains reliable irrigation, shows that meaning is not permanently fixed at the point of origin but is repeatedly renewed or altered by later participants, sometimes inconsistently, under new conditions.",
+        "C": "This choice misapplies the term to the anthropologist's own theoretical revisions rather than to the ritual's meaning within the community being studied, which is the actual subject of the fourth paragraph's discussion of reattachment.",
+        "D": "This choice describes nearly the opposite of what the paragraph argues. The rain-rite example specifically shows a ritual persisting, not being abandoned, after its original function became obsolete, which is precisely the evidence the author uses to introduce the idea of reattached meaning."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_ritual_observation_226_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward attempts to identify a single, authentic meaning shared by an entire ritual community is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "approving, since a unified interpretation is necessary for an ethnography to be considered scientifically rigorous."
+        },
+        {
+          "label": "B",
+          "text": "doubtful, since different participants in the same rite may hold interpretations that cannot be reconciled."
+        },
+        {
+          "label": "C",
+          "text": "neutral, since the author considers the question of a ritual's authentic meaning largely irrelevant to anthropological practice."
+        },
+        {
+          "label": "D",
+          "text": "approving, provided the unified interpretation is derived from patient thick description rather than from imported functionalist theory."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice reverses the author's position. Far from treating a unified interpretation as necessary for scientific rigor, the fifth paragraph argues that searching for a single meaning the community holds presupposes a coherence that close examination shows the community does not actually possess.",
+        "B": "Correct. The fifth paragraph states directly that two participants in the same ceremony may hold interpretations that cannot be reconciled, and that no reliable way exists to certify any one interpretation as the community's single authentic meaning. This directly supports a doubtful, skeptical attitude toward such unifying claims.",
+        "C": "This choice understates how central this issue is to the passage's argument. An entire paragraph is devoted to explaining why unified interpretations misrepresent ritual communities, which is difficult to reconcile with a claim that the author considers the question largely irrelevant.",
+        "D": "This choice still attributes an approving stance toward unified interpretation to the author, differing from the correct choice only in specifying a preferred method for reaching it. The passage rejects the goal of a single authentic meaning regardless of which method, functionalist or interpretive, is used to pursue it."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_ritual_observation_226_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Suppose an anthropologist studying a coastal community's annual boat-launching ceremony writes: “Regardless of what individual participants say about the ceremony's purpose, its true function is to reinforce the authority of the fishing fleet's senior captains, since the ceremony persists even among participants who explicitly deny this purpose.” According to the passage, this anthropologist's reasoning would most likely be criticized for:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "relying too heavily on thick description at the expense of any theoretical framework."
+        },
+        {
+          "label": "B",
+          "text": "failing to consider that the ceremony might persist through simple repetition rather than genuine belief."
+        },
+        {
+          "label": "C",
+          "text": "assuming, without sufficient longitudinal fieldwork, that the ceremony's meaning has shifted since its earliest recorded performance."
+        },
+        {
+          "label": "D",
+          "text": "producing an explanation that participant testimony cannot disconfirm, since any denial is treated as further evidence."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice misidentifies the anthropologist's method in the example. The hypothetical anthropologist proposes a hidden social function that persists even against explicit participant denial, which is a functionalist mode of reasoning, not an overreliance on thick description, which centers participant testimony rather than overriding it.",
+        "B": "This choice introduces a consideration the passage does not raise in its critique of functionalism. The problem identified in the passage is not that repetition might explain persistence instead of belief, but that the anthropologist's explanation cannot be disconfirmed by any evidence participants might offer.",
+        "C": "This choice misapplies a concern from a different part of the passage. The reattachment problem in the fourth paragraph concerns whether a ritual's meaning has changed since its origin, not whether the anthropologist gathered sufficient fieldwork; the example's flaw is structural unfalsifiability, not insufficient data collection.",
+        "D": "Correct. By treating any participant's denial of the proposed function as further evidence that the function operates unconsciously, the anthropologist has constructed an explanation immune to disconfirmation, precisely the flaw the passage identifies in classical functionalist diagnosis in the second paragraph."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_ritual_observation_226_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if discovered by a research team, would most weaken the passage's claim that a rite's meaning is repeatedly reattached rather than fixed at its origin?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Archival and oral-historical evidence of a rite performed with an identical, universally shared purpose for generations without reinterpretation."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that most communities perform more than one ritual associated with agricultural cycles, each with its own distinct calendar."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that anthropologists disagree about the best method for recording oral testimony during fieldwork."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that some communities have discontinued rituals entirely after relocating to new environments."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage's reattachment claim depends on rituals acquiring new or altered meanings as circumstances change. Strong evidence that a specific rite has been performed with an identical, universally shared purpose across many generations, without variation or reinterpretation, would directly undercut the claim that ritual meaning is typically renewed or altered rather than fixed at origin.",
+        "B": "This choice describes a fact about the number of rituals a community performs, which has no bearing on whether any individual ritual's meaning changes or remains fixed over time. It does not address the reattachment claim at all.",
+        "C": "This choice concerns a methodological disagreement among anthropologists about recording testimony, which does not bear on whether the underlying rituals themselves have retained or changed their meaning over time.",
+        "D": "This choice describes discontinuation of ritual practice after relocation, which is compatible with, rather than contrary to, the passage's argument. The passage discusses persistence despite changed circumstances as its central example, but discontinuation in some cases does not contradict the general claim that meaning is reattached rather than fixed where rituals do persist."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_ritual_observation_226_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following situations is most analogous to the interpretive bind the passage describes for the ethnographer studying ritual?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A tourist visits a foreign city for a single afternoon and later writes a detailed, confident guidebook describing its customs and their meanings."
+        },
+        {
+          "label": "B",
+          "text": "A historian compares two written accounts of the same battle and finds that they disagree about the number of casualties."
+        },
+        {
+          "label": "C",
+          "text": "A fluent native speaker, asked to state the grammatical rule she applies flawlessly every day, finds she cannot articulate it."
+        },
+        {
+          "label": "D",
+          "text": "A scientist repeats an experiment several times and obtains consistent results each time."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice describes the opposite problem from the one in the passage. A tourist who writes a guidebook after a single afternoon has too much distance and too little immersion; the ethnographer's bind concerns losing the capacity to notice and articulate what becomes too familiar through proximity, not the risks of superficial observation.",
+        "B": "This choice describes ordinary source criticism, a disagreement between two external records of an event. It does not involve the specific difficulty of an insider being unable to articulate the tacit logic of a practice she performs fluently, which is the structure of the ethnographer's bind.",
+        "C": "Correct. A fluent native speaker who cannot state the grammatical rule she follows without error closely mirrors the ethnographer's paradox: competent, internalized performance of a practice, whether speaking or ritual, is precisely what makes its underlying logic resistant to articulation by the very people who perform it best.",
+        "D": "This choice describes successful, consistent replication of a controlled experiment, which involves no tension between insider fluency and outsider articulation at all. Nothing in this scenario resembles the specific interpretive bind the passage describes for ethnographers studying ritual."
+      },
+      "topic": "Reasoning by Analogy",
+      "difficulty": "Hard"
+    }
+  ]
+}

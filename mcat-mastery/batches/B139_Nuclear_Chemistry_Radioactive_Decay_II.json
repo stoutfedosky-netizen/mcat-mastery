@@ -1,0 +1,351 @@
+{
+  "batch": "B139",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Nuclear Chemistry & Radioactive Decay II",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_nuclear2_001",
+      "passage": "A nuclear-medicine clinic compares two radiotracers. Tracer A undergoes positron emission with a half-life of 110 minutes. Tracer B emits gamma photons with a half-life of 6.0 hours. Technologists measure activity immediately after synthesis and before imaging.\n\nTracer | Initial activity | Time elapsed | Emission | Imaging use\nA | 16 mCi | 220 min | β⁺ | PET\nB | 12 mCi | 12 h | γ | SPECT-like scan\n\nThe physician explains that PET detects pairs of annihilation photons produced after a positron encounters an electron. Gamma emission changes nuclear energy without changing atomic number or mass number.",
+      "stem": "What activity of Tracer A remains after 220 minutes?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "16 mCi"
+        },
+        {
+          "label": "B",
+          "text": "8 mCi"
+        },
+        {
+          "label": "C",
+          "text": "4 mCi"
+        },
+        {
+          "label": "D",
+          "text": "2 mCi"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This is the initial activity before any decay. The passage states that 220 minutes elapsed, which equals two 110-minute half-lives. After two half-lives, the activity cannot remain at 16 mCi; it should be one quarter of the starting value.",
+        "B": "8 mCi would remain after one half-life, or 110 minutes. The passage gives 220 minutes, which is two half-lives, so the sample halves a second time from 8 mCi to 4 mCi.",
+        "C": "Correct. Two half-lives pass because 220/110 = 2. Activity halves each half-life: 16 → 8 → 4 mCi. Radioactive decay is first-order, so a constant fraction decays per half-life rather than a constant number of millicuries per minute.",
+        "D": "2 mCi would represent three half-lives from 16 mCi: 16 → 8 → 4 → 2. Only two half-lives pass in 220 minutes, so this answer over-decays the sample by one half-life."
+      },
+      "topic": "Half-Life Calculation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_nuclear2_002",
+      "passage": null,
+      "stem": "In positron emission, how do atomic number and mass number change?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Atomic number decreases by 1; mass number unchanged"
+        },
+        {
+          "label": "B",
+          "text": "Atomic number increases by 1; mass number unchanged"
+        },
+        {
+          "label": "C",
+          "text": "Both decrease by 1"
+        },
+        {
+          "label": "D",
+          "text": "Mass number increases by 4"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In β⁺ decay, a proton converts into a neutron, positron, and neutrino. The nucleus loses one unit of positive charge, so atomic number decreases by 1, while total nucleons remain the same. This contrasts with β⁻ decay, where atomic number increases.",
+        "B": "In positron emission, a proton converts to a neutron (p → n + e⁺ + ν), so atomic number decreases by 1, not increases. An increase in Z by 1 describes beta-minus decay (n → p + e⁻ + ν̄), where a neutron becomes a proton. The two processes change Z in opposite directions.",
+        "C": "Mass number does not change in positron emission because the total number of nucleons is conserved — a proton becomes a neutron, but both are nucleons. Only the atomic number (proton count) decreases by 1. A simultaneous decrease in both A and Z does not correspond to any standard single decay mode.",
+        "D": "A mass number increase of 4 does not occur in any common radioactive decay. Alpha decay decreases mass number by 4 (emission of ⁴He). Positron emission leaves mass number entirely unchanged because the proton-to-neutron conversion conserves nucleon number."
+      },
+      "topic": "Positron Emission",
+      "difficulty": "Medium",
+      "passageRef": "cp_nuclear2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nuclear2_003",
+      "passage": null,
+      "stem": "Why does PET detect annihilation photons rather than the positron path directly?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Annihilation decreases mass number by 4"
+        },
+        {
+          "label": "B",
+          "text": "Positrons are identical to alpha particles"
+        },
+        {
+          "label": "C",
+          "text": "PET tracers emit only neutrons"
+        },
+        {
+          "label": "D",
+          "text": "The positron combines with an electron to produce two gamma photons"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Annihilation does not change nuclear mass number. When a positron meets an electron, both are converted into two 511 keV gamma photons — this is a matter-antimatter conversion event, not a nuclear transmutation. A decrease of 4 in mass number describes alpha decay, which is an entirely different process.",
+        "B": "Positrons and alpha particles are fundamentally different. A positron (e⁺) is an antimatter electron with mass ~0.0005 u and charge +1. An alpha particle (⁴He²⁺) is a helium nucleus with mass ~4 u and charge +2. They differ in mass by a factor of ~8,000 and behave completely differently in matter.",
+        "C": "PET tracers emit positrons, not neutrons. The 'P' in PET stands for positron. Neutron emission is a rare nuclear process that occurs in extremely neutron-rich nuclei and is not the basis of PET imaging. The detection mechanism in PET relies on the annihilation of positrons with electrons to produce paired gamma photons.",
+        "D": "Correct. A PET isotope emits a positron, but the imaging signal comes after that positron annihilates with an electron, producing two photons traveling in nearly opposite directions. Coincident detection localizes the event. The positron's short path blurs resolution but is not the direct detected signal."
+      },
+      "topic": "PET Physics",
+      "difficulty": "Medium",
+      "passageRef": "cp_nuclear2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nuclear2_004",
+      "passage": null,
+      "stem": "What activity of Tracer B remains after 12 hours?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "12 mCi"
+        },
+        {
+          "label": "B",
+          "text": "3 mCi"
+        },
+        {
+          "label": "C",
+          "text": "6 mCi"
+        },
+        {
+          "label": "D",
+          "text": "1.5 mCi"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "12 mCi is the initial activity of Tracer B before decay. Since 12 hours equals two 6-hour half-lives, the remaining activity must be reduced to one quarter of the initial value, not unchanged.",
+        "B": "Correct. Tracer B has a 6-hour half-life, so 12 hours equals two half-lives. Its activity falls from 12 to 6 to 3 mCi. The emission type affects shielding and imaging, but the half-life calculation depends only on elapsed time relative to the half-life.",
+        "C": "6 mCi would remain after one half-life of Tracer B, or 6 hours. The elapsed time is 12 hours, which is two half-lives, so the activity halves again to 3 mCi.",
+        "D": "1.5 mCi would be reached after three half-lives: 12 → 6 → 3 → 1.5. The passage gives only two half-lives for Tracer B, so this option overestimates the amount of decay."
+      },
+      "topic": "Gamma Tracer Decay",
+      "difficulty": "Easy",
+      "passageRef": "cp_nuclear2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nuclear2_005",
+      "passage": null,
+      "stem": "What nuclear change occurs during pure gamma emission?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The nucleus loses excess energy without changing atomic or mass number"
+        },
+        {
+          "label": "B",
+          "text": "Atomic number decreases by 1"
+        },
+        {
+          "label": "C",
+          "text": "Mass number decreases by 4"
+        },
+        {
+          "label": "D",
+          "text": "Atomic number increases by 1"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Gamma emission releases electromagnetic radiation from an excited nucleus. Because no protons or neutrons are emitted or converted, atomic number and mass number do not change. It is best viewed as nuclear de-excitation rather than transmutation.",
+        "B": "A decrease in atomic number by 1 describes positron emission or electron capture, not gamma emission. In pure gamma emission (isomeric transition), an excited nucleus releases energy as a photon without emitting any particle. Neither the proton count (Z) nor the neutron count changes — only the nuclear energy state changes.",
+        "C": "A decrease in mass number by 4 describes alpha decay, in which the nucleus ejects a ⁴He particle. Gamma emission involves no particle emission — the nucleus simply transitions from an excited state to a lower energy state by releasing a gamma photon. Both A and Z remain unchanged.",
+        "D": "An increase in atomic number by 1 describes beta-minus decay (neutron → proton + electron + antineutrino), not gamma emission. Gamma emission is an electromagnetic transition that releases energy from an excited nucleus without converting any nucleons. Z and A are both conserved."
+      },
+      "topic": "Gamma Emission",
+      "difficulty": "Medium",
+      "passageRef": "cp_nuclear2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nuclear2_006",
+      "passage": "A radiation-safety officer reviews shielding and biological effects. Alpha particles have high mass and charge, short range, and high linear energy transfer. Beta particles penetrate farther but are less densely ionizing. Gamma rays are photons and require dense shielding. The officer distinguishes absorbed dose from equivalent dose, which weights radiation by biological effectiveness. A contaminated surface is surveyed before and after decontamination, and activity follows first-order exponential decay.",
+      "stem": "Which radiation has the highest linear energy transfer among those listed?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Low-energy radio waves"
+        },
+        {
+          "label": "B",
+          "text": "Gamma rays"
+        },
+        {
+          "label": "C",
+          "text": "Visible light"
+        },
+        {
+          "label": "D",
+          "text": "Alpha particles"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Radio waves are low-energy electromagnetic radiation (photon energies ~10⁻⁶ eV) that lack the energy to ionize atoms. Their linear energy transfer is essentially zero in biological tissue. Alpha particles, by contrast, are massive doubly-charged ions that deposit energy densely along a short path, giving them the highest LET of common radiation types.",
+        "B": "Gamma rays are high-energy photons, but because they are uncharged and massless, they interact sparsely with matter — passing through tissue with relatively infrequent ionization events. This gives gamma rays a low LET despite their high energy per photon. Alpha particles deposit far more energy per unit path length because their large mass and +2 charge cause continuous, dense ionization.",
+        "C": "Visible light photons have energies of approximately 1.5–3 eV, well below the ionization threshold for biological molecules (~10–13 eV). They cannot ionize atoms and therefore have negligible LET. Alpha particles deposit orders of magnitude more energy per unit distance traveled through tissue.",
+        "D": "Correct. Alpha particles are massive and doubly charged, depositing energy densely over a short path. Their high LET makes internal alpha emitters biologically dangerous despite poor external penetration. Gamma rays penetrate farther but usually deposit energy less densely per unit length."
+      },
+      "topic": "LET and Radiation Type",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_nuclear2_007",
+      "passage": null,
+      "stem": "Why is dense shielding especially important for gamma radiation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Gamma rays have the same range as alpha particles"
+        },
+        {
+          "label": "B",
+          "text": "Gamma rays are stopped by a sheet of paper"
+        },
+        {
+          "label": "C",
+          "text": "Gamma rays are uncharged photons with high penetrating ability"
+        },
+        {
+          "label": "D",
+          "text": "Gamma rays cannot interact with matter"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Alpha particles and gamma rays have opposite penetration characteristics. Alpha particles are stopped by a few centimeters of air or a sheet of paper due to their large mass and double positive charge, which causes rapid energy loss. Gamma rays penetrate deeply through tissue and require dense shielding. Claiming they have the same range conflates two fundamentally different radiation behaviors.",
+        "B": "Paper stops alpha particles, not gamma rays. Alpha particles lose energy rapidly through dense ionization and are halted by any thin barrier. Gamma rays, as uncharged high-energy photons, pass through paper essentially unattenuated. Effective gamma shielding requires high-density materials like lead or thick concrete.",
+        "C": "Correct. Gamma photons are uncharged and often penetrate deeply, so shielding requires dense materials that promote attenuation through photoelectric absorption, Compton scattering, or pair production. They do interact with matter, but less readily than charged particles over short distances.",
+        "D": "Gamma rays do interact with matter — through the photoelectric effect (absorption), Compton scattering (partial energy transfer), and pair production (at energies above 1.02 MeV). Their high penetrating ability reflects the relatively low probability of interaction per unit distance, not an inability to interact. Dense shielding increases the total path length and interaction probability."
+      },
+      "topic": "Radiation Shielding",
+      "difficulty": "Easy",
+      "passageRef": "cp_nuclear2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nuclear2_008",
+      "passage": null,
+      "stem": "What does equivalent dose add beyond absorbed dose?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A weighting for biological effectiveness of radiation type"
+        },
+        {
+          "label": "B",
+          "text": "The chemical identity of the tracer"
+        },
+        {
+          "label": "C",
+          "text": "The patient's blood type"
+        },
+        {
+          "label": "D",
+          "text": "The exact number of protons emitted"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Absorbed dose measures energy deposited per mass, but equal absorbed doses of different radiation types may not cause equal biological damage. Equivalent dose applies radiation weighting factors, capturing differences such as the high biological impact of alpha particles.",
+        "B": "Equivalent dose accounts for how biologically damaging a given type of radiation is, not what chemical compound delivered it. The chemical identity of a tracer determines its biodistribution and which organs receive dose, but the quality factor that converts absorbed dose (Gy) to equivalent dose (Sv) depends solely on the radiation type — alpha, beta, gamma, or neutron.",
+        "C": "Blood type is an immunological classification (ABO/Rh system) unrelated to radiation dosimetry. Equivalent dose adjusts absorbed dose by a radiation weighting factor that reflects biological damage potential: alpha particles (factor ~20) cause more damage per gray than gamma rays (factor ~1). No patient-specific immunological variable enters this calculation.",
+        "D": "Equivalent dose does not count individual emitted particles. Absorbed dose already quantifies total energy deposited per kilogram of tissue. The additional step to equivalent dose multiplies by a quality factor specific to radiation type — reflecting that equal energy deposited by alpha particles causes roughly 20 times more biological damage than equal energy from gamma rays, due to denser ionization tracks."
+      },
+      "topic": "Dose Concepts",
+      "difficulty": "Medium",
+      "passageRef": "cp_nuclear2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nuclear2_009",
+      "passage": null,
+      "stem": "If decontamination removes radioactive material from a surface, what immediate quantity decreases?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The half-life of the isotope"
+        },
+        {
+          "label": "B",
+          "text": "The activity present on the surface"
+        },
+        {
+          "label": "C",
+          "text": "The atomic number of every nucleus"
+        },
+        {
+          "label": "D",
+          "text": "The speed of light emitted"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Decontamination does not change the isotope's half-life. Half-life is an intrinsic nuclear property of that radionuclide. Cleaning the surface removes some radioactive nuclei from the location, which lowers measured activity there but leaves the remaining nuclei with the same half-life.",
+        "B": "Correct. Physical removal lowers the number of radioactive nuclei on the surface, so measured activity decreases. It does not change the isotope's half-life or nuclear identity; remaining atoms decay according to the same first-order kinetics as before.",
+        "C": "Removing radioactive material from a surface does not change the atomic number of the nuclei. Atomic number changes only through nuclear reactions or decay modes such as beta decay, positron emission, or electron capture. Decontamination is physical removal, not nuclear transmutation.",
+        "D": "Decontamination physically removes radioactive material from surfaces, directly reducing the activity (disintegrations per second) present at that location. It has no effect on the speed of light, which is a universal physical constant (c ≈ 3 × 10⁸ m/s in vacuum). The relevant quantity that decreases is the amount of radioactive material, and therefore the exposure rate, at the contaminated site."
+      },
+      "topic": "Decontamination",
+      "difficulty": "Medium",
+      "passageRef": "cp_nuclear2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_nuclear2_010",
+      "passage": null,
+      "stem": "Which statement best explains first-order radioactive decay?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Decay stops after one half-life"
+        },
+        {
+          "label": "B",
+          "text": "A fixed mass in grams decays every minute for all samples"
+        },
+        {
+          "label": "C",
+          "text": "A fixed fraction of nuclei decays per unit time"
+        },
+        {
+          "label": "D",
+          "text": "Decay rate increases as nuclei disappear"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Radioactive decay does not stop after one half-life. Each half-life reduces the remaining population by half: after one half-life, 50% remains; after two, 25%; after three, 12.5%; and so on. The process continues indefinitely, approaching zero asymptotically but never reaching it. A fixed fraction — not a fixed number — decays per unit time.",
+        "B": "First-order decay does not remove a fixed mass in grams per minute. It removes a fixed fraction of the remaining nuclei per unit time, so the absolute amount decaying per minute decreases as the sample gets smaller. A fixed mass per minute would resemble zero-order behavior, not radioactive decay.",
+        "C": "Correct. Radioactive decay is first-order because the probability of decay per nucleus is constant. Thus activity is proportional to the number of undecayed nuclei, and half-life is constant. The absolute number decaying per unit time falls as the sample becomes smaller.",
+        "D": "In first-order decay, the rate is proportional to the number of undecayed nuclei: rate = λN. As N decreases through decay, the absolute rate (disintegrations per second) decreases proportionally. The rate constant λ remains fixed, but fewer nuclei means fewer decays per unit time. The rate decreases over time, it does not increase."
+      },
+      "topic": "First-Order Decay",
+      "difficulty": "Hard",
+      "passageRef": "cp_nuclear2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

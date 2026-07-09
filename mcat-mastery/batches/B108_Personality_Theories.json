@@ -1,0 +1,338 @@
+{
+  "batch": "B108",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Personality Theories",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_person_001",
+      "passage": "A psychology student compares major personality theories. She examines the psychoanalytic (Freud), humanistic (Rogers, Maslow), trait-based (Big Five, Eysenck), social-cognitive (Bandura), and behavioral perspectives. She studies how each theory explains personality development, the consistency of behavior across situations, and the measurement of personality through self-report inventories, projective tests, and behavioral observation.",
+      "stem": "Freud's structural model divides the psyche into three components:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the id (pleasure principle — unconscious drives seeking immediate gratification), ego (reality principle — mediates between id demands and external constraints), and superego (morality principle — internalized social standards and conscience)"
+        },
+        {
+          "label": "B",
+          "text": "classical conditioning, operant conditioning, and observational learning"
+        },
+        {
+          "label": "C",
+          "text": "introversion, extraversion, and neuroticism"
+        },
+        {
+          "label": "D",
+          "text": "encoding, storage, and retrieval"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Freud's structural model (1923): Id — entirely unconscious, contains libido (sexual/life instincts) and thanatos (death/aggressive instincts), operates on the pleasure principle (immediate gratification regardless of consequences). Ego — partly conscious, develops in infancy, operates on the reality principle (delays gratification, finds realistic ways to satisfy id), uses defense mechanisms when overwhelmed. Superego — partly conscious, develops during phallic stage (~3-6 years), contains the conscience (guilt for wrongdoing) and ego ideal (pride for living up to standards). Healthy personality = balanced ego mediating between id impulses and superego constraints.",
+        "B": "Classical, operant, and observational learning are behavioral and social learning theory concepts (Pavlov, Skinner, Bandura), not Freudian psychoanalytic constructs.",
+        "C": "Introversion, extraversion, and neuroticism are dimensions in Eysenck's trait theory (PEN model: Psychoticism, Extraversion, Neuroticism), not Freudian structural components.",
+        "D": "Encoding, storage, and retrieval are stages of memory processing (information processing model), unrelated to personality structure."
+      },
+      "topic": "Freud / Id, Ego, Superego",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_person_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Defense mechanisms (ego defenses) are unconscious strategies used by the ego to manage anxiety. Projection involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reverting to an earlier developmental stage when stressed"
+        },
+        {
+          "label": "B",
+          "text": "attributing one's own unacceptable thoughts, feelings, or impulses to someone else — for example, a person who is angry at their spouse accusing the spouse of being angry at them"
+        },
+        {
+          "label": "C",
+          "text": "channeling unacceptable impulses into socially acceptable activities"
+        },
+        {
+          "label": "D",
+          "text": "refusing to acknowledge a threatening reality"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Reverting to an earlier developmental stage describes regression (e.g., an older child who begins thumb-sucking after a sibling is born, or an adult who throws tantrums when stressed).",
+        "B": "Correct. Projection: attributing one's own unacceptable unconscious impulses to others. The person unconsciously 'projects' their feelings outward: 'I'm not angry — you're angry!' 'I'm not attracted to them — they're attracted to me!' This protects the ego by externalizing the threatening impulse. Key defense mechanisms for MCAT: repression (pushing memories/feelings into the unconscious), denial (refusing to accept reality), displacement (redirecting emotions to a safer target), sublimation (channeling impulses into constructive activities), rationalization (creating logical justifications for unacceptable behavior), reaction formation (acting opposite to true feelings), regression (reverting to earlier behavior).",
+        "C": "Channeling unacceptable impulses into socially acceptable activities describes sublimation — considered the most mature/adaptive defense mechanism (e.g., aggressive impulses channeled into competitive sports, sexual frustration into artistic creation).",
+        "D": "Refusing to acknowledge a threatening reality describes denial (e.g., a person diagnosed with cancer who insists the test results must be wrong). Denial operates on external reality; repression operates on internal memories/feelings."
+      },
+      "topic": "Defense Mechanisms / Projection",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_person_003",
+      "passage": null,
+      "stem": "Maslow's hierarchy of needs arranges human motivations from most basic to highest:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "self-actualization → esteem → belonging → safety → physiological"
+        },
+        {
+          "label": "B",
+          "text": "physiological → safety → belonging/love → esteem → self-actualization — lower-level needs must be substantially met before higher needs become primary motivators"
+        },
+        {
+          "label": "C",
+          "text": "achievement → affiliation → power (McClelland's needs)"
+        },
+        {
+          "label": "D",
+          "text": "oral → anal → phallic → latency → genital"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This reverses the order. Self-actualization is at the top (highest need), not the bottom (most basic).",
+        "B": "Correct. Maslow's hierarchy (1943): (1) Physiological — food, water, shelter, sleep, homeostasis; (2) Safety — security, stability, health, employment; (3) Belonging/Love — friendship, intimacy, family, connection; (4) Esteem — self-respect, recognition, achievement, confidence; (5) Self-actualization — reaching one's full potential, creativity, meaning, 'peak experiences.' The hierarchy is often depicted as a pyramid (though Maslow himself didn't use this visualization). Criticism: the strict hierarchical ordering is oversimplified (people pursue higher needs despite unmet lower needs — starving artists, hunger strikers), and the model reflects Western individualist values.",
+        "C": "Achievement, affiliation, and power are McClelland's acquired needs theory — a separate motivational framework not organized hierarchically. McClelland proposed that individuals vary in the relative strength of these three needs based on life experiences.",
+        "D": "Oral, anal, phallic, latency, and genital are Freud's psychosexual stages of development, not Maslow's hierarchy of needs."
+      },
+      "topic": "Maslow's Hierarchy / Self-Actualization",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_person_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The Big Five (OCEAN) personality traits are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "trust, autonomy, initiative, industry, identity (Erikson's stages)"
+        },
+        {
+          "label": "B",
+          "text": "introversion, sensing, thinking, judging (MBTI dimensions)"
+        },
+        {
+          "label": "C",
+          "text": "id, ego, superego, conscious, unconscious"
+        },
+        {
+          "label": "D",
+          "text": "Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism — these five dimensions are the most empirically supported trait model, derived from factor analysis of personality descriptors across cultures and languages"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Trust, autonomy, initiative, industry, identity are stages in Erikson's psychosocial development theory, not the Big Five personality traits.",
+        "B": "MBTI dimensions (I/E, S/N, T/F, J/P) are related to but distinct from the Big Five. The MBTI is widely used but has weaker empirical support (lower test-retest reliability, questionable factor structure) than the Big Five.",
+        "C": "Id, ego, superego, conscious, and unconscious are components of Freud's psychoanalytic theory, not empirically derived trait dimensions.",
+        "D": "Correct. Big Five (Five-Factor Model, Costa & McCrae): (O) Openness to experience — curiosity, creativity, preference for novelty vs routine; (C) Conscientiousness — organization, discipline, goal-directed behavior; (E) Extraversion — sociability, assertiveness, positive emotionality; (A) Agreeableness — cooperation, trust, empathy vs antagonism; (N) Neuroticism — emotional instability, anxiety, moodiness. The Big Five emerged from lexical analysis (identifying personality-describing words across languages) and factor analysis (reducing thousands of descriptors to five orthogonal dimensions). It has strong cross-cultural validity and predictive power (conscientiousness predicts job performance; neuroticism predicts susceptibility to psychological disorders)."
+      },
+      "topic": "Big Five / OCEAN / Trait Theory",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_person_005",
+      "passage": null,
+      "stem": "Bandura's social-cognitive theory emphasizes:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "unconscious conflicts from childhood as the primary determinants of personality"
+        },
+        {
+          "label": "B",
+          "text": "innate biological temperament that is fixed from birth and unchangeable"
+        },
+        {
+          "label": "C",
+          "text": "reciprocal determinism — the continuous interaction between personal factors (cognition, beliefs, self-efficacy), behavioral patterns, and environmental influences in shaping personality and behavior"
+        },
+        {
+          "label": "D",
+          "text": "reinforcement schedules as the sole explanation for all behavior"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Unconscious childhood conflicts are central to Freud's psychoanalytic theory, not Bandura's social-cognitive approach. Bandura emphasizes conscious cognitive processes (expectations, self-reflection, self-regulation).",
+        "B": "Fixed biological temperament aligns more with biological/trait approaches. Bandura's theory emphasizes learning, cognitive appraisal, and environmental influence — personality is malleable and context-dependent.",
+        "C": "Correct. Bandura's social-cognitive theory: personality is shaped by the dynamic interplay of three factors (reciprocal determinism): (1) Personal — cognitive processes, beliefs, expectations, self-efficacy (belief in one's ability to succeed), observational learning; (2) Behavioral — actions, habits, skills; (3) Environmental — social context, reinforcement, models. Each factor influences and is influenced by the other two. Self-efficacy is a central construct: high self-efficacy → greater effort, persistence, and resilience; low self-efficacy → avoidance and giving up. Bandura's Bobo doll experiments demonstrated observational learning (modeling) as a key mechanism of behavior acquisition.",
+        "D": "Reinforcement schedules as the sole explanation represents strict Skinnerian behaviorism (radical behaviorism). Bandura explicitly extended beyond this by incorporating cognition, observational learning, and self-regulation — he criticized pure behaviorism for ignoring mental processes."
+      },
+      "topic": "Bandura / Reciprocal Determinism / Self-Efficacy",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_person_006",
+      "passage": null,
+      "stem": "Rogers' humanistic theory proposes that psychological well-being requires:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "strict adherence to social norms regardless of personal feelings"
+        },
+        {
+          "label": "B",
+          "text": "unconditional positive regard, empathy, and congruence — when the gap between the 'real self' (who one actually is) and the 'ideal self' (who one wants to be) is small, the person experiences congruence and psychological health"
+        },
+        {
+          "label": "C",
+          "text": "complete elimination of all unconscious drives"
+        },
+        {
+          "label": "D",
+          "text": "maximizing external rewards and minimizing punishments"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Strict adherence to social norms regardless of personal feelings would increase incongruence (suppressing the real self to match external expectations), the opposite of what Rogers advocated.",
+        "B": "Correct. Carl Rogers (client-centered therapy): humans have an innate tendency toward self-actualization (growth, fulfillment). Psychological distress arises from incongruence — a large gap between the real self (actual experiences, feelings, behaviors) and the ideal self (internalized standards, aspirations). Conditions of worth ('I'll love you only if...') from parents/society create incongruence by forcing individuals to deny their authentic experiences. Rogers' therapeutic conditions: (1) unconditional positive regard (accepting the person without judgment); (2) empathy (deeply understanding their experience); (3) congruence/genuineness (therapist is authentic). These conditions allow the person to explore their real self and reduce the self-ideal gap.",
+        "C": "Rogers was humanistic, not psychoanalytic. He focused on conscious experience, self-concept, and growth rather than unconscious drives. The concept of unconscious drives is Freudian.",
+        "D": "Maximizing rewards and minimizing punishments represents a behavioral (operant conditioning) perspective. Rogers emphasized internal growth, self-concept, and the therapeutic relationship over external contingencies."
+      },
+      "topic": "Rogers / Congruence / Unconditional Positive Regard",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_person_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A projective personality test (e.g., Rorschach inkblot test) differs from a self-report inventory (e.g., MMPI) in that projective tests:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "present ambiguous stimuli that the person interprets — the theory is that unconscious thoughts and feelings are projected onto the ambiguous material, revealing personality dynamics not accessible through direct questioning"
+        },
+        {
+          "label": "B",
+          "text": "use standardized true/false questions with established norms"
+        },
+        {
+          "label": "C",
+          "text": "measure physiological responses like heart rate and skin conductance"
+        },
+        {
+          "label": "D",
+          "text": "are always more reliable and valid than self-report inventories"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Projective tests: present ambiguous, unstructured stimuli (inkblots, ambiguous scenes, sentence stems). The assumption: when faced with ambiguity, people project their unconscious conflicts, needs, and personality dynamics onto the material (projective hypothesis). Examples: Rorschach Inkblot Test (interpret inkblot shapes), Thematic Apperception Test/TAT (create stories about ambiguous pictures). Advantages: may access unconscious material, harder to fake. Disadvantages: lower inter-rater reliability, questionable validity, subjective scoring. Self-report inventories (MMPI-2, NEO-PI-R) use standardized questions with established norms — they have higher reliability but are susceptible to response biases (social desirability, acquiescence).",
+        "B": "Standardized true/false questions with established norms describe self-report inventories like the MMPI (Minnesota Multiphasic Personality Inventory, 567 items, clinical scales). Projective tests are open-ended, not standardized in the same way.",
+        "C": "Physiological measurements describe biometric/psychophysiological methods (polygraph, fMRI, EEG) used in some personality and emotion research, not projective tests.",
+        "D": "Projective tests generally have lower reliability and validity compared to well-constructed self-report inventories. The Rorschach has been particularly criticized for low inter-rater reliability and limited predictive validity."
+      },
+      "topic": "Projective vs Self-Report Assessment",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_person_008",
+      "passage": null,
+      "stem": "Erikson's psychosocial theory proposes that personality develops through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "five psychosexual stages focused on erogenous zones"
+        },
+        {
+          "label": "B",
+          "text": "four stages of cognitive development from sensorimotor to formal operational"
+        },
+        {
+          "label": "C",
+          "text": "eight stages spanning the entire lifespan, each centered on a psychosocial crisis (e.g., trust vs mistrust, identity vs role confusion) — successful resolution of each crisis builds psychological strength (virtue) for the next stage"
+        },
+        {
+          "label": "D",
+          "text": "a fixed set of traits determined entirely by genetics at birth"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Five psychosexual stages (oral, anal, phallic, latency, genital) describe Freud's developmental theory, focused on libidinal energy and erogenous zones. Erikson built on Freud but shifted focus from psychosexual to psychosocial crises.",
+        "B": "Four cognitive development stages (sensorimotor, preoperational, concrete operational, formal operational) describe Piaget's theory, focused on cognitive maturation, not personality or psychosocial development.",
+        "C": "Correct. Erikson's eight stages: (1) Trust vs Mistrust (infancy — hope); (2) Autonomy vs Shame/Doubt (toddler — will); (3) Initiative vs Guilt (preschool — purpose); (4) Industry vs Inferiority (school age — competence); (5) Identity vs Role Confusion (adolescence — fidelity); (6) Intimacy vs Isolation (young adult — love); (7) Generativity vs Stagnation (middle adult — care); (8) Integrity vs Despair (late adult — wisdom). Key MCAT focus: identity vs role confusion (adolescence) — Marcia expanded this into four identity statuses: achievement, moratorium, foreclosure, diffusion. Erikson extended Freud by emphasizing psychosocial (not just psychosexual) development across the entire lifespan.",
+        "D": "Pure genetic determinism contradicts Erikson's emphasis on social interactions and cultural context as key shapers of personality development. Each stage's crisis is resolved through interaction with the social environment."
+      },
+      "topic": "Erikson / Psychosocial Stages / Identity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_person_009",
+      "passage": null,
+      "stem": "The behavioral perspective on personality argues that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "personality is entirely determined by unconscious childhood conflicts"
+        },
+        {
+          "label": "B",
+          "text": "personality is a fixed biological temperament that cannot be changed"
+        },
+        {
+          "label": "C",
+          "text": "personality traits are abstract constructs with no real existence"
+        },
+        {
+          "label": "D",
+          "text": "personality is a collection of learned behaviors shaped by classical conditioning, operant conditioning, and reinforcement history — consistent behavioral patterns arise from consistent environmental contingencies, not from internal traits"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Unconscious childhood conflicts are central to psychoanalytic theory (Freud), not the behavioral perspective. Strict behaviorists reject the concept of the unconscious as unobservable and unscientific.",
+        "B": "Fixed biological temperament aligns with biological/trait approaches, not behavioral. The behavioral perspective emphasizes learning and environmental shaping — personality is malleable through new learning experiences.",
+        "C": "While strict behaviorists might question the reality of abstract trait constructs, the more nuanced position is that consistent behavior patterns exist but are explained by learning history rather than internal trait entities.",
+        "D": "Correct. The behavioral perspective (Watson, Skinner): personality is not an internal entity but the sum of observable behavioral patterns learned through environmental interactions. Classical conditioning creates emotional responses and associations. Operant conditioning shapes behavioral frequency through reinforcement and punishment. What appears as a 'personality trait' (e.g., shyness) is actually a set of learned behaviors maintained by their consequences (avoidance of social anxiety is negatively reinforcing). Strengths: empirically grounded, leads to effective behavioral therapies. Criticisms: ignores cognition, emotions, and biological factors; cannot explain all behavioral consistency."
+      },
+      "topic": "Behavioral Perspective / Learned Behavior",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_person_010",
+      "passage": null,
+      "stem": "Locus of control (Rotter) refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the brain structure that controls motor movements"
+        },
+        {
+          "label": "B",
+          "text": "the genetic basis of temperament"
+        },
+        {
+          "label": "C",
+          "text": "the degree of physical control a person has over their environment"
+        },
+        {
+          "label": "D",
+          "text": "an individual's belief about whether outcomes are controlled by their own actions (internal locus) or by external forces like luck, fate, or powerful others (external locus) — internal locus is associated with greater motivation, achievement, and psychological well-being"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The brain structure controlling motor movements (primary motor cortex, cerebellum, basal ganglia) is a neuroscience concept, not a personality construct. 'Locus of control' uses 'locus' metaphorically to describe the perceived location of causal control.",
+        "B": "The genetic basis of temperament is studied in biological personality psychology and behavioral genetics. Locus of control is a social-cognitive construct about beliefs and expectations, not genetics.",
+        "C": "Physical control over the environment is a concrete, objective measure. Locus of control is a psychological belief — a subjective perception about causality that may or may not match objective reality.",
+        "D": "Correct. Rotter's locus of control (1966): Internal locus — 'I control my own fate; my actions determine my outcomes.' Associated with: greater motivation, academic achievement, health-promoting behaviors, psychological resilience, active coping strategies. External locus — 'Fate, luck, or powerful others control what happens to me; my efforts don't matter.' Associated with: learned helplessness, passivity, higher anxiety, lower achievement motivation. Locus of control is a continuous dimension, not a dichotomy. It interacts with self-efficacy (Bandura): high internal locus + high self-efficacy → most adaptive outcomes. Cultural factors influence locus of control (collectivist cultures may show more external orientation reflecting group/family influence)."
+      },
+      "topic": "Locus of Control / Internal vs External",
+      "difficulty": "Easy"
+    }
+  ]
+}

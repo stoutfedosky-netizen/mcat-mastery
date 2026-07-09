@@ -1,0 +1,225 @@
+{
+  "batch": "B274",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Sensation Perception Attention",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_sensation_perception_attention_274_q0",
+      "passage": "A perception lab studied detection of faint phone notifications. On 100 trials, a vibration-tone was present on half and absent on half. In a high-expectation condition, participants were told urgent messages were likely; in a low-expectation condition, they were told the phone was probably inactive. High-expectation participants reported 38 hits and 18 false alarms. Low-expectation participants reported 30 hits and 6 false alarms. Actual signal intensity was identical.",
+      "usePrevPassage": false,
+      "stem": "The high-expectation group\u2019s false alarms suggest a change in:",
+      "choices": {
+        "A": "Response criterion",
+        "B": "Absolute threshold",
+        "C": "Vestibular transduction",
+        "D": "Opponent-process color coding"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. They were more willing to say a signal was present, increasing both hits and false alarms. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Absolute threshold is the minimum stimulus detected about 50% of the time. The question is not about minimum sensory intensity. The passage focus is expectation and false alarms, so this option is less directly supported.",
+        "C": "Vestibular transduction concerns balance signals from head movement. The notification task concerns signal detection under expectation. The relevant evidence instead centers on expectation and false alarms.",
+        "D": "Opponent-process color coding explains visual color perception. Phone-notification reports under expectation are a signal-detection issue. The relevant evidence instead centers on expectation and false alarms."
+      },
+      "topic": "Signal Detection",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sensation_perception_attention_274_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which response is a false alarm?",
+      "choices": {
+        "A": "Reporting no notification when none occurred",
+        "B": "Reporting a notification when it occurred",
+        "C": "Reporting a notification when no vibration-tone was presented",
+        "D": "Reporting no notification when it occurred"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Reporting no notification when the signal is absent is a correct rejection, not a false alarm. The relevant evidence instead centers on false alarm definition.",
+        "B": "Reporting a notification when the signal is present is a hit, not a false alarm. The relevant evidence instead centers on false alarm definition.",
+        "C": "Correct. A false alarm is saying the signal is present on a signal-absent trial. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Reporting no notification when the signal is present is a miss, not a false alarm. The relevant evidence instead centers on false alarm definition."
+      },
+      "topic": "Signal Detection Outcomes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sensation_perception_attention_274_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Equal false alarms but more hits would suggest higher:",
+      "choices": {
+        "A": "Role strain",
+        "B": "Signal detection sensitivity",
+        "C": "Social desirability bias",
+        "D": "Primary reinforcement"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Role strain is difficulty meeting expectations within one role. The stem is not limited to competing demands inside a single role. The passage focus is hits versus false alarms, so this option is less directly supported.",
+        "B": "Correct. More hits without more false alarms indicates better discrimination rather than just saying yes more often. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Social desirability bias is answering to look favorable. Equal false alarms with more hits would more directly indicate better signal discrimination. The relevant evidence instead centers on hits versus false alarms.",
+        "D": "Primary reinforcement uses biologically important rewards such as food or water. The detection task is about discriminating signal from noise. The relevant evidence instead centers on hits versus false alarms."
+      },
+      "topic": "Signal Detection",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sensation_perception_attention_274_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What design feature isolates expectation from stimulus intensity?",
+      "choices": {
+        "A": "Test-retest reliability",
+        "B": "Social loafing",
+        "C": "Cultural competence",
+        "D": "Both groups received the same actual signal intensity."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Test-retest reliability is score stability over time. The stem is not about repeated measurement stability. The passage focus is constant signal intensity, so this option is less directly supported.",
+        "B": "Social loafing is reduced effort when individual contributions are not identifiable in a group task. The stem is not about anonymous group productivity. The passage focus is constant signal intensity, so this option is less directly supported.",
+        "C": "Cultural competence involves responsive care across cultural and language differences. The stem is about another construct unless clinical culture/language barriers are central. The passage focus is constant signal intensity, so this option is less directly supported.",
+        "D": "Correct. Holding the physical stimulus constant makes response differences more attributable to instructions. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Experimental Control",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_sensation_perception_attention_274_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Not noticing the background noise after several minutes is:",
+      "choices": {
+        "A": "Shaping",
+        "B": "Habituation",
+        "C": "Groupthink",
+        "D": "Self-actualization"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Shaping reinforces successive approximations toward a target behavior. Ignoring background noise is not trained by reinforcement steps. The relevant evidence instead centers on repeated background noise.",
+        "B": "Correct. Attention to repeated harmless background noise can decrease with exposure. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Groupthink is poor decision-making in cohesive groups seeking unanimity. The stem does not involve group deliberation suppressing dissent. The passage focus is repeated background noise, so this option is less directly supported.",
+        "D": "Self-actualization is realizing one\u2019s potential in humanistic theory. It does not describe reduced attention to repeated background noise. The relevant evidence instead centers on repeated background noise."
+      },
+      "topic": "Habituation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sensation_perception_attention_274_q5",
+      "passage": "A pain clinic evaluated a vibration device for chronic knee pain during stair climbing. Without vibration, mean pain was 7.2/10; with vibration near the knee, mean pain was 5.8/10. The reduction was largest among patients who described the vibration as pleasant and distracting. A demanding mental arithmetic task also lowered pain ratings even when the vibration device was off.",
+      "usePrevPassage": false,
+      "stem": "The vibration device effect best fits:",
+      "choices": {
+        "A": "Gate-control theory",
+        "B": "Weber\u2019s law",
+        "C": "Binocular disparity",
+        "D": "Formal operational reasoning"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Nonpainful tactile input can modulate nociceptive signaling and reduce pain perception. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Weber\u2019s law concerns the just-noticeable difference as a proportion of stimulus intensity. The pain passage concerns tactile modulation of pain. The relevant evidence instead centers on vibration and pain modulation.",
+        "C": "Binocular disparity is a depth cue based on different images reaching each eye. Knee pain modulation by vibration is a somatosensory issue, not a visual-depth issue. The relevant evidence instead centers on vibration and pain modulation.",
+        "D": "Formal operational reasoning involves abstract thought in Piaget\u2019s theory. It does not explain reduced pain ratings from tactile vibration. The relevant evidence instead centers on vibration and pain modulation."
+      },
+      "topic": "Pain",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sensation_perception_attention_274_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Arithmetic lowering pain without vibration supports the role of:",
+      "choices": {
+        "A": "Retinal convergence",
+        "B": "Genetic drift",
+        "C": "Attention in pain perception",
+        "D": "Negative punishment"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Retinal convergence is a binocular depth cue based on eye position. It does not explain pain reduction during arithmetic. The relevant evidence instead centers on cognitive distraction and pain.",
+        "B": "Genetic drift is random change in allele frequencies across generations. It does not explain pain ratings during arithmetic distraction. The relevant evidence instead centers on cognitive distraction and pain.",
+        "C": "Correct. A demanding task diverts cognitive resources away from pain monitoring. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Negative punishment reduces behavior by removing a desirable stimulus. Arithmetic distraction did not remove a reward to suppress stair climbing. The relevant evidence instead centers on cognitive distraction and pain."
+      },
+      "topic": "Attention",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sensation_perception_attention_274_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why is pleasantness not proven causal?",
+      "choices": {
+        "A": "Random assignment",
+        "B": "Positive symptom",
+        "C": "Fixed-interval reinforcement",
+        "D": "Patients were not randomly assigned to perceive vibration as pleasant."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Random assignment allocates participants to conditions by chance. The stem may ask about measurement or observational limitations rather than an experimental solution. The passage focus is pleasantness as nonrandom perception, so this option is less directly supported.",
+        "B": "Positive symptoms add experiences such as hallucinations or delusions. The stem does not describe an added psychotic experience. The passage focus is pleasantness as nonrandom perception, so this option is less directly supported.",
+        "C": "A fixed-interval schedule depends on time elapsed before reinforcement. The passage does not describe a reward after a fixed amount of time. The passage focus is pleasantness as nonrandom perception, so this option is less directly supported.",
+        "D": "Correct. People who find it pleasant may differ in expectations, anxiety, or pain sensitivity. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Causal Inference",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_sensation_perception_attention_274_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which result supports placebo contribution?",
+      "choices": {
+        "A": "A sham device described as active lowers pain without vibration.",
+        "B": "Working memory",
+        "C": "Social reproduction",
+        "D": "Demographic transition"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A sham effect would show expectation can reduce reported pain even without active stimulation. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Working memory temporarily maintains and manipulates information. The stem does not involve active short-term updating. The passage focus is sham device expectancy, so this option is less directly supported.",
+        "C": "Social reproduction is the transmission of inequality across generations. The stem does not trace class advantage across generations. The passage focus is sham device expectancy, so this option is less directly supported.",
+        "D": "Demographic transition describes shifts in birth and death rates with development. The stem does not ask about population change. The passage focus is sham device expectancy, so this option is less directly supported."
+      },
+      "topic": "Placebo",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sensation_perception_attention_274_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What principle connects both passages?",
+      "choices": {
+        "A": "Biological determinism",
+        "B": "Negative symptom",
+        "C": "Perception depends on sensory input plus top-down expectations and attention.",
+        "D": "Obedience"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This would attribute behavior mainly to biology. The passage emphasizes social context, expectations, resources, or institutions rather than fixed biological causation. The passage focus is top-down processing, so this option is less directly supported.",
+        "B": "Negative symptoms reduce normal function, such as motivation or social engagement. The stem does not describe diminished function. The passage focus is top-down processing, so this option is less directly supported.",
+        "C": "Correct. The notification task shows expectation changing reports; the pain task shows attention and meaning changing pain. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Obedience is following an authority\u2019s direct command. The passage does not describe a command from an authority figure. The passage focus is top-down processing, so this option is less directly supported."
+      },
+      "topic": "Perception",
+      "difficulty": "Hard"
+    }
+  ]
+}

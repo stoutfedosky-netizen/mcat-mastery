@@ -1,0 +1,338 @@
+{
+  "batch": "B088",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Solutions & Colligative Properties",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_soln_001",
+      "passage": "A biochemist prepares solutions for experiments. She dissolves 58.4 g of NaCl (MW = 58.4 g/mol) in water to make 1.0 L of solution, producing a 1.0 M NaCl solution. She studies how dissolved solutes affect boiling point, freezing point, osmotic pressure, and vapor pressure. She notes that NaCl dissociates into Na⁺ and Cl⁻, giving a van't Hoff factor (i) of approximately 2. She also examines solubility rules, the common ion effect, and Ksp equilibria for sparingly soluble salts.",
+      "stem": "The 1.0 M NaCl solution has an effective particle concentration (osmolarity) of approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2.0 Osmol/L — NaCl dissociates into Na⁺ and Cl⁻ (i ≈ 2), so osmolarity = i × molarity = 2 × 1.0 = 2.0 Osmol/L"
+        },
+        {
+          "label": "B",
+          "text": "1.0 Osmol/L (same as molarity because dissociation does not matter)"
+        },
+        {
+          "label": "C",
+          "text": "0.5 Osmol/L"
+        },
+        {
+          "label": "D",
+          "text": "3.0 Osmol/L"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Osmolarity accounts for the total concentration of dissolved particles. NaCl is a strong electrolyte that fully dissociates: NaCl → Na⁺ + Cl⁻, producing 2 particles per formula unit (i ≈ 2). Osmolarity = i × M = 2 × 1.0 = 2.0 Osmol/L. This is why NaCl has a greater effect on colligative properties (boiling point elevation, freezing point depression, osmotic pressure) than a non-electrolyte at the same molar concentration. Glucose (a non-electrolyte, i = 1) at 1.0 M gives only 1.0 Osmol/L.",
+        "B": "This ignores dissociation. For non-electrolytes (glucose, urea), osmolarity equals molarity. But for electrolytes like NaCl, the number of dissolved particles exceeds the number of formula units dissolved.",
+        "C": "0.5 Osmol/L is less than the molarity, which is impossible for an electrolyte that dissociates — the number of particles must be at least equal to the number of formula units.",
+        "D": "3.0 Osmol/L would be the osmolarity of a 1:2 electrolyte like CaCl₂ (Ca²⁺ + 2Cl⁻, i ≈ 3) at 1.0 M, not NaCl."
+      },
+      "topic": "Osmolarity / van't Hoff Factor",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Boiling point elevation (ΔTb) for this NaCl solution is calculated as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ΔTb = iKbm, where i is the van't Hoff factor, Kb is the ebullioscopic constant, and m is molality — for NaCl (i ≈ 2), the elevation is approximately twice that of a non-electrolyte at the same concentration"
+        },
+        {
+          "label": "B",
+          "text": "ΔTb = Kbm only, because the van't Hoff factor is always 1"
+        },
+        {
+          "label": "C",
+          "text": "ΔTb = m/Kb"
+        },
+        {
+          "label": "D",
+          "text": "boiling point is lowered, not elevated, by adding solute"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Colligative properties depend on the number of dissolved particles, not their identity. ΔTb = iKbm. For 1.0 m NaCl with i = 2 and Kb = 0.512 °C/m (water): ΔTb = 2 × 0.512 × 1.0 = 1.024 °C. New boiling point ≈ 101.0 °C. The van't Hoff factor is critical for electrolytes. For glucose (i = 1): ΔTb = 0.512 °C — half the NaCl elevation at the same concentration.",
+        "B": "i = 1 applies only to non-electrolytes (glucose, sucrose, urea). For strong electrolytes, i > 1 and must be included. Ignoring i underestimates the colligative effect.",
+        "C": "Dividing m by Kb is dimensionally incorrect and inverts the relationship. ΔTb is directly proportional to both Kb and m.",
+        "D": "Adding a nonvolatile solute always elevates the boiling point (more energy needed to achieve a vapor pressure equal to atmospheric pressure). Boiling point depression does not occur. Freezing point is depressed, which is the opposite colligative effect."
+      },
+      "topic": "Boiling Point Elevation / ΔTb = iKbm",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_003",
+      "passage": null,
+      "stem": "Osmotic pressure (π) drives water across a semipermeable membrane from:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the side with higher solute concentration to the side with lower solute concentration"
+        },
+        {
+          "label": "B",
+          "text": "the side with lower solute concentration (higher water concentration) to the side with higher solute concentration — π = iMRT"
+        },
+        {
+          "label": "C",
+          "text": "both sides equally, so no net water movement occurs"
+        },
+        {
+          "label": "D",
+          "text": "the membrane itself generates the pressure independent of solute concentration"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Osmosis: water moves from the dilute side (high water activity) to the concentrated side (low water activity) across a semipermeable membrane. Osmotic pressure π = iMRT (van't Hoff equation), where i = van't Hoff factor, M = molarity, R = gas constant, T = temperature (K). For 1.0 M NaCl at 310 K: π = 2 × 1.0 × 0.0821 × 310 ≈ 50.9 atm. This enormous pressure is why red blood cells lyse in hypotonic solutions and crenate in hypertonic solutions.",
+        "A": "Water moves toward higher solute concentration, not away from it. Solute cannot cross the semipermeable membrane, so water moves to equalize concentrations.",
+        "C": "Net water movement occurs whenever there is a concentration difference across the membrane. Equal movement (no net flow) occurs only when concentrations are equal on both sides (isotonic conditions).",
+        "D": "Osmotic pressure arises from the concentration difference across the membrane, not from the membrane itself. The membrane simply provides the selective barrier that allows osmotic pressure to manifest."
+      },
+      "topic": "Osmotic Pressure / π = iMRT",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_004",
+      "passage": null,
+      "stem": "The Ksp of AgCl is 1.8 × 10⁻¹⁰. The molar solubility of AgCl in pure water is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.8 × 10⁻¹⁰ M"
+        },
+        {
+          "label": "B",
+          "text": "1.8 × 10⁻⁵ M"
+        },
+        {
+          "label": "C",
+          "text": "0.9 × 10⁻¹⁰ M"
+        },
+        {
+          "label": "D",
+          "text": "1.34 × 10⁻⁵ M — from Ksp = [Ag⁺][Cl⁻] = s², so s = √(1.8 × 10⁻¹⁰) = 1.34 × 10⁻⁵ M"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. AgCl ⇌ Ag⁺ + Cl⁻. If s mol/L dissolves, then [Ag⁺] = s and [Cl⁻] = s. Ksp = [Ag⁺][Cl⁻] = s × s = s². s = √Ksp = √(1.8 × 10⁻¹⁰) = √(18 × 10⁻¹¹) ≈ 4.24 × 10⁻⁵·⁵ ≈ 1.34 × 10⁻⁵ M. This means only 1.34 × 10⁻⁵ mol of AgCl dissolves per liter of water. AgCl is essentially insoluble, consistent with the solubility rules (most chlorides are soluble except Ag⁺, Pb²⁺, Hg₂²⁺).",
+        "A": "1.8 × 10⁻¹⁰ M is the Ksp value itself, not the molar solubility. For a 1:1 salt like AgCl, solubility is the square root of Ksp.",
+        "B": "1.8 × 10⁻⁵ M results from taking the wrong root or power. The correct calculation is s = √(1.8 × 10⁻¹⁰) ≈ 1.34 × 10⁻⁵.",
+        "C": "0.9 × 10⁻¹⁰ is simply half the Ksp value, which is not the correct operation. Molar solubility requires taking the square root of Ksp for a 1:1 salt."
+      },
+      "topic": "Ksp / Molar Solubility Calculation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_soln_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The common ion effect predicts that adding NaCl to a saturated AgCl solution would:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase AgCl solubility because more ions are available"
+        },
+        {
+          "label": "B",
+          "text": "have no effect on AgCl solubility"
+        },
+        {
+          "label": "C",
+          "text": "decrease AgCl solubility — the added Cl⁻ shifts the dissolution equilibrium to the left (Le Chatelier's principle), causing AgCl to precipitate"
+        },
+        {
+          "label": "D",
+          "text": "double the Ksp of AgCl"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Adding NaCl introduces common Cl⁻ ions. By Le Chatelier's principle, the increased [Cl⁻] shifts the AgCl dissolution equilibrium to the left: AgCl ⇌ Ag⁺ + Cl⁻. The ion product Q = [Ag⁺][Cl⁻] temporarily exceeds Ksp, causing AgCl to precipitate until equilibrium is restored at a lower [Ag⁺]. The solubility of AgCl decreases. Quantitatively, if [Cl⁻] from NaCl = 0.1 M, then [Ag⁺] = Ksp/[Cl⁻] = 1.8 × 10⁻¹⁰/0.1 = 1.8 × 10⁻⁹ M — far less than the 1.34 × 10⁻⁵ M in pure water.",
+        "A": "The common ion effect decreases solubility, not increases it. Le Chatelier's principle drives the equilibrium toward the solid (less dissolved) when product ion concentration increases.",
+        "B": "Adding a common ion significantly affects the equilibrium. The dissolution equilibrium shifts to accommodate the new [Cl⁻], reducing [Ag⁺] to maintain Ksp.",
+        "D": "Ksp is a thermodynamic constant at a given temperature — it does not change with the addition of common ions. The ion product adjusts (precipitation occurs), but Ksp itself remains 1.8 × 10⁻¹⁰."
+      },
+      "topic": "Common Ion Effect / Le Chatelier's",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_006",
+      "passage": null,
+      "stem": "Raoult's law states that the vapor pressure of a solvent above a solution is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "higher than the pure solvent's vapor pressure"
+        },
+        {
+          "label": "B",
+          "text": "equal to the solute's vapor pressure"
+        },
+        {
+          "label": "C",
+          "text": "independent of the solute concentration"
+        },
+        {
+          "label": "D",
+          "text": "P = X_solvent × P°_solvent — the vapor pressure is reduced in proportion to the mole fraction of the nonvolatile solute"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "For nonvolatile solutes (like NaCl or glucose), the solute has essentially zero vapor pressure. The solution's vapor pressure comes entirely from the solvent, reduced by the presence of solute.",
+        "A": "Adding a nonvolatile solute always lowers the vapor pressure, not raises it. Solute molecules at the surface reduce the number of solvent molecules that can escape into the vapor phase.",
+        "C": "Vapor pressure is directly dependent on solute concentration through the mole fraction. Higher solute concentration means lower X_solvent and therefore lower vapor pressure.",
+        "D": "Correct. Raoult's law: P_solution = X_solvent × P°_solvent, where X_solvent is the mole fraction of the solvent and P° is the pure solvent vapor pressure. Since X_solvent < 1 when solute is present, P_solution < P°. Vapor pressure lowering: ΔP = X_solute × P°_solvent. Nonvolatile solute molecules occupy surface sites, reducing the rate of solvent evaporation. This is the molecular basis for boiling point elevation — higher temperature is needed to reach atmospheric pressure. Raoult's law applies to ideal dilute solutions."
+      },
+      "topic": "Raoult's Law / Vapor Pressure Lowering",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_007",
+      "passage": null,
+      "stem": "An isotonic saline solution (0.9% NaCl, ~0.154 M) is used for IV infusion because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it is hypertonic to blood, causing red blood cells to shrink beneficially"
+        },
+        {
+          "label": "B",
+          "text": "it has the same osmolarity as blood (~300 mOsm/L), so red blood cells neither swell nor shrink — maintaining cell volume and function"
+        },
+        {
+          "label": "C",
+          "text": "it is hypotonic to blood, causing cells to swell and improve oxygen delivery"
+        },
+        {
+          "label": "D",
+          "text": "NaCl is the only solute that does not interact with cell membranes"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Isotonic solutions have the same effective osmolarity as the intracellular fluid (~300 mOsm/L). Normal saline (0.154 M NaCl, i ≈ 2) has osmolarity ≈ 308 mOsm/L, closely matching blood. No net water movement occurs across the RBC membrane, so cells maintain their normal biconcave shape. Hypertonic solutions (>300 mOsm/L) cause crenation (water leaves cells). Hypotonic solutions (<300 mOsm/L) cause swelling and potential lysis (hemolysis).",
+        "A": "Hypertonic solutions cause crenation (cell shrinkage), which impairs RBC function. Crenated cells have reduced surface area and cannot efficiently carry oxygen. This is not beneficial.",
+        "C": "Hypotonic solutions cause cell swelling and potential lysis (hemolysis), destroying RBCs. This would be harmful, not helpful.",
+        "D": "Many solutes are used in IV fluids (dextrose, lactated Ringer's). NaCl is chosen because it provides physiological Na⁺ and Cl⁻ at an isotonic concentration, not because of unique membrane properties."
+      },
+      "topic": "Tonicity / Isotonic Solutions",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_soln_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Freezing point depression (ΔTf) for this NaCl solution is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "calculated from ΔTf = iKfm — for 1.0 m NaCl (i ≈ 2, Kf = 1.86 °C/m for water): ΔTf = 2 × 1.86 × 1.0 = 3.72 °C, so the freezing point is approximately -3.72 °C"
+        },
+        {
+          "label": "B",
+          "text": "0 °C, because NaCl does not affect freezing point"
+        },
+        {
+          "label": "C",
+          "text": "+3.72 °C (the freezing point increases)"
+        },
+        {
+          "label": "D",
+          "text": "calculated without the van't Hoff factor: ΔTf = 1.86 °C"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. ΔTf = iKfm = 2 × 1.86 × 1.0 = 3.72 °C. The freezing point is depressed to 0 - 3.72 = -3.72 °C. This is why salt is used to de-ice roads — it depresses the freezing point of water, preventing ice formation above -3.72 °C (for this concentration). CaCl₂ (i ≈ 3) is even more effective because it produces more particles per formula unit.",
+        "B": "All dissolved solutes depress the freezing point of a solvent. This is a colligative property — it depends on particle concentration, not solute identity.",
+        "C": "Solutes always lower (depress) the freezing point, never raise it. The solute disrupts the ordered crystal lattice of ice, requiring lower temperatures for solidification.",
+        "D": "This calculation ignores the van't Hoff factor (i = 2 for NaCl). For electrolytes, omitting i underestimates the colligative effect by a factor equal to i."
+      },
+      "topic": "Freezing Point Depression / ΔTf = iKfm",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_soln_009",
+      "passage": null,
+      "stem": "Molality (m) differs from molarity (M) in that molality is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "grams of solute per liter of solution"
+        },
+        {
+          "label": "B",
+          "text": "moles of solute per liter of solution, which changes with temperature"
+        },
+        {
+          "label": "C",
+          "text": "moles of solute per kilogram of solvent — it is temperature-independent because mass does not change with temperature, unlike volume"
+        },
+        {
+          "label": "D",
+          "text": "identical to molarity in all cases"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Grams per liter is a mass concentration (g/L), not molality. Molality uses moles (not grams) and kilograms of solvent (not liters of solution).",
+        "B": "Moles per liter of solution is the definition of molarity, not molality. Molarity is temperature-dependent because solution volume changes with temperature.",
+        "C": "Correct. Molality (m) = moles of solute / kg of solvent. Molarity (M) = moles of solute / L of solution. Molality is temperature-independent because mass does not change with temperature, while volume (and thus molarity) varies with thermal expansion/contraction. Colligative property equations (ΔTb, ΔTf) use molality for this reason. For dilute aqueous solutions, molality ≈ molarity because the density of water is ~1 kg/L.",
+        "D": "Molality and molarity have different definitions and units. They are approximately equal only for dilute aqueous solutions (where 1 L of solution ≈ 1 kg of solvent)."
+      },
+      "topic": "Molality vs Molarity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_soln_010",
+      "passage": null,
+      "stem": "A solution containing 0.1 M glucose (non-electrolyte) has a lower osmotic pressure than 0.1 M NaCl because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "glucose has a lower molecular weight than NaCl"
+        },
+        {
+          "label": "B",
+          "text": "glucose does not dissolve in water as well as NaCl"
+        },
+        {
+          "label": "C",
+          "text": "glucose does not dissociate into ions, so its effective particle concentration (0.1 Osmol/L) is half that of NaCl (0.2 Osmol/L) — osmotic pressure depends on total particle count, not molecular identity"
+        },
+        {
+          "label": "D",
+          "text": "glucose molecules are larger and exert less pressure"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Osmotic pressure is a colligative property — it depends only on the total number of dissolved particles. Glucose (C₆H₁₂O₆, non-electrolyte, i = 1) at 0.1 M gives 0.1 Osmol/L. NaCl (strong electrolyte, i ≈ 2) at 0.1 M gives ~0.2 Osmol/L. By π = iMRT, the NaCl solution has approximately twice the osmotic pressure. This is why 5% dextrose (glucose) and 0.9% NaCl can both be isotonic despite different molar concentrations — the dissociation of NaCl doubles its effective particle count.",
+        "A": "Molecular weight does not directly determine osmotic pressure. What matters is the number of particles per liter (osmolarity), not the mass of each particle.",
+        "B": "Both glucose and NaCl are highly soluble in water. Solubility is not the issue — the difference in osmotic pressure comes from NaCl's dissociation into two ions.",
+        "D": "Particle size does not determine osmotic pressure for ideal dilute solutions. Colligative properties are independent of solute identity — only particle count matters."
+      },
+      "topic": "Colligative Properties / Electrolyte vs Non-Electrolyte",
+      "difficulty": "Easy"
+    }
+  ]
+}

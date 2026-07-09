@@ -1,0 +1,179 @@
+{
+  "batch": "B006",
+  "section": "cars",
+  "topicArea": "Author Attitude",
+  "questionCount": 5,
+  "questions": [
+    {
+      "id": "cars_phil_011",
+      "stem": "The author’s attitude toward the Stoic philosophy of happiness is best characterized as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "entirely dismissive, viewing it as a tool of political oppression"
+        },
+        {
+          "label": "B",
+          "text": "uncritically admiring, endorsing its application in modern therapy"
+        },
+        {
+          "label": "C",
+          "text": "appreciative of its personal value while concerned about its political implications when institutionalized"
+        },
+        {
+          "label": "D",
+          "text": "neutral and detached, presenting arguments without personal evaluation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The author does not dismiss Stoicism entirely. The passage acknowledges its genuine philosophical content (the exercise of virtue, rational self-governance) and notes that ‘no serious Stoic philosopher’ made the politically quietist argument explicitly. The concern is about what happens when the philosophy migrates to institutional contexts, not about the philosophy’s inherent merit as a personal practice.",
+        "B": "The author raises explicit concerns about the application of Stoic principles in contemporary wellness culture (‘gratitude journals and meditation apps’) and cognitive-behavioral therapy. The word ‘troubling’ in the third paragraph signals critical engagement, and the passage identifies a structural risk in the therapeutic application. This is not uncritical admiration.",
+        "C": "Correct. The passage treats Stoicism with intellectual respect as a personal philosophy — the ‘citadel of the mind’ metaphor is presented without irony, and Marcus Aurelius is cited as someone who held inner discipline and justice together. However, the author identifies a structural risk: when radical internalism becomes institutional policy (‘institutional prescription’), it can function as ‘political quietism’ — an argument against changing unjust conditions. The concern is not with Stoicism as personal practice but with its instrumentalization as a substitute for social reform.",
+        "D": "The author is not neutral. Words like ‘troubling,’ ‘perversely,’ and ‘gravitational pull’ reveal evaluative engagement. The final question is framed with evident concern about whether inner freedom might ‘inadvertently legitimize’ unjust conditions. While the author is balanced, they are not detached."
+      },
+      "topic": "Author Attitude",
+      "difficulty": "Medium",
+      "usePrevPassage": false,
+      "passage": "The ancient Stoics held that the good life consists in the exercise of virtue in accordance with nature, and that external circumstances — wealth, health, reputation — are morally indifferent. A person enslaved, impoverished, or dying of disease could be as fully virtuous, and therefore as happy, as the wealthiest emperor. Happiness, on this account, is entirely internal: it consists in the rational governance of one’s desires and judgments, a citadel of the mind that no external force can breach.\n\nThis doctrine has resurfaced in contemporary psychology under the banner of resilience research and cognitive-behavioral therapy, which emphasize that subjective wellbeing depends more on how individuals interpret events than on the events themselves. The therapeutic injunction to “reframe” adversity — to find meaning in suffering, to adjust expectations, to cultivate gratitude regardless of circumstances — carries unmistakable Stoic resonances. Such practices can be genuinely liberating when they help a person distinguish between preventable misery and unavoidable pain. A patient awaiting a frightening diagnosis, or a student facing failure, may benefit from learning that judgment and circumstance are not identical.\n\nYet there is a troubling dimension to this inheritance. When the Stoic framework migrates from personal philosophy to institutional prescription, it risks becoming an instrument of political quietism. If happiness is entirely a matter of attitude, then unjust social arrangements need not be changed — only the attitudes of those who suffer under them. The enslaved person’s capacity for virtue becomes, perversely, an argument against abolition: why restructure society when individuals can restructure their minds? The same logic can appear in milder contemporary forms when workplaces offer mindfulness seminars instead of reducing impossible workloads, or when public agencies teach coping strategies while leaving environmental hazards untouched.\n\nNo serious Stoic philosopher made this argument explicitly. Marcus Aurelius, writing from the seat of imperial power, advocated justice alongside inner discipline. The best Stoic tradition recognizes that inner freedom does not absolve one from external obligations. But the logic of radical internalism exerts a gravitational pull in this direction, and contemporary wellness culture — with its emphasis on individual mindset, gratitude journals, and meditation apps — frequently completes the trajectory the ancient Stoics left unfinished. The question is whether a philosophy of inner freedom can be maintained without inadvertently legitimizing the external conditions from which that inner freedom was meant to provide refuge.\n\nThe ambiguity matters because the same sentence — control what you can control — can either console a sufferer or excuse a bystander. The moral weight of Stoicism depends on which use is being made of it."
+    },
+    {
+      "id": "cars_phil_012",
+      "stem": "The author suggests that contemporary wellness culture ‘completes the trajectory the ancient Stoics left unfinished.’ In context, this phrase implies that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "modern wellness practices have improved upon Stoic philosophy by adding scientific rigor"
+        },
+        {
+          "label": "B",
+          "text": "contemporary wellness culture has carried the Stoic emphasis on individual mindset to its logical but problematic political conclusion"
+        },
+        {
+          "label": "C",
+          "text": "the Stoics would have endorsed meditation apps and gratitude journals had they been available"
+        },
+        {
+          "label": "D",
+          "text": "ancient Stoic philosophy was incomplete because it lacked practical tools for emotional regulation"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The phrase is not a compliment. ‘Completing the trajectory’ refers to extending a logic to a conclusion the original thinkers did not reach — and the context makes clear this conclusion is problematic. The passage does not praise wellness culture for adding rigor but criticizes it for realizing a latent political implication.",
+        "B": "Correct. The ‘unfinished trajectory’ is the move from ‘happiness is internal’ (philosophical insight) to ‘therefore external conditions need not change’ (political quietism). The ancient Stoics — especially Marcus Aurelius — maintained a commitment to justice alongside inner discipline, stopping short of the politically quietist conclusion. Contemporary wellness culture, with its exclusive emphasis on individual mindset, gratitude, and meditation, drops the justice component and implicitly accepts (or ignores) the social structures within which individuals practice their resilience. It ‘completes’ the trajectory by arriving at the conclusion the Stoics resisted: that adjusting attitudes is sufficient, and social change is unnecessary.",
+        "C": "The author is not speculating about what the Stoics would have used. The phrase addresses the logical structure of ideas, not the historical preferences of ancient philosophers. Whether the Stoics would have liked meditation apps is irrelevant to the argument about political implications.",
+        "D": "The ‘unfinished’ trajectory is not about practical tools but about political implications. The passage does not suggest that Stoicism lacked emotional regulation techniques — the Stoics had sophisticated practices of self-examination and cognitive reappraisal. What they left ‘unfinished’ was the political conclusion that radical internalism implicitly supports."
+      },
+      "topic": "Interpretation of a Phrase",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_phil_013",
+      "stem": "A public health official argues that resilience training programs should be implemented in low-income communities to help residents cope with chronic stress from poverty and environmental hazards. Based on the passage, the author would most likely respond by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "fully supporting the program as a practical application of proven Stoic principles"
+        },
+        {
+          "label": "B",
+          "text": "rejecting the program entirely because resilience training has no psychological benefits"
+        },
+        {
+          "label": "C",
+          "text": "questioning whether the program might function as a substitute for addressing the structural causes of poverty and environmental hazards"
+        },
+        {
+          "label": "D",
+          "text": "arguing that only ancient Stoic texts, not modern adaptations, should be used in therapeutic settings"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage’s central concern is precisely about the institutional application of resilience-focused philosophy to populations living under unjust conditions. Full, uncritical support for the program would contradict the author’s argument that such applications risk becoming ‘instruments of political quietism’ that implicitly accept the structural conditions causing the suffering.",
+        "B": "The author does not deny the psychological benefits of resilience training or cognitive reframing. The passage acknowledges that these approaches have ‘Stoic resonances’ and that subjective wellbeing does depend partly on interpretation. The concern is not that the approach is psychologically worthless but that it may be politically problematic when used as the primary response to systemic injustice.",
+        "C": "Correct. This response directly applies the passage’s central argument. The author’s concern is that when radical internalism becomes institutional policy, it can substitute for structural change: ‘If happiness is entirely a matter of attitude, then unjust social arrangements need not be changed.’ A resilience training program in a community suffering from poverty and environmental hazards is precisely the scenario the author finds ‘troubling’ — it addresses the attitudes of those who suffer rather than the conditions that produce the suffering. The author would likely ask whether the program is being offered alongside efforts to address poverty and hazards, or instead of them.",
+        "D": "The passage does not express preference for ancient texts over modern adaptations. The critique applies to the logical structure of radical internalism regardless of its historical packaging. Whether the resilience training uses Marcus Aurelius or a smartphone app is irrelevant to the political concern the author raises."
+      },
+      "topic": "Reasoning Beyond the Text: Application",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_phil_014",
+      "stem": "The author’s reference to Marcus Aurelius primarily serves to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "demonstrate that Stoic philosophy is only valuable when practiced by those in positions of power"
+        },
+        {
+          "label": "B",
+          "text": "concede that the Stoic tradition itself maintained a commitment to justice that complicates a purely quietist reading"
+        },
+        {
+          "label": "C",
+          "text": "argue that political leaders should adopt Stoic philosophy as their governing framework"
+        },
+        {
+          "label": "D",
+          "text": "provide evidence that the Stoics explicitly endorsed using inner freedom to justify social inequality"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The reference to Marcus Aurelius’s imperial position is context, not a claim about who should practice Stoicism. The author is showing that even a Stoic with supreme political power maintained a commitment to justice — not that the philosophy is only for the powerful.",
+        "B": "Correct. Marcus Aurelius is introduced immediately after the author raises the ‘troubling’ possibility that Stoicism could serve as political quietism. By noting that Aurelius ‘advocated justice alongside inner discipline,’ the author concedes that the Stoic tradition was not monolithically quietist — its greatest practitioner-philosopher held justice and inner freedom together. This complicates a simple reading of Stoicism as inherently conservative. The concession strengthens the author’s argument by showing intellectual honesty: the problem is not with Stoicism as the Stoics practiced it, but with what happens when its internalist logic is extracted and institutionalized without the accompanying commitment to justice.",
+        "C": "The passage does not advocate for any political adoption of Stoic governance. Marcus Aurelius is cited as a historical example of balanced Stoicism, not as a model for contemporary political leadership.",
+        "D": "The author explicitly states the opposite: ‘No serious Stoic philosopher made this argument explicitly.’ Marcus Aurelius is cited as evidence that the Stoics resisted the quietist conclusion, not that they endorsed it."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_phil_015",
+      "stem": "Which of the following best captures the passage’s final question about ‘a philosophy of inner freedom’?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Can individuals achieve inner peace without withdrawing entirely from political engagement?"
+        },
+        {
+          "label": "B",
+          "text": "Can the value of psychological resilience be preserved without implicitly accepting that unjust external conditions are acceptable?"
+        },
+        {
+          "label": "C",
+          "text": "Should philosophy focus exclusively on internal experience rather than external reality?"
+        },
+        {
+          "label": "D",
+          "text": "Is the Stoic concept of virtue compatible with modern democratic values?"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This captures part of the tension but misses the specific concern. The passage is not about whether individuals should withdraw from politics but about whether the institutional promotion of inner-focused approaches inadvertently normalizes unjust conditions. The problem is systemic, not about individual political participation.",
+        "B": "Correct. The final sentence asks whether inner freedom can be ‘maintained without inadvertently legitimizing the external conditions from which that inner freedom was meant to provide refuge.’ The core tension is between two values: (1) the genuine psychological benefit of cultivating inner resilience and reframing adversity, and (2) the risk that emphasizing inner adjustment implicitly signals that external conditions are fixed, natural, or acceptable. The passage asks whether these two aspects can be separated — whether one can advocate for inner freedom as a complement to, rather than substitute for, structural change.",
+        "C": "This oversimplifies the passage’s question into a binary (internal vs. external) that the author explicitly rejects. The passage’s sophistication lies in arguing that both dimensions matter: inner freedom has genuine value, but it must not become a justification for external injustice. The question is about their interaction, not about choosing between them.",
+        "D": "While an interesting question, it is not the one the passage poses. The final question is specifically about the relationship between internal philosophical practice and external political conditions — not about the compatibility of Stoic virtue with democratic theory."
+      },
+      "topic": "Main Point of a Concluding Question",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    }
+  ],
+  "answerDistribution": {
+    "A": 0,
+    "B": 3,
+    "C": 2,
+    "D": 0
+  }
+}

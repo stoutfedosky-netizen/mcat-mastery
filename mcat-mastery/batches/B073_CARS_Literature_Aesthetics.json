@@ -1,0 +1,213 @@
+{
+  "batch": "B073",
+  "section": "cars",
+  "sectionName": "Critical Analysis and Reasoning Skills",
+  "topicArea": "Literature & Aesthetics",
+  "questionCount": 6,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_lit_001",
+      "passage": "The critic Harold Bloom argued that the history of Western poetry is shaped by what he called the anxiety of influence — the fear in every strong poet that the great predecessors have already said everything worth saying and said it better. The young poet reads Shakespeare or Milton and feels not only admiration but dread, because the predecessor's achievement seems to leave no room for genuine originality. To create work that is more than imitation, later poets must engage in what Bloom termed creative misprision, a deliberate swerving from the precursor's vision to open new imaginative territory. The swerving is not mere rebellion; it is a complex act of reinterpretation in which the later poet misreads the earlier one — not out of ignorance, but out of creative necessity — transforming the predecessor's meaning in order to clear a space for something new.\n\nBloom's framework draws explicitly on Freudian ideas of psychic defense. Just as the ego develops mechanisms such as repression, sublimation, and displacement to cope with threatening drives, the poetic self develops analogous strategies to cope with the overwhelming achievement of the past. The strong poet, in Bloom's account, does not simply admire predecessors; the strong poet struggles against them, and the struggle leaves visible marks on the resulting poetry. Influence, for Bloom, is never benign. It is a form of combat, and the poems that survive are those whose authors fought most fiercely.\n\nYet Bloom's account has drawn substantial and varied criticism. Feminist scholars argue that it reflects an exclusively male, agonistic model of creativity — one that privileges competition over dialogue, combat over collaboration, and individual genius over collective practice. The framework marginalizes literary traditions in which communal storytelling, call-and-response structures, and openly acknowledged intertextuality are central rather than aberrant. In many African American, Indigenous, and oral literary traditions, influence is not something to overcome but something to honor and extend. The poet who echoes a predecessor is not weakened by the echo; the echo is itself a form of creative contribution.\n\nPostcolonial critics add a further dimension. Bloom's canon is narrowly Eurocentric, treating a lineage of English Romantic poets — Wordsworth, Shelley, Keats — as the universal model for creative struggle. Traditions that operate outside this lineage are not merely excluded from Bloom's analysis; they are rendered invisible by its theoretical assumptions. A framework built on the anxiety of influence has difficulty accounting for literary cultures in which the relationship to the past is primarily one of gratitude, continuity, or communal inheritance rather than competitive displacement.\n\nDespite these objections, Bloom's core insight retains force: genuine originality rarely arises without some reckoning with what came before. Even poets who reject the competitive model must still define themselves in relation to the literary past, whether through opposition, extension, revision, or homage. The question the passage leaves open is whether that reckoning must take the form Bloom prescribes — antagonistic, solitary, oedipal — or whether other relational models of influence can produce equally powerful art. The answer may determine not only how we read poetry but whose poetry we consider worth reading at all.",
+      "stem": "The author's primary purpose in this passage is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "present Bloom's theory of the anxiety of influence, acknowledge major feminist and postcolonial objections, and suggest that its core insight may survive in revised form"
+        },
+        {
+          "label": "B",
+          "text": "reject Bloom's theory by arguing that influence is always collaborative rather than competitive"
+        },
+        {
+          "label": "C",
+          "text": "trace the Freudian origins of Bloom's theory without evaluating its literary or cultural implications"
+        },
+        {
+          "label": "D",
+          "text": "defend Bloom's framework as universally applicable despite objections from feminist and postcolonial critics"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage presents Bloom's theory, develops major critiques, and ends by preserving a modified version of the core insight that poets must reckon with predecessors.",
+        "B": "The author takes feminist and postcolonial critiques seriously, but does not reject Bloom entirely. The conclusion says his core insight still has force.",
+        "C": "Freudian influence is part of Bloom's framework, but the passage is not mainly a history of psychoanalytic origins. It evaluates the theory's scope and limitations.",
+        "D": "The author explicitly questions universal applicability by emphasizing traditions in which influence may be communal, dialogic, or continuous rather than agonistic."
+      },
+      "topic": "Author's Purpose / Main Idea",
+      "difficulty": "Easy",
+      "usePrevPassage": false
+    },
+    {
+      "id": "cars_lit_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to the passage, Bloom's concept of 'creative misprision' involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a deliberate misreading and transformation of the predecessor's work to carve out original imaginative space"
+        },
+        {
+          "label": "B",
+          "text": "faithfully imitating the predecessor's style and themes"
+        },
+        {
+          "label": "C",
+          "text": "publicly criticizing the predecessor's literary reputation"
+        },
+        {
+          "label": "D",
+          "text": "collaboratively building on the predecessor's foundation through acknowledged dialogue"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Faithful imitation is the opposite of misprision. Bloom's framework specifically requires deviation and transformation from the predecessor, not replication. A poet who merely imitates has succumbed to influence rather than overcoming it.",
+        "A": "Correct. The passage defines misprision as 'a deliberate swerving from the precursor's vision to open new imaginative territory.' This is not passive copying or transparent influence — it is an active, creative transformation in which the later poet reinterprets (misreads) the precursor in ways that generate genuinely new work. The term carries connotations of purposeful distortion in service of originality.",
+        "C": "Public criticism of reputation is a social act unrelated to the creative process Bloom describes. Misprision is an internal, imaginative strategy — the poet transforms the predecessor's work within their own creative practice, not through public commentary.",
+        "D": "Acknowledged collaborative dialogue is precisely what Bloom's critics argue is missing from his framework. The feminist critique highlighted in the passage objects that Bloom privileges competition over such collaborative models."
+      },
+      "topic": "Key Concept / Creative Misprision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_lit_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's concluding question — whether influence must take an 'antagonistic, solitary, oedipal' form or whether 'other relational models' can produce equally powerful art — suggests the author believes:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Bloom is completely correct and no modifications are needed"
+        },
+        {
+          "label": "B",
+          "text": "the question of how influence operates is genuinely open, and alternative models deserve serious consideration alongside Bloom's"
+        },
+        {
+          "label": "C",
+          "text": "only antagonistic models of influence can produce great art"
+        },
+        {
+          "label": "D",
+          "text": "the concept of literary influence is meaningless and should be discarded entirely"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The rhetorical question format does not merely ask — it implies that the issue is unresolved and multiple answers are possible. By framing the alternatives as 'equally powerful,' the author signals that collaborative and dialogic models of influence are legitimate contenders, not obviously inferior to Bloom's agonistic model. The question invites further inquiry rather than closing the debate, positioning the author as open-minded but not yet committed.",
+        "A": "If the author believed Bloom was completely correct, there would be no reason to pose the concluding question about alternative models. The question format itself implies doubt about Bloom's exclusivity.",
+        "C": "The author explicitly asks whether models other than antagonistic ones can produce 'equally powerful art' — implying that they might. Asserting that only antagonistic models work would contradict the open-ended framing.",
+        "D": "The author affirms that 'genuine originality rarely arises without some reckoning with what came before,' endorsing the concept of influence as real and important. The question is about the form of that reckoning, not its existence."
+      },
+      "topic": "Author's Implied View / Open Question",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_lit_006",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The postcolonial critique of Bloom, as described in the passage, focuses on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Bloom's use of Freudian psychology"
+        },
+        {
+          "label": "B",
+          "text": "Bloom's failure to include enough American poets in his canon"
+        },
+        {
+          "label": "C",
+          "text": "Bloom's excessive emphasis on collaborative literary traditions"
+        },
+        {
+          "label": "D",
+          "text": "the Eurocentrism of Bloom's framework, which treats a narrow lineage of English Romantic poets as the universal model for creative struggle"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "The passage says Bloom's framework lacks emphasis on collaboration — that is the feminist critique. The postcolonial critique focuses on cultural and geographic narrowness.",
+        "A": "The Freudian aspect is mentioned in describing Bloom's theory, not as the focus of postcolonial critique. Postcolonial criticism targets the canon's cultural narrowness, not its psychoanalytic framework.",
+        "B": "The critique is about Eurocentrism (privileging European literary tradition), not specifically about American poets. The issue is geographic-cultural scope, not national representation within the West.",
+        "D": "Correct. The passage states that 'Postcolonial critics add that Bloom's canon is Eurocentric, treating a narrow lineage of English Romantic poets as the universal model for creative struggle.' This critique targets the false universalization of a particular cultural tradition — assuming that the dynamics of English Romanticism describe how all creativity works everywhere. This ignores non-Western literary traditions with different models of influence, originality, and tradition."
+      },
+      "topic": "Postcolonial Critique / Eurocentrism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_lit_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most strengthen Bloom's theory against the feminist critique?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "evidence that many male Romantic poets wrote collaboratively with female peers"
+        },
+        {
+          "label": "B",
+          "text": "evidence that prominent women poets across diverse cultural traditions also describe their creative process as a struggle against powerful precursors — suggesting the anxiety of influence operates across gender"
+        },
+        {
+          "label": "C",
+          "text": "evidence that Bloom personally supported women's literary achievements"
+        },
+        {
+          "label": "D",
+          "text": "evidence that collaborative poetry is always inferior to individually authored poetry"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The feminist critique charges that Bloom's agonistic model is exclusively male. If evidence showed that women poets across cultures also experience creative anxiety toward predecessors and use strategies resembling Bloom's misprision, this would undermine the claim that the theory reflects only masculine creativity. It would suggest the anxiety of influence is a general creative dynamic, not a gendered one — directly addressing the critique's core objection.",
+        "A": "Evidence of male-female collaboration in the Romantic era would support the feminist critique (showing that the Romantic tradition itself was more collaborative than Bloom acknowledges), not strengthen Bloom's theory.",
+        "C": "Bloom's personal attitudes toward women writers are irrelevant to the theoretical critique. The objection is about the framework's conceptual structure, not Bloom's biography.",
+        "D": "Claiming collaborative poetry is always inferior would be a separate aesthetic judgment, not evidence for the universality of influence anxiety. It would also be extremely difficult to demonstrate empirically and would not address the theoretical objection."
+      },
+      "topic": "Strengthening an Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_lit_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage implies that 'intertextuality' — openly acknowledging connections between texts — is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a weakness that indicates a lack of originality"
+        },
+        {
+          "label": "B",
+          "text": "identical to Bloom's concept of creative misprision"
+        },
+        {
+          "label": "C",
+          "text": "an alternative to Bloom's agonistic model — one that embraces influence openly rather than treating it as a threat to be overcome"
+        },
+        {
+          "label": "D",
+          "text": "irrelevant to literary creation and analysis"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage mentions 'openly acknowledged intertextuality' among the literary practices marginalized by Bloom's framework. Unlike misprision (which involves deliberate misreading and anxious swerving from predecessors), intertextuality embraces connections between texts as generative rather than threatening. It represents a collaborative, dialogic relationship with tradition — precisely the alternative model that the feminist critique advocates and that the author's concluding question invites serious consideration of.",
+        "A": "The passage presents intertextuality positively, as part of traditions that are 'central' to certain literary cultures. It is not characterized as weakness but as an alternative creative paradigm that Bloom's framework marginalizes.",
+        "B": "Misprision involves deliberate misreading and transformation of the precursor; intertextuality involves open, acknowledged connections. These are fundamentally different relational modes — one anxious and evasive, the other transparent and embracing.",
+        "D": "The passage presents intertextuality as important to understanding literary creation — it is one of the collaborative models offered as an alternative to Bloom's agonistic framework. Far from irrelevant, it is central to the critique."
+      },
+      "topic": "Intertextuality vs Misprision",
+      "difficulty": "Medium"
+    }
+  ]
+}

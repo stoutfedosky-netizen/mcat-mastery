@@ -1,0 +1,338 @@
+{
+  "batch": "B087",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Kinematics & Forces",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_kinem_001",
+      "passage": "A physics student analyzes projectile motion and Newton's laws. She launches a ball horizontally from a 20 m cliff at 15 m/s. She assumes g = 10 m/s² and neglects air resistance. She also studies a 5 kg block on a frictionless inclined plane (30°) and a 10 kg object being pulled across a rough surface (μk = 0.3) by a 60 N horizontal force. She reviews free-body diagrams, F = ma, and the relationship between force, work, and energy.",
+      "stem": "The ball launched horizontally from the 20 m cliff hits the ground after:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2.0 s — found from h = ½gt²: 20 = ½(10)t², t² = 4, t = 2.0 s (horizontal velocity does not affect fall time)"
+        },
+        {
+          "label": "B",
+          "text": "1.0 s"
+        },
+        {
+          "label": "C",
+          "text": "4.0 s"
+        },
+        {
+          "label": "D",
+          "text": "the horizontal velocity must be known to find the time"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In projectile motion, horizontal and vertical motions are independent. Vertical: h = ½gt² (initial vertical velocity = 0 for horizontal launch). 20 = ½(10)t² → t² = 4 → t = 2.0 s. The horizontal velocity (15 m/s) determines horizontal range (x = vt = 15 × 2 = 30 m) but does not affect fall time. This independence of horizontal and vertical components is a fundamental principle of projectile motion in the absence of air resistance.",
+        "B": "1.0 s gives h = ½(10)(1)² = 5 m, not 20 m. The ball has not fallen far enough.",
+        "C": "4.0 s gives h = ½(10)(16) = 80 m, much more than the 20 m cliff height.",
+        "D": "Horizontal velocity is irrelevant to fall time in the absence of air resistance. Vertical acceleration (g) and vertical distance (h) are the only factors determining how long the ball takes to fall."
+      },
+      "topic": "Projectile Motion / Fall Time",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_kinem_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The horizontal range of the ball is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "20 m"
+        },
+        {
+          "label": "B",
+          "text": "30 m — found from x = v_horizontal × t = 15 m/s × 2.0 s = 30 m"
+        },
+        {
+          "label": "C",
+          "text": "15 m"
+        },
+        {
+          "label": "D",
+          "text": "40 m"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Horizontal motion is uniform (no horizontal acceleration without air resistance): x = v₀ₓ × t = 15 m/s × 2.0 s = 30 m. The ball travels 30 m horizontally while falling 20 m vertically. The actual trajectory is a parabola, and the speed at impact is the vector sum of horizontal and vertical components: v_y = gt = 10 × 2 = 20 m/s; v = √(15² + 20²) = √(225 + 400) = √625 = 25 m/s.",
+        "A": "20 m is the vertical distance (cliff height), not the horizontal range.",
+        "C": "15 m/s is the horizontal velocity, not the range. Range requires multiplying velocity by time.",
+        "D": "40 m would require t = 40/15 = 2.67 s, which does not match the 2.0 s fall time from the 20 m cliff."
+      },
+      "topic": "Projectile Range / Horizontal Motion",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_kinem_003",
+      "passage": null,
+      "stem": "Newton's second law (F = ma) applied to the 5 kg block on a frictionless 30° incline predicts an acceleration of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5.0 m/s² — the component of gravity along the incline is mg sin θ = 5(10)(sin 30°) = 25 N, giving a = F/m = 25/5 = 5.0 m/s²"
+        },
+        {
+          "label": "B",
+          "text": "0 m/s² (the block does not accelerate on an incline)"
+        },
+        {
+          "label": "C",
+          "text": "10 m/s² (full gravitational acceleration)"
+        },
+        {
+          "label": "D",
+          "text": "8.66 m/s²"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "C": "10 m/s² (g) would be the acceleration in free fall or on a vertical surface (θ = 90°). On a 30° incline, only the component along the surface (g sin 30° = 5 m/s²) accelerates the block.",
+        "A": "Correct. On a frictionless incline, the net force along the plane is the gravitational component parallel to the surface: F_parallel = mg sin θ = 5(10)(0.5) = 25 N. By Newton's second law: a = F/m = 25/5 = 5.0 m/s² down the incline. The normal force (N = mg cos θ = 5(10)(0.866) = 43.3 N) is perpendicular to motion and does no work. At θ = 0° (flat), a = 0; at θ = 90° (vertical), a = g. sin 30° = 0.5, giving exactly half of g.",
+        "B": "On a frictionless incline, the block accelerates. Only on a flat frictionless surface (θ = 0°, no applied force) would acceleration be zero.",
+        "D": "8.66 m/s² ≈ g cos 30°, which is the component perpendicular to the incline, not parallel. The parallel component (g sin θ) determines acceleration down the slope."
+      },
+      "topic": "Inclined Plane / mg sin θ",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_kinem_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "For the 10 kg object pulled by a 60 N horizontal force across a surface with μk = 0.3, the friction force is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "60 N (equal to the applied force)"
+        },
+        {
+          "label": "B",
+          "text": "100 N (equal to the object's weight)"
+        },
+        {
+          "label": "C",
+          "text": "30 N — calculated from fk = μk × N = 0.3 × mg = 0.3 × 100 = 30 N"
+        },
+        {
+          "label": "D",
+          "text": "6 N"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Kinetic friction: fk = μk × N. On a flat surface with only horizontal applied force, the normal force equals the weight: N = mg = 10 × 10 = 100 N. fk = 0.3 × 100 = 30 N, opposing the direction of motion. Net force = 60 - 30 = 30 N forward. Acceleration: a = F_net/m = 30/10 = 3.0 m/s². Friction always opposes relative motion and converts kinetic energy to thermal energy.",
+        "A": "If friction equaled the applied force, the net force would be zero and the object would move at constant velocity (not accelerating). Here fk = 30 N < 60 N, so there is a net forward force.",
+        "B": "100 N is the weight (mg) and the normal force, not the friction force. Friction is the product of μk and the normal force, not the normal force itself.",
+        "D": "6 N would result from μk × F_applied (0.3 × 20 = 6), which is an incorrect calculation. Friction depends on the normal force (related to weight), not on the applied force."
+      },
+      "topic": "Kinetic Friction / fk = μkN",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_kinem_005",
+      "passage": null,
+      "stem": "Newton's third law states that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an object at rest stays at rest unless acted upon by a net external force"
+        },
+        {
+          "label": "B",
+          "text": "F = ma (force equals mass times acceleration)"
+        },
+        {
+          "label": "C",
+          "text": "for every action force, there is an equal and opposite reaction force acting on a different object — the two forces are always equal in magnitude, opposite in direction, and act on different bodies"
+        },
+        {
+          "label": "D",
+          "text": "the net force on an object determines its position, not its acceleration"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Newton's third law: if object A exerts a force on object B, then B exerts an equal and opposite force on A. The forces act on different objects (never on the same body), are always equal in magnitude, opposite in direction, and of the same type (gravitational-gravitational, contact-contact). Example: when you push a wall (action), the wall pushes back on you (reaction). The Earth pulls you down (gravity), and you pull the Earth up with equal force. Third-law pairs never cancel because they act on different objects.",
+        "A": "This describes Newton's first law (law of inertia), not the third law.",
+        "B": "This describes Newton's second law, not the third law.",
+        "D": "Newton's second law states that net force determines acceleration (F = ma), not position. Position is determined by integrating velocity over time."
+      },
+      "topic": "Newton's Third Law / Action-Reaction",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_kinem_006",
+      "passage": null,
+      "stem": "A car accelerates uniformly from rest to 30 m/s in 6 seconds. Its acceleration is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "180 m/s²"
+        },
+        {
+          "label": "B",
+          "text": "0.2 m/s²"
+        },
+        {
+          "label": "C",
+          "text": "36 m/s²"
+        },
+        {
+          "label": "D",
+          "text": "5 m/s², from a = Δv/Δt = (30 - 0)/6 = 5 m/s²"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Acceleration is the rate of change of velocity: a = Δv/Δt = (v_f - v_i)/t = (30 - 0)/6 = 5 m/s². The car gains 5 m/s of velocity every second. Distance traveled during this acceleration: d = v_i t + ½at² = 0 + ½(5)(36) = 90 m. Average velocity = (0 + 30)/2 = 15 m/s; d = v_avg × t = 15 × 6 = 90 m (same answer, confirming uniform acceleration).",
+        "A": "180 results from multiplying v × t (30 × 6), which gives a dimensionally incorrect quantity (m·s/s = m, not m/s²). Acceleration is v/t, not vt.",
+        "B": "0.2 m/s² results from dividing t by v (6/30), the inverse of the correct calculation.",
+        "C": "36 m/s² does not correspond to any correct operation with the given values."
+      },
+      "topic": "Uniform Acceleration / a = Δv/Δt",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_kinem_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The student drops the ball vertically from the 20 m cliff. Ignoring air resistance, the speed just before hitting the ground is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "200 m/s"
+        },
+        {
+          "label": "B",
+          "text": "10 m/s"
+        },
+        {
+          "label": "C",
+          "text": "20 m/s — from v² = v₀² + 2gh = 0 + 2(10)(20) = 400, so v = 20 m/s"
+        },
+        {
+          "label": "D",
+          "text": "40 m/s"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Using v² = v₀² + 2gh (kinematics equation without time): v² = 0 + 2(10)(20) = 400 → v = 20 m/s. Alternatively, using the 2.0 s fall time: v = v₀ + gt = 0 + 10(2) = 20 m/s. Both approaches give the same answer. The kinetic energy at impact: KE = ½mv² = ½m(400) = 200m J, which equals the initial potential energy PE = mgh = m(10)(20) = 200m J — confirming energy conservation.",
+        "A": "200 m/s is far too fast. v² = 400, so v = 20, not 200.",
+        "B": "10 m/s is the velocity after 1 second of free fall (v = gt = 10 × 1 = 10), not after falling 20 m.",
+        "D": "40 m/s would require falling 80 m (v² = 2(10)(80) = 1600, v = 40), not 20 m."
+      },
+      "topic": "Free Fall / Final Velocity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_kinem_008",
+      "passage": null,
+      "stem": "Weight and mass differ in that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "weight and mass are the same quantity measured in kilograms"
+        },
+        {
+          "label": "B",
+          "text": "mass is a measure of inertia (kg) and is constant everywhere, while weight is the gravitational force (W = mg, in newtons) and varies with gravitational field strength"
+        },
+        {
+          "label": "C",
+          "text": "mass varies with location while weight stays constant"
+        },
+        {
+          "label": "D",
+          "text": "weight is measured in kilograms and mass in newtons"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Mass (scalar, kg) is an intrinsic property measuring resistance to acceleration (inertia) and is independent of location. Weight (vector, N) is the gravitational force: W = mg, where g varies by location. A 70 kg person has the same mass everywhere but weighs 686 N on Earth (g = 9.8 m/s²), 113 N on the Moon (g = 1.6 m/s²), and 0 N in orbit (apparent weightlessness, though gravitational mass is unchanged). This distinction is critical for MCAT physics problems.",
+        "A": "Weight and mass are fundamentally different quantities with different units (N vs kg). Confusing them is a common error. A bathroom scale measures weight (force), not mass directly.",
+        "C": "This is reversed. Mass is constant; weight varies with the gravitational field.",
+        "D": "This is reversed. Mass is in kilograms, weight is in newtons (kg·m/s²)."
+      },
+      "topic": "Mass vs Weight / Gravitational Force",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_kinem_009",
+      "passage": null,
+      "stem": "Ignoring air resistance, an object in free fall near Earth's surface has zero acceleration when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it reaches its maximum height during upward motion — at the peak, velocity is momentarily zero, but acceleration remains g downward"
+        },
+        {
+          "label": "B",
+          "text": "it is at the highest point"
+        },
+        {
+          "label": "C",
+          "text": "it hits the ground"
+        },
+        {
+          "label": "D",
+          "text": "this never happens — acceleration is always g = 9.8 m/s² downward throughout free fall, regardless of the object's velocity or position"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "When the object hits the ground, free fall ends. During the collision, forces other than gravity act (normal force from the ground), so it is no longer in free fall.",
+        "A": "This choice correctly states that velocity is zero at the peak, but incorrectly implies the question's premise is wrong. The answer is C because acceleration in free fall is never zero, including at the maximum height. Choice A's description is factually correct but does not answer the question as asked.",
+        "B": "At the highest point, velocity is zero but acceleration is still g downward. Zero velocity does not mean zero acceleration.",
+        "D": "Correct. In free fall (no air resistance), the only force is gravity, so acceleration is constant at g = 9.8 m/s² downward throughout the entire trajectory — on the way up, at the peak, and on the way down. A common misconception is that acceleration is zero at the peak because velocity is zero there. Velocity and acceleration are independent: at the peak, v = 0 but a = -g. If acceleration were zero at the peak, there would be no force to bring the object back down. The sign of g is always the same (toward Earth)."
+      },
+      "topic": "Free Fall Acceleration / Common Misconception",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_kinem_010",
+      "passage": null,
+      "stem": "The net force on the 10 kg object (60 N applied horizontally, fk = 30 N opposing) gives an acceleration of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 m/s², from a = F_net/m = (60 - 30)/10 = 30/10 = 3 m/s²"
+        },
+        {
+          "label": "B",
+          "text": "9 m/s²"
+        },
+        {
+          "label": "C",
+          "text": "6 m/s²"
+        },
+        {
+          "label": "D",
+          "text": "0 m/s² (the object does not move because friction is present)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "C": "6 m/s² results from dividing the applied force by mass (60/10) without subtracting friction. Net force must account for all forces, including friction.",
+        "A": "Correct. Net force = applied force - friction = 60 - 30 = 30 N forward. By Newton's second law: a = F_net/m = 30/10 = 3.0 m/s² in the direction of the applied force. The object accelerates because the applied force exceeds the kinetic friction force. If the applied force were exactly 30 N, the object would move at constant velocity (a = 0). If less than 30 N, the object would decelerate.",
+        "B": "9 m/s² does not correspond to any correct calculation with the given values.",
+        "D": "Friction opposes motion but does not prevent it when the applied force exceeds the friction force. The object moves and accelerates at 3 m/s². If it were at rest and static friction exceeded 60 N, then it would not move — but the problem states kinetic friction (already moving)."
+      },
+      "topic": "Net Force / F = ma Application",
+      "difficulty": "Easy"
+    }
+  ]
+}

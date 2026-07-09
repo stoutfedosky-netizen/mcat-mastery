@@ -1,0 +1,246 @@
+{
+  "batch": "B083",
+  "section": "cars",
+  "sectionName": "Critical Analysis and Reasoning Skills",
+  "topicArea": "Social Sciences",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 1,
+    "B": 2,
+    "C": 3,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_soc_001",
+      "passage": "The sociologist Erving Goffman proposed that social life is essentially theatrical. In his dramaturgical framework, individuals are actors who perform roles for audiences, managing impressions through careful control of their front-stage behavior. The front stage is the public self that others are meant to see — polished, appropriate, calibrated to context. The surgeon in the waiting room projects calm authority and reassurance because the role requires it, because the audience of anxious families expects it, and because the social order of the hospital depends on it. The backstage, by contrast, is where the performance drops. In the break room, the same surgeon may vent frustration, express doubt about a diagnosis, or complain about a colleague. The shift between stages is not hypocrisy; it is, in Goffman's view, the normal mechanism by which social life is organized and sustained.\n\nGoffman argued that these performances are not dishonest in the ordinary sense of the word. An actor playing Hamlet is not lying when he says he sees a ghost. Similarly, a surgeon performing confidence in the waiting room is not deceiving the family; the surgeon is fulfilling a social role whose requirements are mutually understood, even if never explicitly discussed. Without such performances, Goffman contended, interactions would become chaotic and unpredictable. Every encounter would require renegotiating expectations from scratch, and the trust that lubricates institutional life — trust in the surgeon, the teacher, the judge — would collapse.\n\nHis critics, however, charge that the dramaturgical metaphor reduces human beings to cynical manipulators, stripping away the possibility of authentic selfhood. If every interaction is a performance, and if every self-presentation is strategically managed, then where does the real person reside? Is there a self behind all the masks, or is the person nothing more than the sum of performances staged for successive audiences? The charge is that Goffman's framework, taken to its logical conclusion, leaves no room for sincerity, spontaneity, or genuine human connection.\n\nPost-structuralist thinkers take this critique further, but in an unexpected direction. Rather than lamenting the absence of an essential self, they suggest that there is no essential self to lament. Identity, on this view, is constituted by the performances themselves. The surgeon does not perform confidence because she possesses an underlying confident self; she becomes confident through the repeated performance of confidence. The self is not an actor who wears masks; the self is the history of the masks it has worn.\n\nThe pragmatist tradition offers a middle path between the essentialist critics and the post-structuralists. The self, pragmatists argue, is neither a fixed essence that performances conceal nor an empty stage on which performances occur. It is an ongoing project, constructed through social interaction but not reducible to any single performance. On this view, performing the role of a competent surgeon is not pretense but a genuine form of becoming — the performance and the self are mutually constitutive, each shaping the other over time. The surgeon who performs competence daily does not merely appear competent; she develops competence through the discipline the performance demands. Identity, in the pragmatist account, is real precisely because it is made, not because it was given.",
+      "stem": "Goffman's dramaturgical framework uses the metaphor of theater to argue that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "social interactions involve impression management, as individuals perform roles for audiences and separate front-stage from backstage behavior to sustain social order"
+        },
+        {
+          "label": "B",
+          "text": "public roles are merely false selves that prevent sincerity from appearing in social life"
+        },
+        {
+          "label": "C",
+          "text": "backstage settings reveal the only authentic self, while front-stage behavior should be dismissed as deception"
+        },
+        {
+          "label": "D",
+          "text": "institutional roles determine behavior so completely that individuals have little agency in shaping impressions"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage describes Goffman's theatrical metaphor as a theory of role performance and impression management that helps organize social interaction.",
+        "B": "This resembles a critic's worry, not Goffman's claim. The passage says Goffman did not treat performance as ordinary dishonesty.",
+        "C": "Goffman distinguishes front stage and backstage behavior, but the passage does not say backstage conduct is the only real self or that front-stage behavior should be rejected.",
+        "D": "The passage emphasizes social roles and audience expectations, but also describes active impression management rather than total institutional determination."
+      },
+      "topic": "Goffman / Dramaturgical Framework",
+      "difficulty": "Easy",
+      "usePrevPassage": false
+    },
+    {
+      "id": "cars_soc_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The critics' objection that Goffman's framework 'reduces human beings to cynical manipulators' is based on the concern that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Goffman overemphasizes biological instincts in social behavior"
+        },
+        {
+          "label": "B",
+          "text": "the dramaturgical metaphor is too limited to describe theatrical performances but works well for everyday life"
+        },
+        {
+          "label": "C",
+          "text": "Goffman's theory is too sympathetic to authentic selfhood and ignores social pressures"
+        },
+        {
+          "label": "D",
+          "text": "if all interaction is performance, there is no space for genuine feeling, authentic connection, or a stable self — impression management becomes synonymous with deception"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "The objection is not about the metaphor's applicability to theater vs. everyday life. The concern is about what the metaphor implies for human authenticity — that framing all interaction as performance eliminates the space for a genuine self.",
+        "A": "The passage does not mention biological instincts in connection with the critics' objection. Their concern is philosophical — about authenticity and selfhood — not biological.",
+        "C": "The critics argue the opposite: Goffman gives too little space to authentic selfhood, not too much. They worry that his performance metaphor crowds out the possibility of genuine, unperformed identity.",
+        "D": "Correct. The critics' worry is existential: if every interaction is a managed performance, then authenticity becomes impossible. The passage states they charge that the metaphor 'strips away the possibility of authentic selfhood' and asks 'if every interaction is a performance, where does the real person reside?' The concern is that Goffman's framework, taken to its logical conclusion, implies that people are strategic actors without a genuine core — cynical manipulators rather than authentic agents."
+      },
+      "topic": "Critique of Dramaturgical Theory / Authenticity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_soc_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The post-structuralist position described in the passage goes further than Goffman's critics by arguing that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "there is an essential self behind performances that social roles merely conceal or distort"
+        },
+        {
+          "label": "B",
+          "text": "Goffman's framework is already complete and requires no philosophical extension"
+        },
+        {
+          "label": "C",
+          "text": "there is no essential self behind the performance; identity is constituted by repeated performances themselves"
+        },
+        {
+          "label": "D",
+          "text": "identity is formed primarily through private introspection rather than social performance"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This is closer to the essentialist worry raised by Goffman's critics, not the post-structuralist extension.",
+        "B": "The post-structuralist position does not simply endorse Goffman unchanged; it radicalizes the point by denying an essential self behind performance.",
+        "C": "Correct. The passage states that identity is constituted by the performances themselves and that the self is the history of masks it has worn.",
+        "D": "The post-structuralist view described in the passage emphasizes performance and social constitution, not private introspection as identity's primary source."
+      },
+      "topic": "Post-Structuralism / Identity as Performance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_soc_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The pragmatist 'middle path' described in the passage proposes that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the self is a fixed, unchanging essence that exists prior to any social interaction"
+        },
+        {
+          "label": "B",
+          "text": "social interaction has no effect on identity formation"
+        },
+        {
+          "label": "C",
+          "text": "the self is neither fixed essence nor empty performance, but an ongoing project constructed through social interaction — performing a role is a genuine form of becoming"
+        },
+        {
+          "label": "D",
+          "text": "all philosophical positions on selfhood are equally wrong and irreconcilable"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The pragmatist position mediates between essentialism (a fixed self behind performances) and post-structuralist anti-essentialism (no self at all). The passage states: 'the self is neither fixed essence nor empty performance, but an ongoing project constructed through social interaction.' The surgeon example illustrates this: performing competence is not pretense but 'a genuine form of becoming — the performance and the self are mutually constitutive.' The self emerges through social practice, not prior to it.",
+        "A": "The pragmatist position explicitly rejects a 'fixed essence.' The self is an 'ongoing project,' not a pre-existing entity. This distinguishes pragmatism from essentialist positions.",
+        "B": "The pragmatist position holds that social interaction is constitutive of the self — the self is constructed through interaction, not independent of it.",
+        "D": "The passage presents pragmatism as a coherent 'middle path' that synthesizes insights from the other positions, not as a claim that all positions are wrong. It offers a positive alternative, not mere skepticism."
+      },
+      "topic": "Pragmatism / Self as Ongoing Project",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_soc_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage presents three distinct positions on the self. The relationship between these positions is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "all three are identical with no meaningful differences"
+        },
+        {
+          "label": "B",
+          "text": "a dialectical progression — Goffman's framework prompts the critics' essentialist objection, which prompts the post-structuralist dissolution of essence, which the pragmatist synthesis attempts to transcend by redefining the self as an ongoing social project"
+        },
+        {
+          "label": "C",
+          "text": "only the post-structuralist position has any validity"
+        },
+        {
+          "label": "D",
+          "text": "the pragmatist position is presented as obviously wrong while the others are endorsed"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The passage moves through a sequence of positions: (1) Goffman: social life is performance (front/back stage); (2) Critics: performances threaten authentic selfhood (implying a 'real' self behind the mask); (3) Post-structuralists: there is no self behind the mask (identity is performance all the way down); (4) Pragmatists: the self is neither fixed essence nor empty performance but an ongoing project. This dialectical structure — thesis, antithesis, and synthesis — organizes the passage's intellectual argument.",
+        "A": "The three positions are distinctly different: the critics assume an essential self, the post-structuralists deny it, and the pragmatists redefine it as a process. These are incompatible views on a fundamental question.",
+        "C": "The passage does not endorse any single position as solely valid. It presents each position's logic and concludes with pragmatism as a 'middle path' — suggesting balanced consideration, not exclusive validation.",
+        "D": "The pragmatist position is presented sympathetically as a 'middle path' and given the concluding position in the passage — typically a position of rhetorical strength. It is not presented as wrong."
+      },
+      "topic": "Passage Structure / Dialectical Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_soc_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following would most weaken the pragmatist position described in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "evidence that people adapt their behavior to different social contexts"
+        },
+        {
+          "label": "B",
+          "text": "evidence that core personality traits remain completely stable across all contexts and are entirely genetically determined, with social interaction having no effect on identity formation"
+        },
+        {
+          "label": "C",
+          "text": "evidence that social roles influence how people see themselves"
+        },
+        {
+          "label": "D",
+          "text": "evidence that different cultures have different social norms"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The pragmatist position holds that the self is 'an ongoing project constructed through social interaction.' If evidence showed that core identity is entirely fixed by genetics and completely unaffected by social performance or interaction, this would undermine the pragmatist claim that performing roles genuinely shapes who you are. The 'mutual constitution' of self and performance requires that interaction actually changes the self — pure genetic determinism would eliminate this possibility.",
+        "A": "Behavioral adaptation across contexts supports Goffman's front/backstage distinction and is consistent with the pragmatist view that social interaction shapes the self. It would strengthen, not weaken, the position.",
+        "C": "Social roles influencing self-perception is exactly what the pragmatist position predicts — performing a role changes who you are. This evidence would support the theory.",
+        "D": "Cross-cultural variation in social norms is consistent with the pragmatist view that identity is socially constructed. Different cultures would produce different selves through different social interactions."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_soc_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's overall tone toward the positions discussed in the passage is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "hostile toward all positions equally"
+        },
+        {
+          "label": "B",
+          "text": "uncritically supportive of Goffman with no acknowledgment of alternative views"
+        },
+        {
+          "label": "C",
+          "text": "analytically engaged — presenting each position fairly while subtly favoring the pragmatist synthesis as the most balanced resolution"
+        },
+        {
+          "label": "D",
+          "text": "indifferent and disinterested in the topic"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The author presents Goffman's theory clearly, acknowledges the critics' legitimate concern about authenticity, describes the post-structuralist radicalization without dismissing it, and concludes with the pragmatist 'middle path' — giving it the structurally privileged final position and the most constructive framing ('genuine form of becoming'). This suggests analytical engagement with all views and subtle preference for the pragmatist synthesis. The tone is scholarly and fair-minded throughout.",
+        "A": "The author is not hostile toward any position. Each is presented with its internal logic intact. Even the critics' objection is described as a serious philosophical concern, not dismissed.",
+        "B": "The author explicitly presents criticisms of Goffman and alternative theoretical positions. This is not uncritical support — it is balanced analysis.",
+        "D": "The careful, structured argument and the concluding philosophical synthesis demonstrate active engagement with the material, not indifference."
+      },
+      "topic": "Author's Tone / Analytical Engagement",
+      "difficulty": "Medium"
+    }
+  ]
+}

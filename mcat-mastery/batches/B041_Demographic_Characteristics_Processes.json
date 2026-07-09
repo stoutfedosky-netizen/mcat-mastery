@@ -1,0 +1,343 @@
+{
+  "batch": "B041",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Demographic Characteristics & Processes",
+  "questionCount": 10,
+  "answerDistribution": {
+    "B": 2,
+    "D": 2,
+    "A": 3,
+    "C": 3
+  },
+  "questions": [
+    {
+      "id": "ps_demo_001",
+      "passage": "Researchers examined demographic change in the middle-income nation of Bellara. National census and health-surveillance data yielded the following estimates:\n\nYear | Crude birth rate (per 1,000) | Crude death rate (per 1,000) | Total fertility rate | Urban population | Population under 15 | Population 65+\n1960 | 42 | 18 | 6.1 | 24% | 44% | 4%\n1990 | 30 | 8 | 4.0 | 45% | 36% | 7%\n2025 | 14 | 7 | 1.9 | 72% | 19% | 18%\n\nDuring the same period, vaccination, sanitation, and access to antibiotics expanded before widespread access to reliable contraception. By 2025, cardiovascular disease and cancer accounted for more deaths than acute infection. Investigators cautioned that crude rates are affected by the population's age structure and therefore should not be interpreted as age-adjusted risks. The government is considering policies addressing both an aging population and continued migration into cities.",
+      "stem": "Which demographic-transition stage best describes Bellara in 1960, when mortality had begun to fall but fertility remained high?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Stage 1, with high fluctuating birth and death rates"
+        },
+        {
+          "label": "B",
+          "text": "Stage 2, with declining death rates and persistently high birth rates"
+        },
+        {
+          "label": "C",
+          "text": "Stage 3, with rapidly declining fertility approaching mortality"
+        },
+        {
+          "label": "D",
+          "text": "Stage 4, with low birth and death rates"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Stage 1 features both high birth rates and high death rates that roughly balance, producing slow or zero population growth. Bellara's 1960 crude death rate (18/1000) is already well below the birth rate (42/1000), indicating mortality has begun to fall. This declining mortality with still-high fertility places Bellara in Stage 2, not Stage 1.",
+        "B": "Correct. Bellara's 1960 data shows a crude birth rate of 42/1000 with a crude death rate of 18/1000. The death rate has already declined substantially (the passage notes expanded vaccination, sanitation, and antibiotics), while the birth rate remains very high (TFR 6.1). This pattern \u2014 declining mortality with persistently high fertility \u2014 is the hallmark of Stage 2 of the demographic transition, producing rapid population growth (natural increase \u2248 24/1000).",
+        "C": "Stage 3 features declining birth rates as urbanization, education, and contraceptive access reduce fertility. Bellara's 1960 birth rate (42/1000) and TFR (6.1) are still very high \u2014 the passage notes that contraception was not yet widely available. Stage 3 would show birth rates declining toward the death rate.",
+        "D": "Stage 4 features both low birth and low death rates with slow or zero population growth. Bellara's 1960 profile (CBR 42, CDR 18, TFR 6.1) shows neither low births nor the convergence of rates characteristic of Stage 4. The 2025 data (CBR 14, CDR 7) more closely resembles Stage 4."
+      },
+      "topic": "Demographic Transition / Stage 2",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_demo_002",
+      "passage": null,
+      "stem": "Bellara's 2025 pattern is most consistent with which demographic condition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "High stationary equilibrium with minimal population aging"
+        },
+        {
+          "label": "B",
+          "text": "Early industrial growth caused by a sharply declining death rate"
+        },
+        {
+          "label": "C",
+          "text": "Population growth driven by a total fertility rate above six"
+        },
+        {
+          "label": "D",
+          "text": "Low fertility and mortality accompanied by substantial population aging"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "High stationary equilibrium describes Stage 1 \u2014 high births and high deaths roughly balanced with minimal growth and a young population. Bellara's 2025 profile shows the opposite: low fertility (TFR 1.9), low mortality (CDR 7), 18% of the population over 65, and substantial aging. This is not a high-equilibrium state.",
+        "B": "Early industrial growth with a sharply declining death rate describes Stage 2 \u2014 which characterized Bellara in 1960, not 2025. By 2025, the death rate is already low (7/1000) and has been for decades. The growth phase driven by mortality decline is long past.",
+        "C": "A TFR above six characterized Bellara in 1960 (TFR 6.1). By 2025, the TFR has fallen to 1.9 \u2014 below replacement level (2.1). Population growth driven by extremely high fertility does not describe the 2025 situation.",
+        "D": "Correct. Bellara's 2025 data shows low fertility (CBR 14, TFR 1.9), low mortality (CDR 7), and 18% of the population over 65 \u2014 up from 4% in 1960. This profile represents late Stage 4 or Stage 5 of the demographic transition, characterized by population aging as fertility drops below replacement and life expectancy continues to increase."
+      },
+      "topic": "Demographic Transition / Population Aging",
+      "difficulty": "Medium",
+      "passageRef": "ps_demo_001"
+    },
+    {
+      "id": "ps_demo_003",
+      "passage": null,
+      "stem": "Using the crude rates in the passage, Bellara's natural increase in 1960 was approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "24 additional people per 1,000 population per year"
+        },
+        {
+          "label": "B",
+          "text": "60 additional people per 1,000 population per year"
+        },
+        {
+          "label": "C",
+          "text": "2.3 additional people per 1,000 population per year"
+        },
+        {
+          "label": "D",
+          "text": "18 fewer people per 1,000 population per year"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Natural increase = crude birth rate \u2212 crude death rate = 42 \u2212 18 = 24 per 1,000 per year. At this rate, the population grows by approximately 2.4% per year, doubling roughly every 29 years (rule of 70: 70/2.4 \u2248 29). This high natural increase is characteristic of Stage 2, where mortality has declined but fertility remains high. Note that natural increase does not account for migration.",
+        "B": "60 per 1,000 would equal the sum of the birth and death rates (42 + 18), which has no demographic meaning. Natural increase is calculated by subtraction (births minus deaths), not addition.",
+        "C": "2.3 per 1,000 is far too low. This might result from confusing the rate (24 per 1,000) with a percentage and then dividing incorrectly. The natural increase is 24/1000 = 2.4%, not 2.3 per 1,000.",
+        "D": "18 fewer people per 1,000 is the crude death rate itself, and the negative sign would imply population decline. The population is growing because births (42) exceed deaths (18). The natural increase is positive: +24 per 1,000."
+      },
+      "topic": "Population Growth / Natural Increase",
+      "difficulty": "Medium",
+      "passageRef": "ps_demo_001"
+    },
+    {
+      "id": "ps_demo_004",
+      "passage": null,
+      "stem": "Which policy concern follows most directly from the change in Bellara's age structure between 1960 and 2025?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A permanent elimination of chronic disease"
+        },
+        {
+          "label": "B",
+          "text": "A reduced need for retirement financing"
+        },
+        {
+          "label": "C",
+          "text": "A rising old-age dependency burden on the working-age population"
+        },
+        {
+          "label": "D",
+          "text": "An inevitable return to high infant mortality"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage describes a shift from infectious to chronic disease (epidemiologic transition), not the elimination of chronic disease. Cardiovascular disease and cancer account for more deaths than infection by 2025 \u2014 chronic diseases are increasing, not disappearing.",
+        "B": "An aging population with 18% over 65 (up from 4% in 1960) creates greater need for retirement financing, not less. More elderly dependents relative to working-age adults increases the economic burden on pension systems and healthcare budgets.",
+        "C": "Correct. As the proportion of elderly dependents grows (4% \u2192 18%) while fertility falls below replacement (TFR 1.9), the old-age dependency ratio increases. A shrinking working-age population must support a growing retired population, straining pension systems, healthcare budgets, and social safety nets. This is the policy challenge the passage references.",
+        "D": "The passage shows infant mortality declining through expanded vaccination, sanitation, and antibiotics. An inevitable return to high infant mortality contradicts the direction of change described and has no support in the passage. Post-transition societies do not typically revert to high infant mortality."
+      },
+      "topic": "Age Structure / Dependency Ratio",
+      "difficulty": "Hard",
+      "passageRef": "ps_demo_001"
+    },
+    {
+      "id": "ps_demo_005",
+      "passage": null,
+      "stem": "The shift from infectious mortality toward cardiovascular disease and cancer most directly illustrates the:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Malthusian catastrophe"
+        },
+        {
+          "label": "B",
+          "text": "epidemiologic transition"
+        },
+        {
+          "label": "C",
+          "text": "founder effect"
+        },
+        {
+          "label": "D",
+          "text": "social facilitation effect"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A Malthusian catastrophe is population collapse caused by resource depletion outpacing food production. The passage describes a shift in cause-of-death patterns (infectious \u2192 chronic), not a population collapse from famine or resource scarcity.",
+        "B": "Correct. The epidemiologic transition (Omran) describes the shift from infectious and parasitic diseases to chronic and degenerative diseases as the predominant causes of death. Bellara's shift \u2014 from acute infections to cardiovascular disease and cancer \u2014 directly illustrates this transition, which parallels the demographic transition as improved sanitation and medicine reduce infectious mortality.",
+        "C": "The founder effect is a genetic concept describing reduced genetic diversity when a small group establishes a new population. It is unrelated to changing disease patterns across a national population.",
+        "D": "Social facilitation is a psychological concept in which the presence of others enhances performance on simple tasks. It has nothing to do with epidemiologic shifts in cause-of-death patterns."
+      },
+      "topic": "Epidemiologic Transition",
+      "difficulty": "Easy",
+      "passageRef": "ps_demo_001"
+    },
+    {
+      "id": "ps_demo_006",
+      "passage": "A second Bellaran study enrolled 2,000 disease-free rural adults. Over the next year, 600 participants moved to cities; the remainder stayed in their home districts. At baseline, migrants were younger, had completed more schooling, and had slightly lower blood pressure than nonmigrants. Five years later, migrants' average income was 35% higher, but their measured physical activity was 25% lower. Obesity prevalence rose from 12% to 24% among migrants and from 14% to 17% among nonmigrants.\n\nNew type 2 diabetes was diagnosed more often among migrants. The association between migration and diabetes weakened substantially when researchers adjusted for follow-up body mass index. Interviews indicated that crop failures and limited rural employment encouraged departure, while existing urban relatives often supplied housing and job contacts. Migrants also sent remittances to family members who remained in rural districts. The investigators noted that migration was self-selected rather than randomly assigned and that adjustment for a variable lying on the causal pathway can obscure part of a real effect.",
+      "stem": "Which baseline difference most clearly demonstrates that the migration groups were not exchangeable before migration occurred?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Migrants were younger and more educated than nonmigrants"
+        },
+        {
+          "label": "B",
+          "text": "Migrants experienced lower activity after moving"
+        },
+        {
+          "label": "C",
+          "text": "Obesity increased in both groups during follow-up"
+        },
+        {
+          "label": "D",
+          "text": "Some migrants sent remittances to rural relatives"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage states that migrants were younger, had completed more schooling, and had slightly lower blood pressure than nonmigrants at baseline. These systematic differences demonstrate that migrants were not a random subset of the rural population \u2014 they were selected on characteristics that could independently affect health outcomes. This non-random selection means the two groups are not exchangeable, and any observed health differences could reflect pre-existing characteristics rather than the causal effect of migration.",
+        "B": "Lower physical activity after moving is described as a post-migration outcome (migrants' physical activity was 25% lower at follow-up), not a baseline difference. Post-migration changes cannot demonstrate that groups were non-exchangeable at enrollment \u2014 they are consequences of the exposure, not pre-existing differences.",
+        "C": "Obesity increasing in both groups during follow-up is a post-baseline outcome, not a baseline difference. The question asks which baseline difference demonstrates non-exchangeability. Changes that occur after enrollment reflect the effects of migration (and aging), not the initial selection into migrant vs. non-migrant groups.",
+        "D": "Sending remittances is a post-migration behavior, not a baseline characteristic. Remittances occur after migration and reflect economic connections between migrants and their origin communities. They cannot demonstrate that groups differed at the start of the study."
+      },
+      "topic": "Migration Research / Selection Bias",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_demo_007",
+      "passage": null,
+      "stem": "Crop failures and limited rural employment are best classified as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Urban pull factors"
+        },
+        {
+          "label": "B",
+          "text": "Intervening opportunities"
+        },
+        {
+          "label": "C",
+          "text": "Demographic dividends"
+        },
+        {
+          "label": "D",
+          "text": "Rural push factors"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Pull factors attract migrants to a destination \u2014 for example, higher wages, better healthcare, job opportunities, or family connections. The question asks about crop failures and limited employment, which are conditions in the origin area that drive people away, not attractions at the destination.",
+        "B": "Intervening opportunities (Stouffer) are alternatives encountered between the origin and destination that may divert migrants before they reach their intended destination. Crop failures and limited employment are origin conditions that motivate departure, not opportunities encountered during the journey.",
+        "C": "A demographic dividend occurs when the working-age population is disproportionately large relative to dependents, creating economic growth potential. This is a population-level economic concept, not a migration motivator. Crop failures and unemployment are individual-level economic hardships.",
+        "D": "Correct. Push factors are unfavorable conditions in the origin area that motivate out-migration: economic hardship (crop failures, unemployment, poverty), environmental degradation, or lack of services. The passage explicitly describes crop failures and limited rural employment as reasons for departure, which are classic rural push factors."
+      },
+      "topic": "Migration / Push-Pull Theory",
+      "difficulty": "Easy",
+      "passageRef": "ps_demo_006"
+    },
+    {
+      "id": "ps_demo_008",
+      "passage": null,
+      "stem": "Existing urban relatives who provide housing and job contacts most directly support which migration process?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Forced migration"
+        },
+        {
+          "label": "B",
+          "text": "Counterurbanization"
+        },
+        {
+          "label": "C",
+          "text": "Chain migration"
+        },
+        {
+          "label": "D",
+          "text": "Mortality compression"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Forced migration involves involuntary displacement due to conflict, persecution, or natural disaster. The passage describes voluntary economic migration facilitated by family connections \u2014 migrants chose to move for economic reasons and received help from urban relatives, not coercion.",
+        "B": "Counterurbanization is movement from cities to rural areas \u2014 the reverse of what the passage describes. The Bellaran migrants are moving from rural areas to cities, which is urbanization, not counterurbanization.",
+        "C": "Correct. Chain migration occurs when established migrants at a destination facilitate subsequent migration by family and community members. The passage describes urban relatives supplying housing and job contacts to new migrants \u2014 exactly the social network mechanism that creates self-reinforcing migration streams. Once pioneers establish themselves in cities, they lower the costs and risks of migration for those who follow.",
+        "D": "Mortality compression refers to the concentration of deaths into a narrower age range as life expectancy increases. It is a demographic concept about death patterns, completely unrelated to the social facilitation of migration through family networks."
+      },
+      "topic": "Migration Networks / Chain Migration",
+      "difficulty": "Easy",
+      "passageRef": "ps_demo_006"
+    },
+    {
+      "id": "ps_demo_009",
+      "passage": null,
+      "stem": "The proportion of initially disease-free participants who developed diabetes during the five-year follow-up is a measure of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "incidence proportion"
+        },
+        {
+          "label": "B",
+          "text": "point prevalence"
+        },
+        {
+          "label": "C",
+          "text": "case-fatality rate"
+        },
+        {
+          "label": "D",
+          "text": "crude mortality rate"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The study enrolled disease-free participants and tracked new diabetes diagnoses over five years. The proportion of an initially at-risk population that develops the disease during a defined period is the incidence proportion (cumulative incidence). This differs from prevalence (which includes pre-existing cases) and from incidence rate (which uses person-time in the denominator).",
+        "B": "Point prevalence measures the proportion with disease at a single point in time, including both new and pre-existing cases. The study specifically enrolled disease-free participants and measured new diagnoses \u2014 this is incidence, not prevalence.",
+        "C": "The case-fatality rate is the proportion of people with a disease who die from it. The study measures who develops diabetes, not who dies from it. Case-fatality measures disease severity, not disease occurrence.",
+        "D": "The crude mortality rate measures total deaths per population regardless of cause. The study tracks development of a specific disease (diabetes), not deaths from all causes."
+      },
+      "topic": "Epidemiology / Incidence",
+      "difficulty": "Medium",
+      "passageRef": "ps_demo_006"
+    },
+    {
+      "id": "ps_demo_010",
+      "passage": null,
+      "stem": "If lower physical activity caused migration-related weight gain, which best explains why adjustment for follow-up BMI weakened the migration\u2013diabetes association?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "BMI must be a random measurement error"
+        },
+        {
+          "label": "B",
+          "text": "Migration cannot affect diabetes risk"
+        },
+        {
+          "label": "C",
+          "text": "BMI may mediate part of the effect of migration on diabetes"
+        },
+        {
+          "label": "D",
+          "text": "Adjustment proves that urban residence is protective"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "BMI is a physical measurement of body mass relative to height, not a random measurement error. The attenuation of the migration-diabetes association after adjusting for BMI suggests BMI is substantively related to both migration and diabetes \u2014 exactly what a mediator would be, not what random noise would produce.",
+        "B": "The original analysis found that migration was associated with higher diabetes incidence. The attenuation after BMI adjustment does not prove migration has no effect \u2014 it suggests that part of migration's effect operates through weight gain. The passage's investigators explicitly warn that adjusting for a mediator can 'obscure part of a real effect.'",
+        "C": "Correct. If migration leads to weight gain (through reduced physical activity and dietary changes in urban environments), and weight gain increases diabetes risk, then BMI lies on the causal pathway: migration \u2192 increased BMI \u2192 diabetes. Adjusting for a mediator removes the indirect effect, attenuating the observed association. The investigators note this explicitly: adjustment for a variable on the causal pathway can obscure part of a real effect.",
+        "D": "The attenuation does not show that urban residence is protective against diabetes. The original finding was that migrants had more diabetes. Adjusting for BMI weakened this association, suggesting BMI mediates part of the harmful effect of migration \u2014 not that migration is protective."
+      },
+      "topic": "Causal Inference / Mediation",
+      "difficulty": "Hard",
+      "passageRef": "ps_demo_006"
+    }
+  ]
+}

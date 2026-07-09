@@ -1,0 +1,499 @@
+{
+  "batch": "B001",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Fluids & Circulation",
+  "questionCount": 15,
+  "questions": [
+    {
+      "id": "cp_fluids_001",
+      "passage": "A vascular surgeon evaluates a patient with progressive atherosclerosis in the internal carotid artery. Doppler ultrasound reveals that plaque buildup has reduced the vessel’s internal diameter from 7.0 mm to 2.8 mm over a 2-cm segment. Proximal to the stenosis, blood flows at a mean velocity of 40 cm/s. The patient’s blood has a density of 1,060 kg/m³ and a viscosity of 3.0 × 10⁻³ Pa·s. Assume for the following questions that blood behaves as an ideal, incompressible fluid unless otherwise stated.",
+      "stem": "Using the continuity equation, what is the approximate velocity of blood flow through the stenosed segment of the artery?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "100 cm/s"
+        },
+        {
+          "label": "B",
+          "text": "160 cm/s"
+        },
+        {
+          "label": "C",
+          "text": "250 cm/s"
+        },
+        {
+          "label": "D",
+          "text": "625 cm/s"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This would correspond to a velocity ratio of 2.5:1, which equals the diameter ratio (7.0/2.8 = 2.5). However, the continuity equation uses cross-sectional area, not diameter. Since area scales with the square of diameter (A = πd²/4), you must square the diameter ratio to get the velocity ratio: (2.5)² = 6.25.",
+        "B": "This value may result from using the ratio of radii squared as 4 rather than the correct diameter ratio squared. The diameter ratio is 7.0/2.8 = 2.5, so the area ratio is (2.5)² = 6.25, not 4.0. Verify: 40 × 4.0 = 160, which is too low.",
+        "C": "Correct. The continuity equation states A₁v₁ = A₂v₂. Since A = π(d/2)², the ratio A₁/A₂ = (d₁/d₂)² = (7.0/2.8)² = (2.5)² = 6.25. Therefore v₂ = v₁ × 6.25 = 40 × 6.25 = 250 cm/s. Blood must accelerate significantly through a stenotic region to maintain constant volumetric flow rate, which has important clinical consequences for both pressure changes and the development of turbulence.",
+        "D": "This value (625 cm/s) would correspond to a velocity ratio of 15.625, which is (2.5)³. You may have cubed the diameter ratio instead of squaring it. The continuity equation relates velocity to area (d²), not to volume (d³)."
+      },
+      "topic": "Continuity Equation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluids_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Compared to the region proximal to the stenosis, how does the blood pressure within the stenosed segment change, and why?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Pressure increases because the narrowed vessel compresses the blood"
+        },
+        {
+          "label": "B",
+          "text": "Pressure decreases because increased velocity corresponds to decreased pressure in a flowing fluid"
+        },
+        {
+          "label": "C",
+          "text": "Pressure remains unchanged because the heart maintains constant perfusion pressure"
+        },
+        {
+          "label": "D",
+          "text": "Pressure increases because flow resistance is higher in the narrowed segment"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This is the most common misconception. While it seems intuitive that a constriction would 'squeeze' blood to higher pressure, Bernoulli's principle predicts the opposite for a flowing fluid. The narrowing converts pressure energy (static pressure) into kinetic energy (velocity), so pressure drops. This is distinct from the situation in a closed, non-flowing system where Pascal's law would apply.",
+        "B": "Correct. Bernoulli’s equation states P₁ + ½ρv₁² + ρgh₁ = P₂ + ½ρv₂² + ρgh₂. For horizontal flow (h₁ = h₂), an increase in velocity (v₂ > v₁) must be accompanied by a decrease in pressure (P₂ < P₁) to conserve total energy. This is the Venturi effect. Clinically, this pressure drop across the stenosis creates a pressure gradient that the heart must work harder to overcome, contributing to the pathophysiology of cerebrovascular ischemia. Note: Bernoulli’s equation assumes ideal, non-viscous flow. In real arteries, viscous energy losses (described by Poiseuille’s law) also contribute to the total pressure drop across a stenosis. However, the Bernoulli effect correctly predicts the direction and a significant component of the pressure change, and is the standard framework tested on the MCAT.",
+        "C": "While the heart does regulate cardiac output, this does not mean pressure is constant throughout the vasculature. Bernoulli's principle requires that pressure and velocity trade off along a streamline. Constant pressure would violate conservation of energy for an ideal flowing fluid.",
+        "D": "This confuses Poiseuille's law (which describes pressure drops due to viscous resistance in real fluids) with Bernoulli's principle (which describes the pressure-velocity tradeoff in ideal fluids). While viscous resistance does contribute to pressure loss in real arteries, the question assumes ideal fluid behavior. Under Bernoulli's principle, the pressure drop at the stenosis is due to increased velocity, not viscous resistance."
+      },
+      "topic": "Bernoulli's Principle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluids_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The surgeon notes a bruit (audible turbulence) over the stenosed region during auscultation. The Reynolds number (Re) predicts the transition from laminar to turbulent flow, with turbulence typically occurring above Re ≈ 2,000 in rigid tubes. Using Re = ρvd/η, which factor in this patient’s presentation most directly explains why turbulence develops at the stenosis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Increased blood viscosity due to plaque inflammation"
+        },
+        {
+          "label": "B",
+          "text": "Increased blood velocity through the narrowed lumen"
+        },
+        {
+          "label": "C",
+          "text": "Decreased vessel diameter reducing the Reynolds number"
+        },
+        {
+          "label": "D",
+          "text": "Increased blood density from dehydration"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Increased viscosity (η) appears in the denominator of Re = ρvd/η, so higher viscosity would actually decrease the Reynolds number and make turbulence less likely, not more. This answer predicts the opposite effect.",
+        "B": "Correct. While decreased diameter (d) in isolation would lower Re, the velocity increase at the stenosis is far more dramatic. From the continuity equation, v increases by a factor of (d₁/d₂)² = 6.25 when the diameter decreases by a factor of 2.5. Since Re = ρvd/η, the net effect is: Re₂/Re₁ = (v₂/v₁)(d₂/d₁) = (6.25)(1/2.5) = 2.5. Calculating directly: Re (proximal) = 1060 × 0.40 × 0.007 / 0.003 ≈ 990; Re (stenosis) = 1060 × 2.50 × 0.0028 / 0.003 ≈ 2,470. The Reynolds number increases from below to above the turbulence threshold of ~2,000, producing the audible bruit. Note that in biological vessels, turbulence can also onset below Re = 2,000 due to pulsatile flow and irregular geometry, but the key physics principle remains: velocity is the dominant driver.",
+        "C": "Decreased diameter does reduce the ‘d’ term in Re = ρvd/η. However, this analysis ignores the coupled effect: the continuity equation requires that velocity increase as diameter decreases, and velocity increases faster (as d⁻²) than diameter decreases (as d¹). The net effect is an increase in Re by a factor equal to d₁/d₂. Considering variables in isolation without accounting for their interdependence is a common error in fluid dynamics problems.",
+        "D": "Blood density does appear in the numerator of Re, and increased density would increase Re. However, the passage does not mention dehydration, and normal physiological variation in blood density is small (less than 5%). The velocity change through the stenosis (6.25-fold increase) is by far the dominant factor."
+      },
+      "topic": "Reynolds Number & Turbulence",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_fluids_004",
+      "passage": "An emergency department nurse is administering IV fluids to a trauma patient. The IV setup uses a catheter with an internal radius of 0.40 mm and a length of 5.0 cm, connected to a fluid bag elevated 1.0 m above the insertion site. The IV solution has a viscosity of 1.0 × 10⁻³ Pa·s and a density of 1,000 kg/m³. Poiseuille's law describes the volumetric flow rate as Q = πr⁴ΔP/(8ηL), where r is the radius, ΔP is the pressure difference, η is the viscosity, and L is the length of the tube.",
+      "stem": "The nurse switches from the current catheter (radius = 0.40 mm) to a larger-bore catheter (radius = 0.80 mm) of the same length. By what factor does the flow rate change?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2×"
+        },
+        {
+          "label": "B",
+          "text": "4×"
+        },
+        {
+          "label": "C",
+          "text": "8×"
+        },
+        {
+          "label": "D",
+          "text": "16×"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This would be correct if flow rate scaled linearly with radius (Q ∝ r). However, Poiseuille's law shows Q ∝ r⁴, not r¹. Doubling the radius has a much more dramatic effect on flow rate than a simple proportional increase.",
+        "B": "This would apply if flow rate scaled with r² (proportional to cross-sectional area). While area does increase 4-fold when radius doubles, Poiseuille's law includes additional radius dependence beyond just the area term. The r⁴ relationship reflects that both the cross-sectional area (r²) and the velocity profile (which also depends on r²) contribute to the total flow.",
+        "C": "This would correspond to Q ∝ r³, which is not the correct relationship. Poiseuille's law explicitly shows Q = πr⁴ΔP/(8ηL), giving a fourth-power dependence on radius.",
+        "D": "Correct. Poiseuille's law states Q ∝ r⁴. When the radius doubles (0.40 → 0.80 mm), the flow rate increases by 2⁴ = 16 times. This r⁴ relationship is one of the most clinically important principles in fluid dynamics — it explains why even small changes in vessel radius (from vasoconstriction, atherosclerosis, or catheter gauge selection) have enormous effects on flow. This is why large-bore IVs are critical in trauma resuscitation: a catheter with twice the radius delivers 16 times the fluid volume per unit time."
+      },
+      "topic": "Poiseuille's Law",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_fluids_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If the nurse raises the IV bag from 1.0 m to 1.5 m above the insertion site, which of the following best describes the effect on the driving pressure and flow rate?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Driving pressure increases by 50%; flow rate increases by 50%"
+        },
+        {
+          "label": "B",
+          "text": "Driving pressure increases by 50%; flow rate increases by 125%"
+        },
+        {
+          "label": "C",
+          "text": "Driving pressure doubles; flow rate doubles"
+        },
+        {
+          "label": "D",
+          "text": "Driving pressure is unchanged; flow rate is unchanged because viscous resistance dominates"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The driving pressure is hydrostatic: ΔP = ρgh. When h increases from 1.0 m to 1.5 m, ΔP increases by a factor of 1.5/1.0 = 1.5, or 50%. By Poiseuille's law, Q = πr⁴ΔP/(8ηL), flow rate is directly proportional to ΔP (Q ∝ ΔP). Since ΔP increases by 50%, Q also increases by 50%. This linear relationship between driving pressure and flow rate holds because all other variables (r, η, L) remain constant.",
+        "B": "While the 50% increase in driving pressure is correct, a 125% increase in flow rate would require a non-linear relationship between pressure and flow. Poiseuille's law shows Q ∝ ΔP (first power), so flow rate scales linearly with the pressure difference. A 125% increase would imply Q ∝ ΔP^(~1.5), which is not the case.",
+        "C": "Doubling would require raising the bag from 1.0 m to 2.0 m. The increase from 1.0 m to 1.5 m gives a factor of 1.5, not 2.0. The linear relationship between Q and ΔP is correct, but the magnitude of the pressure change is wrong.",
+        "D": "While viscous resistance is indeed present (it's captured by the 8ηL term in Poiseuille's denominator), it does not prevent changes in flow rate when driving pressure changes. Viscous resistance determines the proportionality constant between ΔP and Q, but the linear relationship Q ∝ ΔP still holds. Increasing ΔP always increases Q in Poiseuille flow."
+      },
+      "topic": "Hydrostatic Pressure",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_fluids_006",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The physician orders a switch from normal saline (viscosity = 1.0 × 10⁻³ Pa·s) to a colloid solution containing albumin (viscosity = 1.8 × 10⁻³ Pa·s) through the same catheter and at the same bag height. What is the approximate ratio of the colloid flow rate to the saline flow rate?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.31"
+        },
+        {
+          "label": "B",
+          "text": "0.56"
+        },
+        {
+          "label": "C",
+          "text": "0.74"
+        },
+        {
+          "label": "D",
+          "text": "1.0 (unchanged)"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This value (≈ 1/3.2) would correspond to a viscosity ratio of approximately 3.2:1. The actual viscosity ratio is 1.8:1. You may have squared the viscosity ratio, but Poiseuille's law shows Q ∝ 1/η (inverse first power), not Q ∝ 1/η².",
+        "B": "Correct. By Poiseuille's law, Q = πr⁴ΔP/(8ηL). Since only viscosity changes (r, ΔP, and L are constant), the flow rate ratio is Q_colloid/Q_saline = η_saline/η_colloid = (1.0 × 10⁻³)/(1.8 × 10⁻³) = 1/1.8 ≈ 0.56. The colloid flows at roughly 56% of the saline rate. This inverse relationship between viscosity and flow is clinically significant — more viscous fluids like packed red blood cells (η ≈ 4–8 × 10⁻³ Pa·s) flow much more slowly through the same catheter, which is why blood transfusions require larger-bore IVs or pressure bags.",
+        "C": "This might result from taking the square root of 1/1.8 = 0.56, yielding √0.56 ≈ 0.74. Poiseuille's law gives Q ∝ 1/η directly (first power), so no root extraction is needed. The flow rate ratio equals the inverse viscosity ratio.",
+        "D": "If flow rate were independent of viscosity, Poiseuille's law would not include η. However, viscosity appears in the denominator of Q = πr⁴ΔP/(8ηL), establishing an inverse relationship. More viscous fluids experience greater resistance to flow and therefore flow more slowly under the same driving pressure."
+      },
+      "topic": "Poiseuille's Law & Viscosity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluids_007",
+      "passage": "Researchers are studying the forces governing fluid exchange across a capillary bed. At the arterial end of a capillary, the hydrostatic pressure (P_h) is 35 mmHg, while the interstitial hydrostatic pressure (P_i) is 0 mmHg. The capillary oncotic pressure (π_c) due to plasma proteins is 25 mmHg, and the interstitial oncotic pressure (π_i) is 3 mmHg. At the venous end, the capillary hydrostatic pressure drops to 15 mmHg while all other pressures remain approximately constant.\n\nThe net filtration pressure (NFP) is given by the Starling equation:\nNFP = (P_h − P_i) − (π_c − π_i)",
+      "stem": "What is the net filtration pressure at the arterial end of the capillary, and in which direction does fluid move?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "NFP = +13 mmHg; fluid moves out of the capillary (filtration)"
+        },
+        {
+          "label": "B",
+          "text": "NFP = +7 mmHg; fluid moves out of the capillary (filtration)"
+        },
+        {
+          "label": "C",
+          "text": "NFP = −7 mmHg; fluid moves into the capillary (absorption)"
+        },
+        {
+          "label": "D",
+          "text": "NFP = +57 mmHg; fluid moves out of the capillary (filtration)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. NFP = (P_h − P_i) − (π_c − π_i) = (35 − 0) − (25 − 3) = 35 − 22 = +13 mmHg. A positive NFP indicates that the forces pushing fluid out of the capillary (hydrostatic pressure gradient) exceed the forces pulling fluid in (oncotic pressure gradient), resulting in net filtration. This filtration at the arterial end delivers oxygen, nutrients, and fluid to the interstitial space. Note: the classic Starling model presented here is a simplification. Modern understanding (the revised Starling principle) recognizes that the endothelial glycocalyx layer and subglycocalyx space modify the effective oncotic gradient, and that steady-state venous reabsorption is less significant than traditionally taught. However, the classic model remains the standard framework for the MCAT.",
+        "B": "This would result from not accounting for interstitial oncotic pressure (π_i = 3 mmHg). The full Starling equation subtracts the net oncotic gradient (π_c − π_i = 25 − 3 = 22), not just π_c alone (25). Interstitial proteins contribute a small but real osmotic force that favors filtration.",
+        "C": "A negative NFP would indicate absorption, but at the arterial end, hydrostatic pressure (35 mmHg) strongly exceeds the net oncotic pressure (22 mmHg). You may have reversed the signs or subtracted the hydrostatic gradient from the oncotic gradient rather than the reverse.",
+        "D": "This appears to add all pressures rather than applying the Starling equation correctly. The oncotic pressure gradient opposes filtration and must be subtracted from the hydrostatic pressure gradient, not added to it. The forces work in opposing directions."
+      },
+      "topic": "Starling Forces / Capillary Exchange",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluids_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A patient with nephrotic syndrome loses large quantities of albumin in the urine, causing plasma oncotic pressure (π_c) to drop from 25 mmHg to 10 mmHg. Assuming all other Starling forces remain constant, which of the following best predicts the clinical consequence?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Increased filtration at the arterial end only, with normal absorption at the venous end"
+        },
+        {
+          "label": "B",
+          "text": "Increased filtration at both ends of the capillary, causing peripheral edema"
+        },
+        {
+          "label": "C",
+          "text": "Decreased filtration at both ends due to reduced osmotic driving force"
+        },
+        {
+          "label": "D",
+          "text": "No change in net fluid movement because hydrostatic pressures are unaffected"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "With reduced π_c, the net oncotic gradient drops from 22 mmHg to only 7 mmHg (10 − 3). At the venous end, NFP = (15 − 0) − (10 − 3) = 15 − 7 = +8 mmHg. This is positive, meaning filtration occurs even at the venous end where absorption normally takes place. Both ends are affected, not just the arterial end.",
+        "B": "Correct. Normally: arterial NFP = 35 − 22 = +13 mmHg (filtration) and venous NFP = 15 − 22 = −7 mmHg (absorption). With reduced π_c: net oncotic gradient = 10 − 3 = 7 mmHg. New arterial NFP = 35 − 7 = +28 mmHg (stronger filtration). New venous NFP = 15 − 7 = +8 mmHg (filtration instead of absorption). Fluid now exits the capillary at both ends with no reabsorption. This net loss of plasma volume into the interstitium causes peripheral edema — the hallmark clinical finding in nephrotic syndrome. The body also responds with sodium and water retention, further worsening the edema.",
+        "C": "This reverses the role of oncotic pressure. Plasma oncotic pressure opposes filtration (it holds fluid in the capillary). When it decreases, the opposing force weakens, and filtration increases — not decreases. Reduced oncotic pressure removes the 'brake' on fluid leaving the vasculature.",
+        "D": "While it's true that hydrostatic pressures are unaffected, fluid movement depends on the balance of all four Starling forces. Oncotic pressure is a major determinant of fluid distribution, and its reduction dramatically shifts the equilibrium toward filtration. Ignoring oncotic pressure changes would be like ignoring one side of a tug-of-war."
+      },
+      "topic": "Starling Forces / Edema Pathophysiology",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_fluids_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "During the experiment, the researchers apply a vasodilator that increases arteriolar diameter. Which of the following correctly predicts the effect on capillary hemodynamics?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Capillary hydrostatic pressure increases because less pressure is lost across the dilated arteriole"
+        },
+        {
+          "label": "B",
+          "text": "Capillary hydrostatic pressure decreases because vasodilation lowers systemic blood pressure"
+        },
+        {
+          "label": "C",
+          "text": "Capillary oncotic pressure increases because vasodilation increases protein filtration"
+        },
+        {
+          "label": "D",
+          "text": "No change in capillary pressures because autoregulation maintains constant capillary conditions"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Arterioles are the primary resistance vessels in the circulation. They create a large pressure drop between arterial pressure (~90 mmHg) and capillary pressure (~35 mmHg). When arterioles dilate, their resistance decreases (R ∝ 1/r⁴ by Poiseuille's law), so less pressure is dissipated across them. More of the arterial pressure is transmitted to the capillary bed, raising capillary hydrostatic pressure. This increases filtration and can contribute to localized edema (as seen in inflammation, where vasodilation is a hallmark response).",
+        "B": "While systemic vasodilation can lower total peripheral resistance and mean arterial pressure, the local effect on capillary pressure dominates. At the level of a single capillary bed, dilation of the feeding arteriole transmits more upstream pressure to the capillary. Systemic blood pressure effects are a secondary, whole-body consideration not addressed in this local analysis.",
+        "C": "Vasodilation does not directly affect oncotic pressure, which is determined by plasma protein concentration. While increased filtration could theoretically concentrate proteins slightly, the primary and immediate effect of arteriolar dilation is on hydrostatic pressure transmission, not oncotic pressure.",
+        "D": "Autoregulation does exist in certain vascular beds (brain, kidneys), but it is not instantaneous or absolute. The question describes pharmacological vasodilation, which can overwhelm autoregulatory mechanisms. Moreover, autoregulation primarily adjusts resistance to maintain flow, not to maintain constant capillary pressure under all conditions."
+      },
+      "topic": "Vascular Resistance & Capillary Pressure",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluids_010",
+      "passage": "A biomedical engineer designs a hydraulic compression device for managing lymphedema. The device uses a hydraulic system with a small input piston (area = 2.0 cm²) and a large output piston (area = 50 cm²). The input piston is connected to a manual pump that a clinician operates by hand. The system is filled with an incompressible fluid.",
+      "stem": "If the clinician applies a force of 20 N to the input piston, what force is exerted by the output piston on the patient's limb?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "20 N"
+        },
+        {
+          "label": "B",
+          "text": "100 N"
+        },
+        {
+          "label": "C",
+          "text": "500 N"
+        },
+        {
+          "label": "D",
+          "text": "1,000 N"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This would imply no mechanical advantage, meaning the hydraulic system simply transmits force without amplification. Pascal's law dictates that pressure is transmitted equally, and since the output piston has a larger area, the force must be proportionally larger. A hydraulic system with equal input and output forces would require equal piston areas.",
+        "B": "This corresponds to a force multiplication factor of 5, which would require an area ratio of 5:1. The actual area ratio is 50/2 = 25:1, giving a force multiplication of 25×.",
+        "C": "Correct. By Pascal's law, pressure applied to an enclosed fluid is transmitted undiminished throughout the fluid. P = F/A, so F_input/A_input = F_output/A_output. Solving: F_output = F_input × (A_output/A_input) = 20 N × (50/2) = 20 × 25 = 500 N. The hydraulic system provides a mechanical advantage of 25, amplifying the clinician's 20 N hand force to 500 N of therapeutic compression. Note that while force is amplified, the input piston must travel 25 times farther than the output piston moves (conservation of energy: work in = work out).",
+        "D": "A force of 1,000 N would require a mechanical advantage of 50, corresponding to an area ratio of 50:1. The actual ratio is 50/2 = 25:1. You may have divided the output area by the input area incorrectly, or confused cm² with mm²."
+      },
+      "topic": "Pascal's Law & Hydraulics",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_fluids_011",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "To deliver a total compression displacement of 0.5 cm at the output piston, what distance must the clinician depress the input piston?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.5 cm"
+        },
+        {
+          "label": "B",
+          "text": "2.0 cm"
+        },
+        {
+          "label": "C",
+          "text": "12.5 cm"
+        },
+        {
+          "label": "D",
+          "text": "25.0 cm"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Equal displacement would mean the input and output pistons move the same distance, implying no mechanical advantage or disadvantage in displacement. In a hydraulic system, force amplification always comes at the cost of proportionally reduced displacement at the output — conservation of energy (W = Fd) requires this tradeoff.",
+        "B": "This corresponds to a displacement ratio of 4:1, which would imply an area ratio of 4:1. The actual area ratio is 25:1. This error may arise from using diameter ratio instead of area ratio.",
+        "C": "Correct. Conservation of energy requires that work input equals work output (ignoring friction): F_in × d_in = F_out × d_out. Alternatively, since the fluid is incompressible, the volume displaced must be equal: A_in × d_in = A_out × d_out. Solving: d_in = d_out × (A_out/A_in) = 0.5 cm × (50/2) = 0.5 × 25 = 12.5 cm. The clinician must pump 12.5 cm to achieve 0.5 cm of output displacement. This illustrates the fundamental tradeoff in hydraulic systems: you gain force but lose distance by the same factor.",
+        "D": "This would correspond to a displacement ratio of 50:1, which equals the numerical value of the output piston area. You may have multiplied by A_out alone (50) instead of the area ratio A_out/A_in (50/2 = 25). Always use the ratio of the two areas."
+      },
+      "topic": "Pascal's Law & Conservation of Energy",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluids_012",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "A solid sphere with a density of 800 kg/m³ and a volume of 0.002 m³ is fully submerged in water (density = 1,000 kg/m³). When released from rest, the sphere will:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sink to the bottom because it has a mass of 1.6 kg"
+        },
+        {
+          "label": "B",
+          "text": "Float to the surface because the buoyant force exceeds its weight"
+        },
+        {
+          "label": "C",
+          "text": "Remain stationary because the buoyant force equals its weight"
+        },
+        {
+          "label": "D",
+          "text": "Sink slowly because the buoyant force is less than its weight"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While the mass is correct (m = ρV = 800 × 0.002 = 1.6 kg, weight = 15.7 N), the buoyant force must also be calculated. By Archimedes' principle, F_b = ρ_fluid × V_displaced × g = 1000 × 0.002 × 9.8 = 19.6 N. Since F_b (19.6 N) > weight (15.7 N), the sphere rises — it does not sink.",
+        "B": "Correct. Weight = ρ_sphere × V × g = 800 × 0.002 × 9.8 = 15.7 N. Buoyant force = ρ_water × V × g = 1000 × 0.002 × 9.8 = 19.6 N. Since the buoyant force (19.6 N) exceeds the gravitational force (15.7 N), there is a net upward force of 3.9 N, and the sphere accelerates toward the surface. The key principle: any object with a density less than the surrounding fluid will experience a net upward buoyant force when fully submerged. The sphere will rise until it floats with 80% of its volume submerged (ρ_sphere/ρ_water = 800/1000 = 0.80).",
+        "C": "Neutral buoyancy occurs only when the object's density exactly equals the fluid's density. Since ρ_sphere (800 kg/m³) ≠ ρ_water (1000 kg/m³), the forces are not balanced.",
+        "D": "This would be true if ρ_sphere > ρ_water, but ρ_sphere (800 kg/m³) < ρ_water (1000 kg/m³). The buoyant force exceeds the weight, producing a net upward force, not downward. An object sinks only when its density exceeds the fluid density."
+      },
+      "topic": "Buoyancy & Archimedes' Principle",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_fluids_013",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "During forced expiration, air flows through a constricted bronchiole at high velocity. A physician observes that the bronchiole walls tend to collapse inward during this maneuver. Which principle best explains this airway compression?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Pascal's law — increased alveolar pressure is transmitted to the bronchiole walls"
+        },
+        {
+          "label": "B",
+          "text": "Bernoulli's principle — high-velocity airflow through the constriction reduces lateral pressure on the walls"
+        },
+        {
+          "label": "C",
+          "text": "Poiseuille's law — increased resistance in the narrowed airway generates wall stress"
+        },
+        {
+          "label": "D",
+          "text": "Laplace's law — decreased radius increases the wall tension needed to maintain patency"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Pascal's law applies to enclosed, static fluids transmitting pressure uniformly. The airways are not a closed system — they are open to atmospheric pressure — and the air is flowing, not static. The phenomenon here is dynamic, involving moving air, which is Bernoulli's domain.",
+        "B": "Correct. This is the Venturi effect applied to the airways. Bernoulli's principle states that as fluid (air) velocity increases through a constriction, the lateral (static) pressure against the walls decreases. During forced expiration, high-velocity airflow through already-narrowed bronchioles creates a zone of low lateral pressure inside the airway. If this internal pressure drops below the external (pleural/interstitial) pressure, the pressure differential pushes the walls inward, causing dynamic airway compression. This is clinically important in conditions like COPD and asthma, where loss of airway structural support makes the airways more susceptible to this collapse.",
+        "C": "Poiseuille's law describes the relationship between flow rate, pressure gradient, and resistance in viscous flow. While increased resistance does affect flow rate, it does not directly explain why the walls collapse inward. The wall collapse is a pressure phenomenon explained by the Bernoulli effect on the flowing air.",
+        "D": "Laplace's law (T = Pr for a cylinder) relates wall tension to transmural pressure and radius, and is relevant to understanding alveolar mechanics and aneurysm formation. However, the primary explanation for dynamic airway compression during forced expiration is the Bernoulli-driven reduction in intraluminal pressure, not an intrinsic change in wall tension from radius changes."
+      },
+      "topic": "Bernoulli's Principle (Venturi Effect)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_fluids_014",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "A diver's pressure gauge reads 3.0 atm at a certain depth in a freshwater lake. What is the absolute pressure at this depth? (Atmospheric pressure = 1.0 atm)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2.0 atm"
+        },
+        {
+          "label": "B",
+          "text": "3.0 atm"
+        },
+        {
+          "label": "C",
+          "text": "4.0 atm"
+        },
+        {
+          "label": "D",
+          "text": "6.0 atm"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Subtracting atmospheric pressure from gauge pressure gives 2.0 atm, but this operation is backwards. Gauge pressure is already defined as the pressure above atmospheric. To get absolute pressure, you add atmospheric pressure to gauge pressure, not subtract it.",
+        "B": "This is the gauge pressure, not the absolute pressure. Gauge pressure measures only the pressure contribution from the water column above the diver, referenced to atmospheric pressure as zero. The atmosphere itself exerts an additional 1.0 atm that the gauge does not display but which still physically acts on the diver.",
+        "C": "Correct. Absolute pressure = gauge pressure + atmospheric pressure = 3.0 atm + 1.0 atm = 4.0 atm. Gauge pressure measures pressure relative to atmospheric pressure (it reads zero at the surface). Absolute pressure measures the total pressure from all sources, including the atmosphere. The distinction matters physiologically: gas solubility in blood (Henry’s law) depends on absolute pressure, not gauge pressure. At 4.0 atm absolute, nitrogen dissolves in the diver’s blood to approximately 4 times its equilibrium concentration at the surface — the basis of decompression sickness.",
+        "D": "This appears to multiply gauge and atmospheric pressures (3.0 × 2.0 = 6.0) or double the gauge pressure. The correct operation is simple addition: P_absolute = P_gauge + P_atm."
+      },
+      "topic": "Gauge vs. Absolute Pressure",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_fluids_015",
+      "passage": "A physiologist models the human circulatory system as a series of branching vessels. The aorta has a cross-sectional area of approximately 4.0 cm² and carries blood at a velocity of 40 cm/s. The capillary bed has a combined total cross-sectional area of approximately 4,000 cm². The physiologist assumes that total blood flow rate is conserved from the aorta through the capillary bed.",
+      "stem": "What is the approximate velocity of blood flow in the capillary bed, and what is the physiological significance of this value?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.04 cm/s; the slow velocity maximizes time for diffusion-mediated gas and nutrient exchange"
+        },
+        {
+          "label": "B",
+          "text": "0.4 cm/s; the moderate velocity balances exchange time with efficient circulation"
+        },
+        {
+          "label": "C",
+          "text": "4.0 cm/s; the velocity is maintained to prevent blood pooling and clot formation"
+        },
+        {
+          "label": "D",
+          "text": "40 cm/s; velocity is conserved throughout the circulatory system by conservation of energy"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. By the continuity equation, A_aorta × v_aorta = A_capillaries × v_capillaries. Solving: v_capillaries = (A_aorta/A_capillaries) × v_aorta = (4.0/4000) × 40 = 0.04 cm/s. This 1,000-fold reduction in velocity is not a flaw — it is a critical design feature of the circulatory system. Capillaries are the site of gas exchange (O₂ and CO₂), nutrient delivery, and waste removal, all of which occur by diffusion. Fick's law tells us that diffusion is effective only over very short distances and requires adequate time. The extremely slow capillary flow (transit time ≈ 1 second) maximizes contact time between blood and tissue, enabling efficient exchange across the thin capillary walls.",
+        "B": "Correct. The conductivity of a dilute electrolyte solution is approximately proportional to ion concentration: σ ∝ [ions]. Doubling the NaCl concentration roughly doubles the number of Na⁺ and Cl⁻ ions available to carry charge. Since R = ρL/A = L/(σA), doubling σ halves R, and by Ohm’s law (I = V/R), the current approximately doubles to 0.50 A. This linear approximation holds reasonably well at dilute to moderate concentrations. At higher concentrations, ion-ion interactions (described by Debye-Hückel-Onsager theory), ion pairing, and changes in molar conductivity cause deviations from strict linearity. For a moderate doubling from a dilute starting concentration, the approximation is valid and is the expected approach on the MCAT.",
+        "C": "A velocity of 4.0 cm/s would correspond to a total area of 40 cm², only 10× the aortic area. The actual capillary bed area is 1,000× the aortic area. While preventing pooling is important, the primary function of slow capillary flow is to allow time for diffusion-based exchange.",
+        "D": "Velocity is not conserved in the circulatory system — volumetric flow rate is. Conservation of energy (Bernoulli's principle) relates velocity and pressure, not velocity alone. As total cross-sectional area increases dramatically through branching, velocity must decrease proportionally to maintain constant total flow rate (continuity equation)."
+      },
+      "topic": "Continuity Equation / Circulatory Physiology",
+      "difficulty": "Medium"
+    }
+  ]
+}

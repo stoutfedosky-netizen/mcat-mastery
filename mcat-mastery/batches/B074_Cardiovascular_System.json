@@ -1,0 +1,338 @@
+{
+  "batch": "B074",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Cardiovascular System",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_cardio_001",
+      "passage": "A cardiologist evaluates a patient with systolic heart failure. Echocardiography reveals an ejection fraction (EF) of 30% (normal ≥ 55%). The patient's resting cardiac output (CO) is 3.5 L/min (normal ~5 L/min), heart rate (HR) is 90 bpm, and mean arterial pressure (MAP) is 75 mmHg. Blood work shows elevated B-type natriuretic peptide (BNP). The cardiologist reviews the cardiac cycle, noting that the left ventricle fills during diastole and ejects blood during systole through the aortic valve. She considers the Frank-Starling mechanism and its failure in this patient, and notes that baroreceptor reflexes are chronically activated.",
+      "stem": "Cardiac output is calculated as CO = HR × SV. Given CO = 3.5 L/min and HR = 90 bpm, the patient's stroke volume (SV) is approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "39 mL — calculated by dividing CO by HR: 3500 mL/min ÷ 90 beats/min ≈ 39 mL/beat"
+        },
+        {
+          "label": "B",
+          "text": "70 mL, which is normal"
+        },
+        {
+          "label": "C",
+          "text": "315 mL, because CO × HR = SV"
+        },
+        {
+          "label": "D",
+          "text": "90 mL, because SV equals HR in heart failure"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. CO = HR × SV, so SV = CO/HR = 3500 mL/min ÷ 90 bpm ≈ 39 mL/beat. This is markedly reduced from the normal ~70 mL, consistent with the patient's low ejection fraction (30%). The heart is compensating by increasing HR (90 bpm vs normal ~70 bpm) to partially maintain CO, but the reduced SV still results in inadequate output (3.5 vs 5 L/min).",
+        "B": "70 mL is a normal stroke volume. With HR = 90 bpm, that would give CO = 90 × 70 = 6300 mL/min = 6.3 L/min, which exceeds the measured 3.5 L/min. The patient's SV is significantly below normal.",
+        "C": "Multiplying CO × HR (3500 × 90 = 315,000) is the inverse of the correct operation. SV = CO ÷ HR, not CO × HR. A stroke volume of 315 mL would be physiologically impossible — the left ventricle holds only ~120 mL at end-diastole.",
+        "D": "SV does not equal HR. They are independent variables — HR is the number of beats per minute, SV is the volume ejected per beat. In this patient, the increased HR is a compensatory response to the reduced SV."
+      },
+      "topic": "Cardiac Output / Stroke Volume Calculation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_cardio_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The Frank-Starling mechanism states that increased venous return stretches the ventricle, increasing the force of contraction and stroke volume. In this patient's failing heart, this mechanism is impaired because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the ventricle cannot generate increased force in response to stretch — the myocardium is weakened, so the Starling curve is flattened and shifted downward"
+        },
+        {
+          "label": "B",
+          "text": "venous return is completely absent in heart failure"
+        },
+        {
+          "label": "C",
+          "text": "the Frank-Starling mechanism only operates in skeletal muscle, not cardiac muscle"
+        },
+        {
+          "label": "D",
+          "text": "the aortic valve prevents any blood from being ejected"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In a healthy heart, increased preload (end-diastolic volume) stretches sarcomeres toward optimal overlap, increasing the force of contraction (positive length-tension relationship). In heart failure, the damaged myocardium loses contractility — the Starling curve is flattened so that increases in preload produce minimal increases in stroke volume. At extreme volumes, further stretch may actually decrease output. The failing heart operates on a depressed Starling curve, unable to augment output in response to increased venous return.",
+        "B": "Venous return is not absent — in fact, heart failure often leads to increased venous pressure (congestion) because the heart cannot adequately pump forward. Elevated BNP in this patient reflects volume overload and ventricular stretch.",
+        "C": "The Frank-Starling mechanism is a fundamental property of cardiac muscle, not skeletal muscle. It describes the intrinsic ability of the heart to adjust its output based on the volume of blood returning to it. Skeletal muscle has a similar length-tension relationship but the Starling law specifically refers to the heart.",
+        "D": "The aortic valve opens normally during systole when left ventricular pressure exceeds aortic pressure. Aortic stenosis could impede ejection, but the passage does not indicate valve disease — the problem is myocardial contractility."
+      },
+      "topic": "Frank-Starling Mechanism / Heart Failure",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_cardio_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The patient's elevated BNP (B-type natriuretic peptide) is released from ventricular cardiomyocytes in response to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decreased blood volume and dehydration"
+        },
+        {
+          "label": "B",
+          "text": "low ventricular wall stress and underfilling"
+        },
+        {
+          "label": "C",
+          "text": "volume overload and increased ventricular wall stretch — BNP promotes natriuresis and vasodilation to reduce preload"
+        },
+        {
+          "label": "D",
+          "text": "elevated blood glucose levels"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. BNP is synthesized and released by ventricular myocytes when they are stretched by volume overload. BNP acts as a counter-regulatory hormone: it promotes renal sodium and water excretion (natriuresis/diuresis), vasodilation, and suppresses the RAAS and sympathetic nervous system — all reducing preload and afterload. Clinically, BNP levels are used as a biomarker for heart failure severity. In this patient, the failing heart cannot adequately eject blood, leading to backup, volume overload, and compensatory BNP release.",
+        "A": "BNP is released in response to volume overload, not dehydration. Decreased blood volume would reduce ventricular stretch and lower BNP levels.",
+        "B": "BNP release is triggered by increased wall stress and overfilling, not underfilling. Low preload would reduce BNP secretion.",
+        "D": "Blood glucose levels do not regulate BNP release. BNP is a cardiac biomarker responsive to mechanical stretch of cardiomyocytes, not metabolic signals."
+      },
+      "topic": "BNP / Natriuretic Peptides",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The baroreceptor reflex is chronically activated in this patient. Baroreceptors detect changes in blood pressure by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "measuring blood glucose concentrations"
+        },
+        {
+          "label": "B",
+          "text": "sensing the degree of stretch in the walls of the carotid sinus and aortic arch — increased stretch signals high pressure, decreased stretch signals low pressure"
+        },
+        {
+          "label": "C",
+          "text": "directly measuring cardiac output in the SA node"
+        },
+        {
+          "label": "D",
+          "text": "detecting changes in blood oxygen levels in the kidneys"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Baroreceptors are mechanoreceptors (stretch-sensitive neurons) in the carotid sinus (CN IX, glossopharyngeal nerve) and aortic arch (CN X, vagus nerve). When blood pressure rises, vessel walls stretch more, increasing baroreceptor firing rate. The brainstem (nucleus tractus solitarius) processes these signals and adjusts autonomic output: high pressure → increased parasympathetic (vagal) tone and decreased sympathetic tone → lower HR, vasodilation, lower CO. In this heart failure patient, chronically low CO causes persistent low baroreceptor firing, driving compensatory sympathetic activation (↑HR, vasoconstriction).",
+        "A": "Blood glucose is detected by pancreatic β-cells and hypothalamic glucose-sensing neurons, not baroreceptors. Baroreceptors are pressure sensors, not metabolic sensors.",
+        "C": "Baroreceptors are located in the carotid sinus and aortic arch, not the SA node. The SA node generates the cardiac rhythm but does not measure blood pressure.",
+        "D": "Oxygen-sensing chemoreceptors are located in the carotid body (peripheral) and medulla (central). These detect changes in PaO₂, PaCO₂, and pH, not pressure. Baroreceptors detect mechanical stretch (pressure), not chemical composition."
+      },
+      "topic": "Baroreceptor Reflex / Blood Pressure Regulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_003",
+      "passage": null,
+      "stem": "During the cardiac cycle, the first heart sound (S1) is produced by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "opening of the aortic and pulmonic valves"
+        },
+        {
+          "label": "B",
+          "text": "atrial contraction pushing blood into the ventricles"
+        },
+        {
+          "label": "C",
+          "text": "closure of the aortic and pulmonic valves at the onset of diastole"
+        },
+        {
+          "label": "D",
+          "text": "closure of the mitral (bicuspid) and tricuspid valves at the onset of ventricular systole"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Atrial contraction (atrial kick) contributes the final ~15-25% of ventricular filling but does not produce S1. An audible S4 heart sound can occur if atrial contraction meets a stiff, non-compliant ventricle.",
+        "A": "Opening of the semilunar valves (aortic and pulmonic) occurs silently when ventricular pressure exceeds arterial pressure. Valve opening does not produce a normal heart sound.",
+        "C": "Closure of the aortic and pulmonic (semilunar) valves produces the second heart sound (S2, 'dub'), not S1. S2 marks the beginning of diastole and isovolumetric relaxation.",
+        "D": "Correct. S1 ('lub') is produced by the closure of the atrioventricular (AV) valves — the mitral valve on the left and tricuspid valve on the right — as ventricular pressure rises above atrial pressure at the beginning of systole. This marks the start of isovolumetric contraction (all four valves are closed, ventricle contracts, pressure rises rapidly). The mitral component (M1) slightly precedes the tricuspid component (T1) because the left ventricle contracts slightly before the right."
+      },
+      "topic": "Heart Sounds / Cardiac Cycle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_005",
+      "passage": null,
+      "stem": "Blood pressure is determined by CO × TPR (total peripheral resistance). Arterioles are the primary resistance vessels because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "they are the largest blood vessels with the most blood volume"
+        },
+        {
+          "label": "B",
+          "text": "they lack smooth muscle and cannot change diameter"
+        },
+        {
+          "label": "C",
+          "text": "their small diameter and thick smooth muscle walls allow precise regulation of resistance through vasoconstriction and vasodilation"
+        },
+        {
+          "label": "D",
+          "text": "they connect directly to veins without passing through capillaries"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "B": "Arterioles have prominent smooth muscle layers — this is precisely what allows them to regulate resistance. Capillaries (not arterioles) lack smooth muscle and have walls only one endothelial cell thick.",
+        "A": "The largest blood vessels are the aorta and vena cava. Veins (not arterioles) hold the most blood volume (~60-70% of total blood volume), serving as capacitance vessels. Arterioles are small resistance vessels.",
+        "C": "Correct. Arterioles have a small lumen diameter (10-100 µm) relative to thick muscular walls, giving them the highest resistance per unit length. Smooth muscle contraction (vasoconstriction) dramatically reduces lumen area — since resistance is proportional to 1/r⁴ (Poiseuille's law), small changes in radius produce large changes in resistance. Sympathetic innervation (α₁ receptors), local metabolites (adenosine, CO₂, NO), and hormones (angiotensin II, epinephrine) regulate arteriolar tone. Arterioles are the primary site where blood pressure drop occurs (~50% of total pressure drop).",
+        "D": "Arterioles connect to capillary beds, which then drain into venules and veins. The arteriole → capillary → venule sequence is the fundamental microcirculatory unit where exchange occurs."
+      },
+      "topic": "Arterioles / Peripheral Resistance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_006",
+      "passage": null,
+      "stem": "The sinoatrial (SA) node is the primary pacemaker of the heart because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it has the fastest intrinsic depolarization rate — its pacemaker cells spontaneously depolarize faster than the AV node or Purkinje fibers, setting the heart rate"
+        },
+        {
+          "label": "B",
+          "text": "it is located in the left ventricle and directly controls ventricular contraction"
+        },
+        {
+          "label": "C",
+          "text": "it receives motor innervation from somatic nerves that command each heartbeat"
+        },
+        {
+          "label": "D",
+          "text": "it requires external electrical stimulation to generate action potentials"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. SA node pacemaker cells have the highest intrinsic firing rate (~60-100 bpm) due to their unstable resting membrane potential. Funny channels (If) allow Na⁺ influx during diastole, producing a slow diastolic depolarization (pacemaker potential). When threshold is reached, Ca²⁺ channels open, generating the upstroke. Because the SA node depolarizes fastest, it drives the heart rate and suppresses slower pacemakers (AV node ~40-60 bpm, Purkinje fibers ~20-40 bpm) through overdrive suppression.",
+        "B": "The SA node is located in the right atrium (near the superior vena cava junction), not the left ventricle. It initiates the electrical impulse that propagates through the atria, then through the AV node, bundle of His, and Purkinje fibers to the ventricles.",
+        "C": "The heart is myogenic — it generates its own rhythm without requiring neural input. The autonomic nervous system modulates heart rate (sympathetic increases, parasympathetic/vagus decreases) but does not initiate each beat. Denervated transplanted hearts still beat.",
+        "D": "SA node cells spontaneously depolarize without any external stimulation. This automaticity is the hallmark of cardiac pacemaker cells and distinguishes them from working cardiomyocytes, which require an external stimulus."
+      },
+      "topic": "SA Node / Cardiac Pacemaker",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_007",
+      "passage": null,
+      "stem": "Capillaries are the site of gas and nutrient exchange because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "they have thick muscular walls that actively pump substances across"
+        },
+        {
+          "label": "B",
+          "text": "they have the fastest blood flow velocity of any vessel"
+        },
+        {
+          "label": "C",
+          "text": "their walls are one endothelial cell thick, their total cross-sectional area is enormous (slowing flow velocity), and they are in close proximity to every tissue cell"
+        },
+        {
+          "label": "D",
+          "text": "they are impermeable to all solutes and only exchange gases"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Capillary walls consist of a single layer of endothelial cells on a thin basement membrane (~0.5 µm thick), minimizing diffusion distance. Although individual capillaries are tiny, there are billions of them — their total cross-sectional area (~4500 cm² vs aorta ~2.5 cm²) is the largest in the circulation. By the continuity equation (A₁v₁ = A₂v₂), this enormous area produces very slow flow velocity (~0.03 cm/s), maximizing time for diffusion. Capillary density ensures every cell is within ~100 µm of a capillary.",
+        "A": "Capillaries lack smooth muscle and have the thinnest walls of any vessel. They do not actively pump — exchange occurs by passive diffusion, filtration, and transcytosis.",
+        "B": "Capillaries have the slowest flow velocity of any vessel type, not the fastest. The aorta has the highest velocity (~40 cm/s). Slow capillary flow is essential to allow adequate time for diffusion-based exchange.",
+        "D": "Capillaries exchange gases (O₂, CO₂), nutrients (glucose, amino acids), waste products (urea), hormones, and water. They are selectively permeable, not impermeable. Continuous capillaries have tight junctions with small intercellular clefts; fenestrated capillaries (kidney, intestine) have pores; sinusoidal capillaries (liver, spleen) have large gaps."
+      },
+      "topic": "Capillary Exchange / Cross-Sectional Area",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_009",
+      "passage": null,
+      "stem": "Venous return to the heart is aided by all of the following EXCEPT:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "contraction of skeletal muscles surrounding veins (skeletal muscle pump)"
+        },
+        {
+          "label": "B",
+          "text": "negative intrathoracic pressure during inspiration (respiratory pump)"
+        },
+        {
+          "label": "C",
+          "text": "one-way venous valves that prevent backflow"
+        },
+        {
+          "label": "D",
+          "text": "high hydrostatic pressure in the venous system, which drives blood forcefully toward the heart"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct (this is the exception). Venous pressure is low (~5-10 mmHg), not high. By the time blood reaches the venules and veins, most of the pressure generated by the heart has been dissipated across the arterioles and capillaries. Venous return relies on auxiliary mechanisms (skeletal muscle pump, respiratory pump, valves) precisely because venous pressure is too low to drive return by pressure alone. High-pressure flow occurs in arteries, not veins.",
+        "A": "The skeletal muscle pump is a major driver of venous return, especially from the lower extremities. When leg muscles contract during walking, they compress surrounding veins, pushing blood toward the heart. Venous valves prevent backflow between contractions.",
+        "B": "During inspiration, the diaphragm descends, creating negative intrathoracic pressure. This expands the thoracic veins and right atrium, creating a pressure gradient that draws blood from the abdominal veins into the thorax — the respiratory pump.",
+        "C": "One-way valves in veins (especially in the legs) prevent retrograde flow and ensure that blood moves only toward the heart. Incompetent valves lead to venous insufficiency and varicose veins."
+      },
+      "topic": "Venous Return Mechanisms",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_cardio_010",
+      "passage": null,
+      "stem": "The fetal circulation differs from postnatal circulation in that the fetus uses the ductus arteriosus to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "shunt oxygenated blood from the umbilical vein directly to the brain"
+        },
+        {
+          "label": "B",
+          "text": "connect the pulmonary artery to the aorta, bypassing the non-functional fetal lungs — most right ventricular output goes directly to the systemic circulation"
+        },
+        {
+          "label": "C",
+          "text": "increase blood flow to the fetal lungs for gas exchange"
+        },
+        {
+          "label": "D",
+          "text": "deliver blood from the aorta to the placenta"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. In fetal circulation, the lungs are collapsed and fluid-filled — gas exchange occurs at the placenta, not the lungs. Pulmonary vascular resistance is very high, so most blood ejected by the right ventricle into the pulmonary artery is diverted through the ductus arteriosus into the descending aorta, bypassing the pulmonary circuit. After birth, the first breath expands the lungs, dropping pulmonary resistance. Increased PaO₂ and decreased prostaglandins cause the ductus arteriosus to constrict and close (becoming the ligamentum arteriosum). Failure to close = patent ductus arteriosus (PDA).",
+        "A": "The ductus arteriosus connects the pulmonary artery to the aorta, not the umbilical vein to the brain. The ductus venosus (a separate shunt) bypasses the liver, directing umbilical vein blood toward the inferior vena cava.",
+        "C": "The ductus arteriosus diverts blood away from the lungs, not toward them. Fetal lungs receive only ~10% of right ventricular output. After birth, closure of the ductus allows full pulmonary blood flow.",
+        "D": "Blood reaches the placenta via the umbilical arteries (branches of the internal iliac arteries), not through the ductus arteriosus. The ductus arteriosus is a pulmonary artery → aorta connection."
+      },
+      "topic": "Fetal Circulation / Ductus Arteriosus",
+      "difficulty": "Hard"
+    }
+  ]
+}

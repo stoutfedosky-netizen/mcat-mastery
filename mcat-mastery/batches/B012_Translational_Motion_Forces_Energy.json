@@ -1,0 +1,503 @@
+{
+  "batch": "B012",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Translational Motion, Forces, Work, Energy & Equilibrium",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cp_motion_001",
+      "passage": "An orthopedic biomechanist analyzes the forces acting on the human knee during a deep squat. The subject has a mass of 80 kg and holds a 20-kg barbell across the shoulders. At the lowest point of the squat, the subject holds the position motionless for several seconds (an isometric hold) with the femur at 30\u00b0 below horizontal. A simplified model treats the quadriceps tendon as a single force vector pulling along the axis of the femur, and the patellar tendon as transmitting force vertically upward on the tibia. The knee joint is modeled as a frictionless hinge. The weight of the lower leg (4.5 kg) acts at its center of mass, located 20 cm distal to the knee joint. At the lowest point of the squat, the lower leg is approximately horizontal, so this 20 cm distance serves as the perpendicular moment arm for the gravitational torque. The patellar tendon inserts 5 cm distal to the knee joint axis of rotation.",
+      "stem": "At the lowest point of the squat, the net force on the subject is zero. Which of the following best explains why?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The subject is momentarily at rest with zero velocity, so by Newton's first law, the net force must be zero."
+        },
+        {
+          "label": "B",
+          "text": "The subject has zero acceleration at the lowest point because the velocity changes direction, requiring the net force to be zero by Newton's second law."
+        },
+        {
+          "label": "C",
+          "text": "The normal force from the ground exactly equals the total gravitational force on the system, so the net force is zero."
+        },
+        {
+          "label": "D",
+          "text": "The subject is momentarily stationary and about to reverse direction; at this turning point the instantaneous acceleration is zero, making the net force zero."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Zero velocity alone does not imply zero net force. An object at the top of its trajectory during projectile motion has zero vertical velocity but nonzero gravitational force and acceleration. Newton's first law states that zero net force implies constant velocity (which could be zero), not that zero velocity implies zero net force. The critical additional fact here is that the subject holds this position \u2014 the acceleration is also zero.",
+        "B": "A change in direction of velocity does not require zero acceleration at the turning point in general. For example, a ball bouncing off a wall reverses direction but has a large acceleration during the reversal. However, in this case the subject is performing a controlled squat and is described as momentarily stationary at the bottom \u2014 the problem implies zero acceleration at this isometric hold.",
+        "C": "While it is true that the normal force equals the gravitational force at this point, this is a consequence of zero acceleration, not an independent explanation. The question asks why the net force is zero, not what forces are present. Simply listing a force balance doesn't explain the underlying physics \u2014 Newton's second law with a = 0 does.",
+        "D": "The subject is holding a static isometric position \u2014 motionless for several seconds with zero velocity and zero acceleration. By Newton's second law (F = ma), zero acceleration means zero net force. All forces \u2014 gravitational, normal, and muscular \u2014 are in equilibrium. This is distinct from a momentary turning point where velocity passes through zero but acceleration may be nonzero (as with a ball at the top of its trajectory)."
+      },
+      "topic": "Newton's Laws / Equilibrium",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_motion_002",
+      "passage": null,
+      "stem": "Using the simplified model described in the passage, what is the approximate torque exerted by the weight of the lower leg about the knee joint?",
+      "passageRef": "cp_motion_001",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4.5 N\u00b7m"
+        },
+        {
+          "label": "B",
+          "text": "8.8 N\u00b7m"
+        },
+        {
+          "label": "C",
+          "text": "6.4 N\u00b7m"
+        },
+        {
+          "label": "D",
+          "text": "0.9 N\u00b7m"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This result comes from using \u03c4 = mgd without converting mass to weight, effectively using 4.5 \u00d7 1 \u00d7 0.20 = 0.9 and then perhaps multiplying by 5 for an unclear reason, or using the distance in cm rather than meters. The correct calculation is \u03c4 = (4.5 kg)(9.8 m/s\u00b2)(0.20 m) = 8.82 N\u00b7m.",
+        "B": "Torque = force \u00d7 perpendicular lever arm = mg \u00d7 d = (4.5 kg)(9.8 m/s\u00b2)(0.20 m) = 8.82 \u2248 8.8 N\u00b7m. The weight of the lower leg (4.5 \u00d7 9.8 = 44.1 N) acts at the center of mass, 20 cm from the knee joint. Since the passage specifies the lower leg is approximately horizontal at the lowest point, the full 20 cm serves as the perpendicular moment arm for the gravitational torque about the knee.",
+        "C": "This might result from using cos(30\u00b0) or sin(30\u00b0) to find a component of the lever arm. However, the passage states that the weight acts at the center of mass 20 cm distal to the knee joint, and weight acts vertically. The perpendicular distance depends on the geometry, but with the simplified model treating the lower leg as roughly horizontal at this point, the full 20 cm is the appropriate lever arm.",
+        "D": "This result (0.9 N\u00b7m) comes from calculating 4.5 \u00d7 0.20 = 0.9, which omits the conversion of mass (kg) to weight (N) using g = 9.8 m/s\u00b2. Torque requires force (in newtons), not mass (in kilograms)."
+      },
+      "topic": "Torque / Rotational Equilibrium",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_motion_003",
+      "passage": null,
+      "stem": "If the subject in the passage were to perform the same squat on the Moon (g = 1.6 m/s\u00b2), how would the force required from the quadriceps to maintain the same position compare to Earth?",
+      "passageRef": "cp_motion_001",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The quadriceps force would be approximately one-sixth as large because gravitational force scales linearly with g."
+        },
+        {
+          "label": "B",
+          "text": "The quadriceps force would be the same because the mass of the system has not changed."
+        },
+        {
+          "label": "C",
+          "text": "The quadriceps force would be approximately one-sixth as large, but the required muscle activation would be the same because muscle force depends on cross-sectional area, not gravity."
+        },
+        {
+          "label": "D",
+          "text": "The quadriceps force would increase because reduced gravity destabilizes the squat position."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "In static equilibrium, the quadriceps must generate enough torque to balance the gravitational torque of the body and barbell about the knee. Since gravitational torque = mgd, and g on the Moon is roughly 1/6 of Earth's g (1.6/9.8 \u2248 0.163), the required quadriceps force is proportionally reduced. The geometry and lever arms remain unchanged.",
+        "B": "While mass is indeed unchanged, force is mass \u00d7 acceleration. In the torque balance, all gravitational forces (which the quadriceps must oppose) scale with g. Reducing g by a factor of ~6 reduces the required force by the same factor. Mass alone does not determine the required muscle force \u2014 weight does.",
+        "C": "The first part is correct \u2014 the quadriceps force would be roughly one-sixth. However, the claim about muscle activation is misleading. Muscle activation (neural drive) scales with the force demanded, not with the muscle's intrinsic capacity. A lower force demand means lower activation. Cross-sectional area determines maximum force capacity, not the force required for a given task.",
+        "D": "Reduced gravity does not destabilize the squat. Stability in the squat depends on the center of mass remaining over the base of support. Reduced gravitational force makes the squat easier to hold, not harder \u2014 all torques are reduced proportionally."
+      },
+      "topic": "Newton's Laws / Gravitational Scaling",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_motion_004",
+      "passage": "A biomedical engineer designs a crash-test simulation for a new motorcycle helmet. In the test, a 5-kg headform fitted with the helmet is dropped from a height of 2.0 m onto a rigid steel anvil. An accelerometer embedded in the headform records the deceleration profile during impact. Without the helmet, the headform comes to rest in 0.5 ms. With the helmet, the impact duration increases to 12 ms. The helmet's crushable EPS (expanded polystyrene) liner deforms irreversibly during the impact, absorbing energy through permanent compression of its cellular structure. The test is considered passed if the peak deceleration remains below 300g, where g = 9.8 m/s\u00b2.",
+      "stem": "What is the approximate speed of the headform just before impact after falling from 2.0 m?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4.4 m/s"
+        },
+        {
+          "label": "B",
+          "text": "6.3 m/s"
+        },
+        {
+          "label": "C",
+          "text": "9.8 m/s"
+        },
+        {
+          "label": "D",
+          "text": "19.6 m/s"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This would result from using v = \u221a(gh) instead of v = \u221a(2gh), omitting the factor of 2. The correct kinematic equation derived from energy conservation is v = \u221a(2gh).",
+        "B": "Using conservation of energy: mgh = \u00bdmv\u00b2. Solving for v: v = \u221a(2gh) = \u221a(2 \u00d7 9.8 \u00d7 2.0) = \u221a(39.2) = 6.26 \u2248 6.3 m/s. Equivalently, using kinematics: v\u00b2 = v\u2080\u00b2 + 2gh = 0 + 2(9.8)(2.0) = 39.2, so v = 6.3 m/s.",
+        "C": "This is simply g \u00d7 1 second, suggesting the student used v = gt with t = 1 s. However, the fall time from 2.0 m is not 1 second \u2014 it is t = \u221a(2h/g) = \u221a(2\u00d72/9.8) \u2248 0.64 s. More importantly, the question gives height, not time, so the energy method is more direct.",
+        "D": "This is 2g, or g \u00d7 2 seconds. This error likely comes from substituting the height (2.0 m) as a time value in v = gt. Height and time are different quantities with different units."
+      },
+      "topic": "Kinematics / Energy Conservation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_motion_005",
+      "passage": null,
+      "stem": "The helmet extends the impact duration from 0.5 ms to 12 ms. By what factor does the helmet reduce the average force experienced by the headform during impact?",
+      "passageRef": "cp_motion_004",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "11.5"
+        },
+        {
+          "label": "C",
+          "text": "24"
+        },
+        {
+          "label": "D",
+          "text": "144"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This would result from dividing 12 by 2, perhaps confusing 2.0 m (height) with 0.5 ms (unprotected impact time), or from estimating 12/0.5 \u2248 6 by accidentally using 12/2.",
+        "B": "This results from computing 12/0.5 = 24, then subtracting 12.5 or dividing by 2 \u2014 an error that might arise from confusing force ratio with force reduction. The impulse-momentum theorem gives the ratio directly as 12/0.5 = 24.",
+        "C": "By the impulse-momentum theorem, impulse (F\u0394t) equals the change in momentum (\u0394p). Since the headform has the same mass and impact velocity in both cases, \u0394p is identical. Therefore F\u2081\u0394t\u2081 = F\u2082\u0394t\u2082, which gives F\u2081/F\u2082 = \u0394t\u2082/\u0394t\u2081 = 12 ms / 0.5 ms = 24. The helmet reduces the average force by a factor of 24.",
+        "D": "This is 12/0.5 squared = 576, or possibly 24 \u00d7 6 = 144. The impulse-momentum theorem gives a linear relationship between force and time (F \u221d 1/\u0394t for constant impulse), not a squared relationship."
+      },
+      "topic": "Impulse-Momentum Theorem",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_motion_006",
+      "passage": null,
+      "stem": "The EPS liner absorbs energy through irreversible plastic deformation rather than elastic compression. Which of the following best explains why plastic deformation is preferable for helmet design?",
+      "passageRef": "cp_motion_004",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Plastic deformation converts kinetic energy into thermal energy and permanent structural change, so the energy is not returned to the headform."
+        },
+        {
+          "label": "B",
+          "text": "Elastic materials store energy and return it as kinetic energy during rebound, increasing the total impulse on the head."
+        },
+        {
+          "label": "C",
+          "text": "Elastic materials cannot deform enough to extend the impact duration beyond 1 ms."
+        },
+        {
+          "label": "D",
+          "text": "Plastic deformation produces a constant deceleration, while elastic deformation produces a linearly increasing deceleration."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Plastic (inelastic) deformation permanently converts kinetic energy into heat, sound, and microstructural damage in the foam. Unlike an elastic material (which acts like a spring, storing energy and releasing it during rebound), a crushable liner ensures the impact energy is dissipated rather than returned to the headform. This minimizes both the rebound velocity and the peak forces experienced during impact.",
+        "B": "This answer correctly identifies the rebound problem with elastic materials \u2014 stored elastic potential energy is returned as kinetic energy. However, it incorrectly claims this increases the total impulse on the head. The rebound does increase the change in momentum (and thus the impulse), since the head reverses direction rather than simply stopping, but the core reason plastic deformation is preferred is that it permanently absorbs the energy rather than returning it. This answer has the right intuition but attributes the advantage to the wrong mechanism.",
+        "C": "Elastic materials can certainly deform substantially \u2014 rubber, for example, can undergo large elastic strains. The limitation of elastic materials in helmets is not the magnitude of deformation but the energy return during rebound. This answer confuses material stiffness with energy dissipation behavior.",
+        "D": "The deceleration profile depends on the specific material properties and geometry, not simply on whether the deformation is elastic or plastic. Plastic deformation does not necessarily produce constant deceleration \u2014 it depends on the foam's stress-strain curve. The advantage of plastic deformation is energy absorption, not a particular force profile."
+      },
+      "topic": "Work-Energy Theorem / Material Properties",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_motion_007",
+      "passage": "A physical therapist uses a pulley-based traction system to apply a controlled longitudinal force to a patient's cervical spine. The system consists of a weight hanging over a frictionless pulley attached to the ceiling, with a cord connected to a padded head halter. The patient sits upright in a chair with the cord running at an angle of 30\u00b0 above horizontal from the halter to the pulley. The therapist hangs a 5-kg weight on the free end of the cord. The patient's head has a mass of 4.5 kg.",
+      "stem": "What is the magnitude of the horizontal component of the traction force applied to the patient's head?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "24.5 N"
+        },
+        {
+          "label": "B",
+          "text": "42.4 N"
+        },
+        {
+          "label": "C",
+          "text": "49.0 N"
+        },
+        {
+          "label": "D",
+          "text": "12.3 N"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This is the vertical component of the traction force: T sin(30\u00b0) = 49.0 \u00d7 0.5 = 24.5 N. The question asks for the horizontal component, which uses cosine, not sine, for the angle measured from horizontal.",
+        "B": "The tension in the cord equals the weight hung over the pulley (frictionless): T = mg = 5 \u00d7 9.8 = 49.0 N. The horizontal component is T cos(30\u00b0) = 49.0 \u00d7 (\u221a3/2) = 49.0 \u00d7 0.866 = 42.4 N. This is the component that provides the longitudinal traction force along the spine's axis.",
+        "C": "This is the full tension in the cord (49.0 N), not the horizontal component. The cord runs at 30\u00b0 above horizontal, so only the horizontal projection (T cos 30\u00b0) acts along the longitudinal axis of the cervical spine.",
+        "D": "This might result from using the mass of the head (4.5 kg) instead of the hanging weight (5 kg), or from computing T sin(30\u00b0)/2. The traction force depends on the hanging weight and the angle, not on the mass of the patient's head."
+      },
+      "topic": "Force Components / Trigonometry",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_motion_008",
+      "passage": null,
+      "stem": "If the therapist wants to increase the horizontal traction force without adding more weight, which modification to the system would be most effective?",
+      "passageRef": "cp_motion_007",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Move the pulley so the cord angle decreases from 30\u00b0 to 15\u00b0 above horizontal."
+        },
+        {
+          "label": "B",
+          "text": "Replace the frictionless pulley with one that has significant friction."
+        },
+        {
+          "label": "C",
+          "text": "Increase the length of the cord between the pulley and the head halter."
+        },
+        {
+          "label": "D",
+          "text": "Move the pulley so the cord angle increases from 30\u00b0 to 60\u00b0 above horizontal."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The horizontal component is T cos(\u03b8). Decreasing the angle from 30\u00b0 to 15\u00b0 increases cos(\u03b8) from 0.866 to 0.966, which increases the horizontal force from 42.4 N to 47.3 N \u2014 a ~12% increase with no additional weight. As the cord approaches horizontal, nearly all of the tension contributes to the horizontal traction.",
+        "B": "Friction in the pulley would reduce the tension transmitted to the patient's head, since some of the hanging weight's force would be lost to friction. This would decrease both the total and horizontal traction force \u2014 the opposite of the desired effect.",
+        "C": "The length of the cord does not affect the tension or the force components. Tension is uniform throughout an ideal cord regardless of its length. Cord length affects only the geometry of the setup (and indirectly the angle), not the magnitude of the force for a given angle.",
+        "D": "Increasing the angle to 60\u00b0 would decrease cos(\u03b8) from 0.866 to 0.5, reducing the horizontal component from 42.4 N to 24.5 N \u2014 a significant decrease. More of the force would be directed vertically, pulling the head upward rather than providing longitudinal traction."
+      },
+      "topic": "Force Resolution / Vector Components",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_motion_009",
+      "passage": null,
+      "stem": "While the traction system is applied, the patient's head remains stationary. Which of the following free-body diagram descriptions correctly accounts for all forces acting on the patient's head?",
+      "passageRef": "cp_motion_007",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Tension along the cord, gravitational force downward, and a normal force from the neck directed upward and anteriorly"
+        },
+        {
+          "label": "B",
+          "text": "Tension along the cord and gravitational force downward only, since the head is stationary"
+        },
+        {
+          "label": "C",
+          "text": "Tension along the cord, gravitational force downward, and a contact force from the neck that balances the net of the other two forces"
+        },
+        {
+          "label": "D",
+          "text": "Tension along the cord directed horizontally, gravitational force downward, and a normal force from the chair directed upward"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This has the right forces present but specifies the direction of the neck force incorrectly. The neck force direction depends on the vector sum of tension and gravity, and since the traction pulls up and forward while gravity pulls down, the neck must push the head down and backward to maintain equilibrium. The direction cannot be specified as simply 'upward and anteriorly' without doing the vector analysis.",
+        "B": "If only tension and gravity acted on the head, the head could only be in equilibrium if these two forces were equal and opposite \u2014 but they are not (they act at different angles and have different magnitudes). A third force from the neck/spine is required to close the force triangle and maintain the observed static equilibrium.",
+        "C": "Three forces act on the head: (1) the cord tension pulling upward and forward along the cord, (2) gravity pulling straight down (m_head \u00d7 g = 44.1 N), and (3) a contact force from the cervical spine/neck musculature. Since the head is in static equilibrium (a = 0), these three forces must sum to zero. The neck force vector must exactly balance the resultant of the tension and gravitational force.",
+        "D": "This answer contains two errors. First, the tension is along the cord at 30\u00b0 above horizontal, not purely horizontal. Second, the head is not resting on a chair \u2014 the chair supports the body, and the head is supported by the neck. There is no normal force from the chair acting directly on the head."
+      },
+      "topic": "Free-Body Diagrams / Static Equilibrium",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_motion_010",
+      "passage": "A forensic biomechanist analyzes a pedestrian-vehicle collision. The pedestrian (mass 70 kg) was initially stationary when struck by the front bumper of a car traveling at 40 km/h (11.1 m/s). High-speed video analysis reveals that after impact, the pedestrian's center of mass traveled with the car for 0.15 seconds before separating. Accident reconstruction models the collision as a perfectly inelastic event during the 0.15-second contact phase. The car has a mass of 1,500 kg. After separation, the pedestrian becomes a projectile launched at 25\u00b0 above horizontal. Air resistance is negligible.",
+      "stem": "Assuming a perfectly inelastic collision during the contact phase, what is the approximate speed of the pedestrian-car system immediately after the collision?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.5 m/s"
+        },
+        {
+          "label": "B",
+          "text": "5.3 m/s"
+        },
+        {
+          "label": "C",
+          "text": "10.6 m/s"
+        },
+        {
+          "label": "D",
+          "text": "11.1 m/s"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This would be the result if the car's mass were much closer to the pedestrian's mass (e.g., a 70-kg object hitting another 70-kg object). With the car 21\u00d7 heavier than the pedestrian, the combined system retains most of the car's original velocity.",
+        "B": "This might result from dividing the car's momentum by the sum of both masses and then halving: (1500 \u00d7 11.1)/1570/2 \u2248 5.3. There is no physical basis for the additional division by 2 \u2014 the conservation of momentum equation is m\u2081v\u2081 = (m\u2081 + m\u2082)v_f.",
+        "C": "Conservation of momentum: m_car \u00d7 v_car = (m_car + m_ped) \u00d7 v_f. So v_f = (1500 \u00d7 11.1) / (1500 + 70) = 16,650 / 1,570 = 10.6 m/s. The combined system moves at 10.6 m/s \u2014 only slightly slower than the car's initial 11.1 m/s, because the pedestrian's mass is small relative to the car's.",
+        "D": "This is the car's initial velocity. In a perfectly inelastic collision, the final velocity of the combined system is always less than the initial velocity of the moving object (unless the stationary object has zero mass). Some kinetic energy is lost to deformation, heat, and sound \u2014 though with the car being much heavier, the speed reduction is small."
+      },
+      "topic": "Conservation of Momentum / Inelastic Collisions",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_motion_011",
+      "passage": null,
+      "stem": "After separating from the car, the pedestrian is launched at 10.6 m/s at 25\u00b0 above horizontal. What is the approximate maximum height reached by the pedestrian's center of mass above the launch point?",
+      "passageRef": "cp_motion_010",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.5 m"
+        },
+        {
+          "label": "B",
+          "text": "1.0 m"
+        },
+        {
+          "label": "C",
+          "text": "2.5 m"
+        },
+        {
+          "label": "D",
+          "text": "5.7 m"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This could result from using the full velocity (10.6 m/s) but computing h = v\u00b2/(4g) or a similar error in the kinematic formula. The correct approach isolates the vertical component first, then applies h = v_y\u00b2/(2g).",
+        "B": "The vertical component of launch velocity is v_y = 10.6 \u00d7 sin(25\u00b0) = 10.6 \u00d7 0.423 = 4.48 m/s. At maximum height, v_y = 0. Using v\u00b2 = v\u2080\u00b2 \u2212 2gh: 0 = (4.48)\u00b2 \u2212 2(9.8)h, so h = 20.1/19.6 = 1.03 \u2248 1.0 m.",
+        "C": "This might result from using the full launch speed (10.6 m/s) as the vertical component: h = (10.6)\u00b2/(2 \u00d7 9.8) = 5.7 m, and then halving to get 2.85 \u2248 2.5. The error is in not properly decomposing the velocity into vertical and horizontal components before calculating maximum height.",
+        "D": "This uses the full launch speed as though it were entirely vertical: h = v\u00b2/(2g) = (10.6)\u00b2/(19.6) = 5.7 m. Only the vertical component (v sin 25\u00b0) determines the maximum height. The horizontal component carries the pedestrian forward but does not contribute to vertical rise."
+      },
+      "topic": "Projectile Motion / Kinematics",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_motion_012",
+      "passage": null,
+      "stem": "The biomechanist calculates that approximately 8,400 J of kinetic energy was lost during the contact phase. This energy was most likely converted into which of the following?",
+      "passageRef": "cp_motion_010",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Gravitational potential energy of the pedestrian"
+        },
+        {
+          "label": "B",
+          "text": "Elastic potential energy stored in the car's bumper and the pedestrian's skeletal system"
+        },
+        {
+          "label": "C",
+          "text": "Sound energy only, since the collision is described as perfectly inelastic"
+        },
+        {
+          "label": "D",
+          "text": "Thermal energy and permanent deformation of the car's body panels, bumper, and the pedestrian's tissues"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "At the moment immediately after collision, the pedestrian has barely risen \u2014 the 0.15-second contact phase occurs essentially at ground level. Gravitational PE changes become significant during the projectile phase after separation, not during the contact phase. The 8,400 J lost during contact is not stored as gravitational PE.",
+        "B": "In a perfectly inelastic collision, deformation is permanent (plastic), not elastic. Elastic potential energy implies the deformed materials would spring back to their original shape, returning the stored energy as kinetic energy. The problem states the collision is perfectly inelastic, which means the objects stick together and deformation is irreversible.",
+        "C": "While sound is produced during the collision, it accounts for a negligible fraction of the 8,400 J. The vast majority of kinetic energy lost in vehicle-pedestrian collisions goes to permanent structural deformation (crumpling of metal, fracture of bone, tearing of tissue) and heat generation at the deformation interfaces.",
+        "D": "In a perfectly inelastic collision, the kinetic energy lost (KE_initial \u2212 KE_final) is converted primarily into thermal energy from friction and permanent deformation of materials. The car's bumper, hood, and body panels deform plastically (dent, crumple), and the pedestrian's tissues undergo irreversible injury. These are non-conservative energy transformations."
+      },
+      "topic": "Energy Conservation / Inelastic Collisions",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_motion_013",
+      "passage": null,
+      "stem": "A 2-kg block is placed on a ramp inclined at 37\u00b0 to the horizontal. The coefficient of static friction between the block and the ramp is 0.90. What is the maximum static friction force available to prevent the block from sliding? (sin 37\u00b0 = 0.60, cos 37\u00b0 = 0.80)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "14.1 N"
+        },
+        {
+          "label": "B",
+          "text": "11.8 N"
+        },
+        {
+          "label": "C",
+          "text": "15.7 N"
+        },
+        {
+          "label": "D",
+          "text": "17.6 N"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Maximum static friction = \u03bc\u209b \u00d7 N = \u03bc\u209b \u00d7 mg cos(\u03b8) = 0.90 \u00d7 (2)(9.8)(0.80) = 0.90 \u00d7 15.68 = 14.1 N. The normal force on an incline is mg cos \u03b8, not the full weight. Since mg sin(37\u00b0) = 11.8 N < 14.1 N, the block does not slide \u2014 the available friction exceeds the gravitational component pulling it down the ramp.",
+        "B": "This is mg sin(37\u00b0) = (2)(9.8)(0.60) = 11.76 \u2248 11.8 N, which is the actual friction force acting on the block (the force needed to maintain equilibrium). However, the question asks for the maximum static friction force available \u2014 the upper limit before the block would begin to slide \u2014 which is \u03bc\u209bN = 14.1 N. The actual friction force and the maximum friction force are different quantities.",
+        "C": "This might result from using an incorrect combination of trigonometric components, such as mg(sin \u03b8 + cos \u03b8)/2 \u00d7 \u03bc\u209b, or from a rounding error in an otherwise correct approach. The maximum static friction depends only on \u03bc\u209b and the normal force (mg cos \u03b8).",
+        "D": "This is \u03bc\u209b \u00d7 mg = 0.90 \u00d7 (2)(9.8) = 17.6 N. This incorrectly uses the full weight (mg) as the normal force rather than the component perpendicular to the ramp (mg cos \u03b8). On an incline, the normal force is always less than the weight because only the perpendicular component of gravity presses the block into the surface."
+      },
+      "topic": "Friction / Inclined Planes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_motion_014",
+      "passage": null,
+      "stem": "A patient on a rehabilitation treadmill walks at a constant velocity of 1.2 m/s up a 10\u00b0 incline. The patient has a mass of 75 kg. What is the approximate rate at which the patient does work against gravity?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "77 W"
+        },
+        {
+          "label": "B",
+          "text": "128 W"
+        },
+        {
+          "label": "C",
+          "text": "153 W"
+        },
+        {
+          "label": "D",
+          "text": "882 W"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This could result from using P = mgv sin(10\u00b0) but with g \u2248 10 and sin(10\u00b0) \u2248 0.10, giving 75 \u00d7 10 \u00d7 1.2 \u00d7 0.10 = 90 and then an arithmetic error. Alternatively, it might come from using cos(10\u00b0) instead of sin(10\u00b0) in a different formulation.",
+        "B": "This result (128 W) might come from using sin(10\u00b0) \u2248 0.174 with a rounded g = 10: P = 75 \u00d7 10 \u00d7 1.2 \u00d7 0.174 = 156.6, which doesn't match 128. More likely this comes from an error in the trigonometric component or from confusing the incline angle with the velocity component.",
+        "C": "Power against gravity = rate of gaining gravitational PE = mg \u00d7 v_vertical = mg \u00d7 v sin(\u03b8) = (75)(9.8)(1.2)(sin 10\u00b0) = (75)(9.8)(1.2)(0.174) = 153.1 W. The patient's vertical velocity component is v sin(10\u00b0) = 1.2 \u00d7 0.174 = 0.209 m/s, and the gravitational force is mg = 735 N. Power = Fv = 735 \u00d7 0.209 \u2248 153 W.",
+        "D": "This is mg \u00d7 v = (75)(9.8)(1.2) = 882 W, which would be the power if the patient were moving straight up at 1.2 m/s (a 90\u00b0 incline). On a 10\u00b0 incline, only the vertical component of velocity (v sin 10\u00b0) contributes to work against gravity. Using the full velocity overestimates the power by a factor of 1/sin(10\u00b0) \u2248 5.7."
+      },
+      "topic": "Work and Power / Inclined Planes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_motion_015",
+      "passage": null,
+      "stem": "A 0.5-kg ball is thrown vertically upward with an initial speed of 15 m/s. At the highest point of its trajectory, what are the ball's kinetic energy and the net force acting on it?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "KE = 0 J; net force = 0 N"
+        },
+        {
+          "label": "B",
+          "text": "KE = 56.25 J; net force = 4.9 N downward"
+        },
+        {
+          "label": "C",
+          "text": "KE = 56.25 J; net force = 0 N"
+        },
+        {
+          "label": "D",
+          "text": "KE = 0 J; net force = 4.9 N downward"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "KE = 0 is correct (v = 0 at the top), but net force = 0 is wrong. This is the most common conceptual error in introductory mechanics: confusing zero velocity with zero force. Gravity acts continuously on the ball regardless of its velocity. If the net force were zero at the top, the ball would remain suspended \u2014 it would never come back down.",
+        "B": "The net force (4.9 N = mg = 0.5 \u00d7 9.8) is correct, but KE = 56.25 J is the initial kinetic energy at launch (\u00bd \u00d7 0.5 \u00d7 15\u00b2 = 56.25 J). At the highest point, all kinetic energy has been converted to gravitational potential energy, so KE = 0.",
+        "C": "Both values are incorrect. KE = 56.25 J is the launch KE, not the KE at the top. Net force = 0 N is wrong because gravity acts at all points in the trajectory.",
+        "D": "At the highest point, the ball's velocity is momentarily zero, so KE = \u00bdmv\u00b2 = 0 J. However, the gravitational force mg = (0.5)(9.8) = 4.9 N continues to act downward \u2014 this is what causes the ball to decelerate on the way up and accelerate back down. Zero velocity does not mean zero force; it means the ball is at a turning point."
+      },
+      "topic": "Kinematics / Newton's Second Law",
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "batch": "B279",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Motivation Emotion Behavior",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_motivation_emotion_behavior_279_q0",
+      "passage": "A behavioral medicine study examined eating during a 6-hour lab session. Adults were randomly assigned to a low-glucose preload drink or balanced preload drink, then given snacks. The low-glucose group ate 520 calories on average; the balanced group ate 360. When highly palatable snacks were visible on the table, both groups ate more than when snacks were kept in a cabinet. Participants with dieting goals ate fewer calories only when snacks were not visible.",
+      "usePrevPassage": false,
+      "stem": "Higher calorie intake after low glucose fits:",
+      "choices": {
+        "A": "Looking-glass self",
+        "B": "Drive-reduction theory",
+        "C": "Bystander effect",
+        "D": "Source monitoring"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The looking-glass self is self-concept shaped by imagined reactions of others. The stem is not asking about reflected self-appraisal. The passage focus is glucose and hunger drive, so this option is less directly supported.",
+        "B": "Correct. A physiological need state can motivate eating to restore homeostasis. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "The bystander effect is reduced helping when other potential helpers are present. The passage item may concern effort, conformity, or another social process. The passage focus is glucose and hunger drive, so this option is less directly supported.",
+        "D": "Source monitoring identifies where or how information was learned. The stem does not ask about memory origin or context. The passage focus is glucose and hunger drive, so this option is less directly supported."
+      },
+      "topic": "Motivation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_motivation_emotion_behavior_279_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Visible palatable snacks illustrate:",
+      "choices": {
+        "A": "Vestibular sensation",
+        "B": "Negative reinforcement",
+        "C": "Incentive motivation",
+        "D": "Role exit"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Vestibular sensation concerns balance and head movement. Snack visibility and palatability are external motivational cues. The relevant evidence instead centers on visible palatable food cues.",
+        "B": "Negative reinforcement increases behavior by removing an aversive stimulus. The described effect does not involve removing an unpleasant condition after a response. The passage focus is visible palatable food cues, so this option is less directly supported.",
+        "C": "Correct. External food cues pulled behavior toward rewarding snacks beyond internal need. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Role exit means disengaging from a central social role. The passage does not describe leaving such a role. The passage focus is visible palatable food cues, so this option is less directly supported."
+      },
+      "topic": "Incentives",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motivation_emotion_behavior_279_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why does preload random assignment matter?",
+      "choices": {
+        "A": "It helps equalize participant traits across glucose conditions.",
+        "B": "Context effect",
+        "C": "Cultural competence",
+        "D": "Positive symptom"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Randomization makes intake differences more plausibly due to preload rather than baseline differences. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "A context effect occurs when setting changes responses. The stem does not describe measurement setting altering scores. The passage focus is randomized preload, so this option is less directly supported.",
+        "C": "Cultural competence involves responsive care across cultural and language differences. The stem is about another construct unless clinical culture/language barriers are central. The passage focus is randomized preload, so this option is less directly supported.",
+        "D": "Positive symptoms add experiences such as hallucinations or delusions. The stem does not describe an added psychotic experience. The passage focus is randomized preload, so this option is less directly supported."
+      },
+      "topic": "Experimental Design",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motivation_emotion_behavior_279_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Dieting goals failed when snacks were visible, suggesting:",
+      "choices": {
+        "A": "Biological determinism",
+        "B": "Difference threshold",
+        "C": "Social loafing",
+        "D": "Self-regulation can be undermined by salient cues."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This would attribute behavior mainly to biology. The passage emphasizes social context, expectations, resources, or institutions rather than fixed biological causation. The passage focus is cue-driven eating, so this option is less directly supported.",
+        "B": "Difference threshold is the smallest detectable difference between stimuli. The passage item asks about a broader psychological or sociological concept. The passage focus is cue-driven eating, so this option is less directly supported.",
+        "C": "Social loafing is reduced effort when individual contributions are not identifiable in a group task. The stem is not about anonymous group productivity. The passage focus is cue-driven eating, so this option is less directly supported.",
+        "D": "Correct. External incentives can overpower restraint goals when cues are highly available. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Self-Regulation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_motivation_emotion_behavior_279_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What design best separates hunger and visibility?",
+      "choices": {
+        "A": "Removing comparison groups",
+        "B": "Only asking room liking",
+        "C": "A factorial design varying preload and snack visibility independently",
+        "D": "Not recording intake"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Removing comparison groups would make it harder to isolate the effects of preload or visibility on eating. The relevant evidence instead centers on internal and external eating influences.",
+        "B": "Room liking does not measure hunger, snack visibility, or calories consumed. It cannot separate internal and external eating influences. The relevant evidence instead centers on internal and external eating influences.",
+        "C": "Correct. This tests main effects and interactions between internal state and external cues. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Without recording intake and condition, researchers cannot compare how preload and visibility shape eating behavior. The relevant evidence instead centers on internal and external eating influences."
+      },
+      "topic": "Factorial Design",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motivation_emotion_behavior_279_q5",
+      "passage": "An emotion study asked participants to walk across either a stable low bridge or a swaying high bridge before meeting an interviewer. Heart rate increased more after the high bridge. High-bridge participants later rated the interviewer as more attractive and wrote longer follow-up messages. When high-bridge participants were first told that their arousal was caused by the bridge, attractiveness ratings were closer to the low-bridge group.",
+      "usePrevPassage": false,
+      "stem": "The bridge findings best support:",
+      "choices": {
+        "A": "Cannon-Bard theory",
+        "B": "Two-factor theory of emotion",
+        "C": "Drive-reduction theory",
+        "D": "Opponent-process color coding"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Cannon-Bard theory proposes simultaneous emotion and arousal. It does not emphasize misattribution or labeling of arousal. The passage focus is misattributed arousal, so this option is less directly supported.",
+        "B": "Correct. Arousal plus interpretation shaped attraction ratings, and relabeling arousal reduced the effect. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Drive-reduction theory explains behavior motivated by physiological needs and homeostasis. The stem is not primarily about internal need states. The passage focus is misattributed arousal, so this option is less directly supported.",
+        "D": "Opponent-process color coding explains visual color perception. Phone-notification reports under expectation are a signal-detection issue. The relevant evidence instead centers on misattributed arousal."
+      },
+      "topic": "Emotion Theory",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_motivation_emotion_behavior_279_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The arousal explanation manipulation targeted:",
+      "choices": {
+        "A": "Retinal disparity",
+        "B": "Operant shaping",
+        "C": "Cultural transmission",
+        "D": "Cognitive labeling of arousal"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Retinal disparity is a binocular depth cue. It does not explain how participants label physiological arousal. The relevant evidence instead centers on labeling bridge arousal.",
+        "B": "Shaping reinforces successive approximations to a target behavior. The bridge manipulation changes the meaning assigned to arousal. The relevant evidence instead centers on labeling bridge arousal.",
+        "C": "Cultural transmission is passing cultural knowledge across people or generations. The bridge manipulation changes the label assigned to arousal, not cultural learning. The relevant evidence instead centers on labeling bridge arousal.",
+        "D": "Correct. Participants were given a reason for bodily arousal, changing emotional interpretation. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Appraisal",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motivation_emotion_behavior_279_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What would weaken misattribution?",
+      "choices": {
+        "A": "Higher attraction without increased arousal",
+        "B": "Higher heart rate on high bridge",
+        "C": "Reduced ratings after arousal explanation",
+        "D": "Longer follow-up messages"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Misattribution requires arousal to be present and mislabeled. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Higher heart rate supports the arousal component of misattribution. It would not weaken an explanation that depends on arousal being present. The relevant evidence instead centers on arousal requirement.",
+        "C": "Reduced ratings after the arousal explanation support, rather than weaken, the cognitive-labeling account. The relevant evidence instead centers on arousal requirement.",
+        "D": "Longer messages after the high bridge fit increased attraction or approach behavior, so they do not weaken misattribution of arousal. The relevant evidence instead centers on arousal requirement."
+      },
+      "topic": "Experimental Reasoning",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_motivation_emotion_behavior_279_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why is the second bridge condition important?",
+      "choices": {
+        "A": "Role strain",
+        "B": "It tests whether changing the arousal explanation changes judgment.",
+        "C": "Semantic memory",
+        "D": "Stigma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Role strain is difficulty meeting expectations within one role. The stem is not limited to competing demands inside a single role. The passage focus is arousal explanation, so this option is less directly supported.",
+        "B": "Correct. The condition isolates cognitive attribution from simply being on a high bridge. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Semantic memory stores facts and meanings. The stem does not ask about general knowledge. The passage focus is arousal explanation, so this option is less directly supported.",
+        "D": "Stigma is negative labeling or devaluation of a person or group. The stem does not describe discrediting or stereotyping a marked identity. The passage focus is arousal explanation, so this option is less directly supported."
+      },
+      "topic": "Control Condition",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motivation_emotion_behavior_279_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What connects both studies?",
+      "choices": {
+        "A": "Biology never matters",
+        "B": "Environment matters only without arousal",
+        "C": "Behavior and emotion reflect bodily states plus environmental interpretation.",
+        "D": "Emotion and motivation are identical"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This is too absolute. The passages include biological states such as glucose level and arousal, while also showing that context and interpretation matter. The relevant evidence instead centers on body-context interaction.",
+        "B": "The bridge passage shows environmental interpretation matters precisely when arousal is present, and visible snacks mattered across preload states. The relevant evidence instead centers on body-context interaction.",
+        "C": "Correct. Glucose, food cues, arousal, and labeling all shaped outcomes together. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Emotion and motivation interact but are not identical. The eating passage centers on motivated intake; the bridge passage centers on labeled arousal. The relevant evidence instead centers on body-context interaction."
+      },
+      "topic": "Biopsychosocial Integration",
+      "difficulty": "Hard"
+    }
+  ]
+}

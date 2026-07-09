@@ -1,0 +1,499 @@
+{
+  "batch": "B025",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Motivation, Emotion & Stress",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_motiv_001",
+      "passage": "A health psychologist studies motivation for exercise among sedentary adults enrolled in a 12-week fitness program. Participants are randomly assigned to one of three conditions: (1) autonomous motivation group \u2014 participants set their own exercise goals and choose activities they enjoy; (2) controlled motivation group \u2014 participants are assigned specific exercise targets and monitored for compliance with financial penalties for non-adherence; (3) control group \u2014 participants receive general health information only. At 12 weeks, the autonomous group reports the highest exercise frequency and the greatest enjoyment. At 6-month follow-up (after the program ends), the autonomous group maintains exercise behavior at the highest rate, while the controlled motivation group returns to near-baseline levels.",
+      "stem": "The finding that the autonomous motivation group maintained exercise behavior after the program ended, while the controlled motivation group did not, is most consistent with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Drive reduction theory, which predicts that exercise behavior persists only until the biological drive for activity is satisfied"
+        },
+        {
+          "label": "B",
+          "text": "Classical conditioning, which predicts that exercise behavior will persist as long as the conditioned stimulus is present"
+        },
+        {
+          "label": "C",
+          "text": "Social learning theory, which predicts that participants will maintain exercise only if they observe others exercising"
+        },
+        {
+          "label": "D",
+          "text": "Self-determination theory, which predicts that intrinsic motivation (driven by autonomy, competence, and relatedness) produces more durable behavior change than extrinsic motivation"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Drive reduction theory proposes that behavior is motivated by the need to reduce physiological drives (hunger, thirst). Exercise is not typically driven by a biological 'activity drive' in the drive reduction framework, and the theory cannot explain why autonomy produces more lasting behavior change than external control.",
+        "B": "Classical conditioning involves pairing a neutral stimulus with an unconditioned stimulus to produce a conditioned response. The exercise program does not involve stimulus pairing, and classical conditioning does not explain the autonomy-control distinction.",
+        "C": "Social learning theory emphasizes observational learning and modeling. While social factors can influence exercise behavior, the passage specifically manipulates autonomy vs. control, not observation of others. The key variable is the type of motivation, not social modeling.",
+        "D": "Self-determination theory (Deci & Ryan) distinguishes between intrinsic motivation (engaging in behavior because it is inherently satisfying) and extrinsic motivation (engaging in behavior for external rewards or to avoid punishment). The theory predicts that intrinsic motivation, supported by autonomy, competence, and relatedness, produces more sustainable behavior change. The autonomous group (choice, enjoyment) developed intrinsic motivation that persisted beyond the program. The controlled group (penalties, monitoring) relied on extrinsic motivation that disappeared when external contingencies were removed."
+      },
+      "topic": "Self-Determination Theory / Intrinsic vs Extrinsic Motivation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motiv_002",
+      "passage": null,
+      "passageRef": "ps_motiv_001",
+      "stem": "The controlled motivation group's return to baseline after the program ended \u2014 with several participants reporting that the monitoring and penalties had made exercise feel like an obligation rather than something enjoyable \u2014 most directly illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Learned helplessness \u2014 participants learned that exercise was futile and stopped trying"
+        },
+        {
+          "label": "B",
+          "text": "Latent learning \u2014 participants learned exercise skills but chose not to demonstrate them"
+        },
+        {
+          "label": "C",
+          "text": "Extinction \u2014 the removal of reinforcement leads to a decrease in the previously reinforced behavior"
+        },
+        {
+          "label": "D",
+          "text": "The overjustification effect \u2014 external rewards or penalties can undermine intrinsic motivation, so when the external contingencies are removed, behavior decreases below its natural level"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Learned helplessness involves exposure to uncontrollable negative events leading to passive acceptance. The controlled group had specific, achievable targets \u2014 they were not exposed to uncontrollable situations.",
+        "B": "Latent learning involves acquiring knowledge without demonstrating it until there is incentive to do so. The controlled group's return to baseline represents decreased behavior, not hidden knowledge.",
+        "C": "Extinction in operant conditioning does predict behavior decrease when reinforcement is removed. This is a reasonable answer, but the overjustification effect is more precise because it specifically addresses how external contingencies can undermine the intrinsic motivation that would otherwise sustain the behavior. Simple extinction predicts decreased frequency; overjustification predicts decreased motivation.",
+        "D": "The overjustification effect occurs when external incentives (rewards or penalties) are applied to a behavior that might have some intrinsic appeal, causing the individual to attribute their behavior to the external contingency rather than to intrinsic interest. When the external contingency is removed, the behavior decreases \u2014 sometimes below the level that would have occurred without any external intervention. The controlled group's monitoring and penalties may have shifted their attribution from 'I exercise because I choose to' to 'I exercise to avoid penalties,' undermining any developing intrinsic motivation."
+      },
+      "topic": "Overjustification Effect / Extrinsic Motivation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_motiv_003",
+      "passage": null,
+      "passageRef": "ps_motiv_001",
+      "stem": "A researcher proposes adding a fourth group to the study in which participants exercise with a partner and receive social support. This modification would most directly test the role of which component of self-determination theory?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Relatedness \u2014 the need to feel connected to and supported by others"
+        },
+        {
+          "label": "B",
+          "text": "Competence \u2014 the need to feel effective and capable in one's activities"
+        },
+        {
+          "label": "C",
+          "text": "Self-efficacy \u2014 the belief in one's ability to succeed in specific situations"
+        },
+        {
+          "label": "D",
+          "text": "Autonomy \u2014 the need to feel that one's actions are self-directed"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Relatedness is one of the three basic psychological needs in self-determination theory. It involves feeling connected to others and experiencing a sense of belonging. Exercising with a partner and receiving social support directly addresses the relatedness need. Testing this component would determine whether social connection independently enhances exercise motivation and maintenance.",
+        "B": "Competence involves feeling effective and capable. While a partner might incidentally build competence through encouragement, the primary variable being tested (partner + social support) targets social connection.",
+        "C": "Self-efficacy (Bandura) is related to but distinct from competence in SDT. More importantly, the proposed manipulation targets social support (relatedness), not confidence in one's abilities.",
+        "D": "Autonomy involves feeling that behavior is self-chosen rather than controlled by external forces. Adding a partner does not directly test autonomy \u2014 it tests social connection."
+      },
+      "topic": "Self-Determination Theory / Relatedness",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_motiv_004",
+      "passage": "A neuroscientist studies the physiological stress response in first-year medical students during final exams. Salivary cortisol levels are measured at baseline (6 weeks before exams), during the exam period, and 2 weeks after exams. Cortisol levels increase significantly during the exam period and return to baseline afterward. Students who report using problem-focused coping strategies (studying, seeking tutoring, time management) show smaller cortisol elevations than students who report using emotion-focused coping strategies (venting, denial, wishful thinking). Students who report strong social support networks show the smallest cortisol elevations of all groups.",
+      "stem": "The elevation of cortisol during the exam period reflects activation of which physiological system?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The parasympathetic nervous system, which promotes rest-and-digest responses"
+        },
+        {
+          "label": "B",
+          "text": "The hypothalamic-pituitary-adrenal (HPA) axis, in which stress triggers CRH release from the hypothalamus, ACTH from the anterior pituitary, and cortisol from the adrenal cortex"
+        },
+        {
+          "label": "C",
+          "text": "The somatic nervous system, which controls voluntary skeletal muscle movement"
+        },
+        {
+          "label": "D",
+          "text": "The enteric nervous system, which regulates gastrointestinal function independently of the brain"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The parasympathetic nervous system promotes rest and digestion \u2014 the opposite of the stress response. Cortisol elevation is associated with sympathetic activation and the HPA axis, not parasympathetic activity.",
+        "B": "Cortisol is the primary glucocorticoid stress hormone, released through the HPA axis. Stress activates the hypothalamus to release corticotropin-releasing hormone (CRH), which stimulates the anterior pituitary to release adrenocorticotropic hormone (ACTH), which stimulates the adrenal cortex to release cortisol. Cortisol mobilizes energy (gluconeogenesis), suppresses non-essential functions (immune, reproductive), and modulates the stress response through negative feedback.",
+        "C": "The somatic nervous system controls voluntary movement via motor neurons to skeletal muscle. It is not involved in cortisol regulation or the hormonal stress response.",
+        "D": "The enteric nervous system regulates GI motility and secretion. While stress can affect GI function (through autonomic connections), the enteric nervous system does not regulate cortisol release."
+      },
+      "topic": "HPA Axis / Cortisol Stress Response",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_motiv_005",
+      "passage": null,
+      "passageRef": "ps_motiv_004",
+      "stem": "Students using problem-focused coping showed smaller cortisol elevations than those using emotion-focused coping. This finding is most consistent with which prediction?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Problem-focused coping directly reduces the stressor or its impact, leading to less sustained HPA axis activation"
+        },
+        {
+          "label": "B",
+          "text": "Emotion-focused coping eliminates the stressor entirely, making cortisol release unnecessary"
+        },
+        {
+          "label": "C",
+          "text": "Problem-focused coping suppresses cortisol through conscious willpower"
+        },
+        {
+          "label": "D",
+          "text": "Emotion-focused coping activates the parasympathetic system, which increases cortisol"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Problem-focused coping (studying, seeking help, managing time) directly addresses the source of stress \u2014 academic performance. By reducing the perceived threat (improved preparedness), problem-focused coping reduces the signal to the HPA axis, resulting in lower cortisol. Emotion-focused coping (venting, denial) does not address the actual stressor, so the threat perception and HPA activation persist.",
+        "B": "Emotion-focused coping manages emotional responses to the stressor but does not eliminate the stressor itself. If it eliminated the stressor, cortisol would be low, not high. The finding is the opposite: emotion-focused copers have higher cortisol.",
+        "C": "Cortisol release is regulated by the HPA axis through hormonal cascades, not by conscious willpower. Problem-focused coping reduces cortisol by reducing the perceived stressor, not by directly suppressing the hormonal pathway.",
+        "D": "The parasympathetic system generally opposes the stress response and does not increase cortisol. Cortisol is elevated by HPA axis activation, which is associated with sympathetic arousal, not parasympathetic activity."
+      },
+      "topic": "Coping Strategies / Stress Physiology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motiv_006",
+      "passage": null,
+      "passageRef": "ps_motiv_004",
+      "stem": "The finding that students with strong social support networks show the smallest cortisol elevations supports:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The stress-buffering model, which proposes that social support moderates the physiological impact of stress"
+        },
+        {
+          "label": "B",
+          "text": "Social loafing, which predicts that individuals exert less effort in group settings"
+        },
+        {
+          "label": "C",
+          "text": "Diffusion of responsibility, which predicts that individuals feel less personally responsible when others are present"
+        },
+        {
+          "label": "D",
+          "text": "Groupthink, which predicts that social groups suppress individual critical thinking"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The stress-buffering model (Cohen & Wills) proposes that social support moderates (buffers) the negative impact of stress on health outcomes. Students with strong support networks experience the same academic stressors but show reduced physiological stress responses because social connection provides emotional support, practical assistance, and a sense of belonging that attenuates HPA axis activation. The cortisol data directly support this model.",
+        "B": "Social loafing involves reduced individual effort in group tasks. Exam preparation is an individual task, and social support does not involve group performance. Social loafing is irrelevant to the stress-buffering mechanism described.",
+        "C": "Diffusion of responsibility occurs when the presence of others reduces individual sense of responsibility (e.g., in bystander effect). This is unrelated to how social support reduces physiological stress responses.",
+        "D": "Groupthink involves suppression of dissent in cohesive groups making decisions. Social support during exams does not involve group decision-making or suppression of critical thinking."
+      },
+      "topic": "Stress-Buffering Model / Social Support",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motiv_007",
+      "passage": null,
+      "stem": "According to Maslow's hierarchy of needs, which of the following needs must be met before an individual can pursue self-actualization?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Only physiological needs (food, water, shelter)"
+        },
+        {
+          "label": "B",
+          "text": "Physiological needs, safety needs, love/belonging needs, and esteem needs \u2014 all four lower levels of the hierarchy"
+        },
+        {
+          "label": "C",
+          "text": "Only esteem needs (achievement, recognition)"
+        },
+        {
+          "label": "D",
+          "text": "No prerequisite needs \u2014 self-actualization can be pursued at any time regardless of other needs"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Physiological needs are the most basic level, but Maslow's hierarchy includes four levels below self-actualization, not just one. Safety, belonging, and esteem must also be substantially met.",
+        "B": "Maslow's hierarchy proposes that needs are arranged in levels: physiological (bottom), safety, love/belonging, esteem, and self-actualization (top). Lower-level needs must be substantially satisfied before an individual is motivated to pursue higher-level needs. Self-actualization \u2014 realizing one's full potential \u2014 sits at the apex and requires that all four lower levels are reasonably met. Maslow later added that the hierarchy is not rigid: people can pursue higher needs while lower needs are partially unmet, but the general tendency holds.",
+        "C": "Esteem needs are the level immediately below self-actualization, but all four lower levels must be substantially met, not just esteem.",
+        "D": "Maslow's theory explicitly proposes a hierarchical ordering. While the hierarchy is not absolute (people can pursue higher needs with lower needs partially unmet), the theory's core claim is that unmet lower needs generally take priority over higher needs."
+      },
+      "topic": "Maslow's Hierarchy of Needs",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_motiv_008",
+      "passage": null,
+      "stem": "The James-Lange theory of emotion proposes that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "emotional experience is the result of cognitive appraisal of a situation \u2014 we assess the situation first, then experience the emotion"
+        },
+        {
+          "label": "B",
+          "text": "physiological arousal and emotional experience occur simultaneously and independently in response to a stimulus"
+        },
+        {
+          "label": "C",
+          "text": "emotional experience results from the perception of physiological changes \u2014 we feel afraid because we notice our heart racing, not the reverse"
+        },
+        {
+          "label": "D",
+          "text": "all emotions produce identical physiological responses, and the type of emotion is determined entirely by cognitive labeling"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This describes the appraisal theory of emotion (Lazarus), which emphasizes cognitive evaluation as the primary determinant of emotional experience. James-Lange emphasizes physiological response as the cause of emotion, not cognitive appraisal.",
+        "B": "This describes the Cannon-Bard theory, which proposes that the thalamus simultaneously sends signals to the cortex (producing emotional experience) and to the autonomic nervous system (producing physiological arousal). James-Lange proposes a sequential process (arousal first, then emotion), not simultaneous independent processes.",
+        "C": "James-Lange theory proposes a counterintuitive sequence: a stimulus triggers physiological arousal (racing heart, sweating, muscle tension), and the conscious perception of these bodily changes constitutes the emotional experience. 'We feel sorry because we cry, angry because we strike, afraid because we tremble' (William James). The emotion is the awareness of the bodily response, not a separate mental event that causes the response.",
+        "D": "This partially describes the Schachter-Singer two-factor theory, which proposes that physiological arousal is general and undifferentiated, and that the specific emotion experienced depends on cognitive interpretation of the situation. James-Lange, by contrast, proposes that different emotions have distinct physiological signatures."
+      },
+      "topic": "James-Lange Theory of Emotion",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_motiv_009",
+      "passage": null,
+      "stem": "The Schachter-Singer two-factor theory of emotion proposes that emotional experience requires both physiological arousal and cognitive labeling. A key prediction of this theory is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the same physiological arousal can be experienced as different emotions depending on the cognitive interpretation of the situation"
+        },
+        {
+          "label": "B",
+          "text": "emotions can occur without any physiological arousal"
+        },
+        {
+          "label": "C",
+          "text": "each emotion has a unique, distinguishable pattern of physiological arousal"
+        },
+        {
+          "label": "D",
+          "text": "cognitive appraisal occurs after the emotional experience, not before"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The two-factor theory proposes that physiological arousal is relatively undifferentiated \u2014 the same racing heart can be labeled as excitement, fear, or anger depending on the context. This was tested in the classic 'bridge experiment' (Dutton & Aron), where men who crossed a scary suspension bridge attributed their arousal to attraction to a female interviewer, while those on a stable bridge did not. The same arousal (from the bridge) was cognitively labeled as romantic attraction.",
+        "B": "The two-factor theory requires both arousal and cognition. Emotion without arousal would contradict the theory's requirement for a physiological component.",
+        "C": "Distinct arousal patterns for each emotion is a prediction of the James-Lange theory, not the Schachter-Singer theory. Two-factor theory specifically proposes that arousal is relatively undifferentiated.",
+        "D": "In the two-factor theory, cognitive labeling occurs during or immediately after perceiving arousal \u2014 it is part of the emotion-generation process. Saying appraisal occurs after the emotional experience would describe a post-hoc rationalization, not the mechanism the theory proposes."
+      },
+      "topic": "Schachter-Singer Two-Factor Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motiv_010",
+      "passage": null,
+      "stem": "A student preparing for the MCAT experiences moderate anxiety about the exam. According to the Yerkes-Dodson law, this moderate anxiety would be expected to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "impair performance because any anxiety is detrimental to cognitive function"
+        },
+        {
+          "label": "B",
+          "text": "have no effect on performance because anxiety and cognitive performance are unrelated"
+        },
+        {
+          "label": "C",
+          "text": "enhance performance on the exam, because moderate arousal optimizes performance on complex tasks, while very low or very high arousal impairs it"
+        },
+        {
+          "label": "D",
+          "text": "enhance performance only on simple tasks but impair performance on complex tasks like the MCAT"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The Yerkes-Dodson law does not predict that all anxiety is harmful. It proposes an inverted-U relationship between arousal and performance: too little arousal produces underperformance (lack of engagement), moderate arousal optimizes performance, and too much arousal impairs performance (anxiety, cognitive interference).",
+        "B": "The Yerkes-Dodson law specifically proposes a relationship between arousal/anxiety and performance. They are not unrelated.",
+        "C": "The Yerkes-Dodson law predicts an inverted-U curve: moderate arousal optimizes performance. For the MCAT (a complex cognitive task), moderate anxiety provides enough activation to sustain focus and effort without triggering the cognitive interference (working memory disruption, attentional narrowing) that excessive anxiety produces. The optimal level of arousal is lower for complex tasks than for simple tasks.",
+        "D": "This answer captures part of the Yerkes-Dodson law (the task complexity modifier) but misapplies it. The law states that the optimal level of arousal is lower for complex tasks \u2014 meaning that moderate anxiety can still be beneficial, but excessive anxiety is especially harmful for complex tasks. Moderate anxiety on a complex task can still be within the optimal range."
+      },
+      "topic": "Yerkes-Dodson Law / Arousal and Performance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motiv_011",
+      "passage": null,
+      "stem": "A person who has been without food for 24 hours experiences intense hunger and is motivated to seek food. After eating a full meal, the hunger subsides and the motivation to seek food decreases. This pattern is best explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Incentive theory, which proposes that behavior is motivated by external rewards"
+        },
+        {
+          "label": "B",
+          "text": "Drive reduction theory, which proposes that physiological needs create drives that motivate behavior, and satisfying the need reduces the drive"
+        },
+        {
+          "label": "C",
+          "text": "Self-determination theory, which proposes that the need for autonomy drives food-seeking behavior"
+        },
+        {
+          "label": "D",
+          "text": "Arousal theory, which proposes that people seek an optimal level of physiological arousal"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Incentive theory focuses on external rewards pulling behavior (the sight of food might attract behavior). While incentives can influence food-seeking, the passage specifically describes an internal physiological need (24 hours without food) creating a drive that is reduced by eating \u2014 the signature pattern of drive reduction theory.",
+        "B": "Drive reduction theory (Hull) proposes that physiological needs (food, water, warmth) create internal tension states (drives) that motivate behavior to satisfy the need. Once the need is met (eating), the drive is reduced, and the motivation decreases. The hunger-eat-satisfaction cycle described is a textbook example of drive reduction.",
+        "C": "Self-determination theory addresses psychological needs (autonomy, competence, relatedness), not basic physiological needs like hunger. Food-seeking after 24-hour deprivation is driven by biological necessity, not by the need for self-direction.",
+        "D": "Arousal theory proposes that people seek an optimal level of stimulation. While arousal can affect behavior, hunger after 24 hours is a specific physiological need, not a general arousal-seeking behavior. Drive reduction theory is the more precise explanation."
+      },
+      "topic": "Drive Reduction Theory / Homeostasis",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_motiv_012",
+      "passage": null,
+      "stem": "A researcher finds that people who set specific, challenging goals perform better than those who are told to 'do your best.' This finding is most consistent with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Expectancy theory, which proposes that motivation depends on the expectation that effort will lead to performance and that performance will lead to valued outcomes"
+        },
+        {
+          "label": "B",
+          "text": "Equity theory, which proposes that motivation depends on the perceived fairness of outcomes relative to inputs"
+        },
+        {
+          "label": "C",
+          "text": "Cognitive dissonance theory, which proposes that conflicting cognitions motivate behavior change"
+        },
+        {
+          "label": "D",
+          "text": "Goal-setting theory, which proposes that specific and challenging (but achievable) goals direct attention, increase effort, and enhance persistence compared to vague or easy goals"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Expectancy theory (Vroom) addresses motivation in terms of expectancy (effort \u2192 performance), instrumentality (performance \u2192 outcomes), and valence (value of outcomes). While related to motivation, it does not specifically predict that specific challenging goals outperform vague goals. That prediction is unique to goal-setting theory.",
+        "B": "Equity theory (Adams) addresses motivation in social comparison contexts \u2014 comparing one's input-output ratio to others'. It does not predict the effect of goal specificity on individual performance.",
+        "C": "Cognitive dissonance involves discomfort from conflicting beliefs/behaviors and does not address goal specificity or challenge level.",
+        "D": "Locke's goal-setting theory specifically predicts that goals that are specific (clear targets rather than vague 'do your best') and challenging (difficult but achievable) produce higher performance. Specific goals direct attention to goal-relevant activities, increase effort, enhance persistence, and encourage development of task strategies. 'Do your best' goals lack the specificity needed to guide behavior effectively."
+      },
+      "topic": "Goal-Setting Theory / Achievement Motivation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motiv_013",
+      "passage": null,
+      "stem": "A person who attributes their exam failure to lack of effort (an internal, unstable, controllable cause) rather than to low ability (an internal, stable, uncontrollable cause) would be predicted by attribution theory to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "give up and stop trying because they have identified an internal cause for the failure"
+        },
+        {
+          "label": "B",
+          "text": "maintain motivation and study harder next time because the cause is changeable and within their control"
+        },
+        {
+          "label": "C",
+          "text": "blame the teacher for the failure because external attributions protect self-esteem"
+        },
+        {
+          "label": "D",
+          "text": "experience no emotional reaction because attributions do not affect motivation"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Internal attributions do not uniformly predict giving up. The key distinction is between stable/uncontrollable causes (ability) and unstable/controllable causes (effort). Attributing failure to effort is internal but also controllable and changeable, which maintains motivation.",
+        "B": "Weiner's attribution theory predicts that attributing failure to unstable, controllable causes (like effort) maintains motivation because the individual believes they can change the outcome by changing their behavior. 'I didn't study enough' implies 'If I study more, I can succeed.' In contrast, attributing failure to stable, uncontrollable causes (like ability) produces helplessness: 'I'm not smart enough' implies the outcome cannot change.",
+        "C": "The scenario specifies an internal attribution (effort), not an external one (teacher). External attributions may protect self-esteem but are not what's described.",
+        "D": "Attribution theory explicitly predicts that attributions affect both emotional reactions and motivation. Attributions to controllable causes produce guilt (motivating change), while attributions to uncontrollable causes produce shame (undermining motivation)."
+      },
+      "topic": "Attribution Theory / Locus of Control",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_motiv_014",
+      "passage": null,
+      "stem": "The general adaptation syndrome (GAS), proposed by Hans Selye, describes the body's response to prolonged stress in three stages. The correct order of these stages is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Resistance \u2192 Alarm \u2192 Exhaustion"
+        },
+        {
+          "label": "B",
+          "text": "Exhaustion \u2192 Alarm \u2192 Resistance"
+        },
+        {
+          "label": "C",
+          "text": "Alarm \u2192 Resistance \u2192 Exhaustion"
+        },
+        {
+          "label": "D",
+          "text": "Alarm \u2192 Exhaustion \u2192 Resistance"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Resistance does not come first. The alarm reaction (initial fight-or-flight response) must occur before the body can mobilize sustained resistance. This order is incorrect.",
+        "B": "Exhaustion is the final stage, not the first. The body cannot reach exhaustion without first going through alarm and resistance. This order is reversed.",
+        "C": "Selye's GAS consists of: (1) Alarm \u2014 the initial fight-or-flight response with sympathetic activation and cortisol release; (2) Resistance \u2014 the body mobilizes resources to cope with the ongoing stressor, maintaining elevated cortisol and sustained physiological adaptation; (3) Exhaustion \u2014 prolonged stress depletes the body's resources, and the ability to resist breaks down, leading to vulnerability to illness and potentially death. The progression from acute response to adaptation to breakdown is the core of the GAS model.",
+        "D": "Exhaustion cannot precede resistance. The body first responds acutely (alarm), then adapts (resistance), and only after prolonged stress does it break down (exhaustion)."
+      },
+      "topic": "General Adaptation Syndrome / Selye",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_motiv_015",
+      "passage": null,
+      "stem": "Type A personality, characterized by competitiveness, time urgency, and hostility, has been associated with increased risk of cardiovascular disease. Research has refined this association by finding that the component most strongly linked to heart disease risk is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "time urgency \u2014 the chronic sense that there is not enough time"
+        },
+        {
+          "label": "B",
+          "text": "competitiveness \u2014 the drive to outperform others in all domains"
+        },
+        {
+          "label": "C",
+          "text": "hostility \u2014 the tendency toward anger, cynicism, and interpersonal antagonism"
+        },
+        {
+          "label": "D",
+          "text": "achievement orientation \u2014 the desire to accomplish difficult goals"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Time urgency was part of the original Type A construct, but subsequent research found it was not the component most strongly associated with cardiovascular risk. Time-urgent individuals may be stressed, but the physiological mechanisms linking personality to CVD are more strongly tied to hostility.",
+        "B": "Competitiveness alone has not been identified as the primary risk factor. Some competitive individuals are not hostile, and competitiveness without anger does not produce the same chronic sympathetic activation.",
+        "C": "Research by Dembroski, MacDougall, Williams, and others found that the hostility component of Type A personality \u2014 characterized by cynicism, anger, and aggressive interpersonal style \u2014 is the strongest predictor of cardiovascular disease risk. Hostility produces chronic sympathetic activation, elevated cortisol, and inflammatory responses that damage the cardiovascular system over time. The association between Type A personality and heart disease is primarily driven by this hostility component.",
+        "D": "Achievement orientation is not strongly associated with cardiovascular risk when it occurs without hostility. Striving for difficult goals in a non-hostile manner does not produce the chronic anger and sympathetic activation that drives the personality-CVD link."
+      },
+      "topic": "Type A Personality / Hostility and CVD",
+      "difficulty": "Medium"
+    }
+  ]
+}

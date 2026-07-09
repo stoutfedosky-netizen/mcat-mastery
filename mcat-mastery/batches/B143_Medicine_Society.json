@@ -1,0 +1,353 @@
+{
+  "batch": "B143",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Medicine & Society",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_medsoc2_001",
+      "passage": "The physician did not distrust machines. She had seen imaging reveal tumors that hands could never feel and laboratory values warn of organ failure hours before suffering became visible to the most attentive bedside observer. Instruments had saved lives in her own practice, and she said so without qualification. Her worry was subtler than distrust and, she believed, more important: instruments extend perception, but they can also narrow attention. A scan sees what it is designed to see — density, contrast, spatial boundaries — and what it sees, it sees with extraordinary precision. But precision within a frame is not the same as adequacy of the frame itself.\n\nWhen the chart becomes the patient's most authoritative representative, the clinician may begin to treat a person as a bundle of results awaiting correction. The hemoglobin is low; raise it. The potassium is high; lower it. The lesion is visible; remove it. Each intervention follows logically from the data, and each may be technically correct. Yet the patient sitting in the examination room is not a collection of deviations from reference ranges. She is a person with a history, a set of obligations, fears she may not volunteer, and a sense of what makes her life worth the effort of preserving it. These dimensions do not appear on the chart, and no algorithm yet devised can extract them from a blood draw.\n\nThis error of reduction is not caused by technology alone. A hurried bedside conversation can be as careless as an overread scan. A physician who spends five minutes with a patient and asks only yes-or-no questions has reduced the encounter just as thoroughly as one who reads only the laboratory printout. Still, technological medicine tempts clinicians with a particular illusion that other forms of carelessness do not: the illusion that precision of measurement guarantees adequacy of understanding. A number feels objective. A value outside the normal range feels actionable. The very clarity of the data can make it seem as though no further interpretation is needed — as though the measurement has already done the thinking.\n\nThe physician argued that diagnosis requires two forms of listening. One listens for signals the body gives through instruments: rhythms on an electrocardiogram, densities on a scan, concentrations in the blood. The other listens for the meanings by which a patient makes illness part of a life — the fear of dependency, the wish to see a grandchild born, the refusal to accept a treatment that would leave her unable to speak. Neither form of listening replaces the other, and a clinician who practices only one is, in the physician's view, only half competent, however impressive the technology at hand.",
+      "stem": "Which statement best expresses the author's main point?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Bedside conversation is always more accurate than imaging"
+        },
+        {
+          "label": "B",
+          "text": "Modern instruments usually harm patients"
+        },
+        {
+          "label": "C",
+          "text": "Medical technology is valuable but must be integrated with attention to patient meaning and judgment"
+        },
+        {
+          "label": "D",
+          "text": "Physicians should ignore laboratory values"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage never claims that bedside conversation is more accurate than imaging. The physician explicitly values technology — imaging 'reveal tumors that hands could never feel.' The argument is that accuracy of measurement is not the same as adequacy of understanding. Conversation and imaging serve different functions; the passage advocates integration, not replacement.",
+        "B": "The physician states that instruments 'extend perception' and acknowledges their diagnostic power. The concern is not that instruments usually harm patients but that overreliance on them can narrow clinical attention. Harm, in the passage's framing, comes from treating data as a complete representation of the patient — a practice error, not an inherent property of the technology.",
+        "C": "Correct. The author explicitly praises imaging and lab values while warning that measurement alone can narrow understanding. The central argument is integrative: technology extends perception, but good medicine also requires listening to the patient's values and life context.",
+        "D": "The passage explicitly credits laboratory values with the ability to 'warn of organ failure before suffering became visible.' The physician values objective data and does not advocate ignoring it. The argument is about integrating lab values with direct patient engagement, not discarding one in favor of the other."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium",
+      "usePrevPassage": false
+    },
+    {
+      "id": "cars_medsoc2_002",
+      "passage": null,
+      "stem": "What does the author mean by treating the chart as the patient's “most authoritative representative”?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Using charts only for billing"
+        },
+        {
+          "label": "B",
+          "text": "Letting recorded data displace direct engagement with the patient as a person"
+        },
+        {
+          "label": "C",
+          "text": "Refusing to record objective information"
+        },
+        {
+          "label": "D",
+          "text": "Allowing patients to edit all lab values"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Using charts only for billing trivializes the passage's concern. The physician's worry is epistemological — that the chart becomes the primary lens through which clinicians understand patients, displacing direct engagement with the person behind the data. The issue is about clinical attention and patient representation, not administrative billing practices.",
+        "B": "Correct. The phrase criticizes a hierarchy of attention in which data become more real to the clinician than the person whose illness is being represented. The problem is not charting itself but allowing the record to replace rather than support clinical understanding.",
+        "C": "The passage does not argue against recording objective information. The physician values data collection and acknowledges its diagnostic utility. The concern is that recorded data can become a substitute for — rather than a supplement to — the clinician's direct engagement with the patient as a whole person with experiences, fears, and values that charts cannot capture.",
+        "D": "Allowing patients to edit lab values would undermine objective measurement, which the passage explicitly supports. The physician's concern is not about data accuracy or patient access to records — it is about the clinical habit of treating recorded data as a more authoritative representation of the patient than the patient's own lived experience and expressed values."
+      },
+      "topic": "Meaning in Context",
+      "difficulty": "Medium",
+      "passageRef": "cars_medsoc2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_medsoc2_003",
+      "passage": null,
+      "stem": "Why does the author say the error is “not caused by technology alone”?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To avoid blaming machines simplistically and to show that careless practice can occur with or without instruments"
+        },
+        {
+          "label": "B",
+          "text": "To claim technology has no influence"
+        },
+        {
+          "label": "C",
+          "text": "To argue that rushed conversations are always sufficient"
+        },
+        {
+          "label": "D",
+          "text": "To deny that scans can reveal disease"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author complicates the critique by noting that poor bedside conversation can also be careless. This qualification prevents a simplistic anti-technology argument and redirects attention to clinical judgment, attention, and how tools are used.",
+        "B": "The passage does not claim technology has no influence. The qualifying phrase acknowledges that technology shapes clinical practice — but emphasizes that the error also depends on how clinicians use the technology. The physician is attributing the problem to a pattern of practice (prioritizing data over direct engagement), not absolving technology of any role in that pattern.",
+        "C": "The passage does not argue that rushed conversations are sufficient. The physician calls for attentive, meaningful dialogue that integrates the patient's values with clinical evidence. A rushed conversation would fail the same standard the physician sets — genuine engagement requires time and attention, not just the act of speaking with a patient.",
+        "D": "The passage repeatedly affirms that scans can detect disease — 'imaging reveal tumors that hands could never feel.' The qualifying phrase protects the argument from being read as anti-technology. The physician's point is that diagnostic capability alone does not ensure good clinical practice; it must be accompanied by attentive patient engagement."
+      },
+      "topic": "Function of Qualification",
+      "difficulty": "Medium",
+      "passageRef": "cars_medsoc2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_medsoc2_004",
+      "passage": null,
+      "stem": "The two forms of listening correspond most closely to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ignoring symptoms and ordering tests"
+        },
+        {
+          "label": "B",
+          "text": "left ear and right ear"
+        },
+        {
+          "label": "C",
+          "text": "insurance rules and hospital profit"
+        },
+        {
+          "label": "D",
+          "text": "physiological evidence and patient-centered meaning"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The two forms of listening described in the passage are complementary acts of clinical attention, not a dichotomy between ignoring symptoms and ordering tests. The passage argues for integrating both forms — attending to physiological data and to the patient's expressed meaning. Ignoring symptoms would fail both forms of listening the physician advocates.",
+        "B": "This detail is outside the passage's argumentative center. It may sound socially or institutionally plausible, but the author is not making that narrower claim. The relevant contrast is the one developed in the passage: One listening mode concerns bodily signals mediated by instruments; the other concerns the patient's interpretation, values, and lived experience. The pairing captures the passage's central integration of biomedical evidence with human meaning.",
+        "C": "This detail is outside the passage's argumentative center. It may sound socially or institutionally plausible, but the author is not making that narrower claim. The relevant contrast is the one developed in the passage: One listening mode concerns bodily signals mediated by instruments; the other concerns the patient's interpretation, values, and lived experience. The pairing captures the passage's central integration of biomedical evidence with human meaning.",
+        "D": "Correct. One listening mode concerns bodily signals mediated by instruments; the other concerns the patient's interpretation, values, and lived experience. The pairing captures the passage's central integration of biomedical evidence with human meaning."
+      },
+      "topic": "Conceptual Mapping",
+      "difficulty": "Easy",
+      "passageRef": "cars_medsoc2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_medsoc2_005",
+      "passage": null,
+      "stem": "Which claim would the physician most likely reject?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Precision of measurement by itself guarantees adequate understanding"
+        },
+        {
+          "label": "B",
+          "text": "Imaging can detect otherwise hidden disease"
+        },
+        {
+          "label": "C",
+          "text": "Laboratory tests can warn of organ failure"
+        },
+        {
+          "label": "D",
+          "text": "Technology can reduce suffering"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage calls this the particular illusion of technological medicine. The physician accepts the usefulness of precise measurement but rejects the inference that precision alone completes understanding. The other statements are concessions she explicitly supports.",
+        "B": "The physician would not reject this claim — the passage explicitly states that imaging can 'reveal tumors that hands could never feel.' The physician's argument is not against imaging's diagnostic capability but against treating measurement precision as a sufficient substitute for clinical judgment that incorporates patient values and context.",
+        "C": "The physician acknowledges that laboratory tests 'warn of organ failure before suffering became visible.' This is presented as a genuine contribution of medical technology, not something the physician would reject. The physician's concern is about the interpretive framework around test results, not about their diagnostic utility.",
+        "D": "The physician does not deny that technology reduces suffering. The passage's opening acknowledges the transformative benefits of imaging and laboratory medicine. The physician's argument targets the assumption that technical precision alone constitutes adequate understanding — not the claim that technology, properly used, can improve patient outcomes."
+      },
+      "topic": "Author's Likely View",
+      "difficulty": "Medium",
+      "passageRef": "cars_medsoc2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_medsoc2_006",
+      "passage": "A critic accused the physician of nostalgia, as though she wished to return to an era before antibiotics, anesthesia, or imaging — an era, the critic pointed out, in which patients died of conditions that are now trivially curable. She rejected the accusation firmly. The task was not to choose between compassion and technology but to prevent either from becoming a substitute for judgment. Compassion without competence is sentimentality; competence without compassion is engineering. Medicine, the physician insisted, is neither.\n\nA scan may identify a lesion with millimeter precision, but it cannot decide whether a risky operation fits the patient's hopes, fears, obligations, and tolerance for uncertainty. That decision requires conversation — not the scripted exchange of a consent form, but a genuine exploration of what the patient values and what she is willing to risk. The physician offered a case she had encountered early in her career, one that had shaped her thinking permanently. A patient with a tumor accessible to surgery was presented with a treatment plan that maximized statistical survival time. The plan was technically sound, supported by published evidence, and recommended by the surgical team. Yet after a long conversation, the patient explained that preserving her ability to speak — to read stories to her grandchildren, to argue with her sister, to say what she meant — mattered more to her than the additional months the aggressive approach might provide. The treatment plan was changed.\n\nThe physician called this not a rejection of evidence but its completion. The evidence told the team what was medically possible; the conversation told them what was humanly appropriate. Without the scan, the lesion would not have been found. Without the conversation, the wrong operation might have been performed — wrong not because it violated any clinical guideline, but because it would have treated the disease while injuring the person. The physician's point was not that technology is dangerous but that technology is insufficient, and that the insufficiency becomes invisible precisely when the technology is most impressive.\n\nThe lesson the physician drew was not that evidence should be subordinated to feeling, or that patients always know better than their doctors. The lesson was that clinical evidence, however precise, answers a question that is narrower than the one the patient is actually facing. The scan answers: is the lesion operable? The evidence answers: what are the survival statistics? But the patient asks: what kind of life do I want, and what am I willing to undergo to have it? No amount of technical data can resolve that question without the patient's participation.\n\nThe physician's tone was never hostile toward her instruments. She spoke of them the way a carpenter might speak of a reliable saw: indispensable for the work, but not to be confused with the judgment that guides the cut.",
+      "stem": "How does the physician respond to the charge of nostalgia?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "She says compassion and technology cannot coexist"
+        },
+        {
+          "label": "B",
+          "text": "She accepts that antibiotics should be abandoned"
+        },
+        {
+          "label": "C",
+          "text": "She rejects a return to premodern medicine and argues for technology guided by judgment"
+        },
+        {
+          "label": "D",
+          "text": "She refuses to discuss evidence"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The physician explicitly rejects the idea that compassion and technology are incompatible: 'The task was not to choose between compassion and technology but to prevent either from becoming a substitute for judgment.' The passage advocates integration of both elements, not a forced choice between them.",
+        "B": "The physician explicitly rejects the nostalgia accusation and never suggests abandoning any medical advance. The passage references antibiotics, anesthesia, and imaging as genuine achievements. The argument is about how these tools should be deployed within a framework that preserves clinical judgment and patient-centered reasoning.",
+        "C": "Correct. The second passage directly rejects nostalgia by affirming antibiotics, anesthesia, and imaging. Her goal is not retreat from modern medicine but integration: evidence and technology remain essential, yet they must be interpreted through patient goals and clinical judgment.",
+        "D": "The physician does not refuse to discuss evidence — evidence is central to the argument. The speech-preservation case shows a patient using evidence (the scan identifying the lesion) to make an informed decision guided by personal values. The physician advocates for evidence being completed by patient context, not abandoned."
+      },
+      "topic": "Response to Critic",
+      "difficulty": "Medium",
+      "usePrevPassage": false
+    },
+    {
+      "id": "cars_medsoc2_007",
+      "passage": null,
+      "stem": "What is the function of the speech-preservation case?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It argues physicians should never recommend surgery"
+        },
+        {
+          "label": "B",
+          "text": "It proves survival time never matters"
+        },
+        {
+          "label": "C",
+          "text": "It shows scans are useless"
+        },
+        {
+          "label": "D",
+          "text": "It illustrates how patient values can appropriately alter an evidence-based plan"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The speech-preservation case does not argue against surgery in general. The patient in the example chose a modified surgical approach that preserved speech — a decision that required both the scan (identifying the lesion) and the patient's expressed values (prioritizing communication). The example supports shared decision-making, not a blanket refusal of surgical intervention.",
+        "B": "The case does not prove that survival time never matters. The patient weighed survival time against quality of life (speech preservation) and made a judgment about their own priorities. The point is that survival time is one factor among several that patients may consider — not that it is irrelevant.",
+        "C": "The example depends on scans being useful — the scan identified the lesion that prompted the surgical discussion. Without imaging, the treatment decision could not have been made at all. The case illustrates how scan results should be interpreted within the patient's value framework, not that scans lack diagnostic value.",
+        "D": "Correct. The case concretizes the claim that evidence is incomplete until connected to patient priorities. The plan was technically successful by one metric, but the patient valued speech highly enough to change the decision. This illustrates individualized judgment, not rejection of survival or surgery."
+      },
+      "topic": "Use of Example",
+      "difficulty": "Medium",
+      "passageRef": "cars_medsoc2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_medsoc2_008",
+      "passage": null,
+      "stem": "Which statement would most strengthen the author's argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "More imaging always increases hospital revenue"
+        },
+        {
+          "label": "B",
+          "text": "Patients whose values are elicited before treatment report decisions more consistent with their goals without worse clinical reasoning"
+        },
+        {
+          "label": "C",
+          "text": "Some clinicians dislike electronic records"
+        },
+        {
+          "label": "D",
+          "text": "Older physicians used fewer tests"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Hospital revenue is an economic consideration unrelated to the physician's argument about clinical attention and patient-centered care. The passage is concerned with the quality of the clinician-patient relationship and the adequacy of clinical understanding — not with the financial incentives of imaging. Revenue data would not address the epistemological concern the physician raises.",
+        "B": "Correct. The author's argument is that listening to values completes rather than undermines evidence. Evidence that eliciting values improves goal-concordant decisions without degrading clinical reasoning directly strengthens that claim. The other options are tangential or merely historical.",
+        "C": "Clinician preferences about electronic records are a matter of workplace opinion, not evidence about patient outcomes. The physician's argument is that integrating patient values into clinical decisions leads to better care — this claim requires evidence about patient-level effects, not about clinicians' subjective technology preferences.",
+        "D": "This detail is outside the passage's argumentative center. It may sound socially or institutionally plausible, but the author is not making that narrower claim. The relevant contrast is the one developed in the passage: The author's argument is that listening to values completes rather than undermines evidence. Evidence that eliciting values improves goal-concordant decisions without degrading clinical reasoning directly strengthens that claim. The other options are tangential or merely historical."
+      },
+      "topic": "Strengthen",
+      "difficulty": "Hard",
+      "passageRef": "cars_medsoc2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_medsoc2_009",
+      "passage": null,
+      "stem": "The phrase “not a rejection of evidence but its completion” means:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "patients should choose treatments without medical input"
+        },
+        {
+          "label": "B",
+          "text": "evidence is irrelevant once emotions appear"
+        },
+        {
+          "label": "C",
+          "text": "patient context helps determine how evidence should guide action"
+        },
+        {
+          "label": "D",
+          "text": "technical success is impossible"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage explicitly argues for shared decision-making, not patient autonomy without medical input. 'Completion' means that patient context helps determine how evidence guides action — the physician and patient collaborate using both clinical data and personal values. Removing medical input from the equation would leave evidence incomplete in a different way.",
+        "B": "The passage does not dismiss evidence once emotions arise. 'Completion' means evidence is enriched, not replaced, by patient context. The physician argues that clinical data and patient values are both necessary components of adequate understanding — neither alone is sufficient. Emotions and values inform how evidence is interpreted and applied, not whether it is considered.",
+        "C": "Correct. Evidence can identify disease, risks, and probabilities, but it does not by itself choose among outcomes a patient values differently. Patient context completes evidence by translating what can be done into what should be done for this person.",
+        "D": "The passage does not claim technical success is impossible. The physician acknowledges technology's diagnostic and therapeutic power throughout. 'Completion' refers to adding patient context to evidence-based reasoning — ensuring that technically sound plans also fit the patient's life, values, and priorities. Technical success is possible and valuable; it is simply not the only relevant consideration."
+      },
+      "topic": "Interpretation",
+      "difficulty": "Hard",
+      "passageRef": "cars_medsoc2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_medsoc2_010",
+      "passage": null,
+      "stem": "The author's tone toward technology is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "respectful but cautionary"
+        },
+        {
+          "label": "B",
+          "text": "hostile and dismissive"
+        },
+        {
+          "label": "C",
+          "text": "uncritically celebratory"
+        },
+        {
+          "label": "D",
+          "text": "indifferent"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author credits technology with major clinical benefits while warning against the illusion that measurement alone equals understanding. That combination rules out hostility and celebration. The tone is balanced, appreciative, and ethically cautious.",
+        "B": "The passage opens by affirming technology's value: imaging reveals hidden disease, lab values prevent suffering. This is not the language of hostility or dismissal. The physician's cautions are careful and specific — directed at the pattern of treating data as a complete patient representation, not at technology itself. The tone is consistently respectful, even while raising concerns.",
+        "C": "Uncritical celebration would ignore the risks the physician identifies — narrowed attention, patients reduced to data bundles, the chart displacing the person. The passage engages critically with how technology is used in clinical practice while acknowledging its contributions. This combination of appreciation and concern defines qualified endorsement, not uncritical celebration.",
+        "D": "The physician devotes sustained, detailed argumentation to the role of technology in clinical practice. Indifference would produce silence or dismissal — not the careful analysis of how instruments extend and simultaneously narrow perception, or the specific cases illustrating the need for value-integrated decision-making. The engagement is deeply considered, not indifferent."
+      },
+      "topic": "Tone",
+      "difficulty": "Medium",
+      "passageRef": "cars_medsoc2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "batch": "B272",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Memory Cognition Aging",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_memory_cognition_aging_272_q0",
+      "passage": "A cognition lab studied 120 undergraduates after a normal sleep week or a restricted sleep week averaging 5.1 hours/night by actigraphy. On a 2-back task, normal-sleep accuracy was 86% with 510 ms reaction time; restricted-sleep accuracy was 73% with 640 ms reaction time. Self-rated motivation did not differ. On a delayed list of 20 unrelated words, restricted-sleep participants recalled fewer words but recognized many when given multiple-choice cues.",
+      "usePrevPassage": false,
+      "stem": "A 2-back task primarily measures:",
+      "choices": {
+        "A": "Semantic memory",
+        "B": "Procedural memory",
+        "C": "Working memory",
+        "D": "Iconic memory"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Semantic memory stores facts and meanings. The stem does not ask about general knowledge. The passage focus is sleep and active memory updating, so this option is less directly supported.",
+        "B": "Procedural memory involves skills and habits. The 2-back task requires active updating of recently presented information. The relevant evidence instead centers on sleep and active memory updating.",
+        "C": "Correct. The task requires maintaining, updating, and manipulating recent information across trials. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Iconic memory is a very brief visual sensory store. A 2-back task requires maintaining and updating information across several trials. The relevant evidence instead centers on sleep and active memory updating."
+      },
+      "topic": "Working Memory",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_memory_cognition_aging_272_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why does unchanged motivation matter?",
+      "choices": {
+        "A": "It weakens an effort-only explanation of poorer performance.",
+        "B": "Self-serving bias",
+        "C": "Conformity",
+        "D": "Population aging"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. If motivation was similar, the sleep-restricted decline is less likely to be only reduced willingness to try. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Self-serving bias attributes success internally and failure externally. The stem does not describe attribution of personal outcomes in that way. The passage focus is motivation as alternative explanation, so this option is less directly supported.",
+        "C": "Conformity is changing behavior to match group norms. The stem may require a more specific process such as role conflict, diffusion of responsibility, or validity. The passage focus is motivation as alternative explanation, so this option is less directly supported.",
+        "D": "Population aging is a rising proportion of older adults. The stem is not about age structure driving social needs. The passage focus is motivation as alternative explanation, so this option is less directly supported."
+      },
+      "topic": "Confounds",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_memory_cognition_aging_272_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Recall failure with later recognition suggests difficulty with:",
+      "choices": {
+        "A": "Absolute threshold",
+        "B": "Negative reinforcement",
+        "C": "Social reproduction",
+        "D": "Retrieval from memory"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Absolute threshold is the minimum stimulus detected about 50% of the time. The question is not about minimum sensory intensity. The passage focus is recall versus recognition, so this option is less directly supported.",
+        "B": "Negative reinforcement increases behavior by removing an aversive stimulus. The described effect does not involve removing an unpleasant condition after a response. The passage focus is recall versus recognition, so this option is less directly supported.",
+        "C": "Social reproduction is the transmission of inequality across generations. The stem does not trace class advantage across generations. The passage focus is recall versus recognition, so this option is less directly supported.",
+        "D": "Correct. Recognition cues suggest information may be stored but harder to access without prompts. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Retrieval",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_memory_cognition_aging_272_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which procedure would reduce scorer expectancy effects?",
+      "choices": {
+        "A": "Positive reinforcement",
+        "B": "Blind the scorer to sleep condition.",
+        "C": "Role exit",
+        "D": "Cultural competence"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Positive reinforcement adds a consequence that increases behavior. The stem is asking about a different mechanism rather than an added reward increasing a response. The passage focus is researcher expectancy, so this option is less directly supported.",
+        "B": "Correct. Blinding reduces the chance that expected impairment affects scoring or interpretation. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Role exit means disengaging from a central social role. The passage does not describe leaving such a role. The passage focus is researcher expectancy, so this option is less directly supported.",
+        "D": "Cultural competence involves responsive care across cultural and language differences. The stem is about another construct unless clinical culture/language barriers are central. The passage focus is researcher expectancy, so this option is less directly supported."
+      },
+      "topic": "Bias Control",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_memory_cognition_aging_272_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which structure is most tied to new explicit word-list memory?",
+      "choices": {
+        "A": "Cerebellum",
+        "B": "Hypothalamus",
+        "C": "Hippocampus",
+        "D": "Medulla"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The cerebellum is more tied to coordination and procedural learning. New explicit word-list memory is more strongly associated with hippocampal function. The relevant evidence instead centers on explicit memory formation.",
+        "B": "The hypothalamus regulates homeostasis and endocrine functions. It is not the primary structure for forming new explicit word-list memories. The relevant evidence instead centers on explicit memory formation.",
+        "C": "Correct. The hippocampus supports forming and consolidating new declarative memories. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "The medulla controls vital autonomic functions such as breathing and heart rate. It is not the key structure for forming explicit memories. The relevant evidence instead centers on explicit memory formation."
+      },
+      "topic": "Neurobiology of Memory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_memory_cognition_aging_272_q5",
+      "passage": "A gerontology study compared healthy adults ages 25-35 with healthy adults ages 70-80. Older adults performed similarly on vocabulary definitions and naming historical events. They performed worse on recalling where they parked in a simulated town and on remembering whether a word had appeared in blue or green font. External cues such as map markers and color prompts improved older adults\u2019 performance. MRI screening excluded major neurologic disease.",
+      "usePrevPassage": false,
+      "stem": "Preserved vocabulary in older adults reflects:",
+      "choices": {
+        "A": "Episodic memory",
+        "B": "Sensory adaptation",
+        "C": "Operant conditioning",
+        "D": "Semantic memory"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Episodic memory involves personally experienced events tied to context. The stem does not ask about event/context memory. The passage focus is semantic knowledge in aging, so this option is less directly supported.",
+        "B": "Sensory adaptation is reduced receptor responsiveness to constant stimulation. The item centers on cognition, social context, or decision processes instead. The passage focus is semantic knowledge in aging, so this option is less directly supported.",
+        "C": "Operant conditioning changes behavior through reinforcement or punishment. It is not the best fit when the stem asks about group pressure, appraisal, validity, or social structure. The passage focus is semantic knowledge in aging, so this option is less directly supported.",
+        "D": "Correct. Vocabulary and historical facts are stored general knowledge, which is often relatively spared with aging. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Memory Types",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_memory_cognition_aging_272_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Remembering whether a word was blue or green requires:",
+      "choices": {
+        "A": "Source monitoring",
+        "B": "Primary appraisal",
+        "C": "Social loafing",
+        "D": "Signal detection sensitivity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The task asks for contextual origin information about how the word was encountered. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Primary appraisal is the first judgment of whether an event is threatening, harmful, challenging, or benign. It is not a measure of social resources or institutions. The passage focus is memory for presentation context, so this option is less directly supported.",
+        "C": "Social loafing is reduced effort when individual contributions are not identifiable in a group task. The stem is not about anonymous group productivity. The passage focus is memory for presentation context, so this option is less directly supported.",
+        "D": "Sensitivity is the ability to distinguish signal from noise. It is not the best answer when false alarms change because of expectation or response style. The passage focus is memory for presentation context, so this option is less directly supported."
+      },
+      "topic": "Source Memory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_memory_cognition_aging_272_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why was MRI screening useful?",
+      "choices": {
+        "A": "Random assignment",
+        "B": "It helped separate normal aging from major neurologic disease.",
+        "C": "Context effect",
+        "D": "Groupthink"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Random assignment allocates participants to conditions by chance. The stem may ask about measurement or observational limitations rather than an experimental solution. The passage focus is healthy aging sample, so this option is less directly supported.",
+        "B": "Correct. Screening reduces the chance that group differences reflect severe pathology rather than healthy aging patterns. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "A context effect occurs when setting changes responses. The stem does not describe measurement setting altering scores. The passage focus is healthy aging sample, so this option is less directly supported.",
+        "D": "Groupthink is poor decision-making in cohesive groups seeking unanimity. The stem does not involve group deliberation suppressing dissent. The passage focus is healthy aging sample, so this option is less directly supported."
+      },
+      "topic": "Internal Validity",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_memory_cognition_aging_272_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Map markers and color prompts are best described as:",
+      "choices": {
+        "A": "Punishment",
+        "B": "Sensitization",
+        "C": "Retrieval cues",
+        "D": "Role exit"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Punishment reduces behavior through consequences. Map markers and color prompts help retrieval; they do not punish memory errors. The relevant evidence instead centers on external memory supports.",
+        "B": "Sensitization is increased responsiveness after repeated or intense stimulation. Retrieval prompts improve access to memory rather than increase general reactivity. The relevant evidence instead centers on external memory supports.",
+        "C": "Correct. The prompts helped older adults access information that was harder to recall unaided. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Role exit means disengaging from a central social role. The passage does not describe leaving such a role. The passage focus is external memory supports, so this option is less directly supported."
+      },
+      "topic": "Retrieval Cues",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_memory_cognition_aging_272_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is best supported?",
+      "choices": {
+        "A": "Normal aging may affect episodic context memory more than factual knowledge.",
+        "B": "Biological determinism",
+        "C": "Positive symptom",
+        "D": "Fixed-ratio reinforcement"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Older adults were weaker on parking and source details but preserved vocabulary and historical knowledge. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "This would attribute behavior mainly to biology. The passage emphasizes social context, expectations, resources, or institutions rather than fixed biological causation. The passage focus is selective age-related memory pattern, so this option is less directly supported.",
+        "C": "Positive symptoms add experiences such as hallucinations or delusions. The stem does not describe an added psychotic experience. The passage focus is selective age-related memory pattern, so this option is less directly supported.",
+        "D": "A fixed-ratio schedule rewards behavior after a set number of responses. The passage does not describe a predictable response-count reward rule. The passage focus is selective age-related memory pattern, so this option is less directly supported."
+      },
+      "topic": "Cognitive Aging",
+      "difficulty": "Hard"
+    }
+  ]
+}

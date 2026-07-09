@@ -1,0 +1,351 @@
+{
+  "batch": "B115",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Spectroscopy & Molecular Identification",
+  "questionCount": 10,
+  "answerDistribution": {
+    "D": 3,
+    "A": 2,
+    "C": 2,
+    "B": 3
+  },
+  "questions": [
+    {
+      "id": "cp_spec2_001",
+      "passage": "A student isolates a purified colorless liquid from an organic synthesis and labels it Compound X. Spectra are acquired under standard analytical conditions.\n\nTechnique | Observation\nHigh-resolution MS | Molecular ion at m/z 88; formula C₄H₈O₂\nIR | Strong 1740 cm⁻¹ absorption; no broad 2500–3600 cm⁻¹ band\n¹H NMR | 1.25 ppm triplet, 3 H\n¹H NMR | 4.12 ppm quartet, 2 H\n¹H NMR | 2.05 ppm singlet, 3 H\n\nNo other proton signals are observed. The mass, IR, and NMR findings must all be satisfied by one internally consistent molecular structure. The student is told that spin-spin splitting follows the n + 1 rule when a set of equivalent protons couples to n equivalent neighboring protons.\n\nTo confirm the functional group, a second sample is treated with excess lithium aluminum hydride followed by aqueous workup. The product mixture contains only ethanol. Assume ordinary chemical shifts and complete reduction.",
+      "stem": "Which structure is most consistent with all of the data for Compound X?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Butanoic acid"
+        },
+        {
+          "label": "B",
+          "text": "1,4-dioxane"
+        },
+        {
+          "label": "C",
+          "text": "Methyl propanoate"
+        },
+        {
+          "label": "D",
+          "text": "Ethyl acetate"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Butanoic acid has the correct formula but should show a very broad carboxylic-acid O–H absorption extending roughly 2500–3300 cm⁻¹. Its proton spectrum would also contain several methylene environments rather than a clean ethyl pattern plus a three-proton singlet. All four datasets must be satisfied simultaneously.",
+        "B": "1,4-Dioxane has the same molecular formula, C₄H₈O₂, but it lacks a carbonyl group, so it would not produce the strong 1740 cm⁻¹ absorption. Its symmetry would give essentially one proton environment rather than the observed three signals, and LiAlH₄ would not reduce it to ethanol. All four datasets must be satisfied simultaneously.",
+        "C": "Methyl propanoate is an ester isomer with the correct molecular formula, but it would show a three-proton methoxy singlet near 3.7 ppm plus a propyl-derived triplet and quartet. The observed two-proton quartet at 4.12 ppm instead indicates an O–CH₂–CH₃ unit. All four datasets must be satisfied simultaneously.",
+        "D": "Correct. Ethyl acetate, CH₃COOCH₂CH₃, has M = 88 and an ester carbonyl near 1740 cm⁻¹ without an O–H band. Its ethoxy group produces a 3 H triplet and 2 H quartet, while the acetyl methyl has no neighboring hydrogens and appears as a 3 H singlet near 2 ppm. All four datasets must be satisfied simultaneously. A plausible functional group is insufficient if the molecular mass, integration, chemical shifts, or splitting pattern contradict the proposed structure."
+      },
+      "topic": "Integrated Spectral Identification / Ethyl Acetate",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_spec2_002",
+      "passage": null,
+      "stem": "The strong 1740 cm⁻¹ absorption most directly reflects:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "C=O bond stretching"
+        },
+        {
+          "label": "B",
+          "text": "O–H bond stretching"
+        },
+        {
+          "label": "C",
+          "text": "C–H bond bending only"
+        },
+        {
+          "label": "D",
+          "text": "C–O bond cleavage"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Carbonyl bonds undergo a strong stretching vibration in the approximate 1650–1800 cm⁻¹ region because the vibration produces a substantial change in dipole moment. An unconjugated ester commonly absorbs near 1735–1750 cm⁻¹, matching Compound X. IR peak assignment depends on vibrational frequency and dipole-moment change. The absence of an O–H envelope is as informative here as the presence of the sharp, strong carbonyl absorption.",
+        "B": "O–H stretching appears as a broad band at much higher wavenumber, generally around 3200–3600 cm⁻¹ for alcohols and extending lower for carboxylic acids. The passage explicitly reports no broad O–H feature. IR peak assignment depends on vibrational frequency and dipole-moment change.",
+        "C": "C–H bending modes occur in the fingerprint region and do not ordinarily create the dominant ester-identifying peak at 1740 cm⁻¹. The location and strength point to a carbonyl stretch. IR peak assignment depends on vibrational frequency and dipole-moment change.",
+        "D": "Infrared spectroscopy excites molecular vibrations without ordinarily cleaving covalent bonds. Absorption at a characteristic frequency is evidence of a vibrational mode, not destructive C–O bond rupture. IR peak assignment depends on vibrational frequency and dipole-moment change."
+      },
+      "topic": "Infrared Spectroscopy / Carbonyl Stretch",
+      "difficulty": "Easy",
+      "passageRef": "cp_spec_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_spec2_003",
+      "passage": null,
+      "stem": "Why do the 1.25 ppm and 4.12 ppm signals appear as a triplet and quartet, respectively?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both sets exchange rapidly with water"
+        },
+        {
+          "label": "B",
+          "text": "The carbonyl splits every signal into three peaks"
+        },
+        {
+          "label": "C",
+          "text": "The CH₃ and CH₂ groups split one another according to neighboring proton counts"
+        },
+        {
+          "label": "D",
+          "text": "Oxygen eliminates spin-spin coupling"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Proton exchange is relevant to O–H or N–H signals and often broadens them, but Compound X has no exchangeable proton. It does not explain complementary triplet and quartet patterns. NMR multiplicity and chemical shift answer different questions: splitting reports nearby nonequivalent hydrogens, whereas the downfield CH₂ position reflects deshielding by electronegative oxygen.",
+        "B": "A carbonyl carbon bears no hydrogen and does not split remote proton sets into a universal three-line pattern. Splitting is primarily transmitted through bonds from nonequivalent neighboring hydrogens. NMR multiplicity and chemical shift answer different questions: splitting reports nearby nonequivalent hydrogens, whereas the downfield CH₂ position reflects deshielding by electronegative oxygen.",
+        "C": "Correct. The terminal CH₃ is adjacent to two equivalent CH₂ protons, so n + 1 gives a triplet. The CH₂ is adjacent to three equivalent CH₃ protons, so it appears as a quartet. Their matching coupling relationship is diagnostic of an ethyl group. NMR multiplicity and chemical shift answer different questions: splitting reports nearby nonequivalent hydrogens, whereas the downfield CH₂ position reflects deshielding by electronegative oxygen.",
+        "D": "Oxygen shifts the attached CH₂ downfield by withdrawing electron density, explaining 4.12 ppm, but it does not abolish coupling to the neighboring methyl protons. NMR multiplicity and chemical shift answer different questions: splitting reports nearby nonequivalent hydrogens, whereas the downfield CH₂ position reflects deshielding by electronegative oxygen."
+      },
+      "topic": "¹H NMR / Ethyl Splitting Pattern",
+      "difficulty": "Medium",
+      "passageRef": "cp_spec_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_spec2_004",
+      "passage": null,
+      "stem": "The 2.05 ppm singlet is assigned to the acetyl methyl because those protons:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Are directly bonded to oxygen"
+        },
+        {
+          "label": "B",
+          "text": "Have no hydrogens on the adjacent carbonyl carbon"
+        },
+        {
+          "label": "C",
+          "text": "Exchange with solvent"
+        },
+        {
+          "label": "D",
+          "text": "Are aromatic"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A methyl directly bonded to oxygen usually appears farther downfield, often near 3–4 ppm. The acetyl methyl is bonded to the carbonyl carbon, not directly to oxygen. A singlet requires no coupled neighboring hydrogens under the simplified n + 1 model.",
+        "B": "Correct. The neighboring carbonyl carbon has no attached hydrogens, so the acetyl CH₃ has n = 0 vicinal proton neighbors and appears as a singlet. Its proximity to the electron-withdrawing carbonyl shifts it downfield relative to a simple alkane methyl. A singlet requires no coupled neighboring hydrogens under the simplified n + 1 model. The 2 ppm chemical shift then identifies the electron-withdrawing carbonyl environment rather than an isolated alkane methyl.",
+        "C": "Carbon-bound methyl protons do not normally undergo rapid proton exchange under ordinary NMR conditions. Exchange explanations apply mainly to labile O–H, N–H, or S–H protons. A singlet requires no coupled neighboring hydrogens under the simplified n + 1 model.",
+        "D": "Aromatic protons generally resonate much farther downfield, roughly 6–9 ppm, and Compound X contains no aromatic ring. The 2.05 ppm position is characteristic of a methyl adjacent to a carbonyl. A singlet requires no coupled neighboring hydrogens under the simplified n + 1 model."
+      },
+      "topic": "¹H NMR / Acetyl Methyl",
+      "difficulty": "Medium",
+      "passageRef": "cp_spec_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_spec2_005",
+      "passage": null,
+      "stem": "Why does complete LiAlH₄ reduction of ethyl acetate yield only ethanol?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "LiAlH₄ oxidizes both carbons into the same aldehyde"
+        },
+        {
+          "label": "B",
+          "text": "The ester is unchanged during workup"
+        },
+        {
+          "label": "C",
+          "text": "The carbonyl carbon is removed as CO₂"
+        },
+        {
+          "label": "D",
+          "text": "Both the acyl fragment and ethoxy leaving-group fragment become ethanol"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "LiAlH₄ is a powerful reducing agent, not an oxidant. Although an aldehyde-like intermediate can occur mechanistically, excess hydride reduces it further to an alcohol rather than isolating it. Ester reduction must account for both sides of the acyl–oxygen bond.",
+        "B": "The observed product and known ester reactivity contradict an unchanged ester. Hydride attacks the ester carbonyl and ultimately cleaves the acyl–oxygen bond during reduction. Ester reduction must account for both sides of the acyl–oxygen bond.",
+        "C": "Decarboxylation would reduce the carbon count and release CO₂, but LiAlH₄ ester reduction retains the carbonyl carbon in a primary alcohol. No oxidative carbon loss is involved. Ester reduction must account for both sides of the acyl–oxygen bond.",
+        "D": "Correct. The CH₃CO– acyl portion is reduced to CH₃CH₂OH, while the departing ethoxy group is protonated during workup to give CH₃CH₂OH. Because both fragments generate the same alcohol, the product mixture contains only ethanol despite cleavage of the ester. Ester reduction must account for both sides of the acyl–oxygen bond. Tracking carbon atoms through hydride addition and aqueous protonation prevents the common mistake of considering only the carbonyl fragment."
+      },
+      "topic": "Ester Reduction / LiAlH₄",
+      "difficulty": "Hard",
+      "passageRef": "cp_spec_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_spec2_006",
+      "passage": "Researchers monitor an NADH-dependent enzyme by UV-visible spectroscopy. NADH absorbs strongly at 340 nm, whereas NAD⁺ and the remaining assay components contribute negligible absorbance at that wavelength. A 1.00 cm cuvette gives an initial A₃₄₀ of 0.622. The molar absorptivity of NADH at 340 nm is 6220 M⁻¹cm⁻¹, and Beer-Lambert behavior is linear over the measured range.\n\nAfter enzyme addition, A₃₄₀ decreases at 0.124 absorbance units per minute. In a separate fluorescence experiment, NADH is excited with 340 nm light and emits at a longer wavelength. The researchers explain that some absorbed energy is dissipated nonradiatively before emission.\n\nThe laboratory also analyzes a chlorinated inhibitor by mass spectrometry. Its molecular-ion region displays M and M+2 peaks in an approximately 3:1 intensity ratio, arising from the natural abundances of ³⁵Cl and ³⁷Cl. A related inhibitor with a more extended conjugated π system absorbs at a longer wavelength than the original compound.",
+      "stem": "What is the initial NADH concentration in the cuvette?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.00 M"
+        },
+        {
+          "label": "B",
+          "text": "1.00 × 10⁻⁴ M"
+        },
+        {
+          "label": "C",
+          "text": "6.22 × 10⁻⁴ M"
+        },
+        {
+          "label": "D",
+          "text": "3.87 × 10⁶ M"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A 1.00 M solution would give A = εbc = 6220, far outside the stated absorbance and normal linear range. This choice neglects the numerical absorptivity. Beer-Lambert calculations should be checked through units and magnitude.",
+        "B": "Correct. Beer-Lambert law gives c = A/(εb) = 0.622/[(6220 M⁻¹cm⁻¹)(1.00 cm)] = 1.00 × 10⁻⁴ M, or 0.100 mM. The path-length and absorptivity units cancel correctly to leave molarity. Beer-Lambert calculations should be checked through units and magnitude. An absorbance below one with ε in the thousands and a 1 cm path implies a submillimolar, not molar, concentration.",
+        "C": "This value treats absorbance as though it could be divided only by path length or misplaces a decimal. Substitution into A = εbc would predict an absorbance near 3.87, not 0.622. Beer-Lambert calculations should be checked through units and magnitude.",
+        "D": "This enormous value results from multiplying rather than dividing by molar absorptivity. It is dimensionally and physically incompatible with a dilute spectrophotometric assay. Beer-Lambert calculations should be checked through units and magnitude."
+      },
+      "topic": "Beer-Lambert Law / Concentration",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_spec2_007",
+      "passage": null,
+      "stem": "The decrease of 0.124 absorbance units per minute corresponds to NADH consumption of approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.124 M/min"
+        },
+        {
+          "label": "B",
+          "text": "0.772 M/min"
+        },
+        {
+          "label": "C",
+          "text": "2.0 × 10⁻⁵ M/min"
+        },
+        {
+          "label": "D",
+          "text": "5.0 × 10⁴ M/min"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Absorbance is dimensionless and cannot be treated directly as molarity. Conversion requires division by εb, so the concentration rate is much smaller. Because ε and path length remain constant, the absorbance slope is directly proportional to the concentration slope.",
+        "B": "Multiplying 0.124 by 6220 reverses the Beer-Lambert rearrangement and produces incompatible units. A rate of this magnitude would exhaust the initial 0.000100 M NADH almost instantaneously. Because ε and path length remain constant, the absorbance slope is directly proportional to the concentration slope.",
+        "C": "Correct. Because A = εbc, |dc/dt| = |dA/dt|/(εb) = 0.124/(6220 × 1.00) ≈ 1.99 × 10⁻⁵ M/min, or 0.020 mM/min. The negative absorbance slope indicates consumption rather than production of NADH. Because ε and path length remain constant, the absorbance slope is directly proportional to the concentration slope. The sign reports consumption, while the magnitude requires division by εb.",
+        "D": "This value is essentially the reciprocal-type error produced by ignoring the small absorbance change and the large absorptivity. It is many orders of magnitude above the starting concentration. Because ε and path length remain constant, the absorbance slope is directly proportional to the concentration slope."
+      },
+      "topic": "Spectrophotometric Rate / Beer-Lambert Law",
+      "difficulty": "Hard",
+      "passageRef": "cp_spec_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_spec2_008",
+      "passage": null,
+      "stem": "Why does extending a conjugated π system commonly shift absorption to a longer wavelength?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It increases the speed of light in vacuum"
+        },
+        {
+          "label": "B",
+          "text": "It eliminates electronic energy levels"
+        },
+        {
+          "label": "C",
+          "text": "It increases photon energy required for excitation"
+        },
+        {
+          "label": "D",
+          "text": "It decreases the energy gap between relevant electronic states"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The speed of light in vacuum is a physical constant and is not changed by molecular conjugation. Optical properties arise from allowed molecular energy transitions. The essential chain is conjugation → smaller electronic energy gap → lower-energy absorbed photon → longer wavelength.",
+        "B": "Conjugated molecules retain quantized electronic states; spectroscopy depends on transitions between them. Conjugation changes their spacing rather than eliminating them. The essential chain is conjugation → smaller electronic energy gap → lower-energy absorbed photon → longer wavelength.",
+        "C": "Longer wavelength corresponds to lower photon energy because E = hc/λ. This option predicts the opposite direction from the observed red shift. The essential chain is conjugation → smaller electronic energy gap → lower-energy absorbed photon → longer wavelength.",
+        "D": "Correct. Delocalization across a larger conjugated system generally brings the highest occupied and lowest unoccupied π orbitals closer in energy. A smaller ΔE requires a lower-energy photon, and E = hc/λ means lower energy corresponds to a longer absorption wavelength. The essential chain is conjugation → smaller electronic energy gap → lower-energy absorbed photon → longer wavelength. E = hc/λ makes the energy-wavelength relationship inverse."
+      },
+      "topic": "UV-Visible Spectroscopy / Conjugation",
+      "difficulty": "Medium",
+      "passageRef": "cp_spec_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_spec2_009",
+      "passage": null,
+      "stem": "NADH fluorescence occurs at a longer wavelength than its excitation primarily because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Some excitation energy is lost nonradiatively before photon emission"
+        },
+        {
+          "label": "B",
+          "text": "The emitted photon travels faster than the absorbed photon"
+        },
+        {
+          "label": "C",
+          "text": "Fluorescence creates energy from solvent molecules"
+        },
+        {
+          "label": "D",
+          "text": "Emission must always have greater energy than absorption"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. After absorption, vibrational relaxation and other nonradiative processes dissipate part of the excitation energy before fluorescence. The emitted photon therefore has lower energy and, by E = hc/λ, a longer wavelength. This excitation–emission separation is the Stokes shift. Absorption and fluorescence are separated by relaxation within the excited state. The emitted photon reflects the energy remaining after those losses rather than the full energy originally absorbed.",
+        "B": "All photons travel at the same speed in vacuum; wavelength differences reflect frequency and energy, not different vacuum speeds. Propagation speed does not explain the Stokes shift. Absorption and fluorescence are separated by relaxation within the excited state.",
+        "C": "Fluorescence does not create net energy. Solvent interactions can facilitate relaxation, but emitted energy remains less than the absorbed energy after nonradiative losses. Absorption and fluorescence are separated by relaxation within the excited state.",
+        "D": "Ordinary fluorescence emission has lower, not greater, photon energy than excitation. Greater emission energy would require an additional energy source or an anti-Stokes process not described here. Absorption and fluorescence are separated by relaxation within the excited state."
+      },
+      "topic": "Fluorescence / Stokes Shift",
+      "difficulty": "Medium",
+      "passageRef": "cp_spec_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_spec2_010",
+      "passage": null,
+      "stem": "The approximately 3:1 M:M+2 pattern most strongly indicates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "One bromine atom"
+        },
+        {
+          "label": "B",
+          "text": "One chlorine atom"
+        },
+        {
+          "label": "C",
+          "text": "Two sulfur atoms"
+        },
+        {
+          "label": "D",
+          "text": "No heavy isotopes"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A single bromine produces M and M+2 peaks of roughly equal intensity because ⁷⁹Br and ⁸¹Br have similar natural abundances. That pattern would be near 1:1, not 3:1. Isotope patterns report elemental composition independently of ordinary fragmentation.",
+        "B": "Correct. Natural chlorine is approximately 75% ³⁵Cl and 25% ³⁷Cl. A molecule containing one chlorine therefore produces molecular-ion peaks separated by two mass units with an approximate 3:1 intensity ratio, a highly recognizable mass-spectral signature. Isotope patterns report elemental composition independently of ordinary fragmentation. Peak spacing gives the mass difference, while the intensity ratio reflects the relevant isotopes' natural abundances.",
+        "C": "Sulfur has several isotopes, but two sulfur atoms do not characteristically generate the clean one-chlorine 3:1 M:M+2 pattern. The expected isotopic envelope would be more complex and much less intense at M+2. Isotope patterns report elemental composition independently of ordinary fragmentation.",
+        "D": "An M+2 peak specifically reflects molecules containing heavier isotopes. A prominent 3:1 pair is positive isotopic evidence rather than evidence that heavy isotopes are absent. Isotope patterns report elemental composition independently of ordinary fragmentation."
+      },
+      "topic": "Mass Spectrometry / Chlorine Isotope Pattern",
+      "difficulty": "Easy",
+      "passageRef": "cp_spec_006",
+      "usePrevPassage": true
+    }
+  ]
+}

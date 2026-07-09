@@ -1,0 +1,352 @@
+{
+  "batch": "B162",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Work, Energy & Power in Biological Systems",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_energy2_001",
+      "passage": "A physiology lab studies stair climbing in volunteers wearing portable metabolic monitors. A participant with mass 70 kg climbs a vertical height of 12 m in 20 s. The center of mass is modeled as rising vertically, and mechanical work against gravity is estimated with W = mgh using g \u2248 10 m/s\u00b2. The monitor also estimates chemical energy expenditure, which is greater than mechanical work because skeletal muscle is not perfectly efficient.\n\nCondition | Vertical height | Time | Mechanical work | Average mechanical power\nTrial 1 | 12 m | 20 s | ? | ?\nTrial 2 | 12 m | 10 s | same work | higher power\n\nThe investigator notes that work depends on force and displacement in the direction of force, whereas power depends on rate of energy transfer. A second analysis compares concentric muscle contraction during upward stepping with isometric contraction while holding position.",
+      "stem": "What is the approximate mechanical work done against gravity in Trial 1?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.2 \u00d7 10\u00b2 J"
+        },
+        {
+          "label": "B",
+          "text": "8.4 \u00d7 10\u00b3 J"
+        },
+        {
+          "label": "C",
+          "text": "1.4 \u00d7 10\u2074 J"
+        },
+        {
+          "label": "D",
+          "text": "5.9 \u00d7 10\u2074 J"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This value is too small because it effectively omits either body mass or most of the height term. The gravitational work must include mass, g, and vertical displacement.",
+        "B": "Correct. Work against gravity is W = mgh = (70 kg)(10 m/s\u00b2)(12 m) = 8.4 \u00d7 10\u00b3 J. The time required does not affect the work for the same vertical displacement; it affects power.",
+        "C": "This is too large for the given height and mass and likely comes from using an incorrect height or double-counting a factor. The straightforward product is 8.4 kJ.",
+        "D": "This value is far too large and would correspond to a much greater vertical height or mass. Stair-climbing work here is kilojoules, not tens of kilojoules for 12 m."
+      },
+      "topic": "Mechanical Work",
+      "difficulty": "Medium",
+      "passageImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAKoCAIAAABr7kJrAABOgklEQVR42u3deXxU1eE34JMFEtYQQhCUJSIKIpuACi4oIGgLglhFESkqVUFotWrdW99ahSqtS/lRlyribqWuKLV1BwQ3EFzYguw7JAQIW0gy7x+3TmMCISAq1ef5g8/MmTvnnnvmTvjOmXPPJMRisQAAABzYEnUBAAAI7gAAgOAOAACCOwAAILgDAACCOwAACO4AAIDgDgAACO4AACC4AwAAgjsAAAjuAACA4A4AAAjuAAAguAMAAII7AAAguAMAgOAOAAAI7gAAgOAOAACCOwAAILgDAIDgDgAACO4AAIDgDgAAgjsAACC4AwAAgjv8SAwfPjzhK4ceemjJh6ZNm5ZQwjvvvLPfd/r5559/q0d35ZVXRjuaOXPmd1Znq1atog0WLlwYLxw/fny8J5966ql4+bx586LCbt26fcOGnXfeeVFV69ev3y8H+I9//KNk+fbt26Pypk2b/q+c3h06dEhISKhevXo528RisSeeeKJ79+5169atXLlynTp1evTo8eyzz5bd8v777//3v//93R/Ft3EaA4I78L9t8eLFixcvjt/dj0n9R+X444+Pbnz44Ye77MzJkyfHb8e3OeGEE3Tddy8Wi/Xv33/gwIFvvPHGunXrdu7cmZOT8/rrr5977rmXXXZZfLMNGzacddZZQ4cO3bp1q04DBHfggPD222//kIL7PffcE4vFYrFY27Ztv7OdxiP4Rx99tMuOnTRpkuB+gHjmmWf+/ve/7/KhBx988LnnnotuP/rooy+88MKP6jQGBHfgwJWRkVEyXxYWFk6dOjWEUKdOHZ0TvtmI+5o1a+bMmRNCSEpKCiHMmTMnJyen5DaJiYmdOnXSdd+9eBy/6qqrlixZsn379tmzZ3fv3j0qfOihh3QRILgDB5wTTzyxZHD/6KOP8vPzQwgnnXRS2Y3Xrl17+eWXH3LIISkpKY0bNx42bNjq1avD1+dDjxgxomXLllWqVMnIyDjuuOMeeOCB4uLiUvVs3br1hhtuaNSoUWpq6tFHHz1+/PiSj7777rs9e/Y85JBDKleunJGR0blz56effjp8faJ8amrq+vXrhw8f3qBBg5SUlFatWo0bNy6UOzl4j20rf7971LRp07p164YQZsyYUVRUVLJXzz///BBCLBaLZsvs3Llz1qxZIYRWrVrVrFkzlJgQ361btzp16lSpUqVVq1a33357yRkaZ555ZkJCQlZW1vPPP9+0adNq1ar99Kc/LduML774ombNmgkJCSkpKVED4pPUe/XqtV/OmQsuuCAhIaFOnTpz587t27dvenp6tWrVunbtGv/E0rlz54SEhMaNG5d6SkJCQvxrh1deeSUqiafk8vu/nMNfsWLFoEGDMjMzq1at2q1bt48//niPh7Bhw4boxo033tioUaOUlJQjjzzykUceSUhICCFEr06vXr1+/etfR5v17du35OlU/hthj/1TwW3KnsYVOfmj5l1yySV169atWrVq586dp0yZcuGFFyYkJNSqVctfPAg/7FmAwA/SsGHDorf5n//85+hGdnZ2LBYbMWJECCElJWXkyJHhq8ke0VNWrFhRMopFGjRosHTp0miDbdu2xUedS7rwwgtL7bRsPa+//nq0zeuvv56cnFy2kkcffbRkJcnJyYcddlipbV566aVomyuuuCIq+eSTTyrYtj3ut2ydZZ155pnRNrNmzYrFYpdeemnU1Pnz58fHd2OxWHwuzbBhw+LPvfjii8vuvW3btuvXr4826NOnTwihevXqVapUKfn0c889N7q7bt26devWRZcaR9fCxo892qBnz57lnBLxAxw/fnzJ8vjTDzvssKhkwIABIYQqVapkZmaWbG1qauq7774bi8XuuOOOqGTu3LnRUxo0aBCV/OEPf4hKfvnLX0btXLlyZUX6f3eHv2rVqnjlkSpVqtSuXTuEUK1atd0d7NVXXx1t3KlTpxdeeCE/P7/sNj179izVmOil3+MbYY/9U8Ftyp5yFTn5c3NzSz1aqVKlZs2ahRDS0tL86YMfMCPu8MMXH1mPRmejCe7HHHNMampqKLMmzJIlS6pVq/bKK69s2bLlrbfeql279vLly6+88spogxEjRkTTbC677LK1a9fOnz+/RYsWIYRx48aVvC4zhLBjx45JkyZt27Yt/vHgr3/9a3TjpptuKiwsbNeu3eLFi7dt2/bKK68kJiaGEB577LGSNRQWFubn57/99ttbt269/vrro8IHHnhgd4e5x7ZVcL9hb2bLRF3aoUOHww8/PEpO0b7KTnB/6KGHxo4dG70cc+bMWbt27XXXXRdCmDlz5uDBg0vuIj8/v0WLFitXrszOzo4feGTnzp0/+9nPFi1aFEL44x//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YB+De4cOHTp27PgN9z158uQjjzxy27Zt328XlDyWA6RJAABwAI24/+tf/1q2bNm3UfPw4cNPOeWU+N0NGzb069evZs2a9erVGzFiRKnymTNnzpgxIyr/9poEAADfRPK+Pe3jjz8+YA9pypQpf/3rXzt37hwvGTRoUHFx8YIFCxYvXty3b9969epdfPHF8fKVK1fGy50QAAAcmBKPPvroatWqHXHEEb/97W/79OnTtm3b+GOPPPJIp06datSokZqa2qJFi7vvvjvsanpJ27Ztf/GLX9x7773NmjVLSUlp2rTpX/7yl/iWOTk5l156acOGDVNTU4866qi77747FouFEM4888zbb789hFCjRo0LLrhgl40bP3787prXsmXLIUOG3HXXXdWrV2/RosW6deuiBh933HEnn3xyCOGjjz6KGrxkyZIJEya89tprCQkJxx577PXXXz9mzJj8/PwqVapMmDDhnnvu+elPf/qrX/3q+uuvv+qqq0o26cYbb0xISPj888/j7YnFYg0aNOjXr5/zBgCA7zq4z5w5c+vWrdnZ2bfddtvLL78cf2DUqFEXX3zx+++/n5+fv2PHjjlz5lx11VXPPvvsLmt59tlnr7zyyvnz5xcUFHz55ZdXXHFFvKpzzjnnb3/72/Lly3fs2DF79uyrrrrqrrvuqkjLnnzyyWgeyy6bF0KYPXv2b37zm23btlWvXj0zMzNq8IcfflhcXByLxbZu3Ro1ePr06dWrVy8qKnruuedCCO3bt581a9bzzz+/ffv26tWrN23aNKqtffv2mzZtKln/z3/+8xDCU089FS+ZOnXqihUr+vfv77wBAOC7Du5jx47Ny8ubPXv2qaeeGi8tLi4eNWpU27ZtP/vss4KCgm3btn344YdpaWnPPPPMLmvZvHlz3759s7Oz8/Pz77jjjih2hxAWLlz49ttvX3bZZevXry8oKJg1a1bTpk0ffvjhEMKLL7540003Rc994oknSlVYVFR0zTXXVKlSZZfNC19dSHr99ddv3749CuujRo064ogj0tPTly5d+oc//KFdu3ZRg3Nycg466KDGjRuPHz8+hJCenl5UVPTUU0+lpaUddNBB8drS09NjsdiVV14Zb1Lz5s07dOjw9NNPx7f5xz/+kZaW9tOf/tR5AwDAdyz5oosuCiGkpaWNHz/+0EMP/U+cT0xcu3btzp07P/zww7Fjx3722WdTpkzZuHFjXl7eLmupXr36k08+WaVKlRDCtddee88996xevTqEEJX885//rF27docOHU499dTs7OyKNOv9999fvXr1b3/72102L5KWlnbrrbcmJSVFDV6xYsXRRx99+eWXT5w4ceLEifPnz8/Pz8/LyysuLk5ISDj//PPvvPPOtWvXRs99++23O3fuvHjx4lL7TUhIKHl34MCBV1xxRanC1NRU5w0A8CO3fv36//VDqFOnzv/qxam1atVq27bthg0b4tF28ODBixYtKrl1cXHxLmtp3rx5lNEjmZmZ0VLo9evXHzBgwJNPPjly5MgQQuXKlXv27Dly5MhmzZqV36wFCxaEEEpeYFqqeSGEZs2aRak9cskllyxcuDCapF6ywZmZmbm5uQMGDBg5cuTzzz/funXrxMTEgoKC0047LWpV+GqFmaSkpFKhvH///ldffXVhYaE3JwDA/3TqDT+w5SDjQ8ubN2/+2c9+tmTJkr59+/7+979/6qmn5syZk5WVtbtaUlJSdjdu/dhjjz322GPdunWrVKlSQUHBCy+8cPLJJ2/ZsqX8Zu3cubPs54RSI98lPypEk1vKrr++Y8eOdu3a5ebmVqtWrXXr1s8+++yMGTOqV6/erFmzs88+Ozc3Nz7oPmPGjCjTl3x6Zmbm6aefXrdu3aKioquvvrpu3bqFhYWxWCy6vhYAAL6H4L558+ZZs2aFr6aPb9iw4bbbbnv++ed/97vf9e/fv06dOitXrtyHnxRNTEwcOHDgG2+8kZubO2nSpD59+qxZs2batGnlP6tJkyYhhPfee2+XzQu7+i2noqKiESNGRKl65MiRxx9/fOXKlZOTk7Oysnr06DF06NDevXu/++67t91229atWwcMGBAv37lz55YtW0aOHDls2LCyNQ8cOHDt2rVTp0599tln+/XrV3KMHwAAvrvg/vjjj2/atCk7O7t///65ublRadWqVUMI06ZNW7ly5fbt2ydPnnzaaacVFBRs3759r2qfOHFiQkLCNddcs2rVqtTU1CZNmlSrVi2EkJGREUJITk4OIXz55Zdln3jiiSdmZmb++c9/3mXzyirV4MWLF3/66afxBj/++OMpKSl/+tOfiouLa9WqVVhYeP7558fLP//883nz5g0fPnzw4MFlm9S7d++0tLQrr7xy2bJl1pMBAOD7khwtehi+Ph3l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x6Vt27aNGjUqLi6O7hYWFtavX7979+7xHNasWbPKlSvff//9OTk5OTk5Dz74YGpqap8+feLBPYRw4403FhQURCU33XRTCGHz5s1lo3OLFi0SEhLuvPPONWvWrF69+uGHH05KSrr55puLiooyMzPbtm372WefFRQUbNu27cMPP0xLS+vbt2/5wb2wsPCggw6qUqXKY489tnHjxs8+++zEE08MIZQN7l9++WUI4bLLLlu/fn1BQcGsWbOaNm165JFHxuNpQkLCqaeeOmfOnNzc3LvvvjshIaFly5al9r7Hdu7uAPfYjVED+vXrt3z58nXr1nXr1i2EULdu3RdffHHTpk3jx49PTk7u0aNHRV6RNm3ahBD69u2bnZ2dn59/xx13hBDiSbrUq1PKLbfckpCQkJ+fXzK4V7BhcYMHD65du3ZRUZE3FyC4A+xPo0ePDiG888470d2JEyeGEJ555pnobjTT47rrriv5lKuuuiopKSmKd0cddVRaWlphYWH80d0F94ULF4YQBg4cuLuWFBQUTJky5f777x82bFiUPrt06VJ+cJ82bVoI4YYbboiXrFy5MjU1tWxwj9ZIadSo0Q033PDcc89t3LixZD1t2rTJyMjIy8uLlwwcODCEsHDhwrJ73107yznAPXZjmzZtqlSpEk/M48ePDyHcdNNN8Y2PPfbYVq1aVbCq6tWrb926Nf5o/fr1O3fuXJHg3r1790MPPbRUz1SwYXH33HNPCGH27NneXMC3zRx34MdlwIABKSkp8UtUH3300dq1a5955pnR3Wig+o477kgo4a677ioqKpo3b160TbNmzZKSkva4o8WLF4cQTjrppF0++vbbbzdr1uzEE08cMmTImDFjZs2aFUIoLi4uv85oRvvxxx8fL6lfv/4RRxxRdsv69esPGDBg6dKlI0eO/NnPfpaZmXnWWWfFDyGE0LFjx7S0tPjdzp07x9tcwXaWc4AV7MZq1apFt2vVqhVCaNWqVbyGGjVqRHupSFXNmzevUqVK/LmZmZkVXLh91apV9erVK1VYwYbFRTWsWrXKmwsILk4F2I/S09P79u07fvz4HTt2bNy48aWXXrrgggtSUlKiR8sJfJs2bYpulMyI5YiqSkhIKPvQ5s2bf/azny1ZsqRv376///3vn3rqqTlz5mRlZe2xzqi2+DWm4auLbne58WOPPfbYY49169atUqVKBQUFL7zwwsknn7xly5bo0UqVKpVtbakPJOW3s5wDrEg3xsNx+QdSkapKPXGXTdqljRs3Vq1atVRhBRtWavuNGzd6cwGCO0DY7wu65+Xlvfbaa+PHj9++fXvJ5dujVHrnnXeW/YLylFNO2au9NGrUKIQQXf4Yyvwq0IYNG2677bbnn3/+d7/7Xf/+/aMfANrjOHGTJk1CCO+++268ZMOGDXPmzNn13/fExIEDB77xxhu5ubmTJk3q06fPmjVrosk2IYTp06eXXB0lqrNp06YVb2c5B7gfu3E/VlVW7dq1v3ngzsvLCyFkZGR4ZwGCO8B+duqppzZu3Pi5554bP358hw4dWrduHX+odevWjRs3/v3vfz9u3Ljc3NyNGze+8847LVu2TEtL27x58y5ri5ZViWZ0lHT44Yc3bdr08ccfHz16dG5u7tatW//5z3/WqlVrwIAB0SjvtGnTVq5cuX379smTJ5922mkFBQXbt28vv+XHHHNMo0aNRo8e/eCDD27cuDE7O7t///7xQfSSJk6cmJCQcM0116xatSo1NbVJkybRwHA8Xy5btuyiiy5aunRpbm7uqFGjnnnmmU6dOpX6EaLy21nOAe5DN+7ON6xqd69O5OCDD16zZs03PJ3Wrl0bVeWdBQTLQQLsd7fccktaWlqlSpXuu+++Ug+9/PLLZaew33vvvbGvVpU5+eSTS25/7733RttcffXVpVaVeeWVV0pVVb169ZkzZ27ZsqVx48ZhVxPT97gcZKnmZWVldezYsezFqQUFBW3bti1Vf/zi1zZt2hx++OHRBO7w1fyfDz74oNTe99jO3R3gHruxTZs2J5xwQvygolXkSy7L2K1bt6OOOqoir0ipqkqVlHp1Srn11ltDCGvWrNnlc/fYsEj//v3r1asXX6cIwMWpAPvTRRddtGnTpuTk5P79+5d66IwzznjzzTe7detWvXr1GjVqHHvssU8//fSvfvWr3VV17rnnnnjiiSkpKV988UWph3r27Pnvf//7pJNOqlKlSkZGRq9evSZNmtSmTZuqVatOnDixe/fuNWvWzMjI6NSp01//+tehQ4euWrWq1A8qlXXGGWe8+uqrxx13XNWqVdu3bz9hwoRdzsCuVKnSxIkTL7nkkkaNGlWuXLlBgwZXXnnliy++GN+gbt26EydObNGiRfXq1bt37z5p0qRjjz22VCV7bOfuDnAfurH8Q97nqsp5daL2hxCmTJnyTc6lKVOm9OrVq+IT6wH2WUKpi5wA+MFr27Zt9erVv2FgDT+I75xbt27dokWLv//97/tWw9SpU0844YQpU6accMIJzisgmOMOAN+GhISEG2+88cUXX8zJydm3Gh5++OGTTz5ZagcEdwD4dp177rlt2rQZNWrUPjx3yZIlTz/99MiRI3UjILgDwLf8v2Bi4rhx4x588MEVK1bs7XNvvvnmoUOHdurUSTcCwRx3AAAgGHEHAADBHQAAENwBAEBwBwAABHcAAEBwBwAAwR0AABDcAQAAwR0AAAR3AABAcAcAAMEdAAAQ3AEAAMEdAAAEdwAAQHAHAAAEdwAAENwBAADBHQAAENwBAEBwBwAABHcAABDcAQAAwR0AABDcAQBAcAcAAAR3AABAcAcAAMEdAAAQ3AEA4Efs/wNdnfQdp6WktgAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "cp_energy2_002",
+      "passage": null,
+      "stem": "What is the average mechanical power in Trial 1?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "420 W"
+        },
+        {
+          "label": "B",
+          "text": "84 W"
+        },
+        {
+          "label": "C",
+          "text": "840 W"
+        },
+        {
+          "label": "D",
+          "text": "8400 W"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Power is work divided by time: P = 8.4 \u00d7 10\u00b3 J / 20 s = 420 W. Trial 2 has the same work but less time, so power increases.",
+        "B": "84 W divides by about 100 s rather than 20 s. It underestimates the rate at which mechanical energy is transferred during the climb.",
+        "C": "840 W would be correct if the same work were done in 10 s, as in Trial 2. It is not the Trial 1 power because Trial 1 takes 20 s.",
+        "D": "8400 W confuses work in joules with power in watts. The numerical work value must still be divided by time to obtain watts."
+      },
+      "topic": "Power",
+      "difficulty": "Easy",
+      "passageRef": "cp_energy2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_energy2_003",
+      "passage": null,
+      "stem": "Why is chemical energy expenditure greater than calculated mechanical work?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Gravity supplies all ATP during stair climbing."
+        },
+        {
+          "label": "B",
+          "text": "Mechanical work can never be positive in humans."
+        },
+        {
+          "label": "C",
+          "text": "Muscle contraction is not perfectly efficient, so some chemical energy becomes heat."
+        },
+        {
+          "label": "D",
+          "text": "Power is independent of time."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Gravity opposes upward climbing and does not supply ATP. ATP hydrolysis powers cross-bridge cycling and ion pumping during muscle activity.",
+        "B": "Humans can do positive external work, such as raising the center of mass during stair climbing. The issue is efficiency, not impossibility of work.",
+        "C": "Correct. Skeletal muscle converts ATP chemical energy into mechanical work with limited efficiency. Some energy is dissipated as heat and internal work, so metabolic cost exceeds external gravitational work.",
+        "D": "Power is explicitly work per time. The chemical-mechanical gap comes from efficiency losses, not from power being time independent."
+      },
+      "topic": "Muscle Efficiency",
+      "difficulty": "Medium",
+      "passageRef": "cp_energy2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_energy2_004",
+      "passage": null,
+      "stem": "Compared with Trial 1, Trial 2 has:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "less work and less power"
+        },
+        {
+          "label": "B",
+          "text": "same work and lower power"
+        },
+        {
+          "label": "C",
+          "text": "more work and same power"
+        },
+        {
+          "label": "D",
+          "text": "same work and higher power"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The vertical displacement is unchanged, so gravitational work is not lower. The shorter time raises power rather than lowering it.",
+        "B": "Same work is correct, but lower power is not. Power increases when the same work is performed in less time.",
+        "C": "The work does not increase because the height and mass are unchanged. If work increased while time decreased, power would rise even more, but that is not the described comparison.",
+        "D": "Correct. Both trials raise the same mass through the same vertical height, so gravitational work is the same. Trial 2 completes that work in half the time, doubling average power."
+      },
+      "topic": "Work vs Power",
+      "difficulty": "Easy",
+      "passageRef": "cp_energy2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_energy2_005",
+      "passage": null,
+      "stem": "During an isometric hold at fixed height, external mechanical work on the center of mass is approximately zero because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "force may be present but displacement of the center of mass is zero."
+        },
+        {
+          "label": "B",
+          "text": "ATP use must also be zero."
+        },
+        {
+          "label": "C",
+          "text": "gravity no longer acts on the body."
+        },
+        {
+          "label": "D",
+          "text": "muscles cannot generate tension without shortening."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Mechanical work is the component of force times displacement. During a static hold, muscles generate force, but if the center of mass does not move, external work on it is approximately zero even though ATP is consumed internally.",
+        "B": "Isometric contraction can consume ATP for cross-bridge cycling and ion handling. Zero external work does not imply zero metabolic cost.",
+        "C": "Gravity still acts during the hold and must be balanced by muscle and skeletal forces. The absence of center-of-mass displacement is what makes external work approximately zero.",
+        "D": "Muscles can generate tension isometrically without macroscopic shortening. That is the entire point of an isometric contraction."
+      },
+      "topic": "Isometric Work",
+      "difficulty": "Medium",
+      "passageRef": "cp_energy2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_energy2_006",
+      "passage": "A rehabilitation engineer evaluates a prosthetic knee that stores elastic energy during early stance and releases some of it during push-off. Force-platform data estimate changes in kinetic energy and potential energy during walking. On level ground, the device reduces metabolic cost when it returns stored elastic energy at the correct phase of gait. On a ramp, the system must add net positive work during ascent and absorb net negative work during descent.\n\nWalking condition | Net mechanical work by prosthesis | Metabolic effect\nLevel ground, timed release | near zero over cycle | lower cost\nRamp ascent | positive | assists lifting\nRamp descent | negative | controlled braking\n\nThe team warns that energy conservation does not mean energy is always useful: energy can be dissipated as heat if released at the wrong time or absorbed by damping elements.",
+      "stem": "Why can elastic energy return lower metabolic cost during level walking?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Energy stored elastically is destroyed before it can be used."
+        },
+        {
+          "label": "B",
+          "text": "Timed release can substitute for some active muscle work during push-off."
+        },
+        {
+          "label": "C",
+          "text": "Elastic storage requires ATP hydrolysis inside the prosthesis."
+        },
+        {
+          "label": "D",
+          "text": "Returning energy at any time is equally useful."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Stored elastic energy is not necessarily destroyed; it can be returned if damping and timing allow. The passage says the device lowers cost when release is properly timed.",
+        "B": "Correct. If elastic energy is released during the phase when positive work is needed, it can reduce the active muscle or motor work required. The timing matters because mechanical energy must be delivered when it contributes to gait.",
+        "C": "A passive elastic element can store and return mechanical energy without ATP. ATP is relevant to biological muscle, not necessarily to the prosthetic spring mechanism.",
+        "D": "The passage explicitly warns that mistimed energy can be dissipated as heat or fail to assist motion. Usefulness depends on phase, not only energy amount."
+      },
+      "topic": "Elastic Energy Return",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_energy2_007",
+      "passage": null,
+      "stem": "On ramp ascent, why must the prosthesis or user add net positive work?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Negative work raises the center of mass."
+        },
+        {
+          "label": "B",
+          "text": "Kinetic energy must always be zero on ramps."
+        },
+        {
+          "label": "C",
+          "text": "The body-prosthesis system gains gravitational potential energy."
+        },
+        {
+          "label": "D",
+          "text": "Energy conservation forbids climbing."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Negative work removes mechanical energy or controls motion. It cannot by itself raise the center of mass against gravity.",
+        "B": "Walking on a ramp can involve kinetic energy fluctuations, but the need for positive work comes from increased height, not zero kinetic energy.",
+        "C": "Correct. Ascending a ramp raises the center of mass, increasing gravitational potential energy. That requires net positive work from the user, prosthesis, or both.",
+        "D": "Energy conservation does not forbid climbing; it requires that the increase in potential energy come from chemical or device-supplied energy."
+      },
+      "topic": "Potential Energy in Gait",
+      "difficulty": "Easy",
+      "passageRef": "cp_energy2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_energy2_008",
+      "passage": null,
+      "stem": "Which condition best represents controlled energy absorption?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Standing still with no damping"
+        },
+        {
+          "label": "B",
+          "text": "Ramp ascent with positive work"
+        },
+        {
+          "label": "C",
+          "text": "Level walking with perfectly timed return"
+        },
+        {
+          "label": "D",
+          "text": "Ramp descent with negative prosthesis work"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Standing still may involve forces but does not describe controlled absorption of gait energy. The passage identifies ramp descent as the negative-work case.",
+        "B": "Ramp ascent requires adding energy, not absorbing it. Positive work assists lifting the body upward.",
+        "C": "Timed return on level ground recycles energy rather than primarily absorbing net energy over the cycle. It can reduce cost, but it is not the clearest negative-work condition.",
+        "D": "Correct. During descent, the system must remove mechanical energy to control lowering of the body. Negative prosthesis work corresponds to absorbing energy, often through damping or controlled braking."
+      },
+      "topic": "Negative Work",
+      "difficulty": "Medium",
+      "passageRef": "cp_energy2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_energy2_009",
+      "passage": null,
+      "stem": "Why is energy released at the wrong gait phase potentially wasted?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Energy conservation stops applying during walking."
+        },
+        {
+          "label": "B",
+          "text": "It may be dissipated or oppose useful motion rather than assist push-off."
+        },
+        {
+          "label": "C",
+          "text": "The prosthesis can only store chemical energy."
+        },
+        {
+          "label": "D",
+          "text": "Mechanical energy has no direction or timing relevance."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Energy conservation still applies; the issue is whether conserved energy is converted into useful work or dissipated. Conservation does not guarantee functional benefit.",
+        "B": "Correct. Mechanical assistance depends on when and how energy is delivered. If release occurs when the limb cannot use it for forward or upward motion, energy may be dissipated as heat or even destabilize gait.",
+        "C": "The prosthesis stores mechanical elastic energy, not chemical energy. The timing problem concerns mechanical energy return.",
+        "D": "Energy is scalar, but its transfer through forces and displacements occurs in a mechanical context. Direction, phase, and timing determine whether it does useful work."
+      },
+      "topic": "Mechanical Timing",
+      "difficulty": "Hard",
+      "passageRef": "cp_energy2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_energy2_010",
+      "passage": null,
+      "stem": "Which statement best distinguishes work from energy in the prosthesis example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Work is energy transfer by force through displacement; stored energy is capacity that may or may not be usefully transferred."
+        },
+        {
+          "label": "B",
+          "text": "Work and energy have unrelated units."
+        },
+        {
+          "label": "C",
+          "text": "Stored energy always equals useful work delivered to the body."
+        },
+        {
+          "label": "D",
+          "text": "Only chemical systems can store energy."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Work is a mode of energy transfer, specifically force acting through displacement. Elastic energy stored in the prosthesis is potential capacity, but it becomes useful work only if released in the right mechanical context.",
+        "B": "Work and energy share units of joules. They are conceptually distinct but dimensionally related.",
+        "C": "Stored energy can be lost to damping or released at an unhelpful time. The passage explicitly warns against equating stored energy with useful work.",
+        "D": "Mechanical systems can store energy elastically or gravitationally. Chemical storage is only one form of energy storage."
+      },
+      "topic": "Work-Energy Distinction",
+      "difficulty": "Medium",
+      "passageRef": "cp_energy2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

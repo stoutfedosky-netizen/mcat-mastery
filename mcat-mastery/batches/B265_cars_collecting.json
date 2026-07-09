@@ -1,0 +1,246 @@
+{
+  "batch": "B265",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Collecting, the Grammar of the Set & the Engineered Gap",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 1,
+    "B": 2,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_collecting_265_q0",
+      "passage": "The obituary gave the collection one sentence; the auction house gave it an afternoon. Fifty years of assembly, the correspondence with dealers on three continents, the trades regretted for decades, the gap finally closed one rainy Tuesday, dispersed to the highest bidders between lunch and dinner. The objects survived intact. What ended was the thing they had composed together, and the speed of its ending is a clue to what a collection actually is: not a pile of things but a relation among them, held in place by a single attention that has now been withdrawn.\n\nCollecting must first be distinguished from mere accumulation, which any attic performs. The collector selects under a principle, and the principle does the work: first editions, but only of one press; stamps, but only misprints; not butterflies but hawkmoths, and only from one range. The principle converts objects into positions, and this is the crucial transformation, since an item's value to the collector derives less from its beauty or use than from its place in the set's grammar, which is why a dull specimen that fills a hole outranks a splendid one that duplicates. Outsiders who note that the prized stamp is ugly have missed the game entirely: it is not a picture, it is a syllable in a sentence being spelled.\n\nWhat drives the spelling is the gap. A complete set is a dead one, collectors ruefully agree, and the missing piece organizes desire more efficiently than any possession: the collector knows precisely what she lacks, a rare and clarifying condition in human life. Around this engine cluster the secondary motives, rescue, since much collecting preserves what the world was discarding; mastery, since the collection is a bounded province that, unlike careers and families, obeys; and autobiography, since a collection arranged over decades becomes a self-portrait executed in other people's objects, legible to anyone who knows how to read the shelf. Ask a collector why this category and not another, and the honest answers usually reach back to childhood, a first gift, a first loss, the origin of the sentence she has been spelling ever since.\n\nInstitutions long ago learned to dignify the practice. The museum is the collection gone public, and whole sciences were founded on cabinets, specimens ranked and compared until taxonomies emerged; collecting, at scale, has been a way of knowing. It has also been a way of taking, and the grand collections of the imperial capitals testify to acquisition backed by power, one civilization arranging another in vitrines. The shelf, public or private, always announces who does the arranging and who is arranged, and the announcement outlasts the arrangers by centuries.\n\nCommerce, meanwhile, studied the collector's engine and learned to manufacture it. The trading-card industry prints the set and the scarcity together, seeding rarities at calculated rates; publishers number the editions; franchises release the figures in waves, each with its engineered shortfall. The gap that once occurred naturally is now designed, a business model that manufactures incompleteness and retails its cure, and the collector's clarifying desire is thereby farmed, her oldest instinct anticipated, priced, and scheduled for quarterly release by a spreadsheet she will never see.\n\nThe practice has a disreputable twin, and the border between them is policed with revealing anxiety. Hoarding, clinically speaking, is accumulation without principle or curation, but in social practice the line is drawn partly by money and display: the wealthy man's warehouse of unrestored cars is a collection, the poor woman's parlor of newspapers a symptom, though the attachment may be identical. And the digital age has produced collecting without weight, playlists, saved images, wish lists, curation stripped of scarcity, storage, and cost, which preserves the selecting mind while abandoning the resistant object, a change whose meaning collectors themselves dispute.\n\nThe auction, then, dispersed the objects but could not disperse what they had been. A collection is an argument, this belongs with this, and not with that, sustained for as long as one attention holds its terms together; it is a sentence composed in things, and like any sentence it can be unwritten. The bidders carried away words. The grammar died with the grammarian, which is what the obituary, in its one sentence, was actually reporting.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The auction of collections after death proves that collecting is a financial investment whose returns are realized only by heirs."
+        },
+        {
+          "label": "B",
+          "text": "Museums and trading-card companies alike exploit the collector's completion drive, making every form of collecting a species of manipulation."
+        },
+        {
+          "label": "C",
+          "text": "A collection is a principled relation among objects sustained by one attention, organized by the gap, and mortal in a way its objects are not."
+        },
+        {
+          "label": "D",
+          "text": "Hoarding and collecting are clinically identical practices separated only by the wealth and display habits of their practitioners."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice reads the auction as the point rather than the probe. The dispersal matters because it reveals what ended, the relation among objects held by a single attention, and no claim about investment returns or heirs appears anywhere in the passage.",
+        "B": "This choice merges two institutions the passage treats differently. The museum dignifies collecting as a way of knowing, whatever its imperial shadows, while the manufactured gap belongs to commerce; and the collector's own drives, rescue, mastery, autobiography, are presented as genuine, not implanted.",
+        "C": "Correct. The passage defines collecting against accumulation by the principle that converts objects into positions, installs the gap as the engine that organizes desire, surveys the practice's institutional and commercial fates, and closes where it opened: the collection as a sentence composed in things, an argument sustained by one attention, unwritten when the grammarian dies.",
+        "D": "This choice overstates the sixth paragraph in both directions. Clinically, hoarding is defined as accumulation without principle or curation, a real difference; the passage's observation is that the social line is drawn partly by money and display, not that the practices are identical."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_collecting_265_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the sixth paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "complicate the account by examining collecting's policed border with hoarding and its weightless digital descendant."
+        },
+        {
+          "label": "B",
+          "text": "argue that digital playlists represent the highest form of collecting, since they strip away scarcity and cost."
+        },
+        {
+          "label": "C",
+          "text": "prove that the clinical definition of hoarding was invented to protect wealthy collectors from diagnosis."
+        },
+        {
+          "label": "D",
+          "text": "explain why the auction house was able to disperse the entire fifty-year collection so quickly after its owner's death."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The paragraph announces the disreputable twin and the revealing anxiety with which the border is policed, notes the clinical criterion and the social one, money and display, and then adds the second complication, digital curation stripped of scarcity and the resistant object, whose meaning collectors themselves dispute. Both moves qualify the portrait without withdrawing it.",
+        "B": "This choice converts an open question into a ranking the paragraph declines. Digital collecting preserves the selecting mind while abandoning the resistant object, a change whose meaning is explicitly left disputed, not crowned.",
+        "C": "This choice inflates a social observation into a conspiracy claim. The passage says the line is drawn partly by money and display in social practice, while granting the clinical definition its content, accumulation without principle or curation; no motive for the definition's invention is alleged.",
+        "D": "This choice attaches the paragraph to the frame narrative it does not serve. The auction's speed is the first and final paragraphs' concern, explained by the withdrawal of the sustaining attention, not by anything in the hoarding discussion."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_collecting_265_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The claim that a dull specimen that fills a hole outranks a splendid one that duplicates, in the second paragraph, illustrates which principle?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Collectors gradually lose the ability to perceive beauty in the categories they collect."
+        },
+        {
+          "label": "B",
+          "text": "Rescue is the strongest of the collector's motives, since dull specimens are the ones the world discards."
+        },
+        {
+          "label": "C",
+          "text": "Market prices for collectibles are set primarily by scarcity and demand rather than by any measure of aesthetic merit."
+        },
+        {
+          "label": "D",
+          "text": "An item's value within a collection derives from its position in the set's grammar rather than from its beauty or use."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice converts a valuation into a perceptual deficit. The collector may see the specimen's dullness perfectly well, as the outsider does; the point is that dullness is beside the game, since the item functions as a syllable, not a picture.",
+        "B": "This choice reroutes the example to the wrong motive. Rescue concerns preserving the discarded and appears in the third paragraph's cluster; the dull-specimen case turns entirely on the hole it fills, position, not salvage.",
+        "C": "This choice moves the claim from the collector's economy to the market's. The paragraph concerns value to the collector under the set's grammar; market pricing enters the passage only later, with commerce's engineered scarcity, and is not what the specimen example is doing.",
+        "D": "Correct. The sentence is offered as the consequence of the crucial transformation: the principle converts objects into positions, and value derives less from beauty or use than from place in the set's grammar. The hole-filling specimen outranks the splendid duplicate precisely because position, not appearance, is what counts."
+      },
+      "topic": "Categorization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_collecting_265_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward the industries that seed rarities at calculated rates is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "admiring, since manufacturing incompleteness requires a deeper understanding of collectors than museums or taxonomists ever achieved."
+        },
+        {
+          "label": "B",
+          "text": "neutral, since engineered gaps and natural gaps organize the collector's desire in exactly the same way."
+        },
+        {
+          "label": "C",
+          "text": "unconvinced they matter, since genuine collectors ignore manufactured series in favor of historical material."
+        },
+        {
+          "label": "D",
+          "text": "critical, treating the engineered gap as the farming of a clarifying desire, an old instinct anticipated by a spreadsheet."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice mistakes diagnosis for applause. The paragraph credits commerce with having studied the collector's engine, but the vocabulary of the verdict, manufactured incompleteness, retailed cure, farmed desire, is exposure, not admiration, and no comparison with museums' understanding is drawn.",
+        "B": "This choice erases the distinction the paragraph exists to draw. The gap that once occurred naturally is now designed, and the difference is the point: the same engine runs, but its fuel is supplied by the seller, which changes who the desire serves.",
+        "C": "This choice invents a collector aristocracy the passage never mentions. Trading cards, numbered editions, and waved figures are presented as the engine successfully harnessed, not as products real collectors disdain; the farming works, which is the complaint.",
+        "D": "Correct. The fifth paragraph's language carries the judgment: the industry prints the set and the scarcity together, a business model that manufactures incompleteness and retails its cure, and the collector's clarifying desire is thereby farmed, her oldest instinct anticipated by a spreadsheet. Each formulation registers exploitation."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_collecting_265_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A game publisher sells sealed packs in which one card per set is printed at a deliberately minute rate, and marketing materials track how many of each rarity remain unfound. Based on the fifth paragraph, this practice is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a modern museum cabinet, since the publisher's rarity tables rank and compare specimens exactly as the early taxonomists once did."
+        },
+        {
+          "label": "B",
+          "text": "the engineered gap as business model: incompleteness manufactured at a calculated rate so that its cure can be retailed."
+        },
+        {
+          "label": "C",
+          "text": "an example of rescue collecting, since the rare cards would otherwise be discarded by uninterested buyers."
+        },
+        {
+          "label": "D",
+          "text": "proof that the completion drive is itself an invention of the industries that profit from it."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice borrows the fourth paragraph's institutional dignity for a commercial operation. The cabinet ranked existing specimens toward knowledge; the publisher prints the scarcity it then tabulates, an inversion the fifth paragraph marks as the difference between finding gaps and manufacturing them.",
+        "B": "Correct. The case matches the fifth paragraph feature for feature: the set and the scarcity are printed together, rarities seeded at calculated rates, and the marketing of remaining unfound cards is the retailing of the cure, desire organized by a shortfall the seller designed. It is the farmed gap in its purest commercial form.",
+        "C": "This choice misapplies a motive from the third paragraph's cluster. Rescue preserves what the world was discarding; nothing is being discarded here, and the rarity exists only because the publisher withheld supply, the opposite of salvage.",
+        "D": "This choice overshoots the paragraph's claim. Commerce studied the collector's engine and learned to manufacture its fuel; the engine itself, the gap-driven desire of the third paragraph, predates and enables the industry, which anticipates the instinct rather than inventing it."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_collecting_265_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the second paragraph's claim that an item's value to the collector derives from its position in the set rather than from its intrinsic qualities?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that collectors frequently disagree with one another about which items belong in a properly defined set."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that auction prices for complete sets consistently and substantially exceed the summed prices of their individually sold components."
+        },
+        {
+          "label": "C",
+          "text": "Studies finding collectors' valuations track beauty and condition, set-completing status adding nothing once intrinsic features are controlled."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that many collectors eventually sell duplicates from their collections to fund new acquisitions."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice documents disputes about a set's boundaries, which presuppose that position matters enough to argue over; disagreement about the grammar's rules confirms the grammar's authority rather than undermining it.",
+        "B": "This choice supports the claim it is asked to weaken. Complete sets commanding premiums over their summed parts is positional value made visible in prices, the whole worth more than the components precisely because completion counts.",
+        "C": "Correct. The claim predicts that value follows position, the dull hole-filler outranking the splendid duplicate. Valuation studies finding beauty and condition doing all the work, with set-completing status adding nothing once intrinsic features are controlled, would reverse the prediction exactly, restoring the aesthetic economy the paragraph says collectors abandon.",
+        "D": "This choice describes behavior the positional account itself predicts: duplicates occupy no empty position, so their sale to fund gap-filling acquisitions is the grammar operating, not evidence against it."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_collecting_265_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the sixth paragraph's suggestion that the social line between collecting and hoarding is drawn partly by class and display?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that clinical hoarding diagnoses have increased steadily in recent decades as public awareness of the condition and its characteristic symptoms has grown."
+        },
+        {
+          "label": "B",
+          "text": "Vignette studies in which identical assemblages were judged collections when attributed to wealthy owners with display cases, symptoms when attributed to poor owners."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that professional organizers report wealthy and poor clients accumulate objects at similar rates."
+        },
+        {
+          "label": "D",
+          "text": "Surveys finding that most self-described collectors worry occasionally about whether their practice has gone too far."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice tracks diagnostic volume over time, which may reflect awareness, access, or criteria changes, and involves no comparison across owner class or display, the two variables the suggestion nominates.",
+        "B": "Correct. The suggestion is that the attachment may be identical while the label tracks money and display, the warehouse a collection, the parlor a symptom. Vignette studies holding the assemblage constant and varying only the owner's wealth and display isolate precisely those variables, showing the judgment moving with class markers rather than with the objects or the conduct.",
+        "C": "This choice equalizes accumulation rates across classes, which concerns how much people acquire, not how their acquisitions are labeled; the suggestion is about the judgment applied to identical practices, which similar rates neither test nor establish.",
+        "D": "This choice reports collectors' private anxieties about excess, a psychological datum consistent with any account of where the public line falls; worry about one's own practice says nothing about whether observers draw the line by class and display."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

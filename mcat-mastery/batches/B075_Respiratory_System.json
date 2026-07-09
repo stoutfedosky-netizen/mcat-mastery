@@ -1,0 +1,338 @@
+{
+  "batch": "B075",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Respiratory System & Gas Exchange",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_resp_001",
+      "passage": "A pulmonologist measures a patient's respiratory function. Spirometry reveals a tidal volume (TV) of 500 mL, respiratory rate of 15 breaths/min, and anatomical dead space of 150 mL. She calculates minute ventilation and alveolar ventilation. Arterial blood gas analysis shows PaO₂ = 95 mmHg, PaCO₂ = 40 mmHg, pH = 7.40, and HCO₃⁻ = 24 mEq/L. She reviews the oxygen-hemoglobin dissociation curve and notes that hemoglobin is approximately 97% saturated at PaO₂ = 95 mmHg. She also examines the patient's chemoreceptor responses to hypercapnia and hypoxia.",
+      "stem": "The patient's alveolar ventilation (volume of air reaching the alveoli per minute) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "7500 mL/min (minute ventilation = TV × RR = 500 × 15)"
+        },
+        {
+          "label": "B",
+          "text": "5250 mL/min, calculated as (TV - dead space) × RR = (500 - 150) × 15"
+        },
+        {
+          "label": "C",
+          "text": "2250 mL/min (dead space × RR)"
+        },
+        {
+          "label": "D",
+          "text": "500 mL/min (tidal volume alone)"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Alveolar ventilation (VA) = (TV - VD) × RR = (500 - 150) × 15 = 350 × 15 = 5250 mL/min. Only air reaching the alveoli participates in gas exchange — the 150 mL filling the conducting airways (nose → terminal bronchioles) is dead space ventilation that does not contact alveolar surfaces. Alveolar ventilation, not minute ventilation, determines PaCO₂: PaCO₂ is inversely proportional to VA. This is why rapid shallow breathing (high RR, low TV) is less effective than slow deep breathing — more of each breath is wasted on dead space.",
+        "A": "7500 mL/min is the total minute ventilation (VE = TV × RR), not alveolar ventilation. Minute ventilation includes dead space ventilation and overestimates the effective gas exchange volume by 150 × 15 = 2250 mL/min.",
+        "C": "2250 mL/min is the dead space ventilation (VD × RR = 150 × 15), representing wasted ventilation. This is the volume ventilating the conducting airways that does not participate in gas exchange.",
+        "D": "500 mL is the tidal volume for a single breath, not the per-minute alveolar ventilation. Ventilation rates must be multiplied by respiratory rate to get per-minute values."
+      },
+      "topic": "Alveolar Ventilation / Dead Space",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_resp_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The oxygen-hemoglobin dissociation curve is shifted to the right (decreased O₂ affinity, promoting O₂ unloading) by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decreased temperature and decreased 2,3-BPG"
+        },
+        {
+          "label": "B",
+          "text": "increased alkalosis (higher pH)"
+        },
+        {
+          "label": "C",
+          "text": "increased CO₂, decreased pH, increased temperature, and increased 2,3-BPG — conditions present in metabolically active tissues that need oxygen delivery"
+        },
+        {
+          "label": "D",
+          "text": "carbon monoxide binding to hemoglobin"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The right shift (Bohr effect for CO₂/pH) promotes O₂ release at tissues. Metabolically active tissues produce CO₂ (↑ PaCO₂), generate acid (↓ pH), produce heat (↑ temperature), and erythrocytes in hypoxic tissue produce 2,3-BPG. All four stabilize the T (tense/deoxy) state of hemoglobin, reducing O₂ affinity and facilitating O₂ unloading where it is most needed. This is an elegant coupling: the byproducts of metabolism directly signal hemoglobin to release more O₂.",
+        "A": "Decreased temperature and decreased 2,3-BPG shift the curve left (increased affinity), not right. Hypothermia and low 2,3-BPG stabilize the R (relaxed/oxy) state, making hemoglobin hold onto O₂ more tightly.",
+        "B": "Alkalosis (higher pH) shifts the curve left — the Bohr effect works in both directions. Higher pH (lower [H⁺]) favors the R state, increasing O₂ affinity. This is why hyperventilation (which blows off CO₂ and raises pH) can impair O₂ delivery to tissues.",
+        "D": "Carbon monoxide (CO) does not simply right-shift the curve. CO binds hemoglobin with ~200× greater affinity than O₂, displacing O₂ and locking remaining subunits in the R state. This left-shifts the curve for the remaining O₂ binding sites, impairing both O₂ loading and unloading — doubly dangerous."
+      },
+      "topic": "O₂-Hemoglobin Dissociation / Bohr Effect",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_resp_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary stimulus for breathing in healthy individuals is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decreased PaO₂ detected by peripheral chemoreceptors"
+        },
+        {
+          "label": "B",
+          "text": "increased PaCO₂ (hypercapnia), detected primarily by central chemoreceptors in the medulla — CO₂ crosses the blood-brain barrier and is converted to H⁺, which stimulates ventilation"
+        },
+        {
+          "label": "C",
+          "text": "conscious voluntary control from the cerebral cortex"
+        },
+        {
+          "label": "D",
+          "text": "stretch receptors in the alveoli that detect lung inflation"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Central chemoreceptors on the ventral medullary surface are the primary drivers of normal ventilation. CO₂ freely crosses the blood-brain barrier and is converted to H⁺ by carbonic anhydrase (CO₂ + H₂O → H₂CO₃ → H⁺ + HCO₃⁻). The resulting decrease in CSF pH stimulates the chemoreceptors, increasing respiratory rate and depth. A 2-5 mmHg rise in PaCO₂ doubles minute ventilation. Peripheral chemoreceptors (carotid body: CN IX; aortic body: CN X) detect PaO₂, but this becomes the primary drive only in chronic hypercapnia (e.g., COPD) when central chemoreceptors become desensitized.",
+        "A": "Peripheral chemoreceptors detect PaO₂, but this is a secondary drive in healthy individuals. The hypoxic ventilatory drive becomes primary only when PaO₂ drops below ~60 mmHg or when chronic CO₂ retention has blunted the central chemoreceptor response.",
+        "C": "Voluntary cortical control can override the brainstem respiratory centers temporarily (breath-holding, hyperventilation), but the primary automatic drive is from medullary CO₂/H⁺ chemoreception. You cannot voluntarily stop breathing to the point of asphyxiation — rising CO₂ will override voluntary control.",
+        "D": "Pulmonary stretch receptors (Hering-Breuer reflex) detect lung overinflation and inhibit further inspiration to protect against overdistention. They modulate breath termination but are not the primary stimulus for initiating breathing."
+      },
+      "topic": "Respiratory Drive / CO₂ Chemoreception",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_resp_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The patient's PaCO₂ is 40 mmHg, which is normal. If she hyperventilates, PaCO₂ would:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase, because more CO₂ is produced during hyperventilation"
+        },
+        {
+          "label": "B",
+          "text": "remain unchanged, because the body perfectly compensates"
+        },
+        {
+          "label": "C",
+          "text": "decrease, because increased alveolar ventilation blows off CO₂ faster than it is produced, raising blood pH (respiratory alkalosis)"
+        },
+        {
+          "label": "D",
+          "text": "decrease, but blood pH would also decrease (become more acidic)"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Hyperventilation increases alveolar ventilation, accelerating CO₂ removal from pulmonary capillary blood. Since CO₂ is the substrate for H₂CO₃ formation, reduced PaCO₂ shifts the equilibrium: CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻ leftward, consuming H⁺ and raising pH. This is respiratory alkalosis (pH > 7.45, PaCO₂ < 35 mmHg). Common causes include anxiety, pain, high altitude acclimatization, and early salicylate toxicity.",
+        "A": "Hyperventilation does not increase CO₂ production — metabolic CO₂ production is determined by cellular metabolism (O₂ consumption), not ventilation rate. Hyperventilation simply removes CO₂ from the blood faster than it is produced, lowering PaCO₂.",
+        "B": "The body does compensate for respiratory alkalosis (renal HCO₃⁻ excretion), but compensation is not instantaneous or perfect. Acutely, PaCO₂ drops significantly during hyperventilation, and pH rises before renal compensation occurs.",
+        "D": "Decreased PaCO₂ raises pH (becomes more basic/alkaline), not more acidic. CO₂ is an acid precursor — less CO₂ means less H₂CO₃ means fewer H⁺ ions, increasing pH."
+      },
+      "topic": "Hyperventilation / Respiratory Alkalosis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_resp_008",
+      "passage": null,
+      "stem": "In systemic tissue capillaries, the chloride shift occurs when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "HCO₃⁻ exits the red blood cell through the band 3 antiporter in exchange for Cl⁻ entering — maintaining electrical neutrality as CO₂ is converted to bicarbonate inside the RBC"
+        },
+        {
+          "label": "B",
+          "text": "chloride ions are actively transported into alveolar cells during gas exchange"
+        },
+        {
+          "label": "C",
+          "text": "chloride binds to hemoglobin, displacing oxygen"
+        },
+        {
+          "label": "D",
+          "text": "NaCl is secreted into the alveolar fluid to reduce surface tension"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "The chloride shift occurs in red blood cells, not alveolar cells. It is a plasma membrane exchange process (HCO₃⁻/Cl⁻ antiport) in erythrocytes that facilitates CO₂ transport as bicarbonate.",
+        "A": "Correct. In peripheral tissues, CO₂ enters RBCs and is converted to HCO₃⁻ by carbonic anhydrase. HCO₃⁻ accumulates inside the RBC and must be exported to plasma for transport. The band 3 protein (anion exchanger 1, AE1) exchanges intracellular HCO₃⁻ for extracellular Cl⁻, maintaining electroneutrality. This is the chloride shift. In the lungs, the process reverses: Cl⁻ exits and HCO₃⁻ enters the RBC, where it is reconverted to CO₂ for exhalation.",
+        "C": "Chloride does not bind hemoglobin. Hemoglobin binds O₂ (oxyhemoglobin), CO₂ (carbaminohemoglobin), CO (carboxyhemoglobin), and H⁺ (acting as a buffer). Chloride enters the RBC through the band 3 protein.",
+        "D": "NaCl is not secreted into alveolar fluid for surface tension reduction. Surfactant (phospholipids from type II cells) reduces surface tension. The chloride shift is a blood-based mechanism unrelated to alveolar fluid."
+      },
+      "topic": "Chloride Shift / CO₂ Transport",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_resp_004",
+      "passage": null,
+      "stem": "Surfactant, produced by type II alveolar cells, reduces surface tension in the alveoli. Without surfactant:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "alveoli would be more compliant and easier to inflate"
+        },
+        {
+          "label": "B",
+          "text": "tidal volume would increase spontaneously"
+        },
+        {
+          "label": "C",
+          "text": "gas exchange would improve because the alveolar membrane would be thinner"
+        },
+        {
+          "label": "D",
+          "text": "alveoli would tend to collapse (atelectasis), especially small alveoli, because high surface tension creates inward-directed pressure according to the Law of Laplace (P = 2T/r)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Without surfactant, tidal volume would decrease because the increased elastic recoil (from high surface tension) resists lung inflation. Patients must work harder to breathe and may develop respiratory failure.",
+        "A": "Without surfactant, compliance decreases (lungs become stiffer and harder to inflate), not easier. High surface tension opposes expansion. More muscular work is needed to inflate the alveoli, increasing the work of breathing.",
+        "C": "Surfactant does not change membrane thickness. It coats the air-liquid interface to reduce surface tension. Without it, collapsed alveoli have reduced surface area for gas exchange, impairing oxygenation.",
+        "D": "Correct. The Law of Laplace (P = 2T/r) states that for a given surface tension T, smaller spheres have higher collapsing pressure. Without surfactant, the air-water interface in small alveoli generates very high inward pressure, causing them to collapse into larger ones (atelectasis). Surfactant (primarily dipalmitoylphosphatidylcholine, DPPC) reduces surface tension more in smaller alveoli (higher surfactant density as they shrink), equalizing pressure across different-sized alveoli and preventing collapse. Premature infants lacking surfactant develop neonatal respiratory distress syndrome (NRDS)."
+      },
+      "topic": "Surfactant / Law of Laplace",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_resp_006",
+      "passage": null,
+      "stem": "CO₂ is transported in the blood primarily as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dissolved CO₂ gas in plasma (~90%)"
+        },
+        {
+          "label": "B",
+          "text": "bound to hemoglobin as carboxyhemoglobin"
+        },
+        {
+          "label": "C",
+          "text": "directly bound to plasma proteins as carbamate compounds"
+        },
+        {
+          "label": "D",
+          "text": "bicarbonate (HCO₃⁻) — formed by carbonic anhydrase in red blood cells: CO₂ + H₂O → H₂CO₃ → H⁺ + HCO₃⁻ — which accounts for ~70% of CO₂ transport"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "CO₂ can form carbamate compounds with plasma proteins, but this is a minor fraction. The dominant transport mechanism is the bicarbonate system within RBCs, facilitated by carbonic anhydrase.",
+        "A": "Only ~7% of CO₂ is transported as dissolved gas. CO₂ is ~20× more soluble than O₂, but the total amount transported far exceeds what can dissolve. The bicarbonate system is the primary transport mechanism.",
+        "B": "CO₂ bound to hemoglobin forms carbaminohemoglobin (not carboxyhemoglobin). Carboxyhemoglobin (HbCO) is hemoglobin bound to carbon monoxide (CO), a toxic compound. Carbaminohemoglobin accounts for ~23% of CO₂ transport — significant but not the primary form.",
+        "D": "Correct. CO₂ transport occurs in three forms: (1) bicarbonate (HCO₃⁻) ~70% — inside RBCs, carbonic anhydrase rapidly converts CO₂ + H₂O → H₂CO₃ → H⁺ + HCO₃⁻; HCO₃⁻ is exchanged for Cl⁻ via the chloride shift (band 3 antiporter) and carried in plasma; (2) carbaminohemoglobin ~23% — CO₂ binds directly to amino groups on hemoglobin; (3) dissolved CO₂ ~7% — physically dissolved in plasma."
+      },
+      "topic": "CO₂ Transport / Bicarbonate System",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_resp_007",
+      "passage": null,
+      "stem": "During normal quiet inspiration, the diaphragm:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "contracts and moves downward, increasing thoracic volume and creating a negative intrapleural pressure that expands the lungs"
+        },
+        {
+          "label": "B",
+          "text": "relaxes and moves upward, decreasing thoracic volume"
+        },
+        {
+          "label": "C",
+          "text": "remains stationary while the external intercostals do all the work"
+        },
+        {
+          "label": "D",
+          "text": "actively pushes air out of the lungs"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Diaphragm relaxation and upward movement occur during expiration (passive process), not inspiration. Inspiration requires active diaphragmatic contraction.",
+        "A": "Correct. The diaphragm is the primary inspiratory muscle. When it contracts, it flattens and moves inferiorly, increasing thoracic volume. This reduces intrapleural pressure (from ~-5 to ~-8 cmH₂O), which reduces alveolar pressure below atmospheric pressure, causing air to flow into the lungs by bulk flow. The external intercostals assist by elevating the ribs (bucket-handle and pump-handle motions). Quiet expiration is passive — the diaphragm relaxes, elastic recoil of the lungs and chest wall compresses the alveoli, and air flows out.",
+        "C": "The diaphragm is the primary muscle of quiet breathing, responsible for ~75% of the volume change. External intercostals assist but are not solely responsible. The diaphragm is essential — paralysis causes significant respiratory compromise.",
+        "D": "Expiration during quiet breathing is passive (elastic recoil). During forced expiration, the internal intercostals and abdominal muscles actively compress the thorax. The diaphragm does not push air out — it creates the conditions for air entry during inspiration."
+      },
+      "topic": "Diaphragm / Mechanics of Breathing",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_resp_003",
+      "passage": null,
+      "stem": "Gas exchange in the alveoli occurs by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "active transport of O₂ and CO₂ across the alveolar membrane"
+        },
+        {
+          "label": "B",
+          "text": "bulk flow driven by muscular contractions of the alveolar walls"
+        },
+        {
+          "label": "C",
+          "text": "simple diffusion down partial pressure gradients — O₂ diffuses from high PO₂ in alveolar air to lower PO₂ in pulmonary capillary blood, and CO₂ diffuses in the reverse direction"
+        },
+        {
+          "label": "D",
+          "text": "facilitated diffusion through specific channel proteins in the alveolar epithelium"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Gas exchange is passive diffusion governed by Fick's law: rate of diffusion ∝ (surface area × solubility × ΔP) / (membrane thickness). Alveolar PO₂ (~100 mmHg) exceeds pulmonary capillary PO₂ (~40 mmHg), driving O₂ into the blood. Pulmonary capillary PCO₂ (~46 mmHg) exceeds alveolar PCO₂ (~40 mmHg), driving CO₂ out. The alveolar surface area is enormous (~70 m²), the membrane is extremely thin (~0.5 µm), and CO₂ is ~20× more soluble than O₂, so CO₂ exchange is very efficient despite a smaller pressure gradient.",
+        "A": "No active transport is involved in pulmonary gas exchange. O₂ and CO₂ are small nonpolar molecules that freely diffuse through the lipid bilayer. No ATP is expended on gas transfer across the respiratory membrane.",
+        "B": "Alveolar walls do not have smooth muscle and cannot contract. They are thin-walled sacs lined by type I pneumocytes (gas exchange) and type II pneumocytes (surfactant secretion). Ventilation (air movement) is driven by the diaphragm and intercostal muscles, not alveolar contraction.",
+        "D": "O₂ and CO₂ do not require channel proteins — they are small, lipophilic molecules that diffuse directly through cell membranes. Aquaporins facilitate water movement, but gas exchange needs no protein channels."
+      },
+      "topic": "Pulmonary Gas Exchange / Fick's Law",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_resp_010",
+      "passage": null,
+      "stem": "Hemoglobin exhibits cooperative binding of oxygen, meaning:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "binding of O₂ to one subunit increases the O₂ affinity of the remaining subunits through a conformational change from the T state to the R state — producing a sigmoidal dissociation curve"
+        },
+        {
+          "label": "B",
+          "text": "each hemoglobin molecule binds only one O₂ molecule"
+        },
+        {
+          "label": "C",
+          "text": "hemoglobin binds O₂ and CO₂ at the same site simultaneously"
+        },
+        {
+          "label": "D",
+          "text": "myoglobin shows greater cooperativity than hemoglobin"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Each hemoglobin molecule binds up to four O₂ molecules — one per subunit (each containing one heme group with one Fe²⁺). The ability to carry four O₂ molecules, combined with cooperative binding, makes hemoglobin an extraordinarily efficient O₂ carrier.",
+        "A": "Correct. Hemoglobin is a tetramer (α₂β₂) that exhibits positive cooperativity: binding of the first O₂ is difficult (T state, low affinity), but it triggers a conformational shift toward the R state (high affinity), making subsequent O₂ binding progressively easier. This produces the characteristic sigmoidal O₂ dissociation curve — flat at low PO₂ (slow initial binding), steep in the middle (rapid cooperative loading), and flat at high PO₂ (saturation). The Hill coefficient for hemoglobin is ~2.8 (maximal theoretical = 4 for complete cooperativity).",
+        "C": "O₂ binds the heme iron (Fe²⁺) in the heme group, while CO₂ binds amino-terminal groups on the globin protein chains. They bind at different sites — not the same site. Their binding is allosterically coupled (Bohr effect) but spatially separate.",
+        "D": "Myoglobin is a monomer with a single heme group — it cannot exhibit cooperativity (which requires multiple subunits). Myoglobin has a hyperbolic O₂ dissociation curve with higher O₂ affinity than hemoglobin at all PO₂ values, allowing it to extract O₂ from hemoglobin in muscle tissue."
+      },
+      "topic": "Cooperative O₂ Binding / Hemoglobin",
+      "difficulty": "Medium"
+    }
+  ]
+}

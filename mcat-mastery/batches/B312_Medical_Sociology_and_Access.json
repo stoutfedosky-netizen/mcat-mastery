@@ -1,0 +1,225 @@
+{
+  "batch": "B312",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Medical Sociology, Access & Health Systems",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_patient_provider_trust_312_q0",
+      "passage": "A medical sociology study interviewed patients at two primary-care practices. Practice A used longer visits, interpreter services, and team-based follow-up calls. Practice B had shorter visits and fewer language services because of staffing shortages. Patients at Practice A more often described clinicians as respectful and reported better understanding of medication instructions. Patients at Practice B more often described unanswered questions and delayed follow-up. The researchers argued that trust was shaped not only by individual bedside manner but also by institutional resources.",
+      "usePrevPassage": false,
+      "stem": "What is the main pattern described across the two practices?",
+      "choices": {
+        "B": "Practice A patients reported more trust and better understanding of medication instructions",
+        "A": "Practice B patients reported more understanding",
+        "C": "Both practices produced identical patient experiences",
+        "D": "Interpreter services were associated with worse communication"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Practice A had longer visits, interpreter services, and follow-up calls, and its patients more often reported respect and understanding. That pattern links institutional resources to patient experience.",
+        "A": "The passage does not support practice b patients reported more understanding; it points instead to practice a patients reported more trust and better understanding of medication instructions.",
+        "C": "The passage does not support both practices produced identical patient experiences; it points instead to practice a patients reported more trust and better understanding of medication instructions.",
+        "D": "The passage does not support interpreter services were associated with worse communication; it points instead to practice a patients reported more trust and better understanding of medication instructions."
+      },
+      "topic": "Medical Sociology",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_patient_provider_trust_312_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The institutional resources in Practice A most directly reduced which barrier?",
+      "choices": {
+        "D": "Communication and language access barriers",
+        "A": "Genetic drift",
+        "B": "The vestibular sense",
+        "C": "Operant extinction"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Interpreter services and longer visits give patients more opportunity to understand and ask questions. Those resources directly target communication barriers in clinical care.",
+        "A": "The passage does not support genetic drift; it points instead to communication and language access barriers.",
+        "B": "The passage does not support the vestibular sense; it points instead to communication and language access barriers.",
+        "C": "The passage does not support operant extinction; it points instead to communication and language access barriers."
+      },
+      "topic": "Medical Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_patient_provider_trust_312_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why should causal language be used cautiously for this passage?",
+      "choices": {
+        "A": "The design leaves room for alternative explanations or selection effects",
+        "B": "The passage contains no measurable variables",
+        "C": "All participant reports are automatically false",
+        "D": "The topic is unrelated to P/S content"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The practices differed in multiple institutional features, and patients were not randomly assigned to clinic resources, so the study supports association and mechanism more than a single isolated causal effect.",
+        "B": "The passage includes concrete measures or observations, so this is incorrect.",
+        "C": "Self-report can have limitations, but it is not automatically false.",
+        "D": "The topic fits psychological, social, or behavioral science content."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_patient_provider_trust_312_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application best follows from the passage?",
+      "choices": {
+        "C": "Improve communication supports such as interpreters, longer visits, and follow-up",
+        "A": "Ignore the social or behavioral context described",
+        "B": "Use a one-size-fits-all intervention even when the passage shows different barriers",
+        "D": "Assume the measured pattern cannot be changed"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The better patient experiences occurred where communication infrastructure was stronger, so strengthening those resources follows directly from the passage.",
+        "A": "Ignoring the described context would miss the mechanism emphasized in the passage.",
+        "B": "A uniform intervention would not address the specific pattern described.",
+        "D": "The passage supports practical response rather than fatalism."
+      },
+      "topic": "Medical Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_patient_provider_trust_312_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most defensible?",
+      "choices": {
+        "B": "Institutional organization can shape trust and understanding in healthcare, even though interviews alone do not isolate one cause",
+        "A": "The finding proves a universal law for every person",
+        "C": "The main construct is irrelevant because one limitation exists",
+        "D": "The passage supports only biological explanations"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The passage supports a sociological conclusion about clinic structure while still requiring caution about causal isolation.",
+        "A": "The passage supports a bounded interpretation, not a universal absolute.",
+        "C": "A limitation weakens overclaiming but does not make the construct irrelevant.",
+        "D": "P/S passages often involve social and psychological mechanisms beyond biology alone."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_sick_role_chronic_illness_312_q5",
+      "passage": "A researcher studied adults with chronic migraine who reported missing work unpredictably. Many participants said coworkers accepted short acute illnesses but were less understanding when symptoms recurred without visible signs. Some patients felt pressure to prove that their condition was real, while others avoided disclosure to prevent stigma. The researcher analyzed the experiences using the sick role, noting that chronic invisible illness can complicate expectations that a patient will be temporarily exempt from obligations and then quickly recover.",
+      "usePrevPassage": false,
+      "stem": "What problem did participants with chronic migraine commonly report?",
+      "choices": {
+        "A": "They felt pressure to prove an invisible recurrent illness was legitimate",
+        "B": "Coworkers always accepted chronic symptoms without question",
+        "C": "Symptoms were visible and predictable in every case",
+        "D": "Participants never considered disclosure concerns"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage emphasizes that chronic migraine was recurrent, often invisible, and sometimes doubted by others, creating pressure to prove legitimacy.",
+        "B": "The passage does not support coworkers always accepted chronic symptoms without question; it points instead to they felt pressure to prove an invisible recurrent illness was legitimate.",
+        "C": "The passage does not support symptoms were visible and predictable in every case; it points instead to they felt pressure to prove an invisible recurrent illness was legitimate.",
+        "D": "The passage does not support participants never considered disclosure concerns; it points instead to they felt pressure to prove an invisible recurrent illness was legitimate."
+      },
+      "topic": "Medical Sociology",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sick_role_chronic_illness_312_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The researcher\u2019s interpretation most directly uses which concept?",
+      "choices": {
+        "D": "The sick role",
+        "A": "Classical conditioning",
+        "B": "Signal detection theory",
+        "C": "Social facilitation"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The sick role concerns social expectations around illness, exemption from obligations, legitimacy, and recovery. Chronic invisible illness complicates those expectations.",
+        "A": "The passage does not support classical conditioning; it points instead to the sick role.",
+        "B": "The passage does not support signal detection theory; it points instead to the sick role.",
+        "C": "The passage does not support social facilitation; it points instead to the sick role."
+      },
+      "topic": "Medical Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sick_role_chronic_illness_312_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why should causal language be used cautiously for this passage?",
+      "choices": {
+        "C": "The design leaves room for alternative explanations or selection effects",
+        "A": "The passage contains no measurable variables",
+        "B": "All participant reports are automatically false",
+        "D": "The topic is unrelated to P/S content"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The data come from reports and interviews, so they reveal experiences and meanings but cannot prove that coworker expectations alone caused every workplace outcome.",
+        "A": "The passage includes concrete measures or observations, so this is incorrect.",
+        "B": "Self-report can have limitations, but it is not automatically false.",
+        "D": "The topic fits psychological, social, or behavioral science content."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sick_role_chronic_illness_312_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application best follows from the passage?",
+      "choices": {
+        "B": "Create flexible accommodation policies that do not require repeated public proof of symptoms",
+        "A": "Ignore the social or behavioral context described",
+        "C": "Use a one-size-fits-all intervention even when the passage shows different barriers",
+        "D": "Assume the measured pattern cannot be changed"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Flexible accommodation addresses the recurring and invisible nature of the illness while reducing stigma and unnecessary disclosure burden.",
+        "A": "Ignoring the described context would miss the mechanism emphasized in the passage.",
+        "C": "A uniform intervention would not address the specific pattern described.",
+        "D": "The passage supports practical response rather than fatalism."
+      },
+      "topic": "Medical Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sick_role_chronic_illness_312_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most defensible?",
+      "choices": {
+        "D": "Chronic invisible illness can complicate the social expectations normally attached to being sick",
+        "A": "The finding proves a universal law for every person",
+        "B": "The main construct is irrelevant because one limitation exists",
+        "C": "The passage supports only biological explanations"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. That conclusion follows from the discussion of legitimacy, temporary exemption, and stigma without overclaiming beyond the interviews.",
+        "A": "The passage supports a bounded interpretation, not a universal absolute.",
+        "B": "A limitation weakens overclaiming but does not make the construct irrelevant.",
+        "C": "P/S passages often involve social and psychological mechanisms beyond biology alone."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

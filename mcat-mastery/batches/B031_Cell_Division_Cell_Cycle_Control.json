@@ -1,0 +1,337 @@
+{
+  "batch": "B031",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Cell Division & Cell Cycle Control",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "bb_div_001",
+      "passage": "A cancer biologist studies the cell cycle in cultured human fibroblasts. The cell cycle consists of interphase (G\u2081, S, G\u2082) and mitosis (M phase). The biologist uses flow cytometry to measure DNA content per cell and observes three distinct populations: cells with 2C DNA content (G\u2081), cells with between 2C and 4C (S phase, actively replicating), and cells with 4C DNA content (G\u2082 and M phase).",
+      "stem": "A cell in the G\u2082 phase has 4C DNA content because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the cell has undergone meiosis I and is now tetraploid"
+        },
+        {
+          "label": "B",
+          "text": "chromosomes have been duplicated by gene amplification rather than normal replication"
+        },
+        {
+          "label": "C",
+          "text": "the cell has fused with another cell, doubling its genetic material"
+        },
+        {
+          "label": "D",
+          "text": "DNA replication occurred during S phase, doubling the DNA content from 2C to 4C, and the cell has not yet divided"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Meiosis I separates homologous chromosomes, reducing ploidy. It does not produce tetraploid cells. Furthermore, somatic cells do not undergo meiosis \u2014 only germ cells in the gonads do.",
+        "B": "Gene amplification is a selective process that increases copy number of specific genes (e.g., rDNA amplification in Xenopus oocytes, oncogene amplification in cancer). It does not account for the genome-wide doubling that produces 4C content during the normal cell cycle.",
+        "C": "Cell fusion (producing a heterokaryon or synkaryon) is an artificial laboratory technique, not a normal cell cycle event. Normal 4C DNA content in G\u2082 results from S-phase replication.",
+        "D": "During S phase, every chromosome is replicated, producing sister chromatids joined at the centromere. This doubles the total DNA content from 2C (diploid, 46 chromosomes in humans) to 4C (each chromosome now has two identical sister chromatids). In G\u2082, the cell has finished replication but has not yet divided \u2014 so it contains 4C DNA content in the form of 46 replicated chromosomes (92 chromatids). When mitosis occurs, sister chromatids separate, and each daughter cell receives 2C DNA content."
+      },
+      "topic": "Cell Cycle / DNA Content in G\u2082",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_div_002",
+      "passage": null,
+      "passageRef": "bb_div_001",
+      "stem": "The G\u2081/S checkpoint ('restriction point') is a critical cell cycle control point. A cell that passes this checkpoint commits to DNA replication and cell division. This checkpoint primarily assesses:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "whether cell size is adequate, growth signals are present, nutrients are available, and DNA is undamaged"
+        },
+        {
+          "label": "B",
+          "text": "whether cytokinesis has been completed from the previous division"
+        },
+        {
+          "label": "C",
+          "text": "whether sister chromatids are properly aligned at the metaphase plate"
+        },
+        {
+          "label": "D",
+          "text": "whether the cell has sufficient mitotic spindle fibers to separate chromosomes"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The G\u2081/S checkpoint (restriction point) integrates multiple signals before committing to replication: cell size (sufficient growth), mitogenic signals (growth factors activating Ras/MAPK and PI3K/Akt pathways), nutrient availability (amino acids, glucose), and DNA integrity (absence of damage that could be propagated by replication). The key molecular decision involves Rb phosphorylation by Cyclin D-CDK4/6 and Cyclin E-CDK2, releasing E2F transcription factors to activate S-phase genes. DNA damage activates p53, which induces p21 (a CDK inhibitor), arresting the cycle.",
+        "B": "Cytokinesis completion is relevant at the end of M phase. By G\u2081, the cell is already a separate entity. The G\u2081/S checkpoint assesses whether conditions favor another round of division, not whether the previous one was completed.",
+        "C": "Sister chromatid alignment is monitored by the spindle assembly checkpoint during metaphase of M phase, not at the G\u2081/S boundary. At G\u2081/S, the cell has not yet replicated its DNA, so sister chromatids do not exist.",
+        "D": "Mitotic spindle assessment occurs at a later checkpoint \u2014 the spindle assembly checkpoint (SAC) during M phase (specifically at the metaphase-to-anaphase transition). The G\u2081/S checkpoint operates before DNA replication begins."
+      },
+      "topic": "G\u2081/S Checkpoint / Restriction Point",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_div_003",
+      "passage": null,
+      "passageRef": "bb_div_001",
+      "stem": "The tumor suppressor p53 is often called the 'guardian of the genome.' When DNA damage is detected, p53:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "promotes uncontrolled cell division to compensate for damaged cells"
+        },
+        {
+          "label": "B",
+          "text": "directly repairs damaged DNA by acting as a DNA polymerase"
+        },
+        {
+          "label": "C",
+          "text": "inhibits DNA repair enzymes to allow mutations to accumulate"
+        },
+        {
+          "label": "D",
+          "text": "activates transcription of genes that arrest the cell cycle (e.g., p21, a CDK inhibitor) and, if damage is irreparable, induces apoptosis"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "p53 inhibits cell division, not promotes it. Uncontrolled division in the presence of DNA damage is exactly what p53 prevents. Loss of p53 function (through mutation) is one of the most common events in cancer, precisely because it removes this brake on division of damaged cells.",
+        "B": "p53 is a transcription factor, not a DNA polymerase. It does not directly repair DNA \u2014 it activates the transcription of genes whose protein products perform repair (e.g., GADD45, XPC) or arrest the cycle to allow repair time.",
+        "C": "p53 activates DNA repair pathways, not inhibits them. Inhibiting repair would be the opposite of its guardian function and would promote rather than prevent carcinogenesis.",
+        "D": "p53 is a transcription factor activated by DNA damage signals (ATM/ATR kinases phosphorylate and stabilize p53). It induces expression of p21 (a CDK inhibitor that blocks Cyclin-CDK complexes, arresting the cell cycle in G\u2081), DNA repair genes, and pro-apoptotic genes (BAX, PUMA, NOXA) that trigger programmed cell death if the damage cannot be repaired. This gives the cell time to repair damage or, failing that, eliminates it before it can propagate mutations. p53 mutations are found in approximately 50% of human cancers."
+      },
+      "topic": "p53 / Tumor Suppressor",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_div_004",
+      "passage": null,
+      "stem": "During mitosis, the correct order of phases is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Telophase \u2192 Anaphase \u2192 Metaphase \u2192 Prophase"
+        },
+        {
+          "label": "B",
+          "text": "Metaphase \u2192 Prophase \u2192 Telophase \u2192 Anaphase"
+        },
+        {
+          "label": "C",
+          "text": "Anaphase \u2192 Telophase \u2192 Prophase \u2192 Metaphase"
+        },
+        {
+          "label": "D",
+          "text": "Prophase \u2192 Metaphase \u2192 Anaphase \u2192 Telophase"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Telophase is the final stage of mitosis, not the first. This sequence is completely reversed.",
+        "B": "This sequence is incorrect. Prophase must precede metaphase because chromosomes must condense before they can align. Anaphase must precede telophase because chromatids must separate before nuclei can re-form.",
+        "C": "Anaphase cannot occur first because sister chromatids must first condense (prophase) and align (metaphase) before they can be separated (anaphase).",
+        "D": "Mitosis proceeds in order: Prophase (chromatin condenses into visible chromosomes, nuclear envelope begins to break down, mitotic spindle forms), Metaphase (chromosomes align at the metaphase plate, kinetochores attach to spindle fibers), Anaphase (sister chromatids separate and move to opposite poles), Telophase (chromatids decondense, nuclear envelopes re-form, spindle disassembles). Cytokinesis (cell division) typically overlaps with telophase. The mnemonic 'PMAT' helps remember the order."
+      },
+      "topic": "Mitotic Phases / PMAT",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_div_005",
+      "passage": null,
+      "stem": "An oncogene is a mutated version of a normal gene (proto-oncogene) that promotes cell growth. Proto-oncogenes typically encode:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "proteins that inhibit cell division, such as p53 and Rb"
+        },
+        {
+          "label": "B",
+          "text": "growth factors, growth factor receptors, signal transduction proteins, or transcription factors that normally promote cell proliferation in a regulated manner"
+        },
+        {
+          "label": "C",
+          "text": "structural proteins of the cytoskeleton that have no role in cell signaling"
+        },
+        {
+          "label": "D",
+          "text": "metabolic enzymes involved in glycolysis that have no connection to cell growth"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "p53 and Rb are tumor suppressors, not proto-oncogenes. Tumor suppressors inhibit cell division; proto-oncogenes promote it (in a regulated manner). When proto-oncogenes are mutated to become constitutively active, they become oncogenes that drive uncontrolled proliferation.",
+        "B": "Proto-oncogenes encode proteins at every level of the growth signaling pathway: growth factors (e.g., PDGF/c-sis), growth factor receptors (e.g., EGFR/c-erbB), signal transduction proteins (e.g., Ras GTPase, Raf kinase), and transcription factors (e.g., Myc, Jun, Fos). In their normal form, these proteins promote cell growth in response to appropriate signals. Gain-of-function mutations or overexpression converts them to oncogenes that signal constitutively, independent of normal growth factor control.",
+        "C": "While cytoskeletal proteins are important for cell division (spindle fibers, contractile ring), proto-oncogenes specifically refer to genes that encode growth-promoting signaling proteins. Structural proteins alone do not drive the uncontrolled proliferation characteristic of oncogene activation.",
+        "D": "While metabolic reprogramming does occur in cancer (Warburg effect), proto-oncogenes are defined by their role in growth signaling, not in basic metabolism. Some metabolic enzymes have been identified as cancer-relevant (IDH mutations, SDH mutations), but these are not classic proto-oncogenes."
+      },
+      "topic": "Oncogenes / Proto-oncogenes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_div_006",
+      "passage": null,
+      "stem": "Apoptosis (programmed cell death) differs from necrosis in that apoptosis:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is an uncontrolled process triggered by injury that causes inflammation and damage to surrounding tissue"
+        },
+        {
+          "label": "B",
+          "text": "involves random cell lysis that releases cellular contents into the extracellular space"
+        },
+        {
+          "label": "C",
+          "text": "is a controlled, energy-dependent process characterized by cell shrinkage, chromatin condensation, and membrane blebbing, without triggering inflammation"
+        },
+        {
+          "label": "D",
+          "text": "only occurs in cancer cells and never in normal development"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This describes necrosis, not apoptosis. Necrosis is uncontrolled cell death from injury (trauma, toxins, ischemia) that causes cell swelling, membrane rupture, and release of intracellular contents, provoking an inflammatory response.",
+        "B": "Random cell lysis with release of contents is characteristic of necrosis. In apoptosis, the cell is systematically dismantled: the contents are packaged into membrane-bound apoptotic bodies that are phagocytosed by neighboring cells and macrophages without releasing inflammatory signals.",
+        "C": "Apoptosis is a tightly regulated, ATP-dependent process. Key features include: cell shrinkage (not swelling), chromatin condensation and DNA fragmentation (by caspase-activated DNases), membrane blebbing (outpouchings without rupture), formation of apoptotic bodies, exposure of phosphatidylserine on the outer membrane leaflet (an 'eat me' signal for phagocytes), and absence of inflammatory response. Apoptosis is essential for normal development (digit formation, immune cell selection) and tissue homeostasis.",
+        "D": "Apoptosis is essential for normal development and homeostasis. Examples include: sculpting fingers and toes (removing webbing), eliminating self-reactive lymphocytes (negative selection in thymus), shedding the uterine lining during menstruation, and removing damaged or excess cells throughout life. It is not limited to cancer cells."
+      },
+      "topic": "Apoptosis vs Necrosis",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_div_007",
+      "passage": null,
+      "stem": "During anaphase of mitosis, sister chromatids are separated and pulled to opposite poles. The separation of sister chromatids requires the cleavage of cohesin proteins by the enzyme separase. Separase is activated when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the cell enters G\u2081 phase and growth signals are detected"
+        },
+        {
+          "label": "B",
+          "text": "all kinetochores are properly attached to spindle fibers, satisfying the spindle assembly checkpoint and triggering degradation of securin (the separase inhibitor) via the anaphase-promoting complex/cyclosome (APC/C)"
+        },
+        {
+          "label": "C",
+          "text": "DNA replication is completed during S phase"
+        },
+        {
+          "label": "D",
+          "text": "the cell receives an external signal from a neighboring cell to proceed with division"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Separase activation occurs during M phase (specifically at the metaphase-to-anaphase transition), not during G\u2081. G\u2081 is the pre-replication growth phase, long before chromosomes need to be separated.",
+        "B": "The spindle assembly checkpoint (SAC) monitors kinetochore-microtubule attachment. Unattached kinetochores generate a 'wait' signal (Mad2-Cdc20 complex) that inhibits the APC/C. When all kinetochores are properly attached and under tension, the SAC is satisfied, APC/C is activated, and it ubiquitinates securin (targeting it for proteasomal degradation). Without securin to inhibit it, separase becomes active and cleaves cohesin, allowing sister chromatids to separate. This ensures that anaphase only proceeds when all chromosomes are correctly attached \u2014 preventing aneuploidy.",
+        "C": "S-phase completion is monitored at the G\u2082/M checkpoint, not at the metaphase-anaphase transition. The events described (cohesin cleavage, separase activation) occur during M phase.",
+        "D": "External signals influence the G\u2081/S checkpoint (restriction point), not the metaphase-anaphase transition. Once a cell has entered M phase, the decision to separate chromatids depends on internal checkpoint signals (SAC), not external mitogenic signals."
+      },
+      "topic": "Spindle Assembly Checkpoint / APC-C",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_div_008",
+      "passage": null,
+      "stem": "A key difference between mitosis and meiosis is that meiosis:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "produces two genetically identical diploid daughter cells"
+        },
+        {
+          "label": "B",
+          "text": "involves only one round of cell division"
+        },
+        {
+          "label": "C",
+          "text": "produces four genetically unique haploid daughter cells through two rounds of division, with homologous recombination and independent assortment generating genetic diversity"
+        },
+        {
+          "label": "D",
+          "text": "occurs in all somatic cells throughout the body"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Two genetically identical diploid daughter cells is the outcome of mitosis, not meiosis. Meiosis produces four genetically unique haploid cells.",
+        "B": "Meiosis involves two rounds of division: meiosis I (separation of homologous chromosomes) and meiosis II (separation of sister chromatids). Mitosis involves one round of division.",
+        "C": "Meiosis produces four haploid (n) gametes from one diploid (2n) cell through two sequential divisions. Genetic diversity is generated by: (1) crossing over (homologous recombination during prophase I, exchanging segments between homologs), (2) independent assortment (random orientation of homologous pairs at metaphase I, producing 2\u00b2\u00b3 \u2248 8.4 million possible chromosome combinations in humans), and (3) random fertilization. These mechanisms ensure that each gamete is genetically unique.",
+        "D": "Meiosis occurs only in germ cells (in the gonads \u2014 testes and ovaries), not in somatic cells. Somatic cells divide by mitosis throughout the body."
+      },
+      "topic": "Meiosis vs Mitosis / Genetic Diversity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_div_009",
+      "passage": null,
+      "stem": "Cyclins and cyclin-dependent kinases (CDKs) regulate progression through the cell cycle. CDKs are active only when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "bound to their specific cyclin partner, whose concentration oscillates during the cell cycle through regulated synthesis and degradation"
+        },
+        {
+          "label": "B",
+          "text": "the cell is in G\u2080 (quiescent) phase and not actively dividing"
+        },
+        {
+          "label": "C",
+          "text": "all cyclins are simultaneously present at maximum concentration"
+        },
+        {
+          "label": "D",
+          "text": "the cell has completed cytokinesis and is preparing to exit the cell cycle"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "CDKs are constitutively expressed but inactive without their cyclin partners. Cyclins are synthesized and degraded at specific cell cycle phases, creating oscillating concentration patterns: Cyclin D peaks in G\u2081, Cyclin E peaks at the G\u2081/S transition, Cyclin A is present during S and G\u2082, and Cyclin B peaks at the G\u2082/M transition. Each cyclin-CDK complex phosphorylates specific substrates that drive cell cycle progression. Degradation of cyclins (by ubiquitin-proteasome pathway, e.g., APC/C-mediated destruction of Cyclin B) is essential for exiting each phase. CDK activity is further regulated by activating phosphorylation (by CDK-activating kinase, CAK), inhibitory phosphorylation (by Wee1 kinase, removed by Cdc25 phosphatase), and CDK inhibitors (p21, p27, p16) that bind and inactivate cyclin-CDK complexes in response to signals such as DNA damage or contact inhibition.",
+        "B": "In G\u2080 (quiescence), cyclin levels are low and CDKs are largely inactive. CDK activity drives cells through the cycle; its absence keeps cells in G\u2080.",
+        "C": "Different cyclins peak at different times. Having all cyclins at maximum simultaneously would send contradictory signals. The sequential activation and degradation of specific cyclins is what gives the cell cycle its directionality.",
+        "D": "CDK activity drives the cell through division, not exit from the cycle. After cytokinesis, CDK activity decreases as cyclins are degraded, allowing cells to enter G\u2081 or exit to G\u2080."
+      },
+      "topic": "Cyclins and CDKs / Cell Cycle Regulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_div_010",
+      "passage": null,
+      "stem": "Telomeres are repetitive DNA sequences (TTAGGG in humans) at the ends of chromosomes. With each round of DNA replication, telomeres shorten because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "DNA polymerase requires an RNA primer and synthesizes DNA 5' to 3', so it cannot fully replicate the 3' end of the lagging strand \u2014 the 'end replication problem'"
+        },
+        {
+          "label": "B",
+          "text": "telomeres are actively degraded by nucleases after each replication cycle"
+        },
+        {
+          "label": "C",
+          "text": "the cell intentionally shortens telomeres to signal when to stop dividing"
+        },
+        {
+          "label": "D",
+          "text": "DNA polymerase makes errors specifically at the chromosome ends, deleting nucleotides"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "DNA polymerase synthesizes DNA only in the 5'\u21923' direction and requires an RNA primer to initiate each Okazaki fragment on the lagging strand. After replication, RNA primers are removed and replaced with DNA by DNA polymerase. However, the terminal RNA primer at the very end of the lagging strand template cannot be replaced: once removed, there is no upstream 3'-OH from which DNA polymerase can extend to fill the gap. This leaves a short unreplicated segment at the 5' end of the new lagging strand, resulting in progressive shortening with each replication cycle. Telomeric repeats (TTAGGG in humans) serve as a disposable buffer, protecting coding sequences. After approximately 50\u201370 divisions (the Hayflick limit), critically short telomeres trigger senescence or apoptosis. Telomerase, a reverse transcriptase active in germ cells and stem cells, can extend telomeres and counteract this shortening.",
+        "B": "While some nuclease processing of telomeres does occur, the primary mechanism of telomere shortening is the end replication problem \u2014 an inherent limitation of the DNA replication machinery, not active degradation.",
+        "C": "Telomere shortening is a passive consequence of the replication machinery's limitations, not an intentional cellular program. However, the resulting shortening does function as a 'mitotic clock' that limits the replicative lifespan of normal somatic cells \u2014 this is a consequence, not a cause.",
+        "D": "DNA polymerase's error rate is approximately 1 in 10\u2079 bases after proofreading, and errors are random across the genome, not specifically targeted to telomeres. Telomere shortening is caused by the end replication problem, not by polymerase infidelity."
+      },
+      "topic": "Telomeres / End Replication Problem",
+      "difficulty": "Medium"
+    }
+  ]
+}

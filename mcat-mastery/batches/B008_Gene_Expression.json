@@ -1,0 +1,500 @@
+{
+  "batch": "B008",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Gene Expression: Transcription & Translation",
+  "questionCount": 15,
+  "questions": [
+    {
+      "id": "bb_gene_001",
+      "passage": "Researchers study the regulation of the lac operon in E. coli under four experimental conditions. The lac operon encodes enzymes required for lactose metabolism (β-galactosidase, permease, and transacetylase) and is regulated by both a negative control element (the lac repressor, encoded by the lacI gene) and a positive control element (the CAP-cAMP complex).\n\nThe lac repressor binds the operator sequence and blocks RNA polymerase from transcribing the structural genes. When allolactose (an isomer of lactose) binds the repressor, it undergoes a conformational change and releases from the operator. The CAP-cAMP complex binds upstream of the promoter and enhances RNA polymerase binding; intracellular cAMP levels are inversely related to glucose availability.\n\nCondition 1: +glucose, −lactose\nCondition 2: −glucose, −lactose\nCondition 3: +glucose, +lactose\nCondition 4: −glucose, +lactose",
+      "stem": "Under which condition would expression of the lac operon structural genes be highest?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Condition 1 (+glucose, −lactose)"
+        },
+        {
+          "label": "B",
+          "text": "Condition 2 (−glucose, −lactose)"
+        },
+        {
+          "label": "C",
+          "text": "Condition 3 (+glucose, +lactose)"
+        },
+        {
+          "label": "D",
+          "text": "Condition 4 (−glucose, +lactose)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Under this condition, glucose is present (low cAMP, no CAP-cAMP activation) and lactose is absent (repressor remains bound to operator). Both regulatory inputs suppress transcription. This condition produces the lowest expression level — the cell has its preferred carbon source (glucose) and no reason to produce lactose-metabolizing enzymes.",
+        "B": "Without glucose, cAMP levels rise and the CAP-cAMP complex forms, providing positive activation. However, without lactose, allolactose is not produced, so the lac repressor remains bound to the operator, physically blocking transcription. Positive activation alone cannot overcome the repressor's blockade. Expression remains very low — the CAP-cAMP complex enhances RNA polymerase binding only when the repressor is absent from the operator.",
+        "C": "Lactose is present, so allolactose induces a conformational change in the repressor, releasing it from the operator (negative control relieved). However, glucose is also present, keeping cAMP levels low and preventing CAP-cAMP complex formation (positive control absent). Without CAP-cAMP enhancement, RNA polymerase binds the promoter weakly, producing only basal-level transcription. Expression is low to moderate — the operon is derepressed but not fully activated.",
+        "D": "Correct. This is the only condition where both regulatory inputs favor maximal expression. Without glucose, cAMP levels are high, allowing the CAP-cAMP complex to form and bind upstream of the promoter (positive control active). With lactose present, allolactose binds and inactivates the lac repressor, releasing it from the operator (negative control relieved). RNA polymerase can now bind the promoter with CAP-cAMP enhancement, producing maximal transcription. This dual-input logic ensures that the cell invests in lactose-metabolizing enzymes only when lactose is available AND glucose (the preferred carbon source) is absent — an elegant example of metabolic efficiency through combinatorial gene regulation."
+      },
+      "topic": "Lac Operon Regulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_gene_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A mutant E. coli strain carries a point mutation in the lacI gene that produces a repressor protein unable to bind allolactose. How would this mutation affect lac operon expression?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The operon would be constitutively expressed regardless of lactose availability"
+        },
+        {
+          "label": "B",
+          "text": "The operon would be essentially noninducible by lactose, remaining strongly repressed as long as the mutant repressor can bind the operator"
+        },
+        {
+          "label": "C",
+          "text": "The operon would be expressed normally because allolactose is not required for regulation"
+        },
+        {
+          "label": "D",
+          "text": "The operon would be expressed only when glucose is absent"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Constitutive expression would occur if the repressor could not bind the operator at all (e.g., a mutation in the DNA-binding domain or a deletion of the operator). In this mutant, the repressor can still bind the operator — it simply cannot respond to allolactose. Therefore, it remains permanently bound to the operator, permanently blocking transcription. This is the opposite of constitutive expression.",
+        "B": "Correct. The mutant repressor cannot bind allolactose, the inducer molecule. Since allolactose binding normally causes the conformational change that releases the repressor from the operator, a repressor that cannot bind allolactose is permanently locked in its operator-binding conformation. It sits on the operator regardless of whether lactose is present, constitutively blocking RNA polymerase access to the structural genes. Even under Condition 4 (−glucose, +lactose), which normally produces maximal expression, this mutant would show essentially no inducible expression — the repressor cannot be removed by induction. This type of mutation is called a lacI-s (super-repressor) mutation and demonstrates that the wild-type repressor is an allosteric protein whose activity depends on conformational switching between inducer-bound and operator-bound states. Note that in practice, even repressed operons may show trace basal leakiness, but the key point is that lactose-dependent induction is abolished.",
+        "C": "Allolactose is essential for wild-type regulation. It is the intracellular signal that communicates lactose availability to the repressor. Without allolactose-mediated induction, the repressor cannot detect lactose, and the operon remains repressed. The statement that allolactose is not required for regulation is factually incorrect.",
+        "D": "Even when glucose is absent (high cAMP, CAP-cAMP complex formed), the constitutively bound repressor physically blocks RNA polymerase from accessing the structural genes. Positive control (CAP-cAMP) enhances polymerase binding at the promoter but cannot displace a repressor that is permanently attached to the operator. Negative control (repressor removal) must occur before positive control can have its effect."
+      },
+      "topic": "Lac Operon: Mutant Analysis",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_gene_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The lac operon is controlled by both negative regulation (repressor) and positive regulation (CAP-cAMP). Which of the following correctly explains why the operon uses dual control rather than a single regulatory mechanism?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A single mechanism would be insufficient to completely block transcription under any condition"
+        },
+        {
+          "label": "B",
+          "text": "Dual control allows the cell to integrate two environmental signals (glucose and lactose availability) into a single transcriptional decision"
+        },
+        {
+          "label": "C",
+          "text": "Positive regulation alone could achieve the same result, but negative regulation provides a backup system"
+        },
+        {
+          "label": "D",
+          "text": "Dual control is necessary because RNA polymerase cannot bind prokaryotic promoters without activator proteins"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The repressor alone is sufficient to block transcription effectively when bound to the operator. The issue is not one of complete blockage but of integration — the cell needs to sense two independent environmental variables (glucose and lactose) and make a decision that accounts for both. Single-input regulation could only sense one variable.",
+        "B": "Correct. The lac operon must respond to two independent environmental signals: (1) Is lactose available? (sensed by the repressor through allolactose) and (2) Is glucose available? (sensed by the CAP-cAMP system through cAMP levels). The operon should be maximally active only when lactose is present AND glucose is absent — a logical AND gate requiring two inputs. Negative control (repressor) provides the lactose sensor: no lactose → repressor bound → off. Positive control (CAP-cAMP) provides the glucose sensor: glucose present → low cAMP → no CAP-cAMP → low expression. Together, the two mechanisms create a combinatorial logic circuit that optimizes metabolic efficiency — the cell invests in lactose metabolism only when it is both needed (lactose available) and not redundant (glucose absent).",
+        "C": "Positive regulation alone could not repress the operon when lactose is absent. Without the repressor, the operon would be expressed at basal levels even without lactose, wasting energy producing unnecessary enzymes. The repressor provides the off switch that positive regulation cannot. The two mechanisms serve complementary, non-redundant functions.",
+        "D": "RNA polymerase can bind prokaryotic promoters without activator proteins — this is basal transcription. The CAP-cAMP complex enhances polymerase binding (increasing transcription from basal to maximal levels), but it is not required for any transcription to occur. Condition 3 demonstrates this: without CAP-cAMP but with repressor removed, low-level transcription still occurs."
+      },
+      "topic": "Combinatorial Gene Regulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_gene_004",
+      "passage": "A molecular biology laboratory investigates mRNA processing in eukaryotic cells. They compare pre-mRNA transcripts immediately after transcription by RNA polymerase II with the mature mRNA molecules that are exported to the cytoplasm for translation.\n\nThe pre-mRNA undergoes three major processing steps before export: (1) addition of a 7-methylguanosine cap to the 5' end, (2) cleavage and addition of a poly-A tail (100–250 adenine nucleotides) to the 3' end, and (3) removal of introns and joining of exons by the spliceosome, a large ribonucleoprotein complex.\n\nThe researchers discover that a particular gene contains 8 exons and 7 introns. They observe that different cell types produce different mature mRNA molecules from the same pre-mRNA transcript by including or excluding certain exons.",
+      "stem": "A eukaryotic pre-mRNA molecule is 8,500 nucleotides long. After processing, the mature mRNA is 1,800 nucleotides (excluding the poly-A tail). What fraction of the pre-mRNA consisted of intronic sequence?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Approximately 21%"
+        },
+        {
+          "label": "B",
+          "text": "Approximately 50%"
+        },
+        {
+          "label": "C",
+          "text": "Approximately 65%"
+        },
+        {
+          "label": "D",
+          "text": "Approximately 79%"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This value (21%) represents the fraction that is exonic (1,800/8,500 ≈ 0.21), not intronic. The question asks for intronic sequence, which is the removed portion: (8,500 − 1,800)/8,500 ≈ 0.79.",
+        "B": "A 50/50 split between exons and introns would mean the mature mRNA is 4,250 nt, not 1,800 nt. While some genes have roughly equal exonic and intronic content, the gene in this problem has substantially more intronic than exonic sequence — a common finding in mammalian genes.",
+        "C": "This percentage would correspond to an intronic content of ~5,525 nt, leaving ~2,975 nt of exon. The actual exonic content is 1,800 nt, which is less than this, meaning the intronic fraction must be higher than 65%.",
+        "D": "Correct. Intronic sequence = pre-mRNA length − mature mRNA length = 8,500 − 1,800 = 6,700 nt. Fraction intronic = 6,700/8,500 ≈ 0.788 ≈ 79%. This means nearly four-fifths of the primary transcript is removed during processing and never translated. This is typical of mammalian genes — some human genes have even higher intronic content (e.g., the dystrophin gene is 99% intronic). The biological rationale for maintaining such large introns remains debated, but one functional consequence is clear: introns enable alternative splicing, which dramatically increases protein diversity from a limited number of genes."
+      },
+      "topic": "RNA Processing: Intron Content",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_gene_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The observation that different cell types produce different mature mRNA molecules from the same pre-mRNA by including or excluding certain exons describes which process, and what is its primary biological significance?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "RNA editing; it corrects errors introduced during transcription"
+        },
+        {
+          "label": "B",
+          "text": "Alternative splicing; it allows a single gene to encode multiple different protein isoforms"
+        },
+        {
+          "label": "C",
+          "text": "Reverse transcription; it converts mRNA back to DNA for gene amplification"
+        },
+        {
+          "label": "D",
+          "text": "Nonsense-mediated decay; it degrades mRNAs with premature stop codons"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "RNA editing involves chemical modification of specific nucleotide bases after transcription (e.g., deamination of adenosine to inosine, or cytidine to uridine). While RNA editing does occur in some transcripts, the passage describes the selective inclusion or exclusion of entire exons in different cell types — this is splicing variation, not base modification. The two processes are mechanistically distinct.",
+        "B": "Correct. Alternative splicing is the process by which different combinations of exons from the same pre-mRNA are joined together in different cell types, developmental stages, or conditions, producing distinct mature mRNAs that encode different protein isoforms. With 8 exons, numerous combinations are theoretically possible (though not all occur biologically). Alternative splicing greatly increases proteomic diversity, allowing the roughly 20,000 human protein-coding genes to produce many more transcript and protein isoforms than the gene count alone would suggest. Tissue-specific splicing factors (regulatory proteins) determine which exons are included or excluded in each cell type, allowing a single gene to produce a cardiac isoform, a neuronal isoform, and a muscle isoform of the same basic protein.",
+        "C": "Reverse transcription is performed by reverse transcriptase (found in retroviruses and retrotransposons), which synthesizes DNA from an RNA template. It has no role in normal mRNA processing or in generating protein diversity from a single gene. Reverse transcription is an exception to the central dogma, not a standard processing step.",
+        "D": "Nonsense-mediated decay (NMD) is a quality-control mechanism that degrades mRNAs containing premature termination codons — it eliminates aberrant transcripts, not produces functional diversity. While alternative splicing can sometimes generate NMD-targeted isoforms (a regulatory mechanism called RUST — regulated unproductive splicing and translation), NMD itself is a degradation pathway, not a diversification mechanism."
+      },
+      "topic": "Alternative Splicing",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_gene_006",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The 5' cap and 3' poly-A tail added during mRNA processing serve multiple functions. Which of the following is NOT a recognized function of these modifications?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Protection of the mRNA from exonuclease degradation"
+        },
+        {
+          "label": "B",
+          "text": "Facilitation of mRNA export from the nucleus to the cytoplasm"
+        },
+        {
+          "label": "C",
+          "text": "Enhancement of translation initiation by ribosome recognition"
+        },
+        {
+          "label": "D",
+          "text": "Direct catalysis of intron removal by the spliceosome"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Both the 5' cap and the 3' poly-A tail protect the mRNA from degradation. The 7-methylguanosine cap shields the 5' end from 5'→3' exonucleases, while the poly-A tail protects the 3' end from 3'→5' exonucleases. Gradual shortening of the poly-A tail is actually a key step in mRNA turnover — once the tail is shortened below a critical length, the mRNA becomes susceptible to degradation, providing a mechanism for regulating mRNA half-life.",
+        "B": "Both modifications serve as signals for nuclear export. The cap-binding complex (CBC) and poly-A-binding proteins (PABPs) interact with nuclear export factors that facilitate transport of mature mRNA through nuclear pore complexes. Incompletely processed mRNAs (lacking cap or poly-A tail) are retained in the nucleus, which serves as a quality control mechanism.",
+        "C": "The 5' cap is recognized by the eukaryotic translation initiation factor eIF4E, which is part of the eIF4F complex that recruits the small ribosomal subunit (40S) to the mRNA during cap-dependent translation initiation. The poly-A tail, bound by cytoplasmic PABP, interacts with eIF4G to circularize the mRNA, enhancing translational efficiency. Both modifications are therefore directly involved in promoting translation.",
+        "D": "Correct — this is NOT a function of the cap or poly-A tail. Intron removal is catalyzed by the spliceosome, which is composed of small nuclear ribonucleoproteins (snRNPs: U1, U2, U4, U5, U6) and associated proteins. The spliceosome recognizes specific sequences at intron-exon boundaries (the 5’ splice site, branch point, and 3’ splice site), not the cap or poly-A tail. While capping occurs co-transcriptionally and may influence early spliceosome assembly indirectly, the cap does not catalyze splicing. Capping, splicing, and polyadenylation are distinct processing reactions, but they are coordinated during transcription through interactions with the C-terminal domain (CTD) of RNA polymerase II."
+      },
+      "topic": "mRNA Processing: Cap and Poly-A Functions",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_gene_007",
+      "passage": "A genetics laboratory studies the effects of different types of point mutations on the protein encoded by a bacterial gene. The wild-type mRNA sequence for a segment of the gene reads:\n\n5'-AUG-GCU-UAC-GAA-UGG-AAA-UAA-3'\n\nThe standard genetic code shows that:\nAUG = Met (start), GCU = Ala, UAC = Tyr, GAA = Glu, UGG = Trp, AAA = Lys, UAA = stop\n\nThe team introduces single-nucleotide substitutions at various positions and analyzes the resulting proteins.",
+      "stem": "A mutation changes the fourth codon from GAA to GAG. Given that GAG also encodes glutamic acid, this mutation is classified as a:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Missense mutation, because the nucleotide sequence has changed"
+        },
+        {
+          "label": "B",
+          "text": "Silent (synonymous) mutation, because the amino acid sequence is unchanged despite the nucleotide change"
+        },
+        {
+          "label": "C",
+          "text": "Nonsense mutation, because any change to a codon can create a premature stop"
+        },
+        {
+          "label": "D",
+          "text": "Frameshift mutation, because the reading frame is disrupted"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While the nucleotide sequence has indeed changed (GAA → GAG), mutation classification is based on the effect on the protein product, not merely on the DNA/RNA change. A missense mutation changes one amino acid to a different amino acid. Here, both GAA and GAG encode glutamic acid, so the protein is identical to wild-type. The mutation affects the genotype (nucleotide sequence) but not the phenotype (amino acid sequence).",
+        "B": "Correct. A silent (synonymous) mutation changes a codon to a different codon that encodes the same amino acid. GAA → GAG is a third-position change (wobble position) that does not alter the encoded amino acid — both are glutamic acid. This is possible because of the degeneracy (redundancy) of the genetic code: most amino acids are encoded by more than one codon. Third-position changes are the most likely to be silent because the wobble position tolerates the most variation in base pairing between codon and anticodon. Silent mutations are important in molecular evolution — they accumulate in populations without selective pressure and serve as a molecular clock for estimating evolutionary divergence times.",
+        "C": "A nonsense mutation specifically changes an amino acid-encoding codon to a stop codon (UAA, UAG, or UGA). GAG is not a stop codon — it encodes glutamic acid. Not every nucleotide change creates a stop codon; most substitutions produce either silent or missense mutations. Nonsense mutations are relatively rare among random single-nucleotide changes.",
+        "D": "Frameshift mutations result from insertions or deletions that are not multiples of three, shifting the reading frame for all downstream codons. A single-nucleotide substitution (GAA → GAG) replaces one base with another without adding or removing nucleotides, so the reading frame is completely unaffected. The distinction between substitutions (which preserve the reading frame) and insertions/deletions (which can disrupt it) is fundamental to mutation classification."
+      },
+      "topic": "Mutation Types: Silent Mutation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_gene_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A second mutation changes the fifth codon from UGG to UGA. What is the consequence of this mutation for the protein product?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A conservative missense mutation replacing tryptophan with a structurally similar amino acid"
+        },
+        {
+          "label": "B",
+          "text": "A silent mutation with no effect on the protein"
+        },
+        {
+          "label": "C",
+          "text": "A nonsense mutation producing a truncated protein of only four amino acids (Met-Ala-Tyr-Glu)"
+        },
+        {
+          "label": "D",
+          "text": "A frameshift mutation disrupting all downstream amino acids"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "UGA is a stop codon, not a codon for a structurally similar amino acid. Tryptophan (UGG) is the only amino acid encoded by a single codon, so any change from UGG necessarily changes the amino acid identity or creates a stop codon. There is no synonymous alternative for tryptophan.",
+        "B": "A silent mutation requires that the new codon encode the same amino acid. UGA is a stop codon, not an alternative tryptophan codon. This mutation has a dramatic effect on the protein — it terminates translation prematurely.",
+        "C": "Correct. UGG (Trp) → UGA (stop) is a nonsense mutation. The ribosome encounters the premature stop codon at what was position 5, and translation terminates. The resulting protein contains only four amino acids: Met-Ala-Tyr-Glu (from codons 1–4). The normal protein would be six amino acids (Met-Ala-Tyr-Glu-Trp-Lys) before the natural stop codon at position 7. This truncated protein has lost two amino acids (Trp and Lys) and is almost certainly nonfunctional. In this bacterial example, the key consequence is premature termination of translation, producing a severely truncated polypeptide. In eukaryotic genes, premature stop codons may additionally trigger nonsense-mediated mRNA decay (NMD) depending on exon-junction context, further reducing the amount of aberrant protein produced. Nonsense mutations are generally the most severe class of point mutations because they eliminate entire domains of the protein.",
+        "D": "A single nucleotide substitution (G → A in the third position of the codon) does not alter the reading frame. Frameshift mutations require insertions or deletions. The reading frame is maintained — the mutation simply converts an amino acid codon to a stop codon within the correct reading frame."
+      },
+      "topic": "Mutation Types: Nonsense Mutation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_gene_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The genetic code is described as 'degenerate but unambiguous.' Which of the following correctly explains both properties?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Degenerate: each amino acid has exactly one codon; unambiguous: each codon specifies exactly one amino acid"
+        },
+        {
+          "label": "B",
+          "text": "Degenerate: some codons encode no amino acid; unambiguous: stop codons are always recognized"
+        },
+        {
+          "label": "C",
+          "text": "Degenerate: multiple codons can specify the same amino acid; unambiguous: each codon specifies only one amino acid (or stop signal)"
+        },
+        {
+          "label": "D",
+          "text": "Degenerate: the code varies between prokaryotes and eukaryotes; unambiguous: the code is the same in all organisms"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The first clause is incorrect. Degeneracy means that most amino acids are encoded by more than one codon, not exactly one. Only methionine (AUG) and tryptophan (UGG) have single codons. The remaining 18 amino acids each have two to six codons. With 64 possible codons (4³) encoding only 20 amino acids plus 3 stop signals, redundancy is mathematically inevitable.",
+        "B": "Degeneracy does not refer to codons encoding no amino acid. Three codons (UAA, UAG, UGA) are stop codons that do not encode amino acids, but this is not what degeneracy means. Degeneracy specifically refers to the many-to-one mapping of codons to amino acids — multiple codons converging on the same amino acid.",
+        "C": "Correct. Degeneracy (redundancy) means that the genetic code has more codons than amino acids: 61 sense codons encode 20 amino acids, so most amino acids are specified by 2–6 different codons. For example, leucine has six codons (UUA, UUG, CUU, CUC, CUA, CUG). This redundancy provides a buffer against mutations — many third-position (wobble) changes are silent. Unambiguity means the code is read in only one direction: each codon specifies one and only one amino acid (or stop signal). There is no codon that could mean either alanine or valine depending on context. Degeneracy is many-to-one (many codons → one amino acid); ambiguity would be one-to-many (one codon → multiple amino acids), which does not occur.",
+        "D": "The genetic code is nearly universal across all domains of life, not variable between prokaryotes and eukaryotes. Minor exceptions exist (mitochondrial genetic codes, some protists), but universality and degeneracy are different properties. Degeneracy describes the many-to-one relationship between codons and amino acids, not cross-species variability."
+      },
+      "topic": "Genetic Code Properties",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_gene_010",
+      "passage": "Epigenetic researchers investigate how gene expression is regulated without changes to the DNA sequence itself. They study two primary mechanisms: DNA methylation and histone modification.\n\nDNA methylation involves the addition of methyl groups to cytosine residues, predominantly at CpG dinucleotides (cytosine followed by guanine). Methylation of CpG islands in promoter regions is generally associated with transcriptional silencing. The methyl groups recruit methyl-CpG-binding proteins that in turn recruit histone deacetylases, leading to chromatin condensation.\n\nHistone modifications include acetylation, methylation, phosphorylation, and ubiquitination of specific amino acid residues on histone tails. Histone acetylation by histone acetyltransferases (HATs) neutralizes the positive charge on lysine residues, weakening histone-DNA electrostatic interactions and opening chromatin structure. Histone deacetylases (HDACs) reverse this process.\n\nThe researchers observe that treating cancer cells with HDAC inhibitors reactivates tumor suppressor genes that had been silenced.",
+      "stem": "Why does histone acetylation promote gene expression, while deacetylation represses it?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Acetylation adds negative charges to histones, repelling the negatively charged DNA and opening chromatin for transcription factor access"
+        },
+        {
+          "label": "B",
+          "text": "Acetylation neutralizes positive charges on histone lysine residues, weakening histone-DNA electrostatic attraction and creating a more open chromatin conformation"
+        },
+        {
+          "label": "C",
+          "text": "Acetylation directly recruits RNA polymerase to the promoter, bypassing the need for transcription factors"
+        },
+        {
+          "label": "D",
+          "text": "Acetylation causes histones to dissociate completely from DNA, exposing genes for transcription"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Acetylation does not add negative charges to histones. The acetyl group is electrically neutral. What it does is neutralize the existing positive charge on lysine's ε-amino group (−NH₃⁺ → −NHCOCH₃). The mechanism is charge neutralization, not charge reversal. DNA is negatively charged (phosphate backbone), and histones are positively charged (lysine and arginine residues). Weakening this electrostatic attraction loosens the histone-DNA interaction.",
+        "B": "Correct. Histone tails contain multiple lysine residues that carry positive charges at physiological pH. These positive charges form strong electrostatic interactions with the negatively charged phosphate backbone of DNA, keeping chromatin tightly compacted (heterochromatin). Acetylation by HATs adds an acetyl group to the lysine ε-amino group, neutralizing its positive charge. This weakens the histone-DNA electrostatic attraction, allowing the chromatin to adopt a more relaxed, open conformation (euchromatin). In addition to this direct structural effect, acetylated lysines create binding sites for bromodomain-containing proteins that help recruit transcriptional machinery and chromatin remodelers, further promoting gene expression. In this open state, transcription factors and RNA polymerase can access the DNA more readily. Deacetylation by HDACs restores the positive charge, re-tightens chromatin, and restricts access — silencing gene expression. This is why HDAC inhibitors reactivate silenced tumor suppressor genes: they prevent deacetylation, maintaining the open chromatin state and preserving bromodomain-protein recruitment.",
+        "C": "Acetylation does not directly recruit RNA polymerase. It creates a permissive chromatin environment by opening the DNA for access, but transcription still requires the ordered assembly of transcription factors, mediator complex, and RNA polymerase at the promoter. Acetylated histones can recruit bromodomain-containing proteins that facilitate transcription factor binding, but this is indirect recruitment, not direct RNA polymerase binding.",
+        "D": "Histones do not dissociate completely from DNA upon acetylation. Chromatin remodeling involves a shift on the spectrum from condensed (heterochromatin) to open (euchromatin), not the complete removal of histones. Even in actively transcribed regions, histones remain associated with DNA — they are temporarily displaced by the passing RNA polymerase and then reassembled behind it."
+      },
+      "topic": "Epigenetics: Histone Acetylation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_gene_011",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The researchers find that a tumor suppressor gene is silenced by hypermethylation of its CpG island promoter. Treatment with a DNA methyltransferase inhibitor (5-azacytidine) reactivates the gene. Which of the following best explains why this gene was silenced despite having an intact coding sequence?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The methylation mutated the coding sequence, producing a nonfunctional protein"
+        },
+        {
+          "label": "B",
+          "text": "DNA methylation at the promoter prevented transcription factor binding and RNA polymerase recruitment, silencing the gene at the transcriptional level without altering the DNA sequence"
+        },
+        {
+          "label": "C",
+          "text": "DNA methylation accelerated mRNA degradation, reducing protein levels post-transcriptionally"
+        },
+        {
+          "label": "D",
+          "text": "The methylation prevented DNA replication, so the gene could not be duplicated for expression"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "DNA methylation is not a mutation — it is a reversible chemical modification that does not change the nucleotide sequence. The passage states the coding sequence is 'intact,' and the gene can be reactivated by removing methylation (5-azacytidine treatment). If methylation had caused a sequence mutation, removing the methyl groups would not restore function because the underlying sequence would still be altered.",
+        "B": "Correct. This is the hallmark of epigenetic silencing: gene expression is suppressed without any change to the DNA sequence. Methyl groups on CpG dinucleotides in the promoter region can interfere with the binding of some transcription factors and, more importantly, recruit methyl-CpG-binding proteins (MBDs), which in turn recruit HDACs and chromatin remodeling complexes that condense local chromatin into a repressive state. The combined effect is that the promoter becomes transcriptionally inaccessible. The gene’s coding sequence is perfectly intact — if the methylation is removed (as with 5-azacytidine, which is incorporated into DNA and inhibits DNA methyltransferases), the promoter becomes accessible again and transcription resumes. This mechanism is clinically significant: epigenetically silenced tumor suppressors can potentially be reactivated pharmacologically, unlike genetically deleted or mutated tumor suppressors.",
+        "C": "DNA methylation at the promoter affects transcription initiation, not mRNA stability. If the promoter is methylated, the mRNA is never produced in the first place — there is no mRNA to degrade. Post-transcriptional regulation (mRNA stability, miRNA-mediated silencing) is a separate mechanism from promoter methylation.",
+        "D": "DNA methylation does not prevent replication. Methylated DNA is replicated normally by DNA polymerase during S phase. After replication, the maintenance methyltransferase DNMT1 methylates the newly synthesized strand (which is hemimethylated) to restore the fully methylated pattern, ensuring that the epigenetic mark is inherited by daughter cells. Methylation regulates transcription, not replication."
+      },
+      "topic": "Epigenetics: DNA Methylation & Gene Silencing",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_gene_012",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A graduate student argues that epigenetic modifications cannot be considered truly heritable because they do not involve changes to the DNA sequence. Which of the following observations would most directly challenge this argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "DNA methylation patterns are maintained through cell division by DNMT1, which methylates hemimethylated daughter strands after replication"
+        },
+        {
+          "label": "B",
+          "text": "Mutations in the BRCA1 gene are passed from parent to offspring through the germline"
+        },
+        {
+          "label": "C",
+          "text": "Transcription factors bind to promoters in a sequence-specific manner"
+        },
+        {
+          "label": "D",
+          "text": "Histones are synthesized during S phase to package newly replicated DNA"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The student’s argument assumes that heritability requires DNA sequence changes. DNMT1 (the maintenance methyltransferase) directly refutes this by demonstrating a mechanism for inheriting information that is not encoded in the DNA sequence. After replication, each daughter strand is paired with the original methylated template strand, creating hemimethylated DNA. DNMT1 recognizes hemimethylated CpG sites and adds methyl groups to the daughter strand, faithfully reproducing the parent cell’s methylation pattern. DNA methylation patterns can therefore be inherited mitotically through cell division — this is the clearest and best-established form of epigenetic inheritance. Transgenerational epigenetic inheritance through meiosis is possible in some cases but is more limited, as many epigenetic marks are extensively reset during germline development and early embryogenesis. The existence of a dedicated enzymatic system for copying methylation patterns across cell divisions demonstrates that the cell treats these marks as heritable information — epigenetic inheritance is a biological reality, not just a theoretical possibility.",
+        "B": "BRCA1 mutations are genetic (sequence-based) inheritance, not epigenetic inheritance. While this is a valid example of heritability, it does not challenge the student's argument because it confirms the traditional view that heritable information is sequence-based. The challenge requires showing heritability without sequence changes.",
+        "C": "Sequence-specific transcription factor binding is a normal aspect of gene regulation but does not address the heritability of epigenetic marks. Transcription factor binding is transient and must be re-established each time a gene is activated — it is not inherited through cell division in the way methylation patterns are.",
+        "D": "Histone synthesis during S phase provides structural components for packaging DNA, but histone production per se does not demonstrate epigenetic inheritance. The inheritance of specific histone modifications (e.g., how modified histones are distributed to daughter strands) is a more relevant question, but the observation that histones are synthesized does not address this."
+      },
+      "topic": "Epigenetic Inheritance",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_gene_013",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "During DNA replication, the leading strand is synthesized continuously while the lagging strand is synthesized in short Okazaki fragments that are later joined. Which of the following best explains why the lagging strand requires discontinuous synthesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "DNA polymerase can only synthesize DNA in the 5' → 3' direction, but the lagging strand template runs 5' → 3', requiring periodic re-priming as the replication fork advances"
+        },
+        {
+          "label": "B",
+          "text": "The lagging strand has a higher mutation rate that necessitates frequent error correction and re-initiation"
+        },
+        {
+          "label": "C",
+          "text": "DNA polymerase moves more slowly on the lagging strand due to higher GC content"
+        },
+        {
+          "label": "D",
+          "text": "The lagging strand template is single-stranded for longer periods, causing it to degrade and require re-synthesis"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. All known DNA polymerases synthesize DNA exclusively in the 5’ → 3’ direction by adding nucleotides to the 3’-OH of the growing strand. On the leading-strand template, the template runs 3’ → 5’ in the direction of fork movement, allowing DNA polymerase to synthesize continuously 5’ → 3’ toward the fork. On the lagging-strand template, the template runs 5’ → 3’ in the direction of fork movement. Because DNA polymerase can only synthesize 5’ → 3’ while reading the template 3’ → 5’, it must repeatedly start new Okazaki fragments as more template is exposed, synthesizing each fragment away from the fork. Each fragment is ~1,000–2,000 nt in prokaryotes and ~100–200 nt in eukaryotes. DNA ligase later joins the fragments after RNA primers are replaced with DNA (by DNA polymerase I in prokaryotes or polymerase δ/ε in eukaryotes). This discontinuous mechanism is a direct consequence of the antiparallel structure of DNA combined with the unidirectional activity of DNA polymerase.",
+        "B": "There is no intrinsic difference in mutation rate between the leading and lagging strands that necessitates different synthetic mechanisms. Both strands are synthesized by high-fidelity polymerases with proofreading activity (3' → 5' exonuclease). The discontinuous synthesis is not a quality-control measure but a geometric necessity.",
+        "C": "GC content does not differ systematically between leading and lagging strand templates in a way that would affect polymerase speed. The discontinuous synthesis is caused by the directional constraint of DNA polymerase (5' → 3' only), not by nucleotide composition or polymerase speed.",
+        "D": "While single-stranded DNA is vulnerable to nucleases, it is protected by single-stranded binding proteins (SSB in prokaryotes, RPA in eukaryotes) that stabilize the template. The discontinuous synthesis is not caused by template degradation but by the geometric problem of synthesizing in the 5' → 3' direction on a template that runs in the same direction as the replication fork."
+      },
+      "topic": "DNA Replication: Leading vs Lagging Strand",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_gene_014",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "After translation, many proteins undergo post-translational modifications (PTMs) that are essential for their function. Which of the following correctly matches a PTM with its functional consequence?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Phosphorylation of serine/threonine residues by kinases is permanent and irreversible, serving as a one-time activation switch"
+        },
+        {
+          "label": "B",
+          "text": "Glycosylation (addition of carbohydrate chains) in the ER and Golgi is important for protein folding, stability, and cell-surface recognition"
+        },
+        {
+          "label": "C",
+          "text": "Ubiquitination always activates proteins by enhancing their catalytic activity"
+        },
+        {
+          "label": "D",
+          "text": "Proteolytic cleavage adds amino acids to the protein, increasing its molecular weight"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Phosphorylation is reversible — this is fundamental to its regulatory role. Kinases add phosphate groups, and phosphatases remove them, creating a dynamic on/off switch. If phosphorylation were irreversible, signaling pathways could not be turned off, and cellular responses would be permanent rather than regulated. The reversibility of phosphorylation enables rapid, transient responses to signals — a cell can activate a pathway in seconds and inactivate it minutes later by adjusting the balance of kinase and phosphatase activity.",
+        "B": "Correct. Glycosylation involves the attachment of oligosaccharide chains to proteins, primarily in the endoplasmic reticulum (N-linked glycosylation on asparagine residues) and the Golgi apparatus (O-linked glycosylation on serine/threonine residues, and further processing of N-linked glycans). Functions include: assisting protein folding in the ER (the calnexin/calreticulin chaperone system recognizes glycan structures as folding quality indicators); enhancing protein stability and protease resistance (glycans shield the protein surface); and mediating cell-surface recognition events (ABO blood group antigens, selectin-mediated leukocyte adhesion, and pathogen recognition all depend on cell-surface glycoprotein patterns).",
+        "C": "Ubiquitination has diverse functions depending on the type of ubiquitin modification. Polyubiquitination with K48-linked chains marks proteins for proteasomal degradation — the opposite of activation. Monoubiquitination and K63-linked chains serve regulatory functions (endocytosis, DNA repair signaling). The statement that ubiquitination 'always activates proteins' is incorrect; its most well-known function is targeting proteins for destruction.",
+        "D": "Proteolytic cleavage removes peptide bonds and segments of the polypeptide chain, decreasing molecular weight — not increasing it. Examples include zymogen activation (trypsinogen → trypsin by removal of the activation peptide), proinsulin → insulin (removal of the C-peptide), and signal peptide cleavage during protein targeting to the ER. Cleavage is irreversible and often activating, but it always removes, never adds, amino acids."
+      },
+      "topic": "Post-Translational Modifications",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_gene_015",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "The central dogma of molecular biology describes the flow of genetic information as DNA → RNA → protein. Which of the following represents a legitimate exception to this flow, and in which biological context does it occur?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "RNA → DNA via reverse transcriptase in retroviruses such as HIV"
+        },
+        {
+          "label": "B",
+          "text": "Protein → RNA via ribosomal back-translation in all eukaryotic cells"
+        },
+        {
+          "label": "C",
+          "text": "DNA → protein via direct translation without an mRNA intermediate in prokaryotes"
+        },
+        {
+          "label": "D",
+          "text": "Protein → DNA via prion-mediated genetic modification in mammals"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Retroviruses (e.g., HIV, HTLV) carry their genome as single-stranded RNA. After infecting a host cell, the viral enzyme reverse transcriptase synthesizes a DNA copy (cDNA) from the RNA template — reversing the usual DNA → RNA direction. This cDNA is then integrated into the host genome by integrase, where it is transcribed by the host's RNA polymerase like any other gene. Reverse transcription is also performed by telomerase (which maintains chromosome ends using an RNA template) and by retrotransposons (mobile genetic elements that propagate via an RNA intermediate). While RNA → DNA is not part of normal cellular information flow, it is a well-established biological process with significant medical implications (antiretroviral drugs target reverse transcriptase).",
+        "B": "Protein → RNA (back-translation) does not occur in any known biological system. The genetic code is not reversible — there is no enzyme that reads an amino acid sequence and synthesizes a corresponding mRNA. This is not merely a technical limitation; the degeneracy of the genetic code (multiple codons per amino acid) means that back-translation would be inherently ambiguous. The central dogma specifically predicts that information cannot flow from protein back to nucleic acid.",
+        "C": "Direct DNA → protein translation without an mRNA intermediate does not occur in any known organism. All cellular translation requires mRNA as an intermediary. In prokaryotes, transcription and translation are coupled (ribosomes bind the mRNA while it is still being transcribed), which is sometimes confused with direct translation, but mRNA is still the essential intermediate.",
+        "D": "Prions are misfolded proteins that propagate by inducing conformational changes in normal cellular prion protein (PrPᶜ → PrPˢᶜ). This is protein → protein information transfer (conformational templating), not protein → DNA. Prions do not modify DNA sequences or serve as templates for nucleic acid synthesis. While prions represent a fascinating exception to the idea that proteins cannot transmit biological information, they do not violate the central dogma's prohibition on protein → nucleic acid information flow."
+      },
+      "topic": "Central Dogma & Exceptions",
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "batch": "B077",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Circuits & Electricity",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_circuit_001",
+      "passage": "A biomedical engineering student builds a circuit to power a biosensor. She connects a 12 V battery to two resistors: R₁ = 4 Ω and R₂ = 8 Ω. She first tests them in series, then reconnects them in parallel. She measures current, voltage drops, and power dissipation in each configuration. She also considers the internal resistance of the battery (r = 1 Ω) and its effect on terminal voltage. She recalls that biological membranes can be modeled as RC circuits, with the lipid bilayer acting as a capacitor and ion channels as resistors.",
+      "stem": "When R₁ and R₂ are connected in series, the total resistance is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "12 Ω, because series resistances add directly: R_total = R₁ + R₂ = 4 + 8 = 12 Ω"
+        },
+        {
+          "label": "B",
+          "text": "2.67 Ω (the parallel formula applied incorrectly)"
+        },
+        {
+          "label": "C",
+          "text": "8 Ω (only the larger resistor matters)"
+        },
+        {
+          "label": "D",
+          "text": "4 Ω (only the smaller resistor matters)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In series, the same current flows through all resistors, and the total resistance is the sum of individual resistances: R_total = R₁ + R₂ = 4 + 8 = 12 Ω. The current through the circuit (ignoring internal resistance) is I = V/R_total = 12/12 = 1 A. Voltage drops across each resistor are V₁ = IR₁ = 4 V and V₂ = IR₂ = 8 V, which sum to 12 V (Kirchhoff's voltage law). Larger resistors in series get larger voltage drops.",
+        "B": "2.67 Ω would result from incorrectly applying the parallel formula: 1/R = 1/4 + 1/8 = 3/8, R = 8/3 ≈ 2.67 Ω. This is the parallel equivalent resistance, not the series total.",
+        "C": "In series, all resistors contribute to total resistance, not just the largest. The total is always greater than the largest individual resistor.",
+        "D": "In series, the total resistance is always greater than the largest individual resistor. 4 Ω would be the minimum possible with these components (R₁ alone), not the series combination."
+      },
+      "topic": "Series Circuits / Resistance",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_circuit_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "When R₁ and R₂ are connected in parallel, the equivalent resistance is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "12 Ω"
+        },
+        {
+          "label": "B",
+          "text": "8/3 Ω ≈ 2.67 Ω, from 1/R_eq = 1/R₁ + 1/R₂ = 1/4 + 1/8 = 3/8, so R_eq = 8/3 Ω"
+        },
+        {
+          "label": "C",
+          "text": "4 Ω"
+        },
+        {
+          "label": "D",
+          "text": "32 Ω"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. In parallel, voltage is the same across all resistors, but current divides. The equivalent resistance is: 1/R_eq = 1/R₁ + 1/R₂ = 1/4 + 1/8 = 2/8 + 1/8 = 3/8 → R_eq = 8/3 ≈ 2.67 Ω. The parallel equivalent is always less than the smallest individual resistor (here, less than 4 Ω). Total current from the battery: I_total = V/R_eq = 12/(8/3) = 12 × 3/8 = 4.5 A. Current divides inversely with resistance: more current flows through the smaller resistor.",
+        "A": "12 Ω is the series combination. Parallel equivalent resistance is always less than the smallest component resistor, so it must be less than 4 Ω.",
+        "C": "4 Ω is R₁ alone. The parallel combination of R₁ and R₂ must be less than R₁ because adding a parallel path always reduces total resistance (more paths for current to flow).",
+        "D": "32 Ω would result from incorrectly multiplying the resistances. The product-over-sum formula gives R₁R₂/(R₁+R₂) = 32/12 ≈ 2.67, which is the same as 8/3 — the correct answer."
+      },
+      "topic": "Parallel Circuits / Equivalent Resistance",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_circuit_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The battery has an internal resistance r = 1 Ω. When the series circuit (R_total = 12 Ω) is connected, the terminal voltage of the battery is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "12 V, because internal resistance has no effect"
+        },
+        {
+          "label": "B",
+          "text": "11.08 V — the current is I = EMF/(R_total + r) = 12/13 ≈ 0.923 A, and terminal voltage = EMF - Ir = 12 - (0.923)(1) ≈ 11.08 V"
+        },
+        {
+          "label": "C",
+          "text": "0 V, because all voltage is lost to internal resistance"
+        },
+        {
+          "label": "D",
+          "text": "13 V, because internal resistance adds voltage"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Real batteries have internal resistance r that drops some voltage internally. The circuit current with internal resistance: I = EMF/(R_total + r) = 12/(12 + 1) = 12/13 ≈ 0.923 A. Terminal voltage (voltage available to the external circuit): V_terminal = EMF - Ir = 12 - (0.923)(1) ≈ 11.08 V. The 'lost' 0.92 V is dissipated as heat inside the battery. Terminal voltage decreases with increasing current draw, which is why batteries 'sag' under heavy load.",
+        "A": "Internal resistance always reduces terminal voltage when current flows. V_terminal = EMF only when no current flows (open circuit). Under load, the internal resistance voltage drop (Ir) reduces the available voltage.",
+        "C": "Terminal voltage is zero only if the entire EMF is dropped across the internal resistance, which would require R_external = 0 (short circuit). With R_total = 12 Ω >> r = 1 Ω, most voltage appears across the external resistors.",
+        "D": "Internal resistance consumes voltage, it does not add it. The maximum possible voltage is the EMF (12 V), and internal resistance reduces what is available to the circuit."
+      },
+      "topic": "Internal Resistance / Terminal Voltage",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_circuit_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The student models a cell membrane as an RC circuit. The time constant τ = RC determines:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the maximum voltage the membrane can reach"
+        },
+        {
+          "label": "B",
+          "text": "the resistance of the membrane independent of capacitance"
+        },
+        {
+          "label": "C",
+          "text": "the total charge stored on the capacitor at equilibrium"
+        },
+        {
+          "label": "D",
+          "text": "how quickly the capacitor charges or discharges — after one time constant, the capacitor reaches ~63% of its final voltage during charging"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "τ = RC combines both resistance and capacitance. It is not a measure of resistance alone — changing either R or C changes the time constant.",
+        "A": "The maximum voltage is determined by the applied EMF, not the time constant. The time constant determines how quickly the capacitor approaches this maximum, not what the maximum is.",
+        "C": "Total charge at equilibrium is Q = CV₀, determined by capacitance and voltage, not by the time constant. The time constant tells you how fast Q approaches its equilibrium value.",
+        "D": "Correct. The time constant τ = RC (in seconds) characterizes the exponential charging/discharging of a capacitor. During charging: V(t) = V₀(1 - e^(-t/τ)). After one time constant, V = V₀(1 - 1/e) ≈ 0.632V₀ (63.2% charged). After 5τ, the capacitor is >99% charged (effectively fully charged). For neural membranes, τ determines how quickly membrane potential changes in response to synaptic inputs — shorter τ means faster responses. Typical neuronal τ ≈ 10-50 ms."
+      },
+      "topic": "RC Circuits / Time Constant",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_circuit_003",
+      "passage": null,
+      "stem": "Ohm's law states that V = IR. If the current through a 100 Ω resistor is 0.05 A, the voltage across it is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2000 V"
+        },
+        {
+          "label": "B",
+          "text": "0.0005 V"
+        },
+        {
+          "label": "C",
+          "text": "5 V, from V = IR = 0.05 × 100 = 5 V"
+        },
+        {
+          "label": "D",
+          "text": "50 V"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "B": "0.0005 V results from dividing I by R (0.05/100). The correct operation is multiplication: V = I × R.",
+        "A": "2000 V results from dividing R by I (100/0.05), which is the incorrect operation. V = IR is multiplication, not division.",
+        "C": "Correct. V = IR = 0.05 A × 100 Ω = 5 V. Ohm's law is the fundamental relationship between voltage (potential difference), current, and resistance. It applies to ohmic (linear) resistors where resistance is constant regardless of applied voltage. Power dissipated: P = IV = 0.05 × 5 = 0.25 W, or equivalently P = I²R = (0.05)² × 100 = 0.25 W.",
+        "D": "50 V would result from I = 0.5 A (not 0.05 A) through 100 Ω. With I = 0.05 A, V = 5 V."
+      },
+      "topic": "Ohm's Law / Voltage Calculation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_circuit_005",
+      "passage": null,
+      "stem": "Power dissipated in a resistor can be calculated as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P = IV = I²R = V²/R — all three expressions are equivalent and give power in watts"
+        },
+        {
+          "label": "B",
+          "text": "P = mgh (gravitational potential energy per second)"
+        },
+        {
+          "label": "C",
+          "text": "P = IR (same as voltage)"
+        },
+        {
+          "label": "D",
+          "text": "P = R/I (resistance divided by current)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "P = mgh is gravitational potential energy, not electrical power. This formula applies to mechanics (lifting objects), not circuits.",
+        "A": "Correct. Power (rate of energy dissipation) in a resistor: P = IV (current × voltage). Using Ohm's law (V = IR), this can be rewritten as P = I²R (useful when current is known) or P = V²/R (useful when voltage is known). All three give identical results in watts (W = J/s). For the MCAT, choosing the right form depends on what information is given — e.g., to compare power in series resistors (same I), use P = I²R; for parallel resistors (same V), use P = V²/R.",
+        "C": "P = IR is Ohm's law rearranged (V = IR gives voltage, not power). Power requires multiplying voltage by current: P = IV, not P = IR.",
+        "D": "R/I has no physical meaning in circuit analysis. No standard electrical quantity equals resistance divided by current."
+      },
+      "topic": "Electrical Power / P = IV",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_circuit_006",
+      "passage": null,
+      "stem": "A capacitor stores energy by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "accumulating equal and opposite charges on two parallel plates separated by a dielectric, storing energy in the electric field between them — C = Q/V and energy = ½CV²"
+        },
+        {
+          "label": "B",
+          "text": "generating current through chemical reactions"
+        },
+        {
+          "label": "C",
+          "text": "converting electrical energy to magnetic energy permanently"
+        },
+        {
+          "label": "D",
+          "text": "dissipating energy as heat like a resistor"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Current generation through chemical reactions describes a battery (galvanic cell), not a capacitor. Capacitors store energy electrostatically, not chemically.",
+        "A": "Correct. A capacitor consists of two conducting plates separated by an insulating dielectric. When a voltage is applied, positive charge accumulates on one plate and negative charge on the other, creating an electric field. Energy is stored in this field: U = ½CV² = ½QV = Q²/(2C). Capacitance C = εA/d (parallel plate), where ε is the dielectric constant, A is plate area, and d is plate separation. In biological membranes, the lipid bilayer is the dielectric (~5 nm thick) between the conducting intracellular and extracellular fluids, giving membrane capacitance ~1 µF/cm².",
+        "C": "Energy stored in magnetic fields is the domain of inductors (U = ½LI²), not capacitors. Capacitors store energy in electric fields. The storage is also temporary, not permanent — capacitors discharge when connected to a circuit.",
+        "D": "Ideal capacitors store energy without dissipation — they release the stored energy when discharged. Resistors dissipate energy as heat (Joule heating). Real capacitors have some parasitic resistance, but their primary function is energy storage."
+      },
+      "topic": "Capacitors / Energy Storage",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuit_007",
+      "passage": null,
+      "stem": "Kirchhoff's junction rule (current law) states that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the voltage around any closed loop in a circuit is always zero"
+        },
+        {
+          "label": "B",
+          "text": "current always flows from low to high potential"
+        },
+        {
+          "label": "C",
+          "text": "the sum of currents entering a junction equals the sum of currents leaving — based on conservation of charge"
+        },
+        {
+          "label": "D",
+          "text": "resistance increases at every junction"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Kirchhoff's current law (KCL) is a statement of charge conservation: at any junction (node) in a circuit, the total current flowing in must equal the total current flowing out (no charge accumulates at a node). If 4 A enters a junction and splits into two branches, the branch currents must sum to 4 A (e.g., 3 A + 1 A). KCL is essential for analyzing parallel circuits and complex networks with multiple loops and branches.",
+        "A": "Voltage around a closed loop summing to zero is Kirchhoff's voltage law (KVL), also known as the loop rule — based on conservation of energy. KVL and KCL are the two Kirchhoff laws, but the question asks specifically about the junction rule.",
+        "B": "By convention, current flows from high to low potential (positive to negative) through external circuit elements. This is opposite to the stated answer and is not Kirchhoff's junction rule.",
+        "D": "Resistance does not inherently change at junctions. Junction behavior is governed by current splitting (KCL), not resistance changes."
+      },
+      "topic": "Kirchhoff's Current Law / Junctions",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_circuit_009",
+      "passage": null,
+      "stem": "In a series circuit with a battery and two resistors, the current through each resistor is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "different — more current flows through the larger resistor"
+        },
+        {
+          "label": "B",
+          "text": "zero, because the resistors block all current flow"
+        },
+        {
+          "label": "C",
+          "text": "the same through both resistors — in series, the same current flows through every component because there is only one path"
+        },
+        {
+          "label": "D",
+          "text": "double the battery current in each resistor"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. In a series circuit, components are connected end-to-end, creating a single path for current flow. By Kirchhoff's current law (conservation of charge), the same current must flow through every component. Voltage divides across series resistors (proportional to resistance), but current is identical everywhere. This is the defining characteristic of series circuits: same current, divided voltage.",
+        "A": "In series, both resistors carry the same current. More voltage drops across the larger resistor (V = IR, same I, larger R → larger V), but the current is identical. In parallel circuits, current divides inversely with resistance — more current flows through the smaller resistor.",
+        "B": "Resistors impede but do not completely block current flow (unless R = ∞). A finite resistance with a voltage source always produces a finite current: I = V/R_total.",
+        "D": "Current is conserved — it cannot double in any component compared to the source. The same current that leaves the battery positive terminal flows through R₁, then R₂, and returns to the negative terminal."
+      },
+      "topic": "Series Circuit / Current Conservation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_circuit_010",
+      "passage": null,
+      "stem": "A 10 µF capacitor is charged to 100 V. The energy stored is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1000 J"
+        },
+        {
+          "label": "B",
+          "text": "500 J"
+        },
+        {
+          "label": "C",
+          "text": "1 × 10⁻³ J"
+        },
+        {
+          "label": "D",
+          "text": "0.05 J, from U = ½CV² = ½(10 × 10⁻⁶)(100)² = ½(10⁻⁵)(10⁴) = 0.05 J"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "500 J would result from using C = 10 F instead of 10 µF: ½(10)(100²) = 50,000... which is also wrong. Careful unit conversion is essential.",
+        "A": "1000 J would result from omitting the ½ and the µF conversion: CV² = (10)(100²) = 100,000. Always convert µF to F and include the ½ factor.",
+        "C": "1 × 10⁻³ J (1 mJ) is off by a factor of 50. The correct calculation gives 0.05 J = 50 mJ.",
+        "D": "Correct. U = ½CV² = ½(10 × 10⁻⁶ F)(100 V)² = ½(10⁻⁵)(10⁴) = ½(0.1) = 0.05 J = 50 mJ. Unit analysis: F × V² = (C/V)(V²) = C·V = J. Common MCAT trap: failing to convert µF to F (10 µF = 10 × 10⁻⁶ F). The factor of ½ arises because the voltage increases linearly as charge accumulates — the average voltage during charging is V/2."
+      },
+      "topic": "Capacitor Energy / U = ½CV²",
+      "difficulty": "Medium"
+    }
+  ]
+}

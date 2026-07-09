@@ -1,0 +1,497 @@
+{
+  "batch": "B011",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Protein Structure, Function & Amino Acids",
+  "questionCount": 15,
+  "questions": [
+    {
+      "id": "bb_protein_001",
+      "passage": "A research team investigates a newly identified mutation in human hemoglobin. The mutation replaces a glutamate residue on the surface of the \u03b2-subunit with a valine residue. Under low-oxygen conditions, the mutant hemoglobin molecules aggregate into long, rigid fibers that distort erythrocyte morphology. Electrophoretic analysis under native conditions reveals that the mutant hemoglobin migrates more slowly toward the anode at pH 8.6 than wild-type hemoglobin. The researchers hypothesize that the polymerization is driven primarily by hydrophobic interactions between the valine substitution site on one tetramer and a complementary hydrophobic pocket on an adjacent tetramer that is only exposed in the deoxy conformation.",
+      "stem": "The slower anodal migration of the mutant hemoglobin at pH 8.6 is best explained by which of the following?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The mutant protein has a larger molecular weight due to aggregation during electrophoresis."
+        },
+        {
+          "label": "B",
+          "text": "Valine introduces a new positive charge that increases the protein's attraction to the cathode."
+        },
+        {
+          "label": "C",
+          "text": "Replacement of a negatively charged residue with a nonpolar residue decreases the net negative charge of the protein."
+        },
+        {
+          "label": "D",
+          "text": "The mutation disrupts the protein's ability to bind the SDS detergent evenly across its surface."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Native electrophoresis does separate partly by size, but the key variable here is charge. The question specifies native conditions, and the mutation itself \u2014 not aggregation \u2014 explains the mobility shift. Under native gel conditions at pH 8.6, HbS tetramers don't aggregate into fibers.",
+        "B": "Valine is a nonpolar, uncharged amino acid at all physiological pH values. It does not introduce a positive charge. The shift in migration results from the loss of negative charge, not the gain of positive charge.",
+        "C": "Glutamate (pI \u2248 3.2) carries a negative charge at pH 8.6, while valine is nonpolar and uncharged. Replacing Glu \u2192 Val removes two negative charges per tetramer (one per \u03b2-chain), reducing the net negative charge and slowing migration toward the positively charged anode.",
+        "D": "The passage specifies native conditions, meaning SDS is not used. SDS-PAGE denatures proteins and coats them uniformly with negative charge; native PAGE separates by both charge and shape in the absence of SDS."
+      },
+      "topic": "Amino Acid Properties / Electrophoresis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_protein_002",
+      "passage": null,
+      "stem": "The polymerization of the mutant hemoglobin described in the passage occurs only in the deoxy conformation. Which level of protein structure is most directly responsible for exposing the hydrophobic pocket that permits fiber formation?",
+      "passageRef": "bb_protein_001",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Primary structure, because the amino acid sequence determines whether the pocket exists."
+        },
+        {
+          "label": "B",
+          "text": "Secondary structure, because the \u03b1-helices lining the pocket must shift to expose it."
+        },
+        {
+          "label": "C",
+          "text": "Tertiary structure, because the three-dimensional folding of each subunit changes upon oxygen release."
+        },
+        {
+          "label": "D",
+          "text": "Quaternary structure, because the conformational shift between subunits upon deoxygenation reveals the binding site."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Primary structure dictates the presence of the pocket's residues, but the question asks about exposure \u2014 a conformational event. The pocket exists in both oxy and deoxy forms; what changes is its accessibility.",
+        "B": "While \u03b1-helices may shift during the T-to-R transition, secondary structure elements themselves don't undergo major rearrangement. The exposure is driven by subunit repositioning, not helix refolding.",
+        "C": "Tertiary structure changes do occur, but the passage describes a pocket exposed specifically by the oxy-to-deoxy transition. In hemoglobin, this transition is fundamentally a quaternary event: the T-state (deoxy) results from rotation of \u03b1\u03b2 dimers relative to each other.",
+        "D": "Hemoglobin's T (tense) \u2194 R (relaxed) transition is a quaternary structural change \u2014 the \u03b1\u03b2\u2081 and \u03b1\u03b2\u2082 dimers rotate approximately 15\u00b0 relative to each other upon oxygen release. This rearrangement exposes the complementary hydrophobic pocket on the surface of the \u03b2-subunit that is buried in the oxy (R) conformation."
+      },
+      "topic": "Levels of Protein Structure / Hemoglobin Allostery",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_protein_003",
+      "passage": null,
+      "stem": "If the researchers were to perform isoelectric focusing on the wild-type and mutant hemoglobin, which result would they most likely observe?",
+      "passageRef": "bb_protein_001",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The mutant hemoglobin would focus at a lower pH than wild-type hemoglobin."
+        },
+        {
+          "label": "B",
+          "text": "Neither protein would focus because hemoglobin is too large for isoelectric focusing."
+        },
+        {
+          "label": "C",
+          "text": "Both proteins would focus at the same pH because the mutation does not affect the number of ionizable groups."
+        },
+        {
+          "label": "D",
+          "text": "The mutant hemoglobin would focus at a higher pH than wild-type hemoglobin."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This is reversed. Removing negative charges (Glu \u2192 Val) shifts the pI upward, not downward. A lower pI would require adding negative charge or removing positive charge.",
+        "B": "Isoelectric focusing works on proteins across a wide range of molecular weights, including large multimeric proteins like hemoglobin (~64.5 kDa). IEF separates strictly by pI, regardless of size.",
+        "C": "The mutation absolutely affects ionizable groups. Glutamate has a carboxyl side chain (pK\u2090 \u2248 4.1) that is ionizable; valine's isopropyl side chain has no ionizable group. Replacing Glu with Val eliminates an ionizable group from each \u03b2-chain.",
+        "D": "The Glu \u2192 Val substitution removes a negatively charged residue (two per tetramer) without adding any positive charge. This shifts the balance of ionizable groups toward a more basic pI, so the mutant focuses at a higher pH than wild-type."
+      },
+      "topic": "Isoelectric Point / Amino Acid Charge Properties",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_protein_004",
+      "passage": "A biochemistry laboratory characterizes a novel enzyme isolated from a thermophilic archaeon that thrives at 95\u00b0C. Compared to its mesophilic homolog (optimal activity at 37\u00b0C), the thermophilic enzyme contains 40% more proline residues, three additional disulfide bonds, and a significantly higher proportion of salt bridges between surface residues. Both enzymes catalyze the same reaction and share 62% sequence identity. When the thermophilic enzyme is incubated at 37\u00b0C, its catalytic rate is approximately one-fifth that of the mesophilic enzyme at the same temperature. Circular dichroism spectroscopy shows identical secondary structure composition (45% \u03b1-helix, 20% \u03b2-sheet) in both enzymes at their respective optimal temperatures.",
+      "stem": "The reduced catalytic rate of the thermophilic enzyme at 37\u00b0C is best explained by which of the following?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The thermophilic enzyme is partially denatured at 37\u00b0C, reducing the proportion of correctly folded active sites."
+        },
+        {
+          "label": "B",
+          "text": "The additional stabilizing interactions in the thermophilic enzyme increase its rigidity, limiting the conformational flexibility needed for catalysis at lower temperatures."
+        },
+        {
+          "label": "C",
+          "text": "The 38% sequence divergence eliminates critical catalytic residues in the thermophilic enzyme."
+        },
+        {
+          "label": "D",
+          "text": "Proline residues in the thermophilic enzyme sterically block substrate access to the active site at lower temperatures."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Denaturation at 37\u00b0C would be expected for a cold-sensitive mutant, not for a thermophilic enzyme. Thermophilic enzymes are more stable, not less stable, at moderate temperatures. They are fully folded at 37\u00b0C but lack the thermal energy needed to undergo the conformational fluctuations required for efficient catalysis.",
+        "B": "This reflects a well-established principle in enzyme biophysics: there is a trade-off between stability and flexibility. The extra disulfide bonds, salt bridges, and proline residues increase rigidity, which protects the enzyme at extreme temperatures but reduces the conformational sampling necessary for efficient substrate binding and catalytic turnover at lower temperatures.",
+        "C": "The passage states that both enzymes catalyze the same reaction, which requires conservation of the catalytic residues. 62% identity across the full sequence is high, and catalytic residues are almost always conserved among homologs that perform the same chemistry.",
+        "D": "Proline residues contribute to backbone rigidity because their cyclic side chain constrains the \u03c6 angle, but they do not physically obstruct active sites in a temperature-dependent manner. Their effect on catalysis is indirect, through global rigidity."
+      },
+      "topic": "Protein Stability / Structure-Function Relationships",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_protein_005",
+      "passage": null,
+      "stem": "The finding that both the thermophilic and mesophilic enzymes display identical secondary structure composition at their respective optimal temperatures most strongly supports which conclusion?",
+      "passageRef": "bb_protein_004",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The two enzymes have identical tertiary structures at their optimal temperatures."
+        },
+        {
+          "label": "B",
+          "text": "Circular dichroism cannot distinguish between \u03b1-helices and \u03b2-sheets in thermophilic enzymes."
+        },
+        {
+          "label": "C",
+          "text": "Natural selection has preserved the secondary structure distribution necessary for catalytic function despite sequence divergence."
+        },
+        {
+          "label": "D",
+          "text": "Secondary structure is determined entirely by sequence identity, so the 62% identity explains the identical composition."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Identical secondary structure content does not imply identical tertiary structure. Two proteins can have the same percentage of helix and sheet while having very different three-dimensional arrangements of those elements. Tertiary structure includes the spatial positioning and packing of all secondary structural elements.",
+        "B": "CD spectroscopy is well-validated for distinguishing \u03b1-helices, \u03b2-sheets, and random coil based on their characteristic absorption spectra in the far-UV range (190\u2013250 nm). It works on proteins regardless of their thermostability.",
+        "C": "Despite 38% sequence divergence and different stabilization strategies, both enzymes converge on the same secondary structure profile at their functional temperatures. This suggests that the specific balance of helix and sheet is required for catalytic activity and has been maintained by natural selection \u2014 an example of structural conservation despite sequence drift.",
+        "D": "Secondary structure is influenced by sequence but not determined solely by identity percentage. Many different amino acid sequences can form \u03b1-helices or \u03b2-sheets. Furthermore, 62% identity would not predict identical percentages of each secondary structure type \u2014 the match suggests functional constraint, not sequence determinism."
+      },
+      "topic": "Secondary Structure / Evolutionary Conservation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_protein_006",
+      "passage": null,
+      "stem": "Which of the following amino acid substitutions in the thermophilic enzyme would most likely decrease its thermostability while preserving catalytic function at 37\u00b0C?",
+      "passageRef": "bb_protein_004",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Replacing a surface glutamate involved in a salt bridge with alanine"
+        },
+        {
+          "label": "B",
+          "text": "Replacing a core leucine with tryptophan"
+        },
+        {
+          "label": "C",
+          "text": "Replacing a catalytic histidine with asparagine"
+        },
+        {
+          "label": "D",
+          "text": "Replacing a glycine in a tight turn with proline"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Disrupting a surface salt bridge by replacing a charged residue (Glu) with a small nonpolar residue (Ala) removes a stabilizing electrostatic interaction without affecting the hydrophobic core or the active site. This would selectively reduce thermostability while potentially increasing the flexibility needed for catalysis at lower temperatures.",
+        "B": "Replacing a core leucine with tryptophan substitutes one hydrophobic residue for a much bulkier one. This would likely cause steric clashes in the tightly packed hydrophobic core, destabilizing the overall fold and potentially disrupting function at all temperatures \u2014 not a selective thermostability reduction.",
+        "C": "Histidine frequently serves as a general acid-base catalyst in enzyme active sites. Replacing it with asparagine (which lacks the imidazole ring and its pK\u2090 near 6) would eliminate the catalytic mechanism, destroying function rather than selectively reducing stability.",
+        "D": "Adding proline to a tight turn would likely increase rigidity, not decrease thermostability. Proline is one of the features the passage identifies as contributing to thermostability in the archaeal enzyme."
+      },
+      "topic": "Amino Acid Properties / Protein Engineering",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_protein_007",
+      "passage": "A pharmaceutical company develops a monoclonal antibody drug targeting a cell-surface receptor implicated in autoimmune disease. The antibody is produced in Chinese hamster ovary (CHO) cells and purified using Protein A affinity chromatography, which exploits the high-affinity binding between Protein A (a staphylococcal surface protein) and the Fc region of IgG. During quality control, size-exclusion chromatography (SEC) reveals that the purified product contains three peaks. Peak 1 elutes first and corresponds to aggregated antibody. Peak 2, the main peak, corresponds to intact IgG monomer (~150 kDa). Peak 3 elutes last and corresponds to antibody fragments (~50 kDa and ~25 kDa). SDS-PAGE under reducing conditions shows two bands at approximately 50 kDa and 25 kDa for all three SEC fractions.",
+      "stem": "In size-exclusion chromatography, Peak 1 (aggregated antibody) elutes before Peak 2 (intact monomer). Which of the following best explains this elution order?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Larger molecules are excluded from the pores of the column matrix and pass through the column more quickly."
+        },
+        {
+          "label": "B",
+          "text": "Aggregated antibodies have a higher net charge, causing them to interact less with the column matrix."
+        },
+        {
+          "label": "C",
+          "text": "The aggregated form has a lower molecular weight due to proteolytic clipping and therefore moves faster."
+        },
+        {
+          "label": "D",
+          "text": "Larger molecules bind the column matrix with higher affinity and are eluted first by the mobile phase."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "SEC separates molecules by size, not by charge or affinity. The column matrix contains porous beads with defined pore sizes. Smaller molecules enter the pores and travel a longer effective path length, eluting later. Larger molecules (like aggregates) are excluded from the pores and travel through the void volume, eluting first.",
+        "B": "SEC is a non-adsorptive technique \u2014 separation is based on hydrodynamic radius, not charge. Charge-based separations are the basis of ion-exchange chromatography, not size-exclusion.",
+        "C": "The passage states that Peak 1 corresponds to aggregated antibody, which has a higher molecular weight than the monomer, not lower. Proteolytic fragments appear in Peak 3, which elutes last, consistent with their smaller size.",
+        "D": "SEC does not involve binding to the matrix. Unlike affinity chromatography or ion-exchange chromatography, the separation mechanism is purely steric \u2014 differential penetration into porous beads based on molecular size."
+      },
+      "topic": "Separation Techniques / Protein Purification",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_protein_008",
+      "passage": null,
+      "stem": "The observation that SDS-PAGE under reducing conditions yields 50 kDa and 25 kDa bands for all three SEC fractions indicates which of the following about antibody structure?",
+      "passageRef": "bb_protein_007",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The aggregates in Peak 1 are held together by covalent peptide bonds between monomers."
+        },
+        {
+          "label": "B",
+          "text": "The 50 kDa fragments represent Fab regions and the 25 kDa fragments represent Fc regions of the antibody."
+        },
+        {
+          "label": "C",
+          "text": "Intact IgG consists of a single polypeptide chain that is cleaved into two fragments by SDS."
+        },
+        {
+          "label": "D",
+          "text": "The heavy chains (~50 kDa) and light chains (~25 kDa) are linked by disulfide bonds that are cleaved under reducing conditions."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "If aggregates were held together by peptide bonds, reducing conditions would not dissociate them, and SDS-PAGE would show bands different from the monomer fractions. The identical banding pattern across all fractions indicates that the aggregates, monomers, and fragments all reduce to the same subunit chains \u2014 heavy and light chains linked by disulfide bonds.",
+        "B": "The Fab region (~50 kDa) is itself a complex of one full light chain + the variable and CH1 domains of one heavy chain. The Fc region (~50 kDa) consists of CH2 and CH3 domains from both heavy chains. Under reducing SDS-PAGE, the protein resolves into individual polypeptide chains, not functional domains.",
+        "C": "IgG is not a single polypeptide chain. It is a heterotetramer consisting of four polypeptide chains (2 heavy + 2 light). SDS does not cleave peptide bonds; it denatures proteins and coats them with uniform negative charge.",
+        "D": "IgG is composed of two heavy chains (~50 kDa each) and two light chains (~25 kDa each), connected by interchain disulfide bonds. Under reducing conditions (e.g., \u03b2-mercaptoethanol or DTT), these disulfide bonds are broken, releasing the individual chains. All three SEC fractions produce the same bands because they all consist of the same polypeptide chains in different association states."
+      },
+      "topic": "Antibody Structure / SDS-PAGE",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_protein_009",
+      "passage": null,
+      "stem": "Protein A affinity chromatography purifies IgG by binding the Fc region. If the researchers wanted to instead purify only antibody fragments that retain antigen-binding activity, which chromatographic approach would be most appropriate?",
+      "passageRef": "bb_protein_007",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ion-exchange chromatography at a pH near the antibody's isoelectric point"
+        },
+        {
+          "label": "B",
+          "text": "Affinity chromatography using the target antigen immobilized on the column matrix"
+        },
+        {
+          "label": "C",
+          "text": "Hydrophobic interaction chromatography with a decreasing salt gradient"
+        },
+        {
+          "label": "D",
+          "text": "Size-exclusion chromatography using a column with a 100 kDa molecular weight cutoff"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Ion-exchange chromatography separates by charge and would not selectively isolate fragments with antigen-binding activity. At a pH near the pI, the antibody would have near-zero net charge and would not bind the column effectively, making separation poor.",
+        "B": "Immobilizing the target antigen on the column selectively captures any fragment that retains a functional antigen-binding site (Fab, scFv, or F(ab')\u2082), regardless of whether the Fc region is present. Non-binding fragments and contaminants flow through, and bound fragments are eluted by pH shift or competing antigen.",
+        "C": "HIC separates based on surface hydrophobicity and is a useful polishing step, but it has no selectivity for antigen-binding function. It would separate fragments by hydrophobic character, not by whether they can bind the target antigen.",
+        "D": "SEC separates by size, not function. While it could isolate fragments in a particular size range, it cannot distinguish between fragments that retain antigen-binding activity and those that do not (e.g., Fc fragments of similar size)."
+      },
+      "topic": "Chromatography / Protein Purification",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_protein_010",
+      "passage": "Researchers study the mechanism of a chaperonin complex, GroEL-GroES, in assisting protein folding in E. coli. GroEL is a large barrel-shaped complex composed of 14 identical 57-kDa subunits arranged in two stacked heptameric rings. Misfolded or partially folded polypeptides bind to hydrophobic residues lining the interior of the GroEL cavity. Upon ATP binding and GroES (a heptameric \"lid\" complex) association, the cavity undergoes a dramatic conformational change: the interior surface switches from hydrophobic to hydrophilic, and the chamber volume nearly doubles. The encapsulated polypeptide is given approximately 10 seconds to fold in this protected environment before ATP hydrolysis triggers GroES release and substrate ejection. Polypeptides that have not yet reached their native state can rebind for additional folding cycles.",
+      "stem": "The switch of the GroEL cavity from hydrophobic to hydrophilic upon ATP binding most directly facilitates folding by which mechanism?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It provides a catalytic surface that accelerates peptide bond rotation to favor native conformations."
+        },
+        {
+          "label": "B",
+          "text": "It denatures the misfolded polypeptide completely, forcing it to refold from a random coil state."
+        },
+        {
+          "label": "C",
+          "text": "It releases the substrate from the cavity wall, allowing the polypeptide to fold in an aqueous-like environment free from aggregation."
+        },
+        {
+          "label": "D",
+          "text": "It covalently modifies hydrophobic residues on the substrate to make them more soluble in the cytoplasm."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Chaperonins do not catalyze bond rotation or alter the chemistry of the folding process. They do not lower the activation energy of any specific folding step. Instead, they provide a sequestered environment that prevents off-pathway aggregation \u2014 folding proceeds according to the polypeptide's own thermodynamic landscape.",
+        "B": "While GroEL can partially unfold misfolded intermediates upon initial binding (the hydrophobic cavity stretches kinetically trapped states), the ATP-driven conformational change does not fully denature the substrate. Complete denaturation would be energetically wasteful and would eliminate any productive folding that had already occurred.",
+        "C": "The hydrophobic-to-hydrophilic switch releases the polypeptide from the cavity wall into a cage-like aqueous environment. Inside this chamber, the protein can fold without encountering other misfolded proteins or aggregation-prone surfaces, effectively mimicking an infinitely dilute solution. This is the core mechanism of the Anfinsen cage model of chaperonin-assisted folding.",
+        "D": "GroEL does not perform any covalent modification of its substrates. It is not an enzyme that catalyzes post-translational modifications. The interaction between GroEL and its substrates is entirely non-covalent, mediated by hydrophobic and electrostatic interactions."
+      },
+      "topic": "Protein Folding / Chaperones",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_protein_011",
+      "passage": null,
+      "stem": "GroEL is composed of 14 identical subunits arranged in two heptameric rings. This description defines which level of protein structure?",
+      "passageRef": "bb_protein_010",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Secondary structure, because the barrel shape is formed by \u03b2-sheets"
+        },
+        {
+          "label": "B",
+          "text": "Tertiary structure, because each subunit folds independently before assembly"
+        },
+        {
+          "label": "C",
+          "text": "Quaternary structure, because it describes the arrangement of multiple polypeptide subunits"
+        },
+        {
+          "label": "D",
+          "text": "Primary structure, because the 14 subunits are linked into a single continuous polypeptide"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "While the barrel-shaped complex may contain \u03b2-sheets within individual subunits, the overall arrangement of 14 subunits into two rings is not a description of secondary structure. Secondary structure refers to local folding patterns (\u03b1-helices, \u03b2-sheets) within a single polypeptide chain.",
+        "B": "Tertiary structure describes the three-dimensional fold of a single polypeptide chain. While each GroEL subunit has its own tertiary structure, the question asks about the arrangement of multiple subunits \u2014 which is quaternary.",
+        "C": "Quaternary structure describes the arrangement and interactions of two or more polypeptide subunits in a multi-subunit protein complex. GroEL's 14-subunit, double-ring architecture is a classic example of quaternary structure with high-order symmetry.",
+        "D": "The 14 subunits are separate polypeptide chains (each 57 kDa) held together by non-covalent interactions. They are not linked by peptide bonds into a single chain. Primary structure refers to the linear amino acid sequence of one polypeptide."
+      },
+      "topic": "Levels of Protein Structure",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_protein_012",
+      "passage": null,
+      "stem": "A polypeptide that has not reached its native state after one GroEL-GroES folding cycle can rebind and undergo additional cycles. This iterative process is most analogous to which thermodynamic concept?",
+      "passageRef": "bb_protein_010",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The polypeptide is trapped in a local energy minimum and repeated cycles provide kinetic energy to escape and find the global minimum."
+        },
+        {
+          "label": "B",
+          "text": "Each cycle adds a covalent modification that progressively lowers the free energy of the native state."
+        },
+        {
+          "label": "C",
+          "text": "The chaperonin creates an entirely new folding pathway with a lower activation energy than unassisted folding."
+        },
+        {
+          "label": "D",
+          "text": "Repeated cycles shift the equilibrium toward the native state by removing the native product from the reaction mixture."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Misfolded intermediates are kinetically trapped in local energy minima on the folding landscape. The binding-release-rebinding cycles of GroEL provide the polypeptide with repeated opportunities to escape these traps \u2014 partial unfolding upon binding to the hydrophobic cavity stretches the misfolded state, and release into the hydrophilic chamber allows a fresh attempt at reaching the global free energy minimum (the native fold).",
+        "B": "GroEL does not covalently modify its substrates. There is no progressive chemical change with each cycle. The polypeptide's primary structure remains unchanged throughout the process. This is a common misconception that confuses chaperonin function with post-translational modification.",
+        "C": "Chaperonins do not alter the folding pathway itself. The thermodynamic folding landscape is determined by the amino acid sequence (Anfinsen's dogma). Chaperonins prevent off-pathway aggregation and help polypeptides escape kinetic traps, but they do not create new pathways.",
+        "D": "This describes Le Chatelier's principle applied to a reaction. However, the native product is not removed from the reaction \u2014 correctly folded proteins are simply released from the chaperonin and persist in the cytoplasm. The mechanism is kinetic (escaping trapped states), not thermodynamic (shifting equilibrium)."
+      },
+      "topic": "Protein Folding / Thermodynamics",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_protein_013",
+      "passage": null,
+      "stem": "A researcher adds 8 M urea to a solution containing a purified, disulfide-bond-free globular protein. After circular dichroism confirms complete loss of secondary structure, the urea is slowly removed by dialysis. The protein regains full enzymatic activity. This result most directly supports which of the following conclusions?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The protein requires molecular chaperones for folding in vivo, but not in vitro."
+        },
+        {
+          "label": "B",
+          "text": "All the information needed to specify the protein's three-dimensional structure is encoded in its amino acid sequence."
+        },
+        {
+          "label": "C",
+          "text": "Urea stabilizes the native conformation by strengthening hydrophobic interactions within the protein core."
+        },
+        {
+          "label": "D",
+          "text": "Disulfide bonds are not necessary for any protein to maintain its native fold."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The experiment says nothing about in vivo folding requirements. It demonstrates that the protein can fold without chaperones in vitro, but this does not mean chaperones are required in vivo \u2014 it simply means they are not required in vitro. Many proteins fold spontaneously both in vivo and in vitro.",
+        "B": "This is conceptually analogous to Anfinsen's classic refolding experiments with ribonuclease A. Complete denaturation followed by spontaneous refolding to the active state upon denaturant removal demonstrates that the amino acid sequence (primary structure) contains all the information necessary to dictate the native three-dimensional fold. No external template or instruction set is needed.",
+        "C": "Urea denatures proteins \u2014 it does the opposite of stabilizing native structure. At 8 M concentration, urea disrupts hydrogen bonds and hydrophobic interactions, unfolding the protein to a random coil. Removing urea allows the native interactions to reform.",
+        "D": "The experiment uses a single protein that happens to lack disulfide bonds. This does not allow generalization to all proteins. Many proteins (e.g., immunoglobulins, insulin) absolutely require disulfide bonds for structural integrity."
+      },
+      "topic": "Anfinsen's Experiment / Protein Folding",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_protein_014",
+      "passage": null,
+      "stem": "Collagen is composed of three left-handed polyproline II helices wound into a right-handed superhelix. Every third residue in each chain is glycine. Which property of glycine makes it essential at every third position in the collagen triple helix?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Glycine's hydrogen side chain is the only one small enough to fit in the sterically crowded interior of the triple helix."
+        },
+        {
+          "label": "B",
+          "text": "Glycine's high hydrophobicity drives the three chains to associate through hydrophobic interactions in the core."
+        },
+        {
+          "label": "C",
+          "text": "Glycine is the only amino acid capable of forming the interchain hydrogen bonds that stabilize the triple helix."
+        },
+        {
+          "label": "D",
+          "text": "Glycine's rigid cyclic structure restricts the backbone dihedral angles needed for the polyproline II helix."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "In the collagen triple helix, the three polypeptide chains are wound tightly together, and every third residue points inward toward the central axis. Glycine, with only a hydrogen atom as its side chain, is the only amino acid small enough to fit in this sterically restricted interior space. Any larger side chain would cause steric clashes that destabilize the triple helix \u2014 this is why Gly mutations cause diseases like osteogenesis imperfecta.",
+        "B": "Glycine is not hydrophobic; it is typically classified as nonpolar but has the smallest possible side chain (a single hydrogen atom) with negligible hydrophobic character. The triple helix is not stabilized by hydrophobic interactions in its core \u2014 it is stabilized by interchain hydrogen bonds and the tight packing permitted by glycine.",
+        "C": "All amino acids can form backbone hydrogen bonds through their amide N-H and carbonyl C=O groups. The interchain hydrogen bonds in collagen are between backbone atoms, not side chains. Glycine is essential for steric reasons, not hydrogen-bonding capability.",
+        "D": "This describes proline, not glycine. Proline has a cyclic side chain that restricts backbone \u03c6 angles. Glycine is the opposite: it has maximum conformational flexibility because its minimal side chain (H) imposes no steric restriction on backbone rotation."
+      },
+      "topic": "Collagen Structure / Amino Acid Properties",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_protein_015",
+      "passage": null,
+      "stem": "A protein biochemist mutates a buried aspartate residue in the hydrophobic core of a globular protein to leucine. At physiological pH, which of the following best predicts the effect of this mutation on protein stability?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The protein will be destabilized because leucine is too large to fit in the space occupied by aspartate."
+        },
+        {
+          "label": "B",
+          "text": "The protein will be stabilized because replacing a charged residue with a hydrophobic residue strengthens the hydrophobic core."
+        },
+        {
+          "label": "C",
+          "text": "The protein will be destabilized because aspartate forms a critical salt bridge with a lysine residue on the protein's surface."
+        },
+        {
+          "label": "D",
+          "text": "There will be no effect because both residues have similar van der Waals volumes."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Leucine and aspartate have roughly comparable side-chain volumes, so steric clash is unlikely to be the primary concern. The dominant effect of this substitution is the change in chemical character \u2014 from charged/polar to nonpolar \u2014 not size.",
+        "B": "Aspartate is negatively charged at physiological pH (pK\u2090 \u2248 3.7) and is thermodynamically unfavorable when buried in a hydrophobic core because desolvation of a charged group carries a large energetic penalty. Assuming the buried Asp is not part of a critical active-site interaction or compensating salt bridge, replacing it with leucine, a branched-chain hydrophobic amino acid, eliminates this desolvation penalty and strengthens hydrophobic packing, stabilizing the protein. Buried charged residues are generally destabilizing unless they participate in critical salt bridges or catalytic mechanisms.",
+        "C": "A salt bridge between a buried aspartate and a surface lysine is geometrically unlikely in most protein architectures. If such a long-range interaction existed, the question would need to specify it. The default prediction for replacing a buried charged residue with a hydrophobic one is stabilization unless a specific compensating interaction is disrupted.",
+        "D": "While their volumes are somewhat similar, the chemical properties are radically different. Aspartate is charged and polar; leucine is nonpolar and hydrophobic. In the hydrophobic core, this difference in polarity is the dominant factor determining stability \u2014 not van der Waals volume."
+      },
+      "topic": "Hydrophobic Effect / Protein Stability",
+      "difficulty": "Medium"
+    }
+  ]
+}

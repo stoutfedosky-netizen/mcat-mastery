@@ -1,0 +1,343 @@
+{
+  "batch": "B044",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Advanced Reasoning Within the Text",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "D": 3,
+    "B": 2,
+    "C": 2
+  },
+  "questions": [
+    {
+      "id": "cars_within_001",
+      "passage": "When a museum restores a damaged painting, visitors often ask how much of what they see still belongs to the artist. The question assumes that authenticity can be measured like the percentage of original pigment remaining. Yet a painting is not merely a pile of substances. It is also an arrangement whose intelligibility may depend on later intervention. Removing darkened varnish can reveal relationships of color that the artist intended but no living viewer has previously seen.\n\nRestoration therefore creates a peculiar obligation: the conservator must act so that the work, rather than the intervention, becomes legible. This does not mean intervention should be invisible. A perfectly deceptive reconstruction would erase the distinction between surviving evidence and modern conjecture. Good restoration is reticent, not secretive. From an ordinary viewing distance it permits the composition to cohere; under examination it remains distinguishable and reversible.\n\nSome critics conclude that any addition falsifies the object. Their purity is attractive but impractical. Refusing to stabilize flaking paint is also a decision, one that hands authorship to decay. Conversely, the confidence to complete every missing figure treats the conservator's imagination as historical evidence. The responsible position lies between passivity and completion.\n\nThis middle position is not a compromise reached by averaging two extremes. It follows from the kind of object a damaged artwork has become: simultaneously a work meant to be seen and a historical record whose losses matter. Restoration fails when it sacrifices either identity\u2014when the record becomes unreadable debris or when an appealing image conceals how much has been invented. Authenticity resides less in untouched material than in an honest relationship among material, interpretation, and acknowledged uncertainty.",
+      "stem": "The passage's central claim is that authentic restoration requires:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "preserving visual intelligibility while distinguishing evidence from reversible modern interpretation"
+        },
+        {
+          "label": "B",
+          "text": "retaining every surviving material regardless of whether the work remains viewable"
+        },
+        {
+          "label": "C",
+          "text": "reconstructing all missing elements so the artist's intention appears complete"
+        },
+        {
+          "label": "D",
+          "text": "making intervention impossible for viewers or scholars to detect"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage argues that authentic restoration requires a dual commitment: preserving the work's visual intelligibility (so viewers can see what the artist intended) while maintaining a clear distinction between surviving original material and modern interventions. The author rejects both extremes \u2014 invisible reconstruction (which 'erases the distinction between surviving evidence and modern conjecture') and total non-intervention (which 'hands authorship to decay'). Authentic restoration makes the artwork legible as a composition while documenting every modern addition in a form accessible to future conservators. This is the 'reticent, not secretive' principle.",
+        "B": "Maximizing the percentage of original pigment retained treats authenticity as a material measurement, which the passage explicitly challenges: 'a painting is not merely a pile of substances.' The author argues that a painting's identity includes its visual intelligibility, not just its physical composition. Prioritizing material preservation over visual coherence could leave a work technically 'original' but incomprehensible.",
+        "C": "Reconstructing all missing elements to make the artist's intention appear complete treats modern conjecture as if it were surviving evidence. The author explicitly warns against this: a 'perfectly deceptive reconstruction would erase the distinction between surviving evidence and modern conjecture.' Completion for its own sake prioritizes the appearance of wholeness over historical honesty.",
+        "D": "Making intervention impossible to detect is precisely what the author calls 'secretive' rather than 'reticent.' If no viewer or scholar can identify where modern work begins and original material ends, the historical record is compromised. The passage insists that interventions should be identifiable under informed examination, even if they recede during ordinary viewing."
+      },
+      "topic": "Main Idea / Authentic Restoration",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_within_002",
+      "passage": null,
+      "stem": "What does the author mean by saying that good restoration is \u201creticent, not secretive\u201d?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It should avoid all visual change"
+        },
+        {
+          "label": "B",
+          "text": "It should advertise every repair at normal viewing distance"
+        },
+        {
+          "label": "C",
+          "text": "It should be performed without public discussion"
+        },
+        {
+          "label": "D",
+          "text": "It should support coherent viewing without concealing its modern additions from examination"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Avoiding all visual change would mean never cleaning darkened varnish, never stabilizing flaking paint, never addressing deterioration. The passage explicitly describes how removing darkened varnish 'can reveal relationships of color that the artist intended.' The author endorses visual change when it serves intelligibility \u2014 'reticent' means understated, not absent.",
+        "B": "Announcing intervention with prominent labels or visible borders would make the restoration 'loud,' not reticent. Reticence implies subtlety \u2014 the intervention supports the viewing experience without calling attention to itself. Bold announcements would disrupt the aesthetic experience the passage values.",
+        "C": "The 'secretive' in the passage refers to concealing the fact that modern additions exist within the artwork \u2014 hiding the line between original and restoration. It is not about whether the public discusses the restoration process. A restoration can be fully public in its announcement while still being 'secretive' if its additions are undetectable within the work itself.",
+        "D": "Correct. 'Reticent, not secretive' means the restoration supports coherent viewing \u2014 it doesn't visually shout 'I was repaired here!' during normal engagement with the work. But it also doesn't conceal its modern additions from professional examination. Under technical analysis (UV fluorescence, infrared reflectography, documented records), every intervention should be identifiable. The restoration recedes during aesthetic experience but remains transparent to scholarly and conservation scrutiny. This captures the dual obligation: serve the viewer's experience while preserving the historical record."
+      },
+      "topic": "Interpretation of Phrase",
+      "difficulty": "Medium",
+      "passageRef": "cars_within_001"
+    },
+    {
+      "id": "cars_within_003",
+      "passage": null,
+      "stem": "The statement that refusing treatment \u201chands authorship to decay\u201d primarily challenges the assumption that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decay can sometimes reveal original pigment"
+        },
+        {
+          "label": "B",
+          "text": "nonintervention is a neutral way of preserving authenticity"
+        },
+        {
+          "label": "C",
+          "text": "conservators possess historical knowledge"
+        },
+        {
+          "label": "D",
+          "text": "museums should display damaged objects"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The phrase 'hands authorship to decay' is not about decay occasionally revealing original pigment beneath later additions. It is about the ongoing destruction of the work's visual coherence by unaddressed deterioration. The author's point is that inaction allows decay to reshape the work in ways the artist never intended \u2014 not that decay sometimes helps.",
+        "B": "Correct. The metaphor 'hands authorship to decay' directly challenges the assumption that non-intervention is a neutral, safe way to preserve authenticity. The author argues that choosing not to treat a deteriorating work is not a passive, neutral stance \u2014 it is an active choice that allows physical degradation to alter the work in ways the artist never intended. Decay becomes the de facto 'author' of the work's current appearance. This reframes non-intervention as itself a form of intervention \u2014 one that simply delegates the changes to natural processes rather than to human judgment. The implication is that there is no position outside the dilemma: both action and inaction alter the work.",
+        "C": "The statement does not deny that conservators have historical knowledge. It challenges the separate assumption that declining to use that knowledge (non-intervention) is a neutral act. The author argues that the choice not to intervene is itself a consequential decision, not a safe default.",
+        "D": "The passage is not primarily about museum display policy \u2014 whether to show damaged objects or hide them. The 'hands authorship to decay' argument is about the ethics of conservation decision-making: whether non-intervention constitutes a principled stance or an abdication of responsibility."
+      },
+      "topic": "Function of Metaphor / Nonintervention",
+      "difficulty": "Hard",
+      "passageRef": "cars_within_001"
+    },
+    {
+      "id": "cars_within_004",
+      "passage": null,
+      "stem": "Why is the author's middle position not merely an average of extremes?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It permits exactly half of each damaged area to be reconstructed"
+        },
+        {
+          "label": "B",
+          "text": "It was selected by museum visitors"
+        },
+        {
+          "label": "C",
+          "text": "It follows from the artwork's dual status as viewable composition and historical record"
+        },
+        {
+          "label": "D",
+          "text": "It changes according to market value"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "A compromise that simply takes a moderate amount of each extreme would be unprincipled \u2014 it would lack its own logic and merely split the difference. The passage argues that the middle position has its own independent justification derived from the artwork's nature, not from averaging two flawed extremes.",
+        "B": "The author's position is derived from the artwork's inherent dual nature, not from museum visitor preferences. Visitor opinions may vary, but the philosophical argument about composition-versus-artifact is independent of what any particular audience prefers. The middle position has its own intellectual foundation.",
+        "C": "Correct. The author's position is not an average of 'restore everything invisibly' and 'touch nothing.' It derives from a distinct insight: the artwork has a dual identity \u2014 it is simultaneously a viewable composition (requiring visual intelligibility) and a historical artifact (requiring preservation of evidence). These two identities generate different obligations that must be simultaneously honored. Invisible restoration serves the composition but erases the artifact; non-intervention preserves the artifact but abandons the composition. The middle position is principled, not compromised, because it responds to both real dimensions of the work's identity rather than collapsing the artwork into one dimension.",
+        "D": "Market value is never the criterion in the passage. The author's argument is grounded in the artwork's dual identity as viewable composition and historical document. Financial considerations are entirely absent from the passage's framework for evaluating restoration decisions."
+      },
+      "topic": "Reasoning Within Text / Dual Identity",
+      "difficulty": "Medium",
+      "passageRef": "cars_within_001"
+    },
+    {
+      "id": "cars_within_005",
+      "passage": null,
+      "stem": "Which action would the author most clearly regard as a restoration failure?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Painting an undetectable invented figure into a missing region without documentary support"
+        },
+        {
+          "label": "B",
+          "text": "Using a reversible stabilizer on flaking paint"
+        },
+        {
+          "label": "C",
+          "text": "Removing a discolored varnish after material testing"
+        },
+        {
+          "label": "D",
+          "text": "Documenting a restrained addition distinguishable under examination"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage explicitly warns against 'perfectly deceptive reconstruction' that 'erases the distinction between surviving evidence and modern conjecture.' Painting an undetectable invented figure into a missing area violates both principles the author establishes: it introduces modern conjecture (an invented figure not based on surviving evidence) and makes it undetectable (no documentation, indistinguishable from original). This is 'secretive' rather than 'reticent' \u2014 it deceives all viewers, including future conservators, about what is original and what is modern.",
+        "B": "Using a reversible stabilizer on flaking paint is consistent with the author's view. It prevents decay from further altering the work (avoiding 'handing authorship to decay'), uses a reversible method (allowing future correction), and addresses a material preservation need. This would be considered responsible conservation, not a failure.",
+        "C": "Removing discolored varnish after material testing aligns with the passage, which explicitly states that 'removing darkened varnish can reveal relationships of color that the artist intended.' Testing before removal demonstrates the careful, evidence-based approach the author advocates.",
+        "D": "A documented, restrained addition that is distinguishable under examination is essentially the author's ideal \u2014 'reticent, not secretive.' It supports visual coherence while preserving the distinction between original and modern material. This is the model of good restoration, not a failure."
+      },
+      "topic": "Application Within Text",
+      "difficulty": "Medium",
+      "passageRef": "cars_within_001"
+    },
+    {
+      "id": "cars_within_006",
+      "passage": "Public discussions of prediction algorithms often alternate between two fantasies. In one, the algorithm is an oracle whose numerical output escapes human prejudice. In the other, it is merely prejudice written in code and therefore contributes nothing beyond the bias of its designers. Both fantasies mistake how such systems operate.\n\nA model learns statistical relationships from selected data, using an objective chosen by people. It may discover patterns no designer anticipated, yet its success is judged by humanly selected outcomes. This mixture makes responsibility harder to locate, not easier to dismiss. A hospital model that predicts missed appointments might be accurate because it detects transportation barriers. If administrators respond by denying high-risk patients appointments, prediction amplifies the barrier. If they provide transportation, the same prediction can help reduce it.\n\nAccuracy, then, is not self-interpreting. A model can estimate its target precisely while the target remains a poor stand-in for the institution's real purpose. Arrest records, for example, are easier to count than undetected offenses, but the two are not equivalent. Improving prediction of recorded arrests may reproduce patterns of surveillance while appearing technically superior.\n\nNone of this makes quantitative tools useless. Human judgment unaided by models is neither transparent nor unbiased. The appropriate demand is not that algorithms be neutral in some impossible sense, but that institutions identify what has been optimized, test performance across relevant groups, and remain answerable for how predictions alter decisions. An algorithm can inform judgment; it cannot inherit the institution's moral responsibility. The central question is not whether a calculation contains values, but whether those values and their consequences can be examined and revised.",
+      "stem": "Which statement best captures the author's thesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Algorithms should replace unaided judgment whenever they improve accuracy"
+        },
+        {
+          "label": "B",
+          "text": "Because all models contain values, quantitative prediction should be abandoned"
+        },
+        {
+          "label": "C",
+          "text": "Algorithms can aid decisions, but institutions remain responsible for targets, uses, group effects, and revision"
+        },
+        {
+          "label": "D",
+          "text": "Bias disappears when designers do not anticipate a discovered pattern"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage explicitly rejects the 'oracle' fantasy \u2014 that algorithms escape human prejudice entirely. The author argues that models learn from selected data using humanly chosen objectives, making them products of human decisions, not escapes from them.",
+        "B": "The passage also rejects the opposite fantasy \u2014 that algorithms are 'merely prejudice written in code.' The author argues that models can discover patterns no designer anticipated, giving them genuine analytical capacity beyond what their creators explicitly programmed. Reducing algorithms to pure bias ignores this capacity.",
+        "C": "Correct. The passage's thesis is that algorithms are neither oracles nor mere prejudice. They can genuinely aid decisions by discovering patterns in data, but the institutional context \u2014 what targets are chosen, what data is used, how predictions are deployed, and whether consequences are reviewed \u2014 remains a matter of human responsibility. The missed-appointment example shows how the same accurate prediction can be used helpfully (connecting patients to transportation) or harmfully (denying appointments to vulnerable patients). The algorithm doesn't determine the outcome; the institution does. Accountability therefore belongs to the humans who select targets, deploy models, and choose responses.",
+        "D": "The passage argues that even when a model discovers unexpected patterns, human responsibility persists because people chose the data, defined the objective, and decided how to deploy the predictions. Unanticipated patterns do not eliminate bias \u2014 the bias may be embedded in the training data or the objective function, regardless of whether the designers foresaw the specific pattern the model found."
+      },
+      "topic": "Main Idea / Algorithmic Accountability",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_within_007",
+      "passage": null,
+      "stem": "The missed-appointment example is used to show that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "transportation data always violate privacy"
+        },
+        {
+          "label": "B",
+          "text": "the consequences of a prediction depend on the institutional response to it"
+        },
+        {
+          "label": "C",
+          "text": "accurate models necessarily reduce inequality"
+        },
+        {
+          "label": "D",
+          "text": "patients cause transportation barriers"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The missed-appointment example is not about privacy violations in transportation data. The author uses the example to show how the same prediction can lead to helpful or harmful institutional responses \u2014 connecting patients to rides versus denying them appointments. Privacy is not the issue the example illustrates.",
+        "B": "Correct. The missed-appointment example demonstrates a crucial principle: an accurate prediction is not the same as a good decision. The model correctly identifies patients likely to miss appointments (perhaps because they lack reliable transportation). But the institutional response determines whether the prediction helps or harms. If the institution connects flagged patients to transportation services, the prediction improves care. If it denies flagged patients appointments, the prediction becomes a mechanism for excluding vulnerable people from healthcare. The same prediction, same accuracy, completely different consequences \u2014 determined entirely by the institutional deployment choice.",
+        "C": "The example directly contradicts this claim. The same accurate model can be used to reduce inequality (connecting patients to transportation) or to worsen it (excluding high-risk patients from care). Accuracy and equity are separate questions \u2014 the institutional response, not the model's accuracy, determines the social impact.",
+        "D": "The passage frames transportation barriers as structural conditions \u2014 features of the built environment, transit systems, and socioeconomic circumstances. The model detects these barriers; it does not attribute them to patient choices. Blaming patients for structural barriers reverses the causal logic the author presents."
+      },
+      "topic": "Function of Example / Deployment",
+      "difficulty": "Medium",
+      "passageRef": "cars_within_006"
+    },
+    {
+      "id": "cars_within_008",
+      "passage": null,
+      "stem": "Why does the author distinguish arrest records from undetected offenses?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To argue that arrests should never be studied"
+        },
+        {
+          "label": "B",
+          "text": "To prove that offenses cannot be estimated"
+        },
+        {
+          "label": "C",
+          "text": "To show that surveillance has no relationship to arrest"
+        },
+        {
+          "label": "D",
+          "text": "To illustrate that a measurable target may be an imperfect proxy shaped by institutional practice"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The author does not argue that arrests should never be studied. The distinction between arrests and undetected offenses is meant to show that arrest data is an imperfect proxy for actual criminal behavior \u2014 useful but systematically biased by policing patterns. The author advocates awareness of this limitation, not abandonment of the data entirely.",
+        "B": "Noting that arrest records differ from actual offense rates is not a defense of algorithmic accuracy. It is a critique: if the model is trained on arrest data (which reflects policing patterns), it will learn to predict who gets arrested, not who commits offenses. This is a problem, not a validation.",
+        "C": "The author argues exactly the opposite: surveillance and policing patterns directly shape arrest records. Communities that are more heavily policed produce more arrests for the same rate of underlying behavior. The passage uses this connection to explain why arrest-based models can perpetuate existing enforcement disparities.",
+        "D": "Correct. The author distinguishes arrest records from undetected offenses to illustrate a fundamental problem in algorithmic prediction: the measurable target (recorded arrests) is not the same as the true outcome of interest (actual criminal behavior). Arrests are shaped by policing decisions \u2014 where officers patrol, which communities are surveilled, which offenses are prioritized. A model trained on arrest data learns patterns of policing as much as patterns of crime. This makes 'arrest records' an imperfect proxy that embeds institutional biases into the model's predictions, systematically disadvantaging communities that are more heavily policed."
+      },
+      "topic": "Proxy Measures / Recorded Arrests",
+      "difficulty": "Hard",
+      "passageRef": "cars_within_006"
+    },
+    {
+      "id": "cars_within_009",
+      "passage": null,
+      "stem": "The author's treatment of human judgment and algorithms implies that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "comparison should examine the limitations of both rather than presume either is neutral"
+        },
+        {
+          "label": "B",
+          "text": "human judgment is unbiased when transparent"
+        },
+        {
+          "label": "C",
+          "text": "models are morally responsible for institutional choices"
+        },
+        {
+          "label": "D",
+          "text": "only numerical decisions can be revised"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage implies that the relevant comparison is not 'algorithm vs. perfection' but 'algorithm vs. the human decision-making it replaces.' The author notes that human judgment also contains biases, inconsistencies, and blind spots. By suggesting that both algorithms and human judgment have limitations, the author implies that evaluation should be comparative: does the algorithm produce better outcomes than the human process it replaces, given the specific context? This reframes the debate from 'are algorithms biased?' (they are) to 'are they less biased than the alternative?' \u2014 a more productive question that avoids both the oracle fantasy and the pure-prejudice dismissal.",
+        "B": "The passage explicitly treats human judgment as neither transparent nor unbiased. The author argues that human decision-makers also have blind spots, inconsistencies, and embedded biases. Transparency does not automatically make human judgment unbiased \u2014 the relevant comparison is between two imperfect systems, not between a flawed algorithm and a perfected human process.",
+        "C": "The passage assigns moral responsibility to institutions and the people within them \u2014 not to the models themselves. Algorithms are tools; they do not bear moral responsibility. The humans who select targets, choose data, deploy predictions, and decide responses are the morally accountable agents.",
+        "D": "The passage argues for revisability as a general principle \u2014 the ability to scrutinize and revise targets, data choices, and institutional responses. This applies to qualitative human judgments as much as to numerical model outputs. Revisability is not limited to one type of decision."
+      },
+      "topic": "Inference / Comparative Evaluation",
+      "difficulty": "Medium",
+      "passageRef": "cars_within_006"
+    },
+    {
+      "id": "cars_within_010",
+      "passage": null,
+      "stem": "The final sentence shifts the debate from whether models contain values to whether those values:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "can be eliminated through larger datasets"
+        },
+        {
+          "label": "B",
+          "text": "were selected by programmers alone"
+        },
+        {
+          "label": "C",
+          "text": "make prediction perfectly accurate"
+        },
+        {
+          "label": "D",
+          "text": "and their consequences are open to scrutiny and revision"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The final sentence does not argue that values can be eliminated from models. The passage's earlier argument established that models inevitably embed values through target selection and data choice. The shift is about what to do given this inevitability, not about whether it can be avoided.",
+        "B": "The passage emphasizes that values are embedded through institutional processes \u2014 target selection, data curation, deployment decisions \u2014 not by programmers alone. Administrators, policymakers, and organizational leaders all contribute to the value choices embedded in algorithmic systems. Narrowing responsibility to programmers misses the institutional scope the author describes.",
+        "C": "The final sentence does not claim that embedded values make predictions perfectly accurate. Values shape what the model optimizes for, which determines what counts as success \u2014 but values and accuracy are separate concerns. A model can be highly accurate at predicting the wrong target, which is the author's point about institutional responsibility for target selection.",
+        "D": "Correct. The final sentence pivots the debate from a descriptive question (do models contain values? \u2014 yes, inevitably) to a normative-procedural one: given that models contain values, are those values and their consequences open to scrutiny and revision? This is a crucial shift because it moves from paralysis ('algorithms are biased, therefore unusable') to governance ('algorithms embed choices, therefore those choices should be transparent, contestable, and revisable'). The emphasis on revisability \u2014 the ability to change targets, update data, and modify responses as consequences become clear \u2014 is the passage's practical conclusion."
+      },
+      "topic": "Conclusion / Revisability",
+      "difficulty": "Medium",
+      "passageRef": "cars_within_006"
+    }
+  ]
+}

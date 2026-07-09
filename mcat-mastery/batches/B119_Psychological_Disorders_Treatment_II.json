@@ -1,0 +1,351 @@
+{
+  "batch": "B119",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Psychological Disorders & Treatment II",
+  "questionCount": 10,
+  "answerDistribution": {
+    "B": 3,
+    "A": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_treat2_001",
+      "passage": "A 24-year-old seeks treatment for six weeks of depressed mood, anhedonia, guilt, impaired concentration, and early-morning awakening. She reports a prior ten-day period during which she slept about three hours nightly without fatigue, spoke rapidly, felt unusually powerful, spent far beyond her means, and attempted several risky business ventures. The episode caused severe occupational disruption and required hospitalization. She denies substance use, and thyroid testing is normal. Collateral history from a family member confirms the distinct period of mood elevation and behavioral change.\n\nThe psychiatrist diagnoses a bipolar-spectrum disorder and discusses lithium plus psychotherapy rather than antidepressant monotherapy. Baseline renal and thyroid tests are obtained, and serum lithium monitoring is planned. During cognitive behavioral therapy (CBT), the patient learns to identify distorted depressive beliefs, establish regular sleep and activity patterns, recognize early warning signs of mood elevation, and develop a relapse plan with family support. The psychiatrist emphasizes that psychotherapy complements rather than replaces pharmacologic mood stabilization in this case.",
+      "stem": "Which diagnosis is best supported by the patient's history?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Major depressive disorder only"
+        },
+        {
+          "label": "B",
+          "text": "Bipolar I disorder"
+        },
+        {
+          "label": "C",
+          "text": "Cyclothymic disorder"
+        },
+        {
+          "label": "D",
+          "text": "Persistent depressive disorder"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Major depression explains the current symptoms but cannot account for a prior syndromic manic episode. Once mania has occurred outside a substance or medical cause, unipolar major depressive disorder is no longer the best diagnosis. Bipolar I requires at least one manic episode; a major depressive episode is common but not required.",
+        "B": "Correct. The prior episode included decreased need for sleep, pressured speech, grandiosity, risky behavior, marked impairment, and hospitalization for longer than one week—features of mania. One manic episode establishes bipolar I disorder, regardless of whether major depression also occurs. Bipolar I requires at least one manic episode; a major depressive episode is common but not required. Mania is distinguished by marked impairment, hospitalization, or psychosis rather than symptom count alone.",
+        "C": "Cyclothymic disorder involves chronic fluctuating hypomanic and depressive symptoms that do not meet full episode criteria. Hospital-level mania and a full major depressive episode exceed that threshold. Bipolar I requires at least one manic episode; a major depressive episode is common but not required.",
+        "D": "Persistent depressive disorder describes long-standing depressive symptoms, generally for at least two years in adults, and does not explain the distinct severe manic episode. Bipolar I requires at least one manic episode; a major depressive episode is common but not required."
+      },
+      "topic": "Bipolar I Disorder / Mania",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_treat2_002",
+      "passage": null,
+      "stem": "Which feature most clearly distinguishes the prior episode's sleep change from insomnia?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Feeling rested despite only three hours of sleep"
+        },
+        {
+          "label": "B",
+          "text": "Waking earlier than desired"
+        },
+        {
+          "label": "C",
+          "text": "Sleeping during daytime"
+        },
+        {
+          "label": "D",
+          "text": "Having vivid dreams"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Mania involves a decreased need for sleep: the person sleeps little yet feels energetic and does not experience ordinary fatigue. In insomnia, the person generally wants more sleep, struggles to obtain it, and experiences distress or daytime impairment from sleep loss. Decreased need for sleep means feeling rested despite little sleep, unlike insomnia in which the person wants sleep but cannot obtain it and usually experiences fatigue.",
+        "B": "Early awakening is a form of insomnia and can occur during depression. By itself it does not distinguish manic reduced sleep need from inability to sleep. Decreased need for sleep means feeling rested despite little sleep, unlike insomnia in which the person wants sleep but cannot obtain it and usually experiences fatigue.",
+        "C": "Daytime sleep could indicate compensation for insufficient nighttime sleep and would weaken the claim of decreased sleep need. It is not described. Decreased need for sleep means feeling rested despite little sleep, unlike insomnia in which the person wants sleep but cannot obtain it and usually experiences fatigue.",
+        "D": "Dream vividness can vary across many states and is not a diagnostic distinction between mania and insomnia. Decreased need for sleep means feeling rested despite little sleep, unlike insomnia in which the person wants sleep but cannot obtain it and usually experiences fatigue."
+      },
+      "topic": "Mania / Decreased Need for Sleep",
+      "difficulty": "Medium",
+      "passageRef": "ps_treat2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_treat2_003",
+      "passage": null,
+      "stem": "Why is antidepressant monotherapy approached cautiously in this patient?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Antidepressants always cause schizophrenia"
+        },
+        {
+          "label": "B",
+          "text": "They permanently eliminate REM sleep"
+        },
+        {
+          "label": "C",
+          "text": "They can precipitate mania or rapid mood destabilization in susceptible bipolar patients"
+        },
+        {
+          "label": "D",
+          "text": "They prevent all psychotherapy"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Antidepressants do not invariably cause schizophrenia, which is a distinct psychotic disorder with different diagnostic criteria and risk factors. Antidepressant monotherapy can precipitate mania in susceptible bipolar patients.",
+        "B": "Some antidepressants alter sleep architecture, but permanent elimination of REM sleep is not the central bipolar-treatment concern. Antidepressant monotherapy can precipitate mania in susceptible bipolar patients.",
+        "C": "Correct. Treating bipolar depression with an antidepressant without mood stabilization can trigger mania, hypomania, or cycling in some patients. The prior manic episode therefore changes risk-benefit analysis compared with uncomplicated unipolar depression. Antidepressant monotherapy can precipitate mania in susceptible bipolar patients. Treatment planning therefore depends on correctly identifying prior mood elevation rather than focusing only on the current depression.",
+        "D": "Medication does not prevent psychotherapy. Combined treatment is common; the caution concerns mood switching, not incompatibility with CBT. Antidepressant monotherapy can precipitate mania in susceptible bipolar patients."
+      },
+      "topic": "Bipolar Treatment / Antidepressant Risk",
+      "difficulty": "Hard",
+      "passageRef": "ps_treat2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_treat2_004",
+      "passage": null,
+      "stem": "Why are renal tests and serum concentrations monitored during lithium therapy?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Lithium is a protein destroyed by the kidney"
+        },
+        {
+          "label": "B",
+          "text": "Lithium has a narrow therapeutic index and is cleared largely by the kidneys"
+        },
+        {
+          "label": "C",
+          "text": "Lithium works only when it causes renal failure"
+        },
+        {
+          "label": "D",
+          "text": "Serum levels measure psychotherapy adherence only"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Lithium is an elemental ion rather than a protein. It is filtered and handled by the kidney without enzymatic protein degradation. Lithium is a mood stabilizer with a narrow therapeutic index, requiring serum monitoring and attention to renal and thyroid function.",
+        "B": "Correct. Therapeutic and toxic lithium concentrations are relatively close, and renal function strongly affects clearance. Monitoring helps maintain efficacy while avoiding tremor, gastrointestinal symptoms, neurologic toxicity, and other dose-related harms; thyroid function is also followed because hypothyroidism can occur. Lithium is a mood stabilizer with a narrow therapeutic index, requiring serum monitoring and attention to renal and thyroid function. It differs mechanistically and clinically from acute sedative treatment.",
+        "C": "Renal failure is an adverse outcome, not the mechanism of therapeutic action. Safe prescribing aims to prevent kidney injury and accumulation. Lithium is a mood stabilizer with a narrow therapeutic index, requiring serum monitoring and attention to renal and thyroid function.",
+        "D": "Serum lithium directly measures drug exposure, not participation in psychotherapy. It can inform adherence but primarily guides pharmacologic safety and dosing. Lithium is a mood stabilizer with a narrow therapeutic index, requiring serum monitoring and attention to renal and thyroid function."
+      },
+      "topic": "Lithium / Therapeutic Monitoring",
+      "difficulty": "Medium",
+      "passageRef": "ps_treat2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_treat2_005",
+      "passage": null,
+      "stem": "What is the primary role of CBT in the treatment plan described?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To prove the manic episode never occurred"
+        },
+        {
+          "label": "B",
+          "text": "To replace all mood-stabilizing medication immediately"
+        },
+        {
+          "label": "C",
+          "text": "To induce hallucinations for exposure"
+        },
+        {
+          "label": "D",
+          "text": "To modify maladaptive beliefs and behaviors while improving relapse recognition and coping"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "CBT does not rewrite diagnostic history. It helps the patient evaluate current thoughts and behavior while accepting clinically relevant prior episodes. CBT addresses maladaptive beliefs and behaviors but does not redefine a manic episode as purely cognitive.",
+        "B": "The psychiatrist explicitly presents psychotherapy as complementary. Abruptly replacing indicated mood stabilization would not follow the passage and could increase relapse risk. CBT addresses maladaptive beliefs and behaviors but does not redefine a manic episode as purely cognitive.",
+        "C": "Hallucination induction is not a goal of CBT for bipolar disorder. The intervention targets cognition, routines, coping, and warning signs. CBT addresses maladaptive beliefs and behaviors but does not redefine a manic episode as purely cognitive.",
+        "D": "Correct. CBT addresses distorted depressive thinking, behavioral routines, adherence, and early symptom recognition. In bipolar disorder it can improve functioning and relapse prevention, but it does not by itself negate the biological and pharmacologic dimensions of severe mania. CBT addresses maladaptive beliefs and behaviors but does not redefine a manic episode as purely cognitive. Combined treatment can target symptoms, relapse prevention, adherence, and psychosocial functioning."
+      },
+      "topic": "CBT / Bipolar Disorder",
+      "difficulty": "Medium",
+      "passageRef": "ps_treat2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_treat2_006",
+      "passage": "A patient with schizophrenia reports voices commenting on his actions and a fixed belief that neighbors transmit messages through his television. He also shows flat affect, reduced speech, social withdrawal, and impaired working memory. A D₂-receptor antagonist substantially reduces hallucinations and delusions but has less effect on negative and cognitive symptoms. Toxicology screening is negative, and the symptoms have persisted well beyond the duration of any brief psychotic episode.\n\nSeveral weeks later, the patient develops rigidity, slowed movement, and elevated serum prolactin. The clinician explains that dopamine blockade in different neural pathways produces different outcomes: reduced mesolimbic signaling contributes to improvement in positive symptoms, blockade in the nigrostriatal pathway causes extrapyramidal effects, and blockade in the tuberoinfundibular pathway increases prolactin. The patient receives medication adjustment plus family psychoeducation, social-skills training, and supported employment. These interventions aim to improve functioning, adherence, coping, and early recognition of relapse while antipsychotic medication remains central to control of acute psychosis.",
+      "stem": "Which findings are positive symptoms of schizophrenia?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Flat affect and social withdrawal"
+        },
+        {
+          "label": "B",
+          "text": "Impaired working memory and reduced speech"
+        },
+        {
+          "label": "C",
+          "text": "Hallucinations and delusions"
+        },
+        {
+          "label": "D",
+          "text": "Rigidity and slowed movement"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Flat affect and social withdrawal are negative symptoms because they represent reductions in normal emotional expression and social engagement. Schizophrenia symptoms are grouped as positive additions to experience, negative losses of normal function, and cognitive deficits.",
+        "B": "Working-memory impairment is cognitive, while reduced speech or alogia is negative. Neither is a positive addition to ordinary experience. Schizophrenia symptoms are grouped as positive additions to experience, negative losses of normal function, and cognitive deficits.",
+        "C": "Correct. Hallucinations are perceptions without an external stimulus, and delusions are fixed false beliefs not explained by cultural context. Both add abnormal experiences or beliefs and are classified as positive symptoms. Schizophrenia symptoms are grouped as positive additions to experience, negative losses of normal function, and cognitive deficits. Treatment response often differs across these domains.",
+        "D": "Rigidity and bradykinesia emerged after D₂ blockade and are extrapyramidal adverse effects, not core positive symptoms. Schizophrenia symptoms are grouped as positive additions to experience, negative losses of normal function, and cognitive deficits."
+      },
+      "topic": "Schizophrenia / Positive Symptoms",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_treat2_007",
+      "passage": null,
+      "stem": "Why does D₂ blockade improve hallucinations more than flat affect in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Positive symptoms are associated with excess mesolimbic dopamine signaling, whereas negative symptoms involve different circuitry including mesocortical dysfunction"
+        },
+        {
+          "label": "B",
+          "text": "Flat affect is caused only by kidney disease"
+        },
+        {
+          "label": "C",
+          "text": "Hallucinations require low prolactin"
+        },
+        {
+          "label": "D",
+          "text": "D₂ receptors exist only in muscles"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The dopamine model links positive symptoms to excessive mesolimbic activity, making D₂ antagonism useful for hallucinations and delusions. Negative and cognitive symptoms are associated partly with mesocortical hypodopaminergia and broader network dysfunction, so they often respond less robustly. The mesolimbic dopamine hypothesis is most associated with positive symptoms, whereas reduced mesocortical dopamine signaling is linked to negative and cognitive symptoms.",
+        "B": "Kidney disease can affect cognition or medication clearance but does not explain the characteristic negative-symptom pattern described. The mesolimbic dopamine hypothesis is most associated with positive symptoms, whereas reduced mesocortical dopamine signaling is linked to negative and cognitive symptoms.",
+        "C": "Prolactin level is an adverse-effect marker of tuberoinfundibular blockade, not the cause of hallucinations. The mesolimbic dopamine hypothesis is most associated with positive symptoms, whereas reduced mesocortical dopamine signaling is linked to negative and cognitive symptoms.",
+        "D": "D₂ receptors are expressed throughout several brain pathways and in the pituitary system. Their neural distribution is central to both treatment and side effects. The mesolimbic dopamine hypothesis is most associated with positive symptoms, whereas reduced mesocortical dopamine signaling is linked to negative and cognitive symptoms."
+      },
+      "topic": "Dopamine Pathways / Symptom Domains",
+      "difficulty": "Hard",
+      "passageRef": "ps_treat2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_treat2_008",
+      "passage": null,
+      "stem": "The patient's rigidity and slowed movement most likely result from D₂ blockade in the:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Mesolimbic pathway"
+        },
+        {
+          "label": "B",
+          "text": "Tuberoinfundibular pathway"
+        },
+        {
+          "label": "C",
+          "text": "Nigrostriatal pathway"
+        },
+        {
+          "label": "D",
+          "text": "Reticulospinal tract only"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Mesolimbic blockade is associated with reduction of positive psychotic symptoms and is the intended therapeutic pathway in the simplified model. Nigrostriatal D₂ blockade disrupts motor control and can produce extrapyramidal symptoms.",
+        "B": "Tuberoinfundibular blockade raises prolactin by removing dopamine's inhibitory effect. It does not primarily produce parkinsonian motor findings. Nigrostriatal D₂ blockade disrupts motor control and can produce extrapyramidal symptoms.",
+        "C": "Correct. Nigrostriatal dopamine supports normal movement. D₂ antagonism there can produce extrapyramidal symptoms such as rigidity, bradykinesia, tremor, akathisia, and dystonia, resembling aspects of Parkinson disease. Nigrostriatal D₂ blockade disrupts motor control and can produce extrapyramidal symptoms. This adverse pathway is distinct from the mesolimbic target associated with therapeutic effects.",
+        "D": "The reticulospinal tract participates in posture and movement, but the medication's characteristic mechanism is dopamine blockade within basal-ganglia nigrostriatal circuitry. Nigrostriatal D₂ blockade disrupts motor control and can produce extrapyramidal symptoms."
+      },
+      "topic": "Antipsychotic Adverse Effects / EPS",
+      "difficulty": "Medium",
+      "passageRef": "ps_treat2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_treat2_009",
+      "passage": null,
+      "stem": "Why can D₂ antagonists elevate prolactin?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They stimulate thyroid hormone release"
+        },
+        {
+          "label": "B",
+          "text": "They block dopamine's normal inhibition of prolactin secretion in the tuberoinfundibular pathway"
+        },
+        {
+          "label": "C",
+          "text": "They convert prolactin into dopamine"
+        },
+        {
+          "label": "D",
+          "text": "They increase renal filtration of prolactin"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Thyroid regulation is not the direct mechanism described. Although endocrine systems interact, D₂ blockade acts at pituitary lactotroph regulation. Tuberoinfundibular dopamine normally inhibits prolactin release.",
+        "B": "Correct. Dopamine released from hypothalamic neurons tonically inhibits prolactin secretion. Blocking pituitary D₂ receptors removes that brake, allowing prolactin to rise and potentially causing galactorrhea, menstrual disruption, sexual dysfunction, or bone effects. Tuberoinfundibular dopamine normally inhibits prolactin release. D₂ blockade removes that inhibition, explaining hyperprolactinemia without invoking worsening psychosis.",
+        "C": "Prolactin and dopamine are distinct molecules and are not enzymatically interconverted. Their relationship is regulatory. Tuberoinfundibular dopamine normally inhibits prolactin release.",
+        "D": "The rise reflects increased secretion, not enhanced renal filtration. Greater clearance would tend to lower rather than elevate serum concentration. Tuberoinfundibular dopamine normally inhibits prolactin release."
+      },
+      "topic": "Tuberoinfundibular Pathway / Prolactin",
+      "difficulty": "Medium",
+      "passageRef": "ps_treat2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_treat2_010",
+      "passage": null,
+      "stem": "What is the best rationale for adding family psychoeducation and supported employment?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They directly block D₂ receptors"
+        },
+        {
+          "label": "B",
+          "text": "They prove schizophrenia is caused only by family conflict"
+        },
+        {
+          "label": "C",
+          "text": "They eliminate the need for medication during acute psychosis"
+        },
+        {
+          "label": "D",
+          "text": "They improve functioning, support adherence, and help identify relapse without replacing antipsychotic treatment"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "D₂ receptor blockade is pharmacologic. Psychosocial interventions change knowledge, skills, environment, and support rather than directly occupying receptors. Psychosocial interventions complement medication by improving coping, functioning, family communication, and relapse recognition.",
+        "B": "Outdated family-blaming theories are not supported. Family interventions aim to reduce stress and improve communication, not assign causation. Psychosocial interventions complement medication by improving coping, functioning, family communication, and relapse recognition.",
+        "C": "Severe acute psychosis commonly requires antipsychotic treatment and safety assessment. Psychosocial services complement rather than automatically replace medication. Psychosocial interventions complement medication by improving coping, functioning, family communication, and relapse recognition.",
+        "D": "Correct. Medication targets psychosis, while family education, skills training, and vocational support address adherence, expressed emotion, coping, social disability, and early relapse detection. Multimodal treatment therefore addresses outcomes that symptom reduction alone may not restore. Psychosocial interventions complement medication by improving coping, functioning, family communication, and relapse recognition. They do not substitute for emergency management of severe psychosis."
+      },
+      "topic": "Schizophrenia / Psychosocial Treatment",
+      "difficulty": "Medium",
+      "passageRef": "ps_treat2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

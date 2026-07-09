@@ -1,0 +1,345 @@
+{
+  "batch": "B198",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Cultural Memory & Public Monuments",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_cultural_memory_public_monuments_198_q0",
+      "passage": "Most cities contain public monuments whose origins are more accidental than deliberate. A statue may have been commissioned by a private donor whose name has been forgotten, erected during a political moment whose urgency has faded, or inherited from an annexed municipality whose residents never asked for it. Over time, these objects acquire the look of permanence, and permanence is easily confused with legitimacy. Yet the question of whether a statue deserves its place is not answered by the fact that it has occupied that place for a long time.\n\nCities often pretend that monuments are inert stone, but public statues are closer to civic verbs than civic nouns. They do not simply exist in a park or plaza; they instruct passersby where to place admiration, what to consider settled, and which conflicts may be safely converted into scenery. A bronze general on horseback does not merely record that a war took place; it proposes that a particular commander merits ongoing public gratitude. A memorial fountain dedicated to an industrialist does not neutrally preserve local history; it endorses the values that industrialist represented, or at least implies that those values were worth honoring with civic resources. This performative quality means that every monument, however old, continues to make a claim on the community's moral attention.\n\nDefenders of old monuments sometimes say that removal erases history, yet the argument mistakes commemoration for knowledge. The distinction matters. Archives, classrooms, and museums can preserve historical complexity with the care it requires: footnotes, competing narratives, primary sources placed in tension with one another. A pedestal performs endorsement. It elevates a single interpretation and presents it as settled truth, usually without annotation or debate. When a statue stands in a public square, it speaks with the voice of the community whether the community has chosen those words or not.\n\nStill, critics of removal raise a point that deserves careful consideration. Tearing down every inherited symbol may produce its own shallow triumphalism if a community mistakes absence for understanding. The empty pedestal can become a kind of shorthand that says we dealt with that, when in fact nothing has been dealt with—only hidden. Removal without sustained public conversation risks converting a difficult history into a blank space that feels resolved simply because the offending object is no longer visible. The danger is not that the community confronted its past but that it confused the gesture of confrontation with the substance of reckoning.\n\nThe harder task, then, is to decide which objects deserve continued honor, which deserve relocation to institutions capable of providing context, and which require what might be called interpretive friction in the place where they stand—surrounding plaques, companion installations, or redesigned landscapes that invite passersby to think rather than merely admire. Such friction resists both the complacency of preservation and the false closure of demolition. It asks the community to remain uncomfortable with its own history, which is arguably the condition most likely to produce genuine understanding.\n\nNone of this means that every monument must stay. Some symbols are so closely identified with moral catastrophe that their continued presence in honorific space inflicts real harm on members of the community. In such cases, relocation is not erasure but a recognition that public endorsement has limits. The critical question is always whether the community has engaged in reasoned deliberation or simply acted on impulse—whether removal, retention, or reinterpretation reflects collective judgment rather than collective avoidance.",
+      "usePrevPassage": false,
+      "stem": "What is the passage's central claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Cities should avoid discussing inherited symbols."
+        },
+        {
+          "label": "B",
+          "text": "All monuments should immediately be destroyed."
+        },
+        {
+          "label": "C",
+          "text": "Historical knowledge is impossible outside museums."
+        },
+        {
+          "label": "D",
+          "text": "Public monuments actively express civic values and should be subject to reasoned public judgment."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage advocates active public deliberation about inherited symbols, not avoidance of discussion. The author's central concern is that communities should reason together about which values their monuments express, which requires engagement rather than silence.",
+        "B": "The author explicitly distinguishes between removing a monument from a pedestal and destroying historical evidence. The passage supports contextual interpretation and archival preservation, not immediate destruction. Equating removal with destruction misreads the author's careful distinction between public honor and historical record.",
+        "C": "The passage acknowledges museums and archives as valid homes for removed objects, treating them as spaces where historical preservation can continue without public endorsement. The claim does not restrict historical knowledge to museums or suggest knowledge is impossible outside them.",
+        "D": "Correct. The passage argues that monuments are not passive relics but active civic statements: they honor, celebrate, or endorse the figures and values they depict. Because they express values on behalf of the community, they should be subject to ongoing reasoned public judgment rather than left in place by default. This central claim organizes the passage's discussion of pedestals versus archives, contextual interpretation, and the historian's periodic review proposal."
+      },
+      "topic": "Main idea",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_cultural_memory_public_monuments_198_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why does the author distinguish a pedestal from an archive?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To argue that archives are always politically neutral."
+        },
+        {
+          "label": "B",
+          "text": "To separate public endorsement from historical preservation."
+        },
+        {
+          "label": "C",
+          "text": "To claim statues contain more information than documents."
+        },
+        {
+          "label": "D",
+          "text": "To deny that museums can shape interpretation."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage does not claim archives are politically neutral. It argues that archives serve a different function from pedestals — preserving evidence rather than conferring public honor — without suggesting archives are free of interpretive influence.",
+        "B": "Correct. The pedestal confers public endorsement by elevating a figure in shared civic space, while an archive preserves historical evidence without the same endorsing function. By drawing this distinction, the author argues that removing a monument from a pedestal does not erase history; it relocates the object from a position of civic honor to one of historical documentation. This separation is central to the passage's argument that communities can reevaluate their symbols without losing the historical record.",
+        "C": "The passage does not compare the informational content of statues and documents. The pedestal-archive distinction concerns the social function each space performs — endorsement versus preservation — not the quantity of information each format contains.",
+        "D": "The author acknowledges that museums can shape interpretation through curatorial choices, but the primary purpose of the pedestal-archive distinction is to separate the act of public endorsement from the act of preserving historical material, not to deny museums any interpretive role."
+      },
+      "topic": "Rhetoric",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_cultural_memory_public_monuments_198_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The phrase 'civic verbs' mainly suggests that monuments:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Do something in public life rather than merely occupy space."
+        },
+        {
+          "label": "B",
+          "text": "Should be replaced with written plaques only."
+        },
+        {
+          "label": "C",
+          "text": "Are grammatically necessary for city charters."
+        },
+        {
+          "label": "D",
+          "text": "Have no relationship to collective values."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. By describing monuments as performing civic verbs, the author suggests they actively function in public life: they honor, celebrate, mourn, or instruct. This language reframes monuments as agents that do something meaningful in the public sphere rather than inert objects that merely occupy physical space. The metaphor supports the passage's broader claim that monuments deserve scrutiny because they actively shape civic identity and collective values.",
+        "B": "The passage does not advocate replacing all monuments with written plaques. Contextual interpretation through plaques is mentioned as one possible approach, but it is presented alongside other options such as relocation, not as a universal replacement strategy.",
+        "C": "The phrase civic verbs is a metaphorical expression comparing a monument's public function to an action performed in language. It does not literally claim that monuments are grammatically necessary components of city charter documents or legal texts.",
+        "D": "The entire point of calling monuments civic verbs is to emphasize their relationship to collective values. If monuments had no connection to values, there would be no reason to describe them as performing civic actions, and the passage's argument for public deliberation would have no foundation."
+      },
+      "topic": "Figurative language",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_cultural_memory_public_monuments_198_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which policy would the author most likely support?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Keeping every monument untouched because continuity is the highest value."
+        },
+        {
+          "label": "B",
+          "text": "Removing all monuments created before the current generation."
+        },
+        {
+          "label": "C",
+          "text": "Keeping a controversial monument in place with substantial interpretation explaining the conflict around it."
+        },
+        {
+          "label": "D",
+          "text": "Banning museums from displaying removed statues."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage explicitly argues against leaving all monuments untouched by default. The author insists that inherited symbols should be subject to ongoing public reasoning, and treating continuity as the highest value would conflict with the passage's call for active deliberation about civic meaning.",
+        "B": "Removing all monuments created before the current generation would be the kind of wholesale iconoclasm the author warns against. The passage cautions that removal without understanding risks substituting the feeling of progress for genuine historical engagement, a concept the author calls absence for understanding.",
+        "C": "Correct. The passage supports contextual interpretation as a middle path between uncritical preservation and hasty removal. Keeping a controversial monument in place while adding substantial explanatory context allows the community to acknowledge the history without conferring uncritical endorsement. This approach aligns with the author's emphasis on reasoned public judgment, the pedestal-versus-archive distinction, and the concern that removal alone does not constitute understanding.",
+        "D": "The author explicitly describes museums as appropriate places for removed monuments to be preserved and studied. Banning museums from displaying removed statues would contradict the passage's distinction between the pedestal and the archive and would eliminate the very preservation function the author values."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_cultural_memory_public_monuments_198_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What does the author mean by 'absence for understanding'?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Empty plazas automatically improve civic reasoning."
+        },
+        {
+          "label": "B",
+          "text": "Removing a symbol can be mistaken for having seriously understood the history behind it."
+        },
+        {
+          "label": "C",
+          "text": "A city without monuments has no history."
+        },
+        {
+          "label": "D",
+          "text": "Understanding requires citizens to forget public conflict."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage does not claim that empty plazas automatically produce civic reasoning. The author's concern is the opposite: that the emptiness left by removal may give the false impression that the underlying history has been addressed, when it has only been hidden from view.",
+        "B": "Correct. The phrase absence for understanding captures the author's warning that removing a monument can create an illusion of having engaged with the history it represents. The physical disappearance of the symbol may feel like resolution, but genuine understanding requires examining the values the monument expressed, the context in which it was erected, and the community's relationship to that history. Without that intellectual work, removal substitutes a visible change for a substantive one.",
+        "C": "The passage does not equate having monuments with having history. The author argues that history is preserved through archives, museums, and interpretation, not solely through the physical presence of statues in public space. A city without monuments is not a city without history.",
+        "D": "The passage encourages citizens to remember and engage with public conflict over symbols rather than forget it. Forgetting is the opposite of the active deliberation the author promotes, and understanding specifically requires confronting rather than avoiding difficult historical questions."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_cultural_memory_public_monuments_198_q5",
+      "passage": "A historian studying the city's commemorative landscape proposes a structured process: annually, each public monument would undergo a formal review in which citizens and officials are required to articulate, on the public record, the reasons for its continued display. The proposal does not demand removal; it demands justification. A statue that a community can defend with reasons it is willing to state publicly would remain. One that survives only through inertia—because no one has thought to question it, because challenging it would be inconvenient, because the paperwork of removal exceeds the discomfort of retention—would at least be exposed as a choice rather than a necessity.\n\nCritics object that such review would make memory unstable, as if civic identity depended on never revisiting inherited choices. The objection rests on an assumption worth examining: that monuments derive their authority from duration rather than from the quality of the reasons behind them. Under this view, the longer a statue has stood, the stronger its claim to remain, regardless of whether the community that now lives around it would erect it today. Stability, in this reading, is a function of persistence, and any procedure that introduces the possibility of change threatens the continuity on which collective identity supposedly depends.\n\nThe historian finds this reasoning unpersuasive. Stability built on silence, the historian argues, is brittle. A community that cannot explain why a particular figure occupies a particular pedestal has not achieved consensus; it has merely avoided the conversation. The avoidance may look like agreement from a distance, but it fractures the moment someone asks the question that was never supposed to be asked. A city mature enough to govern itself should be mature enough to explain itself, including its embarrassments—especially its embarrassments, since those are the episodes most likely to have been smoothed over by institutional habit.\n\nThe proposal also addresses a practical concern raised by the first passage's discussion of interpretive friction. If a monument is to remain with contextual plaques or companion installations, someone must decide what those additions should say, and that decision requires the kind of structured public reasoning the historian envisions. Without a formal process, contextual interpretation risks becoming its own form of avoidance: a plaque added quietly by a committee, never read, gradually weathering into another piece of inherited scenery. The historian's schedule would ensure that interpretation is periodically renewed rather than installed and forgotten.\n\nThe point, the historian emphasizes, is not to make public space mirror each year's fashion, reacting to every shift in public sentiment with a corresponding rearrangement of bronze and marble. Monuments are not seasonal merchandise. The point is to require reasons where habit has been allowed to masquerade as consensus—to distinguish between symbols that a community actively endorses and symbols that persist simply because no one has found it worth the trouble to object. The difference between an endorsed symbol and an unexamined one is the difference between a living civic commitment and an inherited reflex. Both may look the same from the sidewalk, but only one reflects the deliberate moral judgment of the community that maintains it.\n\nWhat emerges from the historian's proposal is neither iconoclasm nor blind preservation but something more demanding than either. The historian does not call for the destruction of inherited symbols; destruction forfeits the evidentiary value of the object itself. Nor does the historian call for uncritical retention, which forfeits the community's right to speak for itself rather than being spoken for by predecessors it may no longer resemble. The proposal asks the community to hold both commitments simultaneously: to preserve the evidence of the past while subjecting the honors conferred by that evidence to periodic, reasoned scrutiny.",
+      "usePrevPassage": false,
+      "stem": "In the second passage, the historian's proposal is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A demand that memory follow annual fashion."
+        },
+        {
+          "label": "B",
+          "text": "A plan to privatize all public art."
+        },
+        {
+          "label": "C",
+          "text": "A rejection of civic identity as a meaningful idea."
+        },
+        {
+          "label": "D",
+          "text": "A process for periodically requiring public reasons for civic symbols."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The historian's proposal calls for deliberate, structured review at fixed intervals, not for following annual fashion trends. The schedule provides regularity and accountability, not trend-chasing responsiveness to shifting cultural tastes.",
+        "B": "The proposal concerns how public communities evaluate their civic symbols through democratic reasoning, not a plan to transfer public art to private ownership. Privatization would remove symbols from the public sphere entirely, which contradicts the civic engagement the historian advocates.",
+        "C": "The historian's proposal assumes civic identity is meaningful enough to warrant periodic public deliberation about which symbols represent it. Far from rejecting civic identity, the proposal treats it as something worth actively maintaining through reasoned community participation.",
+        "D": "Correct. The historian proposes a schedule requiring communities to publicly articulate reasons for continuing to display their civic symbols. This periodic justification process treats monuments not as permanent fixtures but as ongoing civic commitments that deserve renewed deliberation. The proposal operationalizes the passage's central claim that public monuments should be subject to reasoned judgment rather than inherited by default."
+      },
+      "topic": "Author's view",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_cultural_memory_public_monuments_198_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What assumption underlies the critics' objection to annual review?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Stable civic memory requires leaving inherited symbols largely undisturbed."
+        },
+        {
+          "label": "B",
+          "text": "Citizens are incapable of recognizing statues."
+        },
+        {
+          "label": "C",
+          "text": "Museums cannot preserve removed objects."
+        },
+        {
+          "label": "D",
+          "text": "All inherited choices were made democratically."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The critics object to annual review because they believe that stability, continuity, and accumulated tradition are essential to civic memory. Frequent reevaluation, in their view, would undermine the sense of permanence that gives public symbols their authority and meaning. This assumption treats inherited monuments as anchors of collective identity whose value comes partly from their long presence, and it conflicts with the author's position that inherited choices are not self-justifying.",
+        "B": "The critics' objection concerns the wisdom of frequent reevaluation, not citizens' perceptual ability to identify statues. Physical recognition of monuments is not the issue; the debate is about whether their continued presence should require periodic justification.",
+        "C": "The passage explicitly states that removed objects can be relocated to museums for preservation. The critics' concern is about disrupting continuity in public space, not about whether removed objects can physically survive relocation.",
+        "D": "The passage does not claim that critics assume all past decisions were democratic. Many inherited monuments were erected by authorities with limited public input. The critics' argument is about preserving accumulated tradition, not about the democratic legitimacy of original placement decisions."
+      },
+      "topic": "Reasoning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_cultural_memory_public_monuments_198_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which statement would most challenge the author's argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that archives preserve documents about removed monuments."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that contextual plaques consistently make viewers less informed and more admiring of the original honor."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that old monuments can be relocated to museums."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that some citizens disagree about public symbols."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Evidence that archives preserve documents about removed monuments would support the author's distinction between pedestals and archives. It would confirm that removal does not destroy historical evidence, which strengthens the author's position rather than challenging it.",
+        "B": "Correct. The author advocates contextual interpretation as a responsible way to maintain a controversial monument while ensuring viewers understand its historical context. If evidence showed that adding contextual plaques consistently made viewers less informed and more uncritically admiring of the honored figure, this key strategy would be counterproductive. The author's argument depends on the premise that interpretation can shape public understanding positively, and evidence to the contrary would directly undermine that premise.",
+        "C": "Evidence that old monuments can be relocated to museums supports the author's claim that removal does not equal destruction of historical material. This would strengthen the passage's framework rather than challenge the argument about contextual interpretation.",
+        "D": "The author acknowledges that public disagreement about symbols is normal and even desirable as part of democratic deliberation. Evidence of citizen disagreement would illustrate the ongoing relevance of the author's argument rather than challenge it."
+      },
+      "topic": "Evaluation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_cultural_memory_public_monuments_198_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's tone toward inherited monuments is best characterized as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Indifferent and technical."
+        },
+        {
+          "label": "B",
+          "text": "Reverent and unquestioning."
+        },
+        {
+          "label": "C",
+          "text": "Critical but not iconoclastic."
+        },
+        {
+          "label": "D",
+          "text": "Hostile to all historical study."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage engages deeply with questions of value, identity, and civic responsibility regarding monuments. The author's consistent advocacy for public deliberation and interpretive engagement demonstrates substantial intellectual investment in the topic, ruling out indifference.",
+        "B": "The author explicitly argues that monuments should not be accepted without question and that inherited placement decisions do not automatically deserve continued respect. This position is fundamentally questioning, not reverent or unquestioning toward inherited symbols.",
+        "C": "Correct. The author examines inherited monuments with a critical eye, questioning whether they deserve continued public endorsement and advocating for deliberative evaluation. However, the author also warns against hasty removal and values contextual preservation, distinguishing the position from iconoclasm, which seeks outright destruction of symbols. This balance between scrutiny and preservation defines the passage's tone as engaged and evaluative without being destructive.",
+        "D": "The passage relies extensively on historical knowledge and argues for preserving historical evidence through archives and museums. Hostility to all historical study would contradict the author's emphasis on understanding context and would be inconsistent with the passage's content."
+      },
+      "topic": "Tone",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_cultural_memory_public_monuments_198_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which broader principle best matches the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Public memory should combine preservation of evidence with scrutiny of honor."
+        },
+        {
+          "label": "B",
+          "text": "A community should preserve honor exactly as ancestors assigned it."
+        },
+        {
+          "label": "C",
+          "text": "Historical evidence and civic values are unrelated."
+        },
+        {
+          "label": "D",
+          "text": "Democratic debate is valuable only when it produces unanimity."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage argues that communities should preserve historical evidence through archives and museums while actively scrutinizing whether the honors conferred by public monuments continue to reflect their values. This dual commitment — maintaining the record and questioning the endorsement — captures the passage's core recommendation. It rejects both uncritical preservation that treats all inherited symbols as sacred and wholesale removal that treats elimination as equivalent to understanding.",
+        "B": "The passage argues against preserving honor exactly as ancestors assigned it. The author insists that each generation has the right and responsibility to evaluate whether inherited honors still reflect its civic values, making uncritical perpetuation of past assignments inconsistent with the passage's position.",
+        "C": "The entire passage builds on the connection between historical evidence and civic values, arguing that understanding history is essential for making informed decisions about which values public monuments should express. Claiming these are unrelated contradicts the passage's foundational premise.",
+        "D": "The passage values democratic debate as an ongoing process of civic engagement, not as a means to produce unanimity. The author accepts that disagreement about symbols is natural and that deliberation may lead to different conclusions across communities, without requiring consensus."
+      },
+      "topic": "Synthesis",
+      "difficulty": "Medium"
+    }
+  ]
+}

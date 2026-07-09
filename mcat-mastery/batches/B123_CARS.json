@@ -1,0 +1,344 @@
+{
+  "batch": "B123",
+  "section": "cars",
+  "topicArea": "Main Idea / Inclusive Design",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "cars_design_001",
+      "stem": "Which statement best expresses the author's thesis?",
+      "choices": [
+        {
+          "text": "Accessibility is a central public function of architecture, not merely a technical feature added after design",
+          "label": "A"
+        },
+        {
+          "text": "Artistic freedom should always override access",
+          "label": "B"
+        },
+        {
+          "text": "Building codes fully determine dignity",
+          "label": "C"
+        },
+        {
+          "text": "Specialized accommodations should be prohibited",
+          "label": "D"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author argues that routes and entrances distribute independence and civic membership. Compliance matters, but genuinely public design begins with integrated access and evaluates how different users experience primary spaces. The design passage argues that accessibility is constitutive of public function rather than a late technical add-on. Built form distributes independence, visibility, delay, and dependence among users. This thesis unifies the route, entrance, and waiting examples: architecture communicates membership through ordinary movement patterns before any explicit message is spoken.",
+        "B": "The passage acknowledges aesthetic tradeoffs but rejects the idea that exclusion is neutral or that artistic priority automatically wins. The design passage argues that accessibility is constitutive of public function rather than a late technical add-on. Built form distributes independence, visibility, delay, and dependence among users.",
+        "C": "Code compliance can coexist with a stigmatizing back entrance. Dignity requires analysis beyond dimensional rules. The design passage argues that accessibility is constitutive of public function rather than a late technical add-on. Built form distributes independence, visibility, delay, and dependence among users.",
+        "D": "The author explicitly recognizes that specialized accommodations sometimes remain necessary. Universal design reduces unnecessary separation rather than banning tailored support. The design passage argues that accessibility is constitutive of public function rather than a late technical add-on. Built form distributes independence, visibility, delay, and dependence among users."
+      },
+      "topic": "Main Idea / Inclusive Design",
+      "difficulty": "Hard",
+      "usePrevPassage": false,
+      "passage": "Public buildings often treat accessibility as a technical requirement added after the central design is complete — an afterthought appended to satisfy regulations rather than a principle that shapes the building from the start. A ramp appears beside the stairs, a lift is hidden near a service corridor, or an accessible entrance is placed around the back of the building where deliveries arrive. Each of these solutions may satisfy a dimensional rule while simultaneously communicating that some users enter the public realm by exception rather than by right.\n\nArchitecture does not merely contain civic activity; it scripts the experience of arrival, waiting, movement, and encounter. A grand staircase facing the public square can symbolize shared entrance and democratic welcome, but only for citizens whose bodies fit the staircase's assumptions. For citizens who must search for another route — around the corner, through a side door, past the loading dock — the symbolism communicates a different message entirely. The inequality is practical: extra distance, additional delay, dependence on staff to unlock doors or operate lifts. But it is also symbolic, because the building announces, through its primary facade, whose body was imagined when its public face was composed and whose was not.\n\nUniversal design responds to this problem by seeking environments usable by the widest range of people without unnecessary separation or specialized treatment. This does not mean that one arrangement can meet every need simultaneously; that would be neither possible nor honest. Tactile guidance on the floor may assist a user with low vision while visual contrast on signage assists another. Some specialized accommodations remain indispensable and should be provided without apology. The principle of universal design is not sameness at any cost but integration as a starting assumption — the default expectation that all users will move through the same primary spaces by the same primary routes.\n\nCritics sometimes object that accessibility requirements constrain artistic freedom or consume scarce renovation funds that might be directed elsewhere. These tradeoffs are real, and dismissing them does not strengthen the case for inclusion. But acknowledging them does not make exclusion neutral either. Budgets and aesthetic priorities always distribute convenience and burden; the question is whose inconvenience appears inevitable — a natural feature of the building's character — and whose is treated as a design problem worthy of creative attention and public investment.\n\nA genuinely public building should therefore be evaluated not only by whether every dimensional code box has been checked, but by how independently and visibly different people can use its primary spaces. Dignity, the author argues, is not decorative symbolism laid on top of function. It is one of the functions that architecture performs — or fails to perform — every time a citizen approaches the front door."
+    },
+    {
+      "id": "cars_design_002",
+      "stem": "The hidden side entrance example primarily illustrates that:",
+      "choices": [
+        {
+          "text": "All ramps are unsafe",
+          "label": "A"
+        },
+        {
+          "text": "Stairs have no symbolic meaning",
+          "label": "B"
+        },
+        {
+          "text": "Renovations are always impossible",
+          "label": "C"
+        },
+        {
+          "text": "Technical access can exist while spatial organization still communicates unequal membership",
+          "label": "D"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage does not condemn ramps as inherently unsafe; it criticizes routes that segregate or burden users. The side-entrance example makes spatial hierarchy concrete. Equal destination does not create equal civic experience when one route marks certain users as exceptional or dependent.",
+        "B": "The grand stair is explicitly described as symbolic of shared entrance for some bodies, so symbolism is central. The side-entrance example makes spatial hierarchy concrete. Equal destination does not create equal civic experience when one route marks certain users as exceptional or dependent.",
+        "C": "Renovation constraints are acknowledged but not treated as impossibility. Design choices remain open to evaluation. The side-entrance example makes spatial hierarchy concrete. Equal destination does not create equal civic experience when one route marks certain users as exceptional or dependent.",
+        "D": "Correct. A separate route may meet code while adding distance, dependence, and invisibility. The example shows why equivalent destination is not necessarily equivalent civic experience. The side-entrance example makes spatial hierarchy concrete. Equal destination does not create equal civic experience when one route marks certain users as exceptional or dependent. The example therefore shifts analysis from whether access technically exists to how the building assigns status, effort, and public visibility through different routes."
+      },
+      "topic": "Function of Example / Spatial Hierarchy",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_design_003",
+      "stem": "Which claim is most consistent with the author's account of universal design?",
+      "choices": [
+        {
+          "text": "One design can satisfy every possible need",
+          "label": "A"
+        },
+        {
+          "text": "Integration should be the default, while some specialized accommodations may still be necessary",
+          "label": "B"
+        },
+        {
+          "text": "Visual contrast makes tactile guidance unnecessary",
+          "label": "C"
+        },
+        {
+          "text": "All users should be forced to use identical routes regardless of function",
+          "label": "D"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The author explicitly denies that one arrangement can meet every need. Human variation prevents universal design from being a claim of perfection. Universal design is presented as reducing unnecessary separation, not as a promise that one solution satisfies every body. The inference must preserve this explicit limit.",
+        "B": "Correct. Universal design seeks broad usability without unnecessary separation, but the passage preserves a role for specialized solutions. Integration is a starting assumption, not compulsory sameness. Universal design is presented as reducing unnecessary separation, not as a promise that one solution satisfies every body. The inference must preserve this explicit limit. The author's limited claim is that shared solutions should be the default where feasible, while specific accommodations remain necessary for real variation among users.",
+        "C": "Visual and tactile information serve different users and can complement one another. One does not automatically replace the other. Universal design is presented as reducing unnecessary separation, not as a promise that one solution satisfies every body. The inference must preserve this explicit limit.",
+        "D": "Identical routing can be harmful when needs differ. The aim is equitable independence and participation, not formal sameness detached from use. Universal design is presented as reducing unnecessary separation, not as a promise that one solution satisfies every body. The inference must preserve this explicit limit."
+      },
+      "topic": "Inference / Universal Design",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_design_004",
+      "stem": "Why does the author acknowledge budget and aesthetic tradeoffs?",
+      "choices": [
+        {
+          "text": "To abandon the accessibility argument",
+          "label": "A"
+        },
+        {
+          "text": "To show that constraints are real but do not make existing distributions of burden neutral",
+          "label": "B"
+        },
+        {
+          "text": "To argue that dignity cannot be discussed",
+          "label": "C"
+        },
+        {
+          "text": "To prove renovation funds are unlimited",
+          "label": "D"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The concession refines rather than abandons the argument. The author continues to demand scrutiny of whose needs are prioritized. The author's concession about tradeoffs prevents the argument from becoming aesthetic absolutism. Criticism targets the assumption that exclusion is neutral, not the existence of cost or engineering constraints.",
+        "B": "Correct. Recognizing cost and artistic conflict prevents a simplistic claim that inclusion is effortless. The author then argues that budgets already allocate burden, so constraint cannot excuse treating exclusion as natural. The author's concession about tradeoffs prevents the argument from becoming aesthetic absolutism. Criticism targets the assumption that exclusion is neutral, not the existence of cost or engineering constraints. Acknowledging constraint strengthens the argument by making it a demand for accountable prioritization rather than a fantasy that every conflict disappears through good intentions.",
+        "C": "Dignity is identified as a function of architecture. Tradeoffs make discussion necessary rather than impossible. The author's concession about tradeoffs prevents the argument from becoming aesthetic absolutism. Criticism targets the assumption that exclusion is neutral, not the existence of cost or engineering constraints.",
+        "D": "Scarcity is expressly acknowledged; no unlimited budget is assumed. The author's concession about tradeoffs prevents the argument from becoming aesthetic absolutism. Criticism targets the assumption that exclusion is neutral, not the existence of cost or engineering constraints."
+      },
+      "topic": "Author's Concession / Tradeoffs",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_design_005",
+      "stem": "Which renovation best follows the passage's principles?",
+      "choices": [
+        {
+          "text": "Creating a prominent shared entrance usable independently by people with varied mobility while retaining specialized supports where needed",
+          "label": "A"
+        },
+        {
+          "text": "Hiding an accessible lift behind staff-only rooms",
+          "label": "B"
+        },
+        {
+          "text": "Meeting minimum slope requirements but adding substantial detours",
+          "label": "C"
+        },
+        {
+          "text": "Preserving the grand stair and providing directions to a rear loading entrance",
+          "label": "D"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A shared primary route integrates access, visibility, and independence without pretending specialized support is never needed. It addresses both practical movement and symbolic membership. A consistent policy would integrate access into the primary design process and evaluate dignity as well as code compliance. Merely hiding a separate route would preserve the hierarchy under a cleaner appearance. Integrated entrances and circulation would alter both practical access and symbolic membership, satisfying the passage's insistence that function and meaning cannot be cleanly separated.",
+        "B": "A staff-dependent hidden lift reproduces the exceptional status and dependence criticized in the opening. A consistent policy would integrate access into the primary design process and evaluate dignity as well as code compliance. Merely hiding a separate route would preserve the hierarchy under a cleaner appearance.",
+        "C": "Minimum compliance with extra burden exemplifies the gap between technical access and equitable use. A consistent policy would integrate access into the primary design process and evaluate dignity as well as code compliance. Merely hiding a separate route would preserve the hierarchy under a cleaner appearance.",
+        "D": "A rear route preserves the hierarchy of the public face and assigns some users an industrial or secondary entrance. A consistent policy would integrate access into the primary design process and evaluate dignity as well as code compliance. Merely hiding a separate route would preserve the hierarchy under a cleaner appearance."
+      },
+      "topic": "Application / Integrated Access",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_reuse_006",
+      "stem": "What is the main argument of the adaptive-reuse passage?",
+      "choices": [
+        {
+          "text": "Historical buildings should never change use",
+          "label": "A"
+        },
+        {
+          "text": "New construction is always more authentic",
+          "label": "B"
+        },
+        {
+          "text": "Visible wear should replace all safety repairs",
+          "label": "C"
+        },
+        {
+          "text": "Reuse can sustain historical meaning when new interventions remain candid and inherited evidence stays legible",
+          "label": "D"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage notes that buildings have always changed and rejects functional stillness as the only form of continuity. Adaptive reuse is framed as interpretation through material intervention. The author rejects both frozen preservation and unrestricted reinvention, emphasizing legibility of temporal layers.",
+        "B": "Novelty is not equated with authenticity. New work is acceptable when distinguishable and responsive to evidence. Adaptive reuse is framed as interpretation through material intervention. The author rejects both frozen preservation and unrestricted reinvention, emphasizing legibility of temporal layers.",
+        "C": "Wear can carry evidence, but safety and use still matter. The author does not prohibit necessary repair. Adaptive reuse is framed as interpretation through material intervention. The author rejects both frozen preservation and unrestricted reinvention, emphasizing legibility of temporal layers.",
+        "D": "Correct. The preferred reuse avoids both frozen preservation and conversion of history into decorative atmosphere. New and old layers should remain readable together so utility does not erase evidence. Adaptive reuse is framed as interpretation through material intervention. The author rejects both frozen preservation and unrestricted reinvention, emphasizing legibility of temporal layers. The central standard is not maximum age or novelty but whether intervention keeps historical evidence readable while permitting a building to participate honestly in present life."
+      },
+      "topic": "Main Idea / Adaptive Reuse",
+      "difficulty": "Hard",
+      "usePrevPassage": false,
+      "passage": "A factory converted into a library no longer performs its original industrial task, yet its worn floors, patched brickwork, and oversized loading doors may carry evidence of a century of labor that a pristine reconstruction could not replicate. Adaptive reuse — the practice of giving old buildings new purposes — raises a question that historic preservation sometimes avoids: must continuity require keeping a building functionally still, frozen in the role it last performed?\n\nBuildings have rarely been still in practice. Houses acquire additions as families grow. Markets become workshops as economies change. Sacred spaces absorb repairs made with unfamiliar materials across centuries of evolving liturgical needs. To freeze one selected date and call it the building's authentic state can produce an artifact more orderly and more unified than the building ever actually was — a curated version of the past rather than an honest record of it. Yet unrestricted conversion poses the opposite danger. If every trace of the building's previous life is polished away, plastered over, or converted into decorative texture — exposed brick as ambiance, industrial hardware as styling — then history becomes atmosphere: a pleasing suggestion of age without evidence capable of resisting the designer's preferred narrative.\n\nThe most persuasive adaptive reuse makes temporal layers legible rather than choosing one layer and suppressing the rest. A new steel staircase inserted into a nineteenth-century warehouse need not imitate the original construction, but its junction with old masonry can be detailed so that a careful observer sees what was added and what survived. Reversibility is valuable where feasible, because future caretakers may possess better evidence or different institutional needs. But reversibility is not innocence: drilling a connection that can later be removed still changes material, and choosing what to retain, what to expose, and what to conceal still interprets the past rather than merely preserving it.\n\nWear deserves particular attention. A stair tread hollowed by thousands of feet over decades of factory shifts may be less visually complete than a freshly milled replica, but it records repeated contact between bodies and building — evidence of use that no reproduction can supply. Replacement can preserve geometric form while erasing the very thing that distinguishes the original object from a copy: the marks left by the people who actually used it.\n\nSuccessful reuse therefore does not choose simply between authenticity and utility, as though the two were always in competition. It asks whether new use sustains attention to inherited evidence or reduces that evidence to decorative style. A building remains historically alive not by escaping change — that has never been possible — but by making change candid enough that multiple times can be read together in the same structure."
+    },
+    {
+      "id": "cars_reuse_007",
+      "stem": "The worn stair tread primarily demonstrates that:",
+      "choices": [
+        {
+          "text": "Material wear can record ordinary historical use that a pristine replica erases",
+          "label": "A"
+        },
+        {
+          "text": "All damaged stairs must remain in service",
+          "label": "B"
+        },
+        {
+          "text": "Geometric form is irrelevant",
+          "label": "C"
+        },
+        {
+          "text": "Factories should not become libraries",
+          "label": "D"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The hollowed tread embodies repeated contact and preserves evidence of everyday users. A replica may reproduce dimensions while removing the accumulated trace that gives the material historical significance. The worn stair example shows that ordinary use can itself be historical evidence. Replacing it with a pristine replica may preserve shape while erasing accumulated social contact. The stair's wear records repeated embodied use that drawings cannot reproduce, so material irregularity becomes evidence rather than merely a maintenance defect.",
+        "B": "The author values wear but does not subordinate safety absolutely. The example concerns evidentiary meaning, not a universal prohibition on replacement. The worn stair example shows that ordinary use can itself be historical evidence. Replacing it with a pristine replica may preserve shape while erasing accumulated social contact.",
+        "C": "Geometry matters, but form alone cannot preserve evidence of use. The passage contrasts geometric replication with material history. The worn stair example shows that ordinary use can itself be historical evidence. Replacing it with a pristine replica may preserve shape while erasing accumulated social contact.",
+        "D": "The entire passage considers factory-to-library conversion potentially successful. The stair example guides how, not whether, reuse occurs. The worn stair example shows that ordinary use can itself be historical evidence. Replacing it with a pristine replica may preserve shape while erasing accumulated social contact."
+      },
+      "topic": "Function of Example / Material Evidence",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_reuse_008",
+      "stem": "Why does the author value reversibility?",
+      "choices": [
+        {
+          "text": "It guarantees intervention has no effect",
+          "label": "A"
+        },
+        {
+          "text": "It makes historical evidence unnecessary",
+          "label": "B"
+        },
+        {
+          "text": "It preserves options because current interpretations may be revised when future needs or evidence change",
+          "label": "C"
+        },
+        {
+          "text": "It requires all additions to imitate old materials",
+          "label": "D"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage explicitly says even reversible connections alter material. Reversibility limits rather than eliminates intervention. Reversibility is valuable because present judgments may be mistaken and future evidence may emerge. It is an ethical response to uncertainty rather than proof that intervention has no effects.",
+        "B": "Better future evidence is one reason to preserve options; existing evidence remains essential to responsible decisions. Reversibility is valuable because present judgments may be mistaken and future evidence may emerge. It is an ethical response to uncertainty rather than proof that intervention has no effects.",
+        "C": "Correct. Reversible work acknowledges uncertainty and allows later caretakers to undo or reinterpret present choices. It is a practice of humility, not a claim that today's intervention is neutral. Reversibility is valuable because present judgments may be mistaken and future evidence may emerge. It is an ethical response to uncertainty rather than proof that intervention has no effects. Reversibility cannot restore a perfectly untouched past, but it limits irreversible claims by the present and leaves future interpreters more options.",
+        "D": "Legible new work need not imitate historic construction. Distinguishability may be preferable to false historical appearance. Reversibility is valuable because present judgments may be mistaken and future evidence may emerge. It is an ethical response to uncertainty rather than proof that intervention has no effects."
+      },
+      "topic": "Reversibility / Interpretive Humility",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_reuse_009",
+      "stem": "Which finding would most strengthen the author's standard for successful reuse?",
+      "choices": [
+        {
+          "text": "The building earns more revenue after conversion",
+          "label": "A"
+        },
+        {
+          "text": "All worn surfaces are replaced",
+          "label": "B"
+        },
+        {
+          "text": "Visitors can accurately distinguish old fabric, later additions, and areas of uncertain reconstruction",
+          "label": "C"
+        },
+        {
+          "text": "Visitors believe every element is original",
+          "label": "D"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Revenue may support continued operation but does not establish that historical evidence remains readable. The strongest supporting evidence would show users understanding both old and new layers without mistaking reconstruction for original fabric. Popularity alone would not establish historical legibility.",
+        "B": "Replacing all wear could erase the ordinary-use evidence the author values. Uniform newness is not the criterion. The strongest supporting evidence would show users understanding both old and new layers without mistaking reconstruction for original fabric. Popularity alone would not establish historical legibility.",
+        "C": "Correct. Accurate recognition of temporal layers directly demonstrates legibility and candid intervention. It shows that continued use has not collapsed inheritance and change into an undifferentiated aesthetic. The strongest supporting evidence would show users understanding both old and new layers without mistaking reconstruction for original fabric. Popularity alone would not establish historical legibility. Comprehension of temporal layering directly tests the author's criterion of legibility, whereas attendance, revenue, or visual appeal could rise even when history is obscured.",
+        "D": "Mistaking additions for originals indicates deceptive blending and failure to acknowledge uncertainty. The strongest supporting evidence would show users understanding both old and new layers without mistaking reconstruction for original fabric. Popularity alone would not establish historical legibility."
+      },
+      "topic": "Strengthening / Temporal Legibility",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "cars_reuse_010",
+      "stem": "The author's tone toward adaptive reuse is best described as:",
+      "choices": [
+        {
+          "text": "Hostile and preservationist",
+          "label": "A"
+        },
+        {
+          "text": "Indifferent",
+          "label": "B"
+        },
+        {
+          "text": "Unconditionally celebratory",
+          "label": "C"
+        },
+        {
+          "text": "Cautiously constructive, welcoming continued use when change remains honest about historical evidence",
+          "label": "D"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The author rejects freezing buildings and accepts new uses, so the stance is not hostile preservationism. The author values continued use when change remains candid and proportionate. The tone is neither nostalgic nor celebratory; it is cautiously constructive about negotiated continuity.",
+        "B": "The passage offers detailed criteria and clear evaluative commitments, not indifference. The author values continued use when change remains candid and proportionate. The tone is neither nostalgic nor celebratory; it is cautiously constructive about negotiated continuity.",
+        "C": "Warnings about decorative atmosphere, erased wear, and irreversible interpretation prevent unconditional celebration. The author values continued use when change remains candid and proportionate. The tone is neither nostalgic nor celebratory; it is cautiously constructive about negotiated continuity.",
+        "D": "Correct. The author sees reuse as capable of keeping history alive while insisting on candid junctions, legible layers, and humility about intervention. The optimism is real but qualified. The author values continued use when change remains candid and proportionate. The tone is neither nostalgic nor celebratory; it is cautiously constructive about negotiated continuity. Cautious optimism best captures an author who welcomes continued occupation yet insists that successful reuse disclose, rather than dissolve, the tension between inheritance and change."
+      },
+      "topic": "Author Tone / Cautious Optimism",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    }
+  ],
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  }
+}

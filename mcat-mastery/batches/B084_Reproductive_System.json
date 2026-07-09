@@ -1,0 +1,337 @@
+{
+  "batch": "B084",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Reproductive System & Development",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_repro_001",
+      "passage": "A reproductive endocrinologist reviews the menstrual cycle in a patient seeking fertility treatment. She explains that the hypothalamic-pituitary-gonadal (HPG) axis regulates reproduction through GnRH, FSH, and LH. During the follicular phase (days 1-14), FSH stimulates follicular development and estrogen production. The LH surge at midcycle triggers ovulation. During the luteal phase (days 14-28), the corpus luteum produces progesterone, which maintains the endometrial lining. If fertilization does not occur, the corpus luteum degenerates, progesterone drops, and menstruation begins. She also reviews spermatogenesis, the acrosome reaction, and early embryonic development.",
+      "stem": "The LH surge at midcycle triggers ovulation. This surge is an example of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "positive feedback — rising estrogen from the dominant follicle stimulates (rather than inhibits) LH release from the anterior pituitary once estrogen exceeds a threshold concentration"
+        },
+        {
+          "label": "B",
+          "text": "negative feedback, because LH inhibits its own release"
+        },
+        {
+          "label": "C",
+          "text": "no feedback at all — LH release is random"
+        },
+        {
+          "label": "D",
+          "text": "feedforward control from the posterior pituitary"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The LH surge is one of the few examples of positive feedback in human physiology. During the late follicular phase, the dominant follicle produces rapidly rising estrogen. Below a threshold, estrogen exerts negative feedback on LH (suppressing release). However, when estrogen exceeds ~200 pg/mL for ~48 hours, it switches to positive feedback — stimulating a massive release of LH from the anterior pituitary. This LH surge (~10x baseline) triggers ovulation ~36 hours later by causing follicular wall degradation, oocyte release, and corpus luteum formation. After ovulation, progesterone restores negative feedback.",
+        "B": "During most of the cycle, the HPG axis operates by negative feedback (high estrogen/progesterone suppress GnRH/LH/FSH). But the pre-ovulatory LH surge is specifically a positive feedback event — the key exception. This distinction is frequently tested on the MCAT.",
+        "C": "The LH surge is precisely timed and regulated, not random. It depends on a specific estrogen concentration threshold and duration, making it a highly controlled neuroendocrine event.",
+        "D": "The posterior pituitary releases oxytocin and ADH. It does not secrete LH. LH (and FSH) are anterior pituitary gonadotropins regulated by hypothalamic GnRH."
+      },
+      "topic": "LH Surge / Positive Feedback",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "FSH (follicle-stimulating hormone) during the follicular phase acts on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the corpus luteum to produce testosterone"
+        },
+        {
+          "label": "B",
+          "text": "hypothalamic neurons to release GnRH"
+        },
+        {
+          "label": "C",
+          "text": "granulosa cells of ovarian follicles, stimulating follicular growth, estrogen production, and aromatase activity — converting androgens (from theca cells) to estrogens"
+        },
+        {
+          "label": "D",
+          "text": "the endometrium to trigger menstruation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. FSH targets granulosa cells in ovarian follicles through the two-cell, two-gonadotropin model: LH acts on theca cells to produce androgens (androstenedione), and FSH acts on granulosa cells to convert these androgens to estrogens via aromatase (CYP19A1). FSH also stimulates follicular growth, increases LH receptor expression on granulosa cells (preparing for the LH surge), and promotes inhibin B secretion (which selectively suppresses FSH in a negative feedback loop). This selective FSH suppression is why typically only one dominant follicle ovulates.",
+        "A": "The corpus luteum is a post-ovulatory structure that produces progesterone (and some estrogen). It does not produce testosterone. Testosterone is produced by Leydig cells in the testes (in males) and theca cells in the ovaries (in females).",
+        "B": "GnRH is released by hypothalamic neurons in a pulsatile pattern. FSH does not stimulate GnRH release — if anything, the feedback loop runs in the opposite direction (GnRH stimulates FSH release from the anterior pituitary).",
+        "D": "Menstruation is triggered by the withdrawal of progesterone (and estrogen) when the corpus luteum degenerates. FSH does not directly act on the endometrium — its target is the ovarian follicle."
+      },
+      "topic": "FSH / Two-Cell Two-Gonadotropin Model",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_repro_003",
+      "passage": null,
+      "stem": "Spermatogenesis occurs in the seminiferous tubules and involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "spermatogonia undergo mitosis to produce primary spermatocytes, which undergo meiosis I → secondary spermatocytes → meiosis II → spermatids → mature spermatozoa, requiring ~64 days and supported by Sertoli cells"
+        },
+        {
+          "label": "B",
+          "text": "mitosis only — producing diploid sperm cells"
+        },
+        {
+          "label": "C",
+          "text": "a single cell division producing two sperm from each spermatogonium"
+        },
+        {
+          "label": "D",
+          "text": "production of sperm in the epididymis without any meiotic division"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Spermatogenesis requires meiosis (two divisions) to produce haploid (n=23) sperm. Mitosis alone would produce diploid cells, which cannot participate in fertilization (fusion of two diploid cells would create a tetraploid zygote).",
+        "A": "Correct. Spermatogenesis: (1) spermatogonia (2n) undergo mitotic proliferation; (2) primary spermatocytes (2n) undergo meiosis I → two secondary spermatocytes (n); (3) meiosis II → four spermatids (n); (4) spermiogenesis transforms round spermatids into mature spermatozoa (acrosome formation, flagellum development, cytoplasm shedding). Sertoli cells (nurse cells) provide structural support, nutrition, and the blood-testis barrier. FSH stimulates Sertoli cells; LH stimulates Leydig cells (testosterone production). The entire process takes ~64 days in humans.",
+        "C": "Each spermatogonium that enters meiosis produces four spermatids (two meiotic divisions: one cell → two → four). This contrasts with oogenesis, which produces only one functional oocyte plus polar bodies.",
+        "D": "Sperm are produced in the seminiferous tubules of the testes, not the epididymis. The epididymis is the site of sperm maturation and storage — sperm gain motility and fertilization capacity during epididymal transit (~12 days)."
+      },
+      "topic": "Spermatogenesis / Meiosis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_004",
+      "passage": null,
+      "stem": "The acrosome reaction during fertilization involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the oocyte releasing enzymes to digest the sperm"
+        },
+        {
+          "label": "B",
+          "text": "release of hydrolytic enzymes (hyaluronidase, acrosin) from the sperm acrosome that digest the zona pellucida, allowing the sperm to reach and fuse with the oocyte membrane"
+        },
+        {
+          "label": "C",
+          "text": "the sperm flagellum detaching before penetration"
+        },
+        {
+          "label": "D",
+          "text": "mitotic division of the sperm inside the oocyte"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The acrosome is a specialized lysosome-like vesicle at the tip of the sperm head. Upon binding to ZP3 glycoprotein on the zona pellucida, the acrosome fuses with the sperm membrane (exocytosis), releasing hydrolytic enzymes: hyaluronidase (digests hyaluronic acid in the cumulus layer) and acrosin (a serine protease that digests the zona pellucida). This allows the sperm to penetrate through to the perivitelline space and fuse with the oocyte plasma membrane. The cortical reaction (exocytosis of cortical granules from the oocyte) then modifies the zona pellucida to block polyspermy.",
+        "A": "The oocyte does not release enzymes to digest the sperm. The oocyte's cortical reaction modifies the zona pellucida after fertilization to block additional sperm (polyspermy block), but the initial penetration is driven by sperm acrosomal enzymes.",
+        "C": "The flagellum remains attached to the sperm throughout fertilization. It provides the motility needed for the sperm to reach and penetrate the oocyte. The flagellum (and mitochondria) do enter the oocyte but are degraded — mitochondrial DNA is inherited maternally.",
+        "D": "Sperm do not undergo mitotic division after entering the oocyte. The haploid sperm nucleus (male pronucleus) fuses with the haploid oocyte nucleus (female pronucleus) to form a diploid zygote, which then undergoes mitotic cleavage divisions."
+      },
+      "topic": "Acrosome Reaction / Fertilization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "During the luteal phase, the corpus luteum produces progesterone, which:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "thins the endometrium and inhibits implantation"
+        },
+        {
+          "label": "B",
+          "text": "stimulates the LH surge to trigger a second ovulation"
+        },
+        {
+          "label": "C",
+          "text": "maintains the thickened, secretory endometrium to support potential implantation — and provides negative feedback on GnRH/LH/FSH to prevent additional follicular development"
+        },
+        {
+          "label": "D",
+          "text": "stimulates uterine contractions to expel the oocyte"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Progesterone is the dominant hormone of the luteal phase. Its functions: (1) converts the proliferative endometrium to a secretory endometrium (glandular secretions, increased vascularity, glycogen storage) to support embryo implantation; (2) suppresses GnRH pulsatility and anterior pituitary LH/FSH release (negative feedback), preventing new follicle development; (3) increases basal body temperature (~0.5°C, basis of BBT tracking); (4) thickens cervical mucus, blocking additional sperm entry. If pregnancy occurs, hCG from the trophoblast rescues the corpus luteum until the placenta assumes progesterone production (~8-10 weeks).",
+        "A": "Progesterone maintains and thickens the endometrium, it does not thin it. Endometrial thinning occurs when progesterone drops (corpus luteum degeneration → menstruation). Progesterone is sometimes called the 'pregnancy hormone' because it prepares and maintains the uterus for implantation.",
+        "B": "Progesterone inhibits the LH surge through negative feedback — it does not stimulate it. The LH surge occurs in the late follicular phase under positive estrogen feedback, not during the luteal phase.",
+        "D": "Progesterone relaxes uterine smooth muscle (reducing contractility), the opposite of stimulating contractions. Oxytocin (not progesterone) stimulates uterine contractions during labor. Progesterone maintains uterine quiescence to support pregnancy."
+      },
+      "topic": "Progesterone / Luteal Phase Function",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_006",
+      "passage": null,
+      "stem": "Oogenesis differs from spermatogenesis in that oogenesis:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "produces four functional gametes from each primary oocyte"
+        },
+        {
+          "label": "B",
+          "text": "occurs entirely after puberty with no prenatal component"
+        },
+        {
+          "label": "C",
+          "text": "produces only one functional oocyte (plus polar bodies) per meiotic event, begins before birth (arrested at prophase I), and completes meiosis II only upon fertilization"
+        },
+        {
+          "label": "D",
+          "text": "does not involve meiosis"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Key differences from spermatogenesis: (1) Unequal cytoplasmic division — meiosis I produces one secondary oocyte (most cytoplasm) and one small polar body; meiosis II produces one ovum and one polar body. Only the ovum is functional. (2) Timing — oogonia undergo mitosis prenatally; primary oocytes enter meiosis I before birth but arrest at prophase I (dictyotene stage) until ovulation (potentially decades later). Meiosis I completes at ovulation; meiosis II arrests at metaphase II and completes only upon sperm penetration. (3) Finite supply — females are born with ~1-2 million oocytes; no new ones are produced postnatally.",
+        "A": "Oogenesis produces only one functional gamete per meiotic event (plus 2-3 nonfunctional polar bodies). Spermatogenesis produces four functional sperm. This asymmetric division ensures the ovum retains maximum cytoplasm, organelles, and maternal mRNA for early embryonic development.",
+        "B": "Oogenesis begins before birth — oogonia proliferate by mitosis during fetal development, and primary oocytes enter meiosis I before birth. The prenatal phase is essential; the postnatal phase involves completing arrested meiotic divisions at ovulation and fertilization.",
+        "D": "Oogenesis absolutely involves meiosis — it is the process by which diploid oogonia produce haploid ova through two meiotic divisions. Without meiosis, fertilization would produce tetraploid offspring."
+      },
+      "topic": "Oogenesis vs Spermatogenesis",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_repro_007",
+      "passage": null,
+      "stem": "Human chorionic gonadotropin (hCG) is produced by the:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "anterior pituitary after ovulation"
+        },
+        {
+          "label": "B",
+          "text": "corpus luteum during the luteal phase"
+        },
+        {
+          "label": "C",
+          "text": "adrenal glands during pregnancy"
+        },
+        {
+          "label": "D",
+          "text": "trophoblast (developing placenta) after implantation — hCG maintains the corpus luteum, preventing progesterone withdrawal and menstruation in early pregnancy"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. hCG is produced by syncytiotrophoblast cells of the implanting blastocyst beginning ~6-8 days after fertilization. Its primary function: rescue the corpus luteum from degeneration by mimicking LH (binding LH receptors on the corpus luteum). This maintains progesterone production, preventing endometrial shedding (menstruation) and sustaining the pregnancy. hCG is the hormone detected by pregnancy tests (urine and blood). hCG levels double every ~48-72 hours in early pregnancy, peak at ~10 weeks, then decline as the placenta takes over progesterone production.",
+        "A": "The anterior pituitary produces LH and FSH, not hCG. hCG is structurally similar to LH (shares the same α-subunit) but has a unique β-subunit and is produced only by trophoblastic tissue.",
+        "B": "The corpus luteum produces progesterone and estrogen but not hCG. hCG acts on the corpus luteum to sustain it — the corpus luteum is the target, not the source, of hCG.",
+        "C": "The adrenal glands produce cortisol, aldosterone, and DHEA/androgens. They do not produce hCG."
+      },
+      "topic": "hCG / Pregnancy Maintenance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_008",
+      "passage": null,
+      "stem": "The zona pellucida surrounding the oocyte functions to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "provide nutrients to the oocyte via blood vessels"
+        },
+        {
+          "label": "B",
+          "text": "act as a species-specific sperm receptor (ZP3 initiates the acrosome reaction) and, after cortical granule release, prevent polyspermy by modifying its structure"
+        },
+        {
+          "label": "C",
+          "text": "generate the meiotic spindle for cell division"
+        },
+        {
+          "label": "D",
+          "text": "produce estrogen for the developing follicle"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The zona pellucida (ZP) is a glycoprotein matrix surrounding the oocyte with multiple functions: (1) ZP3 glycoprotein acts as the primary sperm receptor and acrosome reaction trigger (species-specific recognition); (2) after fertilization, the cortical reaction releases enzymes that modify ZP proteins (hardening the zona), preventing additional sperm from binding or penetrating (slow block to polyspermy); (3) the ZP protects the early embryo during cleavage divisions and fallopian tube transit. The blastocyst must 'hatch' from the zona before implanting in the endometrium.",
+        "A": "The zona pellucida is an acellular glycoprotein layer — it has no blood vessels. The oocyte receives nutrients from surrounding granulosa/cumulus cells via gap junctions and paracrine signaling before ovulation.",
+        "C": "The meiotic spindle is formed inside the oocyte by microtubules and centrosomes. The zona pellucida is an extracellular structure with no role in cell division machinery.",
+        "D": "Estrogen is produced by granulosa cells (via aromatase) under FSH stimulation, not by the zona pellucida. The ZP is a structural/functional barrier, not an endocrine tissue."
+      },
+      "topic": "Zona Pellucida / Polyspermy Block",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_repro_009",
+      "passage": null,
+      "stem": "Testosterone in males is produced primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sertoli cells in the seminiferous tubules"
+        },
+        {
+          "label": "B",
+          "text": "the anterior pituitary gland"
+        },
+        {
+          "label": "C",
+          "text": "the adrenal cortex exclusively"
+        },
+        {
+          "label": "D",
+          "text": "Leydig cells (interstitial cells) in the testes, stimulated by LH from the anterior pituitary"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Leydig cells (interstitial cells of Leydig) are located between the seminiferous tubules and are the primary source of testosterone in males. LH binds LH receptors on Leydig cells, stimulating cholesterol conversion to testosterone via the steroidogenic pathway (cholesterol → pregnenolone → DHEA → androstenedione → testosterone). Testosterone functions: spermatogenesis support (acts on Sertoli cells), secondary sex characteristics (facial hair, deep voice, muscle mass), bone growth, and libido. Testosterone exerts negative feedback on the hypothalamus (GnRH) and anterior pituitary (LH).",
+        "A": "Sertoli cells support spermatogenesis (nurse cells), secrete inhibin (suppresses FSH), produce androgen-binding protein (ABP), and maintain the blood-testis barrier. They do not produce significant testosterone — they respond to it.",
+        "B": "The anterior pituitary produces LH and FSH (gonadotropins) that regulate the testes. It does not produce testosterone. LH stimulates Leydig cells to produce testosterone.",
+        "C": "The adrenal cortex produces some androgens (DHEA, androstenedione) in the zona reticularis, but these are weaker androgens. The testes (Leydig cells) produce ~95% of circulating testosterone in males. The adrenals are not the primary source."
+      },
+      "topic": "Testosterone / Leydig Cells",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_repro_010",
+      "passage": null,
+      "stem": "Gastrulation transforms the blastula into a three-layered embryo. The three germ layers are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ectoderm (gives rise to skin and nervous system), mesoderm (gives rise to muscle, bone, circulatory system), and endoderm (gives rise to the lining of the GI tract, lungs, and liver)"
+        },
+        {
+          "label": "B",
+          "text": "epiderm, intraderm, and extraderm"
+        },
+        {
+          "label": "C",
+          "text": "cortex, medulla, and stroma"
+        },
+        {
+          "label": "D",
+          "text": "serosa, mucosa, and submucosa"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Gastrulation (week 3 in humans) establishes the three primary germ layers through cell migration and invagination: (1) Ectoderm — nervous system (brain, spinal cord, peripheral nerves), epidermis, hair, nails, lens of the eye, tooth enamel, neural crest derivatives (melanocytes, craniofacial cartilage, adrenal medulla); (2) Mesoderm — skeletal muscle, cardiac muscle, smooth muscle, bone, cartilage, blood, blood vessels, kidneys, gonads, connective tissue, dermis; (3) Endoderm — epithelial lining of the GI tract, respiratory tract, bladder, liver, pancreas, thyroid, parathyroid glands. Knowing germ layer derivatives is high-yield for the MCAT.",
+        "B": "These terms are not standard embryological germ layers. The correct terms are ectoderm, mesoderm, and endoderm.",
+        "C": "Cortex and medulla are anatomical zones within organs (adrenal gland, kidney, lymph node). Stroma refers to connective tissue framework. None are embryonic germ layers.",
+        "D": "Serosa, mucosa, and submucosa are histological layers of the GI tract wall, not embryonic germ layers. These structures develop from the germ layers (mucosa from endoderm, serosa/submucosa from mesoderm)."
+      },
+      "topic": "Gastrulation / Germ Layers",
+      "difficulty": "Easy"
+    }
+  ]
+}

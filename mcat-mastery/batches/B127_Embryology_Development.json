@@ -1,0 +1,343 @@
+{
+  "batch": "B127",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Embryology & Development",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 3,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "bb_embryo_001",
+      "passage": "A developmental biologist studies early human embryogenesis. After fertilization, the zygote undergoes cleavage divisions without growth, producing a morula by day 3-4 and a blastocyst by day 5-6. The blastocyst has an outer trophoblast layer (which contributes to the placenta) and an inner cell mass (ICM, which forms the embryo). Gastrulation at week 3 establishes three germ layers: ectoderm, mesoderm, and endoderm. She studies inductive signaling between tissues and how morphogen gradients (Sonic hedgehog, BMPs, Wnt) pattern the developing embryo.",
+      "stem": "The three germ layers established during gastrulation give rise to distinct tissue types. The ectoderm gives rise to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the lining of the digestive tract and associated organs (liver, pancreas)"
+        },
+        {
+          "label": "B",
+          "text": "the epidermis (skin), nervous system (brain, spinal cord), neural crest derivatives (melanocytes, adrenal medulla), and lens of the eye"
+        },
+        {
+          "label": "C",
+          "text": "skeletal muscle, bone, cardiovascular system, and kidneys"
+        },
+        {
+          "label": "D",
+          "text": "red blood cells only"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Digestive tract lining and associated organs (liver, pancreas, thyroid) derive from endoderm, not ectoderm. Endoderm forms the epithelial lining of the GI tract, respiratory tract, bladder, and the parenchyma of glands (liver, pancreas, thyroid).",
+        "B": "Correct. Ectoderm differentiates into: surface ectoderm (epidermis, hair, nails, sweat glands, mammary glands, lens, inner ear, tooth enamel), neural plate/tube (CNS — brain, spinal cord, retina, posterior pituitary), and neural crest (PNS — sensory and autonomic ganglia, Schwann cells, melanocytes, adrenal medulla, craniofacial cartilage/bone, odontoblasts). Neural crest is sometimes called the 'fourth germ layer' due to its extraordinary range of derivatives.",
+        "C": "Skeletal muscle, bone, cardiovascular system, and kidneys derive from mesoderm. Mesoderm forms: paraxial (somites → skeletal muscle, vertebrae, dermis), intermediate (kidneys, gonads, adrenal cortex), lateral plate (heart, blood vessels, body wall, limb bones, serous membranes), and head mesenchyme.",
+        "D": "Red blood cells derive from mesoderm (specifically from blood islands in the yolk sac, then fetal liver, then bone marrow). Ectoderm does not produce blood cells."
+      },
+      "topic": "Germ Layers / Ectoderm Derivatives",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_embryo_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Neural crest cells are derived from ectoderm but migrate extensively to form diverse structures including:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the lining of blood vessels (endothelium)"
+        },
+        {
+          "label": "B",
+          "text": "skeletal muscle fibers and tendons"
+        },
+        {
+          "label": "C",
+          "text": "melanocytes, peripheral nervous system ganglia, adrenal medulla chromaffin cells, and craniofacial cartilage and bone"
+        },
+        {
+          "label": "D",
+          "text": "the epithelial lining of the entire GI tract"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Blood vessel endothelium derives from mesoderm (lateral plate mesoderm → angioblasts → endothelial cells). Neural crest does not form vascular endothelium.",
+        "B": "Skeletal muscle derives from paraxial mesoderm (somites → myotome → skeletal muscle). Tendons derive from mesoderm-derived connective tissue. Neural crest forms smooth muscle of certain vessels but not skeletal muscle.",
+        "C": "Correct. Neural crest cells arise at the border of the neural plate and surface ectoderm, then undergo epithelial-to-mesenchymal transition (EMT) and migrate throughout the embryo. Derivatives include: melanocytes (skin pigment), PNS neurons and glia (dorsal root ganglia, autonomic ganglia, Schwann cells), adrenal medulla (chromaffin cells producing epinephrine/norepinephrine), craniofacial skeleton (much of the skull and face), odontoblasts (dentin), and cardiac outflow tract septum. Neural crest defects cause neurocristopathies (Hirschsprung disease, Waardenburg syndrome, DiGeorge syndrome).",
+        "D": "GI tract epithelial lining derives from endoderm. Neural crest does contribute enteric nervous system ganglia (Auerbach's and Meissner's plexuses) to the gut wall, but the epithelial lining itself is endodermal."
+      },
+      "topic": "Neural Crest / Migration & Derivatives",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_embryo_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Cleavage divisions in early embryogenesis differ from typical mitotic divisions because cleavage:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "involves meiotic reduction of chromosome number"
+        },
+        {
+          "label": "B",
+          "text": "produces larger cells with each division"
+        },
+        {
+          "label": "C",
+          "text": "occurs only in somatic cells of the adult"
+        },
+        {
+          "label": "D",
+          "text": "increases cell number without overall growth — each division produces smaller cells (blastomeres) by subdividing existing cytoplasm, so total embryo volume remains approximately constant"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Cleavage is mitotic, not meiotic. All blastomeres are diploid (2n) and genetically identical (barring rare early mutations). Meiosis occurs only in germ cells during gametogenesis.",
+        "B": "Cleavage cells get progressively smaller with each division. The zygote (one of the largest human cells, ~100 μm) divides into 2, 4, 8, 16, etc. cells without the growth phases (G1, G2) that normally separate mitotic divisions. By the morula stage (~16-32 cells), individual blastomeres are much smaller than the original zygote.",
+        "C": "Cleavage occurs in the earliest stages of embryonic development (days 1-5 post-fertilization), not in adult somatic cells. Adult cells undergo standard mitosis with growth phases.",
+        "D": "Correct. Cleavage: rapid mitotic divisions with very short or absent G1 and G2 phases. The cell cycle is essentially S → M → S → M. No significant growth occurs between divisions, so total volume remains approximately that of the original zygote. Each daughter cell (blastomere) is half the volume of its parent. This continues until the maternal mRNA and protein stores are exhausted and the embryonic genome is activated (mid-blastula transition / zygotic genome activation). The result is a ball of many small cells (morula → blastocyst) with the same total mass as the original zygote."
+      },
+      "topic": "Cleavage / Blastomere Division",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_embryo_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Induction in embryonic development refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the process by which one group of cells signals to an adjacent group, directing their differentiation fate — exemplified by the Spemann organizer, where dorsal lip mesoderm induces overlying ectoderm to form neural tissue instead of epidermis"
+        },
+        {
+          "label": "B",
+          "text": "the process of DNA replication during S phase"
+        },
+        {
+          "label": "C",
+          "text": "the immune response to a pathogen"
+        },
+        {
+          "label": "D",
+          "text": "the movement of chromosomes during anaphase"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Embryonic induction: signaling between tissues that determines cell fate. Spemann's organizer experiment (1924, Nobel Prize 1935): transplanting the dorsal lip of the blastopore to the ventral side of a host embryo induced a second body axis — the overlying ectoderm formed a second nervous system. The organizer secretes inhibitors of BMP signaling (noggin, chordin, follistatin), which default the ectoderm to neural fate (neural induction). Without these signals, ectoderm becomes epidermis. Induction operates through morphogen gradients — concentration-dependent responses to secreted signaling molecules (Shh, BMPs, Wnt, FGFs).",
+        "B": "DNA replication during S phase is a cell cycle process, not embryonic induction. Induction is a developmental biology concept about cell-cell signaling.",
+        "C": "The immune response to pathogens involves innate and adaptive immunity, unrelated to embryonic induction. Both use the word 'induction' in different contexts (immune induction vs embryonic induction).",
+        "D": "Chromosome movement during anaphase is a mitotic process driven by spindle fibers and motor proteins. It is unrelated to inductive signaling between developing tissues."
+      },
+      "topic": "Embryonic Induction / Spemann Organizer",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_embryo_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The inner cell mass (ICM) of the blastocyst is significant because it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "forms the placenta and extraembryonic membranes only"
+        },
+        {
+          "label": "B",
+          "text": "is the source of trophoblast cells that invade the uterine wall"
+        },
+        {
+          "label": "C",
+          "text": "gives rise to the embryo proper — the ICM contains pluripotent cells that can differentiate into all cell types of the body (all three germ layers), and is the source of embryonic stem cells (ESCs) in research"
+        },
+        {
+          "label": "D",
+          "text": "is shed during menstruation in every cycle"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The placenta and extraembryonic membranes (chorion, amnion partially) derive primarily from the trophoblast layer, not the ICM. The ICM does contribute to the yolk sac and allantois, but its primary role is forming the embryo.",
+        "B": "Trophoblast cells (the outer layer of the blastocyst) invade the uterine wall during implantation. The trophoblast differentiates into cytotrophoblast and syncytiotrophoblast, which establish the maternal-fetal interface. The ICM does not perform this invasion.",
+        "C": "Correct. The ICM is the cluster of cells inside the blastocyst that gives rise to the entire embryo. ICM cells are pluripotent — they can form any cell type in the body (ectoderm, mesoderm, endoderm derivatives) but not the trophoblast. When cultured in vitro, ICM cells can be expanded as embryonic stem cells (ESCs), which maintain pluripotency indefinitely. The distinction: totipotent (zygote through ~8-cell stage — can form embryo + placenta), pluripotent (ICM/ESCs — can form any embryonic tissue but not placenta), multipotent (tissue-specific stem cells), unipotent (single cell type).",
+        "D": "Menstrual shedding involves the uterine endometrial lining in the absence of implantation. The ICM is part of the developing embryo and is not shed — it exists only when an embryo has formed."
+      },
+      "topic": "Inner Cell Mass / Pluripotency",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_embryo_006",
+      "passage": "The biologist studies limb development as a model for pattern formation. The apical ectodermal ridge (AER) at the limb bud tip secretes FGFs that maintain the underlying progress zone mesenchyme in a proliferative state, driving limb outgrowth (proximodistal axis). The zone of polarizing activity (ZPA) at the posterior margin secretes Sonic hedgehog (Shh), which establishes the anteroposterior axis (thumb-to-pinky pattern). Dorsoventral patterning is controlled by Wnt7a (dorsal ectoderm) and En-1 (ventral ectoderm). She examines how disruption of these signals produces congenital limb malformations.",
+      "stem": "The zone of polarizing activity (ZPA) establishes digit identity through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "direct physical contact between ZPA cells and each digit primordium"
+        },
+        {
+          "label": "B",
+          "text": "a concentration gradient of Sonic hedgehog (Shh) — cells closer to the ZPA receive higher Shh concentrations and adopt posterior digit fates (e.g., pinky), while cells farther away receive less Shh and adopt anterior fates (e.g., thumb)"
+        },
+        {
+          "label": "C",
+          "text": "random assignment of digit identity without any signaling"
+        },
+        {
+          "label": "D",
+          "text": "destruction of all mesenchyme except the digit primordia"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "ZPA signaling operates through a diffusible morphogen (Shh), not through direct cell contact. Shh diffuses through the mesenchyme, creating a concentration gradient. Transplanting the ZPA to the anterior margin produces mirror-image digit duplication, demonstrating gradient-based patterning rather than contact-dependent signaling.",
+        "B": "Correct. Shh is a morphogen — a secreted signaling molecule that acts in a concentration-dependent manner to specify different cell fates at different distances from the source. High Shh (near ZPA, posterior) → digit 5 (pinky). Low Shh (far from ZPA, anterior) → digit 2 (index). No Shh → digit 1 (thumb, Shh-independent). The classic experiment: transplanting a second ZPA to the anterior margin creates a mirror-image duplication (5-4-3-2-2-3-4-5 digit pattern), demonstrating that Shh concentration instructs digit identity. Shh signal transduction involves Patched receptor relief of Smoothened inhibition → Gli transcription factors.",
+        "C": "Digit identity is not random — it is precisely determined by morphogen gradients. Disrupting these gradients (Shh knockout, ectopic Shh expression) produces predictable, specific limb malformations.",
+        "D": "The ZPA does not destroy mesenchyme. It patterns the mesenchyme through instructive signaling. Programmed cell death (apoptosis) does sculpt the digits by removing interdigital webbing, but this is a separate process from ZPA-mediated anteroposterior patterning."
+      },
+      "topic": "ZPA / Sonic Hedgehog / Morphogen Gradient",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_embryo_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If a second ZPA were transplanted to the anterior margin of a developing limb bud, the predicted result would be:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "complete absence of all digits"
+        },
+        {
+          "label": "B",
+          "text": "normal digit pattern (1-2-3-4-5) because the transplant has no effect"
+        },
+        {
+          "label": "C",
+          "text": "formation of an extra limb at a random body location"
+        },
+        {
+          "label": "D",
+          "text": "mirror-image digit duplication (e.g., 5-4-3-2-2-3-4-5) — the ectopic Shh source creates a second posterior-to-anterior gradient, inducing posterior digit identities on both sides"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The ectopic ZPA does not destroy digit formation — it duplicates the patterning signal, creating additional digits with posterior identity, not eliminating them.",
+        "B": "The transplant has a dramatic effect because it introduces a second source of Shh morphogen. The original ZPA and the ectopic ZPA create opposing gradients, inducing mirror-image posterior digit identities on both sides of the limb bud.",
+        "C": "The extra ZPA influences only the local limb bud mesenchyme. It does not cause limb formation at distant body sites — limb bud initiation is controlled by other signals (Hox genes, FGF10, Wnt) at specific axial positions.",
+        "D": "Correct. This is the classic Saunders-Gasseling ZPA transplant experiment (1968). Transplanting ZPA tissue to the anterior margin creates a second Shh gradient. Mesenchyme cells between the two sources receive Shh from both sides, and their digit identity is determined by the relative concentration from each source. The result is a mirror-image duplication of posterior digits. This experiment was instrumental in identifying Shh as the ZPA morphogen and establishing the concept of gradient-based positional information in limb development."
+      },
+      "topic": "ZPA Transplant / Mirror-Image Duplication",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_embryo_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The apical ectodermal ridge (AER) controls limb outgrowth by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "secreting FGFs (fibroblast growth factors) that maintain underlying mesenchyme proliferation — removal of the AER halts outgrowth and results in limb truncation, with the level of truncation depending on when the AER is removed"
+        },
+        {
+          "label": "B",
+          "text": "producing Shh to pattern the anteroposterior axis"
+        },
+        {
+          "label": "C",
+          "text": "inhibiting all cell division in the limb bud"
+        },
+        {
+          "label": "D",
+          "text": "directly differentiating into bone and cartilage of the digits"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The AER (a thickened ectodermal ridge at the distal tip of the limb bud) secretes FGF4, FGF8, and other FGFs that signal to the underlying progress zone mesenchyme, maintaining it in a proliferative, undifferentiated state. This drives proximodistal outgrowth. Experimental AER removal: early removal → only proximal structures form (humerus); later removal → proximal + middle structures (humerus + radius/ulna); latest removal → complete limb. The reciprocal signaling loop: AER (FGFs) → mesenchyme proliferation; mesenchyme (FGF10) → AER maintenance. This positive feedback sustains limb growth.",
+        "B": "Shh from the ZPA patterns the anteroposterior axis. The AER controls the proximodistal axis (limb outgrowth). These are two distinct signaling centers with different morphogens and patterning roles, though they interact (Shh maintains AER expression through a positive feedback loop via Gremlin and FGFs).",
+        "C": "The AER promotes cell division in the underlying mesenchyme through FGF signaling. It does not inhibit division — removing it stops division and halts growth.",
+        "D": "The AER is ectodermal and does not directly form bone or cartilage. The skeletal elements of the limb derive from lateral plate mesoderm mesenchyme, which undergoes chondrogenesis (cartilage → bone through endochondral ossification) independently of ectodermal differentiation."
+      },
+      "topic": "AER / FGF / Proximodistal Outgrowth",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_embryo_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Hox genes are critical for embryonic patterning because they:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "encode structural proteins like collagen and elastin"
+        },
+        {
+          "label": "B",
+          "text": "function only in invertebrates and have no role in vertebrate development"
+        },
+        {
+          "label": "C",
+          "text": "are transcription factors that specify segment identity along the body axis — their expression follows spatial and temporal colinearity with chromosomal order, and mutations can cause homeotic transformations (one body part develops as another)"
+        },
+        {
+          "label": "D",
+          "text": "are expressed only in adult tissues and have no embryonic function"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Hox genes encode homeodomain transcription factors, not structural proteins. They regulate the expression of downstream target genes that control cell identity, proliferation, and differentiation along the body axis.",
+        "B": "Hox genes are highly conserved across all bilaterian animals — vertebrates and invertebrates. The four Hox gene clusters in mammals (HoxA, B, C, D) are homologous to the single Hox cluster (HOM-C) in Drosophila. Conservation of Hox genes across phyla was a key finding in evolutionary developmental biology (evo-devo).",
+        "C": "Correct. Hox genes are master regulators of body plan development. Key properties: (1) Colinearity — genes at the 3' end of the cluster are expressed earlier and more anteriorly; genes at the 5' end are expressed later and more posteriorly. (2) Homeotic transformations — gain or loss of function causes one segment to adopt another's identity (e.g., Antennapedia mutation in Drosophila: legs grow where antennae should be). (3) In limb development, HoxA and HoxD clusters specify proximodistal identity (arm vs forearm vs hand). Hox gene mutations in humans cause synpolydactyly, hand-foot-genital syndrome.",
+        "D": "Hox genes are expressed primarily during embryonic development to establish the body plan. While some Hox genes have later roles (hematopoiesis, adult tissue maintenance), their primary and most critical function is in embryonic patterning."
+      },
+      "topic": "Hox Genes / Colinearity / Homeotic Transformations",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_embryo_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Teratogens are environmental agents that can cause birth defects. The critical period of greatest susceptibility to teratogens is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "after birth, during infancy"
+        },
+        {
+          "label": "B",
+          "text": "only during fertilization itself"
+        },
+        {
+          "label": "C",
+          "text": "there is no period of susceptibility; teratogens have no effect at any time"
+        },
+        {
+          "label": "D",
+          "text": "during organogenesis (weeks 3-8) — this is when the major organ systems are forming and are most vulnerable to disruption; exposure before this may cause death, while exposure after may cause functional deficits but less severe structural malformations"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "After birth, the major organs are already formed. Environmental exposures can still affect development (growth, brain maturation), but the risk of major structural birth defects is much lower than during embryonic organogenesis.",
+        "B": "Exposure during the first two weeks (pre-embryonic period, before implantation) follows the 'all-or-none' principle: the embryo either dies (spontaneous abortion) or survives with no defect (because cells are still totipotent and can compensate). The critical period for structural malformations is during organogenesis.",
+        "C": "Teratogens have well-documented effects. The dose-response relationship, timing sensitivity, and species specificity of teratogenic effects are extensively studied.",
+        "D": "Correct. Organogenesis (weeks 3-8, embryonic period) is when tissues differentiate into specific organ primordia. Each organ has its own critical period during which it is most susceptible. Examples: thalidomide (limb defects, days 20-36), rubella (heart defects, cataracts, deafness, weeks 3-8), alcohol (fetal alcohol spectrum — craniofacial, CNS, cardiac defects, most severe with first-trimester exposure), retinoic acid/isotretinoin (craniofacial, cardiac, CNS defects). After week 8 (fetal period), growth and maturation predominate — teratogens cause functional deficits rather than major structural anomalies."
+      },
+      "topic": "Teratogens / Critical Period / Organogenesis",
+      "difficulty": "Easy"
+    }
+  ]
+}

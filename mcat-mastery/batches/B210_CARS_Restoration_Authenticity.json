@@ -1,0 +1,246 @@
+{
+  "batch": "B210",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Restoration, Authenticity & Historical Interpretation",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_restoration_authenticity_210_q0",
+      "passage": "When a museum restores a fractured vase, it is tempting to imagine that the object is being returned to itself. The language of restoration encourages this fantasy. A conservator “reveals” the original surface, “removes” later accretions, or “recovers” the artist’s intention, as though the past lay intact beneath the grime, waiting only for technical competence and patience. Yet restoration is never merely a rescue operation. It is also an act of interpretation, and sometimes of quiet invention. To decide which cracks to disguise, which repairs to expose, and which discolorations to preserve is to decide what kind of history the object should be allowed to have.\n\nThis difficulty is often concealed because modern spectators tend to equate authenticity with visual completeness. A statue missing its arm appears damaged; a manuscript darkened by use appears compromised; a fresco with blank regions seems unfinished, even if the loss itself is part of the object’s life. The restored object is therefore frequently made to satisfy a desire not for the past, but for a past uninjured by time. In this sense, restoration can become a subtle form of denial. It allows viewers to encounter antiquity without confronting the violence, neglect, trade, worship, theft, weather, and accident through which antiquity has actually survived.\n\nBut the opposite impulse is no less problematic. Some critics, reacting against over-restoration, now celebrate every scar as though damage automatically conferred truth. They speak of cracks and stains as if they were moral credentials. This reverence for ruin can be just as sentimental as the craving for wholeness. A broken object is not necessarily more honest than a repaired one; decay may obscure as much as it reveals. To leave a painting darkened by centuries of varnish may preserve evidence of age, but it may also imprison the work in a condition its maker never intended. The cult of the ruin and the cult of the pristine original are mirror images: each imagines that authenticity can be secured by a single visual attitude.\n\nA more serious conservation ethic would begin by admitting that objects do not possess one pure historical identity. They accumulate identities. A medieval altar panel may be at once a devotional instrument, a workshop product, a commodity, a war survivor, a collector’s trophy, and a museum exhibit. No restoration can present all these identities equally. Every intervention gives priority to some chapter of the object’s history while muting others. To restore the panel’s gold background may revive its liturgical brilliance but diminish the visible marks of its later dislocation. To preserve those marks may honor its survival but obscure the aesthetic force that once made it worth preserving. The conservator’s task, then, is not to choose between truth and falsification, but among competing truths.\n\nThis is why the most responsible restorations often appear modest. They do not pretend to abolish time, nor do they fetishize its injuries. Instead, they make their own partiality legible. A filled crack may be toned so that it does not distract from the whole, yet remain visible upon close inspection. A missing passage may be stabilized rather than imaginatively completed. A surface may be cleaned enough to recover contrast, but not so aggressively that all later history is erased. Such choices disappoint those who want restoration to deliver either resurrection or confession. But their restraint reflects a deeper honesty: the recognition that preservation is not the opposite of change, but one of its forms.\n\nMuseums, however, rarely emphasize this ambiguity. Wall labels tend to narrate restoration as progress from obscurity to clarity. Before-and-after images invite viewers to applaud the triumph of expertise. Donors prefer visible transformation; institutions prefer success stories; the public prefers objects that look as if they have escaped time rather than negotiated with it. Thus the ethical complexity of restoration is often translated into a simpler drama of rescue. The object emerges cleaner, brighter, more complete — and perhaps less capable of testifying to the very history that made its survival meaningful.\n\nThe question, finally, is not whether restoration should occur. Without intervention, many works would vanish altogether. The question is whether restoration can resist the temptation to make survival look effortless. A culture mature enough to preserve its artifacts should also be mature enough to let them bear evidence of preservation. The past does not come down to us whole. It comes repaired, displaced, interpreted, and sometimes misread. To pretend otherwise is not to honor history, but to polish it until it reflects only our own longing.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Museum restoration is inherently deceptive because it replaces historical evidence with modern aesthetic preferences."
+        },
+        {
+          "label": "B",
+          "text": "The best restoration practices are those that preserve visible damage rather than attempting to recreate an object’s original appearance."
+        },
+        {
+          "label": "C",
+          "text": "Authenticity in restoration depends primarily on recovering the artist’s original intention while minimizing later alterations."
+        },
+        {
+          "label": "D",
+          "text": "Restoration is an interpretive process that must balance competing historical identities rather than simply recover or preserve a single authentic past."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice is too extreme. The passage criticizes restorations that hide evidence of time and create the illusion of an untouched past, but it does not claim that restoration is inherently deceptive. The final paragraph explicitly acknowledges that without intervention, many works would vanish altogether. The author’s target is not restoration itself, but restoration that pretends not to interpret or change the object.",
+        "B": "This choice captures one pole in the debate but mistakes that pole for the author’s position. The author criticizes the desire for pristine wholeness, but also criticizes the opposite impulse: treating every crack, stain, and loss as automatically truthful. The passage says that decay may obscure as much as it reveals, so simply preserving visible damage is not presented as the best solution.",
+        "C": "This choice reflects a view the passage complicates rather than endorses. The author mentions recovering the artist’s intention as part of restoration’s common language, but then argues that objects accumulate many identities after creation. Original intention may be one relevant historical layer, but it is not the primary or exclusive standard of authenticity in the passage.",
+        "D": "Correct. The passage’s central claim is that restoration is not a neutral return to a single authentic past. Objects accumulate multiple legitimate histories, and every intervention emphasizes some of those histories while muting others. The author therefore frames responsible restoration as an interpretive balancing of competing truths, not as simple recovery, concealment, or preservation of one privileged condition."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_restoration_authenticity_210_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would most likely agree with which of the following statements about visual completeness?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It is the most reliable indicator that an artwork has been restored responsibly."
+        },
+        {
+          "label": "B",
+          "text": "It can mislead viewers into believing they are seeing the past without the effects of time and history."
+        },
+        {
+          "label": "C",
+          "text": "It should be avoided because incomplete objects are always more historically truthful."
+        },
+        {
+          "label": "D",
+          "text": "It is valuable only when it allows museums to attract public interest and donor support."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice reverses the author’s concern. The passage says modern spectators tend to equate authenticity with visual completeness, but that tendency is presented as a problem. Visual completeness may satisfy the viewer’s desire for wholeness while concealing the object’s survival through damage, displacement, use, and repair.",
+        "B": "Correct. The author argues that restored objects are often made to satisfy a desire not for the past itself, but for a past uninjured by time. Visual completeness can therefore create a misleading experience of antiquity, allowing viewers to avoid confronting the violence, neglect, trade, weather, accident, and other historical processes through which the object survived.",
+        "C": "This choice goes too far in the opposite direction. The author does not say incomplete objects are always more historically truthful. In fact, the author directly criticizes the reverence for ruin and warns that decay can obscure as much as it reveals. The author rejects both pristine completeness and automatic celebration of incompleteness.",
+        "D": "This choice is too narrow. The passage does connect visible transformation with donors, institutions, and public preference, but the author’s concern about visual completeness is deeper than fundraising or audience appeal. The real issue is that visual wholeness can create a false relationship to history by making survival seem effortless."
+      },
+      "topic": "Author's Viewpoint",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_restoration_authenticity_210_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the third paragraph, the author discusses critics who celebrate every scar primarily in order to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "show that opposition to over-restoration can become another simplistic view of authenticity."
+        },
+        {
+          "label": "B",
+          "text": "argue that damaged objects should be repaired more aggressively than they currently are."
+        },
+        {
+          "label": "C",
+          "text": "suggest that modern critics understand restoration better than museum conservators do."
+        },
+        {
+          "label": "D",
+          "text": "prove that the original condition of an artwork is impossible to recover."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The third paragraph complicates the argument by showing that the reaction against over-restoration can become its own sentimental simplification. Treating every scar as a moral credential is, for the author, just as reductive as treating wholeness as authenticity. The paragraph’s function is to reject the idea that damage automatically guarantees truth.",
+        "B": "This choice misreads the paragraph’s purpose. The author is not using the discussion of scar-celebrating critics to call for more aggressive repair. The preferred approach later in the passage is modest, legible intervention, not aggressive restoration. The point is not to swing back toward maximal repair, but to avoid both extremes.",
+        "C": "This choice reverses the author’s attitude. The critics in this paragraph are not presented as superior to conservators; they are being criticized for sentimentalizing damage. The author treats their position as another form of simplification, not as a more sophisticated understanding of restoration.",
+        "D": "This choice is too broad and not the paragraph’s main function. The passage as a whole suggests that recovering a pure original condition is philosophically complicated, but the third paragraph specifically targets the opposite extreme: the assumption that unrestored damage is inherently more authentic."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_restoration_authenticity_210_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The phrase competing truths in the fourth paragraph most nearly means:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "factual claims about an object that cannot all be historically verified."
+        },
+        {
+          "label": "B",
+          "text": "incompatible museum narratives created to appeal to different audiences."
+        },
+        {
+          "label": "C",
+          "text": "different legitimate aspects of an object’s history that cannot all be emphasized equally."
+        },
+        {
+          "label": "D",
+          "text": "opposing theories about whether restoration should be performed by artists or historians."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice incorrectly turns the phrase into a problem of evidence or verification. The author is not mainly saying that different claims about the object are uncertain or unverifiable. Instead, the passage says that multiple real layers of the object’s history can coexist, even though restoration cannot foreground all of them at once.",
+        "B": "This choice is tempting because museums do present narratives, but it narrows the phrase too much. The author’s point is not mainly that museums invent different stories for different audiences. The competition exists within the object’s own layered history: devotional use, workshop production, commodification, survival, collection, and exhibition.",
+        "C": "Correct. The phrase refers to the fact that an artifact can possess multiple legitimate historical identities, but any restoration decision prioritizes some of those identities while muting others. For example, restoring an altar panel’s gold background may recover liturgical brilliance while diminishing evidence of later displacement. Both are historically meaningful, but they cannot be equally emphasized in one visual presentation.",
+        "D": "This choice introduces a debate that the passage does not discuss. The author does not frame restoration as a conflict between artists and historians. The issue is not who performs restoration, but how restoration decisions inevitably prioritize certain historical meanings over others."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_restoration_authenticity_210_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following examples would best illustrate the author’s preferred approach to restoration?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A museum repaints missing portions of an ancient mural so that visitors can experience it as its original audience would have."
+        },
+        {
+          "label": "B",
+          "text": "A museum refuses to clean a darkened painting because any alteration would interfere with the object’s accumulated history."
+        },
+        {
+          "label": "C",
+          "text": "A museum cleans a painting selectively, stabilizes damaged areas, and leaves repairs visible under close examination."
+        },
+        {
+          "label": "D",
+          "text": "A museum displays a broken sculpture without intervention because its fragmentary condition is more authentic than any repaired version."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice resembles the resurrection model the author distrusts. Repainting missing portions in order to recreate the original audience’s experience may erase the object’s later history and make survival appear effortless. The author would likely see this as a restoration that overclaims access to the past and hides its own interpretive role.",
+        "B": "This choice represents the opposite extreme: refusing alteration because every accumulated mark must remain untouched. The author criticizes that stance by noting that darkened varnish may preserve evidence of age but may also imprison the work in a condition its maker never intended. Nonintervention is not automatically more honest than restoration.",
+        "C": "Correct. This example closely matches the passage’s preferred model of modest, legible intervention. The author praises restorations that recover enough clarity to make the work intelligible while leaving evidence of repair visible upon close inspection. Such an approach neither abolishes time nor fetishizes damage, and it makes the restorer’s partiality legible.",
+        "D": "This choice repeats the cult of the ruin view that the author rejects. The author does not believe a broken object is necessarily more authentic than a repaired one. Fragmentary condition may be historically meaningful, but treating brokenness as automatically superior is another simplistic visual attitude."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_restoration_authenticity_210_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author’s attitude toward museums’ public presentation of restoration is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "critical, because museums often simplify restoration into a story of technical success rather than ethical choice."
+        },
+        {
+          "label": "B",
+          "text": "dismissive, because museums lack the expertise necessary to restore objects responsibly."
+        },
+        {
+          "label": "C",
+          "text": "admiring, because museums help the public understand the full complexity of conservation decisions."
+        },
+        {
+          "label": "D",
+          "text": "neutral, because museums merely reflect public preferences without shaping them."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The sixth paragraph criticizes museums for translating the ethical complexity of restoration into a simpler drama of rescue. Wall labels, before-and-after images, donor expectations, and institutional success stories all encourage viewers to see restoration as progress from obscurity to clarity rather than as a series of interpretive choices.",
+        "B": "This choice overstates the criticism and targets the wrong issue. The author does not claim museums lack expertise. In fact, the passage recognizes technical competence and the necessity of intervention. The problem is not incompetence, but the public narrative that turns interpretive restoration into a triumphalist story of rescue.",
+        "C": "This choice is nearly the opposite of the author’s view. The passage says museums rarely emphasize ambiguity and often present restoration as progress from obscurity to clarity. The author’s criticism is precisely that museums fail to help the public see the full ethical complexity of conservation.",
+        "D": "This choice understates museums’ role. The passage does say public preference matters, but museums are not described as merely passive. Wall labels, before-and-after images, institutional narratives, and donor-driven success stories actively shape how viewers understand restoration."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_restoration_authenticity_210_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the author’s argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that most museum visitors prefer objects that appear clean, bright, and visually complete."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that many museums now publicly document restoration decisions, including uncertainties, rejected alternatives, and the historical layers each intervention may obscure."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that damaged artifacts are often more expensive to preserve than fully restored ones."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that many artists expected their works to be repaired, repainted, or altered over time."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice would not weaken the author’s argument; it would support part of it. The passage argues that the public often prefers objects that look as if they have escaped time. Evidence of this preference would reinforce the author’s concern that visual completeness can encourage a misleading relationship to history.",
+        "B": "Correct. A major part of the author’s argument is that museums rarely emphasize the ambiguity of restoration and often present it as a simple success story. If many museums already publicly documented uncertainties, rejected alternatives, and the historical layers obscured by each intervention, that would weaken the claim that restoration is commonly narrated as technical rescue rather than ethical interpretation.",
+        "C": "This choice is largely irrelevant to the author’s central reasoning. Preservation costs might affect museum policy, but the passage is concerned with authenticity, interpretation, and the visibility of restoration’s partiality. Expense does not directly challenge the author’s philosophical argument about competing historical identities.",
+        "D": "This choice would complicate simple appeals to original intention, but it would not weaken the author’s main argument. If artists expected their works to be altered over time, that would actually support the idea that objects do not possess one pure identity and that restoration must consider multiple historical layers."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

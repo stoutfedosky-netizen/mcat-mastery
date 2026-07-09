@@ -1,0 +1,335 @@
+{
+  "batch": "B133",
+  "section": "cars",
+  "sectionName": "Critical Analysis and Reasoning Skills",
+  "topicArea": "Philosophy of Science & Epistemology",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cars_phisci_001",
+      "passage": "Thomas Kuhn's The Structure of Scientific Revolutions unsettled a comforting picture of science. Before Kuhn, the dominant view \u2014 associated with logical positivism and Karl Popper's falsificationism \u2014 held that science progresses through the steady accumulation of knowledge. Scientists propose hypotheses, test them against evidence, discard the false ones, and build upward on what survives. Progress is linear, rational, and largely independent of the social circumstances in which scientists work. Kuhn replaced this gradualism with a two-phase model. During 'normal science,' researchers work within an accepted paradigm \u2014 a shared framework of assumptions, methods, and exemplary results that defines what counts as a legitimate problem and an acceptable solution. Normal science is not a search for novelty but an exercise in puzzle-solving, extending the paradigm's reach by tackling problems it has generated. Anomalies that resist solution are set aside or explained away, not treated as refutations.\n\nRevolution occurs when anomalies accumulate to a point of crisis. A new paradigm emerges that reinterprets the field's data, redefines its central questions, and often renders the old and new frameworks incommensurable \u2014 literally lacking a common measure by which to compare them. The transition from Newtonian mechanics to Einsteinian relativity is Kuhn's most cited example: the two theories do not merely disagree about the answers; they disagree about what the questions are. Mass, space, and time mean different things in each framework. For Kuhn, choosing between paradigms during a revolution is not a purely logical exercise governed by evidence alone; it involves aesthetic judgment, generational turnover, and what he provocatively called a 'gestalt switch' \u2014 a reorientation of perception that cannot be fully justified by the data available at the moment of transition.\n\nCritics charged that Kuhn had made science irrational. If paradigm choice is not dictated by evidence, what distinguishes scientific revolutions from political ones? Kuhn spent his later career qualifying his position, insisting that puzzle-solving ability, predictive accuracy, and scope do constrain paradigm choice, even if they do not determine it algorithmically. But the damage \u2014 or the insight, depending on one's sympathies \u2014 was done. Kuhn had exposed the sociological dimension of scientific change and made it impossible to discuss the progress of science without asking: progress relative to what?",
+      "stem": "The author's characterization of the pre-Kuhnian view of science serves primarily to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "demonstrate that logical positivism and falsificationism are fundamentally incompatible philosophical positions"
+        },
+        {
+          "label": "B",
+          "text": "establish a contrast with Kuhn's model by outlining the gradualist view that Kuhn's work challenged"
+        },
+        {
+          "label": "C",
+          "text": "argue that the pre-Kuhnian view was entirely correct and that Kuhn's intervention was unnecessary"
+        },
+        {
+          "label": "D",
+          "text": "provide historical background on Popper's career and his contributions to the philosophy of mathematics"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage associates logical positivism and Popper's falsificationism as part of the same 'dominant view' \u2014 a shared commitment to linear, evidence-driven scientific progress. The author treats them as allied positions, not incompatible ones. The purpose of the pre-Kuhnian description is to set up what Kuhn disrupted, not to analyze internal divisions within the earlier tradition.",
+        "B": "The opening paragraph describes the pre-Kuhnian view \u2014 steady accumulation, hypothesis testing, linear progress \u2014 specifically to make Kuhn's alternative legible. The contrast structure is explicit: 'Kuhn replaced this gradualism with a two-phase model.' By first articulating the comfortable picture of science as rational and cumulative, the author creates the foil against which Kuhn's paradigm-shift model (normal science, crisis, revolution, incommensurability) appears as a genuine departure.",
+        "C": "The passage does not endorse the pre-Kuhnian view. The author describes it as 'a comforting picture' that Kuhn 'unsettled' \u2014 language suggesting that the disruption was warranted or at least productive. The final line ('the damage \u2014 or the insight, depending on one's sympathies') acknowledges that Kuhn's intervention was consequential, not that it was unnecessary.",
+        "D": "The passage mentions Popper only briefly and in connection with falsificationism, not the philosophy of mathematics. The paragraph's purpose is to sketch the intellectual landscape Kuhn disrupted, not to provide a biographical account of Popper. Popper is introduced as a representative of the view Kuhn challenged, not as a subject of independent historical interest."
+      },
+      "topic": "Author's Purpose / Passage Structure",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_phisci_002",
+      "usePrevPassage": true,
+      "stem": "As used in the passage, the term 'incommensurable' most nearly means:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "unable to be measured or compared using a shared standard, because rival paradigms define their central concepts differently enough that direct logical comparison between them is impossible"
+        },
+        {
+          "label": "B",
+          "text": "mathematically incompatible, in the sense that the equations of one theory cannot be derived from those of another"
+        },
+        {
+          "label": "C",
+          "text": "politically opposed, reflecting the competing social interests of scientists in different research programs"
+        },
+        {
+          "label": "D",
+          "text": "chronologically separated, meaning only that the two theories were developed in different historical periods"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The passage defines incommensurability contextually: paradigms that are incommensurable 'literally lack a common measure by which to compare them.' The author illustrates this with the Newton-Einstein example, noting that 'mass, space, and time mean different things in each framework.' Incommensurability is thus a claim about conceptual frameworks \u2014 the terms and standards of one paradigm cannot serve as neutral ground for evaluating another, because the concepts themselves shift meaning across paradigms.",
+        "B": "While competing theories may use different mathematical formalisms, Kuhn's concept of incommensurability is broader than mathematical derivability. The passage emphasizes that the two theories 'disagree about what the questions are' and that fundamental concepts change meaning \u2014 this is a conceptual and linguistic claim, not merely a claim about the relationship between equations. Mathematical incompatibility is too narrow to capture what Kuhn means.",
+        "C": "The passage does acknowledge a sociological dimension to paradigm shifts, and critics charged that Kuhn's view blurred the line between scientific and political revolutions. However, incommensurability as defined in the passage is a conceptual relationship between frameworks \u2014 a lack of shared conceptual measure \u2014 not a claim about competing social interests. The political reading is addressed in the criticism paragraph, not in the definition of incommensurability itself.",
+        "D": "Chronological separation is neither necessary nor sufficient for incommensurability. Two theories can be developed in different eras and still be commensurable (comparable by shared standards), and Kuhn's point is not about temporal distance but about conceptual divergence. The passage's illustration \u2014 that Newtonian and Einsteinian frameworks define mass, space, and time differently \u2014 is a claim about the structure of the theories, not about when they were proposed."
+      },
+      "topic": "Word-in-Context / Definition",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phisci_003",
+      "usePrevPassage": true,
+      "stem": "Based on the passage, Kuhn would most likely characterize a scientist who encounters experimental results that contradict the dominant paradigm as someone who:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "immediately publishes the results as a decisive refutation of the paradigm, consistent with Popper's falsificationist methodology"
+        },
+        {
+          "label": "B",
+          "text": "treats the results as an anomaly to be set aside or explained within the existing framework, continuing normal puzzle-solving activity unless anomalies accumulate to a crisis point"
+        },
+        {
+          "label": "C",
+          "text": "abandons the field entirely, since contradictory evidence proves the paradigm was always wrong from the beginning"
+        },
+        {
+          "label": "D",
+          "text": "requests that other laboratories replicate the results before considering any theoretical implications"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This describes the Popperian falsificationist model, which Kuhn specifically challenged. In Kuhn's account, anomalies that resist solution during normal science are not treated as refutations \u2014 they are 'set aside or explained away.' A single contradictory result does not trigger paradigm rejection because normal science is structured to absorb and domesticate anomalies, not to treat each one as a potential refutation.",
+        "B": "Kuhn's model of normal science predicts exactly this behavior. During normal science, the paradigm is not questioned \u2014 it is the framework within which puzzles are formulated and solved. Anomalies are acknowledged but accommodated: attributed to experimental error, set aside as unsolved puzzles, or reinterpreted within the paradigm's terms. Revolution occurs only when anomalies accumulate to a crisis that the paradigm can no longer contain. The individual scientist encountering a single contradictory result would, in Kuhn's framework, treat it as a puzzle rather than a paradigm-threatening discovery.",
+        "C": "Kuhn does not suggest that scientists abandon their fields when anomalies arise. Normal science is remarkably resilient \u2014 scientists have careers, institutional commitments, and intellectual investments in the paradigm. Anomalies are accommodated for extended periods before reaching the crisis threshold. The passage describes anomalies being 'set aside or explained away,' not triggering mass abandonment.",
+        "D": "While replication is a feature of scientific practice, the passage does not frame Kuhn's account around replication requests. Kuhn's description of normal science emphasizes the paradigm's absorptive capacity \u2014 its ability to accommodate anomalies within its existing framework \u2014 rather than the procedural mechanics of replication. The response Kuhn describes is not cautious verification but active domestication of the anomaly."
+      },
+      "topic": "Application / Kuhn's Model",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phisci_004",
+      "usePrevPassage": true,
+      "stem": "The critics' charge that Kuhn 'made science irrational' most directly targets which aspect of his argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "his description of normal science as routine puzzle-solving rather than bold conjecture"
+        },
+        {
+          "label": "B",
+          "text": "his assertion that scientific theories must be mathematically formalized before they can be considered legitimate"
+        },
+        {
+          "label": "C",
+          "text": "his use of historical examples drawn exclusively from physics rather than from biology, chemistry, or the social sciences"
+        },
+        {
+          "label": "D",
+          "text": "his claim that paradigm transitions are not fully determined by evidence and logic alone, but involve aesthetic, sociological, and perceptual factors that resist purely rational justification"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The puzzle-solving characterization of normal science is not what prompted the irrationality charge. Normal science, as Kuhn describes it, operates within rational constraints \u2014 the paradigm defines problems and acceptable solutions, and scientists work methodically within those boundaries. The charge of irrationality targets the revolutionary phase, where paradigm choice goes beyond what evidence and logic can determine, not the orderly work of normal science.",
+        "B": "The passage does not attribute to Kuhn any claim about mathematical formalization as a criterion for scientific legitimacy. Kuhn's argument is about the structure of scientific change (paradigms, normal science, revolutions), not about formalization requirements. This choice introduces a position not discussed in the passage.",
+        "C": "The passage does not raise the scope of Kuhn's examples as a basis for the irrationality charge. While Kuhn's most cited example is from physics (Newton to Einstein), the criticism is directed at his theoretical claims about how paradigm change works, not at which disciplines he drew his illustrations from. The irrationality concern is philosophical, not methodological.",
+        "D": "The irrationality charge directly follows from Kuhn's claim that choosing between paradigms 'is not a purely logical exercise governed by evidence alone' and involves 'aesthetic judgment, generational turnover, and a gestalt switch.' If paradigm choice cannot be fully justified by data, critics argued, then the most consequential moments in science \u2014 the revolutions that reshape entire fields \u2014 are not rational in the way that logical positivists and Popperians understood rationality. The charge is specifically about the non-evidential factors in paradigm transition."
+      },
+      "topic": "Detail Retrieval / Argument Identification",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phisci_005",
+      "usePrevPassage": true,
+      "stem": "The passage's final question \u2014 'progress relative to what?' \u2014 most directly challenges the assumption that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "there exists a fixed, paradigm-independent standard against which scientific progress can be measured, since Kuhn's incommensurability thesis implies that the criteria for progress shift with each paradigm change"
+        },
+        {
+          "label": "B",
+          "text": "scientists are motivated by curiosity rather than financial incentives"
+        },
+        {
+          "label": "C",
+          "text": "scientific revolutions occur more frequently in physics than in other disciplines"
+        },
+        {
+          "label": "D",
+          "text": "Kuhn's later qualifications successfully addressed all of his critics' concerns"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The pre-Kuhnian view assumed that science progresses toward truth along a single trajectory \u2014 accumulating knowledge, discarding false hypotheses, building on survivors. Kuhn's paradigm theory disrupts this by suggesting that paradigms define what counts as progress, making progress paradigm-relative rather than absolute. 'Progress relative to what?' asks whether there is any paradigm-independent standpoint from which to judge whether one framework is genuinely better than another, or whether 'progress' is always internal to a particular framework's standards.",
+        "B": "The passage does not discuss scientists' personal motivations \u2014 financial incentives, curiosity, or career ambitions are not part of the argument. The question 'progress relative to what?' is epistemological (about the nature of knowledge and its standards) rather than psychological (about why individuals pursue science). Motivation is outside the passage's scope.",
+        "C": "The passage does not compare the frequency of revolutions across disciplines. The final question is about the conceptual foundations of the idea of progress itself, not about disciplinary differences in the pace of paradigm change. The Newton-Einstein example illustrates incommensurability, not a claim about physics being more revolution-prone than other fields.",
+        "D": "While the passage does mention Kuhn's later qualifications, the final question is not directed at whether those qualifications were successful. 'Progress relative to what?' is the broader epistemological challenge that Kuhn's work raised \u2014 a question about the nature of scientific progress that persists regardless of how effectively Kuhn responded to his critics."
+      },
+      "topic": "Inference / Conceptual Implication",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_phisci_006",
+      "passage": "The replication crisis in psychology has prompted a reckoning not merely with individual studies but with the epistemic infrastructure of empirical science. Between 2011 and 2015, a series of high-profile failures to reproduce classic findings \u2014 from ego depletion to social priming to the facial-feedback hypothesis \u2014 exposed the fragility of results that had been cited thousands of times and incorporated into textbooks. The immediate diagnosis was methodological: small sample sizes, flexible data analysis, publication bias favoring positive results, and the perverse incentive structure of academic careers that rewards novelty over reliability.\n\nBut the deeper question is whether replication is the right criterion for scientific progress in the first place. The standard account treats replication as the gold standard of empirical credibility: a finding that can be independently reproduced is considered robust; one that cannot is considered suspect. This presupposes that the phenomena under study are stable across contexts \u2014 that an effect demonstrated in a laboratory at Stanford should reappear in a laboratory in Amsterdam. For many phenomena in physics and chemistry, this assumption holds. For human behavior, it may not. Cultural variation, historical change, demand characteristics, and the reflexive nature of human subjects \u2014 people who are aware they are being studied and who may alter their behavior accordingly \u2014 all threaten the premise that psychological effects are context-independent natural kinds.\n\nThis does not mean psychology is unscientific. It means that the model of science borrowed from the natural sciences may be a poor fit for disciplines studying reflexive, culturally embedded agents. The replication crisis may be less a sign that psychology has failed to be scientific than a sign that the definition of 'scientific' needs to accommodate the distinctive features of its subject matter. The alternative is not to abandon rigor but to reconceive it: to ask what forms of evidence \u2014 longitudinal studies, cross-cultural comparison, ecological validity, theoretical integration \u2014 might supplement or partly replace the single-study, context-free replication standard that psychology imported from laboratory physics.",
+      "stem": "The author's central argument about the replication crisis is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the crisis demonstrates that psychology is not a legitimate scientific discipline and should not receive public funding"
+        },
+        {
+          "label": "B",
+          "text": "the crisis was caused entirely by deliberate fraud among prominent social psychologists"
+        },
+        {
+          "label": "C",
+          "text": "the crisis reveals a mismatch between the epistemic standards psychology borrowed from the natural sciences and the distinctive properties of its subject matter"
+        },
+        {
+          "label": "D",
+          "text": "replication failures prove that no psychological finding has ever been valid"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage explicitly rejects this conclusion: 'This does not mean psychology is unscientific.' The author's argument is not that psychology fails to meet scientific standards but that the standards themselves \u2014 borrowed from natural sciences studying context-independent phenomena \u2014 may be poorly suited to psychology's reflexive, culturally embedded subject matter. The author calls for reconceiving rigor, not abandoning the discipline.",
+        "B": "The passage does not mention fraud as a contributing factor. The 'immediate diagnosis' described is methodological \u2014 small samples, flexible analysis, publication bias, and incentive structures \u2014 not deliberate misconduct. The author is interested in systemic and philosophical issues, not individual malfeasance. Reducing the crisis to fraud would undermine the passage's argument that the problem is structural.",
+        "C": "The passage's core argument moves from diagnosing the crisis (methodological problems in individual studies) to questioning the deeper assumption (that the replication standard is appropriate for psychology). The author argues that replication presupposes context-independent, stable phenomena \u2014 an assumption that may hold in physics but not for human behavior shaped by culture, history, and reflexive awareness. The crisis thus reveals an epistemic mismatch rather than a simple failure of competence.",
+        "D": "The passage does not claim that all psychological findings are invalid. The author acknowledges that specific high-profile results failed to replicate, but the argument is about the appropriateness of using replication as the primary criterion for validity in psychology. Some findings may be context-dependent rather than false \u2014 genuine effects that vary across populations and settings rather than artifacts of poor methodology."
+      },
+      "topic": "Main Idea / Central Argument",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phisci_007",
+      "usePrevPassage": true,
+      "stem": "The author mentions 'demand characteristics' and 'the reflexive nature of human subjects' primarily to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "argue that research participants deliberately sabotage experiments to prevent replication"
+        },
+        {
+          "label": "B",
+          "text": "recommend that psychology abandon laboratory experiments entirely in favor of naturalistic observation"
+        },
+        {
+          "label": "C",
+          "text": "illustrate why the assumption of context-independent, stable effects may not hold for psychological phenomena, since human subjects' awareness of being studied can itself alter the behavior under investigation"
+        },
+        {
+          "label": "D",
+          "text": "provide evidence that the replication crisis has been resolved through improved experimental controls"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage does not suggest that participants deliberately sabotage research. 'Demand characteristics' refers to cues in an experimental setting that inform participants about the researcher's expectations, potentially altering their behavior \u2014 this is an unintentional methodological influence, not deliberate interference. The reflexive nature of human subjects means they respond to the awareness of being studied, which is an inherent feature of human psychology, not an act of sabotage.",
+        "B": "The passage does not recommend abandoning laboratory experiments. The author's concluding suggestion is to supplement replication with other forms of evidence \u2014 'longitudinal studies, cross-cultural comparison, ecological validity, theoretical integration' \u2014 not to eliminate experimental approaches. The mention of demand characteristics supports the argument for epistemic pluralism, not for methodological exclusion.",
+        "C": "The author introduces demand characteristics and reflexivity as examples of why psychological phenomena may not behave like the stable, context-independent effects that replication assumes. If participants' awareness of being studied changes the phenomenon itself, then the same experiment in a different setting \u2014 with different cues, different participant populations, different cultural contexts \u2014 may produce different results not because the original finding was false, but because the effect is genuinely context-dependent. These examples support the passage's central claim about epistemic mismatch.",
+        "D": "The passage does not claim that the replication crisis has been resolved. The author discusses it as an ongoing challenge that requires rethinking the standards of evidence, not one that has been fixed through better experimental controls. Improved methodology is part of the 'immediate diagnosis' but does not address the deeper question about whether replication is the right standard for psychology."
+      },
+      "topic": "Author's Purpose / Supporting Detail",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phisci_008",
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most STRENGTHEN the author's argument that the replication standard may be poorly suited to psychology?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a study showing that a well-established physics experiment produced identical results across twenty laboratories worldwide"
+        },
+        {
+          "label": "B",
+          "text": "evidence that a classic social psychology effect reliably replicates in individualist Western cultures but consistently fails to replicate in collectivist East Asian cultures, with the cultural difference itself being a meaningful and theoretically predicted finding"
+        },
+        {
+          "label": "C",
+          "text": "a meta-analysis demonstrating that most failed replications in psychology were caused by computational errors in the original studies"
+        },
+        {
+          "label": "D",
+          "text": "a survey showing that most psychology journal editors continue to prefer novel findings over replication studies"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A physics experiment replicating perfectly across laboratories would reinforce the replication standard for physics but would not speak to the author's argument about psychology. The author's claim is specifically that psychological phenomena differ from physical phenomena in their context-dependence. Demonstrating that physics experiments replicate well would support the premise the author already accepts \u2014 that replication works for context-independent natural phenomena \u2014 without advancing the argument about psychology.",
+        "B": "This finding would directly illustrate the author's key claim: that psychological effects may be genuine but context-dependent rather than universal. If an effect reliably appears in one cultural context and reliably disappears in another \u2014 and if this pattern is theoretically meaningful \u2014 then the failure to replicate across cultures is not evidence of a false original finding but evidence of a real cultural moderation effect. This would demonstrate that the binary replication criterion (replicates = real, doesn't = fake) misses the important scientific question of how and why behavior varies across contexts.",
+        "C": "If failed replications were primarily due to computational errors in original studies, this would suggest the replication standard is working correctly \u2014 identifying genuinely flawed findings. The author's argument is not that original studies were done incorrectly but that the phenomena themselves may be context-dependent. Computational errors would support the methodological diagnosis the author considers insufficient, not the deeper epistemic argument.",
+        "D": "While publication bias is part of the 'immediate diagnosis' the passage describes, editor preferences do not address the author's deeper argument about whether replication is the right criterion for psychological science. This finding would support the claim that incentive structures are problematic \u2014 a point the author already makes \u2014 but would not strengthen the argument that psychological phenomena are inherently context-dependent."
+      },
+      "topic": "Strengthen the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_phisci_009",
+      "usePrevPassage": true,
+      "stem": "The author's reference to 'laboratory physics' in the final paragraph functions to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "claim that physics has never experienced any replication failures of its own"
+        },
+        {
+          "label": "B",
+          "text": "argue that physics is an easier discipline than psychology and therefore undeserving of its higher academic prestige"
+        },
+        {
+          "label": "C",
+          "text": "recommend that psychologists receive training in physics methodology before designing their own experiments"
+        },
+        {
+          "label": "D",
+          "text": "identify the historical source of the epistemic standards that psychology adopted, suggesting that the borrowed framework carries assumptions about context-independence that may not transfer to the study of human behavior"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage does not make the claim that physics is free from replication problems. The author's argument is that the replication standard is a better fit for physics (where phenomena tend to be context-independent) than for psychology (where they may not be). This is a claim about the nature of the phenomena, not about the track record of any particular discipline.",
+        "B": "The passage makes no comparison of disciplinary difficulty or academic prestige. The reference to physics is analytical \u2014 identifying where psychology's standards originated \u2014 not evaluative. The author respects the replication standard as appropriate for physics ('for many phenomena in physics and chemistry, this assumption holds') while questioning its fit for psychology.",
+        "C": "The passage does not recommend that psychologists train in physics. The argument is about the appropriateness of borrowed epistemic standards, not about the personal qualifications of researchers. The author's proposed alternative \u2014 supplementing replication with longitudinal studies, cross-cultural comparison, and ecological validity \u2014 is specific to psychology's subject matter, not a call for interdisciplinary training.",
+        "D": "The phrase 'the single-study, context-free replication standard that psychology imported from laboratory physics' explicitly traces psychology's epistemic framework to a specific source \u2014 physics \u2014 and identifies what came with the import: assumptions about context-independence and the sufficiency of single-study replication. The author uses this genealogy to argue that the borrowed standard carries presuppositions appropriate to its original domain but potentially inappropriate for psychology's reflexive, culturally embedded subject matter."
+      },
+      "topic": "Rhetorical Function / Reference Analysis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phisci_010",
+      "usePrevPassage": true,
+      "stem": "The two passages in this set share which of the following concerns?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "both argue that the natural sciences are fundamentally irrational and should be replaced by interpretive methods"
+        },
+        {
+          "label": "B",
+          "text": "both celebrate the success of existing scientific standards and argue against any modification of current methodology"
+        },
+        {
+          "label": "C",
+          "text": "both propose that Kuhn's theory of paradigm shifts should be applied directly to resolve the replication crisis in psychology"
+        },
+        {
+          "label": "D",
+          "text": "both examine how assumptions inherited from an idealized model of science can obscure the actual dynamics of scientific practice, whether through paradigm-dependence or context-dependence"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Neither passage argues that science is fundamentally irrational. The first passage presents the irrationality charge as a criticism of Kuhn, not as its own conclusion, and notes that Kuhn qualified his position to address it. The second passage explicitly states that psychology is not unscientific and calls for reconceiving rigor rather than abandoning it. Both passages are sympathetic to science while questioning specific assumptions about how it works.",
+        "B": "Both passages challenge existing scientific standards rather than celebrating them. The first passage describes how Kuhn exposed the sociological dimension of scientific change, disrupting the view of science as purely cumulative and rational. The second passage argues that the replication standard borrowed from physics may be a poor fit for psychology. Both are reform-oriented, not conservative.",
+        "C": "While both passages touch on the relationship between theoretical frameworks and scientific practice, the second passage does not invoke Kuhn or propose applying paradigm theory to the replication crisis. The connection between the passages is thematic \u2014 both question inherited assumptions about how science works \u2014 not methodological. The author of the second passage argues for epistemic pluralism, not for Kuhnian revolution.",
+        "D": "The first passage examines how the idealized view of science as linear and evidence-driven obscured the paradigm-dependent, sociologically inflected dynamics Kuhn described. The second passage examines how the idealized replication standard \u2014 borrowed from physics and its assumption of context-independent phenomena \u2014 may obscure the context-dependent nature of psychological findings. Both passages share the concern that an inherited model of 'how science should work' can mask the actual complexity of scientific practice in different domains."
+      },
+      "topic": "Cross-Passage Comparison",
+      "difficulty": "Hard"
+    }
+  ]
+}

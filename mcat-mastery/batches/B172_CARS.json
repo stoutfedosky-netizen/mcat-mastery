@@ -1,0 +1,344 @@
+{
+  "batch": "B172",
+  "section": "cars",
+  "topicArea": "Main idea identification",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "B172_Q0",
+      "stem": "The author's primary purpose in the passage is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "compare the metaphysical frameworks of Heidegger and Sartre to determine which provides a more coherent account of selfhood"
+        },
+        {
+          "label": "B",
+          "text": "argue that contemporary popular understandings of authenticity fundamentally distort the concept as originally developed by existentialist philosophers"
+        },
+        {
+          "label": "C",
+          "text": "defend the existentialist rejection of human essence against criticisms from therapeutic psychology"
+        },
+        {
+          "label": "D",
+          "text": "trace the historical evolution of the concept of authenticity from ancient philosophy through twentieth-century existentialism"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While the passage discusses both Heidegger and Sartre, it does not evaluate which philosopher provides a more coherent account. The two are presented as largely convergent on the key point—authenticity requires reckoning with freedom and contingency—and the passage's argument is directed at the contemporary distortion of their shared insight, not at adjudicating between their frameworks.",
+        "B": "The passage opens by describing the contemporary therapeutic understanding of authenticity as fidelity to an inner self, then argues through its discussion of Heidegger and Sartre that this popular conception inverts the original existentialist meaning. The final paragraph makes the argument explicit: the marketplace version empties authenticity of its demand for ongoing confrontation with freedom and finitude. The passage's structure moves from popular understanding to philosophical correction to critique of the distortion.",
+        "C": "The passage does not present therapeutic psychology as having mounted specific criticisms of existentialism. Rather, it argues that popular therapeutic culture has absorbed and distorted the concept of authenticity. The relationship described is one of co-optation, not intellectual opposition, and the passage does not defend existentialism against counterarguments.",
+        "D": "The passage does not trace a historical evolution of authenticity through multiple philosophical eras. It focuses narrowly on the contrast between twentieth-century existentialist accounts and contemporary popular usage. Ancient philosophy is not mentioned, and the passage's purpose is critical rather than historiographic."
+      },
+      "topic": "Main idea identification",
+      "difficulty": "Medium",
+      "usePrevPassage": false,
+      "passage": "Contemporary discussions of authenticity often frame it as fidelity to an inner self — a stable, discoverable core that one must excavate beneath layers of social expectation. This therapeutic understanding, in which authenticity names the condition of living in accord with one's true desires and values, has become a cornerstone of popular psychology and consumer culture. To be authentic, on this view, is to have successfully peeled away external impositions to reveal what was always already there. The language is comforting because it makes selfhood sound like recovery rather than risk: the problem is not that one must choose, but that one has not yet listened closely enough.\n\nYet this picture rests on assumptions that the existentialists who first made authenticity a philosophical keyword would have found deeply suspect. For Heidegger, the authentic person was not someone who had uncovered a hidden essence but someone who had confronted the radical contingency of existence — above all, the certainty of death — and chosen to take ownership of a life that was, at bottom, groundless. There was no true self waiting to be found; there was only the ongoing responsibility of choosing without the comfort of a predetermined script. Authenticity was not a destination but a mode of engagement, and it could never be secured once and for all.\n\nSartre pressed this further. If existence precedes essence, then the very notion of a pre-given self is a form of bad faith: a flight from the anxiety of freedom into the reassuring fiction that one's identity is fixed by nature, God, or social role. The waiter who plays at being a waiter, inhabiting the role too perfectly, denies the freedom that always exceeds any particular identity. But the person who claims to have discovered a true self beneath all roles is guilty of the same evasion, merely substituting one comforting essence for another.\n\nWhat both thinkers shared was the conviction that authenticity requires an ongoing reckoning with freedom and finitude rather than a retreat into self-knowledge. The contemporary marketplace version inverts this insight. When authenticity becomes a brand attribute — when consumers are urged to \"find their truth\" through the right purchase — the concept is emptied of its original demand. The existentialist wager was that an authentic life would be more difficult, not less; more anxious, not more comfortable. That popular culture has managed to domesticate this idea into a lifestyle aspiration may itself be the most striking evidence of the bad faith the existentialists warned against."
+    },
+    {
+      "id": "B172_Q1",
+      "stem": "The author's discussion of the waiter in Sartre's analysis primarily serves to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "illustrate that social roles are inherently inauthentic and must be rejected entirely"
+        },
+        {
+          "label": "B",
+          "text": "demonstrate that Sartre's philosophy applies only to occupational identity rather than personal identity"
+        },
+        {
+          "label": "C",
+          "text": "provide evidence that existentialist critiques of authenticity are impractical in everyday life"
+        },
+        {
+          "label": "D",
+          "text": "illustrate how bad faith can operate through over-identification with a role, paralleling the passage's broader argument about false claims to a fixed identity"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage does not argue that roles must be rejected. The waiter example illustrates the problem of inhabiting a role too perfectly—denying the freedom that exceeds any role—not that holding a social role is itself inauthentic. The existentialist critique targets the denial of freedom, not the existence of social positions.",
+        "B": "The waiter is an example, not a limitation of scope. The passage immediately extends the point beyond occupational roles to anyone who claims to have found a true self, indicating that Sartre's analysis applies broadly to all forms of identity fixation, not only to professional roles.",
+        "C": "The passage does not raise practicality as a concern or suggest that existentialist critiques fail in everyday life. The waiter example is presented approvingly as part of the author's case, not as evidence of a weakness in existentialist thought.",
+        "D": "The waiter illustrates one side of Sartre's concept of bad faith: over-identifying with a given role to deny one's freedom. The author then immediately pairs this with the complementary form of bad faith—claiming a true self beneath all roles. Together, these examples support the passage's argument that both role-fixation and inner-essence claims are evasions of freedom, which connects to the broader critique of the contemporary authenticity marketplace."
+      },
+      "topic": "Rhetorical function of an example",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "B172_Q2",
+      "stem": "Based on the passage, which of the following would the author most likely regard as an example of the \"bad faith\" described in the final paragraph?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A corporation marketing a line of journals with the tagline \"Write Your Authentic Story\" as a tool for genuine self-discovery"
+        },
+        {
+          "label": "B",
+          "text": "A philosophy student studying Heidegger's concept of Being-toward-death as part of an academic requirement"
+        },
+        {
+          "label": "C",
+          "text": "A person who experiences anxiety when confronting major life decisions and seeks advice from trusted friends"
+        },
+        {
+          "label": "D",
+          "text": "A therapist who encourages clients to examine how their behavior may be influenced by social expectations"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The final paragraph specifically critiques the commodification of authenticity—the transformation of a demanding philosophical concept into a brand attribute and lifestyle aspiration. A corporation selling products under the banner of authenticity exemplifies exactly this domestication: it promises that a purchase can deliver what the existentialists argued required ongoing, anxious self-confrontation. This matches the author's description of the marketplace inversion of existentialist insight.",
+        "B": "Studying Heidegger academically does not constitute bad faith as described in the passage. The passage's critique targets the popular repackaging of authenticity as a consumer product, not academic engagement with existentialist texts. A student fulfilling a course requirement is neither claiming a fixed identity nor commodifying the concept.",
+        "C": "Experiencing anxiety during major decisions and consulting others is not presented as bad faith. In fact, the existentialists associated anxiety with authentic confrontation with freedom. Seeking advice does not necessarily involve the denial of freedom or the assertion of a fixed identity that the passage identifies as characteristic of bad faith.",
+        "D": "A therapist encouraging examination of social influences on behavior is closer to the existentialist spirit than to the bad faith the passage critiques. Recognizing external pressures on identity is consistent with the existentialist project; the passage's objection is to the further step of claiming that beneath those pressures lies a stable true self that can be packaged and sold."
+      },
+      "topic": "Application beyond the text",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "B172_Q3",
+      "stem": "The phrase \"the ongoing responsibility of choosing without the comfort of a predetermined script\" (paragraph 2) most closely conveys the idea that authentic existence involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "rejecting all inherited cultural values in favor of individually constructed ethical systems"
+        },
+        {
+          "label": "B",
+          "text": "acknowledging that free will is ultimately an illusion constrained by biological determinism"
+        },
+        {
+          "label": "C",
+          "text": "continually making choices in the absence of any fixed essence or external authority that guarantees their correctness"
+        },
+        {
+          "label": "D",
+          "text": "following a disciplined philosophical method that provides clear criteria for distinguishing authentic from inauthentic choices"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage does not advocate rejecting inherited values wholesale. The phrase emphasizes the absence of a predetermined script, which means one cannot rely on external frameworks as guarantees, but this is different from claiming that all cultural inheritance must be discarded. The existentialist point is about the relationship to values, not their elimination.",
+        "B": "The phrase explicitly references choosing, which presupposes the reality of choice rather than its illusory nature. The existentialist framework presented in the passage is premised on human freedom, not on biological or any other form of determinism.",
+        "C": "The phrase captures the existentialist position that there is no pre-given essence or external script that determines what one should do or be. The word 'ongoing' indicates this is not a one-time achievement but a continuous condition. The reference to lacking 'comfort' conveys the anxiety inherent in choosing when no higher authority validates the choice. This aligns with the passage's broader argument that authenticity is a demanding mode of engagement, not a fixed state.",
+        "D": "The phrase describes the absence of a predetermined script, which implies there is no disciplined method or set of criteria that can guarantee authentic choice. A philosophical method that provided clear criteria would itself become the kind of comforting framework that the phrase is explicitly describing as unavailable."
+      },
+      "topic": "Interpretation of a key phrase",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "B172_Q4",
+      "stem": "Which of the following claims, if true, would most weaken the author's central argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Heidegger's later writings significantly departed from his earlier emphasis on individual authenticity"
+        },
+        {
+          "label": "B",
+          "text": "Empirical research demonstrates that consumers who engage with authenticity-branded products subsequently exhibit greater willingness to confront existential anxiety"
+        },
+        {
+          "label": "C",
+          "text": "Sartre eventually abandoned the concept of bad faith in favor of a more structuralist account of identity"
+        },
+        {
+          "label": "D",
+          "text": "Many contemporary psychologists explicitly acknowledge that therapeutic authenticity differs from philosophical authenticity"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Even if Heidegger's later work shifted emphasis, this would not undermine the author's argument about the contemporary distortion of the authenticity concept. The passage's critique rests on the contrast between the existentialist meaning and its popular appropriation, not on whether Heidegger maintained a consistent position throughout his career.",
+        "B": "The author's central argument is that the marketplace domesticates authenticity by stripping it of its existentialist demand for confrontation with freedom and finitude. If authenticity-branded products actually led consumers toward genuine existential self-confrontation, the distinction between the original concept and its commercial version would collapse, directly undermining the claim that commodification empties the concept of its original content.",
+        "C": "Even if Sartre later revised his views, the passage's argument about contemporary distortion does not depend on Sartre maintaining the bad faith concept indefinitely. The author uses Sartre's analysis as a philosophical reference point; changes in Sartre's later thinking would not affect whether the current marketplace version distorts the concept as it was originally articulated.",
+        "D": "Psychologists acknowledging a difference between therapeutic and philosophical authenticity would not weaken the argument but might actually support it. The author's critique targets the popular and commercial appropriation of the concept, not the professional practices of psychologists who may well understand the distinction."
+      },
+      "topic": "Weakening the argument",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "B172_Q5",
+      "stem": "The author's attitude toward the debate over historic preservation is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "analytically engaged, presenting multiple perspectives while identifying unresolved tensions that none fully addresses"
+        },
+        {
+          "label": "B",
+          "text": "dismissive of preservation advocates for ignoring the economic consequences of their policies"
+        },
+        {
+          "label": "C",
+          "text": "strongly supportive of the flexible regulatory framework described in the fourth paragraph"
+        },
+        {
+          "label": "D",
+          "text": "skeptical that any approach to preservation can avoid reinforcing social inequality"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The passage presents three distinct positions—robust preservation, critique of preservation, and flexible compromise—and treats each with a combination of fairness and critical scrutiny. The author identifies strengths and limitations in each view and concludes with an unresolved question about authority and democratic participation. This pattern of balanced analysis combined with identification of deeper tensions characterizes an analytically engaged posture rather than outright advocacy for any single position.",
+        "B": "The author presents economic concerns (housing costs, gentrification) as part of the critics' position but does not dismiss preservation advocates. The passage treats the preservationist argument with respect, noting its value as a corrective to market forces, before raising counterpoints. The overall tone is balanced rather than dismissive of any single camp.",
+        "C": "While the flexible framework is presented sympathetically, the author immediately notes that it requires design sophistication and political negotiation that few processes can deliver. This qualification prevents the paragraph from reading as an endorsement. The final paragraph's focus on unresolved questions about authority further indicates that the author does not treat the compromise position as a settled solution.",
+        "D": "The passage raises social inequality as a concern primarily through the critics' position in paragraph three, but it does not conclude that inequality is an inevitable outcome of all preservation approaches. The final paragraph's call for a broader definition of heritage suggests the author sees potential for more equitable approaches, even if they remain aspirational."
+      },
+      "topic": "Author attitude and tone",
+      "difficulty": "Medium",
+      "usePrevPassage": false,
+      "passage": "Debates over historic preservation often proceed as though the question were simply one of aesthetics: Should a Georgian facade or a Victorian row house be saved because it is beautiful? But this framing conceals a more consequential set of tensions. Buildings are not only visual objects; they are economic instruments, carriers of collective memory, and reflections of power. The decision to preserve or demolish a structure inevitably privileges some of these functions over others.\n\nAdvocates of robust preservation argue that historic buildings anchor community identity in ways that new construction cannot replicate. A neighborhood's architectural continuity provides residents with a sense of temporal depth—a visible connection to the generations who occupied the same streets. When preservation laws protect these structures, they resist the tendency of market forces to treat every parcel of land as interchangeable, reducible to its highest-revenue use. Preservation, on this view, is a corrective to the market's indifference to meaning.\n\nCritics, however, point out that this argument romanticizes a past that was not equally shared. Many of the neighborhoods now protected by preservation ordinances were built under conditions of racial exclusion or economic exploitation. Freezing their architectural form in place can inadvertently memorialize the social hierarchies that produced them. Moreover, strict preservation requirements often increase housing costs by constraining supply, effectively pricing out the very communities whose history the buildings are said to represent. The result can be a neighborhood that looks historically intact but whose social composition has been entirely transformed by gentrification.\n\nA third position holds that preservation and development are not inherently opposed if cities adopt more flexible regulatory frameworks. Rather than designating entire districts as frozen in time, planners might protect individual landmark structures while allowing adaptive reuse and context-sensitive infill around them. This approach treats the city as a living organism that accumulates layers of history rather than as a museum that must be kept under glass. The challenge is that such compromises require a level of design sophistication and political negotiation that few municipal processes can consistently deliver.\n\nUnderlying all three positions is an unresolved question about who has the authority to decide what counts as historically significant. Preservation boards, typically composed of architects and historians, bring professional expertise but may lack the cultural knowledge to evaluate significance for communities whose heritage takes non-architectural forms—oral traditions, street life, social institutions. A genuinely democratic approach to preservation would need to broaden the definition of heritage itself, a project that remains largely aspirational."
+    },
+    {
+      "id": "B172_Q6",
+      "stem": "The claim that strict preservation can result in \"a neighborhood that looks historically intact but whose social composition has been entirely transformed\" (paragraph 3) functions in the argument primarily to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "provide statistical evidence that preservation ordinances consistently lead to displacement"
+        },
+        {
+          "label": "B",
+          "text": "suggest that architectural preservation is less important than economic development"
+        },
+        {
+          "label": "C",
+          "text": "undermine the preservationist claim that protecting buildings preserves community identity by showing that the community itself may be displaced in the process"
+        },
+        {
+          "label": "D",
+          "text": "argue that gentrification is always the result of deliberate policy choices rather than market forces"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The claim does not present statistical evidence. It describes a possible outcome—a visually preserved but socially transformed neighborhood—as part of a conceptual argument about the relationship between architectural form and community identity. No data or specific cases are cited.",
+        "B": "The passage does not argue that economic development should take priority over preservation. The critics' position challenges preservation's unintended consequences, but the passage as a whole does not rank architectural preservation below economic development. The point is more nuanced: preservation can undermine its own stated goals.",
+        "C": "Preservation advocates argue that historic buildings anchor community identity and connect residents to shared history. The critics' observation that strict preservation can drive out the existing community through increased housing costs directly challenges this logic: if the people whose identity the buildings supposedly preserve are priced out, then the preservation has protected the physical form while destroying the social content it was meant to serve. This creates an internal contradiction in the preservationist argument.",
+        "D": "The passage does not attribute gentrification solely to deliberate policy. The argument is that preservation requirements can increase housing costs, which contributes to gentrification, but this is presented as a consequence of constraining supply, not as intentional displacement. The passage treats the relationship between policy and outcome as complex rather than deterministic."
+      },
+      "topic": "Function of a claim within an argument",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "B172_Q7",
+      "stem": "Based on the passage, which of the following would most likely be considered an example of heritage that preservation boards might undervalue?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A neoclassical courthouse listed on a national register of historic landmarks"
+        },
+        {
+          "label": "B",
+          "text": "A recently constructed museum designed by an internationally recognized architect"
+        },
+        {
+          "label": "C",
+          "text": "A century-old commercial building that has been converted into luxury apartments"
+        },
+        {
+          "label": "D",
+          "text": "A neighborhood tradition of outdoor festivals that has defined community life for decades but leaves no permanent architectural record"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "A listed neoclassical courthouse is precisely the type of structure that preservation boards, composed of architects and historians, are well equipped to evaluate. It represents the conventional, architecture-centered understanding of historical significance that the final paragraph suggests is too narrow.",
+        "B": "A museum by a famous architect, while recent, still falls within the architectural expertise of preservation boards. The passage's concern is not about whether boards can assess buildings of different eras, but about whether they can evaluate heritage that takes non-architectural forms entirely.",
+        "C": "An old commercial building converted to apartments is still an architectural structure whose historical significance a preservation board could evaluate. The adaptive reuse raises preservation questions the board is trained to address. This does not illustrate the gap in cultural knowledge the passage identifies.",
+        "D": "The final paragraph specifically identifies oral traditions, street life, and social institutions as forms of heritage that preservation boards may lack the cultural knowledge to assess. An outdoor festival tradition that has shaped community identity for decades but produces no permanent structure exemplifies heritage that falls outside the architectural paradigm within which most preservation boards operate."
+      },
+      "topic": "Application of passage concepts",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "B172_Q8",
+      "stem": "The metaphor of the city as \"a living organism that accumulates layers of history rather than a museum that must be kept under glass\" (paragraph 4) implies that the third position views cities as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "entities that should be allowed to grow and change over time while retaining traces of their past, rather than being frozen in a single historical moment"
+        },
+        {
+          "label": "B",
+          "text": "natural systems that develop according to biological laws independent of human planning decisions"
+        },
+        {
+          "label": "C",
+          "text": "places where aesthetic considerations should always take precedence over practical or economic ones"
+        },
+        {
+          "label": "D",
+          "text": "environments in which historical structures are valuable only insofar as they attract tourism revenue"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The organism metaphor emphasizes growth, change, and accumulation: a living thing adds new material while retaining traces of earlier stages. The museum metaphor, by contrast, implies stasis and protection from change. The contrast conveys the third position's view that cities should evolve while preserving meaningful elements of their past, rather than being treated as artifacts to be kept in their current state indefinitely.",
+        "B": "The organism metaphor is figurative, not literal. It does not imply that cities follow biological laws or develop without human agency. The surrounding context—which discusses planners, regulatory frameworks, and design sophistication—makes clear that the position envisions deliberate, human-directed urban development, not organic processes independent of planning.",
+        "C": "The passage does not suggest that the third position prioritizes aesthetics above all. The organism metaphor emphasizes dynamism and layering, not aesthetic purity. The position explicitly advocates adaptive reuse and context-sensitive infill, which balance aesthetic, historical, and practical concerns rather than elevating any one over the others.",
+        "D": "Tourism is not mentioned anywhere in the passage. The organism metaphor contrasts living growth with museum-like preservation; it says nothing about the economic value of historical structures to the tourism industry. The third position is about urban development philosophy, not revenue generation."
+      },
+      "topic": "Interpretation of figurative language",
+      "difficulty": "Medium",
+      "usePrevPassage": true,
+      "passage": null
+    },
+    {
+      "id": "B172_Q9",
+      "stem": "The author suggests that broadening the definition of heritage to include non-architectural forms remains \"largely aspirational\" (paragraph 5) most likely because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "non-architectural heritage has no measurable value that regulatory frameworks could protect"
+        },
+        {
+          "label": "B",
+          "text": "communities with non-architectural heritage have expressed opposition to preservation oversight"
+        },
+        {
+          "label": "C",
+          "text": "existing institutional structures and professional norms in preservation are not designed to evaluate or protect forms of heritage that lack physical, architectural expression"
+        },
+        {
+          "label": "D",
+          "text": "federal law prohibits preservation boards from considering intangible cultural assets in their designation criteria"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage does not claim that non-architectural heritage lacks value. It argues the opposite: that such heritage is significant but falls outside the professional competence of existing preservation boards. The characterization as aspirational reflects institutional limitations, not a judgment about the value of non-architectural heritage itself.",
+        "B": "The passage does not mention community opposition to preservation oversight. The obstacle identified is the composition and expertise of preservation boards—architects and historians trained in architectural assessment—not resistance from the communities whose heritage might be recognized.",
+        "C": "The final paragraph identifies the core obstacle: preservation boards are typically composed of architects and historians whose professional expertise centers on architectural evaluation. Heritage that takes the form of oral traditions, street life, or social institutions does not fit the criteria and methods these boards are designed to apply. Broadening the definition of heritage would require restructuring institutional processes and professional norms, which explains why the goal remains aspirational rather than realized.",
+        "D": "The passage does not reference federal law or any specific legal prohibition. The barrier described is institutional and professional rather than legal: preservation boards lack the cultural knowledge and evaluative frameworks needed to assess non-architectural heritage, not the legal authority to do so."
+      },
+      "topic": "Reasoning about author's claims",
+      "difficulty": "Hard",
+      "usePrevPassage": true,
+      "passage": null
+    }
+  ],
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  }
+}

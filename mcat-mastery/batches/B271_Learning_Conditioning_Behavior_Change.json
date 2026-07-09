@@ -1,0 +1,225 @@
+{
+  "batch": "B271",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Learning Conditioning Behavior Change",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_learning_conditioning_behavior_change_271_q0",
+      "passage": "A behavioral-health team tested two text-message systems for glucose monitoring in adults with type 2 diabetes. System 1 gave a supportive message and $1 credit after every uploaded glucose log. System 2 gave a $5 credit after an unpredictable number of uploads, averaging one reward every five logs. After 8 weeks, System 1 users averaged 4.2 logs/week and reported declining interest. System 2 users averaged 5.7 logs/week and continued checking the app after unrewarded uploads. Both groups received the same diabetes education.",
+      "usePrevPassage": false,
+      "stem": "System 2 most closely uses which schedule?",
+      "choices": {
+        "A": "Fixed-interval reinforcement",
+        "B": "Variable-ratio reinforcement",
+        "C": "Continuous reinforcement",
+        "D": "Negative reinforcement"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A fixed-interval schedule depends on time elapsed before reinforcement. The passage does not describe a reward after a fixed amount of time. The passage focus is intermittent rewards for glucose logging, so this option is less directly supported.",
+        "B": "Correct. Rewards came after an unpredictable number of uploaded logs, a pattern known for persistent responding. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Continuous reinforcement rewards every target response. The described pattern is not a reward after every response. The passage focus is intermittent rewards for glucose logging, so this option is less directly supported.",
+        "D": "Negative reinforcement increases behavior by removing an aversive stimulus. The described effect does not involve removing an unpleasant condition after a response. The passage focus is intermittent rewards for glucose logging, so this option is less directly supported."
+      },
+      "topic": "Reinforcement Schedules",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_learning_conditioning_behavior_change_271_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why might System 1 interest decline faster?",
+      "choices": {
+        "A": "Variable-ratio reinforcement",
+        "B": "Classical conditioning",
+        "C": "Social support",
+        "D": "Continuous reinforcement can be less resistant to extinction."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Variable-ratio reinforcement rewards after an unpredictable number of responses. The item is not asking about persistent responding under an intermittent reward schedule. The passage focus is continuous versus intermittent reward, so this option is less directly supported.",
+        "B": "Classical conditioning pairs stimuli so a neutral cue comes to elicit a response. The passage item is about social, cognitive, or operant processes rather than stimulus pairing. The passage focus is continuous versus intermittent reward, so this option is less directly supported.",
+        "C": "Social support is help or resources from others. The question is asking about a different construct than interpersonal assistance. The passage focus is continuous versus intermittent reward, so this option is less directly supported.",
+        "D": "Correct. When every response is rewarded, the loss or predictability of reward is easy to detect, reducing persistence. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Extinction",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learning_conditioning_behavior_change_271_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which finding would show credits were positive reinforcement?",
+      "choices": {
+        "A": "Logging increased after credits were introduced compared with baseline.",
+        "B": "Semantic memory",
+        "C": "Role conflict",
+        "D": "Anomie"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Reinforcement is defined by an added consequence increasing the future frequency of the behavior. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Semantic memory stores facts and meanings. The stem does not ask about general knowledge. The passage focus is credits and behavior change, so this option is less directly supported.",
+        "C": "Role conflict is tension between different roles. The stem either stays within one role or asks about a different process. The passage focus is credits and behavior change, so this option is less directly supported.",
+        "D": "Anomie is weakened norms or normlessness. The stem does not describe social norm breakdown. The passage focus is credits and behavior change, so this option is less directly supported."
+      },
+      "topic": "Positive Reinforcement",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learning_conditioning_behavior_change_271_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A phone tone that predicts a supportive message becomes a:",
+      "choices": {
+        "A": "Primary appraisal",
+        "B": "Fixed-ratio reinforcement",
+        "C": "Conditioned stimulus",
+        "D": "Primary reinforcer"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Primary appraisal is the first judgment of whether an event is threatening, harmful, challenging, or benign. It is not a measure of social resources or institutions. The passage focus is cue-message pairing, so this option is less directly supported.",
+        "B": "A fixed-ratio schedule rewards behavior after a set number of responses. The passage does not describe a predictable response-count reward rule. The passage focus is cue-message pairing, so this option is less directly supported.",
+        "C": "Correct. A formerly neutral cue can elicit anticipatory checking after being paired with a meaningful message. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "A primary reinforcer satisfies a biological need. A phone tone predicting a message is a learned cue, not a biological reward. The relevant evidence instead centers on cue-message pairing."
+      },
+      "topic": "Classical Conditioning",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_learning_conditioning_behavior_change_271_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which ethical issue is most relevant to the glucose app?",
+      "choices": {
+        "A": "Obedience",
+        "B": "Privacy and informed consent for health data uploads",
+        "C": "Gate-control theory",
+        "D": "Group polarization"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Obedience is following an authority\u2019s direct command. The passage does not describe a command from an authority figure. The passage focus is digital health data privacy, so this option is less directly supported.",
+        "B": "Correct. Glucose logs are sensitive health data, so participants must understand storage, access, and use. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Gate-control theory proposes that nonpainful input can modulate pain signaling. The stem is not about pain modulation. The passage focus is digital health data privacy, so this option is less directly supported.",
+        "D": "Group polarization is movement toward more extreme views after group discussion. The passage does not describe attitude extremity after discussion. The passage focus is digital health data privacy, so this option is less directly supported."
+      },
+      "topic": "Research Ethics",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learning_conditioning_behavior_change_271_q5",
+      "passage": "Ninety preschool children watched an adult interact with a new toy. In one condition, the adult hit the toy and received stickers. In another, the adult hit the toy and was scolded. In a third, the adult assembled the toy without aggression. During free play, children who saw rewarded aggression struck the toy 7.1 times on average; punished aggression, 2.8; nonaggressive assembly, 1.9. When offered stickers to show anything the adult had done, children in all groups reproduced more modeled behaviors.",
+      "usePrevPassage": false,
+      "stem": "Lower aggression after seeing the adult scolded illustrates:",
+      "choices": {
+        "A": "Vicarious punishment",
+        "B": "Habituation",
+        "C": "Stimulus generalization",
+        "D": "Drive-reduction theory"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Children reduced a behavior after observing another person punished for it, not after being punished themselves. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Habituation is decreased response to repeated stimulation. The passage item does not describe reduced response after repeated harmless exposure. The passage focus is observed consequences, so this option is less directly supported.",
+        "C": "Stimulus generalization is responding similarly to related stimuli. The toy result is about learning from observed consequences. The relevant evidence instead centers on observed consequences.",
+        "D": "Drive-reduction theory explains behavior motivated by physiological needs and homeostasis. The stem is not primarily about internal need states. The passage focus is observed consequences, so this option is less directly supported."
+      },
+      "topic": "Observational Learning",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_learning_conditioning_behavior_change_271_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why did stickers increase reproduced behaviors in all groups?",
+      "choices": {
+        "A": "Negative symptom",
+        "B": "Cultural lag",
+        "C": "Absolute threshold",
+        "D": "Learning can occur before performance is incentivized."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Negative symptoms reduce normal function, such as motivation or social engagement. The stem does not describe diminished function. The passage focus is acquisition versus performance, so this option is less directly supported.",
+        "B": "Cultural lag is delayed adjustment of norms to material change. The child-learning stem is about modeled behavior and incentives, not social adaptation to technology. The relevant evidence instead centers on acquisition versus performance.",
+        "C": "Absolute threshold is the minimum stimulus detected about 50% of the time. The question is not about minimum sensory intensity. The passage focus is acquisition versus performance, so this option is less directly supported.",
+        "D": "Correct. Children may encode modeled actions but display them more when a reward makes performance worthwhile. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Observational Learning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learning_conditioning_behavior_change_271_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What result would best show imitation rather than arousal?",
+      "choices": {
+        "A": "Social loafing",
+        "B": "Context effect",
+        "C": "Children copy the adult\u2019s distinctive actions and words.",
+        "D": "SSRI delayed onset"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Social loafing is reduced effort when individual contributions are not identifiable in a group task. The stem is not about anonymous group productivity. The passage focus is specific copied behavior, so this option is less directly supported.",
+        "B": "A context effect occurs when setting changes responses. The stem does not describe measurement setting altering scores. The passage focus is specific copied behavior, so this option is less directly supported.",
+        "C": "Correct. Specific reproduction of unusual modeled behavior is stronger evidence of imitation than general activity. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "SSRIs often require weeks for therapeutic benefit. The stem is not about medication adherence or side-effect timing. The passage focus is specific copied behavior, so this option is less directly supported."
+      },
+      "topic": "Imitation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_learning_conditioning_behavior_change_271_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The adult in the toy study functioned as a:",
+      "choices": {
+        "A": "Generalized other",
+        "B": "Model",
+        "C": "Conditioned reinforcer",
+        "D": "Out-group member"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The generalized other is internalized expectations of the broader community. A single adult demonstrating toy behavior is a model, not that broad perspective. The relevant evidence instead centers on adult demonstration.",
+        "B": "Correct. The adult provided behavior for children to observe and potentially reproduce. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "A conditioned reinforcer is a learned reward such as money or tokens. In the toy study, the adult is the observed person whose behavior is copied. The relevant evidence instead centers on adult demonstration.",
+        "D": "An out-group member belongs to a group the observer does not identify with. The adult\u2019s role in the study is to demonstrate behavior. The relevant evidence instead centers on adult demonstration."
+      },
+      "topic": "Modeling",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learning_conditioning_behavior_change_271_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which limitation affects generalizing the toy findings?",
+      "choices": {
+        "A": "Random assignment",
+        "B": "Difference threshold",
+        "C": "Convergent validity",
+        "D": "Brief toy striking may not capture sustained real-world aggression."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Random assignment allocates participants to conditions by chance. The stem may ask about measurement or observational limitations rather than an experimental solution. The passage focus is lab aggression measure, so this option is less directly supported.",
+        "B": "Difference threshold is the smallest detectable difference between stimuli. The passage item asks about a broader psychological or sociological concept. The passage focus is lab aggression measure, so this option is less directly supported.",
+        "C": "Convergent validity means correlation with related measures. The stem may be about reliability, confounding, or cultural interpretation instead. The passage focus is lab aggression measure, so this option is less directly supported.",
+        "D": "Correct. A controlled lab behavior helps isolate learning but has limited ecological validity for broader aggression. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "External Validity",
+      "difficulty": "Hard"
+    }
+  ]
+}

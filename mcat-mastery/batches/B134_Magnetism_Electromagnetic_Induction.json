@@ -1,0 +1,351 @@
+{
+  "batch": "B134",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Magnetism & Electromagnetic Induction",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_emind_001",
+      "passage": "A biomedical engineering group tests an implantable flow sensor that estimates blood velocity from the motional emf generated as conductive fluid moves through a magnetic field. A glass tube with inner diameter 4.0 mm is placed between the poles of a magnet so that the magnetic field is perpendicular to both the tube axis and the electrode separation. Two electrodes on opposite sides of the tube measure a voltage ΔV = Bdv, where d is the electrode separation and v is average fluid speed.\n\nTrial | B (T) | d (mm) | Measured ΔV (mV) | Flow condition\n1 | 0.50 | 4.0 | 0.60 | Baseline\n2 | 0.50 | 4.0 | 1.20 | Vasodilator added\n3 | 0.25 | 4.0 | 0.60 | Magnet partially shielded\n\nThe team also winds a 200-turn pickup coil around a nearby calibration chamber. When the magnetic flux through each turn decreases linearly from 3.0 × 10⁻⁴ Wb to 1.0 × 10⁻⁴ Wb in 0.020 s, an induced current is observed through a 40 Ω resistor. The sign of the current reverses when the field is increased rather than decreased, consistent with Lenz's law.",
+      "stem": "Using Trial 1, what average fluid speed does the sensor estimate?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.30 m/s"
+        },
+        {
+          "label": "B",
+          "text": "0.60 m/s"
+        },
+        {
+          "label": "C",
+          "text": "3.0 m/s"
+        },
+        {
+          "label": "D",
+          "text": "30 m/s"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The motional-emf relation gives v = ΔV/(Bd). With ΔV = 0.60 mV = 6.0 × 10⁻⁴ V, B = 0.50 T, and d = 4.0 × 10⁻³ m, v = 6.0 × 10⁻⁴/(0.50 × 4.0 × 10⁻³) = 0.30 m/s. The calculation must convert millivolts and millimeters before dividing, because the tesla relation is expressed in SI units.",
+        "B": "This value would result if the magnetic field were treated as 0.25 T or if the denominator were made too small. Trial 1 uses the unshielded 0.50 T field, so the same voltage corresponds to half this speed. The passage's Trial 3 deliberately shows how lowering B can preserve the same voltage at a higher speed.",
+        "C": "A speed of 3.0 m/s is tenfold too large and usually comes from converting 4.0 mm to 4.0 × 10⁻⁴ m rather than 4.0 × 10⁻³ m. Unit conversion is central here because motional emf is proportional to distance in meters, not millimeters.",
+        "D": "This answer is two orders of magnitude too large and is incompatible with the proportionality ΔV = Bdv. It would require either a much larger voltage or a much smaller electrode separation than the passage reports. The physiological scale of the passage also supports a sub-meter-per-second flow estimate."
+      },
+      "topic": "Motional EMF",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_emind_002",
+      "passage": null,
+      "stem": "Which comparison best explains why Trials 1 and 3 produce the same measured voltage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The fluid speed in Trial 3 must be half the Trial 1 speed."
+        },
+        {
+          "label": "B",
+          "text": "The electrode separation in Trial 3 must have doubled."
+        },
+        {
+          "label": "C",
+          "text": "The lower magnetic field in Trial 3 is offset by a higher fluid speed."
+        },
+        {
+          "label": "D",
+          "text": "The induced voltage is independent of magnetic-field strength."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Halving the speed while also halving the magnetic field would reduce ΔV to one quarter of the Trial 1 value. Because ΔV = Bdv, the variables multiply rather than compensate automatically. The reasoning reverses the compensation needed to keep voltage constant.",
+        "B": "The table reports the same 4.0 mm electrode separation in all three trials. A doubled separation could compensate for a lower field, but it is not the manipulated variable in the passage. MCAT data questions often require respecting the table rather than inventing an unreported change.",
+        "C": "Correct. Since ΔV = Bdv and d is unchanged, holding ΔV constant while B falls from 0.50 T to 0.25 T requires v to double. Trial 3 therefore illustrates proportional reasoning: a smaller magnetic field can generate the same emf if the conductor moves faster through it.",
+        "D": "Motional emf is directly proportional to magnetic-field strength when velocity and electrode separation are fixed. The equal voltages in Trials 1 and 3 do not show field independence; they show that another variable changed in the opposite direction."
+      },
+      "topic": "Proportional Reasoning in Motional EMF",
+      "difficulty": "Easy",
+      "passageRef": "cp_emind_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_emind_003",
+      "passage": null,
+      "stem": "What is the magnitude of the average induced emf across the 200-turn pickup coil during the calibration change?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.002 V"
+        },
+        {
+          "label": "B",
+          "text": "2.0 V"
+        },
+        {
+          "label": "C",
+          "text": "20 V"
+        },
+        {
+          "label": "D",
+          "text": "200 V"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This answer uses the flux change per turn, 2.0 × 10⁻⁴ Wb, divided by time but omits the 200 turns. Faraday's law multiplies the per-turn flux change by the number of turns, so ignoring N underestimates the emf by a factor of 200.",
+        "B": "Correct. Faraday's law gives |ε| = N|ΔΦ|/Δt. The flux change per turn is 2.0 × 10⁻⁴ Wb, so |ε| = 200(2.0 × 10⁻⁴ Wb)/(0.020 s) = 2.0 V. The sign would depend on the chosen loop orientation, but the question asks for magnitude.",
+        "C": "This value is too large by a factor of ten, often from using 0.002 s instead of 0.020 s. A shorter time would create a larger emf, but the passage states the flux change occurs over 20 ms, not 2 ms.",
+        "D": "A 200 V emf would require treating the 200 turns as if they multiplied a 1 V per-turn emf. The per-turn emf is only 0.010 V because the flux change is small and spread over 0.020 s. The turn count matters, but it does not justify this magnitude."
+      },
+      "topic": "Faraday's Law",
+      "difficulty": "Medium",
+      "passageRef": "cp_emind_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_emind_004",
+      "passage": null,
+      "stem": "If the induced emf from the pickup coil is applied across the 40 Ω resistor, what average current magnitude is expected?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.005 A"
+        },
+        {
+          "label": "B",
+          "text": "0.020 A"
+        },
+        {
+          "label": "C",
+          "text": "0.040 A"
+        },
+        {
+          "label": "D",
+          "text": "0.050 A"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This current would follow from using only 0.20 V across the resistor. The Faraday-law calculation for the 200-turn coil gives 2.0 V, not 0.20 V. The electrical step is straightforward Ohm's law once the induced emf has been computed correctly.",
+        "B": "A current of 0.020 A would require 0.80 V across 40 Ω. That voltage does not match the flux-change data. The answer may feel reasonable because it is numerically close to the 0.020 s interval, but time is not substituted directly into Ohm's law.",
+        "C": "This answer corresponds to 1.6 V across the resistor, which is lower than the induced emf calculated from Faraday's law. Unless the passage described internal resistance or a different load, the average current magnitude is ε/R.",
+        "D": "Correct. With |ε| = 2.0 V and R = 40 Ω, Ohm's law gives I = V/R = 2.0/40 = 0.050 A. The calculation links induction to circuit behavior: changing magnetic flux produces an emf, and that emf drives current through the external resistance."
+      },
+      "topic": "Induced EMF and Ohm's Law",
+      "difficulty": "Medium",
+      "passageRef": "cp_emind_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_emind_005",
+      "passage": null,
+      "stem": "According to Lenz's law, why does the current reverse when the field is increased rather than decreased?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The induced magnetic field opposes the change in flux rather than the absolute direction of the external field."
+        },
+        {
+          "label": "B",
+          "text": "The coil becomes nonconductive when the magnetic field increases."
+        },
+        {
+          "label": "C",
+          "text": "The resistor changes polarity and forces current to reverse."
+        },
+        {
+          "label": "D",
+          "text": "The number of turns becomes negative when flux increases."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Lenz's law states that the induced current creates a magnetic effect opposing the change in magnetic flux. When flux decreases, the induced field tends to reinforce the original flux; when flux increases, it tends to oppose the added flux. The reversal reflects opposition to ΔΦ/Δt, not a preference for a fixed current direction.",
+        "B": "Nothing in the passage suggests the coil loses conductivity during field increases. Conductivity determines whether current can flow, whereas current direction is set by the sign of the changing flux and the loop orientation. The reasoning confuses material behavior with induction direction.",
+        "C": "A resistor does not independently set a polarity that reverses the current. It dissipates electrical energy and relates voltage to current through Ohm's law. The polarity of the induced emf comes from the changing magnetic flux, not from a passive load.",
+        "D": "The number of turns is a physical count and cannot become negative. Sign conventions in Faraday's law describe orientation and opposition to flux change; they do not imply negative coils. Treating N as negative is a mathematical misreading of the law."
+      },
+      "topic": "Lenz's Law",
+      "difficulty": "Medium",
+      "passageRef": "cp_emind_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_emind_006",
+      "passage": "A second group studies magnetic forces on charged particles in a compact mass spectrometer used to separate ionized metabolites. Singly charged positive ions are accelerated from rest through a potential difference before entering a region with a uniform magnetic field perpendicular to their velocity. Their paths curve into semicircles before striking a detector plate. The instrument is calibrated with ions of known mass-to-charge ratio.\n\nIon | Charge | Accelerating voltage | Magnetic field | Observed radius\nX | +e | 1.00 kV | 0.200 T | 7.2 cm\nY | +e | 1.00 kV | 0.200 T | 10.2 cm\nZ | +2e | 1.00 kV | 0.200 T | 7.2 cm\n\nThe researchers use qV = ½mv² for acceleration and r = mv/(qB) in the magnetic field. They note that the magnetic force changes the direction of velocity but does no work because it is perpendicular to motion. A contaminating electric field parallel to the ion velocity would change kinetic energy before the ions entered the analyzer.",
+      "stem": "Why does the magnetic field bend the ion path without changing the ion's speed?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The magnetic force is parallel to velocity and cancels kinetic energy changes."
+        },
+        {
+          "label": "B",
+          "text": "The magnetic force is perpendicular to velocity and therefore does no work."
+        },
+        {
+          "label": "C",
+          "text": "The magnetic field removes charge from the ion."
+        },
+        {
+          "label": "D",
+          "text": "The magnetic field converts kinetic energy into electric potential energy."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A force parallel or antiparallel to velocity would do work and change speed. Magnetic force on a moving charge is qvB sinθ and is perpendicular to velocity when the field is perpendicular to motion. The reasoning reverses the geometry that makes circular motion possible.",
+        "B": "Correct. Work is W = Fd cosθ, and the magnetic force is perpendicular to the instantaneous displacement of the ion in this setup. It can continuously redirect velocity, providing centripetal acceleration, while leaving kinetic energy and speed unchanged in an ideal magnetic analyzer.",
+        "C": "The magnetic field exerts a force on charge but does not neutralize or remove it. The ion's charge remains essential because q appears in both the acceleration and curvature equations. If the ion lost charge, it would no longer follow the same magnetic trajectory.",
+        "D": "Conversion between kinetic and electric potential energy is associated with electric fields or voltage differences, not with a static magnetic field doing work. The passage specifically warns that a contaminating electric field would change kinetic energy, distinguishing it from the magnetic analyzer."
+      },
+      "topic": "Magnetic Force and Work",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_emind_007",
+      "passage": null,
+      "stem": "If Ion Y has the same charge and accelerating voltage as Ion X but a larger radius, what can be inferred about Ion Y?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ion Y has a greater mass than Ion X."
+        },
+        {
+          "label": "B",
+          "text": "Ion Y has a smaller mass than Ion X."
+        },
+        {
+          "label": "C",
+          "text": "Ion Y has lower kinetic energy than Ion X."
+        },
+        {
+          "label": "D",
+          "text": "Ion Y experienced no magnetic force."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. For ions with the same charge, voltage, and magnetic field, r = mv/(qB) combined with qV = ½mv² gives r ∝ √m. The larger observed radius for Ion Y therefore indicates a larger mass-to-charge ratio, and because charge is the same, a greater mass.",
+        "B": "A smaller mass would produce a smaller radius under identical voltage, charge, and magnetic field. Combining qV = ½mv² with r = mv/(qB) gives r² = 2mV/(qB²), so at fixed V, q, and B, radius increases with √m. The reasoning relies on only one variable and misses the integrated relationship.",
+        "C": "With the same charge and accelerating voltage, both ions gain the same kinetic energy qV. The larger radius is not evidence of lower kinetic energy; it reflects how momentum and mass-to-charge ratio determine curvature after acceleration.",
+        "D": "Ion Y follows a curved semicircular path, so it must experience a magnetic force. A particle experiencing no magnetic force would travel straight through the analyzer unless acted on by another force. Radius differences compare force-curvature relationships, not presence versus absence of force."
+      },
+      "topic": "Mass Spectrometry Radius",
+      "difficulty": "Medium",
+      "passageRef": "cp_emind_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_emind_008",
+      "passage": null,
+      "stem": "Compared with Ion X, Ion Z has the same observed radius despite twice the charge. Which explanation is most consistent with the equations in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ion Z must have half the mass of Ion X."
+        },
+        {
+          "label": "B",
+          "text": "Ion Z must have the same mass as Ion X."
+        },
+        {
+          "label": "C",
+          "text": "Ion Z must have twice the mass of Ion X."
+        },
+        {
+          "label": "D",
+          "text": "Ion Z must have four times the mass of Ion X."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Half the mass with twice the charge would greatly reduce the radius. Because r² = 2mV/(qB²), decreasing m while increasing q lowers m/q and curves the ion more tightly. The reasoning moves both variables in the wrong direction for maintaining the observed radius.",
+        "B": "If mass were unchanged and charge doubled, the radius would not remain the same. The higher charge increases kinetic energy during acceleration, but the magnetic force and curvature relationship still make r scale as √m/√q when voltage is fixed. Equal mass would give a smaller radius.",
+        "C": "Correct. Combining qV = ½mv² with r = mv/(qB) gives r² = 2mV/(qB²). At fixed radius, voltage, and magnetic field, m/q must remain constant. Because Ion Z has twice the charge of Ion X, it must have twice the mass to strike the detector at the same radius.",
+        "D": "The answer is tempting if one overcompensates for the doubled charge. However, combining the two equations gives r² = 2mV/(qB²), so equal radius with doubled q requires doubled mass, not quadrupled mass. Therefore this answer is not consistent with the full passage equations."
+      },
+      "topic": "Charge-to-Mass Scaling",
+      "difficulty": "Hard",
+      "passageRef": "cp_emind_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_emind_009",
+      "passage": null,
+      "stem": "Which instrument problem would most directly violate the assumption used in qV = ½mv² before magnetic analysis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Increasing the detector distance after ions complete the semicircle"
+        },
+        {
+          "label": "B",
+          "text": "Using a stronger magnetic field in the analyzer"
+        },
+        {
+          "label": "C",
+          "text": "A weak electric field parallel to ion velocity just before entry into the magnetic region"
+        },
+        {
+          "label": "D",
+          "text": "A detector plate that records positive ions more efficiently than negative ions"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Moving the detector changes where particles are collected but does not alter the acceleration-energy relationship before magnetic entry. The equation qV = ½mv² concerns the kinetic energy gained through the accelerating potential, not the geometry of the detector after analysis.",
+        "B": "A stronger magnetic field changes the radius through r = mv/(qB), but it does not by itself change the ion's kinetic energy if the field remains perpendicular to velocity. This would affect calibration but not the pre-analyzer energy assumption in qV = ½mv².",
+        "C": "Correct. An electric field parallel to velocity can do work on the ions, changing their kinetic energy beyond the intended accelerating voltage. That would break the assumption that all kinetic energy at analyzer entry comes only from qV, leading to incorrect mass-to-charge estimates.",
+        "D": "Detection efficiency affects signal intensity, not the kinetic-energy equation used before entry into the magnetic field. It could bias abundance estimates but would not directly change the speed acquired from the accelerating voltage."
+      },
+      "topic": "Electric Work and Instrument Assumptions",
+      "difficulty": "Medium",
+      "passageRef": "cp_emind_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_emind_010",
+      "passage": null,
+      "stem": "The explanation for Ion Z should rely on which combined relationship?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "r = qB/mv"
+        },
+        {
+          "label": "B",
+          "text": "r² = 2qB²/(mV)"
+        },
+        {
+          "label": "C",
+          "text": "r = qV/B"
+        },
+        {
+          "label": "D",
+          "text": "r² = 2mV/(qB²)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This expression is the reciprocal of the magnetic-radius relation and also fails to incorporate acceleration by the voltage. It would predict smaller radius for larger velocity in the wrong way. The correct derivation must use both energy conservation and circular magnetic motion.",
+        "B": "This inverts the correct dependence: it predicts larger radius for stronger magnetic field and smaller mass, both opposite of the physical behavior. A stronger field bends charged particles more tightly, and larger mass-to-charge ratio produces a larger radius.",
+        "C": "This expression has incorrect dimensions and ignores mass, even though mass is central to curvature in a mass spectrometer. Voltage affects kinetic energy, but it cannot be multiplied by charge and divided by magnetic field to produce a path radius.",
+        "D": "Correct. From qV = ½mv² and r = mv/(qB), substitution yields r² = 2mV/(qB²). This relationship is the safest way to compare ions when charge affects both acceleration and magnetic force. It also shows that equal radius at fixed V and B requires the ratio m/q to be constant."
+      },
+      "topic": "Mass Spectrometry Equations",
+      "difficulty": "Hard",
+      "passageRef": "cp_emind_006",
+      "usePrevPassage": true
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "batch": "B047",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Cardiovascular Physiology II",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_cardio_001",
+      "passage": "A cardiologist studies a patient's cardiac cycle using echocardiography and pressure tracings. During systole, the left ventricle contracts, raising intraventricular pressure until it exceeds aortic pressure, opening the aortic valve and ejecting blood. During diastole, the ventricle relaxes, pressure falls below aortic pressure, the aortic valve closes (producing the S2 heart sound), and the ventricle fills from the left atrium through the open mitral valve.",
+      "stem": "During isovolumetric contraction, the left ventricular pressure is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "rising rapidly while both the mitral and aortic valves are closed, so no blood enters or leaves the ventricle"
+        },
+        {
+          "label": "B",
+          "text": "falling because the ventricle is relaxing"
+        },
+        {
+          "label": "C",
+          "text": "constant because blood is flowing out through the open aortic valve"
+        },
+        {
+          "label": "D",
+          "text": "negative because the ventricle is generating suction to pull blood from the atrium"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Isovolumetric contraction is the brief phase between mitral valve closure (S1) and aortic valve opening. The ventricle contracts, rapidly increasing pressure, but both AV (mitral) and semilunar (aortic) valves are closed — no blood enters or exits, so ventricular volume remains constant (isovolumetric). This phase ends when ventricular pressure exceeds aortic diastolic pressure (~80 mmHg), forcing the aortic valve open and beginning the ejection phase.",
+        "B": "Falling pressure during relaxation describes isovolumetric relaxation — the phase after the aortic valve closes and before the mitral valve opens. During isovolumetric contraction, pressure is rising, not falling. These two isovolumetric phases are mirror images: one builds pressure before ejection, the other releases it before filling.",
+        "C": "Blood flowing through an open aortic valve describes the ejection phase, which follows isovolumetric contraction. During ejection, volume decreases as blood is pumped into the aorta. During isovolumetric contraction, the aortic valve has not yet opened — pressure must first rise high enough to exceed aortic pressure.",
+        "D": "Negative ventricular pressure does not occur during normal contraction. Suction effects can contribute to early diastolic filling (ventricular recoil), but during contraction, pressure is positive and increasing. The ventricle pushes blood out — it does not pull blood in during systole."
+      },
+      "topic": "Cardiac Cycle / Isovolumetric Contraction",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_002",
+      "passage": null,
+      "passageRef": "bb_cardio_001",
+      "stem": "The Frank-Starling mechanism describes the heart's ability to adjust stroke volume based on venous return. According to this mechanism, increased venous return leads to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increased stroke volume because greater end-diastolic volume stretches cardiac myocytes, increasing the force of contraction through optimized actin-myosin overlap and calcium sensitivity"
+        },
+        {
+          "label": "B",
+          "text": "decreased stroke volume because the heart is overfilled and cannot contract effectively"
+        },
+        {
+          "label": "C",
+          "text": "unchanged stroke volume because the heart contracts with the same force regardless of filling"
+        },
+        {
+          "label": "D",
+          "text": "decreased heart rate to compensate for the increased volume"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Frank-Starling law states that increased end-diastolic volume (EDV) — caused by increased venous return — stretches the ventricular wall, which increases the force of the subsequent contraction and therefore stroke volume. The mechanism involves: (1) optimization of the sarcomere length-tension relationship (stretching to ~2.2 μm maximizes actin-myosin cross-bridge overlap), (2) increased calcium sensitivity of the contractile apparatus at longer sarcomere lengths, and (3) titin-based passive tension contributing to elastic recoil. This intrinsic mechanism allows the heart to match its output to the volume of blood returning to it, without neural or hormonal input.",
+        "B": "Within the physiological range, increased filling enhances contraction — this is the entire point of the Frank-Starling mechanism. Overfilling beyond the physiological range (as in severe heart failure with extreme dilation) can reduce contractility, but this represents pathological decompensation, not normal Frank-Starling function.",
+        "C": "The heart does not contract with constant force — the Frank-Starling mechanism is precisely the observation that cardiac output is autoregulated by filling volume. This 'constant force' model would predict no relationship between venous return and stroke volume, which contradicts extensive experimental evidence.",
+        "D": "The Frank-Starling mechanism operates through changes in stroke volume (force of contraction), not heart rate. Heart rate regulation involves the autonomic nervous system (sympathetic and parasympathetic innervation of the SA node), which is a separate regulatory mechanism. The Starling mechanism is an intrinsic property of cardiac muscle that functions even in a denervated (transplanted) heart."
+      },
+      "topic": "Frank-Starling Mechanism / Preload",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_003",
+      "passage": null,
+      "stem": "Mean arterial pressure (MAP) is determined by cardiac output (CO) and total peripheral resistance (TPR) according to MAP = CO × TPR. If cardiac output doubles while TPR is halved, MAP will:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "double, because CO is the dominant factor"
+        },
+        {
+          "label": "B",
+          "text": "drop to zero, because the effects cancel out completely"
+        },
+        {
+          "label": "C",
+          "text": "quadruple, because both factors increase"
+        },
+        {
+          "label": "D",
+          "text": "remain unchanged, because the increase in CO is exactly offset by the decrease in TPR"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "MAP depends on both CO and TPR multiplicatively, not on CO alone. If CO doubles (×2) and TPR halves (×½), the product is 2 × ½ = 1 — unchanged. CO is not dominant; both factors contribute equally to the product.",
+        "B": "MAP = CO × TPR = 2 × ½ × original = 1 × original = unchanged, not zero. MAP would reach zero only if either CO or TPR were zero — i.e., cardiac arrest (CO = 0) or complete loss of vascular tone (TPR → 0, which is incompatible with life).",
+        "C": "Quadrupling would require both factors to increase (e.g., both doubling: 2 × 2 = 4). In this scenario, TPR decreases, not increases. A halving of TPR works against the MAP increase, not in favor of it.",
+        "D": "Correct. MAP = CO × TPR. If CO increases by a factor of 2 and TPR decreases by a factor of 2: new MAP = (2CO)(½TPR) = CO × TPR = original MAP. The two changes exactly offset each other. This occurs physiologically during exercise: cardiac output increases substantially (from ~5 L/min to ~25 L/min), but vasodilation in working skeletal muscle reduces TPR, preventing MAP from rising proportionally. The net result is a moderate increase in MAP during exercise — not a doubling."
+      },
+      "topic": "MAP / Cardiac Output × TPR",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_cardio_004",
+      "passage": null,
+      "stem": "Baroreceptors in the carotid sinus and aortic arch detect changes in blood pressure and relay this information to the medulla. A sudden decrease in blood pressure would trigger the baroreceptor reflex to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decrease heart rate and dilate arterioles to further reduce blood pressure"
+        },
+        {
+          "label": "B",
+          "text": "decrease sympathetic output and increase parasympathetic output to the heart"
+        },
+        {
+          "label": "C",
+          "text": "increase renal blood flow to excrete more sodium and water, reducing blood volume"
+        },
+        {
+          "label": "D",
+          "text": "increase sympathetic output to the heart and blood vessels, raising heart rate, contractility, and peripheral resistance to restore blood pressure"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Decreasing heart rate and dilating arterioles would lower blood pressure further — the opposite of what a homeostatic reflex should do in response to hypotension. The baroreceptor reflex is a negative feedback loop designed to restore blood pressure toward normal, not to amplify the deviation.",
+        "B": "Decreased sympathetic and increased parasympathetic output would slow the heart and reduce contractility — appropriate for high blood pressure, not low. When baroreceptors detect a pressure drop, they fire less frequently, which decreases their inhibitory input to the vasomotor center, resulting in increased (not decreased) sympathetic output.",
+        "C": "Increasing renal sodium and water excretion would reduce blood volume and further decrease blood pressure — the opposite of the appropriate response. During hypotension, the kidneys retain sodium and water (via RAAS activation and ADH release) to expand blood volume and support pressure.",
+        "D": "Correct. Baroreceptors are stretch-sensitive mechanoreceptors that fire in proportion to arterial wall stretch (i.e., blood pressure). When BP drops, baroreceptor firing rate decreases. The medullary cardiovascular center interprets this reduced firing as hypotension and responds by: (1) increasing sympathetic outflow to the heart (raising rate and contractility via β₁ receptors), (2) increasing sympathetic outflow to arterioles (causing vasoconstriction via α₁ receptors, raising TPR), and (3) decreasing parasympathetic (vagal) output to the heart. The net effect is increased CO and TPR, restoring MAP."
+      },
+      "topic": "Baroreceptor Reflex / Blood Pressure Regulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_005",
+      "passage": null,
+      "stem": "Blood flows from arteries → arterioles → capillaries → venules → veins. The velocity of blood flow is slowest in the capillaries because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "capillaries have the smallest individual diameter, creating maximum resistance"
+        },
+        {
+          "label": "B",
+          "text": "the heart generates the least pressure at the capillary level"
+        },
+        {
+          "label": "C",
+          "text": "the total cross-sectional area of all capillaries is the largest of any vascular bed, and flow velocity is inversely proportional to cross-sectional area"
+        },
+        {
+          "label": "D",
+          "text": "capillary walls are thin, which slows blood flow by friction"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "While individual capillaries do have the smallest diameter (~5-10 μm), blood velocity depends on the total cross-sectional area of the vascular bed, not on individual vessel diameter. Billions of capillaries in parallel create an enormous total cross-sectional area. Individual diameter affects resistance per vessel, but the massive parallelism of capillaries actually reduces total capillary resistance compared to arterioles.",
+        "B": "While pressure does drop across the vascular tree, the primary determinant of flow velocity is cross-sectional area, not pressure alone. The continuity equation (A₁v₁ = A₂v₂ for incompressible fluid) shows that velocity is inversely proportional to cross-sectional area. Pressure drives flow, but velocity is determined by the geometry of the conduit.",
+        "C": "Correct. The continuity equation states that for incompressible flow, the product of cross-sectional area and velocity is constant: A × v = constant. The total cross-sectional area of all capillaries combined (~3000–4000 cm²) vastly exceeds that of the aorta (~3-5 cm²), arteries, or veins. Since the same volume of blood must pass through each level per unit time, the blood must slow down dramatically in the capillary bed. This slow velocity is physiologically essential — it maximizes the time for gas, nutrient, and waste exchange across the thin capillary walls.",
+        "D": "Capillary wall thickness (~0.5 μm) does not determine flow velocity. Thin walls facilitate diffusion of gases and nutrients — they are thin for exchange, not for flow regulation. Friction (viscous drag) does contribute to resistance, but the primary reason for slow capillary flow is the enormous total cross-sectional area, not wall friction."
+      },
+      "topic": "Capillary Flow Velocity / Continuity Equation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_006",
+      "passage": null,
+      "stem": "The sinoatrial (SA) node is the heart's natural pacemaker. SA node cells spontaneously depolarize because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "they receive constant stimulation from the somatic nervous system"
+        },
+        {
+          "label": "B",
+          "text": "they have an unstable resting potential — funny channels (If) allow slow Na⁺ influx during diastole, gradually depolarizing the cell to threshold"
+        },
+        {
+          "label": "C",
+          "text": "they are connected to skeletal muscle fibers that contract rhythmically"
+        },
+        {
+          "label": "D",
+          "text": "they contain contractile proteins that generate electrical impulses"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The SA node is innervated by the autonomic (not somatic) nervous system — sympathetic fibers increase heart rate and parasympathetic (vagal) fibers decrease it. However, the SA node does not require any nervous input to generate its rhythm. Pacemaker automaticity is an intrinsic property of SA node cells — a denervated (transplanted) heart still beats, just without autonomic modulation.",
+        "B": "Correct. SA node cells have an unstable resting potential — they never reach a true stable resting membrane potential. During diastole, hyperpolarization-activated cyclic nucleotide-gated (HCN) channels (funny channels, If) open, allowing a slow inward Na⁺ current that gradually depolarizes the cell. As the membrane potential approaches ~−40 mV, T-type Ca²⁺ channels open, accelerating depolarization. At threshold, L-type Ca²⁺ channels open, producing the rapid upstroke of the pacemaker action potential. This spontaneous, cyclical depolarization generates the heart's intrinsic rhythm (~60-100 beats/min).",
+        "C": "The SA node is composed of specialized cardiac muscle cells, not skeletal muscle. Cardiac pacemaker cells are myogenic — they generate their own electrical rhythm without external input. Skeletal muscle requires motor neuron stimulation and plays no role in cardiac pacing.",
+        "D": "While SA node cells do contain some contractile proteins, the electrical impulse is generated by ion channel activity (funny channels, Ca²⁺ channels, K⁺ channels), not by contractile proteins. Contractile proteins (actin, myosin) generate mechanical force after electrical activation — they do not produce the initiating electrical signal."
+      },
+      "topic": "SA Node / Pacemaker Automaticity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_007",
+      "passage": null,
+      "stem": "Fetal circulation differs from adult circulation in several ways. One key adaptation is the ductus arteriosus, which:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "connects the umbilical vein to the inferior vena cava, bypassing the liver"
+        },
+        {
+          "label": "B",
+          "text": "shunts blood from the pulmonary artery to the aorta, bypassing the non-functional fetal lungs"
+        },
+        {
+          "label": "C",
+          "text": "connects the right and left atria, allowing blood to bypass the right ventricle"
+        },
+        {
+          "label": "D",
+          "text": "carries oxygenated blood from the placenta to the fetal heart"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The connection from the umbilical vein to the inferior vena cava that bypasses the liver is the ductus venosus, not the ductus arteriosus. The ductus venosus allows oxygenated blood from the placenta to reach the heart quickly without first passing through the hepatic sinusoids.",
+        "B": "Correct. The ductus arteriosus connects the pulmonary artery to the descending aorta, diverting blood away from the non-functional fetal lungs (which are fluid-filled and have high vascular resistance). Since the fetus receives oxygenated blood from the placenta, pulmonary gas exchange is unnecessary. The ductus arteriosus normally closes within 1-2 days after birth when pulmonary vascular resistance drops and oxygen levels rise, triggering smooth muscle constriction. Failure to close (patent ductus arteriosus, PDA) results in a left-to-right shunt after birth.",
+        "C": "The connection between the right and left atria is the foramen ovale, not the ductus arteriosus. The foramen ovale allows oxygenated blood returning from the placenta to pass directly from the right atrium to the left atrium, bypassing the right ventricle and pulmonary circulation. It closes after birth when left atrial pressure exceeds right atrial pressure.",
+        "D": "The umbilical vein carries oxygenated blood from the placenta to the fetus. The ductus arteriosus is located within the fetal thorax and connects the pulmonary artery to the aorta — it does not connect to the placenta."
+      },
+      "topic": "Fetal Circulation / Ductus Arteriosus",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_cardio_008",
+      "passage": null,
+      "stem": "Starling forces govern fluid movement across capillary walls. At the arteriolar end of a capillary, net filtration occurs because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "oncotic (colloid osmotic) pressure exceeds hydrostatic pressure, pushing fluid out of the capillary"
+        },
+        {
+          "label": "B",
+          "text": "hydrostatic pressure is lowest at the arteriolar end and increases toward the venular end"
+        },
+        {
+          "label": "C",
+          "text": "capillary hydrostatic pressure exceeds plasma oncotic pressure, driving fluid from the capillary into the interstitial space"
+        },
+        {
+          "label": "D",
+          "text": "interstitial fluid pressure is higher than capillary pressure, compressing the vessel"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This reverses the relationship. Oncotic pressure (created by plasma proteins, primarily albumin) tends to pull fluid into the capillary (reabsorption), not push it out. High hydrostatic pressure relative to oncotic pressure drives filtration — the forces work in opposite directions.",
+        "B": "Capillary hydrostatic pressure is highest at the arteriolar end (~35 mmHg) and decreases toward the venular end (~15 mmHg) due to resistance along the capillary length. This pressure gradient drives the transition from net filtration (arteriolar end) to net reabsorption (venular end). This answer states the gradient backwards.",
+        "C": "Correct. At the arteriolar end, capillary hydrostatic pressure (~35 mmHg) exceeds plasma oncotic pressure (~25 mmHg), creating a net outward force of ~10 mmHg that drives fluid filtration into the interstitium. At the venular end, hydrostatic pressure drops (~15 mmHg) below oncotic pressure (~25 mmHg), creating a net inward force of ~10 mmHg that drives reabsorption. This balance ensures ~90% of filtered fluid is reabsorbed, with the remaining ~10% returned via lymphatic drainage. Disruptions — decreased albumin (cirrhosis, nephrotic syndrome), increased hydrostatic pressure (heart failure) — cause edema.",
+        "D": "Interstitial fluid pressure is normally near zero or slightly negative, not higher than capillary pressure. If interstitial pressure exceeded capillary pressure, the capillary would collapse and blood flow would cease. Normal Starling forces maintain a small net filtration pressure, not vessel compression."
+      },
+      "topic": "Starling Forces / Capillary Filtration",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_cardio_009",
+      "passage": null,
+      "stem": "The electrocardiogram (ECG) records the electrical activity of the heart. The QRS complex represents:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "atrial depolarization"
+        },
+        {
+          "label": "B",
+          "text": "atrial repolarization"
+        },
+        {
+          "label": "C",
+          "text": "ventricular depolarization"
+        },
+        {
+          "label": "D",
+          "text": "ventricular repolarization"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Atrial depolarization is represented by the P wave — a small, rounded deflection that precedes the QRS complex. The P wave reflects the spread of electrical activation from the SA node across both atria, triggering atrial contraction. The QRS complex is a separate, larger event corresponding to the ventricles.",
+        "B": "Atrial repolarization does occur, but it is hidden within the QRS complex because it coincides with the much larger electrical signal of ventricular depolarization. Atrial repolarization is not separately visible on a standard ECG because the QRS signal overwhelms it.",
+        "C": "Correct. The QRS complex — a sharp, large-amplitude deflection lasting ~0.06-0.10 seconds — represents the rapid depolarization of the ventricular myocardium. The electrical impulse spreads from the AV node through the bundle of His, the right and left bundle branches, and the Purkinje fibers, rapidly activating the entire ventricular mass. The QRS is much larger than the P wave because the ventricular muscle mass is far greater than the atrial mass, generating a larger electrical signal.",
+        "D": "Ventricular repolarization is represented by the T wave — a broad, rounded deflection following the QRS complex. The T wave reflects the return of ventricular cells to their resting potential after contraction. The interval from QRS onset to T wave end (QT interval) represents the total duration of ventricular electrical activity."
+      },
+      "topic": "ECG / QRS Complex",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_cardio_010",
+      "passage": null,
+      "stem": "Hemoglobin's oxygen-binding curve is sigmoidal rather than hyperbolic because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "hemoglobin has only one oxygen-binding site, which saturates gradually"
+        },
+        {
+          "label": "B",
+          "text": "cooperative binding — the binding of each O₂ molecule increases the affinity of remaining subunits for O₂, producing a steep transition between the deoxygenated and oxygenated states"
+        },
+        {
+          "label": "C",
+          "text": "oxygen is insoluble in plasma and can only bind hemoglobin at high concentrations"
+        },
+        {
+          "label": "D",
+          "text": "hemoglobin irreversibly binds the first oxygen molecule, preventing subsequent binding"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Hemoglobin has four oxygen-binding sites (one per subunit: two α and two β chains in adult hemoglobin). A protein with one binding site would show a hyperbolic binding curve (like myoglobin), not a sigmoidal one. The sigmoidal shape specifically arises from interactions between multiple binding sites.",
+        "B": "Correct. Hemoglobin exhibits positive cooperativity: binding of the first O₂ molecule to one subunit induces conformational changes (T-state → R-state transition) that increase the affinity of the remaining subunits for subsequent O₂ molecules. This produces the characteristic sigmoidal (S-shaped) curve: at low pO₂, hemoglobin has low affinity (T-state); once the first O₂ binds, affinity increases dramatically, producing a steep rise in saturation; near full saturation, the curve plateaus. Cooperative binding enables efficient O₂ loading in the lungs (high pO₂, ~100 mmHg) and efficient unloading in tissues (low pO₂, ~40 mmHg).",
+        "C": "Oxygen is sparingly soluble in plasma (dissolved O₂ accounts for ~1.5% of total blood oxygen at normal pO₂), but its binding to hemoglobin is not limited by solubility. Hemoglobin binds oxygen directly from the dissolved pool, and the sigmoidal curve reflects cooperative binding kinetics, not solubility limitations.",
+        "D": "Oxygen binding to hemoglobin is fully reversible — this reversibility is essential for hemoglobin's physiological function. If the first O₂ bound irreversibly, hemoglobin could never fully unload oxygen in the tissues. The T→R conformational change is reversible, allowing hemoglobin to cycle between loading and unloading states."
+      },
+      "topic": "Hemoglobin / Cooperative Binding",
+      "difficulty": "Medium"
+    }
+  ]
+}

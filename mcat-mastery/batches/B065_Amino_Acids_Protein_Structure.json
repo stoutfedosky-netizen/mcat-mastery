@@ -1,0 +1,337 @@
+{
+  "batch": "B065",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Amino Acids & Protein Structure",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "bb_protein_001",
+      "passage": "A biochemist characterizes a novel enzyme using circular dichroism (CD) spectroscopy and finds it is predominantly α-helical. Size-exclusion chromatography indicates a native molecular weight of 120 kDa, while SDS-PAGE under reducing conditions shows a single band at 30 kDa. She performs a pH titration of a peptide fragment containing lysine (pKa side chain ≈ 10.5), aspartate (pKa side chain ≈ 3.9), and histidine (pKa side chain ≈ 6.0). She also studies a mutation that replaces a buried valine with glutamic acid and observes dramatic loss of enzyme activity.",
+      "stem": "The CD and chromatography data indicate that the native enzyme is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a homotetramer — four identical 30 kDa subunits assembling into a 120 kDa complex, demonstrating quaternary structure"
+        },
+        {
+          "label": "B",
+          "text": "a monomer of 120 kDa with no quaternary structure"
+        },
+        {
+          "label": "C",
+          "text": "a heterodimer of two different subunits"
+        },
+        {
+          "label": "D",
+          "text": "a single polypeptide that runs anomalously on SDS-PAGE"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "If the enzyme were a 120 kDa monomer, SDS-PAGE would show a single band at 120 kDa, not 30 kDa. The discrepancy between native (120 kDa) and denaturing (30 kDa) size indicates a multi-subunit complex.",
+        "A": "Correct. Size-exclusion chromatography separates by native molecular weight (120 kDa under non-denaturing conditions). SDS-PAGE under reducing conditions denatures the protein and breaks disulfide bonds, revealing individual subunit size (30 kDa). Since 120/30 = 4 and only one band appears, the enzyme is a homotetramer — four identical 30 kDa subunits. This quaternary structure (multiple polypeptide chains) is common in enzymes; examples include lactate dehydrogenase (tetramer) and hemoglobin (α₂β₂ heterotetramer).",
+        "C": "A heterodimer would show two bands of different molecular weights on SDS-PAGE. Only one band at 30 kDa is observed, indicating identical subunits (homomer), not different subunits (heteromer).",
+        "D": "SDS uniformly coats proteins and provides a consistent charge-to-mass ratio, so anomalous migration is uncommon. The four-fold discrepancy between native and denatured size is far too large to be explained by anomalous migration — it clearly indicates a tetramer."
+      },
+      "topic": "Quaternary Structure / SDS-PAGE vs Native Size",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_protein_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "At pH 7.4, the lysine residue in the peptide fragment would be:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "deprotonated and negatively charged, because pH > pKa"
+        },
+        {
+          "label": "B",
+          "text": "part of a disulfide bond with another lysine"
+        },
+        {
+          "label": "C",
+          "text": "uncharged, because all amino acids are neutral at physiological pH"
+        },
+        {
+          "label": "D",
+          "text": "protonated and positively charged, because pH < pKa (10.5) — the amino group retains its proton and carries a +1 charge"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Disulfide bonds form between cysteine residues (thiol groups), not lysine residues. Lysine's side chain is an amine (–NH₂/–NH₃⁺), which cannot form disulfide bonds.",
+        "A": "At pH 7.4, lysine's side chain is below its pKa (10.5), so it is protonated and positively charged, not deprotonated and negative. A pH above 10.5 would be needed to deprotonate the ε-amino group.",
+        "C": "Not all amino acids are neutral at physiological pH. Lysine (pKa 10.5) and arginine (pKa 12.5) are positively charged, while aspartate (pKa 3.9) and glutamate (pKa 4.1) are negatively charged at pH 7.4. Only amino acids with uncharged polar or nonpolar side chains are neutral.",
+        "D": "Correct. Lysine's ε-amino side chain has pKa ≈ 10.5. At pH 7.4 (well below pKa), the Henderson-Hasselbalch equation predicts the amino group is predominantly protonated (–NH₃⁺), carrying a +1 charge. A group is protonated when pH < pKa and deprotonated when pH > pKa. The other positively charged amino acid at physiological pH is arginine (pKa ≈ 12.5, even more strongly protonated)."
+      },
+      "topic": "Amino Acid Charge / pKa",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_protein_003",
+      "passage": null,
+      "stem": "The α-helix is stabilized primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "covalent peptide bonds between adjacent residues"
+        },
+        {
+          "label": "B",
+          "text": "hydrophobic interactions between nonpolar side chains in the interior"
+        },
+        {
+          "label": "C",
+          "text": "ionic interactions between charged side chains"
+        },
+        {
+          "label": "D",
+          "text": "hydrogen bonds between backbone C=O of residue i and backbone N-H of residue i+4"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "Ionic interactions (salt bridges) between charged side chains contribute to tertiary and quaternary structure. While side-chain interactions can influence helix propensity, the defining feature of the α-helix is the i → i+4 backbone hydrogen bond pattern.",
+        "A": "Peptide bonds define the primary structure (amino acid sequence) and are covalent bonds formed during translation. They do not specifically stabilize α-helices — they connect all residues in all proteins regardless of secondary structure.",
+        "B": "Hydrophobic interactions between side chains stabilize tertiary structure (overall 3D folding) and quaternary structure, not secondary structure. α-Helix stability depends on backbone hydrogen bonds, not side-chain interactions.",
+        "D": "Correct. The α-helix is a right-handed coil stabilized by intrachain hydrogen bonds between the carbonyl oxygen (C=O) of residue i and the amide hydrogen (N-H) of residue i+4. These backbone hydrogen bonds run roughly parallel to the helix axis and give the structure its characteristic 3.6 residues per turn, 5.4 Å pitch. Side chains project outward from the helix and do not participate in the defining hydrogen bonds of secondary structure."
+      },
+      "topic": "α-Helix / Secondary Structure",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_protein_004",
+      "passage": null,
+      "stem": "The peptide bond has partial double-bond character due to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "disulfide bond formation between adjacent residues"
+        },
+        {
+          "label": "B",
+          "text": "resonance delocalization of the nitrogen lone pair into the carbonyl, restricting rotation and making the bond planar"
+        },
+        {
+          "label": "C",
+          "text": "hydrogen bonding between the C=O and N-H of the same peptide bond"
+        },
+        {
+          "label": "D",
+          "text": "ionic attraction between the amino and carboxyl termini"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. In the peptide bond (C-N between the carbonyl carbon and the amide nitrogen), the nitrogen lone pair is delocalized into the C=O π system via resonance. This gives the C-N bond roughly 40% double-bond character, restricting rotation around it and making the six atoms (Cα-C(=O)-N-H-Cα) planar. This planarity constrains the peptide backbone — rotation occurs only around the φ (N-Cα) and ψ (Cα-C) bonds, which are described by the Ramachandran plot.",
+        "A": "Disulfide bonds form between cysteine side chains and are covalent S-S bonds. They have no relationship to peptide bond planarity or partial double-bond character.",
+        "C": "Hydrogen bonds between C=O and N-H of the same peptide bond do not exist — these groups are too close. Hydrogen bonds between different residues stabilize secondary structure. The planarity of the peptide bond itself is due to resonance.",
+        "D": "Ionic attraction between termini occurs only at the ends of the polypeptide chain and has no role in the partial double-bond character of individual peptide bonds within the chain."
+      },
+      "topic": "Peptide Bond / Resonance and Planarity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_protein_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The valine-to-glutamic acid mutation in the hydrophobic core most likely destabilizes the enzyme because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "valine and glutamic acid have identical properties, so the mutation has no effect"
+        },
+        {
+          "label": "B",
+          "text": "glutamic acid is smaller than valine, creating a void in the core"
+        },
+        {
+          "label": "C",
+          "text": "introducing a negatively charged, hydrophilic residue into the nonpolar core disrupts hydrophobic packing and is thermodynamically unfavorable"
+        },
+        {
+          "label": "D",
+          "text": "glutamic acid cannot form peptide bonds with neighboring residues"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The hydrophobic core of a protein is formed by the burial of nonpolar side chains (Val, Leu, Ile, Phe, etc.) away from water. Replacing valine (nonpolar, branched aliphatic) with glutamic acid (negatively charged at pH 7.4) introduces an energetically unfavorable desolvation penalty — burying a charge in a low-dielectric environment costs ~40 kJ/mol. This disrupts the tightly packed hydrophobic core and destabilizes the native fold, often causing loss of function.",
+        "A": "Valine is nonpolar and hydrophobic; glutamic acid is charged and hydrophilic. They have very different physicochemical properties, making this a non-conservative substitution with major structural consequences.",
+        "B": "Glutamic acid is actually larger than valine (side chain: –CH₂CH₂COO⁻ vs –CH(CH₃)₂). The destabilization comes from the charge and polarity mismatch, not from size. Even if there were no size difference, burying a charged residue would be destabilizing.",
+        "D": "All amino acids form peptide bonds regardless of their side chain identity. The peptide bond forms between the α-amino and α-carboxyl groups, which are the same for all 20 standard amino acids. Side chain properties do not affect peptide bond formation."
+      },
+      "topic": "Protein Stability / Hydrophobic Core Disruption",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_protein_006",
+      "passage": null,
+      "stem": "Which amino acid has a thiol (-SH) side chain that can form disulfide bonds under oxidizing conditions?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Methionine"
+        },
+        {
+          "label": "B",
+          "text": "Serine"
+        },
+        {
+          "label": "C",
+          "text": "Cysteine"
+        },
+        {
+          "label": "D",
+          "text": "Threonine"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Cysteine contains a thiol (sulfhydryl, –SH) group that can be oxidized to form a disulfide bond (–S–S–) with another cysteine residue. Disulfide bonds stabilize the tertiary and quaternary structure of extracellular proteins (e.g., antibodies, insulin). They are common in secreted proteins that encounter the oxidizing extracellular environment but rare in cytoplasmic proteins (where the reducing environment maintains cysteines as free thiols).",
+        "A": "Methionine contains sulfur as a thioether (–S–CH₃), which cannot form disulfide bonds. Methionine's sulfur is already bonded to carbon and is not reactive under physiological oxidizing conditions. Both methionine and cysteine contain sulfur, but only cysteine has the –SH group required for disulfide formation.",
+        "B": "Serine has a hydroxyl (–OH) side chain, not a thiol. It is a polar uncharged amino acid that participates in hydrogen bonding and can be phosphorylated by kinases, but it cannot form disulfide bonds.",
+        "D": "Threonine has a hydroxyl group (like serine) and no sulfur. It is polar, uncharged, and can be phosphorylated, but it cannot participate in disulfide bonding."
+      },
+      "topic": "Cysteine / Disulfide Bonds",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_protein_007",
+      "passage": null,
+      "stem": "Size-exclusion (gel filtration) chromatography separates proteins based on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "charge — more charged proteins elute first"
+        },
+        {
+          "label": "B",
+          "text": "hydrophobicity — more hydrophobic proteins are retained longer"
+        },
+        {
+          "label": "C",
+          "text": "affinity for a specific ligand on the resin"
+        },
+        {
+          "label": "D",
+          "text": "size — larger proteins are excluded from the pores and elute first, while smaller proteins enter the pores and elute later"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The column contains porous beads with a defined pore size. Large proteins cannot enter the pores and flow through the column quickly (eluting first), while small proteins enter the pores, travel a longer path through the bead interior, and elute later. Intermediate-sized proteins partially enter pores, eluting between the large and small extremes. This technique estimates native molecular weight and can detect oligomeric complexes.",
+        "A": "Charge-based separation is ion-exchange chromatography. Cation-exchange resins (negatively charged) bind positively charged proteins; anion-exchange resins bind negatively charged proteins. Proteins are eluted by increasing salt concentration or changing pH.",
+        "B": "Hydrophobicity-based separation is hydrophobic interaction chromatography (HIC). Proteins bind nonpolar surfaces at high salt concentrations and are eluted by decreasing salt. This is different from size-exclusion.",
+        "C": "Ligand-specific binding is affinity chromatography, where the resin is conjugated to a ligand (antibody, substrate analog, metal ion) that specifically binds the target protein. This provides high selectivity but is not size-based."
+      },
+      "topic": "Size-Exclusion Chromatography",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_protein_008",
+      "passage": null,
+      "stem": "The isoelectric point (pI) of a simple amino acid with pKa₁ (α-carboxyl) = 2.0 and pKa₂ (α-amino) = 9.5 is approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2.0"
+        },
+        {
+          "label": "B",
+          "text": "5.75"
+        },
+        {
+          "label": "C",
+          "text": "7.0"
+        },
+        {
+          "label": "D",
+          "text": "9.5"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The pI is the pH at which the amino acid carries no net charge (the zwitterionic form). For a simple amino acid with no ionizable side chain, pI = (pKa₁ + pKa₂)/2 = (2.0 + 9.5)/2 = 5.75. At this pH, the amino acid exists predominantly as the zwitterion (NH₃⁺–CHR–COO⁻). For amino acids with ionizable side chains, the pI is the average of the two pKa values flanking the zero-charge species.",
+        "A": "2.0 is the pKa of the α-carboxyl group, not the pI. At pH 2.0, the amino acid would carry a net positive charge (+1 from NH₃⁺, 0 from COOH) — this is below the pI.",
+        "C": "7.0 is neutral pH but is not the pI for this amino acid. The pI depends on the specific pKa values, not on neutrality. For glycine (pKa₁ ≈ 2.3, pKa₂ ≈ 9.6), pI ≈ 5.97, well below 7.0.",
+        "D": "9.5 is the pKa of the α-amino group. At pH 9.5, the amino acid would carry a net negative charge (0 from NH₂, -1 from COO⁻ — halfway between NH₃⁺ and NH₂ deprotonation). This is above the pI."
+      },
+      "topic": "Isoelectric Point / pI Calculation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_protein_009",
+      "passage": null,
+      "stem": "Denaturation of a protein disrupts:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "only the primary structure (peptide bonds are broken)"
+        },
+        {
+          "label": "B",
+          "text": "the secondary, tertiary, and quaternary structures while leaving primary structure (peptide bonds) intact"
+        },
+        {
+          "label": "C",
+          "text": "only disulfide bonds, leaving all other interactions intact"
+        },
+        {
+          "label": "D",
+          "text": "the amino acid sequence by scrambling the order of residues"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Denaturation (by heat, extreme pH, urea, guanidinium chloride, or detergents) disrupts the non-covalent interactions that maintain higher-order structure: hydrogen bonds (secondary), hydrophobic interactions, ionic bonds, van der Waals forces (tertiary), and subunit interfaces (quaternary). The peptide bonds (primary structure) remain intact — the protein unfolds but is not hydrolyzed. Under certain conditions (e.g., Anfinsen's ribonuclease experiment), denatured proteins can refold, demonstrating that primary sequence encodes the native fold.",
+        "A": "Peptide bonds are covalent and are not broken by typical denaturing conditions (heat, urea). Peptide bond hydrolysis requires strong acid/base, specific enzymes (proteases), or extreme conditions. Denaturation specifically refers to loss of higher-order structure, not bond cleavage.",
+        "C": "While disulfide bonds can be disrupted by reducing agents (β-mercaptoethanol, DTT), denaturation also disrupts all other non-covalent interactions. Reducing agents are often used alongside denaturants but are not the only aspect of denaturation.",
+        "D": "The amino acid sequence is determined by the mRNA during translation and is maintained by covalent peptide bonds. Denaturation does not change the sequence — it disrupts the three-dimensional folding of the existing sequence."
+      },
+      "topic": "Protein Denaturation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_protein_010",
+      "passage": null,
+      "stem": "Proline is often found at turns in protein structure because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "its side chain forms a covalent bond with the backbone nitrogen, creating a rigid cyclic structure that introduces a kink incompatible with regular α-helix or β-sheet"
+        },
+        {
+          "label": "B",
+          "text": "it is the most hydrophobic amino acid and prefers to be buried in the core"
+        },
+        {
+          "label": "C",
+          "text": "it has a positively charged side chain that disrupts hydrogen bonding"
+        },
+        {
+          "label": "D",
+          "text": "it is the smallest amino acid and fits into tight spaces"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Proline is unique among the 20 standard amino acids: its side chain cyclizes back to bond with the backbone nitrogen, forming a five-membered pyrrolidine ring. This restricts the φ angle to approximately -60° and eliminates the backbone N-H, preventing it from donating a hydrogen bond in an α-helix. These constraints make proline a helix breaker and β-sheet disruptor, preferentially found at turns and bends where the polypeptide changes direction.",
+        "B": "Proline is moderately hydrophobic but is not the most hydrophobic amino acid (isoleucine, leucine, and phenylalanine are more hydrophobic). Its structural role at turns is due to its cyclic backbone constraint, not its hydrophobicity.",
+        "C": "Proline's side chain is nonpolar and uncharged — it is an aliphatic pyrrolidine ring with no ionizable group. The positively charged amino acids are lysine, arginine, and histidine (at physiological pH).",
+        "D": "Glycine is the smallest amino acid (side chain = H). Proline is actually larger than glycine. Glycine is also found at turns, but for the opposite reason — its small size gives it the most backbone flexibility, allowing unusual conformations."
+      },
+      "topic": "Proline / Turns and Helix Breaking",
+      "difficulty": "Medium"
+    }
+  ]
+}

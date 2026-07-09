@@ -1,0 +1,336 @@
+{
+  "batch": "B028",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Atoms, Nuclear Decay & Electronic Structure",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_atom_001",
+      "passage": "A nuclear medicine physician administers technetium-99m (\u2079\u2079\u1d50Tc) to a patient for a bone scan. \u2079\u2079\u1d50Tc is a metastable nuclear isomer that decays to \u2079\u2079Tc by emitting a gamma ray photon. The half-life of \u2079\u2079\u1d50Tc is 6.01 hours. The physician injects 20 mCi of activity at 8:00 AM and schedules imaging for 2:00 PM.",
+      "stem": "The decay of \u2079\u2079\u1d50Tc to \u2079\u2079Tc by gamma emission is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Alpha decay, in which the nucleus emits a helium-4 nucleus"
+        },
+        {
+          "label": "B",
+          "text": "Beta decay, in which a neutron converts to a proton with emission of an electron and antineutrino"
+        },
+        {
+          "label": "C",
+          "text": "Electron capture, in which an inner-shell electron is captured by the nucleus"
+        },
+        {
+          "label": "D",
+          "text": "Isomeric transition, in which an excited nuclear state releases energy as a gamma photon without changing the number of protons or neutrons"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Alpha decay emits a \u2074He nucleus (2 protons + 2 neutrons), reducing the atomic number by 2 and mass number by 4. \u2079\u2079\u1d50Tc \u2192 \u2079\u2079Tc involves no change in mass number or atomic number, so this is not alpha decay.",
+        "B": "Beta-minus decay converts a neutron to a proton, increasing the atomic number by 1 and emitting an electron. \u2079\u2079\u1d50Tc \u2192 \u2079\u2079Tc has no change in atomic number, so this is not beta decay.",
+        "C": "Electron capture involves a proton capturing an inner-shell electron to become a neutron, decreasing the atomic number by 1. No change in atomic number occurs in \u2079\u2079\u1d50Tc \u2192 \u2079\u2079Tc.",
+        "D": "Isomeric transition (IT) occurs when a metastable excited nuclear state (indicated by 'm') releases excess energy as a gamma-ray photon, transitioning to the ground state. No particles are emitted and no transmutation occurs \u2014 the nucleus has the same number of protons and neutrons before and after. This makes \u2079\u2079\u1d50Tc ideal for medical imaging: it produces detectable gamma rays without the tissue-damaging charged particles of alpha or beta decay."
+      },
+      "topic": "Nuclear Decay Types / Isomeric Transition",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_atom_002",
+      "passage": null,
+      "passageRef": "cp_atom_001",
+      "stem": "At 2:00 PM (6 hours after injection), the remaining activity of \u2079\u2079\u1d50Tc is approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0 mCi, because all radioactive atoms decay within 6 hours"
+        },
+        {
+          "label": "B",
+          "text": "5 mCi, because two half-lives have elapsed"
+        },
+        {
+          "label": "C",
+          "text": "20 mCi, because gamma decay does not reduce activity"
+        },
+        {
+          "label": "D",
+          "text": "10 mCi, because one half-life has nearly elapsed and the activity is halved"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Radioactive decay is exponential \u2014 it never reaches exactly zero. After one half-life, half remains; after two, one-quarter remains; and so on. Complete decay is approached asymptotically.",
+        "B": "Two half-lives would be ~12 hours (2 \u00d7 6.01). At 6 hours, only one half-life has elapsed. After two half-lives, activity would be 20/4 = 5 mCi, which would occur at approximately 2:00 AM the next day.",
+        "C": "All radioactive decay reduces the number of radioactive atoms and therefore the activity. Gamma emission from \u2079\u2079\u1d50Tc converts the metastable isotope to ground-state \u2079\u2079Tc, which is a different nuclear state. The activity of \u2079\u2079\u1d50Tc decreases as atoms transition.",
+        "D": "The half-life is 6.01 hours, and the elapsed time is 6 hours \u2014 essentially one half-life. After one half-life, the activity drops to half its initial value: 20 mCi / 2 = 10 mCi. Activity = A\u2080 \u00d7 (1/2)^(t/t\u00bd) = 20 \u00d7 (1/2)^(6/6.01) \u2248 20 \u00d7 0.499 \u2248 10 mCi."
+      },
+      "topic": "Radioactive Decay / Half-Life Calculation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_atom_003",
+      "passage": null,
+      "stem": "An atom of carbon-14 (\u00b9\u2074C) undergoes beta-minus decay. The daughter nucleus produced is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\u00b9\u2074N (nitrogen-14), because beta-minus decay converts a neutron to a proton, increasing the atomic number by 1 while the mass number remains unchanged"
+        },
+        {
+          "label": "B",
+          "text": "\u00b9\u00b2C (carbon-12), because beta decay removes two neutrons from the nucleus"
+        },
+        {
+          "label": "C",
+          "text": "\u00b9\u2070Be (beryllium-10), because beta decay emits a helium nucleus"
+        },
+        {
+          "label": "D",
+          "text": "\u00b9\u2074C remains unchanged because beta particles come from the electron cloud, not the nucleus"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "In beta-minus decay, a neutron converts to a proton within the nucleus: n \u2192 p + e\u207b + \u03bd\u0304\u2091. The atomic number increases by 1 (C, Z=6 \u2192 N, Z=7) while the mass number stays the same (14). The emitted electron (beta particle) and antineutrino carry away the energy difference. \u00b9\u2074C \u2192 \u00b9\u2074N is the basis of radiocarbon dating.",
+        "B": "Beta decay does not remove neutrons from the nucleus. It converts one neutron to a proton. The mass number (protons + neutrons) remains 14; only the identity of one nucleon changes.",
+        "C": "Emission of a helium nucleus is alpha decay, not beta decay. Alpha decay would reduce the mass number by 4 and atomic number by 2, producing \u00b9\u2070Be \u2014 but that is not what happens in beta decay.",
+        "D": "Beta particles in nuclear beta decay originate from the nucleus (neutron \u2192 proton conversion), not from the electron cloud. The emitted electron is created during the decay process; it is not an orbital electron."
+      },
+      "topic": "Beta Decay / Transmutation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_atom_004",
+      "passage": "A chemistry professor discusses the electronic structure of atoms. The professor explains that the electron configuration of a ground-state iron atom (Fe, Z=26) is [Ar] 3d\u2076 4s\u00b2. When iron forms the Fe\u00b2\u207a cation, the professor notes that the 4s electrons are removed first, despite the 4s orbital being filled before the 3d orbital during the aufbau process.",
+      "stem": "The 4s electrons are removed first when forming Fe\u00b2\u207a because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4s electrons are always lower in energy than 3d electrons, so they are easier to remove"
+        },
+        {
+          "label": "B",
+          "text": "in a multi-electron atom with d electrons present, the 3d orbitals drop below 4s in energy due to increased effective nuclear charge, making 4s electrons the outermost and highest-energy electrons that are removed first"
+        },
+        {
+          "label": "C",
+          "text": "the 4s orbital is physically smaller than the 3d orbital, making its electrons more accessible"
+        },
+        {
+          "label": "D",
+          "text": "removing 3d electrons would violate the Pauli exclusion principle"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This is the common misconception. While 4s fills before 3d during aufbau (because 4s is lower energy in bare or low-Z atoms), once d electrons are present, the effective nuclear charge increases and 3d drops below 4s in energy. In the neutral Fe atom, 4s is actually higher in energy than 3d, so 4s electrons are removed first during ionization.",
+        "B": "The aufbau filling order and the ionization order differ because electron-electron repulsion and effective nuclear charge change as electrons are added. In transition metals, once the 3d shell is populated, the 3d electrons are closer to the nucleus and experience a higher effective nuclear charge than 4s electrons. This makes 3d lower in energy than 4s, so 4s electrons (now the highest energy) are removed first. Fe\u00b2\u207a has configuration [Ar] 3d\u2076, not [Ar] 3d\u2074 4s\u00b2.",
+        "C": "The 4s orbital is actually larger (higher principal quantum number, greater average distance from nucleus) than the 3d orbital. 'Physical size' is not the reason for the ionization order. The energetic ordering, governed by effective nuclear charge, determines which electrons are removed.",
+        "D": "Removing 3d electrons would not violate the Pauli exclusion principle. The Pauli principle states that no two electrons can have identical quantum numbers \u2014 it does not restrict which electrons can be removed during ionization. The ionization order is determined by energy, not by quantum number constraints."
+      },
+      "topic": "Electron Configuration / Ionization Order",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_atom_005",
+      "passage": null,
+      "stem": "The four quantum numbers that describe an electron in an atom are n, l, m\u2097, and m\u209b. For an electron in a 3p orbital, the correct set of quantum numbers is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n=3, l=1, m\u2097=0, m\u209b=+1/2"
+        },
+        {
+          "label": "B",
+          "text": "n=3, l=2, m\u2097=0, m\u209b=+1/2"
+        },
+        {
+          "label": "C",
+          "text": "n=3, l=0, m\u2097=1, m\u209b=+1/2"
+        },
+        {
+          "label": "D",
+          "text": "n=2, l=1, m\u2097=0, m\u209b=+1/2"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "For a 3p orbital: n=3 (third shell), l=1 (p orbitals have l=1, where s=0, p=1, d=2, f=3), m\u2097 can be \u22121, 0, or +1 (for l=1, m\u2097 ranges from \u2212l to +l), and m\u209b = \u00b11/2. The set (3, 1, 0, +1/2) is a valid description of one electron in a 3p orbital.",
+        "B": "l=2 corresponds to d orbitals, not p orbitals. A 3d electron would have n=3, l=2. The 'p' designation specifically means l=1.",
+        "C": "l=0 corresponds to s orbitals. Additionally, m\u2097=1 is not valid when l=0 (m\u2097 must range from \u2212l to +l, so m\u2097 can only be 0 when l=0). This set contains two errors.",
+        "D": "n=2 with l=1 describes a 2p orbital, not a 3p orbital. The principal quantum number must match the shell designation: 3p requires n=3."
+      },
+      "topic": "Quantum Numbers / Electron Orbitals",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_atom_006",
+      "passage": null,
+      "stem": "Hund's rule states that electrons fill degenerate orbitals (orbitals of equal energy) singly before pairing. This rule minimizes electron-electron repulsion because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "electrons in different orbitals with parallel spins experience exchange stabilization and are, on average, farther apart than paired electrons in the same orbital"
+        },
+        {
+          "label": "B",
+          "text": "electrons always repel each other regardless of orbital occupancy, so Hund's rule has no physical basis"
+        },
+        {
+          "label": "C",
+          "text": "paired electrons in the same orbital have the same spin, which increases repulsion"
+        },
+        {
+          "label": "D",
+          "text": "degenerate orbitals have different energies, so electrons fill the lowest-energy one first"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "When electrons occupy different degenerate orbitals with parallel spins, quantum mechanical exchange interactions stabilize the configuration. Electrons with parallel spins tend to avoid each other spatially (a consequence of the antisymmetry requirement of the wavefunction), so they experience less Coulombic repulsion on average than electrons forced into the same orbital. This exchange stabilization energy makes the singly-occupied, parallel-spin configuration lower in energy than premature pairing. The Pauli exclusion principle is related but distinct: it requires that no two electrons share all four quantum numbers, which means paired electrons in the same orbital must have opposite spins. Hund's rule is a separate empirical observation that among configurations allowed by Pauli, the one with maximum parallel spin is lowest in energy.",
+        "B": "Hund's rule has a clear physical basis: exchange stabilization and reduced electron-electron repulsion. The rule is not arbitrary \u2014 it reflects quantum mechanical principles that determine the ground-state electron configuration.",
+        "C": "Paired electrons in the same orbital have opposite spins (Pauli exclusion principle requires different m\u209b values). They cannot have the same spin. The repulsion arises from spatial confinement in the same orbital, not from spin alignment.",
+        "D": "Degenerate orbitals have equal energy by definition. If they had different energies, they would not be degenerate, and the filling order would be determined by the aufbau principle, not Hund's rule."
+      },
+      "topic": "Hund's Rule / Exchange Stabilization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_atom_007",
+      "passage": null,
+      "stem": "The emission spectrum of hydrogen contains discrete lines rather than a continuous spectrum. This observation supports the model that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "electrons in hydrogen can have any energy value, producing a continuous range of photon wavelengths"
+        },
+        {
+          "label": "B",
+          "text": "electrons in hydrogen occupy quantized energy levels, and photons are emitted only when electrons transition between these discrete levels"
+        },
+        {
+          "label": "C",
+          "text": "hydrogen atoms absorb all wavelengths of light equally"
+        },
+        {
+          "label": "D",
+          "text": "the nucleus of hydrogen emits photons at fixed wavelengths determined by the number of protons"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "If electrons could have any energy, transitions would produce photons of every wavelength, giving a continuous spectrum. The discrete line spectrum directly contradicts this and supports quantization.",
+        "B": "Bohr's model (and quantum mechanics) explains the hydrogen emission spectrum: electrons exist only in specific energy levels (n=1,2,3...). When an electron transitions from a higher level to a lower one, it emits a photon with energy E = hf = E_high \u2212 E_low. Because the energy levels are quantized, only specific photon energies (and therefore specific wavelengths) are emitted, producing the observed line spectrum (Lyman, Balmer, Paschen series).",
+        "C": "Hydrogen does not absorb all wavelengths equally. It absorbs only specific wavelengths that correspond to transitions between quantized energy levels \u2014 the same wavelengths that appear in the emission spectrum (Kirchhoff's law of spectroscopy).",
+        "D": "The nucleus does not emit the photons in atomic emission spectra. The photons are emitted by electrons transitioning between energy levels in the electron cloud surrounding the nucleus."
+      },
+      "topic": "Atomic Emission Spectrum / Quantization",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_atom_008",
+      "passage": null,
+      "stem": "An element has an electron configuration of [Ne] 3s\u00b2 3p\u2075. This element is most likely:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a metal with low ionization energy that readily loses electrons"
+        },
+        {
+          "label": "B",
+          "text": "a noble gas that is chemically inert"
+        },
+        {
+          "label": "C",
+          "text": "a halogen with high electronegativity that readily gains one electron to achieve a noble gas configuration"
+        },
+        {
+          "label": "D",
+          "text": "an alkaline earth metal with two valence electrons"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "[Ne] 3s\u00b2 3p\u2075 has 7 valence electrons (2+5), which is characteristic of Group 17 (halogens), not metals. Metals typically have 1-3 valence electrons and low ionization energies. This element (chlorine, Z=17) has high ionization energy and high electron affinity.",
+        "B": "Noble gases have completely filled valence shells (s\u00b2p\u2076). This element has 3s\u00b23p\u2075 \u2014 one electron short of a full octet. It is highly reactive, not inert.",
+        "C": "Seven valence electrons (s\u00b2p\u2075) is the hallmark of the halogens (Group 17). With one electron needed to complete the octet, halogens have the highest electronegativity and electron affinity in their period. This configuration corresponds to chlorine (Cl, Z=17), which readily gains one electron to form Cl\u207b with configuration [Ne] 3s\u00b2 3p\u2076 = [Ar].",
+        "D": "Alkaline earth metals (Group 2) have configuration [noble gas] ns\u00b2, with only 2 valence electrons. This element has 7 valence electrons (s\u00b2p\u2075), placing it in Group 17, not Group 2."
+      },
+      "topic": "Electron Configuration / Periodic Trends",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_atom_009",
+      "passage": null,
+      "stem": "The effective nuclear charge (Z_eff) experienced by a valence electron generally increases across a period (left to right) in the periodic table because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "inner-shell electrons are added across a period, increasing shielding of the valence electrons"
+        },
+        {
+          "label": "B",
+          "text": "protons are added to the nucleus across a period, but valence electrons are added to the same shell and do not effectively shield each other from the increased nuclear charge"
+        },
+        {
+          "label": "C",
+          "text": "the atomic radius increases across a period, pulling valence electrons closer to the nucleus"
+        },
+        {
+          "label": "D",
+          "text": "electrons are removed from the atom as you move across a period, exposing the nucleus"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Across a period, electrons are added to the same principal energy level (same shell), not to inner shells. Shielding by core electrons remains approximately constant because no new inner shells are added. The increase in nuclear charge is only partially offset by the poor shielding of same-shell electrons.",
+        "B": "Moving across a period, each successive element has one more proton in the nucleus and one more electron in the same valence shell. Electrons in the same shell shield each other poorly (shielding factor ~0.35 for same-shell electrons vs. ~0.85-1.0 for inner-shell electrons). Therefore, the effective nuclear charge (Z_eff = Z \u2212 \u03c3) increases across the period, pulling valence electrons closer and explaining the trends in decreasing atomic radius, increasing ionization energy, and increasing electronegativity.",
+        "C": "Atomic radius decreases (not increases) across a period, precisely because Z_eff increases and pulls electrons closer. This answer reverses cause and effect.",
+        "D": "Electrons are not removed across a period in the ground state. Each successive element has one more electron than the previous one. The periodic table describes neutral atoms with equal numbers of protons and electrons."
+      },
+      "topic": "Effective Nuclear Charge / Periodic Trends",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_atom_010",
+      "passage": null,
+      "stem": "Radiocarbon dating uses the decay of \u00b9\u2074C (half-life \u2248 5,730 years) to estimate the age of organic materials. A fossil sample contains 1/8 of the original \u00b9\u2074C activity. The approximate age of the sample is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5,730 years (one half-life)"
+        },
+        {
+          "label": "B",
+          "text": "11,460 years (two half-lives)"
+        },
+        {
+          "label": "C",
+          "text": "17,190 years (three half-lives), because 1/8 = (1/2)\u00b3"
+        },
+        {
+          "label": "D",
+          "text": "22,920 years (four half-lives)"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "After one half-life, 1/2 of the original activity remains, not 1/8.",
+        "B": "After two half-lives, (1/2)\u00b2 = 1/4 of the original activity remains, not 1/8.",
+        "C": "1/8 = (1/2)\u00b3, meaning three half-lives have elapsed. Age = 3 \u00d7 5,730 = 17,190 years. This is a straightforward application of the exponential decay formula: A = A\u2080(1/2)^(t/t\u00bd). Setting A/A\u2080 = 1/8 and solving: (1/2)^(t/5730) = (1/2)\u00b3, so t/5730 = 3, giving t = 17,190 years.",
+        "D": "After four half-lives, (1/2)\u2074 = 1/16 of the original activity remains. The sample has 1/8, not 1/16, so four half-lives have not elapsed."
+      },
+      "topic": "Radiocarbon Dating / Half-Life Application",
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "batch": "B164",
+  "section": "ps",
+  "sectionName": "Psychological, Social, & Biological Foundations of Behavior",
+  "topicArea": "Social Cognition: Bias, Attribution & Stereotypes",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_socialcog2_001",
+      "passage": "Psychologists ask participants to evaluate applicants after reading identical résumés randomly assigned either a majority-group or minority-group name. Some participants first complete an implicit association task. Others are told that the study concerns fairness in hiring, increasing awareness of bias.\n\nCondition | Callback rating gap | Self-reported fairness concern\nNo warning | large | moderate\nFairness warning | smaller | high\nTime pressure | largest | low\n\nThe researchers distinguish explicit attitudes, implicit bias, stereotype threat, and discrimination. They emphasize that unequal outcomes can occur even when people sincerely endorse egalitarian values.",
+      "stem": "The résumé callback gap is best described as evidence of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "social loafing"
+        },
+        {
+          "label": "B",
+          "text": "stereotype threat in the applicant"
+        },
+        {
+          "label": "C",
+          "text": "discrimination in evaluation outcomes"
+        },
+        {
+          "label": "D",
+          "text": "group polarization"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Social loafing concerns reduced effort in group tasks, not biased evaluation of résumés.",
+        "B": "Stereotype threat affects performance of the stigmatized person under identity threat; the applicants are not performing in the study.",
+        "C": "Correct. A systematic difference in ratings for identical résumés based only on group-associated names indicates discriminatory evaluation. The behavior can occur even if explicit fairness values are endorsed.",
+        "D": "Group polarization is attitude intensification after group discussion, which is not the manipulation here."
+      },
+      "topic": "Social Cognition: Bias, Attribution & Stereotypes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socialcog2_002",
+      "passage": null,
+      "stem": "Why might the fairness warning reduce the rating gap?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It increases conscious monitoring and correction of biased responses"
+        },
+        {
+          "label": "B",
+          "text": "It changes the applicants' actual qualifications"
+        },
+        {
+          "label": "C",
+          "text": "It eliminates all implicit associations permanently"
+        },
+        {
+          "label": "D",
+          "text": "It creates stereotype threat in reviewers only"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Making fairness salient can motivate controlled processing and bias correction, reducing—but not necessarily eliminating—the gap. The warning affects evaluators' decision process, not applicant credentials.",
+        "B": "The résumés are identical and randomly assigned names, so qualifications do not change.",
+        "C": "Implicit associations are not permanently erased by a brief warning; the table shows a smaller gap, not zero bias forever.",
+        "D": "Stereotype threat usually describes performance pressure on stigmatized targets, not reviewers monitoring bias."
+      },
+      "topic": "Social Cognition: Bias, Attribution & Stereotypes",
+      "difficulty": "Easy",
+      "passageRef": "ps_socialcog2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_socialcog2_003",
+      "passage": null,
+      "stem": "Why does time pressure produce the largest gap?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Résumés become unequal under time pressure"
+        },
+        {
+          "label": "B",
+          "text": "Time pressure always improves accuracy"
+        },
+        {
+          "label": "C",
+          "text": "Explicit attitudes disappear under time pressure"
+        },
+        {
+          "label": "D",
+          "text": "Automatic associations have more influence when controlled correction is limited"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The documents remain identical; the difference lies in evaluation, not résumé content.",
+        "B": "Time pressure often reduces deliberation and can worsen accuracy, especially when bias correction requires cognitive control.",
+        "C": "Explicit attitudes do not disappear; rather, they may be less able to guide controlled responding.",
+        "D": "Correct. Under time pressure, people rely more on heuristics and automatic associations, leaving less opportunity to correct biased responses. That explains a larger gap despite identical materials."
+      },
+      "topic": "Social Cognition: Bias, Attribution & Stereotypes",
+      "difficulty": "Medium",
+      "passageRef": "ps_socialcog2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_socialcog2_004",
+      "passage": null,
+      "stem": "Which measure most directly assesses implicit bias?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A public statement of egalitarian values"
+        },
+        {
+          "label": "B",
+          "text": "An implicit association task"
+        },
+        {
+          "label": "C",
+          "text": "The applicant's GPA"
+        },
+        {
+          "label": "D",
+          "text": "The number of researchers in the room"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Self-reported values assess explicit attitudes, which can diverge from implicit associations.",
+        "B": "Correct. An implicit association task estimates automatic associations by comparing response latencies. It is designed to capture associations people may not report or fully endorse.",
+        "C": "Applicant GPA is part of qualifications, not a psychological measure of evaluator bias.",
+        "D": "Researcher count is not a direct measure of implicit cognition."
+      },
+      "topic": "Social Cognition: Bias, Attribution & Stereotypes",
+      "difficulty": "Hard",
+      "passageRef": "ps_socialcog2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_socialcog2_005",
+      "passage": null,
+      "stem": "Which conclusion is most justified by the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Egalitarian explicit attitudes do not guarantee unbiased behavior"
+        },
+        {
+          "label": "B",
+          "text": "Only openly prejudiced people discriminate"
+        },
+        {
+          "label": "C",
+          "text": "Bias is impossible to measure experimentally"
+        },
+        {
+          "label": "D",
+          "text": "Fairness warnings always eliminate discrimination"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage explicitly notes that unequal outcomes can occur even among people endorsing egalitarian values. That supports a distinction between explicit attitudes, implicit processes, and behavior.",
+        "B": "The data contradict this: bias can operate without openly prejudiced self-reports.",
+        "C": "The randomized résumé design is an experimental way to measure discriminatory evaluation.",
+        "D": "The warning reduces the gap but does not prove complete or permanent elimination."
+      },
+      "topic": "Social Cognition: Bias, Attribution & Stereotypes",
+      "difficulty": "Medium",
+      "passageRef": "ps_socialcog2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_socialcog2_006",
+      "passage": "A second study examines attribution after exam performance. Students read about a peer who failed an exam after either studying little or studying hard while caring for a sick parent. Participants under cognitive load are more likely to say the peer is unintelligent or lazy. Without load, they more often cite situational constraints. The study tests the fundamental attribution error, actor-observer differences, and just-world beliefs.",
+      "stem": "Attributing failure to laziness despite the sick-parent context illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "mere exposure effect"
+        },
+        {
+          "label": "B",
+          "text": "fundamental attribution error"
+        },
+        {
+          "label": "C",
+          "text": "bystander effect"
+        },
+        {
+          "label": "D",
+          "text": "sensory adaptation"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Mere exposure concerns liking increasing with familiarity, not causal explanation of failure.",
+        "B": "Correct. The fundamental attribution error is overemphasizing dispositional causes while underweighting situational constraints. Ignoring caregiving burden and calling the peer lazy fits that pattern.",
+        "C": "The bystander effect concerns helping behavior in groups, not attribution for exam performance.",
+        "D": "Sensory adaptation is reduced sensory response after repeated stimulation."
+      },
+      "topic": "Social Cognition: Bias, Attribution & Stereotypes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_socialcog2_007",
+      "passage": null,
+      "stem": "Why does cognitive load increase dispositional attributions?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Load directly lowers the peer's intelligence"
+        },
+        {
+          "label": "B",
+          "text": "Load makes the sick parent irrelevant"
+        },
+        {
+          "label": "C",
+          "text": "Situational correction requires cognitive resources"
+        },
+        {
+          "label": "D",
+          "text": "Attributions cannot occur under load"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The peer's actual intelligence is not changed by the participant's cognitive load.",
+        "B": "The sick-parent detail remains relevant; participants simply use it less under load.",
+        "C": "Correct. People may initially make quick dispositional inferences and then adjust for context. Cognitive load reduces resources for that correction, increasing fundamental attribution error.",
+        "D": "Attributions still occur; they become more dispositional under load."
+      },
+      "topic": "Social Cognition: Bias, Attribution & Stereotypes",
+      "difficulty": "Easy",
+      "passageRef": "ps_socialcog2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_socialcog2_008",
+      "passage": null,
+      "stem": "A just-world interpretation would most likely claim that the peer:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "must have deserved the poor outcome"
+        },
+        {
+          "label": "B",
+          "text": "was affected by structural barriers only"
+        },
+        {
+          "label": "C",
+          "text": "experienced no consequence"
+        },
+        {
+          "label": "D",
+          "text": "was helped by all classmates"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Just-world beliefs assume people generally get what they deserve, so a failure may be interpreted as deserved even when situational hardship is present.",
+        "B": "Structural-barrier explanations are more situational and conflict with just-world blame.",
+        "C": "The peer failed the exam, so there is a consequence.",
+        "D": "Classmate help is not described and would not capture just-world reasoning."
+      },
+      "topic": "Social Cognition: Bias, Attribution & Stereotypes",
+      "difficulty": "Medium",
+      "passageRef": "ps_socialcog2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_socialcog2_009",
+      "passage": null,
+      "stem": "Which response best avoids the fundamental attribution error?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Using only the first trait that comes to mind"
+        },
+        {
+          "label": "B",
+          "text": "Ignoring the parent-care detail entirely"
+        },
+        {
+          "label": "C",
+          "text": "Assuming failure proves laziness"
+        },
+        {
+          "label": "D",
+          "text": "Considering both study behavior and caregiving demands before judging ability"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Using the first trait that comes to mind favors automatic dispositional inference.",
+        "B": "Ignoring the situational detail is exactly the error the passage highlights.",
+        "C": "Assuming laziness from failure overweights disposition and underweights context.",
+        "D": "Correct. A balanced attribution integrates dispositional information with situational constraints. Considering both studying and caregiving avoids the classic overemphasis on personality."
+      },
+      "topic": "Social Cognition: Bias, Attribution & Stereotypes",
+      "difficulty": "Hard",
+      "passageRef": "ps_socialcog2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_socialcog2_010",
+      "passage": null,
+      "stem": "Actor-observer differences would predict that students explain their own failure more by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "genetic inferiority only"
+        },
+        {
+          "label": "B",
+          "text": "situational pressures than stable traits"
+        },
+        {
+          "label": "C",
+          "text": "the peer's laziness"
+        },
+        {
+          "label": "D",
+          "text": "the résumé name manipulation"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Genetic inferiority is an extreme dispositional claim and not actor-observer reasoning.",
+        "B": "Correct. Actors often emphasize situational constraints for their own behavior, whereas observers more readily infer traits. A student may cite illness, workload, or family demands when explaining their own failure.",
+        "C": "The peer's laziness explains another person's behavior, not the actor's self-explanation.",
+        "D": "The résumé manipulation belongs to the first study and does not explain exam failure."
+      },
+      "topic": "Social Cognition: Bias, Attribution & Stereotypes",
+      "difficulty": "Medium",
+      "passageRef": "ps_socialcog2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

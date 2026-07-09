@@ -1,0 +1,498 @@
+{
+  "batch": "B022",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Immune System & Microbiology",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 3,
+    "B": 4,
+    "C": 4,
+    "D": 4
+  },
+  "questions": [
+    {
+      "id": "bb_immune_001",
+      "passage": "A patient presents with fever, sore throat, and swollen cervical lymph nodes. Blood work reveals elevated white blood cell counts with atypical lymphocytes. The physician suspects infectious mononucleosis caused by Epstein-Barr virus (EBV). EBV primarily infects B lymphocytes via the CD21 receptor. During the acute phase, cytotoxic T lymphocytes (CD8+ T cells) proliferate and destroy EBV-infected B cells. The atypical lymphocytes seen on the blood smear are these reactive CD8+ T cells. After recovery, EBV remains latent in a small population of memory B cells for the lifetime of the host.",
+      "stem": "The CD8+ T cells that destroy EBV-infected B cells are part of which branch of the immune system?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The innate immune system, because all T cells are part of the nonspecific first line of defense"
+        },
+        {
+          "label": "B",
+          "text": "The complement system, because CD8+ T cells activate complement proteins to lyse infected cells"
+        },
+        {
+          "label": "C",
+          "text": "The humoral immune system, because the target is a B lymphocyte"
+        },
+        {
+          "label": "D",
+          "text": "The adaptive (cell-mediated) immune system, because CD8+ T cells recognize specific viral peptides presented on MHC class I molecules"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "T cells are part of the adaptive immune system, not innate. Innate immunity includes barriers (skin, mucosa), phagocytes (neutrophils, macrophages), NK cells, and complement. T cells undergo clonal selection and express antigen-specific receptors, which are hallmarks of adaptive immunity.",
+        "B": "The complement system is part of innate immunity and consists of plasma proteins that can be activated to form membrane attack complexes. CD8+ T cells do not kill via complement activation \u2014 they use perforin/granzyme-mediated cytotoxicity.",
+        "C": "Humoral immunity involves antibody production by B cells and plasma cells. While the target here is a B cell, the effector mechanism is cell-mediated killing by CD8+ T cells, not antibody-mediated. The branch is defined by the effector mechanism, not by the identity of the target.",
+        "D": "CD8+ cytotoxic T lymphocytes are a key effector of cell-mediated adaptive immunity. They recognize viral peptide fragments presented on MHC class I molecules on the surface of infected cells. Upon recognition, they release perforin (forms pores) and granzymes (trigger apoptosis) to kill the infected cell. This is antigen-specific and requires prior activation \u2014 both defining features of adaptive immunity."
+      },
+      "topic": "Adaptive Immunity / CD8+ T Cells",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_immune_002",
+      "passage": null,
+      "passageRef": "bb_immune_001",
+      "stem": "EBV's ability to remain latent in memory B cells for the host's lifetime is clinically significant because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "latent EBV prevents the host from mounting an immune response to any subsequent viral infection"
+        },
+        {
+          "label": "B",
+          "text": "memory B cells are destroyed during latent infection, leaving the patient permanently immunocompromised"
+        },
+        {
+          "label": "C",
+          "text": "the virus can reactivate during periods of immunosuppression, potentially causing disease in the absence of effective T cell surveillance"
+        },
+        {
+          "label": "D",
+          "text": "latent viruses are always more pathogenic than active viruses"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Latent EBV does not suppress the immune response to other pathogens. The host's immune system continues to function normally against other infections. Generalized immunosuppression is a feature of HIV (which destroys CD4+ T cells), not EBV latency.",
+        "B": "Latent EBV resides in a small number of memory B cells without destroying them. The vast majority of the B cell population is unaffected, and the patient retains normal humoral immunity.",
+        "C": "Viral latency means the viral genome persists in host cells without active replication. The immune system (particularly T cell surveillance) keeps the latent virus in check. During immunosuppression \u2014 from transplant medications, HIV/AIDS, chemotherapy, or aging \u2014 T cell surveillance weakens, allowing EBV to reactivate. This can cause post-transplant lymphoproliferative disorder, oral hairy leukoplakia, and is associated with Burkitt lymphoma and nasopharyngeal carcinoma.",
+        "D": "Latent viruses are not inherently more pathogenic. Latency is a survival strategy that allows the virus to persist without killing the host. Active replication, not latency, is typically associated with acute pathogenesis."
+      },
+      "topic": "Viral Latency / Immunosuppression",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_immune_003",
+      "passage": null,
+      "passageRef": "bb_immune_001",
+      "stem": "EBV infects B cells via the CD21 receptor. This specificity for B cells is an example of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "antigenic variation, in which the virus changes its surface proteins to evade immune detection"
+        },
+        {
+          "label": "B",
+          "text": "viral tropism, in which a virus infects specific cell types determined by the interaction between viral surface proteins and host cell receptors"
+        },
+        {
+          "label": "C",
+          "text": "lysogeny, in which the viral genome integrates into the host chromosome"
+        },
+        {
+          "label": "D",
+          "text": "transduction, in which the virus transfers host genes between bacterial cells"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Antigenic variation involves changes in viral surface proteins (e.g., influenza's antigenic drift/shift) to evade antibody recognition. EBV's specificity for CD21 reflects receptor-mediated tropism, not immune evasion through protein variation.",
+        "B": "Viral tropism refers to the specificity of a virus for particular cell types, tissues, or host species, determined by the molecular interaction between viral attachment proteins and host cell surface receptors. EBV's envelope glycoprotein gp350 binds specifically to CD21 (complement receptor 2) on B cells, restricting infection largely to this cell type. This receptor-ligand interaction is the molecular basis of EBV's B cell tropism.",
+        "C": "Lysogeny specifically refers to bacteriophage integration into the bacterial chromosome. While EBV does establish latency in B cells (with some similarities), the term lysogeny is reserved for phage biology. The question asks about cell-type specificity, not the mechanism of persistence.",
+        "D": "Transduction is the transfer of host DNA between bacteria via bacteriophages. It is unrelated to viral tropism in human infections."
+      },
+      "topic": "Viral Tropism / Receptor Specificity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_immune_004",
+      "passage": "A vaccine researcher designs a new influenza vaccine. The vaccine contains inactivated viral particles that cannot replicate but retain surface hemagglutinin (HA) and neuraminidase (NA) proteins. After vaccination, the patient develops HA-specific antibodies. When the patient is later exposed to the live influenza virus, these antibodies bind to HA on the viral surface, preventing the virus from attaching to host respiratory epithelial cells. The patient also develops memory T cells that can rapidly respond upon re-exposure.",
+      "stem": "The antibodies that prevent viral attachment to host cells are performing which immune function?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Opsonization, in which antibodies coat pathogens to enhance phagocytosis"
+        },
+        {
+          "label": "B",
+          "text": "Complement activation, in which antibodies trigger the classical complement cascade"
+        },
+        {
+          "label": "C",
+          "text": "Agglutination, in which antibodies cross-link multiple pathogens into clumps"
+        },
+        {
+          "label": "D",
+          "text": "Neutralization, in which antibodies block the pathogen's ability to bind to and infect host cells"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Opsonization involves coating pathogens with antibodies (or complement proteins) to make them more recognizable to phagocytes. While antibodies can opsonize, the passage specifically describes blocking viral attachment \u2014 the virus cannot bind to host cells. This is neutralization, not opsonization.",
+        "B": "The classical complement pathway is activated when antibodies (IgG or IgM) bound to antigens recruit C1q. While this does occur, the passage specifically describes antibodies preventing attachment, which is neutralization. Complement activation is a separate antibody function.",
+        "C": "Agglutination occurs when antibodies (particularly IgM, which is pentameric) cross-link multiple pathogens, forming large clumps that are easier for phagocytes to clear. The passage describes blocking attachment of individual viral particles, not cross-linking multiple particles.",
+        "D": "Neutralizing antibodies bind to surface structures that the pathogen uses to attach to host cells (in this case, HA on influenza). By occupying the attachment site, the antibodies physically block the virus from binding to sialic acid residues on respiratory epithelial cells, preventing infection. Neutralization is the primary mechanism by which influenza vaccines protect against disease."
+      },
+      "topic": "Antibody Functions / Neutralization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_immune_005",
+      "passage": null,
+      "passageRef": "bb_immune_004",
+      "stem": "The development of memory lymphocytes (both B and T cells) after vaccination ensures a faster response upon re-exposure. This accelerated secondary response differs from the primary response in that it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "produces antibodies of lower affinity because the immune system has been primed to respond quickly rather than precisely"
+        },
+        {
+          "label": "B",
+          "text": "is mediated entirely by innate immune cells that were activated during the primary response"
+        },
+        {
+          "label": "C",
+          "text": "does not require antigen presentation because memory cells can respond without MHC-mediated activation"
+        },
+        {
+          "label": "D",
+          "text": "involves rapid clonal expansion of memory lymphocytes, producing a larger and faster antibody response with class-switched, high-affinity antibodies"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The secondary response produces antibodies of higher affinity, not lower. Affinity maturation during the primary response (somatic hypermutation in germinal centers) selects for B cells with higher-affinity receptors, and these become memory cells. The secondary response is both faster and more precise.",
+        "B": "The secondary response is mediated by adaptive immune memory cells (memory B and T cells), not innate cells. Innate immune cells do not form immunological memory in the classical sense (though trained immunity exists, it is not the mechanism vaccines exploit).",
+        "C": "Memory T cells still require antigen presentation via MHC molecules to become fully activated. They have a lower activation threshold and respond more quickly than naive T cells, but MHC-mediated antigen presentation is still required.",
+        "D": "Memory lymphocytes generated during the primary response persist long-term and can be rapidly reactivated upon re-exposure. The secondary response is characterized by shorter lag time, higher antibody titers, class-switched immunoglobulins (IgG instead of IgM), and higher-affinity antibodies due to prior affinity maturation. This is the immunological basis of vaccination."
+      },
+      "topic": "Immunological Memory / Secondary Response",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_immune_006",
+      "passage": null,
+      "stem": "A microbiologist isolates a bacterium that has a cell wall containing a thick layer of peptidoglycan but no outer membrane. This bacterium would be classified as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Gram-negative, because all bacteria with peptidoglycan are Gram-negative"
+        },
+        {
+          "label": "B",
+          "text": "Gram-positive, because a thick peptidoglycan layer without an outer membrane retains the crystal violet-iodine complex during Gram staining"
+        },
+        {
+          "label": "C",
+          "text": "A virus, because it lacks an outer membrane"
+        },
+        {
+          "label": "D",
+          "text": "An archaea, because archaea have thick cell walls without outer membranes"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Both Gram-positive and Gram-negative bacteria have peptidoglycan. Gram-negative bacteria have a thin peptidoglycan layer plus an outer membrane containing lipopolysaccharide (LPS). The presence of peptidoglycan alone does not determine Gram classification.",
+        "B": "Gram-positive bacteria have a thick peptidoglycan layer (20-80 nm) and no outer membrane. During Gram staining, the crystal violet-iodine complex becomes trapped in the thick peptidoglycan and is not washed out by the alcohol decolorization step, so the cells retain the purple color. Gram-negative bacteria have thin peptidoglycan plus an outer membrane; the alcohol dissolves the outer membrane and washes out the crystal violet from the thin peptidoglycan, allowing counterstaining with safranin (pink).",
+        "C": "Viruses are not cells and do not have cell walls or peptidoglycan. They consist of nucleic acid surrounded by a protein capsid and sometimes a lipid envelope. The presence of a cell wall with peptidoglycan definitively identifies this as a bacterium.",
+        "D": "Archaea have cell walls but they do not contain peptidoglycan. Archaeal cell walls contain pseudopeptidoglycan (pseudomurein) or S-layer proteins. The presence of true peptidoglycan identifies this organism as a bacterium, not an archaeon."
+      },
+      "topic": "Gram Staining / Bacterial Cell Wall",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_immune_007",
+      "passage": null,
+      "stem": "During an allergic reaction to pollen, mast cells release histamine after cross-linking of surface-bound IgE antibodies by the allergen. This type of hypersensitivity reaction is classified as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Type I (immediate) hypersensitivity, mediated by IgE-mast cell degranulation"
+        },
+        {
+          "label": "B",
+          "text": "Type II (cytotoxic) hypersensitivity, mediated by IgG antibodies targeting cell-surface antigens"
+        },
+        {
+          "label": "C",
+          "text": "Type III (immune complex) hypersensitivity, mediated by antigen-antibody complexes deposited in tissues"
+        },
+        {
+          "label": "D",
+          "text": "Type IV (delayed-type) hypersensitivity, mediated by T cells rather than antibodies"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Type I hypersensitivity involves prior sensitization to an allergen, during which IgE antibodies are produced and bind to Fc\u03b5RI receptors on mast cells and basophils. Upon re-exposure, the allergen cross-links adjacent IgE molecules on the mast cell surface, triggering degranulation and release of histamine, leukotrienes, and prostaglandins. This produces the rapid onset (minutes) of allergic symptoms: vasodilation, increased vascular permeability, bronchoconstriction, and mucus secretion.",
+        "B": "Type II hypersensitivity involves IgG or IgM antibodies binding to antigens on cell surfaces, leading to cell destruction via complement, phagocytosis, or ADCC. Examples include hemolytic disease of the newborn and autoimmune hemolytic anemia. This does not involve mast cell degranulation or IgE.",
+        "C": "Type III hypersensitivity involves formation of antigen-antibody complexes that deposit in tissues and activate complement, causing inflammation. Examples include serum sickness and lupus nephritis. This does not involve IgE or mast cells.",
+        "D": "Type IV (delayed-type) hypersensitivity is T cell-mediated and does not involve antibodies. It develops over 24-72 hours. Examples include contact dermatitis (poison ivy) and tuberculin skin test reactions. The rapid, IgE-mediated response described is Type I, not Type IV."
+      },
+      "topic": "Type I Hypersensitivity / Allergic Response",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_immune_008",
+      "passage": null,
+      "stem": "A researcher studying bacterial genetics observes that a nonpathogenic strain of bacteria acquires virulence genes after exposure to a lysate from a pathogenic strain. No live pathogenic bacteria are present. This horizontal gene transfer mechanism is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Conjugation, which requires direct cell-to-cell contact via a pilus for DNA transfer"
+        },
+        {
+          "label": "B",
+          "text": "Transduction, which requires a bacteriophage to transfer DNA between bacteria"
+        },
+        {
+          "label": "C",
+          "text": "Transformation, in which bacteria take up free DNA from the environment"
+        },
+        {
+          "label": "D",
+          "text": "Binary fission, which is the normal mechanism of bacterial reproduction"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Conjugation requires direct physical contact between two living bacterial cells via a sex pilus (or direct membrane contact). The passage specifies that no live pathogenic bacteria are present \u2014 only a lysate (cell-free extract). Without a living donor cell, conjugation cannot occur.",
+        "B": "Transduction requires a bacteriophage (bacterial virus) to package host DNA and inject it into a new bacterial cell. The passage does not mention bacteriophages, and a simple cell lysate would not necessarily contain intact phage particles capable of infecting recipient bacteria.",
+        "C": "Transformation is the uptake of free (naked) DNA from the environment by a competent bacterial cell. A lysate from a pathogenic strain would release DNA fragments into the environment, including virulence genes. If the nonpathogenic strain is naturally competent (or made competent), it can take up these DNA fragments and incorporate them into its genome via homologous recombination. This was the mechanism demonstrated by Griffith's classic experiment with Streptococcus pneumoniae.",
+        "D": "Binary fission is asexual reproduction, not horizontal gene transfer. It produces genetically identical daughter cells and does not introduce new genetic material from external sources."
+      },
+      "topic": "Bacterial Horizontal Gene Transfer / Transformation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_immune_009",
+      "passage": null,
+      "stem": "Macrophages are professional antigen-presenting cells that engulf pathogens, digest them in lysosomes, and present peptide fragments on their surface. The molecules that present these fragments to helper T cells are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "MHC class I molecules, which present intracellular (endogenous) antigens to CD8+ T cells"
+        },
+        {
+          "label": "B",
+          "text": "MHC class II molecules, which present extracellular (exogenous) antigens to CD4+ T cells"
+        },
+        {
+          "label": "C",
+          "text": "T cell receptors, which are expressed by the macrophage to communicate with T cells"
+        },
+        {
+          "label": "D",
+          "text": "Toll-like receptors, which are pattern recognition receptors that detect conserved microbial structures"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "MHC class I molecules are expressed on all nucleated cells and present intracellular antigens (e.g., from viral replication inside the cell) to CD8+ cytotoxic T cells. The passage describes presentation of extracellular pathogens that were engulfed and digested \u2014 this is the MHC class II pathway, not class I.",
+        "B": "MHC class II molecules are expressed primarily by professional antigen-presenting cells (macrophages, dendritic cells, B cells). After phagocytosis and lysosomal digestion of an extracellular pathogen, peptide fragments are loaded onto MHC class II molecules and presented on the cell surface. CD4+ helper T cells recognize these MHC II-peptide complexes via their T cell receptors, initiating the adaptive immune response.",
+        "C": "T cell receptors (TCRs) are expressed by T cells, not by macrophages. The macrophage presents antigen via MHC molecules; the T cell recognizes it via TCRs. These are complementary molecules on different cell types.",
+        "D": "Toll-like receptors (TLRs) are innate immune receptors on macrophages and other cells that recognize pathogen-associated molecular patterns (PAMPs) like LPS and flagellin. They trigger innate immune signaling but do not present antigens to T cells. Antigen presentation requires MHC molecules."
+      },
+      "topic": "MHC Class II / Antigen Presentation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_immune_010",
+      "passage": null,
+      "stem": "A patient with a genetic deficiency in B lymphocyte development produces no antibodies. Which of the following immune functions would remain intact?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Neutralization of extracellular toxins"
+        },
+        {
+          "label": "B",
+          "text": "Opsonization of bacteria for enhanced phagocytosis by antibodies"
+        },
+        {
+          "label": "C",
+          "text": "Classical complement pathway activation by antigen-antibody complexes"
+        },
+        {
+          "label": "D",
+          "text": "Cell-mediated killing of virus-infected cells by CD8+ cytotoxic T lymphocytes"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Neutralization requires antibodies to bind and block toxins or pathogens. Without B cells and antibodies, neutralization of extracellular toxins cannot occur.",
+        "B": "Antibody-mediated opsonization requires antibodies to coat the pathogen surface. Without B cells, no antibodies are produced, so this mechanism is absent. Note that complement-mediated opsonization (via C3b) could still function through the alternative pathway, but the question specifies antibody-mediated opsonization.",
+        "C": "The classical complement pathway is initiated by C1q binding to antigen-antibody complexes. Without antibodies, this pathway cannot be activated. The alternative and lectin pathways of complement would remain functional.",
+        "D": "CD8+ cytotoxic T lymphocytes develop in the thymus independently of B cells and do not require antibodies to function. They recognize viral peptides presented on MHC class I molecules on infected cells and kill them via perforin/granzyme release. This cell-mediated immune function is entirely independent of B cells and antibodies."
+      },
+      "topic": "Humoral vs Cell-Mediated Immunity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_immune_011",
+      "passage": null,
+      "stem": "Antibiotics such as penicillin kill bacteria by inhibiting cell wall synthesis. Penicillin would NOT be effective against:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Staphylococcus aureus, which has a thick peptidoglycan cell wall"
+        },
+        {
+          "label": "B",
+          "text": "Escherichia coli, which has a thin peptidoglycan layer and an outer membrane"
+        },
+        {
+          "label": "C",
+          "text": "Mycoplasma pneumoniae, which lacks a cell wall entirely"
+        },
+        {
+          "label": "D",
+          "text": "Streptococcus pyogenes, which is a Gram-positive coccus with a peptidoglycan cell wall"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Penicillin is effective against S. aureus (though resistance via beta-lactamase is common clinically). S. aureus has a peptidoglycan cell wall whose synthesis penicillin inhibits by binding penicillin-binding proteins (PBPs) and blocking transpeptidation cross-linking.",
+        "B": "E. coli has a thin peptidoglycan layer, and while its outer membrane can limit penicillin access, other beta-lactam antibiotics (e.g., ampicillin) can penetrate and inhibit cell wall synthesis. The mechanism of action \u2014 inhibiting peptidoglycan synthesis \u2014 is applicable.",
+        "C": "Mycoplasma species are unique among bacteria in that they completely lack a cell wall. Without a cell wall, there is no peptidoglycan synthesis to inhibit. Penicillin and all other beta-lactam antibiotics are therefore completely ineffective against Mycoplasma. Treatment requires antibiotics that target other bacterial structures, such as macrolides (target ribosomes) or fluoroquinolones (target DNA gyrase).",
+        "D": "S. pyogenes has a thick peptidoglycan cell wall and remains highly susceptible to penicillin. It is one of the few major pathogens that has not developed significant penicillin resistance."
+      },
+      "topic": "Antibiotic Mechanism / Cell Wall Synthesis",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_immune_012",
+      "passage": null,
+      "stem": "Active immunity differs from passive immunity in that active immunity:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "requires the individual's own immune system to mount a response, producing memory cells that confer long-lasting protection"
+        },
+        {
+          "label": "B",
+          "text": "provides immediate but short-lived protection"
+        },
+        {
+          "label": "C",
+          "text": "involves the transfer of pre-formed antibodies from one individual to another"
+        },
+        {
+          "label": "D",
+          "text": "can only be acquired through natural infection, not through vaccination"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Active immunity involves the individual's own immune system recognizing an antigen (from infection or vaccination), mounting a primary immune response, and generating memory B and T cells. These memory cells persist for years or decades and enable rapid secondary responses upon re-exposure. Active immunity can be natural (from infection) or artificial (from vaccination).",
+        "B": "Immediate but short-lived protection characterizes passive immunity. Active immunity takes days to weeks to develop but lasts much longer because of immunological memory.",
+        "C": "Transfer of pre-formed antibodies defines passive immunity, not active. Examples include maternal IgG crossing the placenta, IgA in breast milk, and therapeutic administration of immune globulin.",
+        "D": "Active immunity can be acquired through both natural infection and vaccination. Vaccination is artificial active immunity \u2014 the vaccine presents antigens that stimulate the individual's immune system to produce memory cells without causing disease."
+      },
+      "topic": "Active vs Passive Immunity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_immune_013",
+      "passage": null,
+      "stem": "A patient with AIDS has a severely depleted CD4+ T cell count. Which of the following immune functions would be most directly impaired?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Phagocytosis of bacteria by neutrophils"
+        },
+        {
+          "label": "B",
+          "text": "Natural killer cell recognition of virally infected cells"
+        },
+        {
+          "label": "C",
+          "text": "Coordination of the adaptive immune response, including activation of B cells for antibody production and activation of CD8+ T cells"
+        },
+        {
+          "label": "D",
+          "text": "Inflammatory response mediated by mast cell degranulation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Neutrophil phagocytosis is part of the innate immune system and does not directly require CD4+ T cell help. Neutrophils can recognize and engulf pathogens via innate receptors independently of adaptive immunity. However, the efficiency of phagocytosis can be enhanced by antibodies and complement, which may be reduced in AIDS.",
+        "B": "NK cells are innate immune cells that recognize virally infected cells through the absence of MHC class I (missing-self hypothesis) and through activating receptors. NK cell function does not directly require CD4+ T cells, though cytokines from CD4+ cells can enhance NK activity.",
+        "C": "CD4+ helper T cells are the central coordinators of adaptive immunity. They activate B cells (via cytokines and CD40L-CD40 interaction) for antibody class switching and affinity maturation, help activate CD8+ cytotoxic T cells, activate macrophages for enhanced intracellular killing, and produce cytokines that regulate the entire immune response. Loss of CD4+ cells in AIDS cripples both humoral and cell-mediated adaptive immunity, leading to opportunistic infections.",
+        "D": "Mast cell degranulation is triggered by IgE cross-linking (Type I hypersensitivity) or by complement anaphylatoxins (C3a, C5a). While IgE production by B cells requires CD4+ T cell help, the degranulation mechanism itself is not directly dependent on CD4+ T cells."
+      },
+      "topic": "CD4+ T Cells / HIV-AIDS Immunology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_immune_014",
+      "passage": null,
+      "stem": "Interferons are signaling proteins produced by virus-infected cells. Their primary function is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "directly kill the infecting virus by enzymatic degradation of viral nucleic acids"
+        },
+        {
+          "label": "B",
+          "text": "stimulate neighboring uninfected cells to upregulate antiviral defenses, limiting viral spread"
+        },
+        {
+          "label": "C",
+          "text": "activate B cells to produce virus-specific antibodies"
+        },
+        {
+          "label": "D",
+          "text": "increase the rate of viral replication to accelerate the immune response"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Interferons do not directly kill viruses. They are signaling molecules (cytokines) that communicate with neighboring cells. While they can induce enzymes that degrade viral RNA (such as RNase L) in the cells that receive the signal, the interferons themselves do not perform enzymatic degradation.",
+        "B": "Type I interferons (IFN-\u03b1 and IFN-\u03b2) are produced by virus-infected cells and act in a paracrine manner on neighboring uninfected cells. They bind to interferon receptors and activate the JAK-STAT signaling pathway, inducing expression of hundreds of interferon-stimulated genes (ISGs) that create an antiviral state: degradation of RNA, inhibition of protein synthesis, increased MHC class I expression, and activation of NK cells. This limits viral spread before the adaptive immune response is fully mounted.",
+        "C": "Interferons do not directly activate B cells for antibody production. B cell activation requires antigen recognition, T cell help (CD4+), and specific cytokines (IL-4, IL-5, IL-6). Interferons primarily function in innate antiviral defense, though they do enhance MHC expression and can modulate adaptive responses indirectly.",
+        "D": "Interferons inhibit viral replication, not increase it. Their name derives from their ability to 'interfere' with viral replication in neighboring cells."
+      },
+      "topic": "Interferons / Innate Antiviral Defense",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_immune_015",
+      "passage": null,
+      "stem": "A researcher treats bacteria with a chemical mutagen and observes that some bacteria develop resistance to an antibiotic. The resistant bacteria have a higher frequency of a point mutation in the gene encoding the antibiotic's target protein. This resistance arose through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Random mutation followed by natural selection \u2014 the mutagen generated genetic variation and the antibiotic selected for bacteria carrying resistance-conferring mutations"
+        },
+        {
+          "label": "B",
+          "text": "Lamarckian inheritance, because the bacteria intentionally mutated their DNA in response to the antibiotic"
+        },
+        {
+          "label": "C",
+          "text": "horizontal gene transfer from a resistant species that was present in the culture"
+        },
+        {
+          "label": "D",
+          "text": "epigenetic modification that silenced the antibiotic target gene without altering the DNA sequence"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The mutagen generated random mutations throughout the bacterial genome. Some of these mutations happened to alter the antibiotic's target protein in ways that reduced antibiotic binding. When the antibiotic was applied, bacteria carrying these resistance-conferring mutations had a survival advantage and preferentially proliferated. This is random mutation followed by natural selection: the mutations were not directed toward resistance \u2014 they were random, and the antibiotic environment selected for the beneficial ones. The key Darwinian insight is that variation arose before selection was applied, and selection acted on that variation.",
+        "B": "Lamarckian inheritance \u2014 the idea that organisms can direct mutations in response to environmental challenges \u2014 is not supported by molecular biology. Mutations are random with respect to their adaptive value. Bacteria do not 'choose' to mutate genes that confer resistance; rather, pre-existing random mutations are selected for by the antibiotic environment.",
+        "C": "The passage specifies that resistance arose from point mutations caused by a chemical mutagen, not from acquisition of foreign DNA. No other species is mentioned as being present in the culture.",
+        "D": "Epigenetic modifications (DNA methylation, histone modification) can alter gene expression without changing DNA sequence. However, the passage explicitly states that a point mutation in the target gene's DNA sequence was responsible, not an epigenetic change."
+      },
+      "topic": "Natural Selection / Antibiotic Resistance",
+      "difficulty": "Medium"
+    }
+  ]
+}

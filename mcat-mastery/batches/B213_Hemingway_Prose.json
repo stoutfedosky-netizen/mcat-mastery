@@ -1,0 +1,246 @@
+{
+  "batch": "B213",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Literary Analysis & Authorial Technique",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_hemingway_style_213_q0",
+      "passage": "Ernest Hemingway’s signature prose style is most frequently defined by his own “Iceberg Theory,” or the theory of omission. Hemingway argued that a writer could omit things they knew, and that the reader would still feel those omitted details as strongly as if the writer had stated them. The dignity of movement of an iceberg, he famously noted, is due to only one-eighth of it being above water. Consequently, his prose strips away emotional exposition, internal monologue, and authorial moralizing, relying instead on lean declarative sentences, stripped-down dialogue, and precise physical descriptions. This stylistic minimalism was not merely an aesthetic choice, however; it was a philosophical necessity for rendering the psychological landscape of the post-World War I “Lost Generation,” a cohort that had lost all faith in the grandiose rhetoric and romantic ideals that had historically justified human suffering.\n\nNowhere is the alignment of Hemingway’s structural minimalism and thematic resignation more acutely realized than in the closing moments of his 1926 novel, *The Sun Also Rises*. The narrative follows Jake Barnes, an American expatriate and journalist whose war wounds have rendered him impotent, and Lady Brett Ashley, an aimless, magnetic woman who loves him but refuses to be bound to a sexless relationship. Their tragedy is fundamentally static: they are trapped by physical and psychological realities they cannot overcome. Throughout the novel, this unresolvable tension is continually evaded through restless motion—drinking across Paris, fishing in the Pyrenees, and fleeing to the chaotic distraction of the bullfights in Pamplona. They talk around their grief, burying it beneath a frantic veneer of expatriate hedonism.\n\nIn the novel’s final scene, this evasive momentum abruptly collapses. Riding together in a Madrid taxi, the physical environment suddenly intrudes upon their restless wandering. A mounted policeman raises his baton; the cab abruptly slows, pressing Brett and Jake together. The external halt forces a psychological halt, bringing them face-to-face with the immovable boundary of their reality. \n\nIt is here that Brett, pressing against Jake, offers a final, tragic appeal to the romantic illusion they have chased: “Oh, Jake,” she says, “we could have had such a damned good time together.” In the hands of a lesser, more traditional novelist, this moment might have invited a flood of narrative exposition—a tragic lamentation of the cruelty of fate, or a passionate, tearful confession of what might have been. \n\nHemingway, true to his theory of omission, gives Jake only a single line of dialogue in response: “Yes... Isn’t it pretty to think so?”\n\nThis final exchange leaves us with a quintessential lesson in rhetorical devastation. Brett’s line is an indulgence in the subjunctive—a desperate clinging to a hypothetical timeline untouched by the trauma of the war. She invites Jake to join her in the comforting fantasy of an alternate universe. Jake’s response, however, acts as a definitive psychological severing. He does not deny her premise with anger, nor does he join her in weeping for their lost potential. Instead, he uses the word “pretty.” In Hemingway’s austere lexicon, “pretty” is a profoundly diminishing adjective. It reduces their grand, tragic romance to a mere aesthetic curiosity—a fragile, artificial ornament of the mind, devoid of any substantive reality. \n\nBy agreeing with her only in the hypothetical (“to think so”), Jake finally accepts the concrete reality of his condition and the impossibility of their union. He ceases to fight the boundaries of his post-war existence. Hemingway’s prose reaches its ultimate triumph here because the stylistic restraint perfectly mirrors the protagonist’s newfound stoicism. The profound grief of the novel’s ending is generated entirely by what is left unsaid. Jake’s quiet, devastating realism extinguishes the romantic illusion once and for all, leaving the reader to feel the massive, submerged weight of the sorrow hidden beneath a polite string of eight simple words.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Hemingway’s “Iceberg Theory” was an aesthetic failure because it required readers to guess the emotional states of his characters, leading to ambiguous endings."
+        },
+        {
+          "label": "B",
+          "text": "The characters in *The Sun Also Rises* use travel and alcohol as mechanisms to evade the realization that their lives have been destroyed by World War I."
+        },
+        {
+          "label": "C",
+          "text": "Hemingway’s minimalist prose style perfectly aligns with his thematic focus on stoic resignation, culminating in Jake’s final acceptance of his impossible romance."
+        },
+        {
+          "label": "D",
+          "text": "By using the word “pretty,” Jake Barnes insults Lady Brett Ashley, finally rejecting her due to her continuous hedonistic betrayals throughout the novel."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This directly contradicts the passage. The author views the \"Iceberg Theory\" as a \"masterclass in rhetorical devastation\" and an \"ultimate triumph,\" not an aesthetic failure.",
+        "B": "While this is a true statement based on the second paragraph, it is too narrow to be the main idea of the entire passage, which focuses heavily on Hemingway's writing style and the specific analysis of the novel's final dialogue.",
+        "C": "Correct. The passage consistently bridges Hemingway's form (structural minimalism, the Iceberg Theory) with his content (the psychological realities of the Lost Generation, Jake's stoic acceptance of his unresolvable tragedy). The final scene is analyzed to prove this exact alignment.",
+        "D": "The passage argues that Jake's response is a \"definitive psychological severing\" from the romantic illusion, but it does not characterize it as a direct, angry insult based on her \"hedonistic betrayals.\" It is described as a \"devastating realism\" and a \"polite string of eight simple words.\""
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_hemingway_style_213_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the context of the passage, the author suggests that Jake’s use of the word “pretty” functions primarily to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "express a profound appreciation for the beauty of their enduring friendship."
+        },
+        {
+          "label": "B",
+          "text": "degrade the concept of their potential happiness into a harmless, artificial fantasy."
+        },
+        {
+          "label": "C",
+          "text": "agree wholeheartedly with Brett’s assessment of what their life together would have been like."
+        },
+        {
+          "label": "D",
+          "text": "mask his deep anger and resentment toward the war that caused his physical injury."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage states that \"pretty\" is a \"profoundly diminishing adjective,\" so it is not used to express profound appreciation for beauty or enduring friendship.",
+        "B": "Correct. The author writes that the word \"pretty\" reduces their romance \"to a mere aesthetic curiosity—a fragile, artificial ornament of the mind, devoid of any substantive reality.\" It diminishes the profound tragedy into something merely \"pretty to think so,\" acknowledging it as an illusion.",
+        "C": "Jake only agrees with Brett in the hypothetical. The author explicitly states that he \"does not deny her premise with anger, nor does he join her in weeping for their lost potential.\" He recognizes it as a fantasy.",
+        "D": "While Jake's injury is the source of the conflict, the passage specifically notes that Jake \"does not deny her premise with anger.\" His response is characterized by \"stoicism\" and \"quiet, devastating realism,\" not masked anger."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_hemingway_style_213_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author’s discussion of the mounted policeman and the slowing of the cab in the third paragraph serves primarily to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "provide historical context regarding law enforcement in 1920s Madrid."
+        },
+        {
+          "label": "B",
+          "text": "demonstrate Hemingway's inability to write internal emotional states without relying on external physical action."
+        },
+        {
+          "label": "C",
+          "text": "contrast the chaotic danger of the bullfights with the strict, orderly nature of modern city life."
+        },
+        {
+          "label": "D",
+          "text": "mirror the sudden cessation of the characters' psychological evasions with a concrete physical constraint."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This is a literal, surface-level misreading of the text. The author uses the policeman and the cab as symbolic literary devices, not to provide historical trivia.",
+        "B": "The author praises Hemingway's reliance on physical descriptions as part of the Iceberg Theory, viewing it as a strength rather than an \"inability.\"",
+        "C": "While the passage mentions the bullfights as a chaotic distraction, the discussion of the cab ride is not meant to contrast rural and urban life, but rather to show the ending of their evasive momentum.",
+        "D": "Correct. The passage explicitly states: \"The external halt forces a psychological halt, bringing them face-to-face with the immovable boundary of their reality.\" The physical slowing of the cab reflects the end of their ability to run from their tragedy."
+      },
+      "topic": "Function of a Detail",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_hemingway_style_213_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Based on the passage, how do Brett and Jake fundamentally differ in their approach to their relationship in the novel's final dialogue?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Brett remains emotionally invested in a hypothetical reality, while Jake accepts the unchangeable, concrete truth of their situation."
+        },
+        {
+          "label": "B",
+          "text": "Brett wishes to abandon their hedonistic lifestyle to marry him, while Jake prefers to remain unattached and independent."
+        },
+        {
+          "label": "C",
+          "text": "Brett is deeply bitter about the war's impact on their generation, while Jake has chosen to forgive the past and move on."
+        },
+        {
+          "label": "D",
+          "text": "Brett utilizes Hemingway’s minimalist speech to hide her feelings, while Jake uses expansive language to express his grief."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage notes that Brett's line is \"an indulgence in the subjunctive—a desperate clinging to a hypothetical timeline,\" while Jake \"finally accepts the concrete reality of his condition\" and \"ceases to fight the boundaries of his post-war existence.\"",
+        "B": "The passage states that Brett \"refuses to be bound to a sexless relationship,\" so she does not wish to abandon everything to marry him. Furthermore, Jake's motivation is not a desire for independence, but an acceptance of physical reality.",
+        "C": "The passage does not characterize Brett as expressing bitterness about the war in this scene; rather, she is seeking a \"comforting fantasy.\" Jake is characterized by stoicism, not necessarily \"forgiveness.\"",
+        "D": "This reverses the passage's stylistic analysis. Jake is the one who uses minimal language (a \"string of eight simple words\") to reflect his stoicism."
+      },
+      "topic": "Concept Application / Comparison",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_hemingway_style_213_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following hypothetical scenes would most closely align with Hemingway’s “Iceberg Theory” as described in the first paragraph?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A soldier returns from combat and delivers a lengthy, passionate monologue to his family about the horrors he witnessed overseas."
+        },
+        {
+          "label": "B",
+          "text": "A narrator explicitly tells the reader that a character is feeling overwhelmed by grief after the sudden loss of a close friend."
+        },
+        {
+          "label": "C",
+          "text": "A grieving widow spends an entire chapter silently and meticulously polishing a pair of her late husband’s shoes without shedding a tear."
+        },
+        {
+          "label": "D",
+          "text": "Two lovers argue loudly in a public square, allowing the reader to understand their mutual disdain through their explicit insults."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This relies on explicit emotional exposition and grandiose rhetoric, which the passage explicitly states Hemingway stripped away from his writing.",
+        "B": "This represents \"authorial moralizing\" or explicit emotional exposition, which is contrary to the Iceberg Theory.",
+        "C": "Correct. The Iceberg Theory dictates that a writer can \"omit things they knew, and that the reader would still feel those omitted details.\" Relying on \"precise physical descriptions\" (polishing shoes) to convey an immense, unstated emotional weight (grief) perfectly illustrates this concept.",
+        "D": "Loud, explicit arguments rely on stated dialogue to convey emotion, rather than the unsaid, submerged emotion characteristic of the Iceberg Theory."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_hemingway_style_213_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following discoveries, if true, would most weaken the author’s interpretation of Jake’s final line?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A literary critique from 1927 arguing that *The Sun Also Rises* was too depressing for mainstream commercial success."
+        },
+        {
+          "label": "B",
+          "text": "Personal letters from Hemingway stating he intended Jake’s final line to be a sarcastic insult meant to manipulate Brett into leaving her fiancé."
+        },
+        {
+          "label": "C",
+          "text": "Historical records confirming that mounted police officers in Madrid frequently caused traffic delays during the 1920s."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that earlier drafts of the novel contained significantly more dialogue between Jake and Brett in the final cab ride."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Public or critical reception of the novel's tone has no bearing on the author's internal analysis of the stylistic meaning of the final line.",
+        "B": "Correct. The author interprets the final line as evidence that Jake \"ceases to fight the boundaries of his post-war existence\" and achieves \"stoic resignation\" and \"devastating realism.\" If Hemingway explicitly intended the line as an active, manipulative attempt to win Brett back, it would shatter the author's premise that Jake has achieved passive, stoic acceptance.",
+        "C": "This would merely confirm the historical accuracy of the scene; it does not weaken the literary interpretation of the policeman's symbolic function.",
+        "D": "This would actually strengthen the author's argument, as it would prove that Hemingway actively chose to \"omit\" the excess dialogue to achieve the Iceberg Theory effect in his final draft."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_hemingway_style_213_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward traditional novelists who utilize \"a flood of narrative exposition\" (paragraph 4) is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "slightly dismissive, viewing such techniques as inferior to Hemingway's method of generating emotion through omission."
+        },
+        {
+          "label": "B",
+          "text": "highly hostile, arguing that these authors fundamentally misunderstood the psychological realities of the Lost Generation."
+        },
+        {
+          "label": "C",
+          "text": "neutral, acknowledging that exposition and minimalism are equally valid ways of concluding a tragic narrative."
+        },
+        {
+          "label": "D",
+          "text": "sympathetic, recognizing that traditional exposition is often necessary to clarify complex romantic entanglements."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author refers to these hypothetical traditional authors as \"lesser\" and contrasts their potential \"flood of narrative exposition\" with Hemingway's \"ultimate triumph\" and \"masterclass.\" This indicates a clear preference for Hemingway's minimalist approach and a slight dismissal of explicit exposition.",
+        "B": "While the author notes Hemingway's style was a \"philosophical necessity\" for the Lost Generation, the text does not express \"highly hostile\" aggression toward traditional authors, merely literary preference.",
+        "C": "The author is not neutral. By calling other novelists \"lesser\" and praising Hemingway's \"triumph,\" the author clearly takes a side.",
+        "D": "The author shows no sympathy for traditional exposition in this context, directly praising Hemingway for avoiding it."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "batch": "B056",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Learning & Memory",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_learn_001",
+      "passage": "A behavioral psychologist conducts a study on food aversion learning. Rats receive a novel saccharin solution (conditioned stimulus, CS) followed by nausea-inducing lithium chloride (unconditioned stimulus, US) 6 hours later. Remarkably, just one pairing is sufficient to produce a strong aversion to saccharin that persists for months. The psychologist notes that this conditioning is resistant to standard extinction procedures. A second group of rats receives saccharin followed by a loud noise (a non-nausea aversive US), but no aversion to saccharin develops.",
+      "stem": "The finding that saccharin aversion develops with a CS-US interval of 6 hours, but noise does not produce saccharin aversion, illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "biological preparedness \u2014 certain CS-US pairings are more readily conditioned because they are evolutionarily relevant (taste-illness associations are especially powerful because avoiding poisonous food has survival value)"
+        },
+        {
+          "label": "B",
+          "text": "the principle of equipotentiality, which holds that any CS can be paired with any US to produce equal conditioning"
+        },
+        {
+          "label": "C",
+          "text": "operant conditioning, where the rat receives a food reward for avoiding saccharin"
+        },
+        {
+          "label": "D",
+          "text": "insight learning, where the rat consciously reasons that saccharin caused the illness"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Garcia and Koelling's taste aversion experiments (Garcia effect) demonstrated biological preparedness \u2014 the nervous system is selectively sensitive to CS-US pairs that have adaptive significance. Taste-illness associations are learned readily after a single trial, even across hours, because animals that could not quickly learn to avoid foods that made them sick would die. Auditory/visual stimuli pair easily with pain or shock (relevant to predator avoidance) but not with illness. These constraints on conditioning reveal the evolutionary history embedded in the nervous system, challenging radical behaviorism's equipotentiality assumption.",
+        "B": "Equipotentiality \u2014 the behaviorist assumption that any CS can be paired with any US to produce conditioning \u2014 is directly refuted by this experiment. Taste (saccharin) pairs easily with nausea (illness) but not with noise; noise pairs easily with pain but not well with taste. The selectivity of associations shows that evolution has prepared animals to associate specific CS-US combinations that were ecologically relevant.",
+        "C": "Operant conditioning involves voluntary behavior reinforced by consequences. The rat is not receiving a reward for avoidance \u2014 it is developing a Pavlovian (classical) conditioned response. No reward is described, and the aversion is a reflexive response to the CS, not a voluntary operant behavior selected by its consequences.",
+        "D": "Insight learning (K\u00f6hler's apes) involves sudden problem-solving through cognitive restructuring. Conditioned taste aversion is an automatic, unconscious associative process \u2014 the rat does not reason about causality. The long delay (6 hours) between saccharin and illness actually demonstrates that long-delay conditioning is possible for taste-illness associations (unlike most classical conditioning, which requires brief CS-US intervals), further supporting biological preparedness."
+      },
+      "topic": "Classical Conditioning / Biological Preparedness / Garcia Effect",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_002",
+      "passage": null,
+      "passageRef": "ps_learn_001",
+      "stem": "Classical (Pavlovian) conditioning involves learning a new response to a neutral stimulus. After the conditioning in the passage, saccharin water (originally neutral) elicits nausea because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the CS (saccharin) has become associated with the US (LiCl), so the CS now elicits a conditioned response (CR) similar to the unconditioned response (UCR) produced by the US \u2014 nausea"
+        },
+        {
+          "label": "B",
+          "text": "the saccharin itself has changed its chemical properties and now tastes like lithium chloride"
+        },
+        {
+          "label": "C",
+          "text": "the rat has been operantly conditioned to avoid saccharin to prevent punishment"
+        },
+        {
+          "label": "D",
+          "text": "saccharin has been paired with a neutral stimulus that independently causes nausea"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In classical conditioning, repeated pairing of the CS (saccharin) with the US (LiCl-induced nausea) creates an associative memory linking the two stimuli. Presentation of the CS alone subsequently elicits a conditioned response (CR) that resembles the unconditioned response (UCR) \u2014 in this case, nausea and avoidance. The biological mechanism involves neural changes (probably in the insular cortex and amygdala for taste aversion) that allow the CS to activate the same pathways as the US. In taste aversion, the CR (nausea to saccharin) is remarkably strong and persistent, even with a single pairing across a long delay.",
+        "B": "Saccharin does not change chemically \u2014 it remains a sweet-tasting non-caloric sugar substitute. The change is psychological and neural, not chemical. Classical conditioning modifies the organism's response to a stimulus, not the stimulus itself.",
+        "C": "Operant conditioning involves learning that behaviors lead to consequences (reinforcement or punishment). The rat is not performing a voluntary behavior to avoid punishment \u2014 it is experiencing an involuntary conditioned nausea response elicited by the CS. This is Pavlovian (respondent) conditioning, where a reflexive response is conditioned, not operant conditioning where voluntary behaviors are selected by consequences.",
+        "D": "LiCl (the US) is not a neutral stimulus \u2014 it is a biologically potent stimulus that directly causes gastrointestinal illness. The saccharin (CS) was originally neutral. The conditioning created an association between the neutral CS and the biologically powerful US, not between a neutral stimulus and another neutral stimulus."
+      },
+      "topic": "Classical Conditioning / CS-CR-US-UCR",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_learn_003",
+      "passage": null,
+      "stem": "Negative reinforcement in operant conditioning involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "delivering an aversive stimulus to decrease the frequency of a behavior"
+        },
+        {
+          "label": "B",
+          "text": "removing a pleasant stimulus to decrease the frequency of a behavior"
+        },
+        {
+          "label": "C",
+          "text": "removing an aversive stimulus contingent on a behavior, which increases the frequency of that behavior"
+        },
+        {
+          "label": "D",
+          "text": "presenting a neutral stimulus alongside a conditioned stimulus to produce classical conditioning"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Delivering an aversive stimulus to decrease behavior describes positive punishment (the '+' means adding the stimulus; the punishment means the behavior decreases). Example: receiving a shock when pressing a lever reduces lever pressing.",
+        "B": "Removing a pleasant stimulus to decrease behavior describes negative punishment (the '\u2212' means removing; the punishment means the behavior decreases). Example: taking away screen time for misbehavior decreases misbehavior.",
+        "C": "Correct. Negative reinforcement strengthens behavior by removing (negating) something aversive. Example: buckling a seatbelt (behavior) turns off the annoying seatbelt alarm (removal of aversive stimulus) \u2192 buckling behavior increases. Or: taking aspirin (behavior) removes headache pain (aversive stimulus removed) \u2192 aspirin-taking behavior is reinforced. The 'negative' refers to removing a stimulus, and 'reinforcement' means the behavior increases. This is commonly confused with punishment \u2014 the key distinction is that reinforcement always increases behavior.",
+        "D": "Presenting a neutral stimulus alongside a conditioned stimulus describes higher-order (second-order) classical conditioning, not operant conditioning. Operant conditioning involves voluntary behaviors and their consequences (reinforcers or punishers); classical conditioning involves involuntary responses to stimuli."
+      },
+      "topic": "Operant Conditioning / Negative Reinforcement",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_learn_004",
+      "passage": null,
+      "stem": "Observational learning (Bandura's social learning theory) demonstrated that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "children can acquire novel behaviors simply by watching a model perform them, without any direct reinforcement of the observer \u2014 separating acquisition from performance"
+        },
+        {
+          "label": "B",
+          "text": "reinforcement is always required for learning to occur \u2014 without reward, behavior cannot be acquired"
+        },
+        {
+          "label": "C",
+          "text": "classical conditioning is sufficient to explain all human learning"
+        },
+        {
+          "label": "D",
+          "text": "aggression cannot be learned through observation because it is entirely innate"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Bandura's research showed exactly this: children can acquire novel behaviors (specific aggressive acts like hitting, kicking, and verbally assaulting a Bobo doll) simply by watching a model, without any direct reinforcement. This challenged the strict behaviorist position that learning requires reinforcement and demonstrated the importance of cognitive processes (attention, retention, reproduction, motivation) in social learning.",
+        "B": "Bandura's Bobo doll experiments demonstrated that reinforcement is not required for learning to occur \u2014 children who observed an aggressive model behaved aggressively even without being reinforced. However, whether learned behaviors are performed does depend on expected consequences \u2014 children who saw the model punished were less likely to perform the behavior until offered a reward, demonstrating the acquisition-performance distinction.",
+        "C": "Classical conditioning can explain fear responses and some reflexive behaviors, but it cannot explain the acquisition of complex voluntary behaviors through observation. Operant conditioning and observational learning are needed to account for the full range of human learning.",
+        "D": "Bandura's Bobo doll experiments directly demonstrated that aggression can be learned through observation. Children who watched an aggressive adult model performed significantly more imitative aggressive behaviors toward the Bobo doll than children in control conditions. This is evidence that aggression has strong learned (environmental) components, contradicting a purely innate explanation."
+      },
+      "topic": "Observational Learning / Bandura / Social Learning Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_005",
+      "passage": null,
+      "stem": "Memory consolidation refers to the process by which new memories are stabilized and stored. Sleep plays a critical role in consolidation because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sleep allows the hippocampus to be 'erased,' preventing interference from new information"
+        },
+        {
+          "label": "B",
+          "text": "the amygdala is active only during sleep, when it first encodes emotional memories"
+        },
+        {
+          "label": "C",
+          "text": "sleep deprivation has no effect on memory \u2014 all consolidation occurs during waking hours"
+        },
+        {
+          "label": "D",
+          "text": "during sleep, particularly slow-wave sleep and REM sleep, the hippocampus replays recently encoded memories and transfers their representation to neocortical networks for long-term storage"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Sleep does not erase the hippocampus. Sleep actually strengthens and stabilizes hippocampal representations before transferring them to the cortex. Hippocampal function is actively engaged during sleep for memory replay and consolidation, not suppressed.",
+        "B": "The amygdala is active during waking hours, especially when processing emotionally significant events. Emotional arousal during learning (via amygdala activation) enhances hippocampal encoding of those events \u2014 this is why emotional memories are stronger and more vivid. The amygdala does not encode memories exclusively during sleep.",
+        "C": "Sleep deprivation severely impairs memory consolidation. Studies consistently show that people who sleep after learning retain significantly more than those kept awake. Even short naps (as brief as 20-90 minutes) improve subsequent memory performance. The 24-hour consolidation period includes critical sleep-dependent stages.",
+        "D": "Correct. The standard model of memory consolidation (Squire and Alvarez; Diekelmann and Born) proposes that the hippocampus initially encodes episodic and declarative memories during waking experience. During slow-wave sleep (NREM), hippocampal cells replay the day's experience in compressed time (sharp-wave ripples in the hippocampus coordinate with sleep spindles in the neocortex). This repeated reactivation transfers the memory representation to distributed neocortical networks, where it becomes independent of the hippocampus. REM sleep is particularly important for procedural memory consolidation (skill learning, motor sequences) and emotional memory processing."
+      },
+      "topic": "Memory Consolidation / Sleep / Hippocampus-Neocortex Transfer",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_006",
+      "passage": null,
+      "stem": "Long-term potentiation (LTP) is a leading cellular model of learning and memory. LTP at hippocampal synapses involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decreased glutamate release from the presynaptic terminal after repeated stimulation"
+        },
+        {
+          "label": "B",
+          "text": "downregulation of AMPA receptors at the postsynaptic membrane, reducing synaptic sensitivity"
+        },
+        {
+          "label": "C",
+          "text": "strong, repeated high-frequency stimulation that depolarizes the postsynaptic cell sufficiently to remove the Mg\u00b2\u207a block from NMDA receptors, allowing Ca\u00b2\u207a influx that triggers structural changes strengthening the synapse"
+        },
+        {
+          "label": "D",
+          "text": "inhibition of the postsynaptic cell by GABAergic interneurons, increasing the signal-to-noise ratio"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "LTP involves increased (not decreased) glutamate release and increased postsynaptic sensitivity. Decreased glutamate release describes short-term synaptic depression. LTP is defined by long-lasting enhancement of synaptic transmission following repeated stimulation.",
+        "B": "LTP involves upregulation of AMPA receptors (more AMPA receptors are inserted into the postsynaptic membrane), not downregulation. Downregulation would weaken synaptic transmission (long-term depression, LTD). The enhanced AMPA receptor density is a key mechanism for the strengthened synaptic response.",
+        "C": "Correct. The NMDA receptor is the molecular coincidence detector required for LTP induction. At rest, NMDA receptors are blocked by Mg\u00b2\u207a (a voltage-dependent block \u2014 the Mg\u00b2\u207a ion sits in the channel when the membrane is at resting potential). LTP induction requires simultaneous presynaptic activity (glutamate release) AND postsynaptic depolarization (from AMPA receptor activation during strong/repeated stimulation). The depolarization expels Mg\u00b2\u207a from the channel, allowing Ca\u00b2\u207a to flow through NMDA receptors into the postsynaptic spine. Ca\u00b2\u207a activates CaMKII and other kinases that: (1) phosphorylate existing AMPA receptors to increase conductance; (2) trigger AMPA receptor insertion into the postsynaptic density; (3) promote spine growth. These changes persist for hours to years (E-LTP and L-LTP).",
+        "D": "GABAergic inhibition reduces postsynaptic excitability \u2014 it would counteract, not support, the depolarization required for LTP induction. GABA interneurons help prevent runaway excitation and control the timing of plasticity windows, but LTP induction specifically requires glutamatergic excitation, not GABAergic inhibition."
+      },
+      "topic": "Long-Term Potentiation / NMDA Receptors / Synaptic Plasticity",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_learn_007",
+      "passage": null,
+      "stem": "The serial position effect in memory recall describes the finding that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "items learned last are forgotten first, regardless of their position in the list"
+        },
+        {
+          "label": "B",
+          "text": "recall accuracy is uniform across all positions in a list when the list is sufficiently short"
+        },
+        {
+          "label": "C",
+          "text": "emotionally arousing items are always recalled better than neutral items, regardless of their serial position"
+        },
+        {
+          "label": "D",
+          "text": "recall is better for items in the early portion (primacy effect) and late portion (recency effect) of a list, with poorer recall for middle items"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The serial position effect describes position-dependent advantages for both first and last items. The last items are not forgotten first \u2014 they show a recency advantage (especially in free recall under immediate testing conditions). However, the recency effect disappears after a delay (because recent items are held in working memory and are displaced over time), while the primacy effect persists (because early items were rehearsed more and transferred to long-term memory).",
+        "B": "Short lists reduce the middle disadvantage but typically still show some serial position effects. The effects are most pronounced in lists of 12\u201320 items, but even shorter lists show primacy advantages. Uniform recall across positions is not the characteristic finding.",
+        "C": "Emotional arousal does enhance memory (the amygdala potentiates hippocampal encoding through norepinephrine release \u2014 the flashbulb memory phenomenon), but this operates in addition to serial position effects, not instead of them. Emotionally arousing items still show serial position effects.",
+        "D": "Correct. The serial position curve shows a characteristic U-shape in recall probability: primacy effect (superior recall of first few items) arises because early items received more rehearsal and have had more time for transfer to long-term memory; recency effect (superior recall of last few items) arises because these items are still active in working/short-term memory at the time of recall; middle items are recalled poorly because they received less rehearsal (displaced by later items) and are no longer in working memory. This U-shaped serial position curve supports the distinction between short-term and long-term memory systems."
+      },
+      "topic": "Serial Position Effect / Primacy and Recency",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_learn_008",
+      "passage": null,
+      "stem": "Anterograde amnesia involves the inability to form new memories after a brain injury, while retrograde amnesia involves loss of memories formed before the injury. Anterograde amnesia is most commonly associated with damage to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the cerebellum, which coordinates the consolidation of all new explicit memories"
+        },
+        {
+          "label": "B",
+          "text": "the hippocampus and adjacent medial temporal lobe structures, which are essential for encoding and initially storing new declarative (explicit) memories"
+        },
+        {
+          "label": "C",
+          "text": "the primary motor cortex, which stores procedural memories for new skills"
+        },
+        {
+          "label": "D",
+          "text": "the prefrontal cortex exclusively, which is the only site of new memory formation"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The cerebellum is involved in procedural memory (motor skill learning, conditioned reflexes) but not in the formation of new declarative memories. Cerebellar damage impairs the acquisition and retention of motor skills and conditioned eye-blink responses, not the encoding of episodic or semantic memories.",
+        "B": "Correct. The case of H.M. (Henry Molaison) \u2014 whose bilateral medial temporal lobe resection (including hippocampi) in 1953 produced severe anterograde amnesia \u2014 is the foundational evidence that the hippocampus is essential for forming new explicit (declarative) memories. H.M. could recall memories from before surgery (retrograde memory largely intact), perform procedural learning (implicit memory intact \u2014 he relearned mirror drawing despite no conscious memory of practice), but could not form new episodic or semantic memories. The hippocampus is necessary for consolidation of declarative memories into long-term neocortical storage; without it, new information is processed normally in the short term but not consolidated.",
+        "C": "The primary motor cortex stores motor programs for executing movements but is not involved in memory consolidation for new explicit memories. Procedural memory for new skills (e.g., learning to ride a bike) involves the cerebellum, basal ganglia, and motor cortex \u2014 and is dissociable from declarative memory, as shown by amnesic patients who can learn motor skills without conscious memory of doing so.",
+        "D": "The prefrontal cortex is important for working memory, strategic retrieval, temporal ordering of memories, and the executive processes of encoding (deciding what to encode) and retrieval (search strategies). However, the hippocampus is the critical site for forming new long-term explicit memories. Prefrontal damage produces frontal amnesia (impaired temporal ordering, source amnesia, reduced strategic retrieval) but not the dense anterograde amnesia seen with hippocampal damage."
+      },
+      "topic": "Anterograde Amnesia / Hippocampus / HM",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_009",
+      "passage": null,
+      "stem": "Implicit memory differs from explicit (declarative) memory in that implicit memory:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "requires conscious recollection and can be verbally reported"
+        },
+        {
+          "label": "B",
+          "text": "is stored exclusively in the hippocampus"
+        },
+        {
+          "label": "C",
+          "text": "supports performance without conscious awareness \u2014 including skills (procedural), priming effects, and conditioned responses \u2014 and is spared in anterograde amnesia"
+        },
+        {
+          "label": "D",
+          "text": "is equivalent to short-term memory and decays within seconds"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Requiring conscious recollection and verbal report describes explicit (declarative) memory \u2014 episodic (personal events) and semantic (factual knowledge). Implicit memory operates outside conscious awareness; individuals can demonstrate the learning behaviorally but cannot explicitly describe what they know.",
+        "B": "Implicit memory is not stored in the hippocampus. Different brain systems support different types of implicit memory: cerebellum (classical conditioning of motor responses, motor skill learning), basal ganglia (habit formation, stimulus-response learning), amygdala (fear conditioning, emotional conditioning), neocortex (priming effects for perceptual features). This is why H.M. (bilateral hippocampal damage) had intact implicit memory \u2014 he could learn motor skills and show priming effects \u2014 despite severe anterograde amnesia for explicit memories.",
+        "C": "Correct. Implicit memory refers to memories expressed through performance changes without conscious awareness or intentional retrieval. Types include: procedural (motor skills: riding a bike, playing an instrument), priming (prior exposure to a stimulus facilitates later processing of related stimuli without conscious recall), conditioned responses (fear responses, taste aversions), and perceptual learning. The critical finding is that implicit memory is dissociable from explicit memory \u2014 patients with severe anterograde amnesia (hippocampal damage) can still learn new skills and show priming effects, demonstrating that these memory types use different brain systems.",
+        "D": "Short-term (working) memory holds a small amount of information for seconds to minutes. Implicit memory can last a lifetime (you don't forget how to ride a bike) and is not equivalent to short-term memory. The distinction between explicit and implicit is about consciousness of memory, not about duration."
+      },
+      "topic": "Implicit vs Explicit Memory / Multiple Memory Systems",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_010",
+      "passage": null,
+      "stem": "The spacing effect (distributed practice) is a well-established learning principle showing that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "massed practice (studying everything in one session) is more efficient than spaced practice because it minimizes transitions between sessions"
+        },
+        {
+          "label": "B",
+          "text": "information studied in multiple shorter sessions spaced over time is retained better than information studied in one long session \u2014 even if total study time is equal"
+        },
+        {
+          "label": "C",
+          "text": "spacing only improves learning of motor skills, not factual information"
+        },
+        {
+          "label": "D",
+          "text": "immediate re-studying of material after first encounter produces the best long-term retention"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Massed practice (cramming) produces rapid initial acquisition but much more rapid forgetting. The feeling of 'fluency' during a massed session can be deceptive \u2014 when tested days or weeks later, massed learners consistently recall less than spaced learners who spent equal total time studying. Desirable difficulties (Bjork) enhance long-term retention even when they reduce apparent performance during learning.",
+        "B": "Correct. The spacing effect is one of the most robust findings in cognitive psychology. Spacing study sessions with intervals (minutes, days, or weeks) between them produces much better long-term retention than massing the same total study time in one session. Proposed mechanisms include: (1) the study period follows a period of forgetting, which forces retrieval practice (the act of retrieving strengthens the memory trace); (2) varied study contexts encode additional retrieval cues; (3) spaced repetition prevents the habituation that occurs during massed practice. The spacing effect underlies spaced repetition algorithms (Anki, SuperMemo) that schedule reviews at increasing intervals as material becomes better learned.",
+        "C": "The spacing effect applies broadly across learning domains: vocabulary, factual recall, mathematical problem-solving, and motor skills all show spacing advantages. It is one of the few learning interventions with robust evidence across age groups, content types, and educational levels.",
+        "D": "Immediate re-studying (massed practice) is less effective for long-term retention than spaced re-studying, even though it may feel more productive (due to high initial fluency). Testing shows that immediate re-studying and immediate re-reading produce minimal additional retention gains compared to studying once and then waiting before reviewing."
+      },
+      "topic": "Spacing Effect / Distributed Practice / Long-Term Retention",
+      "difficulty": "Easy"
+    }
+  ]
+}

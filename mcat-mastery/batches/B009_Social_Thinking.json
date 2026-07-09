@@ -1,0 +1,500 @@
+{
+  "batch": "B009",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Social Thinking & Interactions",
+  "questionCount": 15,
+  "questions": [
+    {
+      "id": "ps_social_001",
+      "passage": "Researchers conduct a study on causal attribution in a university setting. Participants watch a video of a student tripping and falling in a crowded hallway. Half the participants (Group A) are told nothing about the student. The other half (Group B) are told that the student had just received devastating personal news before the fall.\n\nGroup A participants predominantly attribute the fall to the student's clumsiness or carelessness — dispositional factors. Group B participants, given the situational context, are significantly more likely to attribute the fall to distraction caused by the bad news — a situational factor.\n\nIn a follow-up study, participants are asked to explain their own most recent embarrassing moment. Regardless of group assignment, participants overwhelmingly cite situational causes for their own behavior: they were rushed, distracted, or dealing with unusual circumstances.",
+      "stem": "The difference between Group A's attributions for the student's fall and the participants' attributions for their own embarrassing moments best illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The self-serving bias — attributing one's own successes to internal factors and failures to external factors"
+        },
+        {
+          "label": "B",
+          "text": "The actor-observer bias — the tendency to attribute others' behavior to disposition while attributing one's own behavior to situation"
+        },
+        {
+          "label": "C",
+          "text": "The just-world hypothesis — the belief that people get what they deserve"
+        },
+        {
+          "label": "D",
+          "text": "Cognitive dissonance — the discomfort of holding contradictory beliefs"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The self-serving bias specifically involves a valence asymmetry: people attribute positive outcomes to internal factors (I succeeded because I'm talented) and negative outcomes to external factors (I failed because the test was unfair). While the participants do cite external causes for their own embarrassing moments, the study does not test whether they would also cite internal causes for their successes. The key finding is about the observer-versus-actor perspective difference, not about the success-versus-failure asymmetry.",
+        "B": "Correct. The actor-observer bias (also called the actor-observer asymmetry) describes the systematic difference between how we explain our own behavior versus others' behavior. When observing someone else (the student in the video), Group A defaults to dispositional attributions — 'she's clumsy.' When explaining their own identical type of behavior (an embarrassing moment), participants cite situational factors — 'I was rushed.' This asymmetry arises because actors have access to their own internal states and situational awareness (they know they were distracted), while observers primarily see the behavior and lack this contextual information. The Group B finding adds nuance: when observers are given situational context, they shift toward situational attributions, suggesting the bias is partly driven by information asymmetry rather than a fixed cognitive bias.",
+        "C": "The just-world hypothesis (Lerner) is the belief that the world is fair and people deserve their outcomes — good things happen to good people, bad things to bad people. While this can influence attribution (blaming victims for their misfortune), the study's design does not test this hypothesis. The participants are not evaluating moral desert or fairness; they are explaining the cause of a neutral event (tripping).",
+        "D": "Cognitive dissonance (Festinger) occurs when a person holds two contradictory cognitions or when their behavior conflicts with their beliefs, producing psychological discomfort. The study does not present participants with contradictory beliefs or ask them to behave inconsistently with their attitudes. The attribution difference between self and other reflects a perceptual asymmetry, not a conflict between beliefs."
+      },
+      "topic": "Actor-Observer Bias",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Group A's tendency to attribute the student's fall to clumsiness rather than situational factors is an example of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The fundamental attribution error — overestimating dispositional factors and underestimating situational factors when explaining others' behavior"
+        },
+        {
+          "label": "B",
+          "text": "The halo effect — letting one positive trait influence the overall impression of a person"
+        },
+        {
+          "label": "C",
+          "text": "Social desirability bias — responding in ways that are viewed favorably by others"
+        },
+        {
+          "label": "D",
+          "text": "Anchoring bias — over-relying on the first piece of information encountered"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The fundamental attribution error (FAE), also called the correspondence bias, is the tendency to overweight dispositional (internal, personality-based) explanations for others' behavior while underweighting situational (external, contextual) factors. Group A sees a student fall and immediately infers a dispositional trait — clumsiness — rather than considering situational possibilities (wet floor, untied shoelace, emotional distraction). The Group B finding is instructive: when situational information is explicitly provided, participants' attributions shift, demonstrating that the FAE is partly a default response when situational context is unavailable or unattended to. Note that cross-cultural research shows the FAE is stronger in individualistic (Western) cultures that emphasize personal agency than in collectivistic (East Asian) cultures that attend more to context and relationships.",
+        "B": "The halo effect is a cognitive bias in which a positive impression in one domain (e.g., physical attractiveness) leads to positive assumptions in unrelated domains (e.g., intelligence, kindness). It is not relevant here because participants are not generalizing from one trait to another — they are inferring a specific dispositional cause (clumsiness) from a single behavior (falling).",
+        "C": "Social desirability bias refers to the tendency to give responses that present oneself in a favorable light, particularly in self-report measures. Group A is making judgments about another person's behavior, not reporting on themselves. Their attribution to clumsiness is an interpretation of someone else's behavior, not an attempt to make themselves look good.",
+        "D": "Anchoring bias involves fixating on an initial reference point and insufficiently adjusting from it. While the visual image of the fall might serve as a kind of anchor, the FAE more precisely describes the specific pattern of overweighting disposition and underweighting situation. The anchoring framework does not capture the dispositional-situational asymmetry that is central to this finding."
+      },
+      "topic": "Fundamental Attribution Error",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_social_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A cross-cultural psychologist hypothesizes that participants from collectivistic cultures (e.g., East Asian cultures) would show a weaker fundamental attribution error in the Group A condition compared to participants from individualistic cultures (e.g., Western cultures). Which of the following reasoning best supports this hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Collectivistic cultures discourage making any attributions about others' behavior"
+        },
+        {
+          "label": "B",
+          "text": "Collectivistic cultures emphasize contextual and relational factors in understanding behavior, making situational attributions more accessible"
+        },
+        {
+          "label": "C",
+          "text": "Members of collectivistic cultures are unable to identify dispositional traits in others"
+        },
+        {
+          "label": "D",
+          "text": "Collectivistic cultures produce less conformity than individualistic cultures, reducing attribution biases"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Collectivistic cultures do not prohibit attributions about others' behavior — people in all cultures make causal attributions. The difference is in the relative weight given to dispositional versus situational factors, not in the presence or absence of attribution itself.",
+        "B": "Correct. Research by Masuda, Nisbett, and others demonstrates that individuals from collectivistic (particularly East Asian) cultures attend more to context, relationships, and situational factors when explaining behavior, while individuals from individualistic (Western) cultures focus more on the individual actor and their internal dispositions. This cultural difference in attentional focus — whether one's default gaze is on the individual or on the context surrounding the individual — directly affects the fundamental attribution error. In collectivistic cultures, situational attributions are more cognitively accessible because the cultural framework emphasizes interdependence, social roles, and environmental influence. The FAE still occurs cross-culturally, but its magnitude is significantly reduced when the cultural context primes attention to situations rather than individual traits.",
+        "C": "Members of collectivistic cultures can identify dispositional traits as readily as anyone else — they are not lacking in this cognitive capacity. The difference is in the relative emphasis placed on dispositional versus situational explanations when accounting for behavior, not in the ability to perceive traits. Cultural influence operates on attribution tendencies, not on perceptual abilities.",
+        "D": "The relationship between conformity and attribution bias is not as described. Collectivistic cultures actually tend to show higher levels of certain types of conformity (norm compliance, in-group harmony maintenance), but this does not reduce attribution biases. In fact, the relevant cultural dimension is not conformity but attentional focus — whether the culture directs attention toward individuals (dispositional attribution) or toward contexts (situational attribution)."
+      },
+      "topic": "Cultural Differences in Attribution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_004",
+      "passage": "Social psychologists examine the dynamics of conformity using a modified version of Asch's line judgment paradigm. In the original Asch experiment, participants were asked to match a standard line to one of three comparison lines — an objectively easy perceptual task. When confederates unanimously gave an obviously incorrect answer, approximately 75% of participants conformed at least once across multiple trials, and about 37% of all responses were conforming.\n\nIn the modified version, the researchers vary three conditions:\nCondition A: The participant responds publicly in a group of 7 confederates who all give the wrong answer.\nCondition B: The participant responds publicly, but one confederate (an ally) gives the correct answer before the participant responds.\nCondition C: The participant writes their answer privately while the confederates respond publicly with the wrong answer.\n\nConformity rates are highest in Condition A, substantially lower in Condition B, and lowest in Condition C.",
+      "stem": "The dramatic reduction in conformity in Condition B, when a single ally provides the correct answer, is best explained by which social psychological principle?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Deindividuation — the ally's presence restores the participant's sense of personal identity"
+        },
+        {
+          "label": "B",
+          "text": "Social facilitation — the ally's correct answer improves the participant's cognitive performance"
+        },
+        {
+          "label": "C",
+          "text": "The ally breaks the unanimity of the group, reducing normative social pressure and validating the participant's own perception"
+        },
+        {
+          "label": "D",
+          "text": "Obedience to authority — the ally serves as an authority figure whose judgment overrides the group's"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Deindividuation refers to the loss of self-awareness and individual identity that can occur in large groups, crowds, or situations where anonymity is high (masks, uniforms, online settings). It typically leads to decreased personal responsibility and increased impulsive behavior. The ally's effect in Condition B operates through a different mechanism — breaking group unanimity — not through restoring personal identity. The participant's identity was not lost in Condition A; they simply faced overwhelming social pressure.",
+        "B": "Social facilitation (Zajonc) refers to the tendency for the presence of others to enhance performance on simple tasks and impair performance on complex tasks, through increased arousal. The line-matching task is objectively simple, and participants know the correct answer — the issue is not cognitive performance but social pressure. Asch's participants conformed not because they couldn't identify the correct line but because they felt pressure to match the group. The ally doesn't improve perception; they reduce the social cost of dissenting.",
+        "C": "Correct. Asch's research demonstrated that unanimity is a critical driver of conformity. When the group is unanimous, the participant faces maximum normative pressure — they must either conform or stand as the sole dissenter, which carries significant social risk (appearing deviant, facing rejection). A single ally who breaks the unanimity transforms the social situation fundamentally: the participant is no longer alone in their dissent. Even one dissenting voice reduces conformity by approximately 80% in Asch's studies. The ally effect operates through two mechanisms: (1) it reduces normative social influence (the pressure to fit in) because the participant is no longer the only person disagreeing, and (2) it validates the participant's own perception through informational social influence — someone else sees what they see, confirming that the group is wrong.",
+        "D": "The ally in Asch's paradigm is another apparent participant (peer), not an authority figure. They hold no special status, credentials, or power over the participant. Their influence comes from breaking unanimity and providing social validation, not from commanding obedience. Obedience to authority (Milgram's domain) involves compliance with directives from someone with perceived legitimate power, which is structurally different from peer-based conformity."
+      },
+      "topic": "Conformity: Asch's Studies",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The lower conformity rate in Condition C (private responses) compared to Condition A (public responses) demonstrates that conformity in Asch's paradigm is primarily driven by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Informational social influence — participants genuinely believe the group is correct and adopt their answer"
+        },
+        {
+          "label": "B",
+          "text": "Normative social influence — participants publicly conform to avoid social rejection while privately maintaining their own judgment"
+        },
+        {
+          "label": "C",
+          "text": "Obedience — participants comply because the experimenter is an authority figure"
+        },
+        {
+          "label": "D",
+          "text": "Internalization — participants permanently change their beliefs to match the group"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "If informational social influence were the primary driver, participants would conform both publicly and privately — if they genuinely believed the group was correct, their private answers would match their public answers. The finding that conformity drops dramatically when responses are private demonstrates that participants know the group is wrong. They conform publicly despite knowing the correct answer, which is the signature of normative influence, not informational influence.",
+        "B": "Correct. Normative social influence is the desire to be accepted and to avoid social rejection or disapproval. When responses are public (Condition A), participants conform because they fear standing out, appearing foolish, or being excluded. When responses are private (Condition C), this social pressure is removed — no one will know if the participant disagrees with the group — and conformity drops sharply. This pattern proves that most conforming responses in Asch's paradigm represent compliance (outward behavioral change without internal belief change), not genuine acceptance of the group's judgment. Participants were 'going along to get along' while privately recognizing the correct answer. Deutsch and Gerard's distinction between normative and informational influence is central to understanding this pattern.",
+        "C": "Asch's paradigm does not involve an authority figure giving directives. The experimenter presents the task but does not instruct participants to agree with the group. Conformity arises from peer pressure (normative influence), not from commands by an authority. Milgram's obedience paradigm, not Asch's, specifically examines compliance with authority figures.",
+        "D": "Internalization means genuinely adopting the group's beliefs as one's own. If participants internalized the group's judgment, they would give the group's answer even in private. The fact that private responses are overwhelmingly correct proves that participants did not internalize the group's incorrect answers — they maintained their private judgment while publicly conforming. This is compliance, not internalization."
+      },
+      "topic": "Normative vs. Informational Influence",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_006",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Milgram's obedience studies found that participants administered what they believed were dangerous electric shocks to a confederate when instructed by an authority figure. Which of the following factors was found to DECREASE obedience in Milgram's experiments?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Conducting the experiment at a prestigious university rather than an office building"
+        },
+        {
+          "label": "B",
+          "text": "Having the experimenter leave the room and give instructions by telephone"
+        },
+        {
+          "label": "C",
+          "text": "Having the participant watch other participants obey the experimenter without protest"
+        },
+        {
+          "label": "D",
+          "text": "Increasing the voltage increments so participants had fewer decision points"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Milgram found that institutional prestige actually increased obedience slightly. When the experiment was conducted at Yale University (high prestige), obedience was higher than when it was conducted in a run-down office building. Greater institutional legitimacy enhances the authority figure's perceived power, increasing compliance. This factor would increase, not decrease, obedience.",
+        "B": "Correct. Milgram systematically varied the proximity and presence of the authority figure across experimental conditions. When the experimenter was physically present in the room, obedience was highest (~65% went to maximum voltage). When the experimenter left the room and gave instructions by telephone, obedience dropped dramatically (~21%). Physical proximity enhances the authority's perceived power and makes the participant feel more directly monitored and accountable. Reduced proximity allows participants to disobey more easily — some participants even lied to the experimenter by phone, claiming they were administering shocks while actually not doing so. This finding demonstrates that obedience depends partly on the salience and immediacy of the authority figure, not solely on the legitimacy of their position.",
+        "C": "Seeing others obey without protest would be expected to increase obedience through social proof and conformity. In Milgram's variations, when confederate 'teachers' modeled obedience, the participant was more likely to comply. Conversely, when confederates modeled disobedience (refused to continue), participants' obedience rates dropped significantly — similar to the ally effect in Asch's studies.",
+        "D": "Milgram's use of small, incremental voltage increases (15V steps) was actually a key feature that facilitated obedience through the foot-in-the-door technique. Each small increase seemed only marginally different from the previous one, making it difficult for participants to identify a clear point at which to refuse. Larger increments might actually decrease obedience by making each decision point more salient."
+      },
+      "topic": "Obedience: Milgram's Studies",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_007",
+      "passage": "A social psychology research team studies stereotype threat, a phenomenon first described by Claude Steele and Joshua Aronson. In their experimental paradigm, two groups of equally qualified female mathematics students take the same difficult math test.\n\nGroup 1 is told: 'This test has been shown to produce gender differences in performance, with men typically scoring higher than women.'\n\nGroup 2 is told: 'This test has been shown to be gender-fair, with no differences between men and women.'\n\nGroup 1 performs significantly worse than Group 2, despite having equivalent mathematical ability as measured by prior standardized test scores and GPA.\n\nThe researchers hypothesize that Group 1's underperformance results from the anxiety and cognitive load produced by awareness of a negative stereotype about their group's ability, which interferes with working memory and executive function during the test.",
+      "stem": "The results of this study most directly demonstrate that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "women are inherently less capable in mathematics than men"
+        },
+        {
+          "label": "B",
+          "text": "awareness of negative stereotypes can impair performance through anxiety and cognitive interference, independent of actual ability"
+        },
+        {
+          "label": "C",
+          "text": "standardized tests are always biased against women"
+        },
+        {
+          "label": "D",
+          "text": "stereotype threat only affects women and has no relevance to other social groups"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The study directly contradicts this conclusion. Both groups had equivalent mathematical ability (matched on prior test scores and GPA). Group 2, which was not exposed to the stereotype cue, performed at their expected level. The performance difference arose entirely from the experimental manipulation (the framing of the test), not from any difference in underlying ability. This is the central point of stereotype threat research: observed performance gaps can reflect situational factors, not innate capacity.",
+        "B": "Correct. Stereotype threat is a situational phenomenon in which awareness of a negative stereotype about one’s social group creates anxiety, self-doubt, and cognitive load that can consume working memory resources — resources that would otherwise be devoted to the task. The effect occurs independent of actual ability: equally capable students can perform differently depending on whether a stereotype has been activated. The mechanism involves both affective components (anxiety, arousal, fear of confirming the stereotype) and cognitive components (intrusive thoughts, self-monitoring, reduced working memory capacity). The magnitude of the effect varies depending on the domain, the strength of identity relevance, and other contextual factors. Critically, stereotype threat is not limited to any single group — it has been demonstrated with racial minorities on academic tests, elderly adults on memory tests, white athletes on tasks framed as testing natural athletic ability, and men on tasks framed as testing emotional sensitivity, though effect sizes can differ across these contexts.",
+        "C": "The study does not demonstrate that standardized tests are inherently biased. It demonstrates that the framing and context in which a test is administered can affect performance. The same test produced different results depending on what participants were told about it. The bias is in the situational activation of stereotypes, not in the test instrument itself.",
+        "D": "Stereotype threat is a general phenomenon that applies to any group for which a negative stereotype about performance exists. Steele and Aronson's original research demonstrated the effect with African American students on verbal tests. Subsequent research has extended the finding to numerous groups across many domains. The phenomenon is about the interaction between identity, stereotypes, and performance situations — not about any specific demographic group."
+      },
+      "topic": "Stereotype Threat",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A school administrator proposes reducing racial achievement gaps by bringing students from different racial and ethnic backgrounds together in the same classroom. Based on Gordon Allport's contact hypothesis, which condition would be most essential for this intergroup contact to reduce prejudice?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The groups should be in competition with each other to motivate higher performance"
+        },
+        {
+          "label": "B",
+          "text": "Contact should occur under conditions of equal status, common goals, intergroup cooperation, and institutional support"
+        },
+        {
+          "label": "C",
+          "text": "Contact should be brief and superficial to avoid conflict"
+        },
+        {
+          "label": "D",
+          "text": "The groups should remain segregated within the classroom to preserve cultural identity"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Intergroup competition typically increases prejudice and hostility, not reduces it. Sherif's Robbers Cave experiment demonstrated that competition between groups intensified negative attitudes and intergroup conflict. Only when the groups worked together toward superordinate goals (common objectives that required cooperation) did prejudice decrease. Competition is the opposite of what the contact hypothesis prescribes.",
+        "B": "Correct. Allport's contact hypothesis (1954) specifies that mere contact between groups is insufficient — and can even increase prejudice if conditions are wrong. Four conditions are necessary for contact to reduce prejudice: (1) Equal status between groups in the contact situation — neither group should hold power or authority over the other; (2) Common goals — groups must work toward shared objectives rather than competing; (3) Intergroup cooperation — achieving the goals must require collaboration between groups; (4) Support from authorities, laws, or institutional norms — the institution must explicitly endorse and facilitate positive intergroup relations. In a classroom context, this means structured cooperative learning activities (like Aronson's jigsaw classroom), equal participation expectations, shared academic goals, and clear institutional commitment to inclusion — not simply placing students in the same room.",
+        "C": "Brief, superficial contact is unlikely to reduce prejudice and may reinforce it by providing only enough exposure to confirm existing stereotypes without enough depth to challenge them. Meaningful prejudice reduction requires sustained, meaningful interaction under Allport's conditions, not casual or token contact.",
+        "D": "Maintaining segregation within a shared space is not intergroup contact — it preserves the very boundaries that sustain prejudice. While maintaining cultural identity is valuable, Allport's framework requires genuine interaction between groups, not parallel existence in the same physical space. Contact must be substantive and cooperative to have prejudice-reducing effects."
+      },
+      "topic": "Contact Hypothesis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The researchers note that some participants in Group 1 reported being unaware of any anxiety during the test, yet still performed worse than Group 2. This finding suggests that stereotype threat may operate through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Explicit, conscious prejudice held by the participants against their own group"
+        },
+        {
+          "label": "B",
+          "text": "Automatic, implicit cognitive processes that consume working memory resources without requiring conscious awareness of anxiety"
+        },
+        {
+          "label": "C",
+          "text": "Deliberate underperformance as a protest against the stereotype"
+        },
+        {
+          "label": "D",
+          "text": "Demand characteristics — participants performed worse because they thought the experimenters expected it"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Stereotype threat does not require — and does not involve — prejudice against one's own group. The affected individuals do not endorse the negative stereotype; they are threatened by it precisely because they care about disproving it. The anxiety and cognitive interference arise from the fear of confirming a stereotype one rejects, not from believing the stereotype is true.",
+        "B": "Correct. Research by Schmader, Johns, and Forbes proposes an integrated process model of stereotype threat in which multiple automatic mechanisms can operate simultaneously: (1) physiological stress responses that increase arousal and affect cognitive processing; (2) increased self-monitoring and vigilance for signs of failure; (3) active suppression of negative thoughts about the stereotype, which itself consumes executive function and working memory resources. These processes can operate largely outside conscious awareness — participants may not report feeling anxious even though their cognitive resources are being depleted by automatic monitoring and suppression processes. This explains why the effect can persist even in participants who deny experiencing anxiety: the interference may occur at the level of automatic cognitive processing, not necessarily at the level of conscious emotional experience. The relative contribution of each mechanism likely varies across individuals and situations.",
+        "C": "Deliberate underperformance would require conscious, intentional effort to perform poorly. This is inconsistent with the participants' reported motivation (they were trying their best) and with the finding that they were unaware of any interference. Stereotype threat produces genuine performance impairment, not strategic underperformance.",
+        "D": "Demand characteristics (participants guessing what the experimenter wants and acting accordingly) are an important methodological concern, but the Group 1 framing tells participants that men typically score higher — this would be expected to motivate women to try harder, not to perform worse. If demand characteristics were driving the effect, we might expect participants to try to disprove the stereotype (perform better), not confirm it. Additionally, the participants' lack of awareness of performance decrements is inconsistent with deliberate demand-responsive behavior."
+      },
+      "topic": "Implicit Processes in Stereotype Threat",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_social_010",
+      "passage": "Organizational psychologists study group decision-making in a corporate boardroom setting. They observe that a newly formed executive team, tasked with evaluating a risky expansion strategy, exhibits the following behaviors:\n\n• Members who initially favor the expansion become increasingly extreme in their support during group discussion.\n• One member who privately has reservations about the strategy does not voice them, later reporting that they assumed everyone else was fully committed.\n• The group does not seek outside expert opinions or consider worst-case scenarios.\n• After the decision, team members express high confidence in their choice despite acknowledging afterward that they had individually felt uncertain.",
+      "stem": "The pattern of behaviors described in the passage — escalating commitment, self-censorship, failure to seek external information, and illusion of unanimity — collectively characterize which group decision-making phenomenon?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Social loafing — reduced individual effort in group settings"
+        },
+        {
+          "label": "B",
+          "text": "Groupthink — a mode of thinking in which the desire for harmony overrides realistic appraisal of alternatives"
+        },
+        {
+          "label": "C",
+          "text": "Social facilitation — improved performance on simple tasks in the presence of others"
+        },
+        {
+          "label": "D",
+          "text": "Deindividuation — loss of self-awareness in group settings leading to impulsive behavior"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Social loafing (Latané, Williams, and Harkins) occurs when individuals exert less effort on a task when working in a group than when working alone, because their individual contribution is less identifiable. The passage describes a group that is highly engaged and converging on a decision — they are not reducing effort but rather failing to critically evaluate their decision. Social loafing involves motivational deficits; groupthink involves cognitive and evaluative deficits.",
+        "B": "Correct. Groupthink, identified by Irving Janis, is a dysfunction of highly cohesive groups in which the desire for consensus and harmony suppresses critical thinking, dissent, and realistic evaluation of alternatives. The passage illustrates several classic symptoms: (1) Group polarization — members' positions become more extreme during discussion, shifting the group toward a riskier position than any individual initially held; (2) Self-censorship — the dissenting member withholds concerns; (3) Illusion of unanimity — the dissenting member assumes everyone else agrees, creating a false appearance of consensus; (4) Failure to consider alternatives — the group does not seek outside perspectives or examine worst-case scenarios. Janis identified groupthink in analyses of policy fiascoes including the Bay of Pigs invasion and the Challenger shuttle disaster. Antidotes include assigning a devil's advocate, encouraging open dissent, seeking external input, and having the leader withhold their opinion initially.",
+        "C": "Social facilitation (Zajonc) describes the enhancement of dominant responses in the presence of others due to increased arousal. It applies to individual task performance, not to group decision-making processes. The passage describes a group arriving at a flawed collective judgment — this is a decision-quality issue, not a performance-arousal issue.",
+        "D": "Deindividuation involves the loss of individual self-awareness and personal responsibility that can occur in anonymous group settings (crowds, online platforms), often leading to disinhibited behavior. The boardroom setting is not anonymous — executives know each other and are identifiable. The self-censorship described is not a loss of self-awareness but a deliberate (though misguided) suppression of dissent to maintain group harmony."
+      },
+      "topic": "Groupthink",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_011",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The first bullet point describes members becoming more extreme in their initial positions during group discussion. This phenomenon is specifically called:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Group polarization — the tendency for group discussion to shift members toward a more extreme version of their initial inclination"
+        },
+        {
+          "label": "B",
+          "text": "Conformity — members changing their views to match the group average"
+        },
+        {
+          "label": "C",
+          "text": "Diffusion of responsibility — reduced personal accountability in groups"
+        },
+        {
+          "label": "D",
+          "text": "The bystander effect — reduced helping behavior when others are present"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Group polarization occurs when discussion within a like-minded group pushes members toward a more extreme position than any individual held before discussion. If members initially lean toward taking a risk, group discussion makes them more risk-seeking (the 'risky shift'). If they initially lean toward caution, discussion makes them more cautious (the 'cautious shift'). Two mechanisms drive polarization: (1) Persuasive arguments — during discussion, members hear novel arguments supporting the group's prevailing inclination, providing additional reasons to hold a stronger version of that position; (2) Social comparison — members discover that others hold positions similar to or stronger than their own, motivating them to differentiate themselves by adopting an even more extreme position to be seen favorably by the group. Polarization is distinct from conformity, which produces movement toward the group average, not toward extremes.",
+        "B": "Conformity involves moving toward the group's central tendency (average or majority position). Polarization involves moving away from the center toward extremes. In conformity, divergent views converge; in polarization, an already-leaning group becomes more extreme. The two processes are directionally different. Asch's studies show conformity (convergence toward the group); the boardroom scenario shows polarization (amplification beyond initial positions).",
+        "C": "Diffusion of responsibility occurs when individuals in a group feel less personal responsibility for taking action because they assume others will act. While diffusion of responsibility can contribute to poor group decisions, it specifically describes the distribution of accountability, not the amplification of attitudes. The phenomenon described — becoming more extreme — is about attitude change, not about responsibility.",
+        "D": "The bystander effect (Darley and Latané) refers to the decreased likelihood of helping when others are present, driven partly by diffusion of responsibility and pluralistic ignorance. It applies to emergency helping behavior, not to group decision-making or attitude shift."
+      },
+      "topic": "Group Polarization",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_social_012",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "A woman collapses on a busy subway platform during rush hour. Despite dozens of bystanders witnessing the event, several minutes pass before anyone calls for help. This scenario best illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Social facilitation — the crowd's presence impairs the performance of helping behavior"
+        },
+        {
+          "label": "B",
+          "text": "The bystander effect — the presence of other witnesses reduces each individual's likelihood of intervening, through diffusion of responsibility and pluralistic ignorance"
+        },
+        {
+          "label": "C",
+          "text": "Learned helplessness — the bystanders have learned that their actions are futile"
+        },
+        {
+          "label": "D",
+          "text": "Deindividuation — the anonymity of the crowd eliminates bystanders' moral concerns"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Social facilitation involves enhanced performance on simple/dominant-response tasks in the presence of others. Helping a stranger in an emergency is a complex, non-dominant response for most people. While the presence of others does affect behavior in this scenario, the mechanism is not arousal-driven performance change (social facilitation) but rather responsibility diffusion and social information processing (bystander effect).",
+        "B": "Correct. The bystander effect (Darley and Latané, inspired by the Kitty Genovese case) describes the inverse relationship between the number of bystanders and the probability that any one of them will help in an emergency. Two primary mechanisms: (1) Diffusion of responsibility — each individual feels less personally obligated to act because others are present who could help. 'Someone else will call 911.' (2) Pluralistic ignorance — each bystander looks to others for cues about how to interpret the situation. When no one else appears alarmed or moves to help, each individual concludes that the situation may not be an emergency ('maybe she's just sleeping or drunk'). Together, these mechanisms create a collective paralysis in which everyone assumes someone else will act or that action is not needed, despite individual concern.",
+        "C": "Learned helplessness (Seligman) develops after exposure to repeated uncontrollable aversive events, producing a generalized belief that one's actions are futile. There is no indication that the bystanders have a history of failed helping attempts. Their inaction is situation-specific (driven by the presence of other bystanders), not a generalized motivational deficit. A single individual encountering the same collapsed person would be far more likely to help — demonstrating that the inaction is situationally determined, not a stable trait.",
+        "D": "Deindividuation involves a loss of self-awareness that can lead to uninhibited, sometimes antisocial behavior. The bystanders are not engaging in impulsive or aggressive behavior — they are failing to act at all. Their inaction is better explained by diffusion of responsibility (each person feels less obligated) and pluralistic ignorance (each person looks to others for guidance), not by a loss of moral self-awareness."
+      },
+      "topic": "Bystander Effect",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_social_013",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "A college student who strongly believes in environmental conservation buys a gas-guzzling SUV because it was affordable. The student subsequently begins emphasizing the SUV's safety features and downplaying the importance of fuel efficiency. This attitude change is best explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The elaboration likelihood model — the student was persuaded by peripheral cues such as the vehicle's appearance"
+        },
+        {
+          "label": "B",
+          "text": "Cognitive dissonance — the inconsistency between the student's environmental beliefs and their vehicle purchase creates psychological discomfort, motivating attitude change to reduce the inconsistency"
+        },
+        {
+          "label": "C",
+          "text": "Classical conditioning — the positive experience of owning a car became associated with environmental indifference"
+        },
+        {
+          "label": "D",
+          "text": "The mere exposure effect — repeated exposure to the SUV increased the student's preference for it"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The elaboration likelihood model (Petty and Cacioppo) describes how people process persuasive messages through central (logical, evidence-based) or peripheral (heuristic, cue-based) routes. The student is not being persuaded by an external message — they are changing their own attitudes after a decision they already made. This is an internal attitude-adjustment process, not an external persuasion process.",
+        "B": "Correct. Cognitive dissonance (Festinger, 1957) occurs when a person holds two cognitions that are inconsistent with each other, producing an aversive state of psychological discomfort. Here, the two conflicting cognitions are: (1) 'I care deeply about the environment' and (2) 'I bought a gas-guzzling SUV.' Since the behavior (buying the SUV) is difficult to undo, the student reduces dissonance by adjusting attitudes — emphasizing the SUV's safety benefits (adding consonant cognitions) and downplaying fuel efficiency's importance (reducing the importance of the dissonant cognition). This post-decisional attitude change is a classic dissonance-reduction strategy: rather than changing behavior, the person rationalizes the behavior by modifying their beliefs to be consistent with it. Festinger's theory predicts that dissonance is strongest when the behavior is freely chosen, irreversible, and inconsistent with deeply held values — all conditions present here.",
+        "C": "Classical conditioning involves learning through stimulus-stimulus associations and typically requires repeated pairings of a neutral stimulus with an unconditioned stimulus. The student's attitude change is not the result of stimulus pairing but of a motivated cognitive process to resolve inconsistency between existing beliefs and behavior. The change is driven by psychological discomfort, not by associative learning.",
+        "D": "The mere exposure effect (Zajonc) describes the finding that repeated, unreinforced exposure to a stimulus increases positive affect toward it. While the student is exposed to the SUV daily, the attitude change described is specifically about rationalizing the purchase by reframing priorities (emphasizing safety, downplaying fuel efficiency) — a targeted, motivated cognitive process, not a general increase in liking from exposure."
+      },
+      "topic": "Cognitive Dissonance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_014",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "A pharmaceutical company creates two versions of a television advertisement for a new medication. Version A presents clinical trial data, mechanism of action, and efficacy statistics. Version B features a celebrity endorsement, calming music, and images of happy patients without discussing data. According to the elaboration likelihood model, which version targets which processing route, and who would be most persuaded by each?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Version A targets the peripheral route and persuades motivated audiences; Version B targets the central route and persuades unmotivated audiences"
+        },
+        {
+          "label": "B",
+          "text": "Both versions target the central route but use different types of evidence"
+        },
+        {
+          "label": "C",
+          "text": "Version A targets the central route and persuades audiences high in motivation and ability to process; Version B targets the peripheral route and persuades audiences lower in motivation or ability"
+        },
+        {
+          "label": "D",
+          "text": "Version A targets the peripheral route because statistics are superficial; Version B targets the central route because emotional appeals require deep processing"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This reverses the two routes. The central route involves careful, effortful processing of argument quality and evidence — which matches Version A's clinical data and efficacy statistics. The peripheral route involves reliance on surface cues (attractiveness, celebrity status, emotional tone) rather than evidence — which matches Version B's celebrity endorsement and calming music.",
+        "B": "The two versions use fundamentally different persuasion strategies, not different types of evidence within the same route. Version A presents substantive arguments (data, mechanisms) that require cognitive effort to evaluate. Version B presents heuristic cues (celebrity, music, imagery) that bypass careful evaluation. These correspond to the central and peripheral routes, respectively — two qualitatively different processing modes.",
+        "C": "Correct. The elaboration likelihood model (Petty and Cacioppo) proposes that persuasion occurs through two routes: the central route, in which the audience carefully evaluates the quality of arguments and evidence, and the peripheral route, in which the audience relies on heuristic cues (source attractiveness, number of arguments, emotional tone) without deeply processing the content. Version A (clinical data, mechanism, statistics) targets the central route — it will persuade audiences who are motivated (the issue is personally relevant) and able (they have the knowledge to evaluate the data) to process carefully. Version B (celebrity, music, imagery) targets the peripheral route — it will persuade audiences who lack the motivation or ability to engage with complex medical data. Importantly, central-route persuasion produces more durable, resistant attitude change than peripheral-route persuasion.",
+        "D": "This reverses the definitions. Statistics and data require effortful, systematic processing to evaluate — they are central-route arguments. Emotional appeals and celebrity endorsements are processed quickly through heuristics ('if a celebrity endorses it, it must be good') — they are peripheral-route cues. The distinction is not about content type (statistics vs. emotions) but about the depth of cognitive processing required."
+      },
+      "topic": "Elaboration Likelihood Model",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_015",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "A researcher finds that a person who holds egalitarian explicit attitudes (measured by self-report surveys) simultaneously shows strong implicit bias against a particular racial group on the Implicit Association Test (IAT). This dissociation between explicit and implicit attitudes most directly demonstrates that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the person is deliberately lying on the self-report survey to appear unprejudiced"
+        },
+        {
+          "label": "B",
+          "text": "the IAT is an invalid measure that does not capture meaningful psychological constructs"
+        },
+        {
+          "label": "C",
+          "text": "attitudes can operate at both conscious (explicit) and automatic (implicit) levels, and these levels can diverge"
+        },
+        {
+          "label": "D",
+          "text": "implicit bias has no relationship to actual discriminatory behavior"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "While deliberate impression management is possible, the dissociation between explicit and implicit attitudes does not necessarily indicate dishonesty. Research consistently shows that many people who genuinely endorse egalitarian values still show implicit biases — these biases reflect automatic associations formed through cultural exposure and socialization, not conscious hypocrisy. A person can sincerely believe in equality while still harboring automatic associations that contradict those beliefs.",
+        "B": "The IAT has been extensively validated and demonstrates acceptable psychometric properties including internal consistency and test-retest reliability. While debates about its predictive validity for individual behavior continue, the measure consistently captures automatic associations that differ from deliberate self-reports. Dismissing the IAT as invalid does not explain the robust and replicable dissociation between explicit and implicit measures found across hundreds of studies.",
+        "C": "Correct. Dual-process models of attitudes (Greenwald and Banaji) propose that attitudes can exist at two distinct levels: explicit attitudes are consciously accessible and can be reported through self-reflection and surveys; implicit attitudes are automatic associations that operate outside conscious awareness and are measured through reaction-time tasks like the IAT. These two levels can align (a person who explicitly endorses and implicitly shows egalitarian attitudes) or diverge (a person with explicit egalitarian beliefs but implicit biases). The divergence reflects the different origins of each level: explicit attitudes are shaped by deliberate reasoning, education, and personal values, while implicit attitudes are shaped by cumulative cultural exposure, media representations, and socialization processes that operate below conscious control. Understanding this dissociation is crucial for addressing prejudice — changing explicit attitudes through education does not automatically change implicit associations. It is worth noting that while the IAT reliably measures automatic associations at the group level, its predictive validity for any single individual’s behavior in a specific situation is more limited, and this remains an active area of research.",
+        "D": "Research shows that implicit bias does predict certain types of behavior, particularly spontaneous, unmonitored behaviors such as nonverbal body language, eye contact, speaking time, and snap judgments in ambiguous situations. However, the relationship between implicit bias and behavior is modest at the individual level and stronger in aggregate across many individuals and situations. The existence of a dissociation between explicit and implicit attitudes does not negate the behavioral relevance of implicit bias, but the strength of the relationship depends on the type of behavior measured and the degree of situational control available."
+      },
+      "topic": "Implicit vs. Explicit Attitudes",
+      "difficulty": "Medium"
+    }
+  ]
+}

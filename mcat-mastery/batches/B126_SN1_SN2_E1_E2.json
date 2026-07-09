@@ -1,0 +1,343 @@
+{
+  "batch": "B126",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "SN1, SN2, E1 & E2 Reactions",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_sub_001",
+      "passage": "An organic chemistry student compares nucleophilic substitution and elimination reactions. She reacts 2-bromobutane with various nucleophiles and bases under different conditions: strong nucleophile in polar aprotic solvent (DMSO), weak nucleophile in polar protic solvent (ethanol/water), strong bulky base (t-BuOK), and strong base/nucleophile (NaOH in ethanol). She analyzes products for stereochemistry (inversion, retention, racemization) and regiochemistry (Zaitsev vs Hofmann).",
+      "stem": "An SN2 reaction is favored by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a strong nucleophile, polar aprotic solvent, and a primary or methyl substrate — the reaction proceeds through a single concerted step with backside attack, producing inversion of configuration"
+        },
+        {
+          "label": "B",
+          "text": "a weak nucleophile, polar protic solvent, and a tertiary substrate"
+        },
+        {
+          "label": "C",
+          "text": "high temperature and a bulky base"
+        },
+        {
+          "label": "D",
+          "text": "a carbocation intermediate stabilized by hyperconjugation"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. SN2: bimolecular, one-step, concerted mechanism. The nucleophile attacks the electrophilic carbon from the back side (180° from the leaving group), passing through a pentacoordinate transition state. Favored by: (1) strong nucleophile (rate = k[Nu][substrate]); (2) methyl > primary > secondary >> tertiary substrate (steric accessibility); (3) polar aprotic solvent (DMSO, DMF, acetone — dissolves salts without stabilizing nucleophile through H-bonding, keeping it reactive). Stereochemistry: complete inversion of configuration (Walden inversion).",
+        "B": "Weak nucleophile, polar protic solvent, and tertiary substrate favor SN1, not SN2. SN1 requires carbocation stability (tertiary) and benefits from polar protic solvents that stabilize the cation and leaving group.",
+        "C": "High temperature and bulky base favor elimination (E2 or E1), not substitution. Temperature generally favors elimination over substitution because elimination has a higher activation entropy.",
+        "D": "A carbocation intermediate describes SN1 (two-step: ionization → nucleophilic capture) or E1, not SN2. SN2 has no intermediate — it is concerted."
+      },
+      "topic": "SN2 Mechanism / Conditions",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sub_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "SN1 reactions are favored with tertiary substrates because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tertiary substrates have the least steric hindrance"
+        },
+        {
+          "label": "B",
+          "text": "tertiary carbocations are more stable — three alkyl groups stabilize the positive charge through hyperconjugation and induction, lowering the activation energy for the rate-determining ionization step"
+        },
+        {
+          "label": "C",
+          "text": "tertiary substrates cannot form carbocations"
+        },
+        {
+          "label": "D",
+          "text": "primary substrates always undergo SN1 faster"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Tertiary substrates actually have the most steric hindrance, which is why they disfavor SN2 (backside attack is blocked). The steric bulk that prevents SN2 is irrelevant to SN1 because the rate-determining step is unimolecular ionization (no nucleophile involved).",
+        "B": "Correct. SN1 rate-determining step: substrate ionizes to form a carbocation + leaving group (R-X → R⁺ + X⁻). The rate depends only on [substrate] (first-order kinetics). Carbocation stability determines the activation energy: tertiary (3°) > secondary (2°) >> primary (1°) > methyl. Alkyl groups stabilize the carbocation through hyperconjugation (σ-bond electron donation into empty p orbital) and inductive effects. SN1 stereochemistry: racemization (planar carbocation attacked from both faces), though often with slight inversion excess due to ion-pair shielding.",
+        "C": "Tertiary substrates are the best at forming carbocations because of the stability provided by three alkyl substituents. This is why SN1 is most favorable with tertiary substrates.",
+        "D": "Primary substrates rarely undergo SN1 because primary carbocations are extremely unstable (essentially nonexistent under normal conditions). Primary substrates favor SN2 instead."
+      },
+      "topic": "SN1 Mechanism / Carbocation Stability",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sub_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The E2 elimination reaction produces an alkene through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a two-step mechanism with a carbocation intermediate"
+        },
+        {
+          "label": "B",
+          "text": "a free radical chain mechanism"
+        },
+        {
+          "label": "C",
+          "text": "a concerted one-step mechanism — a strong base abstracts a β-hydrogen while the leaving group departs simultaneously, requiring an anti-periplanar geometry (H and LG at 180°) for optimal orbital overlap"
+        },
+        {
+          "label": "D",
+          "text": "nucleophilic addition to a carbonyl"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "A two-step mechanism with a carbocation intermediate describes E1 elimination (ionization → deprotonation), not E2. E2 is concerted — no intermediate.",
+        "B": "Free radical chain mechanisms involve initiation, propagation, and termination steps with radical intermediates. Elimination reactions (E1, E2) are polar mechanisms, not radical processes.",
+        "C": "Correct. E2: bimolecular, concerted. Strong base abstracts a β-hydrogen while the C-X bond breaks simultaneously. Requirements: (1) anti-periplanar (trans-diaxial) geometry — H and leaving group must be 180° apart for proper orbital alignment (σ C-H and σ* C-X overlap). (2) Strong base (OH⁻, RO⁻, t-BuO⁻). (3) Product regiochemistry follows Zaitsev's rule (more substituted alkene preferred) with most bases, but Hofmann product (less substituted) with bulky bases like t-BuO⁻. Rate = k[base][substrate].",
+        "D": "Nucleophilic addition to a carbonyl describes reactions of aldehydes and ketones (Grignard, NaBH₄ reduction), not elimination reactions."
+      },
+      "topic": "E2 Mechanism / Anti-Periplanar",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sub_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which factor most reliably distinguishes whether a reaction follows an SN2 or E2 pathway?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The color of the solvent"
+        },
+        {
+          "label": "B",
+          "text": "The temperature only — E2 always occurs below 0°C"
+        },
+        {
+          "label": "C",
+          "text": "The leaving group quality — better leaving groups always give E2"
+        },
+        {
+          "label": "D",
+          "text": "The nature of the base/nucleophile — a strong, bulky base (like t-BuO⁻) favors E2 elimination, while a strong, small nucleophile (like CN⁻ or CH₃O⁻) favors SN2 substitution"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Solvent color is irrelevant to reaction mechanism. Solvent polarity and protic/aprotic character do influence mechanism, but not color.",
+        "B": "Higher temperature generally favors elimination (higher ΔS‡), but temperature alone does not determine the mechanism. The identity of the reagent is more important.",
+        "C": "Leaving group quality affects the rate of both SN2 and E2. A good leaving group accelerates both pathways — it does not selectively favor one over the other. The nucleophile/base identity is the key distinguishing factor.",
+        "D": "Correct. SN2 vs E2 competition depends primarily on the nucleophile/base: small, strong nucleophiles (CN⁻, I⁻, RS⁻, CH₃O⁻) favor substitution at accessible carbons. Bulky, strong bases (t-BuO⁻, LDA, DBU) cannot easily access the electrophilic carbon and instead abstract a β-hydrogen (elimination). Secondary substrates are most susceptible to this competition. Other factors: higher temperature, more substituted substrate, and stronger base all tip the balance toward E2."
+      },
+      "topic": "SN2 vs E2 Competition",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_sub_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A secondary substrate reacted with NaOH in ethanol produces a mixture of substitution and elimination products. Increasing the reaction temperature would most likely:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase the proportion of elimination (E2) product — elimination has a higher activation entropy (ΔS‡), so it is favored at higher temperatures relative to substitution"
+        },
+        {
+          "label": "B",
+          "text": "exclusively produce the SN2 product"
+        },
+        {
+          "label": "C",
+          "text": "stop the reaction completely"
+        },
+        {
+          "label": "D",
+          "text": "convert the substrate into an aromatic compound"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Elimination produces more molecules than substitution (substrate → alkene + HX + base, vs substrate + Nu → product + X⁻), giving E2 a more positive ΔS‡. By ΔG‡ = ΔH‡ − TΔS‡, a more positive ΔS‡ makes ΔG‡ decrease faster with increasing T, so elimination becomes kinetically more favorable at higher temperatures. This is a general principle: when substitution and elimination compete, heat favors elimination. For secondary substrates with NaOH (a moderate-strength, non-bulky base/nucleophile), both SN2 and E2 are possible, and temperature shifts the ratio.",
+        "B": "Higher temperature disfavors SN2 relative to E2, so the SN2 proportion would decrease, not exclusively increase.",
+        "C": "Higher temperature increases both reaction rates (Arrhenius equation) but favors elimination proportionally more. The reaction continues faster, not slower.",
+        "D": "Forming an aromatic compound requires specific structural features (six-membered ring, alternating double bonds, planarity, 4n+2 π electrons). A simple secondary alkyl halide does not spontaneously become aromatic."
+      },
+      "topic": "Temperature Effect / Elimination vs Substitution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sub_006",
+      "passage": "The student examines the stereochemical outcomes of SN1 and SN2 reactions using (R)-2-bromobutane as a substrate. She runs the reaction under SN2 conditions (NaCN in DMSO) and SN1 conditions (AgNO₃ in aqueous ethanol, promoting ionization) and determines the configuration of the products using optical rotation measurements.",
+      "stem": "The SN2 reaction of (R)-2-bromobutane with NaCN in DMSO produces:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a racemic mixture of R and S products"
+        },
+        {
+          "label": "B",
+          "text": "the (S)-nitrile product with complete inversion of configuration — backside attack by CN⁻ inverts the stereocenter (Walden inversion)"
+        },
+        {
+          "label": "C",
+          "text": "the (R)-nitrile product with retention of configuration"
+        },
+        {
+          "label": "D",
+          "text": "no reaction because secondary substrates cannot undergo SN2"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Racemization characterizes SN1 (planar carbocation attacked from both faces), not SN2. SN2 produces exclusively inverted product because the nucleophile attacks only from the back side.",
+        "B": "Correct. SN2 proceeds through backside attack: the nucleophile (CN⁻) approaches 180° from the leaving group (Br⁻). This inverts all three remaining substituents on the chiral center — like an umbrella being blown inside out. (R)-2-bromobutane → (S)-2-methylbutanenitrile. Inversion is complete (100%), not partial — every molecule undergoes the same stereochemical outcome. This is diagnostic for SN2 and is used experimentally to assign reaction mechanisms.",
+        "C": "Retention of configuration occurs in double inversion (neighboring group participation / anchimeric assistance) or in some SNi reactions, but not in standard SN2. The concerted backside-attack mechanism guarantees inversion.",
+        "D": "Secondary substrates can undergo SN2, especially with strong nucleophiles in polar aprotic solvents. Secondary is the borderline case where both SN1/SN2/E1/E2 are possible depending on conditions. Only tertiary substrates effectively exclude SN2 due to steric hindrance."
+      },
+      "topic": "SN2 Stereochemistry / Walden Inversion",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sub_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Under SN1 conditions, (R)-2-bromobutane would be expected to produce:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "exclusively the (S)-product"
+        },
+        {
+          "label": "B",
+          "text": "exclusively the (R)-product with retention"
+        },
+        {
+          "label": "C",
+          "text": "a racemic or near-racemic mixture — the planar sp²-hybridized carbocation intermediate can be attacked from either face"
+        },
+        {
+          "label": "D",
+          "text": "an alkene with no substitution product"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Exclusive inversion characterizes SN2, not SN1. SN1 produces racemization because the planar carbocation is equally accessible from both sides.",
+        "B": "Exclusive retention does not occur in standard SN1. The carbocation is planar (sp² hybridized, empty p orbital perpendicular to the plane), and nucleophilic attack from either face is approximately equally likely.",
+        "C": "Correct. SN1: ionization produces a planar, sp²-hybridized carbocation. The nucleophile (H₂O, EtOH) can attack from either face of the empty p orbital. If attack is perfectly equal from both sides: 50% R + 50% S = racemic mixture. In practice, slight excess inversion is often observed (the departing leaving group or its ion pair partially shields one face — intimate ion pair effect), giving perhaps 55-60% inversion. But the key diagnostic: SN1 gives racemization/partial racemization, while SN2 gives complete inversion.",
+        "D": "SN1 conditions can produce both substitution and elimination (E1). A mixture is common, but stating that no substitution occurs is incorrect — solvent capture of the carbocation produces substitution products."
+      },
+      "topic": "SN1 Stereochemistry / Racemization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sub_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Zaitsev's rule predicts that E2 elimination produces preferentially:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the less substituted alkene (Hofmann product)"
+        },
+        {
+          "label": "B",
+          "text": "the more substituted alkene — because greater substitution stabilizes the alkene through hyperconjugation, making the more substituted product thermodynamically more stable and kinetically favored with most bases"
+        },
+        {
+          "label": "C",
+          "text": "a cyclopropane ring"
+        },
+        {
+          "label": "D",
+          "text": "an alkyne"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The less substituted alkene (Hofmann product) is favored only with bulky bases (t-BuO⁻, LDA) that preferentially abstract the less sterically hindered β-hydrogen. With non-bulky bases, Zaitsev's rule applies.",
+        "B": "Correct. Zaitsev's rule: the more substituted alkene is the major product of elimination. The transition state for E2 has partial double-bond character, so factors that stabilize the product alkene (greater substitution → more hyperconjugation → lower energy) also stabilize the transition state (Hammond's postulate for exothermic late-transition-state reactions). Exception: bulky bases (t-BuO⁻) give Hofmann product because they abstract the more accessible (less substituted) β-hydrogen for steric reasons.",
+        "C": "Cyclopropane formation can occur in some intramolecular reactions or with specific substrates (e.g., Simmons-Smith reaction), but standard E2 elimination produces alkenes, not cyclopropanes.",
+        "D": "E2 elimination removes one β-hydrogen and one leaving group to form a double bond (alkene), not a triple bond (alkyne). Alkyne synthesis by double elimination requires two successive eliminations from a dihalide."
+      },
+      "topic": "Zaitsev's Rule / Regiochemistry",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_sub_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which leaving group would make a substrate most reactive in both SN1 and SN2 reactions?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "F⁻ — fluoride is the best leaving group because it is the most electronegative halide"
+        },
+        {
+          "label": "B",
+          "text": "NH₂⁻ — amide is an excellent leaving group"
+        },
+        {
+          "label": "C",
+          "text": "H⁻ — hydride is easily displaced"
+        },
+        {
+          "label": "D",
+          "text": "I⁻ — iodide is the best halide leaving group because it is the weakest base (most stable as a free anion), the most polarizable, and forms the weakest C-I bond"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Fluoride is actually the worst halide leaving group despite being the most electronegative. It is the strongest base among the halides (small, hard, high charge density) and forms the strongest C-F bond. Good leaving groups are weak bases that form weak bonds to carbon. Halide leaving group ability: I⁻ > Br⁻ > Cl⁻ >> F⁻.",
+        "B": "NH₂⁻ (amide) is a very strong base (conjugate acid NH₃, pKa ≈ 36) and an extremely poor leaving group. Strong bases are poor leaving groups because they have a strong tendency to remain bonded. This is why amines are not displaced in substitution reactions under normal conditions.",
+        "C": "H⁻ (hydride) is also a very strong base (conjugate acid H₂, pKa ≈ 35) and an extremely poor leaving group. C-H bonds are not cleaved by nucleophilic substitution under normal conditions.",
+        "D": "Correct. Leaving group ability correlates with base weakness: weaker bases are better leaving groups because they are more stable as free anions after departure. I⁻ is the weakest halide base (largest, most polarizable, lowest charge density, conjugate acid HI is the strongest hydrohalic acid) and forms the weakest C-I bond. Therefore: C-I substrates react fastest in both SN1 (faster ionization) and SN2 (lower bond-breaking energy in the transition state). Common leaving groups ranked: OTs⁻ > I⁻ > Br⁻ > Cl⁻ >> F⁻ >> OH⁻, NH₂⁻."
+      },
+      "topic": "Leaving Group Ability / Base Strength",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sub_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A polar protic solvent (like ethanol or water) favors SN1 over SN2 because it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "makes all nucleophiles stronger through desolvation"
+        },
+        {
+          "label": "B",
+          "text": "prevents any ionization from occurring"
+        },
+        {
+          "label": "C",
+          "text": "stabilizes the carbocation intermediate and the departing anion through solvation (hydrogen bonding and dipole interactions), lowering the activation energy for ionization — while also weakening nucleophiles through solvation"
+        },
+        {
+          "label": "D",
+          "text": "is always nonpolar and cannot dissolve ionic species"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Polar protic solvents actually weaken nucleophiles by solvating them (surrounding anions with a shell of hydrogen-bonding solvent molecules). This reduces the nucleophile's effective concentration and reactivity, disfavoring SN2.",
+        "B": "Polar protic solvents promote ionization by stabilizing both the cation (dipole-cation interaction) and anion (hydrogen bonding) products of heterolysis. They favor SN1 specifically because they stabilize the transition state for ionization.",
+        "C": "Correct. Polar protic solvents (H₂O, ROH, RCOOH): (1) stabilize the SN1 carbocation through dipole-cation interactions; (2) stabilize the leaving group anion through hydrogen bonding; (3) lower the Ea for ionization (rate-determining step of SN1). Simultaneously, they solvate and weaken nucleophiles (surrounding them with H-bond shells), disfavoring the bimolecular SN2 pathway. Polar aprotic solvents (DMSO, DMF, acetone) do the opposite: they dissolve cations but leave anions relatively 'naked' and reactive, favoring SN2.",
+        "D": "Polar protic solvents are by definition polar and can dissolve ionic species very well. Water is the most common polar protic solvent and is an excellent ionic solvent."
+      },
+      "topic": "Solvent Effects / Polar Protic vs Aprotic",
+      "difficulty": "Hard"
+    }
+  ]
+}

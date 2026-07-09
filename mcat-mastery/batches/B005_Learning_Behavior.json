@@ -1,0 +1,500 @@
+{
+  "batch": "B005",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Learning & Behavior",
+  "questionCount": 15,
+  "questions": [
+    {
+      "id": "ps_learn_001",
+      "passage": "A clinical psychologist treats a patient with a severe phobia of dogs (cynophobia) that developed after being bitten by a neighbor's dog at age 7. The patient reports intense anxiety upon seeing any dog, regardless of breed or size. The psychologist plans a systematic desensitization protocol, beginning with the patient imagining a small dog at a distance while practicing relaxation techniques, and gradually progressing to direct interaction with a calm therapy dog.\n\nDuring the intake interview, the patient also mentions that hearing barking — even from dogs on television — triggers a racing heart and an urge to flee. However, the patient reports no anxiety reaction to cats or other animals, despite their superficial physical similarity to dogs.",
+      "stem": "In the development of this patient's phobia, the dog bite, the pain experienced, the sight of dogs, and the current fear response are best identified as which of the following, respectively?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "CS, UCS, CR, UCR"
+        },
+        {
+          "label": "B",
+          "text": "UCS, UCR, CS, CR"
+        },
+        {
+          "label": "C",
+          "text": "UCS, CR, CS, UCR"
+        },
+        {
+          "label": "D",
+          "text": "CS, UCR, UCS, CR"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This misidentifies the dog bite as a conditioned stimulus. The bite/pain is what naturally and automatically produces a fear response without any prior learning — making it the unconditioned stimulus (UCS), not the conditioned stimulus. The conditioned stimulus must be a previously neutral stimulus that acquires the ability to elicit a response through association.",
+        "B": "Correct. The dog bite (UCS) naturally produces pain and fear (UCR) without any prior learning — this is an innate, reflexive response. The sight of dogs (CS) was originally a neutral stimulus that became associated with the bite through the traumatic experience. After conditioning, the sight of dogs alone (CS) triggers the fear response (CR) even without an actual bite. Note that while the UCR and CR may appear similar (both involve fear), the CR is typically a learned anticipatory response that may differ in magnitude or specific features from the UCR. The CR (anxiety at seeing dogs) is learned behavior; the UCR (pain/fear from a bite) is unlearned.",
+        "C": "This correctly identifies the bite as UCS and the sight of dogs as CS, but reverses the two responses. The CR is the current fear response to seeing dogs (a learned reaction to the CS), not the original pain from the bite. The UCR is the natural, unlearned pain/fear response to being bitten (a reflexive reaction to the UCS).",
+        "D": "This makes the bite a conditioned stimulus, which is incorrect — the bite naturally elicits pain without prior learning. A conditioned stimulus must be originally neutral and only acquires its ability to produce a response through association with a UCS. The bite was never neutral; it was always aversive."
+      },
+      "topic": "Classical Conditioning: Terminology",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_learn_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The patient's anxiety response to barking on television, but not to cats, best illustrates which pair of classical conditioning phenomena?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Extinction and spontaneous recovery"
+        },
+        {
+          "label": "B",
+          "text": "Stimulus generalization and stimulus discrimination"
+        },
+        {
+          "label": "C",
+          "text": "Higher-order conditioning and blocking"
+        },
+        {
+          "label": "D",
+          "text": "Acquisition and sensitization"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Extinction occurs when the CS is repeatedly presented without the UCS, causing the CR to diminish. Spontaneous recovery is the reappearance of an extinguished CR after a rest period. Neither phenomenon describes the patient's differential responding to barking versus cats. The patient has not undergone extinction therapy yet — that is the purpose of the planned systematic desensitization.",
+        "B": "Correct. Stimulus generalization occurs when the CR extends to stimuli that are similar to the original CS. The patient responds with anxiety to barking on television — a stimulus related to but different from the original CS (actual dogs). The fear has generalized from the sight of real dogs to dog-associated auditory stimuli. Stimulus discrimination occurs when the organism distinguishes between the CS and similar but non-identical stimuli, responding only to the CS. The patient does not fear cats despite their physical similarity to dogs, demonstrating discrimination between dogs and other animals. These two phenomena represent complementary processes: generalization broadens the range of stimuli that elicit the CR, while discrimination narrows it.",
+        "C": "Higher-order (second-order) conditioning occurs when a CS₁ is paired with a new neutral stimulus (CS₂), which then acquires the ability to elicit the CR independently. Blocking occurs when a previously conditioned CS prevents conditioning to a new stimulus presented simultaneously. Neither concept explains the barking/cats distinction described in the passage.",
+        "D": "Acquisition is the initial learning phase when the CS-UCS association is formed. Sensitization is a non-associative process in which repeated exposure to a strong stimulus increases responsiveness. While the initial phobia development involved acquisition, the differential responding to barking versus cats is better explained by generalization and discrimination — these describe the scope of the learned response, not its initial formation."
+      },
+      "topic": "Generalization and Discrimination",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The systematic desensitization protocol used by the psychologist relies on which therapeutic principle?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Flooding — prolonged, intense exposure to the feared stimulus to exhaust the anxiety response"
+        },
+        {
+          "label": "B",
+          "text": "Counterconditioning — pairing the CS with a response (relaxation) that is incompatible with the CR (anxiety)"
+        },
+        {
+          "label": "C",
+          "text": "Operant extinction — removing the reinforcement that maintains the phobic behavior"
+        },
+        {
+          "label": "D",
+          "text": "Observational learning — watching a model interact fearlessly with dogs"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Flooding involves immediate, prolonged, high-intensity exposure to the feared stimulus without relaxation training or gradual progression. While flooding can be effective, it is distinctly different from systematic desensitization. The passage describes a gradual hierarchy (imagining → indirect exposure → direct exposure) paired with relaxation techniques — the hallmarks of systematic desensitization, not flooding.",
+        "B": "Correct. Systematic desensitization, developed by Joseph Wolpe, is based on counterconditioning — specifically, reciprocal inhibition. The principle is that relaxation and anxiety are mutually incompatible physiological states (you cannot be simultaneously relaxed and anxious). By pairing the CS (dogs) with deep relaxation in a graduated hierarchy (from least to most anxiety-provoking scenarios), the CS becomes associated with relaxation rather than fear. The new CS-relaxation association gradually replaces the old CS-fear association. The three components are: (1) relaxation training, (2) construction of an anxiety hierarchy, and (3) progressive pairing of relaxation with increasingly anxiety-provoking stimuli.",
+        "C": "Operant extinction involves removing the reinforcement that sustains a behavior. However, phobias are maintained primarily by classical conditioning (CS-CR association) and negative reinforcement (avoidance reduces anxiety, reinforcing the avoidance behavior). Systematic desensitization targets the classical conditioning component through counterconditioning, not through operant extinction.",
+        "D": "Observational learning (modeling) is used in a different therapeutic approach — participant modeling, in which the patient watches a model interact safely with the feared stimulus. While this can be part of phobia treatment, the passage specifically describes systematic desensitization with relaxation training and gradual exposure, not modeling."
+      },
+      "topic": "Systematic Desensitization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_004",
+      "passage": "A behavioral psychologist designs a token economy program for an inpatient psychiatric unit. Patients earn plastic tokens for engaging in target behaviors such as attending group therapy sessions, completing hygiene routines, and participating in meal preparation. Tokens can later be exchanged for privileges such as extra recreation time, phone calls, or preferred meal selections.\n\nThe psychologist observes that Patient A, who earns tokens for every third hygiene completion, maintains a steady and high rate of the behavior. Patient B, who earns tokens after every 15 minutes of sustained participation in group therapy, shows a characteristic pattern of low activity immediately after receiving a token, followed by increasing activity as the next token interval approaches.",
+      "stem": "Patient A's reinforcement schedule and Patient B's reinforcement schedule are best classified as which of the following, respectively?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Fixed-ratio; fixed-interval"
+        },
+        {
+          "label": "B",
+          "text": "Variable-ratio; variable-interval"
+        },
+        {
+          "label": "C",
+          "text": "Fixed-interval; fixed-ratio"
+        },
+        {
+          "label": "D",
+          "text": "Variable-ratio; fixed-interval"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Patient A earns a token for every third completion of the behavior — reinforcement depends on a fixed number of responses (3), making this a fixed-ratio (FR-3) schedule. FR schedules produce high response rates with brief post-reinforcement pauses (the organism pauses briefly after each reinforcement, then resumes at a high rate). The overall output is high because the faster the organism responds, the sooner it earns the next reinforcement. Patient B earns a token after every 15 minutes — reinforcement depends on a fixed amount of time passing, making this a fixed-interval (FI-15 min) schedule. FI schedules produce the characteristic ‘scallop’ pattern described: low responding immediately after reinforcement (the post-reinforcement pause), followed by an accelerating response rate as the next interval endpoint approaches. The organism learns that responding immediately after reinforcement is not productive.",
+        "B": "Variable schedules involve unpredictable reinforcement. In variable-ratio (VR), the number of responses required varies around an average. In variable-interval (VI), the time between available reinforcements varies. Patient A’s schedule is predictable (every 3rd response) and Patient B’s is predictable (every 15 minutes), making both fixed, not variable. Variable schedules produce high, steady response rates without post-reinforcement pauses (since the organism cannot predict when the next reinforcement will occur) and are more resistant to extinction. VR schedules in particular produce the highest and most consistent response rates of all four schedules — this is why slot machines (a VR schedule) are so effective at maintaining gambling behavior.",
+        "C": "This reverses the two schedules. Patient A's reinforcement is contingent on a number of responses (ratio), not on time (interval). Patient B's reinforcement is contingent on time passing (interval), not on a number of responses (ratio). The key distinction: ratio schedules reinforce based on behavior count; interval schedules reinforce based on time elapsed since the last reinforcement.",
+        "D": "While Patient B is correctly identified as fixed-interval, Patient A is on a fixed-ratio schedule, not variable-ratio. A variable-ratio schedule would reinforce after an unpredictable number of responses (e.g., averaging every 3rd but sometimes after 1, sometimes after 5). Patient A's schedule is predictable — always after the 3rd completion — making it fixed-ratio."
+      },
+      "topic": "Schedules of Reinforcement",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the token economy, the plastic tokens function as which type of reinforcer, and why?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Primary reinforcers, because they directly satisfy a biological need"
+        },
+        {
+          "label": "B",
+          "text": "Secondary (conditioned) reinforcers, because their value is learned through association with primary reinforcers and other rewards"
+        },
+        {
+          "label": "C",
+          "text": "Negative reinforcers, because they remove an aversive stimulus when earned"
+        },
+        {
+          "label": "D",
+          "text": "Intrinsic reinforcers, because the act of earning tokens is inherently rewarding"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Primary (unconditioned) reinforcers satisfy innate biological needs — examples include food, water, warmth, and sexual contact. Plastic tokens have no inherent biological value. An organism with no learning history would not find a plastic token reinforcing. The tokens acquire reinforcing properties only because they can be exchanged for items and privileges that are reinforcing.",
+        "B": "Correct. Secondary (conditioned) reinforcers have no inherent biological value but acquire reinforcing properties through learned association with primary reinforcers or other established reinforcers. The tokens gain value because they can be exchanged for recreation time, phone calls, and preferred meals — things that are themselves reinforcing. Money is the most ubiquitous example of a secondary reinforcer: paper currency has no intrinsic value, but it is powerfully reinforcing because of its learned association with the goods and services it can purchase. Token economies deliberately exploit this principle, creating a structured system where target behaviors produce conditioned reinforcers that bridge the gap between the behavior and the ultimate reward.",
+        "C": "Negative reinforcement involves the removal or reduction of an aversive stimulus (like a loud noise stopping when a lever is pressed), which strengthens the behavior that preceded the removal. Earning tokens is not the removal of something unpleasant — it is the addition of something rewarding. This is positive reinforcement (adding a desirable stimulus to increase behavior), not negative reinforcement. The positive/negative distinction refers to adding/removing a stimulus, not to whether the outcome is good or bad.",
+        "D": "Intrinsic motivation refers to performing a behavior for the inherent satisfaction of the activity itself, without external reward. The token economy is explicitly an extrinsic reinforcement system — the tokens are external rewards provided for target behaviors. If the behaviors were intrinsically motivated, the token system would be unnecessary. In fact, research on the overjustification effect suggests that providing extrinsic rewards for already intrinsically motivated behaviors can sometimes decrease intrinsic motivation."
+      },
+      "topic": "Types of Reinforcers",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_learn_006",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A patient on the unit refuses to attend group therapy. The psychologist decides to shape the behavior by first reinforcing the patient for leaving their room, then for walking toward the therapy room, then for entering the room, and finally for participating in the session. This technique is based on which operant conditioning principle?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Stimulus generalization — the reinforcement generalizes from one behavior to related behaviors"
+        },
+        {
+          "label": "B",
+          "text": "Shaping through successive approximations — reinforcing behaviors that progressively resemble the target behavior"
+        },
+        {
+          "label": "C",
+          "text": "Chaining — linking a sequence of already-learned behaviors into a complex sequence"
+        },
+        {
+          "label": "D",
+          "text": "Spontaneous recovery — the return of a previously extinguished behavior after a rest period"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Stimulus generalization is a classical conditioning concept in which a conditioned response extends to stimuli similar to the original CS. It does not describe the operant process of reinforcing successive approximations of a target behavior. Operant and classical conditioning are distinct learning paradigms with different terminology and mechanisms.",
+        "B": "Correct. Shaping involves reinforcing successive approximations — behaviors that are increasingly similar to the desired target behavior. The organism is never required to perform the final behavior immediately; instead, the criterion for reinforcement shifts gradually toward the target. In this example: leaving the room (rewarded initially) → walking toward therapy (rewarded once leaving is established) → entering the room → participating. Each step is closer to the final goal. B.F. Skinner developed this technique to train complex behaviors that organisms would rarely perform spontaneously. Shaping is widely used in clinical settings, animal training, and education to build behaviors incrementally.",
+        "C": "Chaining links a sequence of already-learned individual behaviors into a complex behavioral chain, where each behavior serves as a cue for the next. Unlike shaping, chaining assumes the component behaviors already exist in the organism's repertoire. In this case, the patient does not already perform the intermediate behaviors — they must be gradually developed, which is shaping, not chaining.",
+        "D": "Spontaneous recovery is a classical conditioning phenomenon in which an extinguished CR reappears after a rest period without additional CS-UCS pairings. It does not describe the deliberate, systematic reinforcement of increasingly complex behaviors used in this therapeutic scenario."
+      },
+      "topic": "Shaping & Successive Approximations",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_learn_007",
+      "passage": "Researchers replicate a classic social learning study in which children (ages 4–6) watch a 5-minute video of an adult model interacting with a large inflatable toy. In one condition, the model behaves aggressively — hitting, kicking, and verbally abusing the toy. In a second condition, the model plays calmly and constructively with the toy. In a third condition (control), no model is shown.\n\nAfterward, each child is placed alone in a room with the same toy and various other objects. Observers behind a one-way mirror code the frequency of aggressive behaviors. Children who watched the aggressive model displayed significantly more aggressive behaviors than those in the calm or control conditions. When the experiment was modified so that children saw the aggressive model being punished after the aggression, children displayed fewer aggressive behaviors — but when later offered rewards for demonstrating what the model did, they could accurately reproduce the aggressive acts.",
+      "stem": "The finding that children who saw the model punished displayed less aggression, yet could reproduce the aggressive behaviors when incentivized, best supports which distinction?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The distinction between short-term and long-term memory for observed behaviors"
+        },
+        {
+          "label": "B",
+          "text": "The distinction between positive and negative reinforcement in observational learning"
+        },
+        {
+          "label": "C",
+          "text": "The distinction between acquisition (learning) and performance (behavioral expression) of observed behaviors"
+        },
+        {
+          "label": "D",
+          "text": "The distinction between classical and operant conditioning in aggression development"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The issue is not about memory duration. Children in all conditions remembered and could reproduce the behaviors, demonstrating intact long-term memory regardless of whether the model was punished. The critical finding is that children who saw punishment chose not to perform the behaviors spontaneously, despite having learned them — a performance difference, not a memory difference.",
+        "B": "This finding does not illustrate positive versus negative reinforcement. Vicarious punishment (seeing a model punished) affected whether children chose to display the behavior, not the type of reinforcement involved. The key theoretical point is about the dissociation between learning and performance, not about reinforcement categories.",
+        "C": "Correct. This is a central finding of Bandura's social learning theory (later social cognitive theory). Acquisition (learning) and performance are dissociable processes. All children acquired (learned) the aggressive behaviors through observation — as demonstrated by their ability to reproduce them when offered incentives. However, vicarious reinforcement and punishment influenced performance: children who saw the model punished suppressed the behavior (performance inhibition), while children who saw no punishment or saw the model rewarded displayed it freely. This proves that learning can occur without behavioral expression, challenging the strict behaviorist view that learning is only demonstrated through observable behavior change. Bandura argued that cognitive mediating processes (attention, retention, motor reproduction, and motivation) intervene between observation and performance.",
+        "D": "The study is about observational learning (social learning), not about classical or operant conditioning. While operant principles (reinforcement, punishment) influence whether observed behaviors are performed, the learning mechanism itself is observational — the children learned by watching, not through direct reinforcement of their own behavior. This is precisely what makes Bandura's theory distinct from Skinner's operant framework."
+      },
+      "topic": "Observational Learning: Bandura",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to Bandura's social cognitive theory, four processes are necessary for observational learning to occur. A child who watches the aggressive model but fails to replicate the behavior because the actions require physical strength beyond the child's ability has a deficit in which process?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Attention — the child did not adequately attend to the model's actions"
+        },
+        {
+          "label": "B",
+          "text": "Retention — the child failed to encode the behavior in memory"
+        },
+        {
+          "label": "C",
+          "text": "Motor reproduction — the child lacks the physical capability to execute the behavior"
+        },
+        {
+          "label": "D",
+          "text": "Motivation — the child lacks sufficient incentive to perform the behavior"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "An attention deficit would mean the child did not watch or notice the relevant aspects of the model's behavior. The question states the child watched the model, so attention was adequate. Factors that influence attention include the model's attractiveness, distinctiveness, and the observer's arousal level.",
+        "B": "A retention deficit would mean the child could not remember the behavior — perhaps due to inadequate mental rehearsal or cognitive encoding. The question does not suggest a memory problem; the child recognizes what was done but cannot physically execute it. Retention involves cognitive representation of the observed behavior through imagery and verbal coding.",
+        "C": "Correct. Bandura identified four sequential processes for observational learning: (1) Attention — the observer must notice and attend to the model's behavior; (2) Retention — the observer must encode and remember the behavior; (3) Motor reproduction — the observer must have the physical and cognitive capability to reproduce the behavior; (4) Motivation — the observer must have sufficient incentive (direct, vicarious, or self-reinforcement) to perform the behavior. A young child who lacks the physical strength to replicate aggressive acts has a motor reproduction deficit — the behavior was learned (attended to and retained) but cannot be physically executed. This is distinct from a motivation deficit, where the child could perform the behavior but chooses not to.",
+        "D": "A motivation deficit would mean the child has the capability but lacks the incentive to perform. The question specifies that the child cannot perform the behavior due to insufficient physical strength — this is a capability issue (motor reproduction), not a willingness issue (motivation). If offered rewards, a child with a motivation deficit would perform the behavior; a child with a motor reproduction deficit still could not."
+      },
+      "topic": "Bandura's Four Processes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Bandura's concept of reciprocal determinism proposes that behavior, personal factors, and environmental factors all mutually influence one another. Which of the following scenarios best illustrates reciprocal determinism?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A child is punished for aggressive behavior and subsequently stops being aggressive"
+        },
+        {
+          "label": "B",
+          "text": "A child who believes they are athletic (personal factor) joins a sports team (behavior), receives coaching and praise (environment), which further strengthens their athletic self-concept (personal factor)"
+        },
+        {
+          "label": "C",
+          "text": "A child develops a phobia after a traumatic event, illustrating how the environment shapes behavior"
+        },
+        {
+          "label": "D",
+          "text": "A child imitates a parent's behavior, demonstrating that the environment determines behavior"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This illustrates unidirectional environmental influence on behavior (environment → behavior), which is the traditional behaviorist model. Reciprocal determinism requires bidirectional influence among all three factors — behavior, personal factors, and environment must each influence the others. Simple punishment → behavior change is a one-way relationship.",
+        "B": "Correct. This illustrates the triadic reciprocal relationship: the child's self-belief (personal factor: 'I am athletic') influences their decision to join a team (behavior). Joining the team changes their social environment (environment: coaching, peer interaction, praise). The environmental feedback (praise, skill development) in turn modifies their self-concept (personal factor: stronger athletic identity), which further influences future behavior (continued participation, trying harder). All three vertices of the triangle influence each other bidirectionally, which is the defining feature of reciprocal determinism. This stands in contrast to both radical behaviorism (environment → behavior) and strict cognitive approaches (cognition → behavior).",
+        "C": "This describes unidirectional influence from environment to behavior, consistent with a stimulus-response model. Reciprocal determinism requires that the person's cognitive/personal factors also influence which environments they enter and how those environments affect them. A complete reciprocal account would include the person's appraisal of the event, their coping behaviors, and how those behaviors alter subsequent environmental encounters.",
+        "D": "Imitation demonstrates observational learning but described as a one-way process (environment → behavior) is not reciprocal determinism. Reciprocal determinism would require showing how the child's imitative behavior also modifies the environment and how the child's personal characteristics (self-efficacy, beliefs) mediate the observational learning process."
+      },
+      "topic": "Reciprocal Determinism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_010",
+      "passage": "Researchers study taste aversion learning in rats. In one experiment, rats drink a novel saccharin solution (sweet-tasting water) and are then injected with lithium chloride, which induces nausea 30 minutes later. After a single pairing, the rats strongly avoid the saccharin solution in subsequent trials.\n\nIn a second experiment, rats drink the saccharin solution and then receive a mild electric shock to the feet 30 minutes later. Despite repeated pairings, the rats do not develop an aversion to the saccharin solution, although they do show fear responses in the chamber where the shock was delivered.\n\nThese findings, originally reported by John Garcia, challenged the prevailing behaviorist assumption that any stimulus could be equally associated with any response.",
+      "stem": "Garcia's findings most directly challenge which assumption of traditional classical conditioning theory?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The assumption that conditioning requires contiguity (temporal closeness) between CS and UCS"
+        },
+        {
+          "label": "B",
+          "text": "The assumption of equipotentiality — that any CS can be equally associated with any UCS"
+        },
+        {
+          "label": "C",
+          "text": "The assumption that extinction is permanent and irreversible"
+        },
+        {
+          "label": "D",
+          "text": "The assumption that classical conditioning cannot occur in non-human animals"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While Garcia's findings also challenged the contiguity assumption (aversion formed despite a 30-minute CS-UCS delay, far longer than typical conditioning requires), this is not the primary challenge highlighted by the comparison between the two experiments. The key finding is that taste-nausea associations form readily while taste-shock associations do not — an asymmetry that contiguity alone cannot explain, since the delay was the same in both experiments.",
+        "B": "Correct. Traditional behaviorist theory assumed equipotentiality — that any neutral stimulus could become a CS for any UCS with equal ease. Garcia's experiments demolished this assumption by showing that rats readily associate tastes with nausea (taste → illness) but not with shock (taste → pain), while they readily associate environmental contexts with shock but not with nausea. This biological preparedness means organisms are evolutionarily predisposed to form certain associations over others. Taste-nausea associations are biologically adaptive: in nature, if an animal eats a novel food and later becomes ill, avoiding that food in the future promotes survival. Taste-shock associations have no evolutionary basis and are correspondingly difficult to establish. Seligman formalized this as the 'preparedness continuum' — some associations are prepared (easily learned), others are unprepared (require more trials), and some are contraprepared (extremely difficult to learn).",
+        "C": "Garcia's findings do not address extinction permanence. In fact, taste aversions are notably resistant to extinction, which is the opposite of challenging this assumption. Extinction is known to be temporary (spontaneous recovery demonstrates this), but this was established by Pavlov's work, not Garcia's.",
+        "D": "No serious conditioning theorist assumed that classical conditioning could not occur in non-human animals — in fact, Pavlov's foundational work was conducted entirely with dogs. Garcia's challenge was about the constraints on what can be conditioned, not whether conditioning occurs in animals."
+      },
+      "topic": "Biological Constraints: Garcia Effect",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_011",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The concept of instinctive drift, described by the Brelands, provides another example of biological constraints on learning. Instinctive drift occurs when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "An organism's innate behavioral tendencies gradually replace operantly conditioned behaviors, even when reinforcement continues"
+        },
+        {
+          "label": "B",
+          "text": "An organism spontaneously recovers a classically conditioned response after extinction"
+        },
+        {
+          "label": "C",
+          "text": "An organism generalizes a conditioned response to stimuli increasingly different from the original CS"
+        },
+        {
+          "label": "D",
+          "text": "An organism habituates to a repeated stimulus and stops responding entirely"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Keller and Marian Breland, former students of Skinner, observed instinctive drift while training animals for commercial performances. They found that animals trained through operant conditioning would initially perform the target behavior reliably, but over time their behavior would 'drift' toward species-typical (instinctive) patterns. For example, raccoons trained to deposit coins in a piggy bank began rubbing the coins together (a food-washing behavior), and pigs trained to carry wooden coins to a bank began rooting them along the ground (a foraging behavior). Despite continued reinforcement for the target behavior, the innate behaviors intruded and eventually dominated. This demonstrated that operant conditioning cannot override biological predispositions indefinitely — organisms are not blank slates, and their evolutionary heritage constrains what behaviors can be reliably trained.",
+        "B": "This describes spontaneous recovery, a classical conditioning phenomenon documented by Pavlov. It is not related to the Brelands' concept of instinctive drift, which specifically involves operant behaviors being displaced by innate species-typical behaviors over time.",
+        "C": "This describes stimulus generalization, which is a gradual extension of a conditioned response to new stimuli along a physical dimension. It does not involve the replacement of learned behaviors by innate behavioral tendencies.",
+        "D": "Habituation is a form of non-associative learning in which repeated exposure to a benign stimulus leads to decreased responding. It is unrelated to instinctive drift, which involves the intrusion of innate behaviors into operantly conditioned behavioral sequences."
+      },
+      "topic": "Instinctive Drift",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_012",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "A resident living near an airport initially finds the noise of landing aircraft extremely disturbing and startles at each overhead pass. After several months, the resident barely notices the aircraft noise. This decreased response to repeated, non-threatening stimulation is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Extinction — the conditioned response has been eliminated through lack of reinforcement"
+        },
+        {
+          "label": "B",
+          "text": "Habituation — a non-associative form of learning in which responsiveness decreases with repeated exposure to a benign stimulus"
+        },
+        {
+          "label": "C",
+          "text": "Learned helplessness — the resident has learned that responding is futile"
+        },
+        {
+          "label": "D",
+          "text": "Sensory adaptation — the auditory receptors have become less sensitive to the sound frequency"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Extinction requires a prior conditioning history (a CS-UCS association that is then broken by presenting the CS without the UCS). The aircraft noise was never paired with an unconditioned stimulus in a classical conditioning paradigm. The startle response to loud noise is a reflexive, unlearned response that diminishes through habituation, not extinction. The distinction matters: extinction is an associative process; habituation is non-associative.",
+        "B": "Correct. Habituation is the simplest form of learning — a decreased behavioral response to a repeated stimulus that is neither rewarding nor harmful. It is non-associative because it does not require pairing two stimuli (unlike classical conditioning) or linking a behavior to a consequence (unlike operant conditioning). The organism simply learns that the stimulus is irrelevant and reduces its response accordingly. Habituation is adaptive: it prevents organisms from wasting energy and attention on harmless, recurring stimuli. Key features of habituation include stimulus specificity (a novel sound would still startle), spontaneous recovery (the response may return after a long break), and dishabituation (an intervening novel stimulus can temporarily restore the habituated response).",
+        "C": "Learned helplessness (Seligman) occurs when an organism exposed to inescapable aversive stimuli stops attempting to escape, even when escape becomes possible. The resident is not trapped in an aversive situation with no control — they simply stop noticing a harmless stimulus. The motivational and cognitive components of learned helplessness (passivity, expectation of uncontrollability) are absent from this scenario.",
+        "D": "Sensory adaptation occurs at the receptor level — photoreceptors adapting to darkness, or olfactory receptors becoming less sensitive to a constant odor. However, aircraft noise is intermittent (each landing is a discrete event), so the auditory receptors fully recover between exposures. The decreased response is a central nervous system (behavioral) phenomenon, not a peripheral receptor adaptation. If you moved the resident to a quiet environment and then played aircraft sounds, sensory adaptation would predict normal hearing, while habituation would predict reduced behavioral responsiveness — both are true, but the behavioral change described is habituation."
+      },
+      "topic": "Habituation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_learn_013",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "In Seligman's learned helplessness experiments, dogs exposed to inescapable electric shocks later failed to learn an avoidance response when escape was possible. They passively accepted the shock rather than jumping a barrier. This finding has been used as a model for which psychological condition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Generalized anxiety disorder, because the dogs showed hypervigilance to environmental threats"
+        },
+        {
+          "label": "B",
+          "text": "Depression, because the dogs displayed passivity, motivational deficits, and failure to learn from new contingencies"
+        },
+        {
+          "label": "C",
+          "text": "Post-traumatic stress disorder, because the dogs showed flashbacks and avoidance of shock-related stimuli"
+        },
+        {
+          "label": "D",
+          "text": "Obsessive-compulsive disorder, because the dogs developed repetitive, ritualistic behaviors"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The dogs did not show hypervigilance — they showed the opposite: passivity and lack of responsiveness. Generalized anxiety disorder involves excessive worry and arousal, which is inconsistent with the motivational deficits observed in learned helplessness. The dogs were not anxiously scanning their environment; they were passively enduring aversive stimulation without attempting to cope.",
+        "B": "Correct. Seligman proposed learned helplessness as an animal model of depression based on the parallels between the dogs' behavior and clinical depression: motivational deficits (failure to initiate responses), cognitive deficits (failure to learn that the situation has changed — escape is now possible), and emotional deficits (passivity resembling the anhedonia and withdrawal of depression). Seligman later reformulated this as the attributional theory of depression: humans who attribute negative events to internal ('it's my fault'), stable ('it will always be this way'), and global ('it affects everything') causes are most vulnerable to helplessness and depression. This reformulation helped explain why not all individuals exposed to uncontrollable events develop helplessness — attributional style mediates the response.",
+        "C": "PTSD involves re-experiencing (flashbacks, nightmares), avoidance of trauma-related stimuli, hyperarousal, and negative cognitive changes. The dogs did not exhibit flashbacks or stimulus avoidance — they showed generalized passivity even in a new environment where escape was available. While PTSD does involve learning (fear conditioning to trauma cues), learned helplessness is specifically modeled as depression due to the motivational and cognitive deficits observed.",
+        "D": "OCD involves intrusive thoughts (obsessions) and repetitive behaviors (compulsions) performed to reduce anxiety. The dogs in Seligman's experiments did not develop ritualistic behaviors — they showed the absence of adaptive behavior. Learned helplessness produces behavioral inhibition, not behavioral excess."
+      },
+      "topic": "Learned Helplessness",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_learn_014",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "In Tolman's experiments, rats that explored a maze without food reward initially showed no improvement in maze-running time compared to rewarded rats. However, when food was later introduced, these rats immediately matched the performance of rats that had been rewarded from the start. Tolman concluded that the unrewarded rats had developed a cognitive map during their exploration. This phenomenon is called:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Insight learning"
+        },
+        {
+          "label": "B",
+          "text": "Latent learning"
+        },
+        {
+          "label": "C",
+          "text": "Operant conditioning with delayed reinforcement"
+        },
+        {
+          "label": "D",
+          "text": "Stimulus-response chaining"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Insight learning (associated with Köhler's work with chimpanzees) involves sudden problem-solving that appears to occur without trial-and-error — an 'aha' moment. While Tolman's rats did show a sudden improvement, the key finding is that learning had already occurred during the unrewarded exploration period and was only revealed when motivation was provided. Insight learning typically involves novel problem-solving, not the demonstration of previously acquired but unexpressed knowledge.",
+        "B": "Correct. Latent learning is learning that occurs without any obvious reinforcement and is not demonstrated in behavior until a motivating reason to do so appears. Tolman's rats learned the maze layout (formed a cognitive map) during unrewarded exploration, but this learning remained latent — hidden from behavioral observation — until food provided the motivation to demonstrate it. The immediate performance improvement upon introducing food proved that learning and performance are dissociable: the rats had learned the maze before they showed it. This was a direct challenge to the strict behaviorist position that learning requires reinforcement. Tolman argued that organisms form cognitive representations (mental maps) of their environment through exploration, and these representations guide behavior when motivation is present.",
+        "C": "Delayed reinforcement in operant conditioning refers to a delay between the operant response and the reinforcer. In Tolman's experiment, no reinforcement was given during the exploration period at all — the rats explored freely without any reward. The learning that occurred was in the complete absence of reinforcement, not in the presence of delayed reinforcement. This distinction is critical because it challenges the behaviorist requirement that reinforcement is necessary for learning.",
+        "D": "Stimulus-response (S-R) chaining is the behaviorist explanation of maze learning: each choice point becomes a stimulus that triggers the next learned response. Tolman specifically argued against this S-R interpretation, proposing instead that rats form cognitive maps — spatial representations of the environment that allow flexible navigation. His evidence included rats finding novel shortcuts when available, which S-R chains cannot explain."
+      },
+      "topic": "Latent Learning: Tolman",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_learn_015",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "A child runs inside during a thunderstorm. When inside, the child's fear diminishes. In subsequent storms, the child immediately runs inside as soon as thunder begins. This behavior is best explained as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Positive reinforcement — going inside adds a pleasant stimulus (safety)"
+        },
+        {
+          "label": "B",
+          "text": "Negative reinforcement — going inside removes the aversive stimulus (fear/thunder), strengthening the escape behavior"
+        },
+        {
+          "label": "C",
+          "text": "Positive punishment — the thunderstorm punishes outdoor behavior"
+        },
+        {
+          "label": "D",
+          "text": "Negative punishment — the storm removes something pleasant (outdoor play), reducing outdoor behavior"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While the child does experience a pleasant outcome (feeling safe), the operant mechanism is best described as the removal of an aversive state (fear) rather than the addition of a new pleasant stimulus. Positive reinforcement involves introducing a desirable stimulus (like giving food or praise). Here, the key behavioral consequence is that fear decreases when the child goes inside — the aversive experience is removed, which defines negative reinforcement. The distinction depends on whether the consequence is framed as adding something positive or removing something negative.",
+        "B": "Correct. Negative reinforcement strengthens a behavior by removing or reducing an aversive stimulus. The child's fear (aversive stimulus) is reduced when they run inside (the behavior), which reinforces running inside during storms. This is specifically escape learning — the organism performs a behavior that terminates an ongoing aversive stimulus. Over time, as the child learns to run inside at the first sound of thunder (before peak fear), the behavior may transition to avoidance learning — performing the behavior to prevent the aversive stimulus from occurring at all. The key terminology: 'negative' means something is removed; 'reinforcement' means the behavior is strengthened. Negative reinforcement is not punishment — it increases the behavior, whereas punishment decreases it.",
+        "C": "Positive punishment involves introducing an aversive stimulus to decrease a behavior. While the storm is aversive, the analysis should focus on the behavior being explained — running inside, which increases over time. Punishment would predict a decrease in the punished behavior. If we were analyzing why the child stops playing outside during storms (a decrease), punishment might apply. But the question asks about the running-inside behavior (an increase), which is reinforcement.",
+        "D": "Negative punishment (response cost) involves removing a desirable stimulus to decrease behavior — like taking away screen time to reduce misbehavior. While outdoor play is removed during storms, this is not the psychologist's manipulation of consequences for a target behavior. The question is about why running inside increases in frequency, which is a reinforcement process, not a punishment process."
+      },
+      "topic": "Negative Reinforcement & Escape Learning",
+      "difficulty": "Medium"
+    }
+  ]
+}

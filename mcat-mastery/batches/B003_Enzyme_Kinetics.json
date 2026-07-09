@@ -1,0 +1,500 @@
+{
+  "batch": "B003",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Enzyme Kinetics & Regulation",
+  "questionCount": 15,
+  "questions": [
+    {
+      "id": "bb_enz_001",
+      "passage": "A biochemistry research group characterizes a novel phosphatase enzyme isolated from hepatocytes. They measure initial reaction velocity (V₀) at various substrate concentrations [S] while holding enzyme concentration constant. Their data are summarized below:\n\n[S] (mM):    0.5    1.0    2.0    4.0    8.0    16.0\nV₀ (μmol/min): 20     33     50     67     80     89\n\nThe enzyme follows standard Michaelis-Menten kinetics with the equation V₀ = Vmax[S] / (Km + [S]). The researchers estimate Vmax = 100 μmol/min from their data.",
+      "stem": "Based on the data and the estimated Vmax, what is the approximate Km of this enzyme?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.5 mM"
+        },
+        {
+          "label": "B",
+          "text": "1.5 mM"
+        },
+        {
+          "label": "C",
+          "text": "2.0 mM"
+        },
+        {
+          "label": "D",
+          "text": "4.0 mM"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "If Km were 0.5 mM, then at [S] = 0.5 mM, V₀ should equal Vmax/2 = 50 μmol/min. But the data shows V₀ = 20 μmol/min at [S] = 0.5 mM, which is far below half-maximal velocity. This indicates the enzyme is not yet half-saturated at 0.5 mM, so Km must be higher.",
+        "B": "At Km = 1.5 mM, the predicted V₀ at [S] = 1.0 mM would be 100 × 1.0/(1.5 + 1.0) = 40 μmol/min. The observed value is 33 μmol/min, which doesn't match well. Additionally, V₀ at [S] = 2.0 mM would be 100 × 2.0/3.5 = 57 μmol/min, but the observed value is 50 μmol/min.",
+        "C": "Correct. Km equals the substrate concentration at which V₀ = Vmax/2. Since Vmax = 100 μmol/min, half-maximal velocity is 50 μmol/min. The data shows V₀ = 50 μmol/min at [S] = 2.0 mM, so Km ≈ 2.0 mM. Verification at other points: at [S] = 4.0 mM, V₀ = 100 × 4/(2+4) = 67 μmol/min (matches); at [S] = 8.0 mM, V₀ = 100 × 8/(2+8) = 80 μmol/min (matches). Km is often used as an approximate measure of apparent substrate affinity — a lower Km generally indicates that the enzyme reaches half-saturation at a lower substrate concentration. Strictly, Km = (k₂ + k₋₁)/k₁, so it equals the true dissociation constant Kd only when k₂ ≪ k₋₁.",
+        "D": "If Km were 4.0 mM, half-maximal velocity should occur at [S] = 4.0 mM, predicting V₀ = 50 μmol/min there. But the data shows V₀ = 67 μmol/min at [S] = 4.0 mM, which is well above half-maximal. The enzyme is already more than half-saturated at 4.0 mM, confirming that Km must be lower than 4.0 mM."
+      },
+      "topic": "Michaelis-Menten: Km Determination",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_enz_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "At a substrate concentration of 6.0 mM, what is the predicted initial velocity for this enzyme?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "60 μmol/min"
+        },
+        {
+          "label": "B",
+          "text": "75 μmol/min"
+        },
+        {
+          "label": "C",
+          "text": "85 μmol/min"
+        },
+        {
+          "label": "D",
+          "text": "96 μmol/min"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This would correspond to V₀ = 100 × 6/(Km + 6) = 60, giving Km + 6 = 10, so Km = 4.0 mM. But we established Km = 2.0 mM. You may have used an incorrect Km value.",
+        "B": "Correct. Using the Michaelis-Menten equation with Km = 2.0 mM and Vmax = 100 μmol/min: V₀ = Vmax × [S]/(Km + [S]) = 100 × 6.0/(2.0 + 6.0) = 600/8.0 = 75 μmol/min. At [S] = 6.0 mM (three times Km), the enzyme is 75% saturated. This illustrates an important pattern: at [S] = Km, velocity is 50% of Vmax; at [S] = 3Km, velocity reaches 75%; at [S] = 9Km, velocity reaches 90%. Complete saturation requires substrate concentrations many times above Km.",
+        "C": "This would require V₀/Vmax = 0.85, meaning [S]/(Km + [S]) = 0.85, so [S] = 0.85Km + 0.85[S], giving 0.15[S] = 0.85 × 2.0 = 1.7, so [S] = 11.3 mM. This doesn't match [S] = 6.0 mM. You may have estimated incorrectly from the data table rather than calculating directly.",
+        "D": "V₀ = 96 μmol/min would mean the enzyme is 96% saturated, requiring [S]/(Km + [S]) = 0.96, so [S] = 0.96 × 2.0 + 0.96[S], giving [S] = 48 mM. At [S] = 6.0 mM, the enzyme is far from this level of saturation. This answer overestimates how quickly enzymes approach Vmax."
+      },
+      "topic": "Michaelis-Menten: Velocity Calculation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enz_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A second phosphatase enzyme (Enzyme B) is isolated from the same tissue and found to have a Km of 0.1 mM and a Vmax of 100 μmol/min for the same substrate. Which of the following statements correctly compares the two enzymes?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Enzyme B has lower substrate affinity and will be saturated at lower substrate concentrations"
+        },
+        {
+          "label": "B",
+          "text": "Enzyme B has higher substrate affinity and will reach half-maximal velocity at a lower substrate concentration"
+        },
+        {
+          "label": "C",
+          "text": "Enzyme B has higher substrate affinity but will have a slower maximum catalytic rate"
+        },
+        {
+          "label": "D",
+          "text": "The two enzymes have identical catalytic efficiency because they share the same Vmax"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Lower Km generally correlates with higher apparent affinity, not lower. A smaller Km means the enzyme reaches half-saturation at a lower concentration. Enzyme B (Km = 0.1 mM) reaches half-maximal velocity at a much lower substrate concentration than Enzyme A (Km = 2.0 mM), consistent with tighter apparent substrate binding.",
+        "B": "Correct. Km is the substrate concentration at which V₀ = Vmax/2. Enzyme B (Km = 0.1 mM) reaches half-maximal velocity at [S] = 0.1 mM, while Enzyme A requires [S] = 2.0 mM. Lower Km often reflects tighter apparent substrate binding — the enzyme-substrate complex forms readily even at low substrate concentrations. This means Enzyme B will be nearly saturated (operating near Vmax) under physiological conditions where substrate concentrations might be in the low millimolar range, while Enzyme A would still be well below saturation.",
+        "C": "The first part is correct (higher affinity), but the second part is wrong. Both enzymes have the same Vmax of 100 μmol/min, meaning they achieve the same maximum catalytic rate when fully saturated. Vmax depends on kcat and [E]total (Vmax = kcat[E]total), while Km reflects binding affinity. These are independent parameters.",
+        "D": "Catalytic efficiency is measured by kcat/Km, not by Vmax alone. Although both enzymes share the same Vmax (and assuming equal enzyme concentrations, the same kcat), Enzyme B has a 20-fold lower Km. Therefore, Enzyme B's catalytic efficiency is approximately 20-fold higher: it processes substrate more effectively at low concentrations. The kcat/Km ratio is sometimes called the specificity constant and approaches the diffusion limit (~10⁸ M⁻¹s⁻¹) for kinetically perfect enzymes."
+      },
+      "topic": "Km and Substrate Affinity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enz_004",
+      "passage": "A pharmacology team screens drug candidates for their inhibitory effects on cyclooxygenase-2 (COX-2), an enzyme involved in the inflammatory response. They perform kinetic assays measuring V₀ at varying substrate concentrations in the presence and absence of three different drug candidates.\n\nDrug X: Lineweaver-Burk plot shows increased slope and a new x-intercept closer to zero, but the y-intercept remains unchanged.\n\nDrug Y: Lineweaver-Burk plot shows increased y-intercept with the same x-intercept as the uninhibited reaction.\n\nDrug Z: Lineweaver-Burk plot shows both increased slope and increased y-intercept. The lines intersect in the second quadrant (upper-left) of the graph.\n\nRecall that on a Lineweaver-Burk plot, the y-intercept = 1/Vmax, the x-intercept = −1/Km, and the slope = Km/Vmax.",
+      "stem": "Based on the Lineweaver-Burk data, Drug X, Drug Y, and Drug Z are best classified as which types of inhibitors, respectively?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Competitive; uncompetitive; noncompetitive"
+        },
+        {
+          "label": "B",
+          "text": "Competitive; noncompetitive; mixed"
+        },
+        {
+          "label": "C",
+          "text": "Noncompetitive; competitive; uncompetitive"
+        },
+        {
+          "label": "D",
+          "text": "Uncompetitive; noncompetitive; competitive"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Drug X is correctly identified as competitive, and Drug Y’s pattern does match one where Vmax changes but Km doesn’t. However, Drug Z’s pattern (both y-intercept and slope change, lines intersect in quadrant II) is characteristic of mixed inhibition, not pure noncompetitive. In pure noncompetitive inhibition, the lines intersect on the x-axis (Km unchanged), but Drug Z’s intersection in quadrant II indicates that both Km and Vmax are altered — the hallmark of mixed inhibition.",
+        "B": "Correct. Drug X: unchanged y-intercept (same Vmax) + x-intercept closer to zero (increased apparent Km) = competitive inhibition. The inhibitor competes with substrate for the active site, increasing the substrate concentration needed for half-saturation but not affecting the maximum rate achievable at saturating substrate. Drug Y: unchanged x-intercept (same Km) + increased y-intercept (decreased Vmax) = pure noncompetitive inhibition. The inhibitor binds an allosteric site with equal affinity regardless of whether substrate is bound, reducing catalytic efficiency without affecting apparent substrate binding affinity. Drug Z: both y-intercept and x-intercept change, with lines intersecting in quadrant II = mixed inhibition. The inhibitor binds both free enzyme and enzyme-substrate complex, but with different affinities, altering both apparent Km and Vmax.",
+        "C": "This reverses Drug X and Drug Y. Noncompetitive inhibition does not change the x-intercept (Km stays the same), but Drug X shows a shifted x-intercept with an unchanged y-intercept — that's competitive. Competitive inhibition changes apparent Km without affecting Vmax, matching Drug X's pattern, not Drug Y's.",
+        "D": "Uncompetitive inhibition produces a distinctive pattern: parallel lines on the Lineweaver-Burk plot (same slope, shifted y-intercept and x-intercept). Drug X's lines are not parallel — they intersect on the y-axis. Uncompetitive inhibitors bind only the enzyme-substrate complex, decreasing both apparent Km and Vmax by the same factor, which maintains a constant slope."
+      },
+      "topic": "Enzyme Inhibition Types",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enz_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A researcher adds increasing concentrations of substrate to the reaction containing Drug X. At very high substrate concentrations, the reaction velocity approaches that of the uninhibited enzyme. This observation is most consistent with which mechanism of action?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Drug X irreversibly modifies the active site, but excess substrate displaces the modified residues"
+        },
+        {
+          "label": "B",
+          "text": "Drug X binds the active site reversibly, and excess substrate outcompetes the inhibitor for binding"
+        },
+        {
+          "label": "C",
+          "text": "Drug X binds an allosteric site, and excess substrate induces a conformational change that ejects the inhibitor"
+        },
+        {
+          "label": "D",
+          "text": "Drug X denatures the enzyme at low substrate concentrations but not at high concentrations"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "If Drug X irreversibly modified the active site, increasing substrate concentration could not restore activity — the enzyme molecules are permanently inactivated. Irreversible inhibitors form covalent bonds (e.g., aspirin acetylating COX), and their effect can only be overcome by synthesizing new enzyme, not by adding more substrate. The observation that activity is restored at high [S] rules out irreversible inhibition.",
+        "B": "Correct. This is the defining feature of competitive inhibition. Drug X and the substrate compete for the same binding site (the active site). At low [S], Drug X occupies a significant fraction of active sites, reducing the number of active sites available for substrate binding at any given moment. At very high [S], substrate molecules vastly outnumber inhibitor molecules, and the probability of substrate (rather than inhibitor) occupying the active site approaches 100%. The apparent Km increases (more substrate is needed to reach Vmax/2), but Vmax itself is unchanged because at saturating substrate, the inhibitor is effectively outcompeted. This is consistent with the Lineweaver-Burk data showing unchanged y-intercept (1/Vmax).",
+        "C": "Allosteric binding is characteristic of pure noncompetitive or mixed inhibition, not competitive. In allosteric inhibition, the inhibitor binds a site distinct from the active site, so substrate and inhibitor do not directly compete for binding. Excess substrate cannot simply outcompete an allosteric inhibitor because they bind different sites. The observation that excess substrate overcomes the inhibition specifically implicates active-site competition.",
+        "D": "Denaturation is an irreversible loss of protein structure that does not depend on substrate concentration. A molecule that denatures an enzyme would do so regardless of how much substrate is present. Furthermore, denatured enzymes cannot be reactivated by adding substrate — the tertiary structure required for catalysis has been destroyed."
+      },
+      "topic": "Competitive Inhibition Mechanism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enz_006",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The uninhibited enzyme has a Km of 5.0 mM and a Vmax of 200 μmol/min. In the presence of Drug Y (a pure noncompetitive inhibitor), the apparent Vmax decreases to 120 μmol/min. What is the initial velocity at [S] = 15 mM in the presence of Drug Y?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "60 μmol/min"
+        },
+        {
+          "label": "B",
+          "text": "90 μmol/min"
+        },
+        {
+          "label": "C",
+          "text": "120 μmol/min"
+        },
+        {
+          "label": "D",
+          "text": "150 μmol/min"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This equals exactly Vmax(apparent)/2 = 120/2 = 60 μmol/min, which would occur at [S] = Km = 5.0 mM. At [S] = 15 mM (three times Km), the enzyme is 75% saturated, so V₀ should be 75% of the apparent Vmax, not 50%.",
+        "B": "Correct. In pure noncompetitive inhibition, Km is unchanged (still 5.0 mM) while Vmax decreases (to 120 μmol/min). Applying Michaelis-Menten: V₀ = Vmax(app) × [S]/(Km + [S]) = 120 × 15/(5.0 + 15) = 1800/20 = 90 μmol/min. Key insight: the enzyme retains the same apparent substrate affinity (Km unchanged) but has a lower ceiling for catalytic rate (reduced Vmax). At any given [S], the fractional saturation [S]/(Km + [S]) is the same as the uninhibited enzyme, but the maximum achievable rate is lower. Compare: uninhibited V₀ at [S] = 15 mM would be 200 × 15/20 = 150 μmol/min.",
+        "C": "120 μmol/min is the apparent Vmax itself, which would only be reached at infinite substrate concentration. At [S] = 15 mM = 3Km, the enzyme is 75% saturated, so V₀ = 0.75 × 120 = 90 μmol/min. The Michaelis-Menten curve approaches but never reaches Vmax at finite [S].",
+        "D": "150 μmol/min would be the velocity of the uninhibited enzyme at [S] = 15 mM: V₀ = 200 × 15/20 = 150. This ignores the effect of Drug Y entirely. The noncompetitive inhibitor reduces Vmax from 200 to 120 μmol/min, so the inhibited velocity must be lower than the uninhibited velocity at any substrate concentration."
+      },
+      "topic": "Noncompetitive Inhibition: Calculations",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_enz_007",
+      "passage": "Researchers investigate the allosteric regulation of phosphofructokinase-1 (PFK-1), the rate-limiting enzyme in glycolysis. PFK-1 is a tetrameric enzyme that displays sigmoidal kinetics with respect to its substrate fructose-6-phosphate (F6P). The enzyme exhibits cooperative substrate binding.\n\nThe team measures PFK-1 activity under three conditions:\nCondition 1 (control): Sigmoidal curve with an apparent K₀.₅ of 0.4 mM for F6P\nCondition 2 (+ 2.0 mM ATP): Sigmoidal curve shifted rightward, K₀.₅ = 1.2 mM\nCondition 3 (+ 0.1 mM AMP): Sigmoidal curve shifted leftward, K₀.₅ = 0.15 mM\n\nNote: K₀.₅ replaces Km for allosteric enzymes and represents the substrate concentration at half-maximal velocity.",
+      "stem": "The sigmoidal kinetics of PFK-1 arise from cooperative substrate binding. Which of the following best explains the molecular basis of cooperativity in this enzyme?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Each subunit has a different intrinsic affinity for F6P, producing a graded binding response"
+        },
+        {
+          "label": "B",
+          "text": "Substrate binding to one subunit induces conformational changes that increase the affinity of neighboring subunits for substrate"
+        },
+        {
+          "label": "C",
+          "text": "The enzyme oscillates between active and inactive states at a rate determined by substrate concentration"
+        },
+        {
+          "label": "D",
+          "text": "Higher substrate concentrations increase the enzyme's Vmax by recruiting additional subunits to the active complex"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "If each subunit had a fixed but different affinity, the resulting curve would be a sum of hyperbolic curves (each subunit following its own Michaelis-Menten kinetics), producing an overall hyperbolic appearance — not the observed sigmoidal shape. Cooperativity requires that binding at one site changes the affinity at other sites, which is fundamentally different from having pre-set different affinities.",
+        "B": "Correct. Positive cooperativity means that substrate binding at one active site triggers conformational changes transmitted through subunit interfaces that increase substrate affinity at the remaining sites. In the concerted (MWC) model, the enzyme exists in an equilibrium between a low-affinity T (tense) state and a high-affinity R (relaxed) state. Substrate binding stabilizes the R state, shifting the equilibrium so that all subunits transition together — producing the characteristic sigmoidal curve. The Hill coefficient (n_H > 1) quantifies the degree of cooperativity. This mechanism allows PFK-1 to act as a molecular switch, remaining largely inactive below a threshold F6P concentration and then rapidly activating above it.",
+        "C": "While allosteric enzymes do transition between conformational states, they do not oscillate in a time-dependent manner determined by substrate concentration. The T-to-R transition is an equilibrium shift driven by ligand binding, not a kinetic oscillation. The sigmoidal curve reflects the equilibrium distribution of enzyme states at each substrate concentration, not time-dependent cycling.",
+        "D": "PFK-1 is constitutively a tetramer — substrate binding does not recruit additional subunits. All four subunits are present in both the T and R states. Cooperativity affects the fraction of subunits in the active conformation, not the number of subunits in the complex. Vmax is determined by the total enzyme concentration and kcat, not by subunit assembly."
+      },
+      "topic": "Cooperativity & Allosteric Enzymes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enz_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Based on the experimental data, ATP acts as an allosteric inhibitor and AMP acts as an allosteric activator of PFK-1. How do these effectors shift the T/R equilibrium of the enzyme?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ATP stabilizes the R state; AMP stabilizes the T state"
+        },
+        {
+          "label": "B",
+          "text": "ATP stabilizes the T state; AMP stabilizes the R state"
+        },
+        {
+          "label": "C",
+          "text": "Both ATP and AMP stabilize the R state, but ATP also blocks the active site"
+        },
+        {
+          "label": "D",
+          "text": "ATP increases K₀.₅ by denaturing the enzyme; AMP decreases K₀.₅ by acting as a substrate analog"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This reverses the assignments. If ATP stabilized the R (high-affinity) state, the curve would shift leftward (lower K₀.₅), indicating the enzyme needs less substrate for half-maximal activity. The data shows ATP shifts the curve rightward (K₀.₅ from 0.4 to 1.2 mM), meaning more substrate is needed — consistent with the low-affinity T state being favored.",
+        "B": "Correct. ATP (at high concentrations, signaling energy abundance) binds the allosteric site and stabilizes the T (tense) state — the low-affinity conformation. This shifts the sigmoidal curve rightward (higher K₀.₅ = 1.2 mM), meaning PFK-1 requires more F6P to achieve the same velocity. The cell is essentially saying: 'We have plenty of ATP; slow down glycolysis.' AMP (signaling energy depletion) stabilizes the R (relaxed) state — the high-affinity conformation. This shifts the curve leftward (lower K₀.₅ = 0.15 mM), meaning PFK-1 becomes active at lower F6P concentrations. The cell is saying: 'We need more ATP; accelerate glycolysis.' This reciprocal regulation by ATP and AMP makes PFK-1 exquisitely sensitive to the cell's energy charge.",
+        "C": "ATP does not act as an active-site blocker (competitive inhibitor) for PFK-1's phosphorylation of F6P. ATP is actually a substrate of PFK-1 (it donates the phosphate group to F6P), so blocking the active site would prevent catalysis entirely, not shift the sigmoidal curve. The inhibitory effect of ATP occurs through a separate allosteric regulatory site that is distinct from the catalytic site.",
+        "D": "Neither ATP nor AMP works through denaturation or substrate mimicry in this context. Denaturation would irreversibly destroy enzyme activity, not produce a reversible rightward curve shift. AMP is structurally distinct from F6P and does not bind the active site — it binds the allosteric regulatory site. Both molecules exert their effects through reversible allosteric conformational changes."
+      },
+      "topic": "Allosteric Regulation: T and R States",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enz_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A mutant form of PFK-1 is engineered to be locked permanently in the R state. Compared to wild-type PFK-1, which kinetic profile would this mutant enzyme display?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sigmoidal kinetics with a higher K₀.₅ than wild-type"
+        },
+        {
+          "label": "B",
+          "text": "Sigmoidal kinetics with a lower K₀.₅ than wild-type"
+        },
+        {
+          "label": "C",
+          "text": "Hyperbolic (Michaelis-Menten) kinetics with high substrate affinity"
+        },
+        {
+          "label": "D",
+          "text": "No catalytic activity because the R state is the inactive conformation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "A higher K₀.₅ would mean lower apparent affinity, which is characteristic of the T state, not the R state. Being locked in the R state should produce the highest possible affinity (lowest K₀.₅). Additionally, locking in one state eliminates the T-to-R transition that generates sigmoidal kinetics.",
+        "B": "While the R-state enzyme would have high affinity (low effective Km), it would not display sigmoidal kinetics. Sigmoidal curves arise from the cooperative T→R transition as substrate binds. If the enzyme is permanently in the R state, there is no transition to produce cooperativity — each subunit independently binds substrate with the same high affinity from the start.",
+        "C": "Correct. Cooperativity and sigmoidal kinetics require the enzyme to transition between T and R states as substrate binds. If the enzyme is locked in the R (high-affinity) state, the T→R transition cannot occur, and cooperativity is abolished. Each subunit independently binds substrate with the same high affinity, producing a standard hyperbolic (Michaelis-Menten) curve. The effective Km would be low (reflecting the R state's high affinity). This is analogous to hemoglobin versus myoglobin: hemoglobin's cooperative T→R transition produces a sigmoidal O₂ binding curve, while myoglobin (a monomer permanently in a high-affinity state) produces a hyperbolic curve.",
+        "D": "The R state is the active, high-affinity conformation, not the inactive one. The T (tense) state is the low-affinity form. An enzyme locked in the R state would be constitutively active with high substrate affinity — precisely the opposite of having no activity."
+      },
+      "topic": "Cooperativity: Loss of Sigmoidal Kinetics",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_enz_010",
+      "passage": "A clinical biochemistry team studies the diagnostic utility of serum enzyme levels. They measure lactate dehydrogenase (LDH) isoenzyme patterns in patients with suspected myocardial infarction (MI). LDH exists as a tetramer of two subunit types: H (heart) and M (muscle), producing five isoenzymes: LDH-1 (H₄), LDH-2 (H₃M), LDH-3 (H₂M₂), LDH-4 (HM₃), and LDH-5 (M₄).\n\nIn healthy individuals, serum LDH-2 > LDH-1 (the normal pattern). Following MI, damaged cardiac myocytes release their intracellular enzymes, and the pattern reverses to LDH-1 > LDH-2 — a finding known as the \"flipped\" LDH pattern.",
+      "stem": "LDH-1 (H₄) and LDH-5 (M₄) catalyze the same reaction (lactate ↔ pyruvate) but differ in their kinetic properties. LDH-1 has a lower Km for lactate and is inhibited by high pyruvate concentrations, while LDH-5 has a higher Km for lactate and is not inhibited by pyruvate. These differences are best explained by the fact that LDH isoenzymes are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "products of the same gene with different post-translational modifications"
+        },
+        {
+          "label": "B",
+          "text": "products of different genes encoding subunits with distinct amino acid sequences and catalytic properties"
+        },
+        {
+          "label": "C",
+          "text": "identical proteins that adopt different conformations depending on tissue pH"
+        },
+        {
+          "label": "D",
+          "text": "allosteric forms of the same enzyme regulated by different tissue-specific activators"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Post-translational modifications (glycosylation, phosphorylation) can alter enzyme properties, but LDH isoenzymes differ in their fundamental subunit composition (H vs. M chains). The H and M subunits are encoded by separate genes (LDHA and LDHB) with distinct amino acid sequences, not by the same gene with modifications applied after translation.",
+        "B": "Correct. Isoenzymes (isozymes) are enzymes that catalyze the same reaction but differ in amino acid sequence, typically encoded by different genes. LDH’s H subunit (LDHB gene) and M subunit (LDHA gene) have distinct primary structures that confer different kinetic properties. The H subunit’s lower Km for lactate and sensitivity to pyruvate inhibition favor the reverse reaction (lactate → pyruvate) in aerobic tissues like the heart, funneling pyruvate into the TCA cycle. The M subunit’s properties favor the forward reaction (pyruvate → lactate) in glycolytic tissues like skeletal muscle during anaerobic conditions. Different tissues express H and M subunits in different ratios, producing tissue-specific isoenzyme patterns. Historical note: the “flipped” LDH pattern (LDH-1 > LDH-2) was historically used to diagnose MI, but has been largely supplanted by cardiac troponins (cTnI, cTnT), which are more sensitive and specific first-line biomarkers. LDH isoenzymes remain an important concept for understanding isozyme biology on the MCAT.",
+        "C": "If LDH-1 and LDH-5 were the same protein in different conformations, they would interconvert when placed in identical buffer conditions. However, LDH isoenzymes maintain their distinct properties regardless of environment — they can be separated by electrophoresis and retain their characteristic kinetics. This permanence reflects sequence differences, not conformational flexibility.",
+        "D": "While allosteric regulation does affect enzyme activity, the tissue-specific kinetic differences between LDH isoenzymes are intrinsic to their subunit composition, not determined by external regulators. Purified LDH-1 and LDH-5 display their characteristic kinetic differences in vitro, in the absence of any tissue-specific factors, confirming that the differences are encoded in their amino acid sequences."
+      },
+      "topic": "Isoenzymes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enz_011",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "Trypsinogen is an inactive zymogen secreted by the pancreas that is activated by enterokinase cleavage in the duodenum to produce active trypsin. Which of the following best explains the biological advantage of secreting trypsinogen rather than active trypsin?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Trypsinogen is more stable than trypsin during transit through the pancreatic duct"
+        },
+        {
+          "label": "B",
+          "text": "Zymogen activation allows spatial control of enzyme activity, preventing autodigestion of the pancreas"
+        },
+        {
+          "label": "C",
+          "text": "Trypsinogen can digest a wider range of substrates than trypsin"
+        },
+        {
+          "label": "D",
+          "text": "Zymogens are smaller than active enzymes, making them easier to secrete"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While stability during transit is a minor benefit, it is not the primary biological rationale. The central problem that zymogens solve is preventing self-destruction of the tissues that produce proteolytic enzymes. Trypsin would digest pancreatic cells if active inside the organ — this is precisely what happens in acute pancreatitis, where premature zymogen activation causes the pancreas to digest itself.",
+        "B": "Correct. Zymogens (proenzymes) provide spatial and temporal control over enzyme activity. The pancreas synthesizes trypsinogen, chymotrypsinogen, proelastase, and procarboxypeptidase as inactive precursors. These are safely stored and transported through the pancreatic duct without damaging the tissue. Activation occurs only in the duodenal lumen, where enterokinase cleaves trypsinogen's activation peptide, exposing the active site. Active trypsin then activates the other zymogens in an amplification cascade. This compartmentalization ensures that powerful proteolytic activity is restricted to the digestive lumen. The clinical significance is demonstrated by acute pancreatitis, where premature intrapancreatic activation of trypsinogen causes devastating autodigestion.",
+        "C": "This is backwards. Trypsinogen is catalytically inactive — it cannot digest any substrates. Its activation peptide blocks the active site, preventing substrate binding and catalysis. Activation (cleavage to trypsin) is required before any proteolytic activity occurs.",
+        "D": "Zymogens are actually larger than their active forms — they contain additional peptide sequences (activation peptides or propeptides) that must be cleaved for activation. Trypsinogen is larger than trypsin by the length of its activation peptide. Size reduction occurs upon activation, not before it."
+      },
+      "topic": "Zymogens / Proenzymes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_enz_012",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "Isocitrate dehydrogenase, which catalyzes the conversion of isocitrate to α-ketoglutarate in the TCA cycle, is allosterically activated by ADP and inhibited by ATP and NADH. The product α-ketoglutarate is subsequently converted through several steps back to oxaloacetate, which combines with acetyl-CoA to regenerate citrate. This regulation represents an example of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Positive feedback, because the pathway products stimulate earlier enzymes"
+        },
+        {
+          "label": "B",
+          "text": "Negative feedback, because downstream energy products inhibit a major regulated step"
+        },
+        {
+          "label": "C",
+          "text": "Feed-forward activation, because substrate abundance stimulates downstream enzymes"
+        },
+        {
+          "label": "D",
+          "text": "Competitive inhibition, because ATP competes with isocitrate for the active site"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Positive feedback would mean that pathway products accelerate the pathway further — a destabilizing loop. Here, the products ATP and NADH inhibit the enzyme, which is the opposite of positive feedback. ADP activates the enzyme, but ADP is not a product of the TCA cycle — it signals that energy has been consumed and more is needed. This is negative feedback through energy status sensing.",
+        "B": "Correct. The TCA cycle produces NADH (which feeds the electron transport chain to produce ATP). When ATP and NADH accumulate, they signal that the cell’s energy needs are met, and they inhibit isocitrate dehydrogenase to slow the cycle. When energy is consumed (ADP accumulates), ADP activates the enzyme to speed up the cycle. This is classic negative feedback: the end products of the metabolic purpose of the pathway (energy production) inhibit a major regulated step. This ensures that the TCA cycle operates at a rate matched to the cell’s actual energy demands, preventing wasteful overproduction of NADH and ATP.",
+        "C": "Feed-forward activation occurs when an upstream metabolite activates a downstream enzyme (e.g., fructose-1,6-bisphosphate activating pyruvate kinase in glycolysis). The regulation described here works in the opposite direction: downstream energy products (ATP, NADH) regulate an upstream enzyme. The directionality of the regulatory signal is critical for distinguishing feedback from feed-forward.",
+        "D": "ATP inhibits isocitrate dehydrogenase allosterically, not competitively. ATP binds a regulatory site distinct from the active site where isocitrate binds. If it were competitive, excess isocitrate would overcome ATP inhibition, but the allosteric mechanism allows ATP to reduce Vmax regardless of substrate concentration. Furthermore, ATP and isocitrate are structurally dissimilar — ATP is a nucleotide, while isocitrate is a tricarboxylic acid — making active-site competition unlikely."
+      },
+      "topic": "Feedback Inhibition in Metabolic Pathways",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_enz_013",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "An enzyme has an optimal activity at pH 7.4 and 37°C. When the temperature is increased to 60°C, the enzyme's activity initially increases but then drops sharply to near zero. Which of the following best explains this biphasic response?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Higher temperatures increase substrate solubility, followed by substrate degradation at extreme temperatures"
+        },
+        {
+          "label": "B",
+          "text": "Higher temperatures increase kinetic energy and collision frequency, but excessive heat disrupts the noncovalent interactions maintaining the enzyme's tertiary structure"
+        },
+        {
+          "label": "C",
+          "text": "Higher temperatures shift the equilibrium toward products, but then shift it back toward reactants"
+        },
+        {
+          "label": "D",
+          "text": "Higher temperatures activate allosteric inhibitors that are normally inactive at 37°C"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The biphasic response is an intrinsic property of the enzyme, not the substrate. Substrate solubility and stability are generally not the limiting factors in this temperature range. The sharp activity loss at high temperatures reflects changes in the enzyme's structure, not substrate availability.",
+        "B": "Correct. The temperature-activity relationship for enzymes reflects two competing effects. Below the optimum: increasing temperature increases the kinetic energy of molecules, leading to more frequent and energetic enzyme-substrate collisions. This increases the fraction of collisions exceeding the activation energy, accelerating the reaction rate (consistent with the Arrhenius equation: k = Ae^(-Ea/RT)). Above the optimum: thermal energy disrupts the weak noncovalent interactions (hydrogen bonds, hydrophobic interactions, van der Waals forces, ionic bonds) that maintain the enzyme's three-dimensional structure. The enzyme denatures — its active site loses its precise geometry, substrate can no longer bind properly, and catalytic activity plummets. Denaturation is often irreversible, distinguishing it from reversible inhibition.",
+        "C": "Enzymes do not shift chemical equilibria — they accelerate the rate at which equilibrium is reached. This is a fundamental principle of catalysis. Temperature can shift equilibrium (Le Chatelier's principle), but the biphasic activity profile is due to enzyme denaturation, not equilibrium shifts.",
+        "D": "There is no general mechanism by which temperature activates allosteric inhibitors. The sharp loss of activity is due to structural unfolding of the enzyme protein, which is a well-characterized phenomenon. Introducing a hypothetical temperature-sensitive inhibitor adds unnecessary complexity when denaturation fully explains the observation."
+      },
+      "topic": "Temperature Effects on Enzyme Activity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_enz_014",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "Enzymes accelerate reactions by lowering the activation energy (Ea). Which of the following is true regarding enzyme catalysis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Enzymes lower the activation energy and make the overall reaction more thermodynamically favorable (more negative ΔG)"
+        },
+        {
+          "label": "B",
+          "text": "Enzymes lower the activation energy without affecting the overall free energy change (ΔG) of the reaction"
+        },
+        {
+          "label": "C",
+          "text": "Enzymes lower the activation energy by increasing the temperature of the local microenvironment around the active site"
+        },
+        {
+          "label": "D",
+          "text": "Enzymes lower the activation energy by converting endergonic reactions into exergonic reactions"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Enzymes affect kinetics (reaction rate), not thermodynamics (equilibrium position). ΔG is a state function determined solely by the free energies of the reactants and products — it is path-independent. Since the enzyme does not change the identity of the reactants or products, it cannot alter ΔG. The enzyme only changes the path (lowering the energy barrier) without changing the starting or ending points on the energy diagram.",
+        "B": "Correct. Enzymes stabilize the transition state, reducing the activation energy required to reach it. This increases the rate at which reactants are converted to products (and vice versa) without altering the thermodynamic favorability of the reaction. ΔG remains unchanged because it depends only on the difference between reactant and product free energies, which are intrinsic to those molecules. An enzyme accelerates both the forward and reverse reactions equally, so the equilibrium constant Keq is also unchanged. The enzyme simply allows the system to reach equilibrium faster.",
+        "C": "Enzymes do not function by heating their environment. They lower activation energy through specific molecular mechanisms: proximity and orientation effects, acid-base catalysis, covalent catalysis, metal ion catalysis, and transition state stabilization. These are chemical mechanisms occurring at the active site, not thermal effects. If enzymes worked by local heating, they would increase all reaction rates nonspecifically, which is not what is observed.",
+        "D": "Enzymes cannot change the thermodynamic nature of a reaction. An endergonic reaction (positive ΔG) remains endergonic in the presence of an enzyme. The cell couples endergonic reactions to exergonic ones (like ATP hydrolysis) to drive them forward — this is achieved by changing the reaction itself (coupling), not by the enzyme alone. Catalysis affects rate, not spontaneity."
+      },
+      "topic": "Catalysis and Activation Energy",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_enz_015",
+      "passage": null,
+      "usePrevPassage": false,
+      "stem": "An enzyme with a molecular weight of 60,000 g/mol is present at a concentration of 0.5 nM in a 1.0 mL reaction mixture. Under saturating substrate conditions, the reaction produces 30 μmol of product per minute. What is the turnover number (kcat) of this enzyme?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6.0 × 10⁴ min⁻¹"
+        },
+        {
+          "label": "B",
+          "text": "1.0 × 10⁶ min⁻¹"
+        },
+        {
+          "label": "C",
+          "text": "6.0 × 10⁷ min⁻¹"
+        },
+        {
+          "label": "D",
+          "text": "1.0 × 10⁹ min⁻¹"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This value (6.0 × 10⁴ min⁻¹) would result from using a 1 L reaction volume instead of the stated 1.0 mL. With 1 L: [E]_total = 0.5 × 10⁻⁹ mol = 5 × 10⁻⁴ μmol, giving kcat = 30/(5×10⁻⁴) = 6×10⁴ min⁻¹. Always check the reaction volume stated in the problem — enzyme assays are typically performed in microliter to milliliter volumes, not liters.",
+        "B": "This may result from a unit conversion error, perhaps converting nM incorrectly. Careful tracking of nanomolar (10⁻⁹ M) versus micromolar (10⁻⁶ M) is essential. Let's be precise: [E] = 0.5 nM = 5.0 × 10⁻¹⁰ M = 5.0 × 10⁻⁴ μM. Vmax = 30 μmol/min requires knowing the volume to convert [E] to total moles.",
+        "C": "Correct. Under saturating conditions, V = Vmax = kcat × [E]total. In a 1.0 mL reaction: [E]total = 0.5 nM × 0.001 L = 0.5 × 10⁻¹² mol = 5.0 × 10⁻⁷ μmol. kcat = Vmax/[E]total = 30 μmol·min⁻¹ / (5.0 × 10⁻⁷ μmol) = 6.0 × 10⁷ min⁻¹ ≈ 1.0 × 10⁶ s⁻¹. The turnover number represents the maximum number of substrate molecules converted to product per enzyme molecule per unit time. A kcat of ~10⁶ s⁻¹ places this enzyme among the fastest known catalysts, approaching the catalytic efficiency of carbonic anhydrase.",
+        "D": "This value would require [E]total = Vmax/kcat = 30/10⁹ = 3 × 10⁻⁸ μmol = 0.03 nM, which does not match the given concentration of 0.5 nM. You may have introduced an extra factor of 10 in the unit conversion."
+      },
+      "topic": "Turnover Number (kcat)",
+      "difficulty": "Hard"
+    }
+  ]
+}

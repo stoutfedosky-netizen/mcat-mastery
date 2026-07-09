@@ -1,0 +1,227 @@
+{
+  "batch": "B190",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Acid-Base Buffers & Proton-Coupled Transport",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_acid_base_buffer_transport_190_q0",
+      "passage": "A pharmacology group compared the weak-acid buffering behavior of acetic acid in a simulated gastric sample. Each flask contained 50.0 mL of 0.100 M CH3COOH with pKa = 4.76. The team added standardized 0.100 M NaOH while continuously measuring pH, then repeated the experiment after adding 2.0 mM albumin to test whether protein binding altered the apparent buffering range. Albumin shifted the early pH readings upward by only 0.08 pH unit and did not change the half-equivalence point. Near one equivalent of NaOH, the pH rose sharply from 5.55 to 8.70 over a 2.5 mL addition. The researchers concluded that most useful buffering occurred before the equivalence point, when appreciable concentrations of both CH3COOH and CH3COO- were present.",
+      "usePrevPassage": false,
+      "stem": "At the half-equivalence point in the first experiment, which relationship best describes the buffer?",
+      "choices": {
+        "A": "[CH3COOH] equals [CH3COO-], so pH equals pKa.",
+        "B": "[CH3COOH] is nearly zero, so pH is set by excess hydroxide.",
+        "C": "[CH3COO-] is twice [CH3COOH], so pH is pKa plus 0.30.",
+        "D": "Albumin consumes acetate, so pH equals the isoelectric point of albumin."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. At half-equivalence, exactly half of the initial acetic acid has been converted to acetate by the added NaOH. The Henderson-Hasselbalch equation gives pH = pKa + log([A-]/[HA]), and when [CH3COO-] equals [CH3COOH], the logarithmic term is log(1) = 0, so pH equals pKa = 4.76. This relationship is a defining feature of a weak-acid titration and is shown by the reference lines in Figure 1. It is independent of total buffer concentration and holds as long as the conjugate pair concentrations are equal.",
+        "B": "At half-equivalence, the added hydroxide has been consumed stoichiometrically by acetic acid and does not remain in excess. Excess hydroxide would produce a strongly basic pH well above pKa, but half-equivalence pH sits at 4.76. The steep basic region of the titration curve does not begin until near one full equivalent of NaOH.",
+        "C": "A 2:1 acetate-to-acetic-acid ratio would produce pH = pKa + log(2) ≈ 4.76 + 0.30 = 5.06, which is above the half-equivalence point. The passage identifies half-equivalence as the point where the conjugate pair concentrations are equal, not where one species is double the other.",
+        "D": "Albumin produced only a 0.08 pH unit shift early in the titration and did not change the half-equivalence point. The isoelectric point of albumin describes the pH at which its net charge is zero, but it does not set the Henderson-Hasselbalch relation governing the acetate buffer system."
+      },
+      "topic": "Buffers",
+      "difficulty": "Easy",
+      "passageImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAAHCCAIAAAA/+dtNAAAWU0lEQVR4nO3db2xVd/3A8VPKehMf0PweGGExac0027RPJoVlhLqR6JAVGMM4DUtwuoxuQwhBE3kw/7AQ12gidWyF+Wd74IxkksW14EQQE7IQl5T9M1kaY6QT3cyIG8hgFGjPL/NqvdzbP7ft/XO+57xej869PeeeQyHLe5/vufc2xHEcAQCEaU69LwAAYOakDAAQMCkDAARMygAAAZMyAEDApAwAEDApAwAETMoAAAGTMgBAwKQMABAwKQMABEzKAAABkzIAQMCkDAAQMCkDAARMygAAAZMyAEDApAwAEDApAwAETMoAAAGTMgBAwKTMOH72s5/Nnz//1KlTZf4Se3p6oigaHBx84oknZvbXMO6xra2tk58l/0y1rw0AkqwhjuN6X0Pi3HXXXddcc82111571113lbN/a2vr0NBQxS+j6GVLz1LOeat0bQCQEKYyxd57773z58+vX7/+t7/9bRRF//znP9evX79q1aq1a9eeOnXq9OnTXV1dd9xxR2dn54svvhhFUXd397lz59auXTs2Ryk6JP+yg4ODK1asWLJkye7du8fdJ3/sqVOn1q1bd9ttt23cuLHwqkrPUvTMV7/61ccff7zoLKVHvfXWW3feeWdnZ+edd9751ltv5Z/fsWPHypUrOzo69u/fX7N/eQBQGTFX6u/v37VrVxzHt9xyy/Dw8P33379v3744jp966qmtW7du2rRpYGAgjuOTJ092dHTkD2lpaSncKDok/6OtW7ceO3bs7bffvu6668bdJ39sV1fX008/Hcfx/v3758+fX3hhRWcp3Jg/f/7vfve70rOU7nzvvffu3bs3juO9e/du2LAhjuMFCxb09vbGcXzixIm2tjb/HAAIiwWmYhs3bvzjH/+Yy+VOnjy5Z8+ejRs3vvTSS01NTSMjI+fOnVuyZMlHPvKR/J5vvvnmCy+80NjYOLaIk9/4xCc+UXjIvHnzoih69913n3nmmb/85S8/+clP/va3v5Xukz+2ra3t+PHjuVzu8uXLLS0tf//738curOgshRsf/vCH//rXv86ZM6foLKU7f/zjH3/ppZdyudzw8PANN9zw2muvLViwYHBwsLm5OYqilpaW119/vUKRDAC1YIHpCiMjI3/+85+PHj166NCh3t7egwcPjoyM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etV/9fb2lnnU4ODgE088Uc6era2t07qenp6eiX60YMGC1atXT/nKP//5z5ctW3brrbcuW7bsF7/4xbg7T/eqgLDMrfcFALXT1NTU398/3aOu+7dqXE9PT8+WLVvG/VEul7t8+fLzzz+/dOnSiQ4/cuTIU0899atf/aq5ufnMmTNf/OIXr7766ptvvrkalwoklqkMZNepU6fWrVt32223bdy4cWx0UTjDKHryU5/61JtvvhlF0fDw8KJFi1577bUVK1YsWbJk9+7dhS97+vTprq6uO+64o7Oz88UXXxx7hR07dqxcubKjo2P//v1RFHV3d587d27t2rU/+tGPbr755ltuueX3v/994ets27atu7u78JnBwcHCM+7ateuhhx5qbm6Ooqi5uXn79u2TjHmA1IqBzGhpaSl82NXV9fTTT8dxvH///vnz55fuM7ad3/j+97//05/+NI7jw4cPf+Mb39i6deuxY8fefvvt6667rnC3TZs2DQwMxHF88uTJjo6O/I8WLFjQ29sbx/GJEyfa2toK9//Yxz529uzZP/3pT/fdd1/RqTs7O48ePTr2sOiM119//YULF8YOuXDhwvXXX1/6xyx6CKSMBSbIkIsXL65atSq//a1vfev555//4Q9/GEXR8uXL58wZZ0Y7Ojpa+HDNmjXbtm37yle+8pvf/OZzn/tcW1vbM888c/DgwbNnzxbuduTIkRMnTuS3z58/PzIy0tjYGMfxunXr8uOZf/3rX4X7f+Yzn7n//vvvueeeoulOfjDz8MMPd3R05B9u37593DPmxXHc0NBQ9MfMP5zm7wkIiZSB7N4rc+nSpfzG6OhoHMdj2/mNM2fOjO2Q99GPfvSdd945e/bsq6+++r3vfe/zn//86tWrN2zYUHRT8OXLl/ft25fL5UZHR//whz80NjZGUXTVVVflV4KiKMoHx5jHHnvs2LFje/bs2bdv36OPPlr4o6VLlzY2Nh49ejT/8O677y4847XXXvvKK68sXrw4/9NXXnklf09P0R/Tbb+Qbu6VgexavHjxc889F0XRgQMHxlJm3rx5g4ODURT98pe/LD1kxYoVPT09CxcubGhoePnll9esWXPhwoWisceNN96Yvxvm8OHDO3fuzD850dTn9OnTK1euXLRo0Z49ew4dOlS6T+EdM0Vn3Lx587e//e38jOfMmTPf+c53Nm/eXIlfDBASUxnIkMKVl0WLFu3YseOBBx748Y9/vHjx4lwul3++u7v7y1/+8gc/+MFPfvKTY0+OWbNmzdKlS/v6+qIouueee5YvX97W1tbc3Dw8PJzL5a655pqdO3d+97vf3bJly5NPPjl37tzJ78O96aab7rvvvuXLl996662jo6Nf//rXS/dZsmRJU1PT8PBw6RmXLVv2xhtvrF69uqmp6dKlS/fee6+3L0EGNYz9rxiQZa2trUNDQ/W+CoBps8AEAATMVAYACJipDAAQMCkDAARMygAAAZMyAEDApAwAEDApAwAETMoAAAGTMgBAwKQMABAwKQMABEzKAAABkzIAQMCkDAAQMCkDAARMygAAAZMyAEDApAwAEDApAwAETMoAAAGTMgBAwKQMABAwKQMABEzKAAABkzIAQMCkDAAQMCkDAARMygAAAZMyAEDApAwAEDApAwAETMoAAAGTMgBAFK7/Bz1CV/Rz02BiAAAAAElFTkSuQmCC",
+      "passageImageCaption": "Figure 1. Titration of 0.100 M acetic acid with 0.100 M NaOH showing the half-equivalence point."
+    },
+    {
+      "id": "cp_acid_base_buffer_transport_190_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If the researchers prepared a buffer with 0.030 M acetate and 0.010 M acetic acid, what pH would be expected?",
+      "choices": {
+        "A": "4.28",
+        "B": "5.24",
+        "C": "6.76",
+        "D": "3.76"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A pH of 4.28 would correspond to log([A-]/[HA]) = -0.48, meaning the acid form predominates about threefold. In the proposed buffer the acetate concentration is three times higher than acetic acid, so the log ratio is positive, not negative. This answer inverts the conjugate pair relationship.",
+        "B": "Correct. Henderson-Hasselbalch gives pH = pKa + log([A-]/[HA]) = 4.76 + log(0.030/0.010). The concentration ratio is 3, and log(3) ≈ 0.48, so pH ≈ 5.24. This value remains within the effective buffering range of approximately pKa ± 1 because both conjugate species are present at concentrations high enough to neutralize moderate additions of strong acid or base. The calculation assumes dilute aqueous conditions and activity coefficients near unity, which is appropriate for the concentrations used in the passage.",
+        "C": "A pH of 6.76 would require log([A-]/[HA]) ≈ 2.0, meaning a 100-fold excess of acetate over acetic acid. The actual ratio is only 3:1, giving log(3) ≈ 0.48. This answer likely results from adding the raw concentration ratio to the pKa instead of taking the base-ten logarithm of the ratio first.",
+        "D": "A pH of 3.76 corresponds to log([A-]/[HA]) = -1.0, or a tenfold excess of acetic acid over acetate. This is the inverse of the proposed mixture, in which acetate exceeds acetic acid by a factor of three. The Henderson-Hasselbalch equation requires the correct assignment of base and acid in the numerator and denominator."
+      },
+      "topic": "Buffers",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acid_base_buffer_transport_190_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why did pH change most sharply near one equivalent of NaOH?",
+      "choices": {
+        "A": "The weak acid became a strong acid at high pH.",
+        "B": "Albumin denatured and released bound protons in a cooperative transition.",
+        "C": "The solution had little remaining conjugate acid to neutralize added base.",
+        "D": "The pKa of acetate increased as sodium ions accumulated."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Acetic acid remains a weak acid throughout the titration and does not transform into a strong acid at elevated pH. The sharp rise in pH near one equivalent reflects the near-total consumption of the buffering weak acid, not a change in the acid's intrinsic dissociation category.",
+        "B": "The passage reports only a small albumin effect that did not alter the half-equivalence point. Protein denaturation with cooperative proton release is not needed to explain the classic equivalence-region pH jump that occurs in every weak-acid titration when the buffering pair is consumed.",
+        "C": "Correct. Near one equivalent of NaOH, nearly all CH3COOH has been converted to CH3COO-. With virtually no weak acid remaining to neutralize added hydroxide, the solution has lost its buffering capacity and a small additional volume of NaOH produces a large pH increase. The passage reports a jump from pH 5.55 to 8.70 over just 2.5 mL of titrant, which is the hallmark of the equivalence region in a weak-acid-strong-base titration where buffer exhaustion makes pH extremely sensitive to added base.",
+        "D": "Sodium ions from NaOH are spectator ions in this acid-base system and do not significantly alter the pKa of acetic acid under these dilute conditions. The sharp pH rise is a classical feature of buffer exhaustion near equivalence, not an artifact of cation accumulation."
+      },
+      "topic": "Titration",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acid_base_buffer_transport_190_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which change would increase the buffer capacity around pH 4.76 without changing the pH much?",
+      "choices": {
+        "A": "Diluting the buffer tenfold with water",
+        "B": "Replacing acetate with chloride at the same concentration",
+        "C": "Adding enough NaOH to pass the equivalence point",
+        "D": "Doubling both acetic acid and acetate concentrations"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Dilution with water decreases the absolute moles of both acetic acid and acetate per unit volume. While the ratio may remain similar and the pH may not shift much, the total amount of conjugate pair available to consume added strong acid or base is reduced, so buffer capacity decreases rather than increases.",
+        "B": "Chloride is the conjugate base of the strong acid HCl and has no meaningful tendency to accept protons near pH 4.76. Replacing acetate with chloride removes the conjugate base reservoir that pairs with acetic acid for effective buffering, essentially destroying the buffer system at this pH.",
+        "C": "Adding NaOH past the equivalence point converts nearly all acetic acid to acetate and leaves excess hydroxide in solution. The resulting mixture is no longer a balanced weak acid-conjugate base pair near pH 4.76, so it cannot buffer effectively around the original pKa.",
+        "D": "Correct. Buffer capacity depends on the total concentration of the conjugate acid-base pair, while buffer pH depends mainly on their ratio. Doubling both [CH3COOH] and [CH3COO-] keeps the Henderson-Hasselbalch log term, log([A-]/[HA]), unchanged, so pH stays near 4.76. However, the absolute moles of each species available to neutralize added acid or base increase proportionally, meaning the buffer can absorb more strong acid or base before its pH shifts significantly. This is the standard distinction between buffer pH and buffer capacity."
+      },
+      "topic": "Buffers",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acid_base_buffer_transport_190_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The albumin result most directly supports which interpretation?",
+      "choices": {
+        "A": "Protein binding did not substantially alter the acetate buffer equilibrium under these conditions.",
+        "B": "Albumin converted acetic acid into a strong electrolyte.",
+        "C": "Albumin prevented acetate formation at half-equivalence.",
+        "D": "Protein binding made the solution unable to buffer added base."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Albumin shifted early pH readings upward by only 0.08 pH unit and did not change the half-equivalence point, where pH equals pKa for the conjugate pair. This pattern indicates that any protein binding or surface charge effects under these conditions were too small to substantially alter the acetate buffering equilibrium. The half-equivalence criterion is a sensitive test because it depends directly on the conjugate pair ratio, so an unchanged value provides strong evidence that the buffer chemistry was not disrupted.",
+        "B": "No data in the passage indicate a change in acid strength category. A strong electrolyte would dissociate completely, altering the titration curve shape dramatically. The unchanged half-equivalence point and normal curve behavior show the system remained a weak-acid buffer.",
+        "C": "If albumin prevented acetate formation at half-equivalence, the stoichiometric midpoint and titration curve would be strongly altered because the conjugate base reservoir would be depleted. The passage explicitly states the half-equivalence point was unchanged, ruling out significant interference with acetate production.",
+        "D": "The passage shows useful buffering before equivalence even with albumin present, as indicated by the normal curve shape and unaltered half-equivalence behavior. A small pH offset is evidence of a minor perturbation, not proof that the entire buffering function was abolished."
+      },
+      "topic": "Experimental reasoning",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_acid_base_buffer_transport_190_q5",
+      "passage": "A second experiment examined a membrane vesicle that cotransports lactate and H+ across an artificial lipid bilayer. Vesicles were loaded with 20 mM lactate at pH 7.4 and placed in external buffers of pH 6.4, 7.4, or 8.4. Radiolabeled lactate efflux was measured for 60 seconds. At external pH 6.4, efflux was 1.2 nmol/mg protein; at pH 7.4, it was 4.9 nmol/mg; and at pH 8.4, it was 8.7 nmol/mg. Adding carbonyl cyanide m-chlorophenyl hydrazone collapsed the proton gradient and made efflux 5.0 nmol/mg at all three external pH values. Vesicles without transporter showed less than 0.3 nmol/mg efflux.",
+      "usePrevPassage": false,
+      "stem": "The lactate efflux pattern is most consistent with which transport mechanism?",
+      "choices": {
+        "A": "Lactate uniport driven only by its concentration gradient",
+        "B": "Primary active lactate pumping powered by ATP hydrolysis",
+        "C": "H+-lactate symport sensitive to the proton electrochemical gradient",
+        "D": "Simple diffusion of protonated lactic acid through the bilayer"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A pure lactate uniporter would transport lactate down its own concentration gradient regardless of external pH, because proton movement would not be coupled to lactate flux. The data show strong pH dependence of efflux and convergence after protonophore treatment, both pointing to H+-coupled transport rather than uncoupled uniport.",
+        "B": "Primary active transport powered by ATP hydrolysis would require ATP as a direct energy source, and the passage describes no ATP addition or ATPase activity. The convergence of efflux rates after proton-gradient collapse points to secondary active coupling through the proton electrochemical gradient, not direct ATP-driven pumping.",
+        "C": "Correct. Lactate efflux is lowest when the outside is acidic (pH 6.4, high external [H+]) and highest when the outside is alkaline (pH 8.4, low external [H+]). This pattern fits H+-lactate symport: outward movement of both species is thermodynamically favored when the external proton concentration is low relative to the interior. When the protonophore collapses the proton gradient, all three pH conditions converge near 5.0 nmol/mg, confirming that the gradient was the driving force for the pH-dependent differences.",
+        "D": "Vesicles lacking the transporter showed less than 0.3 nmol/mg efflux, far below the 1.2-8.7 nmol/mg values in transporter-containing vesicles. This demonstrates that passive diffusion of protonated lactic acid through the lipid bilayer cannot account for the measured rates and that the protein is required."
+      },
+      "topic": "Membrane transport",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acid_base_buffer_transport_190_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why did the protonophore make efflux similar at all external pH values?",
+      "choices": {
+        "A": "It covalently blocked lactate binding sites on the transporter.",
+        "B": "It dissipated the proton gradient that otherwise biased coupled transport.",
+        "C": "It hydrolyzed lactate into pyruvate, eliminating the substrate gradient.",
+        "D": "It raised the vesicle protein concentration in each assay."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A covalent block of the transporter would reduce all efflux toward the no-transporter baseline of less than 0.3 nmol/mg, not standardize it at an intermediate level near 5.0 nmol/mg across all pH conditions. The observed pattern after protonophore treatment shows active transport without a driving gradient, not an inactivated transporter.",
+        "B": "Correct. Carbonyl cyanide m-chlorophenyl hydrazone is a protonophore that shuttles protons across membranes, collapsing the transmembrane pH gradient. Once delta-pH is dissipated, external pH no longer provides a thermodynamic bias for coupled H+-lactate transport. The transporter can still function, but without the driving force of a proton gradient, efflux converges to a similar rate regardless of the external buffer pH, demonstrating that the pH-dependent differences required an intact gradient.",
+        "C": "Protonophores shuttle protons across biological membranes by binding H+ on one side and releasing it on the other. They do not catalyze chemical conversion of lactate to pyruvate. The passage measures radiolabeled lactate efflux, and the convergence in rates reflects loss of the driving gradient, not substrate destruction.",
+        "D": "Protein concentration is used as a normalization denominator, with efflux reported as nmol per mg protein. A protonophore changes membrane proton permeability and dissipates the electrochemical gradient; it does not alter the amount of transporter protein loaded into vesicle preparations."
+      },
+      "topic": "Chemiosmosis",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acid_base_buffer_transport_190_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which additional control best tests whether the low efflux at pH 6.4 requires the transporter protein?",
+      "choices": {
+        "A": "Repeat pH 6.4 with twice the radiolabeled lactate specific activity.",
+        "B": "Measure the pH of the room-temperature water bath after each run.",
+        "C": "Add albumin to the outside buffer and repeat the titration curve.",
+        "D": "Compare wild-type vesicles with vesicles containing a lactate-binding mutant transporter."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Increasing the radiolabeled lactate specific activity would improve the signal-to-noise ratio of the detection method, but it would not help determine whether the low efflux at acidic external pH is mediated by the transporter protein. The same protein-dependent mechanism would still operate regardless of how the label is measured.",
+        "B": "Water bath temperature affects reaction rates generally, but monitoring its pH does not test whether the low efflux at pH 6.4 requires a functional transporter. The relevant experimental variable is the proton gradient across the vesicle membrane and the presence or absence of a competent transporter.",
+        "C": "Albumin pertains to the separate acetate-buffer titration experiment and has no direct bearing on whether vesicle lactate transport at acidic external pH depends on the transporter protein. The two experiments test different systems and different mechanisms.",
+        "D": "Correct. A lactate-binding mutant transporter preserves vesicle composition, membrane properties, lipid content, and overall preparation quality while disrupting a specific functional step in the transport cycle. If the pH-dependent efflux pattern disappears in vesicles carrying the binding mutant, the result supports the claim that reduced efflux at pH 6.4 requires active transporter engagement and conformational cycling, not passive bilayer leakage, nonspecific protein effects, or vesicle preparation artifacts."
+      },
+      "topic": "Experimental controls",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_acid_base_buffer_transport_190_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The no-transporter vesicles most directly rule out which explanation?",
+      "choices": {
+        "A": "Radiolabeled lactate freely crossed the lipid bilayer at the measured rates.",
+        "B": "The transporter responded differently to the three pH conditions.",
+        "C": "The protonophore collapsed the H+ gradient.",
+        "D": "The internal lactate concentration exceeded the external concentration."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. No-transporter vesicles showed less than 0.3 nmol/mg efflux, far below the 1.2 to 8.7 nmol/mg range observed in transporter-containing vesicles. This comparison directly rules out rapid passive bilayer permeation of lactate as an explanation for the measured transport rates. If radiolabeled lactate could freely cross the lipid membrane without protein assistance, protein-free vesicles would show substantial efflux comparable to the transporter-containing values, which they clearly do not.",
+        "B": "The no-transporter condition contains no transporter and therefore cannot reveal how the transporter responds to different pH values. The pH-dependent efflux rates in wild-type vesicles are what demonstrate transporter sensitivity; the no-transporter vesicles serve a different purpose.",
+        "C": "The protonophore result is demonstrated by convergence of efflux across external pH values in transporter-containing vesicles. Protein-free leakage controls address bilayer permeability, not whether the protonophore successfully collapsed the proton gradient.",
+        "D": "The passage states that vesicles were loaded with 20 mM lactate and placed in external buffers at various pH values. The substrate concentration gradient is part of the experimental design and is not eliminated by the no-transporter control, which instead addresses the route of lactate movement."
+      },
+      "topic": "Membranes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acid_base_buffer_transport_190_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If external pH were lowered from 7.4 to 6.4, the external proton concentration changed by approximately what factor?",
+      "choices": {
+        "A": "0.1-fold decrease",
+        "B": "10-fold increase",
+        "C": "2-fold increase",
+        "D": "100-fold decrease"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Lower pH means higher proton concentration, not a decrease. Each one-unit drop in pH corresponds to a tenfold increase in hydrogen ion concentration because pH is defined as the negative base-ten logarithm of [H+]. Moving from 7.4 to 6.4 is a decrease of one pH unit, so [H+] rises by a factor of ten, not falls by a factor of ten.",
+        "B": "Correct. pH is defined as the negative base-ten logarithm of hydrogen ion activity. Lowering pH from 7.4 to 6.4 is a one-unit decrease, which corresponds to a tenfold increase in [H+] because 10^(7.4 - 6.4) = 10^1 = 10. This tenfold rise in external proton concentration is directly relevant to the H+-lactate symporter: higher external [H+] opposes outward proton movement coupled to lactate export, explaining why efflux is lowest at pH 6.4. Understanding the logarithmic pH scale is essential for interpreting acid-base and transport physiology.",
+        "C": "A twofold change in [H+] corresponds to approximately 0.30 pH units, because log10(2) ≈ 0.30. The experiment changed pH by a full unit (7.4 to 6.4), which represents a tenfold change, not a twofold change. Confusing these scales is a common error in acid-base calculations.",
+        "D": "A 100-fold decrease in [H+] would correspond to a two-unit increase in pH, for example moving from pH 7.4 to pH 9.4. In the experiment, pH decreased by one unit from 7.4 to 6.4, so the proton concentration increased rather than decreased, and the magnitude of change is tenfold, not one hundredfold."
+      },
+      "topic": "pH",
+      "difficulty": "Easy"
+    }
+  ]
+}

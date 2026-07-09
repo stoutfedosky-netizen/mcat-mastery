@@ -1,0 +1,500 @@
+{
+  "batch": "B018",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Nervous & Endocrine Systems",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 4,
+    "B": 3,
+    "C": 4,
+    "D": 4
+  },
+  "questions": [
+    {
+      "id": "bb_neuro_001",
+      "passage": "A neurophysiologist records from a single myelinated motor neuron in the peripheral nervous system. At rest, the neuron has a membrane potential of \u221270 mV. The intracellular concentrations of Na\u207a and K\u207a are 15 mM and 150 mM respectively; extracellular concentrations are 145 mM Na\u207a and 5 mM K\u207a. When stimulated, the neuron fires an action potential that peaks at approximately +35 mV and repolarizes with a brief afterhyperpolarization to \u221280 mV before returning to rest. The conduction velocity is measured at 80 m/s.",
+      "stem": "The resting membrane potential of \u221270 mV is closest to the equilibrium potential of which ion, and why?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "K\u207a, because the membrane at rest is most permeable to K\u207a through leak channels, and the K\u207a equilibrium potential (approximately \u221290 mV) is the dominant contributor to the resting potential"
+        },
+        {
+          "label": "B",
+          "text": "Na\u207a, because Na\u207a is the most abundant extracellular cation"
+        },
+        {
+          "label": "C",
+          "text": "Cl\u207b, because Cl\u207b channels are the primary determinant of the resting potential in all neurons"
+        },
+        {
+          "label": "D",
+          "text": "Ca\u00b2\u207a, because calcium leak channels maintain the resting potential in motor neurons"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The Goldman equation shows that the resting potential is determined by the equilibrium potentials of permeable ions, weighted by their relative permeabilities. At rest, K\u207a permeability (through leak channels) is approximately 40\u00d7 greater than Na\u207a permeability. The K\u207a equilibrium potential is approximately \u221290 mV (Nernst: (\u221261.5/1)log(150/5) \u2248 \u221290 mV). The resting potential (\u221270 mV) is close to but not equal to EK because of the small contribution of Na\u207a permeability pulling the potential toward +60 mV.",
+        "B": "The Na\u207a equilibrium potential is approximately +60 mV (calculated from the Nernst equation with the given concentrations). The resting potential of \u221270 mV is far from +60 mV, so Na\u207a is not the dominant contributor. Na\u207a abundance does not determine the resting potential \u2014 permeability does.",
+        "C": "While Cl\u207b does contribute to the resting potential in some neurons, it is not the primary determinant in most. K\u207a leak channels are the dominant conductance at rest. Cl\u207b often distributes passively according to the resting potential rather than setting it.",
+        "D": "Ca\u00b2\u207a leak channels do not play a significant role in setting the resting membrane potential. Ca\u00b2\u207a concentrations are kept extremely low intracellularly (~100 nM) by active pumps and sequestration, and Ca\u00b2\u207a permeability at rest is negligible compared to K\u207a."
+      },
+      "topic": "Resting Membrane Potential / Nernst Equation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_002",
+      "passage": null,
+      "passageRef": "bb_neuro_001",
+      "stem": "During the rising phase of the action potential, the membrane potential moves toward +35 mV. This depolarization is caused by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Opening of voltage-gated K\u207a channels, allowing K\u207a efflux down its concentration gradient"
+        },
+        {
+          "label": "B",
+          "text": "Closure of K\u207a leak channels, preventing K\u207a from leaving the cell"
+        },
+        {
+          "label": "C",
+          "text": "Reversal of the Na\u207a/K\u207a ATPase pump direction, actively transporting Na\u207a into the cell"
+        },
+        {
+          "label": "D",
+          "text": "Opening of voltage-gated Na\u207a channels, allowing Na\u207a influx down its electrochemical gradient"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Voltage-gated K\u207a channels open during the repolarization phase, not the rising phase. K\u207a efflux drives the membrane potential back toward \u221290 mV, causing repolarization and afterhyperpolarization \u2014 the opposite of the depolarization described.",
+        "B": "K\u207a leak channel closure would reduce the resting K\u207a conductance and could slightly depolarize the membrane, but this is not the mechanism of the action potential's rising phase. The rapid depolarization requires the opening of voltage-gated Na\u207a channels and massive Na\u207a influx.",
+        "C": "The Na\u207a/K\u207a ATPase does not reverse during action potentials. It continuously pumps 3 Na\u207a out and 2 K\u207a in, maintaining the concentration gradients. The pump contributes a small hyperpolarizing current, not depolarization. Action potentials are driven by passive ion flow through channels, not by pump activity.",
+        "D": "When threshold is reached (~\u221255 mV), voltage-gated Na\u207a channels open rapidly. The electrochemical gradient for Na\u207a is strongly inward (high [Na\u207a] outside, negative potential inside), driving Na\u207a into the cell. This Na\u207a influx depolarizes the membrane toward the Na\u207a equilibrium potential (~+60 mV). The peak of +35 mV is below ENa because K\u207a conductance and Na\u207a channel inactivation begin before ENa is reached."
+      },
+      "topic": "Action Potential / Voltage-Gated Channels",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_neuro_003",
+      "passage": null,
+      "passageRef": "bb_neuro_001",
+      "stem": "The high conduction velocity of 80 m/s in this neuron is primarily due to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The large diameter of the axon, which reduces longitudinal resistance to current flow"
+        },
+        {
+          "label": "B",
+          "text": "The high density of voltage-gated Na\u207a channels distributed evenly along the entire axon"
+        },
+        {
+          "label": "C",
+          "text": "The Na\u207a/K\u207a ATPase working at maximum capacity to rapidly restore ion gradients"
+        },
+        {
+          "label": "D",
+          "text": "Saltatory conduction \u2014 the action potential jumps between nodes of Ranvier in the myelinated axon, skipping the insulated internodal segments"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Axon diameter does affect conduction velocity (larger diameter = lower resistance = faster conduction), but the dominant factor for achieving 80 m/s in mammalian motor neurons is myelination, not diameter alone. Unmyelinated axons would need to be enormously large (like the squid giant axon at ~1 mm) to achieve comparable speeds.",
+        "B": "In myelinated neurons, voltage-gated Na\u207a channels are concentrated at nodes of Ranvier, not distributed evenly. The myelin sheath insulates the internodal segments, making channel expression there unnecessary. Even distribution of channels along an unmyelinated axon produces slower continuous conduction.",
+        "C": "The Na\u207a/K\u207a ATPase restores ion gradients over time but operates too slowly to affect the speed of individual action potential propagation. The pump can be poisoned with ouabain and thousands of action potentials can still fire before gradients dissipate \u2014 demonstrating that pump activity is not rate-limiting for conduction.",
+        "D": "Myelin sheaths (formed by Schwann cells in the PNS) insulate internodal segments, forcing current to flow rapidly through the low-resistance axoplasm to the next node. At each node, the high density of Na\u207a channels regenerates the action potential. This saltatory ('jumping') conduction is much faster than continuous propagation because the signal effectively skips the insulated segments."
+      },
+      "topic": "Myelination / Saltatory Conduction",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_neuro_004",
+      "passage": "An endocrinologist studies a patient with primary hypothyroidism. Blood tests reveal very low levels of T3 and T4 (thyroid hormones) and markedly elevated levels of TSH (thyroid-stimulating hormone). The patient reports fatigue, weight gain, cold intolerance, and constipation. The endocrinologist prescribes synthetic levothyroxine (T4) replacement therapy. After 6 weeks of treatment, T3 and T4 levels normalize, and TSH levels return to the normal range.",
+      "stem": "The elevated TSH levels in untreated primary hypothyroidism are best explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The anterior pituitary is damaged and overproduces TSH regardless of thyroid hormone levels"
+        },
+        {
+          "label": "B",
+          "text": "High T3/T4 levels stimulate the anterior pituitary to produce more TSH through positive feedback"
+        },
+        {
+          "label": "C",
+          "text": "Low T3/T4 levels remove the negative feedback inhibition on the anterior pituitary, causing unopposed TSH secretion"
+        },
+        {
+          "label": "D",
+          "text": "TSH is produced by the thyroid gland itself as a compensatory response to its own dysfunction"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "In primary hypothyroidism, the pituitary is functioning normally \u2014 the problem is in the thyroid gland. The pituitary is appropriately increasing TSH production in response to low thyroid hormone levels. If the pituitary were damaged (secondary/central hypothyroidism), TSH would be low, not high.",
+        "B": "T3/T4 are low in this patient, not high. Furthermore, T3/T4 exert negative feedback on the pituitary and hypothalamus \u2014 they suppress TSH secretion, not stimulate it. If T3/T4 levels were high (as in hyperthyroidism), TSH would be suppressed.",
+        "C": "The hypothalamic-pituitary-thyroid axis operates through negative feedback. Normal T3/T4 levels inhibit TRH release from the hypothalamus and TSH release from the anterior pituitary. When the thyroid gland fails (primary hypothyroidism), T3/T4 levels drop, removing this inhibitory signal. Without negative feedback, the anterior pituitary produces TSH at maximal rates, driving TSH levels markedly upward.",
+        "D": "TSH is produced exclusively by thyrotrope cells in the anterior pituitary gland, not by the thyroid gland. The thyroid gland produces T3 and T4 (and calcitonin). This is a common confusion between the source of the stimulating hormone and the target gland."
+      },
+      "topic": "Negative Feedback / HPT Axis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_005",
+      "passage": null,
+      "passageRef": "bb_neuro_004",
+      "stem": "After levothyroxine treatment normalizes T3/T4, TSH returns to normal range. This illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Positive feedback \u2014 restored T3/T4 stimulates the pituitary to produce appropriate TSH levels"
+        },
+        {
+          "label": "B",
+          "text": "Receptor downregulation \u2014 excess TSH causes the pituitary to reduce its own TSH receptors"
+        },
+        {
+          "label": "C",
+          "text": "Habituation \u2014 the pituitary adapts to the new T4 levels and reduces TSH production over time"
+        },
+        {
+          "label": "D",
+          "text": "Restored negative feedback \u2014 normalized T3/T4 levels re-establish inhibitory control over pituitary TSH secretion"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Positive feedback amplifies a signal \u2014 it does not restore baseline. If T3/T4 stimulated TSH production (positive feedback), replacing thyroid hormones would increase TSH further, not bring it back to normal. The normalization of TSH with T4 replacement is the hallmark of negative feedback being restored.",
+        "B": "The pituitary does not have TSH receptors for its own TSH \u2014 TSH receptors are on thyroid follicular cells. The pituitary reduces TSH production because T3/T4 act on thyrotrope cells via nuclear thyroid hormone receptors, not because of TSH receptor changes.",
+        "C": "Habituation is a behavioral/neurological concept describing decreased response to repeated stimulation. The pituitary's response to thyroid hormones is not habituation \u2014 it is a physiological feedback mechanism mediated by hormone-receptor interactions. The terminology is incorrect for an endocrine context.",
+        "D": "When levothyroxine restores normal T3/T4 levels, these hormones resume their inhibitory effect on TRH and TSH secretion. The anterior pituitary, sensing adequate thyroid hormone levels, reduces TSH output to the normal range. This is a textbook demonstration of the negative feedback loop functioning as designed \u2014 remove the inhibitory signal (low T3/T4) and the output (TSH) rises; restore the signal and the output normalizes."
+      },
+      "topic": "Negative Feedback Restoration",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_006",
+      "passage": null,
+      "passageRef": "bb_neuro_004",
+      "stem": "If instead of primary hypothyroidism, the patient had secondary hypothyroidism (pituitary failure), which hormone profile would be expected?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Low T3/T4, low TSH \u2014 because the pituitary cannot produce adequate TSH to stimulate the thyroid"
+        },
+        {
+          "label": "B",
+          "text": "Low T3/T4, high TSH \u2014 because the thyroid is not responding to normal TSH levels"
+        },
+        {
+          "label": "C",
+          "text": "High T3/T4, low TSH \u2014 because the pituitary is overproducing thyroid-stimulating signals"
+        },
+        {
+          "label": "D",
+          "text": "Normal T3/T4, high TSH \u2014 because the pituitary compensates for thyroid failure by increasing TSH"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "In secondary (central) hypothyroidism, the pituitary gland is the site of failure. It cannot produce adequate TSH, so the thyroid is not stimulated, leading to low T3/T4. Both TSH and thyroid hormones are low \u2014 the critical distinction from primary hypothyroidism, where TSH is high because the pituitary is intact and responding to low thyroid hormones with increased TSH production.",
+        "B": "This profile (low T3/T4, high TSH) is characteristic of primary hypothyroidism, where the thyroid is the site of failure. The intact pituitary drives TSH up in response to low thyroid hormones. In secondary hypothyroidism, the pituitary is the problem, so TSH cannot be elevated.",
+        "C": "Low TSH from pituitary failure would produce low (not high) T3/T4. The thyroid depends on TSH stimulation for hormone production. Without adequate TSH, the thyroid is understimulated and produces insufficient hormones.",
+        "D": "If the pituitary has failed, it cannot compensate by increasing TSH. Normal T3/T4 with high TSH describes subclinical hypothyroidism (early thyroid failure where the pituitary compensates enough to maintain normal thyroid hormone levels), not secondary hypothyroidism."
+      },
+      "topic": "Primary vs Secondary Endocrine Disorders",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_007",
+      "passage": "A neuroscientist studies synaptic transmission at a cholinergic synapse. When an action potential arrives at the presynaptic terminal, voltage-gated Ca\u00b2\u207a channels open, and Ca\u00b2\u207a enters the terminal. The rise in intracellular Ca\u00b2\u207a triggers vesicle fusion with the presynaptic membrane, releasing acetylcholine (ACh) into the synaptic cleft. ACh binds nicotinic receptors on the postsynaptic membrane \u2014 ligand-gated cation channels that allow Na\u207a and K\u207a to flow. The enzyme acetylcholinesterase (AChE), located in the synaptic cleft, rapidly hydrolyzes ACh into acetate and choline, terminating the signal.",
+      "stem": "An organophosphate nerve agent irreversibly inhibits AChE. The immediate physiological consequence would be:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Decreased ACh release from presynaptic terminals"
+        },
+        {
+          "label": "B",
+          "text": "Blocked nicotinic receptors, preventing ACh binding"
+        },
+        {
+          "label": "C",
+          "text": "Accumulation of ACh in the synaptic cleft, causing sustained postsynaptic depolarization and eventual receptor desensitization"
+        },
+        {
+          "label": "D",
+          "text": "Increased synthesis of ACh in the presynaptic neuron"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "AChE inhibition does not affect ACh release. Release is triggered by Ca\u00b2\u207a-mediated vesicle fusion, which is upstream of the cleft. If anything, excess ACh in the cleft might cause presynaptic autoreceptor effects, but the primary consequence is in the cleft and postsynaptic membrane.",
+        "B": "Organophosphates inhibit the enzyme that degrades ACh, not the receptor that binds it. The nicotinic receptors remain functional \u2014 they are, in fact, overstimulated by the excess ACh. Receptor blockade would describe the mechanism of curare, not organophosphates.",
+        "C": "Without AChE to break down ACh, the neurotransmitter accumulates in the cleft and continuously activates nicotinic receptors. The sustained depolarization causes initial muscle fasciculation followed by depolarization block and eventually receptor desensitization/paralysis. This is the mechanism of organophosphate poisoning: cholinergic crisis with excessive secretions, muscle paralysis, and potentially fatal respiratory failure.",
+        "D": "AChE inhibition does not directly increase ACh synthesis. Synthesis depends on choline acetyltransferase (ChAT) activity and substrate availability. While choline recycling from ACh hydrolysis would be impaired (since AChE is inhibited), the immediate consequence is ACh accumulation, not increased synthesis."
+      },
+      "topic": "Synaptic Transmission / AChE Inhibition",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_008",
+      "passage": null,
+      "passageRef": "bb_neuro_007",
+      "stem": "Nicotinic ACh receptors are ligand-gated ion channels. Muscarinic ACh receptors, found at parasympathetic target organs, are G-protein-coupled receptors. Compared to nicotinic receptor activation, muscarinic receptor activation would be expected to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Produce a faster postsynaptic response because G-proteins amplify the signal"
+        },
+        {
+          "label": "B",
+          "text": "Bind a different neurotransmitter than ACh"
+        },
+        {
+          "label": "C",
+          "text": "Directly open ion channels without any second messenger involvement"
+        },
+        {
+          "label": "D",
+          "text": "Produce a slower but longer-lasting and more modulatory postsynaptic response through intracellular second messenger cascades"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "G-protein signaling is slower than direct ligand-gated channel activation, not faster. Ligand-gated channels open within milliseconds; G-protein cascades involve multiple enzymatic steps that take hundreds of milliseconds to seconds. G-proteins do amplify the signal, but amplification increases the magnitude, not the speed.",
+        "B": "Both nicotinic and muscarinic receptors bind the same neurotransmitter: acetylcholine. The receptors are named for their pharmacological sensitivity to nicotine and muscarine, not for binding different neurotransmitters.",
+        "C": "Muscarinic receptors do not directly gate ion channels. They are GPCRs that signal through second messengers. Nicotinic receptors are the ones that directly open ion channels. Confusing the two receptor types is a common MCAT error.",
+        "D": "GPCRs like muscarinic receptors activate intracellular signaling cascades (e.g., cAMP, IP3/DAG, PKC) that modulate ion channels indirectly and produce slower, longer-lasting effects. These responses are modulatory \u2014 they can enhance or inhibit neuronal excitability over longer timescales, unlike the rapid, brief depolarizations produced by ligand-gated nicotinic receptors."
+      },
+      "topic": "Receptor Types / Signal Transduction",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_009",
+      "passage": null,
+      "stem": "A patient with Addison's disease has destruction of the adrenal cortex. Which hormones would be deficient, and which would be elevated?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Deficient: cortisol and aldosterone; Elevated: ACTH \u2014 because loss of cortisol removes negative feedback on the anterior pituitary"
+        },
+        {
+          "label": "B",
+          "text": "Deficient: epinephrine and norepinephrine; Elevated: cortisol \u2014 because the adrenal medulla is destroyed while the cortex compensates"
+        },
+        {
+          "label": "C",
+          "text": "Deficient: ACTH; Elevated: cortisol \u2014 because the pituitary reduces stimulation when the adrenal gland is damaged"
+        },
+        {
+          "label": "D",
+          "text": "Deficient: cortisol; Elevated: aldosterone \u2014 because aldosterone production increases to compensate for cortisol loss"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Addison's disease is primary adrenal insufficiency \u2014 the adrenal cortex is destroyed, eliminating production of cortisol (glucocorticoid) and aldosterone (mineralocorticoid). Without cortisol's negative feedback on the hypothalamus and anterior pituitary, ACTH production increases dramatically. Elevated ACTH is the hallmark of primary (vs. secondary) adrenal insufficiency, and the excess ACTH-related peptides (from POMC cleavage) cause the hyperpigmentation characteristic of Addison's disease.",
+        "B": "Epinephrine and norepinephrine are produced by the adrenal medulla, not the cortex. Addison's disease specifically affects the cortex. The adrenal medulla may or may not be affected depending on the cause, but catecholamine deficiency is not the primary clinical concern.",
+        "C": "This is backwards. In Addison's disease, the adrenal cortex fails (low cortisol), so negative feedback is lost and ACTH rises. If ACTH were low and cortisol high, that would suggest a cortisol-secreting adrenal tumor with appropriate pituitary suppression \u2014 not Addison's disease.",
+        "D": "Both cortisol and aldosterone are produced by the adrenal cortex. If the cortex is destroyed, both are deficient. Aldosterone cannot increase to compensate because the tissue producing it is destroyed. Aldosterone deficiency causes the hyponatremia, hyperkalemia, and hypotension seen in Addison's disease."
+      },
+      "topic": "Adrenal Insufficiency / HPA Axis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_010",
+      "passage": null,
+      "stem": "Insulin and glucagon have opposing effects on blood glucose. After a carbohydrate-rich meal, which pattern of hormone secretion would be expected?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Increased insulin from beta cells; decreased glucagon from alpha cells \u2014 insulin promotes glucose uptake and storage while glucagon is suppressed"
+        },
+        {
+          "label": "B",
+          "text": "Increased insulin and increased glucagon \u2014 both hormones rise after meals to maintain glucose homeostasis"
+        },
+        {
+          "label": "C",
+          "text": "Decreased insulin; increased glucagon \u2014 the body prepares for fasting by mobilizing glucose stores"
+        },
+        {
+          "label": "D",
+          "text": "No change in either hormone \u2014 blood glucose is regulated solely by renal filtration"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "A carbohydrate-rich meal raises blood glucose. Pancreatic beta cells detect elevated glucose and secrete insulin, which promotes glucose uptake by muscle and adipose tissue, stimulates glycogen synthesis in liver and muscle, and inhibits gluconeogenesis. Simultaneously, alpha cell glucagon secretion is suppressed by the direct effects of high glucose and by paracrine inhibition from neighboring beta cells. The insulin-to-glucagon ratio increases, shifting metabolism toward storage.",
+        "B": "Insulin and glucagon have opposing effects and are reciprocally regulated. After a meal, insulin rises and glucagon falls. Both rising simultaneously would send contradictory metabolic signals (store glucose AND mobilize glucose), which would be physiologically counterproductive.",
+        "C": "This pattern (low insulin, high glucagon) is characteristic of the fasting state, not the fed state. During fasting, low blood glucose suppresses insulin and stimulates glucagon to mobilize hepatic glycogen and stimulate gluconeogenesis.",
+        "D": "Renal filtration plays a minor role in glucose handling (reabsorption of filtered glucose by SGLT2), but blood glucose regulation is primarily hormonal, mediated by the pancreatic islet hormones insulin and glucagon."
+      },
+      "topic": "Insulin and Glucagon / Glucose Homeostasis",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_neuro_011",
+      "passage": null,
+      "stem": "Epinephrine binds beta-adrenergic receptors on cardiac muscle cells, increasing heart rate and contractility. The intracellular signaling pathway activated by this binding involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A ligand-gated ion channel that allows Ca\u00b2\u207a to flow directly into the cell"
+        },
+        {
+          "label": "B",
+          "text": "A receptor tyrosine kinase that autophosphorylates and activates downstream signaling cascades"
+        },
+        {
+          "label": "C",
+          "text": "A G-protein coupled receptor that activates adenylyl cyclase, increasing cAMP, which activates protein kinase A"
+        },
+        {
+          "label": "D",
+          "text": "A nuclear hormone receptor that directly binds DNA and activates gene transcription"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Beta-adrenergic receptors are G-protein coupled receptors (GPCRs), not ligand-gated ion channels. While Ca\u00b2\u207a does enter cardiac cells during excitation-contraction coupling, it does so through voltage-gated Ca\u00b2\u207a channels, not through the adrenergic receptor itself.",
+        "B": "Receptor tyrosine kinases (e.g., insulin receptor, growth factor receptors) function through autophosphorylation. Beta-adrenergic receptors are not tyrosine kinases \u2014 they are GPCRs that signal through heterotrimeric G proteins.",
+        "C": "Beta-adrenergic receptors couple to Gs proteins, which activate adenylyl cyclase. Adenylyl cyclase converts ATP to cAMP, which activates protein kinase A (PKA). PKA phosphorylates L-type Ca\u00b2\u207a channels (increasing Ca\u00b2\u207a entry), phospholamban (increasing SR Ca\u00b2\u207a reuptake speed), and troponin I (increasing relaxation rate). The net effect is increased heart rate (chronotropy) and contractile force (inotropy).",
+        "D": "Nuclear hormone receptors (e.g., thyroid hormone receptors, steroid receptors) bind lipophilic hormones that cross the membrane. Epinephrine is a water-soluble catecholamine that cannot cross the cell membrane \u2014 it must signal through a surface receptor. The response is too rapid (seconds) for transcription-mediated mechanisms."
+      },
+      "topic": "G-Protein Signaling / cAMP Pathway",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_neuro_012",
+      "passage": null,
+      "stem": "A patient presents with muscle weakness, increased thirst, and frequent urination. Blood tests reveal very high calcium levels (hypercalcemia). An imaging study shows a parathyroid adenoma. The hypercalcemia is caused by excess secretion of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Calcitonin, which stimulates bone resorption and raises blood calcium"
+        },
+        {
+          "label": "B",
+          "text": "Parathyroid hormone (PTH), which stimulates osteoclast activity, increases renal Ca\u00b2\u207a reabsorption, and activates vitamin D to increase intestinal Ca\u00b2\u207a absorption"
+        },
+        {
+          "label": "C",
+          "text": "Thyroid hormone, which incidentally raises calcium as a side effect of increased metabolic rate"
+        },
+        {
+          "label": "D",
+          "text": "Aldosterone, which increases renal reabsorption of both sodium and calcium"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Calcitonin is produced by the parafollicular (C) cells of the thyroid gland, not the parathyroid. Calcitonin inhibits osteoclasts and lowers blood calcium \u2014 the opposite of the effect described. Calcitonin would counteract hypercalcemia, not cause it.",
+        "B": "PTH is produced by the parathyroid glands, and a parathyroid adenoma would overproduce PTH. Excess PTH increases bone resorption indirectly \u2014 it acts primarily on osteoblast-lineage cells to upregulate RANKL signaling, which stimulates osteoclast differentiation and activity, releasing Ca\u00b2\u207a and phosphate from bone. PTH also increases renal reabsorption of Ca\u00b2\u207a (while decreasing phosphate reabsorption) and activates 1\u03b1-hydroxylase in the kidney to convert 25-hydroxyvitamin D to 1,25-dihydroxyvitamin D (calcitriol), which increases intestinal calcium absorption. All three mechanisms raise blood calcium.",
+        "C": "Thyroid hormone does affect bone turnover at high levels (hyperthyroidism can cause osteoporosis), but the passage specifies a parathyroid adenoma \u2014 a tumor of the parathyroid glands, which produce PTH, not thyroid hormone.",
+        "D": "Aldosterone (from the adrenal cortex) regulates sodium and potassium balance, not calcium. Aldosterone increases renal Na\u207a reabsorption and K\u207a secretion. It does not significantly affect calcium homeostasis. A parathyroid adenoma produces PTH, not aldosterone."
+      },
+      "topic": "PTH / Calcium Homeostasis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_013",
+      "passage": null,
+      "stem": "The autonomic nervous system has two divisions: sympathetic and parasympathetic. During a 'fight-or-flight' response, the sympathetic nervous system produces all of the following effects EXCEPT:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Increased heart rate and cardiac output"
+        },
+        {
+          "label": "B",
+          "text": "Bronchodilation of the airways"
+        },
+        {
+          "label": "C",
+          "text": "Increased peristalsis and digestive enzyme secretion"
+        },
+        {
+          "label": "D",
+          "text": "Pupil dilation (mydriasis)"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The sympathetic nervous system increases heart rate (positive chronotropy) and contractility (positive inotropy) through norepinephrine and epinephrine acting on beta-1 adrenergic receptors. This is a core fight-or-flight response \u2014 increased cardiac output delivers more oxygen to muscles.",
+        "B": "Sympathetic activation causes bronchodilation through beta-2 adrenergic receptors on bronchial smooth muscle. This increases airflow to support increased oxygen demand during stress. Beta-2 agonists (like albuterol) mimic this effect therapeutically for asthma.",
+        "C": "Increased peristalsis and digestive enzyme secretion are parasympathetic ('rest and digest') functions, not sympathetic. During fight-or-flight, the sympathetic system decreases gastrointestinal motility and secretion \u2014 digestion is deprioritized in favor of skeletal muscle perfusion, cardiac output, and respiratory capacity. This is the correct answer because it is the exception.",
+        "D": "Pupil dilation (mydriasis) is a sympathetic effect mediated by alpha-1 adrenergic receptors on the radial muscle of the iris. Dilated pupils allow more light to enter the eye, improving visual acuity in threatening situations. Parasympathetic stimulation causes the opposite: pupil constriction (miosis)."
+      },
+      "topic": "Sympathetic vs Parasympathetic / ANS",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_neuro_014",
+      "passage": null,
+      "stem": "A researcher discovers a peptide hormone that is released from the hypothalamus, travels through the hypophyseal portal system, and stimulates the release of a second hormone from the anterior pituitary. This organization is an example of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Autocrine signaling \u2014 the hypothalamus stimulates itself through a local feedback loop"
+        },
+        {
+          "label": "B",
+          "text": "Neuroendocrine signaling \u2014 a neuron releases a hormone into the blood to act on a distant endocrine gland"
+        },
+        {
+          "label": "C",
+          "text": "Paracrine signaling \u2014 the hormone diffuses across a short distance to affect neighboring cells"
+        },
+        {
+          "label": "D",
+          "text": "Direct neural stimulation \u2014 the hypothalamus sends action potentials along axons that synapse directly on anterior pituitary cells"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Autocrine signaling involves a cell releasing a signal that acts on itself. The hypothalamus is signaling the anterior pituitary \u2014 a different structure. The signal travels through the portal blood system, not back to the hypothalamus.",
+        "B": "This describes neuroendocrine signaling: hypothalamic neurons synthesize releasing or inhibiting hormones (e.g., TRH, CRH, GnRH, GHRH, somatostatin, dopamine) and release them into the hypophyseal portal blood system. These hormones travel a short distance through portal vessels to the anterior pituitary, where they stimulate (or inhibit) specific cell types to produce their own hormones. The hypothalamus converts neural signals into hormonal signals.",
+        "C": "Paracrine signaling involves diffusion through extracellular fluid to nearby cells, not transport through a vascular portal system. While the distance is short, the use of portal blood vessels makes this neuroendocrine rather than paracrine.",
+        "D": "Direct neural stimulation describes the hypothalamic connection to the posterior pituitary, not the anterior. Hypothalamic neurons send axons directly into the posterior pituitary (neurohypophysis) to release oxytocin and ADH. The anterior pituitary receives hormonal signals through the portal system, not direct neural input."
+      },
+      "topic": "Neuroendocrine Signaling / Portal System",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_neuro_015",
+      "passage": null,
+      "stem": "A neurotransmitter can be excitatory at one synapse and inhibitory at another. This is possible because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The neurotransmitter changes its molecular structure depending on which synapse it enters"
+        },
+        {
+          "label": "B",
+          "text": "The postsynaptic effect is determined by the type of receptor and its associated ion channel or signaling cascade, not by the neurotransmitter itself"
+        },
+        {
+          "label": "C",
+          "text": "Excitatory and inhibitory effects are determined solely by the concentration of the neurotransmitter released"
+        },
+        {
+          "label": "D",
+          "text": "All neurotransmitters are excitatory; inhibition is produced only by the absence of neurotransmitter release"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Neurotransmitter molecules do not change their chemical structure between synapses. ACh is always ACh; GABA is always GABA. The same molecule produces different effects because different postsynaptic cells express different receptor types.",
+        "B": "The postsynaptic receptor determines the effect. For example, ACh activates nicotinic receptors (excitatory, opening cation channels) at the neuromuscular junction but activates muscarinic M2 receptors (inhibitory, opening K\u207a channels) at the heart. The same molecule, different receptor, opposite effect. This is a fundamental principle: the receptor, not the transmitter, determines the postsynaptic response.",
+        "C": "Concentration affects the magnitude of a response, not whether it is excitatory or inhibitory. A high concentration of an inhibitory neurotransmitter produces a stronger inhibition, not excitation. The qualitative nature of the response depends on the receptor.",
+        "D": "This is incorrect. Many neurotransmitters (GABA, glycine) are predominantly inhibitory. Inhibition is an active process involving Cl\u207b influx or K\u207a efflux through ion channels, not merely the absence of excitation. Neural circuits require both excitatory and inhibitory signaling."
+      },
+      "topic": "Neurotransmitter Receptors / Synaptic Signaling",
+      "difficulty": "Easy"
+    }
+  ]
+}

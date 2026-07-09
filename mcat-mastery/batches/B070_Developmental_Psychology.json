@@ -1,0 +1,338 @@
+{
+  "batch": "B070",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Developmental Psychology",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_dev_001",
+      "passage": "A developmental psychologist observes infants and children in a longitudinal study. Using the Strange Situation procedure, she classifies attachment styles. She also administers Piagetian tasks at different ages, documenting when children acquire conservation, perspective-taking, and hypothetical reasoning. She evaluates moral reasoning using Kohlberg's dilemmas and studies language acquisition milestones. She notes that children in her sample show wide variation in the timing of milestones, though the sequence is largely consistent across cultures.",
+      "stem": "In the Strange Situation, a securely attached infant characteristically:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "explores confidently using the caregiver as a secure base, shows distress upon separation, and is readily comforted upon reunion"
+        },
+        {
+          "label": "B",
+          "text": "shows no distress when the caregiver leaves and ignores the caregiver upon return"
+        },
+        {
+          "label": "C",
+          "text": "clings to the caregiver and refuses to explore, then alternates between seeking contact and angrily resisting it upon reunion"
+        },
+        {
+          "label": "D",
+          "text": "displays contradictory, disoriented behaviors such as freezing or approaching the caregiver while looking away"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Secure attachment (Ainsworth, Type B) is the most common pattern (~60-65% of infants). The infant uses the caregiver as a secure base for exploration, shows appropriate distress upon separation (indicating the caregiver's absence is noticed and distressing), and is quickly soothed upon reunion. Secure attachment is associated with sensitive, responsive caregiving and predicts better social competence, emotional regulation, and peer relationships in later childhood.",
+        "B": "Ignoring the caregiver describes insecure-avoidant attachment (Type A, ~20%). These infants appear independent but show physiological stress markers despite behavioral indifference. It is associated with caregivers who are rejecting or emotionally unavailable.",
+        "C": "Clinging then alternating between approach and resistance describes insecure-resistant/ambivalent attachment (Type C, ~10-15%). These infants are difficult to soothe and show anger mixed with contact-seeking. It is associated with inconsistent caregiving.",
+        "D": "Contradictory, disoriented behaviors describe disorganized attachment (Type D, ~5-10%). These infants lack a coherent attachment strategy, often associated with frightening or traumatic caregiving experiences (e.g., abuse, parental mental illness)."
+      },
+      "topic": "Attachment Theory / Strange Situation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_dev_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A 4-year-old child who cannot understand that pouring water from a short wide glass into a tall narrow glass does not change the amount of water is in Piaget's:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sensorimotor stage"
+        },
+        {
+          "label": "B",
+          "text": "formal operational stage"
+        },
+        {
+          "label": "C",
+          "text": "concrete operational stage"
+        },
+        {
+          "label": "D",
+          "text": "preoperational stage — this stage is characterized by centration (focusing on one dimension) and lack of conservation"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "The formal operational stage (11+ years) involves abstract and hypothetical reasoning, systematic problem-solving, and propositional logic. Conservation is mastered well before this stage.",
+        "A": "The sensorimotor stage (0-2 years) involves learning through sensory experience and motor actions. Its hallmark achievement is object permanence. A 4-year-old has already passed through this stage.",
+        "C": "The concrete operational stage (7-11 years) is when conservation is mastered. Children at this stage can perform logical operations on concrete objects, including understanding that pouring water between differently shaped containers does not change volume.",
+        "D": "Correct. The preoperational stage (ages 2-7) is characterized by symbolic thinking (language, pretend play) but also by cognitive limitations including centration (focusing on one perceptual dimension, like height, while ignoring others, like width), irreversibility (inability to mentally reverse an action), and egocentrism (difficulty taking another's perspective). These limitations prevent conservation — understanding that quantity is preserved despite changes in appearance. Conservation is mastered in the next stage (concrete operational)."
+      },
+      "topic": "Piaget / Preoperational Stage",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_dev_003",
+      "passage": null,
+      "stem": "Erikson's psychosocial stage for adolescents (12-18 years) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Trust vs. Mistrust"
+        },
+        {
+          "label": "B",
+          "text": "Industry vs. Inferiority"
+        },
+        {
+          "label": "C",
+          "text": "Identity vs. Role Confusion"
+        },
+        {
+          "label": "D",
+          "text": "Intimacy vs. Isolation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Erikson's fifth stage, Identity vs. Role Confusion, occurs during adolescence. The central task is developing a coherent sense of self — integrating various roles (student, friend, family member, future professional) into a stable identity. Successful resolution produces a strong sense of personal identity; failure results in role confusion, uncertainty about one's place in society, and identity diffusion. James Marcia later elaborated four identity statuses: achievement, moratorium, foreclosure, and diffusion.",
+        "A": "Trust vs. Mistrust is Erikson's first stage (infancy, 0-1 year). The infant develops trust when caregivers provide consistent, responsive care.",
+        "B": "Industry vs. Inferiority is Erikson's fourth stage (school age, 6-11 years). Children develop competence through academic and social achievements or feel inferior if they fail to develop skills.",
+        "D": "Intimacy vs. Isolation is Erikson's sixth stage (young adulthood, 19-40 years). It follows identity formation and involves developing close, committed relationships."
+      },
+      "topic": "Erikson / Identity vs. Role Confusion",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_dev_004",
+      "passage": null,
+      "stem": "Vygotsky's zone of proximal development (ZPD) refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tasks a child can perform independently without any help"
+        },
+        {
+          "label": "B",
+          "text": "tasks far beyond the child's current ability even with assistance"
+        },
+        {
+          "label": "C",
+          "text": "the range of tasks a child can accomplish with guidance from a more knowledgeable other but not yet independently — the space where learning occurs most effectively"
+        },
+        {
+          "label": "D",
+          "text": "the biological maturation schedule for cognitive development"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Vygotsky proposed that learning occurs most effectively in the ZPD — the gap between what a child can do alone (actual developmental level) and what they can achieve with scaffolding from a more skilled person (potential developmental level). Scaffolding involves providing structured support (hints, modeling, breaking tasks into steps) that is gradually withdrawn as the child gains competence. This social-constructivist view emphasizes that cognitive development is fundamentally social — children internalize skills first practiced in interaction with others.",
+        "A": "Tasks the child can do independently are below the ZPD — they represent already-mastered abilities. Learning in this zone provides no developmental challenge.",
+        "B": "Tasks beyond the child's reach even with help are above the ZPD — instruction here is ineffective because the child lacks the prerequisite cognitive structures. The ZPD specifically targets the sweet spot between current ability and potential with support.",
+        "D": "Biological maturation schedules relate more to Piaget's stage theory and Gesell's maturation theory. Vygotsky emphasized social and cultural factors in development rather than predetermined biological timetables."
+      },
+      "topic": "Vygotsky / ZPD",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_dev_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A child in Kohlberg's preconventional level of moral development would most likely reason about stealing medicine for a dying spouse by saying:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "'He shouldn't steal because he'll go to jail' — focusing on punishment avoidance"
+        },
+        {
+          "label": "B",
+          "text": "'He should steal it because everyone would think he's a good husband' — focusing on social approval"
+        },
+        {
+          "label": "C",
+          "text": "'He should steal it because saving a life is a universal moral principle'"
+        },
+        {
+          "label": "D",
+          "text": "'He should steal it because that's what the law says to do'"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Preconventional morality (Stages 1-2, typically pre-adolescent) is characterized by self-centered reasoning. Stage 1 focuses on obedience and punishment avoidance — 'If I steal, I'll be punished, so it's wrong.' Stage 2 focuses on instrumental self-interest — 'What's in it for me?' The child evaluates the action based on personal consequences rather than social norms or abstract principles.",
+        "B": "Social approval reasoning ('good boy/nice girl' orientation) characterizes Stage 3 of conventional morality. At this level, moral judgments are based on maintaining relationships and meeting others' expectations.",
+        "C": "Universal moral principles characterize Stage 6 of postconventional morality — the highest level, where moral reasoning is guided by abstract ethical principles (justice, human dignity) that may transcend specific laws.",
+        "D": "Following the law because it is the law characterizes Stage 4 of conventional morality (law and order orientation). At this level, moral reasoning emphasizes maintaining social order and respecting authority."
+      },
+      "topic": "Kohlberg / Preconventional Morality",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_dev_006",
+      "passage": null,
+      "stem": "Object permanence — the understanding that objects continue to exist when out of sight — develops during Piaget's:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "formal operational stage"
+        },
+        {
+          "label": "B",
+          "text": "concrete operational stage"
+        },
+        {
+          "label": "C",
+          "text": "preoperational stage"
+        },
+        {
+          "label": "D",
+          "text": "sensorimotor stage, typically around 8-12 months"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Object permanence is the signature achievement of the sensorimotor stage (0-2 years). Before ~8 months, infants act as if an object ceases to exist when hidden (out of sight, out of mind). Around 8-12 months, infants begin searching for hidden objects, demonstrating emerging object permanence. Full object permanence (including invisible displacements) is achieved by ~18-24 months. A-not-B errors (searching in the previously correct location) occur during the transition period.",
+        "A": "The formal operational stage (11+ years) involves abstract reasoning, not object permanence. Object permanence is mastered long before adolescence.",
+        "B": "The concrete operational stage (7-11 years) involves conservation and logical operations. Object permanence is already well-established by this age.",
+        "C": "The preoperational stage (2-7 years) involves symbolic representation. By this point, children already have full object permanence — they know objects exist when hidden."
+      },
+      "topic": "Piaget / Object Permanence",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_dev_007",
+      "passage": null,
+      "stem": "Harlow's experiments with infant rhesus monkeys demonstrated that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "infants prefer the 'mother' that provides food (wire mother with bottle) over the soft cloth mother"
+        },
+        {
+          "label": "B",
+          "text": "contact comfort from the soft cloth mother was more important for attachment than food provision — monkeys preferred the cloth mother even though the wire mother provided nourishment"
+        },
+        {
+          "label": "C",
+          "text": "attachment is based solely on classical conditioning of feeding"
+        },
+        {
+          "label": "D",
+          "text": "monkeys raised in isolation develop completely normal social behavior"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Harlow's classic studies (1958) showed that infant monkeys separated from their mothers preferred a soft cloth-covered surrogate over a bare wire surrogate — even when the wire surrogate held the food bottle. Monkeys clung to the cloth mother for comfort and ran to her when frightened. This refuted the prevailing learning theory (cupboard theory) that attachment forms through feeding association, instead supporting the contact comfort hypothesis: tactile comfort is a primary driver of attachment.",
+        "A": "The opposite was found — monkeys went to the wire mother only briefly to feed, then returned to the cloth mother for comfort. If attachment were purely about food, the wire mother would be preferred.",
+        "C": "Classical conditioning of feeding (cupboard theory) was the dominant explanation before Harlow's work. His experiments directly contradicted this by showing contact comfort is more important than food for attachment formation.",
+        "D": "Monkeys raised in isolation showed severe social deficits — abnormal social behavior, inability to mate, and abusive parenting. Harlow's isolation experiments demonstrated the critical importance of early social contact for normal development."
+      },
+      "topic": "Harlow / Contact Comfort",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_dev_008",
+      "passage": null,
+      "stem": "A critical (sensitive) period in development refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "any time period during which a child shows rapid physical growth"
+        },
+        {
+          "label": "B",
+          "text": "a limited time window during which specific experiences must occur for normal development — after this window, the capacity for that development is significantly reduced or lost"
+        },
+        {
+          "label": "C",
+          "text": "the period between ages 5 and 10 when formal schooling begins"
+        },
+        {
+          "label": "D",
+          "text": "the time when a child begins to form friendships"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Critical (or sensitive) periods are developmental windows during which the organism is especially responsive to specific environmental input. Language acquisition is the classic example: children deprived of language exposure before puberty (e.g., Genie case study) show severely limited language development afterward. Visual development also has a critical period — monocular deprivation in kittens during the critical window causes permanent visual cortex reorganization. The concept is more precisely termed 'sensitive period' for domains where some plasticity remains after the window.",
+        "A": "Rapid physical growth occurs during infancy and puberty but is not what defines a critical period. Critical periods are about the timing-dependent sensitivity to specific experiences for neural or behavioral development, not physical growth spurts.",
+        "C": "The start of formal schooling is a cultural convention, not a biologically defined critical period. While the school-age years are important for cognitive development, they do not represent a critical period in the strict developmental sense.",
+        "D": "Friendship formation is a social developmental milestone but is not limited to a specific critical period. Social relationships develop throughout the lifespan."
+      },
+      "topic": "Critical/Sensitive Periods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_dev_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The psychologist notes that the sequence of cognitive milestones (object permanence before conservation before hypothetical reasoning) is consistent across cultures. This observation supports:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the claim that cognitive development is entirely culturally determined"
+        },
+        {
+          "label": "B",
+          "text": "the blank slate (tabula rasa) theory that children have no innate cognitive abilities"
+        },
+        {
+          "label": "C",
+          "text": "Piaget's view that cognitive development proceeds through universal, invariant stages driven by biological maturation and active interaction with the environment"
+        },
+        {
+          "label": "D",
+          "text": "the claim that all children develop at exactly the same rate regardless of environment"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Piaget proposed that cognitive development proceeds through four invariant, universal stages in a fixed sequence: sensorimotor → preoperational → concrete operational → formal operational. While the rate of progression varies (influenced by culture, education, experience), the sequence does not — all children acquire object permanence before conservation, and conservation before hypothetical reasoning. This invariance across cultures supports the biological-maturational component of Piaget's theory.",
+        "A": "If development were entirely culturally determined, the sequence should vary across cultures (different cultures might prioritize different cognitive skills). The consistent sequence suggests biological constraints on developmental order, not purely cultural determination.",
+        "B": "The tabula rasa view holds that the mind starts as a blank slate. The consistent developmental sequence suggests innate biological structures that constrain the order of cognitive development, contradicting a strict blank slate position.",
+        "D": "Piaget acknowledged that rates of development vary — some children reach concrete operations at age 6, others at 8. The universality is in the sequence (order of stages), not the rate (speed of progression through them)."
+      },
+      "topic": "Piaget / Universal Stages",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_dev_010",
+      "passage": null,
+      "stem": "Teratogens are environmental agents that can cause birth defects. Their effects are most severe during:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the germinal period (first 2 weeks), when the zygote is most vulnerable"
+        },
+        {
+          "label": "B",
+          "text": "the embryonic period (weeks 3-8), when major organ systems are forming and are most susceptible to disruption"
+        },
+        {
+          "label": "C",
+          "text": "the fetal period (months 3-9), when the fetus is growing but organs are already formed"
+        },
+        {
+          "label": "D",
+          "text": "after birth, when the newborn is first exposed to the external environment"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The embryonic period (weeks 3-8 of gestation) is the most critical for teratogenic effects because this is when organogenesis occurs — the brain, heart, limbs, eyes, and other organ systems are forming. Disruption during this window causes major structural birth defects (e.g., thalidomide causing limb malformations, alcohol causing fetal alcohol spectrum disorders). Each organ system has its own critical period within this window.",
+        "A": "During the germinal period (weeks 1-2), the embryo is a ball of undifferentiated cells. Teratogenic exposure at this point typically either kills the embryo (spontaneous abortion) or has no effect (surviving cells compensate) — the 'all-or-nothing' period. Major structural defects are unlikely because organ systems have not begun forming.",
+        "C": "During the fetal period, organs are largely formed and are undergoing growth and maturation. Teratogens can still cause damage (particularly to the brain, which continues developing), but the effects are generally less severe than during organogenesis. Growth restriction rather than major structural defects is more common.",
+        "D": "Teratogens by definition act during prenatal development. Postnatal environmental exposures are not classified as teratogenic, though they can still affect development."
+      },
+      "topic": "Teratogens / Embryonic Period",
+      "difficulty": "Medium"
+    }
+  ]
+}

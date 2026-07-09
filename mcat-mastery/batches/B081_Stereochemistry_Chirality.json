@@ -1,0 +1,338 @@
+{
+  "batch": "B081",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Stereochemistry & Chirality",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_stereo_001",
+      "passage": "An organic chemist analyzes the stereochemistry of amino acids and drug molecules. She notes that all natural amino acids (except glycine) are L-amino acids, corresponding to the S-configuration at the α-carbon (with one exception: L-cysteine is R due to sulfur's priority). She examines a drug with one chiral center that exists as R and S enantiomers with dramatically different biological activities. She reviews the Cahn-Ingold-Prelog (CIP) priority rules, the relationship between structural isomers, enantiomers, diastereomers, and meso compounds, and the optical activity of chiral molecules.",
+      "stem": "A chiral center (stereocenter) is a carbon atom bonded to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "four identical substituents"
+        },
+        {
+          "label": "B",
+          "text": "four different substituents — making it asymmetric and capable of existing in two non-superimposable mirror-image forms (enantiomers)"
+        },
+        {
+          "label": "C",
+          "text": "two identical substituents and two different substituents — such as CH₂Cl₂, which has two H and two Cl"
+        },
+        {
+          "label": "D",
+          "text": "two double bonds"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. A chiral center (stereocenter) is a tetrahedral carbon bonded to four different groups. This carbon is asymmetric — its mirror image cannot be superimposed on the original molecule, creating a pair of enantiomers (non-superimposable mirror images). Glycine (–H, –H, –NH₃⁺, –COO⁻ at the α-carbon) is achiral because two substituents are identical. Alanine (–CH₃, –H, –NH₃⁺, –COO⁻) has four different groups and is chiral. The maximum number of stereoisomers for a molecule with n chiral centers is 2ⁿ.",
+        "A": "Four identical substituents produce an achiral, symmetric carbon (e.g., neopentane's central carbon with four –CH₃ groups). Chirality requires asymmetry from four different substituents.",
+        "C": "A carbon with two identical substituents (e.g., two H atoms or two Cl atoms) is not a chiral center. Chirality requires all four substituents to be different. CH₂Cl₂ (dichloromethane) has a central carbon bonded to 2H and 2Cl — since two substituents are identical, the molecule has a mirror plane and is achiral. A true stereocenter requires four distinct groups to produce non-superimposable mirror images.",
+        "D": "Two double bonds describe an allene or cumulated diene system. While some allenes are chiral (axial chirality), the question asks about a chiral center, which is specifically a tetrahedral carbon with four different substituents."
+      },
+      "topic": "Chirality / Chiral Center Definition",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_stereo_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Enantiomers have identical physical properties (melting point, boiling point, solubility) except that they:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "have different molecular weights"
+        },
+        {
+          "label": "B",
+          "text": "have different molecular formulas"
+        },
+        {
+          "label": "C",
+          "text": "rotate plane-polarized light in equal but opposite directions — one is dextrorotatory (+) and the other is levorotatory (-)"
+        },
+        {
+          "label": "D",
+          "text": "have different boiling points"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Enantiomers are mirror images with identical physical properties in achiral environments (same mp, bp, solubility, density, IR/NMR spectra). The only physical property that differs is the direction of rotation of plane-polarized light: one enantiomer rotates light clockwise (+, dextrorotatory, d), the other rotates it counterclockwise (-, levorotatory, l) by the same magnitude. Enantiomers also behave differently in chiral environments — they interact differently with chiral receptors, enzymes, and other chiral molecules, explaining why drug enantiomers often have different biological activities.",
+        "A": "Enantiomers have identical molecular weights — they are isomers with the same molecular formula and connectivity. Only the three-dimensional arrangement of atoms differs.",
+        "B": "Enantiomers have identical molecular formulas (same atoms in same ratios). Constitutional (structural) isomers can have different molecular formulas if they differ in connectivity, but enantiomers share everything except spatial arrangement.",
+        "D": "Enantiomers have identical boiling points because intermolecular forces are the same in achiral environments. Diastereomers (which are not mirror images) can have different physical properties."
+      },
+      "topic": "Enantiomers / Optical Activity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_stereo_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The Cahn-Ingold-Prelog (CIP) priority rules assign R/S configuration based on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the alphabetical order of substituent names"
+        },
+        {
+          "label": "B",
+          "text": "the biological activity of the molecule"
+        },
+        {
+          "label": "C",
+          "text": "the molecular weight of the entire molecule"
+        },
+        {
+          "label": "D",
+          "text": "the atomic number of atoms directly bonded to the chiral center — higher atomic number gets higher priority; substituents are ranked, and the spatial arrangement determines R (clockwise) or S (counterclockwise) when the lowest-priority group points away"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Biological activity is a consequence of configuration, not a determinant. R and S configurations are assigned purely by the CIP geometric rules, independent of any biological properties.",
+        "A": "Alphabetical order is not used in CIP rules. Priority is based on atomic number, not naming conventions. Bromine (Z=35) outranks chlorine (Z=17) regardless of alphabetical order.",
+        "C": "Molecular weight of the overall molecule is irrelevant to stereocenter configuration. CIP rules evaluate substituents at each individual chiral center based on local atomic number comparisons.",
+        "D": "Correct. CIP rules: (1) Rank substituents by atomic number of the atom directly attached to the chiral center — higher Z = higher priority (I > Br > Cl > S > O > N > C > H). (2) If tied, compare the next atoms outward (first point of difference). (3) Orient the molecule so the lowest-priority group (#4) points away from the viewer. (4) Trace a path from #1 → #2 → #3: clockwise = R (rectus), counterclockwise = S (sinister). Multiple bonds are treated as multiple single bonds to phantom atoms."
+      },
+      "topic": "CIP Priority Rules / R and S Configuration",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_stereo_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The chemist notes that the two enantiomers of the drug have dramatically different biological activities. This occurs because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "enantiomers have different molecular weights, affecting absorption"
+        },
+        {
+          "label": "B",
+          "text": "enzymes and receptors are themselves chiral — they bind each enantiomer differently, just as a left hand fits differently into a right glove vs a left glove"
+        },
+        {
+          "label": "C",
+          "text": "enantiomers have different boiling points, affecting distribution in the body"
+        },
+        {
+          "label": "D",
+          "text": "enantiomers decompose at different rates in achiral solvents"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Biological receptors, enzymes, and transport proteins are built from L-amino acids and are inherently chiral. They interact differently with each enantiomer of a drug — the three-dimensional fit between a chiral drug and a chiral receptor is stereospecific. The classic example is thalidomide: (R)-thalidomide was a safe sedative, while (S)-thalidomide was teratogenic. Ibuprofen: (S)-ibuprofen is the active anti-inflammatory, while (R)-ibuprofen is inactive. This is why the FDA requires testing of individual enantiomers for new drugs.",
+        "A": "Enantiomers have identical molecular weights — they contain the same atoms in the same ratio. Different biological activity is not due to mass differences but to three-dimensional recognition by chiral biomolecules.",
+        "C": "Enantiomers have identical boiling points (and all other physical properties in achiral environments). Their different biological activities arise from stereospecific interactions with chiral biological targets.",
+        "D": "In achiral solvents, enantiomers have identical chemical properties, including decomposition rates. Differences arise only in chiral environments (enzymes, receptors, chiral chromatography columns)."
+      },
+      "topic": "Chiral Drug Recognition / Enantioselectivity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_stereo_003",
+      "passage": null,
+      "stem": "Diastereomers differ from enantiomers in that diastereomers:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "are non-superimposable mirror images of each other"
+        },
+        {
+          "label": "B",
+          "text": "have the same configuration at all stereocenters"
+        },
+        {
+          "label": "C",
+          "text": "are stereoisomers that are NOT mirror images — they differ at some but not all stereocenters, and have different physical properties"
+        },
+        {
+          "label": "D",
+          "text": "are structural (constitutional) isomers with different connectivity"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Diastereomers are stereoisomers that are not mirror images. For a molecule with two chiral centers (e.g., 2-bromo-3-chlorobutane), there are four possible stereoisomers: (R,R), (S,S), (R,S), and (S,R). (R,R) and (S,S) are enantiomers (mirror images); (R,R) and (R,S) are diastereomers (different at one center, same at the other). Unlike enantiomers, diastereomers have different physical properties (different mp, bp, solubility, optical rotation magnitude) and can be separated by conventional methods (chromatography, crystallization). Cis/trans isomers are also diastereomers.",
+        "A": "Non-superimposable mirror images are enantiomers, not diastereomers. Diastereomers are specifically stereoisomers that are NOT related as mirror images.",
+        "B": "Same configuration at all stereocenters would make them identical molecules, not diastereomers. Diastereomers must differ in configuration at at least one (but not all) stereocenters.",
+        "D": "Structural (constitutional) isomers differ in atom connectivity (e.g., butane vs isobutane). Diastereomers have the same connectivity but different three-dimensional arrangement — they are a subset of stereoisomers."
+      },
+      "topic": "Diastereomers vs Enantiomers",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_stereo_004",
+      "passage": null,
+      "stem": "A meso compound contains chiral centers but is optically inactive because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it has an internal plane of symmetry — the rotation from one half of the molecule is exactly canceled by the other half, resulting in net zero optical rotation despite having stereocenters"
+        },
+        {
+          "label": "B",
+          "text": "it has no chiral centers"
+        },
+        {
+          "label": "C",
+          "text": "it is a racemic mixture of enantiomers"
+        },
+        {
+          "label": "D",
+          "text": "all its substituents are identical"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Meso compounds do have chiral centers — that is what makes them noteworthy. An ordinary achiral molecule (like methane) lacks stereocenters entirely. A meso compound has stereocenters but is still achiral due to internal symmetry.",
+        "A": "Correct. A meso compound has two or more chiral centers but is achiral overall due to an internal plane of symmetry (σ) that makes one half the mirror image of the other half. For example, (R,S)-tartaric acid has two chiral centers but an internal mirror plane that makes the R and S contributions cancel. The molecule is superimposable on its mirror image and is therefore optically inactive (does not rotate plane-polarized light). Meso compounds reduce the total number of stereoisomers below the 2ⁿ maximum.",
+        "C": "A racemic mixture is a 1:1 mixture of two enantiomers — it is optically inactive because the equal and opposite rotations cancel. A meso compound is a single, pure compound that is inherently achiral. This is a critical distinction: meso = one compound, racemic = mixture of two.",
+        "D": "If all substituents on every carbon were identical, there would be no chiral centers at all. Meso compounds have different substituents at their stereocenters — the cancellation comes from internal symmetry, not identical substituents."
+      },
+      "topic": "Meso Compounds / Internal Symmetry",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_stereo_006",
+      "passage": null,
+      "stem": "A racemic mixture is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a pure sample of a single enantiomer"
+        },
+        {
+          "label": "B",
+          "text": "a solution containing only achiral molecules"
+        },
+        {
+          "label": "C",
+          "text": "a mixture of constitutional isomers"
+        },
+        {
+          "label": "D",
+          "text": "a 1:1 mixture of R and S enantiomers that is optically inactive because the equal and opposite rotations cancel"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "A racemic mixture contains chiral molecules — both enantiomers are individually chiral. The mixture appears optically inactive (external cancellation), but each component molecule is chiral.",
+        "A": "A pure single enantiomer is an optically active, enantiopure sample — the opposite of a racemate. A single enantiomer rotates plane-polarized light in one direction.",
+        "C": "Constitutional isomers have different connectivity and are not relevant to racemic mixtures. A racemate contains two enantiomers with identical connectivity but opposite spatial arrangement.",
+        "D": "Correct. A racemic mixture (racemate, ±, d,l) contains equal amounts of both enantiomers. Because the (+) and (-) rotations are equal in magnitude but opposite in direction, the net optical rotation is zero. Racemic mixtures are produced by non-stereoselective reactions (e.g., SN1 reactions at a chiral center produce racemic products because the planar carbocation intermediate can be attacked from either face with equal probability). Resolution (separation) of a racemate into pure enantiomers requires chiral techniques (chiral column chromatography, enzymatic resolution, diastereomeric salt formation)."
+      },
+      "topic": "Racemic Mixture / Optical Inactivity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_stereo_007",
+      "passage": null,
+      "stem": "E/Z isomerism applies to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "double bonds or ring systems where restricted rotation creates geometrically distinct arrangements — Z (zusammen, same side) and E (entgegen, opposite sides) describe the relative positions of higher-priority groups"
+        },
+        {
+          "label": "B",
+          "text": "single bonds with free rotation"
+        },
+        {
+          "label": "C",
+          "text": "molecules with no double bonds or rings"
+        },
+        {
+          "label": "D",
+          "text": "ionic compounds only"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Single bonds with free rotation do not produce geometric isomers (except in special cases like cyclic systems). Free rotation around C–C bonds means conformational isomers interconvert rapidly and cannot be isolated as separate species at room temperature.",
+        "A": "Correct. E/Z nomenclature replaces cis/trans for alkenes and applies CIP priority rules to the substituents on each carbon of the double bond. If the higher-priority groups on each doubly-bonded carbon are on the same side, it is Z (from German zusammen = together); if on opposite sides, it is E (entgegen = opposite). E/Z is more general than cis/trans because it works for any alkene, including those with more than two different substituents. The restricted rotation of the C=C double bond (π bond prevents rotation) is what creates the geometric isomerism.",
+        "C": "E/Z isomerism specifically requires restricted rotation from double bonds or ring systems. Molecules without these features do not exhibit geometric isomerism.",
+        "D": "E/Z isomerism applies to covalent organic molecules with double bonds, not ionic compounds. Ionic compounds do not have the directional bonding required for geometric isomerism."
+      },
+      "topic": "E/Z Isomerism / Geometric Isomers",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_stereo_009",
+      "passage": null,
+      "stem": "A molecule with 3 stereocenters can have a maximum of how many stereoisomers?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "8 — calculated as 2ⁿ where n is the number of stereocenters: 2³ = 8"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The maximum number of stereoisomers for a molecule with n stereocenters is 2ⁿ. With 3 stereocenters: 2³ = 8 possible stereoisomers (RRR, RRS, RSR, SRR, RSS, SRS, SSR, SSS). These 8 form 4 enantiomeric pairs. The actual number may be less than 2ⁿ if meso compounds exist (internal symmetry reduces the count). For example, tartaric acid has 2 stereocenters: 2² = 4 maximum, but one pair is a meso compound, giving only 3 distinct stereoisomers.",
+        "A": "3 is the number of stereocenters, not the number of stereoisomers. Each stereocenter can be R or S independently, creating 2ⁿ combinations.",
+        "B": "6 is not a power of 2 and does not correspond to any stereoisomer formula. The correct formula is 2ⁿ, not 2n.",
+        "D": "16 = 2⁴ would be the maximum for a molecule with 4 stereocenters, not 3."
+      },
+      "topic": "Maximum Stereoisomers / 2ⁿ Rule",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_stereo_010",
+      "passage": null,
+      "stem": "The specific rotation [α] of a pure enantiomer is measured using a polarimeter. If the observed rotation is +25° for a 1 g/mL solution in a 1 dm cell, the specific rotation is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "25°/(1 × 1) = +25°, using [α] = α_observed / (c × l), where c is concentration in g/mL and l is path length in dm"
+        },
+        {
+          "label": "B",
+          "text": "-25°"
+        },
+        {
+          "label": "C",
+          "text": "impossible to calculate without knowing molecular weight"
+        },
+        {
+          "label": "D",
+          "text": "0° because all solutions are optically inactive"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "-25° would be the specific rotation of the opposite enantiomer. The observed rotation is +25°, so this sample is dextrorotatory with [α] = +25°.",
+        "A": "Correct. Specific rotation [α] = α_observed / (c × l), where α_observed is the measured rotation in degrees, c is concentration in g/mL, and l is path length in dm (decimeters). Here: [α] = (+25°) / (1 g/mL × 1 dm) = +25°. Specific rotation is an intrinsic property of a chiral compound (constant at a given temperature, wavelength, and solvent) and is used to identify and characterize enantiomers. A positive [α] indicates dextrorotatory (+); negative indicates levorotatory (-). Note: the sign of specific rotation does NOT correlate with R/S configuration — R enantiomers can be (+) or (-).",
+        "C": "Molecular weight is not needed for specific rotation calculation. The formula uses concentration in g/mL (not molarity), so molecular weight is not involved. Molar rotation [Φ] does use molecular weight, but that is not what is asked.",
+        "D": "The solution is optically active — it rotates plane-polarized light by +25°. Only achiral molecules, meso compounds, or racemic mixtures are optically inactive."
+      },
+      "topic": "Specific Rotation / Polarimetry",
+      "difficulty": "Medium"
+    }
+  ]
+}

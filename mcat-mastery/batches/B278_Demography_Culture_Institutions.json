@@ -1,0 +1,225 @@
+{
+  "batch": "B278",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Demography Culture Institutions",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_demography_culture_institutions_278_q0",
+      "passage": "A demographer compared two counties. County X had high birth rate, high infant mortality, and 38% of residents under age 15. County Y had low birth rate, low death rate, and 21% over age 65. Over 30 years, County X expanded vaccination and sanitation; infant mortality fell sharply while birth rates declined more slowly. County Y increased long-term care funding and independent-living programs for older adults.",
+      "usePrevPassage": false,
+      "stem": "County X most closely resembles which demographic-transition pattern?",
+      "choices": {
+        "A": "Early transition with high births and falling mortality",
+        "B": "Postindustrial low birth and death rates",
+        "C": "Zero population growth with high median age",
+        "D": "Immigration-only population change"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Mortality improvements can precede slower fertility decline, producing rapid growth. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "A postindustrial pattern has low fertility, low mortality, and older age structure. County X has high birth rate and high infant mortality. The relevant evidence instead centers on birth and mortality pattern.",
+        "C": "County X is young and rapidly growing. It is not described as having zero population growth or a high median age. The relevant evidence instead centers on birth and mortality pattern.",
+        "D": "The county passage emphasizes birth rate and infant mortality. It does not identify immigration as the sole source of population change. The relevant evidence instead centers on birth and mortality pattern."
+      },
+      "topic": "Demographic Transition",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_demography_culture_institutions_278_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "County Y\u2019s age structure most directly increases demand for:",
+      "choices": {
+        "A": "Elementary schools only",
+        "B": "Infant vaccination only",
+        "C": "Adolescent conformity programs",
+        "D": "Long-term care and age-related health services"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Elementary schools are not the main need implied by a low-birth, older county. The passage points toward long-term care and aging-related services. The relevant evidence instead centers on older adult population needs.",
+        "B": "Vaccination matters, but County Y\u2019s defining issue is a large older-adult population. Long-term care is the more direct institutional need. The relevant evidence instead centers on older adult population needs.",
+        "C": "Programs for adolescent conformity would target peer norm following. County Y is defined by an older age structure, so elder services are the relevant institutional demand. The relevant evidence instead centers on older adult population needs.",
+        "D": "Correct. A larger older-adult population increases need for chronic-care and aging-in-place supports. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Population Aging",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_demography_culture_institutions_278_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why can County X grow rapidly after mortality falls?",
+      "choices": {
+        "A": "Lower infant mortality raises death rates",
+        "B": "Death rates may decline before birth rates decline.",
+        "C": "Birth rates always fall first",
+        "D": "Aging populations have highest birth rates"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Lower infant mortality reduces deaths among infants. It would not explain rapid growth by increasing the death rate. The relevant evidence instead centers on mortality decline before fertility decline.",
+        "B": "Correct. When fewer infants die but fertility remains high, total population grows quickly. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "The demographic-transition pattern in the passage is the opposite: mortality falls after sanitation and vaccination while fertility declines more slowly. The relevant evidence instead centers on mortality decline before fertility decline.",
+        "D": "Aging populations usually have lower fertility and a larger older cohort. County X, not County Y, is the high-birth-rate population in the passage. The relevant evidence instead centers on mortality decline before fertility decline."
+      },
+      "topic": "Population Growth",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_demography_culture_institutions_278_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Population structure influencing county programs illustrates:",
+      "choices": {
+        "A": "Only personality traits",
+        "B": "Only sensory thresholds",
+        "C": "Institutional resource allocation",
+        "D": "Complete elimination of inequality"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The county passage concerns age structure, mortality, birth rates, and public programs, not personality traits alone. The relevant evidence instead centers on demography shaping institutions.",
+        "B": "Sensory thresholds are perception measures. They do not explain why counties allocate resources to sanitation or elder care. The relevant evidence instead centers on demography shaping institutions.",
+        "C": "Correct. Age and mortality patterns shape which social and health services institutions fund. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Institutional resource allocation may reduce needs or disparities, but the county passage does not claim inequality disappears completely. The relevant evidence instead centers on demography shaping institutions."
+      },
+      "topic": "Social Institutions",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_demography_culture_institutions_278_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which measure best shows County X moving later in transition?",
+      "choices": {
+        "A": "Favorite foods among teens",
+        "B": "Clinic posters in County Y",
+        "C": "False alarms on phone trials",
+        "D": "Sustained decline in fertility rate"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Adolescent food preferences do not measure fertility, mortality, or age structure, which are the relevant demographic-transition variables. The relevant evidence instead centers on fertility trend.",
+        "B": "Posters in County Y would not reveal County X\u2019s fertility or mortality transition. The question asks for a population measure in County X. The relevant evidence instead centers on fertility trend.",
+        "C": "False alarms are a signal-detection outcome. They do not measure a county\u2019s fertility decline or demographic-transition stage. The relevant evidence instead centers on fertility trend.",
+        "D": "Correct. Later stages require falling birth rates in addition to reduced mortality. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Demographic Measures",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_demography_culture_institutions_278_q5",
+      "passage": "A hospital system evaluated cultural competence training in primary care clinics serving immigrant families. Before training, 46% of patients with limited English proficiency reported understanding medication instructions. After professional interpreters, translated instructions, and staff training about explanatory models of illness were added, 71% reported understanding. Fewer missed follow-ups were documented. Clinics volunteered for early adoption rather than being randomly assigned.",
+      "usePrevPassage": false,
+      "stem": "Interpreters and translated instructions address:",
+      "choices": {
+        "A": "Language barriers to health-care access",
+        "B": "Genetic drift",
+        "C": "Fixed-ratio reinforcement",
+        "D": "Binocular disparity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The intervention improves communication for patients with limited English proficiency. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Genetic drift is random change in allele frequencies across generations. It does not explain pain ratings during arithmetic distraction. The relevant evidence instead centers on language access.",
+        "C": "A fixed-ratio schedule rewards behavior after a set number of responses. The passage does not describe a predictable response-count reward rule. The passage focus is language access, so this option is less directly supported.",
+        "D": "Binocular disparity is a depth cue based on different images reaching each eye. Knee pain modulation by vibration is a somatosensory issue, not a visual-depth issue. The relevant evidence instead centers on language access."
+      },
+      "topic": "Cultural Competence",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_demography_culture_institutions_278_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Explanatory models of illness refer to:",
+      "choices": {
+        "A": "Billing codes only",
+        "B": "Patients\u2019 beliefs about illness causes and treatments",
+        "C": "Innate reflex arcs",
+        "D": "Clinician personality only"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Billing codes classify services for payment. Explanatory models concern how patients understand illness causes, symptoms, seriousness, and treatments. The relevant evidence instead centers on culturally shaped illness understanding.",
+        "B": "Correct. Clinicians learn how patients understand symptoms, seriousness, and appropriate care. This answer uses the passage data rather than overextending beyond the study design.",
+        "C": "Reflex arcs are automatic biological circuits. Explanatory models are sociocultural beliefs about illness and treatment. The relevant evidence instead centers on culturally shaped illness understanding.",
+        "D": "Clinician personality may affect care, but explanatory models refer to patients\u2019 culturally shaped understandings of illness and treatment. The relevant evidence instead centers on culturally shaped illness understanding."
+      },
+      "topic": "Illness Beliefs",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_demography_culture_institutions_278_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why should causal claims about training be cautious?",
+      "choices": {
+        "A": "Continuous reinforcement",
+        "B": "Negative symptom",
+        "C": "Clinics volunteered rather than being randomly assigned.",
+        "D": "Semantic memory"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Continuous reinforcement rewards every target response. The described pattern is not a reward after every response. The passage focus is volunteer clinics, so this option is less directly supported.",
+        "B": "Negative symptoms reduce normal function, such as motivation or social engagement. The stem does not describe diminished function. The passage focus is volunteer clinics, so this option is less directly supported.",
+        "C": "Correct. Early adopters may have had staff motivation or resources that also improved outcomes. This answer uses the passage data rather than overextending beyond the study design.",
+        "D": "Semantic memory stores facts and meanings. The stem does not ask about general knowledge. The passage focus is volunteer clinics, so this option is less directly supported."
+      },
+      "topic": "Selection Bias",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_demography_culture_institutions_278_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What outcome best indicates patient-centered communication?",
+      "choices": {
+        "A": "Patients can explain medication use in their own words.",
+        "B": "Fast clinician speech",
+        "C": "Removing interpreters",
+        "D": "Discouraging illness-belief discussion"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Teach-back demonstrates understanding rather than only delivery of translated materials. This answer uses the passage data rather than overextending beyond the study design.",
+        "B": "Speaking faster may reduce comprehension, especially with language barriers. It is not evidence of patient-centered communication. The relevant evidence instead centers on medication understanding.",
+        "C": "Removing interpreters would recreate language barriers and reduce patient-centered communication. The relevant evidence instead centers on medication understanding.",
+        "D": "Discouraging illness-belief discussion would undermine patient-centered care. The passage emphasizes learning how patients understand illness. The relevant evidence instead centers on medication understanding."
+      },
+      "topic": "Patient Communication",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_demography_culture_institutions_278_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What connects the passages?",
+      "choices": {
+        "A": "Biological determinism",
+        "B": "Operant conditioning",
+        "C": "Source monitoring",
+        "D": "Social institutions adapt to demographic and cultural needs."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This would attribute behavior mainly to biology. The passage emphasizes social context, expectations, resources, or institutions rather than fixed biological causation. The passage focus is demographic and cultural context, so this option is less directly supported.",
+        "B": "Operant conditioning changes behavior through reinforcement or punishment. It is not the best fit when the stem asks about group pressure, appraisal, validity, or social structure. The passage focus is demographic and cultural context, so this option is less directly supported.",
+        "C": "Source monitoring identifies where or how information was learned. The stem does not ask about memory origin or context. The passage focus is demographic and cultural context, so this option is less directly supported.",
+        "D": "Correct. Counties respond to age/mortality patterns, while clinics respond to language and cultural needs. This answer uses the passage data rather than overextending beyond the study design."
+      },
+      "topic": "Institutions",
+      "difficulty": "Hard"
+    }
+  ]
+}

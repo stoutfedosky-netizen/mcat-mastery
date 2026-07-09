@@ -1,0 +1,335 @@
+{
+  "batch": "B145",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Thermochemistry: Hess's Law & Calorimetry",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "cp_therm_001",
+      "stem": "The heat released by combustion of 1.00 g benzoic acid in the bomb calorimeter is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "q = CΔT = (10.1 kJ/°C)(2.63 °C) = 26.6 kJ — the bomb calorimeter measures heat at constant volume, and the heat capacity relates temperature change to energy released"
+        },
+        {
+          "label": "B",
+          "text": "2.63 kJ"
+        },
+        {
+          "label": "C",
+          "text": "10.1 kJ"
+        },
+        {
+          "label": "D",
+          "text": "100.0 kJ"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In bomb calorimetry, the reaction occurs at constant volume (sealed steel vessel). The heat released equals q = C_cal × ΔT = 10.1 kJ/°C × 2.63 °C = 26.56 kJ ≈ 26.6 kJ. This is the total heat absorbed by the calorimeter (bomb, water, thermometer). Bomb calorimetry technically measures ΔU (internal energy change), not ΔH (enthalpy), but for reactions involving only condensed phases and small gas changes, the difference is usually small.",
+        "B": "Using only the temperature change (2.63) without multiplying by the calorimeter's heat capacity ignores the calorimeter's ability to absorb heat. The heat capacity tells you how much energy is needed per degree of temperature change — without it, the temperature rise alone has no energetic meaning.",
+        "C": "Using only the heat capacity (10.1) without the temperature change gives a number with no physical significance for this specific experiment. The heat released depends on both the calorimeter's heat capacity and the observed temperature rise.",
+        "D": "100.0 kJ significantly overestimates the heat from 1.00 g of benzoic acid. The calculation 10.1 × 2.63 = 26.6 kJ is straightforward; 100 kJ is roughly four times too large and does not correspond to any reasonable multiplication of the given values."
+      },
+      "topic": "Bomb Calorimetry / q = CΔT",
+      "difficulty": "Easy",
+      "passage": "A team of chemists measures enthalpy changes for combustion and formation reactions using bomb calorimetry and coffee-cup calorimetry. They burn 1.00 g of benzoic acid (C₆H₅COOH, MW = 122.12 g/mol) in a bomb calorimeter with heat capacity 10.1 kJ/°C and observe a temperature rise of 2.63 °C. They also study Hess's law by combining formation enthalpies to predict reaction enthalpies for reactions that are difficult to measure directly. Standard enthalpies of formation (ΔH°f) at 25 °C are provided: CO₂(g) = −393.5 kJ/mol, H₂O(l) = −285.8 kJ/mol, C₆H₅COOH(s) = −385.1 kJ/mol."
+    },
+    {
+      "id": "cp_therm_002",
+      "stem": "The molar enthalpy of combustion of benzoic acid from this experiment is approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "−26.6 kJ/mol"
+        },
+        {
+          "label": "B",
+          "text": "−3250 kJ/mol — dividing the heat per gram (26.6 kJ/1.00 g) by the molar mass gives the per-mole value: (26.6 kJ/g)(122.12 g/mol) ≈ 3250 kJ/mol, and combustion is exothermic (negative)"
+        },
+        {
+          "label": "C",
+          "text": "−122.1 kJ/mol"
+        },
+        {
+          "label": "D",
+          "text": "+3250 kJ/mol"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "−26.6 kJ is the heat released by 1.00 g, not 1 mole. To convert to molar enthalpy, multiply by the molar mass: 26.6 kJ/g × 122.12 g/mol ≈ 3250 kJ/mol. Reporting the per-gram value as per-mole underestimates the molar enthalpy by a factor of ~122.",
+        "B": "Correct. Moles of benzoic acid burned: 1.00 g ÷ 122.12 g/mol = 0.00819 mol. Heat released: 26.6 kJ. Molar enthalpy: 26.6 kJ / 0.00819 mol ≈ 3250 kJ/mol. Since combustion releases heat, ΔH is negative: −3250 kJ/mol. The accepted value for benzoic acid combustion is −3228 kJ/mol, so this result is within experimental error. Benzoic acid is used as a calorimetric standard precisely because its combustion enthalpy is well-characterized.",
+        "C": "Dividing the heat (26.6 kJ) by a factor close to 1 gives an incorrect value. The molar mass (122.12 g/mol) is used to convert from per-gram to per-mole by multiplication, not to produce a coincidental value near the molar mass itself.",
+        "D": "The sign is wrong. Combustion is exothermic — it releases heat to the surroundings, causing the calorimeter temperature to rise. By convention, exothermic reactions have negative ΔH values. A positive ΔH would indicate an endothermic process (heat absorbed), which contradicts the observed temperature increase."
+      },
+      "topic": "Molar Enthalpy of Combustion",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_therm_003",
+      "stem": "Using Hess's law and the given ΔH°f values, the standard enthalpy of combustion of benzoic acid can be calculated as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ΔH°rxn = ΔH°f(reactants) − ΔH°f(products)"
+        },
+        {
+          "label": "B",
+          "text": "ΔH°rxn = ΔH°f(products) − ΔH°f(reactants) = [7(−393.5) + 3(−285.8)] − [−385.1 + 0] — using the balanced equation C₆H₅COOH + 7.5O₂ → 7CO₂ + 3H₂O"
+        },
+        {
+          "label": "C",
+          "text": "ΔH°rxn equals zero for all combustion reactions"
+        },
+        {
+          "label": "D",
+          "text": "ΔH°rxn = ΔH°f of O₂ only"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Hess's law states ΔH°rxn = ΣΔH°f(products) − ΣΔH°f(reactants), not the reverse. Subtracting products from reactants would give the wrong sign. The convention — products minus reactants — ensures that exothermic reactions (lower energy products) yield negative ΔH values.",
+        "B": "Correct. Balanced equation: C₆H₅COOH(s) + 15/2 O₂(g) → 7CO₂(g) + 3H₂O(l). ΔH°rxn = [7(−393.5) + 3(−285.8)] − [(−385.1) + 15/2(0)] = [−2754.5 + (−857.4)] − [−385.1] = −3611.9 − (−385.1) = −3226.8 kJ/mol. Note ΔH°f of O₂(g) = 0 (elements in standard state). This calculated value (−3227 kJ/mol) closely matches the accepted experimental value (−3228 kJ/mol), validating Hess's law.",
+        "C": "Combustion reactions are exothermic with large negative ΔH values, not zero. A ΔH of zero would mean no heat is released or absorbed, which contradicts the observed temperature rise in every combustion calorimetry experiment. Only reactions at equilibrium have ΔG = 0; ΔH = 0 describes a thermoneutral process, which combustion is not.",
+        "D": "ΔH°f of O₂(g) is zero by definition (elements in their standard state have ΔH°f = 0). Using only this value would give ΔH°rxn = 0, which is incorrect. Hess's law requires summing the formation enthalpies of all products and subtracting all reactants, weighted by stoichiometric coefficients."
+      },
+      "topic": "Hess's Law / Standard Enthalpies of Formation",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_therm_004",
+      "stem": "In a coffee-cup calorimeter (constant pressure), 50.0 mL of 1.0 M HCl is mixed with 50.0 mL of 1.0 M NaOH. The temperature rises by 6.8 °C. Assuming the solution has the density and specific heat of water (4.184 J/g·°C), the enthalpy of neutralization per mole is approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "+2.85 kJ/mol"
+        },
+        {
+          "label": "B",
+          "text": "−28.4 kJ/mol — calculated from q = mcΔT = (100 g)(4.184 J/g·°C)(6.8 °C) = 2845 J, divided by 0.050 mol HCl = 56,900 J/mol ≈ 56.9 kJ/mol, but then incorrectly halved"
+        },
+        {
+          "label": "C",
+          "text": "−2.85 kJ/mol — calculated from q = mcΔT using only 50 mL instead of the full 100 mL"
+        },
+        {
+          "label": "D",
+          "text": "−56.8 kJ/mol"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The sign is wrong. The temperature rise indicates an exothermic reaction (heat released to solution), so ΔH must be negative. Additionally, the magnitude does not match: q = (100 g)(4.184 J/g·°C)(6.8 °C) = 2845 J, and moles = 0.050 mol, so ΔH = −2845/0.050 = −56,900 J/mol ≈ −56.9 kJ/mol.",
+        "B": "Halving the correct per-mole value has no physical justification. The reaction is 1:1 stoichiometry (HCl + NaOH → NaCl + H₂O), so the moles of reaction equal the moles of either reactant (0.050 mol). The full heat (2845 J) is divided by 0.050 mol without any additional factor.",
+        "C": "Using only 50 mL (50 g) instead of the full 100 mL of mixed solution underestimates the heat by half. When two solutions are mixed, the total solution absorbs the heat — both the acid and base solutions increase in temperature. The correct mass is the total combined solution: 50 + 50 = 100 mL = 100 g.",
+        "D": "Correct. Total solution mass: 100 mL × 1.0 g/mL = 100 g. q = mcΔT = (100 g)(4.184 J/g·°C)(6.8 °C) = 2845 J. Moles of reaction: (0.050 L)(1.0 mol/L) = 0.050 mol. ΔH = −q/n = −2845 J / 0.050 mol = −56,900 J/mol ≈ −56.9 kJ/mol. The negative sign indicates exothermic. The accepted value for strong acid–strong base neutralization is −57.1 kJ/mol (H⁺ + OH⁻ → H₂O), matching well. Coffee-cup calorimeters measure at constant pressure, directly giving ΔH."
+      },
+      "topic": "Coffee-Cup Calorimetry / Neutralization",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_therm_005",
+      "stem": "An endothermic reaction has a positive ΔH. In a coffee-cup calorimeter, an endothermic dissolution would cause the solution temperature to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "rise, because the reaction releases heat to the surroundings"
+        },
+        {
+          "label": "B",
+          "text": "remain exactly constant regardless of the reaction"
+        },
+        {
+          "label": "C",
+          "text": "decrease — the reaction absorbs heat from the surrounding solution, causing the solution temperature to drop"
+        },
+        {
+          "label": "D",
+          "text": "oscillate between hot and cold"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "A temperature rise indicates an exothermic process (negative ΔH), where the reaction releases heat to the solution. Endothermic reactions absorb heat from the surroundings, so the solution temperature decreases as thermal energy is transferred from the solvent to the dissolving solute.",
+        "B": "Chemical reactions exchange heat with their surroundings. In an adiabatic or near-adiabatic calorimeter, this heat exchange changes the solution temperature. Only a thermoneutral process (ΔH = 0) would leave the temperature unchanged, and endothermic processes by definition have ΔH > 0.",
+        "C": "Correct. An endothermic process (ΔH > 0) absorbs heat from the surroundings. In a coffee-cup calorimeter, the 'surroundings' are the solution itself. Heat flows from the solution into the reaction, lowering the solution's temperature. Example: dissolving ammonium nitrate (NH₄NO₃) in water is endothermic and produces a noticeable temperature drop — the basis of instant cold packs.",
+        "D": "Temperature does not oscillate in a simple dissolution experiment. The system reaches thermal equilibrium at a new temperature (lower for endothermic, higher for exothermic) and then gradually returns to ambient temperature through heat exchange with the external environment. There is no mechanism for oscillation."
+      },
+      "topic": "Endothermic Reactions / Temperature Change",
+      "difficulty": "Easy",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_therm_006",
+      "stem": "Using bond dissociation energies, the estimated ΔH for hydrogenation of ethene (CH₂=CH₂ + H₂ → CH₃CH₃) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "+136 kJ/mol (endothermic)"
+        },
+        {
+          "label": "B",
+          "text": "0 kJ/mol exactly"
+        },
+        {
+          "label": "C",
+          "text": "−1000 kJ/mol"
+        },
+        {
+          "label": "D",
+          "text": "−125 kJ/mol — calculated as ΔH ≈ Σ(bonds broken) − Σ(bonds formed); bonds broken: one C=C (614) + one H–H (436) = 1050 kJ; bonds formed: one C–C (348) + two C–H (2×413 = 826) = 1174 kJ; ΔH ≈ 1050 − 1174 = −124 kJ/mol"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "A positive ΔH would mean the reaction absorbs energy — more energy goes into breaking bonds than is released by forming them. The calculation shows the opposite: bonds formed (1174 kJ) release more energy than bonds broken (1050 kJ) require, making the reaction exothermic (negative ΔH).",
+        "B": "The bonds broken and bonds formed have different total energies, so ΔH is not zero. The C=C and H–H bonds broken require 1050 kJ, while the C–C and two new C–H bonds formed release 1174 kJ. The difference (−124 kJ/mol) represents the net energy released.",
+        "C": "−1000 kJ is an order of magnitude too large for a simple hydrogenation. The BDE calculation gives ΔH ≈ −124 kJ/mol. The accepted calorimetric value for ethene hydrogenation is −137 kJ/mol — the BDE estimate is close but not exact, because tabulated BDEs are averages that do not account for specific molecular environments.",
+        "D": "Correct. ΔH ≈ Σ(BDE bonds broken) − Σ(BDE bonds formed). Broken: C=C (614) + H–H (436) = 1050 kJ/mol. Formed: C–C (348) + 2 × C–H (826) = 1174 kJ/mol. ΔH ≈ 1050 − 1174 = −124 kJ/mol. The negative value confirms hydrogenation is exothermic. The discrepancy with the calorimetric value (−137 kJ/mol) arises because BDEs are average values across many molecules, not specific to ethene or ethane."
+      },
+      "topic": "Bond Dissociation Energy / ΔH Estimation",
+      "difficulty": "Hard",
+      "passage": "The chemists next investigate how bond dissociation energies (BDEs) can approximate reaction enthalpies. They compare the BDE-estimated ΔH with calorimetric measurements for the hydrogenation of ethene: CH₂=CH₂(g) + H₂(g) → CH₃CH₃(g). Known BDEs: C=C (614 kJ/mol), C–C (348 kJ/mol), C–H (413 kJ/mol), H–H (436 kJ/mol). They also examine why BDE estimates can deviate from calorimetric values due to strain, resonance, and solvation effects not captured by average tabulated BDEs."
+    },
+    {
+      "id": "cp_therm_007",
+      "stem": "The BDE-estimated ΔH for ethene hydrogenation (−124 kJ/mol) differs from the calorimetric value (−137 kJ/mol). This discrepancy most likely arises because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Hess's law does not apply to hydrogenation reactions"
+        },
+        {
+          "label": "B",
+          "text": "tabulated BDEs are average values across many molecules and do not capture the specific electronic environment, strain, or hyperconjugation in ethene and ethane — actual bond strengths deviate from tabulated averages"
+        },
+        {
+          "label": "C",
+          "text": "the calorimeter was broken during the measurement"
+        },
+        {
+          "label": "D",
+          "text": "bond energies are always exact and never deviate from tabulated values"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Hess's law applies universally to all reactions at constant pressure — it is a direct consequence of enthalpy being a state function. The discrepancy is not a failure of Hess's law but a limitation of using average BDEs rather than molecule-specific bond energies in the calculation.",
+        "B": "Correct. Tabulated BDEs represent average homolytic bond dissociation energies across a range of molecular environments. For example, the C–H BDE of 413 kJ/mol is an average — the actual C–H bond strength in methane (439 kJ/mol) differs from that in ethane (423 kJ/mol) or toluene (375 kJ/mol for the benzylic C–H). Similarly, the C=C in ethene has specific electronic features (no substituents, minimal strain) that make its actual dissociation energy slightly different from the tabulated average. These molecule-specific deviations accumulate and produce the ~13 kJ/mol discrepancy observed.",
+        "C": "A broken calorimeter would produce unreliable measurements, but the calorimetric value for ethene hydrogenation (−137 kJ/mol) has been measured independently by multiple laboratories with high precision. The discrepancy is systematic, not instrumental — it reflects the inherent limitation of average BDEs, not experimental error.",
+        "D": "Bond energies in specific molecular contexts regularly deviate from tabulated averages. Resonance stabilization, ring strain, steric effects, hyperconjugation, and inductive effects all modify actual bond strengths. Average BDEs are useful approximations but are explicitly acknowledged as estimates, not exact values."
+      },
+      "topic": "BDE Limitations / Average vs Specific",
+      "difficulty": "Hard",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_therm_008",
+      "stem": "A reaction with ΔH = −200 kJ/mol and ΔS = −150 J/(mol·K) is spontaneous at 25 °C. At what temperature does it become nonspontaneous?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Above T = ΔH/ΔS = 200,000 J / 150 J/K = 1333 K — at this temperature ΔG = 0, and above it the −TΔS term dominates, making ΔG positive"
+        },
+        {
+          "label": "B",
+          "text": "It is always spontaneous at all temperatures"
+        },
+        {
+          "label": "C",
+          "text": "Below 298 K only"
+        },
+        {
+          "label": "D",
+          "text": "It is never spontaneous at any temperature"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. ΔG = ΔH − TΔS. At 25 °C (298 K): ΔG = −200,000 − (298)(−150) = −200,000 + 44,700 = −155,300 J = −155.3 kJ (spontaneous). At the crossover temperature: ΔG = 0 → T = ΔH/ΔS = −200,000/(−150) = 1333 K (1060 °C). Above 1333 K, the TΔS term (positive, since ΔS is negative) exceeds |ΔH|, making ΔG positive (nonspontaneous). This is a 'spontaneous at low T, nonspontaneous at high T' reaction — typical of exothermic reactions with decreased entropy.",
+        "B": "Reactions with negative ΔH and negative ΔS are not spontaneous at all temperatures. At high temperatures, the −TΔS term becomes large and positive (because ΔS is negative), eventually overwhelming the favorable ΔH. The reaction becomes nonspontaneous above T = ΔH/ΔS.",
+        "C": "The reaction is spontaneous at 298 K and remains spontaneous at all temperatures below 1333 K. Stating it is spontaneous only below 298 K is too restrictive — the crossover temperature is 1333 K, not 298 K.",
+        "D": "At 25 °C, ΔG = −155.3 kJ, which is strongly negative (spontaneous). The reaction is clearly spontaneous at low temperatures. It becomes nonspontaneous only above 1333 K, where the entropy penalty overwhelms the enthalpy benefit."
+      },
+      "topic": "Gibbs Free Energy / Temperature Dependence",
+      "difficulty": "Hard",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_therm_009",
+      "stem": "In a bomb calorimeter (constant volume), the measured heat corresponds to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ΔH directly, with no correction needed"
+        },
+        {
+          "label": "B",
+          "text": "ΔG, the Gibbs free energy change"
+        },
+        {
+          "label": "C",
+          "text": "ΔU, the internal energy change — because no PV work is done at constant volume; ΔH = ΔU + ΔnRT for reactions involving gas-phase changes"
+        },
+        {
+          "label": "D",
+          "text": "ΔS, the entropy change"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Bomb calorimetry measures heat at constant volume (qᵥ = ΔU), not constant pressure (qₚ = ΔH). Coffee-cup calorimetry, performed at atmospheric pressure, directly measures ΔH. The two are related by ΔH = ΔU + Δ(PV) ≈ ΔU + ΔnRT for ideal gases, where Δn is the change in moles of gas.",
+        "B": "ΔG is not directly measured by calorimetry. ΔG = ΔH − TΔS requires knowledge of both enthalpy and entropy changes. Calorimeters measure heat transfer (ΔU or ΔH depending on conditions), not free energy. ΔG determines spontaneity, while calorimetry measures the thermal energy exchanged.",
+        "C": "Correct. At constant volume, no PV work is performed (w = −PΔV = 0 when ΔV = 0). By the first law: ΔU = q + w = qᵥ + 0 = qᵥ. So the heat measured in a bomb calorimeter equals ΔU. To convert to ΔH: ΔH = ΔU + Δ(PV). For reactions involving ideal gases: ΔH = ΔU + ΔnRT, where Δn = moles of gaseous products − moles of gaseous reactants. For reactions with no gas-phase change (Δn = 0), ΔH ≈ ΔU.",
+        "D": "Entropy change (ΔS) is not directly measured by bomb calorimetry. ΔS can be determined calorimetrically by measuring heat capacities as a function of temperature (Cₚ vs T curves) and applying the third law of thermodynamics, but a single combustion experiment in a bomb calorimeter does not yield ΔS."
+      },
+      "topic": "Bomb Calorimetry / ΔU vs ΔH",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_therm_010",
+      "stem": "The standard enthalpy of formation (ΔH°f) of O₂(g) is defined as zero because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "oxygen has no mass"
+        },
+        {
+          "label": "B",
+          "text": "the O=O bond has zero bond energy"
+        },
+        {
+          "label": "C",
+          "text": "oxygen cannot participate in any chemical reaction"
+        },
+        {
+          "label": "D",
+          "text": "O₂ is the standard state of elemental oxygen — by convention, the enthalpy of formation of any element in its most stable allotrope at 1 atm and 25 °C is defined as zero, establishing the reference point for all other ΔH°f values"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Oxygen has a molar mass of 32.00 g/mol (diatomic O₂). The zero ΔH°f is a thermodynamic convention about the reference state for enthalpy measurements, not a claim about mass. All elements have mass; their standard state enthalpies are set to zero by definition to create a consistent baseline.",
+        "B": "The O=O double bond has a substantial bond dissociation energy (498 kJ/mol). Zero ΔH°f does not imply zero bond energy — it means that O₂ in its standard state is the defined reference point from which other enthalpies are measured. Bond energy and standard enthalpy of formation are different thermodynamic quantities.",
+        "C": "Oxygen participates in combustion, respiration, corrosion, and countless other reactions. Its zero ΔH°f reflects a thermodynamic convention, not chemical inertness. O₂ is one of the most reactive common molecules, essential for aerobic metabolism and industrial chemistry.",
+        "D": "Correct. ΔH°f is defined as the enthalpy change for forming one mole of a compound from its constituent elements in their standard states. For an element already in its standard state (O₂ for oxygen, N₂ for nitrogen, C(graphite) for carbon, Fe(s) for iron), no reaction is needed — the 'reaction' is a null process with ΔH = 0 by definition. This convention creates the baseline from which all other formation enthalpies are measured. Note: ozone (O₃) has a nonzero ΔH°f (+142.7 kJ/mol) because it is not the most stable oxygen allotrope."
+      },
+      "topic": "Standard State / ΔH°f Convention",
+      "difficulty": "Easy",
+      "usePrevPassage": true
+    }
+  ],
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  }
+}

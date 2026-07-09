@@ -1,0 +1,225 @@
+{
+  "batch": "B302",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Learning, Reinforcement & Behavior Change",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_token_economy_adherence_302_q0",
+      "passage": "A residential treatment program introduced a token economy to increase participation in daily coping-skills practice. During the baseline week, residents completed 46% of assigned practice logs. During the first token week, residents earned points exchangeable for extra recreation time and completion rose to 71%. During a later week in which points were still recorded but no longer exchangeable, completion fell to 55%. Staff emphasized that the goal was to gradually pair practice with natural reinforcers such as improved mood and peer support.",
+      "usePrevPassage": false,
+      "stem": "The exchangeable points in the first token week functioned as what?",
+      "choices": {
+        "B": "Positive reinforcement",
+        "A": "Negative punishment",
+        "C": "Classical conditioning",
+        "D": "Stimulus generalization"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The points were added after completing practice logs and could be exchanged for a valued activity. Because adding a desirable consequence increased the target behavior, the points functioned as positive reinforcement.",
+        "A": "Negative punishment would involve removing a desired stimulus after behavior, which did not occur.",
+        "C": "Classical conditioning pairs stimuli; the passage focuses on consequences changing behavior.",
+        "D": "Stimulus generalization involves responding to similar stimuli, not earning exchangeable points."
+      },
+      "topic": "Learning",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_token_economy_adherence_302_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why did completion fall when points were no longer exchangeable?",
+      "choices": {
+        "D": "The reinforcing value of the points decreased when they no longer produced a meaningful reward",
+        "A": "The residents forgot how to complete logs",
+        "B": "The practice logs became unconditioned stimuli",
+        "C": "The staff stopped measuring behavior entirely"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Tokens work because they can be exchanged for something valuable. Once points were merely recorded, they lost much of their reinforcing power, so completion dropped toward baseline even though the behavior was still monitored.",
+        "A": "The passage gives no evidence that residents forgot the skill.",
+        "B": "Practice logs are not unconditioned stimuli that naturally trigger a response.",
+        "C": "The staff still recorded completion during the later week."
+      },
+      "topic": "Operant Conditioning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_token_economy_adherence_302_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Pairing practice with improved mood and peer support is intended to accomplish what?",
+      "choices": {
+        "A": "Shift behavior from artificial rewards toward natural reinforcement",
+        "B": "Punish all noncompliance",
+        "C": "Eliminate the need for coping skills",
+        "D": "Turn positive reinforcement into sensory adaptation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The staff wanted coping practice to become maintained by benefits that occur naturally in the treatment setting. That transition can make behavior more durable after the initial token system is faded.",
+        "B": "The goal was to increase practice, not punish all failures.",
+        "C": "Coping skills remain the target behavior rather than something to eliminate.",
+        "D": "Sensory adaptation is unrelated to reinforcement fading."
+      },
+      "topic": "Behavior Change",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_token_economy_adherence_302_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A program improving on this design would most likely do what?",
+      "choices": {
+        "C": "Fade token rewards gradually while strengthening natural sources of reinforcement",
+        "A": "Remove all rewards suddenly after the first improvement",
+        "B": "Use tokens that can never be exchanged for anything",
+        "D": "Tell residents that practice should not feel useful"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The decline after exchange value was removed suggests that abrupt or poorly supported fading can reduce adherence. Gradual fading while highlighting natural benefits would better maintain the behavior.",
+        "A": "Sudden removal produced a drop in completion, so it is not the best improvement.",
+        "B": "Nonexchangeable tokens were less effective in the passage.",
+        "D": "If practice is not connected to meaningful benefits, maintenance is less likely."
+      },
+      "topic": "Applied Behavior Analysis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_token_economy_adherence_302_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most justified?",
+      "choices": {
+        "B": "The token economy was associated with higher completion while the tokens retained exchange value",
+        "A": "Tokens permanently changed adherence without any need for follow-up",
+        "C": "Recording points without rewards was equally effective as exchangeable tokens",
+        "D": "The program proves coping practice cannot be intrinsically reinforced"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Completion rose most when points could be exchanged and fell when that exchange value disappeared. The safest conclusion is that the token economy improved completion while it functioned as a meaningful reinforcer.",
+        "A": "The decline after reward removal shows that permanence was not established.",
+        "C": "The nonexchangeable week had lower completion than the exchangeable week.",
+        "D": "The staff hoped natural reinforcers would eventually maintain practice, so intrinsic or natural reinforcement was not ruled out."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_cue_exposure_relapse_302_q5",
+      "passage": "A substance-use counseling study examined responses to cue-exposure sessions. Clients viewed images associated with prior alcohol use while practicing craving-management skills. Early sessions produced high craving ratings, but by the fourth session many clients reported weaker cravings and greater confidence in coping. Counselors emphasized that exposure occurred in a safe context without drinking, and that clients should also plan for high-risk settings outside the clinic where cues might be paired with stress or social pressure.",
+      "usePrevPassage": false,
+      "stem": "The decline in craving across repeated cue-exposure sessions most directly reflects what process?",
+      "choices": {
+        "A": "Extinction learning",
+        "B": "Positive punishment",
+        "C": "Role conflict",
+        "D": "Crystallized intelligence"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Repeated exposure to alcohol-related cues without drinking can weaken the learned cue-craving association. That pattern is consistent with extinction learning, especially when coping skills are practiced during exposure.",
+        "B": "Positive punishment involves adding an aversive consequence to reduce behavior, which is not the described mechanism.",
+        "C": "Role conflict is sociological and does not explain cue-induced craving.",
+        "D": "Crystallized intelligence concerns accumulated knowledge rather than conditioned craving."
+      },
+      "topic": "Learning",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_cue_exposure_relapse_302_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why did counselors warn about high-risk settings outside the clinic?",
+      "choices": {
+        "D": "Extinction learning can be context-dependent and challenged by stress or social pressure",
+        "A": "The clinic exposure made all future cravings impossible",
+        "B": "Cues outside the clinic are physically unable to trigger responses",
+        "C": "Social pressure is unrelated to relapse risk"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Learning that occurs in the clinic may not fully generalize to bars, parties, or stressful settings. Counselors therefore warned that cues paired with different contexts could still evoke craving and require coping plans.",
+        "A": "Extinction reduces responses but does not guarantee permanent elimination.",
+        "B": "The passage explicitly states that outside cues may remain risky.",
+        "C": "Social pressure is a well-described relapse risk and is mentioned directly."
+      },
+      "topic": "Behavior Change",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_cue_exposure_relapse_302_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Practicing craving-management skills during exposure is meant to increase what?",
+      "choices": {
+        "C": "Confidence in coping with conditioned cues",
+        "A": "The chemical potency of alcohol cues",
+        "B": "The number of unconditioned stimuli in the room",
+        "D": "Genetic resistance to alcohol"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The clients reported greater confidence as they practiced skills while experiencing cues. This reflects self-efficacy for managing cravings rather than a change in the physical nature of the cue.",
+        "A": "Cue images do not become chemically potent.",
+        "B": "The intervention is not about adding unconditioned stimuli.",
+        "D": "A counseling session does not alter genetic resistance."
+      },
+      "topic": "Self-Efficacy",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_cue_exposure_relapse_302_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which follow-up strategy best matches the counselors\u2019 warning?",
+      "choices": {
+        "B": "Rehearse coping plans for real-world cue contexts such as parties or stressful evenings",
+        "A": "Assume clinic practice fully solves relapse risk",
+        "C": "Avoid discussing social settings because they are not conditioned cues",
+        "D": "Tell clients to rely only on willpower and ignore planning"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. If extinction is context-dependent, then clients need strategies for the settings where cues and pressure actually occur. Planning for parties or stressors directly addresses the generalization problem.",
+        "A": "The counselors explicitly warned that clinic learning may not be enough.",
+        "C": "Social settings can contain cues and pressure that matter for relapse.",
+        "D": "Willpower alone ignores the learned and contextual nature of craving."
+      },
+      "topic": "Applied Learning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_cue_exposure_relapse_302_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which limitation should be noted?",
+      "choices": {
+        "D": "Lower cravings during sessions do not guarantee lower relapse in natural environments",
+        "A": "Craving ratings can never be useful",
+        "B": "Exposure cannot be studied scientifically",
+        "C": "Clients should not be asked about confidence"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Session ratings show learning in a controlled context, but relapse depends on many real-world factors. The clinic result is promising but needs follow-up outside the treatment room.",
+        "A": "Craving ratings can be informative even if they are not the only outcome.",
+        "B": "Exposure procedures can be studied systematically.",
+        "C": "Confidence is clinically relevant when evaluating coping skills."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

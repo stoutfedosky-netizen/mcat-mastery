@@ -1,0 +1,225 @@
+{
+  "batch": "B297",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Identity, Deviance & Social Control",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_labeling_school_discipline_297_q0",
+      "passage": "A sociology seminar reviewed school discipline records and student interviews. Students who had been repeatedly labeled as \u201ctroublemakers\u201d reported that teachers expected misbehavior from them even in classes where they had no prior incidents. Some students said that once they believed adults assumed the worst, they disengaged more from school and spent more time with peers who also felt rejected. Other students described supportive teachers who interrupted that pattern by emphasizing change rather than stigma.",
+      "usePrevPassage": false,
+      "stem": "The passage most directly illustrates which sociological theory?",
+      "choices": {
+        "C": "Labeling theory",
+        "A": "Drive-reduction theory",
+        "B": "Signal detection theory",
+        "D": "Gate-control theory"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The key idea is that being labeled a \u201ctroublemaker\u201d shaped how students were treated and how some of them came to view themselves. That is the central logic of labeling theory in the sociology of deviance.",
+        "A": "Drive-reduction theory concerns physiological motivation, not school labeling.",
+        "B": "Signal detection theory concerns perception under uncertainty.",
+        "D": "Gate-control theory is about pain modulation, not deviance or identity."
+      },
+      "topic": "Deviance",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_labeling_school_discipline_297_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why might repeated negative labels increase disengagement?",
+      "choices": {
+        "B": "Students may internalize expectations and shift their self-concept and peer affiliations",
+        "A": "Labels erase all agency instantly",
+        "C": "Disengagement occurs only because students forget class content",
+        "D": "Supportive teachers have no effect once a label exists"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. If students come to believe that authorities expect failure or misbehavior, those expectations can shape self-concept and behavior. The passage also notes movement toward peers who feel similarly rejected, reinforcing the pattern.",
+        "A": "The passage does not claim labels eliminate all agency.",
+        "C": "Forgetting class content is not the mechanism emphasized here.",
+        "D": "Supportive teachers are described as capable of interrupting the pattern."
+      },
+      "topic": "Identity and Socialization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_labeling_school_discipline_297_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Supportive teachers who emphasized change most directly counteracted what?",
+      "choices": {
+        "D": "The self-fulfilling dynamic created by stigma",
+        "A": "Sensory adaptation",
+        "B": "The James-Lange theory of emotion",
+        "C": "The placebo effect"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. By signaling that students could change rather than remain fixed in a negative category, supportive teachers weakened the self-fulfilling cycle that labeling theory predicts.",
+        "A": "Sensory adaptation is unrelated to school discipline and stigma.",
+        "B": "James-Lange theory does not explain identity effects of teacher labeling.",
+        "C": "The placebo effect is not the concept being countered."
+      },
+      "topic": "Social Control",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_labeling_school_discipline_297_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A school policy informed by this passage would most likely do what?",
+      "choices": {
+        "A": "Reduce stigmatizing labels and promote restorative, change-focused responses",
+        "B": "Publicly post lists of \u201ctroublemakers\u201d to warn teachers",
+        "C": "Treat first-time mistakes as permanent identity markers",
+        "D": "Assume peer groups cannot influence student behavior"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage suggests that stigma can intensify disengagement, whereas supportive, change-oriented responses can interrupt the cycle. A policy reducing labels and promoting restorative practices fits that evidence.",
+        "B": "Publicly reinforcing negative labels would likely worsen the pattern.",
+        "C": "The interviews show the opposite of this claim: change-focused responses mattered.",
+        "D": "Peer groups were explicitly mentioned as part of the trajectory."
+      },
+      "topic": "Applied Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_labeling_school_discipline_297_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which limitation should be kept in mind when interpreting these records and interviews?",
+      "choices": {
+        "D": "They show an important pattern but do not prove that labeling alone caused later disengagement",
+        "A": "Interviews can never provide useful data",
+        "B": "School records are invalid because they are written documents",
+        "C": "The passage cannot address theory because it contains no numbers"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Records and interviews can reveal meaningful patterns and mechanisms, but many factors may influence school disengagement, including family stress or prior conflict. The design supports interpretation, not absolute causal proof.",
+        "A": "Interviews can be highly informative in sociological research.",
+        "B": "Written records can still be valid data sources.",
+        "C": "Qualitative evidence can absolutely speak to theory even without many numbers."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_formal_informal_social_control_297_q5",
+      "passage": "A neighborhood association compared responses to repeated late-night noise complaints. In some apartment buildings, landlords enforced lease rules quickly and consistently. In others, residents relied more on direct communication, social pressure, and informal agreements among neighbors. Complaints fell in both settings when residents felt that others would respond predictably, but the source of that predictability differed. Interviewees said that either formal rules or trusted informal norms could reduce conflict when they were viewed as legitimate and fairly applied.",
+      "usePrevPassage": false,
+      "stem": "What is the main distinction drawn in the passage?",
+      "choices": {
+        "C": "The difference between formal and informal social control",
+        "A": "The difference between sensation and perception",
+        "B": "The difference between intrinsic and extrinsic motivation",
+        "D": "The difference between conditioned and unconditioned stimuli"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage contrasts landlord enforcement of formal lease rules with informal regulation through neighbors\u2019 communication and pressure. That is exactly the distinction between formal and informal social control.",
+        "A": "Sensation and perception are unrelated to housing complaint systems.",
+        "B": "Motivation theory is not the focus of the passage.",
+        "D": "Conditioning terms are not relevant to the described neighborhood responses."
+      },
+      "topic": "Social Control",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_formal_informal_social_control_297_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why did complaints fall in both settings?",
+      "choices": {
+        "B": "Residents expected behavior to be regulated in a predictable and legitimate way",
+        "A": "Noise became impossible to hear over time",
+        "C": "Residents moved away immediately after one complaint",
+        "D": "All buildings used the same exact enforcement method"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The passage emphasizes legitimacy and predictability as the common feature. Whether control was formal or informal, conflict declined when residents believed others would respond consistently and fairly.",
+        "A": "Habituation to noise is not the explanation offered.",
+        "C": "Immediate mass relocation is not part of the passage.",
+        "D": "The buildings used different methods, not the exact same one."
+      },
+      "topic": "Social Processes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_formal_informal_social_control_297_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Direct neighbor communication and social pressure are best classified as what?",
+      "choices": {
+        "A": "Informal social control",
+        "B": "Formal legal sanctions",
+        "C": "Physiological arousal",
+        "D": "Attachment security"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When behavior is regulated by everyday norms, expectations, and peer response rather than official authority, the process is informal social control. That is what the neighbors were using.",
+        "B": "Formal legal sanctions involve official authority and are better represented by lease enforcement.",
+        "C": "Physiological arousal is not the process in question.",
+        "D": "Attachment security is unrelated to neighborhood noise regulation."
+      },
+      "topic": "Social Control",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_formal_informal_social_control_297_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A housing manager applying the passage would most likely conclude that which approach works best?",
+      "choices": {
+        "C": "Any response system that is seen as fair, legitimate, and consistent is more likely to reduce conflict",
+        "A": "Conflict falls only when there are written laws",
+        "B": "Informal norms always fail in modern settings",
+        "D": "Residents do best when rules are unpredictable"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage does not claim one model is universally superior. Instead, it suggests that both formal and informal control can work when people see them as legitimate and predictably applied.",
+        "A": "The neighborhood comparison shows that informal norms can also help.",
+        "B": "The passage directly contradicts the idea that informal norms always fail.",
+        "D": "Predictability reduced conflict; unpredictability would not fit the findings."
+      },
+      "topic": "Applied Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_formal_informal_social_control_297_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most supported by the passage?",
+      "choices": {
+        "B": "Legitimacy may be as important as the specific source of social control in shaping compliance",
+        "A": "The formal system was proven superior in every respect",
+        "C": "Informal control matters only in families and not neighborhoods",
+        "D": "The study established a universal law about noise complaints"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Because complaints declined in both formal and informal systems when residents perceived legitimacy and fairness, the strongest takeaway is about those qualities rather than a single universally best enforcement source.",
+        "A": "The passage does not describe one approach as universally superior.",
+        "C": "Informal control was clearly active in a neighborhood setting.",
+        "D": "The small comparison supports interpretation, not a universal law."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "batch": "B245",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Moral Limits of Markets, Commodification & What Pricing Does to Goods",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_commodification_245_q0",
+      "passage": "In several capital cities one can now hire a professional to stand in line, overnight if necessary, for a seat at a legislative hearing or a landmark court argument. The seats are free; attendance is open to all; and yet, by morning, the front of the queue belongs disproportionately to lobbyists whose firms paid the standers by the hour. Nothing was stolen and no rule was broken. Both parties to each transaction preferred it to the alternative, and the economist's standard apparatus can only record the arrangement as an improvement, since the stander valued the wage above the night's sleep and the lobbyist valued the seat above the fee. The persistence of public unease in the face of this tidy accounting is either a confusion to be educated away or a datum to be explained, and which of the two has become a genuine question about the reach of markets.\n\nThe educating-away school has a straightforward case. Voluntary exchange between competent adults makes both better off by their own lights; forbidding it makes at least one of them worse off, usually the poorer one, since line-standing is income precisely for people whose time the market otherwise prices low. Discomfort at such trades, on this view, is often status anxiety or aesthetic distaste wearing the costume of principle, and history is littered with transactions once denounced as sacrilege, charging interest, insuring a life, selling burial plots, that are now unremarkable. The unease, in short, is real but uninformative, the friction of moral habits catching up to welfare gains.\n\nThe opposing school replies that the accounting misses what certain goods are. Some goods are constituted, not merely accompanied, by the way they are allocated. An apology delivered by a hired proxy is not a cheaper apology; it is not an apology at all. A prize awarded to the highest bidder is not the prize it was, since what made it worth wanting was that it could not be bought. On this account, the queue outside the hearing room was never mere waiting. It was the physical form of a commitment, that access to the people's business is rationed by willingness to show up rather than by ability to pay, and when the queue becomes purchasable, the commitment it embodied is not distributed differently but dissolved. The transaction's parties may both gain; the good itself is what loses.\n\nThere is also an empirical wrinkle that pure theory did not predict. Introducing payment into a practice can change the practice's meaning for everyone in it, including those not party to any transaction. The much-discussed day-care experiment, in which fining parents for late pickups increased lateness, is the emblem: the fine converted an obligation sustained by consideration into a service with a posted price, and the consideration, once crowded out, did not return when the fine was withdrawn. Markets, the lesson runs, are not inert containers into which goods can be placed and removed unchanged. They are environments that rework the motives and meanings of what they touch, and the reworking can be irreversible.\n\nDefenders of markets have a serious rejoinder here, and it deserves to be stated at full strength. Arguments from a good's meaning are conservative by construction: they take the current social understanding of a practice as given and treat its alteration as corruption, when the understanding itself may be parochial, recent, or convenient to those it flatters. Every expansion of the market's domain was opposed in its day by people certain that something sacred was being profaned, and most of those certainties now look like period costume. Who, exactly, is authorized to declare which meanings are essential to a good and which are habits mistaking themselves for essences? The corruption critique, pressed carelessly, hands that authority to whoever speaks most confidently for the status quo.\n\nWhat the rejoinder cannot dissolve, however, is the distributive remainder. Markets allocate by willingness to pay, and willingness to pay is bounded by ability to pay, so every good moved into the market inherits the existing distribution of income as its rationing principle. For yachts, this troubles few. For seats at a public hearing, for expedited justice, for the attention of elected officials, it converts economic inequality into inequality of exactly the goods that a democracy claims to distribute as badges of equal standing. One need not settle the metaphysics of corrupted meanings to notice that the question of what money should buy is really the question of what inequality of money should be allowed to decide.\n\nThe line-standing firms, for their part, describe themselves as suppliers of a service like any other, and within the frame of the transaction they are right. The dispute was never inside the frame. It is about which frames a society may draw around which goods, and that question, since it concerns the terms on which citizens face one another, cannot be delegated to the market whose boundaries are precisely what is being decided. It has to be argued, good by good, in public, which is to say slowly, and the queue for that argument, at least so far, cannot be outsourced.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Public unease about markets in previously unpriced goods is status anxiety that education in economics would dissolve."
+        },
+        {
+          "label": "B",
+          "text": "The dispute over paid line-standing and similar markets is ultimately about which goods' character and egalitarian distribution survive pricing, a boundary question that cannot itself be settled by the market and must be argued publicly, good by good."
+        },
+        {
+          "label": "C",
+          "text": "The day-care experiment proves that all monetary incentives permanently destroy the moral obligations they touch."
+        },
+        {
+          "label": "D",
+          "text": "Line-standing firms should be prohibited because their employees are exploited by lobbying firms."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice adopts the educating-away school's position, which the passage presents as one side of a live dispute and then subjects to the corruption critique, the crowding-out evidence, and the distributive remainder. The passage treats the unease as a datum demanding explanation at least as plausibly as a confusion to be dissolved.",
+        "B": "Correct. The passage stages the strongest cases on both sides, welfare gains and the conservatism objection against the corruption critique, then identifies what survives the exchange: some goods are constituted by their allocation, pricing converts income inequality into inequality of civic goods, and the framing question, concerning the terms on which citizens face one another, must be decided by public argument rather than delegated to the market whose boundaries are at issue.",
+        "C": "This choice inflates the fourth paragraph's emblematic case into a universal law. The experiment shows that payment can rework meanings and that the reworking can be irreversible; the passage draws a lesson about markets as active environments, not a claim that every incentive destroys every obligation permanently.",
+        "D": "This choice supplies both a policy and a rationale the passage avoids. No prohibition is proposed, and the exploitation frame is absent; the second paragraph in fact notes that line-standing is income for those whose time the market prices low, which cuts against a simple exploitation reading."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_commodification_245_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the fifth paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "concede that the corruption critique has identified which meanings are essential to each contested good."
+        },
+        {
+          "label": "B",
+          "text": "demonstrate that historical expansions of the market were uniformly harmless."
+        },
+        {
+          "label": "C",
+          "text": "argue that the day-care experiment was methodologically flawed."
+        },
+        {
+          "label": "D",
+          "text": "present, at full strength, the market defenders' rejoinder that corruption arguments risk enshrining parochial understandings and empowering confident spokesmen for the status quo."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice inverts the paragraph's challenge. Its pointed question, who is authorized to declare which meanings are essential and which are habits mistaking themselves for essences, denies that the corruption critique has settled any such identification, rather than conceding that it has.",
+        "B": "This choice overstates the paragraph's historical observation. The claim is that past certainties about profanation now look like period costume, an argument about the fallibility of meaning-based objections, not a verdict that every market expansion proved harmless.",
+        "C": "This choice targets the wrong paragraph and the wrong kind of objection. The day-care result appears in the fourth paragraph, and the fifth paragraph's rejoinder is philosophical, about the conservatism of meaning arguments, raising no methodological complaint against the experiment.",
+        "D": "Correct. The paragraph announces that the rejoinder deserves to be stated at full strength and delivers it: arguments from a good's meaning take current understandings as given, those understandings may be parochial or convenient, past declarations of sacrilege have repeatedly aged badly, and a careless corruption critique hands interpretive authority to whoever speaks most confidently for the status quo."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_commodification_245_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward the economist's standard accounting of the line-standing transaction is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "acknowledging its internal correctness while denying that it reaches the question actually in dispute, which concerns the frame around the transaction rather than the transaction itself."
+        },
+        {
+          "label": "B",
+          "text": "wholly contemptuous, treating welfare analysis as an intellectual fraud with nothing to record."
+        },
+        {
+          "label": "C",
+          "text": "fully persuaded, since the passage concludes that public unease is the friction of moral habits catching up to welfare gains."
+        },
+        {
+          "label": "D",
+          "text": "agnostic, since the passage takes no position on whether the accounting captures the dispute."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage repeatedly grants the accounting its due, both parties gain, no rule is broken, the firms are right within the frame of the transaction, while insisting that the dispute was never inside the frame: it concerns which frames a society may draw around which goods, a question about constitutive meanings and civic equality that the welfare ledger does not register.",
+        "B": "This choice misses the passage's concessions. An analysis credited as tidy, as recording genuine gains, and as right within its frame is being limited, not denounced as fraud; the author's quarrel is with the accounting's reach, not its arithmetic.",
+        "C": "This choice attributes to the author the second paragraph's position, which the passage presents as one school's case before setting the corruption critique, the crowding-out evidence, and the distributive remainder against it. The friction-of-habits line is the educating-away school's claim, not the conclusion.",
+        "D": "This choice mistakes a delivered verdict for suspended judgment. The final paragraph rules explicitly that the dispute lies outside the transaction's frame and must be settled by public argument, which is a position on exactly the question this choice says the passage avoids."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_commodification_245_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The phrase crowded out, as used in the fourth paragraph, most nearly refers to the process by which:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "wealthier buyers displace poorer ones from queues for scarce goods."
+        },
+        {
+          "label": "B",
+          "text": "excess demand for day-care placements exceeds available capacity."
+        },
+        {
+          "label": "C",
+          "text": "the introduction of a price converts a motive of consideration into a fee calculation, displacing the original obligation in a way that may not reverse when the price is removed."
+        },
+        {
+          "label": "D",
+          "text": "government provision of a service reduces private firms' incentive to supply it."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice describes the distributive displacement discussed in the sixth paragraph, ability to pay rationing access, not the motivational process the fourth paragraph names. The day-care parents were not outbid by anyone; their reasons for punctuality were transformed.",
+        "B": "This choice reads the phrase as a capacity problem, but the experiment involved no shortage of placements. The finding concerned lateness increasing once a fine converted an obligation into a priced service, a change in meaning rather than in supply.",
+        "C": "Correct. The paragraph explains that the fine converted an obligation sustained by consideration into a service with a posted price, and that the consideration, once crowded out, did not return when the fine was withdrawn; the phrase names the displacement of a non-market motive by a market frame, with the possibility that the displacement is irreversible.",
+        "D": "This choice imports a different, technical usage from public economics, in which state provision displaces private supply. Nothing in the paragraph concerns government services or firms' incentives; the subject is the transformation of parents' motives by a posted price."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_commodification_245_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A city's transit system offers a paid fast lane at security checkpoints for its airport line, and a civic group objects. Which objection most closely tracks the sixth paragraph's distributive argument, as distinct from the third paragraph's corruption argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Waiting together, regardless of wealth, expressed the equal standing of passengers, and a purchasable bypass dissolves what the common queue meant."
+        },
+        {
+          "label": "B",
+          "text": "Fast lanes will make ordinary security lines move more slowly for everyone who cannot pay."
+        },
+        {
+          "label": "C",
+          "text": "Airport security is too solemn a function to be associated with commercial upselling."
+        },
+        {
+          "label": "D",
+          "text": "Because access now tracks willingness to pay, which is bounded by ability to pay, the existing distribution of income becomes the rationing principle for a public service, converting economic inequality into unequal treatment by a public institution."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice is the corruption argument in nearly the third paragraph's own terms: the queue as the embodied form of a commitment to equal standing, dissolved rather than redistributed when purchase enters. The question asks for the distributive objection instead.",
+        "B": "This choice raises a congestion externality, a practical spillover onto non-payers, which is neither the corruption argument about constitutive meanings nor the sixth paragraph's point about income distribution becoming the rationing principle for civic goods.",
+        "C": "This choice expresses aesthetic or ceremonial distaste, precisely the kind of objection the second paragraph says can wear the costume of principle. It invokes neither a constitutive meaning being dissolved nor the inheritance of income inequality by the good's allocation.",
+        "D": "Correct. The sixth paragraph's argument is that markets ration by willingness to pay, which ability to pay bounds, so marketized goods inherit the income distribution as their rationing principle, which is tolerable for yachts but corrosive for goods a democracy distributes as badges of equal standing. This objection restates that structure for a public service without invoking corrupted meanings."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_commodification_245_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the fourth paragraph's claim that markets rework the motives and meanings of practices they enter, with effects that can be irreversible?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that the parents in the day-care experiment had varying household incomes."
+        },
+        {
+          "label": "B",
+          "text": "A broad replication program finding that in most practices where payments were introduced and later withdrawn, the prior norms of obligation returned promptly and fully, with the day-care result emerging as a rare outlier attributable to unusual features of that setting."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that some parents in the experiment were unaware a fine had been introduced."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that late pickups impose measurable costs on day-care staff."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice adds demographic detail without touching the mechanism. Income variation among the parents is compatible with the fine having converted an obligation into a priced service for all of them, so the claim about meaning-transformation stands.",
+        "B": "Correct. The paragraph generalizes from the day-care emblem: markets rework meanings, and the reworking can be irreversible. A replication program showing that withdrawn payments are typically followed by prompt, full restoration of prior norms, with the emblematic case an idiosyncratic outlier, would undercut both the generality of the reworking claim and its irreversibility, leaving the paragraph's lesson without its evidential base.",
+        "C": "This choice, if anything, complicates the experiment's interpretation only marginally, since the lateness increase would then have occurred with even fewer parents responding to the price signal. It does not address whether market framing transforms motives in the practices it enters.",
+        "D": "This choice establishes that lateness is genuinely costly, which is background to why a fine might be levied but irrelevant to whether pricing transformed the parents' motives or whether such transformations reverse."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_commodification_245_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the third paragraph's claim that some goods are constituted, not merely accompanied, by the way they are allocated?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Documentation across several domains that when honors previously conferred by merit became available for purchase, recipients and observers alike ceased to regard them as the same good, with demand among the honors' traditional aspirants collapsing even as the objects, ceremonies, and titles remained physically identical."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that the market price of collectible medals rises when their issuing institutions gain prestige."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that people who purchase goods at a discount enjoy them as much as those who pay full price."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that hired line-standers often take pride in their endurance."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The claim holds that for certain goods the allocation is part of the good itself, so changing the allocation changes what the good is, the bought prize is not the prize it was. Evidence that purchasable honors ceased to be regarded as the same good by all parties, with aspiration collapsing while every physical and ceremonial feature remained identical, isolates allocation as the constitutive element and confirms the claim directly.",
+        "B": "This choice shows that prestige affects price, an ordinary market relationship that treats the medal as a tradable object throughout. It does not test whether the honor's identity depends on being non-purchasable, which is what constitution by allocation means.",
+        "C": "This choice compares enjoyment across price levels within ordinary market allocation, where the passage's claim is not in play; yachts and discounted yachts are the same kind of good. The constitutive thesis concerns goods whose character depends on not being allocated by payment at all.",
+        "D": "This choice reports the standers' attitude toward their own labor, which bears on the dignity of the work rather than on whether the queue's meaning, or any good's identity, is constituted by its mode of allocation."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "batch": "B076",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Optics & Light",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_optics_001",
+      "passage": "A physics student studies image formation using thin lenses and mirrors. She places an object 30 cm in front of a converging (convex) lens with focal length f = 15 cm and calculates the image position, magnification, and characteristics using the thin lens equation: 1/f = 1/do + 1/di, and magnification m = -di/do. She then replaces the lens with a concave mirror of the same focal length. She also examines total internal reflection in optical fibers and Snell's law of refraction.",
+      "stem": "For the converging lens with f = 15 cm and object distance do = 30 cm, the image distance di is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "30 cm, calculated from 1/15 = 1/30 + 1/di → 1/di = 1/15 - 1/30 = 1/30, so di = 30 cm"
+        },
+        {
+          "label": "B",
+          "text": "15 cm"
+        },
+        {
+          "label": "C",
+          "text": "10 cm"
+        },
+        {
+          "label": "D",
+          "text": "-30 cm (virtual image)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Using the thin lens equation: 1/f = 1/do + 1/di → 1/15 = 1/30 + 1/di → 1/di = 1/15 - 1/30 = 2/30 - 1/30 = 1/30 → di = 30 cm. The positive di indicates a real image formed on the opposite side of the lens from the object. When an object is at 2f (twice the focal length), the image is also at 2f, with magnification m = -di/do = -30/30 = -1 (inverted, same size).",
+        "B": "15 cm is the focal length, not the image distance. An image at di = 15 cm (= f) would require 1/do = 1/f - 1/f = 0, meaning do = ∞. Objects at infinity form images at the focal point.",
+        "C": "di = 10 cm would require 1/do = 1/15 - 1/10 = 2/30 - 3/30 = -1/30, giving do = -30 cm (virtual object). With a real object at 30 cm, di = 10 cm is incorrect.",
+        "D": "di = -30 cm would indicate a virtual image on the same side as the object. This occurs when the object is inside the focal length of a converging lens (do < f), but here do = 30 cm > f = 15 cm, so the image is real and positive."
+      },
+      "topic": "Thin Lens Equation / Image Formation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_optics_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "For the same setup (do = 30 cm, f = 15 cm, converging lens), the image is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "virtual, upright, and magnified"
+        },
+        {
+          "label": "B",
+          "text": "real, inverted, and the same size as the object — because the object is at 2f"
+        },
+        {
+          "label": "C",
+          "text": "virtual, inverted, and smaller"
+        },
+        {
+          "label": "D",
+          "text": "real, upright, and magnified"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. With do = 2f, the image is real (di > 0), inverted (m = -1, negative magnification), and the same size as the object (|m| = 1). This is a special case: when the object is at exactly 2f from a converging lens, the image forms at 2f on the other side with unit magnification. For do > 2f, the image is real, inverted, and reduced. For f < do < 2f, the image is real, inverted, and magnified. For do < f, the image is virtual, upright, and magnified.",
+        "A": "Virtual, upright, magnified images are formed by converging lenses only when the object is inside the focal length (do < f). Here do = 30 cm > f = 15 cm, so the image is real and inverted.",
+        "C": "Virtual, inverted images do not occur with single thin lenses. Virtual images from converging lenses are always upright (formed when do < f). Inverted images are always real.",
+        "D": "Real images from a single converging lens are always inverted (m is negative when di is positive). An upright real image would violate the sign conventions of geometric optics."
+      },
+      "topic": "Image Characteristics / Converging Lens",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Total internal reflection in optical fibers requires that light travels:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "from a lower-n medium to a higher-n medium at any angle"
+        },
+        {
+          "label": "B",
+          "text": "from a higher-n medium (the fiber core) to a lower-n medium (the cladding) at an angle exceeding the critical angle"
+        },
+        {
+          "label": "C",
+          "text": "exactly along the normal to the interface"
+        },
+        {
+          "label": "D",
+          "text": "through a vacuum, where refraction cannot occur"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Total internal reflection (TIR) requires two conditions: (1) light must travel from a higher-n medium to a lower-n medium, and (2) the angle of incidence must exceed the critical angle (θc = arcsin(n₂/n₁)). In optical fibers, the core (high n, ~1.50) is surrounded by cladding (lower n, ~1.48). Light entering the fiber at steep angles exceeds θc at the core-cladding interface and is totally reflected back into the core, bouncing along the fiber with minimal loss — enabling long-distance signal transmission.",
+        "A": "TIR can only occur when light travels from a higher-n to a lower-n medium, not the reverse. Light going from low-n to high-n bends toward the normal and always partially transmits — TIR is impossible in this direction.",
+        "C": "At normal incidence (θ = 0°), light passes straight through without bending or reflecting. TIR requires angles greater than the critical angle, which is always greater than 0°.",
+        "D": "Optical fibers work with glass or plastic cores, not vacuum. TIR depends on the refractive index difference between two media. In vacuum, there is no interface and no refraction or reflection occurs."
+      },
+      "topic": "Total Internal Reflection / Optical Fibers",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_optics_003",
+      "passage": null,
+      "stem": "Snell's law of refraction states that n₁ sin θ₁ = n₂ sin θ₂. When light passes from water (n = 1.33) into air (n = 1.00) at an incident angle less than the critical angle, the refracted ray:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "bends toward the normal because air is denser"
+        },
+        {
+          "label": "B",
+          "text": "always undergoes total internal reflection"
+        },
+        {
+          "label": "C",
+          "text": "continues straight without bending"
+        },
+        {
+          "label": "D",
+          "text": "bends away from the normal because light speeds up in the less optically dense medium (air), and the refracted angle is greater than the incident angle"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Total internal reflection (TIR) occurs only when the incident angle exceeds the critical angle AND light travels from a denser to a less dense medium. At angles below θc, the light refracts normally. TIR is not guaranteed for all angles.",
+        "A": "Air is less optically dense (lower n) than water. Light bends away from the normal when entering a less dense medium, not toward it. Bending toward the normal occurs when entering a denser medium (e.g., air → glass).",
+        "C": "Light bends whenever it crosses a boundary between media with different refractive indices at a non-zero angle of incidence. It continues straight only at normal incidence (θ₁ = 0°) or when n₁ = n₂.",
+        "D": "Correct. When light passes from a higher-n medium (water, n=1.33) to a lower-n medium (air, n=1.00), it speeds up (v = c/n increases). By Snell's law, n₁ sin θ₁ = n₂ sin θ₂ → sin θ₂ = (n₁/n₂) sin θ₁ = 1.33 sin θ₁ > sin θ₁, so θ₂ > θ₁. The refracted ray bends away from the normal. At the critical angle (sin θc = n₂/n₁ = 1/1.33 ≈ 0.75, θc ≈ 49°), θ₂ = 90° and total internal reflection occurs for all angles above θc."
+      },
+      "topic": "Snell's Law / Refraction",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_optics_004",
+      "passage": null,
+      "stem": "A diverging (concave) lens always produces images that are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "real, inverted, and magnified"
+        },
+        {
+          "label": "B",
+          "text": "real, upright, and reduced"
+        },
+        {
+          "label": "C",
+          "text": "virtual, upright, and reduced — regardless of object distance"
+        },
+        {
+          "label": "D",
+          "text": "virtual, inverted, and magnified"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. A diverging lens (negative focal length) always produces virtual (di < 0), upright (m > 0), and reduced (|m| < 1) images regardless of where the object is placed. The image appears on the same side as the object and is always smaller. This is why concave (diverging) lenses are used to correct myopia (nearsightedness) — they reduce the converging power of the eye, moving the focal point back onto the retina.",
+        "A": "Diverging lenses never produce real or inverted images of real objects. Real, inverted images are produced by converging lenses (when do > f) and concave mirrors (when do > f).",
+        "B": "Diverging lenses produce virtual images, not real ones. The parallel rays diverge after passing through the lens, and the image is formed by tracing the diverging rays backward to their apparent intersection point.",
+        "D": "Diverging lens images are upright, not inverted. Since di is always negative (same side as object) and do is positive, m = -di/do is always positive (upright) and less than 1 (reduced)."
+      },
+      "topic": "Diverging Lens / Image Properties",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_006",
+      "passage": null,
+      "stem": "The focal length of a concave mirror is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "negative, because concave mirrors diverge light"
+        },
+        {
+          "label": "B",
+          "text": "equal to twice the radius of curvature"
+        },
+        {
+          "label": "C",
+          "text": "positive and equal to half the radius of curvature (f = R/2) — concave mirrors converge parallel rays to a real focal point"
+        },
+        {
+          "label": "D",
+          "text": "infinite for all concave mirrors"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. For a concave (converging) mirror, the focal length is positive and equals half the radius of curvature: f = R/2. Parallel rays striking a concave mirror are reflected and converge at the focal point, located at distance f in front of the mirror surface. The mirror equation (1/f = 1/do + 1/di) has the same form as the thin lens equation. Concave mirrors can form real or virtual images depending on object placement relative to f.",
+        "A": "Concave mirrors converge light and have positive focal lengths (by convention, the focal point is in front of the mirror). Convex (diverging) mirrors have negative focal lengths — their focal point is behind the mirror surface.",
+        "B": "The focal length is half the radius of curvature (f = R/2), not twice. If R = 20 cm, then f = 10 cm. The center of curvature (at R) is located at 2f from the mirror surface.",
+        "D": "Focal length is finite for curved mirrors. A flat (plane) mirror has an infinite focal length — parallel rays remain parallel after reflection, and no real focal point exists."
+      },
+      "topic": "Concave Mirror / Focal Length",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_007",
+      "passage": null,
+      "stem": "The electromagnetic spectrum, in order of increasing wavelength, is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "gamma rays → X-rays → UV → visible → infrared → microwaves → radio waves"
+        },
+        {
+          "label": "B",
+          "text": "radio waves → microwaves → infrared → visible → UV → X-rays → gamma rays"
+        },
+        {
+          "label": "C",
+          "text": "visible → UV → infrared → X-rays → gamma rays → radio waves"
+        },
+        {
+          "label": "D",
+          "text": "gamma rays → radio waves → visible → infrared → UV"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Electromagnetic radiation ranges from extremely short wavelength (gamma rays, λ < 10⁻¹² m) to extremely long wavelength (radio waves, λ > 1 m). The order of increasing wavelength (decreasing frequency/energy): gamma → X-ray → UV → visible (violet ~400 nm → red ~700 nm) → IR → microwave → radio. Energy per photon E = hf = hc/λ, so shorter wavelength = higher energy. Gamma rays carry the most energy per photon; radio waves carry the least.",
+        "B": "This order is correct for increasing frequency or energy, but the question asks for increasing wavelength, which is the reverse. Frequency and wavelength are inversely related: c = fλ.",
+        "C": "This sequence is scrambled and does not follow any consistent ordering of wavelength, frequency, or energy.",
+        "D": "This sequence is also scrambled. Gamma rays have the shortest wavelength, and radio waves have the longest, but they are not adjacent in the spectrum."
+      },
+      "topic": "Electromagnetic Spectrum / Wavelength Order",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_008",
+      "passage": null,
+      "stem": "When white light passes through a prism, it separates into its component colors because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "different wavelengths of light travel at different speeds in the glass (dispersion) — shorter wavelengths (violet) are refracted more than longer wavelengths (red) because the refractive index varies with wavelength"
+        },
+        {
+          "label": "B",
+          "text": "the prism absorbs all wavelengths except the visible spectrum"
+        },
+        {
+          "label": "C",
+          "text": "the prism converts light energy into heat, which produces colors"
+        },
+        {
+          "label": "D",
+          "text": "diffraction around the edges of the prism separates the colors"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Prisms are transparent — they transmit all visible wavelengths. The separation is due to differential refraction, not absorption. Colored filters work by absorption (absorbing complementary colors), but prisms work by refraction.",
+        "A": "Correct. Dispersion occurs because the refractive index of glass varies with wavelength — n is higher for shorter wavelengths (violet, n ≈ 1.53) than longer wavelengths (red, n ≈ 1.51). By Snell's law, a higher n produces more bending. Violet light is therefore refracted more sharply than red light at each prism surface, spreading white light into a continuous spectrum (ROYGBIV). This is the same phenomenon that creates rainbows — water droplets act as prisms.",
+        "C": "Prisms do not convert light to heat. The light energy is preserved — it is simply redirected at different angles depending on wavelength. The total energy of the exiting spectrum equals the energy of the entering white light (minus minor reflection losses).",
+        "D": "Diffraction (bending around obstacles) does separate wavelengths and is the basis of diffraction gratings. However, prism color separation is due to dispersion (wavelength-dependent refraction), not diffraction. Both produce spectra but by different physical mechanisms."
+      },
+      "topic": "Dispersion / Prism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_optics_009",
+      "passage": null,
+      "stem": "A myopic (nearsighted) person cannot focus on distant objects because the image forms:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "behind the retina, and is corrected with a converging lens"
+        },
+        {
+          "label": "B",
+          "text": "in the vitreous humor, and cannot be corrected with any lens"
+        },
+        {
+          "label": "C",
+          "text": "on the retina perfectly, requiring no correction"
+        },
+        {
+          "label": "D",
+          "text": "in front of the retina, because the eyeball is too long or the lens too powerful — corrected with a diverging (concave) lens that reduces the eye's converging power"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "The vitreous humor is the gel-like substance filling the eyeball. Images do not form in the vitreous — they form at the retina (the photosensitive layer at the back of the eye). Virtually all refractive errors can be corrected with appropriate lenses.",
+        "A": "Image forming behind the retina describes hyperopia (farsightedness), not myopia. Hyperopia is corrected with a converging (convex) lens that adds converging power to bring the focal point forward onto the retina.",
+        "C": "If the image formed perfectly on the retina, the person would have emmetropia (normal vision) and would not need corrective lenses.",
+        "D": "Correct. In myopia, the focal point of the relaxed eye falls in front of the retina — either because the eyeball is too long (axial myopia) or the cornea/lens is too powerful (refractive myopia). Distant objects are blurry because their image is already focused by the time light reaches the retina. A diverging (concave) lens with negative power reduces total convergence, pushing the focal point back onto the retina. The lens prescription is expressed in negative diopters (e.g., -3.0 D)."
+      },
+      "topic": "Myopia / Corrective Lenses",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_optics_010",
+      "passage": null,
+      "stem": "The power of a lens is measured in diopters (D) and is defined as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P = f (power equals focal length in cm)"
+        },
+        {
+          "label": "B",
+          "text": "P = f² (power equals the square of the focal length)"
+        },
+        {
+          "label": "C",
+          "text": "P = 1/f, where f is the focal length in meters — a shorter focal length means higher power"
+        },
+        {
+          "label": "D",
+          "text": "P = nf, where n is the refractive index and f is the focal length"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "B": "Power is inversely proportional to focal length (P = 1/f), not proportional to its square. Squaring the focal length has no physical meaning in the context of lens power.",
+        "A": "Power is the reciprocal of focal length, not equal to it. Additionally, the focal length must be in meters (not cm) for the result to be in diopters. A common MCAT trap is failing to convert cm to m before calculating power.",
+        "C": "Correct. Lens power P = 1/f (in meters), measured in diopters (D = m⁻¹). A lens with f = 0.5 m has power P = +2.0 D. Converging lenses have positive power (positive f); diverging lenses have negative power (negative f). Shorter focal lengths mean stronger lenses (more refraction per unit distance). Powers are additive for thin lenses in contact: Ptotal = P₁ + P₂, which is why optometrists combine lenses to fine-tune prescriptions.",
+        "D": "While the refractive index affects focal length through the lensmaker's equation (1/f = (n-1)(1/R₁ - 1/R₂)), power itself is simply defined as P = 1/f. The refractive index is already incorporated into the focal length value."
+      },
+      "topic": "Lens Power / Diopters",
+      "difficulty": "Easy"
+    }
+  ]
+}

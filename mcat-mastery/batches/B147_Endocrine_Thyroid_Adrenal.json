@@ -1,0 +1,335 @@
+{
+  "batch": "B147",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Endocrine System: Thyroid & Adrenal Axes",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "bb_endo2_001",
+      "stem": "The hypothalamic-pituitary-thyroid axis maintains thyroid hormone levels through negative feedback. TRH from the hypothalamus stimulates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "direct T₃/T₄ release from the thyroid without any intermediate step"
+        },
+        {
+          "label": "B",
+          "text": "TSH release from the anterior pituitary, which then stimulates the thyroid to synthesize and release T₃ and T₄"
+        },
+        {
+          "label": "C",
+          "text": "cortisol release from the adrenal medulla"
+        },
+        {
+          "label": "D",
+          "text": "insulin release from pancreatic β-cells"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "TRH does not act directly on the thyroid. It is released from hypothalamic neurons into the hypophyseal portal system and acts on thyrotrophs in the anterior pituitary to stimulate TSH secretion. TSH then travels through the systemic circulation to the thyroid gland. This two-step amplification cascade (TRH→TSH→T₃/T₄) is characteristic of hypothalamic-pituitary-target organ axes.",
+        "B": "Correct. The HPT axis operates through a three-tier hierarchy: (1) Hypothalamus releases TRH (thyrotropin-releasing hormone) into portal vessels. (2) TRH stimulates anterior pituitary thyrotrophs to secrete TSH (thyroid-stimulating hormone). (3) TSH binds TSH receptors on thyroid follicular cells, stimulating iodide uptake, thyroglobulin iodination, and T₃/T₄ synthesis and secretion. T₃/T₄ then negatively feed back on both the pituitary (suppressing TSH) and hypothalamus (suppressing TRH), completing the feedback loop.",
+        "C": "Cortisol is released from the adrenal cortex (zona fasciculata), not the adrenal medulla, and is regulated by the HPA axis (CRH→ACTH→cortisol), not the HPT axis. The adrenal medulla releases catecholamines (epinephrine, norepinephrine) under sympathetic nervous system control. TRH specifically targets the thyroid axis.",
+        "D": "Insulin release from pancreatic β-cells is regulated by blood glucose levels, incretins (GLP-1, GIP), and autonomic input — not by TRH. The HPT and insulin-glucose axes are independent endocrine systems with different hypothalamic, pituitary, and target organ components."
+      },
+      "topic": "HPT Axis / TRH-TSH-T₃/T₄",
+      "difficulty": "Easy",
+      "passage": "Endocrinologists study the hypothalamic-pituitary-thyroid (HPT) and hypothalamic-pituitary-adrenal (HPA) axes in patients with endocrine disorders. They measure serum TSH, free T₄, cortisol, and ACTH levels to distinguish primary (gland failure), secondary (pituitary failure), and tertiary (hypothalamic failure) causes of hormone deficiency or excess. They observe that in primary hypothyroidism, TSH is elevated (loss of negative feedback from low T₄), while in secondary hypothyroidism, both TSH and T₄ are low (pituitary cannot produce TSH). They also study how chronic stress activates the HPA axis and how exogenous glucocorticoid therapy can suppress endogenous cortisol production through feedback inhibition."
+    },
+    {
+      "id": "bb_endo2_002",
+      "stem": "In primary hypothyroidism, serum TSH is elevated because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the thyroid gland overproduces T₃/T₄, stimulating TSH release"
+        },
+        {
+          "label": "B",
+          "text": "the pituitary gland has been destroyed and cannot regulate TSH"
+        },
+        {
+          "label": "C",
+          "text": "low circulating T₃/T₄ from the failing thyroid reduces negative feedback on the anterior pituitary, causing unopposed TSH secretion"
+        },
+        {
+          "label": "D",
+          "text": "TSH and T₄ always move in the same direction"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "In primary hypothyroidism, the thyroid underproduces T₃/T₄ — that is the definition of hypothyroidism. Overproduction would be hyperthyroidism (e.g., Graves' disease), which causes suppressed TSH through increased negative feedback, not elevated TSH.",
+        "B": "In primary disease, the gland itself fails, not the pituitary. The pituitary is intact and functioning normally — it appropriately increases TSH output in response to low T₄ levels. Pituitary destruction would cause secondary hypothyroidism with low TSH and low T₄.",
+        "C": "Correct. Primary hypothyroidism: the thyroid gland fails (autoimmune destruction in Hashimoto's thyroiditis, iodine deficiency, surgical removal). Low T₃/T₄ reduces negative feedback on the anterior pituitary thyrotrophs → TSH rises as the pituitary attempts to stimulate the failing thyroid. The combination of high TSH + low free T₄ is the hallmark of primary hypothyroidism and is the most common pattern seen clinically.",
+        "D": "TSH and T₄ move in opposite directions in primary thyroid disease due to negative feedback. High TSH with low T₄ indicates primary hypothyroidism; low TSH with high T₄ indicates primary hyperthyroidism. They move in the same direction only in secondary (pituitary) disease or TSH-secreting adenomas."
+      },
+      "topic": "Primary Hypothyroidism / Feedback",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_endo2_003",
+      "stem": "T₃ is the more biologically active thyroid hormone. Most circulating T₃ is produced by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "direct secretion from the hypothalamus"
+        },
+        {
+          "label": "B",
+          "text": "conversion from glucose in the liver"
+        },
+        {
+          "label": "C",
+          "text": "the adrenal glands under ACTH stimulation"
+        },
+        {
+          "label": "D",
+          "text": "peripheral conversion of T₄ to T₃ by deiodinase enzymes in target tissues — the thyroid secretes mostly T₄, which serves as a prohormone converted to active T₃ in liver, kidney, and other tissues"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The hypothalamus produces TRH (a small tripeptide), not T₃. T₃ is a modified amino acid (iodinated tyrosine derivative) produced by the thyroid gland and by peripheral deiodination of T₄. The hypothalamus regulates the thyroid axis through TRH but does not synthesize thyroid hormones.",
+        "B": "T₃ is not derived from glucose. It is an iodinated tyrosine derivative synthesized by iodination and coupling of tyrosine residues on thyroglobulin in the thyroid follicle. Peripheral T₃ production involves removal of one iodine atom from T₄ by deiodinase enzymes, not glucose metabolism.",
+        "C": "The adrenal glands produce cortisol (zona fasciculata), aldosterone (zona glomerulosa), and androgens (zona reticularis) under ACTH and angiotensin II stimulation. They do not produce thyroid hormones. Thyroid hormone synthesis requires iodine, thyroglobulin, and thyroid peroxidase — components specific to thyroid follicular cells.",
+        "D": "Correct. The thyroid secretes approximately 80% T₄ and 20% T₃. T₄ (thyroxine, four iodine atoms) has a longer half-life (~7 days) and serves as a circulating reservoir. Peripheral 5'-deiodinase enzymes (types 1 and 2) remove one iodine from T₄'s outer ring to produce T₃ (triiodothyronine, three iodines), which binds nuclear thyroid hormone receptors with ~10× higher affinity than T₄. Type 3 deiodinase produces reverse T₃ (rT₃, inactive). This peripheral activation system allows tissue-specific regulation of thyroid hormone action."
+      },
+      "topic": "T₃/T₄ / Peripheral Deiodination",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_endo2_004",
+      "stem": "The HPA axis stress response begins when the hypothalamus releases CRH, which stimulates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "T₃ and T₄ release from thyroid follicular cells"
+        },
+        {
+          "label": "B",
+          "text": "ACTH release from anterior pituitary corticotrophs, which then stimulates cortisol synthesis in the adrenal cortex"
+        },
+        {
+          "label": "C",
+          "text": "epinephrine release from the posterior pituitary"
+        },
+        {
+          "label": "D",
+          "text": "growth hormone release from the thyroid gland"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "T₃/T₄ release is stimulated by TSH, not CRH. CRH (corticotropin-releasing hormone) specifically targets corticotrophs in the anterior pituitary to release ACTH. The HPT axis (TRH→TSH→T₃/T₄) and HPA axis (CRH→ACTH→cortisol) are parallel but independent hypothalamic-pituitary-target organ systems.",
+        "B": "Correct. The HPA axis: (1) Stress signals (physical, psychological, inflammatory) activate hypothalamic paraventricular nucleus neurons to release CRH (and AVP) into the hypophyseal portal system. (2) CRH stimulates ACTH (adrenocorticotropic hormone) secretion from anterior pituitary corticotrophs. (3) ACTH travels through the blood to the adrenal cortex zona fasciculata, where it stimulates cortisol synthesis from cholesterol via the steroidogenic pathway. Cortisol then feeds back negatively on both the pituitary and hypothalamus to limit HPA axis activation.",
+        "C": "Epinephrine is released from the adrenal medulla (not the posterior pituitary) under sympathetic nervous system control (preganglionic cholinergic neurons). The posterior pituitary releases ADH and oxytocin. CRH acts on the anterior pituitary, not the posterior pituitary, and stimulates ACTH, not catecholamines.",
+        "D": "Growth hormone is released from anterior pituitary somatotrophs under GHRH (growth hormone-releasing hormone) stimulation, not CRH. The thyroid gland produces thyroid hormones, not growth hormone. CRH is specific to the corticotroph-adrenal axis."
+      },
+      "topic": "HPA Axis / CRH-ACTH-Cortisol",
+      "difficulty": "Easy",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_endo2_005",
+      "stem": "Chronic exogenous glucocorticoid therapy (e.g., prednisone) can cause adrenal atrophy because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "exogenous glucocorticoids suppress CRH and ACTH through negative feedback — prolonged ACTH suppression causes the adrenal cortex to atrophy from disuse, and abrupt drug withdrawal can precipitate adrenal crisis"
+        },
+        {
+          "label": "B",
+          "text": "prednisone directly destroys adrenal cortical cells through toxicity"
+        },
+        {
+          "label": "C",
+          "text": "glucocorticoids stimulate ACTH release, causing adrenal hyperplasia"
+        },
+        {
+          "label": "D",
+          "text": "the adrenal glands only function during childhood and naturally atrophy in adults"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Exogenous glucocorticoids are recognized by the same receptors that respond to endogenous cortisol. High circulating glucocorticoid levels suppress CRH (hypothalamus) and ACTH (pituitary) through negative feedback. Without ACTH stimulation, the adrenal cortex (particularly the zona fasciculata) undergoes atrophy over weeks to months. If the exogenous drug is stopped abruptly, the atrophied adrenals cannot produce sufficient cortisol → adrenal crisis (hypotension, shock, death). This is why glucocorticoid therapy must be tapered slowly, allowing the HPA axis to recover.",
+        "B": "Prednisone does not directly destroy adrenal cells. The atrophy results from lack of trophic stimulation — ACTH maintains adrenal cortical mass and function, and its suppression by exogenous glucocorticoids causes the adrenal cortex to involute. This is a functional consequence of feedback suppression, not direct cellular toxicity.",
+        "C": "Exogenous glucocorticoids suppress ACTH through negative feedback — they do not stimulate it. ACTH stimulation would cause adrenal hyperplasia (enlarged adrenals), the opposite of atrophy. Cushing's disease (ACTH-secreting pituitary adenoma) causes bilateral adrenal hyperplasia because of chronic ACTH excess.",
+        "D": "The adrenal glands function throughout life. They are essential for cortisol production, aldosterone regulation, and adrenal androgen synthesis from puberty onward. Congenital adrenal hyperplasia and Addison's disease demonstrate that adrenal function is critical at all ages."
+      },
+      "topic": "Exogenous Glucocorticoids / Adrenal Suppression",
+      "difficulty": "Hard",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_endo2_006",
+      "stem": "Cortisol's metabolic effects during stress include:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stimulating glucose uptake into muscle via GLUT4, identical to insulin's action"
+        },
+        {
+          "label": "B",
+          "text": "suppressing gluconeogenesis and promoting glycogen storage in the liver"
+        },
+        {
+          "label": "C",
+          "text": "increasing hepatic gluconeogenesis, promoting peripheral protein catabolism, and mobilizing fatty acids — collectively raising blood glucose to fuel the stress response"
+        },
+        {
+          "label": "D",
+          "text": "directly stimulating thyroid hormone synthesis in the thyroid follicle"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Cortisol opposes insulin's effects on peripheral glucose uptake. It causes insulin resistance in muscle and adipose tissue, reducing GLUT4-mediated glucose uptake. This ensures glucose is preserved for the brain and other vital organs during stress. Cortisol and insulin are counter-regulatory with respect to blood glucose.",
+        "B": "Cortisol promotes hepatic gluconeogenesis (converting amino acids and glycerol to glucose), not suppresses it. It induces gluconeogenic enzymes (PEPCK, glucose-6-phosphatase) and provides substrates (amino acids from peripheral protein catabolism). Cortisol raises blood glucose, functioning as a counter-regulatory hormone opposite to insulin.",
+        "C": "Correct. Cortisol is a catabolic hormone that mobilizes energy substrates during stress: (1) increases hepatic gluconeogenesis (induces PEPCK, G6Pase), (2) promotes peripheral protein catabolism (providing amino acid substrates for gluconeogenesis and hepatic acute-phase protein synthesis), (3) stimulates lipolysis (releasing fatty acids and glycerol), (4) causes peripheral insulin resistance (preserving glucose for the brain). The net effect is elevated blood glucose, free fatty acids, and amino acids — a metabolic mobilization that supports the fight-or-flight response.",
+        "D": "Cortisol does not stimulate thyroid hormone synthesis. Thyroid function is regulated by the HPT axis (TRH→TSH→T₃/T₄). In fact, chronic stress and high cortisol levels can suppress TSH secretion, contributing to the 'euthyroid sick syndrome' (low T₃ during critical illness). The HPA and HPT axes are separate systems."
+      },
+      "topic": "Cortisol Metabolic Effects / Stress",
+      "difficulty": "Medium",
+      "passage": "The endocrinologists investigate the adrenal gland's dual structure. The adrenal cortex (three zones: glomerulosa → aldosterone, fasciculata → cortisol, reticularis → androgens) produces steroid hormones from cholesterol. The adrenal medulla, derived from neural crest cells, produces catecholamines (epinephrine ~80%, norepinephrine ~20%) under sympathetic preganglionic cholinergic stimulation. They study how cortisol's metabolic effects — gluconeogenesis, protein catabolism, lipolysis, anti-inflammatory and immunosuppressive actions — serve the stress response, and how aldosterone regulates sodium retention and potassium excretion in the distal nephron."
+    },
+    {
+      "id": "bb_endo2_007",
+      "stem": "Aldosterone acts primarily on the kidney to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "promote sodium reabsorption and potassium excretion in the distal tubule and collecting duct — acting through mineralocorticoid receptors to upregulate ENaC and Na⁺/K⁺-ATPase"
+        },
+        {
+          "label": "B",
+          "text": "block all water reabsorption in the collecting duct"
+        },
+        {
+          "label": "C",
+          "text": "excrete sodium and retain potassium in the distal nephron"
+        },
+        {
+          "label": "D",
+          "text": "directly filter proteins at the glomerulus"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Aldosterone binds intracellular mineralocorticoid receptors in principal cells of the distal convoluted tubule and collecting duct. The hormone-receptor complex acts as a transcription factor, upregulating: (1) ENaC (epithelial sodium channel) on the apical membrane — increasing Na⁺ entry from lumen, (2) Na⁺/K⁺-ATPase on the basolateral membrane — driving Na⁺ out and K⁺ in, (3) ROMK channels — increasing K⁺ secretion into the lumen. Net effect: sodium retention, potassium excretion, and secondary water retention. Regulated by the renin-angiotensin-aldosterone system (RAAS) and serum K⁺ levels.",
+        "B": "Aldosterone does not block water reabsorption. By increasing sodium reabsorption, it creates an osmotic gradient that secondarily promotes water reabsorption (water follows sodium). ADH (vasopressin) is the primary hormone controlling water permeability in the collecting duct through AQP2 insertion.",
+        "C": "Aldosterone has the opposite effect: it promotes sodium reabsorption (retention) and potassium excretion (loss). Excreting sodium and retaining potassium describes the state of aldosterone deficiency (Addison's disease), where patients develop hyponatremia and hyperkalemia.",
+        "D": "Glomerular filtration is a passive, pressure-driven process determined by hydrostatic and oncotic pressures across the filtration barrier. Aldosterone acts downstream in the distal nephron on tubular transport, not on glomerular filtration. Proteins are normally retained by the glomerular filtration barrier (podocytes, basement membrane), not filtered."
+      },
+      "topic": "Aldosterone / Na⁺ Reabsorption / K⁺ Excretion",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_endo2_008",
+      "stem": "The adrenal medulla releases epinephrine in response to sympathetic activation. Epinephrine differs from cortisol in that epinephrine:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "acts over hours to days through nuclear receptor-mediated gene transcription"
+        },
+        {
+          "label": "B",
+          "text": "is a steroid hormone synthesized from cholesterol"
+        },
+        {
+          "label": "C",
+          "text": "is released under ACTH stimulation from the anterior pituitary"
+        },
+        {
+          "label": "D",
+          "text": "acts within seconds through G protein-coupled receptors (adrenergic receptors) — producing rapid cardiovascular, metabolic, and bronchial responses, while cortisol acts over hours through intracellular nuclear receptors and gene transcription"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Epinephrine acts within seconds to minutes through cell-surface adrenergic receptors (α₁, α₂, β₁, β₂, β₃) coupled to G proteins. The rapid signaling (cAMP, IP₃/DAG, Ca²⁺ cascades) enables immediate physiological responses. Hours-to-days action through nuclear receptors describes cortisol and other steroid hormones.",
+        "B": "Epinephrine is a catecholamine derived from the amino acid tyrosine (tyrosine → L-DOPA → dopamine → norepinephrine → epinephrine). It is water-soluble and acts at cell-surface receptors. Cortisol is the steroid hormone synthesized from cholesterol through the steroidogenic pathway (cholesterol → pregnenolone → progesterone → 11-deoxycortisol → cortisol).",
+        "C": "Epinephrine release from the adrenal medulla is controlled by the sympathetic nervous system (preganglionic cholinergic neurons synapsing on chromaffin cells), not by ACTH. ACTH stimulates cortisol synthesis in the adrenal cortex. The medulla and cortex have different embryological origins (neural crest vs mesoderm), different regulatory inputs, and produce different hormone classes.",
+        "D": "Correct. Epinephrine binds adrenergic GPCRs, triggering rapid intracellular signaling cascades: β₁ (heart: increased rate and contractility), β₂ (bronchi: dilation; liver/muscle: glycogenolysis), α₁ (peripheral vasoconstriction). Effects begin in seconds. Cortisol, as a lipophilic steroid, crosses the cell membrane, binds cytoplasmic glucocorticoid receptors, and the complex translocates to the nucleus to modulate gene transcription — effects emerge over hours. Both serve the stress response, but on different timescales: epinephrine for immediate fight-or-flight, cortisol for sustained metabolic support."
+      },
+      "topic": "Epinephrine vs Cortisol / Timescale",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_endo2_009",
+      "stem": "Cushing's syndrome results from chronic cortisol excess. Which finding would distinguish ACTH-dependent Cushing's (e.g., pituitary adenoma) from ACTH-independent Cushing's (e.g., adrenal tumor)?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "elevated cortisol levels — both forms show this"
+        },
+        {
+          "label": "B",
+          "text": "serum ACTH level — high ACTH with high cortisol indicates ACTH-dependent disease (pituitary overproduction), while suppressed ACTH with high cortisol indicates ACTH-independent disease (autonomous adrenal cortisol production)"
+        },
+        {
+          "label": "C",
+          "text": "serum glucose level — only ACTH-dependent Cushing's causes hyperglycemia"
+        },
+        {
+          "label": "D",
+          "text": "thyroid hormone levels — only ACTH-independent Cushing's affects the thyroid"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Both forms of Cushing's syndrome show elevated cortisol — that is what defines the syndrome. Cortisol levels alone cannot distinguish the source. The distinguishing test is ACTH, which reveals whether the excess cortisol is being driven by ACTH (pituitary or ectopic source) or produced autonomously by the adrenal gland.",
+        "B": "Correct. ACTH measurement is the key discriminator. ACTH-dependent (pituitary adenoma or ectopic ACTH from lung cancer): ACTH is inappropriately normal or high despite elevated cortisol (the adenoma is insensitive to normal feedback). ACTH-independent (adrenal adenoma/carcinoma): the adrenal tumor autonomously produces cortisol, which suppresses CRH and ACTH through intact feedback → ACTH is low/undetectable. Further tests (high-dose dexamethasone suppression, inferior petrosal sinus sampling) distinguish pituitary from ectopic ACTH sources.",
+        "C": "Both forms of Cushing's syndrome cause hyperglycemia through cortisol's gluconeogenic and insulin-resistant effects. The metabolic consequences of cortisol excess (hyperglycemia, central obesity, muscle wasting, osteoporosis, immune suppression) are the same regardless of whether the excess is ACTH-driven or adrenal-autonomous.",
+        "D": "Neither form of Cushing's syndrome primarily targets the thyroid axis. While chronic cortisol excess can suppress TSH somewhat, thyroid hormone levels are not the distinguishing feature between ACTH-dependent and ACTH-independent Cushing's. The distinction is made by measuring ACTH, not thyroid hormones."
+      },
+      "topic": "Cushing's Syndrome / ACTH-Dependent vs Independent",
+      "difficulty": "Hard",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_endo2_010",
+      "stem": "The adrenal cortex zones can be remembered as 'salt, sugar, sex' (glomerulosa, fasciculata, reticularis). The reticularis produces:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cortisol for the stress response"
+        },
+        {
+          "label": "B",
+          "text": "aldosterone for sodium regulation"
+        },
+        {
+          "label": "C",
+          "text": "adrenal androgens (primarily DHEA and androstenedione) — weak androgens that contribute to puberty, female androgen physiology, and can be peripherally converted to testosterone and estrogens"
+        },
+        {
+          "label": "D",
+          "text": "epinephrine for the fight-or-flight response"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Cortisol ('sugar') is produced by the zona fasciculata, the middle layer of the adrenal cortex. The fasciculata expresses the enzymes for cortisol synthesis (17α-hydroxylase, 21-hydroxylase, 11β-hydroxylase) and is the primary target of ACTH stimulation.",
+        "B": "Aldosterone ('salt') is produced by the zona glomerulosa, the outermost layer of the adrenal cortex. The glomerulosa uniquely expresses aldosterone synthase (CYP11B2) and is regulated primarily by angiotensin II and serum potassium, not by ACTH.",
+        "C": "Correct. The zona reticularis ('sex') produces adrenal androgens: DHEA (dehydroepiandrosterone), DHEA-sulfate, and androstenedione. These are weak androgens that serve as precursors for peripheral conversion to testosterone and estrogens. In females, adrenal androgens are a significant source of circulating androgens. Excess production (congenital adrenal hyperplasia, adrenal tumors) causes virilization. The reticularis develops around adrenarche (age 6-8) and is the source of early pubic and axillary hair development.",
+        "D": "Epinephrine is produced by the adrenal medulla (chromaffin cells), not the cortex. The medulla is embryologically derived from neural crest cells and is functionally part of the sympathetic nervous system, while the cortex derives from mesoderm and produces steroid hormones."
+      },
+      "topic": "Adrenal Cortex Zones / DHEA",
+      "difficulty": "Easy",
+      "usePrevPassage": true
+    }
+  ],
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  }
+}

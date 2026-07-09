@@ -1,0 +1,351 @@
+{
+  "batch": "B120",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Emotion, Stress & Coping II",
+  "questionCount": 10,
+  "answerDistribution": {
+    "C": 3,
+    "A": 2,
+    "D": 2,
+    "B": 3
+  },
+  "questions": [
+    {
+      "id": "ps_stress2_001",
+      "passage": "Researchers expose volunteers to a standardized social-evaluative stressor: preparing a speech, speaking before expressionless judges, and performing difficult mental arithmetic aloud. A non-evaluative control group performs comparable arithmetic alone.\n\nTime | Mean heart rate | Mean salivary cortisol\nBaseline | 70 beats/min | 5 nmol/L\n2 min after onset | 104 beats/min | 6 nmol/L\n20 min after onset | 88 beats/min | 18 nmol/L\n\nParticipants who rate the task as highly threatening and their coping resources as inadequate show larger cortisol responses. The non-evaluative group shows smaller cardiovascular, endocrine, and subjective responses.\n\nIn a second session, some participants receive a synthetic glucocorticoid before testing. Their ACTH and endogenous cortisol responses are reduced. Researchers interpret this finding using negative feedback within the hypothalamic-pituitary-adrenal (HPA) axis. A separate longitudinal sample shows that repeated occupational stress is associated with elevated blood pressure, central adiposity, impaired glucose regulation, and inflammatory markers. The investigators describe this multisystem accumulation as allostatic load rather than as a single stress-hormone measurement.",
+      "stem": "Which sequence correctly describes activation of the HPA axis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ACTH → CRH → cortisol"
+        },
+        {
+          "label": "B",
+          "text": "Cortisol → epinephrine → CRH"
+        },
+        {
+          "label": "C",
+          "text": "CRH → ACTH → cortisol"
+        },
+        {
+          "label": "D",
+          "text": "Epinephrine → cortisol → ACTH"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "ACTH is released from the anterior pituitary in response to hypothalamic CRH, so it does not normally initiate the sequence upstream of CRH. The HPA axis follows a defined endocrine sequence: hypothalamic CRH stimulates pituitary ACTH, which stimulates adrenal-cortex cortisol.",
+        "B": "Cortisol participates mainly in downstream effects and negative feedback. Epinephrine belongs primarily to the sympathetic-adrenal-medullary response rather than forming the middle of the HPA sequence. The HPA axis follows a defined endocrine sequence: hypothalamic CRH stimulates pituitary ACTH, which stimulates adrenal-cortex cortisol.",
+        "C": "Correct. Stress-related hypothalamic CRH stimulates anterior-pituitary ACTH release, and ACTH stimulates the adrenal cortex to secrete cortisol. The delayed cortisol peak relative to heart rate fits this multistep endocrine pathway. The HPA axis follows a defined endocrine sequence: hypothalamic CRH stimulates pituitary ACTH, which stimulates adrenal-cortex cortisol. Feedback from cortisol restrains upstream release.",
+        "D": "Epinephrine is rapidly released from the adrenal medulla through sympathetic activation. It neither precedes CRH as the required HPA trigger nor causes ACTH after cortisol. The HPA axis follows a defined endocrine sequence: hypothalamic CRH stimulates pituitary ACTH, which stimulates adrenal-cortex cortisol."
+      },
+      "topic": "HPA Axis / Hormonal Sequence",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_stress2_002",
+      "passage": null,
+      "stem": "Why does heart rate rise before cortisol peaks?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sympathetic catecholamine signaling acts rapidly, while the multistep HPA endocrine response develops more slowly"
+        },
+        {
+          "label": "B",
+          "text": "Cortisol cannot affect cardiovascular function"
+        },
+        {
+          "label": "C",
+          "text": "ACTH is stored in sympathetic neurons"
+        },
+        {
+          "label": "D",
+          "text": "Heart rate is controlled only by voluntary muscles"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Autonomic neural output and adrenal-medullary catecholamines change cardiac activity within seconds to minutes. CRH, ACTH, adrenal steroid synthesis, and distribution require more time, producing the later cortisol peak. Sympathetic-adrenal-medullary activation is rapid and catecholamine driven, whereas the HPA cortisol response is slower and endocrine. Both can occur during the same stressor on different timescales.",
+        "B": "Cortisol can influence vascular tone and metabolism, especially over longer intervals. Its slower peak does not imply that it has no cardiovascular effects. Sympathetic-adrenal-medullary activation is rapid and catecholamine driven, whereas the HPA cortisol response is slower and endocrine.",
+        "C": "ACTH is produced by anterior-pituitary corticotrophs rather than stored in sympathetic postganglionic neurons. The two systems interact but use different signaling routes. Sympathetic-adrenal-medullary activation is rapid and catecholamine driven, whereas the HPA cortisol response is slower and endocrine.",
+        "D": "The heart is involuntary cardiac muscle regulated by autonomic, endocrine, and intrinsic mechanisms. Voluntary skeletal-muscle control does not explain the measured timing. Sympathetic-adrenal-medullary activation is rapid and catecholamine driven, whereas the HPA cortisol response is slower and endocrine."
+      },
+      "topic": "Acute Stress / SAM vs HPA Timing",
+      "difficulty": "Medium",
+      "passageRef": "ps_stress2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stress2_003",
+      "passage": null,
+      "stem": "The association between threat appraisal and cortisol response most strongly supports the idea that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "All people respond identically to an objective stressor"
+        },
+        {
+          "label": "B",
+          "text": "Cortisol creates the external stressor"
+        },
+        {
+          "label": "C",
+          "text": "Only unconscious conflict produces stress"
+        },
+        {
+          "label": "D",
+          "text": "Cognitive appraisal influences the physiological stress response"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Participants exposed to the same standardized task showed different responses related to appraisal, directly contradicting identical reactivity. Appraisal determines whether a demand is perceived as threatening and whether coping resources seem sufficient.",
+        "B": "The speech and arithmetic task precede the cortisol response. Cortisol participates in adaptation but does not create the external demand. Appraisal determines whether a demand is perceived as threatening and whether coping resources seem sufficient.",
+        "C": "Psychodynamic processes can influence distress, but the experiment specifically measures conscious evaluation of threat and coping resources. Appraisal determines whether a demand is perceived as threatening and whether coping resources seem sufficient.",
+        "D": "Correct. Primary appraisal evaluates threat, while secondary appraisal evaluates available coping resources. Viewing demands as high and resources as inadequate predicts stronger HPA activation even when the objective task is shared. Appraisal determines whether a demand is perceived as threatening and whether coping resources seem sufficient. The same objective task can therefore produce different stress responses across people."
+      },
+      "topic": "Stress Appraisal / Lazarus Model",
+      "difficulty": "Medium",
+      "passageRef": "ps_stress2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stress2_004",
+      "passage": null,
+      "stem": "A participant creates a detailed practice schedule to improve performance on the speech task. This is primarily:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Emotion-focused avoidance"
+        },
+        {
+          "label": "B",
+          "text": "Problem-focused coping"
+        },
+        {
+          "label": "C",
+          "text": "Projection"
+        },
+        {
+          "label": "D",
+          "text": "Learned helplessness"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Avoidance manages distress by disengaging and does not directly change preparation. Practice instead acts on a controllable aspect of the stressor. Problem-focused coping targets the stressor itself; emotion-focused coping targets the emotional response.",
+        "B": "Correct. Problem-focused coping attempts to alter the demand or increase resources. Building skill and preparation may reduce the performance gap, whereas emotion-focused strategies would primarily regulate anxiety about the task. Problem-focused coping targets the stressor itself; emotion-focused coping targets the emotional response. Effectiveness depends partly on whether the stressor is controllable.",
+        "C": "Projection attributes one's own unacceptable state to someone else. It does not describe deliberate skill preparation. Problem-focused coping targets the stressor itself; emotion-focused coping targets the emotional response.",
+        "D": "Learned helplessness involves reduced effort after uncontrollable aversive experiences. Creating a schedule demonstrates perceived control and active coping. Problem-focused coping targets the stressor itself; emotion-focused coping targets the emotional response."
+      },
+      "topic": "Coping Strategies / Problem Focus",
+      "difficulty": "Easy",
+      "passageRef": "ps_stress2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stress2_005",
+      "passage": null,
+      "stem": "Why is the longitudinal pattern described as allostatic load?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It represents one brief heart-rate increase"
+        },
+        {
+          "label": "B",
+          "text": "It proves cortisol is always harmful"
+        },
+        {
+          "label": "C",
+          "text": "It reflects cumulative dysregulation across cardiovascular, metabolic, and immune systems"
+        },
+        {
+          "label": "D",
+          "text": "It measures only conscious anxiety"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "A transient adaptive response is allostasis, but load refers to accumulated wear from repeated or poorly regulated activation over time. Allostatic load is cumulative physiological wear from repeated adaptation, not a single cortisol value.",
+        "B": "Cortisol is adaptive in acute stress and helps mobilize energy. Harm depends on intensity, duration, recovery, and system context rather than the hormone being universally toxic. Allostatic load is cumulative physiological wear from repeated adaptation, not a single cortisol value.",
+        "C": "Correct. Elevated pressure, central adiposity, impaired glucose control, and inflammation span multiple systems. Their co-occurrence during chronic stress illustrates cumulative physiological cost rather than a single biomarker. Allostatic load is cumulative physiological wear from repeated adaptation, not a single cortisol value. It integrates neuroendocrine, cardiovascular, metabolic, and immune burden over time.",
+        "D": "Self-reported anxiety is psychological and relevant, but the reported index includes objective multisystem physiology. Allostatic load is cumulative physiological wear from repeated adaptation, not a single cortisol value."
+      },
+      "topic": "Allostatic Load / Chronic Stress",
+      "difficulty": "Hard",
+      "passageRef": "ps_stress2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stress2_006",
+      "passage": "Participants receive an injection producing sympathetic arousal such as increased heart rate and tremor. One group is accurately told to expect these effects; a second group is told the injection has no noticeable effects. Each participant then waits with a confederate who behaves either euphorically or angrily. Uninformed participants report emotions that more closely match the confederate's behavior, whereas accurately informed participants attribute much of their arousal to the injection. Assignment to information and confederate conditions is randomized, and emotion ratings are collected before participants are debriefed.\n\nIn a separate task, performance is measured at low, moderate, and high arousal. Moderate arousal produces the best performance on a moderately difficult task, while very high arousal impairs accuracy. For a simple, well-practiced task, performance remains strong at a higher arousal level. The researchers compare these findings with the Schachter-Singer two-factor theory, James-Lange theory, Cannon-Bard theory, misattribution of arousal, and the Yerkes-Dodson law.",
+      "stem": "The confederate effect among uninformed participants most directly supports:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Drive-reduction theory"
+        },
+        {
+          "label": "B",
+          "text": "Schachter-Singer two-factor theory"
+        },
+        {
+          "label": "C",
+          "text": "Opponent-process theory"
+        },
+        {
+          "label": "D",
+          "text": "Signal-detection theory"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Drive reduction explains behavior aimed at restoring physiological homeostasis, not context-dependent labeling of ambiguous arousal. Two-factor theories separate undifferentiated physiological arousal from the cognitive label supplied by context.",
+        "B": "Correct. Two-factor theory proposes that emotion results from physiological arousal plus a cognitive label derived from context. When no injection explanation was available, participants used the confederate's behavior to interpret arousal as euphoria or anger. Two-factor theories separate undifferentiated physiological arousal from the cognitive label supplied by context. Manipulating information or social cues can therefore alter experienced emotion.",
+        "C": "Opponent-process theory emphasizes an opposing affective reaction that strengthens after repeated exposure. It does not predict immediate social labeling of injected arousal. Two-factor theories separate undifferentiated physiological arousal from the cognitive label supplied by context.",
+        "D": "Signal-detection theory analyzes decisions under uncertainty using sensitivity and response bias. It is not a theory of emotional arousal labeling. Two-factor theories separate undifferentiated physiological arousal from the cognitive label supplied by context."
+      },
+      "topic": "Two-Factor Theory / Emotion Labeling",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_stress2_007",
+      "passage": null,
+      "stem": "Why were accurately informed participants less influenced by the confederate?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They had no physiological arousal"
+        },
+        {
+          "label": "B",
+          "text": "They could not perceive the confederate"
+        },
+        {
+          "label": "C",
+          "text": "Information blocked epinephrine receptors"
+        },
+        {
+          "label": "D",
+          "text": "They could attribute arousal to the injection rather than the social context"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The injection still produced bodily arousal. The difference was the interpretation available for that arousal, not its complete absence. James-Lange theory places bodily change before conscious emotional experience, whereas Cannon-Bard proposes simultaneous central generation of feeling and physiological response.",
+        "B": "Participants were placed with and observed the confederate; impaired perception is not described. James-Lange theory places bodily change before conscious emotional experience, whereas Cannon-Bard proposes simultaneous central generation of feeling and physiological response.",
+        "C": "Verbal information does not pharmacologically antagonize adrenergic receptors. It changes appraisal and attribution rather than receptor occupancy. James-Lange theory places bodily change before conscious emotional experience, whereas Cannon-Bard proposes simultaneous central generation of feeling and physiological response.",
+        "D": "Correct. Accurate information supplied a plausible causal label for heart rate and tremor. With less ambiguous arousal, participants had less need to infer emotion from the confederate's behavior. James-Lange theory places bodily change before conscious emotional experience, whereas Cannon-Bard proposes simultaneous central generation of feeling and physiological response."
+      },
+      "topic": "Attribution of Arousal",
+      "difficulty": "Medium",
+      "passageRef": "ps_stress2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stress2_008",
+      "passage": null,
+      "stem": "Which result would James-Lange theory most directly predict?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Perception of a stimulus produces bodily changes that are interpreted as emotion"
+        },
+        {
+          "label": "B",
+          "text": "Emotion and bodily arousal arise simultaneously and independently"
+        },
+        {
+          "label": "C",
+          "text": "Cognitive labels are unnecessary because context determines physiology"
+        },
+        {
+          "label": "D",
+          "text": "Emotion occurs before any physiological response"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. James-Lange theory proposes stimulus → physiological response → conscious interpretation of that response as emotion. Different bodily patterns were historically proposed to contribute to different emotional experiences. Misattribution occurs when arousal generated by one source is interpreted using cues from another. A valid inference requires arousal plus ambiguity about its origin.",
+        "B": "Simultaneous central production of feeling and arousal is the Cannon-Bard position, developed partly in response to limitations of James-Lange theory. Misattribution occurs when arousal generated by one source is interpreted using cues from another.",
+        "C": "Context labeling is central to Schachter-Singer theory, not a reason cognition is unnecessary. The statement is internally inconsistent. Misattribution occurs when arousal generated by one source is interpreted using cues from another.",
+        "D": "Placing emotion before physiology reverses the James-Lange order. Misattribution occurs when arousal generated by one source is interpreted using cues from another."
+      },
+      "topic": "James-Lange Theory",
+      "difficulty": "Easy",
+      "passageRef": "ps_stress2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stress2_009",
+      "passage": null,
+      "stem": "The performance results are most consistent with which conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Maximum arousal always maximizes accuracy"
+        },
+        {
+          "label": "B",
+          "text": "Arousal never affects practiced tasks"
+        },
+        {
+          "label": "C",
+          "text": "Optimal arousal depends on task difficulty, with an intermediate level often best"
+        },
+        {
+          "label": "D",
+          "text": "Only low arousal permits learning"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Very high arousal impaired the moderately difficult task, so a monotonic maximum-performance relationship is unsupported. Yerkes-Dodson predicts an inverted-U relation between arousal and performance, with complex tasks generally optimized at lower arousal than simple or well-practiced tasks.",
+        "B": "The simple task tolerated higher arousal, but that does not mean arousal has no effect under any condition. Yerkes-Dodson predicts an inverted-U relation between arousal and performance, with complex tasks generally optimized at lower arousal than simple or well-practiced tasks.",
+        "C": "Correct. The inverted-U pattern predicts poor performance at very low or very high arousal, with an optimum between them. More difficult tasks generally reach their optimum at lower arousal than simple, practiced tasks. Yerkes-Dodson predicts an inverted-U relation between arousal and performance, with complex tasks generally optimized at lower arousal than simple or well-practiced tasks.",
+        "D": "Moderate arousal produced the best measured performance, contradicting the claim that only low arousal permits learning or execution. Yerkes-Dodson predicts an inverted-U relation between arousal and performance, with complex tasks generally optimized at lower arousal than simple or well-practiced tasks."
+      },
+      "topic": "Yerkes-Dodson Law",
+      "difficulty": "Medium",
+      "passageRef": "ps_stress2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_stress2_010",
+      "passage": null,
+      "stem": "What is the main value of including accurately informed and uninformed injection groups?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To ensure every participant reports the same emotion"
+        },
+        {
+          "label": "B",
+          "text": "To separate physiological arousal from the explanation available for labeling it"
+        },
+        {
+          "label": "C",
+          "text": "To eliminate all expectancy effects automatically"
+        },
+        {
+          "label": "D",
+          "text": "To measure genetic differences in epinephrine receptors"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The design predicts different reports under different information and social contexts. Uniform emotion would obscure the effect being tested. Experimental controls distinguish the effects of injected arousal, information, and social context.",
+        "B": "Correct. Both groups receive arousal, but only one receives an accurate causal explanation. Comparing them isolates how attributional information changes reliance on situational cues when labeling bodily activation. Experimental controls distinguish the effects of injected arousal, information, and social context. Without those comparisons, emotional reports cannot be attributed to any one component.",
+        "C": "Information can itself create expectancy effects; the design measures their influence rather than eliminating every expectancy. Experimental controls distinguish the effects of injected arousal, information, and social context.",
+        "D": "No genotype or receptor assay is described. The manipulated variable is information, not inherited receptor variation. Experimental controls distinguish the effects of injected arousal, information, and social context."
+      },
+      "topic": "Experimental Design / Attribution Control",
+      "difficulty": "Hard",
+      "passageRef": "ps_stress2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

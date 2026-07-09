@@ -1,0 +1,338 @@
+{
+  "batch": "B107",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Separations & Spectroscopy",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_spec_001",
+      "passage": "An organic chemistry student studies analytical techniques for identifying molecular structure. She uses infrared spectroscopy (IR) to identify functional groups, ¹H NMR to determine hydrogen environments, UV-visible spectroscopy to study conjugation and electronic transitions, and mass spectrometry to determine molecular weight and fragmentation patterns. She also employs separation techniques including distillation, extraction, and chromatography (column, TLC, HPLC, GC) to purify compounds.",
+      "stem": "In infrared (IR) spectroscopy, a broad absorption around 2500-3300 cm⁻¹ is most characteristic of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a C=O stretch of a ketone"
+        },
+        {
+          "label": "B",
+          "text": "an O-H stretch of a carboxylic acid — the broad, strong absorption in this region results from extensive hydrogen bonding, which broadens and shifts the O-H stretch to lower frequencies compared to an isolated hydroxyl"
+        },
+        {
+          "label": "C",
+          "text": "a C-H stretch of an alkane"
+        },
+        {
+          "label": "D",
+          "text": "a C≡C stretch of an alkyne"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Ketone C=O stretch appears as a strong, sharp peak at ~1715 cm⁻¹, not a broad absorption at 2500-3300 cm⁻¹. The C=O stretch is one of the most recognizable IR features — always strong and sharp.",
+        "B": "Correct. Carboxylic acid O-H stretch: very broad, strong absorption spanning ~2500-3300 cm⁻¹, often overlapping with C-H stretches. The extreme breadth results from strong, variable hydrogen bonding in carboxylic acid dimers. Key IR absorptions for MCAT: O-H (alcohol): broad, 3200-3550 cm⁻¹; O-H (carboxylic acid): very broad, 2500-3300 cm⁻¹; N-H: medium, 3300-3500 cm⁻¹ (1 peak 2° amine, 2 peaks 1° amine); C=O: strong, sharp, 1700-1750 cm⁻¹; C-H: 2850-3000 cm⁻¹. The carbonyl C=O of the carboxylic acid also appears at ~1710 cm⁻¹.",
+        "C": "Alkane C-H stretches appear at 2850-3000 cm⁻¹ as sharper peaks. While they overlap with the carboxylic acid O-H region, C-H peaks are narrower and less intense than the characteristic broad carboxylic acid O-H.",
+        "D": "C≡C stretch appears at ~2100-2260 cm⁻¹ as a weak to medium peak (often absent in symmetric alkynes due to zero dipole moment change). This is in the 'triple bond region,' not the broad O-H region."
+      },
+      "topic": "IR Spectroscopy / O-H Stretch / Carboxylic Acid",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_spec_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In ¹H NMR spectroscopy, the number of signals (peaks) in the spectrum indicates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the molecular weight of the compound"
+        },
+        {
+          "label": "B",
+          "text": "the boiling point of the compound"
+        },
+        {
+          "label": "C",
+          "text": "the number of carbon atoms in the molecule"
+        },
+        {
+          "label": "D",
+          "text": "the number of distinct hydrogen environments in the molecule — chemically equivalent hydrogens produce one signal, while chemically nonequivalent hydrogens produce separate signals"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Molecular weight is determined by mass spectrometry (molecular ion peak, M⁺), not NMR. NMR provides structural information about hydrogen environments.",
+        "B": "Boiling point is a physical property determined by intermolecular forces, not by NMR. NMR provides structural information, not physical property measurements.",
+        "C": "The number of carbon atoms is determined by ¹³C NMR (number of ¹³C signals = number of distinct carbon environments) or from the molecular formula. ¹H NMR counts hydrogen environments, not carbons.",
+        "D": "Correct. ¹H NMR: each chemically distinct set of hydrogens produces one signal. Chemical equivalence is determined by molecular symmetry: hydrogens that can be interconverted by a symmetry operation (rotation, mirror plane) are equivalent. Example: ethanol (CH₃CH₂OH) has 3 distinct H environments → 3 signals: CH₃ (triplet, 3H), CH₂ (quartet, 2H), OH (singlet, 1H). Signal characteristics: chemical shift (δ, ppm — position indicates electronic environment), integration (area proportional to number of equivalent H's), and splitting pattern (n+1 rule — interaction with neighboring nonequivalent H's)."
+      },
+      "topic": "¹H NMR / Chemical Equivalence",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_spec_003",
+      "passage": null,
+      "stem": "Mass spectrometry helps determine molecular weight and infer structural features by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "measuring the absorption of infrared light by molecular bonds"
+        },
+        {
+          "label": "B",
+          "text": "measuring the rotation of plane-polarized light"
+        },
+        {
+          "label": "C",
+          "text": "measuring the magnetic properties of hydrogen nuclei"
+        },
+        {
+          "label": "D",
+          "text": "ionizing molecules, separating the resulting ions by mass-to-charge ratio (m/z), and detecting them — the molecular ion peak (M⁺) gives the molecular weight, and fragmentation patterns reveal structural information"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "IR light absorption describes infrared spectroscopy, which identifies functional groups through characteristic bond vibrations.",
+        "B": "Rotation of plane-polarized light describes polarimetry, which measures optical activity (presence of chiral centers). An optically active compound rotates plane-polarized light clockwise (+, dextrorotatory) or counterclockwise (-, levorotatory).",
+        "C": "Magnetic properties of hydrogen nuclei describes ¹H NMR spectroscopy, which maps hydrogen environments based on nuclear spin transitions in a magnetic field.",
+        "D": "Correct. Mass spectrometry (MS): (1) ionization — molecules are converted to gas-phase ions (electron ionization: M + e⁻ → M⁺• + 2e⁻; or softer methods: ESI, MALDI); (2) separation by m/z — using magnetic/electric fields (sector MS), time of flight (TOF), or quadrupole filters; (3) detection — ion current proportional to abundance. The mass spectrum shows: molecular ion peak (M⁺, gives MW), base peak (most abundant fragment), and fragmentation pattern (losses of characteristic groups: -15 for CH₃, -18 for H₂O, -28 for CO, -45 for OEt). High-resolution MS gives exact mass → molecular formula."
+      },
+      "topic": "Mass Spectrometry / m/z / Fragmentation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_spec_004",
+      "passage": null,
+      "stem": "UV-visible spectroscopy is most useful for studying:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the mass of individual atoms"
+        },
+        {
+          "label": "B",
+          "text": "the vibrational frequencies of individual bonds"
+        },
+        {
+          "label": "C",
+          "text": "conjugated π systems and electronic transitions — molecules with extended conjugation (multiple alternating double bonds) absorb at longer wavelengths, and Beer's Law (A = εlc) relates absorbance to concentration"
+        },
+        {
+          "label": "D",
+          "text": "the nuclear spin states of carbon-13 atoms"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Atomic mass is determined by mass spectrometry, not UV-vis. UV-vis studies molecular electronic structure, not individual atomic properties.",
+        "B": "Vibrational frequencies of individual bonds are studied by IR spectroscopy (~400-4000 cm⁻¹), not UV-vis. UV-vis involves higher-energy electronic transitions, not lower-energy vibrational transitions.",
+        "C": "Correct. UV-vis spectroscopy measures electronic transitions (π→π*, n→π*, etc.). Key principles: (1) conjugated systems absorb UV-vis light — more extended conjugation → longer λ_max (red shift). (2) Beer-Lambert Law: A = εlc (absorbance = molar absorptivity × path length × concentration). This allows quantitative analysis: measuring A at a known ε and l gives concentration c. Applications: quantifying DNA/protein concentration (260/280 nm), measuring enzyme kinetics (substrate/product absorbance changes), studying drug-receptor binding. Chromophores (light-absorbing groups) include C=C, C=O, aromatic rings, and conjugated systems.",
+        "D": "Carbon-13 nuclear spin states are studied by ¹³C NMR spectroscopy. UV-vis does not involve nuclear magnetic resonance."
+      },
+      "topic": "UV-Vis / Conjugation / Beer's Law",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_spec_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Thin-layer chromatography (TLC) separates compounds based on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "their molecular weight only, with heavier molecules migrating farther"
+        },
+        {
+          "label": "B",
+          "text": "their boiling points"
+        },
+        {
+          "label": "C",
+          "text": "their differential affinity for the stationary phase (silica gel, polar) and mobile phase (solvent, variable polarity) — more polar compounds interact more strongly with polar silica gel and migrate less, while less polar compounds travel farther up the plate"
+        },
+        {
+          "label": "D",
+          "text": "their radioactivity"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "TLC separates by polarity/intermolecular interactions, not molecular weight. Size-exclusion chromatography (SEC/gel filtration) separates by molecular size.",
+        "B": "Boiling point separation is achieved by distillation. TLC separates based on differential interactions with the stationary and mobile phases, independent of boiling point.",
+        "C": "Correct. TLC (normal phase): stationary phase = silica gel (SiO₂·xH₂O — very polar, with surface silanol groups Si-OH). Mobile phase = organic solvent (variable polarity). Separation: polar compounds bind silica through H-bonding and dipole interactions → travel slowly (low Rf). Nonpolar compounds have weak silica interaction → travel with the solvent front (high Rf). Rf = distance traveled by compound / distance traveled by solvent front (0-1). Increasing solvent polarity → all compounds travel farther. TLC is used to: monitor reaction progress, determine optimal column chromatography conditions, identify compounds by co-spotting with standards.",
+        "D": "Radioactivity is a nuclear property unrelated to chromatographic separation. Radioactive compounds can be detected on TLC plates using autoradiography, but separation is still based on polarity interactions."
+      },
+      "topic": "TLC / Rf / Polarity Separation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_spec_006",
+      "passage": null,
+      "stem": "Column chromatography is a preparative separation technique that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "separates compounds based on their absorption of UV light"
+        },
+        {
+          "label": "B",
+          "text": "separates and collects purified fractions — a mixture is loaded onto a column packed with stationary phase (silica gel), and compounds elute at different rates based on their polarity, allowing collection of individual components"
+        },
+        {
+          "label": "C",
+          "text": "measures the mass-to-charge ratio of ions"
+        },
+        {
+          "label": "D",
+          "text": "determines the three-dimensional structure of proteins by X-ray diffraction"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "UV light absorption is used for detection in HPLC and UV-vis spectroscopy, but it is not the separation mechanism in column chromatography.",
+        "B": "Correct. Column chromatography scales up TLC principles for preparative isolation. A glass column is packed with silica gel (or alumina), the mixture is loaded, and solvent (eluent) flows through by gravity or pressure (flash chromatography). Compounds elute sequentially: least polar first (weakest silica interaction), most polar last. Fractions are collected in test tubes and analyzed (TLC, UV). Gradient elution (progressively increasing solvent polarity) improves separation. HPLC (high-performance liquid chromatography) uses high pressure and small particle size for faster, higher-resolution analytical and preparative separations.",
+        "C": "Mass-to-charge ratio measurement describes mass spectrometry, an analytical technique distinct from chromatography.",
+        "D": "Protein 3D structure by X-ray diffraction describes X-ray crystallography, which requires protein crystals and synchrotron radiation. This is a structural biology technique, not a separation method."
+      },
+      "topic": "Column Chromatography / Preparative Separation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_spec_007",
+      "passage": null,
+      "stem": "In ¹H NMR, a signal at δ 9-10 ppm is most consistent with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an alkyl hydrogen (CH₃, CH₂)"
+        },
+        {
+          "label": "B",
+          "text": "a vinyl hydrogen on a carbon-carbon double bond"
+        },
+        {
+          "label": "C",
+          "text": "an aldehyde hydrogen (H-C=O) — the strong deshielding effect of the adjacent carbonyl and the anisotropy of the C=O bond push this signal far downfield to ~9-10 ppm"
+        },
+        {
+          "label": "D",
+          "text": "a hydrogen on a saturated carbon bonded only to other carbons"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Alkyl hydrogens (CH₃, CH₂ in simple saturated environments) appear at δ 0.5-2.0, far upfield from the aldehyde region.",
+        "B": "Vinyl hydrogens (=C-H) appear at δ 4.5-6.5, well below the aldehyde region. The moderate deshielding comes from the sp² carbon's increased electronegativity and the anisotropy of the C=C bond.",
+        "C": "Correct. ¹H NMR chemical shift ranges for MCAT: alkyl (R-CH₃): δ 0.9-1.0; allylic: δ 1.5-2.5; α to C=O: δ 2.0-2.5; α to O or N: δ 3.3-4.0; vinyl (=CH): δ 4.5-6.5; aromatic (ArH): δ 6.5-8.5; aldehyde (H-C=O): δ 9-10; carboxylic acid (COOH): δ 10-12. The aldehyde proton at δ 9-10 is strongly deshielded by the electron-withdrawing C=O group and the magnetic anisotropy of the carbonyl. This is a distinctive, diagnostic signal — very few other protons appear this far downfield.",
+        "D": "Hydrogens on saturated carbons bonded only to other carbons (methyl, methylene) appear at δ 0.5-1.5, the most shielded (upfield) region of the ¹H NMR spectrum."
+      },
+      "topic": "¹H NMR / Chemical Shift / Aldehyde",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_spec_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Distillation separates liquids based on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "their color differences"
+        },
+        {
+          "label": "B",
+          "text": "differences in boiling point — the liquid with the lower boiling point (higher vapor pressure) vaporizes first and is collected by condensation, leaving the higher-boiling component behind"
+        },
+        {
+          "label": "C",
+          "text": "their density differences in a centrifuge"
+        },
+        {
+          "label": "D",
+          "text": "their solubility in different solvents"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Color is not the basis for distillation. Colorless and colored liquids are separated equally well by distillation if they have different boiling points.",
+        "B": "Correct. Simple distillation: heating a liquid mixture → the more volatile component (lower bp) vaporizes preferentially → vapor passes through a condenser → condensed liquid (distillate) is collected. Effective when bp difference is >25°C. Fractional distillation (using a fractionating column for multiple vaporization-condensation cycles) is used when bp difference is smaller (<25°C), providing better separation. Vacuum distillation reduces pressure → lowers bp → allows distillation of thermally sensitive compounds. Applications: petroleum refining (crude oil → fractions), solvent purification, ethanol production.",
+        "C": "Density-based separation in a centrifuge describes centrifugation. Distillation relies on vapor pressure differences, not density.",
+        "D": "Solubility-based separation describes liquid-liquid extraction (using immiscible solvents with different solubility for the target compound). Distillation uses boiling point differences."
+      },
+      "topic": "Distillation / Boiling Point Separation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_spec_009",
+      "passage": null,
+      "stem": "Liquid-liquid extraction separates compounds based on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "their differential solubility in two immiscible solvents — a compound preferentially dissolves in the solvent where it is more soluble, and the partition coefficient K = [solute]_organic / [solute]_aqueous describes this preference"
+        },
+        {
+          "label": "B",
+          "text": "their molecular weight"
+        },
+        {
+          "label": "C",
+          "text": "their boiling points"
+        },
+        {
+          "label": "D",
+          "text": "their radioactive decay rates"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Extraction uses two immiscible liquids (typically water + organic solvent like diethyl ether, dichloromethane, or ethyl acetate) in a separatory funnel. A compound distributes between the layers based on polarity: polar compounds favor the aqueous layer; nonpolar compounds favor the organic layer. The partition coefficient K describes the equilibrium distribution. Acid-base extractions exploit ionization: organic acids (RCOOH) are extracted into aqueous NaOH (forming RCOO⁻Na⁺, water-soluble); organic bases (RNH₂) are extracted into aqueous HCl (forming RNH₃⁺Cl⁻). Multiple extractions with smaller volumes are more efficient than one extraction with a large volume.",
+        "B": "Molecular weight separation uses size-exclusion chromatography (SEC/gel filtration) or dialysis, not liquid-liquid extraction.",
+        "C": "Boiling point separation uses distillation, not extraction.",
+        "D": "Radioactive decay rates are intrinsic nuclear properties and cannot be used for chemical separations."
+      },
+      "topic": "Liquid-Liquid Extraction / Partition Coefficient",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_spec_010",
+      "passage": null,
+      "stem": "In ¹H NMR, the splitting pattern of a signal (e.g., triplet, quartet) is determined by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the number of adjacent nonequivalent hydrogens (n) — following the n+1 rule, where n neighboring nonequivalent H's produce n+1 peaks in the multiplet (e.g., 2 neighbors → triplet, 3 neighbors → quartet)"
+        },
+        {
+          "label": "B",
+          "text": "the molecular weight of the compound"
+        },
+        {
+          "label": "C",
+          "text": "the color of the compound in solution"
+        },
+        {
+          "label": "D",
+          "text": "the temperature at which the NMR is recorded"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Spin-spin coupling (J-coupling): neighboring nonequivalent hydrogens split each other's NMR signals. The n+1 rule: a hydrogen with n equivalent neighboring H's on adjacent carbons is split into n+1 peaks. Pattern: 0 neighbors → singlet; 1 → doublet; 2 → triplet; 3 → quartet; etc. Peak intensity ratios follow Pascal's triangle: singlet (1), doublet (1:1), triplet (1:2:1), quartet (1:3:3:1). Example: ethanol CH₃CH₂OH: CH₃ (3H, triplet — split by 2 neighboring CH₂ H's), CH₂ (2H, quartet — split by 3 neighboring CH₃ H's). The coupling constant J (Hz) measures the spacing between peaks and is the same for mutually coupled protons.",
+        "B": "Molecular weight is not determined by NMR splitting. Splitting depends on the number and arrangement of neighboring protons.",
+        "C": "Color is irrelevant to NMR. NMR detects nuclear spin transitions in a magnetic field using radiofrequency radiation, not visible light.",
+        "D": "Temperature can affect NMR spectra (by affecting conformational dynamics and exchange rates), but the fundamental splitting pattern is determined by the number of neighboring nonequivalent protons (n+1 rule), not temperature."
+      },
+      "topic": "NMR Splitting / n+1 Rule",
+      "difficulty": "Medium"
+    }
+  ]
+}

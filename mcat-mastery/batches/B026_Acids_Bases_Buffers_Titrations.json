@@ -1,0 +1,500 @@
+{
+  "batch": "B026",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Acids, Bases, Buffers & Titrations",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 4,
+    "B": 4,
+    "C": 3,
+    "D": 4
+  },
+  "questions": [
+    {
+      "id": "cp_acid_001",
+      "passage": "A biochemistry student prepares a phosphate buffer at pH 7.4 using a mixture of NaH\u2082PO\u2084 (monobasic sodium phosphate, the acid form) and Na\u2082HPO\u2084 (dibasic sodium phosphate, the conjugate base form). The pKa for the second dissociation of phosphoric acid (H\u2082PO\u2084\u207b \u21cc HPO\u2084\u00b2\u207b + H\u207a) is 7.2. The student uses the Henderson-Hasselbalch equation to determine the appropriate ratio of conjugate base to acid.",
+      "stem": "To prepare the buffer at pH 7.4, the student needs a [HPO\u2084\u00b2\u207b]/[H\u2082PO\u2084\u207b] ratio of approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.6, because pH = pKa + log([A\u207b]/[HA]), so 7.4 = 7.2 + log(x), giving log(x) = 0.2, x \u2248 1.6"
+        },
+        {
+          "label": "B",
+          "text": "0.63, because the acid form must be in excess when pH > pKa"
+        },
+        {
+          "label": "C",
+          "text": "1.0, because all buffers require equal concentrations of acid and conjugate base"
+        },
+        {
+          "label": "D",
+          "text": "10, because the pH is 0.2 units above the pKa, and the ratio must be 10^(pH-pKa) = 10^0.2 \u2248 10"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Henderson-Hasselbalch: pH = pKa + log([A\u207b]/[HA]). Substituting: 7.4 = 7.2 + log([HPO\u2084\u00b2\u207b]/[H\u2082PO\u2084\u207b]). log(ratio) = 0.2. Ratio = 10^0.2 \u2248 1.58 \u2248 1.6. Since pH > pKa, the conjugate base is in slight excess over the acid form, which is consistent with the general rule that the base form predominates when pH > pKa.",
+        "B": "0.63 would mean the acid form predominates, which occurs when pH < pKa. Here pH (7.4) > pKa (7.2), so the base form predominates and the ratio must be > 1. Additionally, 0.63 \u2248 10^(-0.2), which is the inverse of the correct ratio.",
+        "C": "Equal concentrations ([A\u207b]/[HA] = 1) occur only when pH = pKa. Since pH \u2260 pKa here, the ratio is not 1.0. The ratio equals 1.0 only at the half-equivalence point of a titration or when pH exactly equals pKa.",
+        "D": "10^0.2 \u2248 1.58, not 10. The exponent is 0.2, not 1. 10^1 = 10 would require pH \u2212 pKa = 1.0 (i.e., pH = 8.2), not 0.2."
+      },
+      "topic": "Henderson-Hasselbalch / Buffer Preparation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acid_002",
+      "passage": null,
+      "passageRef": "cp_acid_001",
+      "stem": "Phosphate buffer is effective at pH 7.4 because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "all triprotic acids make effective buffers at any pH"
+        },
+        {
+          "label": "B",
+          "text": "phosphate is a strong acid that completely dissociates at physiological pH"
+        },
+        {
+          "label": "C",
+          "text": "the buffer works by neutralizing both strong acids and strong bases added to the solution"
+        },
+        {
+          "label": "D",
+          "text": "the pKa (7.2) is within approximately 1 pH unit of the target pH, which is the range where buffer capacity is greatest"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Triprotic acids have three pKa values, and they are effective buffers only near each individual pKa. Phosphoric acid buffers near pH 2.1 (pKa1), 7.2 (pKa2), and 12.4 (pKa3) \u2014 not at arbitrary pH values.",
+        "B": "Phosphoric acid is a weak triprotic acid, not a strong acid. Its buffering capacity depends on the equilibrium between its conjugate acid-base pairs, not on complete dissociation. Strong acids (HCl, HNO\u2083) dissociate completely and do not form buffers.",
+        "C": "While it is true that buffers neutralize both added acids and bases (the acid form neutralizes added base, and the conjugate base form neutralizes added acid), this describes the general mechanism of buffering, not why phosphate specifically is effective at pH 7.4. The key is the proximity of pKa2 to the target pH.",
+        "D": "A buffer is most effective when pH is within \u00b11 unit of the pKa of the buffering species. At pH 7.4, the second pKa of phosphate (7.2) falls well within this range (7.2 \u00b1 1 = 6.2\u20138.2). Within this range, both the acid form (H\u2082PO\u2084\u207b) and conjugate base form (HPO\u2084\u00b2\u207b) are present in significant concentrations, allowing the buffer to neutralize added acid or base."
+      },
+      "topic": "Buffer Capacity / pKa and pH",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acid_003",
+      "passage": null,
+      "passageRef": "cp_acid_001",
+      "stem": "If the student adds 0.01 mol of HCl to 1 liter of this phosphate buffer (total buffer concentration 0.1 M), the pH will:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decrease slightly because the conjugate base (HPO\u2084\u00b2\u207b) will neutralize the added H\u207a, converting to H\u2082PO\u2084\u207b, with the new ratio slightly shifting toward the acid form"
+        },
+        {
+          "label": "B",
+          "text": "decrease dramatically to approximately pH 2, because HCl is a strong acid"
+        },
+        {
+          "label": "C",
+          "text": "increase because adding acid to a buffer always raises the pH"
+        },
+        {
+          "label": "D",
+          "text": "remain exactly at 7.4 because buffers prevent any pH change regardless of how much acid is added"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The added H\u207a from HCl reacts with HPO\u2084\u00b2\u207b (conjugate base): HPO\u2084\u00b2\u207b + H\u207a \u2192 H\u2082PO\u2084\u207b. This converts some base form to acid form, decreasing the [A\u207b]/[HA] ratio. By Henderson-Hasselbalch, a decreased ratio means a lower pH. With the starting ratio of ~1.6 ([base] \u2248 0.061 M, [acid] \u2248 0.039 M) and 0.01 mol HCl added to 1 L, the new ratio becomes ~1.05, giving pH \u2248 7.2 + log(1.05) \u2248 7.22. The pH drops from ~7.40 to ~7.22 \u2014 a noticeable but moderate change that keeps the solution well within the buffer's effective range.",
+        "B": "In a buffered solution, the conjugate base absorbs the added H\u207a. With 0.1 M buffer (0.1 mol total) and only 0.01 mol HCl added, the buffer has abundant capacity to neutralize the acid. The pH will decrease slightly, not drop to 2. A drop to pH 2 would occur only in unbuffered water.",
+        "C": "Adding acid to any solution decreases pH (or keeps it stable in a buffer), never increases it.",
+        "D": "Buffers resist pH change but do not prevent it entirely. The pH will shift slightly toward lower values as the ratio of base to acid decreases. Buffers have finite capacity \u2014 if enough acid is added to consume all the conjugate base, the buffer is overwhelmed and pH drops sharply."
+      },
+      "topic": "Buffer Mechanism / Adding Acid",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acid_004",
+      "passage": "A student titrates 50 mL of 0.10 M acetic acid (CH\u2083COOH, pKa = 4.76) with 0.10 M NaOH. The student monitors pH throughout the titration and plots a titration curve. Key points on the curve include: the initial pH before any NaOH is added, the half-equivalence point (where half the acetic acid has been neutralized), the equivalence point (where all acetic acid has been neutralized), and the post-equivalence region.",
+      "stem": "At the half-equivalence point, the pH of the solution equals:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4.76, because at the half-equivalence point [CH\u2083COOH] = [CH\u2083COO\u207b], and pH = pKa when the acid and conjugate base are in equal concentrations"
+        },
+        {
+          "label": "B",
+          "text": "2.38, because the half-equivalence point pH equals pKa/2"
+        },
+        {
+          "label": "C",
+          "text": "9.52, because the half-equivalence point pH equals 2 \u00d7 pKa"
+        },
+        {
+          "label": "D",
+          "text": "7.0, because the half-equivalence point is always neutral"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "At the half-equivalence point, exactly half the original weak acid has been converted to its conjugate base. Therefore [CH\u2083COOH] = [CH\u2083COO\u207b], and the Henderson-Hasselbalch equation gives pH = pKa + log(1) = pKa + 0 = pKa = 4.76. This is a fundamental relationship: the half-equivalence point is where pH = pKa, and it is also the point of maximum buffer capacity.",
+        "B": "pKa/2 has no physical significance in acid-base chemistry. The half-equivalence point pH is pKa, not pKa/2.",
+        "C": "There is no principle that the half-equivalence point pH equals 2 \u00d7 pKa. This calculation (2 \u00d7 4.76 = 9.52) would give a pH in the basic range, which is incorrect for a solution containing equal amounts of weak acid and its conjugate base.",
+        "D": "pH 7.0 occurs only when [H\u207a] = [OH\u207b], which is true in pure water or in specific buffer/salt solutions. The half-equivalence point of a weak acid titration is not neutral."
+      },
+      "topic": "Titration / Half-Equivalence Point",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acid_005",
+      "passage": null,
+      "passageRef": "cp_acid_004",
+      "stem": "At the equivalence point, all acetic acid has been converted to sodium acetate (CH\u2083COONa). The pH at the equivalence point is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "exactly 7.0, because equal moles of acid and base have reacted"
+        },
+        {
+          "label": "B",
+          "text": "below 7.0, because acetate ion is a strong acid"
+        },
+        {
+          "label": "C",
+          "text": "above 7.0, because acetate ion (the conjugate base of a weak acid) hydrolyzes in water, producing OH\u207b and raising the pH"
+        },
+        {
+          "label": "D",
+          "text": "equal to the pKa (4.76), because the equivalence point always equals the pKa"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "pH 7.0 at the equivalence point occurs only for strong acid-strong base titrations, where the salt produced does not hydrolyze. In a weak acid-strong base titration, the conjugate base (acetate) hydrolyzes, making the solution basic. Equal moles of acid and base have reacted, but the product is not neutral.",
+        "B": "Acetate ion is a weak base (the conjugate base of weak acetic acid), not a strong acid. It accepts protons from water: CH\u2083COO\u207b + H\u2082O \u21cc CH\u2083COOH + OH\u207b, producing hydroxide and raising the pH above 7.",
+        "C": "At the equivalence point, all CH\u2083COOH has been converted to CH\u2083COO\u207b (acetate). Acetate is the conjugate base of a weak acid, so it undergoes hydrolysis: CH\u2083COO\u207b + H\u2082O \u21cc CH\u2083COOH + OH\u207b. This produces OH\u207b, making the solution basic (pH > 7). The equivalence point pH for a weak acid-strong base titration is always above 7. For 0.10 M acetic acid with pKa = 4.76, the equivalence point pH is approximately 8.7.",
+        "D": "pH = pKa at the half-equivalence point, not the equivalence point. At the equivalence point, no buffer exists \u2014 all the acid has been converted to its conjugate base."
+      },
+      "topic": "Equivalence Point / Conjugate Base Hydrolysis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acid_006",
+      "passage": null,
+      "passageRef": "cp_acid_004",
+      "stem": "The student needs to choose an appropriate indicator for this titration. The indicator should change color near the equivalence point (~pH 8.7). Which indicator would be most appropriate?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Methyl orange (color change range pH 3.1\u20134.4)"
+        },
+        {
+          "label": "B",
+          "text": "Congo red (color change range pH 3.0\u20135.0)"
+        },
+        {
+          "label": "C",
+          "text": "Litmus (color change range pH 5.0\u20138.0)"
+        },
+        {
+          "label": "D",
+          "text": "Phenolphthalein (color change range pH 8.2\u201310.0)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Methyl orange changes color in the pH 3\u20134 range, which is far below the equivalence point pH of ~8.7. It would change color long before the equivalence point is reached, giving an inaccurate endpoint.",
+        "B": "Congo red changes color in the pH 3\u20135 range, far below the equivalence point of this weak acid\u2013strong base titration (~pH 8.7). It would signal the endpoint too early and would not accurately identify the equivalence point.",
+        "C": "Litmus changes color near pH 7, which is below the equivalence point. It would change color before the equivalence point is reached, underestimating the amount of NaOH needed.",
+        "D": "Phenolphthalein changes color in the pH 8.2\u201310.0 range, which includes the equivalence point pH of ~8.7. This makes it an appropriate indicator for a weak acid-strong base titration because its transition range overlaps with the steep portion of the titration curve near the equivalence point."
+      },
+      "topic": "Indicator Selection / Titration",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acid_007",
+      "passage": null,
+      "stem": "A solution of 0.10 M HCl has a pH of 1.0. This is because HCl is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a weak acid that partially dissociates, and the equilibrium happens to produce [H\u207a] = 0.10 M"
+        },
+        {
+          "label": "B",
+          "text": "a strong base that produces hydroxide ions at a concentration of 0.10 M"
+        },
+        {
+          "label": "C",
+          "text": "a buffer that maintains pH at 1.0 regardless of dilution"
+        },
+        {
+          "label": "D",
+          "text": "a strong acid that completely dissociates in water, so [H\u207a] = 0.10 M and pH = \u2212log(0.10) = 1.0"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "HCl is a strong acid, not a weak acid. It dissociates completely (>99.9%) in aqueous solution: HCl \u2192 H\u207a + Cl\u207b. There is no equilibrium to consider \u2014 the dissociation goes to completion.",
+        "B": "HCl is a strong acid, not a base. It donates protons (H\u207a) to water, not hydroxide ions.",
+        "C": "HCl is not a buffer. A buffer requires a weak acid and its conjugate base in solution. HCl is a strong acid that does not establish an equilibrium with its conjugate base (Cl\u207b is a spectator ion with negligible basicity). Diluting HCl changes its pH.",
+        "D": "Strong acids like HCl, HBr, HI, HNO\u2083, H\u2082SO\u2084 (first dissociation), and HClO\u2084 dissociate completely in water. For 0.10 M HCl: [H\u207a] = 0.10 M. pH = \u2212log[H\u207a] = \u2212log(0.10) = \u2212(\u22121) = 1.0. No Ka calculation is needed because the dissociation is complete."
+      },
+      "topic": "Strong Acid Dissociation / pH Calculation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acid_008",
+      "passage": null,
+      "stem": "A 0.10 M solution of NH\u2083 (Kb = 1.8 \u00d7 10\u207b\u2075) has a pH closest to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "11.1, because NH\u2083 is a weak base and [OH\u207b] = \u221a(Kb \u00d7 C) = \u221a(1.8 \u00d7 10\u207b\u2075 \u00d7 0.10) \u2248 1.3 \u00d7 10\u207b\u00b3 M"
+        },
+        {
+          "label": "B",
+          "text": "7.0, because all nitrogen-containing compounds are neutral in water"
+        },
+        {
+          "label": "C",
+          "text": "2.9, because NH\u2083 is a weak acid with pKa = 4.74"
+        },
+        {
+          "label": "D",
+          "text": "13.0, because NH\u2083 is a strong base that completely dissociates"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "NH\u2083 is a weak base: NH\u2083 + H\u2082O \u21cc NH\u2084\u207a + OH\u207b. For weak base equilibrium: [OH\u207b] = \u221a(Kb \u00d7 C) = \u221a(1.8 \u00d7 10\u207b\u2075 \u00d7 0.10) = \u221a(1.8 \u00d7 10\u207b\u2076) \u2248 1.34 \u00d7 10\u207b\u00b3 M. pOH = \u2212log(1.34 \u00d7 10\u207b\u00b3) \u2248 2.87. pH = 14 \u2212 pOH = 14 \u2212 2.87 = 11.13 \u2248 11.1. The solution is basic but not strongly so \u2014 consistent with a weak base.",
+        "B": "Nitrogen-containing compounds are not uniformly neutral. NH\u2083 is a well-known weak base that accepts protons from water. Its aqueous solutions are basic (pH > 7).",
+        "C": "NH\u2083 is a base, not an acid. Its conjugate acid (NH\u2084\u207a) has pKa \u2248 9.25, but NH\u2083 itself acts as a proton acceptor. A pH of 2.9 would indicate an acidic solution, which contradicts NH\u2083's basic nature.",
+        "D": "NH\u2083 is a weak base, not a strong base. Strong bases (NaOH, KOH, Ca(OH)\u2082) dissociate completely. NH\u2083 establishes an equilibrium with only partial protonation. A 0.10 M strong base would give pH \u2248 13, but NH\u2083 yields pH \u2248 11.1."
+      },
+      "topic": "Weak Base pH Calculation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acid_009",
+      "passage": null,
+      "stem": "The conjugate acid of HPO\u2084\u00b2\u207b is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "PO\u2084\u00b3\u207b, formed by removing a proton from HPO\u2084\u00b2\u207b"
+        },
+        {
+          "label": "B",
+          "text": "OH\u207b, because the conjugate acid of any base is hydroxide"
+        },
+        {
+          "label": "C",
+          "text": "H\u2083PO\u2084, because the conjugate acid of any phosphate species is phosphoric acid"
+        },
+        {
+          "label": "D",
+          "text": "H\u2082PO\u2084\u207b, formed by adding a proton to HPO\u2084\u00b2\u207b"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Removing a proton from HPO\u2084\u00b2\u207b gives PO\u2084\u00b3\u207b, which is the conjugate base of HPO\u2084\u00b2\u207b, not the conjugate acid. Conjugate acid = original species + H\u207a; conjugate base = original species \u2212 H\u207a.",
+        "B": "OH\u207b is the conjugate base of water (H\u2082O), not the conjugate acid of HPO\u2084\u00b2\u207b. Conjugate acid-base pairs differ by exactly one proton and must involve the same molecular species.",
+        "C": "H\u2083PO\u2084 is the fully protonated form of phosphate, but it is not the conjugate acid of HPO\u2084\u00b2\u207b. The conjugate acid is formed by adding exactly one proton: HPO\u2084\u00b2\u207b + H\u207a \u2192 H\u2082PO\u2084\u207b. H\u2083PO\u2084 would require adding two protons.",
+        "D": "A conjugate acid is formed by adding one proton to a species. HPO\u2084\u00b2\u207b + H\u207a \u2192 H\u2082PO\u2084\u207b. Therefore H\u2082PO\u2084\u207b is the conjugate acid of HPO\u2084\u00b2\u207b. This is a straightforward application of the Br\u00f8nsted-Lowry definition: an acid is a proton donor, and the conjugate acid of a base is the species formed when that base accepts a proton."
+      },
+      "topic": "Conjugate Acid-Base Pairs",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acid_010",
+      "passage": null,
+      "stem": "A Lewis acid is defined as a species that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "donates a proton (H\u207a) to another species"
+        },
+        {
+          "label": "B",
+          "text": "accepts a proton (H\u207a) from another species"
+        },
+        {
+          "label": "C",
+          "text": "accepts an electron pair from another species to form a coordinate covalent bond"
+        },
+        {
+          "label": "D",
+          "text": "donates an electron pair to another species"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Donating a proton defines a Br\u00f8nsted-Lowry acid, not a Lewis acid. The Br\u00f8nsted-Lowry definition is narrower than the Lewis definition and focuses specifically on proton transfer.",
+        "B": "Accepting a proton defines a Br\u00f8nsted-Lowry base. This is the opposite of a Br\u00f8nsted-Lowry acid and is unrelated to the Lewis definition.",
+        "C": "A Lewis acid is an electron pair acceptor. It has an empty or partially empty orbital that can accept an electron pair from a Lewis base, forming a coordinate (dative) covalent bond. Examples include BF\u2083, AlCl\u2083, metal cations (Fe\u00b3\u207a, Zn\u00b2\u207a), and H\u207a itself. The Lewis definition is broader than the Br\u00f8nsted-Lowry definition because it encompasses reactions that do not involve proton transfer.",
+        "D": "Donating an electron pair defines a Lewis base, not a Lewis acid. Lewis bases have lone pairs available for donation (e.g., NH\u2083, H\u2082O, OH\u207b)."
+      },
+      "topic": "Lewis Acid-Base Theory",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acid_011",
+      "passage": "A clinical chemist analyzes arterial blood gas results from a patient. The results show: pH = 7.30, pCO\u2082 = 60 mmHg (normal: 35-45), HCO\u2083\u207b = 28 mEq/L (normal: 22-26). The chemist notes that CO\u2082 dissolved in blood forms carbonic acid: CO\u2082 + H\u2082O \u21cc H\u2082CO\u2083 \u21cc H\u207a + HCO\u2083\u207b.",
+      "stem": "This patient's acid-base status is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Metabolic acidosis \u2014 the primary disturbance is a decrease in HCO\u2083\u207b"
+        },
+        {
+          "label": "B",
+          "text": "Respiratory acidosis with partial metabolic compensation \u2014 the primary disturbance is elevated pCO\u2082, and the kidneys have partially compensated by retaining HCO\u2083\u207b"
+        },
+        {
+          "label": "C",
+          "text": "Respiratory alkalosis \u2014 the primary disturbance is decreased pCO\u2082"
+        },
+        {
+          "label": "D",
+          "text": "Metabolic alkalosis \u2014 the primary disturbance is an increase in HCO\u2083\u207b"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Metabolic acidosis would present with low pH, low HCO\u2083\u207b (the primary disturbance), and compensatory low pCO\u2082 (respiratory compensation through hyperventilation). This patient has high pCO\u2082 and slightly elevated HCO\u2083\u207b, which is the opposite pattern.",
+        "B": "The patient has low pH (7.30 < 7.35, indicating acidosis) and elevated pCO\u2082 (60 > 45, indicating respiratory origin). In respiratory acidosis, CO\u2082 retention increases H\u2082CO\u2083 and H\u207a production, lowering pH. The slightly elevated HCO\u2083\u207b (28 > 26) reflects partial renal compensation: the kidneys retain additional bicarbonate to buffer the excess acid. Compensation brings the pH toward normal but does not fully correct it (pH is still acidotic).",
+        "C": "Respiratory alkalosis would present with high pH, low pCO\u2082 (from hyperventilation), and compensatory low HCO\u2083\u207b. This patient has high pCO\u2082 and low pH \u2014 the opposite of alkalosis.",
+        "D": "Metabolic alkalosis would present with high pH, high HCO\u2083\u207b (the primary disturbance), and compensatory high pCO\u2082 (respiratory compensation through hypoventilation). While this patient has slightly elevated HCO\u2083\u207b and high pCO\u2082, the pH is low (acidotic), not high \u2014 ruling out alkalosis. The elevated HCO\u2083\u207b is compensatory, not primary."
+      },
+      "topic": "Arterial Blood Gas / Respiratory Acidosis",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_acid_012",
+      "passage": null,
+      "passageRef": "cp_acid_011",
+      "stem": "The bicarbonate buffer system in blood (CO\u2082 + H\u2082O \u21cc H\u2082CO\u2083 \u21cc H\u207a + HCO\u2083\u207b) is effective at maintaining blood pH because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "carbonic acid is a strong acid that completely dissociates, ensuring a constant [H\u207a]"
+        },
+        {
+          "label": "B",
+          "text": "the system is open \u2014 the lungs can rapidly adjust pCO\u2082 and the kidneys can adjust HCO\u2083\u207b, providing two independent mechanisms for regulating each component of the buffer"
+        },
+        {
+          "label": "C",
+          "text": "the pKa of carbonic acid (6.1) is exactly equal to blood pH (7.4)"
+        },
+        {
+          "label": "D",
+          "text": "blood contains no other buffer systems, so bicarbonate must handle all acid-base regulation alone"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Carbonic acid is a weak acid (pKa \u2248 6.1), not a strong acid. If it dissociated completely, there would be no equilibrium and no buffering capacity.",
+        "B": "The bicarbonate buffer's effectiveness in vivo is primarily due to its open nature. In a closed system, a buffer with pKa 6.1 would be a poor buffer at pH 7.4 (more than 1 unit away). However, the lungs can rapidly exhale CO\u2082 (adjusting the acid component) and the kidneys can retain or excrete HCO\u2083\u207b (adjusting the base component). This dual organ regulation makes the system far more effective than a simple closed-system buffer.",
+        "C": "The pKa of carbonic acid (6.1) is more than 1 unit below blood pH (7.4). In a closed system, this would make bicarbonate a poor buffer at physiological pH. The system's effectiveness comes from its open nature (lung and kidney regulation), not from pKa-pH proximity.",
+        "D": "Blood contains multiple buffer systems: bicarbonate (primary extracellular), hemoglobin (major intracellular/RBC buffer), plasma proteins, and the phosphate buffer system. Bicarbonate is the most important extracellular buffer, but it does not work alone."
+      },
+      "topic": "Bicarbonate Buffer / Open System",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_acid_013",
+      "passage": null,
+      "stem": "An amino acid in solution at a pH below its isoelectric point (pI) will have a net charge that is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "negative, because the amino group is deprotonated and the carboxyl group is ionized"
+        },
+        {
+          "label": "B",
+          "text": "zero, because all amino acids are zwitterions at any pH"
+        },
+        {
+          "label": "C",
+          "text": "positive, because at pH < pI, the amino acid has gained protons relative to its isoelectric form, resulting in excess positive charge"
+        },
+        {
+          "label": "D",
+          "text": "impossible to determine without knowing the specific amino acid"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "At pH below pI, the solution is more acidic than the isoelectric point, meaning there is excess H\u207a. The amino acid will have gained protons: the amino group will be protonated (NH\u2083\u207a) and the carboxyl group may be protonated (COOH) or partially ionized. The net charge will be positive, not negative. Negative charge predominates at pH above pI.",
+        "B": "Amino acids are zwitterions (zero net charge) only at their isoelectric point. At pH values away from pI, they carry a net charge: positive below pI, negative above pI.",
+        "C": "At pH below pI, the solution has more H\u207a than at the isoelectric point. The amino acid gains protons relative to its isoelectric form, shifting toward positive charge. For a simple amino acid: at very low pH, both the amino group (NH\u2083\u207a) and the carboxyl group (COOH) are protonated, giving a net charge of +1. As pH rises toward pI, the carboxyl group deprotonates first (COO\u207b), and the molecule becomes a zwitterion at pI.",
+        "D": "The direction of the charge relative to pI is predictable for all amino acids: positive below pI, negative above pI. The specific pI value varies, but the rule is universal."
+      },
+      "topic": "Amino Acid Charge / Isoelectric Point",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acid_014",
+      "passage": null,
+      "stem": "The Ka of acetic acid is 1.8 \u00d7 10\u207b\u2075. The Kb of its conjugate base, acetate ion (CH\u2083COO\u207b), is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.8 \u00d7 10\u207b\u2075, because Ka and Kb are always equal for a conjugate pair"
+        },
+        {
+          "label": "B",
+          "text": "5.6 \u00d7 10\u207b\u00b9\u2070, because Ka \u00d7 Kb = Kw = 1.0 \u00d7 10\u207b\u00b9\u2074, so Kb = Kw/Ka"
+        },
+        {
+          "label": "C",
+          "text": "1.0 \u00d7 10\u207b\u00b9\u2074, because Kb always equals Kw for conjugate bases of weak acids"
+        },
+        {
+          "label": "D",
+          "text": "1.8 \u00d7 10\u2075, because Kb = 1/Ka for conjugate acid-base pairs"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Ka and Kb are not equal for a conjugate pair. They are related through Kw: Ka \u00d7 Kb = Kw. For a weak acid with Ka = 1.8 \u00d7 10\u207b\u2075, the conjugate base has a small Kb, indicating it is a weak base \u2014 which makes sense because the conjugate base of a weak acid is itself a weak base.",
+        "B": "For any conjugate acid-base pair in water: Ka \u00d7 Kb = Kw = 1.0 \u00d7 10\u207b\u00b9\u2074 at 25\u00b0C. Therefore Kb = Kw/Ka = (1.0 \u00d7 10\u207b\u00b9\u2074)/(1.8 \u00d7 10\u207b\u2075) = 5.6 \u00d7 10\u207b\u00b9\u2070. This means acetate is a very weak base \u2014 it only slightly hydrolyzes water. The inverse relationship between Ka and Kb ensures that a strong acid has an extremely weak conjugate base, and vice versa.",
+        "C": "Kb = Kw only if Ka = 1, which would describe an acid with Ka = 1 (a moderately strong acid). For acetic acid with Ka = 1.8 \u00d7 10\u207b\u2075, Kb is much larger than Kw.",
+        "D": "Kb = 1/Ka would give 1/(1.8 \u00d7 10\u207b\u2075) = 5.6 \u00d7 10\u2074, implying acetate is a very strong base. This contradicts chemical reality \u2014 acetate is a weak base. The correct relationship is Ka \u00d7 Kb = Kw, not Ka \u00d7 Kb = 1."
+      },
+      "topic": "Ka-Kb Relationship / Kw",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acid_015",
+      "passage": null,
+      "stem": "Water acts as both an acid and a base. This property is called:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "amphipathic \u2014 the ability to interact with both polar and nonpolar environments"
+        },
+        {
+          "label": "B",
+          "text": "amphoteric \u2014 the ability to act as either a proton donor (acid) or proton acceptor (base) depending on the reaction partner"
+        },
+        {
+          "label": "C",
+          "text": "hydrophilic \u2014 the ability to attract and dissolve polar solutes"
+        },
+        {
+          "label": "D",
+          "text": "hygroscopic \u2014 the ability to absorb moisture from the environment"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Amphipathic describes molecules with both hydrophilic and hydrophobic regions (e.g., phospholipids, detergents). It relates to solubility behavior, not acid-base chemistry.",
+        "B": "Amphoteric (or more precisely, amphiprotic) describes substances that can act as either acids or bases by donating or accepting protons. Water can donate a proton to a stronger base (acting as an acid: H\u2082O \u2192 OH\u207b + H\u207a) or accept a proton from a stronger acid (acting as a base: H\u2082O + H\u207a \u2192 H\u2083O\u207a). The autoionization of water (2H\u2082O \u21cc H\u2083O\u207a + OH\u207b) demonstrates both behaviors simultaneously. 'Amphiprotic' specifically refers to proton transfer, while 'amphoteric' is the broader term that also covers Lewis acid-base behavior. Amino acids are also amphiprotic.",
+        "C": "Hydrophilic means 'water-loving' and describes molecules or functional groups that interact favorably with water. It is a solubility property, not an acid-base property.",
+        "D": "Hygroscopic describes substances that absorb water from the air (e.g., NaOH pellets, silica gel). It is unrelated to acid-base behavior."
+      },
+      "topic": "Amphoteric Properties / Water Chemistry",
+      "difficulty": "Easy"
+    }
+  ]
+}

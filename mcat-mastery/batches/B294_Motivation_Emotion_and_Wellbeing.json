@@ -1,0 +1,225 @@
+{
+  "batch": "B294",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Motivation, Emotion & Well-Being",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 3,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_intrinsic_extrinsic_studying_294_q0",
+      "passage": "A psychology instructor compared two exam-prep workshops. One workshop emphasized curiosity, mastery, and personal meaning in learning, while the other emphasized grades, competition, and r\u00e9sum\u00e9 outcomes. Students attending the mastery-oriented workshop later reported spending more time on self-testing and concept review, whereas students in the competition-oriented workshop spent more time comparing scores and monitoring rank. On a surprise retention quiz 3 weeks later, the mastery group scored higher on application questions, although the competition group remained highly attentive to immediate performance feedback.",
+      "usePrevPassage": false,
+      "stem": "The mastery-oriented workshop most directly emphasized which kind of motivation?",
+      "choices": {
+        "D": "Intrinsic motivation",
+        "A": "Extrinsic motivation",
+        "B": "Drive reduction",
+        "C": "Arousal theory only"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The workshop centered on curiosity, meaning, and mastery, which are classic intrinsic motives. These involve engaging in a task for its inherent satisfaction rather than for external rewards alone.",
+        "A": "Extrinsic motivation focuses on outside rewards such as grades or rank, which describes the other workshop better.",
+        "B": "Drive reduction concerns physiological needs, not the educational motives highlighted here.",
+        "C": "Arousal theory is not the main distinction being drawn between the two workshops."
+      },
+      "topic": "Motivation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_intrinsic_extrinsic_studying_294_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why might the mastery group have done better on application questions?",
+      "choices": {
+        "C": "Their study habits promoted deeper processing and understanding",
+        "A": "They cared less about the material than the competition group",
+        "B": "Application questions are always easier than performance questions",
+        "D": "Comparing scores directly improves conceptual transfer"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Self-testing and concept review encourage active retrieval and conceptual integration. Those habits are more likely to support flexible application than a primary focus on rank or comparison.",
+        "A": "The passage suggests the mastery group was more meaningfully engaged, not less.",
+        "B": "Nothing indicates that application questions are automatically easier.",
+        "D": "The competition group emphasized rank monitoring, which is not the same as building conceptual transfer."
+      },
+      "topic": "Learning and Motivation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_intrinsic_extrinsic_studying_294_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The competition-oriented workshop best illustrates what?",
+      "choices": {
+        "B": "Extrinsic motivation focused on external outcomes",
+        "A": "Intrinsic motivation focused on enjoyment alone",
+        "C": "Operant extinction",
+        "D": "Self-actualization as described by Maslow"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. When students are pushed by grades, rank, and r\u00e9sum\u00e9 concerns, their effort is organized around external rewards or evaluations. That is the defining feature of extrinsic motivation.",
+        "A": "The passage contrasts external outcomes with internal mastery, so intrinsic motivation is not the best label here.",
+        "C": "Operant extinction involves the weakening of behavior when reinforcement stops.",
+        "D": "Self-actualization is broader than the specific external-performance focus described."
+      },
+      "topic": "Motivation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_intrinsic_extrinsic_studying_294_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A teacher who wants students to retain material longer should most likely do what?",
+      "choices": {
+        "A": "Frame studying around mastery and understanding rather than only rank",
+        "B": "Emphasize competition as the only route to effort",
+        "C": "Avoid any use of practice questions",
+        "D": "Tell students that meaning has no place in academic work"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Because the mastery-oriented workshop was associated with stronger application performance and deeper study habits, a teacher aiming for durable learning should highlight understanding and meaningful engagement.",
+        "B": "Competition can motivate some effort, but the passage links mastery framing to better retention-related outcomes.",
+        "C": "Practice questions were part of the stronger study strategy rather than something to avoid.",
+        "D": "The passage suggests meaning can support better engagement and understanding."
+      },
+      "topic": "Applied Motivation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_intrinsic_extrinsic_studying_294_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most cautious and best supported?",
+      "choices": {
+        "D": "How learning goals are framed may influence study strategies and later retention outcomes",
+        "A": "External motivation always harms every student in every course",
+        "B": "The mastery workshop permanently changes personality",
+        "C": "Surprise quizzes are invalid measures of learning"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The passage supports a link between goal framing, study habits, and later performance in this context. It does not justify universal claims about all students or permanent changes to personality.",
+        "A": "The evidence is not broad enough for an absolute statement about every student in every setting.",
+        "B": "The study concerns behavior and performance, not stable personality transformation.",
+        "C": "A surprise quiz can be a legitimate way to assess retention."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_emotion_regulation_reappraisal_294_q5",
+      "passage": "A counseling skills lab trained students in either cognitive reappraisal or expressive suppression before a stressful public-speaking task. Students using reappraisal were encouraged to reinterpret their arousal as a useful sign of readiness, whereas students using suppression were told to hide visible signs of nervousness. During the speeches, reappraisal students reported feeling less distressed and were rated by observers as more engaged. Suppression students appeared less expressive but reported greater internal tension after the task.",
+      "usePrevPassage": false,
+      "stem": "Reinterpreting arousal as a sign of readiness is an example of what strategy?",
+      "choices": {
+        "C": "Cognitive reappraisal",
+        "A": "Expressive suppression",
+        "B": "Projection",
+        "D": "Classical conditioning"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage defines reappraisal as changing the meaning of one\u2019s arousal before the stressful event. Seeing bodily activation as readiness instead of threat is a textbook example of that strategy.",
+        "A": "Expressive suppression involves hiding outward emotion rather than changing its meaning.",
+        "B": "Projection is a defense mechanism involving attributing one\u2019s own feelings to others.",
+        "D": "Classical conditioning is not the emotion-regulation strategy described here."
+      },
+      "topic": "Emotion",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_emotion_regulation_reappraisal_294_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why might suppression students report greater internal tension?",
+      "choices": {
+        "B": "They were trying to control expression without changing the underlying appraisal of the stressor",
+        "A": "Suppressing expression automatically reduces physiological arousal",
+        "C": "They were practicing operant punishment",
+        "D": "They had lower sensation thresholds than the reappraisal group"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Suppressing outward signs of emotion can leave the internal stress response largely intact. In contrast, reappraisal changes how the situation is interpreted, which may reduce experienced distress more effectively.",
+        "A": "The results show the opposite pattern: suppression did not eliminate internal tension.",
+        "C": "Operant punishment is not the process being trained here.",
+        "D": "Differences in sensation thresholds were not described as the explanation."
+      },
+      "topic": "Emotion Regulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_emotion_regulation_reappraisal_294_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Observer ratings of greater engagement in the reappraisal group are most consistent with which interpretation?",
+      "choices": {
+        "A": "Reappraisal may support better outward performance during stressful tasks",
+        "B": "Hiding emotion always makes speakers seem more engaged",
+        "C": "Observer ratings prove reappraisal cured anxiety disorders",
+        "D": "Engagement ratings are irrelevant because only internal feelings matter"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Because reappraisal students were rated as more engaged during speaking, the strategy appears to support not only subjective comfort but also better behavioral functioning in the task.",
+        "B": "Suppression made students less expressive, which does not fit this statement.",
+        "C": "The study is about task performance and distress, not the cure of anxiety disorders.",
+        "D": "Observable engagement can be an important outcome in public speaking and similar settings."
+      },
+      "topic": "Emotion and Behavior",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_emotion_regulation_reappraisal_294_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A student nervous about presentations would most likely benefit from which advice?",
+      "choices": {
+        "D": "Try reframing nervous energy as useful preparation rather than only hiding it",
+        "A": "Force your face to stay blank and ignore the meaning of the emotion",
+        "B": "Assume any nervousness means you should not speak publicly",
+        "C": "Avoid all future presentations no matter the context"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The reappraisal group reported lower distress and appeared more engaged. That pattern supports the practical advice to reinterpret arousal constructively rather than focusing only on suppressing expression.",
+        "A": "This mirrors suppression, which was associated with greater internal tension.",
+        "B": "The passage does not suggest nervousness means one should avoid all public speaking.",
+        "C": "Total avoidance is not the evidence-based strategy shown in the lab."
+      },
+      "topic": "Applied Emotion",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_emotion_regulation_reappraisal_294_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which statement best captures the study\u2019s main implication?",
+      "choices": {
+        "C": "Different emotion-regulation strategies can lead to different subjective and behavioral outcomes during stress",
+        "A": "Every student will respond identically to reappraisal",
+        "B": "Suppression is biologically impossible to use",
+        "D": "Observer ratings are meaningless unless there is a medical diagnosis"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The study compares two strategies and finds differences in distress, engagement, and tension. That supports a nuanced conclusion about how emotion-regulation methods can shape performance and experience in stressful situations.",
+        "A": "The results are group-level findings, not guarantees for every individual.",
+        "B": "Suppression is clearly usable, even if it was less beneficial in this context.",
+        "D": "Behavioral ratings can still be informative without a medical diagnosis."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "batch": "B027",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Psychological Disorders & Biological Bases of Behavior",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 3,
+    "B": 4,
+    "C": 4,
+    "D": 4
+  },
+  "questions": [
+    {
+      "id": "ps_disorder_001",
+      "passage": "A psychiatrist evaluates a 22-year-old patient who reports hearing voices commenting on his behavior, believing that television news anchors are sending him coded messages, and progressive social withdrawal over the past 8 months. The patient's affect is flat, and his speech is tangential and difficult to follow. His academic performance has declined sharply, and he has stopped attending classes. Family history reveals that his uncle was diagnosed with the same disorder.",
+      "stem": "The positive symptoms described in this case (hallucinations, delusions) are most closely associated with which neurotransmitter hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The acetylcholine hypothesis, which proposes that cholinergic excess causes disorganized thinking"
+        },
+        {
+          "label": "B",
+          "text": "The serotonin hypothesis, which proposes that low serotonin levels cause hallucinations and delusions"
+        },
+        {
+          "label": "C",
+          "text": "The GABA hypothesis, which proposes that excessive GABA activity produces psychotic symptoms"
+        },
+        {
+          "label": "D",
+          "text": "The dopamine hypothesis, which proposes that positive symptoms of schizophrenia result from excessive dopaminergic activity in the mesolimbic pathway"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Acetylcholine is primarily associated with memory, learning, and neuromuscular function. Cholinergic deficits (not excess) are associated with Alzheimer's disease. There is no major acetylcholine excess hypothesis for schizophrenia.",
+        "B": "The serotonin system does play a role in schizophrenia (atypical antipsychotics target both dopamine and serotonin receptors), but the primary neurotransmitter hypothesis for positive symptoms is dopamine, not serotonin. Low serotonin is more classically associated with depression, not hallucinations.",
+        "C": "GABA is the primary inhibitory neurotransmitter. While GABAergic dysfunction may contribute to schizophrenia indirectly (by failing to regulate dopamine release), excessive GABA activity would be expected to inhibit neural activity, not produce positive symptoms like hallucinations and delusions.",
+        "D": "The dopamine hypothesis is the most established neurochemical model of schizophrenia's positive symptoms. It proposes that hyperactivity of dopaminergic neurons in the mesolimbic pathway (ventral tegmental area to nucleus accumbens and limbic structures) produces hallucinations, delusions, and disorganized thinking. Evidence includes: (1) antipsychotic drugs that block D2 receptors reduce positive symptoms; (2) drugs that increase dopamine (amphetamine, L-DOPA) can produce psychotic symptoms; (3) brain imaging shows elevated dopamine synthesis in psychotic patients."
+      },
+      "topic": "Dopamine Hypothesis / Schizophrenia",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_002",
+      "passage": null,
+      "passageRef": "ps_disorder_001",
+      "stem": "The patient's flat affect, social withdrawal, and declining academic performance are classified as negative symptoms. In contrast to positive symptoms, negative symptoms of schizophrenia are thought to involve:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "excessive dopaminergic activity in the mesocortical pathway"
+        },
+        {
+          "label": "B",
+          "text": "excessive norepinephrine in the locus coeruleus"
+        },
+        {
+          "label": "C",
+          "text": "elevated serotonin in the raphe nuclei"
+        },
+        {
+          "label": "D",
+          "text": "reduced dopaminergic activity in the mesocortical pathway, which projects to the prefrontal cortex and is involved in motivation, planning, and emotional expression"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Excessive dopamine in the mesocortical pathway would be expected to enhance prefrontal cortex function, not impair it. The revised dopamine hypothesis proposes that negative symptoms result from decreased (not increased) dopaminergic activity in the mesocortical pathway.",
+        "B": "Norepinephrine from the locus coeruleus is primarily involved in arousal, attention, and the stress response. Excessive norepinephrine would more likely produce anxiety or hyperarousal, not the flat affect and social withdrawal characteristic of negative symptoms.",
+        "C": "Elevated serotonin in the raphe nuclei is not the primary explanation for negative symptoms. While serotonergic dysfunction may play a modulatory role, the mesocortical dopamine hypothesis is the more established framework for negative symptoms.",
+        "D": "The revised dopamine hypothesis proposes a dual pattern: (1) mesolimbic hyperactivity produces positive symptoms, and (2) mesocortical hypoactivity produces negative symptoms. The mesocortical pathway projects from the ventral tegmental area to the prefrontal cortex, which mediates executive function, motivation, and emotional expression. Reduced dopamine in this pathway produces flat affect, social withdrawal, avolition, and cognitive deficits \u2014 the negative symptoms described."
+      },
+      "topic": "Negative Symptoms / Mesocortical Pathway",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_003",
+      "passage": null,
+      "passageRef": "ps_disorder_001",
+      "stem": "The family history of the same disorder in the patient's uncle suggests a genetic component. Twin studies of schizophrenia consistently show that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Concordance rates for identical (monozygotic) twins are substantially higher than for fraternal (dizygotic) twins \u2014 often estimated around 40\u201350% vs. ~17% \u2014 indicating a major genetic contribution but also significant environmental influence"
+        },
+        {
+          "label": "B",
+          "text": "adoption studies contradict twin studies, showing no genetic contribution to schizophrenia risk"
+        },
+        {
+          "label": "C",
+          "text": "concordance rates are identical for monozygotic and dizygotic twins, suggesting no genetic component"
+        },
+        {
+          "label": "D",
+          "text": "if one identical twin has schizophrenia, the other twin will always develop it too, confirming that schizophrenia is entirely genetic"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Monozygotic twins share 100% of their DNA, while dizygotic twins share approximately 50%. Twin studies generally show substantially higher concordance for MZ twins (often estimated around 40\u201350%, though estimates vary by study and diagnostic criteria) compared to DZ twins (~17%). This provides strong evidence for a genetic contribution. However, the fact that MZ concordance is well below 100% demonstrates that genes alone do not determine schizophrenia \u2014 environmental factors (prenatal stress, viral exposure, cannabis use, urban environment, social adversity) interact with genetic vulnerability. This supports a diathesis-stress model.",
+        "B": "Adoption studies actually support twin studies. Children of schizophrenic biological parents raised by non-schizophrenic adoptive parents still have elevated schizophrenia risk, confirming the genetic contribution identified by twin studies.",
+        "C": "Concordance rates are substantially different between MZ and DZ twins. Equal rates would suggest no genetic influence, which contradicts the evidence. The ~3-fold higher MZ concordance is among the strongest evidence for a genetic contribution to schizophrenia.",
+        "D": "If schizophrenia were entirely genetic, monozygotic twin concordance would be 100%. The observed concordance of ~48% for MZ twins demonstrates that while genetics plays a substantial role, environmental factors are also necessary \u2014 genes create vulnerability, not certainty."
+      },
+      "topic": "Twin Studies / Genetics of Schizophrenia",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_004",
+      "passage": "A clinical psychologist treats a patient with major depressive disorder (MDD). The patient reports persistent sadness, loss of interest in previously enjoyable activities, difficulty sleeping, fatigue, feelings of worthlessness, and difficulty concentrating. These symptoms have been present for at least three months. The psychologist considers both biological and psychological treatment approaches.",
+      "stem": "The monoamine hypothesis of depression proposes that depressive symptoms are associated with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "excessive levels of serotonin, norepinephrine, and dopamine in the synaptic cleft"
+        },
+        {
+          "label": "B",
+          "text": "autoimmune destruction of monoamine-producing neurons in the brainstem"
+        },
+        {
+          "label": "C",
+          "text": "excessive GABA transmission that suppresses monoamine neurotransmitter release"
+        },
+        {
+          "label": "D",
+          "text": "deficient levels of monoamine neurotransmitters (particularly serotonin, norepinephrine, and/or dopamine), leading to impaired mood regulation"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The monoamine hypothesis proposes deficiency, not excess. If monoamines were excessive, this would predict mania or hyperarousal, not the sadness, fatigue, and loss of interest characteristic of depression.",
+        "B": "There is no established autoimmune mechanism targeting monoamine neurons in depression. While neuroinflammation research is active, the monoamine hypothesis is a neurotransmitter-level theory, not an autoimmune theory.",
+        "C": "While GABA dysfunction may contribute to some mood disorders, the monoamine hypothesis specifically concerns serotonin, norepinephrine, and dopamine, not GABA-mediated inhibition of these systems.",
+        "D": "The monoamine hypothesis proposes that depression results from deficient monoamine neurotransmission \u2014 low serotonin (5-HT), norepinephrine (NE), and/or dopamine (DA). Evidence includes: (1) drugs that increase monoamines (SSRIs, SNRIs, MAOIs) alleviate depression; (2) drugs that deplete monoamines (reserpine) can induce depressive symptoms; (3) postmortem studies show altered monoamine receptor density in depressed individuals. The hypothesis is an oversimplification but remains foundational."
+      },
+      "topic": "Monoamine Hypothesis / Depression",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_disorder_005",
+      "passage": null,
+      "passageRef": "ps_disorder_004",
+      "stem": "SSRIs (selective serotonin reuptake inhibitors) are first-line pharmacological treatments for MDD. Their mechanism of action is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "block the reuptake of serotonin from the synaptic cleft back into the presynaptic neuron, increasing serotonin availability in the synapse"
+        },
+        {
+          "label": "B",
+          "text": "stimulate the presynaptic neuron to release more serotonin with each action potential"
+        },
+        {
+          "label": "C",
+          "text": "directly activate postsynaptic serotonin receptors as agonists"
+        },
+        {
+          "label": "D",
+          "text": "inhibit monoamine oxidase (MAO), the enzyme that breaks down serotonin in the presynaptic terminal"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "SSRIs selectively block the serotonin transporter (SERT) on the presynaptic membrane. Normally, SERT reuptakes serotonin from the synaptic cleft back into the presynaptic neuron for recycling. By blocking this reuptake, SSRIs increase the concentration and duration of serotonin signaling in the synapse. Common SSRIs include fluoxetine (Prozac), sertraline (Zoloft), and escitalopram (Lexapro).",
+        "B": "SSRIs do not increase serotonin release. They increase serotonin availability by preventing its removal from the synapse. Drugs that increase release include amphetamines (which force monoamine release from vesicles).",
+        "C": "SSRIs are not receptor agonists \u2014 they do not directly activate serotonin receptors. They work upstream by increasing the amount of serotonin available to act on receptors. Buspirone is an example of a serotonin receptor agonist (5-HT1A partial agonist).",
+        "D": "MAO inhibitors (MAOIs) are a different class of antidepressant. MAOIs inhibit monoamine oxidase, which degrades serotonin, norepinephrine, and dopamine inside the presynaptic terminal. SSRIs target the reuptake transporter, not the degradative enzyme."
+      },
+      "topic": "SSRI Mechanism / Serotonin Reuptake",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_disorder_006",
+      "passage": null,
+      "passageRef": "ps_disorder_004",
+      "stem": "The psychologist also considers cognitive-behavioral therapy (CBT) for this patient. CBT for depression primarily targets:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "unconscious conflicts and childhood experiences, using free association and dream interpretation"
+        },
+        {
+          "label": "B",
+          "text": "family system dynamics and communication patterns that maintain the patient's depression"
+        },
+        {
+          "label": "C",
+          "text": "the therapeutic relationship itself as the primary mechanism of change"
+        },
+        {
+          "label": "D",
+          "text": "maladaptive thought patterns (cognitive distortions) and behavioral avoidance, using techniques like cognitive restructuring and behavioral activation"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This describes psychodynamic/psychoanalytic therapy (Freud), not CBT. Psychodynamic therapy focuses on unconscious processes, childhood experiences, and the therapeutic relationship. CBT focuses on present-moment thoughts and behaviors.",
+        "B": "Family systems therapy addresses family dynamics and communication. While family factors can influence depression, CBT for depression primarily targets the individual's cognitive distortions and behavioral patterns, not family interactions.",
+        "C": "The therapeutic relationship (therapeutic alliance) is important in all therapies, but it is not the primary mechanism of change in CBT. In person-centered therapy (Rogers), the relationship itself \u2014 characterized by unconditional positive regard, empathy, and genuineness \u2014 is considered the primary healing agent. In CBT, the relationship facilitates the work, but cognitive and behavioral techniques are the active ingredients.",
+        "D": "CBT is based on the cognitive model (Beck): depression is maintained by maladaptive thought patterns (cognitive distortions such as all-or-nothing thinking, catastrophizing, overgeneralization) and behavioral patterns (withdrawal, avoidance). Treatment involves cognitive restructuring (identifying and challenging distorted thoughts), behavioral activation (scheduling pleasurable and mastery activities), and skills training. CBT is the most empirically supported psychological treatment for depression."
+      },
+      "topic": "CBT / Cognitive Model of Depression",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_disorder_007",
+      "passage": null,
+      "stem": "The fight-or-flight response involves activation of the sympathetic nervous system. Which brain structure initiates this response by detecting potential threats and triggering autonomic and hormonal stress cascades?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The hippocampus, which is primarily involved in memory consolidation"
+        },
+        {
+          "label": "B",
+          "text": "The cerebellum, which coordinates motor movements and balance"
+        },
+        {
+          "label": "C",
+          "text": "The amygdala, which processes emotional stimuli (particularly fear and threat) and activates the hypothalamus to initiate sympathetic and HPA axis responses"
+        },
+        {
+          "label": "D",
+          "text": "The occipital lobe, which processes visual information from the retina"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The hippocampus is critical for forming new explicit memories and spatial navigation. While it interacts with the amygdala (providing contextual information about threatening situations), it does not initiate the fight-or-flight response.",
+        "B": "The cerebellum coordinates voluntary movement, balance, and motor learning. It is not involved in threat detection or stress response initiation.",
+        "C": "The amygdala is the brain's primary threat detection center. It receives sensory input (often before conscious cortical processing via the thalamic shortcut described by LeDoux) and, when a threat is detected, activates the hypothalamus. The hypothalamus then initiates two parallel stress responses: (1) sympathetic nervous system activation (rapid, via preganglionic neurons) producing increased heart rate, bronchodilation, and adrenaline release; (2) HPA axis activation (slower, via CRH \u2192 ACTH \u2192 cortisol) for sustained stress response.",
+        "D": "The occipital lobe processes visual input but does not evaluate its emotional significance or initiate stress responses. Visual information from the occipital lobe is relayed to the amygdala for emotional evaluation."
+      },
+      "topic": "Amygdala / Threat Detection / Fight-or-Flight",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_disorder_008",
+      "passage": null,
+      "stem": "A patient with damage to Broca's area (left inferior frontal gyrus) would most likely exhibit:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "fluent but meaningless speech with impaired comprehension \u2014 Wernicke's aphasia"
+        },
+        {
+          "label": "B",
+          "text": "nonfluent, effortful speech with relatively preserved comprehension \u2014 Broca's aphasia"
+        },
+        {
+          "label": "C",
+          "text": "complete deafness due to destruction of the auditory cortex"
+        },
+        {
+          "label": "D",
+          "text": "inability to form new long-term memories \u2014 anterograde amnesia"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Fluent but meaningless speech with impaired comprehension describes Wernicke's aphasia, caused by damage to Wernicke's area (left superior temporal gyrus), not Broca's area.",
+        "B": "Broca's area is critical for speech production and motor planning of language. Damage produces Broca's aphasia (expressive aphasia): speech is nonfluent, effortful, and telegraphic (missing function words and grammatical inflections), but comprehension of spoken language is relatively preserved. Patients know what they want to say but cannot produce fluent speech. The classic presentation is short, labored utterances with intact understanding.",
+        "C": "Broca's area is involved in speech production, not auditory processing. The primary auditory cortex is located in the temporal lobe (Heschl's gyrus). Damage to Broca's area does not cause deafness.",
+        "D": "Anterograde amnesia is associated with damage to the hippocampus and medial temporal lobe structures, not Broca's area. The most famous case is patient H.M., who had bilateral medial temporal lobe resection."
+      },
+      "topic": "Broca's Aphasia / Language Areas",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_disorder_009",
+      "passage": null,
+      "stem": "A researcher studying anxiety disorders finds that patients with generalized anxiety disorder (GAD) have elevated baseline cortisol levels and exaggerated cortisol responses to mild stressors. This finding is most consistent with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a hypoactive HPA axis that fails to produce cortisol in response to stress"
+        },
+        {
+          "label": "B",
+          "text": "a hyperactive HPA axis with impaired negative feedback, producing chronically elevated cortisol that contributes to sustained anxiety and physiological arousal"
+        },
+        {
+          "label": "C",
+          "text": "excessive parasympathetic activation that increases cortisol secretion"
+        },
+        {
+          "label": "D",
+          "text": "low dopamine levels in the mesolimbic pathway, causing anxiety as a compensatory response"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A hypoactive HPA axis would produce low cortisol, not the elevated cortisol described. The finding of elevated baseline cortisol and exaggerated responses indicates hyperactivity, not hypoactivity.",
+        "B": "In this study, elevated baseline cortisol and exaggerated cortisol responses to mild stressors suggest HPA-axis hyperactivity with impaired negative feedback regulation. Normally, cortisol feeds back to the hypothalamus and pituitary to suppress further CRH and ACTH release. When this feedback is impaired, cortisol remains chronically elevated, contributing to the persistent worry, physiological arousal, and cognitive symptoms characteristic of GAD. Note that cortisol findings can vary across anxiety disorder subtypes and individual patients; this interpretation is specific to the pattern described in the study.",
+        "C": "The parasympathetic nervous system does not regulate cortisol secretion. Cortisol is released through the HPA axis (hypothalamus \u2192 CRH \u2192 pituitary \u2192 ACTH \u2192 adrenal cortex \u2192 cortisol). The parasympathetic system promotes rest-and-digest functions and generally opposes the stress response.",
+        "D": "Low mesolimbic dopamine is associated with anhedonia and the negative symptoms of schizophrenia, not with anxiety disorders. Anxiety is more closely linked to HPA axis dysregulation, amygdala hyperactivity, and serotonergic/GABAergic dysfunction."
+      },
+      "topic": "HPA Axis Dysregulation / Anxiety",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_010",
+      "passage": null,
+      "stem": "A neuroscience student studies the effects of benzodiazepines (e.g., diazepam) on anxiety. Benzodiazepines reduce anxiety by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "blocking dopamine receptors in the mesolimbic pathway"
+        },
+        {
+          "label": "B",
+          "text": "inhibiting serotonin reuptake in the synaptic cleft"
+        },
+        {
+          "label": "C",
+          "text": "enhancing the effect of GABA at GABA-A receptors, increasing chloride ion flow into neurons and reducing neuronal excitability"
+        },
+        {
+          "label": "D",
+          "text": "activating the sympathetic nervous system to override the anxiety response"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Dopamine receptor blockade is the mechanism of antipsychotic medications (e.g., haloperidol, chlorpromazine), not benzodiazepines. Antipsychotics are used for schizophrenia, not primarily for anxiety.",
+        "B": "Serotonin reuptake inhibition is the mechanism of SSRIs (fluoxetine, sertraline). While SSRIs are also used to treat anxiety disorders, this is not the mechanism of benzodiazepines.",
+        "C": "Benzodiazepines are positive allosteric modulators of the GABA-A receptor. They bind to a site on the receptor distinct from the GABA binding site and increase the frequency of chloride channel opening when GABA is present. The increased Cl\u207b influx hyperpolarizes the neuron, making it less likely to fire. This widespread neuronal inhibition produces anxiolytic (anti-anxiety), sedative, muscle relaxant, and anticonvulsant effects. Benzodiazepines do not activate GABA-A receptors on their own \u2014 they enhance GABA's effect.",
+        "D": "Sympathetic activation would increase arousal and worsen anxiety (increased heart rate, sweating, muscle tension). Reducing anxiety requires decreasing sympathetic tone, not increasing it. Benzodiazepines reduce anxiety by enhancing GABAergic inhibition, which indirectly reduces sympathetic output."
+      },
+      "topic": "Benzodiazepine Mechanism / GABA",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_011",
+      "passage": null,
+      "stem": "Bipolar disorder is characterized by alternating episodes of mania and depression. During a manic episode, a patient would most likely exhibit:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "persistent sadness, fatigue, and psychomotor retardation"
+        },
+        {
+          "label": "B",
+          "text": "elevated or irritable mood, decreased need for sleep, grandiosity, pressured speech, and increased goal-directed activity or risky behavior"
+        },
+        {
+          "label": "C",
+          "text": "recurrent, intrusive thoughts and repetitive behaviors performed to reduce anxiety"
+        },
+        {
+          "label": "D",
+          "text": "intense fear of social situations and avoidance of public interaction"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Persistent sadness, fatigue, and psychomotor retardation describe a depressive episode, not a manic episode. These are features of the depressive pole of bipolar disorder or of major depressive disorder.",
+        "B": "Mania is characterized by a distinct period of abnormally elevated, expansive, or irritable mood and increased energy, lasting at least one week (or any duration if hospitalization is required). Core features include decreased need for sleep (feeling rested after 3 hours), grandiosity, pressured speech, flight of ideas, distractibility, increased goal-directed activity, and excessive involvement in pleasurable activities with high potential for painful consequences (spending sprees, sexual indiscretions, risky investments). Mania represents the opposite pole from depression in bipolar disorder.",
+        "C": "Recurrent intrusive thoughts (obsessions) and repetitive behaviors (compulsions) describe obsessive-compulsive disorder (OCD), not mania. OCD is classified separately from bipolar disorder.",
+        "D": "Fear of social situations and avoidance of public interaction describe social anxiety disorder (social phobia). While anxiety can co-occur with bipolar disorder, these are not features of a manic episode."
+      },
+      "topic": "Bipolar Disorder / Mania",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_disorder_012",
+      "passage": null,
+      "stem": "The diathesis-stress model of psychopathology proposes that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "psychological disorders are caused entirely by genetic factors, and environmental stress plays no role"
+        },
+        {
+          "label": "B",
+          "text": "psychological disorders are caused entirely by environmental stress, and biological vulnerability plays no role"
+        },
+        {
+          "label": "C",
+          "text": "psychological disorders develop when a pre-existing vulnerability (biological, genetic, or psychological) interacts with environmental stressors that exceed the individual's coping capacity"
+        },
+        {
+          "label": "D",
+          "text": "stress is always beneficial and promotes psychological resilience"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The diathesis-stress model explicitly rejects genetic determinism. It proposes that genetics and biology create vulnerability (diathesis), but the disorder manifests only when environmental stressors trigger it. Neither factor alone is sufficient.",
+        "B": "The model also rejects environmental determinism. Not everyone exposed to the same stressors develops a disorder \u2014 individual vulnerability varies. The model requires both a predisposition and a trigger.",
+        "C": "The diathesis-stress model proposes that psychopathology results from the interaction between pre-existing vulnerability (the diathesis \u2014 which can be genetic, neurobiological, cognitive, or temperamental) and environmental stressors (trauma, loss, social adversity). The disorder develops when stress exceeds the individual's threshold, which is determined by the degree of vulnerability. A person with high genetic vulnerability may develop the disorder after mild stress, while a person with low vulnerability may require severe stress.",
+        "D": "While some stress can promote resilience (consistent with the concept of stress inoculation), the diathesis-stress model focuses on how stress triggers psychopathology in vulnerable individuals, not on the benefits of stress."
+      },
+      "topic": "Diathesis-Stress Model / Psychopathology",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_disorder_013",
+      "passage": null,
+      "stem": "A sleep researcher studies the stages of sleep using electroencephalography (EEG). During REM sleep, the EEG shows:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "high-amplitude, low-frequency delta waves characteristic of deep sleep"
+        },
+        {
+          "label": "B",
+          "text": "sleep spindles and K-complexes characteristic of Stage 2 NREM sleep"
+        },
+        {
+          "label": "C",
+          "text": "Low-amplitude, mixed-frequency EEG activity resembling waking brain activity, accompanied by rapid eye movements and muscle atonia"
+        },
+        {
+          "label": "D",
+          "text": "a flat EEG with no detectable electrical activity"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "High-amplitude delta waves (0.5\u20134 Hz) characterize Stage 3 NREM sleep (slow-wave sleep / deep sleep). REM sleep has a distinctly different EEG pattern \u2014 low-amplitude, fast activity resembling wakefulness.",
+        "B": "Sleep spindles (brief bursts of 12\u201314 Hz activity) and K-complexes (sharp waveforms) are markers of Stage 2 NREM sleep. They are not present during REM sleep.",
+        "C": "REM (rapid eye movement) sleep is paradoxical: the EEG shows low-amplitude, mixed-frequency activity similar to waking beta waves, suggesting an active brain. However, the body is in muscle atonia (voluntary muscles are paralyzed via glycinergic inhibition of motor neurons), preventing the dreamer from acting out dreams. REM sleep is associated with vivid dreaming, memory consolidation, and emotional processing. The combination of an 'awake' brain in a paralyzed body gives REM its alternate name: 'paradoxical sleep.'",
+        "D": "A flat EEG indicates brain death or profound suppression. Normal sleep always shows detectable electrical activity. Even the deepest NREM sleep shows large, slow delta waves."
+      },
+      "topic": "REM Sleep / EEG Patterns",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_014",
+      "passage": null,
+      "stem": "A patient with anterograde amnesia following bilateral hippocampal damage is unable to form new explicit memories but can learn new motor skills (e.g., mirror drawing) through repeated practice. This dissociation demonstrates that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the hippocampus is required for all types of memory formation"
+        },
+        {
+          "label": "B",
+          "text": "explicit (declarative) memory and implicit (procedural) memory rely on different neural substrates \u2014 the hippocampus is essential for explicit memory, while implicit memory is mediated by the cerebellum, basal ganglia, and other structures"
+        },
+        {
+          "label": "C",
+          "text": "amnesia eliminates all forms of learning and memory"
+        },
+        {
+          "label": "D",
+          "text": "motor skills are stored in the hippocampus but can be accessed without conscious awareness"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "If the hippocampus were required for all memory, the patient could not learn any new skills. The preserved motor learning directly contradicts this claim and demonstrates that some memory systems are hippocampus-independent.",
+        "B": "This dissociation \u2014 impaired explicit memory with preserved implicit memory \u2014 is one of the most important findings in memory neuroscience, demonstrated most famously by patient H.M. Explicit (declarative) memory (facts and events) requires the hippocampus and medial temporal lobe for initial encoding and consolidation. Implicit (procedural) memory (motor skills, habits, conditioning) relies on the cerebellum (motor learning), basal ganglia (habit formation), and amygdala (emotional conditioning) \u2014 structures that are intact in this patient.",
+        "C": "The patient can learn new motor skills, which is a form of learning. Amnesia affects specific memory systems, not all learning capacity.",
+        "D": "Motor skills are not stored in the hippocampus. They are encoded and stored in the cerebellum, basal ganglia, and motor cortex. The hippocampus is not involved in procedural memory formation."
+      },
+      "topic": "Explicit vs Implicit Memory / Hippocampus",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_015",
+      "passage": null,
+      "stem": "A researcher finds that chronic stress in rats leads to atrophy of hippocampal dendrites and impaired spatial memory. This finding illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "neuroplasticity \u2014 the brain's ability to change structurally in response to experience, which in this case is maladaptive"
+        },
+        {
+          "label": "B",
+          "text": "the irreversibility of all brain changes after a critical period in development"
+        },
+        {
+          "label": "C",
+          "text": "that the hippocampus has no role in spatial memory and the impairment must be caused by damage to another structure"
+        },
+        {
+          "label": "D",
+          "text": "that stress hormones enhance hippocampal function and improve memory consolidation"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Neuroplasticity refers to the brain's capacity to change its structure and function in response to experience. Typically discussed in positive contexts (learning, recovery from injury), neuroplasticity can also be maladaptive. Chronic stress and sustained cortisol exposure causes dendritic retraction and reduced neurogenesis in the hippocampus, impairing spatial memory and other hippocampus-dependent functions. This structural change in response to environmental conditions is neuroplasticity \u2014 but in a harmful direction.",
+        "B": "The finding demonstrates that brain structure can change in adulthood in response to experience, which contradicts the idea that brain changes are limited to developmental critical periods. The hippocampus is one of the brain regions that retains significant plasticity throughout life.",
+        "C": "The hippocampus is one of the best-established brain regions for spatial memory (O'Keefe's place cells, spatial navigation). The correlation between hippocampal dendritic atrophy and spatial memory impairment supports, rather than contradicts, the hippocampus's role in spatial memory.",
+        "D": "Acute, moderate stress can enhance memory consolidation through amygdala-mediated modulation. However, chronic stress and sustained cortisol exposure impair hippocampal function. The finding specifically shows atrophy and impaired memory \u2014 the opposite of enhancement."
+      },
+      "topic": "Neuroplasticity / Stress and Brain Structure",
+      "difficulty": "Medium"
+    }
+  ]
+}

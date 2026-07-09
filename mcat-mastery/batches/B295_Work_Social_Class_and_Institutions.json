@@ -1,0 +1,225 @@
+{
+  "batch": "B295",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Work, Social Class & Institutions",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_job_control_burnout_295_q0",
+      "passage": "A workplace survey compared employees in high-demand jobs with either low or high control over how tasks were completed. Employees in the high-demand, low-control group reported the highest burnout scores and the fewest opportunities to take restorative breaks. Workers in high-demand, high-control roles still felt busy, but they were more likely to report that they could prioritize tasks and adjust pacing. Interviews suggested that autonomy shaped whether work demands felt overwhelming or manageable.",
+      "usePrevPassage": false,
+      "stem": "According to the passage, which employees reported the highest burnout?",
+      "choices": {
+        "A": "Employees in high-demand jobs with low control",
+        "B": "Employees in high-demand jobs with high control",
+        "C": "Employees who could adjust pacing",
+        "D": "All groups reported the same burnout"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage explicitly identifies the high-demand, low-control group as having the highest burnout. Their combination of heavy demand and low autonomy appears to be the most stressful arrangement.",
+        "B": "The high-demand, high-control employees were busy but not the highest-burnout group described.",
+        "C": "Employees who could adjust pacing were described as having more autonomy, not the highest burnout.",
+        "D": "The groups were described as differing meaningfully, not as having equal burnout."
+      },
+      "topic": "Work and Health",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_job_control_burnout_295_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why might greater control reduce burnout in demanding jobs?",
+      "choices": {
+        "C": "Autonomy can improve coping by letting workers organize and pace demands",
+        "A": "Control eliminates workload completely",
+        "B": "Autonomy prevents any future deadlines",
+        "D": "Low control is beneficial because it removes responsibility"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. When people can prioritize tasks and adjust pacing, demanding work may feel more manageable. That sense of control can reduce helplessness and support better coping even when the job remains busy.",
+        "A": "High control does not erase the amount of work; it changes how employees can respond to it.",
+        "B": "Autonomy does not make deadlines disappear.",
+        "D": "The passage points in the opposite direction: low control was tied to worse burnout."
+      },
+      "topic": "Work and Social Stressors",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_job_control_burnout_295_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The role of autonomy in the passage best fits which concept?",
+      "choices": {
+        "B": "Institutional structure can shape individual stress outcomes",
+        "A": "The fundamental attribution error",
+        "C": "The foot-in-the-door phenomenon",
+        "D": "The placebo effect"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The survey suggests that a structural feature of jobs\u2014control over tasks\u2014helps shape how people experience stress. That is a sociological account emphasizing institutional organization rather than purely personal weakness.",
+        "A": "The fundamental attribution error is a bias in explaining behavior, not the structural factor highlighted here.",
+        "C": "The foot-in-the-door effect concerns compliance after an initial small request.",
+        "D": "The placebo effect is unrelated to job autonomy and burnout."
+      },
+      "topic": "Sociology of Work",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_job_control_burnout_295_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A manager hoping to reduce burnout should most likely do what?",
+      "choices": {
+        "D": "Increase employees\u2019 decision latitude and break flexibility where possible",
+        "A": "Raise demands while removing scheduling flexibility",
+        "B": "Assume burnout can be solved only outside the workplace",
+        "C": "Prohibit workers from reprioritizing tasks"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Because high demand was especially harmful when coupled with low control, increasing decision latitude and allowing restorative breaks would directly target the feature most associated with burnout.",
+        "A": "The passage suggests the opposite: removing flexibility worsens the stressful combination.",
+        "B": "The workplace structure itself clearly matters in the study.",
+        "C": "Preventing reprioritization would further reduce autonomy rather than improve it."
+      },
+      "topic": "Applied Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_job_control_burnout_295_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is the most defensible based on the survey design?",
+      "choices": {
+        "B": "Perceived control was associated with lower burnout, but the survey alone cannot prove a causal effect",
+        "A": "The data prove autonomy is the only determinant of burnout",
+        "C": "Interviews are invalid if they include quotations from workers",
+        "D": "Job demand is irrelevant whenever autonomy is high"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Because the evidence comes from a survey and interviews rather than experimental assignment, it supports a strong association but not certainty that autonomy alone caused the differences. Other workplace factors may also contribute.",
+        "A": "Burnout is multifactorial, so the survey cannot establish autonomy as the only determinant.",
+        "C": "Interviews can add useful context and are not invalid simply because they include worker perspectives.",
+        "D": "High demand still mattered; autonomy appeared to buffer but not erase it."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_social_class_food_access_295_q5",
+      "passage": "A public-health team compared food access in two neighborhoods. Residents of the first neighborhood lived closer to full-service grocery stores and had shorter average travel times to buy fresh produce. Residents of the second neighborhood more often relied on small convenience stores, reported longer bus rides for weekly shopping, and spent a larger share of their food budget on packaged items. The researchers also noted that some households in both neighborhoods struggled with long work hours, which limited time for meal preparation even when healthy food was available. The study combined interviews with shopping receipts.",
+      "usePrevPassage": false,
+      "stem": "What pattern in the passage best illustrates the effect of neighborhood resources on diet?",
+      "choices": {
+        "A": "Residents with nearer grocery stores and reliable transport had easier access to fresh food",
+        "B": "Residents in poorer neighborhoods had more specialty grocers",
+        "C": "Transportation barriers were unrelated to food choice",
+        "D": "All neighborhoods had the same food environment"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage explicitly links shorter travel distances and better transport with easier access to fresh produce, while longer travel and limited transit were linked to heavier reliance on convenience food. That is the clearest pattern relating neighborhood resources to diet.",
+        "B": "The passage reports the opposite pattern: lower-resource neighborhoods had fewer convenient healthy options.",
+        "C": "Transportation barriers were directly mentioned as part of the explanation.",
+        "D": "The food environments were described as different, not identical."
+      },
+      "topic": "Social Stratification",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_social_class_food_access_295_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A neighborhood with fewer supermarkets and longer transit times is most likely experiencing what?",
+      "choices": {
+        "C": "A structural barrier that contributes to unequal health opportunities",
+        "A": "An individual personality deficit among residents",
+        "B": "An example of sensory adaptation",
+        "D": "A form of classical conditioning"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage frames unequal food access as a feature of neighborhood structure, not as a problem caused by individual character. That makes it a structural determinant of health opportunity.",
+        "A": "The explanation is about place and resources, not personality deficits.",
+        "B": "Sensory adaptation is unrelated to grocery access and diet.",
+        "D": "Classical conditioning is not the mechanism described."
+      },
+      "topic": "Social Determinants of Health",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_class_food_access_295_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why would the researchers be cautious about saying the neighborhood caused every dietary difference?",
+      "choices": {
+        "D": "Households may also differ in income, schedules, preferences, and cooking time",
+        "A": "The word \u201cdiet\u201d cannot be measured",
+        "B": "The study used interviews and receipts rather than astrology",
+        "C": "Neighborhoods never matter for health behavior"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Although neighborhood access is clearly relevant, the study remains observational. Other household-level factors may also influence food choices, so causation should be stated carefully.",
+        "A": "Diet can be measured through many methods; that is not the issue.",
+        "B": "Using interviews and receipts is not a flaw of the kind suggested here.",
+        "C": "The passage explicitly implies that neighborhoods do matter."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_class_food_access_295_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A policy intervention most consistent with the findings would be which of the following?",
+      "choices": {
+        "A": "Improve affordable access to fresh food through transport and retail policy",
+        "B": "Reduce grocery-store hours in underserved areas",
+        "C": "Assume diet change depends only on willpower",
+        "D": "Encourage convenience stores to stop stocking any food items"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. If longer travel and fewer supermarkets limit healthy options, then expanding affordable access through transportation, retail incentives, or local produce programs is the most direct policy response.",
+        "B": "Reducing store hours would worsen access.",
+        "C": "The study highlights structural barriers, so willpower alone is not the full answer.",
+        "D": "Removing all food items from convenience stores would not address the need for accessible healthy food."
+      },
+      "topic": "Applied Sociology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_social_class_food_access_295_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which statement best summarizes the broader sociological lesson of the passage?",
+      "choices": {
+        "C": "Health behaviors are shaped not only by personal choice but also by the distribution of resources across neighborhoods",
+        "A": "Neighborhood context matters only after medical diagnosis",
+        "B": "Diet is unrelated to social class once adults leave school",
+        "D": "Personal choice and social structure can never interact"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The study shows how social and material context influences what choices are realistically available. It does not deny personal choice, but it emphasizes that choices are made within unequal structural conditions.",
+        "A": "The lesson is broader than post-diagnosis medical care.",
+        "B": "The passage links diet to neighborhood structure and resources, not to school status.",
+        "D": "Choice and structure can interact; the sociological point is that they do not operate separately."
+      },
+      "topic": "Sociology",
+      "difficulty": "Hard"
+    }
+  ]
+}

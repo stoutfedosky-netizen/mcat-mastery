@@ -1,0 +1,337 @@
+{
+  "batch": "B063",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Genetics: Pedigree Analysis & Inheritance Patterns",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_genet_001",
+      "passage": "A genetic counselor analyzes a family pedigree for a rare disease. The pedigree shows that the condition affects males and females equally, appears in every generation, and affected individuals always have at least one affected parent. An affected father married to an unaffected mother produces both affected and unaffected children in approximately equal proportions. No consanguinity is present. The counselor also examines a second family where a condition affects only males, is never transmitted father-to-son, and carrier mothers pass the trait to approximately half their sons.",
+      "stem": "The inheritance pattern in the first family is most consistent with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "autosomal recessive, because the trait skips generations"
+        },
+        {
+          "label": "B",
+          "text": "autosomal dominant, because the trait appears in every generation and affected individuals always have an affected parent"
+        },
+        {
+          "label": "C",
+          "text": "X-linked recessive, because it affects males and females equally"
+        },
+        {
+          "label": "D",
+          "text": "mitochondrial inheritance, because it is passed from mother to all children"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Autosomal recessive traits typically skip generations — two unaffected carrier parents can produce affected children. The pedigree shows continuous vertical transmission with no skipping, which is inconsistent with recessive inheritance.",
+        "B": "Correct. The hallmarks of autosomal dominant inheritance are: (1) vertical transmission — the trait appears in every generation without skipping; (2) affected individuals have at least one affected parent; (3) males and females are affected equally; (4) an affected heterozygous parent × unaffected parent produces ~50% affected offspring. All of these features match the first family. Examples include Huntington disease, Marfan syndrome, and familial hypercholesterolemia.",
+        "C": "X-linked recessive inheritance produces a male-predominant pattern with no male-to-male transmission. The first family shows equal sex distribution and affected fathers, which rules out X-linked recessive.",
+        "D": "Mitochondrial inheritance is exclusively maternal — an affected mother passes the trait to all children regardless of sex, and affected fathers cannot transmit it. The pedigree shows affected fathers transmitting to children, ruling out mitochondrial inheritance."
+      },
+      "topic": "Autosomal Dominant Inheritance / Pedigree",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_genet_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The second family's inheritance pattern — affecting only males, never transmitted father-to-son, with carrier mothers passing to half their sons — is characteristic of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "autosomal dominant inheritance"
+        },
+        {
+          "label": "B",
+          "text": "autosomal recessive inheritance"
+        },
+        {
+          "label": "C",
+          "text": "Y-linked inheritance"
+        },
+        {
+          "label": "D",
+          "text": "X-linked recessive inheritance"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "Y-linked inheritance would show exclusive father-to-son transmission — every son of an affected father would be affected. The second family shows no father-to-son transmission, ruling out Y-linkage.",
+        "A": "Autosomal dominant traits affect males and females equally and can be transmitted father-to-son. The exclusively male pattern and absence of father-to-son transmission rule out autosomal dominant.",
+        "B": "Autosomal recessive traits affect both sexes equally when both parents carry the allele. The exclusive male predominance and lack of father-to-son transmission are inconsistent with autosomal recessive.",
+        "D": "Correct. X-linked recessive traits show: (1) predominantly male affected individuals (hemizygous males need only one copy); (2) no male-to-male transmission (fathers pass Y, not X, to sons); (3) carrier mothers transmit the allele to 50% of sons (affected) and 50% of daughters (carriers). Classic examples include hemophilia A, Duchenne muscular dystrophy, and red-green color blindness."
+      },
+      "topic": "X-linked Recessive Inheritance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_genet_003",
+      "passage": null,
+      "stem": "In a cross between two heterozygous parents (Aa × Aa) for an autosomal recessive condition, the probability that a phenotypically normal child is a carrier (Aa) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1/4"
+        },
+        {
+          "label": "B",
+          "text": "1/2"
+        },
+        {
+          "label": "C",
+          "text": "3/4"
+        },
+        {
+          "label": "D",
+          "text": "2/3"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "3/4 is the probability of being phenotypically normal (AA + Aa), not the probability of being a carrier among normal individuals.",
+        "A": "1/4 is the probability of being AA or aa from the full cross, not the conditional probability of being a carrier given a normal phenotype. The question asks specifically about phenotypically normal children.",
+        "B": "1/2 is the overall probability of being heterozygous (Aa) from the cross (2/4), but the question specifies 'phenotypically normal,' which excludes the aa genotype. Among the 3 normal genotypes, 2 are Aa, giving 2/3.",
+        "D": "Correct. From Aa × Aa, the genotype ratio is 1 AA : 2 Aa : 1 aa. Phenotypically normal children are AA or Aa (3/4 total). Of those 3 phenotypically normal, 2 are carriers (Aa). So P(carrier | normal) = 2/3. This conditional probability is frequently tested on the MCAT and requires recognizing that you must exclude the affected (aa) individual from the denominator."
+      },
+      "topic": "Conditional Probability / Carrier Status",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_genet_004",
+      "passage": null,
+      "stem": "Incomplete dominance is demonstrated when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "heterozygotes display a phenotype intermediate between the two homozygous phenotypes, as in snapdragon flower color (red × white → pink)"
+        },
+        {
+          "label": "B",
+          "text": "both alleles are fully expressed simultaneously in the heterozygote, as in AB blood type"
+        },
+        {
+          "label": "C",
+          "text": "one allele completely masks the other in the heterozygote"
+        },
+        {
+          "label": "D",
+          "text": "a single gene controls multiple unrelated phenotypic traits"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In incomplete dominance, the heterozygote has a blended or intermediate phenotype. A classic example is snapdragon flower color: RR (red) × rr (white) → Rr (pink). The heterozygote produces less red pigment than the RR homozygote, resulting in an intermediate color. This differs from codominance, where both alleles are fully and distinctly expressed.",
+        "B": "Both alleles being fully expressed describes codominance, not incomplete dominance. In ABO blood type, the I^A and I^B alleles are codominant — the heterozygote expresses both A and B antigens simultaneously, not an intermediate.",
+        "C": "One allele completely masking the other describes complete (simple) dominance — the standard Mendelian pattern. In incomplete dominance, neither allele fully masks the other; the heterozygote is intermediate.",
+        "D": "A single gene controlling multiple traits describes pleiotropy (e.g., sickle cell disease affecting hemoglobin, spleen, bone, and lung). This is unrelated to dominance patterns."
+      },
+      "topic": "Incomplete Dominance",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_genet_005",
+      "passage": null,
+      "stem": "Two genes are located on the same chromosome but show a recombination frequency of 48%. This means:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "they are tightly linked and will almost always be inherited together"
+        },
+        {
+          "label": "B",
+          "text": "they are on different chromosomes and assort independently"
+        },
+        {
+          "label": "C",
+          "text": "they are syntenic but far enough apart that crossover occurs frequently, making them behave nearly as if unlinked"
+        },
+        {
+          "label": "D",
+          "text": "one gene is dominant over the other"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Genes on the same chromosome are syntenic. A recombination frequency approaching 50% (the maximum observable) indicates they are far apart on the chromosome, with crossovers occurring so frequently between them that they segregate nearly independently. At 48%, they are technically linked but functionally almost indistinguishable from independent assortment. Only genes close enough to show recombination frequencies well below 50% behave as tightly linked.",
+        "A": "A recombination frequency near 48% indicates very loose linkage, not tight linkage. Tightly linked genes have recombination frequencies close to 0% (e.g., 1-5%) and are almost always co-inherited.",
+        "B": "They are on the same chromosome by definition (syntenic), so they do not assort independently in the strict sense. However, at 48% recombination, their behavior closely approximates independent assortment. The question specifies they are on the same chromosome.",
+        "D": "Dominance describes allele interactions at a single locus. Recombination frequency describes the physical distance between two different genes and is unrelated to dominance relationships."
+      },
+      "topic": "Genetic Linkage / Recombination Frequency",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_genet_006",
+      "passage": null,
+      "stem": "A woman who is a carrier of an X-linked recessive trait marries an unaffected man. The probability that their first son will be affected is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0 (no sons can be affected)"
+        },
+        {
+          "label": "B",
+          "text": "1/4"
+        },
+        {
+          "label": "C",
+          "text": "1/2"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The carrier mother is X^A X^a. She will pass either X^A or X^a to each child with equal probability. Sons receive their single X from the mother. If a son receives X^a, he is hemizygous affected (X^a Y). If he receives X^A, he is unaffected (X^A Y). Therefore, each son has a 1/2 probability of being affected. Note: the 1/2 is conditional on the child being male — the overall probability of an affected child (regardless of sex) is 1/4.",
+        "A": "Sons can absolutely be affected. The carrier mother has a 50% chance of passing the disease allele to each son. This is the hallmark of X-linked recessive transmission — carrier mothers are the source of affected males.",
+        "B": "1/4 is the probability that any child (regardless of sex) will be affected (1/2 chance of being male × 1/2 chance of receiving X^a = 1/4). The question asks specifically about their first son, so the probability is 1/2.",
+        "D": "Not all sons will be affected. The carrier mother has two X chromosomes — X^A and X^a — and each son receives one or the other with equal probability. Only sons who inherit X^a are affected."
+      },
+      "topic": "X-linked Recessive / Carrier Cross",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_genet_007",
+      "passage": null,
+      "stem": "Epistasis occurs when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "one gene's product masks or modifies the phenotypic expression of another gene at a different locus"
+        },
+        {
+          "label": "B",
+          "text": "two alleles of the same gene interact to produce a blended phenotype"
+        },
+        {
+          "label": "C",
+          "text": "linked genes are always inherited together"
+        },
+        {
+          "label": "D",
+          "text": "a single gene has multiple alleles in the population"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Epistasis is an interaction between genes at different loci where one gene (epistatic) influences the phenotypic expression of another gene (hypostatic). In Labrador coat color, the E locus is epistatic to the B locus: ee dogs are yellow regardless of their B genotype, because the E gene controls pigment deposition. Epistasis modifies expected Mendelian ratios (e.g., 9:3:3:1 becomes 9:3:4 or 12:3:1).",
+        "B": "Two alleles of the same gene producing a blended phenotype describes incomplete dominance, not epistasis. Epistasis involves interaction between different genes, not different alleles of the same gene.",
+        "C": "Genes being inherited together describes linkage, not epistasis. Epistasis is a phenotypic interaction between gene products, while linkage is a physical relationship on the same chromosome.",
+        "D": "Multiple alleles in a population describes multiple allelism (e.g., ABO blood type with I^A, I^B, and i alleles). This is different from epistasis, which involves gene-gene interaction."
+      },
+      "topic": "Epistasis / Gene Interaction",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_genet_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the first family's pedigree, an affected father (Aa) and an unaffected mother (aa) have children. What proportion of their daughters would be expected to be affected?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0 — autosomal dominant traits cannot affect daughters"
+        },
+        {
+          "label": "B",
+          "text": "approximately 1/2"
+        },
+        {
+          "label": "C",
+          "text": "all daughters would be affected"
+        },
+        {
+          "label": "D",
+          "text": "approximately 1/4"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. For an autosomal dominant trait, the affected father is Aa (heterozygous — the trait is rare, so homozygous AA is extremely unlikely). Cross: Aa × aa → 1/2 Aa (affected) + 1/2 aa (unaffected). Since the gene is autosomal, this 1:1 ratio applies equally to sons and daughters. Therefore, approximately half the daughters would be affected.",
+        "A": "Autosomal traits affect males and females equally. There is no sex-limited expression described here. Daughters receive one allele from each parent and have the same probability of inheriting the dominant allele as sons.",
+        "C": "All daughters being affected would require the father to be homozygous dominant (AA × aa → all Aa), but for a rare dominant trait, affected individuals are almost always heterozygous. A heterozygous father passes the dominant allele to only half his children.",
+        "D": "1/4 would be the proportion if both parents were heterozygous carriers of a recessive trait (Aa × Aa → 1/4 aa). For this autosomal dominant cross (Aa × aa), the expected proportion is 1/2."
+      },
+      "topic": "Autosomal Dominant Cross / Offspring Ratios",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_genet_009",
+      "passage": null,
+      "stem": "The Hardy-Weinberg equation (p² + 2pq + q² = 1) assumes several conditions. Which of the following would violate Hardy-Weinberg equilibrium?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "random mating within the population"
+        },
+        {
+          "label": "B",
+          "text": "a very large population size"
+        },
+        {
+          "label": "C",
+          "text": "natural selection favoring one genotype over others"
+        },
+        {
+          "label": "D",
+          "text": "absence of mutation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Natural selection changes allele frequencies by differentially favoring certain genotypes, directly violating Hardy-Weinberg equilibrium. HWE requires no selection, no mutation, no migration, random mating, and a large population. Selection against a genotype reduces its frequency below the HWE prediction, causing the population to deviate from p² + 2pq + q² = 1.",
+        "A": "Random mating is a requirement for Hardy-Weinberg equilibrium, not a violation. Non-random mating (assortative mating, inbreeding) would violate HWE by changing genotype frequencies.",
+        "B": "A large population size helps maintain Hardy-Weinberg equilibrium by minimizing genetic drift. Small populations are more susceptible to random fluctuations that violate HWE.",
+        "D": "Absence of mutation is a requirement for HWE, not a violation. Mutation introduces new alleles and changes allele frequencies, so no mutation is needed to maintain equilibrium."
+      },
+      "topic": "Hardy-Weinberg Violations",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_genet_010",
+      "passage": null,
+      "stem": "Penetrance refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the proportion of individuals with a given genotype who actually express the associated phenotype"
+        },
+        {
+          "label": "B",
+          "text": "the degree to which a phenotype is expressed in an individual"
+        },
+        {
+          "label": "C",
+          "text": "the frequency of an allele in the population"
+        },
+        {
+          "label": "D",
+          "text": "the rate at which mutations arise in a gene"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Penetrance is the probability that a person carrying a disease-associated genotype will actually show the phenotype. If 80% of individuals with a dominant allele show the trait, penetrance is 80% (incomplete penetrance). BRCA1 mutations have ~70% penetrance for breast cancer — not every carrier develops the disease. Penetrance is distinct from expressivity, which describes the degree or severity of expression among those who do express the trait.",
+        "B": "The degree of phenotypic expression describes expressivity, not penetrance. Variable expressivity means the trait manifests with different severity in different individuals (e.g., neurofibromatosis ranges from mild café-au-lait spots to severe tumors). Penetrance is all-or-nothing: does the individual express the trait at all?",
+        "C": "The frequency of an allele in the population is the allele frequency (p or q in Hardy-Weinberg). Penetrance describes whether a genotype produces a phenotype in an individual, not how common the allele is.",
+        "D": "The rate of mutation is the mutation rate, typically expressed per nucleotide per generation. Penetrance is about phenotypic expression given a specific genotype, not about how often new mutations arise."
+      },
+      "topic": "Penetrance vs Expressivity",
+      "difficulty": "Easy"
+    }
+  ]
+}

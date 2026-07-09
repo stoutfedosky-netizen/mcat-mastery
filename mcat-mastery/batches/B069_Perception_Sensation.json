@@ -1,0 +1,338 @@
+{
+  "batch": "B069",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Perception & Sensation",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_sens_001",
+      "passage": "A vision researcher uses psychophysical methods to study light detection and brightness perception. She measures the absolute threshold for light detection in dark-adapted subjects and finds it corresponds to ~5-10 photons activating rod photoreceptors. She also measures just noticeable differences (JNDs) for brightness discrimination and finds that the JND is a constant fraction of stimulus intensity (Weber fraction k ≈ 0.08 for brightness). She compares visual sensitivity in the fovea vs periphery and examines color afterimages using prolonged exposure to colored stimuli followed by neutral gray test patches.",
+      "stem": "The finding that the JND is a constant proportion of stimulus intensity (ΔI/I = k) is a statement of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Stevens' power law"
+        },
+        {
+          "label": "B",
+          "text": "Fechner's law"
+        },
+        {
+          "label": "C",
+          "text": "Weber's law"
+        },
+        {
+          "label": "D",
+          "text": "signal detection theory"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Stevens' power law (S = kIⁿ) describes perceived magnitude as a power function of stimulus intensity. Different modalities have different exponents (brightness n ≈ 0.33, electric shock n ≈ 3.5). It is an alternative to Fechner's logarithmic law.",
+        "B": "Fechner's law builds on Weber's law and states that perceived magnitude (S) is proportional to the logarithm of stimulus intensity: S = k ln(I/I₀). It describes the overall sensation-intensity relationship, not specifically the JND proportionality.",
+        "C": "Correct. Weber's law states that the just noticeable difference (JND) is proportional to the background stimulus intensity: ΔI/I = k (constant). For brightness, k ≈ 0.08, meaning you need an 8% intensity change to detect a difference regardless of the baseline. This holds reasonably well across a wide range of intensities for most sensory modalities, though it breaks down at very low and very high intensities.",
+        "D": "Signal detection theory (SDT) separates perceptual sensitivity (d') from response bias (criterion). It addresses how decisions are made under uncertainty but does not describe the proportional JND relationship."
+      },
+      "topic": "Weber's Law / JND",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sens_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The absolute threshold for light detection is lower (better sensitivity) in the periphery than in the fovea in dark-adapted conditions because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the fovea contains mostly rods, which are less sensitive to light"
+        },
+        {
+          "label": "B",
+          "text": "the fovea lacks any photoreceptors"
+        },
+        {
+          "label": "C",
+          "text": "the periphery has more cones than the fovea"
+        },
+        {
+          "label": "D",
+          "text": "the periphery has a higher density of rods, which are more sensitive to dim light due to greater photopigment (rhodopsin) content and higher convergence onto ganglion cells"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "The fovea has photoreceptors — it is densely packed with cones. It is the region of highest visual acuity and is used for tasks requiring fine detail (reading, face recognition).",
+        "A": "The fovea contains mostly cones, not rods. The central fovea (foveola) is rod-free. Rods are concentrated in the peripheral retina.",
+        "C": "The periphery has more rods, not cones. Cones are concentrated in the fovea for high-acuity color vision. Peripheral cone density is much lower than peripheral rod density.",
+        "D": "Correct. Rods are 100-1000× more sensitive to light than cones due to high rhodopsin content and signal amplification. They are concentrated in the periphery (peak density ~20° from fovea) with high convergence — many rods synapse onto a single ganglion cell, increasing sensitivity by summation. The fovea is dominated by cones (high acuity, color vision) with low convergence (1:1 cone-to-ganglion cell ratio), trading sensitivity for spatial resolution."
+      },
+      "topic": "Rods vs Cones / Retinal Distribution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sens_005",
+      "passage": null,
+      "stem": "Signal detection theory (SDT) separates a person's sensitivity from their response bias. A liberal response criterion (low threshold for saying 'yes') would result in:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "high hit rate and high false alarm rate"
+        },
+        {
+          "label": "B",
+          "text": "high hit rate and low false alarm rate"
+        },
+        {
+          "label": "C",
+          "text": "low hit rate and low false alarm rate"
+        },
+        {
+          "label": "D",
+          "text": "low hit rate and high false alarm rate"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A liberal criterion means the person requires less evidence to report detecting a signal — they say 'yes' frequently. This increases both hits (correctly detecting signals when present) and false alarms (incorrectly saying 'yes' when no signal is present). In medical screening, a liberal criterion catches more true positives but also produces more false positives. Sensitivity (d') remains unchanged — only the criterion shifts.",
+        "B": "High hits with low false alarms would indicate both high sensitivity and an optimal criterion — the ideal observer. A liberal criterion specifically increases false alarms along with hits.",
+        "C": "Low hits and low false alarms characterize a conservative criterion — the person says 'yes' rarely, missing many signals but also making few false alarms. This is the opposite of a liberal criterion.",
+        "D": "Low hits with high false alarms would represent both poor sensitivity (missing signals) and a liberal criterion (saying 'yes' often anyway) — an unusual and problematic combination."
+      },
+      "topic": "Signal Detection Theory / Criterion",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_sens_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "After staring at a red stimulus for 30 seconds, the researcher views a neutral gray surface and perceives a green afterimage. This is best explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "trichromatic theory alone, which fully accounts for afterimages"
+        },
+        {
+          "label": "B",
+          "text": "retinal detachment causing aberrant color perception"
+        },
+        {
+          "label": "C",
+          "text": "the frequency theory of color vision"
+        },
+        {
+          "label": "D",
+          "text": "opponent-process theory — prolonged stimulation of the red channel causes fatigue, and when the stimulus is removed, the opponent green channel is relatively more active, producing the green percept"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Retinal detachment is a medical emergency involving separation of the retina from underlying tissue, causing vision loss. It does not produce systematic complementary color afterimages.",
+        "A": "Trichromatic theory (Young-Helmholtz) explains color mixing and certain forms of color blindness but does not adequately account for complementary afterimages. Afterimages require the opponent-process framework. Modern color vision theory integrates both: trichromatic processing at the cone level, opponent processing at the ganglion cell and LGN levels.",
+        "C": "Frequency theory relates to pitch perception in audition (the basilar membrane vibrates at the frequency of the sound wave), not color vision. Color is determined by wavelength, processed by cone photoreceptors.",
+        "D": "Correct. Opponent-process theory (Hering, later refined by Hurvich & Jameson) proposes three opponent channels: red-green, blue-yellow, and black-white. Prolonged exposure to red fatigues the red component of the red-green channel. When the stimulus is removed, the green opponent mechanism is released from inhibition and dominates, producing a green afterimage on a neutral background. This accounts for complementary color afterimages that trichromatic theory alone cannot fully explain."
+      },
+      "topic": "Opponent-Process Theory / Afterimages",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sens_003",
+      "passage": null,
+      "stem": "Sensory adaptation occurs when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a person voluntarily ignores a stimulus through selective attention"
+        },
+        {
+          "label": "B",
+          "text": "a person learns to detect stimuli through practice"
+        },
+        {
+          "label": "C",
+          "text": "a stimulus increases in intensity and the person reports louder perception"
+        },
+        {
+          "label": "D",
+          "text": "a constant stimulus leads to decreased receptor sensitivity over time, as when entering a room with a strong odor that becomes unnoticeable after minutes"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Voluntarily ignoring a stimulus is selective attention (a cognitive, top-down process). Adaptation is an automatic, bottom-up process occurring at the receptor/neural level, independent of conscious control.",
+        "B": "Learning to detect stimuli through practice describes perceptual learning or training effects, not sensory adaptation. Adaptation is a receptor-level phenomenon, not a cognitive process.",
+        "C": "Increased perception of a louder stimulus is normal sensory processing, not adaptation. Adaptation involves decreased response to a constant stimulus, not increased response to an intensifying one.",
+        "D": "Correct. Sensory adaptation is the decreased responsiveness of sensory receptors to a constant, unchanging stimulus. Olfactory adaptation is dramatic — odor perception fades within minutes of continuous exposure as receptor neurons reduce their firing rate. Similar adaptation occurs in touch (clothing becomes unnoticeable), vision (stabilized retinal images fade), and temperature (water feels less cold over time). This frees attentional resources for detecting changes in the environment."
+      },
+      "topic": "Sensory Adaptation / Olfactory",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sens_006",
+      "passage": null,
+      "stem": "The gestalt principle of closure refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the tendency to perceive complete figures even when parts are missing — the brain fills in gaps to create a whole"
+        },
+        {
+          "label": "B",
+          "text": "objects near each other being grouped together"
+        },
+        {
+          "label": "C",
+          "text": "similar objects being grouped together"
+        },
+        {
+          "label": "D",
+          "text": "continuous lines being perceived as a single unit"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Closure is the tendency to perceive incomplete stimuli as complete. When presented with a circle with a gap, most people perceive a complete circle rather than an arc. The brain fills in missing information based on prior experience and pattern recognition. This demonstrates that perception is an active, constructive process — not passive recording of stimulus features.",
+        "B": "Objects near each other being grouped describes the gestalt principle of proximity. Nearby elements are perceived as belonging together, regardless of their individual features.",
+        "C": "Similar objects being grouped describes the gestalt principle of similarity. Elements sharing features (color, shape, size) are perceived as belonging to the same group.",
+        "D": "Continuous lines being perceived as a single unit describes the gestalt principle of continuity (or good continuation). Lines and patterns are perceived as following the smoothest path."
+      },
+      "topic": "Gestalt Principles / Closure",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sens_007",
+      "passage": null,
+      "stem": "The place theory of pitch perception states that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "different frequencies of sound maximally displace different locations along the basilar membrane, with high frequencies at the base and low frequencies at the apex"
+        },
+        {
+          "label": "B",
+          "text": "the entire basilar membrane vibrates at the frequency of the incoming sound"
+        },
+        {
+          "label": "C",
+          "text": "pitch is determined solely by the number of neurons firing, not their location"
+        },
+        {
+          "label": "D",
+          "text": "pitch perception occurs exclusively in the outer ear"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Place theory (von Békésy) explains pitch perception by the tonotopic organization of the basilar membrane. High-frequency sounds maximally displace the narrow, stiff base of the membrane near the oval window, while low-frequency sounds maximally displace the wide, flexible apex (helicotrema). Different locations activate different hair cells connected to specific auditory nerve fibers, encoding frequency as position. Place theory best explains perception of high-frequency sounds (>4000 Hz).",
+        "B": "The entire basilar membrane vibrating at the sound's frequency describes frequency theory (temporal theory), not place theory. Frequency theory works well for low frequencies (<1000 Hz) where neural firing can match the sound wave frequency via phase locking.",
+        "C": "The number of neurons firing (volley principle) is related to temporal coding, not place coding. In place theory, the specific location of maximal displacement, not the total number of active neurons, encodes pitch.",
+        "D": "Pitch perception occurs in the inner ear (cochlea), not the outer ear. The outer ear (pinna, ear canal) collects and funnels sound. The middle ear (ossicles) amplifies it. The inner ear (cochlea) transduces mechanical vibration to neural signals."
+      },
+      "topic": "Place Theory / Pitch Perception",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sens_008",
+      "passage": null,
+      "stem": "The vestibular system detects:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sound frequency and intensity"
+        },
+        {
+          "label": "B",
+          "text": "head position, linear acceleration (utricle and saccule), and rotational acceleration (semicircular canals), providing the sense of balance"
+        },
+        {
+          "label": "C",
+          "text": "taste and smell chemicals"
+        },
+        {
+          "label": "D",
+          "text": "fine touch and pressure on the skin"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The vestibular system in the inner ear consists of: (1) semicircular canals — three fluid-filled loops oriented in perpendicular planes that detect rotational (angular) acceleration via movement of endolymph over the cupula and hair cells; (2) otolith organs — the utricle (horizontal acceleration) and saccule (vertical acceleration) detect linear acceleration and head tilt via otolith crystals on hair cells that shift with gravity and motion. Together they provide balance, spatial orientation, and stabilize gaze (vestibulo-ocular reflex).",
+        "A": "Sound frequency and intensity are detected by the cochlea (auditory system), not the vestibular system. Although both are in the inner ear, they serve different sensory functions.",
+        "C": "Taste (gustation) is detected by taste buds on the tongue, and smell (olfaction) by olfactory receptors in the nasal epithelium. These are chemosensory systems, not vestibular.",
+        "D": "Fine touch and pressure are detected by mechanoreceptors in the skin (Meissner's corpuscles, Merkel cells, Pacinian corpuscles, Ruffini endings) — the somatosensory system, not vestibular."
+      },
+      "topic": "Vestibular System / Balance",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sens_009",
+      "passage": null,
+      "stem": "Bottom-up (data-driven) processing in perception refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "analysis that begins with higher-level cognitive expectations and works downward to interpret sensory data"
+        },
+        {
+          "label": "B",
+          "text": "analysis that begins with raw sensory data from receptors and builds up to a percept through successive feature detection stages"
+        },
+        {
+          "label": "C",
+          "text": "perception that occurs only during sleep"
+        },
+        {
+          "label": "D",
+          "text": "the conscious decision to attend to a particular stimulus"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Bottom-up processing starts with the physical stimulus and proceeds through progressive stages of analysis: receptors detect basic features (edges, wavelengths, frequencies) → early cortical areas assemble features into patterns → higher areas integrate patterns into objects and scenes. This is data-driven, relying on incoming sensory information rather than prior knowledge. Examples include detecting a flash of light in a dark room (pure stimulus-driven detection).",
+        "A": "Beginning with cognitive expectations and interpreting data accordingly describes top-down (conceptual-driven) processing. Top-down processing uses context, expectations, and prior knowledge to influence perception — as when you read misspelled words correctly because context guides interpretation.",
+        "C": "Perception occurs during wakefulness (and to some extent during dreaming), not exclusively during sleep. Bottom-up processing describes a mode of analysis, not a state of consciousness.",
+        "D": "Conscious attentional selection describes selective attention, which is a top-down cognitive process. Bottom-up processing is automatic and stimulus-driven, not dependent on voluntary attention."
+      },
+      "topic": "Bottom-Up vs Top-Down Processing",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sens_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The researcher measures a Weber fraction of k = 0.08 for brightness. If a subject is adapted to a 200 cd/m² background, the JND would be approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.08 cd/m²"
+        },
+        {
+          "label": "B",
+          "text": "8 cd/m²"
+        },
+        {
+          "label": "C",
+          "text": "16 cd/m²"
+        },
+        {
+          "label": "D",
+          "text": "200 cd/m²"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Weber's law: ΔI/I = k, so ΔI = k × I = 0.08 × 200 cd/m² = 16 cd/m². The subject needs a 16 cd/m² change in brightness (from 200 to 216 cd/m²) to detect a just noticeable difference. This proportional relationship means that as background intensity increases, the absolute JND also increases — you need a larger absolute change to notice a difference on a brighter background.",
+        "A": "0.08 cd/m² would be the JND only if the background intensity were 1 cd/m² (0.08 × 1 = 0.08). At 200 cd/m², the JND is much larger.",
+        "B": "8 cd/m² would result from k × I = 0.08 × 100 = 8, but the background is 200 cd/m², not 100.",
+        "D": "200 cd/m² is the background intensity itself, not the JND. The JND is a fraction (8%) of the background, which is 16 cd/m²."
+      },
+      "topic": "Weber's Law / JND Calculation",
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "batch": "B292",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Personality, Mental Health & Stress",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_trait_conscientiousness_adherence_292_q0",
+      "passage": "A behavioral medicine clinic studied whether personality traits were associated with completion of a 6-week physical-therapy program after knee injury. Patients completed a Big Five inventory at intake. Researchers divided them into lower, middle, and higher conscientiousness groups and recorded the percentage completing at least 90% of prescribed exercises. Completion rates were 44%, 63%, and 79%, respectively. Patients in the high-conscientiousness group were also most likely to use calendars and reminders. The clinic did not assign people to personality groups; it observed existing differences.",
+      "usePrevPassage": false,
+      "stem": "Which personality trait in the passage was associated with the highest adherence to therapy exercises?",
+      "choices": {
+        "B": "High conscientiousness",
+        "A": "Low openness",
+        "C": "High neuroticism",
+        "D": "Low agreeableness"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The passage directly states that exercise-completion rates increased across conscientiousness groups, reaching 79% in the highest-conscientiousness group. That makes conscientiousness the trait most strongly linked to adherence in this study.",
+        "A": "Openness is not the variable described in the completion pattern.",
+        "C": "Neuroticism was not the personality dimension tied to the highest completion rate in the passage.",
+        "D": "Agreeableness was not the factor organized into low, middle, and high groups here."
+      },
+      "topic": "Personality",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_trait_conscientiousness_adherence_292_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The use of calendars and reminders most likely reflects which mechanism?",
+      "choices": {
+        "D": "Highly conscientious individuals often use organized self-regulation strategies",
+        "A": "Conscientiousness causes immediate tissue repair",
+        "B": "Patients with reminders no longer need motivation",
+        "C": "The clinic manipulated personality through calendars"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Conscientiousness is associated with planning, orderliness, and dependable behavior. The reported use of calendars and reminders fits that self-regulatory style and provides a plausible pathway for better adherence.",
+        "A": "Personality may influence behavior, but it does not directly cause the biological healing process described here.",
+        "B": "Reminders can support adherence, but they do not eliminate the need for motivation or effort.",
+        "C": "The study observed preexisting trait differences; it did not manipulate personality."
+      },
+      "topic": "Personality and Health",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_trait_conscientiousness_adherence_292_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why should the clinic be cautious about saying conscientiousness caused better recovery?",
+      "choices": {
+        "A": "Patients were not randomly assigned to different levels of conscientiousness",
+        "B": "The study used exercise completion as an outcome",
+        "C": "The sample included knee injuries",
+        "D": "Completion rates were expressed as percentages"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Because conscientiousness was measured rather than manipulated, other characteristics correlated with conscientiousness could partly explain adherence differences. The study supports association, not definitive causation.",
+        "B": "Using adherence as an outcome does not create the main limitation.",
+        "C": "Studying knee injuries does not by itself weaken causal inference.",
+        "D": "Reporting percentages is not the reason the causal claim should be limited."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_trait_conscientiousness_adherence_292_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A clinician applying this study would most reasonably do what?",
+      "choices": {
+        "C": "Offer extra planning tools to patients who seem less naturally organized",
+        "A": "Assume lower-adherence patients are biologically unable to improve",
+        "B": "Stop giving exercise instructions to highly conscientious patients",
+        "D": "Use personality labels as exact predictions for every patient"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. If organized self-management strategies help explain adherence, then providing structure to patients who need it could improve completion even without changing their personality. That is a practical and cautious use of the findings.",
+        "A": "The study does not suggest that improvement is impossible for lower-adherence patients.",
+        "B": "Highly conscientious patients still need exercise instructions and clinical guidance.",
+        "D": "Personality traits predict tendencies, not guaranteed outcomes for every individual."
+      },
+      "topic": "Applied Health Psychology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_trait_conscientiousness_adherence_292_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which additional finding would most strengthen the proposed mechanism?",
+      "choices": {
+        "B": "Within each conscientiousness group, patients who used more reminders completed more exercises",
+        "A": "Patients with higher conscientiousness were slightly older on average",
+        "C": "The clinic served people from several neighborhoods",
+        "D": "All patients completed the same personality inventory"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. If reminder use predicts completion even within conscientiousness groups, that would support the idea that planning tools are part of the pathway linking conscientiousness to adherence rather than just an unrelated detail.",
+        "A": "Age differences could matter, but they do not directly test the reminder-based mechanism.",
+        "C": "Serving several neighborhoods affects sample diversity more than the explanatory pathway.",
+        "D": "Using the same inventory standardizes measurement but does not test the mechanism."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_anxiety_screening_college_292_q5",
+      "passage": "A college counseling center screened students during the first month of the semester. Students were grouped by weekly sleep duration and average number of major deadlines due each week. Those sleeping fewer than 6 hours while managing at least three major deadlines had the highest mean anxiety score, 16 on a 0\u201321 screening scale. Students sleeping more than 7 hours with one or fewer major deadlines had the lowest mean score, 7. Students in high-stress groups were also more likely to report irritability, racing thoughts, and difficulty concentrating. The screening tool is useful for identifying possible anxiety but does not by itself establish a diagnosis.",
+      "usePrevPassage": false,
+      "stem": "What is the most accurate interpretation of the counseling center\u2019s screening results?",
+      "choices": {
+        "A": "Higher workload combined with shorter sleep was associated with higher anxiety-screen scores",
+        "B": "Short sleep proved that students had generalized anxiety disorder",
+        "C": "Deadlines were unrelated to anxiety scores",
+        "D": "The scale established final psychiatric diagnoses"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage reports the highest scores among students with both short sleep and many deadlines, and the lowest scores among students with more sleep and fewer deadlines. It explicitly frames the tool as a screening instrument rather than a diagnostic one.",
+        "B": "A screening score can indicate elevated symptoms, but it does not by itself confirm a formal diagnosis.",
+        "C": "Deadline load is part of the grouping structure and is clearly related to the score pattern.",
+        "D": "The passage states that screening alone does not establish diagnosis."
+      },
+      "topic": "Psychological Disorders",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_anxiety_screening_college_292_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why is it important that the instrument is described as a screening tool?",
+      "choices": {
+        "D": "Positive screens identify risk and symptoms but require further evaluation for diagnosis",
+        "A": "Screening tools are useless in counseling settings",
+        "B": "A screening score proves the symptoms are temporary",
+        "C": "The tool measures only sleep and not anxiety"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Screening instruments are designed to flag people who may need closer follow-up. They can identify symptom burden, but diagnosis requires broader clinical assessment, duration criteria, and functional context.",
+        "A": "Screening tools can be very useful for triage and outreach, so calling them useless is incorrect.",
+        "B": "A high or low score does not prove symptoms will be temporary.",
+        "C": "The tool measures anxiety-related symptoms; sleep was a separate grouping variable."
+      },
+      "topic": "Mental Health Assessment",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_anxiety_screening_college_292_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Racing thoughts and difficulty concentrating are best interpreted as what?",
+      "choices": {
+        "C": "Symptoms that can be associated with elevated anxiety",
+        "A": "Evidence that the students were malingering",
+        "B": "A sign that the students had a personality disorder",
+        "D": "Proof of a psychotic disorder"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage lists these complaints in the higher-stress groups as part of their symptom profile. Such complaints commonly accompany elevated anxiety and stress, which is how they are being used here.",
+        "A": "Nothing in the passage suggests intentional fabrication of symptoms.",
+        "B": "The study is about anxiety screening, not personality-disorder diagnosis.",
+        "D": "Racing thoughts and concentration difficulty do not by themselves prove psychosis."
+      },
+      "topic": "Psychological Disorders",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_anxiety_screening_college_292_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A campus intervention based on these results would most likely prioritize which students?",
+      "choices": {
+        "B": "Students with multiple deadlines and chronically short sleep",
+        "A": "Students who report zero deadlines and long sleep",
+        "C": "Only varsity athletes regardless of symptoms",
+        "D": "Students selected solely by year in school"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The highest screening scores occurred in the students juggling heavy deadline loads while sleeping the least. A prevention or outreach effort would logically prioritize the group showing the greatest symptom burden.",
+        "A": "The lowest-risk group would not be the top priority for limited counseling resources.",
+        "C": "Athlete status was not the organizing variable in the results.",
+        "D": "Year in school is not the main risk pattern described in the passage."
+      },
+      "topic": "Applied Mental Health",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_anxiety_screening_college_292_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which statement reflects the main methodological limitation of the screening findings?",
+      "choices": {
+        "D": "The data show associations but cannot prove that poor sleep or deadlines caused the anxiety symptoms",
+        "A": "The study cannot compare students because it used a 0\u201321 scale",
+        "B": "The passage is invalid because it used symptom reports",
+        "C": "The findings are uninterpretable unless every student has exactly the same major"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The observed groups differ on naturally occurring stressors and habits, so the results support association rather than causation. Other factors such as finances, prior mental-health history, or social support could also shape screening scores.",
+        "A": "Using a common numerical scale does not invalidate comparison.",
+        "B": "Self-report symptoms are often part of legitimate screening methods, even though they have limitations.",
+        "C": "Students need not have the same major for the association between sleep, workload, and symptoms to be informative."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

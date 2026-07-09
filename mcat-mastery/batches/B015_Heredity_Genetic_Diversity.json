@@ -1,0 +1,502 @@
+{
+  "batch": "B015",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Heredity & Genetic Diversity",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 4,
+    "B": 4,
+    "C": 3,
+    "D": 4
+  },
+  "questions": [
+    {
+      "id": "bb_hered_001",
+      "passage": "A genetic counselor evaluates a family in which both parents are unaffected carriers of an autosomal recessive condition, cystic fibrosis (CF). The couple has three unaffected children and asks the counselor about the probability that their fourth child will be affected. The counselor also orders CFTR gene sequencing on the three unaffected children to determine their carrier status. Results show that all three are heterozygous carriers. The couple asks whether this pattern \u2014 three carriers out of three unaffected children \u2014 is unusual.",
+      "stem": "What is the probability that the couple's fourth child will have cystic fibrosis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1/4, because each pregnancy is an independent event and both parents are carriers."
+        },
+        {
+          "label": "B",
+          "text": "1/3, because three previous children were unaffected, shifting the probability for the fourth."
+        },
+        {
+          "label": "C",
+          "text": "1/16, because the probability must account for three previous unaffected births."
+        },
+        {
+          "label": "D",
+          "text": "1/2, because both parents are heterozygous and transmission follows a 1:1 ratio."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "For two carrier parents (Cc \u00d7 Cc), each child independently has a 1/4 probability of being affected (cc), a 1/2 probability of being a carrier (Cc), and a 1/4 probability of being homozygous unaffected (CC). Previous births do not affect the probability of future offspring \u2014 each conception is an independent event, just like each coin flip has a 50% chance of heads regardless of previous flips.",
+        "B": "This error confuses conditional probability with independent probability. 1/3 would be the probability of being affected given that a child is born (if we somehow excluded prior births from the denominator), but Mendelian probabilities for each child are independent. The gambler's fallacy \u2014 believing past outcomes influence future ones \u2014 is a common conceptual error here.",
+        "C": "This error treats successive births as a joint probability: (1/4)\u00b2 = 1/16, as though the fourth child's genotype depends on the first three. Joint probabilities apply when calculating the probability of a specific sequence of outcomes across multiple births, not the probability of a single future birth.",
+        "D": "The 1:1 ratio describes the ratio of affected to carrier offspring among the progeny that inherit at least one recessive allele. In a Cc \u00d7 Cc cross, the Punnett square yields CC : Cc : cc = 1 : 2 : 1, so the probability of any individual child being affected is 1/4, not 1/2."
+      },
+      "topic": "Mendelian Genetics / Probability",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_hered_002",
+      "passage": null,
+      "passageRef": "bb_hered_001",
+      "stem": "Given that each of the three unaffected children is a carrier, what is the probability that all three would be carriers (rather than homozygous unaffected)?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1/8, because each child has a 1/2 probability of being a carrier."
+        },
+        {
+          "label": "B",
+          "text": "8/27, because the unconditional probability of carrier status is 2/4 and must be cubed."
+        },
+        {
+          "label": "C",
+          "text": "1/27, because the probability of carrier status is 1/3 for each child."
+        },
+        {
+          "label": "D",
+          "text": "8/27, because among unaffected children of two carriers, the probability of being a carrier is 2/3."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This uses the unconditional probability of 1/2 (Cc from the Punnett square) without conditioning on the children being unaffected. Since we know all three children are unaffected, we must exclude the 1/4 probability of cc and renormalize. Among unaffected children: P(Cc | unaffected) = (1/2)/(3/4) = 2/3.",
+        "B": "From the Cc \u00d7 Cc cross: CC = 1/4, Cc = 1/2, cc = 1/4. Conditioning on unaffected (not cc): P(Cc | not cc) = (1/2)/(1/4 + 1/2) = (1/2)/(3/4) = 2/3. The probability that all three unaffected children are carriers is (2/3)\u00b3 = 8/27 \u2248 29.6%. This is reasonably likely, so the three-carrier result is not particularly unusual.",
+        "C": "1/3 is the probability of being homozygous unaffected (CC) among unaffected children, not the probability of being a carrier. The carrier probability among unaffected children is 2/3, and (1/3)\u00b3 = 1/27 would be the probability that all three are homozygous unaffected.",
+        "D": "This answer gives the correct numerical result (8/27) but contains internally inconsistent reasoning. It states that the 'unconditional probability of carrier status is 2/4,' which equals 1/2. Cubing 1/2 gives (1/2)\u00b3 = 1/8, not 8/27. The correct conditional probability among unaffected children is 2/3 (derived by excluding the 1/4 probability of cc and renormalizing), and (2/3)\u00b3 = 8/27. The right number arrived at through wrong reasoning is still a wrong answer."
+      },
+      "topic": "Conditional Probability / Mendelian Genetics",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_hered_003",
+      "passage": null,
+      "passageRef": "bb_hered_001",
+      "stem": "If the CF allele frequency in the general population is 1/30, what is the approximate probability that an unrelated, unaffected individual chosen at random is a carrier?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1/900"
+        },
+        {
+          "label": "B",
+          "text": "1/450"
+        },
+        {
+          "label": "C",
+          "text": "1/30"
+        },
+        {
+          "label": "D",
+          "text": "1/15"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "1/900 is q\u00b2 \u2014 the frequency of affected homozygotes (cc) in the population, calculated as (1/30)\u00b2 = 1/900. The question asks for carrier frequency, not affected frequency.",
+        "B": "1/450 might result from computing 2q\u00b2 or q\u00b2/2, neither of which corresponds to any meaningful genetic frequency. The carrier frequency formula is 2pq, not a variant of q\u00b2.",
+        "C": "1/30 is the allele frequency (q), not the carrier frequency (2pq). The carrier frequency is approximately twice the allele frequency for rare recessive conditions because carriers have two possible heterozygous genotypes (inheriting the recessive allele from either parent).",
+        "D": "Using Hardy-Weinberg: if q = 1/30, then p = 29/30. Carrier frequency = 2pq = 2 \u00d7 (29/30) \u00d7 (1/30) = 58/900 \u2248 1/15.5 \u2248 1/15. Since p is close to 1, the approximation 2pq \u2248 2q = 2/30 = 1/15 is commonly used for rare recessive alleles."
+      },
+      "topic": "Hardy-Weinberg Equilibrium / Carrier Frequency",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_hered_004",
+      "passage": "A genetics researcher studies coat color in a species of rodent. Wild-type coat color (brown) requires functional alleles at two unlinked loci: gene A (produces a pigment precursor) and gene B (converts the precursor to brown pigment). Homozygosity for the recessive allele at either locus produces a white coat. When two brown double heterozygotes (AaBb) are crossed, the researcher expects a 9:7 ratio of brown to white offspring. Instead, the observed ratio in a cross of 256 offspring is 174 brown : 82 white.",
+      "stem": "The expected 9:7 ratio in this cross is an example of which genetic phenomenon?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Pleiotropy, because each gene affects multiple phenotypic traits"
+        },
+        {
+          "label": "B",
+          "text": "Codominance, because both alleles at each locus contribute equally to the phenotype"
+        },
+        {
+          "label": "C",
+          "text": "Complementary gene interaction (epistasis), because functional alleles at both loci are required for pigment production"
+        },
+        {
+          "label": "D",
+          "text": "Polygenic inheritance, because coat color is determined by the additive effects of multiple genes"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Pleiotropy is when a single gene affects multiple unrelated phenotypic traits (e.g., sickle cell allele affecting both hemoglobin and vascular function). This scenario involves two genes affecting one trait (coat color), which is epistasis, not pleiotropy. Pleiotropy and epistasis are frequently confused on the MCAT.",
+        "B": "Codominance is when both alleles at a single locus are fully expressed in the heterozygote (e.g., AB blood type). This scenario involves the interaction between two different loci, not the expression pattern of alleles at one locus.",
+        "C": "This is complementary epistasis: gene A and gene B are in a biosynthetic pathway where both must be functional for the final product (brown pigment) to be made. The 9:7 ratio modifies the standard 9:3:3:1 dihybrid ratio because the three classes with a homozygous recessive genotype at either locus (3 + 3 + 1 = 7) all produce the same white phenotype, while only the 9/16 with at least one dominant allele at both loci produce brown.",
+        "D": "Polygenic inheritance involves multiple genes contributing additively to a continuous trait (e.g., height, skin color). The coat color here is discrete (brown vs. white), not continuous. Additionally, the genes interact epistatically (one is required for the other to have an effect), not additively."
+      },
+      "topic": "Epistasis / Non-Mendelian Genetics",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_hered_005",
+      "passage": null,
+      "passageRef": "bb_hered_004",
+      "stem": "The researcher performs a chi-square test comparing the observed 174:82 ratio to the expected 9:7 ratio (expected: 144:112). The calculated \u03c7\u00b2 value is 14.3 with 1 degree of freedom (critical value at p = 0.05 is 3.84). Which conclusion is most appropriate?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The observed ratio is consistent with the 9:7 model, and the deviation is due to random sampling variation."
+        },
+        {
+          "label": "B",
+          "text": "The chi-square test is invalid because the expected values are too small for a reliable calculation."
+        },
+        {
+          "label": "C",
+          "text": "The deviation is not statistically significant, so the complementary epistasis model cannot be rejected."
+        },
+        {
+          "label": "D",
+          "text": "The observed ratio deviates significantly from 9:7, suggesting an additional factor such as a linked modifier gene or differential viability."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "With \u03c7\u00b2 = 14.3 far exceeding the critical value of 3.84, the deviation is statistically significant (p < 0.05). This means the 9:7 model is rejected \u2014 the observed data are not consistent with simple complementary epistasis. This answer incorrectly states the opposite conclusion.",
+        "B": "The expected values (144 and 112) are well above the minimum of 5 typically required for valid chi-square testing. With 256 total offspring, the expected counts are large enough for the test to be reliable.",
+        "C": "A \u03c7\u00b2 of 14.3 with 1 df gives p < 0.001, which is highly significant. The null hypothesis (9:7 ratio) is rejected. The deviation is statistically significant, so the simple complementary epistasis model can be rejected.",
+        "D": "Since \u03c7\u00b2 = 14.3 >> 3.84, the null hypothesis is rejected at p < 0.05. The observed ratio has significantly more brown offspring (174 vs. expected 144) and fewer white offspring (82 vs. expected 112) than the 9:7 model predicts. This suggests an additional factor is influencing the phenotypic ratio \u2014 possibilities include a linked viability gene that favors brown offspring, incomplete penetrance of the white phenotype, or a modifier locus."
+      },
+      "topic": "Chi-Square Analysis / Genetics",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_hered_006",
+      "passage": null,
+      "passageRef": "bb_hered_004",
+      "stem": "If gene A and gene B were linked on the same chromosome rather than on separate chromosomes, which of the following would be expected in the dihybrid cross?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The phenotypic ratio would be identical to the unlinked case because linkage does not affect phenotype."
+        },
+        {
+          "label": "B",
+          "text": "Parental phenotype combinations would appear in excess of the expected 9:7 ratio, with recombinant classes underrepresented."
+        },
+        {
+          "label": "C",
+          "text": "All offspring would be brown because linkage ensures that both dominant alleles are inherited together."
+        },
+        {
+          "label": "D",
+          "text": "The ratio of brown to white offspring would shift depending on the recombination frequency between the two loci."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Linkage directly affects phenotypic ratios in dihybrid crosses because it alters the frequencies of gamete types produced. Linked genes do not assort independently \u2014 parental combinations are overrepresented and recombinant combinations are underrepresented relative to the 1:1:1:1 ratio expected from independent assortment.",
+        "B": "This answer correctly identifies that parental classes would be overrepresented, but for epistatic interactions the relationship between parental gamete excess and phenotype is more complex than simply 'excess of the expected ratio.' The specific phenotypic ratio depends on which allele combinations are in cis (on the same chromosome) and the recombination frequency.",
+        "C": "Even with complete linkage (0% recombination), the AaBb parent produces only two gamete types. If A and B are in cis (AB and ab gametes), the cross produces AB/AB, AB/ab, ab/AB, and ab/ab \u2014 meaning 1/4 of offspring would be aabb (white). Complete linkage does not eliminate recessive homozygotes.",
+        "D": "With linkage, the gamete frequencies depend on recombination frequency (r). If r = 50%, the genes behave as unlinked (9:7). As r decreases, the parental gamete classes become more frequent, and the phenotypic ratio shifts depending on whether the dominant alleles are in cis or trans configuration. This makes the recombination frequency a critical variable in predicting offspring ratios."
+      },
+      "topic": "Genetic Linkage / Recombination",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_hered_007",
+      "passage": "A population geneticist studies a small island population of 200 lizards that was founded 50 years ago by 12 individuals blown to the island during a hurricane. The founding population happened to include 10 lizards homozygous for a green coloration allele (GG) and 2 lizards heterozygous for a rare blue coloration allele (Gb). No bb homozygotes were among the founders. Current allele frequency analysis shows that the b allele frequency has increased from its initial frequency to 0.22 over the 50-year period, despite conferring no known selective advantage or disadvantage.",
+      "stem": "The initial frequency of the b allele in the founding population was approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.02"
+        },
+        {
+          "label": "B",
+          "text": "0.083"
+        },
+        {
+          "label": "C",
+          "text": "0.167"
+        },
+        {
+          "label": "D",
+          "text": "0.50"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This might come from dividing the number of heterozygotes (2) by the total number of lizards (12) \u00d7 some factor, but it does not correctly calculate allele frequency. Allele frequency counts alleles, not individuals.",
+        "B": "The founding population has 12 lizards = 24 total alleles at this locus. The 10 GG lizards contribute 20 G alleles. The 2 Gb lizards contribute 2 G alleles and 2 b alleles. Total: 22 G and 2 b alleles. Frequency of b = 2/24 = 1/12 \u2248 0.083.",
+        "C": "This is 2/12 = 0.167, which incorrectly divides the number of heterozygotes (2) by the number of individuals (12). Allele frequency is calculated from total alleles (2n), not total individuals (n). Each diploid individual carries 2 alleles, so the denominator should be 24, not 12.",
+        "D": "0.50 would mean half of all alleles are b, which would require 12 b alleles out of 24. With only 2 heterozygotes (carrying one b allele each), there are only 2 b alleles \u2014 far fewer than 12."
+      },
+      "topic": "Allele Frequency Calculation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_hered_008",
+      "passage": null,
+      "passageRef": "bb_hered_007",
+      "stem": "The increase in b allele frequency from 0.083 to 0.22 in the absence of natural selection is most likely the result of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Genetic drift, because allele frequencies in small populations fluctuate randomly due to sampling effects in each generation."
+        },
+        {
+          "label": "B",
+          "text": "Mutation pressure, because new b alleles are being generated at a rate sufficient to increase the frequency over 50 years."
+        },
+        {
+          "label": "C",
+          "text": "Gene flow, because new b alleles are being introduced from a mainland population."
+        },
+        {
+          "label": "D",
+          "text": "Disruptive selection, because the environment favors both extreme phenotypes over intermediate ones."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "In a small population (founded by only 12 individuals), random sampling effects during reproduction can cause allele frequencies to drift substantially from one generation to the next. With no selective advantage or disadvantage, the change from 0.083 to 0.22 over 50 years is consistent with genetic drift \u2014 the stochastic fluctuation of allele frequencies that is most pronounced in small populations. The founder effect (small founding population with non-representative allele frequencies) set the initial conditions, and drift has continued to shift frequencies.",
+        "B": "Mutation rates in vertebrates are typically on the order of 10\u207b\u2075 to 10\u207b\u2076 per gene per generation. In a population of 200 lizards, this would produce far fewer than one new b allele per generation. Mutation alone cannot account for a frequency increase from 0.083 to 0.22 in ~25\u201350 generations.",
+        "C": "The passage describes an island population with no mention of migration from a mainland source. The island was colonized by hurricane dispersal, and there is no indication of ongoing gene flow. For gene flow to explain the increase, there would need to be regular immigration of b-allele carriers.",
+        "D": "The passage explicitly states that the b allele confers 'no known selective advantage or disadvantage.' Disruptive selection is a form of natural selection that would require a fitness differential between phenotypes, which is absent in this scenario."
+      },
+      "topic": "Genetic Drift / Population Genetics",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_hered_009",
+      "passage": null,
+      "passageRef": "bb_hered_007",
+      "stem": "If the island population has reached Hardy-Weinberg equilibrium at the current b allele frequency of 0.22, what proportion of the population would be expected to display the blue phenotype (bb)?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.048"
+        },
+        {
+          "label": "B",
+          "text": "0.22"
+        },
+        {
+          "label": "C",
+          "text": "0.044"
+        },
+        {
+          "label": "D",
+          "text": "0.34"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "In Hardy-Weinberg equilibrium, the frequency of the recessive phenotype (bb) is q\u00b2. With q = 0.22: q\u00b2 = (0.22)\u00b2 = 0.0484 \u2248 0.048. Approximately 4.8% of the population would be expected to display the blue phenotype.",
+        "B": "0.22 is the allele frequency (q), not the genotype frequency (q\u00b2). A common error is confusing allele frequency with homozygous genotype frequency. The frequency of bb individuals is q\u00b2 = (0.22)\u00b2 = 0.0484, not q itself.",
+        "C": "0.044 would correspond to q \u2248 0.21, not q = 0.22. With q = 0.22, the precise value is 0.0484, which rounds to 0.048 (answer A). This answer reflects a slight rounding error in the allele frequency.",
+        "D": "0.34 corresponds to 2pq (carrier frequency) with q = 0.22: 2 \u00d7 0.78 \u00d7 0.22 = 0.3432. This is the frequency of heterozygous (Gb) carriers, not the frequency of blue (bb) individuals."
+      },
+      "topic": "Hardy-Weinberg Calculations",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_hered_010",
+      "passage": "A medical student analyzes a three-generation pedigree for a family affected by an inherited disorder. Affected individuals appear in every generation. An affected father and unaffected mother have both affected and unaffected sons and daughters. Two unaffected parents in generation II have no affected children. The affected grandmother in generation I married an unaffected man, and half of their children are affected regardless of sex.",
+      "stem": "Based on the pedigree description, which inheritance pattern is most consistent with the observed data?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Autosomal recessive, because the trait skips generations"
+        },
+        {
+          "label": "B",
+          "text": "X-linked recessive, because more males than females are typically affected"
+        },
+        {
+          "label": "C",
+          "text": "Autosomal dominant, because the trait appears in every generation and is transmitted by affected individuals of both sexes to children of both sexes"
+        },
+        {
+          "label": "D",
+          "text": "X-linked dominant, because affected mothers pass the trait to all daughters"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Autosomal recessive traits typically skip generations (affected individuals can have unaffected carrier parents), but in this pedigree, the trait appears in every generation with affected parents transmitting to children. Additionally, an affected father \u00d7 unaffected mother cross producing affected children is consistent with dominant (heterozygous affected father), not recessive (where the affected father would be homozygous and all children would need an allele from the mother to be affected).",
+        "B": "X-linked recessive traits characteristically affect males more than females, and affected males typically have carrier mothers. In this pedigree, both sons and daughters of the affected father are affected, and the affected grandmother transmits the trait to children of both sexes equally. X-linked recessive does not fit because an affected father (X^a Y) cannot pass an X-linked allele to sons.",
+        "C": "All observations fit autosomal dominant inheritance: affected individuals appear in every generation, both sexes are equally affected, affected individuals of either sex transmit the trait to approximately half their children, and unaffected parents (GII) have no affected children (as expected if neither carries the dominant allele). The 50% transmission rate from affected \u00d7 unaffected crosses is the hallmark of heterozygous autosomal dominant.",
+        "D": "X-linked dominant would predict that affected fathers pass the trait to all daughters (since daughters receive the father's X) and no sons (since sons receive the father's Y). The pedigree shows the affected father having both affected and unaffected daughters, and both affected and unaffected sons, which contradicts X-linked dominant."
+      },
+      "topic": "Pedigree Analysis / Inheritance Patterns",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_hered_011",
+      "passage": null,
+      "passageRef": "bb_hered_010",
+      "stem": "The affected grandmother and her unaffected husband have 6 children: 3 affected and 3 unaffected. If the grandmother is heterozygous for the disease allele, what is the probability of observing exactly 3 affected out of 6 children?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.50, because each child independently has a 50% chance of being affected"
+        },
+        {
+          "label": "B",
+          "text": "0.31, calculated using the binomial distribution with n = 6, k = 3, and p = 0.5"
+        },
+        {
+          "label": "C",
+          "text": "0.125, because the probability is (1/2)\u00b3 for three consecutive affected children"
+        },
+        {
+          "label": "D",
+          "text": "1/64, because each child's outcome is a 1/2 probability raised to the 6th power"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "0.50 is the probability for each individual child, not the probability of a specific outcome across 6 children. The probability that exactly 3 of 6 are affected requires the binomial distribution, which accounts for all possible arrangements of 3 affected among 6.",
+        "B": "Using the binomial formula: P(k=3) = C(6,3) \u00d7 (0.5)\u00b3 \u00d7 (0.5)\u00b3 = 20 \u00d7 (0.5)\u2076 = 20/64 = 0.3125 \u2248 0.31. C(6,3) = 6!/(3!3!) = 20 represents the number of ways to choose which 3 of the 6 children are affected. This is the most commonly observed outcome (the mode of a binomial with p = 0.5), but it occurs only 31% of the time.",
+        "C": "0.125 = (1/2)\u00b3 is the probability that three specific children (e.g., the first three born) are affected. However, 3 affected out of 6 can occur in C(6,3) = 20 different arrangements. Failing to account for the number of arrangements underestimates the probability by a factor of 20.",
+        "D": "1/64 = (1/2)\u2076 is the probability of one specific sequence of outcomes for all 6 children (e.g., all affected, or all unaffected, or any one particular arrangement). The probability of exactly 3 affected requires multiplying by the number of arrangements: 20 \u00d7 (1/64) = 20/64 = 0.31."
+      },
+      "topic": "Binomial Probability / Genetics",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_hered_012",
+      "passage": null,
+      "stem": "During meiosis I, homologous chromosomes undergo crossing over. A student observes that the frequency of recombination between two linked genes is 8%. What is the approximate map distance between these genes?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4 cM, because map distance is half the recombination frequency"
+        },
+        {
+          "label": "B",
+          "text": "16 cM, because map distance is twice the recombination frequency"
+        },
+        {
+          "label": "C",
+          "text": "8%, but map distance cannot be expressed in centimorgans"
+        },
+        {
+          "label": "D",
+          "text": "8 cM, because 1% recombination frequency equals 1 centimorgan"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Map distance is not half the recombination frequency. The relationship between recombination frequency and map distance is 1:1 (for small distances), where 1% recombination = 1 cM. Halving would underestimate the distance.",
+        "B": "Map distance is not double the recombination frequency. This error may arise from confusing the recombination frequency with the fraction of crossover chromatids (in a single crossover event, only 2 of 4 chromatids recombine, but the recombination frequency already accounts for this).",
+        "C": "Map distance is routinely expressed in centimorgans (cM), named after Thomas Hunt Morgan. One centimorgan equals 1% recombination frequency between two loci. This is a standard unit in genetics.",
+        "D": "By definition, 1 centimorgan (cM) corresponds to 1% recombination frequency. An 8% recombination frequency therefore indicates a map distance of 8 cM. This direct relationship holds for distances up to approximately 50 cM, beyond which multiple crossovers complicate the mapping function."
+      },
+      "topic": "Genetic Mapping / Recombination",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_hered_013",
+      "passage": null,
+      "stem": "In humans, red-green color blindness is X-linked recessive. A color-blind woman marries a man with normal color vision. What proportion of their sons will be color-blind?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "All of their sons will be color-blind."
+        },
+        {
+          "label": "B",
+          "text": "Half of their sons will be color-blind."
+        },
+        {
+          "label": "C",
+          "text": "None of their sons will be color-blind because they inherit their X chromosome from their mother, who is a carrier."
+        },
+        {
+          "label": "D",
+          "text": "One-quarter of their sons will be color-blind."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "A color-blind woman must be homozygous for the recessive allele (X^c X^c) because the trait is X-linked recessive. She passes one X^c to every child. Sons receive their single X from their mother, so every son receives X^c and is hemizygous affected (X^c Y). All sons will be color-blind.",
+        "B": "This would be expected if the mother were a heterozygous carrier (X^C X^c). However, the mother is color-blind, meaning she is homozygous recessive (X^c X^c). Every X she donates carries the color-blind allele, not half of them.",
+        "C": "This answer contradicts itself \u2014 it states sons inherit X from the mother and then says sons won't be affected. Since the mother is color-blind (X^c X^c), every X she passes on carries the recessive allele. Sons who receive X^c are hemizygous and express the trait. The answer also incorrectly calls the color-blind mother a 'carrier' \u2014 she is affected, not merely a carrier.",
+        "D": "One-quarter is the expected proportion for autosomal recessive inheritance in a carrier \u00d7 carrier cross. For X-linked traits, the calculation is different because males are hemizygous. A color-blind mother guarantees all sons receive the affected allele."
+      },
+      "topic": "X-Linked Inheritance",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_hered_014",
+      "passage": null,
+      "stem": "Sickle cell trait (heterozygous HbAS) provides resistance to Plasmodium falciparum malaria while sickle cell disease (homozygous HbSS) causes severe illness. In sub-Saharan African populations where malaria is endemic, the frequency of the HbS allele remains stable at approximately 0.12. This stable frequency is maintained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Directional selection favoring the HbS allele because carriers have the highest fitness"
+        },
+        {
+          "label": "B",
+          "text": "Genetic drift maintaining the allele at its current frequency through random fluctuation"
+        },
+        {
+          "label": "C",
+          "text": "Balancing selection (heterozygote advantage), where the heterozygote has higher fitness than either homozygote, maintaining both alleles in the population"
+        },
+        {
+          "label": "D",
+          "text": "Frequency-dependent selection, where the fitness of each genotype depends on its frequency in the population"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Directional selection would drive the HbS allele toward fixation (frequency = 1.0) if it were unconditionally advantageous. However, HbSS homozygotes have severe disease, meaning the allele is disadvantageous in the homozygous state. The allele is maintained at an intermediate frequency, not driven toward fixation \u2014 this is characteristic of balancing, not directional, selection.",
+        "B": "Genetic drift causes random fluctuation in allele frequencies and is strongest in small populations. The HbS allele frequency is stable at ~0.12 across large populations over many generations, which is inconsistent with drift (which would cause frequencies to wander randomly). The stability implies a selective equilibrium.",
+        "C": "This is the textbook example of heterozygote advantage (overdominance). HbAA homozygotes are susceptible to severe malaria. HbSS homozygotes have sickle cell disease. HbAS heterozygotes have the highest fitness because they are protected from malaria without suffering sickle cell disease. This fitness differential maintains both alleles at a stable equilibrium frequency \u2014 neither allele is eliminated because each is advantageous in the heterozygous state.",
+        "D": "Frequency-dependent selection involves fitness that varies with genotype frequency (e.g., rare-male advantage, predator-prey dynamics). The sickle cell case does not involve frequency-dependent dynamics \u2014 the fitness advantage of HbAS depends on the presence of malaria, not on the frequency of the HbS allele in the population."
+      },
+      "topic": "Natural Selection / Heterozygote Advantage",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_hered_015",
+      "passage": null,
+      "stem": "Nondisjunction during meiosis II in oogenesis produces an egg cell with two copies of the same chromosome. If this egg is fertilized by a normal sperm, the resulting zygote will be:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Tetrasomic, with four copies of one chromosome"
+        },
+        {
+          "label": "B",
+          "text": "Trisomic, with three copies of one chromosome"
+        },
+        {
+          "label": "C",
+          "text": "Monosomic, with only one copy of one chromosome"
+        },
+        {
+          "label": "D",
+          "text": "Triploid, with three complete sets of chromosomes"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Tetrasomy (four copies) would require nondisjunction in both the egg and the sperm affecting the same chromosome, or nondisjunction occurring at both meiosis I and II. A single meiosis II nondisjunction event produces at most one extra copy in the gamete.",
+        "B": "Nondisjunction during meiosis II produces one egg with two copies of the same chromosome (e.g., two copies of chromosome 21) and one egg with no copies. When the egg with two copies is fertilized by a normal sperm carrying one copy, the zygote has three copies of that chromosome \u2014 trisomy (e.g., trisomy 21, which causes Down syndrome). The rest of the chromosomes are present in normal diploid number.",
+        "C": "Monosomy (one copy) would result from the other product of the nondisjunction \u2014 the egg that received zero copies of the affected chromosome. When that egg is fertilized by a normal sperm, the zygote has only the paternal copy. The question specifies the egg with two copies, which produces trisomy.",
+        "D": "Triploidy (3n = 69 chromosomes in humans) involves three complete sets of all chromosomes, not just one extra chromosome. Triploidy results from fertilization by two sperm (dispermy) or from a diploid gamete produced by complete failure of meiosis, not from nondisjunction affecting a single chromosome."
+      },
+      "topic": "Nondisjunction / Aneuploidy",
+      "difficulty": "Easy"
+    }
+  ]
+}

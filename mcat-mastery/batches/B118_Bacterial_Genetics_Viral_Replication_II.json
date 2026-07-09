@@ -1,0 +1,351 @@
+{
+  "batch": "B118",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Bacterial Genetics & Viral Replication II",
+  "questionCount": 10,
+  "answerDistribution": {
+    "B": 3,
+    "C": 2,
+    "A": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_micro2_001",
+      "passage": "Researchers study transfer of a tetracycline-resistance plasmid from donor bacteria to recipient bacteria. Donors are tetracycline resistant but rifampin sensitive; recipients are rifampin resistant but tetracycline sensitive. After the strains are mixed for one hour, bacteria are plated on medium containing both antibiotics, and double-resistant colonies appear. Replicate experiments produce similar transfer frequencies under the same culture conditions.\n\nAdding extracellular DNase during mixing does not reduce the number of double-resistant colonies. In contrast, placing donors and recipients on opposite sides of a membrane that permits small molecules and free DNA to pass but prevents cell contact eliminates transfer. Microscopy shows thin pili connecting some mixed cells. Sequencing reveals that the plasmid contains transfer genes and a transposon carrying the tetracycline-resistance determinant. In a subset of descendants, the resistance gene later appears in the bacterial chromosome even though other plasmid genes are lost. Control cultures containing either parental strain alone produce no colonies on dual-antibiotic medium.",
+      "stem": "Which mechanism best explains acquisition of tetracycline resistance by the recipients?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Transformation"
+        },
+        {
+          "label": "B",
+          "text": "Conjugation"
+        },
+        {
+          "label": "C",
+          "text": "Generalized transduction"
+        },
+        {
+          "label": "D",
+          "text": "Binary fission"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Transformation involves uptake of free environmental DNA and is usually reduced when extracellular DNase destroys that DNA. DNase resistance and a requirement for direct contact argue against this route. Mechanism can be inferred from transfer requirements.",
+        "B": "Correct. Conjugative plasmids encode transfer machinery and commonly move through direct cell-cell contact involving a pilus-associated complex. Loss of transfer across a contact-blocking membrane, despite free-DNA passage, is especially strong mechanistic evidence. Mechanism can be inferred from transfer requirements. Direct-contact dependence, DNase resistance, and plasmid markers point to conjugation rather than uptake of naked DNA or phage-mediated transfer.",
+        "C": "Generalized transduction requires bacteriophages that accidentally package bacterial DNA. No phage particles or lytic infection are described, and the contact dependence is inconsistent with freely diffusing virions. Mechanism can be inferred from transfer requirements.",
+        "D": "Binary fission passes existing genetic material from a parent cell to its descendants. It cannot explain horizontal acquisition of a donor-specific plasmid marker by an unrelated recipient population. Mechanism can be inferred from transfer requirements."
+      },
+      "topic": "Horizontal Gene Transfer / Conjugation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_micro2_002",
+      "passage": null,
+      "stem": "Why do double-resistant colonies identify recipient-derived transconjugants rather than ordinary donor cells?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Donors lack tetracycline resistance"
+        },
+        {
+          "label": "B",
+          "text": "Recipients cannot divide"
+        },
+        {
+          "label": "C",
+          "text": "Donors are killed by rifampin, while recipients require acquired tetracycline resistance to survive both drugs"
+        },
+        {
+          "label": "D",
+          "text": "The plasmid removes all donor chromosomes"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage states that donors already carry tetracycline resistance. That marker alone cannot distinguish donors from recipients that acquired the plasmid. Selective media reveal genotype only when each marker's origin is understood.",
+        "B": "Recipients are viable and divide normally on permissive medium. Their inability to grow on tetracycline before transfer is a susceptibility phenotype, not a division defect. Selective media reveal genotype only when each marker's origin is understood.",
+        "C": "Correct. Rifampin eliminates the rifampin-sensitive donors, whereas tetracycline eliminates unmodified recipients. Only recipient-background cells that retained rifampin resistance and acquired the donor's tetracycline marker can form colonies under dual selection. Selective media reveal genotype only when each marker's origin is understood. Double resistance identifies recipients that acquired donor DNA, not donors carrying their original plasmid.",
+        "D": "Plasmid transfer does not erase the donor chromosome. The donor's failure on dual medium follows from rifampin sensitivity, not catastrophic chromosome loss. Selective media reveal genotype only when each marker's origin is understood."
+      },
+      "topic": "Genetic Selection / Dual Resistance",
+      "difficulty": "Hard",
+      "passageRef": "bb_micro2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_micro2_003",
+      "passage": null,
+      "stem": "The failure of DNase to block transfer is most informative because it suggests that the transferred DNA:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Is protected from extracellular DNase during cell-associated transfer"
+        },
+        {
+          "label": "B",
+          "text": "Contains no phosphodiester bonds"
+        },
+        {
+          "label": "C",
+          "text": "Is composed of RNA"
+        },
+        {
+          "label": "D",
+          "text": "Must be integrated before transfer begins"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. DNase readily degrades naked DNA in the medium, so DNase-resistant transfer suggests that DNA remains protected within cells or a transfer complex. Combined with contact dependence, this finding separates conjugation from transformation. DNase destroys exposed extracellular DNA but cannot readily reach DNA protected inside cells, pili-associated transfer complexes, or viral capsids. Its effect helps distinguish transformation from other routes.",
+        "B": "Plasmid DNA has the same phosphodiester backbone as other DNA and would be susceptible if freely exposed. DNase resistance reflects accessibility, not unusual chemistry. DNase destroys exposed extracellular DNA but cannot readily reach DNA protected inside cells, pili-associated transfer complexes, or viral capsids.",
+        "C": "The resistance determinant is sequenced on a plasmid, which is DNA. RNA would not explain Eco-like plasmid inheritance or chromosomal insertion of the same DNA element. DNase destroys exposed extracellular DNA but cannot readily reach DNA protected inside cells, pili-associated transfer complexes, or viral capsids.",
+        "D": "Integration is not required for plasmid conjugation; transferred plasmids can replicate autonomously. Later chromosomal insertion is a separate transposition event. DNase destroys exposed extracellular DNA but cannot readily reach DNA protected inside cells, pili-associated transfer complexes, or viral capsids."
+      },
+      "topic": "DNase Experiment / Protected DNA Transfer",
+      "difficulty": "Medium",
+      "passageRef": "bb_micro2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_micro2_004",
+      "passage": null,
+      "stem": "How can tetracycline resistance persist after other plasmid genes are lost?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ribosomes permanently remember the antibiotic"
+        },
+        {
+          "label": "B",
+          "text": "Rifampin converts into tetracycline"
+        },
+        {
+          "label": "C",
+          "text": "The chromosome becomes a viral capsid"
+        },
+        {
+          "label": "D",
+          "text": "The transposon can move the resistance gene into the chromosome"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Ribosomes do not store heritable memory of prior resistance. Stable inheritance requires retention of genetic information encoding the resistance mechanism. Transposons are mobile DNA elements that can move resistance genes between chromosome and plasmid.",
+        "B": "Antibiotics do not interconvert to create resistance. Rifampin and tetracycline target different bacterial processes and serve as independent selectable markers. Transposons are mobile DNA elements that can move resistance genes between chromosome and plasmid.",
+        "C": "A bacterial chromosome does not become a capsid. Capsids are viral protein shells and are unrelated to transposon-mediated chromosomal integration. Transposons are mobile DNA elements that can move resistance genes between chromosome and plasmid.",
+        "D": "Correct. A transposon can excise or copy itself from the plasmid and insert into chromosomal DNA. Once integrated, the resistance gene replicates with the chromosome even if the original plasmid is subsequently lost. Transposons are mobile DNA elements that can move resistance genes between chromosome and plasmid. They differ from plasmids, which are independently replicating DNA molecules that may carry transposons."
+      },
+      "topic": "Transposons / Resistance-Gene Mobilization",
+      "difficulty": "Medium",
+      "passageRef": "bb_micro2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_micro2_005",
+      "passage": null,
+      "stem": "What is the primary purpose of plating the mixed culture on both antibiotics?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To increase mutation rate"
+        },
+        {
+          "label": "B",
+          "text": "To select cells carrying the recipient marker and the acquired donor marker"
+        },
+        {
+          "label": "C",
+          "text": "To induce pilus synthesis in every cell"
+        },
+        {
+          "label": "D",
+          "text": "To measure bacterial size"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Antibiotics at selective concentrations distinguish existing genotypes; they are not included primarily to increase mutation frequency. Resistance appearing under proper controls reflects transfer rather than directed mutation. A valid selection must suppress both parental populations while permitting the recombinant genotype.",
+        "B": "Correct. Dual selection suppresses rifampin-sensitive donors and tetracycline-sensitive recipients. Surviving colonies therefore combine the recipient's rifampin resistance with newly acquired tetracycline resistance, operationally identifying transconjugants. A valid selection must suppress both parental populations while permitting the recombinant genotype. Marker combinations should therefore be chosen from traits separately contributed by donor and recipient.",
+        "C": "Transfer genes may be regulated, but the plate is used after the mixing period to recover desired genotypes. It does not guarantee pilus production by every bacterium. A valid selection must suppress both parental populations while permitting the recombinant genotype.",
+        "D": "Colony growth under antibiotics reports survival genotype, not cellular dimensions. Microscopy or light-scattering methods would be needed to assess size. A valid selection must suppress both parental populations while permitting the recombinant genotype."
+      },
+      "topic": "Selective Media / Transconjugant Recovery",
+      "difficulty": "Easy",
+      "passageRef": "bb_micro2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_micro2_006",
+      "passage": "Investigators characterize an enveloped positive-sense single-stranded RNA virus. After receptor-mediated entry and uncoating, the genomic RNA associates with host ribosomes and is translated into one large polyprotein. A virally encoded protease cleaves the polyprotein into structural proteins and nonstructural proteins, including an RNA-dependent RNA polymerase (RdRp). RdRp produces a complementary negative-strand RNA that serves as template for many new positive-strand genomes. Viral protein synthesis and RNA replication occur in the cytoplasm, and no nuclear DNA intermediate is detected.\n\nA neutralizing antibody against the viral surface glycoprotein prevents infection when added before viral exposure but has little effect when added several hours after entry. Drug P inhibits the viral protease. In treated cells, viral RNA is still detectable and a large uncleaved polyprotein accumulates, but infectious-particle production falls sharply. A separate RdRp inhibitor prevents accumulation of both negative-strand intermediates and new positive-strand genomes. Host DNA synthesis is unchanged by either antiviral drug.",
+      "stem": "Why can the viral genome be translated immediately after uncoating?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It has the same polarity as mRNA"
+        },
+        {
+          "label": "B",
+          "text": "It is first converted into host DNA"
+        },
+        {
+          "label": "C",
+          "text": "It already contains ribosomes"
+        },
+        {
+          "label": "D",
+          "text": "The envelope performs translation"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Positive-sense RNA can serve directly as messenger RNA, allowing host ribosomes to translate the incoming genome. Early production of RdRp and other nonstructural proteins then enables genome replication. Positive-sense RNA has the same polarity as mRNA and can be translated immediately after uncoating. Negative-sense RNA must first be copied into a complementary positive strand by a viral polymerase.",
+        "B": "This replication strategy does not require a DNA intermediate. Conversion to DNA is characteristic of retroviruses, which use reverse transcriptase. Positive-sense RNA has the same polarity as mRNA and can be translated immediately after uncoating.",
+        "C": "Virions do not package functional host ribosomes in this scenario. Translation begins only after genomic RNA accesses ribosomes in the infected cell. Positive-sense RNA has the same polarity as mRNA and can be translated immediately after uncoating.",
+        "D": "A lipid envelope mediates entry and carries glycoproteins but has no translational machinery. Protein synthesis occurs on host ribosomes. Positive-sense RNA has the same polarity as mRNA and can be translated immediately after uncoating."
+      },
+      "topic": "Positive-Sense RNA Viruses",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_micro2_007",
+      "passage": null,
+      "stem": "Why must the virus encode an RdRp?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Host cells generally lack an enzyme that copies RNA from an RNA template"
+        },
+        {
+          "label": "B",
+          "text": "Host DNA polymerase cannot synthesize DNA"
+        },
+        {
+          "label": "C",
+          "text": "Ribosomes require it to join amino acids"
+        },
+        {
+          "label": "D",
+          "text": "It cleaves the viral polyprotein"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Eukaryotic cells transcribe RNA from DNA but do not normally replicate RNA from RNA. The virus must therefore encode RdRp to make a negative-strand template and new positive genomes. Host cells do not normally copy RNA from RNA, so RNA viruses must encode an RNA-dependent RNA polymerase. Whether it must enter inside the virion depends on genome polarity.",
+        "B": "Host DNA polymerase does synthesize DNA during replication, but DNA synthesis is not the missing reaction in this RNA-virus life cycle. Host cells do not normally copy RNA from RNA, so RNA viruses must encode an RNA-dependent RNA polymerase.",
+        "C": "Ribosomes catalyze peptide-bond formation using rRNA and translation factors. RdRp produces RNA and is not a ribosomal elongation enzyme. Host cells do not normally copy RNA from RNA, so RNA viruses must encode an RNA-dependent RNA polymerase.",
+        "D": "The viral protease cleaves the polyprotein. RdRp instead catalyzes template-directed RNA synthesis, so confusing them merges distinct nonstructural proteins. Host cells do not normally copy RNA from RNA, so RNA viruses must encode an RNA-dependent RNA polymerase."
+      },
+      "topic": "RNA-Dependent RNA Polymerase",
+      "difficulty": "Medium",
+      "passageRef": "bb_micro2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_micro2_008",
+      "passage": null,
+      "stem": "Why is the neutralizing antibody most effective before viral entry?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It increases viral mutation after replication"
+        },
+        {
+          "label": "B",
+          "text": "It degrades host DNA"
+        },
+        {
+          "label": "C",
+          "text": "It activates the viral protease"
+        },
+        {
+          "label": "D",
+          "text": "It blocks an extracellular surface glycoprotein needed for attachment or entry"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Neutralizing antibodies do not promote viral mutation as their principal action. Their timing points to blockade before intracellular replication. Neutralizing antibodies act before productive intracellular replication by blocking attachment, receptor engagement, or membrane fusion.",
+        "B": "Antibodies directed at a viral surface glycoprotein do not enter nuclei to digest host DNA. Such damage would also be harmful rather than specifically antiviral. Neutralizing antibodies act before productive intracellular replication by blocking attachment, receptor engagement, or membrane fusion.",
+        "C": "Protease activation would favor viral maturation. The antibody acts against an envelope protein, not the intracellular protease. Neutralizing antibodies act before productive intracellular replication by blocking attachment, receptor engagement, or membrane fusion.",
+        "D": "Correct. Before entry, the glycoprotein is accessible and required for receptor interaction or fusion. After the genome is inside, extracellular antibody has little access to the intracellular replication machinery, explaining the strong timing dependence. Neutralizing antibodies act before productive intracellular replication by blocking attachment, receptor engagement, or membrane fusion. They do not directly inhibit enzymes after the genome is established inside a cell."
+      },
+      "topic": "Neutralizing Antibodies / Viral Entry",
+      "difficulty": "Medium",
+      "passageRef": "bb_micro2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_micro2_009",
+      "passage": null,
+      "stem": "The accumulation of uncleaved polyprotein with Drug P most directly indicates inhibition of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Viral attachment"
+        },
+        {
+          "label": "B",
+          "text": "Proteolytic maturation of viral proteins"
+        },
+        {
+          "label": "C",
+          "text": "Host DNA replication"
+        },
+        {
+          "label": "D",
+          "text": "Antibody production"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Attachment occurs before polyprotein synthesis. Detectable viral RNA and translated polyprotein show that entry has already occurred. Many RNA viruses translate a polyprotein that must be cleaved into functional products.",
+        "B": "Correct. Drug P blocks the viral protease, so translation still produces the precursor but cleavage into functional structural and enzymatic proteins fails. Infectious-particle production falls because correct protein maturation is required for replication and assembly. Many RNA viruses translate a polyprotein that must be cleaved into functional products. Protease inhibition can leave RNA synthesis and translation partly intact while preventing maturation of essential proteins.",
+        "C": "The passage states that host DNA synthesis is unchanged. The drug's molecular phenotype is selective accumulation of viral polyprotein. Many RNA viruses translate a polyprotein that must be cleaved into functional products.",
+        "D": "Antibody production occurs in an intact immune system, not in the intracellular viral polyprotein-processing step measured in cultured cells. Many RNA viruses translate a polyprotein that must be cleaved into functional products."
+      },
+      "topic": "Viral Protease / Polyprotein Processing",
+      "difficulty": "Medium",
+      "passageRef": "bb_micro2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_micro2_010",
+      "passage": null,
+      "stem": "What does detection of negative-strand viral RNA most strongly indicate?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The virus has become a DNA virus"
+        },
+        {
+          "label": "B",
+          "text": "Host translation is complete"
+        },
+        {
+          "label": "C",
+          "text": "Active replication through a complementary RNA intermediate"
+        },
+        {
+          "label": "D",
+          "text": "The envelope has been destroyed"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Genome polarity can change transiently during replication without changing the virus into a DNA virus. No DNA intermediate is described. A negative-strand intermediate is evidence of active replication of a positive-sense RNA genome.",
+        "B": "Translation alone uses positive-sense RNA and does not create a complementary RNA strand. Negative-strand detection therefore reports more than completed protein synthesis. A negative-strand intermediate is evidence of active replication of a positive-sense RNA genome.",
+        "C": "Correct. RdRp copies the positive genome into a negative-strand template, which is then used to synthesize many new positive genomes. The negative strand is therefore a replication intermediate and a marker of active intracellular RNA synthesis. A negative-strand intermediate is evidence of active replication of a positive-sense RNA genome. It is a template for new positive strands, not the form directly translated by ribosomes.",
+        "D": "Envelope loss during entry does not generate complementary RNA. Uncoating and RNA replication are mechanistically distinct events. A negative-strand intermediate is evidence of active replication of a positive-sense RNA genome."
+      },
+      "topic": "Viral RNA Replication / Negative-Strand Intermediate",
+      "difficulty": "Hard",
+      "passageRef": "bb_micro2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

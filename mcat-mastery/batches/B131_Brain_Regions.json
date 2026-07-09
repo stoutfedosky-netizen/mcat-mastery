@@ -1,0 +1,335 @@
+{
+  "batch": "B131",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Biological Bases of Behavior: Brain Regions & Lateralization",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_brain_001",
+      "passage": "Researchers conducted a longitudinal study of patients who sustained focal brain lesions following stroke. Patient A presented with intact language comprehension but severely impaired speech production, limited to effortful single-word utterances. Neuroimaging confirmed damage to the left inferior frontal gyrus. Patient B exhibited fluent but largely meaningless speech with impaired comprehension; imaging revealed a lesion in the left posterior superior temporal gyrus. Patient C developed profound anterograde amnesia following bilateral damage, retaining procedural memory and short-term recall but unable to form new declarative memories. Patient D, whose lesion involved the ventromedial prefrontal cortex, demonstrated intact intelligence and language but showed marked changes in social behavior, decision-making, and emotional regulation \u2014 frequently making impulsive choices with no regard for future consequences.",
+      "stem": "Patient A's presentation is most consistent with damage to which brain region?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Wernicke's area, which processes language comprehension in the posterior temporal lobe"
+        },
+        {
+          "label": "B",
+          "text": "Broca's area, which mediates speech production in the left inferior frontal gyrus \u2014 damage here produces nonfluent aphasia with preserved comprehension"
+        },
+        {
+          "label": "C",
+          "text": "the angular gyrus, which integrates visual and auditory language input"
+        },
+        {
+          "label": "D",
+          "text": "the primary motor cortex, which controls voluntary movement of the orofacial muscles"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Wernicke's area damage produces fluent but incomprehensible speech with impaired comprehension \u2014 the opposite of Patient A's presentation. Patient A understands language but cannot produce it fluently, which localizes to Broca's area. Wernicke's area is in the posterior superior temporal gyrus, matching Patient B's profile instead.",
+        "B": "Broca's area in the left inferior frontal gyrus is the canonical speech production center. Damage produces Broca's (nonfluent/expressive) aphasia: effortful, telegraphic speech with relatively preserved comprehension. Patient A's presentation \u2014 intact comprehension, impaired production, limited to single words \u2014 is the textbook description of a Broca's aphasia, consistent with the confirmed left inferior frontal gyrus lesion.",
+        "C": "The angular gyrus participates in reading and cross-modal language integration (e.g., converting written words to their phonological representations). Damage can produce alexia or anomia, but not the characteristic nonfluent aphasia with preserved comprehension described in Patient A. The angular gyrus is located at the junction of the temporal and parietal lobes, not the inferior frontal gyrus.",
+        "D": "Primary motor cortex damage could impair voluntary movement of speech muscles (dysarthria), but dysarthria is a motor execution deficit \u2014 the patient would slur or distort sounds, not produce the effortful, telegraphic speech pattern characteristic of Broca's aphasia. Patient A's deficit is linguistic, not purely motor, and the lesion is specifically in the inferior frontal gyrus, not the precentral gyrus."
+      },
+      "topic": "Language Areas / Aphasia",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_brain_002",
+      "usePrevPassage": true,
+      "stem": "Patient C's inability to form new declarative memories despite intact procedural memory and short-term recall most strongly implicates damage to which structure?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the hippocampus, which is essential for consolidating new declarative (explicit) memories \u2014 bilateral hippocampal damage produces anterograde amnesia while sparing procedural learning and short-term working memory"
+        },
+        {
+          "label": "B",
+          "text": "the cerebellum, which stores procedural and motor memory traces"
+        },
+        {
+          "label": "C",
+          "text": "the prefrontal cortex, which mediates working memory and executive function"
+        },
+        {
+          "label": "D",
+          "text": "the amygdala, which modulates emotional memory consolidation"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The hippocampus is the critical structure for consolidating new explicit (declarative) memories \u2014 both episodic and semantic. Bilateral hippocampal damage produces the classic anterograde amnesia described in Patient C: inability to form new long-term declarative memories while preserving short-term/working memory (mediated by prefrontal cortex) and procedural memory (mediated by basal ganglia and cerebellum). This pattern famously characterized patient H.M.",
+        "B": "The cerebellum is involved in procedural and motor learning, not declarative memory consolidation. Since Patient C retains procedural memory, the cerebellum is likely intact. Cerebellar damage would impair motor coordination, balance, and motor learning \u2014 not the formation of new episodic or semantic memories.",
+        "C": "The prefrontal cortex supports working memory and executive function, both of which appear intact in Patient C (short-term recall is preserved). Prefrontal damage would impair the ability to hold and manipulate information in the short term and could affect strategic retrieval of old memories, but would not produce the selective anterograde amnesia for declarative memory described here.",
+        "D": "The amygdala modulates emotional memory \u2014 enhancing consolidation of emotionally arousing events \u2014 but is not the primary structure for general declarative memory formation. Amygdala damage impairs fear conditioning and the emotional enhancement of memory but does not produce the broad anterograde amnesia for all declarative memories described in Patient C."
+      },
+      "topic": "Hippocampus / Memory Systems",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_brain_003",
+      "usePrevPassage": true,
+      "stem": "Patient D's behavioral profile \u2014 impulsive decision-making, impaired social judgment, and blunted emotional regulation despite preserved intelligence \u2014 is best explained by damage to the:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "occipital lobe, which processes visual information"
+        },
+        {
+          "label": "B",
+          "text": "basal ganglia, which regulate voluntary motor initiation and reward-based learning"
+        },
+        {
+          "label": "C",
+          "text": "hypothalamus, which controls homeostatic drives including hunger, thirst, and body temperature"
+        },
+        {
+          "label": "D",
+          "text": "ventromedial prefrontal cortex, which integrates emotional signals into decision-making and is critical for weighing future consequences against immediate rewards"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The occipital lobe houses the primary visual cortex and visual association areas. Damage produces visual field deficits or visual agnosia \u2014 not the personality changes, impulsive decision-making, and social disinhibition described in Patient D. There is no indication of visual impairment in this patient's presentation.",
+        "B": "The basal ganglia (caudate, putamen, globus pallidus) are primarily involved in motor planning, initiation of voluntary movement, and procedural/reward-based learning. While basal ganglia dysfunction can affect motivation and habit formation, the specific profile of preserved intelligence with impaired social judgment and emotional regulation is characteristic of ventromedial prefrontal damage, not basal ganglia lesions.",
+        "C": "The hypothalamus regulates homeostatic functions (temperature, hunger, thirst, circadian rhythms) and coordinates autonomic and endocrine responses. While it influences motivated behavior, the specific constellation of impulsive decision-making, impaired social judgment, and personality change with intact cognition points to the ventromedial prefrontal cortex, not the hypothalamus.",
+        "D": "The ventromedial prefrontal cortex (vmPFC) integrates emotional and somatic signals (somatic marker hypothesis, Damasio) into decision-making processes. Damage to the vmPFC produces the classic pattern described in Patient D: preserved intellectual abilities and language alongside marked impairments in social behavior, emotional regulation, and the ability to weigh long-term consequences. This profile is famously illustrated by Phineas Gage and patients with orbitofrontal/vmPFC lesions."
+      },
+      "topic": "Prefrontal Cortex / Decision-Making",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_brain_004",
+      "usePrevPassage": true,
+      "stem": "Patient B's fluent but meaningless speech with impaired comprehension is characteristic of Wernicke's aphasia. Which additional deficit would be MOST expected in this patient?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "inability to repeat spoken phrases, because the arcuate fasciculus connecting Wernicke's and Broca's areas is often disrupted along with the temporal lesion"
+        },
+        {
+          "label": "B",
+          "text": "complete loss of all motor function on the right side of the body"
+        },
+        {
+          "label": "C",
+          "text": "impaired self-monitoring of speech errors \u2014 patients with Wernicke's aphasia often do not recognize that their speech is incomprehensible, because the comprehension monitor itself is damaged"
+        },
+        {
+          "label": "D",
+          "text": "loss of the ability to read Braille with the left hand"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "While repetition is impaired in conduction aphasia (arcuate fasciculus lesion), Wernicke's aphasia patients can show variable repetition ability. The more characteristic and predictable deficit is impaired self-monitoring. Repetition deficits localize more specifically to disruption of the arcuate fasciculus connecting the two language areas, which may or may not be involved depending on lesion extent.",
+        "B": "Complete right-sided motor loss (hemiplegia) results from damage to the left primary motor cortex or corticospinal tract. Wernicke's area is in the posterior superior temporal gyrus, anatomically distant from motor cortex. Temporal lobe lesions do not typically produce contralateral motor deficits unless the lesion extends into subcortical motor pathways.",
+        "C": "A hallmark of Wernicke's aphasia is anosognosia for the language deficit \u2014 patients produce fluent, paraphasic, often neologistic speech but are unaware that their output is incomprehensible. Because the comprehension system itself is damaged, the normal feedback loop that allows speakers to monitor and correct their own speech errors is disrupted. This contrasts with Broca's aphasia, where patients are frustrated by their difficulty because comprehension (and thus self-monitoring) is intact.",
+        "D": "Braille reading with the left hand depends on somatosensory processing in the right parietal lobe and is unrelated to Wernicke's area function. Wernicke's aphasia involves auditory-linguistic comprehension, not tactile sensory processing. There is no anatomical or functional basis for expecting this deficit from a left posterior temporal lesion."
+      },
+      "topic": "Wernicke's Aphasia / Self-Monitoring",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_brain_005",
+      "usePrevPassage": true,
+      "stem": "The passage notes that Patient C retained procedural memory. Which brain structure is MOST directly responsible for the acquisition and storage of procedural motor skills?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the hippocampus, which consolidates all forms of long-term memory"
+        },
+        {
+          "label": "B",
+          "text": "the basal ganglia (particularly the caudate nucleus and putamen), which mediate habit learning and the gradual acquisition of motor sequences through repeated practice"
+        },
+        {
+          "label": "C",
+          "text": "the thalamus, which relays sensory information to the cortex"
+        },
+        {
+          "label": "D",
+          "text": "the corpus callosum, which connects the two cerebral hemispheres"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The hippocampus consolidates declarative (explicit) memory, not procedural memory. This is precisely why Patient C lost the ability to form new declarative memories but retained procedural learning \u2014 the hippocampus was damaged but the procedural memory system (basal ganglia and cerebellum) remained intact. The dissociation between these memory systems is a key MCAT concept.",
+        "B": "The basal ganglia \u2014 particularly the caudate nucleus and putamen (together forming the dorsal striatum) \u2014 are the primary structures for procedural memory and habit learning. They mediate the gradual, incremental acquisition of motor skills and cognitive procedures through reinforcement. The cerebellum also contributes to motor learning, especially timing and coordination, but the basal ganglia are the most directly implicated in procedural skill acquisition on the MCAT.",
+        "C": "The thalamus is a relay station that routes sensory information to appropriate cortical areas and plays a role in attention and consciousness. While the thalamus interacts with the basal ganglia circuit (via the thalamo-cortical loop), it is not the primary site of procedural memory storage or acquisition.",
+        "D": "The corpus callosum is a white matter tract connecting the left and right cerebral hemispheres, enabling interhemispheric communication. It has no direct role in procedural memory formation. Damage to the corpus callosum produces split-brain effects, not procedural learning deficits."
+      },
+      "topic": "Basal Ganglia / Procedural Memory",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_brain_006",
+      "passage": "A team of neuroscientists used functional magnetic resonance imaging (fMRI) to investigate lateralization of cognitive processes. Participants completed four tasks while undergoing scanning: (1) a verbal fluency task requiring rapid generation of words beginning with a given letter, (2) a spatial rotation task requiring mental rotation of three-dimensional objects, (3) an emotional face recognition task presenting photographs of fearful, angry, and neutral expressions, and (4) a dichotic listening task presenting different auditory stimuli simultaneously to each ear. Results showed that the verbal fluency task activated primarily left-hemisphere regions, while the spatial rotation task produced predominantly right-hemisphere activation. The emotional face recognition task showed bilateral activation with a right-hemisphere bias, and the dichotic listening task revealed a right-ear (left-hemisphere) advantage for linguistic stimuli and a left-ear (right-hemisphere) advantage for melodic stimuli.",
+      "stem": "The finding that the verbal fluency task activated primarily left-hemisphere regions is most consistent with which principle of brain organization?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "lateralization of function \u2014 the left hemisphere is dominant for language production in most right-handed individuals, and verbal fluency relies heavily on Broca's area and surrounding left frontal regions"
+        },
+        {
+          "label": "B",
+          "text": "contralateral motor control \u2014 the principle that each hemisphere controls movement on the opposite side of the body"
+        },
+        {
+          "label": "C",
+          "text": "equipotentiality \u2014 the idea that all cortical regions contribute equally to complex cognitive functions"
+        },
+        {
+          "label": "D",
+          "text": "neuroplasticity \u2014 the brain's ability to reorganize following injury"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Lateralization of function refers to the specialization of each hemisphere for different cognitive processes. In approximately 95% of right-handed individuals, the left hemisphere is dominant for language functions including speech production (Broca's area), comprehension (Wernicke's area), and verbal fluency. The preferential left-hemisphere activation during the verbal fluency task directly demonstrates this lateralization principle.",
+        "B": "Contralateral motor control refers to each hemisphere controlling movement on the opposite side of the body (left hemisphere \u2192 right side). While this is a real principle of brain organization, the verbal fluency task is a cognitive-linguistic task, not a motor task. The left-hemisphere dominance for verbal fluency reflects language lateralization, not contralateral motor organization.",
+        "C": "Equipotentiality (Lashley's principle) suggests that cortical areas contribute equally to complex behaviors \u2014 essentially the opposite of lateralization. The finding that verbal fluency selectively activates the left hemisphere directly contradicts equipotentiality and instead supports functional lateralization. Modern neuroscience has largely moved beyond strict equipotentiality for higher cognitive functions.",
+        "D": "Neuroplasticity describes the brain's capacity to reorganize neural connections in response to experience or injury. While neuroplasticity is a genuine property of the brain, the study describes a normal pattern of lateralized activation in healthy participants during a standard task \u2014 this reflects established functional organization, not reorganization or recovery from damage."
+      },
+      "topic": "Lateralization / Language Dominance",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_brain_007",
+      "usePrevPassage": true,
+      "stem": "The right-hemisphere bias for emotional face recognition is best explained by the role of the:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "left angular gyrus, which integrates visual word forms with semantic meaning"
+        },
+        {
+          "label": "B",
+          "text": "right prefrontal cortex, which exclusively processes all forms of visual stimuli"
+        },
+        {
+          "label": "C",
+          "text": "the limbic system and right-hemisphere cortical networks \u2014 the right hemisphere shows greater specialization for processing emotional content, facial expressions, and prosody, with the right amygdala and right fusiform face area contributing to rapid emotional face detection"
+        },
+        {
+          "label": "D",
+          "text": "the reticular activating system, which regulates overall arousal and wakefulness"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The left angular gyrus is involved in reading, semantic processing, and cross-modal integration of language \u2014 it converts visual word forms into their phonological and semantic representations. It is not specialized for emotional face recognition, which relies on right-lateralized face processing networks and emotional processing circuits.",
+        "B": "The right prefrontal cortex does not exclusively process all visual stimuli \u2014 visual processing involves distributed networks across both hemispheres, with the occipital lobe as the primary visual cortex. The right-hemisphere advantage for emotional faces reflects specialized emotional and facial processing networks, not a general right-hemisphere monopoly on vision.",
+        "C": "The right hemisphere shows greater specialization for processing emotional information, including facial expressions, emotional prosody, and nonverbal social cues. The right amygdala responds preferentially to fearful faces, the right fusiform face area (FFA) contributes to holistic face processing, and right-lateralized cortical networks integrate emotional valence with facial identity. This right-hemisphere emotional processing bias explains the bilateral-but-right-biased activation pattern observed in the study.",
+        "D": "The reticular activating system (RAS) in the brainstem regulates general arousal, sleep-wake transitions, and consciousness. While arousal modulates attention to emotional stimuli, the RAS does not account for the hemisphere-specific bias in emotional face processing. The lateralization pattern reflects cortical and limbic specialization, not brainstem arousal mechanisms."
+      },
+      "topic": "Right Hemisphere / Emotional Processing",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_brain_008",
+      "usePrevPassage": true,
+      "stem": "In the dichotic listening task, the right-ear advantage for linguistic stimuli occurs because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the right ear has more sensitive auditory receptor cells than the left ear"
+        },
+        {
+          "label": "B",
+          "text": "auditory information from each ear projects more strongly to the contralateral hemisphere \u2014 right-ear input reaches the left (language-dominant) hemisphere more directly, giving it an advantage for processing linguistic stimuli"
+        },
+        {
+          "label": "C",
+          "text": "the right ear is physically closer to Broca's area in the left frontal lobe"
+        },
+        {
+          "label": "D",
+          "text": "the left hemisphere suppresses input from the left ear during dichotic competition through descending inhibitory pathways"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The auditory receptor cells (hair cells in the cochlea) are structurally and functionally equivalent in both ears. The right-ear advantage is not a peripheral sensory phenomenon \u2014 it reflects central neural organization. The asymmetry arises from the stronger contralateral projections in the auditory pathway, not from differences in receptor sensitivity.",
+        "B": "The auditory system features bilateral projections, but the contralateral pathway (each ear to the opposite hemisphere) is stronger than the ipsilateral pathway. In dichotic listening, when competing stimuli arrive simultaneously, the contralateral pathway dominates. Right-ear input reaches the left hemisphere \u2014 which is dominant for language in most individuals \u2014 more directly and efficiently, producing the right-ear advantage for linguistic material. Conversely, left-ear input reaches the right hemisphere first, explaining the left-ear advantage for melodic/tonal stimuli.",
+        "C": "The right-ear advantage has nothing to do with physical proximity of the ear to a brain region \u2014 Broca's area is inside the skull and is not closer to one ear. The advantage arises from the organization of the auditory neural pathways: contralateral projections are stronger, routing right-ear input preferentially to the left (language-dominant) hemisphere.",
+        "D": "While there are descending (efferent) pathways in the auditory system, the right-ear advantage in dichotic listening is primarily explained by the dominance of contralateral ascending projections during binaural competition, not by active suppression of one ear's input. The left hemisphere does not selectively inhibit the left ear \u2014 rather, the contralateral pathway naturally has stronger representation."
+      },
+      "topic": "Dichotic Listening / Auditory Lateralization",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_brain_009",
+      "usePrevPassage": true,
+      "stem": "If a patient suffered a stroke damaging the right parietal lobe, which of the following deficits would be MOST expected?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Broca's aphasia \u2014 impaired speech production with preserved comprehension"
+        },
+        {
+          "label": "B",
+          "text": "anterograde amnesia \u2014 inability to form new declarative memories"
+        },
+        {
+          "label": "C",
+          "text": "contralateral neglect \u2014 failure to attend to stimuli in the left visual field and left side of space, because the right parietal lobe mediates spatial attention to the contralateral (left) hemifield"
+        },
+        {
+          "label": "D",
+          "text": "prosopagnosia \u2014 inability to recognize familiar faces"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Broca's aphasia results from damage to Broca's area in the left inferior frontal gyrus, not the right parietal lobe. Language production is predominantly a left-hemisphere function, and parietal lobe damage \u2014 especially on the right side \u2014 does not produce the classic nonfluent aphasia pattern.",
+        "B": "Anterograde amnesia results from bilateral hippocampal damage or damage to medial temporal lobe structures, not from right parietal lobe lesions. The parietal lobe is involved in spatial processing and attention, not primary memory consolidation.",
+        "C": "Hemispatial neglect (contralateral neglect syndrome) is the hallmark deficit of right parietal lobe damage. The right parietal lobe \u2014 particularly the right inferior parietal lobule and temporoparietal junction \u2014 mediates spatial attention to both hemifields, while the left parietal lobe primarily attends to the right. When the right parietal lobe is damaged, the patient fails to attend to, perceive, or respond to stimuli on the left side of space, even eating food from only the right side of the plate or drawing only the right half of a clock face.",
+        "D": "Prosopagnosia (face blindness) typically results from damage to the fusiform face area in the inferior temporal/occipital cortex, most commonly bilateral or right-sided fusiform damage. While it involves right-hemisphere structures, the critical lesion is in the ventral temporal lobe, not the parietal lobe. Parietal damage produces spatial and attentional deficits, not face recognition impairments."
+      },
+      "topic": "Hemispatial Neglect / Parietal Lobe",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_brain_010",
+      "usePrevPassage": true,
+      "stem": "The researchers used fMRI for this study. Which statement best describes how fMRI measures brain activity?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "fMRI directly records electrical activity from neurons using electrodes placed on the scalp"
+        },
+        {
+          "label": "B",
+          "text": "fMRI uses positron-emitting radioactive tracers injected into the bloodstream to measure glucose metabolism"
+        },
+        {
+          "label": "C",
+          "text": "fMRI applies strong magnetic fields to detect ionizing radiation emitted by active neurons"
+        },
+        {
+          "label": "D",
+          "text": "fMRI detects changes in blood oxygenation (the BOLD signal) \u2014 active brain regions consume more oxygen, altering the ratio of oxygenated to deoxygenated hemoglobin, which produces a measurable change in the magnetic resonance signal"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This describes electroencephalography (EEG), not fMRI. EEG records electrical activity (voltage fluctuations from postsynaptic potentials) via scalp electrodes. EEG has excellent temporal resolution but poor spatial resolution. fMRI, by contrast, measures hemodynamic changes using magnetic fields and has excellent spatial resolution but poorer temporal resolution.",
+        "B": "This describes positron emission tomography (PET), not fMRI. PET uses radioactive tracers (e.g., fluorodeoxyglucose, FDG) to measure metabolic activity. PET requires radiation exposure and has lower spatial and temporal resolution than fMRI. fMRI is noninvasive and does not involve radioactive tracers.",
+        "C": "fMRI does use strong magnetic fields, but it does not detect ionizing radiation from neurons \u2014 neurons do not emit ionizing radiation. fMRI exploits the different magnetic properties of oxygenated (diamagnetic) and deoxygenated (paramagnetic) hemoglobin. This is a purely magnetic phenomenon, not a radiation-detection method.",
+        "D": "fMRI measures the blood-oxygen-level-dependent (BOLD) signal. When neurons become active, local blood flow increases, delivering more oxygenated hemoglobin than the tissue consumes. Because oxygenated and deoxygenated hemoglobin have different magnetic properties, this change in the oxy/deoxy ratio produces a detectable shift in the MRI signal. fMRI thus provides an indirect measure of neural activity through its hemodynamic correlate, with excellent spatial resolution (~1-3 mm) but a temporal lag of several seconds."
+      },
+      "topic": "Neuroimaging Techniques / fMRI",
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "batch": "B182",
+  "section": "ps",
+  "sectionName": "Psychological, Social, and Biological Foundations of Behavior",
+  "topicArea": "Social Psychology: Conformity & Obedience",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_conform_001",
+      "passage": "A social psychology lab replicates Asch's line-judgment paradigm with modifications. In the standard condition, participants judge which comparison line matches a reference line while seated among seven confederates who unanimously give an incorrect answer on 12 of 18 trials. In the ally condition, one confederate gives the correct answer before the participant responds. In the anonymous condition, participants write answers privately rather than stating them aloud. Across 200 participants, the conformity rate (percentage of trials where participants gave the incorrect answer matching the confederates) was 37% in the standard condition, 5% in the ally condition, and 12% in the anonymous condition.\n\nA follow-up study examined whether participants who conformed actually believed the incorrect answer was correct (private acceptance) or merely reported it to avoid social disapproval (compliance). Participants completed a post-experiment questionnaire rating their confidence in each response.",
+      "stem": "The dramatic reduction in conformity from 37% to 5% in the ally condition best demonstrates which principle?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Social facilitation, whereby the presence of others enhances performance on simple tasks"
+        },
+        {
+          "label": "B",
+          "text": "Groupthink, whereby the desire for harmony suppresses critical evaluation of alternatives"
+        },
+        {
+          "label": "C",
+          "text": "Deindividuation, whereby anonymity reduces self-awareness and increases impulsive behavior"
+        },
+        {
+          "label": "D",
+          "text": "The power of unanimity in producing conformity, such that a single dissenter breaks the group's influence"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Social facilitation describes enhanced performance on well-learned tasks and impaired performance on novel tasks in the presence of others. The Asch paradigm does not test facilitation of simple tasks; it tests whether individuals conform to an obviously incorrect majority. The ally's presence reduces conformity, not enhances task performance through arousal mechanisms.",
+        "B": "Groupthink (Janis) describes a phenomenon in cohesive decision-making groups where pressure for consensus overrides realistic appraisal of alternatives. The Asch paradigm involves strangers making perceptual judgments, not cohesive groups making decisions. The ally condition demonstrates unanimity effects, not the prevention of groupthink.",
+        "C": "Deindividuation involves loss of individual identity in group settings, often leading to disinhibited behavior (as in Zimbardo's research). The ally condition involves adding a dissenting confederate, not altering anonymity or self-awareness. The anonymous condition in this study is more relevant to deindividuation concepts, but still, the ally effect demonstrates unanimity's role rather than anonymity's.",
+        "D": "Correct. Asch's original findings showed that unanimity is critical for conformity pressure. When even one confederate breaks from the majority and gives the correct answer, conformity drops dramatically (from ~37% to ~5% in Asch's data and replicated here). The ally provides social support for the participant's own perception, validating their independent judgment. This demonstrates that the power of the majority depends on its unanimity — a single dissenter shatters the illusion of consensus."
+      },
+      "topic": "Asch conformity and unanimity effects",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ps_conform_002",
+      "usePrevPassage": true,
+      "stem": "The 12% conformity rate in the anonymous condition (compared to 37% in the standard condition) suggests that conformity in the standard condition was primarily driven by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "normative social influence — the desire to be accepted and avoid social disapproval by publicly agreeing with the group"
+        },
+        {
+          "label": "B",
+          "text": "informational social influence — genuine uncertainty about the correct answer leading participants to rely on the group"
+        },
+        {
+          "label": "C",
+          "text": "obedience to authority — participants complying because the confederates held positions of power"
+        },
+        {
+          "label": "D",
+          "text": "cognitive dissonance — the need to reduce discomfort between their perception and the group's response"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When responses are anonymous (private), conformity drops from 37% to 12%, meaning roughly two-thirds of conforming responses occurred only when answers were public. This indicates most conformity was driven by normative influence — the desire to avoid social disapproval or embarrassment from publicly disagreeing with the group. If participants truly believed the group was correct (informational influence), anonymity would not substantially reduce conformity, since they would give the same answer privately.",
+        "B": "If conformity were primarily informational (participants genuinely believing the group was correct), anonymous responding would not substantially reduce it — private beliefs would match public responses. The large drop from 37% to 12% demonstrates that most conforming participants privately knew the correct answer but publicly agreed with the majority to avoid social costs. The remaining 12% may reflect some genuine informational influence.",
+        "C": "Obedience to authority (Milgram) requires a clear authority figure giving explicit commands. The Asch confederates are peers with no power differential, and no one instructs the participant to agree. Conformity to peer pressure differs fundamentally from obedience to legitimate authority.",
+        "D": "Cognitive dissonance (Festinger) involves post-decisional discomfort between inconsistent cognitions. While conforming participants may experience some dissonance, the systematic drop in anonymous conditions points to a social pressure mechanism (normative influence) rather than an internal consistency mechanism. Dissonance reduction would predict persistent conformity regardless of anonymity."
+      },
+      "topic": "Normative vs informational social influence",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ps_conform_003",
+      "usePrevPassage": true,
+      "stem": "In the follow-up study, participants who conformed but reported low confidence in their conforming responses were most likely demonstrating:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "identification — adopting the group's position because they admire the group members"
+        },
+        {
+          "label": "B",
+          "text": "compliance — outwardly agreeing with the group while privately maintaining their own judgment"
+        },
+        {
+          "label": "C",
+          "text": "internalization — fully accepting the group's answer as their own belief"
+        },
+        {
+          "label": "D",
+          "text": "conversion — gradually shifting their private beliefs to match the group over time"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Identification (Kelman) involves adopting a position to maintain a valued relationship with the group. However, in the Asch paradigm, participants are strangers with no ongoing relationship. Low confidence in conforming responses suggests the participant did not genuinely adopt the group's position even temporarily, making identification an unlikely explanation.",
+        "B": "Correct. Low confidence in conforming responses indicates the participants knew their conforming answers were wrong but gave them anyway to avoid social disapproval. This is compliance — the shallowest level of conformity in Kelman's framework. The person's public behavior changes but their private belief does not. This is consistent with normative social influence, where the motivation is social acceptance rather than genuine belief change.",
+        "C": "Internalization (Kelman) is the deepest level of conformity, where the individual genuinely accepts the group's position as their own belief. If internalization had occurred, participants would report high confidence in their conforming responses because they would truly believe the group's answer was correct. Low confidence directly contradicts internalization.",
+        "D": "Conversion describes a gradual shift in private beliefs to match the group, often seen in minority influence research (Moscovici). Low post-experiment confidence indicates that no such private shift occurred — participants maintained their original perception while outwardly conforming. Conversion would predict increasing confidence over time, not persistent low confidence."
+      },
+      "topic": "Kelman's levels of conformity",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ps_conform_004",
+      "usePrevPassage": true,
+      "stem": "A researcher hypothesizes that conformity rates would be higher if the task involved ambiguous political questions rather than clear perceptual judgments. This prediction is most consistent with which concept?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The bystander effect, which predicts decreased helping in the presence of others"
+        },
+        {
+          "label": "B",
+          "text": "Social loafing, which predicts reduced effort in group settings"
+        },
+        {
+          "label": "C",
+          "text": "The autokinetic effect, which demonstrates that ambiguity increases reliance on group norms"
+        },
+        {
+          "label": "D",
+          "text": "Reactance theory, which predicts resistance to perceived threats to freedom"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The bystander effect (Darley & Latané) describes decreased likelihood of helping when others are present, due to diffusion of responsibility and pluralistic ignorance. It applies to prosocial behavior in emergencies, not to conformity in judgment tasks. The mechanisms are distinct from those driving opinion convergence.",
+        "B": "Social loafing (Ringelmann, Latané) is the tendency to exert less effort in group tasks when individual contributions cannot be identified. It applies to collective effort, not to individual judgment or conformity. The prediction about ambiguous questions concerns belief adoption, not effort reduction.",
+        "C": "Correct. Sherif's autokinetic effect study demonstrated that when a stimulus is ambiguous (a stationary point of light appearing to move in a dark room), individuals converge toward a group norm. Ambiguous stimuli increase reliance on informational social influence because individuals lack confidence in their own judgment. Political questions are inherently more ambiguous than line-length comparisons, so informational influence would be stronger, predicting higher conformity rates.",
+        "D": "Reactance (Brehm) predicts that when people perceive threats to their freedom of choice, they resist by doing the opposite. If reactance were the dominant mechanism, participants would resist conformity pressures, not increase conformity. The prediction of increased conformity with ambiguity directly contradicts a reactance-based account."
+      },
+      "topic": "Informational social influence and ambiguity",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ps_conform_005",
+      "usePrevPassage": true,
+      "stem": "A cross-cultural replication finds that conformity rates are significantly higher in a collectivist culture than in an individualist culture. Which explanation is most consistent with this finding?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The difference is entirely due to translation artifacts in the experimental instructions"
+        },
+        {
+          "label": "B",
+          "text": "Individualist cultures have lower levels of intelligence, making participants more susceptible to group influence"
+        },
+        {
+          "label": "C",
+          "text": "Collectivist cultures have simpler perceptual processing systems that make line-judgment tasks more difficult"
+        },
+        {
+          "label": "D",
+          "text": "Collectivist cultures place greater value on group harmony and interdependence, amplifying normative pressure to agree with the majority"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "While translation quality matters in cross-cultural research, attributing the entire effect to translation artifacts is inconsistent with the robustness of the finding across multiple replications using different languages and research groups. The Bond & Smith meta-analysis controlled for methodological factors and still found the cultural effect.",
+        "B": "This explanation relies on a false and harmful stereotype. Intelligence does not vary systematically between cultures, and conformity is not a function of cognitive ability. Cross-cultural conformity differences reflect differing values regarding individualism versus group harmony, not differences in intellectual capacity.",
+        "C": "Perceptual processing of line lengths does not differ systematically across cultures for stimuli of this type. The Asch stimuli are designed to be unambiguous, and cross-cultural research confirms that control-condition accuracy is equivalent across cultures. The conformity difference emerges in social conditions, not in baseline perceptual ability.",
+        "D": "Correct. Collectivist cultures (common in East Asian, Latin American, and African societies) emphasize group harmony, social obligation, and interdependence. In these cultural contexts, agreeing with the group is valued as maintaining social cohesion rather than seen as weakness. Meta-analyses (Bond & Smith, 1996) confirm higher Asch-paradigm conformity in collectivist cultures, consistent with stronger normative pressures to maintain group harmony."
+      },
+      "topic": "Cross-cultural conformity differences",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ps_conform_006",
+      "passage": "An ethics committee reviews a proposal to partially replicate Milgram's obedience experiments. In the original 1963 study, participants were instructed by an experimenter in a lab coat to deliver increasingly intense electric shocks to a confederate learner who protested and eventually fell silent. Approximately 65% of participants delivered the maximum 450-volt shock despite apparent distress. The committee considers modified versions: (1) a virtual-reality simulation where the learner is an avatar, (2) a maximum shock level of 150 volts (the point where the learner first demands to stop), and (3) a version conducted outside a university setting in a commercial office building.\n\nThe committee also discusses Milgram's agency theory, which proposes that individuals in hierarchical social situations shift from an autonomous state to an agentic state in which they view themselves as instruments of the authority figure rather than authors of their own actions. Variations of the original study found that obedience dropped when the experimenter was absent from the room, when the learner was in the same room, and when the experiment was conducted in a non-university setting.",
+      "stem": "According to agency theory, why did participants continue to administer shocks despite the learner's protests?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They experienced a diffusion of responsibility by attributing moral accountability to the experimenter as the authority figure"
+        },
+        {
+          "label": "B",
+          "text": "They had sadistic personality traits that the experimental situation activated"
+        },
+        {
+          "label": "C",
+          "text": "They were unable to hear the learner's protests due to the experimental setup"
+        },
+        {
+          "label": "D",
+          "text": "They believed the shocks were not actually harmful because university settings imply safety"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Milgram's agency theory proposes that individuals in hierarchical situations enter an agentic state where they transfer moral responsibility to the authority figure. In this state, participants view themselves as agents executing the experimenter's instructions rather than as autonomous moral actors. They continue shocking because they attribute responsibility to the experimenter ('I was just following orders'), reducing their own sense of moral accountability. This psychological shift explains why otherwise moral individuals performed harmful actions.",
+        "B": "Milgram explicitly rejected dispositional explanations. The obedience effect was robust across diverse participant populations (men, women, various occupations and education levels), indicating a situational rather than personality-based mechanism. Personality assessments of participants showed no unusual traits — the situation, not the person, produced obedience.",
+        "C": "The experimental design ensured participants clearly heard the learner's protests through an intercom system. Indeed, the protests were scripted and standardized (grunting at 75V, demanding release at 150V, screaming at 285V, silence after 330V). Participants showed visible distress, indicating they perceived the learner's suffering. Proximity variations confirmed that hearing and seeing the learner affected obedience rates.",
+        "D": "While institutional legitimacy contributed to obedience (the university setting conferred authority), participants did not believe shocks were harmless. They showed physiological stress responses (sweating, trembling, nervous laughter) and repeatedly asked to stop. The prods ('The experiment requires that you continue') overrode their discomfort through authority pressure, not through belief in safety."
+      },
+      "topic": "Milgram's agency theory of obedience",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ps_conform_007",
+      "usePrevPassage": true,
+      "stem": "Milgram found that obedience dropped when the experiment was conducted in a commercial office building rather than at Yale University. This finding best illustrates the role of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the foot-in-the-door technique in escalating commitment"
+        },
+        {
+          "label": "B",
+          "text": "legitimate authority and institutional prestige in eliciting obedience"
+        },
+        {
+          "label": "C",
+          "text": "social comparison processes in evaluating appropriate behavior"
+        },
+        {
+          "label": "D",
+          "text": "the fundamental attribution error in overestimating dispositional factors"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The foot-in-the-door technique (starting with a small request before escalating) is present in all versions of the experiment (shocks increase in 15-volt increments). Since this element is constant across settings, it cannot explain the difference between university and office conditions. The setting change specifically manipulates institutional authority, not the escalation structure.",
+        "B": "Correct. Moving the experiment from Yale University to a commercial office building reduced obedience from ~65% to ~48%. Yale's institutional prestige conferred legitimacy on the experimenter and the procedure — participants assumed that a prestigious institution would not sanction genuinely harmful research. In the office building, this legitimacy was diminished. This demonstrates that obedience is partly a function of the perceived legitimacy of the authority figure's institutional backing, not just the presence of an authority figure per se.",
+        "C": "Social comparison (Festinger) involves evaluating one's own opinions and abilities by comparing to others. The Milgram paradigm does not involve peer comparison — participants interact only with the experimenter and the confederate learner. The location change manipulates institutional authority, not the availability of social comparison targets.",
+        "D": "The fundamental attribution error (overweighting disposition, underweighting situation) is what observers commit when explaining Milgram's results by assuming participants were cruel people. It does not explain why participants in different settings behaved differently — that difference demonstrates the power of situational factors (institutional legitimacy), which is the opposite of a dispositional explanation."
+      },
+      "topic": "Institutional legitimacy and obedience",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ps_conform_008",
+      "usePrevPassage": true,
+      "stem": "The ethics committee considers that participants in the original study experienced significant psychological distress. Which ethical principle established partly in response to such studies requires that participants can withdraw at any time?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Informed consent, which requires full disclosure of all experimental procedures before participation"
+        },
+        {
+          "label": "B",
+          "text": "Debriefing, which requires explaining the true purpose of the study after completion"
+        },
+        {
+          "label": "C",
+          "text": "The right to withdraw, which requires that participants can discontinue at any time without penalty"
+        },
+        {
+          "label": "D",
+          "text": "Confidentiality, which requires that participant data remain private and anonymous"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Informed consent requires providing participants with sufficient information to make a voluntary decision about participation. However, informed consent occurs before the study begins and does not specifically address the right to stop during the study. In Milgram's experiment, the prods ('You have no other choice, you must go on') directly violated the right to withdraw, which is distinct from initial consent.",
+        "B": "Debriefing occurs after the study and involves explaining deceptions, providing the true purpose, and addressing any distress. While Milgram did debrief participants, debriefing does not protect participants during the study. The ethical concern was the distress experienced during the experiment, which the right to withdraw addresses.",
+        "C": "Correct. The right to withdraw states that participants must be free to discontinue participation at any time without penalty or coercion. Milgram's study directly violated this principle: the experimenter used scripted prods ('The experiment requires you continue,' 'You have no other choice') that pressured participants to continue despite their desire to stop. This ethical violation was influential in establishing the right to withdraw as a fundamental research ethics requirement in the Belmont Report and subsequent IRB guidelines.",
+        "D": "Confidentiality protects participant identity and data from unauthorized disclosure. While important, confidentiality does not address the in-study distress that characterized Milgram's experiments. The ethical issue at stake was participants' inability to freely stop the experiment when distressed, which falls under the right to withdraw."
+      },
+      "topic": "Research ethics and the right to withdraw",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ps_conform_009",
+      "usePrevPassage": true,
+      "stem": "A critic argues that Milgram's results overestimate real-world obedience because participants may have suspected the shocks were fake. This criticism challenges the study's:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "internal validity, because demand characteristics may have influenced participant behavior"
+        },
+        {
+          "label": "B",
+          "text": "test-retest reliability, because results might not be consistent across repeated testing"
+        },
+        {
+          "label": "C",
+          "text": "statistical conclusion validity, because the sample size was insufficient for generalization"
+        },
+        {
+          "label": "D",
+          "text": "construct validity, because the study may not have measured genuine obedience"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Demand characteristics (cues that suggest expected behavior) are a threat to internal validity, but the criticism here is more specific: it questions whether the psychological construct being measured is actually obedience. If participants suspected deception, their behavior may reflect playing along with a perceived game rather than genuine authority-driven compliance. This is fundamentally a construct validity concern.",
+        "B": "Test-retest reliability concerns consistency of measurement across time. The criticism is not about whether results would be similar on retesting, but about whether the results reflect genuine obedience at all. Many replications have shown consistent results, so reliability is not the primary concern raised by this critic.",
+        "C": "Statistical conclusion validity concerns whether the statistical analysis supports the conclusions drawn. Milgram tested many participants across multiple variations, and the effects were large enough to be statistically robust. The criticism is about what was measured (construct), not whether the statistics were adequate.",
+        "D": "Correct. Construct validity asks whether a study actually measures the theoretical construct it claims to measure. If participants suspected the shocks were fake, then the study measured willingness to play along with an obvious deception rather than genuine obedience to harmful orders. This directly challenges whether the behavioral measure (administering shocks) validly operationalized the construct of destructive obedience. Post-experiment interviews suggest most participants believed the shocks were real, but this remains a debated methodological point."
+      },
+      "topic": "Research validity and construct validity",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ps_conform_010",
+      "usePrevPassage": true,
+      "stem": "When the experimenter left the room and gave instructions by telephone, obedience dropped to approximately 21%. Several participants administered lower shocks than instructed while reporting that they had followed orders. This deceptive behavior is best explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a motivation to minimize harm while maintaining the appearance of compliance, reflecting competing pressures between moral conscience and authority demands"
+        },
+        {
+          "label": "B",
+          "text": "an inability to read the shock generator labels accurately without the experimenter's guidance"
+        },
+        {
+          "label": "C",
+          "text": "social desirability bias in retrospective self-reports about shock levels administered"
+        },
+        {
+          "label": "D",
+          "text": "sensory adaptation to the learner's protests, leading to inaccurate estimation of shock intensity"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When the experimenter was absent, participants could reduce harm without openly defying authority. Administering lower shocks while reporting compliance reflects a compromise between two competing pressures: the desire to obey the authority figure and the moral impulse to minimize harm to the learner. Physical distance from the authority reduced surveillance, enabling participants to satisfy both motives through deception. This behavior demonstrates that participants were not simply automatons following orders — they were actively navigating moral conflict.",
+        "B": "The shock generator was clearly labeled with voltage levels in 15-volt increments from 15 to 450 volts, with descriptive labels ('Slight Shock' through 'Danger: Severe Shock' and 'XXX'). Participants demonstrated accurate reading in all conditions. The deceptive behavior was deliberate, not accidental.",
+        "C": "Social desirability bias affects self-reports, but the passage describes actual behavioral observations during the experiment, not retrospective reports. Researchers directly observed participants administering lower shocks than instructed while the experimenter was absent and then claiming compliance when checked on. This was documented in real time.",
+        "D": "Sensory adaptation applies to perceptual stimuli (sounds becoming less noticeable over time) but does not explain deliberately choosing lower shock levels while reporting higher ones. The behavior pattern was strategic — participants intentionally reduced voltages, indicating conscious decision-making rather than perceptual error."
+      },
+      "topic": "Obedience, moral conflict, and proximity of authority",
+      "difficulty": "hard"
+    }
+  ]
+}

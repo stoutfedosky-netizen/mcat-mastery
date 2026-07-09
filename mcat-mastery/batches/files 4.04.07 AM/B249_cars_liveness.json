@@ -1,0 +1,246 @@
+{
+  "batch": "B249",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Performance Studies, Liveness & What Audiences Pay For",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_liveness_249_q0",
+      "passage": "Two tickets go on sale for the same evening. One admits its holder to a cinema simulcast of the opera, filmed by a dozen cameras, the soprano's face six feet tall in flawless focus, the sound mixed to studio standards. The other admits its holder to the opera house itself, four tiers up, where the singers are the size of chess pieces and a pillar interrupts the stage left action. The second ticket costs five times as much and sells out first. Whatever the buyers are purchasing, it is not audiovisual access, which the cinema supplies in strictly superior form. The name usually given to the difference is liveness, and the difficulty begins as soon as one asks what the word picks out.\n\nThe traditional answer invokes co-presence. Performer and audience share a room, an hour, an air supply; the event is unrepeatable, and its outcome is genuinely open. The singer might crack on the high note, the actor might forget, the acrobat might fall, and this shared exposure to failure is said to charge the occasion in a way no recording, whose every risk has already been survived, can reproduce. On this account the four tiers and the pillar are not deductions from the experience but its certificate: bad sightlines are what being somewhere looks like.\n\nA more skeptical tradition points out that the category of the live is younger than it feels. Before recording, there was no live performance, only performance; the term entered the language when broadcasting needed a word for what it was displacing, which means liveness was coined by the very media it defines itself against, roughly as the term acoustic guitar awaited the electric one. On this view the aura of presence is substantially a marketing achievement, and the history of performance since has been a history of quiet mediation: microphones and mixing consoles inside the hall, amplification dressed as nature, and, in the arenas, giant screens that most of the audience watches for most of the night, having paid handsomely to attend, in person, a broadcast of an event occurring a hundred meters away.\n\nThe skeptics' inventory is accurate and does not quite settle the matter. Strip away the purity claims and something remains that recordings do not have, and it has less to do with acoustics than with circuitry of attention. A performance before an audience is a feedback system: the room's laughter retimes the comedian, its stillness emboldens the conductor's rubato, its restlessness reaches the stage as surely as the stage reaches it, and the evening that results is co-produced, in real time, by people who will never meet. A recording can document such an evening; it cannot participate in one. And the exposure to failure, whatever its marketing uses, is not fictional: the acrobat's wire is only worth watching because the fall remains available, and everyone in the tent is doing the arithmetic together.\n\nThere is also the crowd itself, which the cinema seat provides only in dilution. To sit inside several thousand people attending to the same fragile thing is to have one's own attention amplified and returned, and audiences reliably report that the massed silence of a hall is as memorable as anything that happened on stage. The report should be taken seriously rather than romantically: it identifies the product. What the expensive ticket buys is not superior transmission but membership in the event's production, a seat inside the feedback loop rather than at the end of a cable.\n\nThe market, meanwhile, has learned to sell the category with or without its contents. Tours are built around deceased singers rendered in projection, their setlists fixed, their banter scripted from archival tape, and the arenas fill; the shows are advertised, without embarrassment, as live. Purists call this a contradiction. It is better read as a diagnostic: it reveals which components of liveness the audience will pay for separately, the crowd, the occasion, the volume, the shared calendar date, when the open outcome and the mutual perception have been quietly subtracted. The projection cannot crack on the high note, and it cannot hear the room.\n\nLiveness, then, names a relation rather than a property, and the relation has parts: co-presence, open outcome, mutual audibility between stage and house, the crowd as co-author. The parts can be unbundled, priced, and sold in various combinations, which the industry now does with precision, and the interesting question at the box office has become which bundle a given audience is actually buying. The buyers in the fourth tier, behind the pillar, may be the only ones purchasing the whole thing, and what they know, without needing the vocabulary, is that the evening will owe something to their being there, which is a debt no cinema, however sharp its focus, has ever owed its patrons.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The concept of liveness is entirely a marketing invention of the broadcast era, and audiences who pay premiums for in-person attendance have been deceived."
+        },
+        {
+          "label": "B",
+          "text": "In-person performance is superior to recorded performance because concert halls provide better acoustics than cinemas can reproduce."
+        },
+        {
+          "label": "C",
+          "text": "Hologram tours of deceased performers prove that audiences no longer value open outcomes in performance."
+        },
+        {
+          "label": "D",
+          "text": "Although the category of the live was coined by the media it opposes and performance has always involved mediation, liveness names a real relation, feedback between stage and house, open outcome, the crowd as co-author, whose components the market now unbundles and sells separately."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice adopts the skeptical tradition's strongest version, which the fourth paragraph explicitly declines to accept in full. The passage says the skeptics' inventory is accurate and does not quite settle the matter, then identifies the feedback system and genuine exposure to failure as what remains, so the deception verdict overshoots the argument.",
+        "B": "This choice contradicts the passage's opening premise. The cinema simulcast is described as audiovisually superior, flawless focus, studio sound, and the expensive ticket's value is located elsewhere, in membership in the event's production, so acoustic superiority is neither claimed nor needed.",
+        "C": "This choice misreads the sixth paragraph's diagnostic. The projection tours show which components audiences will pay for separately when open outcome is subtracted, crowd, occasion, volume, not that open outcomes have lost their value; the fourth paragraph treats the available fall as precisely what makes the wire worth watching.",
+        "D": "Correct. The passage grants the skeptics their history, the term coined by broadcasting, mediation throughout, then argues that a real relation survives the debunking: real-time feedback between performers and audience, genuine openness to failure, and the crowd's co-authorship, concluding that liveness names a relation whose parts the industry now unbundles, prices, and sells in combinations."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_liveness_249_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the third paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "prove that microphones and amplification have degraded the quality of modern performance."
+        },
+        {
+          "label": "B",
+          "text": "present the skeptical case that liveness is a recent, media-coined category and that in-person performance is already saturated with mediation."
+        },
+        {
+          "label": "C",
+          "text": "argue that arena audiences should demand refunds for watching screens."
+        },
+        {
+          "label": "D",
+          "text": "establish that the feedback loop between stage and house is the core of liveness."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice converts an inventory of mediation into a verdict about quality. The paragraph documents microphones, mixing, and screens to challenge the purity of presence, not to claim that these technologies made performance worse; no quality comparison is offered.",
+        "B": "Correct. The paragraph delivers the skeptical tradition's two-part case: historically, the category of the live postdates recording and was coined by broadcasting to name what it displaced, like acoustic awaiting electric; and descriptively, in-person performance is quietly mediated throughout, from consoles in the hall to arena screens watched by paying attendees, so the aura of presence is substantially a marketing achievement.",
+        "C": "This choice invents a consumer recommendation the paragraph never makes. The arena screens appear as evidence that mediation pervades the supposedly unmediated, an argumentative use, not as grounds for any claim about what audiences are owed.",
+        "D": "This choice assigns the paragraph the fourth paragraph's contribution. The feedback system, laughter retiming the comedian, stillness emboldening the conductor, is introduced as what survives the skeptical inventory, in the following paragraph, not as part of the skeptical case itself."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_liveness_249_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward the traditional co-presence account described in the second paragraph is best characterized as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "selectively affirming, discarding its purity claims after the skeptical critique while preserving its insights about open outcomes and shared exposure to failure."
+        },
+        {
+          "label": "B",
+          "text": "wholly rejecting, since the account was manufactured by broadcast marketing."
+        },
+        {
+          "label": "C",
+          "text": "wholly endorsing, including its suggestion that bad sightlines certify authentic presence."
+        },
+        {
+          "label": "D",
+          "text": "uninterested, since the passage focuses exclusively on the economics of ticket pricing."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage subjects the co-presence account to the third paragraph's skeptical history, then explicitly salvages parts of it: the exposure to failure, whatever its marketing uses, is not fictional, the wire is worth watching because the fall remains available, and mutual perception between stage and house is real, so the account is trimmed of purity and retained in substance.",
+        "B": "This choice stops at the skeptical paragraph and ignores the pivot. The fourth paragraph states that the skeptics' accurate inventory does not quite settle the matter and proceeds to identify what recordings lack, which is a rehabilitation, not a rejection, of the account's core.",
+        "C": "This choice retains the flourish the passage treats with irony. The line that bad sightlines are what being somewhere looks like belongs to the traditional account's own rhetoric; the passage's considered position locates value in feedback and openness, not in obstructed views as certificates.",
+        "D": "This choice mistakes the passage's framing device for its subject. Ticket prices open and close the essay as evidence about what audiences value; the analysis throughout is about the nature of liveness, on which the author takes detailed positions."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_liveness_249_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to the third paragraph, the skeptical tradition holds that the term live entered the language because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "opera houses needed to distinguish their offerings from those of theaters."
+        },
+        {
+          "label": "B",
+          "text": "performers demanded recognition for the risks of unrepeatable performance."
+        },
+        {
+          "label": "C",
+          "text": "broadcasting needed a word for what it was displacing, so the category was coined by the very media it defines itself against."
+        },
+        {
+          "label": "D",
+          "text": "audiences began paying premium prices for in-person attendance and required a label for the product."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice invents a rivalry between performance venues that the paragraph never mentions. The skeptics' claim concerns the relation between performance and recording media, not distinctions among kinds of in-person institutions.",
+        "B": "This choice attributes the coinage to performers' advocacy, which appears nowhere in the account. The skeptical point is structural and semantic, about media naming their predecessor, not about labor seeking recognition for risk.",
+        "C": "Correct. The paragraph states that before recording there was no live performance, only performance, and that the term entered the language when broadcasting needed a word for what it was displacing, so liveness was coined by the media it defines itself against, with the acoustic guitar awaiting the electric offered as the parallel.",
+        "D": "This choice reverses the direction of the history. Premium pricing for in-person attendance is the present-day phenomenon the passage opens with; the skeptics' claim is that the category originated with broadcasting's needs, not with a pricing development among audiences."
+      },
+      "topic": "Perspective Attribution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_liveness_249_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A streaming platform introduces watch parties in which thousands of subscribers view a pre-recorded concert film simultaneously, with a synchronized chat and a countdown to the shared start time. Based on the passage, this product is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a complete reproduction of liveness, since the audience is co-present in time and communicates in real time."
+        },
+        {
+          "label": "B",
+          "text": "an unbundled offering that supplies the shared calendar date and a diluted crowd while omitting open outcome and mutual perception between performers and audience, since the recorded film cannot fail or hear the room."
+        },
+        {
+          "label": "C",
+          "text": "a violation of the co-presence account, since watching any screen disqualifies an event from being a performance."
+        },
+        {
+          "label": "D",
+          "text": "evidence that the feedback loop between stage and house can operate through a chat window."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice awards the product the whole relation when it supplies only parts. The passage's components include open outcome and mutual audibility between stage and house; a pre-recorded film's every risk has already been survived, and no signal from the watching crowd reaches or alters the performance.",
+        "B": "Correct. The sixth and seventh paragraphs describe the market unbundling liveness into components, crowd, occasion, shared date, sold separately from open outcome and mutual perception, exactly what the watch party assembles: synchronized attendance and communal chat around a fixed recording that, like the projection tours, cannot crack on the high note and cannot hear the room.",
+        "C": "This choice invents a disqualification rule the passage rejects. The third paragraph notes that arena audiences watch screens at events everyone calls live, so screen-watching cannot be the line; the passage analyzes components rather than policing the word performance.",
+        "D": "This choice mistakes audience-to-audience communication for the stage-house circuit. The feedback loop the fourth paragraph describes runs between performers and the room, retiming and emboldening the performance itself; a chat among viewers of a fixed film alters nothing on the screen, so the loop is absent, not relocated."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_liveness_249_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following situations is most analogous to the fourth paragraph's claim that the acrobat's wire is only worth watching because the fall remains available?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A museum displays a famous painting behind protective glass so that visitors cannot damage it."
+        },
+        {
+          "label": "B",
+          "text": "A chess broadcast replays a historic match whose moves and outcome have been known for decades."
+        },
+        {
+          "label": "C",
+          "text": "A pilot practices emergency landings in a simulator that can be paused and reset at will."
+        },
+        {
+          "label": "D",
+          "text": "Spectators find a penalty kick gripping because the taker, facing a live goalkeeper, may miss, whereas the same kick against an open goal would hold no interest."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice concerns protecting an object from the audience, not the audience's interest depending on possible failure. The painting's value is settled and static; nothing in the display turns on an outcome remaining open.",
+        "B": "This choice presents the structure the claim opposes: an event whose every risk has already been survived. The historic match's outcome is closed, so whatever interest the replay holds, it cannot be the interest that depends on availability of failure.",
+        "C": "This choice removes the stakes the analogy requires. A simulator that pauses and resets makes failure costless and reversible, which is the opposite of the wire, where the fall's genuine availability is what commands the tent's attention.",
+        "D": "Correct. The kick's grip on spectators depends on the genuinely open possibility of missing against a live keeper, and evaporates when failure is removed, the open goal, exactly paralleling the wire, which is worth watching only because the fall remains available and everyone is doing the arithmetic together."
+      },
+      "topic": "Reasoning by Analogy",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_liveness_249_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the fourth paragraph's claim that a performance before an audience is a feedback system in which the evening is co-produced in real time?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Detailed performance analyses across comedy, concert, and theater settings finding that professional performers' timing, dynamics, and interpretive choices remained measurably identical whether they played to full houses, empty halls, or pre-recorded audience sound, with performers unable to distinguish the conditions afterward."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that audience members frequently check their phones during performances."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that some performers report feeling nervous before appearing in front of large crowds."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that ticket prices for in-person events have risen faster than cinema simulcast prices."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The claim is that the room's responses retime, embolden, and reach the stage, making the evening co-produced. Analyses showing performers' timing, dynamics, and interpretation measurably identical across full houses, empty halls, and canned sound, with performers unable even to distinguish the conditions, would sever the asserted circuit at its performer end, leaving nothing for the audience to co-produce.",
+        "B": "This choice documents divided attention among audiences, which might reduce the feedback signal's strength but does not show the system absent; the claim survives as long as the room's aggregate responses continue to reach and shape the stage.",
+        "C": "This choice, if anything, supports the claim, since pre-performance nerves indicate that audiences register with performers. Feeling the crowd's presence is an input to exactly the circuit the paragraph describes.",
+        "D": "This choice concerns relative price trends, which reflect demand for in-person attendance without addressing whether performances are shaped in real time by their audiences, the specific mechanism the claim asserts."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

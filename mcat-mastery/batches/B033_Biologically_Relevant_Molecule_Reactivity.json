@@ -1,0 +1,338 @@
+{
+  "batch": "B033",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Biologically-Relevant Molecule Reactivity",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_react_001",
+      "passage": "Researchers develop an ester prodrug to improve the membrane permeability of a carboxylic acid drug. After absorption, a serum esterase converts the prodrug back to the active carboxylic acid and ethanol. The esterase contains a Ser-His-Asp catalytic triad. Histidine acts as a base, removing the proton from the serine hydroxyl group. The activated serine then attacks the ester carbonyl to form a tetrahedral intermediate, which subsequently collapses as the alcohol-derived portion of the prodrug leaves.",
+      "stem": "In the first covalent step of the esterase-catalyzed reaction, which species acts as the nucleophile?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The oxygen atom of the deprotonated serine side chain"
+        },
+        {
+          "label": "B",
+          "text": "The carbonyl carbon of the ester prodrug"
+        },
+        {
+          "label": "C",
+          "text": "The protonated histidine side chain"
+        },
+        {
+          "label": "D",
+          "text": "The carbon atom of the ethanol-derived leaving group"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In the catalytic triad mechanism, a histidine residue deprotonates the serine hydroxyl group, generating a highly nucleophilic alkoxide ion (Ser-O\u207b). This activated oxygen attacks the electrophilic carbonyl carbon of the ester substrate, forming a tetrahedral intermediate. The serine's role as the nucleophile is a defining feature of serine hydrolases, which include proteases (trypsin, chymotrypsin), esterases, and lipases.",
+        "B": "The carbonyl carbon of the ester is the electrophilic center \u2014 it is the target of nucleophilic attack, not the nucleophile itself. In the catalytic triad mechanism, the serine oxygen attacks this electrophilic carbon. The nucleophile is the species that donates electrons (serine), not the species that receives them (carbonyl carbon).",
+        "C": "In the catalytic triad, histidine acts as a general base \u2014 it abstracts a proton from serine's hydroxyl to generate the nucleophilic alkoxide. The protonated histidine carries the donated proton; it does not itself attack the substrate. Histidine's role is to activate the nucleophile, not to be the nucleophile.",
+        "D": "The carbon atom of the ethanol-derived leaving group departs during the reaction \u2014 it is part of the leaving group, not the attacking nucleophile. The leaving group exits as the tetrahedral intermediate collapses. The nucleophilic attack comes from the enzyme's serine residue, not from any atom in the substrate's leaving group."
+      },
+      "topic": "Nucleophiles / Serine Esterase Catalysis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_react_002",
+      "passage": null,
+      "passageRef": "cp_react_001",
+      "stem": "The ester carbonyl carbon is susceptible to nucleophilic attack primarily because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the carbonyl carbon has a complete negative charge that attracts electron-rich species"
+        },
+        {
+          "label": "B",
+          "text": "the carbonyl bond is nonpolar, allowing either atom to accept electrons equally"
+        },
+        {
+          "label": "C",
+          "text": "the carbonyl oxygen donates a proton to the attacking nucleophile"
+        },
+        {
+          "label": "D",
+          "text": "the electronegative oxygen withdraws electron density, giving the carbonyl carbon a partial positive charge"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The carbonyl carbon bears a partial positive charge (\u03b4+), not a complete negative charge. The electronegative oxygen withdraws electron density through the C=O bond, making carbon electron-poor and electrophilic. A negative charge would make the carbon nucleophilic (electron-rich), which is the opposite of electrophilic.",
+        "B": "The carbonyl bond is polar, not nonpolar. Oxygen's higher electronegativity (3.5 vs carbon's 2.5) creates a significant dipole with partial negative charge on oxygen and partial positive charge on carbon. This polarity is precisely what makes the carbonyl carbon electrophilic \u2014 electrons are unequally shared, favoring oxygen.",
+        "C": "The carbonyl oxygen does not donate a proton to the nucleophile. The oxygen is electron-rich (\u03b4\u2212) and acts as a hydrogen bond acceptor, not a proton donor. In the catalytic mechanism, proton transfers are managed by histidine and water, not by the substrate's carbonyl oxygen. The electrophilicity of the carbonyl carbon is due to the C=O bond polarization, not to proton donation.",
+        "D": "Correct. The C=O bond is polarized because oxygen (electronegativity 3.5) withdraws electron density from carbon (electronegativity 2.5) through both inductive and resonance effects. This creates a partial positive charge (\u03b4+) on the carbonyl carbon, making it an electrophilic center susceptible to attack by nucleophiles such as the serine alkoxide. The resonance contributor C\u207a\u2013O\u207b emphasizes this electron deficiency."
+      },
+      "topic": "Carbonyl Polarity / Electrophilicity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_react_003",
+      "passage": null,
+      "passageRef": "cp_react_001",
+      "stem": "If the prodrug's ester linkage were replaced by an otherwise similar amide linkage, its uncatalyzed hydrolysis would generally be slower because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "amide carbonyl carbons are sp\u00b3-hybridized and cannot undergo nucleophilic attack"
+        },
+        {
+          "label": "B",
+          "text": "resonance donation from nitrogen reduces carbonyl electrophilicity, and an amine-derived group is a relatively poor leaving group"
+        },
+        {
+          "label": "C",
+          "text": "amide bonds are nonpolar and therefore cannot interact with water"
+        },
+        {
+          "label": "D",
+          "text": "nitrogen is more electronegative than oxygen and completely prevents polarization of the carbonyl"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Amide carbonyl carbons are sp\u00b2-hybridized, not sp\u00b3. The carbon is bonded to three atoms (N, O, and one other group) with a double bond to oxygen, giving trigonal planar geometry. sp\u00b2 carbons can undergo nucleophilic attack \u2014 the issue is that resonance from nitrogen reduces the carbonyl's electrophilicity, slowing the reaction, not that the geometry prevents it.",
+        "B": "Correct. Amide bonds are more resistant to nucleophilic acyl substitution than esters for two reinforcing reasons: (1) nitrogen's lone pair donates into the carbonyl through resonance (nN \u2192 \u03c0*C=O), reducing the electrophilicity of the carbonyl carbon, and (2) the nitrogen-derived leaving group (an amine, pKa ~35\u201340 for the conjugate acid of an amide nitrogen) is a much poorer leaving group than the alkoxide from an ester (pKa ~16). Both effects stabilize the amide relative to the ester.",
+        "C": "Amide bonds are polar, not nonpolar. The C=O bond is strongly polar (large electronegativity difference), and the C-N bond also has significant polarity. Amides readily interact with water through hydrogen bonding \u2014 the N-H can donate hydrogen bonds and the C=O can accept them. The resistance to hydrolysis is due to resonance stabilization and poor leaving-group ability, not nonpolarity.",
+        "D": "Nitrogen (electronegativity 3.0) is actually less electronegative than oxygen (3.5), not more. Nitrogen's lone pair donates into the carbonyl through resonance, partially reducing the C=O double bond character and making the carbonyl carbon less electrophilic. But nitrogen does not completely prevent polarization \u2014 the carbonyl retains some electrophilic character, which is why amides can still be hydrolyzed, just very slowly."
+      },
+      "topic": "Amide Stability / Resonance and Leaving Groups",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_react_004",
+      "passage": "A research group uses a chiral secondary alkyl bromide to label an exposed cysteine residue in a protein. The reactive form of cysteine is the thiolate ion (RS\u207b). The measured rate law is rate = k[alkyl bromide][RS\u207b], and the isolated product has the opposite configuration at the carbon that originally bore bromine. No carbocation-rearranged products are detected.",
+      "stem": "The labeling reaction most likely proceeds by which mechanism?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "SN1, because a planar carbocation intermediate produces inversion"
+        },
+        {
+          "label": "B",
+          "text": "E1, because loss of bromide is followed by proton removal"
+        },
+        {
+          "label": "C",
+          "text": "SN2, because the bimolecular rate law and inversion are consistent with concerted backside attack"
+        },
+        {
+          "label": "D",
+          "text": "E2, because the rate depends on both reactants and the product is saturated"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "SN1 does proceed through a planar carbocation intermediate, but this planar geometry allows attack from both faces \u2014 producing racemization (mixture of stereoisomers), not inversion. The passage describes inversion of stereochemistry, which indicates backside attack characteristic of SN2, not the non-stereoselective attack on a planar carbocation in SN1. Also, SN1 is first-order, not bimolecular.",
+        "B": "E1 involves unimolecular ionization to form a carbocation followed by proton removal to form an alkene. The question describes formation of a thioether (substitution product), not an alkene (elimination product). Additionally, E1 shows first-order kinetics, but the passage describes bimolecular kinetics.",
+        "C": "Correct. The bimolecular rate law (rate = k[substrate][nucleophile]) and inversion of stereochemistry at the electrophilic carbon are the signature features of an SN2 mechanism. The cysteine thiolate (RS\u207b) is a strong nucleophile that attacks the electrophilic carbon in a single concerted step, with the leaving group departing from the opposite face (backside attack). Sulfur nucleophiles are particularly effective in SN2 reactions due to their high polarizability and low basicity.",
+        "D": "E2 is bimolecular (rate depends on both reactants), which matches one feature of the observed kinetics. However, E2 produces an alkene through concerted proton removal and leaving group departure \u2014 an elimination product, not the substitution product (thioether) described. The saturated thioether product indicates substitution (SN2), not elimination."
+      },
+      "topic": "SN2 Reactions / Cysteine Alkylation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_react_005",
+      "passage": null,
+      "passageRef": "cp_react_004",
+      "stem": "If the solution pH is lowered well below the pKa of the cysteine side chain, the labeling reaction will most likely slow because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the alkyl bromide becomes negatively charged and repels the thiolate"
+        },
+        {
+          "label": "B",
+          "text": "bromide becomes a stronger base and can no longer function as a leaving group"
+        },
+        {
+          "label": "C",
+          "text": "a larger fraction of cysteine will be protonated as RSH, decreasing the concentration of the more nucleophilic RS\u207b species"
+        },
+        {
+          "label": "D",
+          "text": "the mechanism changes to SN1 because all secondary substrates form stable carbocations at low pH"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The alkyl bromide electrophile does not become negatively charged when pH is lowered. Lowering pH adds H\u207a to the solution, which protonates the cysteine thiolate (RS\u207b \u2192 RSH), reducing its nucleophilicity. The electrophile's charge is unchanged \u2014 the effect is entirely on the nucleophile's ionization state.",
+        "B": "Lowering pH does not convert bromide into a stronger base. Bromide (Br\u207b) is the conjugate base of a strong acid (HBr) and is an extremely weak base regardless of pH. It remains an excellent leaving group at any pH. The rate decrease is caused by protonation of the cysteine nucleophile, not by any change in bromide's properties.",
+        "C": "Correct. The cysteine side chain has a thiol group (\u2013SH) with a pKa of approximately 8.3. At pH well below this pKa, the Henderson-Hasselbalch equation predicts that the protonated form (R\u2013SH) predominates over the thiolate (R\u2013S\u207b). The thiolate anion is a far stronger nucleophile than the protonated thiol because of its full negative charge and greater electron availability. Reducing the concentration of the reactive thiolate species directly decreases the rate of the SN2 labeling reaction.",
+        "D": "The mechanism does not change to SN1 at low pH. SN1 requires a stable carbocation intermediate, which depends on substrate structure (tertiary > secondary), not on solution pH. Primary and secondary alkyl halides react via SN2 regardless of pH. The rate decrease is caused by protonation of the thiolate nucleophile, reducing its concentration and reactivity."
+      },
+      "topic": "Thiolate Nucleophilicity / pH Dependence",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_react_006",
+      "passage": null,
+      "stem": "A tertiary alkyl halide undergoes substitution in a polar protic solvent with a weak nucleophile. Which observation would most strongly support an SN1 mechanism?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The rate depends only on substrate concentration, and a chiral reaction center produces substantial racemization"
+        },
+        {
+          "label": "B",
+          "text": "The reaction produces only one stereoisomer by complete backside inversion"
+        },
+        {
+          "label": "C",
+          "text": "The rate doubles when the nucleophile concentration is doubled"
+        },
+        {
+          "label": "D",
+          "text": "The reaction requires the nucleophile and leaving group to be anti-periplanar"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. SN1 is favored for tertiary substrates (stable 3\u00b0 carbocation intermediate), polar protic solvents (which stabilize the carbocation and the departing leaving group through solvation), and weak nucleophiles (which do not compete via SN2). SN1 kinetics are first-order: rate = k[substrate], because the rate-determining step is unimolecular ionization. At a chiral center, the planar carbocation intermediate can be attacked from either face, producing a mixture of retention and inversion \u2014 substantial racemization, though not always exactly 50:50 due to ion-pair effects.",
+        "B": "Complete backside inversion producing only one stereoisomer describes SN2, not SN1. In SN1, the planar carbocation intermediate can be attacked from either face, producing a mixture of both stereoisomers (substantial racemization). The observation of racemization in the question is inconsistent with the single-inversion product expected from SN2.",
+        "C": "The rate doubling when nucleophile concentration doubles indicates a bimolecular rate law (rate = k[substrate][nucleophile]) \u2014 this describes SN2, not SN1. SN1 kinetics are first-order: rate depends only on substrate concentration because the rate-determining step is unimolecular ionization. Changing nucleophile concentration does not affect the SN1 rate.",
+        "D": "Anti-periplanar arrangement of nucleophile and leaving group describes E2 elimination, not SN1. E2 requires the leaving group and \u03b2-hydrogen to be 180\u00b0 apart (trans-diaxial in cyclohexanes). SN1 has no geometric requirement between nucleophile and leaving group because they participate in separate steps \u2014 ionization occurs before nucleophilic attack."
+      },
+      "topic": "SN1 Reactions / Kinetics and Stereochemistry",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_react_007",
+      "passage": null,
+      "stem": "An E2 elimination is performed on a substituted cyclohexane. The leaving group is equatorial in the most stable chair conformation, and no elimination occurs until the ring flips. The ring flip enables reaction because it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "converts the leaving group into a carbocation before the base removes a proton"
+        },
+        {
+          "label": "B",
+          "text": "places the leaving group axial so that it can be anti-periplanar to an axial \u03b2-hydrogen"
+        },
+        {
+          "label": "C",
+          "text": "changes the carbon bearing the leaving group from sp\u00b3 to sp\u00b2 before the reaction begins"
+        },
+        {
+          "label": "D",
+          "text": "makes the leaving group a stronger base, allowing it to remove the \u03b2-hydrogen"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This describes an SN1-like process (carbocation formation before the next step), not E2. E2 is concerted \u2014 bond breaking and bond forming occur simultaneously in a single step. The ring flip does not generate a carbocation; it repositions the leaving group into an axial orientation for the required anti-periplanar geometry.",
+        "B": "Correct. E2 elimination requires anti-periplanar (trans-diaxial) geometry between the leaving group and the \u03b2-hydrogen being removed. In a cyclohexane ring, this geometry is achieved only when both the leaving group and the \u03b2-hydrogen are axial on the same side of the ring. A ring flip converts an equatorial leaving group to an axial position, enabling the required orbital alignment for the concerted E2 transition state. This stereoelectronic requirement explains why some cyclohexane conformers undergo E2 readily while others do not.",
+        "C": "The ring flip does not change the hybridization of the carbon bearing the leaving group. That carbon remains sp\u00b3 throughout \u2014 hybridization changes to sp\u00b2 only during the elimination itself, when the double bond forms. The ring flip is a conformational change (rotation around single bonds), not a hybridization change.",
+        "D": "The ring flip does not make the leaving group a stronger base. The leaving group's basicity is an intrinsic property determined by its chemical identity (e.g., Br\u207b, Cl\u207b, OTs\u207b), not by its axial/equatorial position. The purpose of the ring flip is geometric \u2014 achieving the anti-periplanar dihedral angle required for E2 \u2014 not electronic."
+      },
+      "topic": "E2 Elimination / Trans-Diaxial Geometry",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_react_008",
+      "passage": null,
+      "stem": "During the lactate dehydrogenase reaction, NADH donates a hydride equivalent to the carbonyl carbon of pyruvate, and the carbonyl oxygen is protonated. What functional-group transformation occurs in pyruvate?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A carboxylic acid is oxidized to an aldehyde"
+        },
+        {
+          "label": "B",
+          "text": "A secondary alcohol is oxidized to a ketone"
+        },
+        {
+          "label": "C",
+          "text": "An ester is hydrolyzed to a carboxylic acid"
+        },
+        {
+          "label": "D",
+          "text": "A ketone is reduced to a secondary alcohol"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This describes oxidation of a carboxylic acid, which would require extremely strong reducing conditions to reverse. The LDH reaction converts a ketone (pyruvate) to an alcohol (lactate) \u2014 a reduction, not an oxidation. Additionally, the conversion described (carboxylic acid \u2192 aldehyde) would require reducing agents like DIBAL-H, not a biological dehydrogenase.",
+        "B": "This describes oxidation of a secondary alcohol to a ketone, which is the reverse of the LDH reaction. LDH catalyzes the reduction of pyruvate (ketone) to lactate (secondary alcohol) using NADH. The reverse direction (lactate \u2192 pyruvate) would be oxidation, but the question asks about the NADH-consuming direction.",
+        "C": "Ester hydrolysis involves breaking a C-O bond with water to produce a carboxylic acid and an alcohol. The LDH reaction is a redox reaction (hydride transfer from NADH to the substrate carbonyl), not a hydrolysis. No ester bond is present in pyruvate or lactate.",
+        "D": "Correct. NADH donates a hydride ion (H\u207b) to the carbonyl carbon of pyruvate's ketone group. This converts the C=O to C\u2013OH, transforming pyruvate (a ketone at the \u03b1-position) into lactate (a secondary alcohol). The reaction is a biological reduction: NADH is oxidized to NAD\u207a, and the ketone substrate is reduced. This regenerates NAD\u207a for continued glycolysis under anaerobic conditions."
+      },
+      "topic": "Biological Redox Chemistry / Carbonyl Reduction",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_react_009",
+      "passage": null,
+      "stem": "Hydrogen atoms on a carbon adjacent to a carbonyl group are more acidic than typical alkane hydrogens. This increased acidity is best explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "resonance stabilization of the conjugate base, which delocalizes negative charge between the \u03b1-carbon and carbonyl oxygen"
+        },
+        {
+          "label": "B",
+          "text": "conversion of the carbonyl carbon from sp\u00b2 to sp\u00b3 hybridization before deprotonation"
+        },
+        {
+          "label": "C",
+          "text": "formation of an unstable carbocation at the \u03b1-carbon after the proton is removed"
+        },
+        {
+          "label": "D",
+          "text": "hydrogen bonding between the \u03b1-hydrogen and carbonyl oxygen in the neutral molecule"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The \u03b1-hydrogens adjacent to a carbonyl group have pKa values of approximately 19\u201320 (compared to ~50 for typical alkane C\u2013H bonds). This enhanced acidity arises because the conjugate base (the enolate) is stabilized by resonance delocalization: the negative charge is shared between the \u03b1-carbon and the carbonyl oxygen through the \u03c0 system. This delocalization lowers the energy of the conjugate base, making proton removal thermodynamically more favorable. Enolate chemistry is fundamental to biological aldol condensations, Claisen condensations, and racemase reactions.",
+        "B": "The \u03b1-carbon does not change from sp\u00b2 to sp\u00b3 before deprotonation. In the starting material, the \u03b1-carbon is sp\u00b3 (bonded to four groups). After deprotonation, the resulting carbanion/enolate has sp\u00b2 character at the \u03b1-carbon due to resonance with the adjacent carbonyl. The hybridization change occurs during deprotonation, not before it.",
+        "C": "Removing the \u03b1-hydrogen produces a carbanion/enolate, not a carbocation. A carbocation would be an electron-deficient species missing an electron pair, which is the opposite of what happens during deprotonation. The conjugate base is electron-rich (it gained electron density when the proton departed without its bonding electrons).",
+        "D": "Hydrogen bonding between the \u03b1-hydrogen and the carbonyl oxygen would stabilize the starting material (making it harder to remove the proton), not increase the acidity. Acidity is enhanced by stabilization of the conjugate base, not by stabilization of the starting material. Intramolecular H-bonding to the \u03b1-H would resist deprotonation."
+      },
+      "topic": "Enolate Formation / \u03b1-Carbon Acidity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_react_010",
+      "passage": null,
+      "stem": "For nucleophilic acyl substitution under comparable conditions, which order generally ranks carboxylic acid derivatives from most reactive to least reactive?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Amide > ester > anhydride > acyl chloride"
+        },
+        {
+          "label": "B",
+          "text": "Ester > amide > acyl chloride > anhydride"
+        },
+        {
+          "label": "C",
+          "text": "Acyl chloride > anhydride > ester > amide"
+        },
+        {
+          "label": "D",
+          "text": "Anhydride > acyl chloride > amide > ester"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Amide > ester > anhydride > acyl chloride is the reverse of the correct order. Amides are the least reactive carboxylic acid derivatives toward nucleophilic acyl substitution because nitrogen's lone pair donation stabilizes the ground state, and the amine leaving group is very poor.",
+        "B": "Ester > acyl chloride > amide > anhydride mixes up the ordering. Acyl chlorides are the most reactive (Cl\u207b is an excellent leaving group, and there is minimal resonance stabilization), not esters.",
+        "C": "Correct. The reactivity order for nucleophilic acyl substitution is: acyl chloride > anhydride > ester > amide. This ranking reflects two reinforcing trends: (1) leaving group ability decreases across the series (Cl\u207b > carboxylate > alkoxide > amide), and (2) resonance stabilization of the ground state increases (nitrogen donates more electron density into the carbonyl than oxygen, which donates more than chlorine). Acyl chlorides are the most electrophilic because Cl provides minimal resonance donation and is an excellent leaving group; amides are the least reactive because the nitrogen lone pair extensively delocalizes into the carbonyl.",
+        "D": "Anhydride > acyl chloride > amide > ester incorrectly places anhydrides above acyl chlorides. While anhydrides are reactive, acyl chlorides are more reactive because chloride is a better leaving group than a carboxylate, and chlorine provides less resonance stabilization to the carbonyl than the carboxylate oxygen of an anhydride."
+      },
+      "topic": "Carboxylic Acid Derivatives / Reactivity Order",
+      "difficulty": "Medium"
+    }
+  ]
+}

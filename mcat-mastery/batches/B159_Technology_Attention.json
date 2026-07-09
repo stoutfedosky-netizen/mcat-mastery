@@ -1,0 +1,353 @@
+{
+  "batch": "B159",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Technology & Attention",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_attention2_001",
+      "passage": "The critic did not claim that attention had been pure before the smartphone. That would have been a sentimental fantasy, and the critic was not sentimental. Newspapers, street signs, gossip, and worry had always tugged at the mind. Medieval monks complained of distraction during prayer; eighteenth-century essayists lamented the scatteredness induced by coffee-house conversation. The human mind has never been a sealed vessel that technology cracked open. What seemed new was not distraction itself but the industrial refinement of distraction into an environment. Earlier distractions were incidental — they happened to be present, and they happened to appeal. The modern device, by contrast, does not merely interrupt a task; it has learned which interruptions are most likely to succeed and delivers them at moments when resistance is weakest.\n\nThis learning is not metaphorical. Notification systems are shaped by feedback loops that measure engagement — the tap, the scroll, the duration of a glance — and optimize the timing and content of future interruptions accordingly. The device in the pocket is not a neutral tool waiting to be picked up; it is an active participant in the competition for the user's attention, and it has been designed to win. The critic found this neither surprising nor scandalous. Commercial systems have always sought attention; what distinguished the current moment was the granularity of the pursuit and the intimacy of the device through which it operates.\n\nYet the critic resisted easy moralism. To condemn the device as a villain was to flatter the user as innocent, and innocence was not the right description. People also reach for distraction because silence can expose boredom, grief, or the uncertainty of not yet knowing what one thinks. The phone does not create these discomforts; it offers an escape from them, and the escape is genuinely relieving in the moment. A person who checks a notification during a difficult conversation may be avoiding the difficulty as much as being captured by the notification. Both forces operate simultaneously, and any honest account of distraction must acknowledge both.\n\nThe problem, then, was not simply that technology steals attention but that it offers a bargain: relief from interior difficulty in exchange for a thinner relation to time. The user gains comfort; the user loses the slow, sometimes painful process through which unstructured time becomes thought, reflection, or genuine encounter with another person. The critic did not claim the bargain was always bad. Sometimes relief is exactly what is needed. But the critic worried that the bargain had become so pervasive and so automatic that most users no longer experienced it as a choice — and a bargain accepted without awareness is not a bargain at all but a habit.",
+      "stem": "Which statement best captures the passage's central claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Modern technology creates an optimized environment for distraction, but users participate because distraction offers emotional relief."
+        },
+        {
+          "label": "B",
+          "text": "The novelty of smartphones lies mainly in continuing an old human tendency toward distraction without meaningfully changing its structure."
+        },
+        {
+          "label": "C",
+          "text": "The primary remedy for distraction is stricter individual discipline because design incentives play only a minor role."
+        },
+        {
+          "label": "D",
+          "text": "Corporate design captures attention so completely that users' own motives no longer matter."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage joins two claims: distraction is now systematically optimized, and users cooperate with it because it relieves boredom, grief, or uncertainty.",
+        "B": "The passage says distraction is historically old, but insists the modern device changes its structure by optimizing interruptions through feedback loops.",
+        "C": "The critic does not reduce the problem to individual discipline. The passage emphasizes both engineered design and user motivation.",
+        "D": "The passage rejects this one-sided view by saying people also reach for distraction to escape interior difficulty."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium",
+      "usePrevPassage": false
+    },
+    {
+      "id": "cars_attention2_002",
+      "passage": null,
+      "stem": "The phrase “industrial refinement of distraction into an environment” suggests that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "distraction has become a byproduct of industrial work schedules rather than a feature of everyday technologies"
+        },
+        {
+          "label": "B",
+          "text": "attention is now fragmented mostly by public spaces rather than by personal devices"
+        },
+        {
+          "label": "C",
+          "text": "distraction has become systematically designed, optimized, and pervasive rather than merely incidental"
+        },
+        {
+          "label": "D",
+          "text": "the author is treating attention as an environmental resource that cannot be shaped by human institutions"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The phrase uses industrial metaphorically to describe systematic refinement, not factory schedules specifically.",
+        "B": "The passage emphasizes intimate devices and optimized notifications, not public spaces as the main new force.",
+        "C": "Correct. The phrase contrasts incidental historical distractions with modern systems that learn when and how interruptions succeed.",
+        "D": "The argument is the opposite: attention is shaped by designed environments and institutional incentives."
+      },
+      "topic": "Phrase Meaning",
+      "difficulty": "Medium",
+      "passageRef": "cars_attention2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_attention2_003",
+      "passage": null,
+      "stem": "Why does the critic say condemning the device as a villain flatters the user as innocent?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Because technology has no design features."
+        },
+        {
+          "label": "B",
+          "text": "Because devices literally commit crimes."
+        },
+        {
+          "label": "C",
+          "text": "Because users never experience grief or boredom."
+        },
+        {
+          "label": "D",
+          "text": "Because it ignores the user's own desire for relief from silence or discomfort."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The first paragraph emphasizes design features that learn successful interruptions. The critic's point is not that design is irrelevant, but that design interacts with user motives.",
+        "B": "The villain language is metaphorical. The author is analyzing responsibility and temptation, not accusing phones of literal criminal agency.",
+        "C": "The passage specifically names grief and boredom as reasons people may seek distraction. This answer reverses the psychological explanation.",
+        "D": "Correct. Treating the device as the sole villain makes the user passive and blameless. The critic complicates that story by arguing that people sometimes welcome distraction because it shields them from boredom, grief, or unfinished thought."
+      },
+      "topic": "Author's Reasoning",
+      "difficulty": "Medium",
+      "passageRef": "cars_attention2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_attention2_004",
+      "passage": null,
+      "stem": "Which evidence would most strengthen the critic's argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Some people read printed books."
+        },
+        {
+          "label": "B",
+          "text": "Apps send more notifications at moments when users historically respond fastest, and users report using them to avoid uncomfortable feelings."
+        },
+        {
+          "label": "C",
+          "text": "Street signs existed before smartphones."
+        },
+        {
+          "label": "D",
+          "text": "A phone can be used as a calculator."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Printed books do not address optimized distraction or emotional relief. The fact that some people read is compatible with the critic's concern.",
+        "B": "Correct. This evidence supports both halves of the argument: technological optimization of interruption and user participation through emotional avoidance. It would make the central “bargain” more empirically plausible.",
+        "C": "The author already concedes earlier distractions existed. Repeating that fact does not strengthen the distinctive claim about modern refinement.",
+        "D": "Calculator use shows phones can be useful, but the passage does not deny utility. The issue is attention capture, not whether devices have legitimate functions."
+      },
+      "topic": "Strengthen",
+      "difficulty": "Hard",
+      "passageRef": "cars_attention2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_attention2_005",
+      "passage": null,
+      "stem": "The author's tone is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "analytical and morally cautious"
+        },
+        {
+          "label": "B",
+          "text": "nostalgic and uncritical"
+        },
+        {
+          "label": "C",
+          "text": "purely celebratory"
+        },
+        {
+          "label": "D",
+          "text": "indifferent and detached from judgment"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The critic analyzes both technological design and user motivation while resisting easy moralism. The tone is evaluative but careful, assigning responsibility without reducing the issue to villain and victim.",
+        "B": "The author explicitly says attention was not pure before smartphones, which undercuts nostalgia. The passage is critical but not a simple longing for the past.",
+        "C": "The passage is not celebratory; it describes a thinner relation to time and optimized interruption. It recognizes complexity, not technological triumph.",
+        "D": "The author clearly makes judgments about distraction and attention. “Morally cautious” fits better than indifference because the passage evaluates without oversimplifying."
+      },
+      "topic": "Tone",
+      "difficulty": "Medium",
+      "passageRef": "cars_attention2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_attention2_006",
+      "passage": "A second essay considers the practice of digital minimalism, a movement whose advocates describe attention as a budget: spend it only on what matters and refuse the rest. The essayist found the metaphor useful but incomplete, and the incompleteness mattered more than the usefulness. A budget assumes that the spender already knows what is valuable. The household that drafts a monthly budget has already decided what counts as a necessity and what counts as a luxury. Attention, by contrast, sometimes discovers value by lingering in places where usefulness is not yet clear.\n\nA child watching ants trace a path across a sidewalk is not spending attention efficiently. A scientist following an odd result that contradicts the hypothesis is not optimizing a cognitive portfolio. A friend allowing a conversation to wander past its ostensible subject into unexpected territory is not allocating relational resources according to a predetermined plan. Yet each of these activities may become meaningful precisely because the person did not decide in advance that it would be. The ant trail may seed a lifelong fascination with pattern. The odd result may open a new line of research. The wandering conversation may surface a truth that a structured exchange would have missed. In each case, value arrived late, and the budget metaphor would have counseled cutting the expenditure before value had a chance to appear.\n\nThe essayist therefore argued for rituals of availability rather than mere austerity. Austerity says: remove the distraction. Availability says: create conditions in which something unexpected might claim your attention and reward it. Turning off notifications can help, but only if it creates time hospitable to discovery rather than another productivity contest in which the measure of success is the number of tasks completed per uninterrupted hour. The essayist had observed that some practitioners of digital minimalism replaced the anxiety of constant connection with the anxiety of constant optimization, trading one form of restlessness for another without ever arriving at the unhurried attention both movements claimed to value.\n\nThe goal, the essayist concluded, is not to own fewer devices as a badge of purity, nor to track one's attention with the same granularity the algorithms use. The goal is to recover forms of time in which significance is allowed to arrive late — in which a person can sit with a book, a view, a companion, or even a stretch of apparent boredom without reaching for a device and without congratulating herself for not reaching. The first impulse is capture; the second is performance. Neither is attention. Attention, in the essayist's account, begins only when the need to justify the moment has been allowed to lapse.",
+      "stem": "How does the essayist qualify the attention-as-budget metaphor?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It applies only to children watching ants."
+        },
+        {
+          "label": "B",
+          "text": "It is entirely meaningless in every context."
+        },
+        {
+          "label": "C",
+          "text": "It proves all spending is immoral."
+        },
+        {
+          "label": "D",
+          "text": "It is useful but misses attention's role in discovering unexpected value."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The child watching ants is one example among several. The point extends to science and friendship, showing that unexpected value can appear across contexts.",
+        "B": "The phrase “useful but incomplete” rules out total rejection. The essayist modifies the metaphor rather than discarding it wholesale.",
+        "C": "The passage is about attention, not a moral condemnation of economic spending. “Budget” is a metaphor with limits, not proof that spending is immoral.",
+        "D": "Correct. The essayist accepts that budgeting attention can help prioritize, but argues the metaphor assumes value is already known. The passage emphasizes lingering, wandering, and discovery as forms of attention that may become valuable only later."
+      },
+      "topic": "Qualified Claim",
+      "difficulty": "Medium",
+      "usePrevPassage": false
+    },
+    {
+      "id": "cars_attention2_007",
+      "passage": null,
+      "stem": "What is the function of the examples of the child, scientist, and friend?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They show conversation is useless."
+        },
+        {
+          "label": "B",
+          "text": "They prove children are better scientists than adults."
+        },
+        {
+          "label": "C",
+          "text": "They illustrate activities whose value may emerge through unhurried attention."
+        },
+        {
+          "label": "D",
+          "text": "They argue that efficiency always destroys meaning."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The friend example suggests wandering conversation can become meaningful. It does not dismiss conversation as useless.",
+        "B": "The child and scientist examples are parallel, not hierarchical. The passage is not ranking people by intelligence; it is illustrating a shared pattern of delayed significance.",
+        "C": "Correct. Each example begins in apparent inefficiency but may become meaningful through lingering. Together they support the essayist's claim that attention sometimes discovers value rather than merely allocating itself to known priorities.",
+        "D": "The essayist criticizes reducing all attention to productivity, but does not claim efficiency always destroys meaning. The argument is against making efficiency the only standard."
+      },
+      "topic": "Function of Examples",
+      "difficulty": "Medium",
+      "passageRef": "cars_attention2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_attention2_008",
+      "passage": null,
+      "stem": "Which practice best fits “rituals of availability” as used in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Deleting every device to prove moral superiority"
+        },
+        {
+          "label": "B",
+          "text": "Turning off notifications to create unstructured time for thought or conversation"
+        },
+        {
+          "label": "C",
+          "text": "Scheduling every minute with measurable outputs"
+        },
+        {
+          "label": "D",
+          "text": "Checking messages faster to clear the inbox"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage rejects device ownership as a badge of purity. Deleting devices for moral display would repeat the austerity contest the essayist wants to avoid.",
+        "B": "Correct. The phrase refers to practices that make time open to discovery. Turning off notifications can serve that goal if it creates hospitable, unstructured attention rather than simply another productivity challenge.",
+        "C": "Measurable-output scheduling turns attention back into productivity management. The essayist's point is that significance may arrive late and cannot always be planned as an output.",
+        "D": "Faster message checking may improve inbox efficiency, but it remains within the logic of responsiveness and task clearing. It does not create availability for delayed meaning."
+      },
+      "topic": "Application",
+      "difficulty": "Hard",
+      "passageRef": "cars_attention2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_attention2_009",
+      "passage": null,
+      "stem": "The essayist would most likely disagree with which statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Attention should be managed only by maximizing immediate usefulness."
+        },
+        {
+          "label": "B",
+          "text": "Turning off notifications can be helpful."
+        },
+        {
+          "label": "C",
+          "text": "Some valuable experiences begin without obvious purpose."
+        },
+        {
+          "label": "D",
+          "text": "Minimalism can become performative."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The essay argues that attention sometimes discovers value before usefulness is clear. A strict rule of immediate usefulness would exclude the ant-watching, odd-result, and wandering-conversation examples.",
+        "B": "The essayist explicitly says turning off notifications can help. The qualification is that it should create availability, not become another productivity contest.",
+        "C": "This statement restates the passage's central idea. The examples are valuable precisely because their meaning may emerge late.",
+        "D": "The warning against owning fewer devices as a badge of purity suggests minimalism can become performative. The essayist would likely agree, not disagree."
+      },
+      "topic": "Author's Likely View",
+      "difficulty": "Medium",
+      "passageRef": "cars_attention2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cars_attention2_010",
+      "passage": null,
+      "stem": "Taken together, the two passages most strongly suggest that attention is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "valuable only when economically productive."
+        },
+        {
+          "label": "B",
+          "text": "a fixed biological quantity unaffected by culture."
+        },
+        {
+          "label": "C",
+          "text": "both vulnerable to engineered capture and capable of deliberate cultivation."
+        },
+        {
+          "label": "D",
+          "text": "irrelevant to technology use."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The second passage directly challenges productivity as the only measure of value. Attention can matter in discovery, friendship, and thought before economic usefulness appears.",
+        "B": "Both passages treat attention as culturally and technologically shaped. A fixed biological quantity would not fit the discussion of devices, rituals, and environments.",
+        "C": "Correct. The first passage emphasizes engineered distraction and user vulnerability; the second emphasizes practices that cultivate availability and delayed meaning. Together, they present attention as shaped by technology and habit, but not helpless.",
+        "D": "Technology is central to both passages: smartphones, notifications, and device minimalism structure the discussion. The issue is how technology interacts with attention, not whether it is irrelevant."
+      },
+      "topic": "Synthesis",
+      "difficulty": "Hard",
+      "passageRef": "cars_attention2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

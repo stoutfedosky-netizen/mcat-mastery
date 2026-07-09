@@ -1,0 +1,337 @@
+{
+  "batch": "B034",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Sound & Mechanical Waves",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "C": 3,
+    "B": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_sound_001",
+      "passage": "A clinician uses a 5.0 MHz ultrasound transducer to image tissue in which sound travels at approximately 1540 m/s. Returning echoes arise where acoustic impedance changes between tissues. The machine determines depth from echo travel time and displays echo amplitude as brightness. During a vascular study, reflected frequency also changes when blood cells move relative to the transducer.",
+      "stem": "What is the approximate wavelength of the ultrasound in tissue?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.31 mm"
+        },
+        {
+          "label": "B",
+          "text": "3.1 mm"
+        },
+        {
+          "label": "C",
+          "text": "31 mm"
+        },
+        {
+          "label": "D",
+          "text": "3.1 m"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Wavelength = speed/frequency: \u03bb = v/f = 1540 m/s \u00f7 (5.0 \u00d7 10\u2076 Hz) = 3.08 \u00d7 10\u207b\u2074 m = 0.31 mm. This sub-millimeter wavelength is what allows diagnostic ultrasound to resolve structures as small as a few millimeters. Higher-frequency transducers (e.g., 10 MHz) produce even shorter wavelengths for finer resolution, at the cost of reduced penetration depth.",
+        "B": "3.1 mm is off by a factor of 10 \u2014 this would correspond to a 500 kHz (0.5 MHz) frequency, not 5.0 MHz. The megahertz-to-hertz conversion (\u00d710\u2076) must be applied correctly before dividing.",
+        "C": "31 mm is off by a factor of 100, corresponding to a 50 kHz frequency. At this wavelength, the ultrasound could not resolve typical anatomical structures, which is why diagnostic ultrasound uses MHz-range frequencies.",
+        "D": "3.1 m would correspond to a frequency of about 500 Hz \u2014 well within the audible range, not ultrasound. This error likely results from failing to convert MHz to Hz (forgetting the 10\u2076 factor) when calculating \u03bb = v/f."
+      },
+      "topic": "Wave Speed / Ultrasound Wavelength",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sound_002",
+      "passage": null,
+      "stem": "If reflected intensity increases by a factor of 100, the sound level increases by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 dB"
+        },
+        {
+          "label": "B",
+          "text": "10 dB"
+        },
+        {
+          "label": "C",
+          "text": "20 dB"
+        },
+        {
+          "label": "D",
+          "text": "100 dB"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "A 2 dB increase corresponds to an intensity ratio of approximately 10^(2/10) = 10^0.2 \u2248 1.58 \u2014 roughly a 58% increase, not a 100-fold increase. The decibel scale is logarithmic, so small dB changes correspond to modest intensity ratios.",
+        "B": "10 dB corresponds to a 10-fold intensity increase (10 log 10 = 10). The question states a 100-fold increase, which requires 10 log(100) = 20 dB. Each additional 10 dB represents another factor-of-10 increase in intensity.",
+        "C": "Correct. Sound level in decibels is defined as \u03b2 = 10 log\u2081\u2080(I/I\u2080). A 100-fold increase in intensity gives \u0394\u03b2 = 10 log\u2081\u2080(100) = 10 \u00d7 2 = 20 dB. Key MCAT relationships: 10\u00d7 intensity = +10 dB; 100\u00d7 = +20 dB; 1000\u00d7 = +30 dB. Each doubling of intensity adds approximately 3 dB.",
+        "D": "The decibel scale compresses large intensity ranges into manageable numbers using a logarithmic transformation. A 100 dB increase would correspond to an intensity ratio of 10^(100/10) = 10^10 = 10 billion \u2014 an astronomically large ratio, far beyond what the question describes."
+      },
+      "topic": "Sound Intensity / Decibels",
+      "difficulty": "Medium",
+      "passageRef": "cp_sound_001"
+    },
+    {
+      "id": "cp_sound_003",
+      "passage": null,
+      "stem": "The strongest echo is expected at a boundary where the two tissues have:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "equal frequencies"
+        },
+        {
+          "label": "B",
+          "text": "the same wave speed"
+        },
+        {
+          "label": "C",
+          "text": "the same density"
+        },
+        {
+          "label": "D",
+          "text": "the greatest acoustic-impedance mismatch"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The frequency of the ultrasound wave is determined by the transducer and does not change at tissue boundaries (assuming the source is stationary relative to the interface). Reflection intensity depends on the acoustic impedance mismatch between tissues, not on frequency matching.",
+        "B": "Equal wave speeds in two tissues would also tend to reduce the impedance mismatch (since Z = \u03c1v and similar speeds contribute to similar impedances). Reduced mismatch means less reflection, not more. Maximum reflection requires the greatest possible impedance difference.",
+        "C": "Equal density between tissues tends to produce similar acoustic impedances (since Z = \u03c1v), which would minimize rather than maximize reflection. When impedances match, most sound energy is transmitted across the boundary with little reflection.",
+        "D": "Correct. Acoustic impedance (Z = \u03c1v, where \u03c1 is density and v is sound speed) determines how much sound is reflected at a tissue boundary. The reflection coefficient increases with the impedance mismatch between the two tissues. A soft tissue\u2013bone interface (large impedance difference) produces a strong echo, while a boundary between tissues of similar impedance (e.g., liver and kidney) produces a weaker echo. This is the physical basis for ultrasound image contrast."
+      },
+      "topic": "Acoustic Impedance / Reflection",
+      "difficulty": "Medium",
+      "passageRef": "cp_sound_001"
+    },
+    {
+      "id": "cp_sound_004",
+      "passage": null,
+      "stem": "A sound source moves toward a stationary observer. Compared with the emitted frequency, the observed frequency is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "lower because wavelength increases"
+        },
+        {
+          "label": "B",
+          "text": "higher because wavefronts are compressed"
+        },
+        {
+          "label": "C",
+          "text": "zero at constant source speed"
+        },
+        {
+          "label": "D",
+          "text": "unchanged because wave speed is constant"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "When a source approaches an observer, the wavefronts are compressed (shorter wavelength), producing a higher perceived frequency \u2014 not lower. A lower frequency (longer wavelength) occurs when the source moves away from the observer, stretching the wavefronts.",
+        "B": "Correct. When a sound source moves toward a stationary observer, each successive wavefront is emitted from a position closer to the observer than the last. This compresses the wavefront spacing (shorter effective wavelength). Since wave speed is fixed by the medium (v = f\u03bb), a shorter wavelength corresponds to a higher observed frequency. This is the Doppler effect, which is used in medical ultrasound to measure blood flow velocity \u2014 the frequency shift of echoes from moving blood cells reveals their speed and direction.",
+        "C": "Constant source velocity produces a constant (not zero) Doppler shift. The shift would be zero only if the source were stationary relative to the observer. Any relative motion along the line between source and observer produces a frequency shift.",
+        "D": "While the wave speed in the medium is constant (determined by the medium's properties, not the source's motion), the Doppler effect does change the observed frequency and wavelength. Constant wave speed is actually what makes the Doppler effect work: since v = f\u03bb is fixed in the medium, compressed wavelengths necessarily produce higher frequencies."
+      },
+      "topic": "Doppler Effect / Moving Source",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_sound_005",
+      "passage": null,
+      "stem": "An air column open at both ends has length L. Its fundamental frequency is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "v/(2L)"
+        },
+        {
+          "label": "B",
+          "text": "v/(4L)"
+        },
+        {
+          "label": "C",
+          "text": "2v/L"
+        },
+        {
+          "label": "D",
+          "text": "4v/L"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A pipe open at both ends has pressure nodes (displacement antinodes) at each end. The fundamental mode fits exactly one half-wavelength in the tube: \u03bb\u2081 = 2L. Since f = v/\u03bb, the fundamental frequency is f\u2081 = v/(2L). Overtones for an open pipe include all integer harmonics: f\u2082 = v/L, f\u2083 = 3v/(2L), etc. This is relevant to musical instruments like flutes and organ pipes.",
+        "B": "v/(4L) is the fundamental frequency for a pipe closed at one end, where only odd harmonics are present (f\u2081 = v/4L, f\u2083 = 3v/4L, f\u2085 = 5v/4L). A closed pipe fits one quarter-wavelength in the fundamental mode. The question specifies open at both ends.",
+        "C": "2v/L would be the second harmonic (first overtone) of an open pipe, not the fundamental. The fundamental always has the longest wavelength and lowest frequency for a given tube length.",
+        "D": "4v/L is too large by a factor of 8 relative to the fundamental. No standard pipe resonance formula yields this result for the fundamental mode."
+      },
+      "topic": "Standing Waves / Open Pipes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sound_006",
+      "passage": null,
+      "stem": "A point source produces intensity I at distance r. Neglecting absorption, its intensity at 3r is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3I"
+        },
+        {
+          "label": "B",
+          "text": "I/3"
+        },
+        {
+          "label": "C",
+          "text": "I/9"
+        },
+        {
+          "label": "D",
+          "text": "I/27"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Intensity from a point source decreases with distance, not increases. The energy spreads over a larger spherical surface (area = 4\u03c0r\u00b2) as distance increases, reducing the energy per unit area.",
+        "B": "I/3 assumes a linear (1/r) dependence, which does not apply to point sources radiating into three-dimensional space. The inverse-square law (I \u221d 1/r\u00b2) arises because the surface area of a sphere grows as r\u00b2, so the same total power is distributed over a quadratically larger area.",
+        "C": "Correct. By the inverse-square law, intensity is inversely proportional to the square of the distance: I \u221d 1/r\u00b2. Tripling the distance from r to 3r reduces intensity by (1/3)\u00b2 = 1/9. So the intensity at 3r is I/9. This relationship applies to any point source radiating uniformly in all directions \u2014 sound, light, or any other form of radiation \u2014 in the absence of absorption or reflection.",
+        "D": "I/27 would require an inverse-cube relationship (I \u221d 1/r\u00b3), which does not describe the geometric spreading of energy from a point source in three dimensions. The inverse-square law is a direct consequence of energy conservation and spherical geometry."
+      },
+      "topic": "Inverse-Square Law / Sound Intensity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_sound_007",
+      "passage": null,
+      "stem": "Resonance occurs when a periodic driving force has a frequency close to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the system's natural frequency"
+        },
+        {
+          "label": "B",
+          "text": "zero"
+        },
+        {
+          "label": "C",
+          "text": "the wave amplitude"
+        },
+        {
+          "label": "D",
+          "text": "the speed of the medium"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Resonance occurs when an external periodic driving force has a frequency close to one of the system's natural frequencies (eigenfrequencies). At resonance, energy transfer from the driving force to the oscillating system is maximized, producing large-amplitude oscillations. Examples include pushing a child on a swing at the swing's natural frequency, shattering a glass with a tone matching its resonant frequency, and the tuning of radio receivers to specific broadcast frequencies.",
+        "B": "A zero-frequency force is a constant (static) force, which can displace a system but does not produce oscillation. Resonance requires a periodic driving force that repeatedly pushes the system at its preferred oscillation rate.",
+        "C": "Wave amplitude is a measure of displacement or pressure variation, not a frequency. Comparing a frequency to an amplitude is not meaningful \u2014 resonance requires matching the driving frequency to the natural frequency of the system.",
+        "D": "Wave speed determines how fast disturbances propagate through a medium, but resonance depends on the match between driving frequency and the system's natural frequency. While wave speed affects what the natural frequencies are (e.g., f = v/2L for an open pipe), it is not itself the quantity that must be matched for resonance."
+      },
+      "topic": "Resonance / Natural Frequency",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_sound_008",
+      "passage": null,
+      "stem": "Sound cannot propagate through a vacuum because sound waves require:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "electrically charged particles in continuous motion"
+        },
+        {
+          "label": "B",
+          "text": "a material medium that can undergo mechanical oscillation"
+        },
+        {
+          "label": "C",
+          "text": "a gravitational field between source and observer"
+        },
+        {
+          "label": "D",
+          "text": "visible photons carrying pressure oscillations"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Sound can propagate through electrically neutral materials such as air (mostly N\u2082 and O\u2082, both neutral molecules) and pure water. Sound does not require charged particles \u2014 it requires molecules or atoms that can transmit compressions and rarefactions through mechanical contact.",
+        "B": "Correct. Sound is a longitudinal mechanical wave \u2014 a propagating pattern of compressions and rarefactions in a material medium. Each layer of molecules pushes on the next through intermolecular forces, transmitting the pressure disturbance. In a vacuum, there are no molecules to compress or rarefy, so mechanical waves cannot propagate. This is why there is no sound in outer space, and why electromagnetic waves (which do not require a medium) are fundamentally different from sound.",
+        "C": "Gravity is not the mechanism by which sound propagates. While gravity affects the density and pressure of the atmosphere (which indirectly affects sound speed), the propagation of sound depends on elastic restoring forces between molecules, not on gravitational attraction.",
+        "D": "Photons are quanta of electromagnetic radiation, which can travel through a vacuum (light from distant stars reaches Earth through space). Sound is fundamentally different: it is a mechanical wave, not electromagnetic, and cannot be carried by photons."
+      },
+      "topic": "Mechanical Waves / Propagation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_sound_009",
+      "passage": null,
+      "stem": "Two tones of 440 Hz and 446 Hz sound together. The beat frequency is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "196,240 Hz"
+        },
+        {
+          "label": "B",
+          "text": "443 Hz"
+        },
+        {
+          "label": "C",
+          "text": "886 Hz"
+        },
+        {
+          "label": "D",
+          "text": "6 Hz"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "196,240 Hz is the product of the two frequencies (440 \u00d7 446). The product has no role in beat phenomena. Beats are a simple subtraction: f_beat = |f\u2081 \u2212 f\u2082|.",
+        "B": "443 Hz is the average of the two frequencies (440 + 446)/2 = 443. This average determines the pitch perceived between the beats, but it is not the beat frequency. The beat frequency is the difference, not the average.",
+        "C": "886 Hz is the sum of the two frequencies. The sum frequency has no physical significance in the context of beats. Beats arise from the difference frequency, which produces the periodic amplitude modulation.",
+        "D": "Correct. When two tones of slightly different frequencies are sounded together, they alternately reinforce and cancel each other, producing periodic loudness variations called beats. The beat frequency equals the absolute difference between the two frequencies: |446 \u2212 440| = 6 Hz. This means the listener perceives 6 cycles of loudness variation per second. Beats are used practically for tuning musical instruments \u2014 when two strings are brought into tune, the beat frequency approaches zero."
+      },
+      "topic": "Beats / Interference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_sound_010",
+      "passage": null,
+      "stem": "Higher-frequency ultrasound generally improves spatial resolution because it has:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "greater speed in the same tissue"
+        },
+        {
+          "label": "B",
+          "text": "greater penetration at all depths"
+        },
+        {
+          "label": "C",
+          "text": "a shorter wavelength"
+        },
+        {
+          "label": "D",
+          "text": "a lower photon energy"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Sound speed in tissue is determined primarily by the tissue's density and elastic properties, not by the frequency of the ultrasound wave. All frequencies travel at approximately the same speed in a given tissue (~1540 m/s in soft tissue). Higher frequency does not mean higher speed.",
+        "B": "Higher-frequency ultrasound actually penetrates less, not more. Attenuation in tissue increases approximately linearly with frequency \u2014 a 10 MHz transducer is attenuated about twice as much per centimeter as a 5 MHz transducer. Clinical practice trades resolution for penetration: higher frequencies for shallow structures (thyroid, vessels) and lower frequencies for deep structures (abdomen, pelvis).",
+        "C": "Correct. Spatial resolution is fundamentally limited by wavelength \u2014 structures smaller than approximately one wavelength cannot be resolved. Since \u03bb = v/f and v is approximately constant in tissue, higher frequency produces shorter wavelength and finer resolution. A 10 MHz transducer in soft tissue has \u03bb \u2248 0.15 mm, compared to 0.31 mm at 5 MHz. However, higher frequencies are attenuated more strongly, reducing penetration depth \u2014 creating a resolution-penetration tradeoff in clinical imaging.",
+        "D": "Ultrasound is a mechanical wave, not electromagnetic radiation. It does not consist of photons and does not have photon energy. Photon energy (E = hf) applies to electromagnetic radiation (X-rays, visible light, etc.), not to sound waves."
+      },
+      "topic": "Ultrasound Resolution / Frequency",
+      "difficulty": "Medium"
+    }
+  ]
+}

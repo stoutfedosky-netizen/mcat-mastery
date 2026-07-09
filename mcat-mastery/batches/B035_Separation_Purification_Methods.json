@@ -1,0 +1,337 @@
+{
+  "batch": "B035",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Separation & Purification Methods",
+  "questionCount": 10,
+  "answerDistribution": {
+    "B": 3,
+    "D": 3,
+    "A": 2,
+    "C": 2
+  },
+  "questions": [
+    {
+      "id": "cp_sep_001",
+      "passage": "A student must separate benzoic acid from a neutral aromatic compound. Both dissolve in an organic solvent immiscible with water. The student shakes the organic solution with aqueous sodium bicarbonate, vents the separatory funnel, and allows the layers to separate. The aqueous layer is collected and later acidified below the pKa of benzoic acid, producing a crystalline solid.",
+      "stem": "Why does bicarbonate transfer benzoic acid into the aqueous layer?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It oxidizes the aromatic ring"
+        },
+        {
+          "label": "B",
+          "text": "It raises the organic solvent density"
+        },
+        {
+          "label": "C",
+          "text": "It polymerizes the neutral compound"
+        },
+        {
+          "label": "D",
+          "text": "It forms water-soluble benzoate"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Bicarbonate (NaHCO\u2083) is a weak base, not an oxidizing agent. The extraction works through acid-base chemistry \u2014 bicarbonate deprotonates the carboxylic acid to form a water-soluble carboxylate salt. No oxidation (electron transfer) occurs. The aromatic ring is chemically inert under these mild conditions.",
+        "B": "The solvent density is not meaningfully changed by adding aqueous bicarbonate. The key change is in the solute: converting neutral benzoic acid to charged benzoate transfers it from the organic to the aqueous phase based on polarity/charge, not density.",
+        "C": "Polymerization is a completely different reaction class involving the covalent linking of monomers into macromolecules. Bicarbonate does not polymerize aromatic compounds; it simply deprotonates acids.",
+        "D": "Correct. Sodium bicarbonate (NaHCO\u2083) deprotonates benzoic acid (pKa \u2248 4.2), converting it to sodium benzoate \u2014 an ionic, water-soluble salt. The charged benzoate partitions into the aqueous layer, while the neutral aromatic compound remains in the organic layer. This selective deprotonation exploits the pKa difference: benzoic acid is acidic enough to be deprotonated by bicarbonate, while the neutral compound is not."
+      },
+      "topic": "Acid-Base Extraction / Benzoate",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sep_002",
+      "passage": null,
+      "stem": "Why does acidifying the aqueous layer produce solid benzoic acid?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It converts benzoate to a more ionic species"
+        },
+        {
+          "label": "B",
+          "text": "It cleaves the aromatic ring"
+        },
+        {
+          "label": "C",
+          "text": "It vaporizes the water immediately"
+        },
+        {
+          "label": "D",
+          "text": "It protonates benzoate to a less water-soluble neutral acid"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Protonation converts the ionic benzoate (COO\u207b) back to the neutral carboxylic acid (COOH), which decreases ionic character \u2014 not increases it. The loss of charge reduces water solubility.",
+        "B": "Strong mineral acids like HCl do not cleave aromatic rings. The aromatic ring is chemically inert under these mild acidification conditions. The only reaction is protonation of the carboxylate.",
+        "C": "Acidification does not remove water from the solution. Benzoic acid precipitates because its neutral form has limited water solubility, not because the solvent is removed.",
+        "D": "Correct. Adding acid (e.g., HCl) below the pKa of benzoic acid (4.2) shifts the equilibrium toward the protonated, neutral form (RCOOH). Neutral benzoic acid is poorly soluble in water (~3.4 g/L at 25\u00b0C), so it precipitates as a crystalline solid that can be collected by filtration. This is the recovery step in acid-base extraction \u2014 deprotonate to extract, re-protonate to recover."
+      },
+      "topic": "Acid-Base Extraction / Recovery",
+      "difficulty": "Medium",
+      "passageRef": "cp_sep_001"
+    },
+    {
+      "id": "cp_sep_003",
+      "passage": null,
+      "stem": "If the organic solvent is denser than water, which layer should be collected as the original organic phase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The bottom layer"
+        },
+        {
+          "label": "B",
+          "text": "The top layer"
+        },
+        {
+          "label": "C",
+          "text": "Both layers equally"
+        },
+        {
+          "label": "D",
+          "text": "The emulsion at the interface"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In a separatory funnel, immiscible liquids separate by density: the denser liquid sinks to the bottom, the less dense floats on top. If the organic solvent (e.g., dichloromethane, \u03c1 \u2248 1.33 g/mL) is denser than water (\u03c1 = 1.00 g/mL), the organic phase is the bottom layer. This is the opposite of the more common case where lighter organic solvents (diethyl ether, ethyl acetate) float on top.",
+        "B": "The top layer would be the aqueous phase if the organic solvent is denser. Collecting the top layer would give you the aqueous extract, not the organic phase.",
+        "C": "Immiscible liquids do not mix \u2014 they form distinct layers separated by a sharp interface. Collecting 'both layers equally' would defeat the purpose of extraction, which relies on physical separation of the two phases.",
+        "D": "An emulsion at the interface is a mixture of both phases and does not represent a purified fraction. Emulsions are undesirable in extractions and are typically broken by gentle swirling, adding salt, or allowing extended settling time."
+      },
+      "topic": "Liquid-Liquid Extraction / Layer Density",
+      "difficulty": "Easy",
+      "passageRef": "cp_sep_001"
+    },
+    {
+      "id": "cp_sep_004",
+      "passage": null,
+      "stem": "Simple distillation best separates a volatile liquid from:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "another liquid with nearly identical boiling point"
+        },
+        {
+          "label": "B",
+          "text": "an enantiomer with identical physical properties"
+        },
+        {
+          "label": "C",
+          "text": "a gas with lower molar mass"
+        },
+        {
+          "label": "D",
+          "text": "a nonvolatile dissolved solid"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Liquids with nearly identical boiling points cannot be separated by simple distillation because the vapor above the liquid has nearly the same composition as the liquid. Fractional distillation, which provides multiple theoretical plates of separation, is required for close-boiling mixtures.",
+        "B": "Enantiomers have identical physical properties (boiling point, melting point, solubility) in achiral environments and cannot be separated by any form of distillation. Chiral resolution requires chiral reagents, chromatography with chiral stationary phases, or enzymatic methods.",
+        "C": "Separating a dissolved gas from a liquid is typically done by degassing (heating, vacuum, or sparging), not by standard distillation. Simple distillation is designed for liquid-solid or liquid-liquid separations with large boiling point differences.",
+        "D": "Separating a gas from a liquid is typically done by degassing (heating, vacuum, or sparging with an inert gas), not by standard distillation. Simple distillation is designed for separating liquids from dissolved nonvolatile solids based on boiling-point differences. A dissolved gas would escape during any heating step, making distillation unnecessary for this purpose."
+      },
+      "topic": "Simple Distillation / Volatility",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_sep_005",
+      "passage": null,
+      "stem": "Fractional distillation is preferred over simple distillation when liquid components have:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "different colors"
+        },
+        {
+          "label": "B",
+          "text": "relatively close boiling points"
+        },
+        {
+          "label": "C",
+          "text": "different charges"
+        },
+        {
+          "label": "D",
+          "text": "different affinities for an antibody"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Color differences are exploited by chromatographic techniques or visible inspection, not by distillation. Distillation separates compounds based on vapor pressure (boiling point), which is independent of color.",
+        "B": "Correct. Fractional distillation uses a fractionating column packed with material (glass beads, metal rings) that provides multiple vaporization-condensation cycles. Each cycle enriches the vapor in the more volatile component. This is essential when two liquids have boiling points within ~25\u00b0C of each other, where simple distillation would produce an impure distillate. The theoretical plates of the column effectively perform many sequential simple distillations.",
+        "C": "Charge-based separations are performed by ion-exchange chromatography or electrophoresis, not distillation. Distillation exploits volatility differences, not charge.",
+        "D": "Antibody affinity is the basis of affinity chromatography and immunoprecipitation \u2014 highly specific protein purification techniques unrelated to distillation."
+      },
+      "topic": "Fractional Distillation / Boiling Points",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sep_006",
+      "passage": null,
+      "stem": "On normal-phase silica TLC, the compound that travels farthest is generally the one that is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "most positively charged"
+        },
+        {
+          "label": "B",
+          "text": "largest"
+        },
+        {
+          "label": "C",
+          "text": "least polar"
+        },
+        {
+          "label": "D",
+          "text": "most polar"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "In normal-phase TLC, a positively charged species would interact strongly with the polar silica stationary phase (which has surface silanol groups, Si-OH), causing it to travel less far \u2014 not farther. Charge-based separation is better performed by ion-exchange chromatography.",
+        "B": "Molecular size is not the primary determinant of Rf in standard TLC. Size-based separation is the domain of size-exclusion chromatography (gel filtration) and gel electrophoresis.",
+        "C": "Correct. On normal-phase silica TLC, the stationary phase is polar (SiO\u2082 with surface Si-OH groups). The mobile phase is typically a less polar organic solvent. Less-polar compounds have weaker affinity for the polar stationary phase and partition more into the mobile phase, traveling farther up the plate (higher Rf). More-polar compounds stick to the silica and travel less. In reverse-phase chromatography (C18 stationary phase), the trend is inverted: nonpolar compounds are retained longer.",
+        "D": "Polar compounds interact strongly with the polar silica stationary phase through hydrogen bonding and dipole interactions, spending more time adsorbed on the plate and traveling less far (lower Rf). This is the opposite of what the question asks."
+      },
+      "topic": "Thin-Layer Chromatography / Polarity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sep_007",
+      "passage": null,
+      "stem": "In size-exclusion chromatography, which molecules usually elute first?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Large molecules excluded from the pores"
+        },
+        {
+          "label": "B",
+          "text": "Small molecules entering every pore"
+        },
+        {
+          "label": "C",
+          "text": "Most negatively charged molecules"
+        },
+        {
+          "label": "D",
+          "text": "Molecules with the highest boiling points"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In size-exclusion (gel filtration) chromatography, the stationary phase consists of porous beads with a defined pore-size range. Large molecules that are too big to enter the pores are excluded and pass through the column in the void volume \u2014 the shortest possible path. They elute first. Smaller molecules enter the pores and are delayed as they diffuse in and out, eluting later. The elution order is large \u2192 small, opposite to most other chromatography types.",
+        "B": "Small molecules enter the pores of the gel beads and must diffuse through the internal volume before emerging, which delays them. They elute last, not first. The accessible internal volume is greater for smaller molecules, proportionally increasing their retention time.",
+        "C": "Size-exclusion chromatography separates strictly by molecular size (hydrodynamic radius), not by charge. Charge-based separations are performed by ion-exchange chromatography, where molecules bind to oppositely charged resins and are eluted by salt gradients.",
+        "D": "Boiling point is a property exploited by distillation, not chromatography. Size-exclusion chromatography operates in solution at ambient temperature and does not involve phase changes."
+      },
+      "topic": "Size-Exclusion Chromatography",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_sep_008",
+      "passage": null,
+      "stem": "Affinity chromatography separates a target protein primarily through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "differences in boiling point"
+        },
+        {
+          "label": "B",
+          "text": "migration in an electric field"
+        },
+        {
+          "label": "C",
+          "text": "specific reversible binding to an immobilized ligand"
+        },
+        {
+          "label": "D",
+          "text": "sedimentation under centrifugal force"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Proteins are not volatile enough for boiling-point-based separation. Heating proteins denatures them. Distillation is used for small molecules, not for purifying biomacromolecules.",
+        "B": "Migration in an electric field describes electrophoresis (gel electrophoresis, capillary electrophoresis, isoelectric focusing), not affinity chromatography. While both purify proteins, they exploit different molecular properties.",
+        "C": "Correct. Affinity chromatography exploits specific, reversible molecular recognition between a target protein and an immobilized ligand (e.g., antibody-antigen, enzyme-substrate analog, His-tag\u2013Ni\u00b2\u207a). The target binds while other proteins wash through, achieving high purity in a single step. Elution is achieved by changing buffer conditions (pH, salt, competitive ligand) to disrupt the specific interaction. This is one of the most powerful and selective protein purification methods available.",
+        "D": "Sedimentation under centrifugal force describes centrifugation (differential or density-gradient). While centrifugation can enrich organelles or precipitate proteins, it does not provide the molecular-level specificity of affinity chromatography."
+      },
+      "topic": "Affinity Chromatography / Specific Binding",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_sep_009",
+      "passage": null,
+      "stem": "In SDS-PAGE, a smaller protein generally migrates farther because SDS gives proteins similar:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "three-dimensional shapes"
+        },
+        {
+          "label": "B",
+          "text": "charge-to-mass ratios"
+        },
+        {
+          "label": "C",
+          "text": "isoelectric points"
+        },
+        {
+          "label": "D",
+          "text": "ligand affinities"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "SDS actually denatures proteins, disrupting their native three-dimensional structures. All SDS-coated proteins adopt a similar rod-like shape. The separation in SDS-PAGE is based on molecular weight, not on preserved native structure.",
+        "B": "Correct. SDS (sodium dodecyl sulfate) is an anionic detergent that binds to proteins in a roughly constant mass ratio (~1.4 g SDS per gram protein). This coating overwhelms each protein's intrinsic charge, giving all proteins a similar negative charge-to-mass ratio. Since charge-to-mass is normalized, migration through the polyacrylamide gel depends primarily on molecular size \u2014 smaller proteins navigate the gel pores more easily and migrate farther. This allows molecular weight estimation by comparing migration distance to standards.",
+        "C": "Isoelectric focusing separates proteins by their isoelectric point (pI) in a pH gradient. SDS-PAGE separates by molecular weight after charge normalization \u2014 these are different techniques exploiting different protein properties. They can be combined in 2D gel electrophoresis (IEF in one dimension, SDS-PAGE in the other).",
+        "D": "Ligand affinity is exploited by affinity chromatography, not SDS-PAGE. SDS denatures proteins and disrupts most ligand-binding interactions, so native binding properties are lost."
+      },
+      "topic": "SDS-PAGE / Molecular Size",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_sep_010",
+      "passage": null,
+      "stem": "During differential centrifugation of a cell lysate, increasing centrifugal force generally pellets:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "only dissolved ions"
+        },
+        {
+          "label": "B",
+          "text": "progressively smaller organelles and particles"
+        },
+        {
+          "label": "C",
+          "text": "molecules according to boiling point"
+        },
+        {
+          "label": "D",
+          "text": "only the least dense components"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Dissolved ions are too small and light to pellet during standard differential centrifugation. They remain in the supernatant. Centrifugation pellets particles and organelles based on their sedimentation coefficients, which depend on size, shape, and density.",
+        "B": "Correct. Differential centrifugation uses sequential spins at increasing speed (centrifugal force). At low speeds (~600\u20131000 \u00d7 g), large structures pellet first: nuclei, unbroken cells, and cytoskeletal fragments. At intermediate speeds (~10,000 \u00d7 g), mitochondria, lysosomes, and peroxisomes pellet. At high speeds (~100,000 \u00d7 g), microsomes (ER fragments) and ribosomes pellet. The supernatant after the final spin contains the cytosolic fraction. Each pellet is enriched in the corresponding organelle population.",
+        "C": "Boiling point is a property relevant to distillation, not centrifugation. Centrifugation separates particles based on sedimentation behavior in a gravitational or centrifugal field \u2014 completely unrelated to volatility.",
+        "D": "Larger and denser components pellet first at lower centrifugal forces. The least dense, smallest components (e.g., ribosomes, vesicles) require the highest centrifugal forces and pellet last. This is the opposite of what this answer states."
+      },
+      "topic": "Differential Centrifugation",
+      "difficulty": "Medium"
+    }
+  ]
+}

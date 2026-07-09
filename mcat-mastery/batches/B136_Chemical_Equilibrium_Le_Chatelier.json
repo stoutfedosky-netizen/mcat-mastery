@@ -1,0 +1,351 @@
+{
+  "batch": "B136",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Chemical Equilibrium & Le Chatelier",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_equil2_001",
+      "passage": "A biochemistry lab studies reversible binding between protein P and ligand L: P + L ⇌ PL. Equilibrium is monitored by fluorescence, and the apparent association constant is defined as Kₐ = [PL]/([P][L]). The investigators begin with equal total concentrations of P and L, then perturb the system after equilibrium is reached.\n\nCondition | Temperature | Added species | Fraction of P bound at equilibrium\n1 | 25°C | none | 0.62\n2 | 25°C | excess L | 0.84\n3 | 25°C | excess P | 0.45\n4 | 37°C | none | 0.48\n\nCalorimetry shows that PL formation releases heat. In a separate cuvette, the team adds a competitive inhibitor I that binds free P at the same site used by L but does not fluoresce. The total amount of protein is conserved in all trials. The researchers caution that equilibrium position, equilibrium constant, and rate of reaching equilibrium are related but distinct concepts.",
+      "stem": "Which expression correctly represents the association constant for the binding reaction studied in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kₐ = [P][L]/[PL]"
+        },
+        {
+          "label": "B",
+          "text": "Kₐ = [PL]/([P][L])"
+        },
+        {
+          "label": "C",
+          "text": "Kₐ = [P]/([PL][L])"
+        },
+        {
+          "label": "D",
+          "text": "Kₐ = [L]/([P][PL])"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This is the reciprocal of the association constant and would describe a dissociation-type expression. It is tempting because products and reactants appear in the right species, but the passage defines association as formation of PL from free P and L, so the complex belongs in the numerator.",
+        "B": "Correct. For P + L ⇌ PL, the association constant places the bound complex over the product of the free binding partners: Kₐ = [PL]/([P][L]). A larger value means equilibrium favors complex formation. This differs from a rate constant because it describes the equilibrium ratio, not how quickly binding occurs.",
+        "C": "This expression incorrectly places free protein in the numerator and the complex in the denominator. That would predict more free P as stronger association, the opposite of the passage's meaning. Equilibrium expressions must follow reaction stoichiometry and the defined direction.",
+        "D": "This expression treats free ligand as the favored product and divides by free protein and complex, which does not correspond to either association or dissociation for P + L ⇌ PL. The distractor tests whether the species are simply recognized or placed according to the reaction."
+      },
+      "topic": "Equilibrium Constants",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_equil2_002",
+      "passage": null,
+      "stem": "Why does adding excess ligand increase the fraction of protein bound in Condition 2?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It increases Kₐ by changing the intrinsic affinity of P for L."
+        },
+        {
+          "label": "B",
+          "text": "It decreases the total amount of protein in the cuvette."
+        },
+        {
+          "label": "C",
+          "text": "It shifts the equilibrium toward PL by increasing a reactant concentration."
+        },
+        {
+          "label": "D",
+          "text": "It makes the forward reaction irreversible."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Adding ligand changes the reaction quotient and equilibrium position, but it does not necessarily change the intrinsic Kₐ at a fixed temperature. Kₐ is a thermodynamic property for the binding pair under specified conditions, whereas the fraction bound can change when total ligand concentration changes.",
+        "B": "The passage states that total protein is conserved. The fraction of protein bound changes because protein is redistributed between free P and PL, not because protein disappears. Confusing conservation of mass with redistribution is a common equilibrium trap.",
+        "C": "Correct. Le Châtelier's principle predicts that adding a reactant drives P + L ⇌ PL toward the product side until a new equilibrium is reached. The higher bound fraction in Condition 2 reflects mass action: more free L makes PL formation more favorable without requiring a change in the intrinsic association constant.",
+        "D": "The reaction remains reversible; equilibrium is simply displaced toward PL. If the forward reaction became irreversible, the equilibrium framework and Kₐ expression would no longer apply. The table shows a new equilibrium fraction, not complete one-way conversion."
+      },
+      "topic": "Le Châtelier / Mass Action",
+      "difficulty": "Medium",
+      "passageRef": "cp_equil2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_equil2_003",
+      "passage": null,
+      "stem": "Because PL formation is exothermic, which explanation best accounts for the lower bound fraction at 37°C?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Heating favors the endothermic reverse direction, reducing PL formation."
+        },
+        {
+          "label": "B",
+          "text": "Heating always increases product formation for every reaction."
+        },
+        {
+          "label": "C",
+          "text": "Heating removes protein from the system."
+        },
+        {
+          "label": "D",
+          "text": "Heating changes the stoichiometry to P + 2L ⇌ PL₂."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. If binding releases heat, heat can be treated as a product of the forward reaction. Raising temperature adds heat and shifts equilibrium toward the reverse, endothermic direction, lowering the fraction of P bound. This is a direct Le Châtelier application to thermal perturbation.",
+        "B": "Temperature can increase reaction rates, but its effect on equilibrium position depends on reaction enthalpy. For an exothermic forward reaction, heating favors reactants at equilibrium. This answer confuses faster molecular motion with greater thermodynamic product favorability.",
+        "C": "The passage says protein amount is conserved. A lower bound fraction does not require protein loss; it means more protein remains free at equilibrium. Equilibrium shifts alter distribution among species, not necessarily total mass.",
+        "D": "No new stoichiometry is introduced. Temperature changes can shift equilibrium constants, but they do not rewrite the balanced binding reaction into a different molecular complex unless the passage provides evidence for a new species."
+      },
+      "topic": "Temperature and Exothermic Equilibria",
+      "difficulty": "Medium",
+      "passageRef": "cp_equil2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_equil2_004",
+      "passage": null,
+      "stem": "What is the expected effect of adding the competitive inhibitor I?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It increases PL fluorescence by creating more ligand-binding sites."
+        },
+        {
+          "label": "B",
+          "text": "It has no effect because inhibitors alter only reaction rates."
+        },
+        {
+          "label": "C",
+          "text": "It converts PL into free ligand without affecting free protein."
+        },
+        {
+          "label": "D",
+          "text": "It lowers PL formation by sequestering free P away from L."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "A competitive inhibitor occupying the ligand-binding site does not create new sites for L; it prevents L from using existing sites. Fluorescence from PL should fall if less PL forms. The reasoning reverses the binding-site competition described in the passage.",
+        "B": "Inhibitors can affect equilibrium composition when they bind one species and create coupled equilibria. Here I binds free P, lowering the amount of P available for L. The passage's warning that rate and equilibrium differ does not mean inhibitors are irrelevant to equilibrium position.",
+        "C": "The inhibitor is described as binding free P, not directly breaking PL into free ligand while leaving P unaffected. Any reduction in PL would occur through mass action and competition for P, not selective removal of ligand from the complex alone.",
+        "D": "Correct. I competes for the same site on free P, forming a nonfluorescent P–I complex or otherwise sequestering P from L. By reducing available free P for productive PL formation, it shifts the ligand-binding equilibrium away from fluorescent PL and lowers the observed bound fraction."
+      },
+      "topic": "Competitive Binding",
+      "difficulty": "Medium",
+      "passageRef": "cp_equil2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_equil2_005",
+      "passage": null,
+      "stem": "Which statement best distinguishes equilibrium constant from rate of equilibration in this system?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kₐ determines the final ratio of species, whereas rate constants influence how quickly that ratio is approached."
+        },
+        {
+          "label": "B",
+          "text": "Kₐ is measured only before any PL has formed."
+        },
+        {
+          "label": "C",
+          "text": "Rate constants determine only the color of the fluorescence signal."
+        },
+        {
+          "label": "D",
+          "text": "A system with a large Kₐ can never equilibrate slowly."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The equilibrium constant describes the ratio of PL to free P and L once equilibrium is reached. Forward and reverse rate constants determine the timescale for approaching that state. A thermodynamically favorable binding interaction can still be kinetically slow if activation barriers are large.",
+        "B": "Kₐ is an equilibrium property and is inferred from concentrations at equilibrium, not before product formation. Measuring before equilibration would mix kinetic progress with thermodynamic position and could give a misleading apparent affinity.",
+        "C": "Rate constants describe molecular transitions per time, not fluorescence color. Fluorescence is the assay readout for PL, while kinetics would describe how the signal changes over time after perturbation.",
+        "D": "Large Kₐ means equilibrium favors complex, but it does not guarantee rapid binding. Kinetics and thermodynamics are related through forward and reverse rates, yet a high-affinity system can equilibrate slowly if both rates are small."
+      },
+      "topic": "Thermodynamics vs Kinetics",
+      "difficulty": "Hard",
+      "passageRef": "cp_equil2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_equil2_006",
+      "passage": "A second group prepares a buffer for an enzyme whose active site is protonated below pH 6.0 and deprotonated above pH 8.0. The buffer contains a weak acid HA with pKₐ = 6.80 and its conjugate base A⁻. Investigators use the Henderson-Hasselbalch equation: pH = pKₐ + log([A⁻]/[HA]).\n\nMixture | [HA] (mM) | [A⁻] (mM) | Measured pH | Initial enzyme rate\n1 | 40 | 40 | 6.80 | 100%\n2 | 20 | 80 | 7.40 | 92%\n3 | 80 | 20 | 6.20 | 70%\n\nWhen 2 mM HCl is added to Mixture 1, pH changes only slightly because A⁻ consumes added H⁺ to form HA. When 2 mM NaOH is added, HA consumes OH⁻ to form A⁻ and water. However, adding 50 mM HCl overwhelms the buffer and sharply decreases pH.",
+      "stem": "Why is the pH of Mixture 1 equal to the pKₐ of the weak acid?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Because the total buffer concentration is zero."
+        },
+        {
+          "label": "B",
+          "text": "Because [A⁻] equals [HA], making log([A⁻]/[HA]) = 0."
+        },
+        {
+          "label": "C",
+          "text": "Because all HA is fully dissociated."
+        },
+        {
+          "label": "D",
+          "text": "Because pH is independent of conjugate-base concentration."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The buffer concentration is not zero; both HA and A⁻ are present at 40 mM. A buffer requires appreciable weak acid and conjugate base. The pH equals pKₐ because their ratio is one, not because the system lacks buffer components.",
+        "B": "Correct. Henderson-Hasselbalch gives pH = pKₐ + log([A⁻]/[HA]). In Mixture 1, [A⁻]/[HA] = 40/40 = 1, and log(1) = 0, so pH = pKₐ = 6.80. This is also the point of maximum buffering symmetry for small acid or base additions.",
+        "C": "Weak acids are not fully dissociated, and a buffer explicitly contains both HA and A⁻. Full dissociation would be a strong-acid behavior and would not produce the conjugate acid/base reservoir needed to resist pH change.",
+        "D": "pH clearly depends on the ratio of A⁻ to HA in the Henderson-Hasselbalch equation. Mixtures 2 and 3 have the same total concentration but different ratios and different pH values, demonstrating that conjugate-base concentration matters."
+      },
+      "topic": "Henderson-Hasselbalch Equation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_equil2_007",
+      "passage": null,
+      "stem": "Which calculation best explains the approximate pH of Mixture 2?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6.80 + log(40/40) ≈ 7.40"
+        },
+        {
+          "label": "B",
+          "text": "6.80 + log(20/80) ≈ 7.40"
+        },
+        {
+          "label": "C",
+          "text": "6.80 − log(80 + 20) ≈ 4.80"
+        },
+        {
+          "label": "D",
+          "text": "6.80 + log(80/20) ≈ 7.40"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This calculation describes Mixture 1, where acid and base are equal. Mixture 2 is base-rich, so its pH should be higher than pKₐ. Reusing the 40/40 ratio ignores the table's changed composition.",
+        "B": "This reverses the Henderson-Hasselbalch ratio. Using [HA]/[A⁻] would give log(0.25) ≈ −0.60 and pH ≈ 6.20, which matches the more acidic Mixture 3 rather than Mixture 2. The ratio direction encodes whether base or acid predominates.",
+        "C": "The equation uses the ratio of conjugate base to weak acid, not the sum of their concentrations. Total buffer concentration affects capacity, but the pH is determined mainly by the ratio when the pKₐ and activities are comparable.",
+        "D": "Correct. Mixture 2 has [A⁻]/[HA] = 80/20 = 4, and log 4 ≈ 0.60. Thus pH ≈ 6.80 + 0.60 = 7.40. The higher conjugate-base fraction raises pH because the buffer is better able to accept protons than donate them."
+      },
+      "topic": "Buffer pH Calculation",
+      "difficulty": "Medium",
+      "passageRef": "cp_equil2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_equil2_008",
+      "passage": null,
+      "stem": "Why does adding 2 mM HCl to Mixture 1 cause only a small pH change?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "HA converts directly into a strong base."
+        },
+        {
+          "label": "B",
+          "text": "The added H⁺ is destroyed by the enzyme active site."
+        },
+        {
+          "label": "C",
+          "text": "The added H⁺ is consumed by A⁻, converting it to HA."
+        },
+        {
+          "label": "D",
+          "text": "The pKₐ of HA becomes zero after acid addition."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "HA is a weak acid and does not become a strong base when acid is added. Added H⁺ shifts A⁻ toward HA; it does not transform the weak acid into a different strong-base species. This answer misunderstands conjugate-pair chemistry.",
+        "B": "The enzyme may respond to pH, but it is not the main chemical sink for added acid. The buffer components are present at millimolar concentrations and are designed to absorb small acid or base additions through conjugate acid/base reactions.",
+        "C": "Correct. In a buffer, conjugate base A⁻ neutralizes added acid by accepting H⁺ to form HA. This changes the [A⁻]/[HA] ratio slightly but prevents a large increase in free H⁺. Buffering is finite, which is why a much larger HCl addition overwhelms the system.",
+        "D": "pKₐ is an intrinsic property of the weak acid under given conditions and does not become zero simply because acid is added. The pH changes because the ratio [A⁻]/[HA] changes, not because the acid's identity is rewritten."
+      },
+      "topic": "Buffer Capacity",
+      "difficulty": "Medium",
+      "passageRef": "cp_equil2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_equil2_009",
+      "passage": null,
+      "stem": "Which mixture would be expected to have the greatest capacity to resist added base before large pH changes occur?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Mixture 3, because it has the most HA"
+        },
+        {
+          "label": "B",
+          "text": "Mixture 2, because it has the most A⁻"
+        },
+        {
+          "label": "C",
+          "text": "Pure water, because it has neutral pH"
+        },
+        {
+          "label": "D",
+          "text": "Any mixture, because pH never changes in a buffer"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Added base is neutralized by HA, which donates protons to convert OH⁻ into water and A⁻. Mixture 3 contains the most HA, so it has the largest reservoir for resisting added base. Buffer capacity depends on both total concentration and which component counters the perturbation.",
+        "B": "A base-rich buffer is better positioned to consume added acid, not added base. Mixture 2 has more A⁻ and less HA, so it has less weak acid available to neutralize OH⁻. It may have useful total capacity but not the greatest capacity against base addition among the listed buffers.",
+        "C": "Pure water has very little buffering capacity because it lacks a substantial conjugate acid/base pair. Neutral pH does not mean resistance to pH change; small additions of strong acid or base can shift pure water's pH dramatically.",
+        "D": "Buffers resist pH change; they do not prevent it absolutely. The passage's 50 mM HCl example shows that buffer capacity can be overwhelmed. This answer overstates the protective effect and ignores finite reagent amounts."
+      },
+      "topic": "Directional Buffer Capacity",
+      "difficulty": "Hard",
+      "passageRef": "cp_equil2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_equil2_010",
+      "passage": null,
+      "stem": "Why is enzyme activity lower in Mixture 3 than in Mixture 1?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Mixture 3 contains no buffer components."
+        },
+        {
+          "label": "B",
+          "text": "Mixture 3 is more acidic, shifting the active site toward a less optimal protonation state."
+        },
+        {
+          "label": "C",
+          "text": "Mixture 3 has the highest pH and denatures the enzyme."
+        },
+        {
+          "label": "D",
+          "text": "Mixture 3 must contain more product inhibitor than Mixture 1."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Mixture 3 contains both HA and A⁻, so it is still a buffer. Its lower activity is not due to absence of buffering but to a different acid/base ratio and pH. The table gives a mechanistic clue through pH, not missing reagents.",
+        "B": "Correct. Mixture 3 has pH 6.20, closer to the range where the active site is excessively protonated. Enzyme active sites often require a particular protonation state for catalysis, substrate binding, or charge stabilization. The lower rate is therefore consistent with pH-dependent active-site chemistry.",
+        "C": "Mixture 3 has the lowest pH of the three mixtures, not the highest. Denaturation is possible at extreme pH, but the passage specifically frames activity in terms of active-site protonation between pH 6 and 8.",
+        "D": "The passage does not mention product inhibitor concentrations. Invoking product inhibition adds an unsupported mechanism. The simpler explanation uses the supplied pH and active-site protonation information."
+      },
+      "topic": "pH and Enzyme Activity",
+      "difficulty": "Medium",
+      "passageRef": "cp_equil2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

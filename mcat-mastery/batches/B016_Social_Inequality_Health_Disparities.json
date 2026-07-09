@@ -1,0 +1,500 @@
+{
+  "batch": "B016",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Social Inequality & Health Disparities",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_ineq_001",
+      "passage": "A public health researcher examines cardiovascular disease (CVD) mortality rates across census tracts in a major U.S. city. After adjusting for individual risk factors \u2014 smoking, diet, BMI, and physical activity \u2014 residents of the lowest-income census tracts still have a CVD mortality rate 2.3 times higher than residents of the highest-income tracts. The researcher notes that low-income tracts have fewer grocery stores carrying fresh produce, fewer parks and sidewalks suitable for exercise, higher concentrations of fast-food restaurants, and greater exposure to environmental pollutants from nearby industrial facilities. A follow-up survey reveals that residents of low-income tracts report significantly higher levels of chronic psychological stress and lower perceived control over their health outcomes.",
+      "stem": "The persistent disparity in CVD mortality after adjusting for individual risk factors is best explained by which sociological concept?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Medicalization \u2014 the medical establishment has expanded the definition of cardiovascular disease to include conditions more prevalent in low-income populations"
+        },
+        {
+          "label": "B",
+          "text": "Sick role theory \u2014 residents of low-income tracts are more likely to adopt the sick role, reducing their motivation to engage in preventive health behaviors"
+        },
+        {
+          "label": "C",
+          "text": "Health locus of control \u2014 residents of low-income tracts have an external locus of control that prevents them from taking responsibility for their cardiovascular health"
+        },
+        {
+          "label": "D",
+          "text": "Social determinants of health \u2014 structural conditions in the environments where people live, work, and age that shape health outcomes independently of individual behavior"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Medicalization refers to defining non-medical problems as medical conditions. CVD has well-established diagnostic criteria that have not been selectively expanded for low-income populations. The mortality disparity reflects real disease burden, not definitional expansion.",
+        "B": "Parsons' sick role theory describes the social expectations for individuals who are ill (exemption from responsibilities, obligation to seek care). It does not explain why certain populations have higher disease rates in the first place. The sick role is adopted after illness, not before.",
+        "C": "While the survey does show lower perceived control, framing this as an individual psychological deficit ignores the structural constraints described. Residents face objective barriers (no grocery stores, no parks, pollution) that limit health behaviors regardless of locus of control. This answer blames individuals for structural conditions.",
+        "D": "Social determinants of health encompass the structural and environmental conditions \u2014 food access, built environment, pollution exposure, economic opportunity \u2014 that shape health outcomes beyond individual choices. The passage describes a classic case: after controlling for individual behaviors, the neighborhood-level factors continue to drive disparities. These are upstream, structural causes that constrain individual health behaviors."
+      },
+      "topic": "Social Determinants of Health",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_ineq_002",
+      "passage": null,
+      "passageRef": "ps_ineq_001",
+      "stem": "The connection between chronic stress, low perceived control, and increased cardiovascular disease risk in low-income residents most directly illustrates which concept?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Relative deprivation \u2014 awareness of inequality produces stress even when basic needs are met"
+        },
+        {
+          "label": "B",
+          "text": "Self-serving bias \u2014 residents attribute their health outcomes to external factors rather than personal choices"
+        },
+        {
+          "label": "C",
+          "text": "Cognitive dissonance \u2014 residents experience conflict between their health goals and their inability to achieve them"
+        },
+        {
+          "label": "D",
+          "text": "Allostatic load \u2014 chronic activation of the stress response due to persistent social and environmental stressors produces cumulative physiological wear"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Relative deprivation describes frustration from perceiving oneself as worse off than a comparison group. While it may contribute to stress, the passage describes chronic stress from objective environmental stressors (pollution, food deserts, unsafe neighborhoods), not just perceived inequality.",
+        "B": "Self-serving bias involves attributing successes to internal factors and failures to external factors. The passage describes residents accurately perceiving that external conditions constrain their health \u2014 a realistic assessment, not a biased attribution.",
+        "C": "Cognitive dissonance involves discomfort from holding contradictory beliefs or behaviors. The passage describes objective environmental constraints, not internal psychological conflict between beliefs and actions.",
+        "D": "Allostatic load is the cumulative physiological cost of chronic stress. When the stress response (HPA axis, sympathetic nervous system) is repeatedly activated by persistent stressors \u2014 financial insecurity, environmental hazards, low perceived control \u2014 it produces wear on cardiovascular, metabolic, and immune systems, directly linking chronic stress to elevated CVD mortality."
+      },
+      "topic": "Allostatic Load / Stress and Health",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_ineq_003",
+      "passage": null,
+      "passageRef": "ps_ineq_001",
+      "stem": "A policy intervention installs a new grocery store with affordable fresh produce in a low-income census tract. After two years, fruit and vegetable consumption has not significantly increased. Which concept best explains this finding?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Fundamental cause theory \u2014 SES is linked to disease through so many mechanisms that addressing any single pathway is insufficient to eliminate the disparity"
+        },
+        {
+          "label": "B",
+          "text": "Social reproduction \u2014 the grocery store reinforces existing class structures by profiting from the low-income community"
+        },
+        {
+          "label": "C",
+          "text": "Labeling theory \u2014 residents avoid the grocery store because it labels their community as deficient"
+        },
+        {
+          "label": "D",
+          "text": "Biomedical model \u2014 the intervention failed because CVD is caused by biological factors, not social ones"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Link and Phelan's fundamental cause theory argues that SES is connected to health through so many intervening mechanisms (knowledge, money, power, social connections, food access, stress, environmental exposure) that addressing any single mechanism leaves the underlying disparity intact. Installing a grocery store addresses food access but not time constraints, cooking knowledge, income limitations, or stress.",
+        "B": "Social reproduction theory describes how institutions perpetuate class inequality across generations. A grocery store's presence does not clearly illustrate reproduction of class structures, and this concept does not explain why consumption didn't change.",
+        "C": "Labeling theory addresses how being labeled changes self-concept and behavior. There is no evidence that residents avoid the store due to stigma. The more parsimonious explanation is that food access was only one of many barriers.",
+        "D": "The biomedical model neglects social factors. The passage already demonstrated that social factors explain the disparity beyond individual biology."
+      },
+      "topic": "Fundamental Cause Theory",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_ineq_004",
+      "passage": "A sociologist studies racial disparities in maternal mortality in the United States. Black women experience maternal mortality at rates 2.6 times higher than White women. This disparity persists even when controlling for income, education, insurance status, and prenatal care access. A college-educated Black woman has a higher maternal mortality risk than a White woman who did not complete high school. Interviews with Black women across income levels reveal consistent reports of having their pain dismissed, their concerns ignored, and their symptoms attributed to non-medical causes during clinical encounters.",
+      "stem": "The finding that Black women with college educations have higher maternal mortality than White women without high school diplomas most directly undermines which explanation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The weathering hypothesis, which attributes racial health disparities to cumulative physiological impact of chronic racism exposure"
+        },
+        {
+          "label": "B",
+          "text": "The SES gradient explanation, which attributes racial health disparities primarily to socioeconomic differences between racial groups"
+        },
+        {
+          "label": "C",
+          "text": "Institutional discrimination in healthcare, which attributes disparities to systematic biases in how medical professionals treat patients of different races"
+        },
+        {
+          "label": "D",
+          "text": "Intersectionality theory, which examines how race and class interact to produce compounded disadvantage"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The weathering hypothesis is actually supported by this finding. Weathering proposes that chronic racism exposure produces cumulative physiological damage regardless of SES. The finding that high-SES Black women still face elevated risk is consistent with weathering.",
+        "B": "If racial health disparities were primarily explained by socioeconomic differences, controlling for SES should eliminate the disparity. The finding that a college-educated Black woman has higher risk than a White woman without a high school diploma directly contradicts the SES gradient explanation. Something beyond SES \u2014 likely structural racism \u2014 is operating.",
+        "C": "The interview data directly supports institutional discrimination. The finding does not undermine this explanation \u2014 it reinforces it by showing education and income do not protect Black women from discriminatory treatment.",
+        "D": "Intersectionality would predict this kind of finding \u2014 that race produces disadvantage that cannot be reduced to class alone. The data is consistent with intersectional analysis."
+      },
+      "topic": "Health Disparities / Race and SES",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_ineq_005",
+      "passage": null,
+      "passageRef": "ps_ineq_004",
+      "stem": "The interview reports of Black women having their pain dismissed and their concerns ignored best illustrate which concept?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Role strain \u2014 physicians experience conflict between their healer role and their implicit biases"
+        },
+        {
+          "label": "B",
+          "text": "Stereotype threat \u2014 Black women underperform in communicating symptoms due to awareness of negative stereotypes"
+        },
+        {
+          "label": "C",
+          "text": "Implicit bias \u2014 physicians' unconscious associations between race and pain tolerance or credibility affect clinical decision-making"
+        },
+        {
+          "label": "D",
+          "text": "Cultural capital \u2014 Black women lack the linguistic and behavioral codes that signal credibility in medical settings"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Role strain describes difficulty meeting competing demands within a single role. The interview data describes the effect on patients, not the internal conflict of physicians.",
+        "B": "Stereotype threat impairs performance under anxiety about confirming stereotypes. The scenario describes physicians failing to listen, not patients failing to communicate. The locus is in provider behavior.",
+        "C": "Implicit bias refers to unconscious associations that affect judgment. Research documents that many physicians hold implicit biases associating Black patients with lower pain sensitivity or lower credibility, leading to dismissal of pain reports and inadequate care \u2014 exactly the patterns described.",
+        "D": "Attributing dismissal of Black women's pain to their lack of cultural capital blames the patient for a systemic problem. The interview data describes provider behavior (dismissing, ignoring), not patient deficiency."
+      },
+      "topic": "Implicit Bias / Healthcare Disparities",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_ineq_006",
+      "passage": null,
+      "passageRef": "ps_ineq_004",
+      "stem": "Several women describe bringing an advocate to medical appointments. This strategy is best understood as an attempt to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reduce cognitive dissonance by having someone validate their health concerns"
+        },
+        {
+          "label": "B",
+          "text": "conform to a cultural norm that values collective decision-making in healthcare"
+        },
+        {
+          "label": "C",
+          "text": "compensate for low health literacy by bringing someone who can communicate medical information"
+        },
+        {
+          "label": "D",
+          "text": "shift the physician's behavior by altering the social dynamics of the clinical encounter through the presence of a witness"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The women are not experiencing contradictory beliefs \u2014 they are experiencing dismissive treatment. Bringing an advocate addresses a social power imbalance, not an internal psychological conflict.",
+        "B": "The passage makes clear women bring advocates because their individual reports are dismissed \u2014 not because of a cultural preference for group decision-making. The strategy is a response to experienced discrimination.",
+        "C": "The passage describes women across income levels, including college-educated women. Attributing the need for an advocate to low health literacy contradicts the finding that the disparity persists regardless of education.",
+        "D": "The presence of a witness changes the social dynamics of the encounter. Observer effects and impression management suggest people modify behavior when observed by third parties. An advocate corroborates reports, asks follow-up questions, and implicitly holds the provider accountable."
+      },
+      "topic": "Social Dynamics / Power in Healthcare",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_ineq_007",
+      "passage": "An epidemiologist compares diabetes prevalence across neighborhoods and finds that census tracts with more than 50% racial/ethnic minority residents have three times the diabetes prevalence of majority-White tracts, even after adjusting for household income. These high-prevalence tracts also have fewer primary care physicians per capita, fewer pharmacies, longer travel times to the nearest hospital, and higher rates of uninsurance.",
+      "stem": "The concentration of healthcare resources away from minority neighborhoods is best described as an example of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "De jure segregation \u2014 legally mandated separation of racial groups"
+        },
+        {
+          "label": "B",
+          "text": "Individual discrimination \u2014 specific providers choosing not to practice in minority neighborhoods due to personal prejudice"
+        },
+        {
+          "label": "C",
+          "text": "Institutional discrimination \u2014 systematic patterns in healthcare infrastructure distribution that disadvantage minority communities regardless of individual intent"
+        },
+        {
+          "label": "D",
+          "text": "Social exclusion \u2014 minority residents voluntarily withdrawing from mainstream healthcare institutions"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "De jure segregation refers to racial separation mandated by law. While historical de jure segregation contributed to current residential patterns, the healthcare desert phenomenon reflects ongoing institutional processes, not current legal mandates.",
+        "B": "Individual discrimination involves specific people acting on personal prejudice. The pattern is structural \u2014 involving distribution of infrastructure across geography, resulting from institutional decisions about resource allocation, zoning, and investment.",
+        "C": "Institutional discrimination refers to systematic patterns embedded in organizational practices that produce unequal outcomes regardless of individual intent. The concentration of resources away from minority neighborhoods reflects hospital investment decisions, pharmacy location algorithms, insurance network standards, and medical pipeline patterns that systematically disadvantage minority communities.",
+        "D": "The passage describes an objective lack of healthcare infrastructure \u2014 fewer physicians, pharmacies, and hospitals. This is not about residents choosing to withdraw. Framing the problem as voluntary withdrawal reverses the causal direction."
+      },
+      "topic": "Institutional Discrimination / Healthcare Access",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_ineq_008",
+      "passage": null,
+      "passageRef": "ps_ineq_007",
+      "stem": "The finding that the diabetes disparity persists after adjusting for income is most consistent with which theoretical perspective?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Functionalism \u2014 health disparities motivate disadvantaged individuals to improve their position"
+        },
+        {
+          "label": "B",
+          "text": "Social conflict theory \u2014 health disparities are a product of unequal power relations, with race operating as an axis of inequality independent of class"
+        },
+        {
+          "label": "C",
+          "text": "Symbolic interactionism \u2014 health disparities result from meanings individuals assign to health and illness"
+        },
+        {
+          "label": "D",
+          "text": "Rational choice theory \u2014 individuals in minority neighborhoods rationally forgo preventive care because costs outweigh benefits"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Claiming that health disparities motivate upward mobility is empirically unsupported and ethically problematic. Functionalist explanations for inequality have been extensively criticized for naturalizing unjust conditions.",
+        "B": "Social conflict theory analyzes how unequal power distributions create and maintain stratification. The finding that race predicts diabetes prevalence independently of income supports conflict theory's claim that racial inequality is not reducible to class inequality \u2014 race operates as a distinct axis of stratification.",
+        "C": "Symbolic interactionism focuses on micro-level meaning-making. The passage describes macro-level structural patterns (infrastructure distribution, insurance) that operate independently of individual meaning-making.",
+        "D": "The passage shows that the relevant constraint is absence of healthcare infrastructure \u2014 not a rational calculation. The problem is lack of access, not lack of rational motivation."
+      },
+      "topic": "Social Stratification Theory / Conflict Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_ineq_009",
+      "passage": null,
+      "stem": "A study finds that immigrant populations initially have better health outcomes than native-born Americans of the same racial/ethnic background, but this advantage erodes with increasing years of residence. This pattern is known as the:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Immigrant paradox, which may reflect selective migration, protective cultural practices, and erosion of both through acculturation"
+        },
+        {
+          "label": "B",
+          "text": "Assimilation effect, reflecting immigrants' successful adoption of American lifestyle patterns"
+        },
+        {
+          "label": "C",
+          "text": "Epidemiological transition, the shift from infectious to chronic diseases as countries develop"
+        },
+        {
+          "label": "D",
+          "text": "Social drift hypothesis, proposing that illness causes downward social mobility"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The immigrant paradox (healthy immigrant effect) describes the finding that recent immigrants often have better health than predicted by their SES. Explanations include selective migration, protective cultural practices, and the gradual erosion of protective factors through acculturation.",
+        "B": "Acculturation contributes to the erosion of the health advantage, but calling it 'successful adoption' frames the health decline positively. The paradox exists precisely because assimilation harms rather than improves health.",
+        "C": "The epidemiological transition is a population-level historical phenomenon, not an individual-level change with residence time.",
+        "D": "Social drift proposes illness causes downward SES. The immigrant paradox involves initially healthy individuals becoming less healthy \u2014 the opposite direction."
+      },
+      "topic": "Immigrant Health Paradox / Acculturation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_ineq_010",
+      "passage": null,
+      "stem": "Patients who share the same race/ethnicity as their physician report higher satisfaction, better communication, and greater treatment adherence. This finding is best explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In-group bias \u2014 patients favor same-race physicians regardless of clinical competence"
+        },
+        {
+          "label": "B",
+          "text": "Mere exposure effect \u2014 patients are more comfortable with familiar-looking physicians"
+        },
+        {
+          "label": "C",
+          "text": "Cultural concordance \u2014 shared cultural background facilitates communication, trust, and mutual understanding"
+        },
+        {
+          "label": "D",
+          "text": "Halo effect \u2014 patients perceive same-race physicians as more competent based on physical similarity"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Reducing concordance effects to prejudice ignores substantive communication and trust mechanisms. Shared background facilitates understanding of health beliefs, communication styles, and social context \u2014 functional benefits, not mere favoritism.",
+        "B": "The mere exposure effect involves increased preference for repeatedly encountered stimuli. Patients may never have met this physician before. The effect is about shared cultural background, not familiarity with a specific individual.",
+        "C": "Cultural concordance facilitates shared language or dialect, understanding of culturally specific health beliefs, implicit trust based on shared identity, and reduced stereotype-based miscommunication. These functional mechanisms explain the improved outcomes.",
+        "D": "The halo effect involves one positive trait coloring judgment of unrelated traits. The concordance effect extends to measurable outcomes like treatment adherence \u2014 substantive differences in the interaction, not just biased perception."
+      },
+      "topic": "Cultural Concordance / Patient-Provider Interaction",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_ineq_011",
+      "passage": null,
+      "stem": "Weber identified three dimensions of stratification: class, status, and power. A physician from a low-income background who holds high prestige but limited political influence exemplifies the importance of distinguishing among these dimensions because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "high prestige demonstrates that class, status, and power always covary"
+        },
+        {
+          "label": "B",
+          "text": "the physician can occupy different positions on each dimension simultaneously, showing the three do not necessarily align"
+        },
+        {
+          "label": "C",
+          "text": "Weber's framework is outdated and cannot handle cases where status and class diverge"
+        },
+        {
+          "label": "D",
+          "text": "the physician's social mobility proves stratification is entirely meritocratic"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This is the opposite of the correct interpretation. The physician exemplifies discordance among the three dimensions: low class, high status, limited power. Weber's insight was precisely that these dimensions vary independently.",
+        "B": "Weber argued that class, status, and power are related but distinct. The physician has high status (medicine is respected), low class (low-income background), and limited power (no political influence). This multidimensional model is more nuanced than Marx's class-only framework.",
+        "C": "Weber's framework is specifically designed to handle these cases. That status and class can diverge is a central feature of the model, not a flaw.",
+        "D": "One physician's upward mobility does not prove meritocracy. Social mobility for individuals can coexist with structural inequality for groups."
+      },
+      "topic": "Weber's Social Stratification",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_ineq_012",
+      "passage": null,
+      "stem": "Elderly patients in a rural area consistently miss follow-up appointments because the nearest specialist is 90 minutes away with no public transportation. This barrier is best classified as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A structural barrier \u2014 geographic distribution of resources and transportation infrastructure creates systematic access limitations"
+        },
+        {
+          "label": "B",
+          "text": "A cultural barrier \u2014 rural communities value self-reliance and are reluctant to seek help"
+        },
+        {
+          "label": "C",
+          "text": "A financial barrier \u2014 the cost of travel is the primary obstacle"
+        },
+        {
+          "label": "D",
+          "text": "A health literacy barrier \u2014 patients do not understand the importance of follow-up"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The barrier is structural: geographic placement of facilities, absence of public transit, and lack of reliable vehicles. These are features of infrastructure and resource distribution, not individual characteristics of patients.",
+        "B": "No evidence that cultural attitudes explain the missed appointments. The question explicitly identifies transportation and distance as barriers. Attributing non-attendance to cultural reluctance shifts blame.",
+        "C": "While travel costs may contribute, the primary barrier is distance and lack of transportation \u2014 not cost per se. A patient with unlimited funds but no vehicle would still face this barrier.",
+        "D": "No evidence patients lack understanding. The problem is inability to physically get to appointments, not lack of knowledge."
+      },
+      "topic": "Healthcare Access Barriers / Rural Health",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_ineq_013",
+      "passage": null,
+      "stem": "Families receiving SNAP benefits report lower psychological stress than food-insecure families not receiving benefits, even at the same household income. This most directly supports:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Social capital \u2014 SNAP connects families to support networks that reduce stress"
+        },
+        {
+          "label": "B",
+          "text": "Absolute deprivation \u2014 SNAP raises families above a critical needs threshold"
+        },
+        {
+          "label": "C",
+          "text": "The buffer hypothesis \u2014 social safety net programs moderate the relationship between poverty and psychological distress"
+        },
+        {
+          "label": "D",
+          "text": "Learned helplessness \u2014 families without benefits have given up trying to obtain food"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "SNAP is a government transfer program, not a social network. The primary mechanism is material (food provision), not relational (social connections).",
+        "B": "The comparison is between two groups with the same income, suggesting the mechanism is buffering against food insecurity stress, not simply crossing an absolute threshold.",
+        "C": "The buffer hypothesis proposes that resources moderate the impact of stressors on health outcomes. SNAP acts as a buffer: among families at the same income level, those with food assistance experience less stress because the program reduces uncertainty about food access.",
+        "D": "The passage describes higher stress, not behavioral passivity. Applying learned helplessness pathologizes families experiencing structural food insecurity."
+      },
+      "topic": "Buffer Hypothesis / Social Safety Net",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_ineq_014",
+      "passage": null,
+      "stem": "Each step up in income is associated with incrementally better health, even comparing the top 5% to the top 1% of earners. This pattern most directly challenges which assumption?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "That health disparities are caused by absolute poverty alone, because the gradient extends across the entire income distribution including groups far above any poverty threshold"
+        },
+        {
+          "label": "B",
+          "text": "That genetics is the primary determinant of health, because genetic variation does not follow income gradients"
+        },
+        {
+          "label": "C",
+          "text": "That healthcare access explains all disparities, because both the top 5% and top 1% have excellent access"
+        },
+        {
+          "label": "D",
+          "text": "That lifestyle choices are unrelated to health, because wealthier individuals may make different choices"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "If disparities were caused only by absolute poverty, health differences would appear between the poor and non-poor but not among affluent groups. The continuous gradient across the entire distribution demonstrates that relative position, psychosocial stress, and cumulative advantage contribute to health beyond poverty thresholds.",
+        "B": "Few serious researchers argue genetics is the primary determinant of population-level health disparities. This sets up a straw man.",
+        "C": "This addresses a narrower point. Both groups have excellent access, but the broader challenge is to the absolute poverty explanation \u2014 the gradient extends everywhere.",
+        "D": "This introduces lifestyle choices as an explanation rather than identifying what the gradient challenges."
+      },
+      "topic": "SES Health Gradient / Relative Deprivation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_ineq_015",
+      "passage": null,
+      "stem": "After implicit bias training, medical students show reduced IAT scores but no change in clinical behavior toward patients of different races. This discrepancy illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Cognitive dissonance \u2014 students experience conflict between reduced bias and unchanged behavior"
+        },
+        {
+          "label": "B",
+          "text": "The attitude-behavior gap \u2014 changes in measured attitudes do not always translate into behavior changes, especially under cognitive load"
+        },
+        {
+          "label": "C",
+          "text": "Social desirability bias \u2014 students learned to give less biased IAT responses without genuinely changing associations"
+        },
+        {
+          "label": "D",
+          "text": "Confirmation bias \u2014 evaluators expected no change and rated students accordingly"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Cognitive dissonance is possible but not the most direct explanation. The question asks about the discrepancy between attitude and behavior measures \u2014 the classic attitude-behavior gap.",
+        "B": "The attitude-behavior gap is one of the most robust findings in social psychology: measured attitudes are imperfect predictors of behavior. Even when bias scores improve, clinical behavior is shaped by time pressure, cognitive load, established habits, and situational factors.",
+        "C": "Social desirability bias on the IAT is possible but unlikely \u2014 the IAT measures implicit associations that are difficult to consciously control. Less direct than the attitude-behavior gap explanation.",
+        "D": "Standardized patient evaluations use trained actors assessing specific behaviors. These are behavioral measures, not subjective ratings prone to confirmation bias."
+      },
+      "topic": "Attitude-Behavior Gap / Implicit Bias",
+      "difficulty": "Medium"
+    }
+  ]
+}

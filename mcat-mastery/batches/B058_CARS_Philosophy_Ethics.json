@@ -1,0 +1,343 @@
+{
+  "batch": "B058",
+  "section": "cars",
+  "sectionName": "Critical Analysis and Reasoning Skills",
+  "topicArea": "Philosophy & Ethics",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_phil_001",
+      "passage": "The philosophical debate about moral responsibility has long been tangled with questions about free will. Compatibilists argue that free will and determinism are reconcilable \u2014 that acting freely means acting without external compulsion, according to one's own desires and reasons, regardless of whether those desires were causally determined by prior events. Incompatibilists, by contrast, argue that genuine free will requires the ability to have done otherwise under exactly the same circumstances, which they say determinism rules out.\n\nHard incompatibilists conclude that because determinism (or even randomness) leaves no room for the kind of free will that grounds moral responsibility, no one is truly responsible for their actions. Soft incompatibilists (libertarians in the metaphysical sense) believe that we do have the required kind of free will \u2014 the capacity for genuine agency \u2014 but that this requires that determinism be false, and they look to quantum mechanics or emergent properties of complex systems for a physical basis.\n\nMost contemporary philosophers favor compatibilism for a practical reason as well as a conceptual one. The conceptual reason is that the 'could have done otherwise' criterion seems to prove too much \u2014 it would eliminate responsibility even for agents most people consider paradigmatically responsible. The practical reason is that our practices of praise, blame, punishment, and excuse cannot wait for the resolution of metaphysical debates about the ultimate causal structure of the universe.",
+      "stem": "The author's treatment of the compatibilist position suggests they:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "argue that hard incompatibilism is the only logically consistent position"
+        },
+        {
+          "label": "B",
+          "text": "regard compatibilism as philosophically incoherent and dismiss it"
+        },
+        {
+          "label": "C",
+          "text": "present compatibilism as the position most contemporary philosophers favor, grounded in both a conceptual argument and a practical argument, without clearly endorsing it but treating it with evident sympathy"
+        },
+        {
+          "label": "D",
+          "text": "are indifferent to the debate and present all positions as equally well-supported"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage does not argue for hard incompatibilism. Hard incompatibilism (the conclusion that no one is truly responsible) is presented as one position alongside others. The final paragraph's favorable treatment of compatibilism actually implicitly criticizes hard incompatibilism's practical implications.",
+        "B": "The author does not dismiss compatibilism \u2014 quite the opposite. The passage describes the conceptual argument for compatibilism (the 'proves too much' objection to the incompatibilist criterion) and a practical argument, describing most contemporary philosophers as favoring it. This is a sympathetic presentation, not a dismissal.",
+        "C": "Correct. The author describes compatibilism as the position that 'most contemporary philosophers favor' and articulates two arguments in its favor without explicitly endorsing it in first-person terms. The passage presents the conceptual argument (the incompatibilist criterion 'proves too much') and the practical argument (our social practices cannot wait for metaphysical resolution) with evident sympathy, while still presenting the competing positions fairly. This balanced-but-leaning treatment is characteristic of philosophical exposition.",
+        "D": "The author is not indifferent \u2014 the passage ends with two arguments favoring compatibilism, and most contemporary philosophers are cited as favoring it. The presentation has a discernible tilt toward compatibilism, even if the author does not explicitly endorse it in first-person terms."
+      },
+      "topic": "Author's Treatment of Compatibilism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phil_002",
+      "passage": null,
+      "passageRef": "cars_phil_001",
+      "stem": "The author says the 'could have done otherwise' criterion 'proves too much.' This means:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the criterion eliminates moral responsibility for agents whom most people consider genuinely responsible, thereby producing an absurd conclusion that undermines the criterion's plausibility"
+        },
+        {
+          "label": "B",
+          "text": "the criterion is correct but applies to too many philosophical problems"
+        },
+        {
+          "label": "C",
+          "text": "the criterion provides too much support for compatibilism"
+        },
+        {
+          "label": "D",
+          "text": "the criterion is mathematically precise and thus settles the debate definitively"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In philosophical argument, a criterion 'proves too much' when, taken to its logical conclusion, it establishes more than intended \u2014 typically something absurd or unacceptable. The incompatibilist's criterion ('genuine free will requires the ability to have done otherwise under identical circumstances') would, if determinism is true, eliminate moral responsibility not just for difficult cases but for agents everyone considers paradigmatically responsible \u2014 the most reflective, reasons-responsive moral agents. An argument whose consequence is that no one has ever been responsible for anything faces a heavy burden of proof; its critics note that this conclusion, derived from the criterion, reveals something wrong with the criterion itself.",
+        "B": "'Proves too much' is a reductio-style criticism \u2014 the criterion produces unacceptable conclusions, not that it applies to too many problems. If the criterion were correct but overly broad in some benign sense, that would not be a fatal objection.",
+        "C": "The criterion is the incompatibilist's argument against compatibilism \u2014 it does not support compatibilism. Compatibilists are criticizing the criterion by showing it proves too much. Providing too much support for compatibilism would mean the criterion helps compatibilists, which is the opposite of its intent.",
+        "D": "The criterion is a philosophical/conceptual standard, not a mathematical formula. There is no mathematical precision here, and the debate has not been settled \u2014 philosophical debates about free will continue precisely because such criteria are contested."
+      },
+      "topic": "Rhetorical Analysis / 'Proves Too Much' Objection",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_phil_003",
+      "passage": null,
+      "passageRef": "cars_phil_001",
+      "stem": "The 'practical reason' cited for compatibilism \u2014 that our social practices cannot wait for metaphysical resolution \u2014 assumes that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "metaphysical debates will eventually be resolved in favor of incompatibilism"
+        },
+        {
+          "label": "B",
+          "text": "whether to hold people responsible is a purely theoretical question with no practical implications"
+        },
+        {
+          "label": "C",
+          "text": "our practices of praise, blame, punishment, and excuse are legitimate and important enough that an adequate theory of responsibility must be compatible with maintaining them, rather than requiring their abolition pending metaphysical certainty"
+        },
+        {
+          "label": "D",
+          "text": "quantum mechanics has already resolved the free will debate in favor of libertarianism"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The practical argument is agnostic about which position will ultimately prevail in metaphysical debates \u2014 it says we cannot wait for them. If the argument assumed incompatibilism would eventually win, it would be self-defeating (endorsing a position whose eventual success would undermine the practices the argument seeks to protect).",
+        "B": "The practical argument is entirely about practical implications. It explicitly treats the social practices (praise, blame, punishment, excuse) as important institutions that must function in the world. Claiming these practices have no practical implications would contradict the argument's very basis.",
+        "C": "Correct. The practical argument has an embedded assumption: that our practices of holding people responsible are legitimate, important, and worth preserving. If hard incompatibilism is correct (no one is truly responsible), and if we accept its practical implication (we should abandon blame, punishment, and praise), the practical argument would lose its force. The argument assumes we should not accept conclusions that require dismantling practices we rely on unless the case for doing so is overwhelming \u2014 and the unresolved metaphysical debate does not meet that bar. This is a conservative pragmatic reasoning pattern common in applied ethics.",
+        "D": "The passage mentions quantum mechanics as a potential physical basis for libertarian free will (sought by soft incompatibilists), but it does not claim quantum mechanics has resolved the debate. The practical argument is independent of quantum mechanics \u2014 it is about social practice, not physics."
+      },
+      "topic": "Inference / Hidden Assumption in Practical Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_phil_004",
+      "passage": null,
+      "passageRef": "cars_phil_001",
+      "stem": "Hard incompatibilism and soft incompatibilism (libertarianism) share the view that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "compatibilism's definition of free will is insufficient \u2014 genuine free will requires the ability to have done otherwise under identical circumstances, ruling out determinism as a basis for responsibility"
+        },
+        {
+          "label": "B",
+          "text": "quantum indeterminacy provides an adequate basis for moral responsibility"
+        },
+        {
+          "label": "C",
+          "text": "determinism and free will are compatible"
+        },
+        {
+          "label": "D",
+          "text": "all human behavior is determined by prior causes and therefore no one is responsible"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The shared premise of both types of incompatibilism is the rejection of compatibilism's definition of free will. Both hard and soft incompatibilists insist that genuine free will requires 'could have done otherwise under identical circumstances' \u2014 and that compatibilism's weaker definition ('acting without external compulsion') does not capture what free will truly requires for moral responsibility. Hard incompatibilists conclude we lack such free will (pessimistic conclusion); soft incompatibilists conclude we have it through some non-deterministic mechanism (optimistic conclusion). The shared premise is the rejection of the compatibilist definition.",
+        "B": "Soft incompatibilists (libertarians in the metaphysical sense) do look to quantum indeterminacy for a physical basis for free will. Hard incompatibilists, by contrast, argue that even if quantum randomness is real, it does not provide the kind of agent control needed for moral responsibility \u2014 randomness is no better than determinism for grounding agency. They do not share belief in quantum indeterminacy as an adequate basis.",
+        "C": "Compatibilism is the view that determinism and free will are compatible. Hard and soft incompatibilists both reject this \u2014 their shared position is that genuine free will is incompatible with determinism. This is the basis of their shared 'incompatibilism.'",
+        "D": "Hard incompatibilism accepts that no one is truly responsible (as a conclusion, not a premise). Soft incompatibilism denies this conclusion \u2014 it claims we do have genuine free will and therefore responsibility. They agree on the definition of free will needed for responsibility but disagree about whether we have it."
+      },
+      "topic": "Comparing Positions / Incompatibilism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phil_005",
+      "passage": null,
+      "passageRef": "cars_phil_001",
+      "stem": "A compatibilist and a hard incompatibilist observe the same person committing a crime. They agree on all the physical facts. The most fundamental source of their disagreement is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "whether the crime occurred \u2014 they would have different accounts of the observable facts"
+        },
+        {
+          "label": "B",
+          "text": "their empirical beliefs about what the crime's consequences will be"
+        },
+        {
+          "label": "C",
+          "text": "the criterion for free will and responsibility \u2014 what it means for someone to 'deserve' blame, not the facts of what happened"
+        },
+        {
+          "label": "D",
+          "text": "whether determinism is an empirically testable hypothesis"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage states they agree on all physical facts \u2014 they would have the same account of observable events. The disagreement is philosophical/conceptual, not factual.",
+        "B": "Their empirical beliefs about consequences may or may not differ, but this is not the fundamental philosophical disagreement. The debate is about the metaphysical conditions for responsibility, not about empirical predictions.",
+        "C": "Correct. The passage establishes that the free will debate concerns the conceptual definition of what is required for moral responsibility. The compatibilist says: acting on one's own reasons without external compulsion is sufficient for responsibility, even if those reasons were causally determined. The hard incompatibilist says: that definition is inadequate \u2014 genuine responsibility requires 'could have done otherwise under identical circumstances.' They both observe the same crime. Their disagreement is not about what happened but about whether what happened provides a basis for holding the person responsible \u2014 a conceptual disagreement about the criteria for responsibility.",
+        "D": "Whether determinism is empirically testable is a philosophy of science question that is separate from the core debate. Both compatibilists and incompatibilists may have similar views about determinism's empirical status. The fundamental disagreement is about what free will requires, not about the testability of determinism."
+      },
+      "topic": "Source of Disagreement / Compatibilism vs Hard Incompatibilism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phil_006",
+      "passage": "The utilitarian argument for healthcare rationing holds that limited medical resources should be allocated to maximize overall welfare \u2014 most commonly operationalized as maximizing quality-adjusted life years (QALYs) gained per unit of resource spent. Defenders argue this is the only rational, impartial approach: the same resource benefits more lives when directed toward younger, healthier patients than when treating the elderly or chronically ill with low expected QALY gains.\n\nCritics charge that QALY-maximization systematically devalues the lives of the disabled and elderly. When a medical intervention produces fewer QALYs for a disabled person than for a non-disabled person with the same condition, the utilitarian formula steers resources away from the disabled patient \u2014 effectively treating disability as a reason to receive less care, which many disability rights advocates argue is discriminatory.\n\nA deeper philosophical challenge concerns what utilitarian aggregation conceals. A society that systematically redirects resources away from its most vulnerable members to maximize aggregate welfare may be producing more total welfare while making the distribution of that welfare radically unequal. Critics drawing on Rawlsian principles argue that justice requires giving priority to the worst-off, not maximizing the total. The conflict between aggregative and distributive principles remains unresolved in both academic philosophy and healthcare policy.",
+      "stem": "The passage presents QALY-maximization as both defended and criticized. The critics' strongest objection is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "QALY calculations are mathematically too complex for real-world application"
+        },
+        {
+          "label": "B",
+          "text": "QALYs are an American invention inapplicable in other healthcare systems"
+        },
+        {
+          "label": "C",
+          "text": "utilities cannot be measured at all, making any utilitarian calculation impossible"
+        },
+        {
+          "label": "D",
+          "text": "maximizing aggregate welfare may be achieved by systematically directing fewer resources to the most vulnerable \u2014 the disabled and elderly \u2014 which raises both a discrimination concern and a deeper distributive justice concern"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Mathematical complexity is not mentioned as a criticism in the passage. The critics' objection is substantive (ethical and political), not procedural. The passage does not suggest that QALY calculations are too complex to perform \u2014 it discusses the ethical implications of performing them correctly.",
+        "B": "Nothing in the passage suggests QALYs are culturally or geographically limited. QALYs are used in health technology assessment worldwide (NICE in the UK, ICER in the US). This is not an argument raised in the passage.",
+        "C": "The measurability of utility is a longstanding philosophical problem, but the passage does not invoke it as the critics' objection. The critics' arguments are about the ethical implications of QALY-based allocation, not about whether QALYs can be measured.",
+        "D": "Correct. The passage presents two complementary critical arguments: (1) Discrimination concern \u2014 when disability reduces expected QALY gain, the utilitarian formula directs fewer resources to disabled patients with the same medical need as non-disabled patients, treating disability as a ground for receiving less care \u2014 an implicit devaluation that disability rights advocates call discriminatory; (2) Distributive justice concern (Rawlsian) \u2014 even if aggregate welfare is maximized, this may be achieved by systematically disadvantaging the worst-off members of society, which violates the principle that justice requires giving priority to the most vulnerable, not merely maximizing the total."
+      },
+      "topic": "Critical Analysis / QALY Critics' Central Objection",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phil_007",
+      "passage": null,
+      "passageRef": "cars_phil_006",
+      "stem": "The reference to Rawlsian principles functions in the passage to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "provide a religious argument against utilitarianism"
+        },
+        {
+          "label": "B",
+          "text": "argue that all philosophical frameworks for allocation are equally problematic"
+        },
+        {
+          "label": "C",
+          "text": "support the utilitarian argument by showing that QALYs are consistent with Rawlsian principles"
+        },
+        {
+          "label": "D",
+          "text": "introduce a competing framework of distributive justice that prioritizes the worst-off over maximizing the aggregate, offering a principled alternative to the utilitarian approach"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Rawlsian theory (Rawls' A Theory of Justice, 1971) is a secular philosophical framework \u2014 it derives principles of justice from the 'veil of ignorance' thought experiment, not from religious premises.",
+        "B": "The passage does not dismiss all frameworks as equally problematic. It presents an active philosophical debate between defensible positions, not a nihilistic conclusion that no framework works.",
+        "C": "Rawlsian principles and QALY-maximization are in conflict in the passage. The whole point of invoking Rawls is to challenge the utilitarian logic of maximizing aggregate welfare at the expense of the worst-off. The passage explicitly contrasts 'aggregative' (utilitarian) and 'distributive' (Rawlsian) principles.",
+        "D": "Correct. The Rawlsian reference provides a named philosophical alternative to utilitarianism. Rawls' difference principle holds that social arrangements should benefit the least-advantaged members of society \u2014 a distributive priority view that directly conflicts with utilitarian aggregation. By invoking Rawls, the passage shows that the critics have a principled framework (not just a complaint) to support their distributive justice objection: justice is not about maximizing totals but about protecting the worst-off. This frames the debate as between two established philosophical traditions rather than between philosophy and mere preference."
+      },
+      "topic": "Rhetorical Function / Rawlsian Reference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phil_008",
+      "passage": null,
+      "passageRef": "cars_phil_006",
+      "stem": "A utilitarian defender of QALY-maximization would most likely respond to the disability discrimination charge by arguing that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "disabled people should not receive any medical care under a utilitarian system"
+        },
+        {
+          "label": "B",
+          "text": "the disability rights objection prioritizes equal treatment over welfare maximization, but since both cannot always be achieved simultaneously, impartial welfare maximization is the more defensible criterion"
+        },
+        {
+          "label": "C",
+          "text": "QALYs should be calculated differently for different demographic groups to produce identical QALY scores for all patients"
+        },
+        {
+          "label": "D",
+          "text": "discrimination is acceptable whenever it maximizes social welfare"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A utilitarian defender would not argue that disabled people should receive no care \u2014 the utilitarian calculus allocates resources where they produce the greatest welfare. In many cases, medical treatment for disabled people produces substantial welfare gains (relieving suffering, restoring function) and would be prioritized. The objection concerns marginal allocation decisions where expected QALY gains differ, not wholesale exclusion.",
+        "B": "Correct. A utilitarian defender would likely concede that equal treatment and QALY-maximization can conflict but argue that when they conflict, maximizing welfare for the most people is the more defensible principle. The defender might argue that the disability rights position, while morally serious, effectively privileges equal treatment as an absolute constraint that can override aggregate welfare \u2014 a move the utilitarian finds unjustified. The utilitarian would say that redirecting resources toward higher QALY-gain patients is not discrimination against disability as such but rather a consequence of caring impartially about welfare outcomes.",
+        "C": "Calculating QALYs differently for demographic groups to equalize scores would abandon the empirical basis of QALYs (which measure actual quality of life as reported by people) and would be internally inconsistent with the utilitarian approach. It would also raise its own equity questions about why scores are being adjusted.",
+        "D": "Explicitly stating that discrimination is acceptable when it maximizes welfare is technically the implication of strict total utilitarianism, but no sophisticated utilitarian defender would state it this way \u2014 such a statement is inflammatory and does not represent the strongest version of the utilitarian argument. The sophisticated response is that the policy is not discrimination (treating like cases differently without justification) but impartial welfare allocation."
+      },
+      "topic": "Inference / Utilitarian Counter-Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_phil_009",
+      "passage": null,
+      "passageRef": "cars_phil_006",
+      "stem": "The author's overall stance toward the utilitarian-Rawlsian conflict in healthcare can best be characterized as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "clearly endorsing the Rawlsian position as the only morally acceptable approach to resource allocation"
+        },
+        {
+          "label": "B",
+          "text": "presenting both positions as philosophically serious and the conflict as genuinely unresolved, with the critics' objections receiving somewhat more sympathetic development"
+        },
+        {
+          "label": "C",
+          "text": "arguing that healthcare should abandon all philosophical frameworks and rely solely on clinical judgment"
+        },
+        {
+          "label": "D",
+          "text": "dismissing Rawlsian principles as impractical for healthcare policy"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The author does not explicitly endorse the Rawlsian position. The passage describes the debate as 'unresolved in both academic philosophy and healthcare policy.' Endorsing one side would contradict this characterization.",
+        "B": "Correct. The passage presents the utilitarian case in the first paragraph, then devotes the second and third paragraphs to developing the critics' objections (discrimination concern, deeper distributive justice concern). This structural weighting gives the critics somewhat more development. The final sentence acknowledges the conflict is unresolved. This pattern \u2014 equal time to both but slightly more sympathetic development to the critics \u2014 is consistent with an author who finds the objections compelling but resists a definitive verdict.",
+        "C": "The passage explicitly engages with multiple philosophical frameworks (utilitarian, Rawlsian) as relevant to healthcare policy. There is no suggestion that philosophy should be abandoned in favor of clinical judgment alone.",
+        "D": "The Rawlsian principles are presented as constituting a serious philosophical challenge to QALY-maximization, not as impractical. The final sentence acknowledges they are active in both academic philosophy and healthcare policy."
+      },
+      "topic": "Author's Stance / Philosophical Balance",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_phil_010",
+      "passage": null,
+      "passageRef": "cars_phil_006",
+      "stem": "Which of the following, if true, would most strengthen the utilitarian case for QALY-maximization?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that disabled people report lower quality of life than non-disabled people even when given adequate resources and social support"
+        },
+        {
+          "label": "B",
+          "text": "Evidence that QALY-maximization has been shown to reduce total healthcare costs in pilot programs"
+        },
+        {
+          "label": "C",
+          "text": "Evidence that disability-adjusted quality of life ratings used in QALY calculations are determined by non-disabled people who systematically underestimate the quality of life actually experienced by disabled people"
+        },
+        {
+          "label": "D",
+          "text": "Evidence that a Rawlsian allocation system produces better aggregate welfare outcomes than a QALY-maximization system, while directing more resources to the worst-off"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The critics' discrimination charge rests in part on the claim that QALY calculations underestimate the welfare gains that medical treatment provides to disabled people \u2014 that the disability penalty in QALY scores reflects non-disabled people's judgments rather than actual quality of life. If evidence showed that disabled people themselves report lower quality of life than non-disabled people even with adequate resources (not because of external discrimination but because of the disability itself), this would support the utilitarian's position that the QALY difference reflects a real welfare difference, not bias \u2014 strengthening the case that directing fewer resources to lower-QALY patients is welfare-maximizing, not discriminatory.",
+        "B": "Reducing total costs is a practical benefit but does not directly address the ethical criticism. The critics are not primarily arguing about cost \u2014 they are arguing about justice and discrimination. Evidence about costs strengthens the efficiency case for QALY-maximization but does not address whether it is fair to the disabled and elderly.",
+        "C": "Evidence that QALY scores underestimate disabled people's actual quality of life would weaken, not strengthen, the utilitarian case. If the calculations are biased against disabled people (reflecting non-disabled raters' assumptions), then QALY-maximization would be directing resources away from disabled people based on incorrect quality-of-life estimates \u2014 exactly what the critics allege.",
+        "D": "If a Rawlsian system produced both better aggregate welfare and better distributive outcomes, this would weaken (not strengthen) the utilitarian case by showing that the Rawlsian alternative achieves utilitarian goals while also satisfying distributive concerns \u2014 making QALY-maximization unnecessary even on its own terms."
+      },
+      "topic": "Strengthening / Weakening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

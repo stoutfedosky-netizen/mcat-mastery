@@ -1,0 +1,337 @@
+{
+  "batch": "B066",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Acid-Base Chemistry & Buffers",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_acidbase_001",
+      "passage": "A biochemist prepares a phosphate buffer (H₂PO₄⁻/HPO₄²⁻, pKa₂ = 7.2) for an enzyme assay at pH 7.4 by mixing appropriate volumes of 0.2 M NaH₂PO₄ and 0.2 M Na₂HPO₄. She calculates the required ratio using the Henderson-Hasselbalch equation. She then tests the buffer's capacity by adding 1 mmol HCl to 100 mL of buffer (total phosphate ~20 mmol) and observes a minimal pH change. She also compares this buffer to an acetate buffer (pKa = 4.76) at the same pH and notes dramatically different buffering capacities.",
+      "stem": "To prepare the phosphate buffer at pH 7.4, the biochemist needs a [HPO₄²⁻]/[H₂PO₄⁻] ratio of approximately:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.6, calculated from Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]), so 7.4 = 7.2 + log(ratio), giving log(ratio) = 0.2, ratio ≈ 1.6"
+        },
+        {
+          "label": "B",
+          "text": "0.63, because the acid form must predominate"
+        },
+        {
+          "label": "C",
+          "text": "1.0, because equal concentrations always give pH 7.4"
+        },
+        {
+          "label": "D",
+          "text": "10, because the pH is one full unit above the pKa"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). Plugging in: 7.4 = 7.2 + log([HPO₄²⁻]/[H₂PO₄⁻]), so log(ratio) = 0.2, ratio = 10^0.2 ≈ 1.58. This means approximately 1.6 times more conjugate base than acid is needed. Since the target pH is slightly above pKa, the base form predominates — consistent with the Henderson-Hasselbalch prediction that pH > pKa means [A⁻] > [HA].",
+        "B": "A ratio of 0.63 would give pH = 7.2 + log(0.63) = 7.2 + (-0.2) = 7.0. This would produce a buffer at pH 7.0, not 7.4. A ratio less than 1 means more acid than base, shifting pH below pKa.",
+        "C": "Equal concentrations give pH = pKa = 7.2, not 7.4. When [A⁻] = [HA], log(1) = 0, so pH = pKa exactly. To reach pH 7.4, the base form must exceed the acid form.",
+        "D": "A ratio of 10 would give pH = 7.2 + log(10) = 7.2 + 1.0 = 8.2. This would overshoot the target by a full pH unit."
+      },
+      "topic": "Henderson-Hasselbalch / Buffer Preparation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acidbase_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "When 1 mmol HCl is added to 100 mL of the phosphate buffer (total phosphate ~20 mmol), the pH changes minimally because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "HCl is too weak an acid to affect the buffer"
+        },
+        {
+          "label": "B",
+          "text": "the added H⁺ reacts with HPO₄²⁻ to form H₂PO₄⁻, consuming the protons and shifting the ratio only slightly since 1 mmol is small relative to 20 mmol total buffer"
+        },
+        {
+          "label": "C",
+          "text": "the buffer is at maximum capacity and cannot absorb any acid"
+        },
+        {
+          "label": "D",
+          "text": "HCl reacts with water instead of the buffer components"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Buffer action: added H⁺ from HCl reacts with the conjugate base (HPO₄²⁻ + H⁺ → H₂PO₄⁻), converting 1 mmol of base to acid. Before: ~11 mmol HPO₄²⁻ and ~9 mmol H₂PO₄⁻ (ratio ~1.6). After: ~10 mmol HPO₄²⁻ and ~10 mmol H₂PO₄⁻ (ratio ~1.0). pH shifts from 7.4 to ~7.2 — a change of only ~0.2 pH units. The buffer resists the change because the added acid is a small fraction of total buffer capacity.",
+        "A": "HCl is a strong acid that fully dissociates in water (H⁺ + Cl⁻). It is not weak. The buffer resists the pH change not because HCl is weak, but because HPO₄²⁻ neutralizes the released H⁺.",
+        "C": "The buffer has ample remaining capacity — only 1 of ~20 mmol total phosphate has been consumed. Buffer capacity is exhausted only when nearly all of one component (acid or base) is consumed.",
+        "D": "HCl does dissociate in water to H₃O⁺ + Cl⁻, but the resulting H⁺ is then neutralized by the buffer's conjugate base. The buffer component, not water, is responsible for the pH stability."
+      },
+      "topic": "Buffer Action / Neutralization",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acidbase_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The acetate buffer (pKa = 4.76) at pH 7.4 has poor buffering capacity because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "acetate is not a real buffer system"
+        },
+        {
+          "label": "B",
+          "text": "the pH is 2.64 units above the pKa, meaning the [A⁻]/[HA] ratio is ~436:1 — virtually all buffer exists as acetate with negligible acetic acid available to neutralize added base"
+        },
+        {
+          "label": "C",
+          "text": "acetate buffers only work in organic solvents"
+        },
+        {
+          "label": "D",
+          "text": "the acetate concentration is too high for buffering"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Buffer capacity is maximal when pH = pKa (±1 unit). At pH 7.4, the acetate system is 2.64 units above its pKa: [A⁻]/[HA] = 10^(7.4-4.76) = 10^2.64 ≈ 436. This means >99.7% of the buffer is in the base form (acetate) and <0.3% is acid (acetic acid). Adding base would require acetic acid to neutralize it, but there is almost none available. The phosphate buffer (pKa = 7.2) is only 0.2 units from pH 7.4, maintaining a much more balanced ratio.",
+        "A": "Acetate/acetic acid is a perfectly valid buffer system — it is widely used for buffers near pH 4.76 (its pKa). The problem is not that it is not a buffer, but that it is being used far from its effective pH range.",
+        "C": "Acetate buffers work in aqueous solution — they are among the most common laboratory buffers. Solvent type is not the issue here.",
+        "D": "Higher buffer concentration actually increases buffering capacity by providing more moles of acid and base to neutralize additions. The problem is the extreme ratio, not the concentration."
+      },
+      "topic": "Buffer Capacity / pH vs pKa",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_acidbase_009",
+      "passage": null,
+      "stem": "The conjugate base of H₂CO₃ (carbonic acid) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "H₃CO₃⁺"
+        },
+        {
+          "label": "B",
+          "text": "CO₃²⁻"
+        },
+        {
+          "label": "C",
+          "text": "HCO₃⁻"
+        },
+        {
+          "label": "D",
+          "text": "H₂O"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. A conjugate base is formed when an acid donates one proton. H₂CO₃ → H⁺ + HCO₃⁻. Therefore bicarbonate (HCO₃⁻) is the conjugate base of carbonic acid. The bicarbonate buffer system (H₂CO₃/HCO₃⁻) is the primary blood buffer, maintained by the equilibrium CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. Respiratory and renal regulation of CO₂ and HCO₃⁻ maintain blood pH at 7.35–7.45.",
+        "A": "H₃CO₃⁺ would be the conjugate acid of H₂CO₃ (adding a proton), not the conjugate base. Conjugate bases have one fewer proton than the parent acid.",
+        "B": "CO₃²⁻ (carbonate) is the conjugate base of HCO₃⁻ (bicarbonate losing a second proton: HCO₃⁻ → H⁺ + CO₃²⁻). It is two proton-removal steps from H₂CO₃, not one.",
+        "D": "H₂O is the conjugate base of H₃O⁺ (hydronium), not of carbonic acid. Each acid has its own specific conjugate base formed by loss of exactly one proton."
+      },
+      "topic": "Conjugate Acid-Base Pairs",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acidbase_003",
+      "passage": null,
+      "stem": "What is the pH of a 0.001 M HCl solution?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3.0"
+        },
+        {
+          "label": "B",
+          "text": "4.0"
+        },
+        {
+          "label": "C",
+          "text": "2.0"
+        },
+        {
+          "label": "D",
+          "text": "1.0"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. HCl is a strong acid that fully dissociates: [H⁺] = 0.001 M = 1 × 10⁻³ M. pH = -log[H⁺] = -log(10⁻³) = 3.0. This is a fundamental MCAT calculation — for strong acids, [H⁺] equals the acid concentration directly because dissociation is complete.",
+        "B": "pH 4.0 corresponds to [H⁺] = 10⁻⁴ M = 0.0001 M, which is ten times more dilute than the given solution.",
+        "C": "pH 2.0 corresponds to [H⁺] = 10⁻² M = 0.01 M, which is ten times more concentrated than the given solution.",
+        "D": "pH 1.0 corresponds to [H⁺] = 10⁻¹ M = 0.1 M, which is 100 times more concentrated than the given solution."
+      },
+      "topic": "pH Calculation / Strong Acid",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acidbase_005",
+      "passage": null,
+      "stem": "A solution of 0.2 M acetic acid and 0.4 M sodium acetate has a pH closest to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4.46"
+        },
+        {
+          "label": "B",
+          "text": "4.76"
+        },
+        {
+          "label": "C",
+          "text": "5.76"
+        },
+        {
+          "label": "D",
+          "text": "5.06"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "5.76 would require [A⁻]/[HA] = 10 (pH = 4.76 + log 10 = 4.76 + 1 = 5.76). The actual ratio is 2, not 10.",
+        "A": "4.46 would result from a 2:1 acid-to-base ratio: pH = 4.76 + log(0.5) = 4.76 - 0.30 = 4.46. Here the base is twice the acid, not vice versa.",
+        "B": "4.76 would be the pH if [A⁻] = [HA] (equal concentrations), because log(1) = 0. Here [A⁻] = 2[HA], so pH > pKa.",
+        "D": "Correct. pH = pKa + log([A⁻]/[HA]) = 4.76 + log(0.4/0.2) = 4.76 + log(2) = 4.76 + 0.30 = 5.06. The base-to-acid ratio of 2:1 shifts the pH 0.30 units above pKa. Memorizing log(2) ≈ 0.30 is essential for MCAT pH calculations — it allows rapid estimation of buffer pH when concentrations differ by a factor of 2."
+      },
+      "topic": "Henderson-Hasselbalch Calculation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acidbase_006",
+      "passage": null,
+      "stem": "Which acid-base pair would provide the best buffer at pH 7.5?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Acetic acid/acetate (pKa = 4.76)"
+        },
+        {
+          "label": "B",
+          "text": "TRIS (pKa = 8.1) / TRIS-H⁺"
+        },
+        {
+          "label": "C",
+          "text": "Phosphoric acid/dihydrogen phosphate (pKa₁ = 2.15)"
+        },
+        {
+          "label": "D",
+          "text": "HEPES (pKa = 7.5) / HEPES⁻"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "Phosphoric acid's first pKa (2.15) is 5.35 units below 7.5. At this pH, virtually all H₃PO₄ has been deprotonated to H₂PO₄⁻ or HPO₄²⁻ — the first dissociation provides no buffering capacity. The second pKa (7.2) would be a better choice than the first.",
+        "A": "Acetic acid (pKa = 4.76) is 2.74 pH units below 7.5. The buffer would be >99.5% acetate with almost no acetic acid, providing negligible capacity at this pH.",
+        "B": "TRIS (pKa = 8.1) would work reasonably at pH 7.5 (only 0.6 units away, within the ±1 effective range), but HEPES at pKa = 7.5 is an exact match and provides optimal buffering.",
+        "D": "Correct. Maximum buffering capacity occurs when pH = pKa. HEPES has pKa = 7.5, exactly matching the target pH. At this pH, [A⁻]/[HA] = 1, and the buffer has equal capacity to neutralize added acid or base. HEPES is widely used in biological research for this reason — its pKa falls squarely in the physiological pH range."
+      },
+      "topic": "Buffer Selection / pKa Matching",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acidbase_007",
+      "passage": null,
+      "stem": "A weak acid HA has Ka = 1.0 × 10⁻⁵. Its pKa is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5.0"
+        },
+        {
+          "label": "B",
+          "text": "-5.0"
+        },
+        {
+          "label": "C",
+          "text": "9.0"
+        },
+        {
+          "label": "D",
+          "text": "1.0 × 10⁻⁵"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. pKa = -log(Ka) = -log(1.0 × 10⁻⁵) = -(-5) = 5.0. The pKa scale converts Ka values to a more intuitive logarithmic scale: lower pKa = stronger acid, higher pKa = weaker acid. A Ka of 10⁻⁵ corresponds to a moderately weak acid typical of carboxylic acids (similar to acetic acid, pKa 4.76).",
+        "B": "-5.0 results from omitting the negative sign in the pKa definition. pKa = -log(Ka), and since log(10⁻⁵) = -5, pKa = -(-5) = +5.0. Negative pKa values exist only for very strong acids (HCl has pKa ≈ -7).",
+        "C": "pKa = 9.0 would correspond to Ka = 10⁻⁹, which is a much weaker acid (like ammonium, pKa = 9.25). A Ka of 10⁻⁵ gives pKa = 5.0.",
+        "D": "1.0 × 10⁻⁵ is Ka itself, not pKa. pKa is the negative logarithm of Ka, converting the exponential scale to a simple number for easier comparison."
+      },
+      "topic": "pKa Calculation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acidbase_008",
+      "passage": null,
+      "stem": "Which of the following is the strongest acid?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "HF (Ka = 6.8 × 10⁻⁴)"
+        },
+        {
+          "label": "B",
+          "text": "CH₃COOH (Ka = 1.8 × 10⁻⁵)"
+        },
+        {
+          "label": "C",
+          "text": "H₃PO₄ (Ka₁ = 7.1 × 10⁻³)"
+        },
+        {
+          "label": "D",
+          "text": "HCN (Ka = 6.2 × 10⁻¹⁰)"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Acid strength is measured by Ka — the larger the Ka, the stronger the acid (more complete dissociation). H₃PO₄ has Ka₁ = 7.1 × 10⁻³, the largest among the options. Comparing: H₃PO₄ (10⁻³) > HF (10⁻⁴) > CH₃COOH (10⁻⁵) > HCN (10⁻¹⁰). All are weak acids (Ka < 1), but phosphoric acid is the strongest of the group.",
+        "A": "HF (Ka = 6.8 × 10⁻⁴, pKa ≈ 3.17) is stronger than acetic acid and HCN, but weaker than phosphoric acid (Ka₁ = 7.1 × 10⁻³). Its Ka is about 10 times smaller than phosphoric acid's first dissociation.",
+        "B": "Acetic acid (Ka = 1.8 × 10⁻⁵, pKa = 4.76) is a common weak acid used in buffer systems and vinegar. It is weaker than both HF and H₃PO₄ by Ka comparison.",
+        "D": "HCN (Ka = 6.2 × 10⁻¹⁰, pKa ≈ 9.2) is the weakest acid listed — its very small Ka indicates minimal dissociation. HCN is barely acidic in aqueous solution."
+      },
+      "topic": "Acid Strength / Ka Comparison",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_acidbase_010",
+      "passage": null,
+      "stem": "Buffer capacity increases with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increasing the pH far from the buffer's pKa"
+        },
+        {
+          "label": "B",
+          "text": "decreasing the total concentration of buffer components"
+        },
+        {
+          "label": "C",
+          "text": "increasing the total concentration of buffer components while maintaining pH near pKa"
+        },
+        {
+          "label": "D",
+          "text": "using a buffer whose pKa is 5 or more pH units from the target pH"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Buffer capacity (β) depends on two factors: (1) proximity of pH to pKa — capacity is maximal at pH = pKa (where [A⁻] = [HA]) and falls off outside ±1 unit; (2) total concentration — a 1 M buffer contains ten times more neutralizing capacity than a 0.1 M buffer at the same pH. Doubling total buffer concentration doubles the moles of acid and base available to neutralize additions, directly doubling capacity.",
+        "A": "Moving pH far from pKa dramatically reduces buffering capacity because the ratio [A⁻]/[HA] becomes extreme — one component is nearly exhausted and can no longer effectively neutralize added acid or base.",
+        "B": "Decreasing total concentration reduces capacity. Fewer total moles of buffer means fewer moles available to react with added acid or base. A dilute buffer is overwhelmed more quickly.",
+        "D": "A 5-unit difference between pKa and target pH makes the buffer essentially useless — the ratio would be 10⁵:1, meaning one component is present at 100,000 times the other. Effective buffering requires pKa within ±1 unit of the target pH."
+      },
+      "topic": "Buffer Capacity / Concentration",
+      "difficulty": "Medium"
+    }
+  ]
+}

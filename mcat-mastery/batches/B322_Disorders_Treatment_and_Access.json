@@ -1,0 +1,225 @@
+{
+  "batch": "B322",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Psychological Disorders, Treatment & Access",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_schizophrenia_symptoms_access_322_q0",
+      "passage": "A community mental-health center reviewed records from clients diagnosed with schizophrenia-spectrum disorders. Clients with prominent positive symptoms more often presented with hallucinations, disorganized speech, or paranoid delusions. Clients with prominent negative symptoms more often showed flat affect, avolition, and reduced social engagement. Case managers reported that negative symptoms were sometimes misread by family members as laziness or lack of motivation. The center added psychoeducation sessions to explain symptom categories and to connect families with supported employment and housing resources.",
+      "usePrevPassage": false,
+      "stem": "Which symptom listed in the passage is a negative symptom?",
+      "choices": {
+        "B": "Avolition",
+        "A": "Hallucinations",
+        "C": "Paranoid delusions",
+        "D": "Disorganized speech"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Avolition is a reduction in motivation or goal-directed behavior and is classified as a negative symptom because it reflects a decrease or absence of normal functioning. The passage groups avolition with flat affect and reduced social engagement.",
+        "A": "Hallucinations are positive symptoms because they add abnormal perceptual experiences.",
+        "C": "Paranoid delusions are positive symptoms involving fixed false beliefs.",
+        "D": "Disorganized speech is typically treated as a positive/disorganized symptom rather than a negative symptom."
+      },
+      "topic": "Psychological Disorders",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_schizophrenia_symptoms_access_322_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why might family members misread negative symptoms as laziness?",
+      "choices": {
+        "D": "Negative symptoms can appear as reduced action even though they reflect illness-related impairment",
+        "A": "Negative symptoms are always intentional behaviors",
+        "B": "Family members cannot observe behavior at home",
+        "C": "Positive symptoms are impossible to notice"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Negative symptoms often look like withdrawal, low expression, or reduced initiative. Without psychoeducation, observers may attribute these changes to character or effort rather than recognizing them as part of a psychiatric disorder.",
+        "A": "The passage presents negative symptoms as illness-related, not intentional misconduct.",
+        "B": "Families can observe behavior, but they may interpret it incorrectly.",
+        "C": "Positive symptoms such as hallucinations or delusions can be noticeable, but the passage focuses on misinterpretation of negative symptoms."
+      },
+      "topic": "Mental Health Literacy",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_schizophrenia_symptoms_access_322_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Supported employment and housing resources primarily address which dimension of care?",
+      "choices": {
+        "A": "Functional and social support needs beyond symptom reduction",
+        "B": "Retinal processing of hallucinations",
+        "C": "Formal operational reasoning",
+        "D": "Only neurotransmitter synthesis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Medication and therapy may target symptoms, but supported employment and housing address daily functioning, stability, and community participation. This reflects a biopsychosocial approach rather than a purely biological treatment model.",
+        "B": "Retinal processing is not the central issue in community support for schizophrenia.",
+        "C": "Formal operational reasoning is a developmental concept and does not explain housing support.",
+        "D": "Neurotransmitter processes may matter biologically, but the listed resources target social functioning."
+      },
+      "topic": "Treatment and Access",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_schizophrenia_symptoms_access_322_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A clinician using the passage to educate families should emphasize what?",
+      "choices": {
+        "C": "Reduced motivation or expression may be symptoms, not moral failures",
+        "A": "All symptoms should be treated as deliberate choices",
+        "B": "Only hallucinations affect functioning",
+        "D": "Families should avoid all involvement in care"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The psychoeducation goal is to correct harmful attributions. Explaining negative symptoms can reduce blame and help families support treatment and functional resources more effectively.",
+        "A": "The passage specifically challenges the idea that symptoms are deliberate choices.",
+        "B": "Negative symptoms can strongly affect functioning, so hallucinations are not the only concern.",
+        "D": "Family involvement through education is part of the center's response, not something to avoid."
+      },
+      "topic": "Applied Clinical Psychology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_schizophrenia_symptoms_access_322_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What is a limitation of using records from one community center?",
+      "choices": {
+        "B": "The pattern may not generalize to all patients or treatment settings",
+        "A": "Records cannot contain clinical information",
+        "C": "The study proves psychoeducation works for every family",
+        "D": "Schizophrenia symptoms cannot be categorized"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. A single center can provide valuable clinical observations, but its clients, resources, and documentation practices may differ from other settings. Generalization should therefore be cautious unless similar findings appear across broader samples.",
+        "A": "Clinical records can contain useful symptom and service information.",
+        "C": "The passage describes adding psychoeducation, but it does not prove universal effectiveness.",
+        "D": "Positive and negative symptom categories are clinically meaningful even if individual presentations vary."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_cbt_depression_access_322_q5",
+      "passage": "A primary-care clinic embedded a therapist to provide brief cognitive-behavioral therapy for patients with mild to moderate depressive symptoms. Before the program, many patients received medication referrals but did not attend outside therapy because of cost, transportation, or scheduling barriers. After embedding the therapist, more patients completed at least four therapy sessions. Clinicians noted that CBT sessions focused on identifying negative automatic thoughts, scheduling rewarding activities, and practicing coping skills between visits. The clinic described the program as collaborative care rather than a replacement for specialty mental-health treatment.",
+      "usePrevPassage": false,
+      "stem": "Which CBT component is most clearly described in the passage?",
+      "choices": {
+        "A": "Identifying negative automatic thoughts",
+        "B": "Free association with no structure",
+        "C": "Dream interpretation as the main tool",
+        "D": "Random reinforcement schedules"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. CBT often targets distorted or unhelpful thought patterns and links them to mood and behavior. The passage explicitly says sessions included identifying negative automatic thoughts along with behavioral activation and coping skills.",
+        "B": "Free association is more associated with psychodynamic approaches than brief CBT in primary care.",
+        "C": "Dream interpretation is not presented as the main strategy in this CBT program.",
+        "D": "Random reinforcement schedules are a learning concept, not the therapy component described."
+      },
+      "topic": "Treatment",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_cbt_depression_access_322_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why did embedding a therapist in primary care increase access?",
+      "choices": {
+        "D": "It reduced practical barriers such as cost, transportation, and scheduling",
+        "A": "It made depressive symptoms disappear before treatment",
+        "B": "It prevented patients from needing any medical care",
+        "C": "It changed patients' insurance status by diagnosis alone"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The passage states that outside referrals were hard to complete because of cost, transport, and scheduling. Locating therapy within primary care directly lowers those access barriers and makes session attendance more feasible.",
+        "A": "The program increased therapy completion; it did not make symptoms vanish before treatment.",
+        "B": "Collaborative care adds mental-health support within medical care rather than eliminating medical care.",
+        "C": "The passage does not claim diagnostic labeling changed insurance status automatically."
+      },
+      "topic": "Healthcare Access",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_cbt_depression_access_322_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Behavioral activation in CBT is represented by which activity?",
+      "choices": {
+        "C": "Scheduling rewarding activities",
+        "A": "Avoiding all social contact until mood improves",
+        "B": "Suppressing every sad thought without examining it",
+        "D": "Treating depression only with punishment"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Behavioral activation aims to increase engagement in meaningful or rewarding activities that can improve mood and interrupt withdrawal. Scheduling rewarding activities is therefore a direct example.",
+        "A": "Avoidance often maintains depression and is not the activation strategy described.",
+        "B": "CBT examines and responds to thoughts rather than simply suppressing them.",
+        "D": "Punishment is not the therapeutic principle described in the passage."
+      },
+      "topic": "Clinical Psychology",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_cbt_depression_access_322_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why call the program collaborative care rather than a replacement for specialty treatment?",
+      "choices": {
+        "B": "Primary-care therapy can help many patients while more severe or complex cases may still need specialty care",
+        "A": "Primary care clinicians should never discuss mental health",
+        "C": "Brief CBT is identical to inpatient psychiatric treatment",
+        "D": "Specialty care has no role once a therapist is embedded"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Collaborative care integrates services so patients can receive more support in an accessible setting. It does not imply that every case can be managed entirely in primary care or that specialty treatment becomes unnecessary.",
+        "A": "The passage shows primary care can be an appropriate site for mental-health intervention.",
+        "C": "Brief outpatient CBT is not the same as inpatient psychiatric treatment.",
+        "D": "Specialty care remains important for severe, complex, or refractory cases."
+      },
+      "topic": "Healthcare Systems",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_cbt_depression_access_322_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which outcome would best evaluate whether the embedded program improved treatment engagement?",
+      "choices": {
+        "D": "The proportion of referred patients completing four or more therapy sessions before and after embedding the therapist",
+        "A": "The color of the clinic waiting room",
+        "B": "Whether patients can define the term depression",
+        "C": "The number of parking spaces at unrelated clinics"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Treatment engagement concerns whether patients actually start and continue care. Comparing completion of a meaningful number of sessions before and after embedding the therapist directly measures the access problem described in the passage.",
+        "A": "Waiting-room color does not measure therapy attendance or engagement.",
+        "B": "Knowing a definition may reflect literacy but not whether care was completed.",
+        "C": "Unrelated clinic parking does not assess the embedded program's effect on therapy completion."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

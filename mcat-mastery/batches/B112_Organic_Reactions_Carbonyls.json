@@ -1,0 +1,338 @@
+{
+  "batch": "B112",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Organic Reactions: Carbonyls & Carboxylic Acid Derivatives",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cp_carbonyl_001",
+      "passage": "An organic chemistry student studies the reactivity of carbonyl compounds. She examines nucleophilic addition to aldehydes and ketones, nucleophilic acyl substitution at carboxylic acid derivatives, and condensation reactions. She compares the reactivity of the carbonyl group across different functional groups — aldehydes, ketones, carboxylic acids, esters, amides, and acid chlorides — and studies how electronic and steric effects influence reaction rates. She also examines biologically relevant carbonyl reactions including peptide bond formation, Fischer esterification, and the role of thioesters (acetyl-CoA) in metabolism.",
+      "stem": "Aldehydes are generally more reactive toward nucleophilic addition than ketones because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "aldehydes have less steric hindrance at the carbonyl carbon (one H vs two R groups) and less electron donation to the carbonyl — both factors make the carbonyl carbon more electrophilic and more accessible to nucleophilic attack"
+        },
+        {
+          "label": "B",
+          "text": "ketones have more acidic α-hydrogens"
+        },
+        {
+          "label": "C",
+          "text": "aldehydes have higher boiling points than ketones"
+        },
+        {
+          "label": "D",
+          "text": "ketones cannot undergo nucleophilic addition reactions at all"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Two factors favor aldehyde reactivity: (1) Steric: the aldehyde carbonyl has one H and one R group, while ketones have two R groups flanking the electrophilic carbon. The bulkier ketone substituents create more steric crowding, slowing nucleophilic approach. (2) Electronic: alkyl groups are electron-donating (hyperconjugation, induction), which partially stabilize the δ+ on the carbonyl carbon, reducing its electrophilicity. Ketones have two electron-donating R groups (vs one for aldehydes), making their carbonyl carbon less electrophilic. Combined effect: aldehydes undergo nucleophilic addition faster and more completely than ketones.",
+        "B": "The acidity of α-hydrogens relates to enolization and α-substitution reactions, not directly to the relative rates of nucleophilic addition. α-Hydrogen acidity depends on adjacent electron-withdrawing groups, not on whether the compound is an aldehyde or ketone per se.",
+        "C": "Boiling point is a physical property reflecting intermolecular forces, not chemical reactivity toward nucleophilic addition. In fact, ketones generally have higher boiling points than aldehydes of similar MW due to greater dipole moments.",
+        "D": "Ketones do undergo nucleophilic addition — they are just slower than aldehydes. Grignard reactions, reduction (NaBH₄, LiAlH₄), and cyanohydrin formation all work with ketones, albeit at lower rates."
+      },
+      "topic": "Aldehyde vs Ketone Reactivity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_carbonyl_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The order of reactivity toward nucleophilic acyl substitution for carboxylic acid derivatives (most to least reactive) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "amide > ester > acid chloride > anhydride"
+        },
+        {
+          "label": "B",
+          "text": "acid chloride > anhydride > ester > amide — the better the leaving group (more stable after departure), the more reactive the derivative; Cl⁻ is a better leaving group than RO⁻, which is better than NH₂⁻"
+        },
+        {
+          "label": "C",
+          "text": "all carboxylic acid derivatives react at exactly the same rate"
+        },
+        {
+          "label": "D",
+          "text": "ester > amide > acid chloride > anhydride"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This reverses the correct order. Amides are the least reactive (poorest leaving group, strongest resonance stabilization), and acid chlorides are the most reactive.",
+        "B": "Correct. Nucleophilic acyl substitution reactivity: acid chlorides > anhydrides > esters > amides. This order reflects leaving group stability: Cl⁻ (stable, weak base — excellent leaving group) > RCOO⁻ (resonance-stabilized — good) > RO⁻ (moderate base — moderate) > NH₂⁻/NHR⁻ (strong base — poor leaving group, strongly stabilized by resonance donation into the carbonyl). Resonance donation also matters: the nitrogen lone pair in amides donates strongly into the carbonyl (amide resonance), reducing the electrophilicity of the carbonyl carbon and stabilizing the tetrahedral intermediate less favorably. This is why amide bonds (peptide bonds) are kinetically stable — they require enzymes (proteases) or harsh conditions to hydrolyze.",
+        "C": "Carboxylic acid derivatives have dramatically different reactivity — spanning many orders of magnitude. Acid chlorides react instantly with water; amides require acid or base catalysis at high temperatures to hydrolyze.",
+        "D": "This order is incorrect. Esters are less reactive than acid chlorides, and amides are less reactive than esters."
+      },
+      "topic": "Acyl Substitution Reactivity Order",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_carbonyl_003",
+      "passage": null,
+      "stem": "Fischer esterification is the reaction between:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an alkene and HBr"
+        },
+        {
+          "label": "B",
+          "text": "two amino acids to form a peptide bond"
+        },
+        {
+          "label": "C",
+          "text": "an aldehyde and a Grignard reagent"
+        },
+        {
+          "label": "D",
+          "text": "a carboxylic acid and an alcohol in the presence of an acid catalyst — producing an ester and water; the reaction is reversible, and excess alcohol or removal of water drives it toward products (Le Chatelier's principle)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Alkene + HBr is an electrophilic addition (Markovnikov addition of HBr across the double bond), producing an alkyl halide. This is unrelated to ester formation.",
+        "B": "Two amino acids forming a peptide bond is peptide bond formation (amide bond, specifically between α-amino and α-carboxyl groups). While conceptually related (both form bonds with loss of water), Fischer esterification specifically produces esters, not amides.",
+        "C": "Aldehyde + Grignard reagent is a Grignard reaction (nucleophilic addition), producing a secondary alcohol after workup. This is not esterification.",
+        "D": "Correct. Fischer esterification: RCOOH + R'OH ⇌ RCOOR' + H₂O (acid catalyst: H₂SO₄ or p-TsOH). Mechanism: acid protonates carbonyl oxygen → nucleophilic attack by alcohol on electrophilic carbonyl carbon → proton transfer → loss of water → ester product. The reaction is reversible (equilibrium) — driving toward products by using excess alcohol (cheap reagent) or removing water (Dean-Stark trap, molecular sieves). Reverse reaction (ester hydrolysis in acid) follows the same mechanism in reverse. Biological equivalent: ester bond formation in lipid synthesis (triglycerides from glycerol + fatty acids), though enzymatically catalyzed."
+      },
+      "topic": "Fischer Esterification / Ester Synthesis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_carbonyl_004",
+      "passage": null,
+      "stem": "The peptide bond (amide bond) that links amino acids in proteins is formed by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an oxidation-reduction reaction between the amino acids"
+        },
+        {
+          "label": "B",
+          "text": "ionic bonding between oppositely charged side chains"
+        },
+        {
+          "label": "C",
+          "text": "a condensation reaction between the α-amino group of one amino acid and the α-carboxyl group of another — releasing water and forming a C-N bond with partial double-bond character due to resonance"
+        },
+        {
+          "label": "D",
+          "text": "hydrogen bonding between backbone atoms"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Peptide bond formation is a condensation reaction (loss of water), not a redox reaction. No electrons are transferred between the amino acids.",
+        "B": "Ionic bonding between charged side chains (salt bridges: e.g., Lys⁺-Asp⁻) contributes to tertiary structure but is not the peptide bond itself. The peptide bond is a covalent amide bond.",
+        "C": "Correct. Peptide bond formation: the α-NH₂ of one amino acid attacks the α-COOH of another, releasing H₂O (condensation/dehydration synthesis). In vivo, this is catalyzed by the ribosome (peptidyl transferase activity of the 23S rRNA in the large subunit). The peptide bond has partial double-bond character due to resonance between the C=O and C-N bonds — the nitrogen lone pair delocalizes into the carbonyl, creating ~40% double-bond character. Consequences: the peptide bond is planar (restricted rotation), relatively short (1.33 Å vs 1.47 Å for a typical C-N single bond), and the trans configuration is strongly preferred (>99.9%, except before Pro). Amide bonds are kinetically stable (high Ea for hydrolysis) but thermodynamically unfavorable at neutral pH (ΔG > 0) — they require ATP-driven activation in vivo.",
+        "D": "Hydrogen bonding between backbone N-H and C=O groups stabilizes secondary structure (α-helix, β-sheet) but is not the peptide bond. The peptide bond is a covalent bond, much stronger than hydrogen bonds."
+      },
+      "topic": "Peptide Bond / Amide Bond / Resonance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_carbonyl_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Thioesters (e.g., acetyl-CoA) are biologically important because they are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "more reactive than oxygen esters — the sulfur atom provides less resonance stabilization to the carbonyl than oxygen, making the carbonyl carbon more electrophilic and the thioester a better acyl-group donor in metabolic reactions"
+        },
+        {
+          "label": "B",
+          "text": "less reactive than amides and therefore more stable in biological systems"
+        },
+        {
+          "label": "C",
+          "text": "identical in reactivity to standard oxygen esters"
+        },
+        {
+          "label": "D",
+          "text": "only found in plant cells, not animal cells"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Thioesters (R-CO-S-R') are more reactive than oxygen esters (R-CO-O-R') because sulfur is a poorer resonance donor than oxygen: S is larger (3p orbitals overlap less effectively with the 2p orbital of the carbonyl carbon) and less electronegative (less tendency to share its lone pair). Reduced resonance stabilization → the carbonyl carbon retains more electrophilic character → more susceptible to nucleophilic attack. Acetyl-CoA is the central metabolic thioester: it donates its acetyl group to oxaloacetate (citrate synthase, TCA cycle), to choline (acetylcholine synthesis), to fatty acid chains (fatty acid synthase), and in many other acyltransferase reactions. The thioester bond of acetyl-CoA is thermodynamically 'high-energy' (ΔG°' of hydrolysis ≈ -31 kJ/mol) compared to regular esters (~-20 kJ/mol).",
+        "B": "Thioesters are more reactive than regular esters (and much more reactive than amides). Their relative reactivity is a feature, not a bug — it makes them excellent acyl-group donors in metabolism.",
+        "C": "Thioesters are distinctly more reactive than oxygen esters due to weaker resonance stabilization by sulfur. This difference is biologically significant and exploited extensively in metabolism.",
+        "D": "Thioesters are ubiquitous across all life — acetyl-CoA is central to energy metabolism in bacteria, plants, and animals alike."
+      },
+      "topic": "Thioesters / Acetyl-CoA / Metabolic Reactivity",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_carbonyl_006",
+      "passage": null,
+      "stem": "Reduction of an aldehyde with NaBH₄ produces:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a carboxylic acid"
+        },
+        {
+          "label": "B",
+          "text": "a ketone"
+        },
+        {
+          "label": "C",
+          "text": "an alkane"
+        },
+        {
+          "label": "D",
+          "text": "a primary alcohol — NaBH₄ delivers hydride (H⁻) to the electrophilic carbonyl carbon, converting R-CHO to R-CH₂OH after aqueous workup"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Oxidation of an aldehyde produces a carboxylic acid (RCHO → RCOOH, using KMnO₄, CrO₃, or Jones reagent). NaBH₄ is a reducing agent, performing the opposite transformation.",
+        "B": "Converting an aldehyde to a ketone would not be a simple reduction — it would require adding a carbon substituent (e.g., Grignard reaction followed by oxidation). NaBH₄ adds H⁻, not an R group.",
+        "C": "An alkane would require complete reduction of the aldehyde (removing the oxygen entirely). NaBH₄ only reduces the C=O to C-OH, not to C-H. Wolff-Kishner or Clemmensen reduction would be needed for complete deoxygenation.",
+        "D": "Correct. NaBH₄ is a mild reducing agent that selectively reduces aldehydes and ketones (C=O → C-OH): aldehyde (RCHO) → primary alcohol (RCH₂OH); ketone (RCOR') → secondary alcohol (RCHOHR'). Mechanism: hydride (H⁻) from BH₄⁻ attacks the electrophilic carbonyl carbon (nucleophilic addition) → alkoxide intermediate → protonation during aqueous workup → alcohol product. NaBH₄ does not reduce esters, amides, or carboxylic acids (too mild). LiAlH₄ is a stronger reducing agent that reduces all carbonyls including esters (→ 2 alcohols) and carboxylic acids (→ primary alcohols)."
+      },
+      "topic": "NaBH₄ Reduction / Aldehyde → Primary Alcohol",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_carbonyl_007",
+      "passage": null,
+      "stem": "An aldol reaction involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the nucleophilic addition of an enolate (from one aldehyde or ketone) to the carbonyl of another — forming a β-hydroxy carbonyl (aldol product), which can undergo dehydration to give an α,β-unsaturated carbonyl (aldol condensation)"
+        },
+        {
+          "label": "B",
+          "text": "the substitution of a halide by a nucleophile at an sp³ carbon"
+        },
+        {
+          "label": "C",
+          "text": "the addition of HBr across a double bond"
+        },
+        {
+          "label": "D",
+          "text": "the free radical polymerization of ethylene"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Aldol reaction: (1) base removes an α-hydrogen → enolate ion (resonance-stabilized carbanion); (2) enolate (nucleophile) attacks the carbonyl of another molecule (electrophile) → β-hydroxy aldehyde/ketone (aldol product). If heated, the aldol product can dehydrate (-H₂O) to give an α,β-unsaturated carbonyl (conjugated enone) — this overall process is aldol condensation. The aldol reaction forms a new C-C bond, making it critical in organic synthesis. Biologically, aldol reactions are catalyzed by aldolase enzymes: fructose-1,6-bisphosphate aldolase in glycolysis (reverse aldol: F1,6BP → G3P + DHAP) and citrate synthase (Claisen condensation variant).",
+        "B": "Nucleophilic substitution at an sp³ carbon (SN1 or SN2) is a different reaction class. The aldol reaction involves nucleophilic addition to a carbonyl (sp² carbon).",
+        "C": "Addition of HBr across a double bond is electrophilic addition, unrelated to the aldol reaction.",
+        "D": "Free radical polymerization is a chain reaction mechanism for forming polymers, not an aldol reaction."
+      },
+      "topic": "Aldol Reaction / C-C Bond Formation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_carbonyl_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Saponification is the base-catalyzed hydrolysis of an ester, producing:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an ether and an alcohol"
+        },
+        {
+          "label": "B",
+          "text": "a carboxylate salt and an alcohol — NaOH cleaves the ester bond: RCOOR' + NaOH → RCOONa + R'OH; this is irreversible because the carboxylate anion is resonance-stabilized and unreactive toward the reverse reaction"
+        },
+        {
+          "label": "C",
+          "text": "two aldehydes"
+        },
+        {
+          "label": "D",
+          "text": "an amide and water"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Ether formation (Williamson ether synthesis: RO⁻ + R'X → ROR' + X⁻) is a different reaction. Saponification cleaves an ester to give a carboxylate salt and alcohol, not an ether.",
+        "B": "Correct. Saponification: ester + strong base → carboxylate salt + alcohol. RCOOR' + NaOH → RCOO⁻Na⁺ + R'OH. Unlike acid-catalyzed ester hydrolysis (reversible), saponification is irreversible because the product carboxylate anion (RCOO⁻) is resonance-stabilized and a very poor electrophile — it cannot be attacked by the alcohol to reform the ester. The name comes from soap-making: triglycerides (fat/oil esters of glycerol + fatty acids) + NaOH → sodium fatty acid salts (soap) + glycerol. Soap molecules are amphipathic: the long hydrocarbon tail is hydrophobic; the carboxylate head is hydrophilic. This allows soap to emulsify grease in water.",
+        "C": "Ester hydrolysis does not produce aldehydes. It produces a carboxylic acid (or carboxylate salt in base) and an alcohol.",
+        "D": "Amide + water would be the hydrolysis of an amide, not an ester. Ester hydrolysis produces an acid/salt + alcohol."
+      },
+      "topic": "Saponification / Ester Hydrolysis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_carbonyl_009",
+      "passage": null,
+      "stem": "The Grignard reaction involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "electrophilic aromatic substitution on benzene"
+        },
+        {
+          "label": "B",
+          "text": "free radical halogenation of alkanes"
+        },
+        {
+          "label": "C",
+          "text": "nucleophilic addition of an organomagnesium halide (RMgX) to a carbonyl compound — forming a new C-C bond: with formaldehyde → primary alcohol, with other aldehydes → secondary alcohol, with ketones → tertiary alcohol"
+        },
+        {
+          "label": "D",
+          "text": "E2 elimination to form an alkene"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Electrophilic aromatic substitution (EAS: nitration, halogenation, Friedel-Crafts) is a different reaction class involving aromatic ring reactivity.",
+        "B": "Free radical halogenation (e.g., CH₄ + Cl₂ → CH₃Cl + HCl) is a chain reaction mechanism unrelated to Grignard chemistry.",
+        "C": "Correct. Grignard reagents (RMgX, prepared from RX + Mg in ether): the carbon bonded to Mg is a strong nucleophile/base (essentially a carbanion, R⁻). Nucleophilic addition to carbonyls: (1) RMgX + H₂CO (formaldehyde) → RCH₂OH (1° alcohol — adds one carbon); (2) RMgX + RCHO (aldehyde) → R₂CHOH (2° alcohol); (3) RMgX + R₂CO (ketone) → R₃COH (3° alcohol); (4) RMgX + CO₂ → RCOOH (carboxylic acid, after acidic workup); (5) RMgX + ester → 3° alcohol (2 equivalents of RMgX add). Grignard reagents are extremely moisture-sensitive (react with water: RMgX + H₂O → RH + Mg(OH)X), requiring anhydrous conditions and ether solvents.",
+        "D": "E2 elimination produces alkenes from alkyl halides using strong bases. Grignard reagents are nucleophiles that add to carbonyls, forming alcohols via C-C bond formation."
+      },
+      "topic": "Grignard Reaction / C-C Bond Formation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_carbonyl_010",
+      "passage": null,
+      "stem": "Amide bonds are particularly resistant to hydrolysis compared to other carboxylic acid derivatives because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "amides have the shortest C-N bond lengths of all functional groups"
+        },
+        {
+          "label": "B",
+          "text": "the nitrogen lone pair is too small to interact with the carbonyl"
+        },
+        {
+          "label": "C",
+          "text": "amide bonds are ionic, not covalent"
+        },
+        {
+          "label": "D",
+          "text": "strong resonance donation from nitrogen into the carbonyl stabilizes the amide, reducing the electrophilicity of the carbonyl carbon and making NH₂⁻/NHR⁻ a poor leaving group — this kinetic stability is why proteins require proteases for peptide bond cleavage"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "While the C-N bond in amides is shorter than a typical C-N single bond (1.33 Å vs 1.47 Å) due to partial double-bond character, bond length alone doesn't explain resistance to hydrolysis. The explanation lies in resonance stabilization reducing electrophilicity and creating a poor leaving group.",
+        "B": "The nitrogen lone pair is very effectively delocalized into the carbonyl — this is the primary reason for amide stability. The 2p orbital of nitrogen overlaps well with the 2p orbital of the carbonyl carbon.",
+        "C": "Amide bonds are covalent, not ionic. They are specifically covalent bonds with partial double-bond character from resonance.",
+        "D": "Correct. Amide resonance: the nitrogen lone pair delocalizes into the carbonyl (N-C=O ↔ N=C-O⁻), giving the C-N bond ~40% double-bond character. Consequences: (1) reduced electrophilicity of the carbonyl carbon (nitrogen donates electron density → less δ+ on carbon → less susceptible to nucleophilic attack); (2) NH₂⁻ is a very poor leaving group (strong base, pKa ~36); (3) the planar, resonance-stabilized structure has a high activation energy barrier for hydrolysis. Combined, amide bonds have half-lives of ~600 years at neutral pH and 25°C in the absence of catalysts. Proteases achieve hydrolysis rates 10⁹-10¹²-fold faster through transition-state stabilization, acid-base catalysis, and substrate strain."
+      },
+      "topic": "Amide Stability / Resonance / Protease Requirement",
+      "difficulty": "Hard"
+    }
+  ]
+}

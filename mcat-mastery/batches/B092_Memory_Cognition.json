@@ -1,0 +1,339 @@
+{
+  "batch": "B092",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Memory & Cognition",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_mem_001",
+      "passage": "A cognitive psychologist studies memory processes. She designs experiments examining encoding, storage, and retrieval across the three stages of memory: sensory memory (iconic/echoic, lasting milliseconds-seconds), short-term/working memory (limited capacity ~7±2 items, lasting ~20-30 seconds without rehearsal), and long-term memory (potentially unlimited capacity and duration). She studies the serial position effect, levels of processing theory, schema theory, and common memory errors. She also examines the biological basis of memory, including the role of the hippocampus in consolidation and the distinction between explicit (declarative) and implicit (nondeclarative) memory.",
+      "stem": "Working memory has a limited capacity of approximately 7±2 items (Miller's magic number). This capacity can be effectively increased by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "chunking — grouping individual items into meaningful units (e.g., remembering '4-8-3-7-2-9-1-5' as '48-37-29-15'), which reduces the number of items from 8 to 4 chunks"
+        },
+        {
+          "label": "B",
+          "text": "simply repeating the items faster (rote rehearsal alone expands capacity)"
+        },
+        {
+          "label": "C",
+          "text": "eliminating all rehearsal and relying on sensory memory"
+        },
+        {
+          "label": "D",
+          "text": "reducing attention to the task"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Chunking reorganizes individual items into larger, meaningful units, effectively increasing the amount of information held in working memory without exceeding the ~7±2 item limit. Experts use chunking extensively: chess masters chunk board positions, musicians chunk notes into phrases, and radiologists chunk visual features. The key is that each 'chunk' counts as one item regardless of its internal complexity. Phone numbers are formatted as chunks (555-867-5309 = 3 chunks vs 10 digits). Elaborative rehearsal (connecting to existing knowledge) also improves encoding into LTM.",
+        "B": "Rote rehearsal (maintenance rehearsal) maintains items in working memory but does not expand capacity. You still hold ~7±2 items; rehearsal just prevents decay. Elaborative rehearsal improves transfer to LTM but does not increase WM capacity.",
+        "C": "Sensory memory has large capacity but extremely brief duration (iconic ~250 ms, echoic ~3-4 s). Relying on it would lose information rapidly. Working memory's strength is its active maintenance and manipulation capabilities.",
+        "D": "Reducing attention impairs working memory performance. The central executive component of Baddeley's working memory model requires attentional resources to coordinate the phonological loop and visuospatial sketchpad."
+      },
+      "topic": "Chunking / Working Memory Capacity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_mem_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The serial position effect shows that people recall items from the beginning and end of a list better than the middle. The recency effect (better recall of final items) is attributed to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "those items being transferred to long-term memory through rehearsal"
+        },
+        {
+          "label": "B",
+          "text": "those items still being held in short-term/working memory at the time of recall — they have not yet decayed or been displaced"
+        },
+        {
+          "label": "C",
+          "text": "the items being semantically more meaningful than middle items"
+        },
+        {
+          "label": "D",
+          "text": "proactive interference from earlier items enhancing recall of later ones"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The recency effect occurs because the last few items are still in short-term memory (STM) when immediate recall is tested. They have not yet been displaced by new information or had time to decay. Evidence: the recency effect disappears if there is a delay with a distractor task between presentation and recall (the filled delay displaces items from STM), while the primacy effect (better recall of initial items) persists because those items had the most rehearsal time and were transferred to LTM. This dissociation supports the dual-store model of memory.",
+        "A": "Transfer to LTM through rehearsal explains the primacy effect, not the recency effect. Early items receive the most rehearsal because they occupy STM alone initially, allowing more encoding into LTM.",
+        "C": "All items in typical serial position experiments are matched for meaningfulness (e.g., random words). The effect is positional, not semantic.",
+        "D": "Proactive interference (old learning interfering with new) actually impairs recall of later items. It is one reason middle items are recalled poorly — they suffer from both proactive interference (from earlier items) and retroactive interference (from later items)."
+      },
+      "topic": "Serial Position Effect / Recency",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_mem_003",
+      "passage": null,
+      "stem": "The levels of processing theory (Craik & Lockhart) predicts that deeper processing produces better memory. Deep processing involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "focusing on the physical appearance of words (shallow — visual features like font, color)"
+        },
+        {
+          "label": "B",
+          "text": "focusing on the sound of words (intermediate — phonological processing)"
+        },
+        {
+          "label": "C",
+          "text": "focusing on the meaning and personal relevance of the information (semantic processing) — connecting new information to existing knowledge structures produces the strongest memory traces"
+        },
+        {
+          "label": "D",
+          "text": "repeating information without thinking about its meaning (maintenance rehearsal)"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Craik and Lockhart's framework: structural processing (shallow — how does the word look?) → phonemic processing (intermediate — how does it sound?) → semantic processing (deep — what does it mean?). Deeper processing creates more elaborate, distinctive memory traces with more retrieval cues. Self-referential processing (how does this relate to me?) produces the deepest encoding (self-reference effect). Example: 'Does TIGER fit in this sentence?' (semantic) produces better recall than 'Does TIGER rhyme with liger?' (phonemic) or 'Is TIGER in capital letters?' (structural).",
+        "A": "Structural/visual processing is the shallowest level and produces the weakest memory. Noticing that 'TIGER' is in capital letters creates a minimal memory trace.",
+        "B": "Phonological processing is intermediate — better than structural but weaker than semantic. Rhyme judgments produce moderate recall.",
+        "D": "Maintenance rehearsal (simple repetition) keeps information in STM but does not promote deep encoding into LTM. Elaborative rehearsal (connecting to meaning) is far more effective."
+      },
+      "topic": "Levels of Processing / Depth of Encoding",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_mem_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The hippocampus is critical for:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "motor coordination and balance"
+        },
+        {
+          "label": "B",
+          "text": "basic sensory processing of visual stimuli"
+        },
+        {
+          "label": "C",
+          "text": "consolidation of new explicit (declarative) memories from short-term to long-term storage — damage causes anterograde amnesia (inability to form new declarative memories) while implicit memory remains intact"
+        },
+        {
+          "label": "D",
+          "text": "regulation of hunger and thirst"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The hippocampus (medial temporal lobe) is essential for consolidating new declarative (explicit) memories — both episodic (personal events) and semantic (factual knowledge). Patient H.M. (Henry Molaison), after bilateral hippocampal removal for epilepsy, could not form new declarative memories (severe anterograde amnesia) but retained pre-surgical memories and could learn new motor skills (implicit/procedural memory — cerebellum and basal ganglia). The hippocampus acts as a temporary index, binding distributed cortical representations into coherent memories during consolidation. Over time, memories become hippocampus-independent (systems consolidation).",
+        "A": "Motor coordination and balance are functions of the cerebellum, not the hippocampus. The cerebellum is also involved in procedural memory and motor learning.",
+        "B": "Visual processing occurs in the occipital lobe (primary visual cortex, V1) and associated visual areas, not the hippocampus.",
+        "D": "Hunger and thirst regulation are functions of the hypothalamus (lateral hypothalamus for hunger, osmoreceptors and thirst centers for fluid balance)."
+      },
+      "topic": "Hippocampus / Memory Consolidation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_mem_005",
+      "passage": null,
+      "stem": "Retroactive interference occurs when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "old memories interfere with the ability to learn new information"
+        },
+        {
+          "label": "B",
+          "text": "emotional arousal completely prevents any memory formation"
+        },
+        {
+          "label": "C",
+          "text": "memories improve over time without additional study"
+        },
+        {
+          "label": "D",
+          "text": "new learning interferes with the retrieval of older memories — newer information disrupts or overwrites previously stored material"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "While extreme emotional arousal can impair encoding (e.g., stress hormones affecting hippocampal function), this is not what retroactive interference describes. Retroactive interference is specifically about competition between stored memories.",
+        "A": "Old memories interfering with new learning describes proactive interference, not retroactive. The direction of interference is forward in time (proactive = old disrupts new).",
+        "C": "Memory improvement without additional study describes reminiscence or consolidation effects, not interference. Interference degrades memory, it does not improve it.",
+        "D": "Correct. Retroactive interference: new learning disrupts retrieval of old information. Example: learning a new phone number makes it harder to recall the old one. The new information interferes 'retroactively' (backward in time) with previously stored memories. This is distinguished from proactive interference (old learning disrupts new learning — e.g., your old phone number keeps intruding when you try to recall the new one). Both types increase with similarity between the materials."
+      },
+      "topic": "Retroactive vs Proactive Interference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_mem_006",
+      "passage": null,
+      "stem": "Explicit (declarative) memory includes:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "episodic memory (personal experiences) and semantic memory (general knowledge/facts) — both require conscious recall and are hippocampus-dependent for consolidation"
+        },
+        {
+          "label": "B",
+          "text": "classical conditioning associations"
+        },
+        {
+          "label": "C",
+          "text": "procedural skills like riding a bicycle"
+        },
+        {
+          "label": "D",
+          "text": "priming effects on reaction time"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "C": "Procedural skills (motor skills, habits) are implicit (nondeclarative) memory — not consciously accessible. They depend on the cerebellum, basal ganglia, and motor cortex, not the hippocampus. H.M. could learn new motor skills despite severe amnesia.",
+        "A": "Correct. Declarative (explicit) memory is consciously accessible: (1) Episodic memory — personal autobiographical events ('my wedding day,' 'what I ate for breakfast') with spatiotemporal context — linked to the hippocampus and medial temporal lobe; (2) Semantic memory — general world knowledge and facts ('Paris is the capital of France,' 'DNA stands for deoxyribonucleic acid') — initially hippocampus-dependent, becomes distributed in cortex. Both require conscious, intentional retrieval (recollection). Explicit memory is tested by recall (free/cued) and recognition tasks.",
+        "B": "Classical conditioning is implicit/nondeclarative memory. Emotional conditioning depends on the amygdala; motor conditioning depends on the cerebellum.",
+        "D": "Priming is implicit memory — prior exposure facilitates processing of related stimuli without conscious awareness. It involves perceptual and conceptual representation systems in cortex."
+      },
+      "topic": "Explicit Memory / Episodic vs Semantic",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_mem_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The misinformation effect (Loftus) demonstrates that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "eyewitness memory is perfectly reliable and resistant to post-event influence"
+        },
+        {
+          "label": "B",
+          "text": "memories can be distorted by misleading post-event information — exposure to inaccurate details after an event can alter the original memory, producing confident but false recollections"
+        },
+        {
+          "label": "C",
+          "text": "long-term memory has unlimited accuracy for emotional events"
+        },
+        {
+          "label": "D",
+          "text": "working memory is responsible for all memory distortions"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Loftus's research showed that memory is reconstructive, not reproductive. In classic experiments, participants who saw a car accident and were asked 'How fast were the cars going when they smashed into each other?' (vs 'hit') estimated higher speeds and were more likely to falsely 'remember' broken glass. Post-event information (leading questions, media reports, discussions with other witnesses) can be incorporated into the original memory trace, creating false but confidently held memories. This has profound implications for eyewitness testimony, forensic interviews, and therapeutic practices.",
+        "A": "Eyewitness memory is demonstrably unreliable and highly susceptible to post-event influence. The Innocence Project has documented hundreds of wrongful convictions based on faulty eyewitness identification.",
+        "C": "Flashbulb memories (vivid memories of emotionally significant events) feel accurate and detailed, but research shows they are also subject to distortion over time. Emotional arousal enhances some aspects of memory (gist, central details) but not necessarily accuracy of peripheral details.",
+        "D": "While working memory is involved in encoding, the misinformation effect is a long-term memory phenomenon. It involves distortion of stored memories by subsequent information, not working memory limitations."
+      },
+      "topic": "Misinformation Effect / Memory Distortion",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_mem_008",
+      "passage": null,
+      "stem": "Context-dependent memory refers to the finding that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "memories formed in a particular physical context are more easily retrieved when the person returns to that same context — environmental cues serve as retrieval cues"
+        },
+        {
+          "label": "B",
+          "text": "all memories are equally accessible regardless of the retrieval environment"
+        },
+        {
+          "label": "C",
+          "text": "only emotional memories are context-dependent"
+        },
+        {
+          "label": "D",
+          "text": "context has no effect on memory retrieval"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Context-dependent memory (Godden & Baddeley, 1975): scuba divers who learned word lists underwater recalled them better underwater than on land, and vice versa. The physical environment (sights, sounds, smells) present during encoding becomes associated with the memory and serves as a retrieval cue. Returning to the original context provides these cues, facilitating recall. Related concept: state-dependent memory — internal state during encoding (mood, drug state) also serves as a retrieval cue. Both demonstrate encoding specificity (Tulving): the overlap between encoding and retrieval conditions determines recall success.",
+        "B": "Retrieval is strongly influenced by the match between encoding and retrieval contexts. This is why students sometimes perform better in the same room where they studied.",
+        "C": "Context-dependent memory applies to all types of declarative memories, not just emotional ones. The phenomenon is about environmental encoding-retrieval overlap, independent of emotional content.",
+        "D": "Context significantly affects retrieval. The encoding specificity principle is one of the most robust findings in memory research."
+      },
+      "topic": "Context-Dependent Memory / Encoding Specificity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_mem_009",
+      "passage": null,
+      "stem": "Schema theory explains that people:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "remember information exactly as presented, without any distortion"
+        },
+        {
+          "label": "B",
+          "text": "only form schemas for visual information, not verbal content"
+        },
+        {
+          "label": "C",
+          "text": "have no prior knowledge structures that affect memory"
+        },
+        {
+          "label": "D",
+          "text": "use preexisting mental frameworks (schemas) to organize, interpret, and reconstruct memories — schemas can lead to both efficient processing and systematic distortions when recalled information is filled in or modified to fit expectations"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Schemas exist for all types of information: event schemas (scripts — what happens at a restaurant), person schemas (stereotypes), role schemas (expectations for social roles), and self-schemas (self-concept). They are not limited to visual content.",
+        "A": "Memory is reconstructive, not reproductive. Schemas actively shape what is encoded, how it is stored, and what is retrieved — producing systematic distortions and intrusions.",
+        "C": "Extensive research demonstrates that prior knowledge structures profoundly affect all stages of memory processing. No one approaches new information without existing schemas.",
+        "D": "Correct. Schemas (Bartlett, 1932) are organized knowledge structures that guide encoding, storage, and retrieval. Benefits: schemas help us process complex information quickly, fill in gaps, and make inferences. Costs: schema-consistent information may be falsely 'remembered' (intrusion errors), schema-inconsistent information may be distorted to fit expectations, and attention may be biased toward schema-consistent details. Bartlett's 'War of the Ghosts' study showed that recall of a Native American folk tale was systematically distorted to fit Western cultural schemas. Schemas are fundamental to constructive memory theory."
+      },
+      "topic": "Schema Theory / Constructive Memory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_mem_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The researcher's experiment on encoding, storage, and retrieval corresponds to the information processing model, which draws an analogy between human memory and:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "digestive processing of nutrients"
+        },
+        {
+          "label": "B",
+          "text": "the cardiovascular system's pumping of blood"
+        },
+        {
+          "label": "C",
+          "text": "computer processing — encoding (input), storage (saving to disk), and retrieval (accessing saved files) parallel the stages of computer data handling"
+        },
+        {
+          "label": "D",
+          "text": "respiratory gas exchange"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The information processing model (Atkinson & Shiffrin, 1968) explicitly analogizes human memory to computer processing: (1) Encoding = data input/entry (converting sensory information into a storable form); (2) Storage = saving to memory/disk (maintaining encoded information over time); (3) Retrieval = accessing stored files (locating and bringing stored information into consciousness). While this analogy has limitations (human memory is constructive, associative, and context-sensitive in ways computers are not), it has been enormously productive in organizing memory research.",
+        "A": "Digestive processing is not the standard analogy for the information processing model of memory. The computer metaphor is the foundation of cognitive psychology.",
+        "B": "Cardiovascular function is unrelated to the information processing model of memory.",
+        "D": "Respiratory gas exchange is a biological process unrelated to the cognitive information processing metaphor."
+      },
+      "topic": "Information Processing Model / Computer Analogy",
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "batch": "B340",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Queues, Waiting as Payment & What Money Does to Lines",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 1,
+    "B": 2,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_queues_340_q0",
+      "passage": "At the airport security checkpoint, a traveler drifts sideways toward a shorter lane that is not hers. No official notices. What notices is the line itself: a murmur, a hardening of glances, a man who angles his roller bag two inches to close the gap. The traveler retreats. Nothing has been said, no rule has been cited, and yet a violation has been detected, adjudicated, and punished in under ten seconds by a jury that was never empaneled. The queue, it turns out, governs itself, and how it does so is worth more attention than it gets.\n\nThe queue is a piece of moral technology so successful that it has become invisible. First come, first served converts what would otherwise be a scramble, allocation by shove, by status, by volume, into an order that everyone present can verify at a glance. It requires no referee because the rule is written in the geometry: your claim is your position, and your position is public. It is also, in principle, radically flat. The line does not ask who you are; dukes and dishwashers advance at the same rate, and the only currency it accepts is the one distributed most equally among the living, which is time.\n\nWhy, though, does cutting enrage so far beyond its cost? The cutter ahead of you delays your coffee by seconds, yet the reaction is categorical, not proportional, and the disproportion is the clue. Waiting in a queue is best understood as payment: each minute spent is value surrendered against the good at the front, so the person who cuts has not merely slowed you but robbed you, harvesting time that others paid. More than that, a queue is a standing agreement of mutual restraint, each member forgoing the shove on the understanding that all will; the cutter does not just steal minutes, he defects from the covenant, and covenants defended by nobody in particular must be defended by everybody at once, which is what the murmur is.\n\nThe form admits of local dialects. Some societies queue with liturgical seriousness, others treat the bus stop as a scrum, and engineers have learned to disguise the line without dissolving it: the take-a-number ticket, the restaurant buzzer, the virtual queue that holds your place while you wander. These preserve the order while retiring the display, which reveals something useful, that what the institution protects is sequence, not standing in physical file; the file was only ever the sequence made visible, discipline worn on the body.\n\nThe serious quarrel begins when money approaches the line. Paid fast lanes, priority boarding, professional line-standers hired to wait in another's stead: position, the one good the queue was designed to keep off the market, is now for sale at the margin. The defense is efficiency, and it is not frivolous: an hour is not worth the same to everyone, and letting those who value time most buy it from those who value money more can leave both better off. The objection is not about efficiency at all. Some goods, it holds, are constituted in part by how they are allocated, and a civic ritual in which everyone waits identically teaches a lesson that a tiered lobby unteaches daily, in public, to everyone standing in the slow lane watching the fast one move.\n\nIt should be granted that first come, first served was never the only just principle, and the queue's own hidden relatives prove it. The transplant list and the housing waitlist are queues without visible lines, and medicine's triage openly ranks need above arrival, jumping the gravest cases to the front without a murmur from anyone. Arrival order, need, lottery, even auction: each allocative principle has domains where it convinces, and the real question is never whether the queue is sacred but which goods belong to it, a question about the good, not the geometry.\n\nBack at the checkpoint, then, the murmur deserves its small dignity: it is jurisprudence conducted without judges, a population enforcing an agreement no one signed. The queue is an everyday school in which strangers rehearse a demanding idea, that a claim can rest on something other than strength, wealth, or charm, and the rehearsal is worth protecting. A society can be read, fairly accurately, by looking at what its lines are for, who is allowed to leave them, and what, exactly, it lets money do to their order.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Because triage and transplant lists rank need above arrival, first come, first served has been quietly abandoned by every institution that matters."
+        },
+        {
+          "label": "B",
+          "text": "The rage provoked by line-cutting is disproportionate and irrational, revealing that queues ultimately encourage pettiness over perspective and patience."
+        },
+        {
+          "label": "C",
+          "text": "The queue is self-enforcing moral technology in which waiting functions as payment, the live question being what money may do to its order."
+        },
+        {
+          "label": "D",
+          "text": "Paid fast lanes are economically efficient, so objections to them rest on a misunderstanding of how differently people value their time."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice converts the sixth paragraph's concession into a general abandonment. Triage and waitlists show that arrival order was never the only just principle, each principle has its domains, but the conclusion still defends the queue's rehearsal of fairness; nothing announces its institutional demise.",
+        "B": "This choice mistakes the third paragraph's puzzle for its verdict. The disproportion of the rage is the clue, not the indictment: the reaction is categorical because cutting is theft of paid time and defection from a covenant, which makes the anger intelligible rather than petty.",
+        "C": "Correct. The passage explains the queue's self-enforcement, the murmur as jurisprudence without judges, grounds it in waiting as payment and mutual restraint, weighs the efficiency defense of paid lanes against the constitutive objection, concedes that other allocative principles have their domains, and closes on the diagnostic question: what a society lets money do to its lines.",
+        "D": "This choice adopts one side of the fifth paragraph's quarrel and erases the other. The efficiency defense is called not frivolous, but the objection is expressly not about efficiency at all, resting instead on goods constituted by their allocation, an argument the passage presents as untouched by the time-valuation point."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_queues_340_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the fifth paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "demonstrate that professional line-standing services are the most corrosive of the market intrusions."
+        },
+        {
+          "label": "B",
+          "text": "resolve the dispute over paid lanes by showing that efficiency considerations outweigh civic ones."
+        },
+        {
+          "label": "C",
+          "text": "stage the quarrel over money's entry into the line, the efficiency defense serious, the constitutive objection answering a different question."
+        },
+        {
+          "label": "D",
+          "text": "explain how virtual queues, ticket dispensers, and buzzer systems preserve underlying sequence while retiring its public display."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice elevates one example into a ranking the paragraph never performs. Fast lanes, priority boarding, and line-standers appear as a single phenomenon, position for sale at the margin, with no verdict on which variant corrodes most.",
+        "B": "This choice awards a victory the paragraph withholds. The efficiency defense is credited as not frivolous, but the objection is framed as operating on different ground entirely, goods constituted by their allocation, and the paragraph closes on the tiered lobby's daily lesson rather than on any resolution.",
+        "C": "Correct. The paragraph announces that the serious quarrel begins when money approaches the line, gives the efficiency defense its full due, an hour is not worth the same to everyone, and then presents the objection as orthogonal: not about efficiency at all, but about goods partly constituted by how they are allocated, the civic ritual a tiered lobby unteaches in public.",
+        "D": "This choice assigns the paragraph the fourth paragraph's material. Tickets, buzzers, and virtual queues belong to the discussion of disguised lines and sequence versus display; the fifth paragraph's subject is the market, not the engineering."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_queues_340_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The description of the murmur as jurisprudence conducted without judges, in the final paragraph, most nearly means that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the line's members collectively detect, judge, and sanction violations, enforcing an agreement no authority administers."
+        },
+        {
+          "label": "B",
+          "text": "queue disputes are far too trivial for actual courts, so in practice they are left to whoever complains loudest and longest."
+        },
+        {
+          "label": "C",
+          "text": "airports deliberately understaff checkpoints, delegating security enforcement to passengers."
+        },
+        {
+          "label": "D",
+          "text": "legal systems historically evolved from the informal customs that queues still preserve."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The phrase reaches back to the opening scene the paragraph revisits: a violation detected, adjudicated, and punished in under ten seconds by a jury that was never empaneled. Jurisprudence without judges names the queue's self-government, a population enforcing an agreement no one signed, covenants defended by nobody in particular and therefore by everybody at once.",
+        "B": "This choice reads the absence of judges as neglect rather than structure. The passage's point is that the queue needs no referee because the rule is written in the geometry; the murmur is the institution working, not a shortfall of louder remedies.",
+        "C": "This choice literalizes the checkpoint into staffing policy. The officials' inattention illustrates that enforcement was never theirs to perform; nothing suggests airports rely on passengers for security, and the murmur polices sequence, not safety.",
+        "D": "This choice inflates a metaphor into a historical genealogy. No claim about law's origins appears anywhere; jurisprudence describes what the line does in the present tense, not where courts came from."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_queues_340_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to the fifth paragraph, proponents of the objection to paid fast lanes hold that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the efficiency argument fails on its own terms, since fast lanes do not actually save their purchasers time."
+        },
+        {
+          "label": "B",
+          "text": "some goods are partly constituted by how they are allocated, so selling position unteaches a civic lesson daily."
+        },
+        {
+          "label": "C",
+          "text": "money should never influence the distribution of any good, whatever the domain or circumstance."
+        },
+        {
+          "label": "D",
+          "text": "priority boarding is acceptable while professional line-standing is not, since only the latter involves an element of deception."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice puts the objection on the terrain the paragraph explicitly removes it from. The objection is not about efficiency at all; it does not contest the time savings or the mutual gains, and would stand even if the defense's economics were flawless.",
+        "B": "Correct. The paragraph states the position directly: some goods are constituted in part by how they are allocated, and a civic ritual in which everyone waits identically teaches a lesson that a tiered lobby unteaches daily, in public, to everyone standing in the slow lane watching the fast one move. The wrong lies in what the sale makes of the good, not in any miscalculation.",
+        "C": "This choice universalizes a domain-specific claim. The sixth paragraph, consistent with the objection, grants that auction convinces in some domains; the objection concerns goods whose meaning waiting partly constitutes, not the moral standing of money everywhere.",
+        "D": "This choice invents a distinction among the examples that the paragraph never draws. Fast lanes, priority boarding, and line-standers are presented together as position for sale, with no ranking and no charge of deception against any of them."
+      },
+      "topic": "Perspective Attribution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_queues_340_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A public hospital's emergency department treats patients strictly in order of arrival, telling complainants that first come, first served is the only defensible rule. Based on the sixth paragraph, the author would most likely respond that the department has:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "correctly resisted the market's intrusion, since need-based ranking is a form of tiered lobby."
+        },
+        {
+          "label": "B",
+          "text": "adopted the fairest available policy, since arrival order is the only principle that patients can verify for themselves at a glance."
+        },
+        {
+          "label": "C",
+          "text": "misunderstood triage's efficiency, which exists to shorten average waiting times rather than to rank need."
+        },
+        {
+          "label": "D",
+          "text": "sacralized the queue's geometry in a domain that belongs to need, where triage jumps the gravest cases forward."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice confuses need with money. The tiered lobby is the fifth paragraph's market intrusion, position purchased; triage ranks the gravest cases first, an allocation by need that the sixth paragraph presents as commanding assent, not as a fast lane in disguise.",
+        "B": "This choice promotes the queue's virtue of verifiability into a monopoly on justice. The sixth paragraph exists to deny exactly this: arrival order, need, lottery, and auction each convince in their domains, and medicine is the passage's own example of a domain where need governs.",
+        "C": "This choice rewrites triage's rationale against the text. The paragraph says triage openly ranks need above arrival, jumping the gravest cases to the front; its justification is urgency, not throughput, and no averaging of wait times appears anywhere.",
+        "D": "Correct. The sixth paragraph makes emergency medicine the exhibit for the queue's limits: triage openly ranks need above arrival without a murmur from anyone, because the real question is which goods belong to the queue, a question about the good, not the geometry. A department enforcing arrival order over urgency has answered that question exactly backwards."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_queues_340_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the third paragraph's claim that anger at cutting reflects covenant defection rather than the time lost?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that people report more anger at cutters who force their way in than at those who politely ask to enter."
+        },
+        {
+          "label": "B",
+          "text": "Studies finding anger at cutters scaling smoothly with minutes of delay, vanishing when a cutter enters at the rear, unmoved by the cutter's stance toward the rule."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that bystanders standing far behind the insertion point, who lost no position at all, sometimes object to cutting more loudly than those directly behind it."
+        },
+        {
+          "label": "D",
+          "text": "Surveys finding that most people admit to having cut a line at least once in their lives."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice supports the covenant reading rather than weakening it. Asking permission is an appeal to the line's members, an acknowledgment of the agreement, so gentler reactions to askers than to shovers show the anger tracking the covenant's treatment, not the seconds lost.",
+        "B": "Correct. The claim rests on disproportion: reaction categorical, not proportional, because the wrong is theft of paid time plus defection. Anger scaling smoothly with delay, disappearing where no one is delayed, and indifferent to the cutter's stance toward the rule would restore exact proportionality to time lost and remove the covenant's fingerprints entirely.",
+        "C": "This choice is evidence for the paragraph's own mechanism. Covenants defended by nobody in particular must be defended by everybody at once, so objection from members who lost no position is precisely what the defection account predicts and the pure time-loss account cannot explain.",
+        "D": "This choice documents hypocrisy about the norm, which leaves its structure untouched; people can defect occasionally from a covenant whose violation still enrages them, and admitted past cutting says nothing about what the anger tracks."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_queues_340_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the final paragraph's claim that the queue functions as an everyday school of fairness?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that queue lengths at government offices have decreased steadily over the past decade as more routine services have moved online."
+        },
+        {
+          "label": "B",
+          "text": "Surveys finding that most adults describe waiting in line as among their least favorite daily activities."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that children who cannot yet read reliably form orderly lines when instructed to do so by their teachers."
+        },
+        {
+          "label": "D",
+          "text": "Studies finding queue practice predicted endorsement of turn-taking and positional claims in unrelated contexts, the effect growing with exposure."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice tracks the institution's shrinking footprint, which bears on how much schooling occurs, not on whether the queue schools; shorter lines could mean less rehearsal of exactly the lesson the claim describes.",
+        "B": "This choice measures the experience's unpleasantness, which the school claim happily absorbs: rehearsals of mutual restraint are not required to be enjoyable, and disliking the wait is compatible with learning from it.",
+        "C": "This choice shows compliance under instruction, which is the opposite of the claim's content: the school of fairness teaches self-enforcing restraint among strangers, and children forming lines when told demonstrate obedience to a teacher, not internalization of the covenant.",
+        "D": "Correct. The claim is that the queue rehearses a demanding idea, claims resting on position rather than strength, wealth, or charm, and that the rehearsal transfers. Practice in queue settings predicting endorsement of turn-taking and positional claims in unrelated contexts, with a dose-response pattern, is the schooling caught in the act: the lesson learned in line and carried out of it."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

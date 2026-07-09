@@ -1,0 +1,352 @@
+{
+  "batch": "B166",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Renal Physiology II: Acid-Base & Electrolytes",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_renal2_001",
+      "passage": "A nephrology team evaluates patients with acid-base disturbances. Arterial blood gas and urine studies are collected before treatment.\n\nPatient | pH | PCO\u2082 | HCO\u2083\u207b | Urine NH\u2084\u207a\nA | 7.25 | 30 mmHg | 13 mM | high\nB | 7.32 | 60 mmHg | 30 mM | high\nC | 7.52 | 48 mmHg | 38 mM | low\n\nThe team teaches that lungs regulate CO\u2082 rapidly, kidneys regulate bicarbonate and acid excretion more slowly, and compensation usually moves pH toward normal without fully overshooting.",
+      "stem": "Patient A's primary disturbance is most consistent with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "metabolic alkalosis"
+        },
+        {
+          "label": "B",
+          "text": "respiratory acidosis with renal compensation"
+        },
+        {
+          "label": "C",
+          "text": "metabolic acidosis with respiratory compensation"
+        },
+        {
+          "label": "D",
+          "text": "normal acid-base status"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Metabolic alkalosis would have high pH and elevated bicarbonate, opposite Patient A's data.",
+        "B": "Respiratory acidosis would begin with elevated PCO\u2082. Patient A has low PCO\u2082, which is compensatory rather than primary.",
+        "C": "Correct. Low pH and low bicarbonate identify primary metabolic acidosis. The low PCO\u2082 reflects hyperventilatory respiratory compensation that helps raise pH toward normal.",
+        "D": "The pH is clearly acidemic, so the status is not normal."
+      },
+      "topic": "Renal Physiology II: Acid-Base & Electrolytes",
+      "difficulty": "Medium",
+      "passageImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEwAAAL4CAIAAADu6PW0AABibElEQVR42u3deZzO9f4//tdlMIxlhmEaVCSVIkQL7UglWpS0KaVFpIU6pU6n8zktUjqdzknbqeQTpxKnHFqc1EH5aBFpESFLGLKMfRtjrt8f71/X9zpjMFQy3O9/dJu55j2Xa96vZ6/38/F+va/3FYvH4wEAAGBfUcouAAAAhBwAAAAhBwAAQMgBAAAQcgAAACEHAABAyAEAABByAAAAhBwAAAAhBwAAEHIAAACEHAAAACEHAABAyAEAABByAAAAIQcAAEDIAQAAEHIAAACEHAAAACEHAAAQcgAAAIQcAAAAIQcAAEDIAQAAEHIAAAAhBwAAQMgBAAAQcoB9wx133BH7b2lpaQcffHCnTp0+/fTT/Xa3PPvss++9994vst9uu+22aIOpU6fuV/vwuuuui/7whg0b7savF3O/HXvssbFYrGLFijvYpk+fPoUGKyUlpUKFCvXq1bvllltWrFjxm++reDw+ZMiQNm3aZGVllS1btlq1ameeeebrr7++G5W5e/UMIOQA+7iNGzcuWLBg2LBhJ5100vPPP7+//fkrV6688MILu3fvvmHDBvvt51TRsGHDoq+nTZv22Wef7VUvr6CgYMOGDd9///2TTz55yimnrF+//rdNOJdddtmVV175/vvvL1u2bMuWLStWrBgzZswll1zSrVu3n1mZu13PAEIOsG/aunVrjx499rf1nP/93/998803f8H99sQTT8Tj8Xg83qRJk/1nN7755ptr1qxJfPvSSy/t6jPssf02ffr0AQMG/Ib76rXXXhs6dGiRP/r73//+z3/+8+dU5s+vZwAhByjBXn311Xg8np+fn5ubO3LkyHr16oUQ8vPz77vvPjvHftuN3jqEcMABB5x44onRXtq4ceNv/qoGDx4cBaf8/PwVK1bceeed0eMTJkz4bQNh9EXv3r3nz5+/adOmb7/9tk2bNtGDL7zwgv/LACEH4GdJSUmpUqXKueee+84776SkpIQQxowZk3jTwvjx49u1a1erVq2yZctmZmaeeuqpr776avSj9u3bR+92mDFjRuLZfvjhh1KlSsVisQ4dOkSPLF26tEePHrVq1UpNTa1du/ZNN920ZMmSxPY9e/aMxWLlypVbvnx5z549DzzwwNTU1KOPPnrQoEGJbTp37hyLxapVqzZjxowOHTpUqVKlQoUKrVq12vaCqGHDhrVu3bpatWrly5c/+uijH3rooeQrdi644IJYLFanTp033nijXr16FSpUOOecc9q3b9+rV69ogw4dOhT/jTQ72G9FvrdkB3sysaOuv/76rKystLS0U089dcKECVdffXUsFsvIyNjB6y/Ok5988smxWOzkk0/+/PPPzznnnMqVK1euXLljx445OTlLliy5+uqrMzMzK1WqdNZZZ02fPj3xW5s2bYr+ivbt2+90byxatOj999+P9mGnTp1CCKtXr952PWHTpk19+/Zt2LBh+fLlMzMzTzjhhOeee66goCBs/z05ixYt6tKlS/Xq1dPS0lq3bv3555/vdp1XrVr1lltuib4tV65cMYemoKDgySefbNasWcWKFcuUKVOrVq1LL730u+++KzR2OyjyUNQVZdEX99xzz8EHH5yamnrkkUe+9NJLsVgshPDll19G/39trzJ3/H9lkb8V1VIsFps3b17iZWRkZMRiscS6WXH+UoDwS122C/DLuv3220PSikSy0047LfrRu+++G4/Hx4wZU7p06SLP2cfj8cRFNX/4wx8Sz9CvX7/Euep4PL5o0aLatWsX+vUDDzzwhx9+iLa/6aabQgilS5c+9NBDC232r3/9K9rmiiuuCCGUL1++evXqyRuUK1du/PjxiX+6a9eu277UJk2aLF++PNrg/PPPDyFUrFixfPny0U9vuummdu3aFfqVL7744mfut1tvvbXQU+14T8bj8dzc3EJ7oEyZMkcccUQIIT09fQevvzhPftJJJ4UQMjMzy5Ytm7xBgwYNDjnkkORHsrOzV69eHf1WYh2mXbt2Oy2qhx9+ONp4zJgxCxYsiJr11q1bJ2+zcePGaJGnkKuvvjraYNv9tnjx4gMPPDB54/Lly1etWjWEUKFChR28nrvuuiv890rO1q1blyxZ0rNnz+jxgQMHFnNobr755m1/mpWVNWfOnGiDnRb5DmqpRYsWb7755rp167bdZnuVueMXvL3f6tKlS/Tt3LlzE/9Eenp6CKFx48bF/EsBfilCDrBHQ84NN9wQ/ejFF1+Mx+PHH398CKFp06bz5s3buHHjW2+9VapUqUTzmpeXV61atRBCvXr1Es/QqFGjEEK1atXy8vLi8Xi0nlOhQoW33npr/fr1//nPf6IO9cILL0wOOSGEAw44YOzYsRs2bOjTp0/0yDnnnJMccqI2ffTo0atWrRowYED0Sg477LCtW7fG4/HE+/5POeWU6dOnL126NNHmnn/++ckhIYTQrFmznJycWbNmLViwIB6P/+Uvf0kOZj9/v23brO94Tyb3lxdffHFOTs53333XvHnz6JFCIWfb17/TJ49CTgjh9NNPnz9//pw5cw466KDokapVq3744YcrV65MLNe89tpruxFyjjzyyOjZtmzZEo/HoxcfrRsktvnDH/4QPWG3bt2WLl06c+bMo446Knrkww8/LHK/JYLrpZdeGv3Jib+lmCGnSO3atcvPzy/O0KxatSpapuvcufOyZcs2bdr073//Oy0tLYRwww03RM+w0yLf1g8//BAFjESgPfHEE++7776vv/46ebMiK3Onw13kb+005BTnLwUQcoASGXJuu+228N9vAS+kTp06IYQjjzwy/t+n3j/99NN4PD5t2rTo21tuuSUejy9dujRqv2688cZCnW5KSsqqVauSQ85zzz0XbbBly5bU1NQQQv369QuFnCeffDLxPBdeeGH04MSJE+PxeLTokZaW9uOPPya2Of3008NPN/tKDglDhw7daSv5c/bbts36TvdkFBcrV668Zs2a6JGZM2dGe2/bkFPo9e/0yRPBYMqUKYUG7k9/+lP0SOLmxY899tiuVlTijguJNZnHHnsseuR//ud/EpvVqFEjhFCjRo1EwHjttddat2798ssvR0sZhfZbQUFB1IVnZmauX78+EQ+iZaLdDjnly5cfOHBgQUFBcfZe4uKuY4899u23396wYUOhjYtT5EX6+OOPt129DCF07Ngx8VvFrMxCw717IWenfynAL8h7coA9KvEOlugMbuTHH3984403+vTp07x58/nz54cQ8vPzox9dc8010RevvPJKCOEf//hHotmNWuro7RbPPvts4uNKHnjggRDC1q1bv/7660LXlUVflC5dOjMzM3r/RqGX17Jly8TXrVq1ir74+uuvo6WPEMJJJ52UlZWV/CacxEJB8vMcffTRe2C/bWt7ezInJ2f58uVRf1mpUqVo48MOOyxqXrdV5OvfwTAlJD6+pnLlytEXjRs3Trw9I/G2mbBbtxyI1i4SnXr0xaBBg+LxeAhh8eLFixcvjpYgohWDEMIll1zy/vvvX3nllRUqVNj2aRcuXLh69eoQwvHHH5/YsQcddFDdunWT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GveRI0deeeWV2dnZ5cqVO+GEE954443otlHr1q2LPt4+ctZZZ9WsWTOEULVq1XPPPTf5mQ899NApU6bceOONBx98cNmyZWvUqHHhhRf+3//931lnnbUbr3PUqFHdu3fPzMxMS0s744wzPvzww8TNkUuVKvXqq6++/vrrZ5xxRtWqVcuVK9ewYcOHHnpowoQJ214HVUjjxo379+9fs2bNMmXKHHLIIYl7f+3efisyAu10T1atWvX//u//rrjiiipVqlSoUOGss86aMGFC1IPu+J36xR+m8Gteq3b99dcXuQ4TNdafffbZtGnTypcv/5///Of+++8/8sgjU1NTq1Sp0rRp0/79+7/99tuJOyKEbd6WM2HChOuvv75atWrlypU79thjhw0btnvFU6pUqdTU1KpVq55++umvv/767373u2LuvSFDhrz00kunnXZadnZ2dOu/s88++9///nfiM3x2o8hTU1PffvvtgQMHtmrVKjMzMyUlJT09/eijj+7Vq9eMGTMSH5G0bWUW5wUXWc81atT4z3/+07Jly7S0tPT09HPOOWf8+PGFAuRO/1KAX0psVy8QB9j3dO7cObo59YIFCw488MD95w8//PDDZ82a1axZs+iKOAAI3pMDQElx3HHHRe+I6Nmz5/r169etW/fCCy/Mnj07hHDyySfbPwAIOQCUMIn7bj/11FMVK1asVKnS9ddfH4/HMzMze/fubf8AIOQAUML07Nnz9ddfb9OmTVZWVunSpcuWLVu7du2uXbt+/vnnbt0LQPCeHAAAgGAlBwAAQMgBAAAQcgAAACEHAABAyAEAABByAAAAhBwAAAAhBwAAEHIAAACEHAAAACEHAABAyAEAABByAAAAIQcAAEDIAQAAEHIAAACEHAAAACEHAAAQcgAAAIQcAAAAIQcAAEDIAQAAEHIAAAAhBwAAQMgBAAAQcgAAAIQcAAAAIQcAABByAAAAhBwAAAAhBwAAQMgBAAAQcgAAACEHAABAyAEAABByAAAAhBwAAEDI2fcNGzYsluT000+PHl+5cmWnTp0qV66cnZ3dt29f1QAAAEJOyTBlypTLL788/pNx48ZFj3fp0mXDhg2zZ88eOXLkU089NXDgQAUBAPDKK6/0798/8e2GDRuee+65m2+++fbbb3/nnXd+1X+6T58+//73v5MfmTRpUrdu3QwKQk5hX3zxxXHHHVfowfnz548aNeqJJ57Iyso6/vjj+/Tp89RTTykIAGA/N3v27MQZ4cjAgQPz8vL69u3bs2fPsWPHTpgwwV5iL1d6Pwk58Xj8kUceyc/Pv+CCC/785z9Xrlx58uTJGRkZ9erVi7Zp1qxZr1698vLyypYtqyyAfVVubu4rr7wyc+bM1NTUE0444cILLyxVqlQIYcOGDYMHD/7mm2/Kli3bunXrc845J/yap2lbtmx51llnhaTTtC+88MJzzz1ngOA3t2XLlkGDBtWuXTvxyIoVK7788suHHnqoUqVKlSpVatu27dixY08++eTk31q3bl2vXr26des2fPjwNWvWNG3a9Jxzzhk8ePD8+fNr167drVu3jIyM4myz05e3ZMmS6Fdq1KjRpEmTTz755IEHHjBqhP1wJWfRokVLly5t0aLFrFmzxo0bN2nSpGuvvTb6PzYzMzOxWZUqVbZu3bpq1So1AezDXnjhhVKlSvXt27d3796TJ08ePXp0cJoWSPKvf/2rZs2aTZs2DUkXv6SlpWVlZUXf1q5de+HChfn5+dv+7gcffNCnT5+777578uTJjz/+eMeOHfv165eXl5d8hVtxttme/Pz8J554olatWo888sh555337rvvGi/CfruSU6tWrXg8Hn3doEGDJ554omXLlitWrCgoKIjFYoUzX6kiUt+2m0WWLVumgIASJB6Pf//99126dNm0aVOZMmXq168/bdq0448/ftWqVV9++eUdd9yxefPmSpUqnXLKKWPGjKlfv37y765fv/7BBx+87LLL3n333fXr1zdo0KBly5ZvvPFGTk5OrVq1LrvsssqVKxdnmxDC1q1bN2zYsHz58sSTr1mzJoQQPbJs2bI333xz0aJFWVlZRx555NSpU3v37m3sYM9YuHDhhAkTbr311smTJ2/ZsiX6v/LHH38sX7584v/ZzZs3FxQULFy4sGLFislTRAjh5JNPzs/PL1++/AEHHHDQQQelp6fn5eUdfvjhc+fOXb58eXG2iaaI4cOHDx8+vFCHtnz58mnTpm3cuLFVq1YbN26sUaPGcccd99133yVPJuFn3KTq4osvVgA7UK1aNSFnr1a3bt0QwuLFi6tXr56bm5t4fOXKlSkpKenp6cV/qurVq0dNg7qnZFm8eHGNGjXsh/3T4Ycf/uWXXzZu3HjdunUzZ8485ZRTqlWr9sMPP6SlpR1xxBHhp/NBb7/9dkZGRunS/+8YUa5cuRDCpEmTfv/7369du7Zv375z587t3r179erV//rXv37yySeXX355cbYJIaSkpKSlpSUfL6PwU61atfz8/Mcee6xRo0a33nrrnDlznnvuuSpVqiRvqXox9/56tm7dOmDAgE6dOh1yyCEzZswoU6ZM9H9fWlpaSkpK4v/ELVu2RP/DJoec6H//OnXqRJuVL1++Ro0a0deVK1eOxWLVqlUrzjbRFNGxY8dtr2itVq3a6tWra9asmZ2dHT1ev3792bNn//zm+5lnnolyTvfu3RXq9qo3WMnZ27z11lsdO3bMzc1NS0sLIXz11Vepqal169atWLFibm7uvHnz6tSpE0KYMmVKo0aNypQpE4o69xmKWt7JycmpWbOmugdKkMsvv/zPf/7zbbfdFvUHZ5xxRghh/fr1FSpUSGyTlpZWUFCwcePGSpUqFfr1du3aZWRkZGRk1KpV65BDDjn00ENDCE2aNJk5c+YubVPkadpoit68eXOnTp1Kly599NFHn3rqqV9//fUv8oc/88wz2hfYsbfffrtKlSonnnhioccrVaoULcKEn+60VqpUqfLly2/7DCkpKTu9EKY422xPSkrKL35yOUo4IQRTRHC5WsnSqlWrmjVr3nrrrf379587d27v3r1vueWWtLS0OnXqnHnmmd27d3/ppZcWLFjw8MMP33///QoC2IetW7fusccea968ebt27datWzdw4MAXX3yxW7duRV6+W2TzUaVKleiLMmXKJL4uXbp08tX5xdmmyNO0IYSFCxdmZ2cnVpBq1679i4ScqIkpQTlny5Ytw4YNmzRp0pYtW+rVq3fFFVdE1w64PwS/qsmTJ+fk5Fx//fWJR66//vpHH320du3a69evT7yZef78+QceeGByVtljatasOWbMmPz8/GiWWLhwoYRD2G9vPJCWlvbuu+8uWLDg4IMPPvvsszt06JD43M/BgwdHqzrnn39+z549oxsSAOyrvvrqq3g83rFjx+g9xJdddtnnn3++evVqp2n3NkOGDPn222/79Onz6KOPVq5cOUqAwf0h+JX96U9/ev4nF1544eGHH/78889XqVIlMzOzQYMGQ4YMWb169bx58959992WLVv+Jq+wcePG5cqVGzZs2IYNG6ZPnz5+/HgJh7A/vyfniCOOSNxBKFlWVtaIESMU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Dmhf2KWBM2ToYABHIiEH0L44qID5AXAkEnJA+4I1N8wPgMnBkUjIAe0LDiqoNMD8gJADpieEUswPgCORkAOYnvSdYH4AHImEHDA9oe8E8wPgSCTkgOkJfSfmB8CRCCEHTE8YNVQaYH5AyAEnaI0aaF8ARyIhB9DBGDXQvgCOREIO6GAwamhfAFOE+UHIAR0MRg3tC+BIhJADOhiMGtoXwJEIIQd0MA4qoNIA84OQA2YoDBkqTaUB5gchB8xQWHDD5ACYHxBywAyFeIPJATA/IOSAGcqQgUoDzA8UUiqE0Lx581gsFovFzj777BDCbbfdFovFZs+eXWjTGTNmxGKxO+64I/nB5cuXP/jgg8ccc0x6enqFChWOP/74F154IR6PF/rd1atX33///cccc0ylSpXS09OPOeaYvn375ubmFtrsn//85wknnFCpUqXq1atfddVVCxYs2N7rvvTSS6PX3LBhwx38eTNnzqxWrVpOTs6u7peePXvGtuOMM87Ypf8ZDj/88BDCBRdcEIvFNm3aVORm11xzzZ133qkc99gMFU1S3bt3N0mVrCFzXGHPdDAmB0DzEPbnlZyPP/64Y8eOyRFi0qRJkyZNmjhx4sCBAxMPfv311+3atUtOLFOnTp06deozzzzz5ptvHnvssdGD//u//3v11VdHX69bt27w4MHjxo2bOnVq1apVd+/lxePx66+//qabbqpZs+ZvtX/feeedtm3b7nSzBx98sH79+p06dUrsDZyAwajxS7n33nsfeuihEMJNN900YMCA5B/Vr1//u+++O+KII2699da9s8xuu+22v/71ryGEL774okmTJkYTXCZNKOZKTgihWbNm8Xh89OjRxf/NpUuXdujQIScn57LLLvvkk0/WrFmTm5s7YsSIunXrvvTSS88991y0WW5ubpRw2rdvP27cuHXr1q1Zs2b8+PHnnnvuwoULzz333BUrVoQQCgoK7rvvvgYNGkyaNGnTpk2LFi265pprFixYMGTIkCL/9ddeey0ej5922mk7eIVDhw794osvbr/99t3eO3Pnzo1v4/333y/mr2/evHns2LHFCTm1atXq0qXLzTffrCKdgMECDr+eZ599dtq0acmPrFq1KvFfZQZs7xhkfiipIWc3PP744z/++GOvXr1eeeWV6BqzKlWqnH/++ePHj69QocLjjz8eXbT2l7/8ZcGCBb169Ro1atRpp51WoUKFSpUqnXrqqSNHjuzZs+eSJUv69u0bQihVqtT8+fO/+eabY489NjU1tWbNmvfee28IYdmyZbv9Cvv373/uuedWrlw5+rZJkybXXXfd1KlTmzdvXqFChVatWv3www8hhPvvv7969erZ2dm33nprXl7erv4rTZs2rVChwkknnfTdd9+1b98+uuQvMn78+IKCgtNPP704z3PFFVd88sknH330kaL8xWco8aakL+AYOH4pW7du7dWr17YdTEZGhjIDHIOCy9VCCK+//nr58uXvv//+Qo8feOCBEyZMOOCAA2KxWLRZ5cqVH3zwwSJDyJAhQ1599dU///nPhQ5CM2fO/MMf/lC6dOkOHTrs3subOHHilClT/vCHPyQ/uGzZsjZt2ixfvjyEMHbs2C5dupx99tl//OMfo5/+7W9/O/jgg3d15eeLL76I/rlzzjnnkEMOKV36/+3Sd9999/TTTy9Xrlxxnqd58+YHHXTQgAEDTjnlFHVpfdnYGTh+JWPGjHnrrbcSV1BnZGT8+OOPdgugfwj7yUrOYYcdVugN90ceeWTip1u2bJk3b97xxx9fsWLFbX+3SZMmNWrUCCFs2LBh5syZzZs3T0tL23azcuXKtW7devHixVHqiBQUFKSmph511FGjRo0aOnRo06ZNd+8Pe++992KxWJs2bZIfHDVqVKtWrRYuXLhs2bLWrVuPGzfu8ccfHzFixJo1a4YNG1a6dOn33nsveftDDjlk2xsPjBs3LnmbF154YdWqVV9++WV2dvbYsWPDf78h55xzzinmC47FYmeeeeb7779fUFCgLp2AcVWhgePXc+21127dunUHHcywYcNat25drVq18uXLH3300Q899NCGDRsSP41uJFOnTp033nijXr16FSpUiKb6k08+ORaLnXzyyZ9//vk555xTuXLlypUrR+9cXbJkydVXX52ZmVmpUqWzzjpr+vTpyf/c+PHj27VrV6tWrbJly2ZmZp566qmvvvqqYQL9A2HPr+SsWrUqHo9nZmbudLMQQvXq1be3QVZWVghh2bJl1apVix5ZsWJFVlZWSkrKwoULb7jhhuzs7BNPPDHs1kpOnTp1KlSoUChWDRw4MHrwxhtv/OCDD66//vrzzz8/hNCxY8f+/fsvXrx4Nw6WIYRGjRoNHz68Xr16icfnzJkzc+bM4rwhJ+Hoo49+8cUXv/vuu+Q8iRMwVm/gl9KkSZOpU6cuXbp0y5YtPXv23N6snnzvnG+++ebee+8dPnz4+++/n3zUW7FiRefOnTdu3BhCqFu3bki6E+lJJ52UuPj5n//854wZMzZs2DB37tzw0zm4Vq1afffdd9HV1O+//37btm3z8/PDT29k/eijjz766KMtW7ZcddVVhgz0D4RfdiVn1qxZhd5wn3zmqWrVqqVKldrpG2aiG6NFUadI0V0HklNQ9erVc3JyFixY8J///Gfz5s1XXXVVQUHBgAEDktdSnnjiiZ3+YYsXL87Ozi704BFHHJGIPRkZGVGuSPy0UqVKhVZRirzxwPbeY1OjRo0GDRqEpGWcww477NBDDy3+YEQveDeCFk7AWL2B4jjzzDOjyf/+++9PvoggJC3ORwnnlFNOmT59+tKlS++6664QwtSpU6NTWgnr1q076qijcnJyZs2a1adPn+Tj2oknnjh//vw5c+YcdNBBIYRp06atXr36ww8/XLlyZfv27UMIS5Yseffdd6Ptf//73+fn5zdt2nTevHkbN2586623SpUqFUJ4+eWXjRfoHwh7eCUnJSXlyCOP/Pzzzzds2LDtpWgPP/zw9OnT+/XrV7NmzXr16v3f//3f+vXrCy2qhBA2b948bty4Aw44ILGMk6xly5bXXHPNk08+Gd0eYFetXr36gAMOKPTgtq8hNTX1F9ybyW+/effdd3dpGSfx8lavXq0unYDZ3z6TxK4gFOOa3vDfHxJQ/N+dPHly9MWVV1559NFHX3nllatWrbrvvvuefvrpQls+9thjIYS0tLThw4dH1xr069fv008/HTdu3L/+9a9vv/32qKOOSmx85513Rtdmh21uzHPwwQeHEC688MLo7s+33npr9H7Lq6666q233gohLFy4MNr4008/Tf7ddu3aHXzwwfPmzduNT3gDXEdA+Pl3V7vgggs2btz4P//zP4Uenzdv3qOPPvrWW29Fy/qdO3detWrV7373u1DUBxcsXbr08ssvDyHMnTs3FosV+kDMpUuXhp8+mjN5LeW2227b6curWrXqHk4La9eu/frrr6OvN23aNHbs2OK/ISckXd2304sAcQJmn1nAMWQUM94USjjbe3DHN4ENP93K8oQTTggh/P3vf09M2pGcnJzvvvsuhHDSSSdFCSdxvIu++PDDD8N/X2Nc5D+a+JTqxO09GzduHJIuIogOE8m/8uOPP77xxht9+vRp3rz5/PnzQwiJC9gA1xEQ9uTd1Xr16vXss8/2799/yZIlt9xyS4MGDdasWfPBBx/cc889q1at6tu3b7RIcvvtt7/88svPPPPMDz/8cNdddzVr1iwWi02dOvWxxx574403DjjggGiV/5BDDjniiCP++te/HnXUUR07dly3bt1zzz03dOjQww8/vE6dOrvx8mrWrPnNN9/sgT345JNPdu7cOTc397bbbktcmBfdnGDHH+MTivrooeiVq0snYIwaFFq9qf/W5ck/mtH+lcQGRa7qJFfaokWLEh8EF13zfOKJJ27durV3795hmyuoQwiFLgRIfJubm5v8eCKxJCtTpkyZMmWir6MLz0IIlSpVKvQXJV7zzJkzu3fvPnbs2EJ/ReJ3AYch9mjIyczMHDp0aIcOHQYPHjx48ODkH3Xo0CGxJlOxYsW33nrr/PPPf/vtt99+++1COeSf//xn4mzZc88916pVq2uuueaaa64JP11LlvhQ0V3VokWLd999d+nSpcln43bVIYccErazaJP4+pZbbrnllltCCAcddFAin7zzzjstW7bc9ubR5cuXL/TISy+9dPXVV0dff/7559nZ2bv0Nh4zlBnKqLHPJ5xC8Sb5wUTUSU4IO6205s2bX3755f/4xz/ef//95Pv+J44XhW4qnfi20H10irzguchwsr3Ekp+f37Zt2zlz5pQuXfqSSy5p2bJlixYtLrjgglmzZgk54DDEbxNyQgitW7f+4osv/va3v7333nsLFy7cunVro0aNrr/++q5duyaffjvyyCMnT578/PPPv/rqq9H9DOrWrXvRRRfdeOONye/GOe20095777377rtv8uTJqampp5xyyp/+9KdmzZrt3mtr167dfffdN2HChAsvvPBX3YPNmzefOnVqw4YNBw0aFN2oLYTw7rvv3nrrrbv6VBMmTGjfvn1xLsAwQ5mhjBr7iSITTvJPo5yzq5XWr1+/N998c8OGDclXhR1wwAF169adM2fOxIkTly1blog0I0aMSBynftnFlkmTJs2ZMyeEcOutt0ZvByooKIjWixwLwLtA+YVDzhNPPFHk7cvq16+/7SUBhx56aPSuyh2rVKlS7969C10YUGRqat269S/yhx1zzDENGzYcOnRoIuRMnTo1eYMzzjij0J/z/vvvJ74e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lZySa+HChQ8//PATTzyx7VF28uTJGRkZiaTbrFmzL7/8Mi8vz05j76/eE088ccuWLVHCiQ69VatWlXAoEdUbue+++xo0aHDhhRfaV5SU0p04cWLlypVbtmxpL1HiqjcWi5166qnPP/98bm7uzJkzR44cuTdXspBTLI8//vgRRxzRvn37bX+0YsWKzMzMxLdVqlTZunXrqlWr7DT2/upNtnr16n79+l177bX2GCWleidNmjRo0CDXqlGySnfRokV169Z96qmnDjrooCpVqlx22WXLli2zxygpE++AAQM+/vjjzMzMI4444qCDDrrtttuEnBJs06ZNL7744vZGsaCgYNsz36VK2bGUgOpNWL9+/bnnntuwYcN7773XTqNEVO+WLVu6du3av3//7Oxs+4oSVLp5eXkzZsyYPHnylClTvvzyy2XLll1++eV2GiWielesWNGyZcvLL7985cqVM2fO3LRp05VXXrnX/i2lDedO/fvf/87Ly+vQoUORP61evXpubm5IutNaSkpKenq6/cbeX72JOatdu3Z169YdNGhQ6dLmBEpG9T700EMHHnhgly5d7ChKVulWrVo1Ly/vmWeeKVeuXAihf//+TZs2XbVqVUZGhl3HXl69b731VkFBQf/+/WOxWEZGxpNPPnnssccuWbJk7zzZpKHZuTFjxpx44omVKlUq8qdNmzbNzc2dN29enTp1QghTpkxp1KhRmTJl7Df2/uoNISxcuLBNmzbnnnvuI4884t04lKDqHT58+LRp05KLNhaLLViw4MADD7Tr2JtLt1mzZgUFBZs3b45CTn5+vrmXklK95cuX37x5c0FBQUpKSvjpwqW9tul1VdXOTZ48+aijjtreT+vUqXPmmWd27959yZIlkyZNevjhh2+66SY7jRJRvatWrWrVqtV555336KOPOspSsqr3m2++Sdzt9OGHHz7ttNPi8biEw95fuo0bNz711FOvuOKKH3/8ccGCBXfeeed5551nGYcSUb1t2rSpUKFCz549V69ePXfu3Ntuu61du3bJb00XckqYBQsWbDveZ5xxRseOHaOvBw8enJqaWrdu3fPPP79nz57euk1Jqd5nn3121qxZUcJJWLdunf1GiZh7oYSW7htvvFGlSpXDDjvs6KOPrl279qBBg+w0SkT1VqlSZcyYMXPnzq1du/ZJJ51Uv379IUOGBJ+TAwAAEKzkAAAACDkAAICQAwAAIOQAAAAIOQAAAEIOAACAkAMAAAg5AAAAQg4AAICQAwAAIOQAAAAIOQAAgJADAAAg5AAAAAg5AAAAQg4AAICQAwAACDkAAABCDgAAgJADAAAg5AAAAAg5AACAkAMAACDkAAAACDkAAABCDgAAgJADAAAIOQAAAEIOAACAkAMAACDkAAAACDkA7CHr16/funWr/QCAkAPAXmrMmDGxWKxq1aqbNm3a6cYfffTRkUceuXHjxt37t4499tjmzZsXZ8v69eufccYZu/FP3HbbbbFYbPbs2YUenzFjRiwWu+OOO4w4gJADwD5u4MCBIYSVK1cOHTp0pxv/+9//XrBggZ0GgJADwF5q1apVI0aMuPjii6tWrfrss8/+2v/c559//sknn9jtAAg5APxaXnnllU2bNnXr1u2aa6755JNPvvrqq+SfNmzY8MYbb3z88ccrVqx41FFHtW3b9qGHHgohVKpUqXPnztE2n3766ZlnnlmpUqXKlSufd955M2bM2N6vL1u2rNDlai+99FKLFi0qVapUrly5o4466i9/+UtxXnOTJk2uvvrqzz//vEmTJhUqVGjevPmYMWMMJYCQAwD/f8w48sgjW7Vq1b1795SUlG0Xc7799tvf/e53GzdurFixYmpqaqGfjh079tRTTx0zZsy6devWrl07atSok046Kfn9MMm/Xr169eTf7d+/f9euXT/55JN169Zt3rx5+vTpvXv3fv3114vzsleuXHnOOed8+eWXGzZs+PTTT9u2bfvvf//baAIIOQDs77755pvPP//8d7/7XSwWO/TQQy+++OJ//OMf69atC/99p4E+ffps2rTps88+GzFixO9///sQwtq1a4cMGRKPx7t37x5CePbZZ1esWLFixYq///3vGzZsSH5zf/KvJz9tQUFB//79mzRp8vXXX+fl5W3cuPGzzz5LT09/7bXXivPKR40a1bhx4+nTp+fm5v7lL38pKCgodEeBww47LPbfjjzySCMOUOKUtgsACLt4y4FatWpdccUV0bd333330KFDX3311euvvz6xTXp6+v3335+SkrLtr3/77bfffffdXXfd1a1bt+iR66+/fsaMGX/961/Xr19foUKFHfx6qVKlli5dumXLls8++2zgwIFff/31hAkTVq9evWrVquK88qpVqw4fPjw9PT2EcNttt02ZMmXw4MFz58495JBDDCtAsJIDwP5py5YtQ4YMWbRoUWpqarTW0bhx43g8XuiKtSOOOKLIhBNC+P7770MIjzzySPKCyeOPP75169bvvvtup78+duzYI4444uSTT77xxhufeuqpL7/8MoRQUFBQnBffvHnzKOFETj311BDCvHnzEo/MmjUr/t+mT59u0AGClRwA9mFvvfXWsmXLtn18ypQpkyZNOu6446Jvy5cvv71n2MFHgq5Zs2bHv7527dqLLrpo9erVHTp0aNKkyWGHHXbMMce0bdu2mC++TJky276S7aUpAIKVHADC/nGtWrly5VavXp283DFx4sQQwnPPPVecZ6hTp04I4dFHH41v4/TTTw87+1DRlStXPvjgg2+88cZ999132WWXVatWLScnZwfBKdnkyZPz8vIS344fPz6EUK9ePcMKIOQAsJ9asmTJ6NGjzz333MqVKyc/3qJFiyOOOOLVV19dvXp1kb9YunTp8NOFao0aNapdu/af/vSnQYMG5ebmrl69ety4cQ0bNkxPT1+7du2OX0BaWloI4eOPP87Jydm0adNHH3101lln5eXlbdq0qTivf8GCBddcc80PP/yQm5vbv3//1157rUWLFjVr1jSyAEIOAPupl19+OT8/P3HLgWRdunTZsGHD4MGDw3be8R9CaNKkyR133JGSkvLkk09u2rTpmmuuyczMzMjIaNmy5bRp0x544IFKlSrt+AUcf/zxtWvXHjVqVK1atcqXL3/qqadOmTIlhLBo0aLivP7DDjvsnXfeqV27dmZm5p133lmuXLknnnjCsAIIOQDsvwYNGlSlSpUi3wNz1VVXlSpVantXrF1yySUnn3xyamrqtGnTQgjnnnvuBx980Lp164oVK1aqVOn4449/9dVXb7nllp2+gLS0tHfeeadNmzaVK1fOzMxs0aLF008/3b1798WLF8+dO3env56VlfXOO+8cddRRFStWbNOmzYcffnj88ccbVoB9Tywej9sLAOzzmjRpUrFixQkTJtgVAMFKDgAAgJADAAAg5AAAAATvyQEAAAhWcgAAACEHAABAyAEAABByAAAAhBwAAAAhBwAAEHIAAACEHAAAACEHAABAyAEAAIQcAAAAIQcAAEDIAQAAEHIAAACEHAAAQMgBAAAQcgAAAIQcAAAAIQcAAEDIAQAAhBwAAAAhBwAAQMgBAAAQcgAAAIQcAABAyAEAABByAAAAhBwAAAAhBwAAQMgBAAD2ff8flKOUVmjTNiwAAAAASUVORK5CYII="
+    },
+    {
+      "id": "bb_renal2_002",
+      "passage": null,
+      "stem": "Why is urine NH\u2084\u207a high in Patient A?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kidneys excrete acid as ammonium during metabolic acidosis"
+        },
+        {
+          "label": "B",
+          "text": "Kidneys stop all acid excretion during acidosis"
+        },
+        {
+          "label": "C",
+          "text": "NH\u2084\u207a is secreted only in alkalosis"
+        },
+        {
+          "label": "D",
+          "text": "Ammonium is a lung gas"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In metabolic acidosis, renal ammoniagenesis and NH\u2084\u207a excretion help remove acid and regenerate bicarbonate. High urine ammonium is an appropriate renal response.",
+        "B": "Stopping acid excretion would worsen acidosis. The high NH\u2084\u207a shows the kidney is responding.",
+        "C": "Ammonium excretion is especially important in acidosis, not only alkalosis.",
+        "D": "Ammonium is handled by renal tubular processes, not exhaled as a primary lung gas."
+      },
+      "topic": "Renal Physiology II: Acid-Base & Electrolytes",
+      "difficulty": "Easy",
+      "passageRef": "bb_renal2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_renal2_003",
+      "passage": null,
+      "stem": "Patient B most likely has:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "metabolic acidosis without compensation"
+        },
+        {
+          "label": "B",
+          "text": "respiratory acidosis with metabolic compensation"
+        },
+        {
+          "label": "C",
+          "text": "respiratory alkalosis"
+        },
+        {
+          "label": "D",
+          "text": "metabolic alkalosis only"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Metabolic acidosis would have low bicarbonate as the primary abnormality, not elevated PCO\u2082 with increased bicarbonate.",
+        "B": "Correct. Low pH with high PCO\u2082 indicates primary respiratory acidosis. Elevated bicarbonate suggests renal compensation retaining or generating bicarbonate.",
+        "C": "Respiratory alkalosis would have low PCO\u2082 and high pH. Patient B has the opposite pattern.",
+        "D": "Metabolic alkalosis would have high pH; Patient B remains acidemic."
+      },
+      "topic": "Renal Physiology II: Acid-Base & Electrolytes",
+      "difficulty": "Medium",
+      "passageRef": "bb_renal2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_renal2_004",
+      "passage": null,
+      "stem": "Patient C's high pH and high bicarbonate suggest:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "lactic acidosis from shock"
+        },
+        {
+          "label": "B",
+          "text": "metabolic acidosis"
+        },
+        {
+          "label": "C",
+          "text": "uncompensated respiratory acidosis"
+        },
+        {
+          "label": "D",
+          "text": "metabolic alkalosis with respiratory compensation"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Lactic acidosis would produce low pH and low bicarbonate, not the pattern shown.",
+        "B": "Metabolic acidosis would lower bicarbonate and pH, not raise both.",
+        "C": "Respiratory acidosis begins with high PCO\u2082 and low pH. Patient C is alkalemic.",
+        "D": "Correct. High pH with elevated bicarbonate indicates metabolic alkalosis. The elevated PCO\u2082 is consistent with hypoventilatory compensation retaining CO\u2082 to lower pH toward normal."
+      },
+      "topic": "Renal Physiology II: Acid-Base & Electrolytes",
+      "difficulty": "Hard",
+      "passageRef": "bb_renal2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_renal2_005",
+      "passage": null,
+      "stem": "Why does compensation usually not overshoot pH past normal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Compensation reduces the disturbance but does not become a new primary disorder in simple cases"
+        },
+        {
+          "label": "B",
+          "text": "The body cannot change CO\u2082 or bicarbonate"
+        },
+        {
+          "label": "C",
+          "text": "All compensation is instantaneous and perfect"
+        },
+        {
+          "label": "D",
+          "text": "pH is unrelated to PCO\u2082"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Physiologic compensation is a response to the primary disorder and typically moves pH toward normal without creating the opposite pH abnormality. Overshoot suggests mixed disorders or treatment effects.",
+        "B": "The body can change CO\u2082 through ventilation and bicarbonate through renal handling.",
+        "C": "Compensation differs in speed and is rarely perfect; renal compensation is slower than respiratory compensation.",
+        "D": "PCO\u2082 is a major component of the bicarbonate buffer system and strongly affects pH."
+      },
+      "topic": "Renal Physiology II: Acid-Base & Electrolytes",
+      "difficulty": "Medium",
+      "passageRef": "bb_renal2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_renal2_006",
+      "passage": "A second experiment measures nephron transporter responses during volume depletion. Low renal perfusion increases renin release, raising angiotensin II and aldosterone. Aldosterone increases sodium reabsorption and potassium secretion in the distal nephron. ADH increases water permeability in collecting ducts. A loop diuretic blocks Na\u207a-K\u207a-2Cl\u207b transport in the thick ascending limb and reduces the medullary osmotic gradient.",
+      "stem": "What stimulates renin release during volume depletion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "High distal sodium delivery only"
+        },
+        {
+          "label": "B",
+          "text": "Reduced renal perfusion pressure and sympathetic/NaCl signals"
+        },
+        {
+          "label": "C",
+          "text": "Excess atrial stretch"
+        },
+        {
+          "label": "D",
+          "text": "Complete absence of juxtaglomerular cells"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "High distal NaCl tends to suppress renin through macula densa signaling rather than stimulate it.",
+        "B": "Correct. Low effective circulating volume decreases renal perfusion and activates juxtaglomerular renin release, aided by sympathetic input and macula densa signals. This begins RAAS activation.",
+        "C": "Atrial stretch reflects volume expansion and promotes natriuretic responses, not renin release.",
+        "D": "Juxtaglomerular cells are required for renin secretion; their absence would impair the response."
+      },
+      "topic": "Renal Physiology II: Acid-Base & Electrolytes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_renal2_007",
+      "passage": null,
+      "stem": "Aldosterone most directly increases:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "water permeability without ADH"
+        },
+        {
+          "label": "B",
+          "text": "proximal glucose filtration only"
+        },
+        {
+          "label": "C",
+          "text": "distal sodium reabsorption and potassium secretion"
+        },
+        {
+          "label": "D",
+          "text": "bicarbonate destruction in plasma"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "ADH is the main hormone increasing collecting-duct water permeability through aquaporins.",
+        "B": "Glucose filtration is determined mainly by plasma glucose and GFR, not aldosterone's primary action.",
+        "C": "Correct. Aldosterone acts on principal cells to increase sodium reabsorption through ENaC and Na\u207a/K\u207a-ATPase activity, promoting potassium secretion. This supports volume retention but can lower serum K\u207a.",
+        "D": "Aldosterone does not simply destroy plasma bicarbonate; acid-base effects are more indirect and cell-type dependent."
+      },
+      "topic": "Renal Physiology II: Acid-Base & Electrolytes",
+      "difficulty": "Easy",
+      "passageRef": "bb_renal2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_renal2_008",
+      "passage": null,
+      "stem": "Why can loop diuretics impair urinary concentration?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They stop glomerular filtration completely"
+        },
+        {
+          "label": "B",
+          "text": "They directly add aquaporins to collecting ducts"
+        },
+        {
+          "label": "C",
+          "text": "They increase ADH receptor number instantly"
+        },
+        {
+          "label": "D",
+          "text": "They reduce the medullary osmotic gradient by blocking thick ascending limb salt reabsorption"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Loop diuretics do not stop filtration completely; they alter tubular reabsorption.",
+        "B": "Adding aquaporins would increase water reabsorption, but loop diuretics primarily block salt transport upstream.",
+        "C": "ADH receptor number is not the acute target of loop diuretics. The concentrating defect comes from loss of medullary hypertonicity.",
+        "D": "Correct. The thick ascending limb helps build the medullary gradient by reabsorbing NaCl without water. Blocking NKCC reduces that gradient, making it harder for ADH to concentrate urine."
+      },
+      "topic": "Renal Physiology II: Acid-Base & Electrolytes",
+      "difficulty": "Medium",
+      "passageRef": "bb_renal2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_renal2_009",
+      "passage": null,
+      "stem": "ADH increases water reabsorption mainly by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "inserting aquaporin-2 channels in collecting ducts"
+        },
+        {
+          "label": "B",
+          "text": "blocking all sodium channels in the loop"
+        },
+        {
+          "label": "C",
+          "text": "destroying the medulla"
+        },
+        {
+          "label": "D",
+          "text": "converting urea into glucose"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. ADH promotes aquaporin-2 insertion into the apical membrane of collecting-duct principal cells, allowing water to follow the medullary osmotic gradient.",
+        "B": "Loop sodium transport is not ADH's main collecting-duct mechanism.",
+        "C": "The medulla must remain hypertonic for ADH to work; destroying it would impair concentration.",
+        "D": "Urea recycling can support the gradient, but ADH does not convert urea into glucose."
+      },
+      "topic": "Renal Physiology II: Acid-Base & Electrolytes",
+      "difficulty": "Hard",
+      "passageRef": "bb_renal2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_renal2_010",
+      "passage": null,
+      "stem": "Volume depletion activates RAAS primarily to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "eliminate aldosterone secretion"
+        },
+        {
+          "label": "B",
+          "text": "excrete all sodium immediately"
+        },
+        {
+          "label": "C",
+          "text": "restore effective circulating volume and arterial pressure"
+        },
+        {
+          "label": "D",
+          "text": "prevent any water reabsorption"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Aldosterone is a downstream RAAS effector, not something RAAS eliminates.",
+        "B": "Immediate sodium excretion would worsen volume depletion. RAAS favors sodium conservation.",
+        "C": "Correct. RAAS increases angiotensin II and aldosterone, supporting vasoconstriction, sodium retention, and water retention. These responses defend effective circulating volume and pressure.",
+        "D": "Water reabsorption is generally supported through ADH and sodium retention, not prevented."
+      },
+      "topic": "Renal Physiology II: Acid-Base & Electrolytes",
+      "difficulty": "Medium",
+      "passageRef": "bb_renal2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

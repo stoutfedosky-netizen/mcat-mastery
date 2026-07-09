@@ -1,0 +1,246 @@
+{
+  "batch": "B225",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Historiography, Contingency & the Illusion of Historical Inevitability",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 1,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_historiography_contingency_225_q0",
+      "passage": "History, it has often been said, is written backward though it is lived forward. The line captures a discomfort every serious historian eventually confronts: the moment a sequence of events resolves into an outcome, that outcome begins to appear as though it had been latent in the sequence from the start. A revolution succeeds, and the pamphlets, riots, and failed negotiations that preceded it are arranged into a narrative of rising inevitability. A currency collapses, and economists trace, after the fact, a chain of decisions that seems, in retrospect, to admit no other resolution. The difficulty is not that such narratives are false in their particulars. It is that the very act of narrating from a known ending imports a certainty into the past that the past, experienced forward, did not contain.\n\nThis retrospective smoothing is not merely a stylistic habit; it is an argument in disguise. To describe a sequence of events as having “led to” a particular outcome, without qualification, is already to grant that outcome a kind of explanatory gravity it may not deserve. Participants living through the sequence rarely experienced it as a single corridor toward one destination. They experienced branching moments, near misses, plausible alternatives that were foreclosed by decisions made in ignorance of their eventual consequences. A treaty nearly failed to be signed; a general nearly took a different road; a pamphlet nearly went unpublished for want of funds. The historian who narrates only the branch that was taken, and does so in prose that implies necessity, has quietly converted contingency into destiny.\n\nYet the corrective to this habit carries its own excess. A newer tendency, impatient with any talk of pattern or structure, treats every historical outcome as the product of accident so thoroughgoing that no explanation beyond the immediate and particular is permissible. On this view, to speak of economic pressures, demographic trends, or institutional weaknesses as contributing causes is already to smuggle back in the determinism the historian was right to resist. Everything becomes a near miss; nothing is ever, in any degree, made likely by the conditions that precede it. This position flatters itself as more rigorous than its predecessor, but it purchases that rigor at a steep price. If no configuration of circumstances ever makes an outcome more probable than its alternatives, then historical explanation collapses into chronicle: a list of things that happened, connected by nothing but sequence.\n\nThe more defensible position, though a less comfortable one to hold, is that structural conditions and contingent events operate on different registers without either canceling the other. Long-run forces — the depletion of a treasury, the aging of a ruling class, the diffusion of a technology — can narrow the range of plausible outcomes without dictating which of the remaining possibilities will occur. Within that narrowed range, contingency retains real force: the outcome that in fact occurred may still have depended on a delayed messenger, an illness, a miscalculation of loyalty. To hold both claims at once — that a range of outcomes was made more probable by structural conditions, and that the specific outcome within that range remained genuinely open — requires a kind of double vision that most historical prose, built for narrative momentum, resists.\n\nCounterfactual reasoning is sometimes offered as a discipline for maintaining this double vision, and sometimes condemned as its enemy. Asking what might have followed had a particular battle gone differently forces the historian to specify, if only provisionally, which prior conditions were doing genuine causal work and which were merely present. Critics of the method object that such questions are unanswerable in principle, since no controlled trial of the past is available, and that the counterfactual historian inevitably substitutes personal judgment for evidence. Both objections have force. But the alternative — simply refusing to ask what else might have happened — does not avoid the problem; it only conceals a counterfactual judgment inside a narrative that presents itself as description rather than argument. Every claim that a cause “explains” an outcome implies, however quietly, that without the cause the outcome would have been less likely. The historian who declines to examine that implication has not escaped counterfactual reasoning. He has merely stopped noticing that he is using it.\n\nThe stakes of this quarrel extend well past seminar rooms. Public rhetoric leans constantly on implicit claims about historical necessity, usually to naturalize the present. Institutions describe their own emergence as the predictable outcome of progress, as though no other arrangement had ever been plausible, which quietly forecloses the question of whether some different arrangement might still be possible now. To recover the contingency that retrospective narrative erases is not merely an antiquarian scruple. It is to reopen, at least in imagination, a set of doors that a settled story has a professional interest in keeping shut.\n\nNone of this yields a formula for how much necessity or how much contingency belongs in any given historical account; the proportion cannot be fixed in advance and must be argued freshly for each case. What can be fixed is a discipline of suspicion toward any narrative, celebratory or critical, that proceeds as if its ending had never been in doubt. The historian’s task is not to choose between structure and accident but to keep both permanently, uncomfortably, in view.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Historical narratives are fundamentally untrustworthy because historians always distort the past to fit a predetermined conclusion."
+        },
+        {
+          "label": "B",
+          "text": "Contingency should replace structural explanation entirely, since no historical outcome can meaningfully be considered more probable than the alternatives it happened to defeat."
+        },
+        {
+          "label": "C",
+          "text": "Counterfactual reasoning is the only reliable method for correcting the retrospective illusion of historical inevitability."
+        },
+        {
+          "label": "D",
+          "text": "Responsible historical explanation must hold structural conditions and genuine contingency in tension, resisting retrospective narratives of inevitability."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice overstates the author's claim. The passage criticizes narratives that convert contingency into apparent inevitability, but it never suggests historians always distort the past toward a predetermined conclusion. The essay explicitly treats structural forces as real contributing causes, not fabrications imposed after the fact.",
+        "B": "This choice mistakes one criticized position for the author's own. The third paragraph explicitly argues that treating every outcome as pure accident collapses historical explanation into mere chronicle. The author rejects this radical-contingency view as an overcorrection, not as the passage's central thesis.",
+        "C": "This choice elevates one analytic tool discussed in the passage into the passage's main point. Counterfactual reasoning is presented as a discipline that can help expose hidden assumptions, but the author also acknowledges real objections to it and never claims it is the only reliable corrective to historical narratives of inevitability.",
+        "D": "Correct. The passage's central argument, developed across its middle paragraphs and restated in its conclusion, is that structural conditions and contingent events operate on different registers and must both be kept in view. The author rejects both retrospective narratives that treat outcomes as inevitable and radical-contingency accounts that deny any explanatory pattern, insisting instead on holding both in unresolved tension."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_historiography_contingency_225_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward historians who treat every outcome as pure accident, admitting no structural explanation, is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "indifferent, since the author considers the debate over contingency largely irrelevant to serious historical work."
+        },
+        {
+          "label": "B",
+          "text": "sympathetic, viewing their skepticism toward determinism as ultimately more defensible than any structural account the passage considers."
+        },
+        {
+          "label": "C",
+          "text": "skeptical, viewing their position as an overcorrection that collapses explanation into mere chronicle."
+        },
+        {
+          "label": "D",
+          "text": "admiring, because their rigor exposes flaws that structural historians have failed to notice."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice misreads the passage's stakes. The author treats the contingency-versus-structure debate as central to responsible historical practice, not as a peripheral or irrelevant academic quarrel; an entire paragraph is devoted to explaining why the radical-contingency position fails.",
+        "B": "This choice reverses the author's judgment. Far from finding the radical-contingency position more defensible, the author explicitly states that it collapses historical explanation into chronicle, a criticism, not an endorsement, of denying structural causation altogether.",
+        "C": "Correct. The third paragraph states that the radical-contingency position flatters itself as more rigorous than retrospective narrative but purchases that rigor at a steep price, since it reduces historical explanation to a mere list of events connected by nothing but sequence. This is a direct expression of skepticism toward the position as an overcorrection.",
+        "D": "This choice is unsupported by the text. The author never praises the rigor of radical-contingency historians as exposing flaws structural historians have missed; instead, the passage identifies their skepticism as an overcorrection that discards legitimate structural explanation."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_historiography_contingency_225_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the fifth paragraph, concerning counterfactual reasoning, is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "demonstrate that counterfactual reasoning should be abandoned because it cannot be tested against evidence."
+        },
+        {
+          "label": "B",
+          "text": "introduce a new methodology that fully resolves the tension between structure and contingency that the passage develops in its earlier paragraphs."
+        },
+        {
+          "label": "C",
+          "text": "argue that historians who avoid explicit counterfactuals do not thereby avoid making counterfactual assumptions."
+        },
+        {
+          "label": "D",
+          "text": "prove that only professionally trained historians are qualified to speculate about alternative historical outcomes."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice reverses the paragraph's argument. The author acknowledges that counterfactual reasoning cannot be tested experimentally, but does not conclude it should be abandoned; instead, the paragraph argues that avoiding it does not actually solve the underlying problem it addresses.",
+        "B": "This choice overstates the paragraph's ambition. The author never claims counterfactual reasoning fully resolves the tension between structure and contingency; the passage treats the tension as something historians must hold in permanent view, not something a single method can dissolve.",
+        "C": "Correct. The paragraph's central move is to show that historians who refuse explicit counterfactual questions have not escaped counterfactual reasoning, since any causal claim implies that without the cause, the outcome would have been less likely. Avoidance simply conceals the assumption inside language that presents itself as pure description.",
+        "D": "This choice is unsupported by the passage. The paragraph discusses objections to counterfactual reasoning made by critics, but it never argues that only professionally trained historians are qualified to engage in this kind of speculation."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_historiography_contingency_225_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The phrase double vision, as used in the fourth paragraph, most nearly refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the historian's tendency to see the same event differently depending on which archival sources happen to have survived and been consulted."
+        },
+        {
+          "label": "B",
+          "text": "the capacity to see structural conditions narrowing a range of outcomes while contingent events select within that range."
+        },
+        {
+          "label": "C",
+          "text": "a methodological flaw in which historians unconsciously project modern values onto the past."
+        },
+        {
+          "label": "D",
+          "text": "the disagreement between structural historians and contingency-focused historians over which events deserve study."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice confuses the phrase with an unrelated concern about source variation. The passage's use of double vision has nothing to do with disagreements produced by consulting different sources; it concerns holding two different explanatory claims simultaneously.",
+        "B": "Correct. The paragraph explains that structural conditions can narrow the range of plausible outcomes without dictating which outcome occurs, and that contingent events still determine the specific result within that narrowed range. Double vision names the difficulty of holding both claims, narrowing by structure and determination by contingency, in mind at once.",
+        "C": "This choice introduces a concept, presentism, that the passage does not discuss in this context. Projecting modern values onto the past is a different methodological problem from the one the fourth paragraph addresses, which concerns balancing structural and contingent explanation.",
+        "D": "This choice mistakes double vision for a description of scholarly disagreement between camps of historians. The phrase instead describes a cognitive or interpretive capacity that a single historian must exercise, not a dispute between two groups."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_historiography_contingency_225_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Suppose a historian writes that a small nation's currency crisis in a given decade was “the inevitable result of decades of fiscal mismanagement,” offering no discussion of any specific decision, delay, or alternative that might have altered the outcome. According to the passage, this historian would most likely be criticized for:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "narrating a contingent sequence of events in language that converts it into an apparently inevitable outcome."
+        },
+        {
+          "label": "B",
+          "text": "overstating the role of individual decisions relative to the long-run structural forces that constrained what any actor could have done."
+        },
+        {
+          "label": "C",
+          "text": "relying too heavily on counterfactual reasoning without sufficient evidentiary support."
+        },
+        {
+          "label": "D",
+          "text": "denying that long-run fiscal mismanagement could ever meaningfully contribute to a currency crisis."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. By describing the crisis as the “inevitable result” of prior conditions without discussing any specific decision, delay, or alternative, the historian has narrated a contingent sequence in language that erases its contingency, precisely the retrospective smoothing the passage identifies as an argument in disguise.",
+        "B": "This choice reverses the criticism implied by the passage. The hypothetical historian actually emphasizes structural, long-run causes, fiscal mismanagement, at the expense of any contingent decision or alternative; the passage would not fault this account for overstating individual decisions, since none are mentioned.",
+        "C": "This choice misidentifies the flaw in the hypothetical historian's account. The historian in question offers no counterfactual reasoning at all, explicit or otherwise; the problem is not an overreliance on such reasoning but the absence of any acknowledgment of contingency.",
+        "D": "This choice attributes to the passage a claim it never makes. The author does not deny that fiscal mismanagement can meaningfully contribute to a crisis; structural forces are treated throughout as genuine contributing causes. The objection concerns the historian's language of inevitability, not the substance of the causal claim."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_historiography_contingency_225_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the author's claim that retrospective historical narratives often import false certainty into the past?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that participants in major events reported real uncertainty about outcomes that later accounts present as foregone."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that historians who use counterfactual reasoning tend to reach systematically different conclusions than colleagues who avoid it."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that structural economic conditions can be measured with greater precision than previously believed."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that most readers of history prefer narratives with clear, unambiguous conclusions."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage argues that retrospective narratives import a certainty into the past that participants did not experience while events were unfolding. Direct evidence that participants in major historical events commonly reported significant uncertainty, uncertainty typically absent from later historical accounts, would provide empirical support for exactly this claim.",
+        "B": "This choice would bear on a debate about the reliability of counterfactual reasoning as a method, but it would not directly strengthen the specific claim that retrospective narratives falsely convert contingency into apparent inevitability, which is a claim about narrative form rather than about disagreement among counterfactual historians.",
+        "C": "This choice concerns the measurability of structural conditions, a separate issue from the passage's claim about narrative certainty. Greater precision in measuring economic conditions would not, by itself, show that historical narratives falsely smooth over the uncertainty participants actually experienced.",
+        "D": "This choice describes a preference among readers, not a fact about how historical events were actually experienced by participants. Reader preference for clear conclusions might help explain why smoothing narratives are popular, but it would not strengthen the claim that such narratives misrepresent the past."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_historiography_contingency_225_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the author's claim that structural conditions and contingent events must both be given explanatory weight?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that historians frequently disagree about which structural conditions were actually present before a given historical outcome occurred."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that counterfactual reasoning is widely taught in graduate history programs."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that some historians reject the use of narrative prose altogether in favor of statistical presentation."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that outcomes under very similar structural conditions occurred with uniform frequency regardless of intervening contingent events."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice would show that historians disagree about factual antecedents, a genuine methodological problem, but it does not address whether contingent events retain explanatory force once structural conditions are established, which is the specific claim the question asks about.",
+        "B": "This choice concerns how counterfactual reasoning is taught, which has no direct bearing on whether contingent events actually possess explanatory weight independent of structural conditions. It does not challenge the passage's substantive claim about causation.",
+        "C": "This choice concerns historians' stylistic preferences for narrative versus statistical presentation, which does not address the underlying empirical question of whether contingency meaningfully affects outcomes once structural conditions are held constant.",
+        "D": "Correct. The author's argument depends on contingent events retaining genuine explanatory force within a range of outcomes narrowed by structural conditions. If outcomes with similar structural antecedents occurred with essentially uniform frequency regardless of differing contingent events, that would suggest contingency contributes little or nothing to explanation, directly undermining the passage's double-vision claim."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

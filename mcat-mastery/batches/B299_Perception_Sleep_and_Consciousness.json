@@ -1,0 +1,225 @@
+{
+  "batch": "B299",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Perception, Sleep & Consciousness",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_circadian_shift_workers_299_q0",
+      "passage": "A sleep research group surveyed hospital employees working either mostly day shifts or rotating night shifts. Rotating-shift workers were more likely to report difficulty falling asleep on days off, daytime fatigue, and reliance on caffeine late in the day. Day-shift workers reported more stable bedtimes and less schedule-related fatigue. The authors suggested that constantly shifting sleep timing can disrupt circadian rhythms and make restorative sleep harder to maintain.",
+      "usePrevPassage": false,
+      "stem": "What explanation do the authors propose for the greater fatigue in rotating-shift workers?",
+      "choices": {
+        "A": "Frequent schedule changes can disrupt circadian rhythms",
+        "B": "Night-shift workers never sleep at all",
+        "C": "Caffeine automatically cures circadian disruption",
+        "D": "Day-shift workers do not have biological clocks"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage specifically links rotating schedules to disrupted circadian rhythms and difficulty maintaining restorative sleep. That explanation fits the reported fatigue and irregular sleep timing.",
+        "B": "The passage does not say night-shift workers never sleep.",
+        "C": "Caffeine use was reported as common in fatigued workers, not as a cure.",
+        "D": "All humans have circadian rhythms; the difference is in how they are challenged."
+      },
+      "topic": "Sleep",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_circadian_shift_workers_299_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why might rotating-shift workers struggle to sleep on days off?",
+      "choices": {
+        "D": "Their internal rhythms may be repeatedly shifted by inconsistent schedules",
+        "A": "They permanently lose the capacity for sleep",
+        "B": "They become unable to perceive daylight",
+        "C": "Their fatigue proves they are unmotivated workers"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Circadian systems function best with regular timing. When work schedules keep moving, the sleep-wake rhythm may not align smoothly with desired sleep times on off days.",
+        "A": "The passage does not suggest permanent inability to sleep.",
+        "B": "Daylight perception is not the mechanism described.",
+        "C": "Fatigue is being explained biologically and behaviorally, not as proof of poor motivation."
+      },
+      "topic": "Biological Bases of Behavior",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_circadian_shift_workers_299_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A hospital responding to the findings would most likely consider which step?",
+      "choices": {
+        "B": "Reducing unnecessary schedule rotation or providing more consistent shift patterns",
+        "A": "Adding more random shift changes to increase flexibility",
+        "C": "Ignoring fatigue because caffeine solves the problem",
+        "D": "Assigning all workers to the identical bedtime"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. If schedule instability contributes to circadian disruption, then more predictable scheduling would be the most direct intervention consistent with the study\u2019s interpretation.",
+        "A": "More random rotation would likely worsen the reported problem.",
+        "C": "The passage does not suggest caffeine solves circadian disruption.",
+        "D": "Bedtime cannot be identical for every worker; the issue is greater schedule regularity."
+      },
+      "topic": "Applied Sleep Science",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_circadian_shift_workers_299_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What is the main methodological caution in interpreting these results?",
+      "choices": {
+        "C": "The survey shows an association between shift pattern and fatigue but does not prove the schedule is the sole cause",
+        "A": "Survey data can never be useful",
+        "B": "The findings are invalid unless every worker has the same job title",
+        "D": "Circadian rhythms are not relevant because no hormones were measured"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Because the evidence comes from a survey, other factors\u2014such as job demands, age, or family responsibilities\u2014might also differ between worker groups. The survey is informative but not fully causal.",
+        "A": "Survey data can still provide valuable evidence.",
+        "B": "Workers need not share an identical job title for a pattern to be informative.",
+        "D": "Circadian concepts can be relevant even if hormones are not directly measured."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_circadian_shift_workers_299_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which broader concept is best illustrated by the passage?",
+      "choices": {
+        "D": "Sleep and wakefulness are shaped by biological rhythms interacting with social schedules",
+        "A": "Consciousness is entirely a matter of willpower",
+        "B": "Perception is unrelated to sleep timing",
+        "C": "Biological rhythms matter only in infancy"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The passage highlights how institutional schedules can conflict with circadian biology. That illustrates the broader idea that consciousness states such as sleep and alertness emerge from interactions between social demands and biological rhythms.",
+        "A": "The data do not support a willpower-only account.",
+        "B": "Sleep timing and alertness are closely related rather than unrelated.",
+        "C": "Biological rhythms continue to matter across the lifespan."
+      },
+      "topic": "Consciousness",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_pain_expectation_placebo_299_q5",
+      "passage": "A neuroscience lab examined pain ratings after a topical cream was applied before a mild heat stimulus. Some participants were told the cream was analgesic, although it was inert; others were told it was simply a skin lotion. Participants expecting pain relief gave lower pain ratings on average and appeared less tense during the stimulus. The researchers used the example to discuss expectancy effects and the role of top-down processes in pain perception.",
+      "usePrevPassage": false,
+      "stem": "The reduction in pain ratings among participants expecting relief most directly illustrates what?",
+      "choices": {
+        "A": "The placebo effect",
+        "B": "Classical conditioning only",
+        "C": "The foot-in-the-door effect",
+        "D": "A pure change in tissue damage"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Participants given an inert cream but told it would reduce pain reported less pain. That is the placebo effect: expectations altered the subjective experience despite no active analgesic ingredient.",
+        "B": "The passage emphasizes expectancy, not a conditioning-only explanation.",
+        "C": "The foot-in-the-door effect concerns compliance, not pain perception.",
+        "D": "The heat stimulus was the same, so the change was not due to reduced tissue damage."
+      },
+      "topic": "Perception",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_pain_expectation_placebo_299_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why do the researchers describe this as a top-down process?",
+      "choices": {
+        "B": "Cognitive expectations influenced how the sensory input was experienced",
+        "A": "The cream changed the physical temperature of the stimulus",
+        "C": "Pain perception depends only on the skin receptor type",
+        "D": "Top-down means the heat was delivered from above"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Top-down processing refers to how beliefs, expectations, and context shape perception. In this study, expectation altered pain ratings even though the cream itself was inert.",
+        "A": "The passage does not say the cream changed the heat stimulus physically.",
+        "C": "Pain perception is not determined only by receptors; central interpretation matters too.",
+        "D": "Top-down processing is a cognitive term, not a literal description of heat direction."
+      },
+      "topic": "Perception",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_pain_expectation_placebo_299_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Less visible tension during the stimulus is most consistent with which interpretation?",
+      "choices": {
+        "C": "Expecting relief may have changed both subjective experience and behavioral response",
+        "A": "The inert cream directly sedated muscles",
+        "B": "Pain reports are impossible to influence psychologically",
+        "D": "Tension and pain are completely unrelated"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Because the expectation group both reported less pain and appeared less tense, the expectancy manipulation seems to have influenced more than verbal reporting alone. It likely shaped the overall response to the stimulus.",
+        "A": "The cream was inert and therefore not an active sedative.",
+        "B": "The study is evidence that pain reports can indeed be influenced psychologically.",
+        "D": "The passage treats tension and pain response as related features of the experience."
+      },
+      "topic": "Emotion and Perception",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_pain_expectation_placebo_299_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A clinician applying the lesson of the study should be most careful to conclude what?",
+      "choices": {
+        "A": "Expectations can influence pain, but that does not mean the pain is imaginary",
+        "B": "Placebos prove all pain is fake",
+        "C": "Only inert treatments should be used in medicine",
+        "D": "Expectancy makes physiology irrelevant"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The study shows that expectation can modulate pain perception. A careful clinical interpretation is that pain is real and meaningful while also being shaped by cognitive and contextual factors.",
+        "B": "The passage does not imply that pain is unreal.",
+        "C": "It does not advocate replacing effective medicine with inert treatments.",
+        "D": "Top-down effects do not make physiology irrelevant; they add another layer of influence."
+      },
+      "topic": "Applied Perception",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_pain_expectation_placebo_299_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which statement best reflects the study\u2019s significance?",
+      "choices": {
+        "D": "Perception can be altered by beliefs even when the physical stimulus is unchanged",
+        "A": "Physical stimuli completely determine pain reports",
+        "B": "Inert treatments are chemically active if people believe in them",
+        "C": "Pain ratings should never be used in research"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The same mild heat stimulus led to different ratings depending on what participants expected from the cream. That is strong evidence that cognition can shape perception without changing the sensory input itself.",
+        "A": "The passage directly contradicts a purely stimulus-determined account.",
+        "B": "The cream remained inert; the effect came from expectancy rather than hidden chemical activity.",
+        "C": "Self-reported pain can still be useful, especially when interpreted appropriately."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

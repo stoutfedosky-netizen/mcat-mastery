@@ -1,0 +1,335 @@
+{
+  "batch": "B132",
+  "section": "cars",
+  "sectionName": "Critical Analysis and Reasoning Skills",
+  "topicArea": "Economics & Public Policy",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cars_econ_001",
+      "passage": "The debate over universal basic income (UBI) reveals a curious ideological convergence. Libertarians champion it as a replacement for the bureaucratic welfare state — a single, unconditional cash transfer that would eliminate the paternalistic apparatus of means-tested programs, housing vouchers, and food assistance, each with its own administrative overhead and perverse incentives. Progressives, meanwhile, see UBI as a floor beneath which no citizen can fall, a recognition that the social contract must evolve as automation reshapes labor markets. Yet this surface agreement conceals a fundamental disagreement about what UBI is for. The libertarian vision funds UBI by dismantling existing programs; the progressive vision layers it atop them. One seeks to shrink the state, the other to expand its obligations.\n\nThe economic evidence remains contested. Finland's 2017-2018 trial found that recipients reported greater well-being and modest improvements in employment, but the sample was limited to unemployed individuals and the payment replaced existing unemployment benefits rather than supplementing them. Stockton, California's SEED program showed that recipients were more likely to find full-time employment than the control group, though critics noted the small sample size and the fact that participants knew they were being observed. Kenya's GiveDirectly experiment — the largest randomized controlled trial of unconditional cash transfers — demonstrated significant gains in consumption and asset accumulation, but in a developing economy with different labor market dynamics than those of industrialized nations.\n\nWhat the pilots cannot resolve is the macroeconomic question: what happens when an entire economy, not a small subset of it, receives unconditional income? Inflationary pressures, labor supply effects, and changes in bargaining power between workers and employers would operate at a scale no pilot can approximate. The enthusiasm for UBI may ultimately rest less on evidence than on a shared diagnosis — that existing systems are failing — and a shared intuition that direct cash is more dignifying than bureaucratic intermediation. Whether that intuition survives contact with fiscal reality is the question neither side has convincingly answered.",
+      "stem": "The author's primary purpose in this passage is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "argue that UBI is economically infeasible and should be abandoned as a policy proposal"
+        },
+        {
+          "label": "B",
+          "text": "demonstrate that libertarians and progressives fundamentally agree on the purpose and structure of UBI"
+        },
+        {
+          "label": "C",
+          "text": "examine the apparent ideological convergence around UBI while highlighting the unresolved tensions and evidentiary gaps that complicate the debate"
+        },
+        {
+          "label": "D",
+          "text": "compare the outcomes of three UBI pilot programs and recommend which model should be adopted nationally"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The author does not argue that UBI should be abandoned. While the passage raises concerns about fiscal sustainability and evidentiary limitations, the tone is analytical rather than prescriptive. The final paragraph frames the question as unresolved — 'whether that intuition survives contact with fiscal reality is the question neither side has convincingly answered' — rather than concluding that UBI is infeasible. The passage presents both support and skepticism without recommending a particular policy position.",
+        "B": "The passage explicitly argues the opposite: the surface agreement conceals a 'fundamental disagreement about what UBI is for.' The author identifies the convergence as 'curious' precisely because the two sides want different things — libertarians seek to shrink the state while progressives seek to expand its obligations. The apparent agreement is presented as superficial, masking deep structural disagreement about UBI's purpose and implementation.",
+        "C": "The passage opens by identifying the 'curious ideological convergence' between libertarians and progressives on UBI, then immediately demonstrates that this agreement is superficial by contrasting their divergent goals. The middle section surveys pilot evidence while carefully noting each study's limitations. The conclusion frames the macroeconomic question as unanswerable by existing evidence and identifies the shared 'intuition' underlying UBI enthusiasm. Throughout, the author's purpose is analytical: mapping the debate's contours rather than advocating for or against the policy.",
+        "D": "While the passage does discuss three UBI pilots (Finland, Stockton, Kenya), it does not recommend any model for national adoption. The author's treatment of the pilots is explicitly skeptical — each is presented alongside its methodological limitations, and the conclusion argues that no pilot can approximate the macroeconomic effects of a national program. The purpose is to expose the limits of the evidence, not to endorse a specific model."
+      },
+      "topic": "Main Idea / Author's Purpose",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_econ_002",
+      "usePrevPassage": true,
+      "stem": "The author describes the ideological convergence around UBI as 'curious' most likely because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "libertarians and progressives rarely agree on any policy, making any overlap inherently surprising"
+        },
+        {
+          "label": "B",
+          "text": "the agreement is unexpected given that the two sides envision fundamentally different implementations with opposing goals for the role of government"
+        },
+        {
+          "label": "C",
+          "text": "the author finds it suspicious that both sides are motivated by financial self-interest rather than genuine concern for the disadvantaged"
+        },
+        {
+          "label": "D",
+          "text": "neither libertarians nor progressives have historically supported direct cash transfers as a policy tool"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While libertarian-progressive agreement is uncommon, the passage does not suggest that rarity alone makes the convergence curious. The author provides a specific reason for the curiosity: the 'surface agreement conceals a fundamental disagreement about what UBI is for.' The passage identifies the structural tension — one side wants to shrink the state, the other to expand it — as the source of the paradox, not merely the novelty of cross-ideological agreement.",
+        "B": "The author labels the convergence 'curious' because both sides support the same policy instrument while wanting opposite outcomes. Libertarians envision UBI replacing the welfare state to reduce government, while progressives envision it supplementing existing programs to extend government obligations. The author emphasizes that identical policy language masks incompatible institutional visions — making the agreement paradoxical rather than merely unusual.",
+        "C": "The passage does not attribute financial self-interest to either ideological camp. Both sides are presented as motivated by genuine (if different) political philosophies — libertarians by anti-paternalism and reducing bureaucratic overhead, progressives by the social contract and protection against automation. The word 'curious' signals intellectual surprise at the structural paradox, not suspicion of hidden motives.",
+        "D": "The passage does not make a historical claim about whether either group has previously supported direct cash transfers. In fact, there is a long intellectual history of libertarian support for mechanisms like negative income taxes (Milton Friedman) and progressive support for unconditional grants. The author's curiosity is directed at the convergence itself, not at any supposed break with historical precedent."
+      },
+      "topic": "Word-in-Context / Author's Tone",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_econ_003",
+      "usePrevPassage": true,
+      "stem": "Based on the passage, the author would most likely agree with which of the following statements about the Finnish UBI trial?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the trial's design — limited to unemployed individuals receiving replacement benefits rather than supplemental income — restricts the generalizability of its findings to the broader UBI debate"
+        },
+        {
+          "label": "B",
+          "text": "the trial definitively proved that UBI improves both well-being and employment outcomes in all economic contexts"
+        },
+        {
+          "label": "C",
+          "text": "the trial's negative results demonstrate that UBI cannot work in European welfare states"
+        },
+        {
+          "label": "D",
+          "text": "the trial was methodologically superior to the Stockton and Kenya experiments"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The author explicitly notes two limitations of the Finnish trial: the sample 'was limited to unemployed individuals' and 'the payment replaced existing unemployment benefits rather than supplementing them.' These constraints align with the passage's broader argument that pilot programs cannot resolve the macroeconomic questions central to the UBI debate. The author would most likely agree that these design features limit what can be concluded from the Finnish data about UBI as a universal policy.",
+        "B": "The passage directly contradicts this characterization. The author presents the Finnish results as mixed and qualified — 'greater well-being and modest improvements in employment' — and then immediately notes the sample and design limitations. The overall argument is that no pilot has produced definitive evidence, and the passage's skeptical framing makes it clear the author does not view any single trial as conclusive proof.",
+        "C": "The passage does not describe the Finnish trial's results as negative — it reports improvements in well-being and modest employment gains. The author's critique is about the trial's limited generalizability, not its failure to produce positive outcomes. Moreover, the passage does not make claims about the compatibility of UBI with European welfare state structures specifically.",
+        "D": "The passage discusses each trial's limitations without ranking them against one another. The Finnish trial is noted for its limited sample; Stockton for its small size and observer effects; Kenya for its different economic context. The author treats all three as informative but insufficient, making no comparative judgment about which was methodologically superior."
+      },
+      "topic": "Inference / Author's Agreement",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_econ_004",
+      "usePrevPassage": true,
+      "stem": "Which of the following findings, if true, would most WEAKEN the author's argument that existing pilot programs cannot resolve the macroeconomic question about UBI?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a new pilot program conducted in a single city showed that participants experienced improved mental health outcomes"
+        },
+        {
+          "label": "B",
+          "text": "a comprehensive economic simulation incorporating data from all existing UBI trials accurately predicted inflation, labor supply shifts, and wage bargaining outcomes at a national scale"
+        },
+        {
+          "label": "C",
+          "text": "a majority of economists surveyed expressed support for UBI in principle"
+        },
+        {
+          "label": "D",
+          "text": "a new trial in a developing nation replicated the consumption gains observed in Kenya's GiveDirectly experiment"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "An additional small-scale pilot showing individual health benefits would actually reinforce the author's argument rather than weaken it. The author's claim is specifically that macroeconomic effects — inflation, labor supply, bargaining power shifts — cannot be studied in pilot programs because they operate at the scale of an entire economy. Another individual-level finding, however positive, does not address the system-wide dynamics the author identifies as unresolvable by small trials.",
+        "B": "The author's core argument is that 'what happens when an entire economy, not a small subset of it, receives unconditional income' cannot be captured by any pilot. If a comprehensive simulation could accurately model these macro-level effects using pilot data, it would demonstrate that the evidentiary gap the author identifies is bridgeable — that pilot data can, through modeling, yield reliable predictions about national-scale implementation. This directly undermines the claim that pilots are fundamentally insufficient.",
+        "C": "Expert opinion about UBI's desirability does not address the evidentiary question the author raises. The author's argument is about what can be known from existing evidence, not about whether economists favor the policy. A survey of economists' views would not provide the macroeconomic evidence the author claims is missing, so it would not weaken the argument that pilots cannot resolve the key empirical questions.",
+        "D": "Replicating consumption gains in another developing country would strengthen the evidence that cash transfers produce individual-level benefits in similar economic contexts, but it would not address the author's specific concern about macroeconomic effects in industrialized economies. The author already acknowledged Kenya's positive results while noting that developing-economy dynamics differ from those of industrialized nations."
+      },
+      "topic": "Weaken the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_econ_005",
+      "usePrevPassage": true,
+      "stem": "The passage suggests that UBI's appeal across ideological lines rests primarily on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "robust empirical evidence from multiple randomized controlled trials demonstrating UBI's effectiveness"
+        },
+        {
+          "label": "B",
+          "text": "the political popularity of UBI among voters in both conservative and liberal districts"
+        },
+        {
+          "label": "C",
+          "text": "a detailed economic model showing that UBI would reduce inflation and increase labor force participation"
+        },
+        {
+          "label": "D",
+          "text": "a shared belief that current systems are inadequate combined with the intuition that direct cash transfers are more respectful of individual autonomy than existing welfare programs"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage explicitly argues against this characterization. The author notes that 'the economic evidence remains contested,' identifies specific limitations of each trial, and concludes that 'the enthusiasm for UBI may ultimately rest less on evidence than on a shared diagnosis.' The passage presents the empirical case as insufficient, not robust.",
+        "B": "The passage does not discuss voter preferences, polling data, or the political popularity of UBI among specific electoral constituencies. The appeal described is intellectual and philosophical — a shared diagnosis and shared intuition among policy thinkers — not a claim about mass public opinion or electoral dynamics.",
+        "C": "The passage contains no reference to any economic model predicting reduced inflation or increased labor force participation. In fact, the author raises inflation and labor supply effects as unresolved macroeconomic questions that no existing evidence can answer. This choice contradicts the passage's argument.",
+        "D": "Correct. The final paragraph states that enthusiasm for UBI may rest on a shared diagnosis that existing systems are failing and a shared intuition that direct cash is more dignifying than bureaucratic intermediation. This choice captures that cross-ideological appeal, even though the two sides disagree about whether UBI should replace or supplement existing welfare programs."
+      },
+      "topic": "Inference / Passage Comprehension",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_econ_006",
+      "passage": "The standard economic argument for free trade rests on David Ricardo's principle of comparative advantage: even when one nation can produce every good more efficiently than another, both benefit from specializing in what they produce at the lowest opportunity cost and trading for the rest. The logic is elegant and, within its assumptions, irrefutable. But the assumptions do the heavy lifting. Ricardo's model presumes full employment, perfect factor mobility, stable exchange rates, and no externalities — conditions that may hold in textbook equilibria but rarely in the dislocations of actual trade liberalization.\n\nThe political economy of trade tells a different story than the aggregate welfare gains reported in economics journals. When a factory closes in a single-industry town, the workers who lose their jobs do not seamlessly transition to newly competitive export sectors. They face geographic immobility, skill mismatches, eroded social networks, and what economists euphemistically call 'adjustment costs' — a term that sanitizes years of unemployment, wage decline, and community disintegration. The gains from trade are real but diffuse, spread across millions of consumers paying marginally lower prices; the losses are concentrated and devastating, borne by identifiable communities whose political voice grows louder as their economic prospects dim.\n\nThe policy response has historically been to compensate the losers: Trade Adjustment Assistance in the United States, the European Globalization Adjustment Fund in the EU. But these programs have consistently been underfunded, slow to deploy, and poorly targeted. Workers eligible for retraining often find that the available programs do not match the skills demanded by growing industries, and the psychological toll of displacement — loss of identity, purpose, and social standing — resists administrative remedy. The failure is not merely logistical but conceptual: the compensating framework treats dislocation as a temporary friction rather than a structural transformation that permanently reshapes the economic geography of affected regions.\n\nWhat remains unresolved is whether these failures invalidate the case for free trade or merely indict the political will to implement adequate compensation. If the gains from trade are large enough to make everyone better off in principle, the moral burden falls on distributive policy, not on trade policy itself. But 'in principle' has proven a weak foundation for political legitimacy, and the communities bearing the costs have grown skeptical of promises that the benefits will eventually reach them.",
+      "stem": "The author's attitude toward Ricardo's principle of comparative advantage is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "acknowledging the theoretical validity of the principle while arguing that its real-world assumptions rarely hold, making its policy implications more complicated than its advocates suggest"
+        },
+        {
+          "label": "B",
+          "text": "dismissing the principle as entirely discredited by modern economic research"
+        },
+        {
+          "label": "C",
+          "text": "enthusiastically endorsing the principle as the strongest argument for unrestricted international trade"
+        },
+        {
+          "label": "D",
+          "text": "expressing uncertainty about whether Ricardo's model applies to any economic situation"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The author calls Ricardo's logic 'elegant and, within its assumptions, irrefutable' — genuine intellectual respect for the theory. But the passage immediately pivots to argue that 'the assumptions do the heavy lifting' and lists conditions (full employment, perfect factor mobility, stable exchange rates, no externalities) that 'rarely' hold in practice. This is the classic structure of qualified endorsement: valid in theory, problematic in application. The author does not reject the principle but argues its real-world deployment is far messier than its theoretical elegance suggests.",
+        "B": "The passage explicitly acknowledges the theoretical soundness of comparative advantage — the logic is 'irrefutable' within its assumptions. The author's critique targets the gap between theory and practice, not the theory itself. Describing the principle as 'entirely discredited' contradicts the respectful framing the author gives to Ricardo's contribution. The argument is about the assumptions, not the logic.",
+        "C": "While the author acknowledges that comparative advantage is theoretically valid, the passage spends most of its length detailing the practical failures, concentrated losses, and inadequate compensatory responses that accompany trade liberalization. This is not enthusiasm for unrestricted trade — it is a careful argument that the theoretical case is insufficient as a guide to policy without addressing distributional consequences.",
+        "D": "The author does not express uncertainty about whether the model applies to any situation. The passage concedes that 'the gains from trade are real' — the model describes genuine economic dynamics. The author's concern is that real-world conditions diverge from the model's assumptions, creating distributional problems that the theory does not address, not that the theory lacks any descriptive power."
+      },
+      "topic": "Author's Attitude / Tone",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_econ_007",
+      "usePrevPassage": true,
+      "stem": "The author uses the phrase 'adjustment costs' in quotation marks most likely to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "indicate that the term is a direct quotation from a specific economist's published work"
+        },
+        {
+          "label": "B",
+          "text": "distinguish between short-term adjustment costs and long-term structural unemployment"
+        },
+        {
+          "label": "C",
+          "text": "suggest that adjustment costs are not real economic phenomena"
+        },
+        {
+          "label": "D",
+          "text": "signal that the technical economic term understates and sanitizes the human suffering experienced by displaced workers"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage does not attribute the phrase to any specific economist or publication. The quotation marks here function as scare quotes — a rhetorical device signaling skepticism about the term's adequacy — rather than indicating direct citation. The author is commenting on how the economics profession uses language, not quoting a particular source.",
+        "B": "While the passage does discuss both short-term friction and long-term structural transformation, the quotation marks around 'adjustment costs' are not performing this distinction. The scare quotes signal the author's view that the term itself is inadequate — a euphemism that minimizes human suffering — not that it fails to distinguish between temporal categories of economic disruption.",
+        "C": "The author does not deny that adjustment costs are real. The preceding sentence describes concrete economic consequences — geographic immobility, skill mismatches, eroded social networks — and the passage's broader argument depends on these dislocations being genuine and severe. The quotation marks challenge the term's emotional register, not the reality of the phenomenon it names.",
+        "D": "Immediately after the quoted phrase, the author describes it as 'a term that sanitizes years of unemployment, wage decline, and community disintegration.' This explanatory gloss makes the rhetorical purpose explicit: the author places the term in quotation marks to signal that it is a euphemism — clinical economic jargon that strips away the lived reality of job loss, eroded communities, and prolonged hardship. The scare quotes invite the reader to notice the gap between the term's clinical tone and the devastation it describes."
+      },
+      "topic": "Rhetorical Analysis / Word-in-Context",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_econ_008",
+      "usePrevPassage": true,
+      "stem": "According to the passage, Trade Adjustment Assistance and similar programs have failed primarily because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "they were designed to address temporary frictions in an economy undergoing permanent structural transformation, and their compensatory logic does not account for the depth or duration of the disruption experienced by affected communities"
+        },
+        {
+          "label": "B",
+          "text": "they provided too much funding, creating dependency among displaced workers who chose not to seek reemployment"
+        },
+        {
+          "label": "C",
+          "text": "they were opposed by labor unions who preferred protectionist trade policies instead"
+        },
+        {
+          "label": "D",
+          "text": "they were implemented too quickly, before displaced workers had time to assess their retraining options"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The passage identifies both logistical and conceptual failures. Logistically, the programs have been 'underfunded, slow to deploy, and poorly targeted' with retraining programs that 'do not match the skills demanded by growing industries.' But the deeper failure is conceptual: 'the compensating framework treats dislocation as a temporary friction rather than a structural transformation that permanently reshapes the economic geography of affected regions.' The programs fail because their underlying theory of the problem — temporary disruption requiring bridging assistance — mischaracterizes what is actually a permanent restructuring.",
+        "B": "The passage explicitly states the opposite — these programs have been 'underfunded,' not overfunded. The passage makes no argument about dependency or workers choosing not to seek employment. The framework the author critiques is one of insufficient support, not excessive generosity. This choice reverses the passage's analysis.",
+        "C": "The passage does not mention labor unions, protectionist trade policies, or organized opposition to adjustment programs. The failures described are internal to the programs themselves — design flaws, funding shortfalls, skill mismatches, and a conceptual framework that misunderstands the nature of trade-related dislocation. The passage attributes the failure to the programs' own inadequacy, not to external political opposition.",
+        "D": "The passage states the opposite temporal problem: the programs have been 'slow to deploy,' not implemented too quickly. Speed of implementation is mentioned as one of several logistical failures, but the primary criticism is conceptual — the programs misunderstand the nature of the disruption they are designed to address, treating structural transformation as temporary friction."
+      },
+      "topic": "Detail Retrieval / Causal Reasoning",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_econ_009",
+      "usePrevPassage": true,
+      "stem": "Which of the following best captures the unresolved tension the author identifies in the final paragraph?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "whether free trade produces any economic gains at all, or whether protectionism would generate greater prosperity for all citizens"
+        },
+        {
+          "label": "B",
+          "text": "whether international trade agreements should be negotiated bilaterally or through multilateral institutions"
+        },
+        {
+          "label": "C",
+          "text": "whether Ricardo's comparative advantage applies to manufactured goods or only to agricultural commodities"
+        },
+        {
+          "label": "D",
+          "text": "whether the failure to compensate trade's losers is an indictment of trade policy itself or only of the political systems that have failed to redistribute trade's gains adequately"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage does not question whether free trade produces any gains — it explicitly states that 'the gains from trade are real.' The unresolved question is about distribution, not existence, of those gains. The author acknowledges aggregate welfare improvements while questioning whether the concentrated losses can be adequately addressed. Protectionism versus free trade is not the tension the final paragraph frames.",
+        "B": "The passage does not discuss the institutional form of trade agreements — bilateral versus multilateral negotiation is not mentioned. The final paragraph's tension is philosophical and political: the gap between theoretical gains and lived losses, and whether inadequate compensation discredits the trade itself or only the distributive response. This choice introduces a topic entirely absent from the passage.",
+        "C": "The passage makes no distinction between trade in manufactured goods and agricultural commodities. Ricardo's principle is discussed as a general theoretical framework, and the author's critique applies to trade liberalization broadly — factory closures, single-industry towns, labor market dislocations. The scope of comparative advantage across product categories is not a tension the passage explores.",
+        "D": "The final paragraph explicitly poses this question: 'whether these failures invalidate the case for free trade or merely indict the political will to implement adequate compensation.' This is the core tension — if the gains are large enough to compensate everyone 'in principle,' does the failure to actually compensate undermine the trade policy or only the distributive policy? The author notes that 'in principle' has proven inadequate for political legitimacy, leaving the question unresolved."
+      },
+      "topic": "Argument Structure / Main Tension",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_econ_010",
+      "usePrevPassage": true,
+      "stem": "The passage implies that communities affected by trade-related job losses have become politically influential primarily because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "they received generous government subsidies that allowed them to fund political campaigns and lobbying efforts"
+        },
+        {
+          "label": "B",
+          "text": "their elected representatives shifted to protectionist positions to secure reelection in economically distressed districts"
+        },
+        {
+          "label": "C",
+          "text": "the concentration of losses in identifiable communities created a politically mobilized constituency whose grievances intensified as economic decline persisted"
+        },
+        {
+          "label": "D",
+          "text": "national media coverage of factory closures created widespread public sympathy that translated into legislative action"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage describes affected communities as economically devastated — experiencing 'years of unemployment, wage decline, and community disintegration.' It would be inconsistent with the passage's portrayal to suggest these communities received generous subsidies enabling political spending. The passage explicitly notes that compensatory programs have been 'underfunded' and inadequate.",
+        "B": "While this scenario is plausible in the real world, the passage does not discuss the behavior of elected representatives or their electoral strategies. The political voice the passage attributes to affected communities comes from the communities themselves — their concentrated losses make them identifiable and motivated — not from the strategic calculations of their representatives.",
+        "C": "The passage states that 'the losses are concentrated and devastating, borne by identifiable communities whose political voice grows louder as their economic prospects dim.' The political influence arises from the structural asymmetry between diffuse gains and concentrated losses: when harm falls heavily on specific, identifiable groups, those groups become politically mobilized. The passage frames this as a natural consequence of the distribution pattern, not of external factors like media or subsidies.",
+        "D": "The passage does not mention media coverage, public sympathy, or legislative action as mechanisms of political influence. The political dynamic the passage describes is more direct: concentrated economic harm creates a motivated constituency. The author's argument is structural — about the distribution of costs and benefits — not about the media's role in shaping political outcomes."
+      },
+      "topic": "Inference / Implied Mechanism",
+      "difficulty": "Medium"
+    }
+  ]
+}

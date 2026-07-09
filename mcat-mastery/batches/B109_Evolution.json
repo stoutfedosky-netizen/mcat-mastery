@@ -1,0 +1,338 @@
+{
+  "batch": "B109",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Evolution & Natural Selection",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_evol_001",
+      "passage": "An evolutionary biologist studies the mechanisms driving biological diversity. She examines Darwin's theory of natural selection, genetic drift, gene flow, and speciation. She compares directional, stabilizing, and disruptive selection, and investigates how Hardy-Weinberg equilibrium provides a null model for detecting evolutionary change. She also studies evidence for evolution including fossil records, comparative anatomy (homologous vs analogous structures), molecular phylogenetics, and biogeography.",
+      "stem": "Natural selection acts on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "phenotypes — individuals with traits (phenotypes) that confer greater fitness in a given environment survive and reproduce at higher rates, passing the underlying alleles to offspring; natural selection does not directly 'see' genotypes"
+        },
+        {
+          "label": "B",
+          "text": "genotypes directly, regardless of whether they are expressed"
+        },
+        {
+          "label": "C",
+          "text": "individual organisms that intentionally choose beneficial mutations"
+        },
+        {
+          "label": "D",
+          "text": "entire species simultaneously, always benefiting the species as a whole"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Natural selection acts on phenotypes (observable traits), not directly on genotypes. An organism's survival and reproduction depend on its physical characteristics, behaviors, and physiological capacities — all phenotypic expressions. A recessive allele hidden in a heterozygous genotype is 'invisible' to selection because it doesn't affect the phenotype. Selection requires: (1) variation in traits, (2) heritability of those traits, (3) differential fitness (some variants reproduce more). Fitness = relative reproductive success — not physical strength. The alleles underlying advantageous phenotypes increase in frequency over generations.",
+        "B": "Selection acts on expressed phenotypes, not hidden genotypes. A recessive lethal allele in a heterozygote (Aa) is not selected against because the carrier has a normal phenotype. Only when expressed (aa) does selection operate.",
+        "C": "Organisms do not intentionally choose mutations. Mutations arise randomly with respect to fitness — they are not directed responses to environmental needs (Lamarckian misconception). Natural selection then filters among existing variation.",
+        "D": "Natural selection acts on individuals, not species. 'Group selection' is a controversial concept; standard Darwinian selection favors traits that increase individual reproductive fitness, even if they are detrimental to the group."
+      },
+      "topic": "Natural Selection / Phenotype vs Genotype",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_evol_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Genetic drift is an evolutionary mechanism that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "always increases genetic diversity in a population"
+        },
+        {
+          "label": "B",
+          "text": "causes random changes in allele frequencies due to chance sampling events — it is most powerful in small populations and can lead to fixation or loss of alleles regardless of their adaptive value"
+        },
+        {
+          "label": "C",
+          "text": "only affects populations with no genetic variation"
+        },
+        {
+          "label": "D",
+          "text": "is the same as natural selection but operates more slowly"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Genetic drift typically decreases genetic diversity over time by randomly fixing some alleles and eliminating others. In contrast, mutation and gene flow introduce new variation.",
+        "B": "Correct. Genetic drift: random fluctuations in allele frequencies from generation to generation, caused by the stochastic nature of reproduction (not all individuals reproduce, and gamete sampling is random). Effects: alleles can increase or decrease in frequency by chance alone, independent of fitness. In small populations, drift is powerful — it can fix neutral or even deleterious alleles and drive beneficial alleles to extinction. Bottleneck effect: a drastic population reduction causes random loss of alleles (e.g., cheetah genetic uniformity). Founder effect: a small colonizing group carries a non-representative sample of alleles to a new habitat (e.g., Amish — high frequency of Ellis-van Creveld syndrome).",
+        "C": "Genetic drift requires existing genetic variation to operate — it changes the frequencies of alleles already present. In a population with no variation (all individuals homozygous for the same alleles), drift has no effect.",
+        "D": "Genetic drift is fundamentally different from natural selection. Selection is non-random and directional (favoring advantageous traits). Drift is random and non-directional — it does not favor any particular allele based on fitness."
+      },
+      "topic": "Genetic Drift / Bottleneck / Founder Effect",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_evol_003",
+      "passage": null,
+      "stem": "Homologous structures provide evidence for evolution because they:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "perform identical functions in all organisms"
+        },
+        {
+          "label": "B",
+          "text": "evolved independently in unrelated lineages through convergent evolution"
+        },
+        {
+          "label": "C",
+          "text": "share a common underlying anatomy inherited from a common ancestor, even though they may serve different functions — the forelimbs of humans, bats, whales, and cats share the same skeletal plan (humerus, radius, ulna) despite serving different purposes (grasping, flying, swimming, walking)"
+        },
+        {
+          "label": "D",
+          "text": "are found only in extinct organisms and never in living species"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Homologous structures often serve different functions in different organisms — that is precisely the point. The bat's wing (flight) and the whale's flipper (swimming) are structurally homologous but functionally different.",
+        "B": "Independent evolution in unrelated lineages describes analogous structures (convergent evolution), not homologous structures. Homology implies shared ancestry, not independent origin.",
+        "C": "Correct. Homologous structures: similar anatomy due to shared ancestry (divergent evolution). The pentadactyl (five-digit) vertebrate limb is a classic example: human arm, bat wing, whale flipper, and cat forelimb all share the same bone arrangement (humerus → radius/ulna → carpals → metacarpals → phalanges) inherited from a common tetrapod ancestor. The structures have been modified for different functions (adaptive radiation) but retain the ancestral plan. Contrast with analogous structures: similar function but different evolutionary origin (convergent evolution — e.g., bird wing vs insect wing, both for flight but anatomically unrelated).",
+        "D": "Homologous structures are found in both extinct and living organisms. Comparing living species' anatomy is a primary method for identifying homology."
+      },
+      "topic": "Homologous Structures / Common Ancestry",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_evol_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Stabilizing selection occurs when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "extreme phenotypes are favored and intermediate phenotypes are selected against"
+        },
+        {
+          "label": "B",
+          "text": "one extreme phenotype is favored over the other extreme"
+        },
+        {
+          "label": "C",
+          "text": "intermediate phenotypes have the highest fitness, and extreme phenotypes on both ends are selected against — this reduces phenotypic variation and maintains the population mean near the current optimum"
+        },
+        {
+          "label": "D",
+          "text": "all phenotypes have equal fitness regardless of environmental conditions"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Extreme phenotypes favored and intermediates selected against describes disruptive (diversifying) selection. Disruptive selection splits the population into two groups and can lead to speciation (e.g., African seedcracker finch beak sizes — large and small beaks favored, intermediate disfavored).",
+        "B": "One extreme favored describes directional selection, which shifts the population mean toward one end of the distribution (e.g., antibiotic resistance — bacteria with highest resistance are most fit).",
+        "C": "Correct. Stabilizing selection: the bell curve narrows. Individuals with intermediate phenotypes survive and reproduce best; extremes on both tails are selected against. Example: human birth weight — very low and very high birth weights have higher mortality; intermediate weights (~3.5 kg) have highest survival. Stabilizing selection is the most common type in stable environments — it maintains adaptation to current conditions and reduces variation. Graphically: the fitness peak is at the center of the distribution, and the distribution narrows over time.",
+        "D": "If all phenotypes had equal fitness, no selection would occur, and phenotypic frequencies would not change (assuming no drift, mutation, or migration)."
+      },
+      "topic": "Stabilizing Selection / Intermediate Fitness",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_evol_005",
+      "passage": null,
+      "stem": "Speciation (the formation of new species) most commonly occurs through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "individuals choosing to become a new species through deliberate behavioral changes"
+        },
+        {
+          "label": "B",
+          "text": "reproductive isolation between populations — allopatric speciation (geographic separation prevents gene flow) is most common, but sympatric speciation (reproductive isolation without geographic barriers, e.g., through polyploidy or habitat differentiation) also occurs"
+        },
+        {
+          "label": "C",
+          "text": "a single mutation that instantly creates a fully formed new species"
+        },
+        {
+          "label": "D",
+          "text": "blending inheritance that homogenizes all variation within a population"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Speciation is not a deliberate choice. It is a population-level process resulting from accumulated genetic differences that cause reproductive isolation over many generations.",
+        "B": "Correct. Speciation requires reproductive isolation — populations must stop exchanging genes. Allopatric speciation (most common): a geographic barrier (mountain range, river, ocean) physically separates populations → each evolves independently (drift + different selection pressures) → when reunited, they can no longer interbreed. Sympatric speciation: reproductive isolation develops without geographic separation — mechanisms include polyploidy (instant reproductive isolation via chromosome doubling, common in plants), temporal isolation (different breeding seasons), behavioral isolation (different mating calls/courtship). Biological species concept: species = groups of interbreeding natural populations reproductively isolated from other such groups.",
+        "C": "Speciation is typically a gradual process requiring the accumulation of many genetic differences. The exception is polyploidy in plants, where a single event (chromosome doubling) can create instant reproductive isolation — but even this is not a 'single mutation' creating a complete new species.",
+        "D": "Blending inheritance (the pre-Mendelian idea that parental traits blend in offspring like mixing paint) would actually prevent speciation by eliminating the variation that selection acts on. Mendel's particulate inheritance (discrete alleles) preserves variation."
+      },
+      "topic": "Speciation / Reproductive Isolation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_evol_006",
+      "passage": null,
+      "stem": "Fitness in evolutionary biology refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an organism's physical strength and muscular development"
+        },
+        {
+          "label": "B",
+          "text": "an organism's ability to survive the longest lifespan possible"
+        },
+        {
+          "label": "C",
+          "text": "an organism's relative reproductive success — the number of viable, fertile offspring it contributes to the next generation compared to other individuals in the population"
+        },
+        {
+          "label": "D",
+          "text": "the overall health and disease resistance of an organism"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Physical strength and muscularity are not evolutionary fitness. A physically weak organism that reproduces prolifically is more fit than a strong organism that does not reproduce. Fitness is about gene transmission, not physical prowess.",
+        "B": "Longevity alone does not determine fitness. Living long is advantageous only insofar as it increases reproductive output. Post-reproductive survival has no direct effect on fitness (though grandparental investment can affect inclusive fitness).",
+        "C": "Correct. Evolutionary fitness = reproductive success relative to others in the population. An organism that survives to age 100 but produces no offspring has zero fitness. An organism that dies at age 5 but has produced 10 surviving, fertile offspring has high fitness. Fitness is measured as the proportional contribution of genotype to the next generation's gene pool. Inclusive fitness (Hamilton) extends this to include effects on relatives' reproduction (kin selection): organisms can increase their genetic representation through helping relatives reproduce (explaining altruistic behavior — e.g., worker bees sacrificing reproduction to help the queen).",
+        "D": "Health and disease resistance contribute to fitness only if they enhance reproductive success. They are components that may increase fitness but are not fitness itself."
+      },
+      "topic": "Fitness / Reproductive Success",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_evol_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The Hardy-Weinberg equilibrium model predicts that allele frequencies will remain constant across generations if:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "natural selection is strongly favoring one allele"
+        },
+        {
+          "label": "B",
+          "text": "the population experiences significant genetic drift"
+        },
+        {
+          "label": "C",
+          "text": "frequent mutations are introducing new alleles"
+        },
+        {
+          "label": "D",
+          "text": "five conditions are met: no selection, no mutation, no migration (gene flow), random mating, and a large population size — violation of these assumptions causes deviation from Hardy-Weinberg expectations; selection, mutation, migration, and drift change allele frequencies, while nonrandom mating mainly alters genotype frequencies"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Natural selection changes allele frequencies — it is one of the conditions that must be absent for HWE.",
+        "B": "Genetic drift changes allele frequencies randomly — it violates the large population size requirement for HWE.",
+        "C": "Mutation introduces new alleles, changing allele frequencies — it violates the no-mutation condition for HWE.",
+        "D": "Correct. Hardy-Weinberg equilibrium (HWE) is a null model for population genetics. If p + q = 1 (allele frequencies) and p² + 2pq + q² = 1 (genotype frequencies), allele frequencies remain constant across generations provided: (1) no natural selection (all genotypes equally fit); (2) no mutation (no new alleles introduced); (3) no gene flow (no migration in/out); (4) random mating (no sexual selection, assortative mating); (5) infinitely large population (no genetic drift). Real populations violate these assumptions — HWE provides a baseline against which to detect evolutionary forces. Note: nonrandom mating (e.g., assortative mating) changes genotype frequencies (increasing homozygosity) without necessarily changing allele frequencies, while selection, mutation, migration, and drift do change allele frequencies."
+      },
+      "topic": "Hardy-Weinberg Equilibrium / Conditions",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_evol_008",
+      "passage": null,
+      "stem": "Convergent evolution produces:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "homologous structures from a shared common ancestor"
+        },
+        {
+          "label": "B",
+          "text": "analogous structures — similar traits that evolved independently in unrelated lineages because they face similar environmental pressures, such as the streamlined body shape of sharks (fish) and dolphins (mammals)"
+        },
+        {
+          "label": "C",
+          "text": "vestigial structures that have no function"
+        },
+        {
+          "label": "D",
+          "text": "identical DNA sequences in all organisms"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Homologous structures from shared ancestry describes divergent evolution (adaptive radiation), the opposite of convergent evolution.",
+        "B": "Correct. Convergent evolution: unrelated organisms independently evolve similar traits (analogous structures) because they occupy similar ecological niches or face similar selection pressures. Examples: camera eyes of vertebrates and octopuses (evolved independently from different embryological origins); wings of birds, bats (modified forelimbs), and insects (cuticular outgrowths) — similar function (flight) but different anatomical origins; streamlined bodies of sharks, dolphins, and ichthyosaurs (three different lineages converging on hydrodynamic body shape). Analogous structures reveal similar selection pressures, not common ancestry.",
+        "C": "Vestigial structures (human appendix, whale pelvic bones, ostrich wings for flightlessness) are reduced remnants of ancestral structures that have lost their original function. They demonstrate evolutionary history but are not products of convergent evolution.",
+        "D": "Convergent evolution does not produce identical DNA sequences. The similar phenotypes arise from different genetic pathways — molecular analysis reveals the independent evolutionary origins."
+      },
+      "topic": "Convergent Evolution / Analogous Structures",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_evol_009",
+      "passage": null,
+      "stem": "Directional selection occurs when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the population mean shifts toward one phenotypic extreme because individuals at that extreme have the highest fitness — this is common in changing environments where the current optimum is shifting"
+        },
+        {
+          "label": "B",
+          "text": "intermediate phenotypes are most fit"
+        },
+        {
+          "label": "C",
+          "text": "extreme phenotypes at both ends are most fit"
+        },
+        {
+          "label": "D",
+          "text": "no phenotypic change occurs across generations"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Directional selection: the fitness peak is shifted to one end of the phenotypic distribution. Over time, the population mean shifts toward that extreme. The distribution moves but doesn't necessarily change shape. Examples: bacterial resistance to antibiotics (most resistant bacteria survive → population shifts toward higher resistance); peppered moths during the Industrial Revolution (darker moths favored on soot-darkened trees → population shifted toward melanistic phenotype); increasing beak depth in Galápagos finches during drought (only large, hard seeds available → birds with deeper beaks survived). Directional selection is most common when environments change.",
+        "B": "Intermediate phenotypes being most fit describes stabilizing selection, which reduces variation around the current mean.",
+        "C": "Both extremes being most fit describes disruptive selection, which can split the population into two groups.",
+        "D": "No phenotypic change across generations would indicate no selection (or stabilizing selection maintaining the current optimum, though with reduced variation). Directional selection specifically produces a shift in the population mean."
+      },
+      "topic": "Directional Selection / Environmental Change",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_evol_010",
+      "passage": null,
+      "stem": "Inclusive fitness (Hamilton) explains altruistic behavior by proposing that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "altruism is always maladaptive and should be eliminated by natural selection"
+        },
+        {
+          "label": "B",
+          "text": "altruistic organisms always have higher individual fitness than selfish organisms"
+        },
+        {
+          "label": "C",
+          "text": "altruism only exists in humans and is absent from all other species"
+        },
+        {
+          "label": "D",
+          "text": "organisms can increase their genetic representation in the next generation by helping relatives reproduce — since relatives share genes by descent, aiding kin survival indirectly propagates one's own alleles (Hamilton's rule: altruism favored when rB > C)"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Kin selection provides a mechanism for altruism to be adaptive. When helping relatives reproduce (who share your genes), the indirect genetic benefit can outweigh the direct cost to the altruist.",
+        "B": "Altruistic organisms pay a personal fitness cost (C > 0 by definition). They do not have higher individual fitness than selfish organisms. However, their inclusive fitness (personal + indirect) can be higher, which is why kin-directed altruism evolves.",
+        "C": "Altruistic behavior is observed across many species: cooperative breeding in birds, alarm calling in meerkats and ground squirrels, food sharing in vampire bats, worker sterility in social insects.",
+        "D": "Correct. Hamilton's inclusive fitness theory (1964): an organism's fitness includes its own direct reproduction (personal fitness) plus its contribution to relatives' reproduction, weighted by relatedness (r). Hamilton's rule: an altruistic behavior is favored by selection when rB > C, where r = coefficient of relatedness (siblings: r = 0.5; half-siblings: r = 0.25; cousins: r = 0.125), B = reproductive benefit to the recipient, C = reproductive cost to the altruist. This explains eusociality in Hymenoptera (bees, ants, wasps — workers are more related to sisters [r = 0.75 due to haplodiploidy] than to their own offspring [r = 0.5]), alarm calling in ground squirrels (caller risks predation to warn related neighbors), and parental care (very high relatedness to offspring, r = 0.5)."
+      },
+      "topic": "Inclusive Fitness / Kin Selection / Hamilton's Rule",
+      "difficulty": "Hard"
+    }
+  ]
+}

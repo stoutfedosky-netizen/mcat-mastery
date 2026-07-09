@@ -1,0 +1,337 @@
+{
+  "batch": "B067",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Thermodynamics & Free Energy",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cp_thermo_001",
+      "passage": "A biochemist studies ATP hydrolysis: ATP + H₂O → ADP + Pi. Under standard biochemical conditions, ΔG°' = -30.5 kJ/mol. In resting muscle cells, [ATP] ≈ 5 mM, [ADP] ≈ 0.5 mM, [Pi] ≈ 5 mM. Using ΔG = ΔG°' + RT ln Q, she calculates ΔG ≈ -50 kJ/mol at 37°C. She notes that ATP hydrolysis is coupled to endergonic reactions (e.g., glutamine synthesis, ΔG°' = +14.2 kJ/mol) to drive them forward, and that the high ATP/ADP ratio is maintained by oxidative phosphorylation.",
+      "stem": "The actual ΔG in the muscle cell is more negative than ΔG°' because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the mass action ratio Q = [ADP][Pi]/[ATP] is much less than 1 (using molar concentrations), making RT ln Q a large negative number that adds to ΔG°'"
+        },
+        {
+          "label": "B",
+          "text": "the temperature in cells is much higher than 298 K"
+        },
+        {
+          "label": "C",
+          "text": "coupling to endergonic reactions changes ΔG°'"
+        },
+        {
+          "label": "D",
+          "text": "enzymes make the reaction more thermodynamically favorable"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. ΔG = ΔG°' + RT ln Q, where Q = [ADP][Pi]/[ATP]. Converting to molar concentrations: [ATP] = 5 × 10⁻³ M, [ADP] = 5 × 10⁻⁴ M, [Pi] = 5 × 10⁻³ M. Q = (5 × 10⁻⁴)(5 × 10⁻³) / (5 × 10⁻³) = 5 × 10⁻⁴ (dimensionless). ln(5 × 10⁻⁴) ≈ -7.6. At 37°C (310 K): RT = (8.314 J/mol·K)(310 K) = 2.577 kJ/mol. RT ln Q = 2.577 × (-7.6) ≈ -19.6 kJ/mol. ΔG = -30.5 + (-19.6) ≈ -50 kJ/mol. The key concept: cells maintain Q << 1 by keeping [ATP] high relative to [ADP][Pi], making ATP hydrolysis far more exergonic than the standard value.",
+        "B": "Cellular temperature (~310 K) is slightly above standard (298 K), but this small difference changes RT by only ~4% and cannot account for the 20+ kJ/mol difference between ΔG and ΔG°'. The dominant effect is the concentration ratio.",
+        "C": "Coupling does not change ΔG°' of ATP hydrolysis itself. ΔG°' is a fixed thermodynamic quantity for each reaction. Coupling means the overall process (hydrolysis + endergonic reaction) has a net negative ΔG, but each reaction retains its own ΔG°'.",
+        "D": "Enzymes accelerate reactions by lowering activation energy but do not change ΔG or ΔG°'. Thermodynamic favorability is a property of the reaction itself (reactant and product energies), not the catalyst."
+      },
+      "topic": "Gibbs Free Energy / Mass Action Ratio",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_thermo_004",
+      "passage": null,
+      "stem": "A reaction has ΔH = -80 kJ/mol and ΔS = -200 J/(mol·K). At what temperature does this reaction become non-spontaneous?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "below 400 K"
+        },
+        {
+          "label": "B",
+          "text": "above 400 K"
+        },
+        {
+          "label": "C",
+          "text": "at all temperatures"
+        },
+        {
+          "label": "D",
+          "text": "at no temperature — it is always spontaneous"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. ΔG = ΔH - TΔS. At T = ΔH/ΔS = 80,000 J / 200 J/K = 400 K, ΔG = 0. Below 400 K, the favorable ΔH dominates (|ΔH| > |TΔS|), so ΔG < 0 (spontaneous). Above 400 K, the unfavorable -TΔS term dominates (TΔS becomes large enough to overcome ΔH), making ΔG > 0 (non-spontaneous). This is the temperature crossover pattern for exothermic reactions with negative entropy change.",
+        "A": "Below 400 K, the reaction is spontaneous (ΔG < 0). The reaction becomes non-spontaneous above the crossover temperature, not below it.",
+        "C": "This answer would apply if both ΔH and ΔS were negative with no crossover, but there is always a crossover temperature when ΔH and ΔS have the same sign. At T = ΔH/ΔS, the terms balance.",
+        "D": "The reaction is not always spontaneous. When ΔH < 0 and ΔS < 0, spontaneity depends on temperature. At high T, the -TΔS term (positive, since ΔS is negative) eventually overwhelms the negative ΔH."
+      },
+      "topic": "Temperature Dependence / ΔG = ΔH - TΔS",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_thermo_003",
+      "passage": null,
+      "stem": "At equilibrium, which of the following is true?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ΔG = 0 and Q = Keq"
+        },
+        {
+          "label": "B",
+          "text": "ΔG°' = 0"
+        },
+        {
+          "label": "C",
+          "text": "all reactants have been converted to products"
+        },
+        {
+          "label": "D",
+          "text": "the forward reaction has stopped completely"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. At equilibrium, ΔG = 0 (no net driving force in either direction) and the reaction quotient Q equals the equilibrium constant Keq. From ΔG = ΔG°' + RT ln Q, setting ΔG = 0 gives ΔG°' = -RT ln Keq. This relationship connects thermodynamics (ΔG°') to equilibrium chemistry (Keq). Note that ΔG°' is generally not zero at equilibrium — it simply equals -RT ln Keq.",
+        "B": "ΔG°' is the standard free energy change and is a constant for each reaction. It is not zero at equilibrium unless Keq happens to equal 1. ΔG (not ΔG°') is zero at equilibrium.",
+        "C": "Equilibrium does not mean complete conversion to products. Both reactants and products are present at concentrations determined by Keq. For reactions with Keq >> 1, products predominate; for Keq << 1, reactants predominate.",
+        "D": "At equilibrium, both forward and reverse reactions continue at equal rates — it is a dynamic equilibrium. The net rate of change is zero, but individual molecules continue to interconvert."
+      },
+      "topic": "Equilibrium / ΔG = 0",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_thermo_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "When ATP hydrolysis (ΔG = -50 kJ/mol) is coupled to glutamine synthesis (ΔG°' = +14.2 kJ/mol), the overall reaction is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "exergonic, because the sum of ΔG values is negative: -50 + 14.2 = -35.8 kJ/mol"
+        },
+        {
+          "label": "B",
+          "text": "at equilibrium, because the two reactions cancel"
+        },
+        {
+          "label": "C",
+          "text": "endergonic, because glutamine synthesis has a positive ΔG°'"
+        },
+        {
+          "label": "D",
+          "text": "impossible, because endergonic reactions can never be driven by exergonic ones"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "C": "While glutamine synthesis alone is endergonic, coupling to ATP hydrolysis makes the overall reaction exergonic. The coupled system must be evaluated as a whole, not by each component independently.",
+        "A": "Correct. In coupled reactions, ΔG values are additive. ΔG_total = ΔG_hydrolysis + ΔG_synthesis = (-50) + (+14.2) = -35.8 kJ/mol. Since ΔG_total < 0, the overall process is spontaneous (exergonic). This is how cells drive thermodynamically unfavorable biosynthetic reactions — by coupling them to ATP hydrolysis, whose large negative ΔG more than compensates for the positive ΔG of the endergonic reaction.",
+        "B": "The reactions do not cancel — ΔG values have different magnitudes (-50 vs +14.2). Equilibrium would require ΔG_total = 0, but here ΔG_total = -35.8 kJ/mol, far from equilibrium.",
+        "D": "Coupling endergonic to exergonic reactions is a fundamental principle of bioenergetics. Cells routinely drive unfavorable reactions by coupling them to ATP hydrolysis or other exergonic processes. This is thermodynamically valid as long as ΔG_total < 0."
+      },
+      "topic": "Coupled Reactions / ΔG Additivity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_thermo_005",
+      "passage": null,
+      "stem": "The entropy of a system increases in which of the following processes?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "water freezing to ice at -10°C"
+        },
+        {
+          "label": "B",
+          "text": "a gas compressing to half its volume at constant temperature"
+        },
+        {
+          "label": "C",
+          "text": "two gaseous molecules combining to form one larger molecule"
+        },
+        {
+          "label": "D",
+          "text": "a solid dissolving in water"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "Two molecules combining into one reduces the total number of independent particles, decreasing translational entropy. ΔS is typically negative for association reactions in the gas phase (loss of translational degrees of freedom).",
+        "A": "Freezing is a phase transition from liquid (more disordered) to solid (highly ordered crystal). The molecules lose translational freedom and become locked in a lattice, decreasing entropy. ΔS_system < 0 for freezing.",
+        "B": "Compressing a gas reduces the volume available to the molecules, decreasing the number of spatial microstates. Entropy decreases: ΔS = nR ln(V₂/V₁), and V₂ < V₁ gives negative ΔS.",
+        "D": "Correct. Dissolution of a solid increases entropy: the highly ordered crystal lattice breaks apart and solute particles disperse throughout the solvent, increasing the number of accessible microstates. While the solvent may lose some entropy (ordering around solute particles), the net effect for most soluble substances is positive ΔS. This entropy increase is a major driving force for dissolution."
+      },
+      "topic": "Entropy / Dissolution",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_thermo_006",
+      "passage": null,
+      "stem": "The second law of thermodynamics states that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "energy cannot be created or destroyed"
+        },
+        {
+          "label": "B",
+          "text": "the entropy of an isolated system tends to increase; for any spontaneous process, ΔS_universe > 0"
+        },
+        {
+          "label": "C",
+          "text": "the entropy of a perfect crystal at 0 K is zero"
+        },
+        {
+          "label": "D",
+          "text": "enthalpy is conserved in all chemical reactions"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The second law states that spontaneous processes increase the total entropy of the universe (system + surroundings). For isolated systems, entropy can only increase or remain constant. This law explains why heat flows from hot to cold, why gases expand to fill containers, and why highly ordered biological structures require energy input to maintain — their local decrease in entropy is more than offset by entropy increases in the surroundings.",
+        "A": "Conservation of energy is the first law of thermodynamics (ΔU = q + w). The second law concerns entropy, not energy conservation.",
+        "C": "This is the third law of thermodynamics. It establishes the absolute entropy scale and states that the entropy of a perfectly ordered crystalline substance at absolute zero is exactly zero.",
+        "D": "Enthalpy is not a separately conserved quantity. Energy (first law) is conserved, but enthalpy changes (ΔH) represent heat flow at constant pressure and can be positive or negative."
+      },
+      "topic": "Second Law of Thermodynamics",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_thermo_007",
+      "passage": null,
+      "stem": "ΔG°' = -RT ln Keq. If a reaction has Keq = 1, then ΔG°' is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "very negative"
+        },
+        {
+          "label": "B",
+          "text": "very positive"
+        },
+        {
+          "label": "C",
+          "text": "undefined"
+        },
+        {
+          "label": "D",
+          "text": "zero, because ln(1) = 0"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "C": "ΔG°' is well-defined for any finite positive Keq. It would approach negative infinity only as Keq → ∞, but Keq = 1 is a finite value with a defined ΔG°' of zero.",
+        "A": "A very negative ΔG°' corresponds to Keq >> 1 (products strongly favored). For example, ΔG°' = -30.5 kJ/mol for ATP hydrolysis corresponds to Keq ≈ 2 × 10⁵.",
+        "B": "A very positive ΔG°' corresponds to Keq << 1 (reactants favored at equilibrium). This does not apply when Keq = 1.",
+        "D": "Correct. ΔG°' = -RT ln(Keq) = -RT ln(1) = -RT(0) = 0. When Keq = 1, products and reactants are equally favored at equilibrium under standard conditions, and there is no net free energy change under standard conditions. This means neither direction is thermodynamically preferred at standard concentrations."
+      },
+      "topic": "Standard Free Energy / Keq Relationship",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_thermo_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The high ATP/ADP ratio in the muscle cell is maintained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "spontaneous synthesis of ATP from scratch without energy input"
+        },
+        {
+          "label": "B",
+          "text": "the hydrolysis of ATP to ADP, which regenerates ATP automatically"
+        },
+        {
+          "label": "C",
+          "text": "keeping the cell at very high temperatures to shift equilibrium toward ATP"
+        },
+        {
+          "label": "D",
+          "text": "continuous regeneration of ATP from ADP and Pi through glycolysis, the citric acid cycle, and oxidative phosphorylation — processes that couple glucose oxidation to ATP synthesis"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The cell maintains a high [ATP]/[ADP] ratio (far from equilibrium) by constantly resynthesizing ATP using energy from catabolic pathways. Glycolysis produces 2 ATP per glucose (substrate-level phosphorylation); the citric acid cycle generates NADH and FADH₂; oxidative phosphorylation uses the proton gradient (generated by the electron transport chain) to drive ATP synthase, producing ~30-32 ATP per glucose. This continuous energy expenditure keeps the ATP/ADP ratio ~100-1000x above equilibrium.",
+        "A": "ATP synthesis from ADP + Pi is endergonic (ΔG°' = +30.5 kJ/mol) and cannot occur spontaneously. It requires energy input from exergonic catabolic reactions — primarily glucose and fatty acid oxidation.",
+        "B": "ATP hydrolysis produces ADP + Pi, consuming ATP. It does not regenerate ATP. ATP must be resynthesized by separate energy-releasing pathways.",
+        "C": "Cells operate at ~37°C (310 K) and cannot increase their temperature to shift equilibrium. Temperature effects are small compared to the active maintenance of non-equilibrium concentrations by metabolic pathways."
+      },
+      "topic": "ATP Regeneration / Metabolism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_thermo_009",
+      "passage": null,
+      "stem": "An exergonic reaction:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "requires energy input to proceed"
+        },
+        {
+          "label": "B",
+          "text": "has ΔG > 0"
+        },
+        {
+          "label": "C",
+          "text": "may still require activation energy to initiate, even though the overall ΔG is negative"
+        },
+        {
+          "label": "D",
+          "text": "always proceeds instantaneously without any energy barrier"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Exergonic (ΔG < 0) means the reaction is thermodynamically favorable — products are lower in free energy than reactants. However, most reactions still have an activation energy barrier (ΔG‡) that must be overcome to reach the transition state. Glucose oxidation is very exergonic (ΔG°' ≈ -2870 kJ/mol) but is kinetically stable at room temperature — it does not spontaneously combust because the activation energy is high. Enzymes lower ΔG‡ without changing ΔG.",
+        "A": "Exergonic reactions release free energy (ΔG < 0) and do not require net energy input. Endergonic reactions (ΔG > 0) require energy input. Note that activation energy is a kinetic barrier, not a thermodynamic requirement.",
+        "B": "ΔG > 0 defines an endergonic reaction, not exergonic. Exergonic reactions have ΔG < 0 by definition.",
+        "D": "Even highly exergonic reactions typically do not proceed instantaneously. The rate depends on activation energy (kinetics), not ΔG (thermodynamics). Diamond → graphite is exergonic but kinetically so slow it essentially never occurs at room temperature."
+      },
+      "topic": "Exergonic Reactions / Activation Energy",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_thermo_010",
+      "passage": null,
+      "stem": "Hess's law states that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the rate of a reaction is proportional to the concentrations of reactants"
+        },
+        {
+          "label": "B",
+          "text": "entropy always increases in the universe"
+        },
+        {
+          "label": "C",
+          "text": "the overall enthalpy change of a reaction is independent of the pathway — it depends only on the initial and final states"
+        },
+        {
+          "label": "D",
+          "text": "free energy determines the equilibrium constant"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Hess's law is a consequence of enthalpy being a state function — its value depends only on the current state of the system, not on how it got there. Therefore, ΔH for an overall reaction equals the sum of ΔH values for any set of intermediate steps that convert the same reactants to the same products. This allows calculation of ΔH for reactions difficult to measure directly by combining known ΔH values of component reactions.",
+        "A": "This describes the rate law (kinetics), not Hess's law (thermodynamics). The rate of a reaction depends on concentrations and rate constants, not on enthalpy.",
+        "B": "This is the second law of thermodynamics. Hess's law specifically addresses the path-independence of enthalpy changes, not entropy.",
+        "D": "The relationship ΔG°' = -RT ln Keq connects free energy to equilibrium, but this is the Gibbs free energy equation, not Hess's law. Hess's law is about enthalpy path-independence."
+      },
+      "topic": "Hess's Law / State Functions",
+      "difficulty": "Easy"
+    }
+  ]
+}

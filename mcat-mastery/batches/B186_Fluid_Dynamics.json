@@ -1,0 +1,335 @@
+{
+  "batch": "B186",
+  "section": "cp",
+  "sectionName": "Chemical and Physical Foundations of Biological Systems",
+  "topicArea": "Fluid Dynamics: Bernoulli & Continuity",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cp_fluid_001",
+      "passage": "A biomedical engineering lab studies blood flow through a model circulatory system. A rigid tube of radius R₁ = 1.0 cm and length L = 20 cm is connected to a narrower tube of radius R₂ = 0.50 cm. An incompressible fluid (density ρ = 1.06 g/cm³, viscosity η = 3.0 cP) is pumped through the system at a constant volumetric flow rate Q = 100 cm³/s. The lab uses the continuity equation (A₁v₁ = A₂v₂), Bernoulli's equation (P₁ + ½ρv₁² + ρgh₁ = P₂ + ½ρv₂² + ρgh₂), and Poiseuille's law (Q = πR⁴ΔP / 8ηL) to analyze the flow.\n\nResearchers note that Poiseuille's law applies only to laminar, steady-state flow. The Reynolds number (Re = ρvD/η) is used to determine whether flow is laminar (Re < 2000) or turbulent (Re > 4000).",
+      "stem": "What is the velocity of fluid in the wider tube (R₁ = 1.0 cm)?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "v₁ ≈ 32 cm/s"
+        },
+        {
+          "label": "B",
+          "text": "v₁ ≈ 100 cm/s"
+        },
+        {
+          "label": "C",
+          "text": "v₁ ≈ 50 cm/s"
+        },
+        {
+          "label": "D",
+          "text": "v₁ ≈ 3.2 cm/s"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. v = Q/A = Q/(πR²) = 100 cm³/s / (π × 1.0² cm²) = 100/3.14 ≈ 31.8 cm/s ≈ 32 cm/s. The cross-sectional area of a tube with R = 1.0 cm is π(1.0)² = 3.14 cm². Flow rate divided by area gives the average velocity through the tube.",
+        "B": "100 cm/s is the volumetric flow rate in cm³/s, not the velocity. Velocity requires dividing flow rate by cross-sectional area. Confusing Q (volume/time) with v (distance/time) is a common error; they have different units.",
+        "C": "50 cm/s would result from dividing Q by the diameter (2R = 2 cm) instead of the cross-sectional area (πR²). The relevant quantity is area, not linear dimension. Area = πR² = 3.14 cm², giving v = 100/3.14 ≈ 32 cm/s.",
+        "D": "3.2 cm/s would result from dividing by an area 10× too large, perhaps using R² = 10 cm² instead of πR² = 3.14 cm². The correct cross-sectional area includes the π factor: A = πR² = π(1.0)² = 3.14 cm²."
+      },
+      "topic": "Flow velocity from continuity equation",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cp_fluid_002",
+      "usePrevPassage": true,
+      "stem": "Using the continuity equation, what is the velocity in the narrower tube (R₂ = 0.50 cm)?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "v₂ ≈ 64 cm/s"
+        },
+        {
+          "label": "B",
+          "text": "v₂ ≈ 128 cm/s"
+        },
+        {
+          "label": "C",
+          "text": "v₂ ≈ 200 cm/s"
+        },
+        {
+          "label": "D",
+          "text": "v₂ ≈ 16 cm/s"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "64 cm/s would correspond to a radius ratio of 2:1 applied linearly (32 × 2), but velocity scales with the square of the radius ratio because area is proportional to R². A₁v₁ = A₂v₂ gives v₂ = v₁(R₁/R₂)² = 32 × (1.0/0.5)² = 32 × 4 = 128 cm/s.",
+        "B": "Correct. From continuity: A₁v₁ = A₂v₂, so v₂ = v₁ × A₁/A₂ = v₁ × (πR₁²)/(πR₂²) = v₁ × (R₁/R₂)² = 32 × (1.0/0.50)² = 32 × 4 = 128 cm/s. Alternatively: v₂ = Q/A₂ = 100/(π × 0.50²) = 100/0.785 ≈ 127 cm/s. When the radius halves, the area quarters, so velocity must quadruple to maintain constant flow rate.",
+        "C": "200 cm/s would result from an incorrect area calculation, perhaps using R₂ = 0.50 cm in a formula that omits π: A₂ = R² = 0.25, then v = 100/0.25 = 400, halved to 200. The correct area is πR² = 0.785 cm².",
+        "D": "16 cm/s would require dividing instead of multiplying by the area ratio. Since the tube narrows, velocity must increase (not decrease) to conserve mass flow. The continuity equation demands higher velocity in smaller cross-sections."
+      },
+      "topic": "Continuity equation application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cp_fluid_003",
+      "usePrevPassage": true,
+      "stem": "According to Bernoulli's principle, as blood flows from the wider to the narrower tube at the same height, the pressure:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increases because faster-moving fluid exerts more force on vessel walls"
+        },
+        {
+          "label": "B",
+          "text": "remains constant because the fluid is incompressible"
+        },
+        {
+          "label": "C",
+          "text": "decreases because kinetic energy increases at the expense of pressure energy"
+        },
+        {
+          "label": "D",
+          "text": "increases because the narrower tube compresses the fluid"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This is a common misconception. Faster-moving fluid actually exerts less lateral (static) pressure, not more. Bernoulli's equation shows that for horizontal flow, P + ½ρv² = constant, so increasing v requires decreasing P. The increased velocity means more kinetic energy, which comes at the expense of pressure energy.",
+        "B": "Incompressibility (constant density) is an assumption that enables Bernoulli's analysis but does not imply constant pressure. Bernoulli's equation relates pressure, velocity, and height along a streamline; changes in velocity necessarily produce pressure changes to conserve total energy per unit volume.",
+        "C": "Correct. Bernoulli's equation at constant height: P₁ + ½ρv₁² = P₂ + ½ρv₂². Since v₂ > v₁ (velocity increases in the narrower tube), the kinetic energy term ½ρv₂² > ½ρv₁². To maintain the equality, P₂ < P₁. The pressure decrease can be calculated: ΔP = ½ρ(v₁² - v₂²) = ½ × 1.06 × (32² - 128²) ≈ -8180 dyn/cm² ≈ -6.1 mmHg. This principle underlies the Venturi effect used in medical nebulizers and aspirators.",
+        "D": "Incompressible fluids cannot be compressed regardless of tube diameter. The narrower tube forces the fluid to move faster (continuity) but does not change its density. The resulting higher velocity corresponds to lower static pressure, the opposite of what squeezing would intuitively suggest."
+      },
+      "topic": "Bernoulli's principle and pressure-velocity relationship",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cp_fluid_004",
+      "usePrevPassage": true,
+      "stem": "If the radius of a blood vessel decreases by half due to atherosclerotic plaque, by what factor does the resistance to flow change according to Poiseuille's law?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Resistance increases by a factor of 2"
+        },
+        {
+          "label": "B",
+          "text": "Resistance increases by a factor of 4"
+        },
+        {
+          "label": "C",
+          "text": "Resistance increases by a factor of 8"
+        },
+        {
+          "label": "D",
+          "text": "Resistance increases by a factor of 16"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "A factor of 2 would apply if resistance scaled linearly with 1/R. Poiseuille's law shows resistance R_flow = 8ηL/(πR⁴), which depends on the fourth power of radius, not the first. Halving R increases resistance by (1/0.5)⁴ = 2⁴ = 16, not 2.",
+        "B": "A factor of 4 would apply if resistance scaled with 1/R². Poiseuille's law gives a fourth-power dependence: Q = πR⁴ΔP/(8ηL), so R_flow ∝ 1/R⁴. Halving R gives (2)⁴ = 16, not 4.",
+        "C": "A factor of 8 would apply if resistance scaled with 1/R³. The Poiseuille relation gives R⁴ dependence, not R³. This is a critical distinction: even small reductions in vessel radius produce dramatic resistance increases because of the fourth-power relationship.",
+        "D": "Correct. From Poiseuille's law, flow resistance R_flow = 8ηL/(πR⁴) is inversely proportional to R⁴. If R → R/2: new resistance = 8ηL/(π(R/2)⁴) = 8ηL/(πR⁴/16) = 16 × original resistance. This fourth-power dependence is clinically critical: a 50% reduction in vessel radius causes a 16-fold increase in resistance, dramatically reducing blood flow. This explains why even moderate atherosclerotic narrowing produces significant hemodynamic effects."
+      },
+      "topic": "Poiseuille's law and R⁴ dependence",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cp_fluid_005",
+      "usePrevPassage": true,
+      "stem": "Which description best classifies the flow in the wider tube (R₁ = 1.0 cm)? (Use ρ = 1.06 g/cm³, η = 3.0 cP = 0.030 g/(cm·s), v ≈ 32 cm/s, D = 2.0 cm)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Transitional / not fully turbulent, because Re ≈ 2260 is above the strict laminar cutoff of 2000 but below the fully turbulent threshold of 4000"
+        },
+        {
+          "label": "B",
+          "text": "Fully turbulent, because Re ≈ 2260 exceeds the laminar cutoff of 2000"
+        },
+        {
+          "label": "C",
+          "text": "Laminar, because Re ≈ 226, well below the turbulent transition"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined without knowing the tube surface roughness"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Re = ρvD/η = (1.06)(32)(2.0)/(0.030) = 67.84/0.030 ≈ 2261. The passage defines laminar flow as Re < 2000 and turbulent flow as Re > 4000, so this value falls in the transitional region. It is therefore not fully turbulent, but it is also above the strict laminar cutoff.",
+        "B": "Although Re ≈ 2260 exceeds the strict laminar cutoff of 2000, the passage defines fully turbulent flow as Re > 4000. The 2000–4000 interval is transitional, so calling this flow fully turbulent overstates the classification.",
+        "C": "Re = 226 would result from a calculation error — perhaps omitting the diameter or using different units. With the given values: Re = (1.06)(32)(2.0)/(0.030) = 67.84/0.030 ≈ 2261, not 226. Careful unit consistency is essential in Reynolds number calculations.",
+        "D": "While surface roughness affects the precise transition point between laminar and turbulent flow, the Reynolds number calculation itself does not require roughness data. Re provides a dimensionless criterion for flow regime classification. For smooth tubes (a standard assumption in MCAT physics), Re < 2000 is laminar and Re > 4000 is turbulent."
+      },
+      "topic": "Reynolds number and flow regime",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cp_fluid_006",
+      "passage": "In a clinical application, the researchers examine blood flow through a stenotic (narrowed) artery. The healthy portion of the artery has a cross-sectional area of 0.50 cm² and blood velocity of 20 cm/s. At the stenosis, the cross-sectional area is reduced to 0.10 cm². An ultrasound Doppler measures a peak velocity of 100 cm/s at the stenosis. The clinician notes that turbulent flow at the stenosis produces an audible bruit (murmur) detectable with a stethoscope. Blood pressure proximal to the stenosis is measured at 100 mmHg.",
+      "stem": "Using the continuity equation, verify that the measured velocity at the stenosis is consistent with the data. What velocity is predicted?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "v₂ = 20 cm/s — the velocity should be unchanged"
+        },
+        {
+          "label": "B",
+          "text": "v₂ = 100 cm/s — consistent with a 5:1 area ratio"
+        },
+        {
+          "label": "C",
+          "text": "v₂ = 50 cm/s — inconsistent with the Doppler measurement"
+        },
+        {
+          "label": "D",
+          "text": "v₂ = 200 cm/s — the measured 100 cm/s suggests partial obstruction"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The continuity equation requires that when cross-sectional area decreases, velocity must increase proportionally to maintain constant flow rate. Velocity would remain unchanged only if the area were unchanged. A 5-fold area reduction (0.50 → 0.10 cm²) requires a 5-fold velocity increase.",
+        "B": "Correct. A₁v₁ = A₂v₂: (0.50 cm²)(20 cm/s) = (0.10 cm²)(v₂), so v₂ = 10/0.10 = 100 cm/s. This matches the Doppler measurement exactly, confirming that the continuity equation accurately predicts velocity changes in stenotic arteries. The 5:1 area reduction produces a 5:1 velocity increase, from 20 to 100 cm/s.",
+        "C": "50 cm/s would correspond to a 2.5:1 velocity ratio, which would require an area reduction to 0.20 cm² (not 0.10 cm²). With the actual area of 0.10 cm², the continuity equation predicts exactly 100 cm/s.",
+        "D": "200 cm/s would require an area of 0.05 cm²: (0.50)(20) = (0.05)(200). The stated stenotic area is 0.10 cm², giving v₂ = 100 cm/s. The measurement and prediction agree perfectly."
+      },
+      "topic": "Continuity equation in stenotic artery",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cp_fluid_007",
+      "usePrevPassage": true,
+      "stem": "The audible bruit at the stenosis occurs because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the smooth muscle in the arterial wall contracts in response to increased shear stress"
+        },
+        {
+          "label": "B",
+          "text": "the decreased pressure at the stenosis causes the vessel to collapse rhythmically"
+        },
+        {
+          "label": "C",
+          "text": "red blood cells rupture (hemolyze) at high velocities, releasing hemoglobin that vibrates"
+        },
+        {
+          "label": "D",
+          "text": "the increased velocity creates turbulent flow, producing pressure fluctuations that vibrate the vessel wall"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Smooth muscle contraction in response to shear stress (myogenic response) occurs on a timescale of seconds and does not produce audible vibrations. The bruit frequency (typically 100-500 Hz) corresponds to turbulent pressure fluctuation frequencies, not to smooth muscle contractile cycles. Vascular smooth muscle responds to flow changes but does not generate audible sounds.",
+        "B": "While Bernoulli's principle does predict lower pressure at the stenosis, vessel collapse would require external pressure exceeding intraluminal pressure. Arterial walls have structural integrity from smooth muscle and collagen that prevents collapse under physiological conditions. Venous collapse can occur (e.g., jugular veins with changes in intrathoracic pressure), but arterial collapse at stenosis sites does not explain the bruit.",
+        "C": "Red blood cells are remarkably deformable and can withstand considerable shear forces without rupturing. Hemolysis from turbulence does occur in some pathological conditions (mechanical heart valves, severe stenosis) but is not the cause of the audible bruit. The sound comes from mechanical vibration of the vessel wall, not from cellular destruction.",
+        "D": "Correct. The high velocity at the stenosis increases the local Reynolds number, potentially exceeding the turbulent threshold. Turbulent flow produces chaotic pressure fluctuations that cause the vessel wall to vibrate, generating the audible sound known as a bruit. In clinical practice, the presence of a bruit over a carotid, renal, or peripheral artery is a key sign of stenosis. The sound frequency and character help clinicians estimate the severity of narrowing."
+      },
+      "topic": "Turbulence and bruits in stenotic vessels",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cp_fluid_008",
+      "usePrevPassage": true,
+      "stem": "Using the simplified Bernoulli equation, what is the approximate pressure at the stenosis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "≈ 100 mmHg — pressure is unchanged because the fluid is incompressible"
+        },
+        {
+          "label": "B",
+          "text": "≈ 96 mmHg — slightly lower due to the Bernoulli effect"
+        },
+        {
+          "label": "C",
+          "text": "≈ 120 mmHg — higher because the narrower area compresses the fluid"
+        },
+        {
+          "label": "D",
+          "text": "≈ 50 mmHg — much lower because velocity quintuples"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Bernoulli's equation shows that pressure changes when velocity changes, even for incompressible fluids. Incompressibility means constant density, not constant pressure. When velocity increases at the stenosis, pressure must decrease to conserve total energy along a streamline.",
+        "B": "Correct. P₂ = P₁ + ½ρ(v₁² - v₂²) at constant height. Converting: ρ = 1.06 g/cm³ = 1060 kg/m³, v₁ = 0.20 m/s, v₂ = 1.00 m/s. ΔP = ½(1060)(0.20² - 1.00²) = 530(0.04 - 1.00) = 530(-0.96) = -509 Pa ≈ -3.8 mmHg. So P₂ ≈ 100 - 3.8 ≈ 96 mmHg. The pressure drop is modest because blood density is relatively low and velocities are moderate. In severe stenosis with higher velocities, the Bernoulli effect produces larger pressure drops.",
+        "C": "Narrowing a tube does not compress an incompressible fluid. The higher velocity in the narrower section corresponds to lower static pressure, per Bernoulli's principle. The Venturi effect predicts pressure decrease, not increase, at constrictions.",
+        "D": "A drop to 50 mmHg would require a much larger velocity difference. The Bernoulli pressure change depends on ½ρΔ(v²), which for the given velocities produces only ~4 mmHg change. Blood's relatively low density limits the Bernoulli effect to modest pressure changes at physiological velocities."
+      },
+      "topic": "Bernoulli equation applied to stenosis",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cp_fluid_009",
+      "usePrevPassage": true,
+      "stem": "If the viscosity of blood increases (e.g., in polycythemia), Poiseuille's law predicts that for the same pressure gradient, flow will:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase because higher viscosity provides more momentum to the fluid"
+        },
+        {
+          "label": "B",
+          "text": "remain unchanged because viscosity does not appear in Bernoulli's equation"
+        },
+        {
+          "label": "C",
+          "text": "increase because viscosity only affects turbulent, not laminar, flow"
+        },
+        {
+          "label": "D",
+          "text": "decrease because viscous resistance opposing flow is greater"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Higher viscosity increases internal friction within the fluid, opposing flow rather than providing momentum. Viscosity represents resistance to shear deformation between fluid layers. In Poiseuille's law, Q = πR⁴ΔP/(8ηL), η appears in the denominator — increasing viscosity decreases flow rate for a given pressure gradient.",
+        "B": "While Bernoulli's equation for ideal fluids does not include viscosity, Poiseuille's law explicitly accounts for viscous effects. In real biological systems, viscosity is critical. Bernoulli's equation describes energy conservation along streamlines in ideal flow; Poiseuille's law describes the practical relationship between pressure, flow, and resistance in viscous pipe flow.",
+        "C": "Viscosity affects both laminar and turbulent flow. In fact, Poiseuille's law applies specifically to laminar flow, where viscous effects dominate. In turbulent flow, viscosity still matters but the relationship between pressure and flow becomes more complex (flow ~ ΔP^(1/2) rather than ΔP).",
+        "D": "Correct. Poiseuille's law: Q = πR⁴ΔP/(8ηL). Flow rate Q is inversely proportional to viscosity η. If viscosity doubles (as in polycythemia, where increased red blood cell concentration raises blood viscosity from ~3 to ~6 cP), flow decreases by half for the same pressure gradient. Alternatively, the heart must generate twice the pressure to maintain the same flow, increasing cardiac workload. This explains why polycythemia is associated with hypertension and increased risk of thrombosis."
+      },
+      "topic": "Viscosity effects on flow — Poiseuille's law",
+      "difficulty": "medium"
+    },
+    {
+      "id": "cp_fluid_010",
+      "usePrevPassage": true,
+      "stem": "A patient has two stenotic arteries in parallel, each with resistance R. What is the total resistance of the parallel combination?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2R"
+        },
+        {
+          "label": "B",
+          "text": "R"
+        },
+        {
+          "label": "C",
+          "text": "R/2"
+        },
+        {
+          "label": "D",
+          "text": "R²"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "2R represents resistances in series (R_total = R₁ + R₂ = R + R = 2R). In parallel, blood can flow through either vessel, so total resistance is lower than either individual resistance. Parallel arrangement reduces total resistance because it provides alternative pathways for flow.",
+        "B": "R would be the resistance of a single vessel. Two vessels in parallel must have lower total resistance than one vessel alone, because the parallel arrangement provides two pathways. This is analogous to two electrical resistors in parallel having lower resistance than either alone.",
+        "C": "Correct. For resistances in parallel: 1/R_total = 1/R₁ + 1/R₂ = 1/R + 1/R = 2/R, so R_total = R/2. Two identical resistances in parallel give half the resistance of either one. This is directly analogous to electrical circuits. In the circulatory system, the parallel arrangement of arterioles explains why total peripheral resistance is much lower than individual arteriole resistance — millions of parallel pathways dramatically reduce the overall resistance.",
+        "D": "R² has incorrect units (resistance² rather than resistance) and has no physical meaning in this context. Resistances combine through addition (series) or reciprocal addition (parallel), never multiplication."
+      },
+      "topic": "Parallel resistance in circulatory system",
+      "difficulty": "easy"
+    }
+  ]
+}

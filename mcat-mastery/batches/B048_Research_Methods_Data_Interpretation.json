@@ -1,0 +1,337 @@
+{
+  "batch": "B048",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Research Methods & Data Interpretation",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_method_001",
+      "passage": "Researchers investigate whether a new therapy reduces anxiety scores. They randomly assign 100 participants to either the therapy group (n=50) or a wait-list control (n=50). Both groups complete a validated anxiety questionnaire at baseline and after 8 weeks. The therapy group shows a mean decrease of 12 points (SD=5), while the control group shows a mean decrease of 3 points (SD=6). The difference is statistically significant (p < 0.01).",
+      "stem": "Random assignment of participants to groups is used primarily to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "increase the sample size of each group"
+        },
+        {
+          "label": "B",
+          "text": "ensure that each participant receives the therapy"
+        },
+        {
+          "label": "C",
+          "text": "eliminate the need for a control group"
+        },
+        {
+          "label": "D",
+          "text": "control for confounding variables by distributing participant characteristics evenly across groups, so that any observed difference can be attributed to the treatment"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Random assignment distributes participants across groups but does not increase the total number of participants. Sample size is determined by recruitment, not by the assignment procedure. Random assignment works best with adequate sample sizes but is separate from sample-size determination.",
+        "B": "Random assignment means each participant has an equal chance of being placed in either the therapy or control group — it does not ensure everyone receives therapy. The control group specifically does not receive therapy, which is necessary for comparison. Giving everyone therapy would eliminate the control condition and prevent causal inference.",
+        "C": "Random assignment does not eliminate the need for a control group — it makes the control group valid by ensuring it is comparable to the treatment group. Without a control group, there is no way to separate treatment effects from natural improvement, regression to the mean, or placebo effects.",
+        "D": "Correct. Random assignment (randomization) is the gold standard for controlling confounding variables in experimental research. By assigning participants randomly, any pre-existing differences between individuals (personality, baseline anxiety, medication use, socioeconomic status) are distributed approximately equally across both groups, making the groups statistically equivalent at baseline. This means that post-treatment differences can be attributed to the treatment rather than to pre-existing group differences. Without randomization, systematic baseline differences (selection bias) could explain any observed effects."
+      },
+      "topic": "Random Assignment / Confound Control",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_method_002",
+      "passage": null,
+      "passageRef": "ps_method_001",
+      "stem": "The p-value of < 0.01 means that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "there is a 99% probability that the therapy caused the improvement"
+        },
+        {
+          "label": "B",
+          "text": "the effect size is very large"
+        },
+        {
+          "label": "C",
+          "text": "1% of participants did not respond to the therapy"
+        },
+        {
+          "label": "D",
+          "text": "if the null hypothesis were true (no real difference), the probability of observing a difference this large or larger by chance alone is less than 1%"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This is a common misinterpretation. The p-value is not the probability that the therapy works or that the alternative hypothesis is true. It is the probability of the observed data (or more extreme) given that the null hypothesis is true. Bayesian posterior probabilities ('probability the therapy caused the improvement') require prior probabilities and are calculated differently from frequentist p-values.",
+        "B": "P-values and effect sizes are separate concepts. A very small p-value can occur with a small effect size if the sample is large enough (high statistical power). Conversely, a large effect may not reach statistical significance if the sample is too small. Effect size measures the magnitude of the difference (e.g., Cohen's d); the p-value measures whether the difference is unlikely to be due to chance.",
+        "C": "The p-value has nothing to do with the percentage of non-responders. Individual response rates are a separate clinical question. The p-value describes the probability of the observed group-level difference under the null hypothesis, not the proportion of individuals who benefited.",
+        "D": "Correct. The p-value answers a specific conditional question: if there were truly no difference between therapy and control (null hypothesis), how likely would we be to observe a difference as large or larger than what we found? A p < 0.01 means this probability is less than 1% — the observed result would be very unlikely under the null hypothesis, providing evidence against it. This leads to rejecting the null hypothesis at the α = 0.01 significance level. Importantly, p-values do not measure effect size, clinical significance, or the probability that the hypothesis is true."
+      },
+      "topic": "P-Value Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_method_003",
+      "passage": null,
+      "passageRef": "ps_method_001",
+      "stem": "The researchers used a wait-list control rather than an active placebo. A limitation of this design is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the therapy group may show greater improvement partly due to placebo effects (expectation of benefit, attention from the therapist) rather than the specific therapeutic ingredients"
+        },
+        {
+          "label": "B",
+          "text": "the sample size is too small for any conclusions"
+        },
+        {
+          "label": "C",
+          "text": "random assignment was not used"
+        },
+        {
+          "label": "D",
+          "text": "the anxiety questionnaire has not been validated"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A wait-list control group receives no intervention — they simply wait. This means the therapy group receives not only the specific therapeutic components but also nonspecific factors: attention from a therapist, expectation of improvement, the structure of regular appointments, and the social interaction of therapy sessions. Any of these nonspecific factors could contribute to the observed improvement. An active placebo control (e.g., supportive counseling without the specific therapy techniques) would control for these nonspecific factors, isolating the effect of the specific therapeutic ingredients.",
+        "B": "With 50 participants per group, the study has reasonable power to detect moderate effect sizes. The p < 0.01 result confirms sufficient statistical power. Sample size is always a consideration, but 100 total participants with a significant result does not represent a fatal limitation.",
+        "C": "The passage explicitly states that participants were randomly assigned. Random assignment was used, so this is not a limitation of this study.",
+        "D": "The passage states the questionnaire is 'validated,' meaning it has been tested for reliability and validity in prior research. Questioning the validation of a tool described as validated contradicts the information given."
+      },
+      "topic": "Control Groups / Placebo Effects",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_method_004",
+      "passage": null,
+      "stem": "A researcher observes that students who eat breakfast score higher on exams. This correlational finding does NOT establish that eating breakfast causes better exam performance because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "correlational studies cannot demonstrate causation — a third variable (conscientiousness, socioeconomic status, sleep quality) could cause both breakfast eating and better performance"
+        },
+        {
+          "label": "B",
+          "text": "the sample size must be too small for any conclusion"
+        },
+        {
+          "label": "C",
+          "text": "correlation coefficients can never be calculated for behavioral data"
+        },
+        {
+          "label": "D",
+          "text": "exam scores are not measurable"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Correlation establishes that two variables are associated but cannot determine the direction of causation or rule out third-variable explanations. A conscientious student might both eat breakfast regularly and study effectively, producing a correlation between breakfast and exam scores without any causal link between them. Alternatively, reverse causation is possible: students who feel confident about exams may eat breakfast calmly, while anxious students may skip it. Only a randomized controlled experiment (randomly assigning students to eat/skip breakfast) could establish causation by controlling for confounds.",
+        "B": "The question does not specify sample size, and large observational studies frequently produce robust correlational findings. The limitation is the design (observational, not experimental), not the sample size. A million-participant correlational study still cannot establish causation.",
+        "C": "Correlation coefficients (Pearson's r, Spearman's ρ) are routinely calculated for behavioral, psychological, and educational data. There is no restriction on the type of data for which correlations can be computed — any two continuous or ordinal variables can be correlated.",
+        "D": "Exam scores are straightforward quantitative measurements — they are among the most easily measurable outcomes in educational research. The limitation is not measurement but causal inference from observational data."
+      },
+      "topic": "Correlation vs Causation / Third Variables",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_method_005",
+      "passage": null,
+      "stem": "A researcher studies 500 adults and finds r = 0.15 between daily coffee consumption and self-reported happiness (p < 0.01). This result is best interpreted as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a clinically meaningful finding because it is statistically significant"
+        },
+        {
+          "label": "B",
+          "text": "proof that coffee causes happiness"
+        },
+        {
+          "label": "C",
+          "text": "a statistically significant but weak positive correlation — the large sample provides power to detect a small effect that may have limited practical importance"
+        },
+        {
+          "label": "D",
+          "text": "an invalid finding because r should always exceed 0.50 to be meaningful"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Statistical significance (p < 0.01) means the correlation is unlikely to be zero in the population, but it says nothing about clinical or practical importance. With r = 0.15, coffee consumption explains only about 2.25% of the variance in happiness (r² = 0.0225). A statistically significant but tiny effect may have no meaningful real-world application.",
+        "B": "This is a correlational study and cannot establish causation regardless of sample size or significance level. Third variables (sociability, income, sleep quality, lifestyle) could explain both coffee consumption and happiness. Experimental manipulation would be needed to test causation.",
+        "C": "Correct. With 500 participants, even a very small correlation can reach statistical significance because large samples provide high statistical power (the ability to detect small effects). The correlation r = 0.15 is weak by conventional standards (Cohen: r = 0.10 small, 0.30 medium, 0.50 large). It explains only ~2% of the variance in happiness. The finding is real (probably not due to chance) but small (coffee consumption has minimal practical predictive value for happiness). This distinction between statistical significance and practical significance is crucial in interpreting research.",
+        "D": "There is no absolute threshold (like r > 0.50) for a correlation to be 'meaningful.' The practical importance of a correlation depends on the context, the variables, and the purpose. In some domains (predicting rare events, screening for disease), even small correlations can be practically important. The issue here is not an arbitrary threshold but the specific magnitude of r = 0.15 and what it implies about the strength of the relationship."
+      },
+      "topic": "Statistical vs Practical Significance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_method_006",
+      "passage": null,
+      "stem": "Selection bias in a study most commonly occurs when:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the statistical test used is inappropriate for the data type"
+        },
+        {
+          "label": "B",
+          "text": "the study has too many dependent variables"
+        },
+        {
+          "label": "C",
+          "text": "the researcher uses too many decimal places in reporting results"
+        },
+        {
+          "label": "D",
+          "text": "participants in the study are not representative of the target population, or differ systematically between groups in ways related to the outcome"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Using an inappropriate statistical test is a methodological error in data analysis, not selection bias. Selection bias occurs during participant recruitment or group assignment and affects who is in the study, not how the data is analyzed.",
+        "B": "Having many dependent variables raises concerns about multiple comparisons (inflated Type I error rate) but is not selection bias. Selection bias is about who participates, not about how many outcomes are measured.",
+        "C": "Decimal places in reporting are a matter of precision and convention, not bias. Reporting too many or too few decimal places can be misleading but does not constitute selection bias, which concerns the composition of the sample.",
+        "D": "Correct. Selection bias occurs when the process of selecting participants or assigning them to groups creates systematic differences that affect the outcome. In observational studies, self-selection (e.g., health-conscious people volunteering for a nutrition study) can make participants unrepresentative of the broader population. In experiments, non-random assignment can create groups that differ at baseline. Selection bias threatens both internal validity (can we trust the causal conclusion?) and external validity (can we generalize to other populations?). Randomization and representative sampling are the primary defenses."
+      },
+      "topic": "Selection Bias / Threats to Validity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_method_007",
+      "passage": null,
+      "stem": "A Type I error occurs when a researcher:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "correctly fails to reject a true null hypothesis"
+        },
+        {
+          "label": "B",
+          "text": "rejects a true null hypothesis — concluding there is an effect when there is actually none (a false positive)"
+        },
+        {
+          "label": "C",
+          "text": "fails to reject a false null hypothesis — missing a real effect (a false negative)"
+        },
+        {
+          "label": "D",
+          "text": "uses a sample that is too large for meaningful analysis"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Correctly failing to reject a true null hypothesis is a correct decision, not any type of error. The null hypothesis is true, and the researcher correctly retains it. This is the goal of statistical testing when no real effect exists.",
+        "B": "Correct. Rejecting a true null hypothesis is a Type I error (false positive/α error). The researcher concludes an effect exists when it does not. The probability of a Type I error is controlled by the significance level (α, typically 0.05). If α = 0.05, there is a 5% chance of a Type I error when the null is true. Type I errors can lead to false claims that an ineffective treatment works or that a nonexistent relationship is real.",
+        "C": "Failing to reject a false null hypothesis is a Type II error (false negative/β error), not Type I. The researcher misses a real effect because the study lacks sufficient power. Type II errors can result from small samples, high variability, or small effect sizes. The probability of avoiding a Type II error is statistical power (1 − β).",
+        "D": "Large samples increase statistical power and reduce the probability of Type II errors. A large sample is not an error — it is generally desirable. However, very large samples can detect trivially small effects as 'statistically significant,' which relates to the distinction between statistical and practical significance, not to Type I or Type II errors."
+      },
+      "topic": "Type I Error / False Positive",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_method_008",
+      "passage": null,
+      "stem": "Double-blind experimental design means that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "two different experiments are conducted simultaneously"
+        },
+        {
+          "label": "B",
+          "text": "neither the participants nor the researchers interacting with them know which group (treatment or control) each participant is in, reducing both placebo effects and experimenter bias"
+        },
+        {
+          "label": "C",
+          "text": "the study uses two dependent variables"
+        },
+        {
+          "label": "D",
+          "text": "participants are tested twice on the same measure"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "'Double-blind' refers to who is blind to group assignment, not to the number of experiments. 'Double' means two parties (participants and researchers) are both unaware of assignments, not that two studies run concurrently.",
+        "B": "Correct. In a double-blind design, neither participants nor the researchers who interact with them (administer treatments, collect data, assess outcomes) know which group each participant belongs to. This prevents two sources of bias: (1) participant expectancy effects (placebo effects — participants who know they're in the treatment group may improve due to expectation), and (2) experimenter bias (researchers who know group assignment may unconsciously treat participants differently or interpret results favorably). A third party (pharmacist, data manager) maintains the code, which is broken only after data collection is complete.",
+        "C": "The number of dependent variables is a design feature related to multivariate analysis, not to blinding. Double-blind refers to knowledge concealment about group assignment, regardless of how many outcomes are measured.",
+        "D": "Testing participants twice describes a test-retest or repeated-measures design, not double-blinding. Repeated measurement is a data-collection strategy; blinding is a bias-control strategy. They are independent design features that can be combined."
+      },
+      "topic": "Double-Blind Design / Bias Control",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_method_009",
+      "passage": null,
+      "stem": "External validity refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "whether the study's findings can be generalized to other populations, settings, and times beyond the specific study sample"
+        },
+        {
+          "label": "B",
+          "text": "whether the independent variable caused the observed change in the dependent variable"
+        },
+        {
+          "label": "C",
+          "text": "whether the measurement instrument produces consistent results"
+        },
+        {
+          "label": "D",
+          "text": "whether the study was approved by an ethics committee"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. External validity (generalizability) concerns whether the findings from a specific study can be extended to other populations (different ages, ethnicities, clinical groups), settings (laboratories vs. real world, different countries), and times (will the finding hold in the future?). Threats to external validity include: unrepresentative samples (college students only), artificial laboratory settings (low ecological validity), and historical specificity (cultural norms change). Researchers increase external validity through diverse sampling, real-world settings, and replication across contexts.",
+        "B": "Whether the independent variable caused the observed change describes internal validity — the ability to draw causal conclusions. Internal and external validity are related but distinct: a study can have high internal validity (tight experimental control, clear causation) but low external validity (the controlled conditions don't resemble the real world). The ideal study maximizes both.",
+        "C": "Consistent measurement results describe reliability (test-retest reliability, inter-rater reliability, internal consistency). Reliability is a property of measurement instruments, not of the study's generalizability. A study can use reliable measures but still have limited external validity if its sample is unrepresentative.",
+        "D": "Ethics committee (IRB) approval is a procedural requirement for conducting research with human participants. It concerns the protection of participants' rights and welfare, not the generalizability of findings. An ethically approved study may still have limited external validity."
+      },
+      "topic": "External Validity / Generalizability",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_method_010",
+      "passage": null,
+      "stem": "A researcher finds that the mean exam score for Group A is 78 (SD = 4) and for Group B is 82 (SD = 4). The effect size (Cohen's d) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.25 (small effect)"
+        },
+        {
+          "label": "B",
+          "text": "4.0 (very large effect)"
+        },
+        {
+          "label": "C",
+          "text": "1.0 (large effect), calculated as d = (M₁ − M₂) / SD = (82 − 78) / 4"
+        },
+        {
+          "label": "D",
+          "text": "0 (no effect) because both groups used the same exam"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Cohen's d = (M₁ − M₂)/pooled SD = (82 − 78)/4 = 1.0, not 0.25. An effect of 0.25 would correspond to a 1-point mean difference with SD = 4, which is not what the data show.",
+        "B": "4.0 is the raw mean difference (82 − 78 = 4 points), not Cohen's d. Cohen's d standardizes the mean difference by dividing by the standard deviation, putting the effect on a scale that can be compared across studies with different metrics. d = 4/4 = 1.0, not 4.0.",
+        "C": "Correct. Cohen's d measures the standardized difference between two means: d = (M₁ − M₂) / pooled SD. With equal SDs, the pooled SD equals the common SD: d = (82 − 78) / 4 = 1.0. By Cohen's conventions, d = 0.2 is small, 0.5 is medium, and 0.8 is large. A d of 1.0 is a large effect — the groups differ by one full standard deviation. This means the average person in Group B scores higher than approximately 84% of people in Group A (using the normal distribution overlap).",
+        "D": "A Cohen's d of 0 would mean the means are identical. The means differ by 4 points (78 vs. 82), so the effect is clearly nonzero. Using the same exam does not make the effect zero — it ensures the dependent variable is measured consistently across groups."
+      },
+      "topic": "Effect Size / Cohen's d",
+      "difficulty": "Medium"
+    }
+  ]
+}

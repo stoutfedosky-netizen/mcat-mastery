@@ -1,0 +1,338 @@
+{
+  "batch": "B102",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Psychological Disorders",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 2,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_disorder_001",
+      "passage": "A clinical psychologist evaluates patients presenting with various psychological disorders. She uses the DSM-5 diagnostic criteria, considers the biopsychosocial model, and reviews the major categories of disorders including anxiety, depressive, bipolar, psychotic, personality, and neurodevelopmental disorders. She examines how biological (genetics, neurotransmitters), psychological (cognitive patterns, learning), and social (stress, SES, culture) factors interact to produce psychopathology.",
+      "stem": "Major depressive disorder (MDD) is characterized by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "persistent depressed mood or anhedonia (loss of interest/pleasure) lasting at least 2 weeks, accompanied by changes in sleep, appetite, energy, concentration, and self-worth — with potential suicidal ideation"
+        },
+        {
+          "label": "B",
+          "text": "alternating episodes of mania and depression"
+        },
+        {
+          "label": "C",
+          "text": "persistent mild depression lasting at least 2 years (persistent depressive disorder/dysthymia)"
+        },
+        {
+          "label": "D",
+          "text": "brief episodes of sadness lasting only a few hours with no functional impairment"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. MDD diagnosis (DSM-5) requires ≥5 of 9 symptoms during a 2-week period, with at least one being depressed mood or anhedonia: (1) depressed mood, (2) anhedonia, (3) weight/appetite change, (4) insomnia/hypersomnia, (5) psychomotor agitation/retardation, (6) fatigue, (7) worthlessness/guilt, (8) concentration difficulty, (9) suicidal ideation. Symptoms must cause significant distress or functional impairment and cannot be attributable to substance use or another medical condition. MDD has a biological basis involving serotonin, norepinephrine, and dopamine dysregulation (monoamine hypothesis), HPA axis dysfunction, and neuroplasticity changes (reduced hippocampal volume, BDNF reduction).",
+        "B": "Alternating mania and depression describes bipolar disorder (Type I: manic + depressive episodes; Type II: hypomanic + depressive episodes). MDD involves depressive episodes only, without manic or hypomanic episodes.",
+        "C": "Persistent mild depression for ≥2 years describes persistent depressive disorder (formerly dysthymia). PDD is chronic but less severe than MDD episodes. A person can have both (double depression).",
+        "D": "Brief, transient sadness without functional impairment is a normal emotional response, not a clinical disorder. MDD requires sustained symptoms for ≥2 weeks with significant impairment."
+      },
+      "topic": "Major Depressive Disorder / DSM-5 Criteria",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The monoamine hypothesis of depression proposes that depression is associated with:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "excess dopamine in the mesolimbic pathway"
+        },
+        {
+          "label": "B",
+          "text": "reduced signaling by monoamine neurotransmitters (serotonin, norepinephrine, dopamine) in key brain circuits — supported by the efficacy of SSRIs, SNRIs, and MAO inhibitors that increase monoamine availability"
+        },
+        {
+          "label": "C",
+          "text": "excessive GABA activity inhibiting all brain function"
+        },
+        {
+          "label": "D",
+          "text": "overactivity of glutamate at NMDA receptors"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Excess dopamine in the mesolimbic pathway is associated with the positive symptoms of schizophrenia (dopamine hypothesis), not depression. In depression, dopamine may be deficient, particularly in reward circuits (anhedonia).",
+        "B": "Correct. The monoamine hypothesis: depression is associated with reduced availability of serotonin (5-HT), norepinephrine (NE), and/or dopamine (DA) in synaptic clefts. Evidence: (1) reserpine (depletes monoamines) causes depression; (2) SSRIs (fluoxetine/Prozac — block 5-HT reuptake), SNRIs (venlafaxine — block 5-HT and NE reuptake), TCAs (block 5-HT and NE reuptake), and MAOIs (prevent monoamine degradation) all alleviate depression; (3) tryptophan depletion (reducing 5-HT precursor) can worsen mood. Limitations: the therapeutic lag (antidepressants increase monoamines within hours but take 2-4 weeks to work) suggests the hypothesis is incomplete — downstream neuroplasticity changes may be more important.",
+        "C": "GABA is the primary inhibitory neurotransmitter, but excessive GABA activity is more associated with sedation, not the full clinical picture of depression. Some GABAergic drugs (benzodiazepines) treat anxiety, not depression.",
+        "D": "Glutamate/NMDA overactivity is associated with excitotoxicity and neurodegeneration. Interestingly, ketamine (an NMDA antagonist) has rapid antidepressant effects, suggesting glutamate plays a role, but this is a newer finding that supplements rather than constitutes the monoamine hypothesis."
+      },
+      "topic": "Monoamine Hypothesis / Antidepressants",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_003",
+      "passage": null,
+      "stem": "Generalized anxiety disorder (GAD) is characterized by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "recurrent, unexpected panic attacks with fear of future attacks"
+        },
+        {
+          "label": "B",
+          "text": "excessive, uncontrollable worry about multiple everyday concerns (work, health, finances) lasting ≥6 months, accompanied by restlessness, fatigue, concentration difficulty, irritability, muscle tension, and sleep disturbance"
+        },
+        {
+          "label": "C",
+          "text": "intense fear of a specific object or situation (e.g., spiders, heights)"
+        },
+        {
+          "label": "D",
+          "text": "intrusive thoughts and repetitive behaviors performed to reduce anxiety"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Recurrent panic attacks with fear of future attacks describes panic disorder. Panic attacks are discrete episodes of intense fear with autonomic symptoms (palpitations, sweating, trembling, shortness of breath) peaking within minutes. GAD involves chronic, diffuse worry rather than discrete panic episodes.",
+        "B": "Correct. GAD (DSM-5): excessive anxiety and worry about multiple topics, occurring more days than not for ≥6 months, difficult to control, with ≥3 associated symptoms (restlessness, fatigue, concentration difficulty, irritability, muscle tension, sleep disturbance). GAD is distinguished from normal worry by its pervasiveness (multiple domains), duration (≥6 months), uncontrollability, and functional impairment. Treatment: CBT (cognitive restructuring of worry patterns), SSRIs/SNRIs, buspirone (5-HT₁A partial agonist). GAD involves overactivation of the amygdala and underactivation of prefrontal regulatory circuits.",
+        "C": "Intense fear of a specific object or situation describes specific phobia. Phobias involve circumscribed fear and avoidance of a particular stimulus, whereas GAD involves generalized worry across multiple domains.",
+        "D": "Intrusive thoughts (obsessions) and repetitive behaviors (compulsions) describe obsessive-compulsive disorder (OCD). OCD is now classified separately from anxiety disorders in DSM-5 (under 'Obsessive-Compulsive and Related Disorders')."
+      },
+      "topic": "Generalized Anxiety Disorder / DSM-5",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_disorder_004",
+      "passage": null,
+      "stem": "The dopamine hypothesis of schizophrenia proposes that positive symptoms (hallucinations, delusions) are caused by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dopamine deficiency in the mesocortical pathway"
+        },
+        {
+          "label": "B",
+          "text": "excess serotonin in the raphe nuclei"
+        },
+        {
+          "label": "C",
+          "text": "GABA excess in the basal ganglia"
+        },
+        {
+          "label": "D",
+          "text": "excess dopaminergic activity in the mesolimbic pathway — supported by the fact that antipsychotics (D₂ receptor antagonists) reduce positive symptoms, and dopamine agonists (amphetamines) can induce psychotic symptoms"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Dopamine deficiency in the mesocortical pathway is proposed to explain the negative and cognitive symptoms of schizophrenia, not the positive symptoms. This dual-pathway model (mesolimbic excess + mesocortical deficit) explains why typical antipsychotics treat positive but not negative symptoms.",
+        "B": "Serotonin is involved in schizophrenia (atypical antipsychotics like clozapine and risperidone are 5-HT₂A antagonists in addition to D₂ antagonists), but the dopamine hypothesis specifically attributes positive symptoms to dopaminergic excess, not serotonin.",
+        "C": "GABA is not the primary neurotransmitter system implicated in schizophrenia's positive symptoms. The glutamate hypothesis (NMDA receptor hypofunction) is an alternative model, but the dopamine hypothesis remains the most established.",
+        "D": "Correct. The dopamine hypothesis: positive symptoms of schizophrenia (hallucinations, delusions, disorganized thought/speech) result from excessive dopamine in the mesolimbic pathway (ventral tegmental area → nucleus accumbens, amygdala). Evidence: (1) typical antipsychotics (haloperidol, chlorpromazine) are D₂ receptor antagonists — therapeutic efficacy correlates with D₂ binding affinity; (2) amphetamines and L-DOPA (increase DA) can produce psychotic symptoms; (3) post-mortem studies show elevated D₂ receptors in schizophrenia. The revised hypothesis adds that negative symptoms (flat affect, social withdrawal, alogia) may involve dopamine deficiency in the mesocortical pathway (to prefrontal cortex)."
+      },
+      "topic": "Dopamine Hypothesis / Schizophrenia",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The biopsychosocial model explains psychological disorders through the interaction of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "biological factors only (genetics, neurotransmitters, brain structure)"
+        },
+        {
+          "label": "B",
+          "text": "psychological factors only (cognition, learning, personality)"
+        },
+        {
+          "label": "C",
+          "text": "biological, psychological, AND social factors together — no single factor is sufficient; disorders emerge from the interaction of genetic vulnerabilities, cognitive patterns, and environmental stressors"
+        },
+        {
+          "label": "D",
+          "text": "social factors only (culture, SES, interpersonal relationships)"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Biological reductionism ignores the role of cognition, learning, and social context. While genetics and neurobiology are important, they do not fully explain why disorders emerge in specific individuals at specific times.",
+        "B": "Psychological reductionism ignores the biological substrates of mental illness (brain chemistry, genetics) and the social/environmental triggers. Cognitive patterns are important but insufficient alone.",
+        "C": "Correct. The biopsychosocial model (Engel, 1977) integrates three domains: Biological — genetics (heritability of disorders), neurotransmitter imbalances, hormonal dysregulation, brain structural/functional abnormalities. Psychological — maladaptive cognitive schemas (Beck), learned helplessness (Seligman), reinforcement of illness behavior, personality traits. Social — poverty, discrimination, social isolation, adverse childhood experiences (ACEs), cultural norms about mental illness, social support networks. Example: depression may involve serotonin dysregulation (biological), negative cognitive triad (psychological), and job loss (social). Treatment implications: effective interventions often combine medication (biological) with psychotherapy (psychological) and social support.",
+        "D": "Social reductionism ignores individual biological vulnerability and psychological processes. Not everyone exposed to the same social stressors develops a disorder — biological and psychological factors moderate the impact."
+      },
+      "topic": "Biopsychosocial Model",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_disorder_006",
+      "passage": null,
+      "stem": "Bipolar I disorder is distinguished from bipolar II disorder by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the presence of depressive episodes (bipolar I has depression; bipolar II does not)"
+        },
+        {
+          "label": "B",
+          "text": "bipolar II is more severe than bipolar I"
+        },
+        {
+          "label": "C",
+          "text": "bipolar I involves full manic episodes (≥7 days, severe, possibly requiring hospitalization), while bipolar II involves hypomanic episodes (≥4 days, less severe, no psychosis or hospitalization) with major depressive episodes"
+        },
+        {
+          "label": "D",
+          "text": "bipolar I has no genetic component while bipolar II is entirely genetic"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Both bipolar I and II commonly involve depressive episodes. Bipolar II requires at least one major depressive episode for diagnosis; in bipolar I, depressive episodes are common but not required.",
+        "B": "Bipolar II is not simply a milder form. The depressive episodes in bipolar II can be severe and prolonged, and the overall disease burden may be comparable. The distinction is in the severity of the elevated mood episodes (mania vs hypomania).",
+        "C": "Correct. Bipolar I: ≥1 manic episode (elevated/irritable mood, ↑energy/activity, ≥7 days or any duration if hospitalized). Manic episodes: grandiosity, decreased sleep need, pressured speech, racing thoughts, distractibility, increased goal-directed activity, risky behavior. May include psychotic features (delusions, hallucinations). Major depressive episodes common but not required for diagnosis. Bipolar II: ≥1 hypomanic episode (similar to mania but shorter ≥4 days, less severe, no psychosis, no hospitalization) + ≥1 major depressive episode. Bipolar II is not 'milder' — the depressive episodes can be equally or more debilitating. Treatment: mood stabilizers (lithium, valproate), atypical antipsychotics.",
+        "D": "Both bipolar I and II have significant genetic components (heritability ~70-80%). The genetics are complex (polygenic) and overlap between the two subtypes."
+      },
+      "topic": "Bipolar I vs II / Mania vs Hypomania",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Antisocial personality disorder (ASPD) is characterized by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "excessive worry about being judged negatively in social situations"
+        },
+        {
+          "label": "B",
+          "text": "a pervasive pattern of disregard for and violation of the rights of others — including deceitfulness, impulsivity, aggression, reckless disregard for safety, irresponsibility, and lack of remorse, beginning in adolescence or early adulthood"
+        },
+        {
+          "label": "C",
+          "text": "intense fear of abandonment and unstable interpersonal relationships"
+        },
+        {
+          "label": "D",
+          "text": "rigid perfectionism and excessive orderliness"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Excessive worry about social judgment describes social anxiety disorder (social phobia), not ASPD. Social anxiety involves fear and avoidance of social situations due to fear of negative evaluation.",
+        "B": "Correct. ASPD (DSM-5 Cluster B personality disorder) involves a persistent pattern of: failure to conform to social norms/laws, deceitfulness (lying, manipulation), impulsivity, irritability/aggressiveness (fights, assaults), reckless disregard for safety of self and others, irresponsibility (inconsistent work, financial obligations), and lack of remorse for harm caused. Diagnosis requires age ≥18 with evidence of conduct disorder before age 15. Prevalence: ~3% in males, ~1% in females. Associated with reduced amygdala reactivity (diminished fear conditioning and empathy), prefrontal cortex deficits, and genetic factors. 'Psychopathy' and 'sociopathy' are related but not identical DSM diagnoses.",
+        "C": "Fear of abandonment and unstable relationships characterize borderline personality disorder (BPD, Cluster B). BPD involves emotional dysregulation, identity disturbance, and self-harm, distinct from ASPD's callous disregard for others.",
+        "D": "Rigid perfectionism and orderliness describe obsessive-compulsive personality disorder (OCPD, Cluster C). OCPD involves preoccupation with rules, order, and control — distinct from the impulsive, rule-violating pattern of ASPD."
+      },
+      "topic": "Antisocial Personality Disorder",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_disorder_008",
+      "passage": null,
+      "stem": "Post-traumatic stress disorder (PTSD) develops after exposure to a traumatic event and includes symptoms of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "re-experiencing (flashbacks, nightmares), avoidance of trauma-related stimuli, negative alterations in cognition and mood, and hyperarousal (hypervigilance, exaggerated startle response, sleep disturbance) — lasting >1 month"
+        },
+        {
+          "label": "B",
+          "text": "gradual onset of memory loss without any identifiable traumatic trigger"
+        },
+        {
+          "label": "C",
+          "text": "hallucinations and delusions unrelated to any traumatic event"
+        },
+        {
+          "label": "D",
+          "text": "excessive happiness and euphoria following trauma"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. PTSD (DSM-5) requires: (1) exposure to actual or threatened death, serious injury, or sexual violence; (2) ≥1 intrusion symptom (flashbacks, nightmares, distressing memories); (3) avoidance of trauma-related stimuli (thoughts, feelings, external reminders); (4) negative alterations in cognition/mood (persistent negative beliefs, diminished interest, emotional numbing, detachment); (5) alterations in arousal/reactivity (hypervigilance, exaggerated startle, irritability, sleep disturbance). Duration >1 month (<1 month = acute stress disorder). Neurobiology: amygdala hyperactivity (threat processing), hippocampal atrophy (impaired contextualization of memories), medial prefrontal cortex hypoactivation (reduced fear extinction). Treatments: trauma-focused CBT, EMDR, prolonged exposure therapy; SSRIs for pharmacotherapy.",
+        "B": "Gradual memory loss without trauma suggests neurocognitive disorders (dementia) or dissociative amnesia, not PTSD. PTSD specifically requires an identifiable traumatic event as the precipitant.",
+        "C": "Hallucinations and delusions unrelated to trauma describe psychotic disorders (schizophrenia, schizoaffective disorder). PTSD may include dissociative flashbacks, but these are re-experiences of the trauma, not unrelated psychotic content.",
+        "D": "Euphoria following trauma is not characteristic of PTSD. PTSD involves negative emotional states (fear, horror, anger, guilt, shame). Euphoria might occur in manic episodes, which are unrelated to PTSD."
+      },
+      "topic": "PTSD / Trauma-Related Disorders",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_009",
+      "passage": null,
+      "stem": "The diathesis-stress model of psychopathology proposes that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stress alone is sufficient to cause any psychological disorder regardless of individual vulnerability"
+        },
+        {
+          "label": "B",
+          "text": "genetic predisposition alone determines whether someone develops a disorder, independent of environmental factors"
+        },
+        {
+          "label": "C",
+          "text": "psychological disorders are purely social constructions with no biological basis"
+        },
+        {
+          "label": "D",
+          "text": "disorders emerge when a pre-existing vulnerability (diathesis — genetic, biological, or psychological) interacts with environmental stressors that exceed the individual's coping capacity — neither vulnerability nor stress alone is sufficient"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Stress alone is not sufficient — individual vulnerability moderates the stress-disorder relationship. Many people experience severe stress without developing psychopathology because they lack the underlying diathesis.",
+        "B": "Genetic predisposition alone is rarely sufficient. Twin studies show concordance rates well below 100% for most disorders (e.g., schizophrenia ~50% in MZ twins), demonstrating that environmental factors are necessary to trigger the disorder in vulnerable individuals.",
+        "C": "While diagnostic categories are culturally influenced, psychological disorders have well-documented biological substrates (neurotransmitter alterations, structural brain changes, genetic heritability). They are not purely social constructions.",
+        "D": "Correct. The diathesis-stress model: disorder = vulnerability × stress. A person with high genetic vulnerability (diathesis) may develop depression after a mild stressor, while a person with low vulnerability may withstand severe stress without developing the disorder. The diathesis can be biological (genetic polymorphisms affecting serotonin transporter — 5-HTTLPR), psychological (negative cognitive style), or social (early adverse experiences that sensitize the stress response). This model explains why not everyone exposed to trauma develops PTSD and why not everyone with a family history of schizophrenia becomes psychotic. It integrates the biopsychosocial framework with a mechanistic explanation of disorder onset."
+      },
+      "topic": "Diathesis-Stress Model",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_disorder_010",
+      "passage": null,
+      "stem": "Obsessive-compulsive disorder (OCD) involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "persistent sadness and loss of interest in activities"
+        },
+        {
+          "label": "B",
+          "text": "excessive worry about multiple everyday concerns"
+        },
+        {
+          "label": "C",
+          "text": "alternating episodes of mania and depression"
+        },
+        {
+          "label": "D",
+          "text": "intrusive, unwanted thoughts (obsessions) that cause anxiety, and repetitive behaviors or mental acts (compulsions) performed to reduce that anxiety — creating a self-reinforcing cycle because compulsions provide temporary relief that negatively reinforces the behavior"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Persistent sadness and anhedonia describe major depressive disorder, not OCD. While depression frequently co-occurs with OCD, they are distinct conditions.",
+        "B": "Excessive worry about everyday concerns describes generalized anxiety disorder (GAD). GAD involves diffuse, chronic worry; OCD involves specific obsessive themes and ritualistic compulsive behaviors.",
+        "C": "Alternating mania and depression describes bipolar disorder. OCD is categorized separately in DSM-5 under 'Obsessive-Compulsive and Related Disorders.'",
+        "D": "Correct. OCD: obsessions (recurrent intrusive thoughts, images, or urges causing marked anxiety — contamination fears, symmetry/ordering, harm/aggression, forbidden thoughts) drive compulsions (repetitive behaviors — handwashing, checking, counting, arranging — or mental acts — praying, repeating phrases — performed to neutralize the obsession). The compulsion temporarily reduces anxiety (negative reinforcement), strengthening the obsession-compulsion cycle. OCD involves cortico-striato-thalamo-cortical circuit dysfunction (overactive caudate nucleus, orbital frontal cortex). Treatment: CBT with exposure and response prevention (ERP, gold standard), high-dose SSRIs (higher doses than for depression)."
+      },
+      "topic": "OCD / Obsessions and Compulsions",
+      "difficulty": "Easy"
+    }
+  ]
+}

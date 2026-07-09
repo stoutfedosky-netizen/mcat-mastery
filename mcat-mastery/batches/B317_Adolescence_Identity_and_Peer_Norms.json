@@ -1,0 +1,225 @@
+{
+  "batch": "B317",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Adolescence, Identity & Peer Norms",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_adolescent_identity_exploration_317_q0",
+      "passage": "A developmental psychologist interviewed high-school seniors about career plans. Some students had explored multiple options and made a tentative commitment. Others had adopted a parent\u2019s preferred plan without exploration, while another group felt overwhelmed and avoided thinking about the future. Students who had explored and committed described more confidence and less anxiety when discussing next steps. The psychologist used identity status theory to interpret the interviews.",
+      "usePrevPassage": false,
+      "stem": "Which group described the most confidence about next steps?",
+      "choices": {
+        "C": "Students who explored multiple options and made a tentative commitment",
+        "A": "Students who avoided thinking about the future",
+        "B": "Students who adopted a parent\u2019s plan without exploration",
+        "D": "All students reported identical confidence"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Students who had both explored and committed reported more confidence and less anxiety when discussing future plans.",
+        "A": "The passage does not support students who avoided thinking about the future; it points instead to students who explored multiple options and made a tentative commitment.",
+        "B": "The passage does not support students who adopted a parent\u2019s plan without exploration; it points instead to students who explored multiple options and made a tentative commitment.",
+        "D": "The passage does not support all students reported identical confidence; it points instead to students who explored multiple options and made a tentative commitment."
+      },
+      "topic": "Identity Development",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_adolescent_identity_exploration_317_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Students who explored options and made a commitment best fit which identity status?",
+      "choices": {
+        "B": "Identity achievement",
+        "A": "Foreclosure",
+        "C": "Diffusion",
+        "D": "Sensorimotor"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Identity achievement involves exploration followed by commitment, which matches the students who considered options and formed a plan.",
+        "A": "The passage does not support foreclosure; it points instead to identity achievement.",
+        "C": "The passage does not support diffusion; it points instead to identity achievement.",
+        "D": "The passage does not support sensorimotor; it points instead to identity achievement."
+      },
+      "topic": "Identity Development",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_adolescent_identity_exploration_317_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why should causal language be used cautiously for this passage?",
+      "choices": {
+        "D": "The design leaves room for alternative explanations or selection effects",
+        "A": "The passage contains no measurable variables",
+        "B": "All participant reports are automatically false",
+        "C": "The topic is unrelated to P/S content"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The interviews show identity-status patterns but do not prove that status alone caused confidence, because confidence could also influence willingness to explore.",
+        "A": "The passage includes concrete measures or observations, so this is incorrect.",
+        "B": "Self-report can have limitations, but it is not automatically false.",
+        "C": "The topic fits psychological, social, or behavioral science content."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_adolescent_identity_exploration_317_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application best follows from the passage?",
+      "choices": {
+        "A": "Help students explore options and make personally meaningful commitments",
+        "B": "Ignore the social or behavioral context described",
+        "C": "Use a one-size-fits-all intervention even when the passage shows different barriers",
+        "D": "Assume the measured pattern cannot be changed"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Counseling that supports exploration and commitment follows from the group with greater confidence and lower anxiety.",
+        "B": "Ignoring the described context would miss the mechanism emphasized in the passage.",
+        "C": "A uniform intervention would not address the specific pattern described.",
+        "D": "The passage supports practical response rather than fatalism."
+      },
+      "topic": "Identity Development",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_adolescent_identity_exploration_317_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most defensible?",
+      "choices": {
+        "D": "Identity status can help describe adolescent decision-making patterns without making them fixed or permanent",
+        "A": "The finding proves a universal law for every person",
+        "B": "The main construct is irrelevant because one limitation exists",
+        "C": "The passage supports only biological explanations"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. This conclusion fits identity theory while recognizing that statuses can change over time.",
+        "A": "The passage supports a bounded interpretation, not a universal absolute.",
+        "B": "A limitation weakens overclaiming but does not make the construct irrelevant.",
+        "C": "P/S passages often involve social and psychological mechanisms beyond biology alone."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_peer_norms_risky_driving_317_q5",
+      "passage": "A transportation-safety researcher surveyed teenagers about risky driving. Teens who believed that most close friends texted while driving were more likely to report intending to do so themselves. Actual friend self-reports suggested that texting while driving was less common than many participants believed. The researcher concluded that misperceived descriptive norms may increase risky intentions and that correcting norm estimates could be a useful prevention strategy.",
+      "usePrevPassage": false,
+      "stem": "What belief was associated with greater intention to text while driving?",
+      "choices": {
+        "C": "The belief that most close friends texted while driving",
+        "A": "The belief that friends avoided all risk",
+        "B": "Accurate knowledge that texting was rare",
+        "D": "Having no beliefs about peers"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Teens who believed close friends commonly texted while driving were more likely to intend the same risky behavior.",
+        "A": "The passage does not support the belief that friends avoided all risk; it points instead to the belief that most close friends texted while driving.",
+        "B": "The passage does not support accurate knowledge that texting was rare; it points instead to the belief that most close friends texted while driving.",
+        "D": "The passage does not support having no beliefs about peers; it points instead to the belief that most close friends texted while driving."
+      },
+      "topic": "Peer Influence",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_peer_norms_risky_driving_317_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The teens\u2019 beliefs about how common the behavior was are examples of what?",
+      "choices": {
+        "B": "Descriptive norms",
+        "A": "Injunctive norms only",
+        "C": "Operant punishment",
+        "D": "Crystallized intelligence"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Descriptive norms are perceptions of what others actually do. Believing friends text while driving is a perceived descriptive norm.",
+        "A": "The passage does not support injunctive norms only; it points instead to descriptive norms.",
+        "C": "The passage does not support operant punishment; it points instead to descriptive norms.",
+        "D": "The passage does not support crystallized intelligence; it points instead to descriptive norms."
+      },
+      "topic": "Peer Influence",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_peer_norms_risky_driving_317_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why should causal language be used cautiously for this passage?",
+      "choices": {
+        "A": "The design leaves room for alternative explanations or selection effects",
+        "B": "The passage contains no measurable variables",
+        "C": "All participant reports are automatically false",
+        "D": "The topic is unrelated to P/S content"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The survey measured perceived norms and intentions, not actual future driving behavior, so behavior tracking would strengthen inference.",
+        "B": "The passage includes concrete measures or observations, so this is incorrect.",
+        "C": "Self-report can have limitations, but it is not automatically false.",
+        "D": "The topic fits psychological, social, or behavioral science content."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_peer_norms_risky_driving_317_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application best follows from the passage?",
+      "choices": {
+        "C": "Tell students that most peers do not text while driving",
+        "A": "Ignore the social or behavioral context described",
+        "B": "Use a one-size-fits-all intervention even when the passage shows different barriers",
+        "D": "Assume the measured pattern cannot be changed"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Correcting the inflated descriptive norm should reduce the sense that risky driving is normal or expected.",
+        "A": "Ignoring the described context would miss the mechanism emphasized in the passage.",
+        "B": "A uniform intervention would not address the specific pattern described.",
+        "D": "The passage supports practical response rather than fatalism."
+      },
+      "topic": "Peer Influence",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_peer_norms_risky_driving_317_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most defensible?",
+      "choices": {
+        "B": "Misperceived peer norms may increase risky intentions by making a behavior seem more common than it is",
+        "A": "The finding proves a universal law for every person",
+        "C": "The main construct is irrelevant because one limitation exists",
+        "D": "The passage supports only biological explanations"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. This conclusion follows from the gap between perceived friend behavior and actual friend reports.",
+        "A": "The passage supports a bounded interpretation, not a universal absolute.",
+        "C": "A limitation weakens overclaiming but does not make the construct irrelevant.",
+        "D": "P/S passages often involve social and psychological mechanisms beyond biology alone."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "batch": "B146",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Aromatic Chemistry & Electrophilic Aromatic Substitution",
+  "questionCount": 10,
+  "questions": [
+    {
+      "id": "cp_arom_001",
+      "stem": "Benzene undergoes electrophilic aromatic substitution rather than addition because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "benzene has no π electrons available for reaction"
+        },
+        {
+          "label": "B",
+          "text": "substitution preserves the aromatic π system — addition would destroy the cyclic conjugation and the ~150 kJ/mol resonance stabilization energy, making the substitution pathway thermodynamically favored"
+        },
+        {
+          "label": "C",
+          "text": "benzene is an alkane with only σ bonds"
+        },
+        {
+          "label": "D",
+          "text": "all addition products of benzene are more stable than the starting material"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Benzene has six π electrons in a delocalized system above and below the ring plane. These π electrons are what electrophiles attack. Benzene's reactivity with electrophiles specifically depends on its π electron density — without π electrons, no EAS could occur.",
+        "B": "Correct. Benzene's aromatic stabilization (~150 kJ/mol, or ~36 kcal/mol) is preserved in substitution but lost in addition. In EAS, the electrophile replaces one hydrogen: the ring temporarily loses aromaticity in the σ-complex (arenium ion) intermediate but regains it upon deprotonation. In addition, two carbons become sp³, permanently breaking the 4n+2 π system. The thermodynamic cost of losing aromaticity makes addition unfavorable despite being kinetically accessible.",
+        "C": "Benzene is not an alkane. It has the molecular formula C₆H₆ and contains six π electrons in a planar, cyclic, fully conjugated system. Its degree of unsaturation is 4 (three double bonds equivalent + one ring). Alkanes have the formula CₙH₂ₙ₊₂ and contain only σ bonds.",
+        "D": "Addition products of benzene lose aromatic stabilization and are less stable than the aromatic starting material. For example, 1,2-dihydrobenzene (cyclohexadiene) is higher in energy than benzene by approximately 150 kJ/mol. Substitution products retain the aromatic ring and its stabilization energy."
+      },
+      "topic": "Aromaticity / Substitution vs Addition",
+      "difficulty": "Easy",
+      "passage": "Researchers study electrophilic aromatic substitution (EAS) reactions on substituted benzene rings. They compare the rates and regiochemistry of nitration (HNO₃/H₂SO₄) for toluene (methylbenzene), chlorobenzene, nitrobenzene, and phenol. They note that electron-donating groups (EDGs) activate the ring and direct substitution to the ortho/para positions, while electron-withdrawing groups (EWGs) deactivate the ring and direct to the meta position. The exception is halogens, which are deactivating but ortho/para-directing due to competing inductive withdrawal and resonance donation."
+    },
+    {
+      "id": "cp_arom_002",
+      "stem": "Toluene is nitrated faster than benzene because the methyl group:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "withdraws electrons from the ring through resonance"
+        },
+        {
+          "label": "B",
+          "text": "has no effect on the ring's electron density"
+        },
+        {
+          "label": "C",
+          "text": "donates electron density to the ring through hyperconjugation and induction, increasing the π electron density and stabilizing the cationic σ-complex intermediate — making the ring more nucleophilic toward the electrophile"
+        },
+        {
+          "label": "D",
+          "text": "converts the ring from aromatic to antiaromatic"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The methyl group donates electrons, not withdraws them. It has no π system to engage in resonance withdrawal. Methyl is an electron-donating group through hyperconjugation (σ C–H bonds overlap with the ring's π system) and inductive effects (alkyl groups are weakly electron-releasing). This activation is why toluene reacts faster than benzene.",
+        "B": "The methyl group significantly affects ring electron density. Toluene reacts ~25 times faster than benzene in nitration, demonstrating measurable electronic activation. Substituent effects on aromatic reactivity are well-characterized and form the basis of Hammett substituent constants (σ values).",
+        "C": "Correct. The methyl group is an electron-donating group (EDG) that increases electron density on the ring through hyperconjugation and inductive donation. Higher π electron density makes the ring a better nucleophile toward the electrophilic nitronium ion (NO₂⁺). Additionally, the methyl group stabilizes the arenium ion intermediate at the ortho and para positions by donating electron density to the positively charged ring — lowering the activation energy and accelerating the reaction at those positions.",
+        "D": "Adding a methyl group does not change the ring's aromatic character. Toluene remains fully aromatic — it has 6 π electrons in a planar, cyclic, conjugated system satisfying Hückel's rule (4n+2 where n=1). Substituents modify electron density and reactivity but do not convert aromatic rings to antiaromatic systems."
+      },
+      "topic": "Activating Groups / EDG",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_arom_003",
+      "stem": "Nitrobenzene is nitrated much more slowly than benzene because the nitro group:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "donates electrons to the ring, increasing its reactivity"
+        },
+        {
+          "label": "B",
+          "text": "withdraws electron density from the ring through both resonance and induction, reducing the ring's nucleophilicity and destabilizing the cationic intermediate — making the ring less reactive toward electrophiles"
+        },
+        {
+          "label": "C",
+          "text": "physically blocks the electrophile from approaching the ring"
+        },
+        {
+          "label": "D",
+          "text": "converts benzene to cyclohexane before the reaction can occur"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The nitro group is a strong electron-withdrawing group, not electron-donating. It withdraws electrons through both resonance (the nitrogen's positive formal charge pulls electron density from the ring into the N=O bonds) and induction (the electronegative oxygens and nitrogen pull σ electrons away from the ring). This dual withdrawal strongly deactivates the ring.",
+        "B": "Correct. The −NO₂ group is one of the strongest EWGs: resonance withdrawal pulls π electron density from the ring (especially from ortho/para positions, which is why meta substitution is favored), and inductive withdrawal through the σ framework further depletes ring electron density. The ring becomes electron-poor, making it a weaker nucleophile. The σ-complex intermediate is also less stabilized because the electron-poor ring cannot effectively delocalize the positive charge. Nitrobenzene reacts ~10⁵ times slower than benzene in nitration.",
+        "C": "While steric effects exist in EAS, the nitro group's primary deactivation is electronic, not steric. The nitro group is relatively compact and does not physically shield most ring positions. Meta direction arises from electronic destabilization of ortho/para intermediates, not from steric blockade.",
+        "D": "The nitro group does not reduce benzene to cyclohexane. Benzene-to-cyclohexane conversion requires catalytic hydrogenation (H₂/Pd or Pt, high pressure). The nitro group is a substituent that modifies the aromatic ring's electronic properties without breaking aromaticity."
+      },
+      "topic": "Deactivating Groups / EWG",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_arom_004",
+      "stem": "Chlorobenzene is deactivating yet ortho/para-directing. This dual behavior occurs because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "chlorine withdraws electrons inductively (deactivating) but donates electron density through resonance from its lone pairs into the ring (directing to ortho/para) — the inductive effect dominates overall reactivity while resonance controls positional selectivity"
+        },
+        {
+          "label": "B",
+          "text": "chlorine has no lone pairs and cannot engage in resonance"
+        },
+        {
+          "label": "C",
+          "text": "chlorine is an electron-donating group that activates the ring"
+        },
+        {
+          "label": "D",
+          "text": "chlorine directs to the meta position like all deactivating groups"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Chlorine has two competing electronic effects: (1) strong inductive withdrawal (high electronegativity pulls σ electrons away, deactivating the ring overall) and (2) resonance donation (lone pairs on chlorine can overlap with the ring's π system, donating electron density). The inductive effect dominates the overall rate (deactivation), but the resonance effect determines regiochemistry — lone pair donation stabilizes the σ-complex intermediate at the ortho and para positions more than at meta. This makes halogens unique among EWGs: deactivating but ortho/para-directing.",
+        "B": "Chlorine has three lone pairs (six nonbonding electrons). Its lone pairs can engage in resonance with the ring's π system through p-orbital overlap, donating electron density. This resonance donation is what directs electrophilic attack to ortho/para positions despite the overall deactivation.",
+        "C": "Chlorine is a net deactivator — chlorobenzene reacts slower than benzene. While chlorine's resonance donation partially offsets its inductive withdrawal, the inductive effect wins in terms of overall rate. Chlorobenzene reacts approximately 30 times slower than benzene in nitration.",
+        "D": "Halogens are the exception to the rule that deactivating groups direct meta. Groups that direct meta (−NO₂, −CN, −COOH, −COR) withdraw electrons through resonance, depleting the ortho/para positions. Halogens withdraw inductively but donate through resonance, stabilizing ortho/para intermediates. This distinction between resonance and inductive effects is key to understanding EAS regiochemistry."
+      },
+      "topic": "Halogen Substituents / Competing Effects",
+      "difficulty": "Hard",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_arom_005",
+      "stem": "Phenol (−OH) directs electrophilic attack to ortho/para positions and strongly activates the ring. The oxygen's role is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "withdrawing electrons through resonance, depleting the ring"
+        },
+        {
+          "label": "B",
+          "text": "having no electronic interaction with the ring"
+        },
+        {
+          "label": "C",
+          "text": "donating electron density through resonance — oxygen's lone pairs overlap with the ring π system, increasing electron density at ortho/para positions and stabilizing the arenium ion intermediate at those positions"
+        },
+        {
+          "label": "D",
+          "text": "acting as a Lewis acid catalyst that generates the electrophile"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Oxygen in phenol does have a weak inductive withdrawing effect (electronegativity), but its dominant interaction with the ring is resonance donation — lone pairs on oxygen overlap with the adjacent p orbital on the ring carbon, pushing electron density into the ring. This resonance donation overwhelms the inductive withdrawal, making −OH a strong activator.",
+        "B": "Oxygen interacts strongly with the ring through both resonance (donation of lone pair density into the π system) and induction (withdrawal through σ bonds). The net effect is strong activation — phenol reacts approximately 1000 times faster than benzene in EAS. Claiming no electronic interaction contradicts the dramatic rate enhancement.",
+        "C": "Correct. The −OH group is a powerful ortho/para director and activator. One of oxygen's lone pairs occupies a p orbital that overlaps with the ring's π system, creating extended conjugation. This resonance donation increases electron density particularly at the ortho and para positions (draw the resonance structures — negative charge appears at these positions). The σ-complex intermediate is stabilized when the electrophile attacks ortho or para because oxygen can directly stabilize the positive charge through resonance. This is why phenol is activated enough to undergo bromination without a Lewis acid catalyst.",
+        "D": "Phenol is a nucleophile (electron-rich ring attacks electrophiles), not a Lewis acid. Lewis acid catalysts (AlCl₃, FeBr₃) are used to generate strong electrophiles from weak ones (e.g., Br₂ + FeBr₃ → Br⁺–FeBr₄⁻). The −OH group's role is electronic activation of the ring, not electrophile generation."
+      },
+      "topic": "Phenol / Resonance Donation",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_arom_006",
+      "stem": "Friedel-Crafts alkylation requires a Lewis acid catalyst (AlCl₃) primarily to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reduce the aromatic ring to cyclohexane before alkylation"
+        },
+        {
+          "label": "B",
+          "text": "convert the aromatic ring into a carboxylic acid"
+        },
+        {
+          "label": "C",
+          "text": "protect the ring from further substitution"
+        },
+        {
+          "label": "D",
+          "text": "generate a strong electrophile — AlCl₃ complexes with the alkyl halide to form a carbocation-like species (R⁺) or a highly polarized R–Cl···AlCl₃ complex reactive enough to attack the aromatic ring"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "AlCl₃ does not reduce benzene to cyclohexane. It acts as a Lewis acid that accepts a lone pair from the halide leaving group, generating the electrophilic species. Reduction to cyclohexane requires catalytic hydrogenation with H₂ and a metal catalyst (Pd, Pt, or Rh) under pressure.",
+        "B": "AlCl₃ does not convert the ring to a carboxylic acid. It facilitates carbon-carbon bond formation between the ring and the alkyl group through electrophilic aromatic substitution. Carboxylic acid formation from aromatic rings requires different chemistry (e.g., oxidation of alkyl side chains with KMnO₄).",
+        "C": "AlCl₃ does not prevent further substitution. In fact, a major problem with Friedel-Crafts alkylation is polyalkylation — the alkyl product is more activated than the starting material (alkyl groups are EDGs), so it reacts faster than the original substrate, leading to multiple substitutions. Friedel-Crafts acylation avoids this because the acyl group is an EWG that deactivates the ring.",
+        "D": "Correct. AlCl₃ is a strong Lewis acid (electron-pair acceptor) that coordinates with the halide of the alkyl halide: R–Cl + AlCl₃ → R⁺ + AlCl₄⁻ (or the highly polarized complex R–Cl–AlCl₃). The resulting carbocation or carbocation-like species is electrophilic enough to attack the π electrons of the aromatic ring. Without the Lewis acid, alkyl halides are not sufficiently electrophilic to react with benzene. FeBr₃ serves the same role in bromination: Br₂ + FeBr₃ → Br⁺–FeBr₄⁻."
+      },
+      "topic": "Friedel-Crafts / Lewis Acid Catalysis",
+      "difficulty": "Medium",
+      "passage": "The team also investigates the Friedel-Crafts alkylation and acylation reactions. They note that Friedel-Crafts reactions require a Lewis acid catalyst (AlCl₃) and fail on strongly deactivated rings (those bearing −NO₂, −CN, −SO₃H, or −COR groups). They study the problem of polyalkylation in Friedel-Crafts alkylation (the product ring is more activated than the starting material) and how Friedel-Crafts acylation avoids this issue because the acyl group deactivates the ring after the first substitution."
+    },
+    {
+      "id": "cp_arom_007",
+      "stem": "Friedel-Crafts reactions fail on nitrobenzene because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "nitrobenzene is too activated and reacts explosively"
+        },
+        {
+          "label": "B",
+          "text": "the nitro group complexes with AlCl₃, destroying the catalyst and also deactivating the ring so severely that the remaining electrophile cannot overcome the high activation energy for σ-complex formation"
+        },
+        {
+          "label": "C",
+          "text": "nitrobenzene has no hydrogen atoms to replace"
+        },
+        {
+          "label": "D",
+          "text": "Friedel-Crafts reactions work equally well on all aromatic substrates"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Nitrobenzene is strongly deactivated, not activated. It reacts roughly 10⁵ times slower than benzene in EAS. Far from reacting explosively, it barely reacts at all under standard Friedel-Crafts conditions. Activated rings (toluene, phenol, aniline) are the ones prone to vigorous or multiple reactions.",
+        "B": "Correct. Friedel-Crafts reactions fail on strongly deactivated rings (−NO₂, −CN, −SO₃H, −COR, −COOH) for two reasons: (1) the ring is too electron-poor to react as a nucleophile with the electrophile, and (2) the Lewis acid catalyst (AlCl₃) preferentially coordinates with the lone pairs on the electron-withdrawing substituent rather than with the alkyl halide, effectively destroying the catalyst. Both effects prevent the reaction from proceeding.",
+        "C": "Nitrobenzene has five aromatic C–H bonds available for substitution. EAS replaces an aromatic hydrogen, and nitrobenzene has hydrogens at all five remaining ring positions. The failure is electronic (ring too deactivated and catalyst complexation), not steric or structural.",
+        "D": "Friedel-Crafts reactions are highly sensitive to ring electronics. They work well on benzene and activated rings (toluene, anisole, xylene) but fail on deactivated rings. This selectivity is a major limitation of the reaction and is why chemists must plan synthetic sequences to install deactivating groups after, not before, Friedel-Crafts steps."
+      },
+      "topic": "Friedel-Crafts Limitations / Deactivated Rings",
+      "difficulty": "Hard",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_arom_008",
+      "stem": "Polyalkylation is a problem in Friedel-Crafts alkylation but not acylation because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "acylation installs an electron-withdrawing acyl group that deactivates the product ring, preventing further substitution — alkylation installs an electron-donating alkyl group that activates the ring, making the product more reactive than the starting material"
+        },
+        {
+          "label": "B",
+          "text": "acylation produces a gas that escapes the reaction vessel"
+        },
+        {
+          "label": "C",
+          "text": "alkylation never actually adds carbon to the ring"
+        },
+        {
+          "label": "D",
+          "text": "both reactions always give exactly one substitution product"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Friedel-Crafts alkylation: the alkyl group (EDG) activates the product ring, making it more reactive than the starting benzene → the monoalkylated product reacts faster than the substrate → dialkylation, trialkylation, etc. Friedel-Crafts acylation: the acyl group (C=O, an EWG) deactivates the product ring, making it less reactive than the substrate → monosubstitution only. This is one reason acylation followed by Clemmensen or Wolff-Kishner reduction is often preferred over direct alkylation — it avoids polysubstitution and carbocation rearrangement.",
+        "B": "Neither alkylation nor acylation produces a gas that leaves the reaction vessel under normal conditions. Both reactions produce HCl as a byproduct (released when the σ-complex loses a proton), but HCl production occurs in both reactions equally.",
+        "C": "Friedel-Crafts alkylation does add carbon to the ring — it forms a new C–C bond between the ring carbon and the alkyl group. The product has an alkyl substituent (methyl, ethyl, isopropyl, etc.) covalently bonded to the aromatic ring.",
+        "D": "Friedel-Crafts alkylation commonly produces mixtures of mono-, di-, and trisubstituted products due to polyalkylation. Acylation gives monosubstitution due to product deactivation, but alkylation does not control for single substitution without careful stoichiometric or temperature optimization."
+      },
+      "topic": "Polyalkylation / Acylation Advantage",
+      "difficulty": "Medium",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_arom_009",
+      "stem": "Hückel's rule predicts that a planar, cyclic, fully conjugated molecule is aromatic when it contains:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4n π electrons (where n is a positive integer)"
+        },
+        {
+          "label": "B",
+          "text": "any odd number of π electrons"
+        },
+        {
+          "label": "C",
+          "text": "4n + 2 π electrons (where n = 0, 1, 2, ...) — this requirement, combined with planarity and full cyclic conjugation, produces the special thermodynamic stability and characteristic reactivity of aromatic compounds"
+        },
+        {
+          "label": "D",
+          "text": "no π electrons at all"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "4n π electrons (4, 8, 12, ...) characterize antiaromatic molecules — planar, cyclic, conjugated systems that are less stable than their open-chain counterparts. Cyclobutadiene (4 π electrons) is the classic antiaromatic molecule: it is highly unstable and extremely reactive, the opposite of aromatic benzene (6 π electrons).",
+        "B": "The number of π electrons in aromatic systems is always even (2, 6, 10, 14, ...), not odd. An odd number of electrons would produce a radical species. Hückel's rule requires 4n+2 electrons, which always gives an even number for any non-negative integer n.",
+        "C": "Correct. Hückel's rule: a planar, cyclic, fully conjugated molecule with 4n+2 π electrons (n = 0, 1, 2, ...) is aromatic. For n=0: 2 π electrons (cyclopropenyl cation). For n=1: 6 π electrons (benzene). For n=2: 10 π electrons (naphthalene, cyclooctatetraenyl dianion). For n=3: 14 π electrons (anthracene). The rule derives from molecular orbital theory — 4n+2 electrons exactly fill all bonding MOs in a cyclic conjugated system, producing net stabilization.",
+        "D": "Aromaticity requires π electrons — the entire concept is based on delocalized π electron density in a cyclic arrangement. A molecule with no π electrons (all σ bonds, like cyclohexane) is neither aromatic nor antiaromatic. Cyclohexane has no ring current, no aromatic stabilization, and undergoes typical alkane reactivity."
+      },
+      "topic": "Hückel's Rule / 4n+2",
+      "difficulty": "Easy",
+      "usePrevPassage": true
+    },
+    {
+      "id": "cp_arom_010",
+      "stem": "Carbocation rearrangement is a problem in Friedel-Crafts alkylation because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "carbocations always rearrange to less stable structures"
+        },
+        {
+          "label": "B",
+          "text": "AlCl₃ prevents all rearrangements"
+        },
+        {
+          "label": "C",
+          "text": "rearrangement converts the carbocation to a carbanion"
+        },
+        {
+          "label": "D",
+          "text": "the intermediate carbocation can undergo hydride or methyl shifts to form a more stable carbocation — primary carbocations rearrange to secondary or tertiary, leading to a branched product different from what the starting alkyl halide would predict"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Carbocations rearrange to more stable structures, not less stable. A primary carbocation (least stable) will rearrange via 1,2-hydride or methyl shift to a secondary or tertiary carbocation (more stable through hyperconjugation). Rearrangement is always thermodynamically downhill toward greater stability.",
+        "B": "AlCl₃ generates the carbocation but does not prevent rearrangement. Once the carbocation forms, it rapidly explores all accessible rearrangement pathways before attacking the ring. The Lewis acid facilitates electrophile formation but has no influence on carbocation stability or rearrangement kinetics.",
+        "C": "Carbocations (electron-deficient, positively charged carbon) do not rearrange into carbanions (electron-rich, negatively charged carbon). That would require the spontaneous addition of two electrons with no reducing agent present. Rearrangement shuffles hydrogen or alkyl groups to move the positive charge to a more substituted, more stable carbon center.",
+        "D": "Correct. In Friedel-Crafts alkylation, the carbocation formed from the alkyl halide can rearrange before attacking the ring. Example: n-propyl chloride + AlCl₃ generates a primary carbocation (CH₃CH₂CH₂⁺), which undergoes a 1,2-hydride shift to the more stable secondary carbocation ((CH₃)₂CH⁺). The product is isopropylbenzene (cumene), not n-propylbenzene. This limits the synthetic utility of Friedel-Crafts alkylation for installing unbranched chains. Friedel-Crafts acylation avoids this problem because acylium ions (RC≡O⁺) are resonance-stabilized and do not rearrange."
+      },
+      "topic": "Carbocation Rearrangement / Alkylation",
+      "difficulty": "Hard",
+      "usePrevPassage": true
+    }
+  ],
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  }
+}

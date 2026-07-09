@@ -1,0 +1,343 @@
+{
+  "batch": "B124",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Membrane Transport: Channels, Carriers & Pumps",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_transport_001",
+      "passage": "Investigators study ion movement across a cell membrane that separates two compartments. Compartment A (extracellular) contains 145 mM Na⁺, 5 mM K⁺, and 110 mM Cl⁻. Compartment B (intracellular) contains 12 mM Na⁺, 140 mM K⁺, and 10 mM Cl⁻. The resting membrane potential is −70 mV (inside negative). They measure the effects of specific inhibitors: ouabain (blocks Na⁺/K⁺-ATPase), tetrodotoxin (TTX, blocks voltage-gated Na⁺ channels), and tetraethylammonium (TEA, blocks voltage-gated K⁺ channels). They also study glucose uptake via SGLT1 (Na⁺-glucose symporter) and GLUT2 (facilitated diffusion transporter).",
+      "stem": "The Na⁺/K⁺-ATPase maintains the resting ionic gradients by pumping, per cycle:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 Na⁺ out and 2 K⁺ in, using one ATP — creating a net export of positive charge that contributes to the negative resting potential"
+        },
+        {
+          "label": "B",
+          "text": "2 Na⁺ out and 3 K⁺ in"
+        },
+        {
+          "label": "C",
+          "text": "3 Na⁺ in and 2 K⁺ out"
+        },
+        {
+          "label": "D",
+          "text": "equal numbers of Na⁺ and K⁺ in the same direction"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Na⁺/K⁺-ATPase (P-type ATPase) pumps 3 Na⁺ out and 2 K⁺ in per ATP hydrolyzed. This 3:2 stoichiometry creates a net outward current of one positive charge per cycle, making the pump electrogenic and contributing approximately −3 to −5 mV to the resting potential. More importantly, the pump maintains the concentration gradients that drive passive ion fluxes through channels and carriers. Without it, gradients would dissipate and the resting potential would collapse.",
+        "B": "The stoichiometry is 3 Na⁺ out and 2 K⁺ in, not the reverse. The pump exports more positive charges than it imports, which is why it is electrogenic (net outward positive current).",
+        "C": "Na⁺ is pumped out, not in. The pump works against the concentration gradients for both ions — Na⁺ is moved from low intracellular concentration to high extracellular, and K⁺ from low extracellular to high intracellular. This requires ATP.",
+        "D": "The pump moves Na⁺ and K⁺ in opposite directions (Na⁺ out, K⁺ in) with unequal stoichiometry (3:2). If equal numbers moved in the same direction, no gradient would be maintained."
+      },
+      "topic": "Na⁺/K⁺-ATPase / Electrogenic Pump",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_transport_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Adding ouabain to the preparation would most directly:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "block voltage-gated Na⁺ channels"
+        },
+        {
+          "label": "B",
+          "text": "open all K⁺ leak channels simultaneously"
+        },
+        {
+          "label": "C",
+          "text": "inhibit the Na⁺/K⁺-ATPase, causing gradual dissipation of Na⁺ and K⁺ gradients as passive fluxes are no longer offset by active pumping"
+        },
+        {
+          "label": "D",
+          "text": "increase ATP synthesis in mitochondria"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Ouabain binds the extracellular face of the Na⁺/K⁺-ATPase, not voltage-gated Na⁺ channels. TTX (tetrodotoxin) is the voltage-gated Na⁺ channel blocker described in the passage.",
+        "B": "Ouabain does not act on K⁺ leak channels. It specifically inhibits the Na⁺/K⁺-ATPase. K⁺ leak channels remain open and functional, but without the pump replenishing K⁺ inside and removing Na⁺, the gradients gradually run down.",
+        "C": "Correct. Ouabain is a cardiac glycoside that binds the extracellular surface of the Na⁺/K⁺-ATPase α-subunit, blocking the pump cycle. Without active pumping, Na⁺ leaks in and K⁺ leaks out through passive channels, gradually equalizing concentrations across the membrane. The resting potential depolarizes as gradients collapse. Clinically, cardiac glycosides (digoxin) exploit this: reduced Na⁺ gradient slows the Na⁺/Ca²⁺ exchanger, raising intracellular Ca²⁺ and increasing cardiac contractility.",
+        "D": "Ouabain consumes no ATP directly — it blocks the ATPase that hydrolyzes ATP. Inhibiting the pump would actually reduce ATP consumption by the pump, but the downstream consequences (gradient loss, depolarization) are what matter physiologically."
+      },
+      "topic": "Ouabain / Pump Inhibition",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_transport_003",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The SGLT1 Na⁺-glucose symporter is classified as secondary active transport because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it directly hydrolyzes ATP to move glucose"
+        },
+        {
+          "label": "B",
+          "text": "it moves glucose by passive diffusion without any energy input"
+        },
+        {
+          "label": "C",
+          "text": "it moves glucose against its concentration gradient by coupling to the Na⁺ electrochemical gradient — the energy stored in the Na⁺ gradient (maintained by the Na⁺/K⁺-ATPase) drives uphill glucose transport"
+        },
+        {
+          "label": "D",
+          "text": "it requires GTP hydrolysis at the transporter itself"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "SGLT1 does not hydrolyze ATP directly. It is not a primary active transporter (like the Na⁺/K⁺-ATPase). The distinction between primary and secondary active transport is whether the transporter itself uses ATP (primary) or harnesses an ion gradient created by a primary pump (secondary).",
+        "B": "SGLT1 moves glucose against its concentration gradient (uphill), which cannot occur by passive diffusion. Passive facilitated diffusion (GLUT2) moves glucose down its gradient without energy input. SGLT1 requires the Na⁺ gradient as an energy source.",
+        "C": "Correct. Secondary active transport couples the movement of one solute against its gradient to the movement of another solute down its gradient. SGLT1 co-transports Na⁺ (down its electrochemical gradient) and glucose (against its concentration gradient) in the same direction (symport). The Na⁺ gradient is maintained by the Na⁺/K⁺-ATPase, so glucose transport is ultimately ATP-dependent but indirectly. This mechanism concentrates glucose in intestinal epithelial cells for absorption.",
+        "D": "GTP is not used by SGLT1. The energy comes from the transmembrane Na⁺ electrochemical gradient, not from nucleotide hydrolysis at the transporter. GTP is used in signal transduction (G proteins) and translation, not in SGLT1-mediated transport."
+      },
+      "topic": "Secondary Active Transport / SGLT1 Symport",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_transport_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "GLUT2 differs from SGLT1 in that GLUT2:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "requires ATP hydrolysis for each glucose molecule transported"
+        },
+        {
+          "label": "B",
+          "text": "co-transports glucose with Na⁺ against the glucose gradient"
+        },
+        {
+          "label": "C",
+          "text": "is found only in prokaryotic cells"
+        },
+        {
+          "label": "D",
+          "text": "mediates facilitated diffusion — it transports glucose down its concentration gradient without energy input, and its transport rate saturates at high glucose concentrations following Michaelis-Menten-like kinetics"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "GLUT2 does not use ATP. It is a passive facilitated diffusion transporter — glucose moves down its concentration gradient through the GLUT2 channel-like carrier without any energy expenditure.",
+        "B": "Na⁺-glucose co-transport against the glucose gradient describes SGLT1 (secondary active transport), not GLUT2. GLUT2 moves glucose down its gradient without coupling to Na⁺.",
+        "C": "GLUT transporters are eukaryotic facilitated diffusion glucose transporters. GLUT1-4 are found in various human tissues: GLUT1 (red blood cells, brain), GLUT2 (liver, pancreatic β-cells, intestinal basolateral membrane), GLUT3 (neurons), GLUT4 (muscle, adipose — insulin-responsive).",
+        "D": "Correct. GLUT2 is a uniporter that moves glucose by facilitated diffusion — no energy required, no ion coupling. It has a high Km (low affinity, high capacity), appropriate for its role in the liver and on the basolateral side of intestinal epithelial cells, where glucose concentration is already high (concentrated by SGLT1 on the apical side). Transport rate increases with glucose concentration but saturates at Vmax, reflecting a finite number of transporter molecules — classic carrier-mediated kinetics."
+      },
+      "topic": "GLUT2 / Facilitated Diffusion",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_transport_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "At the resting membrane potential of −70 mV, K⁺ is close to its equilibrium potential. If all K⁺ channels were suddenly blocked (TEA), the membrane potential would:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "depolarize — without K⁺ efflux, the remaining ion conductances (primarily the small resting Na⁺ leak) would shift the membrane potential toward the Na⁺ equilibrium potential, which is positive"
+        },
+        {
+          "label": "B",
+          "text": "become more negative (hyperpolarize) because K⁺ would accumulate inside"
+        },
+        {
+          "label": "C",
+          "text": "remain exactly at −70 mV because K⁺ has no effect on resting potential"
+        },
+        {
+          "label": "D",
+          "text": "immediately reach +60 mV (the Na⁺ equilibrium potential)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The resting potential (~−70 mV) is set primarily by K⁺ leak channels (K⁺ conductance dominates at rest). Blocking them with TEA removes the dominant hyperpolarizing conductance. The remaining Na⁺ leak conductance (through non-gated Na⁺ channels) drives the membrane toward the Na⁺ equilibrium potential (~+60 mV). The membrane depolarizes, though it would not reach +60 mV because other conductances (Cl⁻, residual K⁺) still contribute. This demonstrates that resting potential depends on the relative permeabilities to all ions (Goldman equation).",
+        "B": "Blocking K⁺ channels would reduce K⁺ efflux, but the effect on membrane potential is depolarization (less negative), not hyperpolarization. K⁺ efflux through leak channels is what keeps the membrane potential negative; removing it allows depolarizing Na⁺ influx to dominate.",
+        "C": "K⁺ conductance is the primary determinant of resting potential. Blocking it has a large effect — the Goldman equation shows that reducing P_K shifts the potential away from E_K and toward E_Na.",
+        "D": "The potential would move toward E_Na but would not reach +60 mV because Cl⁻ and other conductances remain. Only if Na⁺ were the sole remaining conductance would the potential reach E_Na."
+      },
+      "topic": "K⁺ Channels / Resting Potential / Goldman Equation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_transport_006",
+      "passage": "Researchers study water and solute movement in kidney nephrons. They perfuse isolated proximal tubule segments with solutions of varying osmolarity and measure fluid reabsorption rates. The proximal tubule reabsorbs approximately 65% of filtered water and solutes via both transcellular and paracellular pathways. Aquaporin-1 (AQP1) water channels are constitutively expressed on both apical and basolateral membranes. The investigators also examine the loop of Henle, where the descending limb is permeable to water but not NaCl, and the thick ascending limb actively transports NaCl (via NKCC2, the Na⁺-K⁺-2Cl⁻ cotransporter) but is impermeable to water, establishing the medullary osmotic gradient.",
+      "stem": "Aquaporin channels increase membrane water permeability by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "actively pumping water against its osmotic gradient using ATP"
+        },
+        {
+          "label": "B",
+          "text": "providing a selective hydrophilic pore that allows osmotic water flow without transporting ions — water moves passively down its osmotic gradient through the channel"
+        },
+        {
+          "label": "C",
+          "text": "synthesizing new water molecules inside the cell"
+        },
+        {
+          "label": "D",
+          "text": "converting water into ions that cross the lipid bilayer"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Aquaporins do not use ATP. Water moves passively through aquaporins down its osmotic gradient (from low to high solute concentration, equivalently from high to low water concentration). No active transport of water has been identified in mammalian cells.",
+        "B": "Correct. Aquaporins are tetrameric integral membrane proteins, each subunit forming an independent water-selective pore. Water passes in single file through a narrow hydrophilic channel. The selectivity filter excludes ions (including H⁺/H₃O⁺) through a combination of size restriction and electrostatic barriers. AQP1 in the proximal tubule is constitutively active; AQP2 in the collecting duct is regulated by vasopressin (ADH), which triggers AQP2 insertion into the apical membrane via exocytosis from intracellular vesicles.",
+        "C": "Aquaporins do not synthesize water. They are channels — passive pores that increase the rate of transmembrane water movement that would occur slowly through the lipid bilayer alone.",
+        "D": "Aquaporins transport intact water molecules, not ions. The channel has a narrow selectivity filter (the ar/R constriction) that allows single-file water passage while excluding protons (H₃O⁺) and other ions through electrostatic repulsion and size exclusion."
+      },
+      "topic": "Aquaporins / Osmotic Water Transport",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_transport_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The thick ascending limb of the loop of Henle is called the 'diluting segment' because it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reabsorbs water without solute, concentrating the tubular fluid"
+        },
+        {
+          "label": "B",
+          "text": "secretes additional NaCl into the tubular fluid"
+        },
+        {
+          "label": "C",
+          "text": "actively reabsorbs NaCl (via NKCC2) while remaining impermeable to water — removing solute without water makes the tubular fluid progressively more dilute and the medullary interstitium more concentrated"
+        },
+        {
+          "label": "D",
+          "text": "destroys aquaporin channels on its surface"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Reabsorbing water without solute would concentrate the tubular fluid, the opposite of dilution. This describes the descending limb, which is permeable to water but not NaCl.",
+        "B": "The thick ascending limb reabsorbs NaCl from the tubular fluid; it does not secrete NaCl into it. Active NaCl reabsorption via NKCC2 is the key function that creates the corticomedullary osmotic gradient.",
+        "C": "Correct. NKCC2 (Na⁺-K⁺-2Cl⁻ cotransporter, secondary active transport driven by the Na⁺ gradient) on the apical membrane actively reabsorbs NaCl. Because the thick ascending limb lacks aquaporins and is water-impermeable, solute leaves but water cannot follow. Result: tubular fluid becomes hypotonic (dilute), and the interstitium becomes hypertonic (concentrated). This separation of solute and water reabsorption is essential for the countercurrent multiplication that creates the medullary gradient. Loop diuretics (furosemide) block NKCC2, disrupting this gradient.",
+        "D": "The thick ascending limb does not express aquaporins (it is constitutively water-impermeable). There is no aquaporin to destroy — the absence of water channels is an intrinsic property of this segment."
+      },
+      "topic": "Thick Ascending Limb / NKCC2 / Diluting Segment",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_transport_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The descending limb of the loop of Henle concentrates tubular fluid because it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "actively pumps NaCl into the tubular fluid"
+        },
+        {
+          "label": "B",
+          "text": "is permeable to water (via AQP1) but relatively impermeable to NaCl — water moves osmotically into the hypertonic medullary interstitium, concentrating the remaining tubular solutes"
+        },
+        {
+          "label": "C",
+          "text": "secretes urea into the lumen from the blood"
+        },
+        {
+          "label": "D",
+          "text": "has the highest metabolic rate of any nephron segment"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The descending limb does not actively transport NaCl. It lacks the NKCC2 transporter found in the thick ascending limb. Its primary role is passive water reabsorption driven by the medullary osmotic gradient.",
+        "B": "Correct. The descending limb expresses AQP1 and is highly permeable to water but relatively impermeable to NaCl. As the tubule descends into the increasingly hypertonic medulla (gradient established by the thick ascending limb), water moves out osmotically, concentrating the tubular fluid. At the hairpin turn, tubular fluid osmolarity can reach 1200 mOsm/kg (equal to the deepest medullary interstitium). This countercurrent arrangement between the descending (water-permeable) and ascending (solute-permeable) limbs is essential for urine concentration.",
+        "C": "While urea recycling does contribute to the medullary gradient (urea transporters in the inner medullary collecting duct), the descending limb's primary mechanism is passive water reabsorption, not urea secretion.",
+        "D": "The descending limb has a relatively low metabolic rate because its transport is passive (osmotic water movement). The thick ascending limb has a high metabolic rate due to active NaCl transport (Na⁺/K⁺-ATPase + NKCC2)."
+      },
+      "topic": "Descending Limb / Countercurrent / Water Reabsorption",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_transport_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Vasopressin (ADH) increases water reabsorption in the collecting duct by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "inserting AQP2 water channels into the apical membrane via V2-receptor-mediated cAMP signaling — increasing water permeability allows osmotic water reabsorption into the hypertonic medullary interstitium"
+        },
+        {
+          "label": "B",
+          "text": "blocking all sodium reabsorption in the proximal tubule"
+        },
+        {
+          "label": "C",
+          "text": "directly increasing GFR at the glomerulus"
+        },
+        {
+          "label": "D",
+          "text": "destroying the medullary osmotic gradient"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. ADH (vasopressin) binds V2 receptors on the basolateral membrane of collecting duct principal cells → Gs → adenylyl cyclase → cAMP → PKA → phosphorylation of AQP2 → exocytic insertion of AQP2-containing vesicles into the apical membrane. More AQP2 channels = greater water permeability = more water reabsorbed from the collecting duct lumen into the hypertonic medullary interstitium → concentrated urine. Without ADH (diabetes insipidus), the collecting duct is relatively water-impermeable and dilute urine is excreted (up to 20 L/day in severe cases).",
+        "B": "ADH acts on the collecting duct, not the proximal tubule. Proximal tubule reabsorption is largely constitutive and ADH-independent. ADH does not block sodium reabsorption anywhere in the nephron.",
+        "C": "ADH does not directly increase GFR. GFR is determined by the balance of hydrostatic and oncotic pressures at the glomerulus, regulated by afferent/efferent arteriolar tone (autoregulation, RAAS, sympathetic input). ADH increases water reabsorption downstream of filtration.",
+        "D": "ADH relies on the existing medullary gradient to drive water reabsorption. Destroying the gradient would eliminate the driving force for collecting duct water reabsorption. The gradient is maintained by the thick ascending limb (NKCC2) and urea recycling."
+      },
+      "topic": "ADH / AQP2 / Collecting Duct",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_transport_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Furosemide (a loop diuretic) blocks NKCC2 in the thick ascending limb. This produces diuresis because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it increases the medullary osmotic gradient"
+        },
+        {
+          "label": "B",
+          "text": "it directly opens aquaporin channels in the collecting duct"
+        },
+        {
+          "label": "C",
+          "text": "it stimulates ADH secretion to maximum levels"
+        },
+        {
+          "label": "D",
+          "text": "blocking NaCl reabsorption dissipates the medullary gradient, reducing the osmotic driving force for water reabsorption in the collecting duct — even with ADH present, water cannot be reabsorbed without the gradient"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Furosemide reduces the medullary gradient by blocking NaCl reabsorption in the thick ascending limb. Without NKCC2-mediated solute deposition into the interstitium, the medullary osmolarity cannot be maintained. Less gradient = less water reabsorption = increased urine output.",
+        "B": "Furosemide does not affect aquaporin channels. It specifically inhibits NKCC2 (Na⁺-K⁺-2Cl⁻ cotransporter) on the apical membrane of the thick ascending limb. Aquaporin expression is regulated by ADH, not by loop diuretics.",
+        "C": "Furosemide does not stimulate ADH secretion. In fact, the volume depletion caused by diuresis may trigger ADH release as a compensatory response, but this is a consequence, not the mechanism of action. Even if ADH levels are high, the drug's disruption of the medullary gradient prevents effective water reabsorption.",
+        "D": "Correct. NKCC2 blockade prevents NaCl deposition into the medullary interstitium, collapsing the corticomedullary osmotic gradient. Without this gradient, the collecting duct has no osmotic driving force for water reabsorption — AQP2 channels may be present (if ADH is active), but water will not move through them without a concentration difference across the membrane. The result is excretion of large volumes of dilute urine. This also explains why loop diuretics are more potent than thiazides (which act on a different segment)."
+      },
+      "topic": "Furosemide / Loop Diuretics / Gradient Disruption",
+      "difficulty": "Hard"
+    }
+  ]
+}

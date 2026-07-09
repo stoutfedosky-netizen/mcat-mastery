@@ -1,0 +1,351 @@
+{
+  "batch": "B155",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Integrated Fed-Fasting Metabolism",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_metint2_001",
+      "passage": "A metabolic physiology lab studies volunteers after an overnight fast and again two hours after a carbohydrate-rich meal. Blood samples are collected from peripheral blood and hepatic venous blood. Investigators measure insulin, glucagon, glucose, free fatty acids, and respiratory exchange ratio (RER = CO₂ produced/O₂ consumed).\n\nState | Insulin | Glucagon | Free fatty acids | Hepatic glycogen flux | RER\nOvernight fast | low | high | high | breakdown | 0.78\nFed, 2 h | high | low | low | synthesis | 0.98\n\nThe liver is modeled as a metabolic buffer: during fasting it releases glucose through glycogenolysis and gluconeogenesis, while after feeding it stores glucose as glycogen and converts excess carbon into fatty acids. Skeletal muscle increases GLUT4-mediated glucose uptake in response to insulin. Adipose tissue suppresses lipolysis when insulin is high.",
+      "stem": "Which hormonal pattern best explains the overnight fasting state?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "High insulin and low glucagon"
+        },
+        {
+          "label": "B",
+          "text": "High insulin and high glucagon"
+        },
+        {
+          "label": "C",
+          "text": "Low insulin and high glucagon"
+        },
+        {
+          "label": "D",
+          "text": "No pancreatic hormone secretion"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "High insulin with low glucagon is characteristic of the fed state, when glucose is abundant and storage pathways dominate. It would suppress hepatic glucose output and adipose lipolysis, which contradicts the fasting row showing glycogen breakdown and high free fatty acids.",
+        "B": "High levels of both hormones would send conflicting metabolic signals. Although some conditions can elevate multiple counterregulatory hormones, the normal overnight fast is defined by a low insulin-to-glucagon ratio, not simultaneous maximal storage and mobilization signals.",
+        "C": "Correct. During fasting, low insulin and high glucagon promote hepatic glycogenolysis, gluconeogenesis, and mobilization of stored fuels. This pattern helps maintain blood glucose for glucose-dependent tissues while allowing adipose tissue to release fatty acids for oxidation.",
+        "D": "The pancreas remains hormonally active during fasting. Alpha cells secrete glucagon and beta-cell insulin output falls rather than disappearing entirely. Metabolic adaptation depends on changing hormone ratios, not shutting off endocrine control."
+      },
+      "topic": "Fed-Fasting Hormonal Regulation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_metint2_002",
+      "passage": null,
+      "stem": "Why does RER rise toward 1.0 after the carbohydrate-rich meal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Fat oxidation predominates, producing an RER near 1.0."
+        },
+        {
+          "label": "B",
+          "text": "Carbohydrate oxidation predominates, producing an RER near 1.0."
+        },
+        {
+          "label": "C",
+          "text": "Protein synthesis stops all CO₂ production."
+        },
+        {
+          "label": "D",
+          "text": "Oxygen consumption becomes zero."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Fat oxidation produces a lower RER, roughly 0.7, because fatty acids are more reduced and require more O₂ per CO₂ produced. The fasting RER of 0.78 is more consistent with greater lipid oxidation, not the fed value near 1.0.",
+        "B": "Correct. Carbohydrate oxidation has an RER close to 1 because CO₂ production and O₂ consumption are nearly equal for glucose oxidation. The fed state supplies abundant carbohydrate and insulin promotes glucose uptake, so the measured RER shifts upward toward 0.98.",
+        "C": "Protein synthesis does not stop CO₂ production. Oxidative metabolism continues after a meal, and the RER specifically compares CO₂ produced with O₂ consumed. This choice ignores the respiratory meaning of the measured ratio.",
+        "D": "If oxygen consumption were zero, aerobic metabolism would fail and RER would not be interpreted normally. The passage describes substrate selection during ordinary physiology, not cessation of respiration."
+      },
+      "topic": "Respiratory Exchange Ratio",
+      "difficulty": "Medium",
+      "passageRef": "bb_metint2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_metint2_003",
+      "passage": null,
+      "stem": "Which tissue response most directly explains lower free fatty acids in the fed state?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Insulin-mediated suppression of adipose hormone-sensitive lipase"
+        },
+        {
+          "label": "B",
+          "text": "Increased adipose lipolysis"
+        },
+        {
+          "label": "C",
+          "text": "Glucagon-stimulated ketogenesis in adipose tissue"
+        },
+        {
+          "label": "D",
+          "text": "Loss of all triglyceride stores from adipocytes"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Insulin suppresses hormone-sensitive lipase in adipose tissue, decreasing release of free fatty acids from stored triacylglycerol. It also favors storage. This explains why the fed state, despite abundant energy, has lower circulating free fatty acids.",
+        "B": "Increased lipolysis would raise circulating free fatty acids, as occurs during fasting. The fed row shows low free fatty acids, so the adipose response must reduce triglyceride breakdown rather than accelerate it.",
+        "C": "Ketogenesis occurs primarily in liver mitochondria during prolonged fasting, not in adipose tissue after a carbohydrate-rich meal. Glucagon is low in the fed state, and adipose tissue mainly releases fatty acids rather than producing ketone bodies.",
+        "D": "Fed-state low free fatty acids do not mean adipocytes have lost all triglyceride stores. They mean stored lipid is not being mobilized rapidly. Insulin shifts adipose metabolism toward storage and away from release."
+      },
+      "topic": "Adipose Lipolysis",
+      "difficulty": "Medium",
+      "passageRef": "bb_metint2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_metint2_004",
+      "passage": null,
+      "stem": "In the fed state, insulin increases glucose uptake in skeletal muscle primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "blocking ATP synthesis in mitochondria."
+        },
+        {
+          "label": "B",
+          "text": "degrading all glycogen phosphorylase instantly."
+        },
+        {
+          "label": "C",
+          "text": "exporting glucagon from muscle cells."
+        },
+        {
+          "label": "D",
+          "text": "inserting GLUT4 transporters into the plasma membrane."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Blocking mitochondrial ATP synthesis would impair muscle metabolism and would not explain enhanced glucose uptake. Insulin coordinates nutrient use and storage; it does not normally shut down oxidative phosphorylation.",
+        "B": "Insulin regulates glycogen metabolism partly through phosphorylation-state changes, but it does not instantly degrade all glycogen phosphorylase. The question asks about glucose uptake, and GLUT4 translocation is the direct membrane-transport mechanism.",
+        "C": "Skeletal muscle is not an endocrine source of glucagon export. Glucagon is secreted by pancreatic alpha cells and acts strongly on liver. Muscle glucose uptake after feeding is driven mainly by insulin-responsive GLUT4.",
+        "D": "Correct. Insulin signaling promotes translocation of GLUT4-containing vesicles to the skeletal-muscle plasma membrane, increasing facilitated diffusion of glucose into cells. The glucose can then be oxidized or stored as glycogen, matching the fed-state storage pattern."
+      },
+      "topic": "Insulin and GLUT4",
+      "difficulty": "Easy",
+      "passageRef": "bb_metint2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_metint2_005",
+      "passage": null,
+      "stem": "Which hepatic pathway is most active in maintaining blood glucose during the overnight fast?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Glycogenolysis and gluconeogenesis"
+        },
+        {
+          "label": "B",
+          "text": "Glycogen synthesis only"
+        },
+        {
+          "label": "C",
+          "text": "Fatty acid synthesis as the only glucose source"
+        },
+        {
+          "label": "D",
+          "text": "Protein translation into glucose"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Overnight fasting initially relies heavily on hepatic glycogenolysis, with gluconeogenesis contributing as fasting continues. Glucagon and low insulin favor both processes, allowing the liver to buffer blood glucose between meals.",
+        "B": "Glycogen synthesis stores glucose and is favored after feeding. During fasting, the liver breaks down glycogen to release glucose. Choosing synthesis reverses the direction of hepatic glycogen flux shown in the table.",
+        "C": "Fatty acid synthesis consumes excess carbon in the fed state; it is not a glucose-producing pathway. Animals cannot convert even-chain fatty acids into net glucose because acetyl-CoA carbons are lost as CO₂ in the TCA cycle.",
+        "D": "Protein translation builds polypeptides from amino acids; it does not convert protein into glucose. Amino acids can feed gluconeogenesis after proteolysis and deamination, but translation is the opposite of that catabolic process."
+      },
+      "topic": "Hepatic Glucose Output",
+      "difficulty": "Medium",
+      "passageRef": "bb_metint2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_metint2_006",
+      "passage": "A patient with poorly controlled type 1 diabetes arrives at an emergency department with nausea, deep rapid breathing, plasma glucose of 420 mg/dL, low serum bicarbonate, and elevated β-hydroxybutyrate. Insulin is undetectable, while glucagon and epinephrine are elevated. Urine contains glucose and ketones.\n\nMeasurement | Patient | Reference\nGlucose | 420 mg/dL | 70–110 mg/dL\nBicarbonate | 12 mM | 22–28 mM\nβ-hydroxybutyrate | high | low\nPlasma pH | 7.18 | 7.35–7.45\n\nThe attending explains that absent insulin makes the body behave metabolically as if it is starving despite severe hyperglycemia. Adipose lipolysis supplies fatty acids to the liver, where β-oxidation produces acetyl-CoA. When oxaloacetate is diverted toward gluconeogenesis, excess acetyl-CoA is converted into ketone bodies.",
+      "stem": "Why can this patient produce ketone bodies despite having very high blood glucose?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "High glucose directly prevents fatty acid oxidation."
+        },
+        {
+          "label": "B",
+          "text": "Insulin absence promotes lipolysis and hepatic ketogenesis despite extracellular hyperglycemia."
+        },
+        {
+          "label": "C",
+          "text": "Ketone bodies are produced only by skeletal muscle after meals."
+        },
+        {
+          "label": "D",
+          "text": "Glucagon stores all acetyl-CoA as glycogen."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "High extracellular glucose does not directly prevent fatty acid oxidation when insulin is absent. In type 1 diabetes, cells that depend on insulin signaling cannot use glucose appropriately, and counterregulatory hormones drive lipid mobilization.",
+        "B": "Correct. Without insulin, adipose tissue releases fatty acids and the liver receives a strong fasting-like hormonal signal from glucagon and epinephrine. Hepatic β-oxidation generates acetyl-CoA, and limited oxaloacetate availability favors ketone-body production even though glucose is trapped outside insulin-dependent tissues.",
+        "C": "Ketone bodies are produced primarily in liver mitochondria during fasting or uncontrolled diabetes. Skeletal muscle can use ketone bodies as fuel, but it is not the major site of ketogenesis after meals.",
+        "D": "Glucagon promotes glycogen breakdown and gluconeogenesis, not storage of acetyl-CoA as glycogen. Acetyl-CoA cannot be converted into net glucose through glycogen synthesis. The passage points instead to ketone-body formation."
+      },
+      "topic": "Diabetic Ketoacidosis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_metint2_007",
+      "passage": null,
+      "stem": "The patient's deep rapid breathing is best interpreted as compensation for:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "respiratory alkalosis caused by excess oxygen."
+        },
+        {
+          "label": "B",
+          "text": "metabolic alkalosis from bicarbonate excess."
+        },
+        {
+          "label": "C",
+          "text": "metabolic acidosis from ketone-body accumulation."
+        },
+        {
+          "label": "D",
+          "text": "normal pH with no acid-base disturbance."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Excess oxygen does not cause the low bicarbonate and pH shown in the table. Respiratory alkalosis would typically have primary low PCO₂ with elevated pH. This patient is acidemic, not alkalemic.",
+        "B": "The bicarbonate is low, not high, and pH is 7.18. Metabolic alkalosis would produce elevated pH and often increased bicarbonate. This option reverses both the laboratory pattern and the clinical compensation.",
+        "C": "Correct. Ketone bodies are acids, and their accumulation lowers bicarbonate and pH. Deep rapid breathing, often called Kussmaul respiration, reduces CO₂ through hyperventilation, partially compensating for metabolic acidosis by shifting the bicarbonate buffer system.",
+        "D": "The pH is well below the normal range, so the patient has a serious acid-base disturbance. The respiratory pattern is a compensatory response, not evidence that pH is normal."
+      },
+      "topic": "Metabolic Acidosis Compensation",
+      "difficulty": "Medium",
+      "passageRef": "bb_metint2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_metint2_008",
+      "passage": null,
+      "stem": "Why does diversion of oxaloacetate toward gluconeogenesis favor ketogenesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It prevents β-oxidation from producing acetyl-CoA."
+        },
+        {
+          "label": "B",
+          "text": "It increases insulin secretion from beta cells."
+        },
+        {
+          "label": "C",
+          "text": "It converts ketone bodies directly into glycogen."
+        },
+        {
+          "label": "D",
+          "text": "It limits TCA-cycle capacity to condense acetyl-CoA with oxaloacetate."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage says β-oxidation produces acetyl-CoA. Preventing β-oxidation would reduce the substrate for ketogenesis, not favor it. The key is acetyl-CoA surplus plus limited oxaloacetate availability.",
+        "B": "The patient has type 1 diabetes with undetectable insulin, so increased beta-cell insulin secretion is not the explanation. The metabolic shift is driven by absent insulin and elevated counterregulatory hormones.",
+        "C": "Ketone bodies are not converted directly into glycogen. They are exported as water-soluble fuels and used by extrahepatic tissues after conversion back to acetyl-CoA. Glycogen synthesis requires glucose-derived substrates in the fed state.",
+        "D": "Correct. Acetyl-CoA enters the TCA cycle by condensing with oxaloacetate to form citrate. When oxaloacetate is pulled toward gluconeogenesis, acetyl-CoA accumulates relative to TCA capacity and is redirected into ketone-body synthesis in the liver."
+      },
+      "topic": "Ketogenesis Mechanism",
+      "difficulty": "Hard",
+      "passageRef": "bb_metint2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_metint2_009",
+      "passage": null,
+      "stem": "Which immediate therapy most directly addresses the hormonal cause of this metabolic state?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Insulin administration with careful fluid and electrolyte management"
+        },
+        {
+          "label": "B",
+          "text": "High-dose glucagon injection"
+        },
+        {
+          "label": "C",
+          "text": "Blocking all hepatic glucose uptake permanently"
+        },
+        {
+          "label": "D",
+          "text": "Withholding fluids to concentrate plasma glucose"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Insulin reverses the core hormonal defect: it suppresses lipolysis and ketogenesis, promotes glucose uptake where insulin-sensitive, and lowers hepatic glucose output. In practice, fluids and potassium monitoring are essential because treatment shifts water and electrolytes.",
+        "B": "Glucagon would worsen the fasting-like signal by increasing hepatic glucose output and supporting ketogenesis. It is useful for severe hypoglycemia in some contexts, not for uncontrolled hyperglycemia with ketoacidosis.",
+        "C": "Blocking hepatic glucose uptake permanently would not correct absent insulin or ketone production. The liver must remain metabolically flexible. The acute problem is inappropriate fuel mobilization and acid generation, not excessive hepatic glucose uptake.",
+        "D": "Withholding fluids would worsen dehydration from osmotic diuresis. Glucosuria pulls water into urine, so volume replacement is a major part of treatment. Concentrating plasma glucose would intensify the problem."
+      },
+      "topic": "DKA Treatment Logic",
+      "difficulty": "Medium",
+      "passageRef": "bb_metint2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_metint2_010",
+      "passage": null,
+      "stem": "Glucose in the urine is most directly caused by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "conversion of all glucose into ketone bodies in the bladder."
+        },
+        {
+          "label": "B",
+          "text": "complete absence of glucose filtration at the glomerulus."
+        },
+        {
+          "label": "C",
+          "text": "plasma glucose exceeding renal reabsorptive capacity."
+        },
+        {
+          "label": "D",
+          "text": "bicarbonate binding glucose in the urine."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Ketone bodies are produced mainly in liver mitochondria, not by conversion of glucose in the bladder. Urinary ketones reflect filtered circulating ketone bodies. This option invents an unsupported urinary metabolic pathway.",
+        "B": "Glucose is freely filtered at the glomerulus under normal conditions and then reabsorbed in the proximal tubule. The problem here is too much filtered glucose for reabsorptive transporters, not absence of filtration.",
+        "C": "Correct. Very high plasma glucose increases the filtered glucose load beyond the transport maximum of proximal-tubule reabsorption, so glucose remains in the tubular fluid. The resulting osmotic diuresis contributes to dehydration in diabetic ketoacidosis.",
+        "D": "Bicarbonate does not bind glucose to cause glucosuria. Low bicarbonate reflects buffering of ketoacids. Glucosuria follows renal transport saturation, a separate mechanism from the acid-base disturbance."
+      },
+      "topic": "Renal Glucose Threshold",
+      "difficulty": "Medium",
+      "passageRef": "bb_metint2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

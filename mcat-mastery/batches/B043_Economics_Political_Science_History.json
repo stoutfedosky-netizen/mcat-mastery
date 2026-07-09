@@ -1,0 +1,343 @@
+{
+  "batch": "B043",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Economics, Political Science & History",
+  "questionCount": 10,
+  "answerDistribution": {
+    "C": 3,
+    "A": 3,
+    "D": 2,
+    "B": 2
+  },
+  "questions": [
+    {
+      "id": "cars_econ_001",
+      "passage": "Modern political debate often treats the boundary between market and government as if it were a fence already marked on the ground. Yet the boundary is better understood as the result of prior political choices. A city's clean air, trustworthy courts, and navigable streets do not arrive with price tags attached; institutions decide which benefits will be sold, taxed, guaranteed, or left unprovided. Even markets themselves depend on public definitions of property, contract, and acceptable risk.\n\nThis observation does not imply that government should manufacture every good. Competitive markets can coordinate dispersed information with remarkable efficiency, and public agencies can become rigid or captive to organized interests. The point is narrower: price is not a neutral device for discovering all forms of value. A wetland may be worth more as flood protection than as real estate, yet that protective value remains nearly invisible until a storm exposes it. A neighborhood library may generate benefits\u2014literacy, informal childcare, refuge during extreme weather\u2014that no individual borrower could fully purchase.\n\nEconomists have developed methods for estimating such external benefits, but measurement should not be mistaken for creation. Assigning a dollar value to a library's social contribution may help officials compare projects; it does not mean the contribution began to exist only when analysts entered it in a spreadsheet. Nor does the difficulty of measurement license unlimited spending. Scarcity remains real, and choosing one public project may require abandoning another.\n\nThe mature political question, then, is not whether markets are good or government is good. It is which institutions make relevant values visible, which distribute costs fairly, and which remain corrigible when their decisions prove mistaken. Arguments that begin and end with \u201cpublic\u201d or \u201cprivate\u201d evade precisely the work that democratic judgment requires.",
+      "stem": "Which statement best expresses the author's central argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Government agencies should replace markets whenever social benefits are difficult to price"
+        },
+        {
+          "label": "B",
+          "text": "Economic measurement corrupts public values and should be excluded from political decisions"
+        },
+        {
+          "label": "C",
+          "text": "Institutional choices should be judged by how they reveal values, allocate costs, and permit correction rather than by a simple public-private label"
+        },
+        {
+          "label": "D",
+          "text": "Scarcity is largely an illusion produced by market institutions"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The author explicitly states that the observation 'does not imply that government should manufacture every good.' Government replacement of markets whenever pricing is difficult is far more sweeping than the passage's argument, which calls for comparing institutional alternatives on specific criteria \u2014 not for automatic government provision.",
+        "B": "The author does not reject economic measurement. The passage treats valuation as a useful but limited tool, noting that it can help compare institutional alternatives. Excluding economic measurement entirely would discard information the author considers genuinely valuable when used with appropriate caution.",
+        "C": "Correct. The passage argues that neither markets nor government is inherently superior. Instead, institutional arrangements should be evaluated on substantive criteria: how well they reveal the values people actually hold, how they distribute costs and benefits (including to those poorly represented by market prices), and whether they allow errors to be identified and corrected. The wetland example illustrates a case where market price fails to capture ecological value; the acknowledgment of government rigidity illustrates the other side. The central argument is methodological \u2014 about how to choose between institutions, not which one always wins.",
+        "D": "The passage explicitly acknowledges scarcity as real \u2014 institutional choices involve tradeoffs precisely because resources are limited. Claiming scarcity is an illusion contradicts the author's insistence that institutional arrangements must be compared on how they allocate costs and distribute limited benefits."
+      },
+      "topic": "Main Idea / Institutional Evaluation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_econ_002",
+      "passage": null,
+      "stem": "The wetland example primarily serves to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "show how an important benefit may remain poorly represented by market price until an event reveals it"
+        },
+        {
+          "label": "B",
+          "text": "prove that all environmental resources should be publicly owned"
+        },
+        {
+          "label": "C",
+          "text": "demonstrate that real-estate prices never convey useful information"
+        },
+        {
+          "label": "D",
+          "text": "argue that storms create environmental value rather than reveal it"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The wetland example illustrates a specific failure mode of market pricing: ecological services (flood control, water filtration, biodiversity) that benefit the public broadly are not captured by the market price of land because no individual buyer pays for diffuse environmental benefits. This is a textbook externality \u2014 a cost or benefit that falls on parties not involved in the transaction. The author uses this example to support the broader claim that price alone cannot determine institutional choice, because some important values are systematically invisible to market mechanisms until political institutions intervene to represent them.",
+        "B": "The wetland example does not argue for public ownership of all environmental resources. It illustrates that market price can miss ecological value \u2014 a much narrower point. The author uses the example to show the limits of pricing, not to propose a specific ownership model.",
+        "C": "The author does not claim real-estate prices never convey useful information. The wetland example shows that they can miss certain ecological values, but the passage also acknowledges that markets 'coordinate dispersed information with remarkable efficiency.' The argument is about specific blind spots, not total uselessness.",
+        "D": "The passage describes a storm that reveals the protective value the wetland already provided \u2014 flood control, water filtration \u2014 by demonstrating what happens without it. The storm makes an existing value visible; it does not create that value. The ecological services existed before the storm event."
+      },
+      "topic": "Rhetorical Function / Externality Example",
+      "difficulty": "Medium",
+      "passageRef": "cars_econ_001"
+    },
+    {
+      "id": "cars_econ_003",
+      "passage": null,
+      "stem": "The author's attitude toward economic valuation is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "unreservedly enthusiastic"
+        },
+        {
+          "label": "B",
+          "text": "dismissive because moral goods cannot be compared"
+        },
+        {
+          "label": "C",
+          "text": "indifferent to its policy uses"
+        },
+        {
+          "label": "D",
+          "text": "cautiously receptive while alert to its conceptual limits"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Unqualified enthusiasm would ignore the passage's explicit warnings about the limits of economic valuation \u2014 particularly the observation that price can fail to represent diffuse ecological benefits and that markets depend on prior political choices about property and risk. The author engages with valuation tools but with clearly stated reservations.",
+        "B": "The author does not reject economic valuation. The passage acknowledges that 'competitive markets can coordinate dispersed information with remarkable efficiency.' Dismissal would contradict the balanced engagement the passage maintains throughout.",
+        "C": "Complete indifference would produce no evaluative language at all. The passage contains clear evaluative positions \u2014 praising market efficiency while critiquing its blind spots. The author cares about the topic and takes a definite stance, just a nuanced one.",
+        "D": "Correct. The author treats economic valuation as a useful tool with genuine strengths (information coordination, efficiency) while maintaining alertness to its conceptual limits (failure to capture externalities, dependence on prior institutional choices, inability to represent diffuse benefits). 'Cautiously receptive while alert to its conceptual limits' captures this dual stance \u2014 neither endorsement nor rejection, but qualified engagement. This is the most common author attitude on the MCAT: a position that acknowledges merit while identifying specific limitations."
+      },
+      "topic": "Author Attitude / Qualified Approval",
+      "difficulty": "Medium",
+      "passageRef": "cars_econ_001"
+    },
+    {
+      "id": "cars_econ_004",
+      "passage": null,
+      "stem": "Which claim is most strongly implied by the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A service without a market price necessarily has unlimited value"
+        },
+        {
+          "label": "B",
+          "text": "Political neutrality cannot be achieved merely by deferring to existing market prices"
+        },
+        {
+          "label": "C",
+          "text": "Public agencies are more easily corrected than private firms"
+        },
+        {
+          "label": "D",
+          "text": "Democratic judgment eliminates tradeoffs among competing goods"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage explicitly states that scarcity remains real and that institutional choices involve genuine tradeoffs. A service without a market price may still be scarce and valuable \u2014 the absence of a price tag does not imply unlimited value. It implies the pricing mechanism fails to capture the value, which is a different point entirely.",
+        "B": "Correct. The passage argues that 'the boundary between market and government' is 'the result of prior political choices' and that 'institutions decide which benefits will be sold, taxed, guaranteed, or left unprovided.' If markets themselves are constituted by political choices (property law, contract enforcement, risk allocation), then deferring to existing market prices cannot be politically neutral \u2014 those prices already reflect prior institutional decisions about what counts as property and who bears which risks. This implication directly challenges the common political claim that 'letting the market decide' is a neutral, non-political stance.",
+        "C": "The passage acknowledges that public agencies 'can become rigid or captive to organized interests,' but this is presented as one consideration in institutional comparison, not as a primary implication of the argument. The passage's central thrust is about the non-neutrality of market pricing, not about government capture.",
+        "D": "The author argues that democratic judgment is needed because tradeoffs among competing goods persist \u2014 resources are limited, values conflict, and choices must be made. Democratic judgment is the author's proposed mechanism for navigating tradeoffs, not a way to eliminate them."
+      },
+      "topic": "Inference / Market Neutrality",
+      "difficulty": "Hard",
+      "passageRef": "cars_econ_001"
+    },
+    {
+      "id": "cars_econ_005",
+      "passage": null,
+      "stem": "Which policy approach would the author most likely favor?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Selecting whichever option is described as private because markets always aggregate all relevant value"
+        },
+        {
+          "label": "B",
+          "text": "Funding every project that generates any positive externality"
+        },
+        {
+          "label": "C",
+          "text": "Comparing institutional alternatives for information, distribution, and revisability while acknowledging budget constraints"
+        },
+        {
+          "label": "D",
+          "text": "Rejecting numerical analysis in favor of intuition"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage's central argument is that markets do not always aggregate all relevant value \u2014 the wetland example specifically demonstrates how significant ecological benefits can be invisible to market price. Choosing the private option on the assumption that markets capture everything contradicts the passage's core claim.",
+        "B": "The author acknowledges that scarcity is real and that institutional choices involve tradeoffs. Funding every project with any positive externality ignores resource constraints and would be impractical. The passage calls for comparing alternatives and weighing costs, not for unlimited spending on anything with an external benefit.",
+        "C": "Correct. The passage's methodology is comparative institutional analysis: evaluating alternative arrangements (market, government, hybrid) on how well they reveal values, allocate costs, include affected parties, and allow error correction. The author would favor a policy approach that explicitly compares institutional alternatives on these substantive criteria rather than defaulting to either market or government. This matches the passage's rejection of both uncritical market deference and uncritical government expansion.",
+        "D": "The author treats numerical analysis (economic valuation) as a useful tool when applied with awareness of its limits. The passage explicitly engages with quantitative concepts like externalities and pricing. Rejecting numerical analysis entirely in favor of intuition would discard tools the author considers genuinely informative."
+      },
+      "topic": "Application / Institutional Choice",
+      "difficulty": "Medium",
+      "passageRef": "cars_econ_001"
+    },
+    {
+      "id": "cars_hist_006",
+      "passage": "For much of the twentieth century, histories of urban reform were written from the records reformers left behind: commission reports, architectural plans, speeches, and photographs of newly opened boulevards. These sources made reform appear coherent. Congested districts were diagnosed, experts proposed remedies, and municipal leaders carried them out. The archive seemed to narrate progress in its own confident voice.\n\nRecent historians have complicated that story by examining rent ledgers, neighborhood newspapers, court petitions, and oral histories. From these materials, a different city appears. A boulevard praised for improving circulation might also have displaced merchants whose customers traveled on foot. A housing code celebrated for eliminating unsafe rooms might have raised rents beyond the reach of families it was intended to protect. Such findings have sometimes encouraged a simple reversal: yesterday's heroic reformers become today's villains, while residents become a uniformly resistant public.\n\nThat reversal is tempting but insufficient. Residents did not speak with one voice. Tenants could demand sanitation enforcement while opposing demolition; shopkeepers might resist road widening yet welcome new transit. Reformers, too, disagreed about whether expertise should discipline citizens or equip them. The historian's task is therefore not to replace an official myth with an oppositional one. It is to reconstruct conflicts whose participants occupied shifting positions.\n\nArchives make this difficult because institutions preserve some actions more readily than others. A signed ordinance survives; an abandoned plan discussed in a kitchen usually does not. But archival imbalance does not make knowledge impossible. It makes source criticism indispensable. The absence of a resident's voice cannot be filled with whatever opinion a historian finds plausible, yet neither should silence be treated as consent. Responsible history proceeds between those errors, using partial records to make arguments proportionate to the evidence while remaining alert to lives the record only faintly registers.",
+      "stem": "What is the main purpose of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To defend official commission reports as the only reliable urban sources"
+        },
+        {
+          "label": "B",
+          "text": "To argue for historically proportionate claims that recognize conflict and archival imbalance without inventing absent voices"
+        },
+        {
+          "label": "C",
+          "text": "To show that residents consistently opposed all urban reform"
+        },
+        {
+          "label": "D",
+          "text": "To prove that oral histories are free of evidentiary limitations"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Defending the original reform narrative would ignore the passage's extensive discussion of how new sources (rent ledgers, court petitions, oral histories) reveal costs and conflicts that the original archive concealed. The author clearly agrees that the old narrative was incomplete.",
+        "B": "Correct. The passage's purpose is methodological and historiographic: it argues for historically proportionate claims that acknowledge both the achievements and the costs of reform, while recognizing the limitations of available evidence. The author criticizes the original narrative (which presented reform as unambiguous progress) and also cautions against the newer oppositional narrative (which risks simple moral reversal). The preferred approach recognizes conflict, acknowledges archival silences, and avoids the extremes of either celebratory or denunciatory history.",
+        "C": "The passage explicitly states that residents 'did not speak with one voice' \u2014 some welcomed sanitation improvements while opposing rent increases, and some supported boulevard construction while losing customers. Claiming consistent opposition to all reform contradicts the passage's emphasis on mixed, complex responses.",
+        "D": "The author values oral histories as an important corrective source but does not treat any source \u2014 including oral testimony \u2014 as free of evidentiary limitations. The passage's methodology is to compare multiple source types and recognize the biases inherent in each, not to privilege one source as infallible."
+      },
+      "topic": "Main Idea / Historiography",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_hist_007",
+      "passage": null,
+      "stem": "The examples of tenants and shopkeepers primarily demonstrate that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "municipal reforms never produced benefits"
+        },
+        {
+          "label": "B",
+          "text": "economic interests determine every political opinion"
+        },
+        {
+          "label": "C",
+          "text": "official records accurately captured neighborhood consensus"
+        },
+        {
+          "label": "D",
+          "text": "historical actors could support and oppose different components of reform simultaneously"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage acknowledges that reforms did produce genuine benefits \u2014 improved sanitation, better circulation, elimination of unsafe housing. The claim that reforms never produced benefits contradicts the author's balanced assessment, which recognizes both achievements and costs.",
+        "B": "The passage recognizes that economic interests (rent, customer access, livelihood) shaped residents' responses to reform, but it does not reduce every political opinion to economics. Residents' positions also reflected concerns about community, identity, and neighborhood character \u2014 dimensions beyond pure economic interest.",
+        "C": "The passage argues the opposite: official records made reform appear more coherent and consensual than it actually was. Commission reports, architectural plans, and official photographs presented a unified narrative that obscured the diverse, conflicting responses of actual residents.",
+        "D": "Correct. The examples show that historical actors' positions were not monolithic. Tenants could welcome sanitation improvements while opposing rent increases caused by housing codes. Shopkeepers could appreciate boulevard construction for its prestige while losing the foot-traffic customers who sustained their businesses. This complexity \u2014 supporting and opposing different components simultaneously \u2014 is the passage's key argument against both the celebratory narrative (all good) and the oppositional narrative (all bad). Real historical positions were internally contradictory."
+      },
+      "topic": "Function of Examples / Complex Positions",
+      "difficulty": "Medium",
+      "passageRef": "cars_hist_006"
+    },
+    {
+      "id": "cars_hist_008",
+      "passage": null,
+      "stem": "Which assumption underlies the author's warning that archival silence should not be treated as consent?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Failure to preserve an objection does not establish that no objection existed"
+        },
+        {
+          "label": "B",
+          "text": "All unrecorded residents opposed reform"
+        },
+        {
+          "label": "C",
+          "text": "Oral testimony is always more accurate than written evidence"
+        },
+        {
+          "label": "D",
+          "text": "Institutions deliberately destroy every dissenting record"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author warns against treating the absence of documented objections as evidence that no objections existed. This warning rests on the assumption that the preservation of evidence is not neutral \u2014 some voices were systematically more likely to be recorded than others. Reformers controlled the institutional archives (commission reports, architectural plans, official photographs). Residents who objected may have done so through channels that were not preserved: informal complaints, verbal protests, simply moving away. The assumption is that failure to preserve an objection does not establish that no objection existed \u2014 a fundamental principle of archival interpretation.",
+        "B": "The author warns against assuming that archival silence equals consent, but equally warns against inventing voices for people who left no record. Claiming that all unrecorded residents opposed reform is just as unsupported as claiming they all supported it. The author's point is that silence is ambiguous, not that it proves opposition.",
+        "C": "The author values oral histories as an important supplement to official records but does not claim they are always more accurate than written evidence. Oral testimony has its own limitations \u2014 memory distortion, retrospective reinterpretation, selection of informants. The passage advocates using multiple source types, not ranking one above all others.",
+        "D": "The author attributes archival imbalance to institutional processes \u2014 routine record-keeping practices that preserved some voices more than others \u2014 not necessarily to deliberate destruction of every dissenting record. Some dissent was simply never recorded in the first place, not actively suppressed."
+      },
+      "topic": "Underlying Assumption / Archival Silence",
+      "difficulty": "Hard",
+      "passageRef": "cars_hist_006"
+    },
+    {
+      "id": "cars_hist_009",
+      "passage": null,
+      "stem": "Which new evidence would most strengthen the author's argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A reformer's memoir repeating claims made in an official commission report"
+        },
+        {
+          "label": "B",
+          "text": "A textbook describing the boulevard as either entirely progressive or entirely oppressive"
+        },
+        {
+          "label": "C",
+          "text": "Petitions showing that the same neighborhood coalition supported sanitation rules but opposed demolition"
+        },
+        {
+          "label": "D",
+          "text": "A list of municipal ordinances with no evidence of implementation"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "A reformer's memoir repeating commission report claims would expand the traditional archive that the author already critiques as one-sided. More of the same perspective does not strengthen an argument calling for diverse, multi-perspective evidence.",
+        "B": "A textbook describing the boulevard as either entirely progressive or entirely oppressive exemplifies exactly the kind of one-sided narrative the author argues against. Either extreme would weaken, not strengthen, the call for proportionate claims that acknowledge complexity.",
+        "C": "Correct. Petitions showing the same neighborhood coalition supporting some reforms (sanitation) while opposing others (demolitions) would directly demonstrate the internal complexity the author argues existed. This evidence would show that real historical actors had mixed positions \u2014 neither uniformly supportive nor uniformly oppositional \u2014 which is the passage's central claim. Moreover, petitions from neighborhood coalitions represent exactly the kind of non-official source the author values as a corrective to the institutional archive.",
+        "D": "A list of ordinances without implementation evidence shows official intent but reveals nothing about how residents experienced reform, whether rules were enforced, or what unintended consequences followed. The author's argument depends on evidence of lived complexity, not just legislative output."
+      },
+      "topic": "Strengthening / Mixed Coalitions",
+      "difficulty": "Medium",
+      "passageRef": "cars_hist_006"
+    },
+    {
+      "id": "cars_hist_010",
+      "passage": null,
+      "stem": "The author's tone toward recent oppositional histories is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sympathetic to their corrective purpose but critical of simple moral reversal"
+        },
+        {
+          "label": "B",
+          "text": "hostile because they use nonofficial sources"
+        },
+        {
+          "label": "C",
+          "text": "uncritical because residents were always correct"
+        },
+        {
+          "label": "D",
+          "text": "nostalgic for older narratives of expert progress"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author appreciates the corrective function of oppositional histories \u2014 they reveal costs, conflicts, and displaced voices that the celebratory narrative concealed. However, the author is critical of oppositional histories that simply reverse the moral valence (reformers as villains, residents as victims) without acknowledging the complexity of historical positions. 'Sympathetic to their corrective purpose but critical of simple moral reversal' captures this dual stance: the author values the project of recovering excluded voices while insisting that historical claims remain proportionate and evidence-sensitive.",
+        "B": "The author explicitly values nonofficial sources (rent ledgers, court petitions, oral histories) as essential correctives to the traditional archive. Hostility toward oppositional histories for using these sources would contradict the author's own methodological commitments.",
+        "C": "The author does not treat residents as always correct. The passage emphasizes that residents held complex, sometimes contradictory positions \u2014 supporting some reforms while opposing others. Uncritical acceptance of resident perspectives would be just as one-sided as the original celebratory narrative.",
+        "D": "The author explicitly criticizes the older narratives of expert-led progress as incomplete and one-sided. Nostalgia for those narratives would contradict the entire first half of the passage, which describes how new sources revealed costs and conflicts the old narrative concealed."
+      },
+      "topic": "Author Tone / Qualified Sympathy",
+      "difficulty": "Medium",
+      "passageRef": "cars_hist_006"
+    }
+  ]
+}

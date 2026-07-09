@@ -1,0 +1,338 @@
+{
+  "batch": "B111",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Health & Illness Behavior",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_health_001",
+      "passage": "A health psychologist studies how psychological and social factors influence health behaviors, illness experiences, and healthcare utilization. She examines theoretical models of health behavior change — the health belief model, theory of planned behavior, transtheoretical model, and social-ecological model — as well as concepts of sick role, illness experience, patient-physician relationships, and health disparities related to socioeconomic status, race/ethnicity, and gender.",
+      "stem": "The health belief model (HBM) predicts that a person is most likely to adopt a health behavior when they perceive:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "high susceptibility to a health threat, high severity of that threat, high benefits of the preventive action, and low barriers to taking action — these four components together determine the likelihood of behavior change"
+        },
+        {
+          "label": "B",
+          "text": "that their doctor is wealthy and prestigious"
+        },
+        {
+          "label": "C",
+          "text": "that all their friends have the same illness"
+        },
+        {
+          "label": "D",
+          "text": "no personal risk whatsoever to their health"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The HBM (Rosenstock, 1966) identifies four key perceptions: (1) Perceived susceptibility — 'Am I at risk for this condition?' (2) Perceived severity — 'How serious would it be if I got it?' (3) Perceived benefits — 'Will the recommended action actually reduce my risk?' (4) Perceived barriers — 'What are the costs/difficulties of taking action?' A person gets a flu vaccine when they believe they're likely to get the flu (susceptibility), that the flu could be serious for them (severity), that the vaccine works (benefits), and that getting vaccinated is easy/affordable (low barriers). Cues to action (symptoms, media campaigns, knowing someone who got sick) can trigger the decision. Self-efficacy was added later as a modifier.",
+        "B": "The physician's wealth or prestige is not a component of the HBM. The model focuses on the patient's perceptions of the health threat and the recommended action.",
+        "C": "Whether friends have the illness might influence perceived susceptibility, but the HBM requires multiple components (susceptibility + severity + benefits + low barriers) to predict behavior change.",
+        "D": "Perceiving no personal risk (low susceptibility) would predict failure to adopt preventive behavior, not adoption."
+      },
+      "topic": "Health Belief Model / Perceived Susceptibility",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_health_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Parsons' sick role concept describes the social expectations placed on a person who is ill. The sick role includes:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the obligation to continue all normal social responsibilities while sick"
+        },
+        {
+          "label": "B",
+          "text": "the right to refuse all medical treatment without any social consequences"
+        },
+        {
+          "label": "C",
+          "text": "permanent exclusion from society with no possibility of recovery"
+        },
+        {
+          "label": "D",
+          "text": "two rights (exemption from normal social roles, not being held responsible for the illness) and two obligations (trying to get well, seeking competent medical help) — the sick role legitimizes temporary deviation from expected social functioning"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "A key feature of the sick role is exemption from normal responsibilities. Expecting full performance while sick contradicts Parsons' model.",
+        "B": "One obligation of the sick role is to seek competent medical help. Refusing all treatment would violate this obligation and could result in loss of sick role privileges (e.g., not being excused from work).",
+        "C": "The sick role is explicitly temporary — one of its obligations is to try to get well and return to normal functioning. Permanent exclusion is not part of the concept.",
+        "D": "Correct. Parsons (1951, structural functionalism): the sick role is a social role with reciprocal expectations. Rights: (1) exempted from normal social obligations (work, school, household duties); (2) not personally responsible for the illness (illness is misfortune, not moral failing). Obligations: (1) must want to get well (being sick is undesirable); (2) must seek technically competent help (see a doctor, follow treatment). Criticisms: the model assumes illness is temporary and acute (doesn't fit chronic illness), assumes equal access to healthcare, assumes the sick person is a passive recipient of medical authority, and may not apply across cultures (some cultures do blame individuals for illness)."
+      },
+      "topic": "Parsons / Sick Role / Rights and Obligations",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_health_003",
+      "passage": null,
+      "stem": "The transtheoretical (stages of change) model proposes that behavior change occurs through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a single, sudden decision with no preceding thought or preparation"
+        },
+        {
+          "label": "B",
+          "text": "five stages — precontemplation (not considering change), contemplation (considering change), preparation (planning change), action (actively changing behavior), and maintenance (sustaining change) — with the possibility of relapse at any stage"
+        },
+        {
+          "label": "C",
+          "text": "only two stages: sick and well"
+        },
+        {
+          "label": "D",
+          "text": "a purely biological process with no cognitive component"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The model explicitly rejects the notion of sudden change. Most people cycle through multiple stages over months to years before achieving sustained behavior change.",
+        "B": "Correct. Transtheoretical model (Prochaska & DiClemente, 1983): behavior change is a process, not an event. Five stages: (1) Precontemplation — no intention to change within 6 months (may be unaware or in denial); (2) Contemplation — considering change within 6 months (aware of pros and cons); (3) Preparation — planning to change within 30 days (small steps taken); (4) Action — actively modifying behavior (< 6 months of sustained change); (5) Maintenance — sustaining change ≥ 6 months. Relapse is common and expected — individuals cycle through stages, often multiple times. Interventions should be stage-matched: consciousness raising for precontemplators, decisional balance for contemplators, reinforcement for those in action.",
+        "C": "A two-stage model would be far too simplistic. The transtheoretical model's contribution is identifying the gradual, multi-stage process with distinct cognitive and behavioral characteristics at each stage.",
+        "D": "The model is inherently cognitive — it emphasizes decisional balance, self-efficacy, and conscious progression through stages. It is a psychological model, not a purely biological one."
+      },
+      "topic": "Stages of Change / Transtheoretical Model",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_health_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The social-ecological model of health recognizes that health behaviors are influenced by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "individual willpower alone, with no role for social or environmental factors"
+        },
+        {
+          "label": "B",
+          "text": "government policy only, with no role for individual choice"
+        },
+        {
+          "label": "C",
+          "text": "random chance with no systematic patterns"
+        },
+        {
+          "label": "D",
+          "text": "multiple levels of influence — individual (knowledge, attitudes), interpersonal (family, peers), organizational (workplace, school), community (built environment, social norms), and policy (laws, regulations) — effective health promotion addresses all levels simultaneously"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Individual willpower is one factor but is insufficient to explain health behaviors. Social and environmental contexts powerfully shape choices — it's harder to eat healthily in a food desert regardless of individual motivation.",
+        "B": "Government policy is one level of influence but does not operate in isolation. Individual agency, social networks, and organizational contexts all interact with policy to determine health outcomes.",
+        "C": "Health behaviors follow systematic patterns related to social determinants (SES, education, neighborhood, social networks). These patterns are well-documented and not random.",
+        "D": "Correct. The social-ecological model: health behaviors are embedded in nested environmental contexts. Five levels: (1) Individual — knowledge, beliefs, attitudes, skills, self-efficacy; (2) Interpersonal — family, friends, social networks, social support; (3) Organizational — workplaces, schools, religious institutions (policies, culture); (4) Community — neighborhood, built environment (sidewalks, parks, food deserts), local norms; (5) Policy/Society — laws (tobacco taxes, seatbelt mandates), regulations (food labeling), media campaigns. Interventions at only one level are often insufficient. Example: obesity prevention requires individual nutrition education + family meal patterns + school lunch policies + walkable neighborhoods + agricultural subsidies for healthy food."
+      },
+      "topic": "Social-Ecological Model / Multilevel Influence",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_health_005",
+      "passage": null,
+      "stem": "Health disparities are systematic differences in health outcomes between groups. Socioeconomic status (SES) affects health through:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "purely genetic differences between income groups"
+        },
+        {
+          "label": "B",
+          "text": "a single pathway: access to healthcare only"
+        },
+        {
+          "label": "C",
+          "text": "multiple pathways — lower SES is associated with reduced healthcare access, greater environmental exposures (pollution, unsafe housing), higher psychosocial stress (financial insecurity, discrimination), fewer health-promoting resources (healthy food, safe recreation), and lower health literacy, creating a cumulative disadvantage"
+        },
+        {
+          "label": "D",
+          "text": "no measurable effect — health outcomes are identical across all income levels"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "While genetic variation exists, health disparities between SES groups are primarily driven by social, environmental, and behavioral factors, not genetic differences between income groups.",
+        "B": "Healthcare access is one pathway but not the only one. The Whitehall studies showed that SES gradients persist even with universal healthcare, demonstrating that access alone doesn't eliminate disparities.",
+        "C": "Correct. SES-health gradient: health improves at every step up the socioeconomic ladder (not just above/below a poverty threshold). Mechanisms: (1) Material — access to healthcare, medications, healthy food, safe housing, clean environments; (2) Psychosocial — chronic stress from financial insecurity, job instability, discrimination → allostatic load → immune suppression, cardiovascular disease; (3) Behavioral — lower SES associated with higher smoking rates, less physical activity (fewer safe spaces), poorer nutrition (food deserts); (4) Environmental — proximity to pollution, industrial waste, lead exposure; (5) Social — weaker social networks, less social capital. The Whitehall studies demonstrated that even among British civil servants with universal healthcare, a steep SES-health gradient persisted, implicating psychosocial and behavioral pathways beyond healthcare access.",
+        "D": "Extensive epidemiological evidence documents strong, consistent SES-health gradients across nearly every health outcome (life expectancy, chronic disease, infant mortality, mental health)."
+      },
+      "topic": "Health Disparities / SES Gradient",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_health_006",
+      "passage": null,
+      "stem": "The theory of planned behavior (Ajzen) predicts behavioral intention based on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "three components: attitude toward the behavior (personal evaluation of the behavior as positive or negative), subjective norms (perceived social pressure to perform or not perform the behavior), and perceived behavioral control (belief in one's ability to perform the behavior)"
+        },
+        {
+          "label": "B",
+          "text": "unconscious drives and childhood experiences"
+        },
+        {
+          "label": "C",
+          "text": "classical conditioning alone"
+        },
+        {
+          "label": "D",
+          "text": "the person's blood type and astrological sign"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Theory of planned behavior (Ajzen, 1991): behavioral intention = f(attitude + subjective norms + perceived behavioral control). (1) Attitude — 'Do I view this behavior positively?' (e.g., 'Exercise is good for me'); (2) Subjective norms — 'Do important people in my life think I should do this?' (e.g., 'My doctor and family encourage exercise'); (3) Perceived behavioral control — 'Can I actually do this?' (e.g., 'I have time and access to a gym'). PBC is similar to Bandura's self-efficacy. Intention is the strongest predictor of behavior, but PBC also directly affects behavior (beyond intention) when actual control is limited. This model extends the Theory of Reasoned Action (which lacked the PBC component).",
+        "B": "Unconscious drives and childhood experiences are central to psychoanalytic theory (Freud), not the theory of planned behavior, which is a social-cognitive model emphasizing conscious attitudes and intentions.",
+        "C": "Classical conditioning is a behavioral learning mechanism. The theory of planned behavior is cognitive — it emphasizes conscious attitudes, social perceptions, and self-efficacy beliefs.",
+        "D": "Blood type and astrology have no scientific relationship to behavioral intention or health behavior."
+      },
+      "topic": "Theory of Planned Behavior / Ajzen",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_health_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Patient-physician communication styles can be described as paternalistic or shared decision-making. Shared decision-making involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the physician making all decisions without informing the patient"
+        },
+        {
+          "label": "B",
+          "text": "the patient making all decisions without any physician input"
+        },
+        {
+          "label": "C",
+          "text": "a collaborative process where the physician provides medical evidence and options, and the patient contributes their values, preferences, and concerns — both parties participate in reaching a mutually agreeable treatment plan"
+        },
+        {
+          "label": "D",
+          "text": "randomly selecting a treatment without considering the patient's condition"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The physician making all decisions without informing the patient describes an extreme paternalistic model, which is ethically problematic and associated with lower patient satisfaction and adherence.",
+        "B": "The patient making all decisions without physician input describes a purely autonomous/consumer model. While patient autonomy is important, patients also benefit from physician expertise in understanding complex medical information.",
+        "C": "Correct. Shared decision-making (SDM): a partnership model where physicians bring clinical expertise (diagnosis, treatment options, evidence-based outcomes) and patients bring personal expertise (values, preferences, life circumstances, risk tolerance). The process: (1) physician presents options with evidence; (2) patient expresses preferences and concerns; (3) together they reach a decision that aligns with both medical evidence and patient values. SDM improves treatment adherence, patient satisfaction, and health outcomes. It contrasts with paternalistic models (physician decides — 'doctor knows best') and informative models (physician provides information, patient decides alone). SDM is especially important for preference-sensitive decisions (cancer screening, elective surgery, end-of-life care).",
+        "D": "Random treatment selection would violate all principles of evidence-based medicine and medical ethics."
+      },
+      "topic": "Shared Decision-Making / Patient-Physician",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_health_008",
+      "passage": null,
+      "stem": "Illness experience refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "only the biological disease process as measured by laboratory tests"
+        },
+        {
+          "label": "B",
+          "text": "the subjective, personal experience of being ill — including how symptoms are perceived, interpreted, and communicated; how the illness affects daily life, identity, and relationships; and how cultural beliefs shape the meaning of illness"
+        },
+        {
+          "label": "C",
+          "text": "an objective measure identical across all patients with the same disease"
+        },
+        {
+          "label": "D",
+          "text": "a purely psychological phenomenon with no physical symptoms"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Laboratory tests measure disease (biological pathology), not illness (subjective experience). A person can feel ill without measurable disease (functional disorders), and can have disease without feeling ill (asymptomatic conditions).",
+        "B": "Correct. Disease vs illness: disease is the biomedical pathology (measurable by tests, objective). Illness is the subjective experience — how the person perceives, lives with, and makes meaning of their condition. Two patients with the same disease may have very different illness experiences based on: symptom perception (pain tolerance, body awareness), cognitive interpretation (catastrophizing vs minimizing), emotional response (anxiety, depression, acceptance), social impact (role disruption, stigma, support), cultural meaning (some cultures view illness as spiritual punishment, others as natural occurrence). Illness narratives (stories patients tell about their experience) are central to patient-centered care and medical anthropology.",
+        "C": "Illness experience is inherently subjective and varies between individuals even with identical diagnoses. Pain, suffering, functional limitation, and meaning are personal experiences shaped by individual and cultural factors.",
+        "D": "Illness experience includes physical symptoms (pain, fatigue, nausea) interpreted through psychological and cultural lenses. It is not purely psychological — it integrates physical, psychological, social, and cultural dimensions."
+      },
+      "topic": "Illness Experience / Disease vs Illness",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_health_009",
+      "passage": null,
+      "stem": "Stigma related to illness (Goffman) can be described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a positive social attribute that increases respect and social standing"
+        },
+        {
+          "label": "B",
+          "text": "a characteristic or label that marks an individual as socially deviant or discredited — leading to discrimination, social exclusion, and negative health outcomes; enacted stigma (discrimination by others), felt stigma (fear of discrimination), and self-stigma (internalized negative beliefs) all affect health-seeking behavior"
+        },
+        {
+          "label": "C",
+          "text": "a medical diagnosis with no social consequences"
+        },
+        {
+          "label": "D",
+          "text": "a concept that applies only to physical disabilities, not mental illness"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Stigma is a negative social attribute that decreases social standing, not a positive one. Stigmatized individuals face discrimination, prejudice, and social exclusion.",
+        "B": "Correct. Goffman (1963, Stigma): a stigma is an attribute that deeply discredits an individual, reducing them from a 'whole and usual person' to a 'tainted, discounted one.' Types of stigma: (1) enacted/experienced — actual discrimination, social rejection, structural barriers; (2) felt/perceived — anticipation of discrimination, leading to avoidance of healthcare, concealment of condition; (3) self-stigma/internalized — accepting negative societal views about one's condition, leading to shame, low self-esteem, and treatment avoidance. Stigmatized conditions include: mental illness, HIV/AIDS, substance use disorders, obesity, STIs. Health effects of stigma: delayed diagnosis, treatment non-adherence, social isolation, psychological distress, worse health outcomes.",
+        "C": "Stigmatized diagnoses have profound social consequences — affecting employment, relationships, housing, insurance, and social interactions. The social impact often compounds the medical burden.",
+        "D": "Stigma applies to many conditions: mental illness (schizophrenia, depression), infectious disease (HIV), behavioral conditions (substance use, obesity), physical differences (disfigurement, disability), and social identities (sexual orientation, criminal history). It is not limited to physical disabilities."
+      },
+      "topic": "Stigma / Goffman / Health-Seeking Behavior",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_health_010",
+      "passage": null,
+      "stem": "Self-efficacy (Bandura) in the context of health behavior refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the actual effectiveness of a medical treatment"
+        },
+        {
+          "label": "B",
+          "text": "a physician's confidence in their diagnostic ability"
+        },
+        {
+          "label": "C",
+          "text": "an individual's belief in their own ability to successfully perform a specific health behavior — higher self-efficacy predicts greater effort, persistence, and success in adopting and maintaining health behaviors such as exercise, medication adherence, and smoking cessation"
+        },
+        {
+          "label": "D",
+          "text": "the social pressure from family to change behavior"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Treatment effectiveness is an objective medical outcome, not a psychological belief. Self-efficacy is the patient's subjective confidence in their ability to perform the behavior.",
+        "B": "A physician's diagnostic confidence is professional self-efficacy, not the patient-focused health behavior concept Bandura described.",
+        "C": "Correct. Self-efficacy (Bandura, 1977): a person's belief in their capacity to execute behaviors necessary to achieve a specific outcome. It is behavior-specific (high self-efficacy for exercise doesn't mean high self-efficacy for smoking cessation) and situation-specific. Sources: (1) mastery experience (past success — strongest source); (2) vicarious experience (seeing similar others succeed); (3) verbal persuasion (encouragement from trusted others); (4) physiological/emotional states (interpreting arousal as anxiety vs excitement). Health applications: self-efficacy predicts exercise initiation and adherence, dietary change, medication compliance, addiction recovery, disease self-management. It is a key component of the theory of planned behavior (as perceived behavioral control) and the health belief model (added later).",
+        "D": "Social pressure from family describes subjective norms (theory of planned behavior) or social influence, not self-efficacy. Self-efficacy is an internal belief about one's own capabilities."
+      },
+      "topic": "Self-Efficacy / Health Behavior",
+      "difficulty": "Easy"
+    }
+  ]
+}

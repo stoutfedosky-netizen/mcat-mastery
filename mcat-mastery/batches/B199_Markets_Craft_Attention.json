@@ -1,0 +1,345 @@
+{
+  "batch": "B199",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Markets, Craft & Attention",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_markets_craft_attention_199_q0",
+      "passage": "The modern marketplace has become skilled at selling the appearance of craft without the discipline that craft requires. This is not a simple case of fraud, though fraud is part of the story. It is something subtler and therefore harder to resist: a system in which the signals associated with careful work have been detached from the work itself and turned into commodities in their own right.\n\nConsider two examples. A table may be advertised as handmade because a person sanded one edge after a machine produced the rest. The sanding is real—someone's hand did move across the wood—but the claim of handcraft extends far beyond the gesture that justifies it. A single manual operation, perhaps thirty seconds of contact between palm and grain, is allowed to stand for the hundreds of hours of selection, shaping, joining, and finishing that distinguish genuinely handmade furniture. The word handmade, once attached, covers the entire object like a coat of paint.\n\nSimilarly, a song may be called intimate because a microphone captured breath between polished phrases. The breath is authentic—it was, after all, a real exhalation—but its presence in the final recording is not accidental. It has been chosen, preserved, and mixed precisely because listeners associate audible breathing with unguarded emotion. What sounds like spontaneity is the product of deliberate editorial judgment about which signs of humanness to include. The intimacy is manufactured, not in the sense that it is entirely fake, but in the sense that its appearance has been engineered to produce a particular market response.\n\nIn both cases, a small, genuine element of human contact has been promoted into a sweeping claim about the character of the entire product. The sanded edge becomes proof that the table was made with care; the captured breath becomes evidence that the song came from an unmediated emotional place. The conversion is effective precisely because the underlying element is not invented. It is merely inflated beyond what it can honestly support.\n\nConsumers are not foolish for responding to these signs. In a world of remote production, where goods arrive from factories and studios that buyers will never visit, signs are often all they have. A label, a texture, a sonic quality—these are the available evidence, and it is reasonable to treat available evidence as meaningful. The problem lies not in the consumer's inference but in the producer's incentive. When markets reward signals of care as readily as they reward care itself, the rational producer learns to invest in signals.\n\nThe danger begins when signs of care become substitutes for care itself, and when makers learn to optimize the gesture that signals attention rather than the patient work of attention. A furniture maker discovers that a visibly rough surface sells better than a precisely fitted joint and redirects effort accordingly. A recording engineer finds that preserving two seconds of studio ambiance adds more commercial value than spending an afternoon perfecting a harmonic balance. In each case, the maker is responding to real market information. The tragedy is that the market information is about appearances, and the craft that suffers is the one that was never visible to begin with.\n\nThis is not an argument against technology or commerce. Tools have always extended the maker's reach, and exchange has always required some translation between the maker's values and the buyer's needs. The distinction that matters is whether the maker's decisions remain governed by standards internal to the work—by the question of whether the table is sound, whether the song serves the musical idea—or whether those standards have been replaced by the question of which surfaces will read as authentic to a hurried browser.",
+      "usePrevPassage": false,
+      "stem": "What is the author's main concern?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Markets can reward signals of care even when genuine disciplined attention is absent."
+        },
+        {
+          "label": "B",
+          "text": "Machines have made all craft impossible."
+        },
+        {
+          "label": "C",
+          "text": "Consumers are entirely to blame for poor workmanship."
+        },
+        {
+          "label": "D",
+          "text": "Handmade labels always describe fraud."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage argues that modern markets have become skilled at selling the appearance of craft through surface cues — a sanded edge, an audible breath — without requiring the disciplined attention that genuine craft demands. The author's central concern is not that technology exists or that consumers are foolish, but that the marketplace creates incentives for producers to optimize gestures of care rather than performing the patient, standard-driven work of actual attention.",
+        "B": "The passage does not claim all craft is impossible. The author distinguishes between genuine craft, which involves sustained attention governed by the work's own standards, and superficial signals that mimic craft. The existence of makers who maintain real discipline shows the author believes genuine craft persists alongside its imitation.",
+        "C": "The author explicitly defends consumers, calling them not foolish and explaining that their reliance on visible signs is reasonable given remote production. The passage places responsibility on market incentives and producer behavior, not exclusively on consumer judgment.",
+        "D": "The passage does not argue that handmade labels always constitute fraud. It raises concerns about cases where signs of care substitute for actual care, but it acknowledges that labels can be genuine indicators of production methods in some contexts."
+      },
+      "topic": "Main idea",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_markets_craft_attention_199_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why does the author say consumers are 'not foolish'?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They secretly know which products are machine-made."
+        },
+        {
+          "label": "B",
+          "text": "They prefer deception to quality."
+        },
+        {
+          "label": "C",
+          "text": "They often must rely on visible signs because production is remote from them."
+        },
+        {
+          "label": "D",
+          "text": "They can personally inspect every production process."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The passage says the opposite: consumers often cannot know how products are made because production is remote. They lack the ability to personally verify production methods, which is why they rely on available signs rather than secret insider knowledge.",
+        "B": "The passage describes consumers as reasonable agents making the best decisions available to them under informational constraints. It does not characterize them as preferring deception or suggest they choose inferior products knowingly.",
+        "C": "Correct. The author argues that consumers rely on visible signs of craft because production processes occur far from the point of sale, making direct inspection impractical. In a world of remote production, signs are often all consumers have to assess quality and authenticity. This defense of consumer behavior reframes the problem as structural — rooted in information asymmetry — rather than individual, placing the burden of responsibility on the incentives that reward surface cues.",
+        "D": "The passage explicitly states the opposite: consumers cannot personally inspect production because it is remote from them. If they could inspect every process, they would not need to rely on surface signs, and the author's concern about misleading cues would not arise."
+      },
+      "topic": "Author's purpose",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_markets_craft_attention_199_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The table and song examples both illustrate:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The superiority of furniture over music."
+        },
+        {
+          "label": "B",
+          "text": "The conversion of small cues into claims of authenticity."
+        },
+        {
+          "label": "C",
+          "text": "The impossibility of using technology in art."
+        },
+        {
+          "label": "D",
+          "text": "The legal definition of handmade goods."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The table and song examples are drawn from different domains, furniture and music, precisely to show that the phenomenon crosses categories. The passage does not compare the quality of furniture with that of music or rank one above the other.",
+        "B": "Correct. The table with one sanded edge and the song marketed for its audible breath both demonstrate how a minor production detail can be presented as evidence of genuine handmade care or intimate artistry. In each case, a small cue is elevated into a claim about the overall authenticity of the product, even though the cue represents a marginal rather than comprehensive engagement with the craft. The parallel structure shows this dynamic operates across different creative domains.",
+        "C": "The passage does not argue that technology makes art impossible. The author's concern is specifically about cases where technological processes are disguised behind craft signals, not about the use of technology itself. A maker using technology with genuine discipline would likely earn the author's respect.",
+        "D": "The passage is not concerned with legal definitions of handmade goods or regulatory standards. It addresses the cultural and economic dynamics of authenticity and craft, operating in the realm of ethics and aesthetics rather than law."
+      },
+      "topic": "Analogy",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_markets_craft_attention_199_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which maker would the author most likely admire?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A company adding fake tool marks to every product after automated production."
+        },
+        {
+          "label": "B",
+          "text": "A musician leaving errors unedited only to advertise authenticity."
+        },
+        {
+          "label": "C",
+          "text": "A seller choosing materials solely because they photograph as artisanal."
+        },
+        {
+          "label": "D",
+          "text": "A woodworker using computer-guided cuts but rejecting pieces that fail the design's internal standards."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Adding fake tool marks after automated production is exactly the kind of gesture-optimization the author critiques: manufacturing a surface cue of handcraft without the underlying disciplined attention. The author would view this as signs substituting for care.",
+        "B": "Leaving errors unedited solely to signal authenticity is another form of optimizing the gesture rather than serving the work's own standards. If the errors serve no artistic purpose and exist only to market the product as raw and real, the musician is manipulating perception rather than exercising genuine artistic judgment.",
+        "C": "Choosing materials purely for their visual appearance in marketing images prioritizes the signal of craft over the disciplined attention the author values. Artisanal-looking materials selected without regard for their functional or aesthetic contribution to the work exemplify the passage's concern.",
+        "D": "Correct. This maker uses modern technology but remains answerable to the work's internal quality standards, rejecting pieces that fail those standards regardless of how they look. The author distinguishes genuine craft not by the absence of machines but by whether the maker's judgment remains directed by the work itself rather than by market signals. A woodworker who holds finished work to design criteria demonstrates the patient work of attention the passage valorizes."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_markets_craft_attention_199_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which distinction organizes the author's argument in the first passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It presents a chronological history of manufacturing from preindustrial to digital eras."
+        },
+        {
+          "label": "B",
+          "text": "It moves from specific examples of misleading craft claims to a broader argument about signs replacing genuine care."
+        },
+        {
+          "label": "C",
+          "text": "It compares consumers and producers using identical evaluative criteria throughout."
+        },
+        {
+          "label": "D",
+          "text": "It refutes a single published opponent's argument point by point."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage does not trace a historical timeline of manufacturing technology or compare preindustrial and digital production methods. The table and song examples illustrate a present-day market dynamic in which surface cues replace substance, not a chronological progression of how goods have been made across eras.",
+        "B": "Correct. The author opens with a general observation that markets sell the appearance of craft, then provides two concrete cases: a table marketed as handmade because a person sanded one edge and a song called intimate because audible breath was captured. After defending consumers as reasonable, the passage identifies the core danger of signs substituting for disciplined attention. This movement from concrete illustrations to a general principle organizes the entire argument and prepares the reader for the second passage's refinement of the craft-versus-signal distinction.",
+        "C": "The passage treats consumers and producers asymmetrically. Consumers are defended as reasonable because remote production limits their access to how goods are made, while producers are critiqued for learning to optimize gestures that signal attention instead of performing the patient work of attention itself. The evaluative framework differs for each group.",
+        "D": "The author does not name a specific opponent or quote a published argument to dismantle. Instead, the passage describes a broad market tendency, offers a general defense of consumer reasoning, and then articulates the danger of substituting signals for substance. There is no point-by-point rebuttal structure."
+      },
+      "topic": "Structure",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_markets_craft_attention_199_q5",
+      "passage": "This does not mean that machines corrupt everything they touch. The history of craft is also a history of tools, and the boundary between hand and mechanism has never been as sharp as nostalgic accounts suggest. A lathe can extend a carpenter's precision, allowing cuts that would be impossible by hand alone. Editing software can reveal a musician's intention more clearly than an untouched recording, removing the accidental noise that obscures the deliberate shape of a composition. The issue is not whether tools are involved but whether the maker retains the governing judgment about what the work requires.\n\nThe distinction that matters, then, is not between tool and hand but between tools subordinated to judgment and judgment subordinated to marketable cues. A woodworker who uses a computer-guided router because it produces a joint too precise for any handsaw has placed the tool in service of a standard the work itself demands. A woodworker who uses a hand-chisel solely because chisel marks photograph well for an online storefront has placed judgment in service of a market signal. The two workshops may look different—one full of screens, the other hung with antique implements—but the relationship between maker and standard is sound in the first case and inverted in the second.\n\nCraft survives, in other words, when technique remains answerable to standards internal to the work. The carpenter asks whether the joint is tight. The musician asks whether the phrase serves the larger melodic structure. The potter asks whether the glaze reveals or conceals the form. These are questions that arise from the discipline itself, and answering them requires what the first passage calls the patient work of attention: a sustained, iterative process of judgment and revision in which the maker's eye keeps returning to the object and asking whether it meets the criteria the work has set for itself. Patience, in this context, does not mean slowness. It means persistence—the willingness to reject a result that looks adequate by external standards but falls short by internal ones.\n\nThe market, however, does not reliably reward this kind of attention. Consumers, as the first passage acknowledged, operate under genuine informational constraints. They cannot visit every workshop or audit every production process. They rely on signals—a label, a texture, a sonic quality—and their reliance is reasonable. The concern is not that consumers are negligent but that the incentive structure surrounding them systematically favors the visible over the substantive. A hand-stamped label is visible; a carefully calibrated glaze is not, or at least not to an untrained eye scanning a website. When visibility determines commercial success more reliably than substance does, makers face structural pressure to invest in signals rather than in the disciplined attention those signals are supposed to represent.\n\nNone of this implies that the situation is hopeless or that every market exchange is a deception. Many makers genuinely care about their work and resist the pressure to substitute gesture for substance. Many consumers develop the knowledge to distinguish genuine quality from its imitation. The passage's concern is with the incentive structure, not with the moral character of individual participants. The question it leaves open is whether markets can be designed—through better information, through institutions that certify genuine craft processes, through consumer education—to reward the patient work of attention as reliably as they currently reward the shortcut that mimics it.\n\nWithout such redesign, the passage suggests, craft will continue to wither whenever the governing question shifts from whether a piece meets its own standards to which surface will persuade a hurried buyer that someone cared. The first question keeps the maker answerable to the discipline. The second makes the discipline answerable to the market. In that inversion, something essential is lost.",
+      "usePrevPassage": false,
+      "stem": "In context, 'patient work of attention' refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sustained judgment and revision directed by the work's own standards."
+        },
+        {
+          "label": "B",
+          "text": "Avoiding all mechanical assistance."
+        },
+        {
+          "label": "C",
+          "text": "Waiting for consumers to buy products online."
+        },
+        {
+          "label": "D",
+          "text": "Making surfaces look old-fashioned."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The phrase patient work of attention describes a process of sustained, careful judgment in which the maker evaluates and revises the work according to standards internal to the craft itself. Patience here implies endurance and persistence, and attention means directing perception toward the work's requirements rather than toward market expectations or audience signals. This concept is central to the author's distinction between genuine craft and the optimization of surface gestures.",
+        "B": "The passage does not equate patient attention with rejecting all mechanical assistance. The author's concern is whether the maker's judgment remains governed by the work's own standards, not whether machines are involved. Technology used under genuine artistic discipline would still qualify as patient attention.",
+        "C": "The word patient in this context refers to sustained care and persistence in the creative process, not to waiting for commercial transactions. The passage addresses production quality and maker judgment, not sales timing or online retail.",
+        "D": "Making surfaces look old-fashioned is an example of the gesture-optimization the author critiques. An artificially aged surface is a sign of craft history, not an exercise of the sustained attention the phrase describes."
+      },
+      "topic": "Vocabulary in context",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_markets_craft_attention_199_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which claim would most weaken the author's argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Some machines improve precision in skilled hands."
+        },
+        {
+          "label": "B",
+          "text": "Buyers cannot observe every production step."
+        },
+        {
+          "label": "C",
+          "text": "Sellers often use labels to communicate product features."
+        },
+        {
+          "label": "D",
+          "text": "Consumers reliably distinguish genuine craft from superficial cues and reward only the former."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage acknowledges that machines can serve genuine craft when used under artistic discipline. Some machines improving precision in skilled hands is compatible with the author's argument and does not undermine the claim that markets reward misleading signals.",
+        "B": "The passage's argument partly depends on buyers' inability to observe production, so this observation supports rather than weakens the author's position. The information asymmetry between producers and consumers is a premise of the argument, not a challenge to it.",
+        "C": "Labels communicating product features is a normal market function the author acknowledges. The concern arises specifically when labels and cues become substitutes for the care they claim to represent, not when labels accurately describe genuine attributes.",
+        "D": "Correct. The author's argument depends on the premise that consumers cannot easily distinguish genuine disciplined craft from surface-level signals of authenticity. If consumers reliably told the difference and consistently rewarded only genuine craft, then the market incentive to optimize gestures rather than substance would disappear. This finding would remove the structural problem the author identifies and undermine the passage's central concern."
+      },
+      "topic": "Evaluation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_markets_craft_attention_199_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would likely view editing software as acceptable when it:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Clarifies a musician's intention under artistic judgment."
+        },
+        {
+          "label": "B",
+          "text": "Adds breath noises only because listeners associate them with intimacy."
+        },
+        {
+          "label": "C",
+          "text": "Is advertised as handmade technology."
+        },
+        {
+          "label": "D",
+          "text": "Removes every trace of human performance to match a trend."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author distinguishes between technology used to serve the work's internal standards and technology used to manufacture marketable surface cues. Editing software that helps a musician realize an artistic intention — removing distractions, clarifying a passage, refining dynamics — operates under the discipline of the work's own requirements. This aligns with the passage's concept of patient attention directed by the work rather than by audience expectations.",
+        "B": "Adding breath noises specifically because listeners associate them with intimacy is the song example the passage critiques: manufacturing a cue of authenticity to create a market impression rather than serving the music's own needs. The author would view this as optimizing the gesture.",
+        "C": "Advertising technology as handmade contradicts the transparency and genuine engagement the author values. The label handmade technology combines a craft signal with a technological product in a way that exemplifies the misleading convergence the passage describes.",
+        "D": "Removing every trace of human performance to match a trend prioritizes market conformity over artistic judgment. The maker is no longer answerable to the work's own standards but to external expectations, which reverses the relationship the author considers essential to genuine craft."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_markets_craft_attention_199_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's tone toward consumers is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Indifferent to their constraints."
+        },
+        {
+          "label": "B",
+          "text": "Contemptuous of their taste."
+        },
+        {
+          "label": "C",
+          "text": "Sympathetic but concerned about the incentives surrounding them."
+        },
+        {
+          "label": "D",
+          "text": "Convinced they are the sole cause of declining craft."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The author explicitly acknowledges the constraints consumers face, noting that remote production limits their ability to verify quality claims. This direct engagement with consumer circumstances demonstrates the opposite of indifference.",
+        "B": "The passage defends consumer judgment by explaining the structural reasons consumers rely on visible signs. Calling consumers not foolish and attributing their behavior to informational constraints is sympathetic, not contemptuous.",
+        "C": "Correct. The author defends consumers as reasonable agents who rely on available signs because production is remote from their experience. At the same time, the passage expresses concern that the market environment surrounding consumers creates incentives for producers to optimize signals rather than substance. This dual stance — empathy for consumer constraints combined with worry about the system that shapes their choices — characterizes the tone as sympathetic but concerned rather than blaming or dismissive.",
+        "D": "The passage distributes responsibility across the market system, producer incentives, and informational asymmetries rather than placing blame solely on consumers. The author explicitly states that consumers are not foolish, which contradicts the characterization of them as the sole cause."
+      },
+      "topic": "Tone",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_markets_craft_attention_199_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which broader principle best fits the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Only objects made entirely by hand can be authentic."
+        },
+        {
+          "label": "B",
+          "text": "Authenticity depends less on visible signs than on whether methods remain answerable to disciplined standards."
+        },
+        {
+          "label": "C",
+          "text": "The market always improves artistic judgment."
+        },
+        {
+          "label": "D",
+          "text": "Visible signs are useless in every consumer decision."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage does not require that authentic objects be made entirely by hand. The author distinguishes genuine craft by the maker's relationship to the work's standards, not by the absence of machines. A maker using technology under genuine discipline can produce authentic work in the passage's framework.",
+        "B": "Correct. The passage argues that authenticity is not determined by visible surface markers of handcraft but by whether the maker's methods remain governed by the work's own internal standards and the patient exercise of disciplined judgment. A machine-assisted product can be authentic if the maker evaluates results against genuine quality criteria, while a hand-finished product can be inauthentic if the handwork exists only to signal care. This principle redefines authenticity as a relationship between maker and craft rather than a set of visible production attributes.",
+        "C": "The passage argues the opposite: markets can distort artistic judgment by rewarding surface cues over substance. The incentive structure the author describes leads makers to optimize gestures rather than maintain discipline, suggesting markets can undermine rather than always improve craft quality.",
+        "D": "The author does not claim visible signs are useless in every context. The passage says signs are often all consumers have in a world of remote production, acknowledging their practical value while warning about cases where signs substitute for the care they represent. The concern is about misuse, not inherent uselessness."
+      },
+      "topic": "Synthesis",
+      "difficulty": "Medium"
+    }
+  ]
+}

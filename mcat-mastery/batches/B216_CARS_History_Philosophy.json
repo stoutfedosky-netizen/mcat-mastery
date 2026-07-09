@@ -1,0 +1,246 @@
+{
+  "batch": "B216",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "History & Philosophy of Medicine",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_flexner_legacy_216_q0",
+      "passage": "At the dawn of the twentieth century, American medical education was a chaotic, unregulated landscape. Physicians were minted by a patchwork of proprietary schools, many of which operated as for-profit enterprises with nonexistent admissions standards, entirely devoid of laboratories or clinical facilities. To rectify this dangerous inconsistency, the Carnegie Foundation commissioned Abraham Flexner, an educator rather than a physician, to evaluate the state of medical training. The resulting 1910 Flexner Report fundamentally detonated the existing system. Flexner argued fiercely for the standardization of medical education based on the German biomedical model, insisting that medicine must be grounded strictly in rigorous, laboratory-based physical and biological sciences.\n\nThe triumphalist narrative of medical history frames the Flexner Report as the savior of modern medicine, the necessary catalyst that transformed a quasi-mystical trade into a rigorous scientific profession. In many respects, this narrative is factually unassailable. The report forced the closure of substandard institutions and catalyzed the integration of medical schools with major universities, drastically reducing mortality rates and establishing the foundation for a century of unprecedented biomedical innovation. \n\nHowever, modern medical historians and sociologists increasingly view the report through a more critical lens, arguing that its unquestioned success came at a profound epistemological and social cost. By defining medicine exclusively as applied biology, the Flexnerian model systematically marginalized the psychosocial dimensions of illness. The report cemented a reductionist philosophy where disease was understood purely as a mechanical failure of cellular or biochemical systems, entirely divorced from the patient’s environment, emotional state, or socio-economic reality. The physician was trained to be an elite mechanic of the human body, a paradigm that left the profession tragically ill-equipped to handle the chronic, lifestyle-driven, and psychosomatic illnesses that would come to dominate the latter half of the century.\n\nFurthermore, the drive for standardization had devastating demographic consequences. The closure of less-resourced proprietary schools disproportionately eliminated institutions serving rural, poor, and minority populations. Of the seven medical schools dedicated to educating Black physicians at the time, Flexner recommended that five be closed, arguing they could not meet the new, expensive laboratory standards. Consequently, the physician class became increasingly homogenous—overwhelmingly white, male, and drawn from the upper socio-economic echelons. The professionalization of medicine simultaneously became its gentrification.\n\nThe legacy of the Flexner Report is thus one of profound duality. It eradicated the lethal quackery of the nineteenth century and built a spectacular edifice of scientific capability. Yet, in demanding that medicine kneel exclusively at the altar of the physical sciences, it severed the profession from its holistic roots. The modern medical establishment is still struggling to correct this foundational imbalance, desperately trying to reintroduce the humanities, ethics, and sociology into a curriculum that was explicitly designed a century ago to exclude them. We are left with a system that has largely traded the art of healing for the science of pathology.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Flexner Report was ultimately a failure because it caused the closure of rural and minority medical schools, which outweighed its scientific advancements."
+        },
+        {
+          "label": "B",
+          "text": "Before the Flexner Report, medical education was entirely unscientific and operated purely as a for-profit enterprise without clinical standards."
+        },
+        {
+          "label": "C",
+          "text": "While the Flexner Report successfully modernized and legitimized medical science, it also established lasting epistemological limitations and demographic inequalities in the profession."
+        },
+        {
+          "label": "D",
+          "text": "Modern medical schools must abandon the biomedical model established by Abraham Flexner in order to effectively treat chronic and lifestyle-driven illnesses."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice is too extreme. The author states the report's scientific success is 'factually unassailable' and that it 'eradicated lethal quackery.' The author weighs both sides, rather than declaring it an ultimate failure.",
+        "B": "This describes the first paragraph but ignores the core argument of the passage, which focuses on the dual legacy (scientific success vs. social/epistemological costs) of the report itself.",
+        "C": "Correct. This accurately captures the passage's dual thesis: acknowledging the necessary scientific rigorousness the report introduced ('factually unassailable', 'spectacular edifice') while simultaneously highlighting its negative social ('demographic consequences') and philosophical ('marginalized the psychosocial dimensions') impacts.",
+        "D": "The passage argues that modern medicine is trying to 'reintroduce' humanities and correct an 'imbalance,' but it does not suggest entirely abandoning the biomedical model, which the author admits is responsible for 'unprecedented biomedical innovation.'"
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_flexner_legacy_216_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Based on the passage, which of the following modern medical scenarios would the author most likely view as a negative consequence of the Flexnerian model?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A specialist successfully prescribes a targeted biochemical therapy for a patient’s infection, but fails to inquire about the unsanitary housing conditions that caused it."
+        },
+        {
+          "label": "B",
+          "text": "A medical board refuses to license a practitioner who uses unproven herbal remedies instead of evidence-based pharmaceuticals."
+        },
+        {
+          "label": "C",
+          "text": "A university medical school requires its applicants to pass rigorous entrance exams in organic chemistry and physics."
+        },
+        {
+          "label": "D",
+          "text": "A rural hospital is forced to shut down because it cannot afford to purchase the latest, most expensive diagnostic imaging equipment."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The third paragraph critiques the Flexnerian model for defining medicine 'exclusively as applied biology' and marginalizing the 'psychosocial dimensions of illness.' Treating the biochemical infection while ignoring the environmental cause (unsanitary housing) perfectly illustrates treating disease as a 'mechanical failure' divorced from the patient's environment.",
+        "B": "The author praises the Flexner Report for eradicating 'lethal quackery' and standardizing science. Thus, refusing to license unproven remedies aligns with the positive aspects of the report, not the negative consequences.",
+        "C": "Rigorous scientific standards are described as the positive 'foundation' of the report. The author's critique is not that science is required, but that *only* science is considered.",
+        "D": "While paragraph 4 discusses the closure of schools, it refers specifically to the historical era of the report (1910). The conceptual critique of the model itself relates to epistemological reductionism and treating humans as machines, making choice A a stronger thematic application of the model's ongoing negative consequence."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_flexner_legacy_216_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author’s attitude toward the 'triumphalist narrative' mentioned in the second paragraph is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "completely supportive, because the Flexner Report eradicated the dangerous, unregulated medical practices of the nineteenth century."
+        },
+        {
+          "label": "B",
+          "text": "critical, because it celebrates the scientific advancements of the era while ignoring the profound social and philosophical damage the report inflicted."
+        },
+        {
+          "label": "C",
+          "text": "dismissive, because the mortality rates would have naturally decreased over time without Flexner's intervention."
+        },
+        {
+          "label": "D",
+          "text": "neutral, because the narrative accurately reflects the historical consensus of both early and modern sociologists."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While the author agrees that the report eradicated dangerous practices, they are not 'completely supportive' of the triumphalist narrative because they spend the next three paragraphs critiquing what that narrative leaves out.",
+        "B": "Correct. The author acknowledges the narrative is 'factually unassailable' regarding scientific progress, but explicitly introduces a 'critical lens' in the third paragraph to expose how the narrative obscures the epistemological and demographic costs of the report.",
+        "C": "The author is not dismissive of the scientific gains and never suggests mortality rates would have dropped anyway; in fact, the author credits the report with reducing mortality.",
+        "D": "The author contrasts the triumphalist narrative with the views of 'modern medical historians and sociologists' who take a critical view, meaning it does not reflect a universal modern consensus."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_flexner_legacy_216_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The final sentence of the passage states that the system 'traded the art of healing for the science of pathology.' In the context of the passage, this means that modern medicine:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "abandoned the subjective interpretation of literature and philosophy in favor of rigorous statistical analysis."
+        },
+        {
+          "label": "B",
+          "text": "eliminated the use of traditional remedies and replaced them with laboratory-synthesized pharmaceutical treatments."
+        },
+        {
+          "label": "C",
+          "text": "became too focused on expensive laboratory equipment rather than affordable patient care."
+        },
+        {
+          "label": "D",
+          "text": "prioritized the identification and biological management of disease over the holistic, contextual care of the human patient."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "While the passage mentions the humanities, 'the art of healing' in this context refers directly to patient care (holistic treatment), not the literal academic disciplines of literature or philosophy.",
+        "B": "While true that traditional remedies were replaced, this choice is too literal. The 'art of healing' refers to treating the psychosocial dimensions of the patient, not just using different types of physical medicines.",
+        "C": "Expense is mentioned regarding the closure of schools, but the final sentence is a philosophical summary of the biomedical model's reductionism, not an economic critique.",
+        "D": "Correct. The passage contrasts the 'art of healing' (treating the psychosocial dimensions, environment, and holistic nature of the patient) with the 'science of pathology' (treating disease purely as a mechanical failure of cellular/biochemical systems). This choice perfectly encapsulates that epistemological shift."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_flexner_legacy_216_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to the passage, one direct demographic consequence of the Flexner Report's drive for standardization was that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the medical profession became overwhelmingly restricted to a homogenous, elite demographic."
+        },
+        {
+          "label": "B",
+          "text": "physicians from rural areas were forced to relocate to major universities to practice medicine."
+        },
+        {
+          "label": "C",
+          "text": "the number of female physicians increased due to the elimination of prejudiced proprietary schools."
+        },
+        {
+          "label": "D",
+          "text": "minority populations were entirely denied access to biomedical innovations for a century."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The fourth paragraph explicitly states that because less-resourced schools serving poor and minority populations were closed, 'the physician class became increasingly homogenous—overwhelmingly white, male, and drawn from the upper socio-economic echelons.'",
+        "B": "The passage says that medical *schools* integrated with major universities, but it does not claim that existing rural physicians were forced to relocate their practices.",
+        "C": "The passage states the physician class became overwhelmingly *male*, explicitly contradicting this choice.",
+        "D": "The passage notes that the schools educating minority *physicians* were closed, but it does not claim minority populations were entirely denied medical *care* or innovations for a century, though access was undoubtedly harmed."
+      },
+      "topic": "Detail Retrieval",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_flexner_legacy_216_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following discoveries, if true, would most weaken the author’s argument regarding the demographic consequences of the Flexner Report?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that the proprietary medical schools closed by Flexner were utilizing outdated and dangerous surgical techniques."
+        },
+        {
+          "label": "B",
+          "text": "Historical records demonstrating that after 1910, major universities successfully recruited and graduated more rural and minority medical students than the proprietary schools had."
+        },
+        {
+          "label": "C",
+          "text": "Documentation showing that Flexner harbored deep personal prejudices against the rural and minority populations he wrote about."
+        },
+        {
+          "label": "D",
+          "text": "Data proving that mortality rates in rural and minority communities remained largely unchanged in the decades immediately following the report."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This would strengthen the argument for why the schools *should* have been closed (the scientific justification), but it does not weaken the author's claim that closing them resulted in demographic homogeneity.",
+        "B": "Correct. The author claims that closing these schools resulted in a physician class that was 'increasingly homogenous' and 'overwhelmingly white, male, and drawn from the upper socio-economic echelons.' If major universities actually replaced and exceeded the minority and rural enrollment of the closed schools, the author's demographic gentrification argument would completely fall apart.",
+        "C": "This would actually strengthen the author's critical lens, suggesting the demographic consequences might have been intentional rather than merely an unfortunate byproduct of standardization.",
+        "D": "While this highlights a failure of care, it doesn't directly address the *demographic composition of the physician workforce*, which is the specific focus of the author's demographic argument in paragraph four."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_flexner_legacy_216_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the third paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "describe the specific laboratory standards required by the German biomedical model."
+        },
+        {
+          "label": "B",
+          "text": "argue that chronic illnesses were practically non-existent prior to the implementation of the Flexner Report."
+        },
+        {
+          "label": "C",
+          "text": "introduce the epistemological limitations created by defining medicine exclusively through a biological lens."
+        },
+        {
+          "label": "D",
+          "text": "prove that the 'triumphalist narrative' of medical history was intentionally fabricated by the Carnegie Foundation."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The paragraph mentions the 'Flexnerian model,' but it does not list or describe specific laboratory standards. Its focus is on the philosophy of that model.",
+        "B": "The paragraph states the model was ill-equipped to handle chronic illnesses that would 'dominate the latter half of the century,' but it never implies these illnesses didn't exist prior to 1910.",
+        "C": "Correct. The entire paragraph is dedicated to exploring how the Flexner Report caused an 'epistemological... cost' by cementing a 'reductionist philosophy' that ignored the psychosocial dimensions of illness.",
+        "D": "The author never claims the triumphalist narrative was a fabrication or a conspiracy by the Carnegie Foundation. In fact, the author calls the scientific successes of that narrative 'factually unassailable.'"
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    }
+  ]
+}

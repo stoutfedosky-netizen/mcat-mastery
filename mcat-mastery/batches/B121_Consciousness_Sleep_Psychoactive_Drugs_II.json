@@ -1,0 +1,351 @@
+{
+  "batch": "B121",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Consciousness, Sleep & Psychoactive Drugs II",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "D": 2,
+    "B": 2,
+    "C": 3
+  },
+  "questions": [
+    {
+      "id": "ps_sleep2_001",
+      "passage": "Participants spend two nights in a sleep laboratory. Electroencephalography, eye movements, and skeletal-muscle tone are recorded:\n\nStage | EEG finding | Eye movements | Muscle tone\nN2 | Sleep spindles and K-complexes | Minimal | Reduced\nN3 | High-amplitude delta activity | Minimal | Reduced\nREM | Low-amplitude mixed-frequency activity | Rapid | Very low\n\nParticipants follow the same caffeine restrictions and laboratory schedule on both study nights, reducing behavioral and environmental differences between the experimental groups.\n\nOne group is selectively awakened whenever REM begins, while a control group is awakened equally often during N2. On the following recovery night, the REM-deprived group enters REM sooner and spends a greater proportion of sleep in REM. Both groups report fatigue, but repeated awakenings impair sustained attention even when total time in bed is unchanged. Investigators also manipulate evening light exposure: bright blue-enriched light delays melatonin onset and shifts sleep timing later, consistent with retinal input to the suprachiasmatic nucleus (SCN).",
+      "stem": "Which recorded feature most specifically identifies N2 sleep?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sleep spindles and K-complexes"
+        },
+        {
+          "label": "B",
+          "text": "Predominant delta waves"
+        },
+        {
+          "label": "C",
+          "text": "Rapid eye movements with atonia"
+        },
+        {
+          "label": "D",
+          "text": "Continuous alpha activity"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. N2 is defined by characteristic bursts of sigma-frequency sleep spindles and high-amplitude K-complexes on EEG. These features distinguish it from lighter N1, slow-wave N3, and REM sleep. Sleep staging integrates EEG frequency, eye movements, and muscle tone. N2 spindles differ from N3 delta activity, while REM combines wake-like cortical activity with skeletal-muscle atonia.",
+        "B": "High-amplitude low-frequency delta activity is the hallmark of N3 slow-wave sleep rather than N2. Sleep staging integrates EEG frequency, eye movements, and muscle tone.",
+        "C": "Rapid eye movements and profound skeletal-muscle atonia identify REM sleep, whose cortical EEG is relatively low amplitude and mixed frequency. Sleep staging integrates EEG frequency, eye movements, and muscle tone.",
+        "D": "Alpha activity is associated mainly with relaxed wakefulness with eyes closed, not a defining pattern of established N2 sleep. Sleep staging integrates EEG frequency, eye movements, and muscle tone."
+      },
+      "topic": "Sleep Stages / N2",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sleep2_002",
+      "passage": null,
+      "stem": "The increased REM proportion on the recovery night is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Circadian entrainment"
+        },
+        {
+          "label": "B",
+          "text": "Sleep paralysis"
+        },
+        {
+          "label": "C",
+          "text": "NREM suppression"
+        },
+        {
+          "label": "D",
+          "text": "REM rebound"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Entrainment is alignment of the biological clock to environmental time cues such as light. It does not specifically mean compensatory REM increase after deprivation. The SCN is entrained primarily by retinal light input and coordinates circadian rhythms; melatonin from the pineal gland signals biological night rather than independently setting every rhythm.",
+        "B": "Sleep paralysis is transient inability to move during transitions into or out of REM, not increased REM duration across a recovery night. The SCN is entrained primarily by retinal light input and coordinates circadian rhythms; melatonin from the pineal gland signals biological night rather than independently setting every rhythm.",
+        "C": "The passage selectively deprived REM and reports compensatory REM increase. It does not establish a primary mechanism of NREM suppression. The SCN is entrained primarily by retinal light input and coordinates circadian rhythms; melatonin from the pineal gland signals biological night rather than independently setting every rhythm.",
+        "D": "Correct. REM rebound is earlier onset, increased duration, or greater intensity of REM after selective deprivation or suppression. It implies that REM expression is homeostatically regulated rather than occurring randomly. The SCN is entrained primarily by retinal light input and coordinates circadian rhythms; melatonin from the pineal gland signals biological night rather than independently setting every rhythm."
+      },
+      "topic": "REM Rebound / Sleep Homeostasis",
+      "difficulty": "Medium",
+      "passageRef": "ps_sleep2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_sleep2_003",
+      "passage": null,
+      "stem": "Why can repeated awakenings impair attention despite unchanged time in bed?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Time in bed guarantees restorative sleep"
+        },
+        {
+          "label": "B",
+          "text": "Sleep fragmentation disrupts continuity and restorative architecture"
+        },
+        {
+          "label": "C",
+          "text": "Awakenings permanently destroy the SCN"
+        },
+        {
+          "label": "D",
+          "text": "Attention depends only on REM"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Time in bed is not equivalent to consolidated sleep time or normal stage cycling. Frequent arousals reduce restorative quality even if scheduled duration is unchanged. Homeostatic sleep pressure rises with time awake and interacts with circadian alerting.",
+        "B": "Correct. Fragmentation repeatedly interrupts stable progression through sleep stages, reducing consolidation and increasing sleepiness. Sustained attention is especially vulnerable to insufficient or disrupted sleep. Homeostatic sleep pressure rises with time awake and interacts with circadian alerting. Deprivation can therefore impair attention even when a person attempts to compensate behaviorally.",
+        "C": "The SCN is not permanently destroyed by laboratory awakenings. Circadian timing and homeostatic sleep processes can be perturbed without structural elimination of the clock. Homeostatic sleep pressure rises with time awake and interacts with circadian alerting.",
+        "D": "Attention depends on total sleep quality and multiple stages, not REM alone. The N2-awakened control can also experience impairment from fragmentation. Homeostatic sleep pressure rises with time awake and interacts with circadian alerting."
+      },
+      "topic": "Sleep Fragmentation / Attention",
+      "difficulty": "Medium",
+      "passageRef": "ps_sleep2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_sleep2_004",
+      "passage": null,
+      "stem": "Bright evening light delays sleep timing primarily by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Directly sedating the cortex"
+        },
+        {
+          "label": "B",
+          "text": "Increasing adenosine clearance only"
+        },
+        {
+          "label": "C",
+          "text": "Shifting SCN timing and suppressing or delaying melatonin signaling"
+        },
+        {
+          "label": "D",
+          "text": "Producing permanent retinal damage"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Bright light generally promotes alertness rather than directly sedating cortex, especially when delivered during biological evening. REM rebound is a selective increase in REM duration or intensity after deprivation or suppression.",
+        "B": "Adenosine contributes to homeostatic sleep pressure, but the passage specifically links light to the circadian SCN-melatonin pathway. REM rebound is a selective increase in REM duration or intensity after deprivation or suppression.",
+        "C": "Correct. Retinal light information reaches the SCN, which coordinates circadian phase and influences pineal melatonin secretion. Evening blue-enriched light can delay melatonin onset and shift the clock later. REM rebound is a selective increase in REM duration or intensity after deprivation or suppression. It supports active regulation of sleep architecture rather than random stage occurrence.",
+        "D": "The controlled light manipulation is not described as injurious. Circadian phase shifting occurs through normal photic signaling, not retinal destruction. REM rebound is a selective increase in REM duration or intensity after deprivation or suppression."
+      },
+      "topic": "Circadian Entrainment / Light and Melatonin",
+      "difficulty": "Medium",
+      "passageRef": "ps_sleep2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_sleep2_005",
+      "passage": null,
+      "stem": "Which statement best distinguishes REM from N3 in the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "REM has wake-like cortical activity and low muscle tone, whereas N3 has prominent delta activity"
+        },
+        {
+          "label": "B",
+          "text": "REM contains only delta waves"
+        },
+        {
+          "label": "C",
+          "text": "N3 always includes rapid eye movements"
+        },
+        {
+          "label": "D",
+          "text": "Both stages are physiologically identical"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. REM combines activated, mixed-frequency cortical EEG with rapid eye movements and skeletal-muscle atonia. N3 is slow-wave sleep dominated by synchronized high-amplitude delta activity and lacks the defining REM pattern. Memory consolidation is stage dependent: slow-wave sleep is strongly associated with declarative memory, while REM and other stages contribute to procedural and emotional processing.",
+        "B": "Delta waves characterize N3, not REM. REM EEG is comparatively desynchronized and resembles wakefulness. Memory consolidation is stage dependent: slow-wave sleep is strongly associated with declarative memory, while REM and other stages contribute to procedural and emotional processing.",
+        "C": "Rapid eye movements define REM and are not a required feature of N3. Memory consolidation is stage dependent: slow-wave sleep is strongly associated with declarative memory, while REM and other stages contribute to procedural and emotional processing.",
+        "D": "The stages differ in EEG, eye movements, muscle tone, autonomic activity, and functional associations. Memory consolidation is stage dependent: slow-wave sleep is strongly associated with declarative memory, while REM and other stages contribute to procedural and emotional processing."
+      },
+      "topic": "REM vs N3 Sleep",
+      "difficulty": "Easy",
+      "passageRef": "ps_sleep2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_sleep2_006",
+      "passage": "Emergency clinicians treat an unconscious patient with slow, shallow breathing and pinpoint pupils after suspected opioid use. Intravenous naloxone rapidly improves ventilation, but agitation, sweating, abdominal cramping, and muscle aches follow. The patient reports using escalating opioid doses for months and continuing despite occupational and relationship harm. Continuous cardiorespiratory monitoring is maintained because naloxone may wear off before the longer-acting opioid, allowing potentially fatal respiratory depression to recur.\n\nThe toxicology discussion compares several drug classes. Opioids activate μ-opioid receptors and can depress brainstem respiratory drive. Benzodiazepines enhance GABA-A receptor signaling and are also CNS depressants. Combining them can produce greater respiratory impairment than either alone. Amphetamine increases synaptic catecholamine signaling and generally increases alertness and sympathetic activity. The team distinguishes tolerance, physical dependence, and substance use disorder. They also note that rapidly delivered drugs can have high reinforcing potential because the rewarding effect closely follows the behavior that produced it.",
+      "stem": "Which mechanism best explains naloxone's rapid effect?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It irreversibly activates GABA-A receptors"
+        },
+        {
+          "label": "B",
+          "text": "It increases opioid synthesis"
+        },
+        {
+          "label": "C",
+          "text": "It competitively antagonizes opioid receptors and reverses receptor-mediated respiratory depression"
+        },
+        {
+          "label": "D",
+          "text": "It blocks dopamine reuptake"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "GABA-A enhancement is associated with benzodiazepines, and greater inhibition would not reverse opioid respiratory depression. Stimulants increase arousal through catecholamine signaling, benzodiazepines enhance GABA-A inhibition, and opioids activate opioid receptors.",
+        "B": "Increasing opioid signaling would worsen sedation and hypoventilation rather than improve them. Stimulants increase arousal through catecholamine signaling, benzodiazepines enhance GABA-A inhibition, and opioids activate opioid receptors.",
+        "C": "Correct. Naloxone has high affinity for opioid receptors with little agonist activity, displacing opioid agonists and rapidly restoring respiratory drive. Its shorter action than some opioids can require repeated dosing and observation. Stimulants increase arousal through catecholamine signaling, benzodiazepines enhance GABA-A inhibition, and opioids activate opioid receptors. Their mechanisms predict distinct effects and risks.",
+        "D": "Dopamine reuptake blockade is a stimulant mechanism and does not explain specific reversal of pinpoint pupils and opioid-induced respiratory depression. Stimulants increase arousal through catecholamine signaling, benzodiazepines enhance GABA-A inhibition, and opioids activate opioid receptors."
+      },
+      "topic": "Naloxone / Opioid Antagonism",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sleep2_007",
+      "passage": null,
+      "stem": "The patient's withdrawal symptoms after naloxone most directly demonstrate:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sensory adaptation"
+        },
+        {
+          "label": "B",
+          "text": "Physical dependence"
+        },
+        {
+          "label": "C",
+          "text": "Placebo response"
+        },
+        {
+          "label": "D",
+          "text": "State-dependent memory"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Sensory adaptation is reduced receptor or perceptual response to constant stimulation and does not explain autonomic and gastrointestinal withdrawal. Tolerance is reduced effect with repeated exposure; physical dependence is adaptation producing withdrawal on cessation; addiction additionally involves compulsive use despite harm.",
+        "B": "Correct. Chronic opioid exposure produces compensatory physiological adaptations. Abrupt receptor blockade unmasks those adaptations, causing acute withdrawal; dependence can exist with or without the full behavioral syndrome of addiction. Tolerance is reduced effect with repeated exposure; physical dependence is adaptation producing withdrawal on cessation; addiction additionally involves compulsive use despite harm.",
+        "C": "The symptoms follow a pharmacologically active antagonist and match opioid withdrawal, not expectation without active treatment. Tolerance is reduced effect with repeated exposure; physical dependence is adaptation producing withdrawal on cessation; addiction additionally involves compulsive use despite harm.",
+        "D": "State-dependent memory concerns improved retrieval when internal state matches learning and does not cause this symptom cluster. Tolerance is reduced effect with repeated exposure; physical dependence is adaptation producing withdrawal on cessation; addiction additionally involves compulsive use despite harm."
+      },
+      "topic": "Opioids / Physical Dependence",
+      "difficulty": "Medium",
+      "passageRef": "ps_sleep2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_sleep2_008",
+      "passage": null,
+      "stem": "Why is combining opioids and benzodiazepines especially dangerous?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They chemically become amphetamine"
+        },
+        {
+          "label": "B",
+          "text": "Both increase skeletal-muscle strength"
+        },
+        {
+          "label": "C",
+          "text": "One prevents the other from binding receptors"
+        },
+        {
+          "label": "D",
+          "text": "Their CNS-depressant effects can combine to worsen sedation and respiratory failure"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The drugs do not chemically convert into a stimulant. They retain distinct receptor mechanisms. Naloxone is a competitive opioid-receptor antagonist that can reverse respiratory depression but may precipitate acute withdrawal in a physically dependent person.",
+        "B": "Both can reduce arousal and coordination rather than reliably increase muscle strength. Naloxone is a competitive opioid-receptor antagonist that can reverse respiratory depression but may precipitate acute withdrawal in a physically dependent person.",
+        "C": "They act at different receptor systems, so danger does not require competitive displacement. Simultaneous action is the problem. Naloxone is a competitive opioid-receptor antagonist that can reverse respiratory depression but may precipitate acute withdrawal in a physically dependent person.",
+        "D": "Correct. Opioid μ-receptor signaling suppresses respiratory drive, while benzodiazepine-enhanced GABA-A inhibition deepens CNS depression. Combined effects can be additive or synergistic, sharply increasing overdose risk. Naloxone is a competitive opioid-receptor antagonist that can reverse respiratory depression but may precipitate acute withdrawal in a physically dependent person."
+      },
+      "topic": "Drug Interactions / CNS Depression",
+      "difficulty": "Hard",
+      "passageRef": "ps_sleep2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_sleep2_009",
+      "passage": null,
+      "stem": "Escalating doses needed to obtain the prior effect indicate:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Tolerance"
+        },
+        {
+          "label": "B",
+          "text": "Withdrawal"
+        },
+        {
+          "label": "C",
+          "text": "Extinction"
+        },
+        {
+          "label": "D",
+          "text": "Generalization"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Tolerance is diminished response after repeated exposure, requiring a larger dose for a similar effect. It reflects pharmacodynamic or pharmacokinetic adaptation and is distinct from compulsive use or withdrawal. Combining CNS depressants can produce pharmacodynamic synergy at respiratory and arousal systems. Risk cannot be estimated by considering either drug in isolation.",
+        "B": "Withdrawal is the syndrome occurring when use stops or an antagonist is given after dependence. It does not mean that higher doses are required during ongoing use. Combining CNS depressants can produce pharmacodynamic synergy at respiratory and arousal systems.",
+        "C": "Extinction is weakening of a learned response when reinforcement ceases. It is not the pharmacologic dose-response adaptation described. Combining CNS depressants can produce pharmacodynamic synergy at respiratory and arousal systems.",
+        "D": "Generalization is responding similarly to related stimuli and does not describe changing drug potency. Combining CNS depressants can produce pharmacodynamic synergy at respiratory and arousal systems."
+      },
+      "topic": "Drug Use / Tolerance",
+      "difficulty": "Easy",
+      "passageRef": "ps_sleep2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "ps_sleep2_010",
+      "passage": null,
+      "stem": "Why can rapid drug delivery increase reinforcing potential?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It prevents the drug from reaching the brain"
+        },
+        {
+          "label": "B",
+          "text": "It makes withdrawal impossible"
+        },
+        {
+          "label": "C",
+          "text": "It closely pairs the behavior with reward, strengthening operant learning"
+        },
+        {
+          "label": "D",
+          "text": "It removes all physiological effects"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Rapid delivery generally produces faster brain exposure rather than preventing it. Reinforcement concerns consequences that increase behavior.",
+        "B": "Fast onset does not prevent dependence or withdrawal and may increase abuse liability. Reinforcement concerns consequences that increase behavior.",
+        "C": "Correct. A short delay between drug-taking behavior and rewarding effect strengthens the behavior-reinforcer contingency. Faster onset can therefore produce more powerful operant reinforcement than the same drug delivered slowly. Reinforcement concerns consequences that increase behavior. Rapid drug delivery can strengthen learning by tightly pairing use with reward, increasing abuse liability.",
+        "D": "The premise is rapid onset of a rewarding physiological effect, not absence of effects. Reinforcement concerns consequences that increase behavior."
+      },
+      "topic": "Reinforcement / Drug Delivery Rate",
+      "difficulty": "Medium",
+      "passageRef": "ps_sleep2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "batch": "B013",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Perception, Attention & Cognition",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 4,
+    "B": 3,
+    "C": 4,
+    "D": 4
+  },
+  "questions": [
+    {
+      "id": "ps_percept_001",
+      "passage": "A cognitive psychologist conducts a study on inattentional blindness using a modified version of the classic gorilla experiment. Participants watch a video of two teams passing basketballs and are instructed to count the number of passes made by the team wearing white shirts. Midway through the video, a person in a red costume walks through the scene, stops in the center, faces the camera for 5 seconds, and exits. After the video, participants are asked whether they noticed anything unusual. In the control condition (no counting task), 95% of participants notice the red figure. In the experimental condition (counting passes), only 30% notice it. A follow-up experiment uses eye-tracking technology and reveals that many participants in the experimental condition fixated directly on the red figure for 1\u20132 seconds without reporting having seen it.",
+      "stem": "The eye-tracking finding that participants fixated on the red figure without reporting it most directly challenges which of the following assumptions?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Inattentional blindness results from a failure of sensory processing at the retinal level."
+        },
+        {
+          "label": "B",
+          "text": "A stimulus that is directly fixated upon will necessarily be consciously perceived."
+        },
+        {
+          "label": "C",
+          "text": "Inattentional blindness is caused by participants deliberately choosing not to report stimuli they perceive as irrelevant."
+        },
+        {
+          "label": "D",
+          "text": "Attention is necessary for conscious perception even when a stimulus is directly fixated upon."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The eye-tracking data confirms that the stimulus was successfully processed at the retinal level \u2014 the eyes fixated on it. Inattentional blindness was already understood to be a post-sensory phenomenon, not a retinal failure. The finding strengthens rather than challenges this understanding.",
+        "B": "The assumption that direct fixation is sufficient for conscious awareness is directly contradicted by the data. Participants' eyes were fixated on the red figure for 1\u20132 seconds \u2014 the stimulus was not only in their visual field but on their fovea \u2014 yet they did not consciously perceive it. This demonstrates that foveal fixation alone is insufficient for awareness; attentional selection is also required.",
+        "C": "This demand-characteristics explanation would predict that participants saw the figure but chose not to report it. However, inattentional blindness research controls for this by using surprise questioning and debriefing protocols that confirm participants genuinely did not experience seeing the figure. The eye-tracking data deepens the mystery rather than supporting a deliberate non-report explanation.",
+        "D": "This is not an assumption being challenged \u2014 it is the conclusion supported by the finding. The data demonstrates that attention is indeed necessary for conscious perception, even with direct fixation. The question asks what assumption is challenged, not what conclusion is supported."
+      },
+      "topic": "Inattentional Blindness / Selective Attention",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_percept_002",
+      "passage": null,
+      "stem": "The 65% difference in detection rates between the control and experimental conditions is best explained by which attentional concept?",
+      "passageRef": "ps_percept_001",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Divided attention: the counting task splits attentional resources, leaving insufficient capacity to process the unexpected stimulus."
+        },
+        {
+          "label": "B",
+          "text": "Broadening of attention: the counting task widens the attentional spotlight, causing peripheral stimuli to be processed more superficially."
+        },
+        {
+          "label": "C",
+          "text": "Change blindness: the red figure represents a change in the visual scene that participants fail to detect because they lack a stored representation for comparison."
+        },
+        {
+          "label": "D",
+          "text": "Selective attention: the counting task creates an attentional set for white-shirt players, filtering out stimuli that do not match the task-relevant features."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Divided attention involves deliberately allocating resources to multiple tasks simultaneously. In this experiment, participants are given only one task (counting passes). The failure to notice the red figure is not a resource-splitting issue \u2014 it results from an attentional filter that selectively processes task-relevant stimuli (white shirts, ball passes) and excludes task-irrelevant ones.",
+        "B": "Broadening of attention would predict better detection of peripheral stimuli, not worse. The counting task actually narrows the attentional set to specific features (white shirts, passing motions), making participants less likely to process stimuli outside that set. This answer reverses the actual mechanism.",
+        "C": "Change blindness involves failing to detect alterations in a visual scene, typically across a visual disruption (saccade, blink, or flicker). The red figure is not a change to an existing element \u2014 it is a new, unexpected stimulus entering the scene. This is inattentional blindness, not change blindness. The two phenomena are related but mechanistically distinct.",
+        "D": "The counting task creates a top-down attentional set tuned to specific features: white shirts, ball trajectories, and passing movements. This selective filter allows task-relevant information through while blocking or attenuating stimuli that don't match the set \u2014 including the red figure. The 95% detection rate in the control condition confirms the figure is easily noticed without this selective filter."
+      },
+      "topic": "Selective vs. Divided Attention",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_percept_003",
+      "passage": null,
+      "stem": "A researcher proposes that the 30% of experimental participants who did notice the red figure have a higher working memory capacity than those who did not. This hypothesis is most consistent with which model of attention?",
+      "passageRef": "ps_percept_001",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Treisman's attenuation model, because higher-capacity individuals have a lower threshold for processing unattended stimuli"
+        },
+        {
+          "label": "B",
+          "text": "Broadbent's filter model, because higher-capacity individuals can process more channels simultaneously"
+        },
+        {
+          "label": "C",
+          "text": "Lavie's load theory of attention, because individuals with greater cognitive resources can process task-irrelevant stimuli when the primary task does not exhaust their capacity"
+        },
+        {
+          "label": "D",
+          "text": "The spotlight model, because higher-capacity individuals have a wider attentional beam that encompasses more of the visual field"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Treisman's attenuation model proposes that unattended stimuli are attenuated (turned down) rather than completely blocked. Stimuli with lower activation thresholds (e.g., personally relevant words, biologically significant stimuli) can break through the attenuation. Higher working memory capacity could be interpreted as allowing a lower effective threshold for processing attenuated stimuli, letting more information through. However, this interpretation stretches the model \u2014 Treisman's thresholds are stimulus-driven, not capacity-driven. This is a plausible but imperfect fit.",
+        "B": "Broadbent's early filter model proposes an all-or-nothing filter based on physical characteristics. It does not accommodate individual differences in capacity \u2014 the filter either passes a channel or blocks it completely. Higher working memory would not help within this model because non-selected channels receive no processing at all.",
+        "C": "Lavie's load theory directly predicts that individuals with greater cognitive resources (including working memory capacity) will have spare capacity available to process task-irrelevant stimuli when the perceptual load of the primary task is not exhausting. In the counting task, higher-capacity individuals can complete the counting with resources to spare, allowing the red figure to be processed. This is the most direct theoretical match.",
+        "D": "The spotlight model describes the spatial characteristics of attention (where it is directed) but does not make predictions about individual differences in capacity. Working memory capacity does not map onto spotlight width in any established theoretical framework."
+      },
+      "topic": "Models of Attention / Load Theory",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_percept_004",
+      "passage": "A developmental psychologist observes children at different ages performing a series of cognitive tasks. In Task A, a child watches as a researcher pours water from a short, wide glass into a tall, narrow glass and is asked whether the amount of water has changed. In Task B, a child is shown a row of 5 pennies spread far apart and a row of 7 pennies spaced closely together and is asked which row has more. In Task C, a child is asked to arrange a set of sticks from shortest to longest. In Task D, a child is told that all dogs are animals and is asked whether all animals are dogs.",
+      "stem": "A 5-year-old child who answers Task A by saying the tall glass has 'more water' is demonstrating a failure to understand which Piagetian concept?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Object permanence \u2014 the understanding that objects continue to exist when not visible"
+        },
+        {
+          "label": "B",
+          "text": "Seriation \u2014 the ability to arrange objects in a logical order along a quantitative dimension"
+        },
+        {
+          "label": "C",
+          "text": "Conservation \u2014 the understanding that quantity remains the same despite changes in appearance"
+        },
+        {
+          "label": "D",
+          "text": "Decentration \u2014 the ability to consider multiple aspects of a situation simultaneously"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Object permanence develops during the sensorimotor stage (birth to ~2 years). A 5-year-old has already achieved object permanence. The water pouring task does not test whether the child knows the water still exists \u2014 the child can see the water in both glasses. It tests whether the child understands that the quantity is unchanged.",
+        "B": "Seriation is tested by Task C (arranging sticks by length), not Task A. Seriation requires ordering elements along a dimension, which is a different cognitive operation from understanding that a quantity is invariant under transformation.",
+        "C": "This is the classic Piagetian conservation task. The child focuses on the height of the water in the tall glass and concludes there is more, failing to compensate for the narrower width. Conservation \u2014 understanding that quantity (volume, number, mass) is preserved despite perceptual transformations \u2014 typically develops during the concrete operational stage (ages 7\u201311). A 5-year-old in the preoperational stage has not yet acquired this concept.",
+        "D": "Decentration is a cognitive ability that contributes to conservation \u2014 the child who lacks decentration focuses on one dimension (height) and ignores the other (width). However, the question asks which concept the child fails to understand, not which cognitive ability is lacking. Conservation is the concept; decentration is the underlying cognitive mechanism. The MCAT distinguishes between the concept being tested and the process that enables it."
+      },
+      "topic": "Piaget's Cognitive Development / Conservation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_percept_005",
+      "passage": null,
+      "stem": "The child who successfully answers Task D ('No, not all animals are dogs') is demonstrating cognitive abilities characteristic of which Piagetian stage?",
+      "passageRef": "ps_percept_004",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Preoperational, because the child can use symbolic language to represent categories"
+        },
+        {
+          "label": "B",
+          "text": "Formal operational, because the child is reasoning about abstract logical relationships between classes"
+        },
+        {
+          "label": "C",
+          "text": "Sensorimotor, because the child has developed the ability to recognize dogs as a distinct category"
+        },
+        {
+          "label": "D",
+          "text": "Concrete operational, because the child can perform logical operations on concrete, observable categories"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Preoperational children can use words and symbols, but they struggle with logical class inclusion problems. A preoperational child might say 'yes, all animals are dogs' because they center on the most familiar category member rather than reasoning about the logical relationship between the class and subclass.",
+        "B": "Task D requires understanding class inclusion \u2014 that the category 'animals' contains 'dogs' as a subset, so the superordinate class is necessarily larger. This is a logical operation on concrete, familiar categories (dogs and animals are tangible and observable). Piaget placed class inclusion tasks in the concrete operational stage (ages 7\u201311). The child can perform logical operations on categories they have direct experience with, which is the hallmark of concrete operational thought.",
+        "C": "Category recognition emerges much earlier than the sensorimotor stage's endpoint (~2 years). The task does not test basic categorization; it tests logical reasoning about set-subset relationships, which requires far more advanced cognition.",
+        "D": "Formal operational thought involves abstract, hypothetico-deductive reasoning disconnected from concrete referents \u2014 for example, 'If all X are Y, and some Y are Z, what must be true?' Task D uses concrete, familiar categories (dogs and animals), making it a concrete operational task. If the categories were abstract or unfamiliar, formal operations would be required, but reasoning about real-world class inclusion is achievable at the concrete operational stage."
+      },
+      "topic": "Piaget's Stages / Formal Operations",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_percept_006",
+      "passage": null,
+      "stem": "A critic of Piaget's theory points out that children can often pass conservation tasks at younger ages if the testing procedure is modified \u2014 for example, if the transformation is performed 'accidentally' by a 'naughty teddy bear' rather than deliberately by the experimenter. This finding most directly supports which criticism of Piaget?",
+      "passageRef": "ps_percept_004",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Piaget overestimated children's cognitive abilities by using overly simple tasks."
+        },
+        {
+          "label": "B",
+          "text": "Piaget's stage model incorrectly predicts that cognitive development is continuous rather than occurring in discrete stages."
+        },
+        {
+          "label": "C",
+          "text": "Piaget's tasks conflated social demand characteristics with cognitive competence \u2014 children's incorrect answers reflected misunderstanding of the experimenter's intention, not a lack of conservation ability."
+        },
+        {
+          "label": "D",
+          "text": "Piaget underestimated the role of biological maturation in cognitive development by attributing too much influence to environmental interaction."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This answer is backward. Piaget did not overestimate children's abilities \u2014 he underestimated them. The 'naughty teddy bear' finding (McGarrigle and Donaldson, 1974) shows children can conserve at younger ages than Piaget predicted when the social demands of the task are reduced. Piaget's tasks were too demanding, not too simple.",
+        "B": "This answer reverses the criticism. Piaget's theory predicts discrete stages, and this criticism would argue for more continuous development. However, the naughty teddy bear finding specifically addresses the underestimation of abilities within stages, not whether stages exist. Children passing earlier than predicted could support either more continuous development or revised stage boundaries.",
+        "C": "When an adult deliberately pours water and then asks 'Is it the same?', young children may interpret this as an implicit cue that something has changed \u2014 why would the adult ask if nothing changed? The 'naughty teddy bear' version removes this pragmatic cue by making the transformation accidental, and children perform better, suggesting Piaget's methodology conflated social cognition with logical cognition.",
+        "D": "This criticism goes in the wrong direction. The finding that younger children can pass modified tasks suggests Piaget underestimated early competence, which if anything suggests that biological maturation provides earlier cognitive readiness than Piaget believed. This answer addresses a different criticism (nature vs. nurture in development) than the one raised by the naughty teddy bear study."
+      },
+      "topic": "Criticisms of Piaget / Demand Characteristics",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_percept_007",
+      "passage": "A team of neuroscientists investigates the M\u00fcller-Lyer illusion \u2014 an illusion in which two lines of equal length appear different because one has outward-pointing arrowheads (fins-out) and the other has inward-pointing arrowheads (fins-in). The fins-out line consistently appears longer. The researchers present the illusion to three groups: (1) adults raised in Western, urban environments with rectilinear architecture, (2) adults from the San people of the Kalahari who live in rounded dwellings, and (3) congenitally blind adults who explore raised-line versions of the illusion through touch. Group 1 shows a strong illusion effect (12% overestimation of the fins-out line), Group 2 shows a significantly reduced effect (3%), and Group 3 shows no significant illusion effect.",
+      "stem": "The finding that the San people experience a reduced M\u00fcller-Lyer illusion compared to Western participants most directly supports which theory of perception?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Gregory's constructivist theory \u2014 the illusion results from unconscious inferences shaped by experience with rectilinear environments, which the San lack."
+        },
+        {
+          "label": "B",
+          "text": "Gibson's direct perception theory \u2014 the illusion reflects a failure to pick up invariant information in the optical array, and the San have more ecological experience detecting true size."
+        },
+        {
+          "label": "C",
+          "text": "The nativist theory \u2014 the illusion is innate and hardwired, and the San's reduced effect reflects a genetic adaptation to their visual environment."
+        },
+        {
+          "label": "D",
+          "text": "Feature detection theory \u2014 the San have different populations of feature detectors tuned to angles due to their environmental exposure."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Gregory proposed that the M\u00fcller-Lyer illusion occurs because the visual system interprets the fins as depth cues resembling corners. Fins-out lines resemble an inside corner (farther away, thus perceived as longer via size constancy), and fins-in lines resemble an outside corner (closer). This inference is shaped by experience with carpentered, rectilinear environments. The San, whose built environment consists of rounded structures without right angles, would have less experience with these depth cues, explaining their reduced illusion. This is the carpentered-world hypothesis.",
+        "B": "Gibson's theory emphasizes direct pickup of environmental information without cognitive construction or inference. If the illusion resulted from a failure of direct perception, we would expect it to be universal (since the optical array is identical for all observers) or to be weaker in groups with more perceptual experience. Gibson's framework does not easily account for systematic cultural differences in illusion susceptibility \u2014 it predicts universal perception of invariant information.",
+        "C": "If the illusion were purely innate, all groups \u2014 regardless of cultural environment \u2014 should show the same effect. The significant difference between Western and San participants directly contradicts a purely nativist account. Furthermore, a genetic adaptation would require evolutionary selection pressure related to the illusion, which has no clear adaptive significance.",
+        "D": "Feature detection theory (Hubel and Wiesel) describes the neural processing of basic visual features like edges, orientations, and motion. While experience can influence feature detector tuning, the theory does not make predictions about complex geometric illusions that depend on interpretation of depth cues and size constancy. Feature detectors operate at too low a level to explain the cultural variation seen here."
+      },
+      "topic": "Theories of Perception / Cross-Cultural Studies",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_percept_008",
+      "passage": null,
+      "stem": "The finding that congenitally blind participants show no M\u00fcller-Lyer illusion in the tactile version most directly suggests which of the following about the illusion?",
+      "passageRef": "ps_percept_007",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The illusion is a purely visual phenomenon that cannot be induced through other sensory modalities."
+        },
+        {
+          "label": "B",
+          "text": "The illusion depends on visual experience with depth and perspective cues that blind individuals have never acquired."
+        },
+        {
+          "label": "C",
+          "text": "Tactile perception is inherently more accurate than visual perception for judging line length."
+        },
+        {
+          "label": "D",
+          "text": "The illusion is a learned response that can be unlearned through training with non-visual modalities."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This is too strong a conclusion. Some studies have found tactile M\u00fcller-Lyer effects in sighted individuals exploring raised-line versions while blindfolded, suggesting the illusion can cross modalities. The absence of the effect in congenitally blind individuals specifically indicates that visual experience is necessary for the illusion to develop, not that other modalities cannot support it in individuals who have had visual experience.",
+        "B": "Congenitally blind individuals have never experienced visual perspective cues, size constancy in visual scenes, or the rectilinear architecture that Gregory's theory invokes. Without this lifetime of visual experience, the unconscious inferences that produce the illusion in sighted individuals never develop. This supports the constructivist view that the illusion is built from experience, not hardwired.",
+        "C": "Tactile perception is not inherently more accurate than vision for length judgments \u2014 in many contexts, vision is more precise. The absence of the illusion in blind participants is not about tactile superiority but about the absence of the learned visual-depth associations that cause the misperception.",
+        "D": "The illusion has not been 'unlearned' in the blind group because it was never learned in the first place. Congenitally blind individuals have no visual experience from which to develop the depth-based inferences that produce the illusion. This is not a case of unlearning but of never having acquired the perceptual bias."
+      },
+      "topic": "Perception / Visual Experience",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_percept_009",
+      "passage": null,
+      "stem": "If a researcher wanted to further test whether the M\u00fcller-Lyer illusion depends on learned depth cues, which additional study design would be most informative?",
+      "passageRef": "ps_percept_007",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Test infants under 6 months old using looking-time paradigms to determine if the illusion is present before significant visual experience accumulates."
+        },
+        {
+          "label": "B",
+          "text": "Test participants from the San community using a computerized version of the illusion displayed on a screen rather than printed on paper."
+        },
+        {
+          "label": "C",
+          "text": "Test Western adults after extensive training to identify the illusion, measuring whether the effect can be eliminated through awareness."
+        },
+        {
+          "label": "D",
+          "text": "Test adults who gained sight late in life after congenital cataract removal, comparing their illusion susceptibility to that of normally sighted adults."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "While testing infants could provide evidence about early perception, looking-time paradigms measure preferential looking, not perceived length. It would be methodologically difficult to determine whether an infant perceives the lines as different lengths versus simply finding one stimulus more visually interesting. The results would be ambiguous.",
+        "B": "Changing the display format (screen vs. paper) does not address the core question of whether learned depth cues are responsible. Both formats would contain the same geometric cues. This tests display medium, not the role of experience in the illusion.",
+        "C": "Training studies can show whether awareness reduces the illusion, but this addresses top-down cognitive control rather than whether the illusion originates from learned depth cues. Many visual illusions persist even when the viewer knows they are illusions, suggesting they operate at a level below conscious override.",
+        "D": "Adults with restored sight after congenital cataracts represent a natural experiment: they have had years of non-visual experience navigating the world but limited visual experience with depth cues and rectilinear environments. If they show a reduced M\u00fcller-Lyer effect compared to normally sighted adults, this would strongly support the hypothesis that the illusion depends on accumulated visual experience with depth and perspective cues \u2014 directly testing the constructivist prediction."
+      },
+      "topic": "Research Design / Perceptual Learning",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_percept_010",
+      "passage": "A behavioral economist studies decision-making under uncertainty using a medical scenario. Physicians are presented with the following information about a new cancer screening test: the test has a sensitivity of 95% (it correctly identifies 95% of people who have cancer) and a specificity of 90% (it correctly identifies 90% of people who do not have cancer). The base rate of the cancer in the population being screened is 1%. Physicians are asked: 'If a patient receives a positive test result, what is the probability that the patient actually has cancer?' The median answer given by physicians is 81%. The actual probability, calculated using Bayes' theorem, is approximately 8.8%.",
+      "stem": "The physicians' dramatic overestimation of the probability of cancer given a positive test is best explained by which cognitive bias?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Base rate neglect \u2014 the physicians failed to adequately incorporate the low prior probability of cancer when interpreting the positive test result."
+        },
+        {
+          "label": "B",
+          "text": "Anchoring bias \u2014 the physicians anchored on the 95% sensitivity figure and adjusted insufficiently downward."
+        },
+        {
+          "label": "C",
+          "text": "Availability heuristic \u2014 physicians overestimated the probability because cancer cases are emotionally salient and easily recalled."
+        },
+        {
+          "label": "D",
+          "text": "Confirmation bias \u2014 physicians interpreted the positive result as confirming their prior belief that the patient has cancer."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Base rate neglect is the classic explanation for this error. The 1% base rate means that in 1,000 people screened, only 10 have cancer (of whom 9.5 test positive) while 990 do not (of whom 99 test falsely positive). The positive predictive value is 9.5/(9.5 + 99) \u2248 8.8%. Physicians who estimate 81% are essentially ignoring the base rate and treating the sensitivity as the probability of disease given a positive test \u2014 a well-documented error known as the prosecutor's fallacy or the inverse fallacy.",
+        "B": "Anchoring on the 95% figure is a plausible contributing factor, but the primary error is not insufficient adjustment from an anchor \u2014 it is a fundamental failure to incorporate base rate information into the probability estimate. The physicians' median answer (81%) is not close to 95% minus some adjustment; it reflects a qualitatively different reasoning error where the prior probability is effectively treated as irrelevant.",
+        "C": "The availability heuristic involves estimating probability based on the ease with which examples come to mind. While physicians may more easily recall cancer cases than healthy patients, this experiment provides explicit numerical information (sensitivity, specificity, base rate). The error lies in how the physicians process these numbers, not in their recall of clinical examples.",
+        "D": "Confirmation bias involves selectively seeking or interpreting evidence that confirms a pre-existing belief. The physicians in this study do not have a prior belief about any specific patient \u2014 they are given a hypothetical scenario with explicit statistics. The error is computational (failing to use Bayes' theorem correctly), not motivational."
+      },
+      "topic": "Decision-Making Heuristics / Base Rate Neglect",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_percept_011",
+      "passage": null,
+      "stem": "A second group of physicians is given the same problem but with the information presented in natural frequencies rather than probabilities: 'Out of 1,000 people, 10 have cancer. Of those 10, about 9 or 10 will test positive. Of the 990 without cancer, about 99 will test positive. Of all those who test positive, how many actually have cancer?' In this format, the majority of physicians give the correct answer. This improvement best illustrates which concept?",
+      "passageRef": "ps_percept_010",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Framing effect \u2014 presenting the same information in a different format changes the conclusion people reach."
+        },
+        {
+          "label": "B",
+          "text": "Dual-process theory \u2014 the frequency format activates System 2 analytical thinking, whereas the probability format triggers System 1 heuristic processing."
+        },
+        {
+          "label": "C",
+          "text": "Chunking \u2014 the natural frequency format reduces the cognitive load by organizing information into smaller, manageable units."
+        },
+        {
+          "label": "D",
+          "text": "Ecological rationality \u2014 human reasoning is more accurate when information is presented in formats that match the structure of natural experience."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The framing effect describes how the presentation of information influences decisions, but it typically refers to changes in choice or evaluation due to positive vs. negative framing (e.g., '90% survival rate' vs. '10% mortality rate'). Here, the format change improves accuracy rather than shifting preference. While there is a framing element, this is not the best explanation because the mechanism is about cognitive processing of statistical formats, not about valence-driven preference reversal.",
+        "B": "Dual-process theory could potentially explain this if the frequency format demanded more analytical processing. However, the finding is actually the opposite: the frequency format makes the correct answer more intuitively accessible, requiring less effortful computation, not more. If anything, the frequency format makes System 1 reasoning more accurate rather than forcing a switch to System 2.",
+        "C": "Chunking refers to grouping individual items into larger meaningful units in working memory (e.g., remembering phone numbers as area code + prefix + suffix). The natural frequency format does not reduce the number of information units \u2014 it presents the same pieces of information in a different mathematical format. The improvement is in statistical reasoning, not memory capacity.",
+        "D": "Gigerenzer's ecological rationality framework argues that humans evolved to process information in the form of natural frequencies (out of 10 people, X had this outcome) rather than normalized probabilities. When base rate information is embedded in a frequency format, the mathematical structure makes the Bayesian calculation intuitive \u2014 physicians can simply count the relevant subgroups. This directly explains why the same information produces dramatically better reasoning when reformatted."
+      },
+      "topic": "Ecological Rationality / Information Formats",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_percept_012",
+      "passage": null,
+      "stem": "An emergency room physician must decide whether to order a CT scan for a patient with mild head trauma. Although clinical guidelines suggest observation is sufficient, the physician orders the scan because she recently treated a patient who deteriorated rapidly from an undetected subdural hematoma. This decision is most influenced by which heuristic?",
+      "passageRef": "ps_percept_010",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Availability heuristic \u2014 the vivid, recent memory of the deteriorating patient makes the probability of a similar outcome seem higher than it actually is."
+        },
+        {
+          "label": "B",
+          "text": "Anchoring and adjustment \u2014 the physician is anchored to the clinical guideline but adjusts upward based on her recent experience."
+        },
+        {
+          "label": "C",
+          "text": "Representativeness heuristic \u2014 the patient's symptoms represent a typical presentation of subdural hematoma."
+        },
+        {
+          "label": "D",
+          "text": "Sunk cost fallacy \u2014 the physician has already invested time evaluating the patient and feels compelled to continue with more testing."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The availability heuristic leads people to estimate the probability of an event based on how easily examples come to mind. The recent case of rapid deterioration is vivid, emotionally charged, and temporally close \u2014 all factors that increase cognitive availability. This inflated availability causes the physician to overestimate the probability of a similar bad outcome, driving the decision to order a CT scan despite guidelines suggesting otherwise.",
+        "B": "Anchoring and adjustment involves starting from an initial value and adjusting. The physician is not adjusting a numerical estimate from the guideline \u2014 she is overriding the guideline entirely based on an emotionally salient memory. The decision process is better described by the availability heuristic than by anchoring.",
+        "C": "The representativeness heuristic involves judging probability by how closely a case matches a prototype or category. The question states the patient has mild head trauma and clinical guidelines suggest observation is sufficient \u2014 meaning the presentation is not particularly representative of a subdural hematoma. The physician's decision is driven by a recent vivid case, not by pattern matching.",
+        "D": "The sunk cost fallacy involves continuing an action because of already-invested resources. The physician has not committed significant prior resources to the CT scan path \u2014 she is making an initial decision about whether to order the scan. The decision is forward-looking (preventing a bad outcome), not backward-looking (justifying past investment)."
+      },
+      "topic": "Availability Heuristic / Clinical Decision-Making",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_percept_013",
+      "passage": null,
+      "stem": "A person stares at a green square for 60 seconds, then shifts their gaze to a white wall. They report seeing a faint red square. This afterimage is best explained by which visual processing mechanism?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Lateral inhibition between adjacent photoreceptors in the retina amplifies the contrast between the fatigued and non-fatigued regions."
+        },
+        {
+          "label": "B",
+          "text": "The cones sensitive to green light become fatigued, reducing their response rate and shifting the balance of activity toward the red-sensitive and blue-sensitive cones when viewing white light."
+        },
+        {
+          "label": "C",
+          "text": "The opponent-process cells that were suppressed during green stimulation become temporarily hyperactive when the stimulus is removed, producing the complementary color percept."
+        },
+        {
+          "label": "D",
+          "text": "Top-down processing from the visual cortex generates an expectation of the complementary color, creating a perceptual illusion independent of retinal activity."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Lateral inhibition enhances edges and contrast between adjacent regions but does not explain the color-specific nature of afterimages. Lateral inhibition operates between spatially adjacent cells, not between color channels. It cannot explain why staring at green produces a specifically red afterimage rather than a generalized dimming.",
+        "B": "Opponent-process theory is the standard explanation for negative afterimages. During prolonged green stimulation, the green-red opponent channel is driven toward the green side, suppressing the red response. When the stimulus is removed and the person views a neutral (white) surface, the suppressed red side rebounds \u2014 becoming temporarily more active than baseline \u2014 producing the complementary red percept. While cone fatigue (trichromatic theory) contributes at the photoreceptor level, the opponent-process framework is the more complete and commonly tested MCAT explanation for why the afterimage is specifically the complementary color.",
+        "C": "Cone fatigue is a contributing mechanism: prolonged stimulation of M (green-sensitive) cones causes photopigment bleaching and adaptation, reducing their response when viewing white light. This shifts the balance toward L (red-sensitive) and S (blue-sensitive) cones. However, the trichromatic explanation alone does not fully account for why the afterimage is perceived as the specific complementary color. The opponent-process framework (choice B), which describes how color channels interact and rebound, provides the more direct and commonly cited MCAT-level explanation for complementary-color afterimages.",
+        "D": "Afterimages are bottom-up phenomena originating from photoreceptor fatigue, not top-down expectations. They persist even when the viewer does not expect them and cannot be voluntarily produced through expectation alone. The mechanism is retinal and automatic, not cortical and intentional."
+      },
+      "topic": "Color Vision / Trichromatic Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_percept_014",
+      "passage": null,
+      "stem": "A driver approaches a familiar intersection at dusk. Although the traffic light ahead is partially obscured by tree branches, the driver perceives a complete circular light. This perception is best explained by which Gestalt principle?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Closure \u2014 the visual system fills in missing information to perceive a complete, familiar form."
+        },
+        {
+          "label": "B",
+          "text": "Proximity \u2014 the visible portions of the light are close together and thus perceived as a single object."
+        },
+        {
+          "label": "C",
+          "text": "Similarity \u2014 the visible light segments are similar in color and brightness, causing them to be grouped as one object."
+        },
+        {
+          "label": "D",
+          "text": "Figure-ground \u2014 the light is perceived as the figure against the background of the tree branches."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The Gestalt principle of closure describes the visual system's tendency to perceive incomplete shapes as complete wholes. When part of the circular traffic light is hidden by branches, the brain fills in the gaps and perceives a complete circle. This is an automatic, pre-attentive process that allows rapid identification of familiar objects even when sensory input is incomplete.",
+        "B": "Proximity describes the tendency to group nearby elements together. While the visible portions of the light are spatially close, the key phenomenon here is not grouping separate elements \u2014 it is perceiving a single incomplete shape as complete. Proximity explains grouping of distinct elements, not the filling-in of missing parts of a single object.",
+        "C": "Similarity explains grouping of elements that share visual features (color, size, shape). The traffic light is not a collection of similar separate elements \u2014 it is a single partially occluded object. Similarity would apply if there were multiple lights being grouped, not if one light is being perceived as complete.",
+        "D": "Figure-ground segregation describes distinguishing an object (figure) from its background (ground). While the driver does perceive the light as figure against the background of branches, the specific phenomenon described \u2014 perceiving a complete shape from incomplete input \u2014 is closure, not figure-ground. Figure-ground explains which elements are seen as the object; closure explains how that object is perceived as complete."
+      },
+      "topic": "Gestalt Principles / Visual Perception",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_percept_015",
+      "passage": null,
+      "stem": "A student studying for an exam reads a sentence containing a typographical error but does not notice it, instead perceiving the intended word. This is most directly an example of which cognitive phenomenon?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Priming \u2014 prior exposure to related words activates the correct word in semantic memory, overriding the visual input."
+        },
+        {
+          "label": "B",
+          "text": "Inattentional blindness \u2014 the student's focused attention on comprehending the text causes them to miss the visual anomaly."
+        },
+        {
+          "label": "C",
+          "text": "Encoding specificity \u2014 the student encodes the word based on the context in which it appears rather than its physical features."
+        },
+        {
+          "label": "D",
+          "text": "Top-down processing \u2014 the student's expectations and knowledge of language override the bottom-up sensory information from the misspelled word."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Priming involves facilitated processing of a stimulus due to prior exposure to a related stimulus. While context does activate related concepts, the specific phenomenon of perceiving the intended word despite a typo is not about prior exposure to related words \u2014 it is about contextual expectations driving perception. Priming facilitates recognition speed; top-down processing actually overrides sensory input.",
+        "B": "Inattentional blindness involves completely missing an unexpected stimulus while attention is engaged elsewhere. The student is attending to the text \u2014 the typo is within the attended material, not outside it. The student processes the word but perceives it incorrectly (as the intended word), which is different from failing to notice a stimulus altogether.",
+        "C": "Encoding specificity (Tulving) is a principle of memory retrieval stating that memory performance depends on the match between encoding and retrieval contexts. This is a memory concept, not a perceptual one. The student's failure to see the typo is a real-time perceptual phenomenon, not a memory encoding issue.",
+        "D": "Top-down processing uses prior knowledge, expectations, and context to interpret sensory input. The student's knowledge of vocabulary, grammar, and the sentence's meaning creates an expectation of the intended word, which overrides the bottom-up visual information showing the misspelled version. This is a classic demonstration of how top-down processing can dominate bottom-up input when the context is strong and the discrepancy is small."
+      },
+      "topic": "Top-Down vs. Bottom-Up Processing",
+      "difficulty": "Easy"
+    }
+  ]
+}

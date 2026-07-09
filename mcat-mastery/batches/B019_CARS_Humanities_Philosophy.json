@@ -1,0 +1,507 @@
+{
+  "batch": "B019",
+  "section": "cars",
+  "sectionName": "Critical Analysis and Reasoning Skills",
+  "topicArea": "Humanities \u2014 Philosophy of Science & Ethics",
+  "questionCount": 15,
+  "answerDistribution": {
+    "A": 4,
+    "B": 4,
+    "C": 3,
+    "D": 4
+  },
+  "questions": [
+    {
+      "id": "cars_human_001",
+      "passage": "Thomas Kuhn's The Structure of Scientific Revolutions, published in 1962, introduced the concept of paradigm shifts and fundamentally altered how philosophers and historians understood scientific progress. Before Kuhn, the dominant view \u2014 logical positivism \u2014 held that science advanced through the steady accumulation of verified facts. Each discovery built upon the last, and the history of science was a story of linear, rational progress toward truth. Kuhn rejected this narrative. He argued that science alternates between periods of 'normal science,' in which researchers work within an accepted paradigm \u2014 a shared framework of theories, methods, and assumptions \u2014 and revolutionary periods in which anomalies accumulate until the old paradigm collapses and is replaced by an incommensurable new one.\n\nThe concept of incommensurability proved especially controversial. Kuhn claimed that scientists working in different paradigms literally see different worlds: a Ptolemaic astronomer and a Copernican do not merely disagree about planetary motion but perceive the sky itself differently. If paradigms are incommensurable \u2014 if there is no neutral observational language that transcends them \u2014 then the choice between paradigms cannot be settled by evidence alone. It becomes, in part, a social and psychological process: a matter of persuasion, generational change, and gestalt shifts rather than logical proof.\n\nCritics accused Kuhn of relativism \u2014 of denying that science makes genuine progress toward truth. If paradigm shifts are not driven by evidence, what distinguishes science from ideology or fashion? Kuhn spent the remainder of his career resisting this interpretation. He maintained that later paradigms are better than earlier ones at solving puzzles, even if 'better' cannot be defined in terms of closer approximation to an objective reality. Science progresses, Kuhn insisted, but it progresses from rather than toward \u2014 away from paradigms that fail, rather than toward a final truth.\n\nKarl Popper offered a very different account of scientific progress. For Popper, the hallmark of science is falsifiability: a theory is scientific only if it makes predictions that could, in principle, be shown to be wrong. Science progresses not by confirming theories but by refuting them \u2014 each falsification eliminates error and brings us closer to truth. Where Kuhn saw scientific change as a social process of paradigm replacement, Popper saw it as a rational process of conjecture and refutation.\n\nThe tension between these accounts remains unresolved. Practicing scientists often behave as Kuhn describes \u2014 defending the reigning paradigm against anomalies, resisting radical revision \u2014 while professing the Popperian ideal that they would abandon any theory the evidence contradicted.",
+      "stem": "The passage suggests that the most significant philosophical consequence of Kuhn's incommensurability thesis is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the choice between competing paradigms cannot be fully determined by evidence, introducing social and psychological factors into theory selection"
+        },
+        {
+          "label": "B",
+          "text": "scientific theories can never be tested against observational evidence"
+        },
+        {
+          "label": "C",
+          "text": "all paradigms are equally valid because no objective standard exists to compare them"
+        },
+        {
+          "label": "D",
+          "text": "scientists should abandon the attempt to test theories empirically"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The passage states that if paradigms are incommensurable, 'the choice between paradigms cannot be settled by evidence alone' and 'becomes, in part, a social and psychological process.' This is the core philosophical consequence: rational evidence underdetermines theory choice at moments of paradigm shift, leaving room for social factors.",
+        "B": "Kuhn did not argue that theories cannot be tested. Normal science involves extensive empirical testing within a paradigm. The incommensurability thesis holds that cross-paradigm comparison cannot be settled by evidence alone \u2014 not that evidence is irrelevant within a paradigm.",
+        "C": "Kuhn explicitly resisted the charge of relativism. He maintained that later paradigms are 'better' at puzzle-solving. The passage states he spent his career fighting this interpretation. Claiming all paradigms are equally valid goes beyond what Kuhn argued.",
+        "D": "Kuhn did not advocate abandoning empirical testing. Normal science is thoroughly empirical. The incommensurability thesis addresses what happens at paradigm boundaries, not the everyday practice of science."
+      },
+      "topic": "Author's Argument / Incommensurability",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_human_002",
+      "passage": null,
+      "passageRef": "cars_human_001",
+      "stem": "Based on the passage, Kuhn's claim that science 'progresses from rather than toward' is best understood as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an endorsement of Popper's falsificationism, since both involve eliminating error"
+        },
+        {
+          "label": "B",
+          "text": "a denial that science makes any progress at all"
+        },
+        {
+          "label": "C",
+          "text": "a redefinition of progress as movement away from failed paradigms rather than toward a final objective truth"
+        },
+        {
+          "label": "D",
+          "text": "an argument that later scientific theories are simpler than earlier ones"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "While both Kuhn and Popper involve the elimination of error, their mechanisms are fundamentally different. Popper sees falsification as a rational, evidence-driven process. Kuhn sees paradigm replacement as partly social. The surface similarity in 'moving away from failure' masks deep disagreements about the process and its rationality.",
+        "B": "The passage does not support interpreting this claim as a denial of progress. Kuhn maintained that later paradigms are 'better' at puzzle-solving. 'Progress from' still acknowledges improvement \u2014 it merely redefines the direction.",
+        "C": "Kuhn redefines progress not as convergence toward a final truth (which would require a paradigm-independent standard) but as movement away from paradigms that cannot account for anomalies. This allows him to maintain that science improves without committing to scientific realism \u2014 a nuanced position between naive realism and relativism.",
+        "D": "Simplicity is not discussed in the passage. Kuhn's criterion for progress is puzzle-solving effectiveness, not simplicity. This answer introduces a concept not addressed by the author."
+      },
+      "topic": "Interpretation / Reasoning Within the Text",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_human_003",
+      "passage": null,
+      "passageRef": "cars_human_001",
+      "stem": "The passage's final observation \u2014 that scientists behave as Kuhn describes while professing Popperian ideals \u2014 most directly illustrates which concept?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A gap between actual scientific practice and the idealized self-image of the scientific community"
+        },
+        {
+          "label": "B",
+          "text": "Paradigm incommensurability \u2014 scientists cannot compare Kuhn's and Popper's frameworks because they use different criteria for progress"
+        },
+        {
+          "label": "C",
+          "text": "Popper's superiority as a philosopher of science, since scientists claim to follow his method"
+        },
+        {
+          "label": "D",
+          "text": "Kuhn's relativism, since scientists do not actually follow any consistent methodology"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The passage highlights a tension between practice and ideology: scientists defend paradigms (Kuhnian behavior) while claiming they would abandon any theory the evidence contradicts (Popperian rhetoric). This gap between how science is actually done and how scientists describe their own enterprise is the central irony the author highlights.",
+        "B": "The observation is about the discrepancy between behavior and professed ideals, not about incommensurability between Kuhn and Popper as frameworks. Scientists understand both positions; the point is that their behavior follows one while their rhetoric follows the other.",
+        "C": "The fact that scientists profess Popperian ideals does not make Popper's account correct. The passage's point is precisely that practice diverges from the ideal \u2014 suggesting that Popper's account, while aspirational, may not accurately describe how science actually works.",
+        "D": "Kuhn is not arguing that scientists follow no methodology. Normal science is methodologically rigorous within a paradigm. The discrepancy between Kuhnian behavior and Popperian rhetoric shows the complexity of scientific practice, not its absence of method."
+      },
+      "topic": "Inference / Author's Observation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_human_004",
+      "passage": null,
+      "passageRef": "cars_human_001",
+      "stem": "A historian of science documents that the scientific community resisted plate tectonics theory for decades despite growing geological evidence because the established fixist paradigm was deeply embedded in graduate training, journal editorial practices, and funding structures. This example would best support:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Popper's view, because the eventual acceptance of plate tectonics demonstrates that evidence eventually falsifies incorrect theories"
+        },
+        {
+          "label": "B",
+          "text": "Both Kuhn and Popper equally, because the example involves both resistance and eventual acceptance"
+        },
+        {
+          "label": "C",
+          "text": "Neither Kuhn nor Popper, because plate tectonics is a geological theory, not a paradigm"
+        },
+        {
+          "label": "D",
+          "text": "Kuhn's view, because the resistance was driven by institutional and social factors rather than purely rational evaluation of evidence"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Popper's account predicts that falsifying evidence should lead to prompt theory rejection. The decades-long resistance despite growing evidence contradicts this prediction. The eventual acceptance is consistent with Popper, but the prolonged resistance is not \u2014 and the question asks about what the example best supports.",
+        "B": "While both accounts can explain parts of the story, the specific details highlighted \u2014 graduate training, editorial practices, funding structures \u2014 are institutional and social factors, not rational evidence evaluation. These details align specifically with Kuhn's sociological account, not with Popper's rational falsificationism.",
+        "C": "Plate tectonics is widely recognized as a paradigm shift in geology \u2014 from fixism to mobilism. The term paradigm applies to any fundamental theoretical framework in any science, not just physics.",
+        "D": "The example directly illustrates Kuhn's claim that paradigm change involves social and institutional factors. The fixist paradigm persisted not because the evidence was ambiguous but because the paradigm was embedded in training, publishing, and funding \u2014 exactly the social structures Kuhn identified as maintaining normal science and resisting revolutionary change."
+      },
+      "topic": "Application / Reasoning Beyond the Text",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_human_005",
+      "passage": null,
+      "passageRef": "cars_human_001",
+      "stem": "Which of the following, if true, would most strengthen Popper's position against Kuhn's?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Historical evidence that every major scientific revolution was preceded by a critical experiment whose results were incompatible with the reigning theory and directly prompted its abandonment"
+        },
+        {
+          "label": "B",
+          "text": "A survey showing that scientists report emotional attachment to their preferred theories"
+        },
+        {
+          "label": "C",
+          "text": "A finding that scientists in different paradigms use different experimental methods"
+        },
+        {
+          "label": "D",
+          "text": "Evidence that scientific textbooks are rewritten after paradigm shifts to present the new paradigm as the inevitable outcome of prior research"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "If every major revolution was directly triggered by a decisive falsifying experiment, this would support Popper's claim that science progresses through rational conjecture and refutation. It would undermine Kuhn's argument that paradigm change involves social persuasion and generational turnover by showing that evidence alone can and does drive revolutionary change.",
+        "B": "Emotional attachment to theories supports Kuhn's social-psychological account of paradigm defense, not Popper's rational falsificationism. This would strengthen Kuhn, not Popper.",
+        "C": "Different methods across paradigms supports Kuhn's incommensurability thesis. If paradigms involve different methods, cross-paradigm comparison is complicated \u2014 consistent with Kuhn, not Popper.",
+        "D": "Textbook revision after paradigm shifts supports Kuhn's claim that the history of science is reconstructed to appear rational and progressive. This is a Kuhnian observation about how normal science disguises its revolutionary origins. It would strengthen Kuhn, not Popper."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_human_006",
+      "passage": "The trolley problem, first formulated by Philippa Foot in 1967 and elaborated by Judith Jarvis Thomson, presents a deceptively simple moral dilemma: a runaway trolley is headed toward five people tied to the tracks. You can pull a lever to divert it to a side track, where it will kill one person. Most people say they would pull the lever. In a variant \u2014 the footbridge case \u2014 you are standing on a bridge above the tracks. The only way to stop the trolley is to push a large man off the bridge into its path, killing him to save the five. Most people say they would not push.\n\nThe philosophical puzzle is not which answer is correct but why the two cases feel so different when the arithmetic is identical: one death to save five. Utilitarian theory, which evaluates actions solely by their consequences, sees no moral distinction. In both cases, pulling the lever or pushing the man produces the best outcome (five saved, one lost). Deontological ethics, particularly in the Kantian tradition, draws a sharp line: using the man on the bridge as a mere means to save others violates his dignity as an end in himself. The lever case does not use the single victim as a means \u2014 his death is a foreseen but unintended side effect.\n\nThis distinction \u2014 between intending harm and merely foreseeing it \u2014 is formalized in the doctrine of double effect, which originates in Catholic moral theology. The doctrine holds that an action with both good and bad effects is permissible if: the action itself is not intrinsically wrong, the agent intends the good effect and merely foresees the bad, the bad effect is not the means to the good, and the good effect is proportionate to the bad. Pulling the lever satisfies all four conditions; pushing the man fails the third, because his death is the mechanism by which the five are saved.\n\nCritics of the doctrine argue that the distinction between intending and foreseeing is psychologically unstable and morally arbitrary. A surgeon who removes a cancerous organ, foreseeing but not intending the patient's pain, seems relevantly different from one who administers a lethal injection. But in the trolley cases, the physical directness of pushing versus lever-pulling seems to do the real moral work \u2014 we recoil from pushing not because of a philosophical distinction between means and side effects but because of an evolved aversion to direct physical violence against identifiable individuals.\n\nThis evolutionary explanation unsettles the moral landscape. If our intuitions are products of evolved psychology rather than moral reasoning, they may not track genuine moral truths. The utilitarian who insists we should push the man can argue that our reluctance is a cognitive bias \u2014 useful for navigating ancestral social environments but unreliable for complex modern dilemmas. The deontologist can counter that evolved intuitions, while not infallible, may encode moral wisdom that abstract calculation misses.",
+      "stem": "The passage suggests that the fundamental philosophical puzzle of the trolley problem is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "whether it is ever morally permissible to kill one person to save five"
+        },
+        {
+          "label": "B",
+          "text": "whether evolved psychological intuitions should be trusted over philosophical reasoning"
+        },
+        {
+          "label": "C",
+          "text": "whether utilitarianism or deontology is the correct moral framework"
+        },
+        {
+          "label": "D",
+          "text": "why people's moral intuitions diverge between cases that have identical utilitarian outcomes"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "While the permissibility of killing one to save five is a moral question the trolley problem raises, the passage explicitly states that 'the philosophical puzzle is not which answer is correct but why the two cases feel so different.' The puzzle is about the divergence in intuitions, not the simple permissibility question.",
+        "B": "The evolutionary explanation is introduced in the final two paragraphs as one possible account of the divergent intuitions. It is an attempt to explain the puzzle, not the puzzle itself.",
+        "C": "The passage uses the trolley problem to illustrate the tension between utilitarianism and deontology, but the puzzle is not about which framework is correct. It is about why identical outcomes produce different moral intuitions \u2014 a question that challenges both frameworks.",
+        "D": "The passage directly states this: the puzzle is 'why the two cases feel so different when the arithmetic is identical.' The lever case and the footbridge case have identical consequences (one death, five saved), yet most people respond differently. Explaining this divergence is the core philosophical challenge."
+      },
+      "topic": "Main Idea / Philosophical Puzzle",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_human_007",
+      "passage": null,
+      "passageRef": "cars_human_006",
+      "stem": "According to the passage, the doctrine of double effect distinguishes the lever case from the footbridge case on the grounds that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "in the footbridge case, the man's death is the means by which the five are saved, violating the doctrine's third condition"
+        },
+        {
+          "label": "B",
+          "text": "the person on the side track consented to the risk by being near the tracks"
+        },
+        {
+          "label": "C",
+          "text": "pulling a lever is a less violent action than pushing a person"
+        },
+        {
+          "label": "D",
+          "text": "the lever case produces a better outcome with fewer total deaths"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "The passage states that pushing the man 'fails the third condition, because his death is the mechanism by which the five are saved.' In the lever case, the single person's death is a foreseen side effect, not the means. This structural distinction \u2014 means versus side effect \u2014 is the doctrinal basis for treating the cases differently.",
+        "B": "Consent is not discussed in the passage and plays no role in the doctrine of double effect as presented. The doctrine concerns the agent's intentions and the causal structure of the action, not the victim's prior consent.",
+        "C": "The physical violence of pushing versus lever-pulling is discussed as an evolutionary-psychological explanation for our divergent intuitions, not as the doctrinal basis. The doctrine of double effect is a philosophical principle about intent and moral structure, not about the degree of physical force involved.",
+        "D": "Both cases have identical outcomes: one death, five saved. The doctrine of double effect does not distinguish cases based on consequences \u2014 that is the utilitarian approach. The doctrine focuses on the moral structure of the action (intent, means, and proportionality)."
+      },
+      "topic": "Comprehension / Doctrine of Double Effect",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_human_008",
+      "passage": null,
+      "passageRef": "cars_human_006",
+      "stem": "The passage presents the evolutionary explanation of divergent trolley intuitions as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a decisive refutation of deontological ethics"
+        },
+        {
+          "label": "B",
+          "text": "a morally neutral finding that supports neither utilitarianism nor deontology"
+        },
+        {
+          "label": "C",
+          "text": "an explanation that the author fully endorses over both philosophical frameworks"
+        },
+        {
+          "label": "D",
+          "text": "an unsettling challenge that both utilitarians and deontologists can incorporate into their arguments, though in different ways"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage does not present the evolutionary explanation as decisive. It notes that deontologists 'can counter that evolved intuitions may encode moral wisdom that abstract calculation misses.' The evolutionary account does not settle the debate.",
+        "B": "The passage shows that the evolutionary explanation is not neutral \u2014 it is 'unsettling' and creates argumentative opportunities for both sides. Utilitarians can use it to dismiss intuitions as cognitive biases; deontologists can use it to argue intuitions encode moral wisdom.",
+        "C": "The author presents the evolutionary explanation as one perspective among several without endorsing it. The passage maintains a balanced, analytical stance throughout, presenting multiple viewpoints without declaring a winner.",
+        "D": "The passage explicitly presents both reactions: the utilitarian argues our reluctance to push is a 'cognitive bias,' while the deontologist counters that intuitions 'may encode moral wisdom.' The evolutionary explanation destabilizes moral certainty without resolving the underlying philosophical dispute."
+      },
+      "topic": "Author's Tone / Reasoning Within the Text",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_human_009",
+      "passage": null,
+      "passageRef": "cars_human_006",
+      "stem": "A bioethicist argues that autonomous vehicles should be programmed to minimize total deaths in unavoidable accidents, even if this means the car deliberately steers into a single pedestrian to avoid a group of five. A deontologist would most likely object to this proposal on the grounds that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the car's algorithm cannot calculate the correct number of lives saved in real-time"
+        },
+        {
+          "label": "B",
+          "text": "programming the car to use one person as a means to save others treats that person as an instrument rather than as an end in themselves"
+        },
+        {
+          "label": "C",
+          "text": "autonomous vehicles should never be allowed on public roads"
+        },
+        {
+          "label": "D",
+          "text": "minimizing total deaths is always the morally correct objective"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Computational limitations are a practical concern, not a deontological objection. Deontological ethics objects to the moral structure of the action (using a person as a means), not to the feasibility of the calculation.",
+        "B": "This directly applies the Kantian principle discussed in the passage: using a person 'as a mere means to save others violates his dignity as an end in himself.' Programming the car to deliberately steer into one person to save five uses that person as an instrument \u2014 exactly the moral structure the doctrine of double effect prohibits (the person's death is the means, not a side effect).",
+        "C": "A blanket objection to autonomous vehicles is not a deontological argument about the trolley dilemma. It avoids the moral question rather than engaging with it.",
+        "D": "Minimizing total deaths is the utilitarian objective, not the deontological one. A deontologist would argue that the rightness of an action depends on its moral structure, not solely on its consequences."
+      },
+      "topic": "Application / Reasoning Beyond the Text",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_human_010",
+      "passage": null,
+      "passageRef": "cars_human_006",
+      "stem": "Which of the following findings would most weaken the utilitarian argument that our reluctance to push the man is merely a cognitive bias?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Brain imaging showing that the footbridge scenario activates emotional brain regions more than the lever scenario"
+        },
+        {
+          "label": "B",
+          "text": "Evidence that societies that override the aversion to direct interpersonal violence consistently develop higher rates of social instability and interpersonal harm"
+        },
+        {
+          "label": "C",
+          "text": "A survey showing that philosophy students are more likely to say they would push the man than non-philosophy students"
+        },
+        {
+          "label": "D",
+          "text": "Evidence that utilitarian reasoning is associated with higher scores on psychopathy scales"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Brain imaging showing emotional activation is consistent with the utilitarian claim that the reluctance is emotional rather than rational. This would support, not weaken, the utilitarian argument that the aversion is a bias.",
+        "B": "If overriding the aversion to direct violence leads to social instability and harm, this suggests the intuition serves a valuable social function \u2014 it is not merely a bias but an evolved moral safeguard. This would support the deontological counter-argument that intuitions 'encode moral wisdom that abstract calculation misses,' directly weakening the utilitarian dismissal of the intuition as a mere cognitive bias.",
+        "C": "Philosophy students being more willing to push the man could suggest that training in abstract reasoning overrides the intuition, which would support the utilitarian view that the reluctance is a bias that education can correct. This strengthens rather than weakens the utilitarian argument.",
+        "D": "While this finding might cast suspicion on utilitarian reasoning, it is an ad hominem observation about the psychology of utilitarians rather than a substantive challenge to the utilitarian argument itself. The truth of an ethical position is independent of the psychological profile of those who hold it."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_human_011",
+      "passage": "Michel Foucault argued that medical knowledge is never merely descriptive \u2014 it is always entangled with power. The clinical gaze, as he termed it, does not passively observe the sick body but actively constitutes it as an object of knowledge and intervention. Before the birth of the clinic in the late eighteenth century, illness was understood as an imbalance of humors or a disruption of the patient's lived experience. The physician listened to the patient's narrative. With the rise of clinical medicine, the body became a legible text to be read through physical examination, laboratory analysis, and eventually imaging technologies. The patient's subjective experience was displaced by objective signs \u2014 symptoms became data points, and the physician's interpretation replaced the patient's story.\n\nFoucault's analysis was not merely historical. He argued that medical institutions exercise a form of disciplinary power: they classify bodies as normal or pathological, prescribe behaviors, and enforce compliance through surveillance and documentation. The medical record \u2014 seemingly a neutral tool for tracking patient information \u2014 functions as a technology of power, fixing the patient's identity in bureaucratic categories that follow them through the healthcare system. To be diagnosed is to be subjected to a regime of truth that determines what is real about one's own body.\n\nCritics from within medicine argue that Foucault's analysis, while illuminating, dangerously undervalues the genuine epistemic achievements of clinical science. Antibiotics cure infections not because of power relations but because of biochemistry. To reduce medical knowledge to an expression of power is to flirt with a nihilism that could undermine public trust in interventions that save millions of lives. The challenge, these critics suggest, is to acknowledge the role of power in shaping medical knowledge while preserving the capacity to distinguish between knowledge that works and ideology that merely claims to.",
+      "stem": "Foucault's concept of the 'clinical gaze' primarily refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the compassionate attention that physicians direct toward suffering patients"
+        },
+        {
+          "label": "B",
+          "text": "the diagnostic technologies (X-rays, MRIs) that allow physicians to see inside the body"
+        },
+        {
+          "label": "C",
+          "text": "the mode of medical perception that constitutes the body as an object of knowledge, replacing the patient's subjective narrative with objective clinical signs"
+        },
+        {
+          "label": "D",
+          "text": "the patient's own experience of being observed during a medical examination"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The clinical gaze is not about compassion. Foucault describes it as a mode of perception that objectifies the body \u2014 it actively constitutes the body as a medical object. It represents a shift away from attending to the patient's narrative, not a compassionate engagement with it.",
+        "B": "Diagnostic technologies are tools that extend the clinical gaze, but the concept is broader. It refers to the entire epistemological framework in which the body becomes a text to be read through examination and analysis \u2014 not any specific technology.",
+        "C": "The passage describes the clinical gaze as a mode of perception that 'does not passively observe the sick body but actively constitutes it as an object of knowledge.' It displaced the patient's subjective experience with objective signs, transforming symptoms into data points and replacing the patient's story with the physician's interpretation. This is the core of Foucault's concept.",
+        "D": "The patient's experience of being observed might relate to the phenomenology of medical encounters, but Foucault's concept focuses on the physician's mode of perception and its epistemological and power implications, not on the patient's subjective experience of being watched."
+      },
+      "topic": "Comprehension / Key Concept",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_human_012",
+      "passage": null,
+      "passageRef": "cars_human_011",
+      "stem": "According to the passage, Foucault would most likely view a patient's electronic health record as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a neutral and objective repository of medical information that improves care coordination"
+        },
+        {
+          "label": "B",
+          "text": "a technology of disciplinary power that fixes the patient's identity in bureaucratic categories"
+        },
+        {
+          "label": "C",
+          "text": "an outdated system that should be replaced with patient-controlled narratives"
+        },
+        {
+          "label": "D",
+          "text": "a tool that empowers patients by giving them access to their own medical information"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Foucault explicitly argues that the medical record is not neutral. The passage states it 'functions as a technology of power, fixing the patient's identity in bureaucratic categories.' Calling it neutral contradicts Foucault's analysis.",
+        "B": "The passage directly states that 'the medical record \u2014 seemingly a neutral tool for tracking patient information \u2014 functions as a technology of power.' An electronic health record extends this function: it encodes diagnoses, labels, and classifications that follow the patient through the healthcare system, determining how they are perceived and treated. Foucault would view it as an instrument of surveillance and classification.",
+        "C": "Foucault's analysis is descriptive and critical, not prescriptive. He does not argue for replacing medical records with patient narratives \u2014 he analyzes how medical documentation functions as a power mechanism. Foucault is a theorist of power, not a healthcare reformer.",
+        "D": "Patient access to records might be a practical improvement, but Foucault's concern is not about access. It is about how the record constitutes the patient as an object of medical knowledge and power. Having access to one's own record does not change the disciplinary function of the categories themselves."
+      },
+      "topic": "Application / Foucault's Framework",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_human_013",
+      "passage": null,
+      "passageRef": "cars_human_011",
+      "stem": "The critics' argument that 'antibiotics cure infections not because of power relations but because of biochemistry' is best understood as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a concession that Foucault is entirely correct about the social construction of medical knowledge"
+        },
+        {
+          "label": "B",
+          "text": "a defense of medical realism \u2014 the claim that medical interventions have real, power-independent efficacy that Foucault's framework cannot adequately account for"
+        },
+        {
+          "label": "C",
+          "text": "an ad hominem attack on Foucault's credentials as a philosopher rather than a physician"
+        },
+        {
+          "label": "D",
+          "text": "an argument that all medical knowledge is free from the influence of power relations"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The critics explicitly disagree with reducing medical knowledge to an expression of power. The antibiotic example is meant to show that some medical knowledge works independently of power dynamics \u2014 the opposite of a concession.",
+        "B": "The critics defend the 'genuine epistemic achievements of clinical science' and argue that medical knowledge can be distinguished from ideology based on whether it works. This is medical realism: the claim that antibiotics' efficacy is a fact about biochemistry, not a product of power relations. Foucault's framework, they argue, cannot adequately account for knowledge that simply works regardless of who holds power.",
+        "C": "The argument addresses the substance of Foucault's claims (whether medical knowledge is reducible to power), not Foucault's personal qualifications. It is a philosophical counter-argument, not an ad hominem attack.",
+        "D": "The critics do not claim all medical knowledge is free from power. They acknowledge that power shapes medical knowledge while arguing that this does not exhaust its nature. They propose a middle ground: 'acknowledge the role of power while preserving the capacity to distinguish between knowledge that works and ideology.' This is more nuanced than claiming complete independence from power."
+      },
+      "topic": "Reasoning Within the Text / Counter-Argument",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_human_014",
+      "passage": null,
+      "passageRef": "cars_human_011",
+      "stem": "Suppose a pharmaceutical company funds research that produces evidence supporting the efficacy of its product, and independent researchers later find that the company selectively published favorable results while suppressing unfavorable ones. This scenario would:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "support the critics of Foucault by demonstrating that medical evidence is objective and independent of institutional interests"
+        },
+        {
+          "label": "B",
+          "text": "undermine both Foucault and his critics by showing that neither framework can account for corporate misconduct"
+        },
+        {
+          "label": "C",
+          "text": "support Foucault's analysis by illustrating how economic power shapes what counts as medical knowledge"
+        },
+        {
+          "label": "D",
+          "text": "be irrelevant to the debate because pharmaceutical companies are not medical institutions in Foucault's sense"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Selective publication funded by a pharmaceutical company directly contradicts the claim that medical evidence is objective and independent. It shows that institutional interests shape what knowledge is produced and disseminated \u2014 supporting Foucault's critics' concerns, not the critics themselves.",
+        "B": "Both frameworks can account for this scenario. Foucault's framework explicitly predicts that power relations shape knowledge production. The critics would call this a case where power corrupted the knowledge-production process \u2014 exactly what they warn against when medical realism is abandoned.",
+        "C": "Selective publication by a profit-motivated company is a textbook illustration of Foucault's claim that knowledge and power are entangled. The company's economic power determines which results enter the medical literature, shaping what physicians and patients believe about the drug. The 'regime of truth' about the drug's efficacy is structured by corporate interests, not solely by biochemical reality.",
+        "D": "Pharmaceutical companies are deeply embedded in medical institutions \u2014 they fund research, shape clinical guidelines, and influence prescribing behavior. Foucault's analysis of power in medical knowledge extends to any institution that produces or controls medical knowledge."
+      },
+      "topic": "Application / Reasoning Beyond the Text",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_human_015",
+      "passage": null,
+      "passageRef": "cars_human_011",
+      "stem": "The author's overall tone in presenting Foucault's analysis and the critics' response can best be described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dismissive of Foucault and supportive of the critics' defense of medical realism"
+        },
+        {
+          "label": "B",
+          "text": "entirely supportive of Foucault and hostile toward the medical establishment"
+        },
+        {
+          "label": "C",
+          "text": "balanced \u2014 presenting Foucault's analysis as illuminating while acknowledging the critics' legitimate concerns about undermining trust in effective medical interventions"
+        },
+        {
+          "label": "D",
+          "text": "indifferent to both positions, presenting them without any evaluative judgment"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The author presents Foucault's analysis without dismissing it. The passage describes the clinical gaze, disciplinary power, and technologies of power in detail and without sarcasm or rejection.",
+        "B": "The author is not hostile toward medicine. The critics' points are presented seriously and sympathetically \u2014 the passage notes their concern about 'nihilism that could undermine public trust in interventions that save millions of lives,' a concern the author does not dismiss.",
+        "C": "The author presents Foucault's analysis as revealing important truths about the entanglement of knowledge and power while giving the critics space to articulate a genuine concern: that reducing medical knowledge to power risks undermining effective interventions. The final sentence \u2014 proposing a middle ground that acknowledges power while preserving epistemic standards \u2014 reflects the author's balanced stance.",
+        "D": "The author does make evaluative judgments: calling Foucault's analysis 'illuminating' and the critics' concern about 'nihilism' legitimate. The final sentence proposes a synthesis, which is an evaluative position, not indifference."
+      },
+      "topic": "Author's Tone / Main Idea",
+      "difficulty": "Easy"
+    }
+  ]
+}

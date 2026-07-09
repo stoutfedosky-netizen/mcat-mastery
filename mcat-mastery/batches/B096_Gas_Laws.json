@@ -1,0 +1,338 @@
+{
+  "batch": "B096",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Gas Laws & Ideal Gases",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_gas_001",
+      "passage": "A chemistry student studies gas behavior. She has a sealed container with 2.0 mol of an ideal gas at 300 K and 1.0 atm. She performs experiments varying pressure, volume, temperature, and amount to verify the ideal gas law (PV = nRT, R = 0.0821 L·atm/mol·K). She also studies Dalton's law of partial pressures in a gas mixture containing O₂, N₂, and CO₂, and examines deviations from ideal behavior at high pressures and low temperatures using the van der Waals equation.",
+      "stem": "Using PV = nRT, the volume of 2.0 mol of ideal gas at 300 K and 1.0 atm is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "49.2 L — V = nRT/P = (2.0)(0.0821)(300)/1.0 = 49.26 L"
+        },
+        {
+          "label": "B",
+          "text": "22.4 L"
+        },
+        {
+          "label": "C",
+          "text": "24.6 L"
+        },
+        {
+          "label": "D",
+          "text": "6.0 L"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. V = nRT/P = (2.0 mol)(0.0821 L·atm/mol·K)(300 K) / (1.0 atm) = 49.26 L ≈ 49.2 L. This is about twice the molar volume at STP (22.4 L/mol) because there are 2 moles, and the temperature (300 K) is slightly above STP (273.15 K). Always check units: R = 0.0821 requires pressure in atm, volume in L, and temperature in K.",
+        "B": "22.4 L is the molar volume of an ideal gas at STP (0°C, 1 atm) for 1 mole. Here, n = 2 mol and T = 300 K (not 273 K), so the volume is larger.",
+        "C": "24.6 L would be the volume of 1 mol at 300 K and 1 atm: (1)(0.0821)(300)/1 = 24.6 L. The question specifies 2 mol, doubling this value.",
+        "D": "6.0 L does not correspond to any correct calculation with the given values."
+      },
+      "topic": "Ideal Gas Law / PV = nRT",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_gas_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If the student doubles the absolute temperature while keeping pressure constant, the volume will:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "halve (V is inversely proportional to T at constant P)"
+        },
+        {
+          "label": "B",
+          "text": "double — Charles's law states that V is directly proportional to T at constant P: V₁/T₁ = V₂/T₂"
+        },
+        {
+          "label": "C",
+          "text": "remain unchanged because temperature does not affect volume"
+        },
+        {
+          "label": "D",
+          "text": "quadruple"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Volume is directly proportional to temperature, not inversely. Boyle's law (V ∝ 1/P at constant T) shows the inverse relationship with pressure, not temperature.",
+        "B": "Correct. Charles's law: V ∝ T (at constant P and n). V₁/T₁ = V₂/T₂. If T doubles (300 K → 600 K) at constant P: V₂ = V₁ × (T₂/T₁) = 49.2 × (600/300) = 98.4 L. Gas molecules move faster at higher temperatures, exerting more pressure on the container walls; at constant pressure, the volume must increase to accommodate this. Temperature must always be in Kelvin — using Celsius gives incorrect results because Charles's law requires an absolute scale.",
+        "C": "Temperature strongly affects gas volume. Higher temperature means greater molecular kinetic energy and faster molecular speeds, requiring more volume at constant pressure.",
+        "D": "Quadrupling would require T to increase fourfold. Doubling T doubles V (linear relationship)."
+      },
+      "topic": "Charles's Law / V ∝ T",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_gas_003",
+      "passage": null,
+      "stem": "Boyle's law states that at constant temperature:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "pressure and volume are directly proportional (P ∝ V)"
+        },
+        {
+          "label": "B",
+          "text": "pressure and temperature are inversely proportional"
+        },
+        {
+          "label": "C",
+          "text": "pressure and volume are inversely proportional (PV = constant) — doubling the pressure halves the volume"
+        },
+        {
+          "label": "D",
+          "text": "volume and amount of gas are independent"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "P and V are inversely proportional, not directly. If they were directly proportional, increasing pressure would increase volume, which contradicts physical intuition (squeezing a gas makes it smaller, not larger).",
+        "B": "The relationship between pressure and temperature (at constant V) is Gay-Lussac's law (P ∝ T), not Boyle's law. Boyle's law specifically addresses the P-V relationship at constant T.",
+        "C": "Correct. Boyle's law: P₁V₁ = P₂V₂ (at constant T and n). If pressure doubles, volume halves (and vice versa). This reflects the mechanical relationship: compressing a gas into a smaller volume increases the frequency of molecular collisions with the walls, increasing pressure. Boyle's law applies well to ideal gases and is a good approximation for real gases at moderate pressures. It is the basis of many MCAT calculations involving pressure-volume changes in closed systems.",
+        "D": "Volume and amount of gas are directly proportional (Avogadro's law: V ∝ n at constant T and P). This is a separate gas law, not Boyle's law, and the relationship is not independent."
+      },
+      "topic": "Boyle's Law / P ∝ 1/V",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_gas_004",
+      "passage": null,
+      "stem": "Dalton's law of partial pressures states that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the total pressure of a gas mixture equals the sum of the partial pressures of each component — P_total = P₁ + P₂ + P₃ + ..., where each partial pressure is proportional to its mole fraction: Pᵢ = χᵢ × P_total"
+        },
+        {
+          "label": "B",
+          "text": "each gas in a mixture exerts the same partial pressure regardless of its mole fraction"
+        },
+        {
+          "label": "C",
+          "text": "gases in a mixture react chemically to produce a single combined pressure"
+        },
+        {
+          "label": "D",
+          "text": "the total pressure of a gas mixture equals the product of the partial pressures of each component"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Dalton's law: P_total = ΣPᵢ. Each gas behaves independently and contributes a partial pressure proportional to its mole fraction (χᵢ = nᵢ/n_total). Example: air at 1 atm contains ~78% N₂, ~21% O₂, ~1% Ar: P_N₂ = 0.78 atm, P_O₂ = 0.21 atm. In physiology, Dalton's law is used to calculate alveolar gas partial pressures (P_AO₂ = F_IO₂ × (P_atm - P_H₂O) - P_ACO₂/R), which determine gas exchange driving pressures.",
+        "B": "Partial pressure depends on mole fraction. A gas present at higher mole fraction contributes more to the total pressure. N₂ at 78% of the mixture exerts far more partial pressure than CO₂ at 0.04%.",
+        "C": "In an ideal gas mixture, gases do not interact or react — they behave as if each gas were alone in the container. Dalton's law assumes non-interacting gas molecules.",
+        "D": "Partial pressures are summed, not multiplied. The product of partial pressures has no physical meaning in this context."
+      },
+      "topic": "Dalton's Law / Partial Pressures",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_gas_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The student notes that real gases deviate from ideal behavior at very high pressures and very low temperatures. This is because at these conditions:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "gas molecules have zero kinetic energy and stop moving entirely"
+        },
+        {
+          "label": "B",
+          "text": "the ideal gas law perfectly describes all conditions without any deviation"
+        },
+        {
+          "label": "C",
+          "text": "intermolecular attractions become significant (low T reduces kinetic energy, allowing attractive forces to dominate) and molecular volume is no longer negligible relative to container volume (high P compresses gas into small space)"
+        },
+        {
+          "label": "D",
+          "text": "gas molecules undergo nuclear fusion"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Gas molecules never have zero kinetic energy (that would require absolute zero, 0 K, which is unattainable by the third law of thermodynamics). Even at very low temperatures, molecules retain some kinetic energy.",
+        "B": "No real gas perfectly obeys the ideal gas law at all conditions. The ideal gas law is an approximation that works well at high temperatures and low pressures (where intermolecular distances are large and kinetic energy dominates).",
+        "C": "Correct. The ideal gas law assumes: (1) no intermolecular forces, (2) negligible molecular volume. These assumptions break down at: high pressure (molecules are close together — their finite volume matters, and attractive forces are significant) and low temperature (molecules move slowly — insufficient kinetic energy to overcome van der Waals attractions). The van der Waals equation accounts for these: (P + a/V²)(V - b) = nRT, where 'a' corrects for intermolecular attractions and 'b' corrects for molecular volume. Real gases liquefy at low T and high P precisely because of intermolecular forces.",
+        "D": "Nuclear fusion requires temperatures of millions of kelvin and extreme pressures found in stellar cores, not in laboratory gas experiments. Gas behavior at high pressure involves intermolecular forces, not nuclear reactions."
+      },
+      "topic": "Real Gases / van der Waals Equation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_gas_006",
+      "passage": null,
+      "stem": "At STP (standard temperature and pressure: 0°C, 1 atm), one mole of any ideal gas occupies:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.0 L"
+        },
+        {
+          "label": "B",
+          "text": "22.4 L — this molar volume is constant for all ideal gases at STP regardless of molecular identity, as predicted by Avogadro's law"
+        },
+        {
+          "label": "C",
+          "text": "100 L"
+        },
+        {
+          "label": "D",
+          "text": "10.0 L"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "1.0 L for 1 mol at STP would require P = nRT/V = (1)(0.0821)(273)/1 = 22.4 atm. At 1 atm, the volume is much larger.",
+        "B": "Correct. At STP (273.15 K, 1 atm): V = nRT/P = (1)(0.0821)(273.15)/1 = 22.4 L. Avogadro's law (V ∝ n at constant T, P) means equal volumes of gases at the same T and P contain equal numbers of molecules. The 22.4 L/mol value is one of the most useful conversion factors for gas stoichiometry on the MCAT. Note: at the newer IUPAC standard (25°C, 1 bar), the molar volume is ~24.8 L, but MCAT typically uses 22.4 L at 0°C and 1 atm.",
+        "C": "100 L would require either more moles or higher temperature. For 1 mol at 1 atm: T = PV/nR = (1)(100)/(1)(0.0821) = 1218 K (945°C).",
+        "D": "10.0 L is too small. V = nRT/P gives 22.4 L at STP."
+      },
+      "topic": "Molar Volume at STP / Avogadro's Law",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_gas_007",
+      "passage": null,
+      "stem": "Graham's law of effusion states that the rate of effusion of a gas is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "directly proportional to its molar mass — heavier gases effuse faster"
+        },
+        {
+          "label": "B",
+          "text": "independent of molar mass — all gases effuse at the same rate"
+        },
+        {
+          "label": "C",
+          "text": "inversely proportional to the square root of its molar mass — lighter gases effuse faster because their molecules have higher average velocities at a given temperature"
+        },
+        {
+          "label": "D",
+          "text": "proportional to the square of its molar mass"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The relationship is inverse, not direct. Heavier gases effuse slower because their molecules have lower average velocities at a given temperature.",
+        "B": "Effusion rate depends strongly on molar mass. Light gases (H₂, He) effuse much faster than heavy gases (CO₂, SF₆) at the same temperature.",
+        "C": "Correct. Graham's law: rate₁/rate₂ = √(M₂/M₁). At a given temperature, all gases have the same average kinetic energy (KE = ³⁄₂kT), so lighter molecules must move faster: v_rms = √(3RT/M). Faster molecules escape through a small opening (effuse) more quickly. Example: H₂ (M = 2) effuses 4× faster than O₂ (M = 32): √(32/2) = √16 = 4. This principle is used in uranium enrichment (²³⁵UF₆ vs ²³⁸UF₆ diffusion), helium balloon deflation (He effuses through latex faster than N₂), and explains why hydrogen is lost from Earth's atmosphere.",
+        "D": "The relationship involves the square root of molar mass (inverse), not the square. Proportionality to M² would predict enormous rate differences between gases, which is not observed."
+      },
+      "topic": "Graham's Law / Effusion Rate",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_gas_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The average kinetic energy of gas molecules is determined by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the molar mass of the gas — heavier molecules have more kinetic energy"
+        },
+        {
+          "label": "B",
+          "text": "the pressure of the gas only"
+        },
+        {
+          "label": "C",
+          "text": "the volume of the container"
+        },
+        {
+          "label": "D",
+          "text": "temperature alone — KE_avg = ³⁄₂kT (or ³⁄₂RT per mole), independent of molecular identity or mass"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Molar mass does not affect average kinetic energy — it affects velocity. At the same temperature, a heavy molecule (CO₂) and a light molecule (H₂) have the same KE_avg, but H₂ moves much faster (v = √(2KE/m)).",
+        "B": "Pressure is related to the rate of molecular collisions with the walls but is not the sole determinant of kinetic energy. Temperature determines KE; pressure reflects the combined effects of molecular speed, number density, and collision frequency.",
+        "C": "Container volume affects gas density and pressure but not the average kinetic energy of individual molecules. KE depends only on temperature.",
+        "D": "Correct. The average translational kinetic energy of a gas molecule depends only on absolute temperature: KE_avg = ³⁄₂kBT (per molecule) or ³⁄₂RT (per mole), where kB = Boltzmann's constant and R = gas constant. This is a central result of kinetic molecular theory. At the same temperature, all ideal gas molecules (regardless of mass, size, or identity) have the same average kinetic energy. However, lighter molecules achieve this energy with higher velocities (KE = ½mv²), which is why lighter gases effuse and diffuse faster."
+      },
+      "topic": "Kinetic Energy / Temperature Dependence",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_gas_009",
+      "passage": null,
+      "stem": "A gas mixture contains 3.0 mol N₂ and 1.0 mol O₂ at a total pressure of 2.0 atm. The partial pressure of O₂ is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2.0 atm"
+        },
+        {
+          "label": "B",
+          "text": "1.0 atm"
+        },
+        {
+          "label": "C",
+          "text": "1.5 atm"
+        },
+        {
+          "label": "D",
+          "text": "0.50 atm — P_O₂ = χ_O₂ × P_total = (1.0/4.0) × 2.0 = 0.50 atm"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "2.0 atm is the total pressure, not the partial pressure of O₂. O₂ accounts for only 25% of the mixture by moles.",
+        "B": "1.0 atm would be the partial pressure if O₂ were 50% of the mixture (χ = 0.5). O₂ is only 25% (1 mol out of 4 total).",
+        "C": "1.5 atm is the partial pressure of N₂ (χ_N₂ = 3/4 = 0.75; P_N₂ = 0.75 × 2.0 = 1.5 atm), not O₂.",
+        "D": "Correct. Mole fraction of O₂: χ_O₂ = n_O₂/n_total = 1.0/(3.0 + 1.0) = 1/4 = 0.25. Partial pressure: P_O₂ = χ_O₂ × P_total = 0.25 × 2.0 = 0.50 atm. Similarly, P_N₂ = (3/4)(2.0) = 1.50 atm. Check: P_N₂ + P_O₂ = 1.50 + 0.50 = 2.0 atm = P_total. This type of calculation is frequently used in respiratory physiology to determine alveolar gas partial pressures."
+      },
+      "topic": "Partial Pressure Calculation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_gas_010",
+      "passage": null,
+      "stem": "The root-mean-square (rms) speed of gas molecules is given by v_rms = √(3RT/M). At the same temperature, which gas has the highest rms speed?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "He (M = 4 g/mol) — the lightest gas has the highest rms speed because v_rms is inversely proportional to √M"
+        },
+        {
+          "label": "B",
+          "text": "O₂ (M = 32 g/mol)"
+        },
+        {
+          "label": "C",
+          "text": "N₂ (M = 28 g/mol)"
+        },
+        {
+          "label": "D",
+          "text": "CO₂ (M = 44 g/mol)"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. v_rms = √(3RT/M). At constant T, v_rms ∝ 1/√M. The lightest gas (He, M = 4) has the highest speed: v_rms(He)/v_rms(CO₂) = √(44/4) = √11 ≈ 3.3, so He molecules move ~3.3× faster than CO₂ at the same temperature. This is why helium balloons deflate quickly (He effuses through latex pores rapidly) and why helium is used to detect gas leaks (it diffuses into and out of small spaces very quickly).",
+        "B": "O₂ (M = 32) is lighter than CO₂ but heavier than N₂ and He. It has the second-slowest rms speed among these options.",
+        "C": "N₂ (M = 28) is lighter than O₂ and CO₂ but much heavier than He. It has a moderate rms speed — higher than O₂ and CO₂ but lower than He.",
+        "D": "CO₂ is the heaviest gas listed (M = 44) and therefore has the lowest rms speed. Its molecules move slowest at a given temperature."
+      },
+      "topic": "RMS Speed / Molecular Velocity",
+      "difficulty": "Medium"
+    }
+  ]
+}

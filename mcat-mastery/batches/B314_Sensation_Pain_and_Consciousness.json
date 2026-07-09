@@ -1,0 +1,225 @@
+{
+  "batch": "B314",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Sensation, Pain & Consciousness",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 3,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "ps_pain_gate_control_314_q0",
+      "passage": "A pain clinic taught patients with chronic low-back pain several nonpharmacological strategies, including gentle movement, heat, massage, and attention-shifting exercises. Patients reported that massage and movement sometimes reduced the intensity of pain even when the underlying injury had not changed. Clinicians explained that pain perception depends not only on nociceptive input but also on spinal modulation, attention, emotion, and expectations.",
+      "usePrevPassage": false,
+      "stem": "What did patients report about massage and movement?",
+      "choices": {
+        "D": "They sometimes reduced pain intensity even when the injury had not changed",
+        "A": "They always repaired the injury immediately",
+        "B": "They made pain imaginary",
+        "C": "They eliminated all nociceptive input"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The passage states that pain intensity sometimes decreased without a change in the underlying injury, showing that pain experience can be modulated.",
+        "A": "The passage does not support they always repaired the injury immediately; it points instead to they sometimes reduced pain intensity even when the injury had not changed.",
+        "B": "The passage does not support they made pain imaginary; it points instead to they sometimes reduced pain intensity even when the injury had not changed.",
+        "C": "The passage does not support they eliminated all nociceptive input; it points instead to they sometimes reduced pain intensity even when the injury had not changed."
+      },
+      "topic": "Pain Perception",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_pain_gate_control_314_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "This explanation most directly reflects which concept?",
+      "choices": {
+        "C": "Gate-control and top-down modulation of pain",
+        "A": "Object permanence",
+        "B": "Social facilitation",
+        "D": "Role exit"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Pain depends on nociceptive input plus modulation by the spinal cord, attention, emotion, and expectations. That fits gate-control and top-down accounts of pain.",
+        "A": "The passage does not support object permanence; it points instead to gate-control and top-down modulation of pain.",
+        "B": "The passage does not support social facilitation; it points instead to gate-control and top-down modulation of pain.",
+        "D": "The passage does not support role exit; it points instead to gate-control and top-down modulation of pain."
+      },
+      "topic": "Pain Perception",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_pain_gate_control_314_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why should causal language be used cautiously for this passage?",
+      "choices": {
+        "B": "The design leaves room for alternative explanations or selection effects",
+        "A": "The passage contains no measurable variables",
+        "C": "All participant reports are automatically false",
+        "D": "The topic is unrelated to P/S content"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The passage describes patient reports and clinical explanation rather than a randomized trial that isolates each strategy\u2019s causal effect.",
+        "A": "The passage includes concrete measures or observations, so this is incorrect.",
+        "C": "Self-report can have limitations, but it is not automatically false.",
+        "D": "The topic fits psychological, social, or behavioral science content."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_pain_gate_control_314_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application best follows from the passage?",
+      "choices": {
+        "A": "Teach patients that real pain can fluctuate with context and nervous-system modulation",
+        "B": "Ignore the social or behavioral context described",
+        "C": "Use a one-size-fits-all intervention even when the passage shows different barriers",
+        "D": "Assume the measured pattern cannot be changed"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This application preserves the reality of pain while explaining why attention, emotion, and sensory input can change its intensity.",
+        "B": "Ignoring the described context would miss the mechanism emphasized in the passage.",
+        "C": "A uniform intervention would not address the specific pattern described.",
+        "D": "The passage supports practical response rather than fatalism."
+      },
+      "topic": "Pain Perception",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_pain_gate_control_314_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most defensible?",
+      "choices": {
+        "D": "Pain is real but can be shaped by neural and cognitive modulation rather than tissue damage alone",
+        "A": "The finding proves a universal law for every person",
+        "B": "The main construct is irrelevant because one limitation exists",
+        "C": "The passage supports only biological explanations"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. That conclusion captures the key mechanism without dismissing symptoms or claiming that injury is irrelevant.",
+        "A": "The passage supports a bounded interpretation, not a universal absolute.",
+        "B": "A limitation weakens overclaiming but does not make the construct irrelevant.",
+        "C": "P/S passages often involve social and psychological mechanisms beyond biology alone."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_sleepwalking_nrem_314_q5",
+      "passage": "A sleep lab evaluated adults who reported episodes of sleepwalking. Participants spent one night in the lab while polysomnography recorded brain activity, eye movements, and muscle tone. Most episodes emerged from deep non-REM sleep rather than REM sleep. Participants often had little memory of the episode the next morning. Researchers explained that sleepwalking involves partial arousal from non-REM sleep, not acting out dreams during REM sleep.",
+      "usePrevPassage": false,
+      "stem": "According to the passage, sleepwalking episodes most often emerged from which state?",
+      "choices": {
+        "C": "Deep non-REM sleep",
+        "A": "REM sleep",
+        "B": "Fully awake consciousness",
+        "D": "Stage 1 only"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The passage states that most episodes emerged from deep non-REM sleep and explicitly contrasts this with acting out dreams during REM sleep.",
+        "A": "The passage does not support rem sleep; it points instead to deep non-rem sleep.",
+        "B": "The passage does not support fully awake consciousness; it points instead to deep non-rem sleep.",
+        "D": "The passage does not support stage 1 only; it points instead to deep non-rem sleep."
+      },
+      "topic": "Sleep",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_sleepwalking_nrem_314_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What is the role of polysomnography in the study?",
+      "choices": {
+        "B": "It objectively records sleep physiology to classify sleep stage",
+        "A": "It is a questionnaire measuring social class",
+        "C": "It treats sleepwalking through reinforcement",
+        "D": "It prevents non-REM sleep"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Polysomnography measures brain activity, eye movements, and muscle tone, allowing researchers to identify the sleep stage during episodes.",
+        "A": "The passage does not support it is a questionnaire measuring social class; it points instead to it objectively records sleep physiology to classify sleep stage.",
+        "C": "The passage does not support it treats sleepwalking through reinforcement; it points instead to it objectively records sleep physiology to classify sleep stage.",
+        "D": "The passage does not support it prevents non-rem sleep; it points instead to it objectively records sleep physiology to classify sleep stage."
+      },
+      "topic": "Sleep",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sleepwalking_nrem_314_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Why should causal language be used cautiously for this passage?",
+      "choices": {
+        "A": "The design leaves room for alternative explanations or selection effects",
+        "B": "The passage contains no measurable variables",
+        "C": "All participant reports are automatically false",
+        "D": "The topic is unrelated to P/S content"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The sample was observed for one lab night, so results classify the observed episodes but should not be stretched to every complex nighttime behavior.",
+        "B": "The passage includes concrete measures or observations, so this is incorrect.",
+        "C": "Self-report can have limitations, but it is not automatically false.",
+        "D": "The topic fits psychological, social, or behavioral science content."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sleepwalking_nrem_314_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which application best follows from the passage?",
+      "choices": {
+        "D": "Explain that sleepwalking is linked to partial arousal from non-REM sleep",
+        "A": "Ignore the social or behavioral context described",
+        "B": "Use a one-size-fits-all intervention even when the passage shows different barriers",
+        "C": "Assume the measured pattern cannot be changed"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. This advice matches the physiological explanation and avoids blaming the patient for fully voluntary behavior.",
+        "A": "Ignoring the described context would miss the mechanism emphasized in the passage.",
+        "B": "A uniform intervention would not address the specific pattern described.",
+        "C": "The passage supports practical response rather than fatalism."
+      },
+      "topic": "Sleep",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_sleepwalking_nrem_314_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which conclusion is most defensible?",
+      "choices": {
+        "C": "Sleepwalking can involve complex behavior with limited later recall because consciousness is partial rather than fully awake",
+        "A": "The finding proves a universal law for every person",
+        "B": "The main construct is irrelevant because one limitation exists",
+        "D": "The passage supports only biological explanations"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. This conclusion follows from the non-REM arousal and memory findings without overgeneralizing.",
+        "A": "The passage supports a bounded interpretation, not a universal absolute.",
+        "B": "A limitation weakens overclaiming but does not make the construct irrelevant.",
+        "D": "P/S passages often involve social and psychological mechanisms beyond biology alone."
+      },
+      "topic": "Research Methods",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "batch": "B029",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Molecules & Intermolecular Interactions",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_molec_001",
+      "passage": "A biochemist studies the physical properties of three compounds: ethanol (CH\u2083CH\u2082OH, MW = 46), dimethyl ether (CH\u2083OCH\u2083, MW = 46), and propane (CH\u2083CH\u2082CH\u2083, MW = 44). Despite having nearly identical molecular weights, their boiling points differ dramatically: ethanol (78\u00b0C), dimethyl ether (\u221224\u00b0C), and propane (\u221242\u00b0C).",
+      "stem": "Ethanol has a much higher boiling point than dimethyl ether despite identical molecular weights because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ethanol has a higher molecular weight than dimethyl ether"
+        },
+        {
+          "label": "B",
+          "text": "ethanol has stronger covalent bonds within its molecules than dimethyl ether"
+        },
+        {
+          "label": "C",
+          "text": "dimethyl ether is nonpolar and only experiences London dispersion forces"
+        },
+        {
+          "label": "D",
+          "text": "ethanol can form hydrogen bonds due to its hydroxyl (\u2212OH) group, which creates strong intermolecular attractions requiring more energy to overcome"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The passage states both compounds have MW = 46. Their molecular weights are identical, so this cannot explain the boiling point difference.",
+        "B": "Boiling point reflects the strength of intermolecular forces (between molecules), not intramolecular forces (covalent bonds within molecules). Covalent bonds do not break during boiling \u2014 only intermolecular attractions are overcome.",
+        "C": "Dimethyl ether is polar (it has a bent C\u2212O\u2212C geometry and a dipole moment of ~1.3 D). It experiences dipole-dipole interactions in addition to London dispersion forces. However, it cannot form hydrogen bonds as a donor because it lacks an O\u2212H or N\u2212H bond. Calling it nonpolar is incorrect.",
+        "D": "Ethanol's hydroxyl group (\u2212OH) allows it to serve as both a hydrogen bond donor (the O\u2212H hydrogen) and acceptor (the oxygen lone pairs). This creates a network of strong intermolecular hydrogen bonds (each ~20 kJ/mol). Dimethyl ether has an oxygen atom but no O\u2212H bond, so it cannot donate hydrogen bonds \u2014 it can only act as a hydrogen bond acceptor. The extensive hydrogen bonding network in ethanol requires significantly more thermal energy to disrupt, explaining the 102\u00b0C boiling point difference."
+      },
+      "topic": "Hydrogen Bonding / Boiling Point",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_molec_002",
+      "passage": null,
+      "passageRef": "cp_molec_001",
+      "stem": "Propane has the lowest boiling point of the three compounds because its intermolecular forces consist primarily of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "hydrogen bonds, which are the weakest intermolecular force"
+        },
+        {
+          "label": "B",
+          "text": "ionic bonds between carbon and hydrogen atoms"
+        },
+        {
+          "label": "C",
+          "text": "London dispersion forces (induced dipole-induced dipole interactions), which are the weakest intermolecular forces for molecules of this size"
+        },
+        {
+          "label": "D",
+          "text": "covalent bonds that break more easily than in ethanol"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Hydrogen bonds are among the strongest intermolecular forces (after ion-dipole). Propane cannot form hydrogen bonds because it has no O\u2212H, N\u2212H, or F\u2212H bonds. Propane's intermolecular forces are exclusively London dispersion forces.",
+        "B": "Carbon-hydrogen bonds are covalent (nonpolar covalent), not ionic. Ionic bonds form between atoms with large electronegativity differences (typically metals and nonmetals). C\u2212H bonds have minimal polarity (\u0394EN \u2248 0.4).",
+        "C": "Propane is a nonpolar hydrocarbon. Its only intermolecular forces are London dispersion forces \u2014 temporary, induced dipole-induced dipole interactions caused by instantaneous fluctuations in electron density. For molecules of this size (~44 Da), London dispersion forces are relatively weak, resulting in a low boiling point. London forces increase with molecular size and surface area (more electrons = more polarizable).",
+        "D": "Boiling does not break covalent bonds. The low boiling point reflects weak intermolecular forces (London dispersion only), not weak intramolecular bonds."
+      },
+      "topic": "London Dispersion Forces / Nonpolar Molecules",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_molec_003",
+      "passage": null,
+      "stem": "The molecular geometry of water (H\u2082O) is bent rather than linear because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "water molecules are always in motion, so their shape is constantly changing"
+        },
+        {
+          "label": "B",
+          "text": "the O\u2212H bonds are ionic, and ionic bonds always form bent geometries"
+        },
+        {
+          "label": "C",
+          "text": "hydrogen atoms are too large to fit in a linear arrangement around oxygen"
+        },
+        {
+          "label": "D",
+          "text": "oxygen has two lone pairs that occupy space around the central atom, pushing the bonding pairs closer together and creating a bond angle of approximately 104.5\u00b0"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "While molecules do vibrate and rotate, the equilibrium geometry is well-defined. Water's bent shape is a permanent structural feature determined by its electronic structure, not a consequence of molecular motion.",
+        "B": "O\u2212H bonds are polar covalent, not ionic. The electronegativity difference (3.5 \u2212 2.1 = 1.4) produces a polar covalent bond. Ionic character is not responsible for the bent geometry.",
+        "C": "Hydrogen is the smallest atom. Size is not the reason for the bent geometry \u2014 electron pair repulsion (VSEPR) determines the shape.",
+        "D": "VSEPR theory predicts molecular geometry by minimizing electron pair repulsion. Oxygen in water has four electron groups: two bonding pairs (O\u2212H bonds) and two lone pairs. Four electron groups adopt a tetrahedral electron geometry. However, the molecular geometry (which considers only atom positions) is bent because the two lone pairs occupy tetrahedral positions but are not 'seen' as part of the shape. The lone pair-bonding pair repulsion compresses the H\u2212O\u2212H angle from the ideal tetrahedral 109.5\u00b0 to approximately 104.5\u00b0."
+      },
+      "topic": "VSEPR / Molecular Geometry",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_molec_004",
+      "passage": null,
+      "stem": "Which of the following correctly ranks intermolecular forces from weakest to strongest?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Hydrogen bonding < dipole-dipole < London dispersion"
+        },
+        {
+          "label": "B",
+          "text": "Ion-dipole < London dispersion < dipole-dipole < hydrogen bonding"
+        },
+        {
+          "label": "C",
+          "text": "London dispersion < dipole-dipole < hydrogen bonding < ion-dipole"
+        },
+        {
+          "label": "D",
+          "text": "Dipole-dipole < London dispersion < ion-dipole < hydrogen bonding"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This ranking is inverted. London dispersion forces are generally the weakest (for small molecules), and hydrogen bonding is stronger than typical dipole-dipole interactions. The correct order is London < dipole-dipole < H-bonding.",
+        "B": "Ion-dipole interactions are the strongest intermolecular force. Placing them as weakest is incorrect. Ion-dipole forces are responsible for dissolving ionic compounds in polar solvents \u2014 they are strong enough to overcome lattice energy.",
+        "C": "The general ranking from weakest to strongest is: London dispersion (induced dipole-induced dipole) < dipole-dipole (permanent dipole interactions) < hydrogen bonding (a particularly strong dipole-dipole interaction involving H bonded to F, O, or N) < ion-dipole (interaction between an ion and a polar molecule). Note: London forces can exceed dipole-dipole forces for very large, polarizable molecules, but for molecules of comparable size, this ranking holds.",
+        "D": "London dispersion forces are generally weaker than dipole-dipole forces for molecules of similar size, not stronger. This ranking incorrectly places London forces above dipole-dipole."
+      },
+      "topic": "Intermolecular Force Ranking",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_molec_005",
+      "passage": null,
+      "stem": "A Lewis structure for carbon dioxide (CO\u2082) shows carbon double-bonded to each oxygen. The molecular geometry of CO\u2082 is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "bent, because oxygen's lone pairs push the bonds apart"
+        },
+        {
+          "label": "B",
+          "text": "linear, because carbon has two electron groups (two double bonds) arranged 180\u00b0 apart to minimize repulsion, and no lone pairs on the central atom"
+        },
+        {
+          "label": "C",
+          "text": "tetrahedral, because carbon always forms four bonds"
+        },
+        {
+          "label": "D",
+          "text": "trigonal planar, because double bonds count as two electron groups each"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "While each oxygen has lone pairs, VSEPR considers electron groups on the central atom (carbon), not on the terminal atoms. Carbon in CO\u2082 has two electron groups (two double bonds) and no lone pairs, giving a linear geometry.",
+        "B": "In CO\u2082, the central carbon has two regions of electron density (each C=O double bond counts as one electron group in VSEPR). Two electron groups arrange linearly (180\u00b0) to maximize their separation. Carbon has no lone pairs to distort this arrangement. The molecule is linear and nonpolar despite having polar C=O bonds, because the bond dipoles cancel by symmetry.",
+        "C": "Carbon forms four bonds total in CO\u2082 (two double bonds), but VSEPR counts double bonds as single electron groups. Two electron groups = linear, not tetrahedral. Tetrahedral geometry requires four electron groups on the central atom.",
+        "D": "Each double bond counts as one electron group in VSEPR, not two. Two electron groups = linear. Trigonal planar geometry requires three electron groups (as in BF\u2083 or formaldehyde)."
+      },
+      "topic": "VSEPR / Linear Geometry",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_molec_006",
+      "passage": "A pharmaceutical chemist analyzes a drug candidate and determines that its solubility in water is poor but its solubility in hexane is high. The drug has a large nonpolar hydrocarbon framework with no hydrogen bond donors or acceptors.",
+      "stem": "The drug's high solubility in hexane and poor solubility in water is best explained by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "'like dissolves like' \u2014 the nonpolar drug interacts favorably with nonpolar hexane through London dispersion forces, but dissolving in water would require disrupting water's hydrogen bonding network without compensating enthalpic interactions"
+        },
+        {
+          "label": "B",
+          "text": "hexane forms hydrogen bonds with the drug, while water does not"
+        },
+        {
+          "label": "C",
+          "text": "the drug is ionic and dissolves in hexane through ion-dipole interactions"
+        },
+        {
+          "label": "D",
+          "text": "water is too viscous to dissolve large molecules"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Solubility follows the 'like dissolves like' principle. Nonpolar solutes dissolve well in nonpolar solvents because the London dispersion forces between solute and solvent are comparable to the solvent-solvent interactions being disrupted. Dissolving a nonpolar solute in water would require breaking water's extensive hydrogen bonding network without forming comparably strong solute-solvent interactions \u2014 the process is enthalpically unfavorable and entropically unfavorable (water molecules order around the nonpolar solute in a 'cage' \u2014 the hydrophobic effect).",
+        "B": "Hexane is a nonpolar hydrocarbon that cannot form hydrogen bonds. It interacts with the drug through London dispersion forces, not hydrogen bonding.",
+        "C": "The passage states the drug is nonpolar with no ionic character. Ion-dipole interactions require ions, which are not present in a nonpolar hydrocarbon framework.",
+        "D": "Water's viscosity has negligible effect on solubility. Solubility is determined by the thermodynamics of solute-solvent interactions (enthalpy and entropy of dissolution), not by the solvent's viscosity."
+      },
+      "topic": "Solubility / Like Dissolves Like",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_molec_007",
+      "passage": null,
+      "stem": "Sigma (\u03c3) bonds and pi (\u03c0) bonds differ in that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\u03c3 bonds result from head-on (axial) overlap of orbitals with electron density concentrated along the internuclear axis, while \u03c0 bonds result from lateral (side-by-side) overlap with electron density above and below the internuclear axis"
+        },
+        {
+          "label": "B",
+          "text": "\u03c0 bonds are always stronger than \u03c3 bonds because lateral overlap is more extensive"
+        },
+        {
+          "label": "C",
+          "text": "\u03c3 bonds can only form between s orbitals, while \u03c0 bonds can only form between p orbitals"
+        },
+        {
+          "label": "D",
+          "text": "molecules can have multiple \u03c3 bonds between the same two atoms but only one \u03c0 bond"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Sigma bonds form from head-on overlap of orbitals (s-s, s-p, p-p, or sp-sp hybrid), producing cylindrically symmetric electron density along the internuclear axis. Pi bonds form from lateral (side-by-side) overlap of parallel p orbitals, producing electron density above and below (or in front and behind) the internuclear axis. In a double bond (e.g., C=C), one \u03c3 bond and one \u03c0 bond exist; in a triple bond (C\u2261C), one \u03c3 bond and two \u03c0 bonds exist.",
+        "B": "\u03c3 bonds are generally stronger than \u03c0 bonds because head-on overlap is more effective than lateral overlap. The greater overlap produces a lower-energy, more stable bond. \u03c0 bonds are secondary to the \u03c3 bond and are generally easier to break.",
+        "C": "\u03c3 bonds can form from overlap of any orbital types (s-s, s-p, p-p, sp\u00b3-sp\u00b3, etc.), not just s orbitals. Similarly, \u03c0 bonds can form from p-p lateral overlap or d-p lateral overlap, though p-p is most common in organic chemistry.",
+        "D": "Between any two atoms, only one \u03c3 bond can form (along the internuclear axis). Additional bonds must be \u03c0 bonds. A double bond = 1\u03c3 + 1\u03c0; a triple bond = 1\u03c3 + 2\u03c0. This is reversed in the answer: molecules can have only one \u03c3 bond between the same two atoms but can have one or two additional \u03c0 bonds."
+      },
+      "topic": "Sigma and Pi Bonds / Orbital Overlap",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_molec_008",
+      "passage": null,
+      "stem": "Electronegativity generally increases across a period and decreases down a group. Fluorine is the most electronegative element. The polarity of a covalent bond depends on:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the sum of the atomic masses of the bonded atoms"
+        },
+        {
+          "label": "B",
+          "text": "the difference in electronegativity between the bonded atoms \u2014 a larger difference produces a more polar bond"
+        },
+        {
+          "label": "C",
+          "text": "the total number of electrons in the molecule"
+        },
+        {
+          "label": "D",
+          "text": "the physical state of the substance (solid, liquid, or gas)"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Atomic mass does not determine bond polarity. Bond polarity depends on the unequal sharing of electrons, which is governed by electronegativity differences, not mass.",
+        "B": "Bond polarity arises from unequal electron sharing between atoms with different electronegativities. The greater the electronegativity difference (\u0394EN), the more polar the bond. \u0394EN = 0: nonpolar covalent (e.g., H\u2082). \u0394EN = 0.1\u20131.7: polar covalent (e.g., H\u2212Cl, \u0394EN = 0.9). \u0394EN > 1.7: increasingly ionic character (e.g., NaCl, \u0394EN = 2.1).",
+        "C": "The total number of electrons affects molecular properties like London dispersion forces and polarizability, but bond polarity is determined specifically by the electronegativity difference between the two bonded atoms, not by the total electron count.",
+        "D": "Physical state is a macroscopic property determined by intermolecular forces, temperature, and pressure. Bond polarity is an intrinsic molecular property that does not change with phase."
+      },
+      "topic": "Electronegativity / Bond Polarity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_molec_009",
+      "passage": null,
+      "stem": "In a peptide bond (C\u2212N bond in proteins), the bond has partial double-bond character due to resonance. This partial double-bond character results in:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "free rotation around the peptide bond, allowing proteins to adopt any conformation"
+        },
+        {
+          "label": "B",
+          "text": "restricted rotation around the peptide bond, keeping the six atoms of the peptide unit (C\u03b1, C, O, N, H, C\u03b1) in a planar arrangement"
+        },
+        {
+          "label": "C",
+          "text": "the peptide bond being easily hydrolyzed at physiological pH without enzyme catalysis"
+        },
+        {
+          "label": "D",
+          "text": "the peptide bond being nonpolar because resonance eliminates the dipole moment"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Partial double-bond character restricts rotation because double bonds do not rotate freely (rotation would break the \u03c0 component). Single bonds allow free rotation; double bonds do not. The partial double-bond character of the peptide bond means rotation is restricted, not free.",
+        "B": "Resonance between the C=O and C\u2212N bond gives the peptide bond approximately 40% double-bond character. This restricts rotation and constrains the six atoms of the peptide plane (C\u03b1\u2081, C, O, N, H, C\u03b1\u2082) to a planar arrangement. The dihedral angle \u03c9 is typically ~180\u00b0 (trans) or ~0\u00b0 (cis, rare). This planarity is fundamental to protein secondary structure: \u03c6 and \u03c8 angles (rotation around bonds to the C\u03b1) determine backbone conformation, while \u03c9 is essentially fixed.",
+        "C": "Peptide bonds are kinetically stable at physiological pH \u2014 they hydrolyze extremely slowly without enzyme catalysis (half-life of hundreds of years). This kinetic stability is why proteases are needed for protein digestion. The partial double-bond character contributes to this stability.",
+        "D": "Resonance does not eliminate the dipole moment of the peptide bond. The C=O and N\u2212H bonds are both polar, and the overall peptide group has a significant dipole moment. This dipole is essential for hydrogen bonding in secondary structures (\u03b1-helices and \u03b2-sheets)."
+      },
+      "topic": "Peptide Bond / Resonance and Planarity",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_molec_010",
+      "passage": null,
+      "stem": "sp\u00b3 hybridization produces four equivalent hybrid orbitals arranged in a tetrahedral geometry. An example of a molecule with sp\u00b3 hybridization on the central atom is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "BF\u2083 (boron trifluoride), which has trigonal planar geometry"
+        },
+        {
+          "label": "B",
+          "text": "CO\u2082 (carbon dioxide), which has linear geometry"
+        },
+        {
+          "label": "C",
+          "text": "CH\u2084 (methane), which has four equivalent C\u2212H bonds arranged tetrahedrally with bond angles of 109.5\u00b0"
+        },
+        {
+          "label": "D",
+          "text": "C\u2082H\u2082 (acetylene), which has linear geometry with a triple bond"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "BF\u2083 has three bonding groups and no lone pairs on boron, giving sp\u00b2 hybridization and trigonal planar geometry (120\u00b0 bond angles), not sp\u00b3.",
+        "B": "CO\u2082 has two electron groups on carbon (two double bonds) and no lone pairs, giving sp hybridization and linear geometry (180\u00b0), not sp\u00b3.",
+        "C": "In methane, carbon forms four equivalent single bonds with hydrogen. Four bonding groups and zero lone pairs on the central atom requires four equivalent sp\u00b3 hybrid orbitals, arranged tetrahedrally with bond angles of 109.5\u00b0. Each sp\u00b3 orbital overlaps with a hydrogen 1s orbital to form a \u03c3 bond. Methane is the textbook example of sp\u00b3 hybridization.",
+        "D": "Acetylene (C\u2082H\u2082) has sp hybridization on each carbon: one \u03c3 bond to the other carbon, one \u03c3 bond to hydrogen, and two \u03c0 bonds between the carbons. Linear geometry with 180\u00b0 bond angles. This is sp, not sp\u00b3."
+      },
+      "topic": "sp\u00b3 Hybridization / Tetrahedral Geometry",
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "batch": "B140",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Homeostasis & Feedback Integration",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_homeo2_001",
+      "passage": "A physiology lab studies volunteers after 12 hours of water restriction and again after drinking 1.5 L of water. Plasma osmolality, ADH, urine osmolality, and blood pressure are measured.\n\nCondition | Plasma osmolality | ADH | Urine osmolality | Mean arterial pressure\nRestricted | 302 mOsm/kg | high | 900 mOsm/kg | 86 mmHg\nAfter water | 286 mOsm/kg | low | 120 mOsm/kg | 88 mmHg\n\nOsmoreceptors in the hypothalamus regulate ADH release from the posterior pituitary. ADH increases water permeability in collecting ducts through aquaporin insertion. Baroreceptor input can also influence ADH during major volume loss.",
+      "stem": "Which change best explains concentrated urine during water restriction?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Increased ADH inserts aquaporins in collecting ducts"
+        },
+        {
+          "label": "B",
+          "text": "Decreased ADH removes all medullary solute"
+        },
+        {
+          "label": "C",
+          "text": "Insulin directly opens collecting-duct water channels"
+        },
+        {
+          "label": "D",
+          "text": "Low osmolality stimulates thirst"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. High plasma osmolality stimulates hypothalamic osmoreceptors and increases ADH release. ADH promotes aquaporin insertion in collecting-duct principal cells, increasing water reabsorption and concentrating urine. This is negative feedback because it counters the original hyperosmotic disturbance.",
+        "B": "Decreased ADH would make urine more dilute, not more concentrated. Low ADH reduces aquaporin insertion, lowering collecting-duct water permeability and causing more water to remain in the urine. ADH also does not remove all medullary solute; the medullary gradient is maintained mainly by loop of Henle transport and urea recycling.",
+        "C": "Insulin regulates glucose uptake, not water channel insertion. Aquaporin-2 insertion in collecting duct principal cells is controlled by ADH (vasopressin) acting through V2 receptors and cAMP-mediated vesicle trafficking. Insulin acts on GLUT4 translocation in muscle and adipose tissue — an entirely different receptor-effector pathway for a different substrate.",
+        "D": "Low plasma osmolality suppresses thirst and ADH release — it does not stimulate them. Thirst and ADH are triggered by high osmolality (dehydration), which is the initiating signal for water conservation. During water restriction, osmolality rises, stimulating both thirst and ADH to promote water intake and retention."
+      },
+      "topic": "ADH and Osmoregulation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_homeo2_002",
+      "passage": null,
+      "stem": "After drinking water, why does urine osmolality fall?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ADH rises, increasing water reabsorption"
+        },
+        {
+          "label": "B",
+          "text": "ADH falls, reducing collecting-duct water permeability"
+        },
+        {
+          "label": "C",
+          "text": "Aldosterone directly blocks glucose uptake"
+        },
+        {
+          "label": "D",
+          "text": "Glucagon closes aquaporins"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "After drinking water, plasma osmolality falls, which suppresses ADH release from the posterior pituitary. ADH does not rise in response to water loading — that would cause inappropriate water retention and hyponatremia. The correct physiological response to dilution is decreased ADH, reduced aquaporin insertion, and excretion of dilute urine.",
+        "B": "Correct. Water intake lowers plasma osmolality, suppressing ADH. With fewer aquaporins in collecting ducts, less water is reabsorbed from tubular fluid, so dilute urine is excreted. The response eliminates excess water and restores osmolality toward the set range.",
+        "C": "Aldosterone regulates sodium reabsorption in the distal nephron and has no direct role in glucose uptake. Aldosterone acts on mineralocorticoid receptors in principal cells to upregulate ENaC (sodium channels) and Na⁺/K⁺-ATPase. Glucose uptake is mediated by insulin-responsive GLUT4 in muscle and adipose tissue — a completely separate endocrine axis.",
+        "D": "Glucagon is a pancreatic α-cell hormone that promotes hepatic glucose output. It has no known role in regulating aquaporin expression or water permeability in the collecting duct. Water balance is controlled by ADH (vasopressin), not by glucagon. These are distinct homeostatic systems with different sensors, effectors, and target organs."
+      },
+      "topic": "Dilute Urine Formation",
+      "difficulty": "Easy",
+      "passageRef": "bb_homeo2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_homeo2_003",
+      "passage": null,
+      "stem": "Which statement best describes the role of osmoreceptors?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They generate bile salts"
+        },
+        {
+          "label": "B",
+          "text": "They secrete insulin after meals"
+        },
+        {
+          "label": "C",
+          "text": "They filter plasma proteins in the glomerulus"
+        },
+        {
+          "label": "D",
+          "text": "They detect plasma osmolality and help regulate ADH release"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Bile salt production is a function of hepatocytes in the liver, not osmoreceptors. Osmoreceptors are specialized neurons in the hypothalamus (primarily the organum vasculosum of the lamina terminalis) that detect changes in plasma tonicity by shrinking or swelling in response to water movement. They transduce osmotic signals into neural inputs that regulate ADH release and thirst.",
+        "B": "Insulin secretion after meals is the function of pancreatic β-cells responding to elevated blood glucose (via GLUT2 and glucokinase), not osmoreceptors. Osmoreceptors detect plasma osmolality changes and regulate water balance through ADH and thirst pathways. These are anatomically and functionally distinct sensory systems.",
+        "C": "Plasma protein filtration is a function of the glomerular filtration barrier (fenestrated endothelium, basement membrane, and podocyte slit diaphragms), not osmoreceptors. Osmoreceptors are hypothalamic neurons that sense plasma tonicity. The glomerulus and hypothalamic osmoreceptors serve entirely different physiological roles.",
+        "D": "Correct. Osmoreceptors are sensors, not effectors. They respond to changes in extracellular osmolality and influence hypothalamic-pituitary ADH output. Their role fits the feedback architecture: detect deviation, signal an integrator, and activate effectors that alter renal water handling."
+      },
+      "topic": "Feedback Sensors",
+      "difficulty": "Easy",
+      "passageRef": "bb_homeo2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_homeo2_004",
+      "passage": null,
+      "stem": "During severe hemorrhage, why might ADH rise even if osmolality is not high?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ADH is secreted only by the anterior pituitary"
+        },
+        {
+          "label": "B",
+          "text": "Low blood pressure always suppresses ADH"
+        },
+        {
+          "label": "C",
+          "text": "Baroreceptor input signals low effective circulating volume"
+        },
+        {
+          "label": "D",
+          "text": "Aquaporins detect arterial stretch directly"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "ADH (vasopressin) is synthesized in hypothalamic nuclei (supraoptic and paraventricular) and released from the posterior pituitary, not the anterior pituitary. The anterior pituitary secretes ACTH, TSH, GH, FSH, LH, and prolactin. This anatomical distinction is critical — posterior pituitary hormones (ADH and oxytocin) are neural peptides transported down axons from the hypothalamus.",
+        "B": "Low blood pressure does not always suppress ADH. During severe hemorrhage, baroreceptor unloading signals low effective circulating volume, which can increase ADH release even if osmolality is not elevated. This helps conserve water and support blood pressure.",
+        "C": "Correct. Large volume loss activates baroreceptor-mediated responses that prioritize perfusion pressure. ADH can rise to conserve water and support vascular tone even when osmotic stimuli are not dominant. This shows that homeostatic systems integrate multiple inputs rather than obeying one variable absolutely.",
+        "D": "Aquaporins are water channel proteins in the collecting duct epithelium — they do not detect arterial stretch. Baroreceptors in the carotid sinus and aortic arch are the mechanoreceptors that detect blood pressure changes. During hemorrhage, baroreceptor unloading signals low blood volume to the brainstem, which in turn stimulates ADH release through neural pathways independent of osmolality."
+      },
+      "topic": "Baroreceptor Integration",
+      "difficulty": "Hard",
+      "passageRef": "bb_homeo2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_homeo2_005",
+      "passage": null,
+      "stem": "Why is ADH control considered negative feedback?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The response opposes the initiating change in osmolality"
+        },
+        {
+          "label": "B",
+          "text": "The response amplifies dehydration indefinitely"
+        },
+        {
+          "label": "C",
+          "text": "The hormone is electrically negative"
+        },
+        {
+          "label": "D",
+          "text": "The kidney stops responding to all hormones"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Negative feedback means the response reduces the original disturbance. High osmolality triggers ADH, ADH conserves water, and retained water lowers osmolality toward normal. The term does not refer to charge or hormone valence; it refers to control-system direction.",
+        "B": "Negative feedback opposes the initiating disturbance and restores the variable toward its set point. A system that amplifies dehydration indefinitely would be positive feedback — driving the system further from equilibrium. ADH control is negative feedback: high osmolality → ADH release → water retention → osmolality returns toward normal. The response counteracts, not amplifies, the original change.",
+        "C": "The term 'negative' in negative feedback refers to the direction of the system's response (opposing the disturbance), not to any electrical charge on the hormone. ADH is a peptide with no special electrical polarity relevant to feedback classification. Negative feedback is a control systems concept — the output feeds back to reduce the input signal.",
+        "D": "The kidney does not stop responding to all hormones during negative feedback. In this pathway, the kidney responds specifically to ADH by changing collecting-duct water permeability. Negative feedback means the response reduces the original osmotic disturbance, not that renal hormone responsiveness shuts down globally."
+      },
+      "topic": "Negative Feedback",
+      "difficulty": "Medium",
+      "passageRef": "bb_homeo2_001",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_homeo2_006",
+      "passage": "The same lab gives healthy volunteers an oral glucose drink after an overnight fast. Plasma glucose rises, insulin increases, glucagon decreases, and glucose later returns toward baseline. During prolonged fasting, the pattern reverses: glucagon rises, insulin falls, hepatic glycogenolysis and gluconeogenesis increase, and adipose tissue releases fatty acids. Investigators frame both water balance and glucose regulation as negative feedback systems with sensors, integrating signals, and effectors.",
+      "stem": "After an oral glucose drink, which hormonal pattern is expected?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "High ADH and high aldosterone only"
+        },
+        {
+          "label": "B",
+          "text": "Low insulin and high glucagon"
+        },
+        {
+          "label": "C",
+          "text": "High insulin and low glucagon"
+        },
+        {
+          "label": "D",
+          "text": "No endocrine response"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "After a glucose load, the primary hormonal response involves the insulin-glucagon axis, not ADH and aldosterone. ADH responds to plasma osmolality (water balance), and aldosterone responds to the renin-angiotensin-aldosterone system (sodium and volume regulation). Neither is the first-line hormonal response to an acute rise in blood glucose.",
+        "B": "After oral glucose ingestion, insulin rises and glucagon falls — not the reverse. Low insulin with high glucagon is the fasting hormonal profile, which promotes hepatic glucose output. The fed state reverses this: high glucose stimulates β-cell insulin secretion and suppresses α-cell glucagon release, promoting glucose uptake and storage.",
+        "C": "Correct. Rising plasma glucose stimulates pancreatic β cells to release insulin and suppresses glucagon from α cells. Insulin promotes glucose uptake and storage, while low glucagon reduces hepatic glucose output. Together they return glucose toward baseline through negative feedback.",
+        "D": "A glucose load produces a robust endocrine response. Pancreatic β-cells are directly stimulated by rising blood glucose (via GLUT2 transport and glucokinase-mediated metabolism, which increases the ATP/ADP ratio and closes K-ATP channels, triggering insulin exocytosis). Incretins (GLP-1, GIP) from the gut further amplify insulin secretion. The claim of no response contradicts basic endocrine physiology."
+      },
+      "topic": "Glucose Homeostasis",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_homeo2_007",
+      "passage": null,
+      "stem": "During prolonged fasting, why does glucagon increase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To increase glucose uptake into skeletal muscle by GLUT4"
+        },
+        {
+          "label": "B",
+          "text": "To promote hepatic glucose production and maintain blood glucose"
+        },
+        {
+          "label": "C",
+          "text": "To suppress glycogenolysis"
+        },
+        {
+          "label": "D",
+          "text": "To store triglycerides in adipose tissue"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Glucagon does not increase GLUT4-mediated glucose uptake into skeletal muscle — that is insulin's role. Glucagon acts primarily on hepatocytes through cAMP-PKA signaling to stimulate glycogenolysis and gluconeogenesis, releasing glucose into the blood. Glucagon and insulin have opposing effects on blood glucose: glucagon raises it, insulin lowers it.",
+        "B": "Correct. Fasting lowers insulin and raises glucagon, which stimulates hepatic glycogenolysis early and gluconeogenesis as fasting continues. This maintains blood glucose for glucose-dependent tissues. GLUT4-mediated uptake and storage are more characteristic of insulin-dominant fed states.",
+        "C": "Glucagon stimulates glycogenolysis (glycogen breakdown), not suppresses it. During fasting, glucagon activates hepatic glycogen phosphorylase through the cAMP-PKA cascade, breaking glycogen into glucose-1-phosphate for release as free glucose. Suppressing glycogenolysis during fasting would prevent glucose mobilization and worsen hypoglycemia.",
+        "D": "Glucagon promotes lipolysis (triglyceride breakdown) in adipose tissue to release fatty acids for energy, not triglyceride storage. Triglyceride synthesis and storage are promoted by insulin in the fed state. Glucagon's fasting-state actions are uniformly catabolic — mobilizing glycogen, fat, and amino acid substrates to maintain blood glucose and provide alternative fuels."
+      },
+      "topic": "Glucagon in Fasting",
+      "difficulty": "Medium",
+      "passageRef": "bb_homeo2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_homeo2_008",
+      "passage": null,
+      "stem": "Which organ is the primary source of insulin in this passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Posterior pituitary"
+        },
+        {
+          "label": "B",
+          "text": "Thyroid follicular cells"
+        },
+        {
+          "label": "C",
+          "text": "Adrenal medulla"
+        },
+        {
+          "label": "D",
+          "text": "Pancreatic β cells"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "The posterior pituitary releases ADH (vasopressin) and oxytocin, not insulin. Insulin is produced exclusively by pancreatic β-cells in the islets of Langerhans. The posterior pituitary is a neuroendocrine structure that stores and releases hypothalamic peptides — it has no role in glucose homeostasis through insulin.",
+        "B": "Thyroid follicular cells produce thyroid hormones (T₃ and T₄) by iodinating thyroglobulin, not insulin. While thyroid hormones affect metabolic rate and can influence glucose metabolism indirectly, they are not the primary regulators of blood glucose. Insulin is synthesized, processed, and secreted specifically by pancreatic β-cells.",
+        "C": "The adrenal medulla secretes catecholamines (epinephrine and norepinephrine) in response to sympathetic nervous system activation, not insulin. While epinephrine does affect glucose metabolism (stimulating glycogenolysis and inhibiting insulin secretion during stress), the adrenal medulla is not a source of insulin. Insulin production is exclusive to pancreatic β-cells.",
+        "D": "Correct. Insulin is secreted by β cells in the pancreatic islets in response to elevated blood glucose and incretin signals. The posterior pituitary releases ADH and oxytocin, so confusing it with the pancreas mixes the water-balance and glucose-balance arms of the passage."
+      },
+      "topic": "Insulin Source",
+      "difficulty": "Easy",
+      "passageRef": "bb_homeo2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_homeo2_009",
+      "passage": null,
+      "stem": "How are the water-balance and glucose systems similar?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both use negative feedback to restore a regulated variable toward a set range"
+        },
+        {
+          "label": "B",
+          "text": "Both depend only on voluntary behavior"
+        },
+        {
+          "label": "C",
+          "text": "Both are controlled by the same hormone"
+        },
+        {
+          "label": "D",
+          "text": "Both amplify the original disturbance"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Both systems detect deviations from a regulated range and activate hormonal effectors that oppose the deviation: ADH for osmolality and insulin/glucagon for glucose. They use different sensors and hormones, but the feedback logic is shared.",
+        "B": "Both water balance and glucose homeostasis involve involuntary hormonal regulation, not just voluntary behavior. ADH release and insulin secretion are automatic endocrine responses to physiological signals (osmolality and blood glucose, respectively). While voluntary actions (drinking water, eating) provide inputs, the regulatory feedback loops operate through autonomic and endocrine mechanisms.",
+        "C": "Water balance is regulated primarily by ADH (vasopressin), while glucose homeostasis is regulated primarily by insulin and glucagon. These are different hormones acting on different target tissues through different receptors. The systems share a common feedback architecture (negative feedback) but use distinct molecular mediators.",
+        "D": "Negative feedback attenuates the original disturbance — it does not amplify it. Both systems work to restore their regulated variable toward a set point: ADH corrects osmolality deviations, and insulin/glucagon correct glucose deviations. Positive feedback (amplification) is rare physiologically and is seen in specific contexts like blood clotting, labor contractions, and the LH surge, not in routine homeostasis."
+      },
+      "topic": "Integrated Feedback",
+      "difficulty": "Medium",
+      "passageRef": "bb_homeo2_006",
+      "usePrevPassage": true
+    },
+    {
+      "id": "bb_homeo2_010",
+      "passage": null,
+      "stem": "Which failure would most directly cause persistent hyperglycemia after a glucose drink?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Excess ADH in collecting ducts"
+        },
+        {
+          "label": "B",
+          "text": "Insufficient insulin secretion or action"
+        },
+        {
+          "label": "C",
+          "text": "Increased urine dilution"
+        },
+        {
+          "label": "D",
+          "text": "Reduced skin vasoconstriction"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Excess ADH would cause excessive water retention and hyponatremia (SIADH), not hyperglycemia. ADH acts on the collecting duct to reabsorb water — it does not directly influence blood glucose regulation. Persistent hyperglycemia after a glucose load points to a failure in the insulin-glucose axis, not the ADH-water axis.",
+        "B": "Correct. Persistent postprandial hyperglycemia reflects inadequate insulin secretion, impaired insulin action, or both. ADH and urine concentration regulate water balance, not cellular glucose uptake and hepatic glucose output. The question asks for the effector failure in the glucose feedback loop.",
+        "C": "Increased urine dilution reflects low ADH activity and excess water excretion — a water balance phenomenon unrelated to blood glucose control. Dilute urine might accompany diabetes mellitus (osmotic diuresis from glucosuria), but it is a consequence of hyperglycemia, not its cause. The primary defect causing persistent hyperglycemia is inadequate insulin secretion or action.",
+        "D": "Skin vasoconstriction is a thermoregulatory response mediated by sympathetic nervous system control of cutaneous arterioles. It conserves body heat by reducing surface blood flow. This mechanism is part of temperature homeostasis, not glucose homeostasis, and has no direct role in determining blood glucose levels after a glucose challenge."
+      },
+      "topic": "Insulin Deficiency/Resistance",
+      "difficulty": "Medium",
+      "passageRef": "bb_homeo2_006",
+      "usePrevPassage": true
+    }
+  ]
+}

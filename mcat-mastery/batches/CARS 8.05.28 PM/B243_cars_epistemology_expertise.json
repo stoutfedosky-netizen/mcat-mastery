@@ -1,0 +1,246 @@
+{
+  "batch": "B243",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Epistemology of Expertise, Lay Judgment & the Problem of Choosing Between Experts",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_epistemology_expertise_243_q0",
+      "passage": "A patient sits with two consultation letters. One specialist, eminent and unhurried, recommends surgery now; the other, equally credentialed, advises watchful waiting and calls the operation premature. The patient has no medical training, and the disagreement she must resolve is one that the profession itself, with all its training, has not resolved. Her predicament is usually filed under the heading of a difficult decision, but it deserves a more precise name, because its difficulty is structural: to evaluate the specialists' reasons on their merits, she would need the very expertise whose absence sent her to specialists in the first place.\n\nWhat laypeople actually do in such straits is reach for proxies, indicators that can be assessed without the expertise itself. Credentials are the most visible: degrees, board certifications, institutional affiliations. Track records come next, when they can be found, along with the expert's standing among other experts, and, inescapably, the texture of the encounter, whether the expert listens, hedges, condescends, or radiates certainty. Each proxy is informative, and each is systematically flawed. Credentials certify that training occurred, not that this judgment is sound; they date from years or decades before the question at hand. Track records are scarce, unaudited, and shaped by case mix, the surgeon who accepts only straightforward cases will have enviable statistics. As for demeanor, it may be the least reliable signal of all, since confidence is a performance that improves with practice, and the practitioners best at projecting it are not necessarily those best at being right. A layperson steering by demeanor rewards fluency, and fluency tracks social polish at least as faithfully as it tracks truth.\n\nThe proxy with the best claim to reliability is consensus. Where the great majority of independent, competent investigators converge, the layperson who defers to the convergence will be right far more often than one who freelances. But the consensus proxy has its own failure modes, and they are instructive. Consensus must be identified, and its identification is itself a lay judgment, exercised on a field the layperson cannot survey directly. Apparent convergence can be manufactured, by interested parties amplifying a fringe, or by professional cultures in which dissent is career-limiting, and genuine convergence can be misread as controversy when a well-funded minority keeps a settled question theatrically open. The layperson must therefore judge not only where the experts stand but whether the standing is independent, and that second judgment is harder than the first.\n\nNotice what has happened to the question. The patient began by asking which expert is right, a first-order question she cannot answer. She has been driven to a second-order question: which social arrangements for producing expert judgment deserve default trust? Fields differ in ways a layperson can partially assess without mastering their content. Are claims tested against outcomes, and are the outcomes audited by someone other than the claimant? Is dissent processed through adversarial review, or punished? Do practitioners publicly change their minds when shown to be wrong, and does the field remember who was wrong? These are questions about institutions, not about pancreases, and an attentive outsider can gather real evidence about them. Deference, on this view, is not the abdication of judgment but its redirection, toward the level where lay judgment has purchase.\n\nThe redirection, however, purchases tractability at a price. Institutional trust is coarse-grained: it attaches to whole fields and professions, and it updates slowly and crudely. A public scandal in one specialty bleeds suspicion into its neighbors; a genuine institutional failure, once absorbed, can rationally lower a layperson's default trust across an entire domain, even though the domain's reliability varies enormously from question to question. The layperson who, once burned, discounts a whole profession is not simply being irrational, given what she can see, the coarse response may be the best available, but the aggregate effect of many such rational responses is corrosive, and it hands opportunity to whoever profits from generalized distrust.\n\nA final anxiety shadows the whole arrangement. Deference, even sophisticated deference, sits badly with an ideal many people prize, that of thinking for oneself. If autonomy means verifying claims by one's own lights, then a life dependent on experts is a life of borrowed beliefs. But the ideal, so stated, was never available. No one verifies more than a sliver of what they believe; the choice was never between autonomy and dependence but among ways of managing dependence. The autonomous thinker, rightly understood, is not the one who checks everything, an impossibility, but the one who chooses her dependencies deliberately: who asks, of any source, what would have to be true of this institution for its claims to be worth my trust, and who withdraws that trust on evidence rather than on injury.\n\nThe patient with the two letters, then, is not choosing between doctors so much as auditing, with the limited instruments available to her, the system that produced them, and her position, uncomfortable as it is, is the general one. The question is rarely whether to defer, but to whom, on what showing, and with what readiness to revise, and a public that learned to ask it that way would be harder both to mislead and to stampede.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Because credentials, track records, and demeanor are all flawed proxies, laypeople facing expert disagreement should learn enough of the relevant field to evaluate the first-order arguments themselves."
+        },
+        {
+          "label": "B",
+          "text": "Consensus among experts is manufactured so frequently that laypeople have no rational grounds for trusting any professional field."
+        },
+        {
+          "label": "C",
+          "text": "Medical patients should always follow the recommendation of the specialist with the more distinguished institutional affiliation."
+        },
+        {
+          "label": "D",
+          "text": "Since laypeople cannot evaluate expert claims directly, their judgment is best redirected toward assessing the institutions that produce expert judgment, an uncomfortable but general position in which autonomy means choosing one's dependencies deliberately rather than verifying everything oneself."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice proposes the one escape route the passage rules out from the start. The first paragraph defines the predicament as structural, evaluating the specialists' reasons would require the very expertise whose absence sent the patient to specialists, so acquiring first-order competence is not presented as the layperson's available remedy.",
+        "B": "This choice inflates the third paragraph's cautions into a blanket skepticism the passage rejects. Manufactured convergence is listed as a failure mode to be watched for, but the passage still calls consensus the proxy with the best claim to reliability and builds a positive account of institutional trust rather than declaring all fields untrustworthy.",
+        "C": "This choice elevates one flawed proxy into a decision rule. The second paragraph specifically notes that credentials and affiliations certify past training rather than present soundness of judgment, so the passage cannot be recommending affiliation as the tiebreaker between disagreeing specialists.",
+        "D": "Correct. The passage moves from the structural first-order problem through the flaws of the standard proxies to the second-order question of which institutional arrangements deserve default trust, then reframes autonomy as the deliberate choice of dependencies, concluding that the real question is to whom to defer, on what showing, and with what readiness to revise."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_epistemology_expertise_243_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the fourth paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "concede that laypeople have no evidence of any kind available to them when experts disagree."
+        },
+        {
+          "label": "B",
+          "text": "reframe the layperson's problem as a second-order question about institutions, on which lay judgment can gather genuine evidence, so that deference becomes judgment redirected rather than abandoned."
+        },
+        {
+          "label": "C",
+          "text": "list the medical criteria by which surgical and conservative treatments should be compared."
+        },
+        {
+          "label": "D",
+          "text": "argue that professional fields differ so little in their institutional practices that assessing them is pointless."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice reverses the paragraph's central move. Far from denying laypeople evidence, the paragraph specifies the institutional questions, outcome auditing, adversarial review, public correction, on which an attentive outsider can gather real evidence, which is what makes the redirection of judgment possible.",
+        "B": "Correct. The paragraph opens by noting what has happened to the question, marks the shift from the unanswerable first-order question of which expert is right to the second-order question of which arrangements deserve default trust, gives the institutional criteria an outsider can assess, and concludes that deference is not the abdication of judgment but its redirection to a level where lay judgment has purchase.",
+        "C": "This choice mistakes the paragraph's explicit contrast. The paragraph says its questions are about institutions, not about pancreases, deliberately setting aside the medical merits; no criteria for comparing treatments appear anywhere in the passage.",
+        "D": "This choice contradicts the paragraph's premise. The claim that fields differ in ways a layperson can partially assess is what gives the institutional questions their point; if fields did not differ, the redirected judgment would have nothing to discriminate."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_epistemology_expertise_243_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to the passage, the layperson's judgment that a genuine expert consensus exists is harder than it appears because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "most laypeople lack the reading ability to understand professional journals."
+        },
+        {
+          "label": "B",
+          "text": "expert consensus changes so rapidly that any assessment is immediately outdated."
+        },
+        {
+          "label": "C",
+          "text": "identifying convergence is itself a lay judgment about a field the layperson cannot survey directly, and the appearance of consensus or controversy can be manufactured by interested parties or distorted by professional cultures."
+        },
+        {
+          "label": "D",
+          "text": "experts deliberately conceal their agreements from the public in order to preserve their authority."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice locates the difficulty in reading skill, which the passage never mentions. The third paragraph's problem would persist for a highly literate layperson, since it concerns surveying a field's independence and structure, not decoding its prose.",
+        "B": "This choice invents a speed problem the passage does not raise. Nothing in the third paragraph suggests consensus shifts too quickly to track; the identified difficulties are manufactured amplification of fringes, career-limiting dissent, and settled questions kept theatrically open.",
+        "C": "Correct. The third paragraph states that consensus must be identified, that its identification is itself a lay judgment exercised on a field the layperson cannot survey directly, and that apparent convergence can be manufactured while genuine convergence can be misread as controversy when a funded minority keeps a settled question theatrically open, so the layperson must also judge whether the standing is independent, a harder second judgment.",
+        "D": "This choice attributes to experts a conspiratorial motive found nowhere in the passage. The distortions described come from interested outside parties and from internal career pressures on dissent, not from experts hiding their agreement to protect authority."
+      },
+      "topic": "Perspective Attribution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_epistemology_expertise_243_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward demeanor as a guide to expert reliability is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "distrustful, since confidence is a rehearsable performance and steering by it rewards fluency, which tracks social polish at least as well as truth."
+        },
+        {
+          "label": "B",
+          "text": "approving, since an expert who listens carefully has demonstrated superior clinical judgment."
+        },
+        {
+          "label": "C",
+          "text": "neutral, since the passage declines to rank the proxies against one another."
+        },
+        {
+          "label": "D",
+          "text": "dismissive of demeanor for medical experts but approving of it for experts in other fields."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The second paragraph calls demeanor perhaps the least reliable signal of all, explains that confidence is a performance that improves with practice and that its best performers are not necessarily those best at being right, and warns that a layperson steering by demeanor rewards fluency, which tracks social polish at least as faithfully as truth.",
+        "B": "This choice converts the paragraph's neutral inventory of the encounter's texture, listening, hedging, condescending, into an endorsement it never receives. The paragraph's verdict on demeanor runs in the opposite direction, toward its unreliability as a signal of being right.",
+        "C": "This choice misses the explicit comparative language. Calling demeanor possibly the least reliable signal of all is a ranking, and the third paragraph separately ranks consensus as the proxy with the best claim to reliability, so the passage does order the proxies.",
+        "D": "This choice invents a field-by-field distinction the passage never draws. The critique of demeanor is stated in general terms about confidence, performance, and fluency, with no suggestion that the signal works better outside medicine."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_epistemology_expertise_243_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A homeowner receives contradictory assessments from two structural engineers about whether her foundation requires urgent repair. Unable to evaluate the engineering arguments, she investigates instead whether the profession requires inspections to be audited against later building performance, how it handles engineers whose assessments prove wrong, and whether its licensing board publishes disciplinary outcomes. Based on the passage, her approach exemplifies:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the error of steering by demeanor that the second paragraph warns against."
+        },
+        {
+          "label": "B",
+          "text": "the redirection of judgment to the second-order question of whether the field's institutions deserve default trust, using criteria an attentive outsider can assess."
+        },
+        {
+          "label": "C",
+          "text": "the coarse-grained discounting of an entire profession that the fifth paragraph describes as corrosive in aggregate."
+        },
+        {
+          "label": "D",
+          "text": "an attempt to resolve the first-order engineering question by acquiring the relevant technical expertise herself."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice misidentifies the proxy in use. The homeowner is examining auditing practices, error handling, and disciplinary transparency, institutional structures, rather than either engineer's confidence, warmth, or fluency in the encounter, so the demeanor warning does not apply.",
+        "B": "Correct. Unable to answer which engineer is right, the homeowner asks the fourth paragraph's questions almost verbatim: whether claims are tested against outcomes and audited by someone other than the claimant, how the field processes error, and whether correction is public, which is precisely the second-order assessment of institutional trustworthiness that the passage says lay judgment can genuinely perform.",
+        "C": "This choice describes the opposite response to expert disagreement. The fifth paragraph's coarse discounting withdraws trust from a whole profession after injury; the homeowner is gathering evidence in order to calibrate trust, the deliberate practice the passage recommends, not abandoning the field.",
+        "D": "This choice contradicts the scenario's premise that she cannot evaluate the engineering arguments. Investigating a profession's auditing and discipline requires no structural engineering knowledge, which is exactly why the passage locates lay purchase at that level."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_epistemology_expertise_243_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the passage's claim that deferring to genuine expert consensus serves laypeople better than evaluating first-order arguments themselves?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A survey finding that most laypeople report high confidence in their own ability to evaluate technical claims."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that experts within the same field tend to socialize with one another at professional conferences."
+        },
+        {
+          "label": "C",
+          "text": "A longitudinal study across multiple technical domains finding that laypeople who adopted the position of the documented majority of independent specialists ended up correct far more often, on questions later settled decisively, than comparable laypeople who weighed the competing technical arguments themselves, whose conclusions tracked presentation quality more than eventual outcomes."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that public trust in experts rises during periods of economic prosperity."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice measures laypeople's confidence, not their accuracy, and the passage's own analysis of demeanor already treats confidence as a poor proxy for being right. Self-reported ability cannot show that deference outperforms independent evaluation.",
+        "B": "This choice, if anything, gestures toward a worry the third paragraph raises, since socializing could reduce the independence that makes convergence evidentially valuable. It provides no comparison between deferring and freelancing, which is what the claim requires.",
+        "C": "Correct. The claim is that the layperson who defers to genuine convergence will be right far more often than one who freelances. A longitudinal, multi-domain comparison showing deferrers outperforming self-evaluators on decisively settled questions, with the self-evaluators' conclusions tracking presentation quality rather than outcomes, tests exactly that comparison and confirms both halves of the passage's analysis, the value of consensus and the fluency trap.",
+        "D": "This choice tracks the level of public trust over economic cycles, which says nothing about whether trusting consensus produces more accurate lay beliefs than independent evaluation does."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_epistemology_expertise_243_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the passage's claim that an attentive outsider can gather real evidence about which fields deserve default trust?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A body of research showing that the institutional markers the passage recommends assessing, outcome auditing, adversarial review, public self-correction, are routinely simulated by unreliable fields, whose imitations laypeople in controlled studies proved unable to distinguish from the genuine practices of reliable fields at rates better than chance."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that some highly reliable fields conduct their peer review anonymously."
+        },
+        {
+          "label": "C",
+          "text": "Evidence that laypeople rarely take the time to investigate professional institutions before choosing an expert."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that institutional reforms in one profession are often copied by other professions."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The fourth paragraph's redirection works only if institutional questions are ones on which lay judgment has purchase. If unreliable fields routinely simulate auditing, adversarial review, and public correction, and laypeople cannot tell the imitations from the genuine article better than chance, then the second-order assessment inherits the very problem it was meant to escape, and the outsider's evidence is no longer real evidence.",
+        "B": "This choice describes a procedural feature compatible with the passage's criteria. Anonymous review can still be adversarial and outcome-audited, and its existence in reliable fields does not prevent outsiders from assessing the institutional questions the passage lists.",
+        "C": "This choice concerns whether laypeople actually perform the assessment, not whether the assessment yields real evidence when performed. The passage's claim is about what an attentive outsider can do, and widespread inattention leaves that capacity intact.",
+        "D": "This choice reports diffusion of reforms across professions, which does not bear on whether institutional markers can be evaluated from outside; if anything, spreading genuine reforms would give outsiders more to assess, not less."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "batch": "B040",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Social Structure & Institutions",
+  "questionCount": 10,
+  "answerDistribution": {
+    "B": 3,
+    "A": 3,
+    "D": 2,
+    "C": 2
+  },
+  "questions": [
+    {
+      "id": "ps_inst_001",
+      "passage": "Two public schools use the same official curriculum, but students at the wealthier school have more access to advanced courses, counselors, extracurricular activities, and alumni networks. Teachers at both schools also reward punctuality, rule-following, and deference to authority\u2014behaviors not listed in the formal curriculum. Researchers examine how these differences reproduce unequal educational and occupational outcomes.",
+      "stem": "Advantages gained from familiarity with valued language, tastes, and institutional norms are examples of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "role exit"
+        },
+        {
+          "label": "B",
+          "text": "demographic transition"
+        },
+        {
+          "label": "C",
+          "text": "cultural capital"
+        },
+        {
+          "label": "D",
+          "text": "anomie"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Role exit (Ebaugh) describes the process of disengaging from a role that was central to one's identity \u2014 for example, retiring from a career or leaving a religious order. The question asks about advantages gained from cultural knowledge, not about leaving a social position.",
+        "B": "Demographic transition is a model describing population change as societies industrialize: from high birth/high death rates to low birth/low death rates. It is a population-level concept unrelated to individual advantages from cultural knowledge.",
+        "C": "Correct. Cultural capital (Bourdieu) refers to the nonfinancial assets \u2014 knowledge, skills, education, tastes, speech patterns, and familiarity with institutional norms \u2014 that provide social advantages. Students at the wealthier school gain cultural capital through exposure to advanced academics, extracurricular activities, and alumni networks. This cultural knowledge translates into educational and occupational advantages, contributing to the reproduction of social inequality across generations. Bourdieu identified three forms: embodied (dispositions, habits), objectified (cultural goods), and institutionalized (credentials, degrees).",
+        "D": "Anomie (Durkheim) describes a state of normlessness \u2014 the breakdown or weakening of social norms that regulate behavior. It typically arises during rapid social change and is associated with increased deviance and suicide rates. Anomie does not describe the advantages of cultural knowledge."
+      },
+      "topic": "Education / Cultural Capital",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_inst_002",
+      "passage": null,
+      "stem": "Teaching punctuality and obedience outside the formal syllabus is the:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "hidden curriculum"
+        },
+        {
+          "label": "B",
+          "text": "manifest curriculum"
+        },
+        {
+          "label": "C",
+          "text": "credential ceiling"
+        },
+        {
+          "label": "D",
+          "text": "medical model"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The hidden curriculum refers to the informal, unwritten lessons that schools transmit alongside the official academic content: punctuality, obedience, deference to authority, competition, conformity to schedules, and acceptance of hierarchical evaluation. These implicit lessons socialize students into behaviors valued in the workplace and broader society. Critical theorists (Bowles and Gintis) argue that the hidden curriculum prepares working-class students for obedient labor while elite schools' hidden curricula emphasize leadership and critical thinking \u2014 reproducing class inequality.",
+        "B": "The manifest (formal) curriculum consists of the explicitly stated learning objectives, syllabi, and academic content that schools officially teach. The behaviors described \u2014 punctuality and obedience \u2014 are not listed in the formal curriculum but are nonetheless systematically rewarded.",
+        "C": "This is not a standard sociological term for the implicit socialization processes in schools. The established concept is 'hidden curriculum,' coined by Philip Jackson (1968) and elaborated by critical education theorists.",
+        "D": "The medical model frames conditions as diseases requiring clinical intervention. It is relevant to discussions of medicalization and mental health, not to the implicit behavioral socialization occurring in schools."
+      },
+      "topic": "Education / Hidden Curriculum",
+      "difficulty": "Easy",
+      "passageRef": "ps_inst_001"
+    },
+    {
+      "id": "ps_inst_003",
+      "passage": null,
+      "stem": "Which perspective would most emphasize how unequal school resources reproduce class advantage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Symbolic interactionism only"
+        },
+        {
+          "label": "B",
+          "text": "Ethnomethodology"
+        },
+        {
+          "label": "C",
+          "text": "Rational choice theory"
+        },
+        {
+          "label": "D",
+          "text": "Conflict theory"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Symbolic interactionism examines how meaning is constructed through micro-level social interactions \u2014 how teachers and students negotiate identities in classroom encounters, for example. While relevant to education, it does not primarily focus on the structural reproduction of class inequality through resource allocation.",
+        "B": "Ethnomethodology (Garfinkel) studies how people produce and maintain social order through everyday practical reasoning and taken-for-granted methods. It focuses on micro-level interaction, not macro-level structural inequality.",
+        "C": "Rational choice theory assumes individuals act rationally to maximize self-interest. While parents may make rational choices about schooling, the question asks about structural resource inequality \u2014 a macro-level phenomenon better addressed by conflict theory.",
+        "D": "Correct. Conflict theory (Marx, Weber, Bowles & Gintis) analyzes how social institutions reproduce inequality by distributing resources, opportunities, and power unequally along lines of class, race, and gender. The wealthier school's superior resources (advanced courses, counselors, extracurriculars, alumni networks) give its students advantages that translate into better educational and occupational outcomes, perpetuating class privilege across generations. Conflict theory explicitly predicts that education functions not as a meritocratic equalizer but as a mechanism for reproducing existing social hierarchies."
+      },
+      "topic": "Education / Conflict Theory",
+      "difficulty": "Medium",
+      "passageRef": "ps_inst_001"
+    },
+    {
+      "id": "ps_inst_004",
+      "passage": null,
+      "stem": "A recognized system of positions, norms, and practices organized around a major social need is a social:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stigma"
+        },
+        {
+          "label": "B",
+          "text": "institution"
+        },
+        {
+          "label": "C",
+          "text": "deviance"
+        },
+        {
+          "label": "D",
+          "text": "dyad"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Stigma (Goffman) is a discrediting attribute that spoils an individual's social identity \u2014 for example, a visible disability, a criminal record, or a mental illness diagnosis. Stigma is a property of social labeling, not a system of organized social positions.",
+        "B": "Correct. A social institution is an organized, enduring system of social norms, roles, and practices organized around a fundamental societal need. The major institutions include: family (socialization, reproduction), education (knowledge transmission, credentialing), religion (meaning, moral order), government (authority, conflict resolution), economy (production, distribution), and healthcare (illness management). Institutions provide structure and predictability to social life.",
+        "C": "Deviance is behavior that violates social norms and is subject to social sanctions. While institutions define and regulate deviance, deviance itself is behavior, not an organized system of positions and practices.",
+        "D": "A dyad is the smallest possible social group \u2014 two people in interaction (e.g., a married couple, two friends). A dyad is a group type, not an institution. Institutions encompass many groups, roles, and normative frameworks."
+      },
+      "topic": "Social Institutions / Definition",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_inst_005",
+      "passage": null,
+      "stem": "From a functionalist perspective, one major function of the family is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "eliminate all inequality"
+        },
+        {
+          "label": "B",
+          "text": "socialize children and provide social support"
+        },
+        {
+          "label": "C",
+          "text": "replace the economic system"
+        },
+        {
+          "label": "D",
+          "text": "prevent cultural transmission"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Functionalism does not claim that families eliminate inequality. In fact, functionalist analysis acknowledges that families transmit social class across generations (through socialization, cultural capital, and economic resources). Families serve stabilizing functions within the existing stratification system.",
+        "B": "Correct. From a functionalist perspective (Parsons, Murdock), the family serves several essential functions for society: socialization of children (transmitting culture, values, and norms), emotional support and intimacy (providing psychological stability), economic cooperation (pooling resources), social identity assignment (conferring status, religion, ethnicity), and regulation of reproduction. Functionalism views these contributions as necessary for social stability and continuity.",
+        "C": "The family and the economy are distinct institutions that interact but do not replace each other. Families provide socialization and emotional functions; the economy provides production and distribution functions. No sociological theory proposes that one replaces the other.",
+        "D": "Families are primary agents of cultural transmission \u2014 they are the first institution through which children learn language, values, beliefs, and behavioral expectations. Saying families prevent cultural transmission contradicts one of their most well-established sociological functions."
+      },
+      "topic": "Family / Functionalism",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_inst_006",
+      "passage": null,
+      "stem": "Durkheim emphasized that shared religious rituals can strengthen:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "geographic mobility"
+        },
+        {
+          "label": "B",
+          "text": "bureaucratic impersonality"
+        },
+        {
+          "label": "C",
+          "text": "social solidarity"
+        },
+        {
+          "label": "D",
+          "text": "role conflict"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Geographic mobility refers to population movement across regions. While religion can influence migration patterns (pilgrimage, missionary work, religious persecution), Durkheim's central argument about religion concerned solidarity and collective identity, not geographic movement.",
+        "B": "Bureaucratic impersonality is a characteristic of Weber's ideal-type bureaucracy \u2014 rule-governed, hierarchical administration where personal relationships are subordinated to formal procedures. While religious organizations can be bureaucratic, Durkheim's emphasis was on solidarity through ritual, not administrative impersonality.",
+        "C": "Correct. Durkheim argued that religion's primary social function is to strengthen social solidarity \u2014 the bonds that unite members of a society. Shared religious rituals (collective effervescence), symbols, and moral codes create a sense of belonging, reinforce collective identity, and distinguish the sacred from the profane. Durkheim proposed that what people worship is ultimately society itself, projected onto sacred symbols. In The Elementary Forms of Religious Life, he demonstrated this through analysis of Australian Aboriginal totemism.",
+        "D": "Role conflict occurs when an individual faces incompatible expectations from different social positions they occupy simultaneously. Durkheim argued that rituals unify people around shared symbols and values, reducing rather than creating incompatible role demands."
+      },
+      "topic": "Religion / Social Solidarity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_inst_007",
+      "passage": null,
+      "stem": "Weber's ideal bureaucracy is characterized by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "hereditary leadership and informal personal loyalty"
+        },
+        {
+          "label": "B",
+          "text": "flexible authority without written procedures"
+        },
+        {
+          "label": "C",
+          "text": "decisions based primarily on personal emotion"
+        },
+        {
+          "label": "D",
+          "text": "hierarchy, specialization, formal rules, and impersonality"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Hereditary leadership and informal personal loyalty characterize traditional authority (Weber's term for authority based on long-standing customs and inherited position \u2014 e.g., monarchy, tribal chieftains). Bureaucracy replaces personal loyalty with impersonal rules and replaces hereditary succession with merit-based appointment.",
+        "B": "Weber's bureaucracy is defined by its formal, written rules and standardized operating procedures. Flexibility and informality characterize other organizational forms (e.g., adhocracy, network organizations) but are the opposite of bureaucratic structure.",
+        "C": "Decisions in an ideal bureaucracy are based on rational-legal authority \u2014 adherence to formal rules and established procedures, not personal emotion. Weber argued that rationalization \u2014 the increasing dominance of calculability and formal rules over tradition and emotion \u2014 is the defining trend of modern society.",
+        "D": "Correct. Weber's ideal-type bureaucracy has several defining characteristics: (1) clear hierarchy of authority, (2) specialization and division of labor, (3) formal written rules and procedures, (4) impersonality (decisions based on rules, not personal relationships), (5) merit-based hiring and promotion, and (6) clear separation of personal and organizational property. Weber saw bureaucracy as the most efficient form of administration but warned of its potential to become an 'iron cage' that suppresses individual freedom and creativity."
+      },
+      "topic": "Bureaucracy / Weber",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_inst_008",
+      "passage": null,
+      "stem": "When a condition previously viewed as nonmedical becomes defined and treated as a medical problem, this is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "medicalization"
+        },
+        {
+          "label": "B",
+          "text": "urbanization"
+        },
+        {
+          "label": "C",
+          "text": "secularization"
+        },
+        {
+          "label": "D",
+          "text": "commodification only"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Medicalization (Conrad, Zola) is the process by which nonmedical problems become defined and treated as medical conditions \u2014 subject to medical authority, diagnosis, and intervention. Examples include the medicalization of childbirth (from home midwifery to hospital obstetrics), childhood behavior (ADHD), sadness (depression), shyness (social anxiety disorder), and aging (hormone replacement therapy). Critics argue that medicalization can pathologize normal human variation, expand pharmaceutical markets, and shift authority from individuals and communities to medical professionals.",
+        "B": "Urbanization is the process of population concentration in cities, typically accompanying industrialization. While urbanization affects health patterns and healthcare delivery, it does not describe the conceptual expansion of medical definitions to cover new conditions.",
+        "C": "Secularization is the declining influence of religious institutions and beliefs in public life. It describes a shift in the authority of religious institutions, not the expansion of medical framing into new domains.",
+        "D": "Commodification refers to the process of treating something as a commodity to be bought and sold in the market. While healthcare services can be commodified, medicalization specifically refers to the expansion of medical framing and authority into new domains, not to market dynamics. The two concepts are related but distinct."
+      },
+      "topic": "Medicine / Medicalization",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_inst_009",
+      "passage": null,
+      "stem": "A decline in the influence of religious institutions over public life is called:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "resocialization"
+        },
+        {
+          "label": "B",
+          "text": "secularization"
+        },
+        {
+          "label": "C",
+          "text": "mechanical solidarity"
+        },
+        {
+          "label": "D",
+          "text": "social reproduction"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Resocialization is the process of replacing previously learned norms, values, and behaviors with new ones \u2014 typically occurring in total institutions (prisons, military boot camps, monasteries). It involves individual-level identity transformation, not society-level changes in religious influence.",
+        "B": "Correct. Secularization describes the declining influence of religious institutions, beliefs, and practices in public and political life. Indicators include decreased church attendance, reduced political influence of religious leaders, legal separation of church and state, and the growing authority of science and secular philosophy in domains previously governed by religious doctrine. Weber linked secularization to the broader process of rationalization in modern societies. However, secularization theory is debated: some societies (particularly in the United States) maintain high religiosity alongside modernity.",
+        "C": "Mechanical solidarity (Durkheim) is social cohesion based on shared beliefs, values, and lifestyles \u2014 characteristic of small, homogeneous, pre-industrial societies. It is a type of social bond, not a decline in religious influence. In fact, strong mechanical solidarity often coincides with high religious influence.",
+        "D": "Social reproduction refers to the processes through which social structures, inequalities, and cultural patterns are perpetuated across generations \u2014 through education, family socialization, and institutional practices. It describes the maintenance of existing structures, not the decline of religious authority."
+      },
+      "topic": "Religion / Secularization",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_inst_010",
+      "passage": null,
+      "stem": "A position earned through education or occupation is generally an:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "achieved status"
+        },
+        {
+          "label": "B",
+          "text": "ascribed status"
+        },
+        {
+          "label": "C",
+          "text": "master sanction"
+        },
+        {
+          "label": "D",
+          "text": "informal norm"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. An achieved status is a social position that an individual attains through personal effort, choice, ability, or accomplishment \u2014 such as occupation, educational degree, marital status, or criminal record. Achieved statuses are earned, not assigned at birth. In meritocratic ideals, achieved statuses should determine social rewards, though in practice, ascribed statuses (race, gender, family wealth) significantly influence access to achievement opportunities.",
+        "B": "An ascribed status is a social position assigned at birth or assumed involuntarily \u2014 such as sex, race, ethnicity, birth order, or social class of origin. Ascribed statuses are not earned through personal effort; they are given by society based on characteristics the individual did not choose.",
+        "C": "'Master sanction' is not a standard sociological term. A master status is a status that dominates others in shaping a person's social identity (e.g., being a felon may overshadow all other statuses). A sanction is a reward or punishment for conforming to or violating norms. Neither concept matches the definition in the question.",
+        "D": "An informal norm (folkway) is an unwritten social expectation about everyday behavior (e.g., holding doors, saying 'please'). Norms govern behavior; they are not social positions. The question asks about a position earned through education or occupation, which is an achieved status."
+      },
+      "topic": "Social Status / Achieved Status",
+      "difficulty": "Easy"
+    }
+  ]
+}

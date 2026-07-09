@@ -1,0 +1,336 @@
+{
+  "batch": "B050",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Organic Chemistry II: Carbonyl Chemistry",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_orgo2_001",
+      "passage": "A medicinal chemist designs a prodrug ester that hydrolyzes to release the active acid form in the bloodstream. The ester contains a carbonyl group bonded to an alkoxy leaving group (−OR). In the body, esterases catalyze this hydrolysis by positioning a nucleophilic serine near the electrophilic carbonyl carbon. The chemist also considers that the rate of nonenzymatic hydrolysis depends on the electrophilicity of the carbonyl and the quality of the leaving group.",
+      "stem": "The mechanism of ester hydrolysis in aqueous base (saponification) involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "free-radical chain reaction initiated by UV light"
+        },
+        {
+          "label": "B",
+          "text": "electrophilic addition to the carbonyl oxygen"
+        },
+        {
+          "label": "C",
+          "text": "nucleophilic acyl substitution — hydroxide attacks the carbonyl carbon, forming a tetrahedral intermediate that collapses to expel the alkoxide leaving group"
+        },
+        {
+          "label": "D",
+          "text": "E2 elimination producing an alkene and a carboxylic acid"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Free-radical reactions are initiated by homolytic bond cleavage (UV light, peroxides) and typically occur with alkanes, alkenes, or halogenation reactions. Ester hydrolysis is an ionic process involving nucleophilic attack and heterolytic bond breaking — no radicals are involved.",
+        "B": "Electrophilic addition occurs at C=C double bonds (e.g., alkene + HBr), not at carbonyl groups in acyl substitution. The carbonyl carbon is the electrophilic center in ester hydrolysis, and hydroxide is the nucleophile — this is nucleophilic attack on the carbon, not electrophilic attack on the oxygen.",
+        "C": "Correct. Base-catalyzed ester hydrolysis (saponification) proceeds by nucleophilic acyl substitution: (1) hydroxide (strong nucleophile) attacks the electrophilic carbonyl carbon, (2) the π electrons of C=O shift to oxygen, forming a tetrahedral intermediate, (3) the tetrahedral intermediate collapses, re-forming the C=O while expelling the alkoxide (−OR) as a leaving group. The net result is replacement of −OR with −OH, converting the ester to a carboxylic acid (which is deprotonated to the carboxylate under basic conditions). This mechanism is characteristic of all carboxylic acid derivative interconversions.",
+        "D": "E2 elimination produces alkenes by removing a proton and a leaving group from adjacent carbons in a concerted, anti-periplanar mechanism. Ester hydrolysis replaces the −OR group with −OH at the same carbon — it is a substitution, not an elimination. No alkene is formed."
+      },
+      "topic": "Ester Hydrolysis / Nucleophilic Acyl Substitution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_orgo2_002",
+      "passage": null,
+      "passageRef": "cp_orgo2_001",
+      "stem": "Compared to the corresponding ester, an amide (R−CO−NHR') hydrolyzes much more slowly because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the nitrogen in amides has no lone pair electrons available for resonance"
+        },
+        {
+          "label": "B",
+          "text": "amides are nonpolar and therefore cannot interact with water molecules"
+        },
+        {
+          "label": "C",
+          "text": "the amide C−N bond is shorter and stronger due to resonance donation from nitrogen's lone pair into the carbonyl, and the amine leaving group (−NHR') is much poorer than the alkoxide (−OR)"
+        },
+        {
+          "label": "D",
+          "text": "amides spontaneously decompose before hydrolysis can occur"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Nitrogen in amides does have a lone pair — and its donation into the carbonyl is precisely what makes amides resistant to hydrolysis. The resonance form R−C(O⁻)=N⁺HR' shows the lone pair participating in π bonding. Without this resonance donation, amides would be as reactive as esters.",
+        "B": "Amides are polar molecules — the C=O and N−H bonds are both significantly polar, and amides readily form hydrogen bonds with water (both as donors via N−H and acceptors via C=O). The resistance to hydrolysis is due to electronic and leaving-group effects, not to nonpolarity or water-insolubility.",
+        "C": "Correct. Amide hydrolysis is slow for two reinforcing reasons: (1) nitrogen's lone pair donates into the carbonyl through resonance (nN → π*C=O), giving the C−N bond partial double-bond character (~40%), which reduces the electrophilicity of the carbonyl carbon and raises the activation energy for nucleophilic attack; (2) an amine (pKaH ~35–40 for the conjugate acid of an amide nitrogen, or ~10 for a simple amine) is a much poorer leaving group than an alkoxide (pKaH ~16). Both effects stabilize the amide relative to the tetrahedral intermediate, making the activation barrier much higher than for ester hydrolysis. This extraordinary kinetic stability is why peptide bonds in proteins have half-lives of hundreds of years and require proteases for digestion.",
+        "D": "Amides are among the most kinetically stable carbonyl derivatives. They do not spontaneously decompose — quite the opposite, their extraordinary stability is the reason proteins can maintain their structure for decades. Spontaneous decomposition would be inconsistent with the biological role of the peptide bond."
+      },
+      "topic": "Amide vs Ester Hydrolysis",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_orgo2_003",
+      "passage": null,
+      "stem": "Aldol condensation involves the reaction of an aldehyde enolate with a second aldehyde molecule. The product of an aldol reaction is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a β-hydroxy aldehyde (aldol product), which can be dehydrated to form an α,β-unsaturated aldehyde"
+        },
+        {
+          "label": "B",
+          "text": "a carboxylic acid formed by oxidation of both aldehydes"
+        },
+        {
+          "label": "C",
+          "text": "an ether formed by combining two alcohol groups"
+        },
+        {
+          "label": "D",
+          "text": "a ketone formed by reduction of the aldehyde carbonyl"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In the aldol reaction, an enolate (or enol) of one aldehyde molecule acts as a nucleophile and attacks the carbonyl carbon of a second aldehyde. The product is a β-hydroxy aldehyde (an 'aldol' — named for having both aldehyde and alcohol functional groups). Under heating or acidic/basic conditions, the β-hydroxy aldehyde can undergo dehydration (loss of water) to form an α,β-unsaturated aldehyde (an enal). This aldol condensation is biologically important — citrate synthase, aldolase, and HMG-CoA synthase all catalyze aldol-type reactions in metabolism.",
+        "B": "Oxidation of an aldehyde produces a carboxylic acid (e.g., by KMnO₄ or Jones reagent), but this is not an aldol reaction. The aldol reaction is a C−C bond-forming reaction between an enolate nucleophile and a carbonyl electrophile — no oxidation state change occurs at the reacting carbons.",
+        "C": "Ether formation (Williamson synthesis) involves an alkoxide nucleophile attacking an alkyl halide via SN2. The aldol reaction involves a carbon nucleophile (enolate) attacking a carbonyl electrophile — the product contains a hydroxyl group and an aldehyde, not an ether linkage.",
+        "D": "Reduction of an aldehyde carbonyl (by NaBH₄ or LiAlH₄) produces a primary alcohol. The aldol reaction does not reduce the carbonyl — it forms a new C−C bond while retaining both the aldehyde and generating a hydroxyl group."
+      },
+      "topic": "Aldol Reaction / C−C Bond Formation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_orgo2_004",
+      "passage": null,
+      "stem": "A Grignard reagent (RMgBr) reacts with a ketone to produce, after aqueous workup:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a primary alcohol"
+        },
+        {
+          "label": "B",
+          "text": "an alkene by elimination"
+        },
+        {
+          "label": "C",
+          "text": "a carboxylic acid"
+        },
+        {
+          "label": "D",
+          "text": "a tertiary alcohol, because the carbon nucleophile adds to the ketone carbonyl, and the two R groups from the ketone plus the one from the Grignard give three substituents on the carbinol carbon"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "A primary alcohol has only one carbon substituent on the hydroxyl-bearing carbon. Grignard addition to a ketone (which already has two carbon substituents on the carbonyl) adds a third carbon group, producing a tertiary alcohol. Grignard + formaldehyde (HCHO, no carbon substituents) gives a primary alcohol; Grignard + other aldehyde gives a secondary alcohol; Grignard + ketone gives a tertiary alcohol.",
+        "B": "Grignard addition is a nucleophilic addition reaction, not an elimination. The Grignard carbon adds to the carbonyl, forming a new C−C bond. E1 or E2 elimination would require a leaving group and typically occurs with alkyl halides or alcohols, not with Grignard intermediates.",
+        "C": "A carboxylic acid is produced when a Grignard reagent reacts with CO₂ (carbon dioxide), not with a ketone. Grignard + CO₂ → carboxylate salt → acid after workup. Grignard + ketone → tertiary alcohol.",
+        "D": "Correct. Grignard reagents (RMgBr) are powerful carbon nucleophiles — the carbon bonded to magnesium bears a partial negative charge (δ⁻) and attacks the electrophilic carbonyl carbon of the ketone. This forms a new C−C bond, generating a magnesium alkoxide intermediate. Aqueous acid workup protonates the alkoxide to give the alcohol. Since the ketone already has two carbon substituents and the Grignard adds a third, the product is a tertiary alcohol. This reaction is one of the most important C−C bond-forming reactions in organic chemistry."
+      },
+      "topic": "Grignard Reaction / Tertiary Alcohol",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_orgo2_005",
+      "passage": null,
+      "stem": "Imine formation occurs when a primary amine (R−NH₂) reacts with an aldehyde or ketone. The mechanism involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "radical halogenation of the carbonyl carbon"
+        },
+        {
+          "label": "B",
+          "text": "Diels-Alder cycloaddition forming a six-membered ring"
+        },
+        {
+          "label": "C",
+          "text": "nucleophilic addition of the amine nitrogen to the carbonyl carbon, forming a carbinolamine intermediate that dehydrates to give a C=N double bond (imine/Schiff base)"
+        },
+        {
+          "label": "D",
+          "text": "electrophilic aromatic substitution on the amine's benzene ring"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Radical halogenation involves homolytic bond cleavage and radical intermediates, typically with alkanes and halogens under UV light. Imine formation is an ionic process involving nucleophilic addition and subsequent dehydration — no radicals are involved.",
+        "B": "The Diels-Alder reaction is a [4+2] cycloaddition between a conjugated diene and a dienophile, forming a six-membered ring. It does not involve amines reacting with carbonyls. Imine formation is a two-step process (addition then dehydration), not a pericyclic cycloaddition.",
+        "C": "Correct. Imine (Schiff base) formation proceeds in two steps: (1) the nitrogen lone pair of the primary amine attacks the electrophilic carbonyl carbon, forming a tetrahedral carbinolamine intermediate (−C(OH)(NHR)−); (2) the carbinolamine dehydrates (loses water) to form the C=N double bond (imine). The reaction is acid-catalyzed — mild acid protonates the hydroxyl group, facilitating water departure. Schiff base formation is biologically critical: pyridoxal phosphate (vitamin B₆) enzymes use Schiff bases with substrate amino groups as catalytic intermediates in transamination, decarboxylation, and racemization reactions.",
+        "D": "Electrophilic aromatic substitution involves electrophiles attacking an aromatic ring. No aromatic ring is required for imine formation — any primary amine can react with any aldehyde or ketone, whether or not either contains an aromatic system. The reaction occurs at the carbonyl, not at an aromatic ring."
+      },
+      "topic": "Imine/Schiff Base Formation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_orgo2_006",
+      "passage": null,
+      "stem": "The difference between an aldehyde and a ketone is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "aldehydes have the carbonyl group bonded to at least one hydrogen, while ketones have the carbonyl bonded to two carbon groups"
+        },
+        {
+          "label": "B",
+          "text": "ketones are more easily oxidized than aldehydes"
+        },
+        {
+          "label": "C",
+          "text": "aldehydes are cyclic while ketones are acyclic"
+        },
+        {
+          "label": "D",
+          "text": "aldehydes contain nitrogen while ketones do not"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The structural difference is at the carbonyl carbon: in an aldehyde (R−CHO), the carbonyl is bonded to at least one hydrogen (and one R group, or two hydrogens in formaldehyde). In a ketone (R−CO−R'), the carbonyl is bonded to two carbon-containing groups. This structural difference affects reactivity: aldehydes are generally more reactive toward nucleophilic addition because (1) the hydrogen provides less steric hindrance than a second R group, and (2) alkyl groups are electron-donating, so two R groups stabilize the carbonyl more than one, reducing electrophilicity.",
+        "B": "Aldehydes are actually more easily oxidized than ketones. Aldehydes can be oxidized to carboxylic acids by mild oxidizing agents (Tollens' reagent, Benedict's solution, chromic acid). Ketones resist oxidation because breaking a C−C bond adjacent to the carbonyl requires much more energy than breaking the C−H bond in an aldehyde. This difference is the basis of the Tollens' test (silver mirror) for distinguishing aldehydes from ketones.",
+        "C": "Both aldehydes and ketones can be found in cyclic and acyclic molecules. Cyclohexanone is a cyclic ketone; glucose (in its open-chain form) is an aldehyde. There is no structural requirement linking ring structure to aldehyde vs. ketone classification.",
+        "D": "Neither aldehydes nor ketones contain nitrogen in their functional group. Both consist of a carbonyl group (C=O) bonded to carbon and/or hydrogen. Nitrogen-containing carbonyl compounds include amides (C(=O)−N) and imines (C=N), which are different functional groups."
+      },
+      "topic": "Aldehyde vs Ketone / Structure and Reactivity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_orgo2_007",
+      "passage": null,
+      "stem": "Fischer esterification is the acid-catalyzed reaction of a carboxylic acid with an alcohol. This reaction is an equilibrium process. The yield of ester can be increased by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "using excess water to drive the reaction forward"
+        },
+        {
+          "label": "B",
+          "text": "adding a strong base to deprotonate the carboxylic acid"
+        },
+        {
+          "label": "C",
+          "text": "decreasing the temperature to absolute zero"
+        },
+        {
+          "label": "D",
+          "text": "removing water from the reaction mixture (e.g., using a drying agent or Dean-Stark trap) to shift the equilibrium toward products by Le Chatelier's principle"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Water is a product of Fischer esterification (R−COOH + R'OH ⇌ R−COOR' + H₂O). Adding excess water would shift the equilibrium toward reactants (hydrolysis), decreasing ester yield — the opposite of the desired effect. Le Chatelier's principle predicts that adding a product shifts equilibrium backward.",
+        "B": "Adding a strong base would deprotonate the carboxylic acid, forming a carboxylate ion (RCOO⁻). The carboxylate is a poor electrophile (resonance-stabilized, delocalized negative charge) and does not undergo Fischer esterification. The reaction requires the protonated carboxylic acid form and acid catalysis — base would be counterproductive.",
+        "C": "Decreasing temperature would slow the reaction rate, potentially making it impractically slow (approaching zero at absolute zero, where no molecular motion occurs). Fischer esterification requires acid catalysis and sufficient thermal energy for molecular collisions. Temperature affects both rate (kinetics) and equilibrium position (thermodynamics), and reducing it near zero effectively stops the reaction.",
+        "D": "Correct. By Le Chatelier's principle, removing a product shifts the equilibrium toward more product formation. Removing water — using molecular sieves, a Dean-Stark trap (azeotropic distillation), or MgSO₄ — drives the esterification forward. Alternatively, using a large excess of one reactant (typically the cheaper alcohol) also shifts equilibrium toward products. These strategies are practical applications of Le Chatelier's principle to synthetic chemistry."
+      },
+      "topic": "Fischer Esterification / Le Chatelier",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_orgo2_008",
+      "passage": null,
+      "stem": "Reduction of a carboxylic acid to a primary alcohol requires a strong reducing agent like LiAlH₄ rather than a milder agent like NaBH₄ because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "NaBH₄ is not a reducing agent"
+        },
+        {
+          "label": "B",
+          "text": "carboxylic acids are stabilized by resonance between the two C−O bonds, making the carbonyl less electrophilic and requiring a more powerful hydride donor to overcome this stabilization"
+        },
+        {
+          "label": "C",
+          "text": "LiAlH₄ is a weaker reducing agent that works more slowly"
+        },
+        {
+          "label": "D",
+          "text": "carboxylic acids cannot be reduced under any conditions"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "NaBH₄ is a reducing agent — it reduces aldehydes and ketones to alcohols effectively. However, it is a milder (less reactive) hydride donor than LiAlH₄ and cannot reduce the less electrophilic carboxylic acid carbonyl. The selectivity of NaBH₄ (reduces aldehydes/ketones but not carboxylic acids) is actually useful in synthetic chemistry when selective reduction is desired.",
+        "B": "Correct. Carboxylic acids have significant resonance stabilization: the lone pair on the hydroxyl oxygen donates into the carbonyl, delocalizing electron density and reducing the electrophilicity of the carbonyl carbon. NaBH₄ (a mild hydride donor) cannot overcome this electronic stabilization. LiAlH₄ is a much stronger reducing agent — it delivers hydride (H⁻) more aggressively due to the highly electropositive aluminum, and it can reduce carboxylic acids (first to aldehydes, then immediately to primary alcohols) as well as esters, amides, and other resonance-stabilized carbonyls.",
+        "C": "LiAlH₄ is a stronger reducing agent than NaBH₄, not weaker. The Al−H bond in LiAlH₄ is more polar and reactive than the B−H bond in NaBH₄, making LiAlH₄ a more powerful hydride donor. It reacts violently with water (producing H₂ gas), while NaBH₄ can be used in aqueous or protic solvents.",
+        "D": "Carboxylic acids can be reduced — LiAlH₄ reduces them to primary alcohols in two steps (RCOOH → RCHO → RCH₂OH, though the aldehyde intermediate is not isolable because LiAlH₄ reduces it immediately). The statement that they cannot be reduced contradicts well-established organic chemistry."
+      },
+      "topic": "LiAlH₄ vs NaBH₄ / Selective Reduction",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_orgo2_009",
+      "passage": null,
+      "stem": "An acetal is formed when an aldehyde reacts with two equivalents of alcohol under acid catalysis. Acetals are important in organic synthesis because they are:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stable under basic and neutral conditions, making them useful as protecting groups for aldehydes during reactions that would otherwise react with the carbonyl"
+        },
+        {
+          "label": "B",
+          "text": "spontaneously explosive and therefore useful as initiators for polymerization reactions"
+        },
+        {
+          "label": "C",
+          "text": "strong acids that can catalyze other reactions in the mixture"
+        },
+        {
+          "label": "D",
+          "text": "identical to esters in all chemical properties"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Acetals (R−CH(OR')₂) are formed by acid-catalyzed reaction of an aldehyde with two equivalents of alcohol, with loss of water. They are stable under basic and neutral conditions because they lack the electrophilic carbonyl — the carbon is now bonded to two oxygen atoms and two other groups (sp³, no C=O). This stability makes acetals excellent protecting groups: a chemist can convert an aldehyde to its acetal, perform reactions elsewhere in the molecule that would otherwise attack the aldehyde, and then remove the acetal with aqueous acid to regenerate the original aldehyde. Biologically, glycosidic bonds in carbohydrates are acetals.",
+        "B": "Acetals are not explosive. They are thermodynamically stable functional groups — carbohydrate chemistry is built on acetal linkages (glycosidic bonds). The stability of acetals under basic conditions is their defining synthetic utility.",
+        "C": "Acetals are not acids — they have no acidic protons under normal conditions. They are neutral, stable ethers (in a sense, cyclic or open-chain diethers of a geminal diol). They do not catalyze reactions.",
+        "D": "Acetals and esters are different functional groups with different reactivity. Esters (R−COOR') have a carbonyl group and undergo nucleophilic acyl substitution. Acetals (R−CH(OR')₂) have no carbonyl — the carbon is sp³ — and are hydrolyzed only under acidic conditions. Their stability under basic conditions is the key difference from esters, which are readily hydrolyzed by base (saponification)."
+      },
+      "topic": "Acetal Protecting Groups",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_orgo2_010",
+      "passage": null,
+      "stem": "Keto-enol tautomerism involves the interconversion of a ketone (keto form) and its enol tautomer. For most simple ketones, the equilibrium strongly favors:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the enol form, because the O−H bond is stronger than the C=O bond"
+        },
+        {
+          "label": "B",
+          "text": "the keto form, because the C=O double bond is thermodynamically more stable than the C=C double bond with an adjacent hydroxyl"
+        },
+        {
+          "label": "C",
+          "text": "equal amounts of both tautomers at all temperatures"
+        },
+        {
+          "label": "D",
+          "text": "neither form — simple ketones do not undergo tautomerism"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The O−H bond energy (~460 kJ/mol) is indeed high, but the total thermodynamic stability of a functional group depends on all its bonds. The keto form benefits from the strong C=O double bond (~745 kJ/mol), while the enol form has a weaker C=C double bond (~614 kJ/mol) plus the O−H bond. The keto form is thermodynamically favored for most simple ketones, with the enol present at less than 0.01%.",
+        "B": "Correct. For most simple ketones (e.g., acetone, cyclohexanone), the keto form predominates overwhelmingly (>99.9%) because the C=O bond is thermodynamically more stable than the C=C + O−H combination. Exceptions exist when the enol is stabilized by special factors: conjugation (phenol is 100% enol), intramolecular hydrogen bonding (acetylacetone is ~80% enol in solution), or aromaticity. In biological systems, enolization is important in enzyme catalysis (e.g., enolase in glycolysis, racemases, isomerases) where enzymes stabilize the enol or enolate intermediate.",
+        "C": "The equilibrium does not favor equal amounts. The keto form is strongly thermodynamically favored for simple ketones. While both tautomers do interconvert (catalyzed by acid or base), the equilibrium constant heavily favors the keto form. Temperature changes the ratio slightly but does not produce a 50:50 mixture.",
+        "D": "Simple ketones do undergo keto-enol tautomerism — the process is just strongly biased toward the keto form. The enol tautomer exists in trace amounts at equilibrium. In fact, the ability to form enols is essential for many reactions: aldol condensations, halogenation at the α-carbon, and racemization all proceed through enol or enolate intermediates."
+      },
+      "topic": "Keto-Enol Tautomerism",
+      "difficulty": "Medium"
+    }
+  ]
+}

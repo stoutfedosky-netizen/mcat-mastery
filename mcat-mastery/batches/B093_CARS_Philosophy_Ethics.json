@@ -1,0 +1,213 @@
+{
+  "batch": "B093",
+  "section": "cars",
+  "sectionName": "Critical Analysis and Reasoning Skills",
+  "topicArea": "Philosophy & Ethics",
+  "questionCount": 6,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_phil_001",
+      "passage": "The philosopher Peter Singer has argued that our moral obligations extend far beyond the circle of people we know personally. The argument begins with a thought experiment that has become one of the most discussed in contemporary ethics. Singer asks: if you walked past a shallow pond and saw a small child drowning, would you be morally obligated to wade in and save the child, even if it meant ruining your expensive clothes? The answer, nearly everyone agrees, is obviously yes. The cost is trivial compared to the life at stake, and the physical proximity of the child makes the obligation feel undeniable.\n\nSinger then makes the move that has generated decades of controversy. He argues that the same moral logic applies to distant strangers dying of preventable causes — malnutrition, treatable infectious diseases, exposure. If you can prevent serious suffering at a comparatively small cost to yourself, you are morally required to do so, regardless of whether the sufferer is standing in front of you or living on another continent. Distance, Singer contends, is morally irrelevant. A child dying of malaria in a distant country is no less dead than the child drowning in the pond, and the cost of a bed net or a course of antibiotics is no greater than the cost of a ruined suit. To treat the two cases differently is, in Singer's view, to indulge a moral prejudice that cannot withstand rational examination.\n\nCritics have raised several substantial objections to this framework. Communitarians argue that we do in fact have stronger obligations to those nearest to us — family, neighbors, fellow citizens — and that Singer's impartial utilitarianism dissolves the particular attachments that give life meaning and moral texture. A parent who treated her own children's needs as exactly equal to the needs of strangers would be, in the communitarian view, not a moral exemplar but a moral failure. Libertarians object from a different angle: while saving the drowning child may be morally praiseworthy, making it morally obligatory crosses a crucial line. Genuine morality, in this view, requires voluntariness; an obligation imposed by philosophical argument is a form of compulsion that undermines the freedom on which moral agency depends.\n\nA more pragmatic objection holds that aid to distant strangers, however well-intentioned, often produces unintended consequences — economic dependency, institutional corruption, distortion of local markets — that may cause more harm than good over time. The road to effective help is considerably more complex than the pond analogy suggests, and Singer's framework, by making the obligation seem straightforward, may encourage naive interventions that worsen the conditions they aim to relieve.\n\nSinger acknowledges these practical challenges but insists they concern implementation, not principle. The obligation to help remains even if the best method of helping is debatable. A person who uses the complexity of aid as an excuse to do nothing has not refuted Singer's argument; that person has merely found a convenient reason to avoid its demands. The question the passage leaves is whether Singer's distinction between principle and implementation can survive the weight of the practical objections, or whether the real-world difficulty of effective aid ultimately transforms the moral calculation itself.",
+      "stem": "Singer's drowning-child argument is designed to show that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "physical distance between helper and victim does not diminish the moral obligation to prevent serious suffering when doing so is possible at relatively small personal cost"
+        },
+        {
+          "label": "B",
+          "text": "moral obligation weakens when suffering is geographically distant because emotional connection is lower"
+        },
+        {
+          "label": "C",
+          "text": "emergency rescue creates obligations only when the victim's need can be witnessed directly"
+        },
+        {
+          "label": "D",
+          "text": "nearby rescue and distant aid are morally different because ongoing global poverty is too complex for ordinary moral comparison"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Singer uses the pond case to argue that distance is morally irrelevant when serious suffering can be prevented at comparatively small cost.",
+        "B": "This is the kind of distinction Singer rejects. The passage says a distant child dying of malaria is no less morally significant than a nearby drowning child.",
+        "C": "The argument moves from directly witnessed emergency rescue to distant suffering precisely to challenge the idea that visibility determines obligation.",
+        "D": "This resembles a possible objection, especially the pragmatic one, but it is not what Singer's thought experiment is designed to show."
+      },
+      "topic": "Singer's Argument / Moral Distance",
+      "difficulty": "Easy",
+      "usePrevPassage": false
+    },
+    {
+      "id": "cars_phil_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The communitarian objection to Singer's position is based on the claim that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "suffering does not exist in distant countries"
+        },
+        {
+          "label": "B",
+          "text": "special obligations to those closest to us — family, neighbors, citizens — are morally significant, and Singer's impartial framework threatens to dissolve the particular attachments that give life meaning"
+        },
+        {
+          "label": "C",
+          "text": "Singer's argument is logically valid and no objection is possible"
+        },
+        {
+          "label": "D",
+          "text": "only libertarian principles can solve global poverty"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Communitarians (MacIntyre, Sandel, Walzer) argue that particular relationships and community ties generate special obligations that impartial morality cannot capture. On this view, a parent's extra obligation to their own child is not arbitrary bias but a constitutive feature of what it means to be a parent. Singer's demand for impartial concern — treating a distant stranger's suffering as equivalent to a neighbor's — threatens to flatten these morally significant distinctions. Communitarians worry that impartial morality produces an alienated, rootless moral psychology.",
+        "A": "Communitarians do not deny the existence of distant suffering. Their objection is about the strength of our obligations, not the reality of the problem.",
+        "C": "The passage presents multiple objections to Singer, demonstrating that his position is contested. Communitarianism is one of several serious philosophical challenges.",
+        "D": "Communitarianism and libertarianism are distinct philosophical traditions with different objections to Singer. Communitarians prioritize community bonds; libertarians prioritize individual liberty."
+      },
+      "topic": "Communitarian Objection / Particular Obligations",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phil_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Singer's response to the pragmatic objection — that aid often produces unintended harmful consequences — is that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the pragmatic objection is irrelevant and should be dismissed entirely"
+        },
+        {
+          "label": "B",
+          "text": "unintended consequences prove that we should never attempt to help anyone"
+        },
+        {
+          "label": "C",
+          "text": "all forms of aid are equally effective regardless of implementation"
+        },
+        {
+          "label": "D",
+          "text": "these practical challenges concern implementation (how to help effectively), not principle (whether we are obligated to help) — the obligation remains even if the best method is debatable"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "The existence of unintended consequences calls for more careful implementation, not abandonment of the effort. This extreme conclusion does not follow from the pragmatic objection.",
+        "A": "Singer does not dismiss the pragmatic objection. He acknowledges the legitimate concerns about implementation while maintaining that they do not invalidate the fundamental moral principle.",
+        "C": "Singer acknowledges practical challenges, which implies not all forms of aid are equally effective. He would support evidence-based approaches over indiscriminate giving.",
+        "D": "Correct. Singer distinguishes between the moral principle (we ought to prevent suffering when we can) and its practical implementation (which interventions work best). He acknowledges that poorly designed aid can cause dependency, corruption, and market distortions, but argues these are problems of execution that call for better strategies, not abandonment of the underlying obligation. This is a philosophically important move: it separates the normative question ('should we help?') from the empirical question ('how should we help?')."
+      },
+      "topic": "Principle vs Implementation / Singer's Rebuttal",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phil_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A key assumption in Singer's argument that critics might challenge is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "that charitable giving is most valuable when it strengthens local communities first"
+        },
+        {
+          "label": "B",
+          "text": "that voluntary generosity is morally better than any duty imposed by abstract reasoning"
+        },
+        {
+          "label": "C",
+          "text": "that the moral equivalence between nearby and distant suffering is compelling enough to ground the same obligation in both cases"
+        },
+        {
+          "label": "D",
+          "text": "that effective aid is always simple to identify and never produces unintended consequences"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This would be closer to a communitarian alternative than an assumption required by Singer's own argument.",
+        "B": "This resembles the libertarian objection, not Singer's assumption. Singer's argument depends on obligation, not merely voluntary generosity.",
+        "C": "Correct. A critic could challenge whether nearby and distant suffering really generate the same obligation despite Singer's claim that distance is morally irrelevant.",
+        "D": "Singer acknowledges implementation problems, so his argument does not require the assumption that effective aid is always simple or risk-free."
+      },
+      "topic": "Identifying Assumptions / Critical Analysis",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_phil_009",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage presents multiple objections to Singer. The author's treatment of these objections suggests:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the author believes all objections are trivial and unworthy of consideration"
+        },
+        {
+          "label": "B",
+          "text": "the author presents the objections fairly as serious philosophical challenges while noting Singer's responses — adopting an analytically balanced tone"
+        },
+        {
+          "label": "C",
+          "text": "the author fully agrees with the libertarian position and dismisses all others"
+        },
+        {
+          "label": "D",
+          "text": "the author considers the pragmatic objection to be the weakest of the three"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The passage presents three distinct objections (communitarian, libertarian, pragmatic) with sufficient detail to make each intelligible and credible. Singer's response to the pragmatic objection is included, showing the author's interest in the dialogue rather than one-sided advocacy. The tone is expository and analytical — the author does not dismiss any position but presents the philosophical debate as ongoing and substantive.",
+        "A": "The objections are presented with genuine philosophical content — special obligations, voluntariness, unintended consequences — not as trivial concerns. The author takes them seriously.",
+        "C": "No single position is endorsed. The communitarian, libertarian, and pragmatic objections are all presented without the author signaling agreement with any one.",
+        "D": "The passage does not rank the objections by strength. All three are presented as distinct challenges to Singer's framework."
+      },
+      "topic": "Author's Stance / Analytical Balance",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_phil_010",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following scenarios would most directly test Singer's principle that distance is morally irrelevant?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a study comparing charitable donations to local versus international causes — finding that people donate more to local causes would suggest they implicitly treat distance as morally relevant, contrary to Singer"
+        },
+        {
+          "label": "B",
+          "text": "choosing between two local restaurants for dinner"
+        },
+        {
+          "label": "C",
+          "text": "measuring how fast people walk in different cities"
+        },
+        {
+          "label": "D",
+          "text": "testing whether plants grow faster in sunlight versus shade"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "Restaurant choice does not involve moral obligations to prevent suffering and is irrelevant to Singer's argument.",
+        "A": "Correct. Singer's claim is normative (distance should not matter), but it can be empirically tested by examining whether people's actual behavior treats distance as relevant. If people systematically donate more to local causes (nearby suffering) than international ones (distant suffering) when the severity of need is comparable, this demonstrates that people implicitly treat distance as morally relevant — behaving contrary to Singer's principle. Such findings would not refute Singer's normative claim (people should treat distance as irrelevant) but would show that most people do not naturally share his moral intuition about distant obligations.",
+        "C": "Walking speed has no connection to moral philosophy or Singer's claims about distance and obligation.",
+        "D": "Plant growth experiments are entirely unrelated to ethical philosophy."
+      },
+      "topic": "Experimental Test / Distance and Moral Behavior",
+      "difficulty": "Hard"
+    }
+  ]
+}

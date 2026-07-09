@@ -1,0 +1,338 @@
+{
+  "batch": "B090",
+  "section": "bb",
+  "sectionName": "Biological & Biochemical Foundations of Living Systems",
+  "topicArea": "Metabolism: Glycolysis & Gluconeogenesis",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 2,
+    "C": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "bb_glycol_001",
+      "passage": "A biochemistry student maps the metabolic pathways of glucose catabolism. She traces glucose through glycolysis (cytoplasm), pyruvate oxidation (mitochondrial matrix), the citric acid cycle (matrix), and oxidative phosphorylation (inner mitochondrial membrane). In glycolysis, glucose (6C) is split into two pyruvate molecules (3C each), yielding 2 ATP (net) and 2 NADH per glucose. She studies the three irreversible regulatory steps catalyzed by hexokinase, phosphofructokinase-1 (PFK-1), and pyruvate kinase. She also compares glycolysis to gluconeogenesis, noting that gluconeogenesis uses different enzymes to bypass the irreversible steps.",
+      "stem": "The net ATP yield from glycolysis per glucose molecule is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 ATP — glycolysis consumes 2 ATP in the preparatory phase (hexokinase and PFK-1) and produces 4 ATP in the payoff phase (substrate-level phosphorylation), for a net gain of 2 ATP"
+        },
+        {
+          "label": "B",
+          "text": "4 ATP"
+        },
+        {
+          "label": "C",
+          "text": "36 ATP"
+        },
+        {
+          "label": "D",
+          "text": "0 ATP"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Glycolysis investment phase: 2 ATP consumed (glucose → glucose-6-P by hexokinase, fructose-6-P → fructose-1,6-BP by PFK-1). Payoff phase: 4 ATP produced by substrate-level phosphorylation (2 per each of the two 3-carbon molecules: 1,3-BPG → 3-PG by phosphoglycerate kinase, PEP → pyruvate by pyruvate kinase). Net: 4 - 2 = 2 ATP. Additionally, 2 NADH are produced (glyceraldehyde-3-P → 1,3-BPG by G3P dehydrogenase), which feed into oxidative phosphorylation for additional ATP.",
+        "B": "4 ATP is the gross yield, not the net. Two ATP are consumed in the preparatory phase and must be subtracted from the four produced in the payoff phase.",
+        "C": "36 ATP is the approximate total yield from complete glucose oxidation (glycolysis + pyruvate oxidation + TCA cycle + oxidative phosphorylation), not glycolysis alone.",
+        "D": "Glycolysis produces a net positive ATP yield. Even under anaerobic conditions, glycolysis generates 2 ATP per glucose — critical for cells lacking mitochondria (RBCs) or during oxygen debt."
+      },
+      "topic": "Glycolysis ATP Yield / Substrate-Level Phosphorylation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_glycol_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "PFK-1 (phosphofructokinase-1) is the primary regulatory enzyme of glycolysis. It is allosterically activated by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ATP and citrate (signals of high energy charge)"
+        },
+        {
+          "label": "B",
+          "text": "AMP and fructose-2,6-bisphosphate (signals of low energy charge and fed state) — these indicate the cell needs more ATP production"
+        },
+        {
+          "label": "C",
+          "text": "glucose-6-phosphate"
+        },
+        {
+          "label": "D",
+          "text": "oxygen"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. PFK-1 catalyzes the committed step of glycolysis (fructose-6-P → fructose-1,6-BP). Its regulators create a metabolic logic gate: Activators — AMP (low energy → need more ATP), fructose-2,6-bisphosphate (F-2,6-BP, produced by PFK-2 in response to insulin signaling → fed state, stimulate glycolysis), ADP. Inhibitors — ATP (high energy → slow down), citrate (TCA cycle intermediate → plenty of substrate), H⁺ (low pH). F-2,6-BP is the most potent activator and links hormonal signaling (insulin vs glucagon) to glycolytic flux.",
+        "A": "ATP and citrate are allosteric inhibitors of PFK-1, not activators. High ATP signals adequate energy supply, and high citrate signals that the TCA cycle has sufficient substrate — both indicate glycolysis should slow down.",
+        "C": "Glucose-6-phosphate inhibits hexokinase (product inhibition), not PFK-1. Each regulatory enzyme has distinct allosteric regulators matched to its metabolic context.",
+        "D": "Oxygen does not directly regulate PFK-1. Under anaerobic conditions, glycolysis increases because oxidative phosphorylation stops and ATP/AMP ratios change, but the regulation is mediated through adenine nucleotide levels, not O₂ directly."
+      },
+      "topic": "PFK-1 Regulation / Allosteric Control",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_glycol_003",
+      "passage": null,
+      "stem": "Under anaerobic conditions, pyruvate is converted to lactate by lactate dehydrogenase (LDH). This reaction is important because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it produces additional ATP beyond the 2 from glycolysis"
+        },
+        {
+          "label": "B",
+          "text": "it regenerates NAD⁺ from NADH, allowing glycolysis to continue in the absence of oxygen — without NAD⁺ regeneration, glycolysis would halt at the G3P dehydrogenase step"
+        },
+        {
+          "label": "C",
+          "text": "lactate is the preferred fuel for the brain"
+        },
+        {
+          "label": "D",
+          "text": "it occurs only in the mitochondrial matrix"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Glycolysis requires NAD⁺ as a substrate for glyceraldehyde-3-phosphate dehydrogenase (step 6). Under aerobic conditions, NADH donates electrons to the electron transport chain, regenerating NAD⁺. Under anaerobic conditions (intense exercise, RBCs), the ETC cannot operate, so NADH accumulates and NAD⁺ depletes. LDH regenerates NAD⁺: pyruvate + NADH → lactate + NAD⁺, allowing glycolysis to continue producing 2 ATP per glucose. This is fermentation — less efficient than aerobic metabolism but essential for survival without oxygen.",
+        "A": "The LDH reaction does not produce ATP. It consumes NADH (reducing pyruvate) to regenerate NAD⁺. The purpose is to maintain glycolytic flux, not to generate additional ATP.",
+        "C": "The brain primarily uses glucose (aerobic glycolysis + oxidative phosphorylation) as fuel. Lactate can be used by the brain during exercise, but it is not the preferred fuel. The Cori cycle recycles lactate to glucose in the liver.",
+        "D": "LDH and the entire glycolytic pathway operate in the cytoplasm, not the mitochondrial matrix. Pyruvate must be transported into the mitochondria for aerobic metabolism."
+      },
+      "topic": "Anaerobic Glycolysis / NAD⁺ Regeneration",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_glycol_004",
+      "passage": null,
+      "stem": "Gluconeogenesis synthesizes glucose from non-carbohydrate precursors. It bypasses the three irreversible steps of glycolysis using different enzymes. The bypass enzyme for the PFK-1 step is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "hexokinase"
+        },
+        {
+          "label": "B",
+          "text": "pyruvate kinase"
+        },
+        {
+          "label": "C",
+          "text": "fructose-1,6-bisphosphatase — it hydrolyzes fructose-1,6-bisphosphate to fructose-6-phosphate, bypassing the PFK-1 reaction"
+        },
+        {
+          "label": "D",
+          "text": "phosphoglycerate kinase"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Gluconeogenesis bypasses three irreversible glycolytic steps with four enzymes: (1) Pyruvate → OAA by pyruvate carboxylase (mitochondrial), then OAA → PEP by PEPCK (bypasses pyruvate kinase); (2) Fructose-1,6-BP → fructose-6-P by fructose-1,6-bisphosphatase (bypasses PFK-1); (3) Glucose-6-P → glucose by glucose-6-phosphatase (bypasses hexokinase/glucokinase). F-1,6-bisphosphatase is reciprocally regulated with PFK-1: activated by ATP/citrate, inhibited by AMP/F-2,6-BP — ensuring glycolysis and gluconeogenesis do not run simultaneously (futile cycling).",
+        "A": "Hexokinase catalyzes glucose → glucose-6-P (glycolysis step 1). Its gluconeogenic bypass enzyme is glucose-6-phosphatase.",
+        "B": "Pyruvate kinase catalyzes PEP → pyruvate (glycolysis step 10). Its bypass in gluconeogenesis requires two enzymes: pyruvate carboxylase and PEPCK.",
+        "D": "Phosphoglycerate kinase catalyzes a reversible reaction (1,3-BPG ⇌ 3-PG) and is used in both directions — no bypass enzyme is needed for reversible steps."
+      },
+      "topic": "Gluconeogenesis / Bypass Enzymes",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_glycol_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage states that glycolysis occurs in the cytoplasm. This means that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cells without mitochondria (like mature red blood cells) can still perform glycolysis to produce ATP"
+        },
+        {
+          "label": "B",
+          "text": "glycolysis requires oxygen to proceed"
+        },
+        {
+          "label": "C",
+          "text": "glycolysis produces more ATP than oxidative phosphorylation"
+        },
+        {
+          "label": "D",
+          "text": "glycolysis occurs only in the mitochondria, contradicting the passage"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Because glycolysis is cytoplasmic and does not require oxygen or mitochondria, it can occur in any cell with the necessary enzymes and glucose. Mature red blood cells (RBCs) lack mitochondria and rely entirely on anaerobic glycolysis for ATP production (2 ATP/glucose). This is sufficient for their needs (maintaining ion pumps, membrane flexibility). RBCs convert pyruvate to lactate (LDH) to regenerate NAD⁺. Other cells that rely heavily on glycolysis include some tumor cells (Warburg effect) and fast-twitch muscle fibers during intense exercise.",
+        "B": "Glycolysis does not require oxygen — it is the anaerobic phase of glucose metabolism. It proceeds identically whether oxygen is present or absent. The difference is what happens to pyruvate: aerobic → mitochondrial oxidation; anaerobic → lactate (or ethanol in yeast).",
+        "C": "Glycolysis produces far less ATP (2 net) than oxidative phosphorylation (~30-32 ATP from NADH/FADH₂ oxidation). The ETC is the major ATP producer. Glycolysis is rapid but inefficient.",
+        "D": "The passage correctly states glycolysis occurs in the cytoplasm. All ten enzymes of glycolysis are cytoplasmic/soluble enzymes."
+      },
+      "topic": "Glycolysis Location / RBC Metabolism",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "bb_glycol_006",
+      "passage": null,
+      "stem": "Insulin stimulates glycolysis and inhibits gluconeogenesis. In the fed state, insulin promotes glycolysis by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "activating glucagon release from alpha cells"
+        },
+        {
+          "label": "B",
+          "text": "directly inhibiting PFK-1"
+        },
+        {
+          "label": "C",
+          "text": "increasing fructose-2,6-bisphosphate (F-2,6-BP) levels via activation of PFK-2 — F-2,6-BP is the most potent allosteric activator of PFK-1"
+        },
+        {
+          "label": "D",
+          "text": "decreasing glucose uptake into cells"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Insulin (fed state) activates PFK-2 (phosphofructokinase-2) through dephosphorylation (via protein phosphatase activation). Active PFK-2 converts fructose-6-P → fructose-2,6-bisphosphate (F-2,6-BP). F-2,6-BP is the most potent allosteric activator of PFK-1, dramatically stimulating glycolysis. Simultaneously, F-2,6-BP inhibits fructose-1,6-bisphosphatase, suppressing gluconeogenesis. Glucagon (fasting state) does the opposite: it activates PKA, which phosphorylates PFK-2, inactivating its kinase domain and activating its phosphatase domain, reducing F-2,6-BP levels.",
+        "A": "Insulin and glucagon are antagonistic hormones. Insulin is released by β-cells in the fed state; glucagon is released by α-cells in the fasting state. Insulin does not stimulate glucagon release.",
+        "B": "Insulin activates PFK-1 indirectly (via F-2,6-BP), not inhibits it. PFK-1 inhibition would slow glycolysis, the opposite of insulin's effect.",
+        "D": "Insulin increases glucose uptake (via GLUT4 translocation to the membrane in muscle and adipose tissue), not decreases it. More glucose uptake provides more substrate for glycolysis."
+      },
+      "topic": "Insulin / F-2,6-BP / Metabolic Regulation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "bb_glycol_007",
+      "passage": null,
+      "stem": "Hexokinase (step 1 of glycolysis) traps glucose inside the cell by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "converting glucose to fructose, which cannot cross the membrane"
+        },
+        {
+          "label": "B",
+          "text": "oxidizing glucose to CO₂ immediately upon entry"
+        },
+        {
+          "label": "C",
+          "text": "binding glucose permanently to a cytoplasmic protein"
+        },
+        {
+          "label": "D",
+          "text": "phosphorylating glucose to glucose-6-phosphate — the charged phosphate group prevents exit through the glucose transporter (GLUT), effectively trapping glucose inside the cell"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "B": "Complete oxidation of glucose to CO₂ requires the entire pathway (glycolysis + pyruvate oxidation + TCA cycle). Hexokinase performs only the first phosphorylation step.",
+        "A": "Hexokinase does not convert glucose to fructose. Phosphoglucose isomerase (step 2) converts G6P to fructose-6-phosphate. The trapping mechanism is phosphorylation, not isomerization.",
+        "C": "Glucose is not permanently bound to a protein. It is chemically modified (phosphorylated) and remains a free metabolite in the cytoplasm, available for subsequent glycolytic steps or other pathways (glycogen synthesis, PPP).",
+        "D": "Correct. Hexokinase catalyzes: glucose + ATP → glucose-6-phosphate (G6P) + ADP. The phosphate group adds a negative charge, and GLUT transporters only transport uncharged glucose — G6P cannot exit. This trapping mechanism ensures unidirectional glucose uptake. Hexokinase has low Km for glucose (high affinity, operates at normal blood glucose levels) and is inhibited by its product G6P (product inhibition). In the liver, glucokinase (hexokinase IV) has high Km, acting as a glucose sensor that increases activity proportionally to blood glucose."
+      },
+      "topic": "Hexokinase / Glucose Trapping",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_glycol_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The Cori cycle describes the metabolic cooperation between:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the brain and kidneys in amino acid metabolism"
+        },
+        {
+          "label": "B",
+          "text": "the mitochondria and nucleus in DNA replication"
+        },
+        {
+          "label": "C",
+          "text": "the liver and skeletal muscle during exercise"
+        },
+        {
+          "label": "D",
+          "text": "muscle and liver — exercising muscle produces lactate (anaerobic glycolysis), which is transported to the liver and converted back to glucose (gluconeogenesis), then returned to muscle via the blood"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The Cori cycle: (1) During intense exercise, muscle performs anaerobic glycolysis: glucose → 2 lactate + 2 ATP. (2) Lactate is exported to the blood and taken up by the liver. (3) The liver converts lactate → pyruvate → glucose via gluconeogenesis (costs 6 ATP). (4) Glucose is returned to muscle via the blood. Net energy cost: the liver expends 6 ATP to regenerate glucose that muscle used to produce only 2 ATP — the energy difference (4 ATP) is paid by hepatic fatty acid oxidation. The cycle shifts the metabolic burden from muscle (which needs to keep contracting) to liver (which has abundant mitochondria and fatty acid fuel).",
+        "A": "The Cori cycle involves muscle and liver, not brain and kidneys. Amino acid metabolism between organs occurs through other cycles (glucose-alanine cycle, urea cycle).",
+        "B": "The Cori cycle is an inter-organ metabolic pathway, not an intracellular organelle interaction. It involves whole-body physiology, not subcellular processes.",
+        "C": "While the organs are correct (liver and skeletal muscle), this choice lacks the mechanistic explanation. Choice D provides the complete description."
+      },
+      "topic": "Cori Cycle / Lactate Recycling",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_glycol_009",
+      "passage": null,
+      "stem": "Pyruvate kinase catalyzes the final step of glycolysis. This reaction is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "irreversible under physiological conditions — PEP → pyruvate + ATP via substrate-level phosphorylation — and must be bypassed in gluconeogenesis by pyruvate carboxylase and PEPCK"
+        },
+        {
+          "label": "B",
+          "text": "reversible, allowing it to function in both glycolysis and gluconeogenesis"
+        },
+        {
+          "label": "C",
+          "text": "the rate-limiting step of the TCA cycle"
+        },
+        {
+          "label": "D",
+          "text": "an oxidation reaction producing NADH"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "B": "The pyruvate kinase reaction is irreversible in vivo, which is precisely why gluconeogenesis requires bypass enzymes. Reversible reactions (like those catalyzed by phosphoglycerate kinase or enolase) are shared between glycolysis and gluconeogenesis.",
+        "A": "Correct. Pyruvate kinase catalyzes: PEP + ADP → pyruvate + ATP (irreversible, ΔG°' = -31.4 kJ/mol). This is one of two substrate-level phosphorylation steps in glycolysis (the other: phosphoglycerate kinase). Because it is irreversible, gluconeogenesis cannot simply reverse it — two enzymes are needed to bypass: pyruvate carboxylase (pyruvate + CO₂ → OAA, requires biotin and ATP, mitochondrial) and PEPCK (OAA → PEP + CO₂, requires GTP, cytoplasmic). Pyruvate kinase is activated by F-1,6-BP (feedforward activation) and inhibited by ATP and alanine.",
+        "C": "Pyruvate kinase is a glycolytic enzyme, not a TCA cycle enzyme. The rate-limiting step of the TCA cycle is isocitrate dehydrogenase.",
+        "D": "The pyruvate kinase reaction is a phosphoryl transfer (substrate-level phosphorylation), not an oxidation. The oxidation step producing NADH in glycolysis is catalyzed by G3P dehydrogenase (step 6)."
+      },
+      "topic": "Pyruvate Kinase / Irreversible Step",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "bb_glycol_010",
+      "passage": null,
+      "stem": "The Warburg effect describes the observation that many cancer cells:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "use oxidative phosphorylation exclusively and never perform glycolysis"
+        },
+        {
+          "label": "B",
+          "text": "cannot metabolize glucose at all"
+        },
+        {
+          "label": "C",
+          "text": "preferentially use aerobic glycolysis (glycolysis followed by lactate production even in the presence of oxygen), which is less ATP-efficient but supports rapid biosynthesis of macromolecules"
+        },
+        {
+          "label": "D",
+          "text": "have no metabolic differences from normal cells"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The Warburg effect (aerobic glycolysis): cancer cells upregulate glycolysis and lactate production even when oxygen is abundant, rather than fully oxidizing glucose via the TCA cycle and ETC. This seems paradoxical (2 ATP vs ~30 ATP per glucose), but the rapid glycolytic rate produces ATP quickly and, more importantly, diverts glycolytic intermediates into biosynthetic pathways (nucleotides, amino acids, lipids) needed for rapid cell proliferation. Glucose uptake is dramatically increased (basis of PET/FDG imaging for cancer detection). The Warburg effect involves upregulation of GLUT1, hexokinase II, and LDH-A.",
+        "A": "Cancer cells actually de-emphasize oxidative phosphorylation relative to glycolysis — the Warburg effect is the shift toward glycolysis, not away from it.",
+        "B": "Cancer cells are avid glucose consumers — they take up far more glucose than normal cells. This is the basis of FDG-PET scanning (fluorodeoxyglucose is taken up preferentially by metabolically active tumors).",
+        "D": "The metabolic reprogramming of cancer cells (Warburg effect) is one of the hallmarks of cancer. It represents a significant and well-characterized difference from normal cell metabolism."
+      },
+      "topic": "Warburg Effect / Cancer Metabolism",
+      "difficulty": "Medium"
+    }
+  ]
+}

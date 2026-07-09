@@ -1,0 +1,229 @@
+{
+  "batch": "B206",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Social Stratification & Health Disparities",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "D": 2,
+    "C": 2
+  },
+  "questions": [
+    {
+      "id": "ps_soc_strat_206_q0",
+      "passage": "A public health research team conducted a longitudinal study examining the relationship between socioeconomic status (SES) and cardiovascular disease (CVD) risk across 5,200 adults aged 35–65 in a metropolitan area. Participants were recruited from primary care clinics across neighborhoods stratified by median household income. SES was operationalized as a composite index incorporating household income, educational attainment, and occupational prestige. Participants were categorized into low, middle, and high SES tertiles.\n\nAt baseline, the researchers collected data on blood pressure, fasting glucose, BMI, smoking status, self-reported stress (Perceived Stress Scale, PSS-10), healthcare utilization in the past 12 months, and health literacy (using the Rapid Estimate of Adult Literacy in Medicine, REALM). Follow-up assessments occurred annually for 8 years, with incident CVD events (myocardial infarction, stroke, heart failure hospitalization) as the primary outcome.\n\nTable 1. Baseline Characteristics by SES Tertile\n| Variable | Low SES (n=1,733) | Mid SES (n=1,734) | High SES (n=1,733) | p-value |\n|----------|-------------------|--------------------|--------------------|--------|\n| Mean age (years) | 51.2 ± 8.4 | 49.8 ± 7.9 | 48.1 ± 7.2 | <0.01 |\n| Smoking (%) | 34.2 | 22.1 | 11.8 | <0.001 |\n| Mean PSS-10 | 24.7 ± 6.1 | 19.3 ± 5.4 | 14.8 ± 4.9 | <0.001 |\n| Mean systolic BP (mmHg) | 142.3 ± 18.2 | 134.6 ± 15.1 | 126.4 ± 12.8 | <0.001 |\n| Healthcare visits/year | 2.1 ± 1.8 | 3.8 ± 2.1 | 5.4 ± 2.6 | <0.001 |\n| REALM score (0–66) | 38.2 ± 12.4 | 52.1 ± 9.8 | 59.4 ± 6.2 | <0.001 |\n\nAfter 8 years, CVD incidence was 18.4% in low SES, 11.2% in middle SES, and 6.1% in high SES participants. Multivariable Cox regression controlling for age, sex, and race found that low SES remained associated with increased CVD risk (HR = 2.14, 95% CI: 1.72–2.66, p < 0.001) even after adjustment for smoking, blood pressure, and BMI.",
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": false,
+      "stem": "The finding that low SES remained associated with CVD risk after controlling for traditional risk factors most directly supports which concept?",
+      "choices": {
+        "A": "Fundamental cause theory, which holds that SES influences health through multiple mechanisms that persist even when specific risk pathways are accounted for",
+        "B": "The biomedical model, which attributes disease entirely to biological and genetic factors",
+        "C": "Social drift hypothesis, which proposes that illness causes downward social mobility",
+        "D": "Relative deprivation theory, which focuses exclusively on income inequality within populations"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Link and Phelan's fundamental cause theory argues that SES is a 'fundamental cause' of disease because it embodies access to resources — money, knowledge, power, social connections — that can be deployed to avoid risks and adopt protective behaviors. When specific mechanisms (smoking, blood pressure) are controlled for statistically, the SES–health association persists because SES operates through additional, unmeasured pathways including chronic stress, environmental exposures, healthcare quality, and health literacy. The residual HR of 2.14 after adjustment for traditional risk factors directly illustrates this principle.",
+        "B": "The biomedical model focuses on pathophysiology and would not predict residual SES effects after biological risk factors are controlled. The finding that SES remains significant beyond smoking, blood pressure, and BMI directly contradicts a purely biomedical explanation and supports psychosocial and structural determinants of health.",
+        "C": "The social drift hypothesis suggests that poor health leads to downward mobility, reversing the causal direction. While this may partly contribute to the SES–CVD association, the study design (SES measured at baseline with prospective CVD follow-up) is more consistent with SES preceding and influencing CVD risk, not the reverse.",
+        "D": "Relative deprivation theory addresses perceived inequality and its psychological effects but does not fully explain why SES associations persist after controlling for known risk factors. Fundamental cause theory is broader, encompassing relative deprivation as one of many pathways through which SES influences health outcomes."
+      },
+      "topic": "Fundamental Cause Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_soc_strat_206_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The gradient in healthcare visits across SES tertiles (2.1, 3.8, 5.4 per year) most likely reflects which barrier to healthcare access?",
+      "choices": {
+        "A": "Genetic predispositions toward healthcare avoidance in lower-income populations",
+        "B": "Structural barriers including insurance coverage gaps, transportation limitations, and inability to take time off work",
+        "C": "Higher disease severity in the low SES group, reducing their physical ability to attend appointments",
+        "D": "Cultural preferences in the low SES group for alternative medicine over conventional healthcare"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "There is no evidence for genetic predispositions toward healthcare avoidance. Healthcare utilization differences across SES groups are consistently explained by structural, financial, and systemic access barriers. Attributing utilization differences to genetics reflects a biologically deterministic fallacy that ignores well-documented social and economic constraints.",
+        "B": "Correct. The inverse relationship between SES and healthcare utilization reflects structural barriers. Lower-income individuals face concrete obstacles: lack of employer-sponsored insurance or underinsurance with high copays, limited public transportation to reach clinics, inflexible work schedules without paid sick leave, and fewer providers in low-income neighborhoods. These material barriers reduce healthcare access regardless of health need, creating a paradox where those with the highest disease burden (higher smoking, blood pressure) have the fewest healthcare encounters.",
+        "C": "If disease severity reduced visit frequency, this would represent a severely dysfunctional feedback loop. The low SES group has higher baseline disease burden (higher BP, more smoking) yet fewer visits, indicating that barriers prevent access before disease severity becomes incapacitating. Sicker populations generally need more healthcare, not less.",
+        "D": "While cultural health beliefs do vary, the systematic SES gradient across three tertiles is better explained by structural access barriers than by cultural preferences. Research consistently shows that when financial and logistical barriers are removed, healthcare utilization differences across income groups diminish substantially."
+      },
+      "topic": "Healthcare Access Barriers",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_soc_strat_206_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The PSS-10 scores show a gradient from 24.7 (low SES) to 14.8 (high SES). Which stress model best explains how chronic psychosocial stress from low SES contributes to CVD development?",
+      "choices": {
+        "A": "The general adaptation syndrome, because low SES individuals remain in the alarm stage indefinitely",
+        "B": "Cannon's fight-or-flight response, which operates identically regardless of SES",
+        "C": "The Yerkes-Dodson law, which predicts optimal cardiovascular function at moderate stress levels",
+        "D": "Allostatic load theory, which describes cumulative physiological wear from chronic stress-response activation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The general adaptation syndrome (Selye) describes three stages — alarm, resistance, and exhaustion — but does not predict individuals remain in the alarm stage permanently. Chronic stress would correspond to prolonged resistance followed by exhaustion. More importantly, the GAS model does not specifically address the cumulative physiological damage from repeated stressor exposure that characterizes low-SES health risk.",
+        "B": "While the fight-or-flight response is a component of acute stress physiology, it describes a single episode of sympathetic activation, not the cumulative effect of chronic stress exposure. Furthermore, the duration and frequency of activation differ enormously by SES, contradicting the claim that it operates identically across groups.",
+        "C": "The Yerkes-Dodson law relates arousal to performance (typically cognitive or motor tasks), not to cardiovascular pathology. It does not predict that moderate stress optimizes cardiovascular health. Applying a performance-arousal curve to chronic disease development is a category error.",
+        "D": "Correct. McEwen's allostatic load model describes how chronic activation of stress-response systems (HPA axis cortisol release, sympathetic catecholamine output, inflammatory cytokines) produces cumulative physiological damage. Low SES exposes individuals to persistent stressors — financial insecurity, neighborhood violence, job strain, housing instability — that keep allostatic systems chronically activated. The resulting wear includes hypertension (elevated BP as shown in the data), insulin resistance, dyslipidemia, and endothelial dysfunction — all CVD risk pathways. The PSS-10 gradient maps directly onto the expected allostatic load gradient."
+      },
+      "topic": "Stress & Health",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_soc_strat_206_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Low REALM scores in the low SES group indicate limited health literacy. How might low health literacy independently contribute to CVD risk beyond the effect of SES?",
+      "choices": {
+        "A": "By causing patients to refuse all medical treatment on principle",
+        "B": "By increasing genetic susceptibility to cardiovascular disease through epigenetic mechanisms",
+        "C": "By reducing the ability to understand medication instructions, interpret lab results, and navigate preventive care — leading to poorer disease management",
+        "D": "By eliminating the capacity for informed consent, preventing any healthcare interaction"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Low health literacy does not cause blanket refusal of medical care. Rather, it creates barriers to understanding and engaging with the healthcare system effectively. Most individuals with low health literacy still seek care; they simply face greater difficulty navigating the system, understanding diagnoses, and adhering to complex treatment plans.",
+        "B": "Health literacy is a cognitive and educational construct, not a biological modifier of genetic expression. While chronic stress associated with low SES can influence epigenetic processes, health literacy itself does not alter DNA methylation or histone modification. Conflating a knowledge-based skill with molecular biology misrepresents the mechanism.",
+        "C": "Correct. Health literacy is the capacity to obtain, process, and understand basic health information needed for appropriate health decisions. Low health literacy independently predicts poorer medication adherence (misunderstanding dosing schedules or drug interactions), failure to recognize warning symptoms (chest pain, dyspnea), underutilization of preventive services (not understanding screening recommendations), and difficulty following dietary or exercise guidelines for CVD risk reduction. These effects operate beyond income or education alone — even within the same SES stratum, individuals with lower health literacy have worse outcomes.",
+        "D": "Low health literacy does not eliminate the capacity for informed consent. Informed consent processes can be adapted through plain-language explanations, teach-back methods, and visual aids. Patients with limited literacy interact with healthcare regularly; they face challenges in comprehension, not a complete inability to participate."
+      },
+      "topic": "Health Literacy",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_soc_strat_206_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A potential limitation of the study is that SES was measured only at baseline. How might this affect the validity of the findings?",
+      "choices": {
+        "A": "It introduces misclassification bias, since SES may have changed during the 8-year follow-up, diluting or distorting the observed associations",
+        "B": "It could underestimate the SES–CVD association if participants experienced upward mobility during follow-up",
+        "C": "It has no impact on validity because SES is a fixed demographic characteristic that does not change over time",
+        "D": "It would only matter if the study used randomization to assign SES categories"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Measuring SES at a single time point introduces non-differential misclassification bias. Over 8 years, participants may experience job changes, retirement, divorce, inheritance, disability, or economic shifts that alter their SES category. If a participant classified as low SES at baseline moves to middle SES by year 3, their CVD risk over the remaining 5 years reflects a mixed exposure. This misclassification typically biases associations toward the null (attenuating the true effect), meaning the observed HR of 2.14 may underestimate the true relationship between sustained low SES and CVD risk.",
+        "B": "While upward mobility could indeed alter the association, this answer is incomplete. SES can change in either direction — job loss, retirement, divorce, or disability could decrease SES, while promotions or inheritance could increase it. Both directions of change create misclassification. Focusing only on upward mobility captures only half of the methodological concern.",
+        "C": "SES is not a fixed characteristic. Income fluctuates with employment, economic conditions, and life events. Educational attainment may increase with additional schooling. Occupational prestige changes with career transitions. Treating SES as immutable ignores a large body of social mobility research.",
+        "D": "Randomization is impossible for SES — researchers cannot ethically or practically assign people to income or education levels. Observational studies appropriately use statistical adjustment to control for confounders. The single-time-point measurement concern applies to any longitudinal observational design."
+      },
+      "topic": "Study Limitations & Validity",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "ps_soc_strat_206_q5",
+      "passage": "Researchers at a university counseling center examined how intersecting social identities shape mental health outcomes and help-seeking behavior among 800 undergraduate students. The study used an intersectional framework, recognizing that individuals occupy multiple social positions simultaneously — race/ethnicity, gender identity, sexual orientation, and socioeconomic background — and that these intersections create unique experiences of privilege and marginalization.\n\nParticipants completed the Patient Health Questionnaire-9 (PHQ-9) for depression severity, the Internalized Stigma of Mental Illness (ISMI) scale, and a help-seeking attitudes questionnaire. They also reported whether they had utilized campus counseling services in the past academic year.\n\nTable 2. Depression Scores and Service Utilization by Intersectional Group\n| Group | n | Mean PHQ-9 | ISMI Score | Counseling Use (%) |\n|-------|---|-----------|-----------|-------------------|\n| White men, high SES | 142 | 6.8 ± 4.2 | 1.8 ± 0.6 | 28.2 |\n| White women, high SES | 156 | 8.4 ± 5.1 | 2.0 ± 0.7 | 42.3 |\n| Black women, low SES | 118 | 12.1 ± 5.8 | 2.9 ± 0.8 | 18.6 |\n| Latino men, low SES | 104 | 10.7 ± 5.4 | 3.1 ± 0.9 | 14.4 |\n| LGBTQ+ students, mixed SES | 132 | 13.4 ± 6.2 | 3.3 ± 1.0 | 32.6 |\n| Asian women, mid SES | 148 | 9.2 ± 4.9 | 2.7 ± 0.8 | 19.6 |\n\nQualitative interviews with a subset (n = 60) revealed themes of cultural mistrust of mental health professionals, fears of confirming negative stereotypes, concerns about family shame, and perception that counselors lacked cultural competence. Black women and Latino men reported the highest levels of cultural mistrust, while Asian women most frequently cited family stigma concerns.",
+      "passageImage": null,
+      "passageImageCaption": null,
+      "usePrevPassage": false,
+      "stem": "The finding that Black women (low SES) have the second-highest PHQ-9 scores but the second-lowest counseling utilization best illustrates which concept?",
+      "choices": {
+        "A": "An unmet need disparity, where populations with the greatest symptom burden face the most barriers to treatment access",
+        "B": "Self-selection bias, because only less depressed individuals choose to seek counseling",
+        "C": "The Hawthorne effect, since participants changed their help-seeking behavior because they knew they were being studied",
+        "D": "Regression to the mean, because extreme PHQ-9 scores naturally decrease over time without intervention"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The dissociation between high depression severity (PHQ-9 = 12.1, indicating moderate depression) and low service utilization (18.6%) in Black women from low SES backgrounds exemplifies an unmet need disparity. Multiple intersecting barriers suppress help-seeking: cultural mistrust of mental health professionals (documented in the qualitative data), structural barriers associated with low SES (cost, transportation, time), internalized stigma (ISMI = 2.9), and concerns about confirming negative stereotypes. The intersection of race, gender, and class creates compounding barriers that no single factor fully explains.",
+        "B": "Self-selection bias describes systematic differences between those who volunteer for a study and the general population. The low utilization among high-PHQ-9 groups contradicts a simple self-selection model — if less depressed individuals preferentially sought help, we would expect a positive correlation between PHQ-9 and utilization. The inverse pattern suggests structural and cultural barriers override individual choice.",
+        "C": "The Hawthorne effect describes behavioral changes resulting from awareness of being observed. However, the study measures past-year counseling utilization, which occurred before or independent of study participation. Retrospective reporting of pre-existing behavior is not subject to the same reactivity as concurrent behavioral observation.",
+        "D": "Regression to the mean is a statistical phenomenon affecting repeated measurements, not an explanation for disparities between symptom severity and service use across different groups at a single time point. PHQ-9 scores here are not being compared to prior measurements within the same individuals."
+      },
+      "topic": "Health Disparities & Access",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_soc_strat_206_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The high ISMI scores among Latino men (3.1) and LGBTQ+ students (3.3) relate to which sociological concept?",
+      "choices": {
+        "A": "Social facilitation, which predicts improved performance when others are present",
+        "B": "Labeling theory, which proposes that being assigned a diagnostic label can become internalized, shaping self-concept and reinforcing the stigmatized identity",
+        "C": "Cognitive dissonance, which creates tension between wanting help and fearing stigma",
+        "D": "Groupthink, which suppresses individual mental health concerns to maintain group cohesion"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Social facilitation describes how the presence of others enhances performance on simple tasks and impairs performance on complex tasks. This concept pertains to task performance in group settings and has no connection to internalized mental illness stigma or help-seeking behavior.",
+        "B": "Correct. Modified labeling theory (Link et al.) explains how individuals who anticipate or receive a mental illness diagnosis internalize societal stigma associated with that label. The ISMI scale directly measures this internalization — beliefs such as 'I am less valuable because of my mental health condition.' For Latino men, machismo cultural norms frame mental health struggles as weakness, amplifying internalized stigma. For LGBTQ+ students, cumulative experiences of marginalization across multiple identities (minority stress) heighten sensitivity to additional stigmatized labels. High ISMI scores then deter help-seeking, creating a feedback loop between label avoidance and untreated symptoms.",
+        "C": "While tension between wanting help and fearing stigma might superficially resemble cognitive dissonance, the ISMI specifically measures internalized stigma (negative self-beliefs), not the discomfort from holding contradictory attitudes. Cognitive dissonance theory focuses on attitude-behavior inconsistency and does not directly explain why certain groups internalize more stigma than others.",
+        "D": "Groupthink is a phenomenon of decision-making in cohesive groups where dissent is suppressed to maintain consensus. Mental health help-seeking is an individual decision influenced by cultural norms and stigma, not a group decision-making process. The ISMI measures individual internalized beliefs, not group conformity pressure."
+      },
+      "topic": "Stigma & Labeling Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_soc_strat_206_q7",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "LGBTQ+ students showed the highest PHQ-9 scores (13.4) despite mixed SES backgrounds. Which framework best explains why sexual/gender minority status independently predicts worse mental health outcomes?",
+      "choices": {
+        "A": "Terror management theory, which suggests that awareness of mortality drives all anxiety-based disorders",
+        "B": "Kohlberg's theory of moral development, which predicts that LGBTQ+ individuals experience delayed moral reasoning",
+        "C": "Minority stress theory, which posits that stigma, prejudice, and discrimination create chronic stress and adverse health outcomes for marginalized groups",
+        "D": "Behavioral genetics, which attributes all mental health variation to inherited traits"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Terror management theory proposes that awareness of death underlies much of human behavior through cultural worldview defense and self-esteem striving. While existential anxiety contributes to general distress, TMT does not specifically explain why LGBTQ+ individuals have elevated depression rates compared to heterosexual/cisgender peers.",
+        "B": "Kohlberg's moral development theory describes stages of moral reasoning in cognitive development. It does not predict mental health outcomes, does not differentiate by sexual orientation or gender identity, and is entirely irrelevant to depression disparities among LGBTQ+ populations.",
+        "C": "Correct. Meyer's minority stress model proposes that LGBTQ+ individuals experience unique, chronic stressors arising from their stigmatized social position. These include distal stressors (discrimination, violence, microaggressions, rejection) and proximal stressors (identity concealment, internalized homophobia/transphobia, expectations of rejection). The model explains elevated depression rates independent of SES because minority stress operates through psychosocial mechanisms distinct from material deprivation: chronic hypervigilance, social isolation, identity conflict, and the cumulative burden of navigating heteronormative environments. The mixed-SES composition confirms that SES alone does not account for the mental health disparity.",
+        "D": "A purely genetic explanation cannot account for the consistent finding that minority status — a social construct — predicts mental health disparities. The systematic elevation of depression among LGBTQ+ individuals across diverse genetic backgrounds points to shared social stressors, not shared genes."
+      },
+      "topic": "Minority Stress Theory",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_soc_strat_206_q8",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Asian women in the study cited family stigma as a primary barrier to help-seeking. This concern most directly reflects the influence of which cultural dimension?",
+      "choices": {
+        "A": "Individualism, which prioritizes personal autonomy in health decisions",
+        "B": "Cultural relativism, which accepts all health practices as equally valid",
+        "C": "Ethnocentrism, which views one's own cultural health practices as superior",
+        "D": "Collectivism, where individual behavior is evaluated in terms of its impact on family honor and group harmony"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Individualistic cultural orientations emphasize personal autonomy, self-reliance, and individual achievement. Under an individualistic framework, seeking mental health care would be a private decision with minimal consideration of family impact. The fact that Asian women cite family stigma indicates a collectivist orientation where individual and family identities are intertwined.",
+        "B": "Cultural relativism is an anthropological principle of evaluating practices within their own cultural context. It is a methodological stance used by researchers, not a cultural dimension that drives individual help-seeking behavior.",
+        "C": "Ethnocentrism describes judging other cultures by the standards of one's own. While ethnocentric attitudes may influence healthcare preferences, the specific concern about family shame does not reflect cross-cultural judgment but rather intra-cultural norms about protecting family reputation and maintaining collective harmony.",
+        "D": "Correct. Collectivist cultural values, prevalent in many East and South Asian societies, define the self in relation to the group — particularly the family. Mental illness is perceived not just as an individual affliction but as a source of family shame ('loss of face'). Seeking mental health treatment may be seen as admitting the family has failed to provide adequate support. This cultural framing creates a powerful deterrent to help-seeking independent of structural barriers, explaining why Asian women had low utilization (19.6%) despite moderate depression scores (PHQ-9 = 9.2) and mid-SES status that presumably reduces financial barriers."
+      },
+      "topic": "Culture & Health Behavior",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_soc_strat_206_q9",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "If the university implemented a culturally responsive counseling program and saw increased utilization among previously underserved groups, but no change in PHQ-9 scores after 6 months, which explanation is most plausible?",
+      "choices": {
+        "A": "The PHQ-9 is culturally biased and cannot detect depression in minority populations",
+        "B": "The intervention successfully removed access barriers but was insufficient to address the chronic structural stressors (poverty, discrimination) that sustain depression in these populations",
+        "C": "All counseling interventions are ineffective for depression regardless of cultural adaptation",
+        "D": "Increased utilization caused more depression through iatrogenic harm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The PHQ-9 has been validated across diverse racial and ethnic populations. While some cultural variation in symptom expression exists, the PHQ-9 demonstrates adequate sensitivity and specificity across groups. Cultural bias in the instrument does not explain a complete absence of score improvement.",
+        "B": "Correct. Culturally responsive counseling can effectively reduce barriers to access — addressing cultural mistrust, providing ethnically matched therapists, offering services in multiple languages — thereby increasing utilization. However, if the underlying stressors driving depression remain unchanged (ongoing poverty, discrimination, minority stress, food insecurity, unsafe housing), therapeutic gains may be limited. Depression rooted in chronic structural adversity requires not only individual-level treatment but also upstream interventions addressing the social determinants of health.",
+        "C": "Extensive evidence demonstrates that counseling interventions — including CBT, interpersonal therapy, and culturally adapted therapies — are effective for depression across populations. A blanket claim of ineffectiveness contradicts decades of clinical trial data.",
+        "D": "While iatrogenic effects are possible, culturally responsive programs are specifically designed to minimize harm. Increased utilization leading to population-level worsening of depression would require a systematic harmful mechanism that contradicts the evidence base of culturally adapted services."
+      },
+      "topic": "Intervention Effectiveness & Health Equity",
+      "difficulty": "Hard"
+    }
+  ]
+}

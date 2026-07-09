@@ -1,0 +1,337 @@
+{
+  "batch": "B039",
+  "section": "ps",
+  "sectionName": "Psychological, Social & Biological Foundations of Behavior",
+  "topicArea": "Personality & Attitudes",
+  "questionCount": 10,
+  "answerDistribution": {
+    "C": 2,
+    "B": 3,
+    "A": 3,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "ps_person_001",
+      "passage": "Researchers follow adults for 20 years using a validated Big Five inventory. Conscientiousness scores predict punctuality and long-term adherence to preventive health behaviors. Mean scores change modestly with age, but individuals' relative rank within the group remains fairly stable. The researchers caution that correlations do not show that traits directly cause every observed behavior.",
+      "stem": "Which behavior is most consistent with high conscientiousness?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Careful planning and reliable follow-through"
+        },
+        {
+          "label": "B",
+          "text": "Avoidance of all social contact"
+        },
+        {
+          "label": "C",
+          "text": "Frequent sensation seeking"
+        },
+        {
+          "label": "D",
+          "text": "Persistent emotional instability"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Conscientiousness is defined by facets including organization, orderliness, self-discipline, achievement striving, deliberation, and dutifulness. A highly conscientious person plans carefully, follows through on commitments, and meets deadlines reliably. Research consistently shows that conscientiousness predicts academic performance, job performance, health behaviors, and longevity \u2014 making it one of the most practically significant Big Five traits.",
+        "B": "Avoidance of all social contact is more characteristic of high introversion (low extraversion) or social anxiety, not low conscientiousness. Conscientiousness concerns organization, reliability, and self-discipline, not social engagement.",
+        "C": "Sensation seeking is associated with high openness to experience and low conscientiousness \u2014 it reflects impulsivity and novelty-seeking, not the careful planning and reliable follow-through that define high conscientiousness.",
+        "D": "Persistent emotional instability describes high neuroticism \u2014 the tendency to experience negative emotions intensely and frequently (anxiety, anger, sadness, self-consciousness). Neuroticism and conscientiousness are separate, largely independent Big Five dimensions."
+      },
+      "topic": "Big Five / Conscientiousness",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_person_002",
+      "passage": null,
+      "stem": "Stable relative rank despite modest mean change illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "rank-order stability"
+        },
+        {
+          "label": "B",
+          "text": "complete personality immutability"
+        },
+        {
+          "label": "C",
+          "text": "zero measurement reliability"
+        },
+        {
+          "label": "D",
+          "text": "random assignment"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Rank-order stability means that even as the group average changes over time, individuals maintain their relative position within the group. If Person A is more conscientious than Person B at age 20, Person A is likely still more conscientious than Person B at age 40 \u2014 even though both may have increased in absolute terms. Rank-order stability is measured by test-retest correlations and increases with age, typically reaching r \u2248 0.70\u20130.75 in adulthood.",
+        "B": "The passage explicitly states that mean scores change with age, directly contradicting the claim of complete immutability. Personality traits show meaningful mean-level changes across the lifespan (e.g., conscientiousness and agreeableness tend to increase in adulthood), but individuals' relative standing within their cohort remains fairly stable.",
+        "C": "Stable ranking over time actually supports measurement reliability \u2014 if scores were unreliable (high random error), individual rankings would fluctuate unpredictably. Consistent rank order across 20 years suggests the inventory is measuring a real, stable construct.",
+        "D": "Random assignment is an experimental design technique used to equalize groups in controlled studies. This longitudinal study is observational \u2014 it follows the same individuals over time without any experimental manipulation."
+      },
+      "topic": "Trait Stability / Rank Order",
+      "difficulty": "Medium",
+      "passageRef": "ps_person_001"
+    },
+    {
+      "id": "ps_person_003",
+      "passage": null,
+      "stem": "The researchers' causal caution is appropriate because the study:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "lasts longer than one year"
+        },
+        {
+          "label": "B",
+          "text": "uses a personality inventory"
+        },
+        {
+          "label": "C",
+          "text": "is correlational and may contain confounding variables"
+        },
+        {
+          "label": "D",
+          "text": "measures adults rather than children"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Longer studies actually strengthen the evidence for temporal precedence (cause precedes effect), but even long follow-up periods cannot eliminate confounding variables. Duration enhances confidence in the association's stability but does not convert correlation into causation.",
+        "B": "Using a personality inventory is a methodological choice but not itself the reason causal inference is limited. Well-validated inventories measure traits reliably; the limitation is the observational design, not the measurement instrument.",
+        "C": "Correct. Longitudinal observational studies can demonstrate that trait scores predict future behavior, but they cannot establish that traits cause the behavior. A third variable (socioeconomic status, intelligence, health literacy, early environment) could independently influence both conscientiousness scores and health behaviors. Additionally, reverse causation is possible: engaging in structured, health-promoting routines might reinforce or develop conscientiousness rather than the other way around. Only randomized controlled experiments can definitively establish causation.",
+        "D": "Studying adults rather than children might limit generalizability to other age groups, but it does not create the causal inference problem. The limitation is the absence of experimental manipulation, not the age of participants."
+      },
+      "topic": "Personality Research / Correlation",
+      "difficulty": "Medium",
+      "passageRef": "ps_person_001"
+    },
+    {
+      "id": "ps_person_004",
+      "passage": null,
+      "stem": "In Freud's structural model, the component governed by the pleasure principle is the:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "superego"
+        },
+        {
+          "label": "B",
+          "text": "ego"
+        },
+        {
+          "label": "C",
+          "text": "id"
+        },
+        {
+          "label": "D",
+          "text": "collective unconscious"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "The superego represents internalized moral standards and parental/societal rules. It operates through guilt (conscience) and strives for perfection. The superego follows the morality principle, not the pleasure principle, and often opposes the id's demands.",
+        "B": "The ego mediates between the id, superego, and reality. It operates on the reality principle \u2014 seeking to satisfy the id's desires in realistic, socially appropriate ways. The ego delays gratification and considers consequences, unlike the id's immediate demand for pleasure.",
+        "C": "Correct. The id is the most primitive component of Freud's structural model, present from birth. It operates entirely on the pleasure principle \u2014 seeking immediate gratification of biological drives (hunger, thirst, sexual desire, aggression) without regard for reality, logic, or morality. The id is entirely unconscious and demands 'I want it now.' Primary process thinking (wish-fulfilling fantasies, dreams) is the id's mode of operation.",
+        "D": "The collective unconscious is Jung's concept \u2014 a shared reservoir of archetypes and universal symbols inherited across the human species. It is not part of Freud's structural model (id/ego/superego) and does not operate on the pleasure principle."
+      },
+      "topic": "Psychodynamic Theory / Id",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_person_005",
+      "passage": null,
+      "stem": "Attributing one's own unacceptable impulse to another person is the defense mechanism of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sublimation"
+        },
+        {
+          "label": "B",
+          "text": "regression"
+        },
+        {
+          "label": "C",
+          "text": "displacement"
+        },
+        {
+          "label": "D",
+          "text": "projection"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Sublimation channels unacceptable impulses into socially acceptable activities \u2014 for example, redirecting aggressive impulses into competitive sports. The impulse is acknowledged (unconsciously) and constructively redirected, not attributed to another person.",
+        "B": "Regression is a return to an earlier developmental stage in response to stress \u2014 for example, an adult throwing a tantrum or a child resuming thumb-sucking after the birth of a sibling. The impulse is expressed behaviorally rather than attributed to someone else.",
+        "C": "Displacement redirects an emotion from its original target to a safer substitute \u2014 for example, a person angry at their boss who comes home and yells at their spouse. The impulse is redirected, not projected onto the original source. The person still experiences the emotion; they just aim it elsewhere.",
+        "D": "Correct. Projection is a defense mechanism in which an individual attributes their own unacceptable thoughts, feelings, or impulses to another person. For example, a person who feels hostile toward a colleague may perceive the colleague as hostile toward them, or someone experiencing forbidden sexual attraction may accuse the other person of being seductive. Projection protects the ego by externalizing the threatening impulse \u2014 'It's not me who feels this way; it's them.'"
+      },
+      "topic": "Defense Mechanisms / Projection",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_person_006",
+      "passage": null,
+      "stem": "Rogers argued that healthy development is promoted by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "punishment of incongruent behavior"
+        },
+        {
+          "label": "B",
+          "text": "unconditional positive regard"
+        },
+        {
+          "label": "C",
+          "text": "fixation at psychosexual stages"
+        },
+        {
+          "label": "D",
+          "text": "elimination of subjective experience"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Punishment for incongruent behavior creates conditions of worth \u2014 the message that acceptance is conditional on meeting certain standards. Rogers argued that conditions of worth lead to incongruence between the self-concept and actual experience, producing anxiety and psychological distress. Punishment undermines development, not promotes it.",
+        "B": "Correct. Rogers proposed that healthy personality development requires unconditional positive regard \u2014 acceptance and warmth from significant others that is not contingent on specific behaviors or characteristics. When individuals feel valued regardless of their flaws, they can accurately perceive and integrate their experiences, maintaining congruence between their self-concept and their actual feelings. Conditional positive regard forces individuals to deny or distort experiences that threaten acceptance, creating incongruence and psychological dysfunction.",
+        "C": "Psychosexual fixation is a concept from Freud's psychosexual stage theory (oral, anal, phallic, latency, genital), not Rogers' humanistic theory. Rogers explicitly rejected the deterministic, instinct-based framework of psychoanalysis in favor of a growth-oriented, phenomenological approach.",
+        "D": "Humanistic psychology (Rogers, Maslow) places subjective experience at the center of psychology. Eliminating subjective experience would contradict the foundation of humanistic theory, which emphasizes the individual's unique perception of reality as the primary determinant of behavior."
+      },
+      "topic": "Humanistic Theory / Rogers",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_person_007",
+      "passage": null,
+      "stem": "An infant's early, biologically influenced pattern of emotional reactivity is called:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "social role"
+        },
+        {
+          "label": "B",
+          "text": "temperament"
+        },
+        {
+          "label": "C",
+          "text": "cognitive schema"
+        },
+        {
+          "label": "D",
+          "text": "reference-group conformity"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "A social role is a set of expected behaviors associated with a social position (student, parent, physician). Roles are socially defined and context-dependent, not biologically based or present from infancy.",
+        "B": "Correct. Temperament refers to the biologically based, early-appearing individual differences in emotional reactivity (how intensely a person responds to stimuli) and self-regulation (how well a person modulates their reactions). Temperament is observable from infancy and shows moderate genetic influence. Chess and Thomas identified three temperament categories: easy (adaptable, positive mood), difficult (intense, slow to adapt), and slow-to-warm-up (initially withdrawn, gradually adapting). Temperament provides the biological substrate upon which personality develops through interaction with the environment.",
+        "C": "A cognitive schema is an organized mental framework for understanding and interpreting information (e.g., a restaurant schema includes expectations about menus, ordering, and paying). Schemas are learned through experience, not biologically innate patterns of emotional reactivity.",
+        "D": "Reference group conformity involves adopting attitudes or behaviors to match a group one identifies with or aspires to join. This is a social influence process relevant to adolescents and adults, not a biologically based infant disposition."
+      },
+      "topic": "Temperament / Biological Disposition",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_person_008",
+      "passage": null,
+      "stem": "A strict behaviorist account of personality would emphasize:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "inherited archetypes shared across human cultures"
+        },
+        {
+          "label": "B",
+          "text": "unconscious conflicts established during early childhood"
+        },
+        {
+          "label": "C",
+          "text": "stable traits expressed independently of environmental context"
+        },
+        {
+          "label": "D",
+          "text": "learned behavioral patterns shaped by reinforcement history"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Inherited archetypes (hero, shadow, anima/animus) are associated with Jung's analytical psychology, which proposes a collective unconscious shared across humanity. Strict behaviorism rejects unobservable constructs like archetypes and the unconscious entirely.",
+        "B": "Unconscious conflicts established during childhood are central to Freud's psychodynamic theory. Behaviorism explicitly rejects the concept of unconscious mental processes, focusing exclusively on observable behavior and environmental contingencies.",
+        "C": "Stable traits expressed independently of environment describe trait theory (Allport, Cattell, Big Five). Behaviorism argues the opposite: behavior is shaped by the environment, not by internal traits. Skinner specifically rejected the concept of personality traits as explanatory fictions.",
+        "D": "Correct. Radical behaviorism (Skinner) explains personality as a collection of learned behavioral patterns shaped by an individual's unique reinforcement history. A person who is 'outgoing' has been reinforced for social behavior; a person who is 'shy' has been punished for or not reinforced for social behavior. Behaviorism rejects internal constructs (traits, drives, unconscious processes) as unnecessary for explaining behavior \u2014 the environment provides sufficient explanation."
+      },
+      "topic": "Behaviorism / Personality",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "ps_person_009",
+      "passage": null,
+      "stem": "Feeling favorable toward exercise, believing it improves health, and intending to exercise illustrate that attitudes can include:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cognitive, affective, and behavioral components"
+        },
+        {
+          "label": "B",
+          "text": "only unconscious drives"
+        },
+        {
+          "label": "C",
+          "text": "only genetic dispositions"
+        },
+        {
+          "label": "D",
+          "text": "only physiological reflexes"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The tricomponent (ABC) model of attitudes proposes three components: Affective (feelings \u2014 'I feel good about exercise'), Behavioral/Conative (action tendencies \u2014 'I intend to exercise regularly'), and Cognitive (beliefs \u2014 'exercise improves health'). All three components contribute to the overall attitude but may not always be consistent with each other \u2014 a phenomenon relevant to cognitive dissonance theory and the attitude-behavior gap.",
+        "B": "Attitudes can include unconscious elements (implicit attitudes measured by the IAT), but they are not limited to unconscious drives. The example in the question describes conscious evaluative responses \u2014 feeling favorable, believing something, and intending to act.",
+        "C": "While genetic factors can influence temperament and predispositions that shape attitudes, attitudes are primarily learned through direct experience, social learning, classical conditioning, and cognitive processing. They are not purely genetic.",
+        "D": "Physiological reflexes (e.g., pupil constriction, knee-jerk reflex) are involuntary responses, not evaluative orientations toward objects or concepts. Attitudes involve cognitive evaluation and affective response, which are fundamentally different from simple motor reflexes."
+      },
+      "topic": "Attitude Components",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "ps_person_010",
+      "passage": null,
+      "stem": "After repeatedly choosing a brand without strong prior preference, a person infers, 'I must like this brand.' This best illustrates:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reaction formation"
+        },
+        {
+          "label": "B",
+          "text": "self-perception theory"
+        },
+        {
+          "label": "C",
+          "text": "projection"
+        },
+        {
+          "label": "D",
+          "text": "drive reduction"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Reaction formation involves expressing the opposite of an unacceptable impulse \u2014 for example, a person who feels attraction expressing hostility toward the object of attraction. The brand-choice scenario does not involve transforming a threatening impulse into its opposite.",
+        "B": "Correct. Bem's self-perception theory proposes that when internal attitudes are weak, ambiguous, or unformed, individuals infer their attitudes by observing their own behavior \u2014 much as an outside observer would. If you notice you've repeatedly chosen Brand X without a strong prior preference, you may conclude 'I must prefer Brand X.' This process is most likely when behavior is freely chosen (not coerced) and when pre-existing attitudes are weak. Self-perception theory is an alternative to cognitive dissonance theory for explaining attitude-behavior consistency.",
+        "C": "Projection involves attributing one's own unacceptable thoughts or feelings to another person. The brand scenario involves self-directed inference about one's own preferences, not attribution of internal states to others.",
+        "D": "Drive reduction theory explains motivation through the reduction of physiological tension states (hunger, thirst). Brand preference is not a biological drive state, and the mechanism described \u2014 inferring attitudes from observed behavior \u2014 is a cognitive process, not a drive-reduction process."
+      },
+      "topic": "Self-Perception Theory / Attitudes",
+      "difficulty": "Medium"
+    }
+  ]
+}

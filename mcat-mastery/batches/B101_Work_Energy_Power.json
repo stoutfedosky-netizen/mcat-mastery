@@ -1,0 +1,338 @@
+{
+  "batch": "B101",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Work, Energy & Power",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 3,
+    "D": 3
+  },
+  "questions": [
+    {
+      "id": "cp_energy_001",
+      "passage": "A physics student studies energy conservation and work-energy relationships. She analyzes a 2 kg block sliding down a frictionless 5 m ramp inclined at 30°, a spring with k = 200 N/m compressed 0.1 m, and a 70 kg person climbing stairs. She uses g = 10 m/s² and applies conservation of energy, work-energy theorem, and power calculations.",
+      "stem": "The gravitational potential energy of the 2 kg block at the top of the 5 m ramp (h = 5 sin30° = 2.5 m) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "50 J — PE = mgh = (2)(10)(2.5) = 50 J"
+        },
+        {
+          "label": "B",
+          "text": "100 J"
+        },
+        {
+          "label": "C",
+          "text": "25 J"
+        },
+        {
+          "label": "D",
+          "text": "10 J"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Gravitational PE = mgh = (2 kg)(10 m/s²)(2.5 m) = 50 J. The height h = 5 sin30° = 5(0.5) = 2.5 m (vertical height of the ramp). Only the vertical displacement matters for gravitational PE, not the total ramp length. At the bottom, all PE converts to KE on a frictionless surface: ½mv² = 50 J → v = √(2×50/2) = √50 ≈ 7.07 m/s. This demonstrates conservation of mechanical energy: PE_top = KE_bottom when no friction or other non-conservative forces act.",
+        "B": "100 J would result from using the ramp length (5 m) instead of the vertical height (2.5 m): mgh = (2)(10)(5) = 100 J. Only the vertical component of displacement contributes to gravitational PE.",
+        "C": "25 J would result from using m = 2 kg, g = 10, h = 1.25 m (incorrect height calculation).",
+        "D": "10 J does not correspond to any correct calculation with the given values."
+      },
+      "topic": "Gravitational PE / mgh",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_energy_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "On the frictionless ramp, the speed of the block at the bottom is found using conservation of energy. If friction were present (μk = 0.2), the block's speed at the bottom would be:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "greater than on the frictionless ramp because friction adds energy"
+        },
+        {
+          "label": "B",
+          "text": "the same as the frictionless case because friction does not affect energy"
+        },
+        {
+          "label": "C",
+          "text": "less than the frictionless case — friction does negative work (converting mechanical energy to thermal energy), so less KE is available at the bottom: ½mv² = mgh - μk(mg cosθ)(d)"
+        },
+        {
+          "label": "D",
+          "text": "zero, because friction always stops all motion completely"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Friction removes mechanical energy from the system (converts it to heat). It never adds energy. The block arrives at the bottom with less kinetic energy than in the frictionless case.",
+        "B": "Friction absolutely affects the energy budget. The work-energy theorem includes all forces, and friction does negative work (force opposes displacement), reducing the final kinetic energy.",
+        "C": "Correct. With friction: W_friction = -μk(N)(d) = -μk(mg cosθ)(d) = -(0.2)(2)(10)(cos30°)(5) = -(0.2)(20)(0.866)(5) = -17.3 J. Energy conservation with friction: KE_bottom = PE_top - |W_friction| = 50 - 17.3 = 32.7 J. Speed: v = √(2×32.7/2) = √32.7 ≈ 5.72 m/s (vs 7.07 m/s frictionless). Friction is a non-conservative force — it converts mechanical energy to thermal energy (heat), reducing the total mechanical energy available for motion.",
+        "D": "Friction reduces speed but does not necessarily stop the object. The block still reaches the bottom — just with less speed. It would stop only if friction completely dissipated all the available PE before the bottom is reached."
+      },
+      "topic": "Friction / Non-Conservative Work",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_energy_003",
+      "passage": null,
+      "stem": "The work-energy theorem states that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "work equals the change in potential energy only"
+        },
+        {
+          "label": "B",
+          "text": "the net work done on an object equals the change in its kinetic energy: W_net = ΔKE = ½mv²_f - ½mv²_i"
+        },
+        {
+          "label": "C",
+          "text": "work is always zero regardless of forces applied"
+        },
+        {
+          "label": "D",
+          "text": "energy is never conserved in any system"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The work-energy theorem relates net work to changes in kinetic energy, not just potential energy. Work done by gravity equals the negative change in gravitational PE (W_gravity = -ΔPE), but the full theorem involves all forces and KE.",
+        "B": "Correct. The work-energy theorem: W_net = ΔKE. The net work done by all forces acting on an object equals the change in its kinetic energy. If positive net work is done (net force in direction of motion), the object speeds up (KE increases). If negative net work is done (net force opposes motion, as with friction), the object slows down (KE decreases). This is derived from Newton's second law integrated over displacement: W = ∫F·dx = ∫ma·dx = m∫v·dv = ½mv²_f - ½mv²_i.",
+        "C": "Work is zero only when force is perpendicular to displacement (e.g., normal force on a flat surface, centripetal force). When force has a component along the displacement direction, work is done.",
+        "D": "Energy is always conserved (first law of thermodynamics). Mechanical energy may not be conserved when non-conservative forces (friction) act, but total energy (including thermal) is always conserved."
+      },
+      "topic": "Work-Energy Theorem / W = ΔKE",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_energy_004",
+      "passage": null,
+      "stem": "The elastic potential energy stored in the spring (k = 200 N/m, compressed 0.1 m) is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "20 J"
+        },
+        {
+          "label": "B",
+          "text": "10 J"
+        },
+        {
+          "label": "C",
+          "text": "0.1 J"
+        },
+        {
+          "label": "D",
+          "text": "1.0 J — PE_spring = ½kx² = ½(200)(0.1)² = ½(200)(0.01) = 1.0 J"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "20 J results from omitting the ½ and the square: kx = 200 × 0.1 = 20. The correct formula is ½kx², not kx.",
+        "B": "10 J results from forgetting to square x: ½kx = ½(200)(0.1) = 10. Must use x², not x.",
+        "C": "0.1 J does not result from any correct application of ½kx².",
+        "D": "Correct. Elastic PE = ½kx² = ½(200 N/m)(0.1 m)² = ½(200)(0.01) = 1.0 J. The x² dependence means doubling compression quadruples stored energy. If the spring launches a 0.1 kg ball: ½mv² = 1.0 J → v = √(2×1.0/0.1) = √20 ≈ 4.47 m/s. Hooke's law (F = -kx) gives the restoring force, and the area under the F-x curve (triangle) equals the stored energy: ½(F_max)(x) = ½(kx)(x) = ½kx²."
+      },
+      "topic": "Elastic PE / ½kx²",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_energy_005",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The 70 kg person climbs 3 m of stairs in 5 seconds. The power output is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2100 W"
+        },
+        {
+          "label": "B",
+          "text": "420 W — P = W/t = mgh/t = (70)(10)(3)/5 = 2100/5 = 420 W"
+        },
+        {
+          "label": "C",
+          "text": "210 W"
+        },
+        {
+          "label": "D",
+          "text": "42 W"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "2100 W = mgh = the total work done, not the power. Power is work per unit time: 2100 J / 5 s = 420 W.",
+        "B": "Correct. Power = work/time = mgh/t = (70 kg)(10 m/s²)(3 m)/(5 s) = 2100/5 = 420 W. This is the rate of doing work against gravity. In horsepower: 420/746 ≈ 0.56 hp (about half a horsepower — reasonable for sustained stair climbing). Power can also be expressed as P = Fv (force × velocity): F = mg = 700 N, v = h/t = 3/5 = 0.6 m/s (vertical), P = 700 × 0.6 = 420 W (same answer).",
+        "C": "210 W would result from an arithmetic error (2100/10 instead of 2100/5).",
+        "D": "42 W results from dividing by 50 instead of 5, or other arithmetic error."
+      },
+      "topic": "Power / P = W/t",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_energy_006",
+      "passage": null,
+      "stem": "Work done by a force is defined as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "W = Fd cosθ, where F is the force magnitude, d is the displacement magnitude, and θ is the angle between the force and displacement vectors — work is positive when force and displacement have a component in the same direction"
+        },
+        {
+          "label": "B",
+          "text": "W = Fd sinθ (the cross product magnitude)"
+        },
+        {
+          "label": "C",
+          "text": "W = mv (momentum)"
+        },
+        {
+          "label": "D",
+          "text": "W = mgh always, regardless of the force involved"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Work is the dot product of force and displacement: W = F·d = Fd cosθ. When θ = 0° (force parallel to displacement): W = Fd (maximum positive work). When θ = 90° (force perpendicular): W = 0 (no work — e.g., normal force on flat surface, centripetal force). When θ = 180° (force opposes displacement): W = -Fd (negative work — e.g., friction). Units: joules (N·m). Work is a scalar quantity (can be positive, negative, or zero).",
+        "B": "Fd sinθ gives the magnitude of the cross product (torque: τ = r × F = rF sinθ). Work uses the dot product (cosθ), not the cross product (sinθ).",
+        "C": "mv is linear momentum (p = mv), not work. Momentum and work have different units (kg·m/s vs J = kg·m²/s²) and represent different physical concepts.",
+        "D": "mgh gives work done by gravity specifically, not by any arbitrary force. Work depends on the specific force, displacement, and angle between them."
+      },
+      "topic": "Work Definition / W = Fd cosθ",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_energy_007",
+      "passage": null,
+      "stem": "The law of conservation of energy states that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "energy can be created from nothing in a closed system"
+        },
+        {
+          "label": "B",
+          "text": "energy can be destroyed but not created"
+        },
+        {
+          "label": "C",
+          "text": "mechanical energy is always conserved, even when friction is present"
+        },
+        {
+          "label": "D",
+          "text": "energy cannot be created or destroyed, only transformed from one form to another — the total energy of an isolated system remains constant"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Energy cannot be created from nothing. This would violate the first law of thermodynamics. Energy inputs always require a source (chemical energy from food, electrical energy from a generator, nuclear energy from mass-energy equivalence).",
+        "B": "Energy cannot be destroyed either. When friction 'removes' kinetic energy, the energy becomes thermal energy (heat) — it is not destroyed but transformed. Even in nuclear reactions, mass converts to energy (E = mc²), conserving total mass-energy.",
+        "C": "Mechanical energy (KE + PE) is conserved only when no non-conservative forces (friction, air resistance) do work. When friction acts, mechanical energy decreases (converted to thermal energy), but total energy is still conserved.",
+        "D": "Correct. The first law of thermodynamics: energy is conserved in all processes. It transforms between forms: kinetic ⇌ potential, chemical → thermal, electrical → mechanical, nuclear → radiant. In the ramp problem, gravitational PE → kinetic energy (frictionless) or gravitational PE → kinetic energy + thermal energy (with friction). The total energy (including all forms) is always conserved. This is one of the most fundamental principles in physics and applies universally."
+      },
+      "topic": "Conservation of Energy / First Law",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_energy_008",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Kinetic energy is defined as KE = ½mv². If the speed of an object doubles, its kinetic energy:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "doubles"
+        },
+        {
+          "label": "B",
+          "text": "triples"
+        },
+        {
+          "label": "C",
+          "text": "quadruples — KE ∝ v², so doubling v gives 2² = 4 times the KE"
+        },
+        {
+          "label": "D",
+          "text": "remains the same"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Doubling would occur if KE were proportional to v (linear), but KE ∝ v² (quadratic). The squared dependence is crucial for understanding energy in motion.",
+        "B": "Tripling has no mathematical basis in the KE equation. KE ∝ v² gives integer multiples of 1, 4, 9, 16... when speed is multiplied by 1, 2, 3, 4...",
+        "C": "Correct. KE = ½mv². Since KE is proportional to v² (not v), doubling speed quadruples KE: KE₂/KE₁ = (2v)²/v² = 4. This has important implications: stopping distance is proportional to v² (doubling speed quadruples braking distance), car crashes at double speed release 4× the energy, and wind power is proportional to v³ (KE flux through a turbine area). The v² relationship makes speed a critical safety factor.",
+        "D": "KE changes dramatically with speed due to the v² dependence. Only if mass changed to compensate would KE stay constant."
+      },
+      "topic": "Kinetic Energy / v² Dependence",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_energy_009",
+      "passage": null,
+      "stem": "A conservative force is one for which:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the work done depends on the path taken between two points"
+        },
+        {
+          "label": "B",
+          "text": "the work done is always positive"
+        },
+        {
+          "label": "C",
+          "text": "energy is always lost as heat"
+        },
+        {
+          "label": "D",
+          "text": "the work done depends only on the initial and final positions, not the path taken — gravity and spring forces are conservative; friction and air resistance are non-conservative"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Path-dependent work characterizes non-conservative forces (friction), not conservative ones. For conservative forces, only the endpoints matter.",
+        "B": "Conservative forces can do positive, negative, or zero work depending on the direction of displacement relative to the force. Gravity does positive work when an object falls (displacement in direction of force) and negative work when it rises.",
+        "C": "Energy conversion to heat is characteristic of non-conservative forces (friction). Conservative forces convert between KE and PE without heat loss.",
+        "D": "Correct. Conservative forces have path-independent work: the work done between two points is the same regardless of the path taken. Equivalently, the work done around any closed loop is zero, and a potential energy function can be defined. Gravity (W = -ΔPE = mgh₁ - mgh₂) and elastic spring force (W = ½kx₁² - ½kx₂²) are conservative — they store energy as PE that can be fully recovered. Non-conservative forces (friction, air resistance) are path-dependent — longer paths dissipate more energy as heat, and no PE function exists for them."
+      },
+      "topic": "Conservative vs Non-Conservative Forces",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_energy_010",
+      "passage": null,
+      "stem": "An object is lifted 2 m at constant velocity by an applied force. The work done by the applied force is:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "zero, because the velocity is constant"
+        },
+        {
+          "label": "B",
+          "text": "negative, because the object moves upward"
+        },
+        {
+          "label": "C",
+          "text": "positive and equal to mgh — at constant velocity (a = 0), the applied force equals mg, and the work is W = Fd = (mg)(h) = mgh, which increases the object's gravitational PE"
+        },
+        {
+          "label": "D",
+          "text": "equal to ½mv², the kinetic energy gained"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Zero net work means no KE change (constant velocity), but the applied force does positive work. The work-energy theorem uses net work; individual forces can still do nonzero work. Gravity does equal and opposite (negative) work, making the net zero.",
+        "B": "The applied force is upward and the displacement is upward — same direction — so the work is positive. Gravity does negative work (downward force, upward displacement).",
+        "C": "Correct. At constant velocity, acceleration is zero, so by Newton's second law, the net force is zero: F_applied - mg = 0 → F_applied = mg. Work by the applied force: W = F_applied × d = (mg)(2 m) = 2mg (positive, since force is in direction of displacement). This work goes entirely into gravitational PE (no KE change since velocity is constant). Work by gravity: W_grav = -mgh = -2mg (negative, opposing displacement). Net work = W_applied + W_gravity = 2mg - 2mg = 0, consistent with ΔKE = 0 (work-energy theorem).",
+        "D": "Since velocity is constant, ΔKE = 0 — no kinetic energy is gained. All the work by the applied force is stored as gravitational potential energy."
+      },
+      "topic": "Work at Constant Velocity / PE Storage",
+      "difficulty": "Medium"
+    }
+  ]
+}

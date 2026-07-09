@@ -1,0 +1,338 @@
+{
+  "batch": "B106",
+  "section": "cp",
+  "sectionName": "Chemical & Physical Foundations of Biological Systems",
+  "topicArea": "Nuclear Chemistry & Radioactivity",
+  "questionCount": 10,
+  "answerDistribution": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cp_nuclear_001",
+      "passage": "A nuclear chemistry student studies radioactive decay. She examines the three major types of decay — alpha (α), beta (β), and gamma (γ) — their particles, penetrating ability, and effects on atomic number and mass number. She uses the decay equation N(t) = N₀e^(-λt) and the relationship t₁/₂ = ln2/λ to calculate remaining activity. She studies nuclear fission, fusion, and the concept of mass defect (binding energy via E = mc²). She also examines the medical applications of radioisotopes including PET scans (¹⁸F), thyroid imaging (¹³¹I), and cancer radiotherapy.",
+      "stem": "Alpha decay involves the emission of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a helium-4 nucleus (2 protons + 2 neutrons) — the parent nucleus loses 4 mass units and 2 atomic number units: ²³⁸U → ²³⁴Th + ⁴He"
+        },
+        {
+          "label": "B",
+          "text": "a high-energy photon with no mass or charge"
+        },
+        {
+          "label": "C",
+          "text": "an electron from the nucleus"
+        },
+        {
+          "label": "D",
+          "text": "a neutron only, with no change in atomic number"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Alpha particles (α = ⁴₂He²⁺): 2 protons + 2 neutrons (helium-4 nucleus). Effects on parent: mass number decreases by 4 (A → A-4), atomic number decreases by 2 (Z → Z-2). Example: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He. Alpha particles are the heaviest and most charged decay products — they are strongly ionizing but have low penetrating power (stopped by paper, skin, or a few cm of air). Alpha emitters are dangerous if inhaled or ingested (internal radiation dose). Common alpha emitters: ²³⁸U, ²²⁶Ra, ²²²Rn, ²¹⁰Po.",
+        "B": "High-energy photons with no mass or charge describe gamma (γ) radiation. Gamma rays are electromagnetic radiation emitted when a nucleus transitions from an excited to a lower energy state. They have the highest penetrating power (require lead or concrete shielding).",
+        "C": "Electron emission from the nucleus describes beta-minus (β⁻) decay: a neutron converts to a proton + electron + antineutrino (n → p + e⁻ + ν̄). The atomic number increases by 1, mass number unchanged.",
+        "D": "Pure neutron emission is rare and occurs only in certain highly unstable nuclei. It changes the mass number by 1 but does not change the atomic number. This is not alpha decay."
+      },
+      "topic": "Alpha Decay / ⁴He Emission",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_nuclear_002",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Beta-minus (β⁻) decay involves:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "emission of a positron from the nucleus"
+        },
+        {
+          "label": "B",
+          "text": "a neutron converting to a proton, emitting an electron and an antineutrino — the atomic number increases by 1 while the mass number remains unchanged: ¹⁴C → ¹⁴N + e⁻ + ν̄"
+        },
+        {
+          "label": "C",
+          "text": "emission of a helium nucleus"
+        },
+        {
+          "label": "D",
+          "text": "absorption of an inner-shell electron by the nucleus"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Positron emission describes beta-plus (β⁺) decay: p → n + e⁺ + νₑ. The atomic number decreases by 1. Positrons are used in PET imaging (¹⁸F → ¹⁸O + e⁺).",
+        "B": "Correct. β⁻ decay: n → p + e⁻ + ν̄ₑ (electron antineutrino). The neutron-to-proton conversion occurs inside the nucleus. The emitted electron (β⁻ particle) is not an orbital electron — it is created during the nuclear transformation. Mass number (A) unchanged (n and p have nearly the same mass). Atomic number (Z) increases by 1 (new proton). Example: ¹⁴₆C → ¹⁴₇N + e⁻ + ν̄. Beta particles have moderate penetrating power (stopped by aluminum foil or a few mm of tissue) and moderate ionizing ability. Carbon-14 dating uses this decay (t₁/₂ = 5730 years).",
+        "C": "Helium nucleus emission describes alpha decay, not beta decay.",
+        "D": "Absorption of an inner-shell electron by the nucleus describes electron capture (EC): p + e⁻ → n + νₑ. EC is an alternative to β⁺ decay — atomic number decreases by 1, with emission of a characteristic X-ray when the inner-shell vacancy is filled."
+      },
+      "topic": "Beta-Minus Decay / n → p + e⁻",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_nuclear_003",
+      "passage": null,
+      "stem": "A radioactive sample has a half-life of 6 hours. After 24 hours, what fraction of the original sample remains?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1/2"
+        },
+        {
+          "label": "B",
+          "text": "1/4"
+        },
+        {
+          "label": "C",
+          "text": "1/8"
+        },
+        {
+          "label": "D",
+          "text": "1/16 — 24 hours = 4 half-lives, so (1/2)⁴ = 1/16 of the original sample remains"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "1/2 remaining would be after only 1 half-life (6 hours), not 4 half-lives (24 hours).",
+        "B": "1/4 remaining would be after 2 half-lives (12 hours).",
+        "C": "1/8 remaining would be after 3 half-lives (18 hours).",
+        "D": "Correct. Number of half-lives: 24 hr / 6 hr = 4. Remaining fraction: (1/2)ⁿ = (1/2)⁴ = 1/16. After each half-life: 100% → 50% → 25% → 12.5% → 6.25% (1/16). This first-order decay process applies identically to nuclear decay, drug elimination, and any first-order kinetic process. The exponential decay equation N(t) = N₀e^(-λt) gives the same result: N/N₀ = e^(-λ×24) = e^(-ln2/6 × 24) = e^(-4ln2) = 2⁻⁴ = 1/16."
+      },
+      "topic": "Half-Life Calculation / Radioactive Decay",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_nuclear_004",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Gamma (γ) radiation differs from alpha and beta radiation in that gamma radiation:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "consists of heavy, charged particles that are easily stopped by paper"
+        },
+        {
+          "label": "B",
+          "text": "is electromagnetic radiation (high-energy photons) with no mass or charge — it has the highest penetrating power (requires thick lead or concrete shielding) but lower ionizing density than alpha or beta particles"
+        },
+        {
+          "label": "C",
+          "text": "always changes the atomic number and mass number of the nucleus"
+        },
+        {
+          "label": "D",
+          "text": "can only be produced in nuclear reactors, not in natural decay"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Heavy, charged particles describe alpha particles, not gamma. Alpha has the lowest penetrating power but highest ionizing ability.",
+        "B": "Correct. Gamma rays: electromagnetic radiation (photons) emitted when a nucleus transitions from an excited to a ground state. No mass, no charge → no change in A or Z. Penetration comparison: α (stopped by paper/skin) < β (stopped by aluminum/wood) < γ (requires lead/concrete). Ionization comparison: α (most ionizing — heavy, doubly charged) > β (moderate) > γ (lowest ionizing density — no charge, interacts indirectly via photoelectric effect, Compton scattering, pair production). Gamma rays often accompany α or β decay (daughter nucleus in excited state → γ emission to reach ground state).",
+        "C": "Gamma emission changes neither A nor Z — the nucleus simply releases energy by emitting a photon. Only alpha and beta decays change nuclear composition.",
+        "D": "Gamma radiation is naturally emitted by many radioactive isotopes (⁶⁰Co, ⁹⁹ᵐTc, ¹³⁷Cs). It does not require a reactor — it accompanies natural decay processes."
+      },
+      "topic": "Gamma Radiation / EM Radiation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_nuclear_005",
+      "passage": null,
+      "stem": "Nuclear fission is the process by which:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a heavy nucleus splits into two or more lighter nuclei, releasing energy — the mass of the products is less than the original nucleus, and the mass defect is converted to energy via E = mc²"
+        },
+        {
+          "label": "B",
+          "text": "two light nuclei combine to form a heavier nucleus"
+        },
+        {
+          "label": "C",
+          "text": "an atom loses an electron to become an ion"
+        },
+        {
+          "label": "D",
+          "text": "a radioactive atom absorbs a gamma ray and becomes stable"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Nuclear fission: a heavy nucleus (²³⁵U, ²³⁹Pu) absorbs a neutron and splits into two medium-mass fragments + additional neutrons + energy. Example: ²³⁵U + n → ¹⁴¹Ba + ⁹²Kr + 3n + ~200 MeV. The energy comes from the mass defect: the products' total mass is less than the reactants' mass. The 'missing' mass is converted to energy (E = mc² — even a small mass defect yields enormous energy because c² ≈ 9×10¹⁶ m²/s²). Chain reactions occur because each fission releases neutrons that can trigger more fissions (critical mass). Applications: nuclear power plants (controlled fission), atomic weapons (uncontrolled fission).",
+        "B": "Combining light nuclei describes nuclear fusion (e.g., 4¹H → ⁴He + energy in stars). Fusion releases more energy per nucleon than fission but requires extreme temperatures (~10⁷ K) to overcome electrostatic repulsion.",
+        "C": "Losing an electron to form an ion describes ionization, a chemical process. Nuclear fission involves the nucleus itself splitting, a fundamentally different and much more energetic process.",
+        "D": "Gamma absorption can cause nuclear excitation, not stabilization. Photodisintegration (gamma absorption causing nuclear breakup) requires very high-energy photons and is distinct from fission."
+      },
+      "topic": "Nuclear Fission / Mass Defect / E=mc²",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_nuclear_006",
+      "passage": null,
+      "stem": "The binding energy per nucleon is highest for:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "very light nuclei (hydrogen, helium)"
+        },
+        {
+          "label": "B",
+          "text": "very heavy nuclei (uranium, plutonium)"
+        },
+        {
+          "label": "C",
+          "text": "medium-mass nuclei (iron-56, nickel-62) — this is why both fission of heavy nuclei and fusion of light nuclei release energy, as both processes move toward the peak of the binding energy curve"
+        },
+        {
+          "label": "D",
+          "text": "all nuclei have identical binding energy per nucleon"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "Very light nuclei (H, He) have lower binding energy per nucleon (~1-7 MeV) than iron. This is why fusion of light nuclei (H → He in the sun) releases energy — the products have higher binding energy per nucleon.",
+        "B": "Very heavy nuclei (U, Pu) have lower binding energy per nucleon (~7.5 MeV) than iron. This is why fission of heavy nuclei releases energy — the fission products have higher binding energy per nucleon.",
+        "C": "Correct. The binding energy per nucleon curve peaks at iron-56/nickel-62 (~8.8 MeV/nucleon). Nuclei lighter than iron release energy by fusion (moving up the curve), and nuclei heavier than iron release energy by fission (also moving toward the peak). Iron is the most thermodynamically stable nucleus — it represents the energetic minimum, and converting any nucleus to iron releases energy. Stars produce energy by fusion until they reach iron; iron fusion is endothermic, which is why massive stars collapse when their cores become iron (leading to supernovae).",
+        "D": "Binding energy per nucleon varies significantly across the periodic table, from ~1 MeV (deuterium) to ~8.8 MeV (iron), then declining to ~7.5 MeV (uranium). This variation drives both fusion and fission."
+      },
+      "topic": "Binding Energy Curve / Iron Peak",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_nuclear_007",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "PET (positron emission tomography) scanning uses radioisotopes that undergo:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "alpha decay to produce helium nuclei for imaging"
+        },
+        {
+          "label": "B",
+          "text": "beta-minus decay to produce electrons for imaging"
+        },
+        {
+          "label": "C",
+          "text": "gamma decay only, with no particle emission"
+        },
+        {
+          "label": "D",
+          "text": "positron (β⁺) emission — the positron annihilates with an electron, producing two 511 keV gamma rays in opposite directions (180°), which are detected simultaneously to localize the emission point"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "Alpha particles are too heavy and have too short a range in tissue for imaging. Alpha-emitting isotopes are used in targeted alpha therapy (cancer treatment), not diagnostic imaging.",
+        "B": "Beta-minus particles produce bremsstrahlung radiation when decelerated in tissue but are not used in PET imaging. SPECT (single photon emission computed tomography) uses gamma-emitting isotopes (⁹⁹ᵐTc), not beta emitters.",
+        "C": "PET specifically requires positron emission for the annihilation-coincidence detection mechanism. Pure gamma emitters are used in SPECT and gamma cameras, not PET.",
+        "D": "Correct. PET: positron-emitting isotopes (most commonly ¹⁸F-fluorodeoxyglucose/FDG) are administered. ¹⁸F undergoes β⁺ decay: ¹⁸F → ¹⁸O + e⁺ + νₑ. The emitted positron travels ~1 mm before annihilating with a tissue electron, producing two 511 keV gamma photons emitted at 180° (conservation of momentum). Coincidence detection of the two photons localizes the annihilation event. FDG-PET maps glucose metabolism — metabolically active tissues (tumors, brain, heart) accumulate FDG. Applications: cancer staging, neuroimaging (Alzheimer's, epilepsy), cardiac viability assessment."
+      },
+      "topic": "PET Scan / Positron Emission",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cp_nuclear_008",
+      "passage": null,
+      "stem": "Carbon-14 dating is used to determine the age of organic materials. ¹⁴C decays by beta-minus emission with a half-life of:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5730 years — while an organism is alive, it maintains a constant ¹⁴C/¹²C ratio through carbon exchange with the atmosphere; after death, ¹⁴C decays without replacement, and the remaining ratio reveals the time since death"
+        },
+        {
+          "label": "B",
+          "text": "5 minutes — too short for archaeological applications"
+        },
+        {
+          "label": "C",
+          "text": "4.5 billion years — the same as the age of Earth"
+        },
+        {
+          "label": "D",
+          "text": "12 hours — useful only for very recent events"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. ¹⁴C is continuously produced in the upper atmosphere (¹⁴N + n → ¹⁴C + p, from cosmic ray neutrons) and incorporated into CO₂ → plants → animals through the carbon cycle. Living organisms maintain the atmospheric ¹⁴C/¹²C ratio (~1.3×10⁻¹² — about 1 ¹⁴C per trillion ¹²C atoms). Upon death, ¹⁴C decays (β⁻: ¹⁴C → ¹⁴N + e⁻ + ν̄) without replenishment. Measuring the remaining ¹⁴C/¹²C ratio reveals age: t = (t₁/₂/ln2) × ln(N₀/N). Effective range: ~50,000 years (beyond this, too little ¹⁴C remains for reliable measurement, which is about 9 half-lives).",
+        "B": "A 5-minute half-life would make the isotope useful for very short-term medical procedures but useless for archaeology. Most ¹⁴C would decay within hours.",
+        "C": "4.5 billion years is the half-life of ²³⁸U (uranium-lead dating), used for geological/planetary age dating. This is far too long for archaeological timescales — the ¹⁴C/¹²C ratio would barely change over thousands of years.",
+        "D": "12 hours would make ¹⁴C unsuitable for dating anything older than a few days. Medical isotopes like ⁹⁹ᵐTc (t₁/₂ = 6 hours) have similar short half-lives suited for diagnostic imaging, not dating."
+      },
+      "topic": "Carbon-14 Dating / t₁/₂ = 5730 years",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cp_nuclear_009",
+      "passage": null,
+      "stem": "Nuclear fusion releases energy because:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "heavy nuclei are being split into lighter fragments"
+        },
+        {
+          "label": "B",
+          "text": "light nuclei combine to form a more stable nucleus with higher binding energy per nucleon — the mass of the products is less than the sum of reactant masses, and the mass defect is released as energy"
+        },
+        {
+          "label": "C",
+          "text": "electrons are removed from atoms, releasing ionization energy"
+        },
+        {
+          "label": "D",
+          "text": "chemical bonds are formed between atoms"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "Splitting heavy nuclei describes fission. Fusion is the opposite process — combining light nuclei. Both release energy because both move products toward the iron peak on the binding energy curve.",
+        "B": "Correct. Fusion of light nuclei (H, He, Li) produces nuclei closer to the binding energy peak (iron). The products have higher binding energy per nucleon → lower total mass. Mass defect = Σm_reactants - Σm_products > 0. Energy released: E = Δm × c². The sun fuses 4¹H → ⁴He + 2e⁺ + 2νₑ + energy (~26.7 MeV per reaction). Fusion requires extreme temperatures (~10⁷-10⁸ K) to overcome Coulomb repulsion between positively charged nuclei. Controlled fusion on Earth remains an engineering challenge (tokamak reactors, ITER project).",
+        "C": "Removing electrons (ionization) involves chemical-scale energies (eV). Nuclear fusion involves MeV-scale energies — millions of times greater. These are fundamentally different processes.",
+        "D": "Chemical bonds involve electron interactions and eV-scale energies. Nuclear reactions involve the strong nuclear force and MeV-scale energies. Fusion is a nuclear process, not a chemical one."
+      },
+      "topic": "Nuclear Fusion / Binding Energy",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cp_nuclear_010",
+      "passage": null,
+      "stem": "The decay constant (λ) and half-life (t₁/₂) of a radioactive isotope are related by:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "λ = t₁/₂ × 2 (directly proportional)"
+        },
+        {
+          "label": "B",
+          "text": "they are unrelated quantities"
+        },
+        {
+          "label": "C",
+          "text": "λ = ln2/t₁/₂ — a larger decay constant means faster decay and shorter half-life; this relationship connects the exponential decay rate to the time for half the sample to decay"
+        },
+        {
+          "label": "D",
+          "text": "λ = t₁/₂² (squared relationship)"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "λ and t₁/₂ are inversely related (not directly proportional). Faster decay (larger λ) means shorter half-life, not longer.",
+        "B": "λ and t₁/₂ are directly related through λ = ln2/t₁/₂. They are mathematically interconvertible and represent the same physical property (decay rate) expressed differently.",
+        "C": "Correct. From N(t) = N₀e^(-λt), setting N = N₀/2: ½ = e^(-λt₁/₂) → ln(½) = -λt₁/₂ → λ = ln2/t₁/₂ ≈ 0.693/t₁/₂. λ (decay constant, units: s⁻¹ or yr⁻¹) represents the probability of decay per unit time for a single nucleus. Larger λ → faster decay → shorter t₁/₂ (inverse relationship). Activity (A = λN) also decreases exponentially: A(t) = A₀e^(-λt). This relationship is identical in form to first-order chemical kinetics (k = ln2/t₁/₂), reflecting the same underlying mathematics of exponential decay.",
+        "D": "There is no squared relationship. The relationship involves ln2 (a constant ≈ 0.693), not squaring."
+      },
+      "topic": "Decay Constant / λ = ln2/t₁/₂",
+      "difficulty": "Medium"
+    }
+  ]
+}
