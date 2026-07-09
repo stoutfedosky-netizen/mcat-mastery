@@ -144,8 +144,12 @@ async function importBatch(filePath, replaceBatch = false) {
     return false;
   }
 
-  const contentCategory =
-    batch.contentCategory || CATEGORY_MAP[batch.batch]?.category || null;
+  // CARS has no AAMC content categories. Force null so a CARS batch whose id
+  // collides with a non-CARS batch in CATEGORY_MAP never inherits a category.
+  const isCars = batch.section === "cars";
+  const contentCategory = isCars
+    ? null
+    : batch.contentCategory || CATEGORY_MAP[batch.batch]?.category || null;
 
   const rows = batch.questions.map((q, idx) => ({
     id: q.id,
@@ -153,7 +157,7 @@ async function importBatch(filePath, replaceBatch = false) {
     batch: batch.batch,
     topic: q.topic,
     ...(HAS_CATEGORY_COLUMN
-      ? { content_category: q.contentCategory || contentCategory }
+      ? { content_category: isCars ? null : q.contentCategory || contentCategory }
       : {}),
     difficulty: q.difficulty,
     passage: q.passage || null,

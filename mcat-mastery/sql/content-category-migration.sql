@@ -38,6 +38,10 @@ update public.questions set content_category = '8B' where batch in ('B009', 'B12
 update public.questions set content_category = '8C' where batch in ('B285');
 update public.questions set content_category = '9A' where batch in ('B040', 'B041', 'B278', 'B282', 'B295', 'B307', 'B312', 'B327');
 
--- 3. Index for filter queries.
+-- 3. CARS has no content categories. Clear any that a batch-id collision set
+--    (batch ids are not unique across sections), so this is self-correcting.
+update public.questions set content_category = null where section_id = 'cars';
+
+-- 4. Index for filter queries.
 create index if not exists idx_questions_content_category on public.questions(content_category);
 
