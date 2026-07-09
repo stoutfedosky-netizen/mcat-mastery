@@ -120,7 +120,10 @@ create index idx_attempts_user_question on public.question_attempts(user_id, que
 -- ============================================
 -- TOPIC PERFORMANCE VIEW (for dashboard analytics)
 -- ============================================
-create or replace view public.topic_performance as
+-- security_invoker makes the view respect the querying user's RLS policies
+create or replace view public.topic_performance
+with (security_invoker = on)
+as
 select
   qa.user_id,
   q.section_id,
