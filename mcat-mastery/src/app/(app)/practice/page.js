@@ -17,6 +17,10 @@ export default function PracticePage() {
     selectedTopics,
     setSelectedTopics,
     toggleTopic,
+    availableCategories,
+    selectedCategories,
+    setSelectedCategories,
+    toggleCategory,
     statusFilter,
     setStatusFilter,
     statusFilterCounts,
@@ -32,6 +36,7 @@ export default function PracticePage() {
 
   const [topicFilterOpen, setTopicFilterOpen] = useState(false);
   const [topicSearch, setTopicSearch] = useState("");
+  const [categoryFilterOpen, setCategoryFilterOpen] = useState(false);
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
@@ -68,6 +73,64 @@ export default function PracticePage() {
             })}
           </div>
         </div>
+
+        {/* MCAT Content Category Filters */}
+        {availableCategories.length > 0 && (
+          <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+            <button
+              onClick={() => setCategoryFilterOpen((o) => !o)}
+              className="flex items-center justify-between w-full"
+            >
+              <h3 className="font-semibold text-gray-900 text-sm flex items-center gap-2">
+                Filter by MCAT Category
+                {selectedCategories.length > 0 && (
+                  <span className="bg-blue-100 text-blue-700 text-[11px] px-2 py-0.5 rounded-full font-medium">
+                    {selectedCategories.length} selected
+                  </span>
+                )}
+              </h3>
+              <svg className={`w-4 h-4 text-gray-400 transition-transform ${categoryFilterOpen ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+            </button>
+            {categoryFilterOpen && (
+              <div className="mt-3">
+                {selectedCategories.length > 0 && (
+                  <div className="flex justify-end mb-3">
+                    <button
+                      onClick={() => setSelectedCategories([])}
+                      className="text-xs text-gray-400 hover:text-gray-600"
+                    >
+                      Clear all
+                    </button>
+                  </div>
+                )}
+                <div className="flex flex-wrap gap-2 max-h-56 overflow-y-auto">
+                  {availableCategories.map((c) => {
+                    const active = selectedCategories.includes(c.code);
+                    return (
+                      <button
+                        key={c.code}
+                        onClick={() => toggleCategory(c.code)}
+                        title={c.name}
+                        className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
+                          active
+                            ? "text-white shadow-sm"
+                            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                        }`}
+                        style={active ? { backgroundColor: c.color } : {}}
+                      >
+                        <span className="font-bold">{c.code}</span>
+                        <span className="opacity-80"> · {c.name}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+                <p className="text-[11px] text-gray-400 mt-2">
+                  AAMC content categories. CARS has none, so it won&apos;t appear here.
+                </p>
+              </div>
+            )}
+          </div>
+        )}
 
         {/* Topic Filters */}
         {availableTopics.length > 0 && (

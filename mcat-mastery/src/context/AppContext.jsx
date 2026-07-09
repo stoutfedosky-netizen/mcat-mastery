@@ -2,6 +2,8 @@
 import { createContext, useContext, useState, useEffect, useMemo } from "react";
 import { createClient } from "../lib/supabase";
 import { SECTIONS, mapQuestion, selectQuestions, applyFilters } from "../lib/examData";
+import { CONTENT_CATEGORIES, CATEGORY_BY_CODE } from "../lib/contentCategories";
+import { categoryForBatch } from "../lib/batchCategories";
 
 const AppContext = createContext(null);
 
@@ -24,6 +26,8 @@ export function AppProvider({ children }) {
 
   const [selectedMode, setSelectedMode] = useState("practice");
   const [selectedTopics, setSelectedTopics] = useState([]);
+  const [selectedCategories, setSelectedCategories] = useState([]);
+  const [categoriesBySection, setCategoriesBySection] = useState({});
   const [stats, setStats] = useState({
     questionsCompleted: 0,
     overallAccuracy: 0,
@@ -61,16 +65,28 @@ export function AppProvider({ children }) {
       let allQ = [];
       let from = 0;
       const PAGE = 1000;
+      // content_category is added by sql/content-category-migration.sql. Probe for it
+      // so the app keeps working if the code ships before the migration is run.
+      const probe = await supabase.from("questions").select("content_category").limit(1);
+      const cols = probe.error
+        ? "id, section_id, topic, batch"
+        : "id, section_id, topic, batch, content_category";
       while (true) {
         const { data } = await supabase
           .from("questions")
-          .select("id, section_id, topic, batch")
+          .select(cols)
           .range(from, from + PAGE - 1);
         if (!data || data.length === 0) break;
         allQ = allQ.concat(data);
         if (data.length < PAGE) break;
         from += PAGE;
       }
+
+      // Fall back to the generated batch->category map when the DB has no value
+      // (e.g. migration not run, or a newly imported batch not yet backfilled).
+      allQ.forEach((q) => {
+        if (!q.content_category) q.content_category = categoryForBatch(q.batch);
+      });
 
       if (allQ) {
         const c = {};
@@ -90,6 +106,21 @@ export function AppProvider({ children }) {
           tbsObj[sid] = [...tbs[sid]].sort();
         });
         setTopicsBySection(tbsObj);
+
+        // Which content categories actually have questions, per section.
+        const cbs = {};
+        allQ.forEach((q) => {
+          if (!q.content_category) return;
+          if (!cbs[q.section_id]) cbs[q.section_id] = new Set();
+          cbs[q.section_id].add(q.content_category);
+        });
+        const cbsObj = {};
+        Object.keys(cbs).forEach((sid) => {
+          cbsObj[sid] = CONTENT_CATEGORIES
+            .filter((c) => c.section === sid && cbs[sid].has(c.code))
+            .map((c) => c.code);
+        });
+        setCategoriesBySection(cbsObj);
         setAllQuestions(allQ);
 
         const { data: attempts } = await supabase
@@ -237,13 +268,14 @@ export function AppProvider({ children }) {
     if (selectedSections.length === 0) return 0;
     const sectionQs = allQuestions.filter((q) => selectedSections.includes(q.section_id));
     return applyFilters(sectionQs, {
+      selectedCategories,
       selectedTopics,
       statusFilter,
       seenQuestionIds,
       missedQuestionIds,
       flaggedQuestionIds,
     }).length;
-  }, [allQuestions, selectedSections, selectedTopics, statusFilter, seenQuestionIds, missedQuestionIds, flaggedQuestionIds]);
+  }, [allQuestions, selectedSections, selectedCategories, selectedTopics, statusFilter, seenQuestionIds, missedQuestionIds, flaggedQuestionIds]);
 
   useEffect(() => {
     const cap = selectedMode === "review" ? missedQuestionIds.size : maxAvailable;
@@ -259,6 +291,7 @@ export function AppProvider({ children }) {
     if (selectedSections.length === 0) return {};
     const sectionQs = allQuestions.filter((q) => selectedSections.includes(q.section_id));
     const topicFiltered = applyFilters(sectionQs, {
+      selectedCategories,
       selectedTopics,
       statusFilter: "all",
       seenQuestionIds,
@@ -272,7 +305,26 @@ export function AppProvider({ children }) {
       incorrect: ids.filter((id) => missedQuestionIds.has(id)).length,
       flagged: ids.filter((id) => flaggedQuestionIds.has(id)).length,
     };
-  }, [allQuestions, selectedSections, selectedTopics, seenQuestionIds, missedQuestionIds, flaggedQuestionIds]);
+  }, [allQuestions, selectedSections, selectedCategories, selectedTopics, seenQuestionIds, missedQuestionIds, flaggedQuestionIds]);
+
+  const availableCategories = useMemo(() => {
+    const seen = new Set();
+    const cats = [];
+    selectedSections.forEach((sid) => {
+      (categoriesBySection[sid] || []).forEach((code) => {
+        if (!seen.has(code)) {
+          seen.add(code);
+          cats.push({
+            code,
+            name: CATEGORY_BY_CODE[code]?.name || code,
+            sectionId: sid,
+            color: SECTIONS.find((s) => s.id === sid)?.color,
+          });
+        }
+      });
+    });
+    return cats;
+  }, [selectedSections, categoriesBySection]);
 
   const availableTopics = useMemo(() => {
     const seen = new Set();
@@ -326,11 +378,18 @@ export function AppProvider({ children }) {
       prev.includes(id) ? prev.filter((s) => s !== id) : [...prev, id]
     );
     setSelectedTopics([]);
+    setSelectedCategories([]);
   };
 
   const toggleTopic = (topic) => {
     setSelectedTopics((prev) =>
       prev.includes(topic) ? prev.filter((t) => t !== topic) : [...prev, topic]
+    );
+  };
+
+  const toggleCategory = (code) => {
+    setSelectedCategories((prev) =>
+      prev.includes(code) ? prev.filter((c) => c !== code) : [...prev, code]
     );
   };
 
@@ -549,7 +608,12 @@ export function AppProvider({ children }) {
       return;
     }
 
+    data.forEach((q) => {
+      if (!q.content_category) q.content_category = categoryForBatch(q.batch);
+    });
+
     const filtered = applyFilters(data, {
+      selectedCategories,
       selectedTopics,
       statusFilter,
       seenQuestionIds,
@@ -663,6 +727,10 @@ export function AppProvider({ children }) {
     setSelectedMode,
     selectedTopics,
     setSelectedTopics,
+    selectedCategories,
+    setSelectedCategories,
+    availableCategories,
+    toggleCategory,
     stats,
     sectionStats,
     topicStats,

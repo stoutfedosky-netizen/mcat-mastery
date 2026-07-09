@@ -67,8 +67,13 @@ export function selectQuestions(allQuestions, count) {
   return selected;
 }
 
-export function applyFilters(questions, { selectedTopics, statusFilter, seenQuestionIds, missedQuestionIds, flaggedQuestionIds }) {
+export function applyFilters(questions, { selectedCategories = [], selectedTopics, statusFilter, seenQuestionIds, missedQuestionIds, flaggedQuestionIds }) {
   let filtered = questions;
+
+  if (selectedCategories.length > 0) {
+    const cats = new Set(selectedCategories);
+    filtered = filtered.filter((q) => cats.has(q.content_category));
+  }
 
   if (selectedTopics.length > 0) {
     const matchBatches = new Set();

@@ -1,0 +1,1642 @@
+{
+  "B001": {
+    "section": "cp",
+    "topicArea": "Fluids & Circulation",
+    "category": "4B"
+  },
+  "B002": {
+    "section": "cp",
+    "topicArea": "Electrochemistry & Electrical Circuits",
+    "category": "4C"
+  },
+  "B003": {
+    "section": "bb",
+    "topicArea": "Enzyme Kinetics & Regulation",
+    "category": "1D"
+  },
+  "B004": {
+    "section": "bb",
+    "topicArea": "Bioenergetics & Metabolism",
+    "category": "1D"
+  },
+  "B005": {
+    "section": "ps",
+    "topicArea": "Learning & Behavior",
+    "category": "7C"
+  },
+  "B008": {
+    "section": "bb",
+    "topicArea": "Gene Expression: Transcription & Translation",
+    "category": "1B"
+  },
+  "B009": {
+    "section": "ps",
+    "topicArea": "Social Thinking & Interactions",
+    "category": "8B"
+  },
+  "B010": {
+    "section": "cp",
+    "topicArea": "Water & Solutions: Acid-Base Chemistry, Buffers, Titrations & Ksp",
+    "category": "5A"
+  },
+  "B011": {
+    "section": "bb",
+    "topicArea": "Protein Structure, Function & Amino Acids",
+    "category": "1A"
+  },
+  "B012": {
+    "section": "cp",
+    "topicArea": "Translational Motion, Forces, Work, Energy & Equilibrium",
+    "category": "5E"
+  },
+  "B013": {
+    "section": "ps",
+    "topicArea": "Perception, Attention & Cognition",
+    "category": "6B"
+  },
+  "B015": {
+    "section": "bb",
+    "topicArea": "Heredity & Genetic Diversity",
+    "category": "1C"
+  },
+  "B016": {
+    "section": "ps",
+    "topicArea": "Social Inequality & Health Disparities",
+    "category": "10A"
+  },
+  "B017": {
+    "section": "cp",
+    "topicArea": "Chemical Thermodynamics & Kinetics",
+    "category": "5E"
+  },
+  "B018": {
+    "section": "bb",
+    "topicArea": "Nervous & Endocrine Systems",
+    "category": "3A"
+  },
+  "B020": {
+    "section": "ps",
+    "topicArea": "Self, Identity & Socialization",
+    "category": "8A"
+  },
+  "B021": {
+    "section": "cp",
+    "topicArea": "Optics, Light & Electromagnetic Radiation",
+    "category": "4D"
+  },
+  "B022": {
+    "section": "bb",
+    "topicArea": "Immune System & Microbiology",
+    "category": "2B"
+  },
+  "B023": {
+    "section": "bb",
+    "topicArea": "Reproductive System & Development",
+    "category": "2C"
+  },
+  "B025": {
+    "section": "ps",
+    "topicArea": "Motivation, Emotion & Stress",
+    "category": "6C"
+  },
+  "B026": {
+    "section": "cp",
+    "topicArea": "Acids, Bases, Buffers & Titrations",
+    "category": "5A"
+  },
+  "B027": {
+    "section": "ps",
+    "topicArea": "Psychological Disorders & Biological Bases of Behavior",
+    "category": "7A"
+  },
+  "B028": {
+    "section": "cp",
+    "topicArea": "Atoms, Nuclear Decay & Electronic Structure",
+    "category": "4E"
+  },
+  "B029": {
+    "section": "cp",
+    "topicArea": "Molecules & Intermolecular Interactions",
+    "category": "5B"
+  },
+  "B030": {
+    "section": "bb",
+    "topicArea": "Cell Biology & Membrane Transport",
+    "category": "2A"
+  },
+  "B031": {
+    "section": "bb",
+    "topicArea": "Cell Division & Cell Cycle Control",
+    "category": "2C"
+  },
+  "B032": {
+    "section": "ps",
+    "topicArea": "Sensing the Environment",
+    "category": "6A"
+  },
+  "B033": {
+    "section": "cp",
+    "topicArea": "Biologically-Relevant Molecule Reactivity",
+    "category": "5D"
+  },
+  "B034": {
+    "section": "cp",
+    "topicArea": "Sound & Mechanical Waves",
+    "category": "4D"
+  },
+  "B035": {
+    "section": "cp",
+    "topicArea": "Separation & Purification Methods",
+    "category": "5C"
+  },
+  "B036": {
+    "section": "bb",
+    "topicArea": "Prokaryotes & Viruses",
+    "category": "2B"
+  },
+  "B037": {
+    "section": "bb",
+    "topicArea": "Respiratory, Renal & Digestive Systems",
+    "category": "3B"
+  },
+  "B038": {
+    "section": "ps",
+    "topicArea": "Consciousness, Sleep & Substance Use",
+    "category": "6B"
+  },
+  "B039": {
+    "section": "ps",
+    "topicArea": "Personality & Attitudes",
+    "category": "7A"
+  },
+  "B040": {
+    "section": "ps",
+    "topicArea": "Social Structure & Institutions",
+    "category": "9A"
+  },
+  "B041": {
+    "section": "ps",
+    "topicArea": "Demographic Characteristics & Processes",
+    "category": "9A"
+  },
+  "B042": {
+    "section": "ps",
+    "topicArea": "Language & Communication",
+    "category": "6B"
+  },
+  "B045": {
+    "section": "cp",
+    "topicArea": "Circuits, Electricity & Magnetism",
+    "category": "4C"
+  },
+  "B046": {
+    "section": "bb",
+    "topicArea": "Metabolism II: Glycolysis, TCA Cycle & Oxidative Phosphorylation",
+    "category": "1D"
+  },
+  "B047": {
+    "section": "bb",
+    "topicArea": "Cardiovascular Physiology II",
+    "category": "3B"
+  },
+  "B048": {
+    "section": "ps",
+    "topicArea": "Research Methods & Data Interpretation",
+    "category": null
+  },
+  "B050": {
+    "section": "cp",
+    "topicArea": "Organic Chemistry II: Carbonyl Chemistry",
+    "category": "5D"
+  },
+  "B051": {
+    "section": "cp",
+    "topicArea": "Fluids & Solids",
+    "category": "4B"
+  },
+  "B052": {
+    "section": "cp",
+    "topicArea": "Electrochemistry & Redox",
+    "category": "4C"
+  },
+  "B053": {
+    "section": "bb",
+    "topicArea": "Musculoskeletal System",
+    "category": "3B"
+  },
+  "B054": {
+    "section": "bb",
+    "topicArea": "Molecular Genetics: Replication, Transcription & Translation",
+    "category": "1B"
+  },
+  "B055": {
+    "section": "bb",
+    "topicArea": "Endocrine System II: Hormones, Feedback & Disease",
+    "category": "3A"
+  },
+  "B056": {
+    "section": "ps",
+    "topicArea": "Learning & Memory",
+    "category": "6B"
+  },
+  "B057": {
+    "section": "ps",
+    "topicArea": "Social Processes: Conformity, Obedience & Group Dynamics",
+    "category": "7B"
+  },
+  "B059": {
+    "section": "bb",
+    "topicArea": "Lipid Metabolism: Fatty Acid Synthesis & Beta-Oxidation",
+    "category": "1D"
+  },
+  "B061": {
+    "section": "bb",
+    "topicArea": "Enzyme Kinetics & Inhibition",
+    "category": "1D"
+  },
+  "B062": {
+    "section": "bb",
+    "topicArea": "Cell Signaling & Second Messengers",
+    "category": "2A"
+  },
+  "B063": {
+    "section": "bb",
+    "topicArea": "Genetics: Pedigree Analysis & Inheritance Patterns",
+    "category": "1C"
+  },
+  "B064": {
+    "section": "bb",
+    "topicArea": "Immunology: Innate & Adaptive Immunity",
+    "category": "3B"
+  },
+  "B065": {
+    "section": "bb",
+    "topicArea": "Amino Acids & Protein Structure",
+    "category": "1A"
+  },
+  "B066": {
+    "section": "cp",
+    "topicArea": "Acid-Base Chemistry & Buffers",
+    "category": "5A"
+  },
+  "B067": {
+    "section": "cp",
+    "topicArea": "Thermodynamics & Free Energy",
+    "category": "5E"
+  },
+  "B068": {
+    "section": "cp",
+    "topicArea": "Atomic Structure & Periodic Trends",
+    "category": "4E"
+  },
+  "B069": {
+    "section": "ps",
+    "topicArea": "Perception & Sensation",
+    "category": "6A"
+  },
+  "B070": {
+    "section": "ps",
+    "topicArea": "Developmental Psychology",
+    "category": "7A"
+  },
+  "B071": {
+    "section": "bb",
+    "topicArea": "Population Genetics & Hardy-Weinberg Equilibrium",
+    "category": "1C"
+  },
+  "B072": {
+    "section": "bb",
+    "topicArea": "Kidney Physiology & Nephron Function",
+    "category": "3B"
+  },
+  "B074": {
+    "section": "bb",
+    "topicArea": "Cardiovascular System",
+    "category": "3B"
+  },
+  "B075": {
+    "section": "bb",
+    "topicArea": "Respiratory System & Gas Exchange",
+    "category": "3B"
+  },
+  "B076": {
+    "section": "cp",
+    "topicArea": "Optics & Light",
+    "category": "4D"
+  },
+  "B077": {
+    "section": "cp",
+    "topicArea": "Circuits & Electricity",
+    "category": "4C"
+  },
+  "B078": {
+    "section": "cp",
+    "topicArea": "Organic Chemistry: Functional Groups & Reactions",
+    "category": "5D"
+  },
+  "B079": {
+    "section": "bb",
+    "topicArea": "Nervous System & Neurotransmission",
+    "category": "3A"
+  },
+  "B080": {
+    "section": "ps",
+    "topicArea": "Sociology: Stratification & Inequality",
+    "category": "10A"
+  },
+  "B081": {
+    "section": "cp",
+    "topicArea": "Stereochemistry & Chirality",
+    "category": "5D"
+  },
+  "B082": {
+    "section": "bb",
+    "topicArea": "Digestive System & Nutrition",
+    "category": "3B"
+  },
+  "B084": {
+    "section": "bb",
+    "topicArea": "Reproductive System & Development",
+    "category": "2C"
+  },
+  "B085": {
+    "section": "bb",
+    "topicArea": "DNA Replication & Repair",
+    "category": "1C"
+  },
+  "B086": {
+    "section": "cp",
+    "topicArea": "Electrochemistry & Galvanic Cells",
+    "category": "4C"
+  },
+  "B087": {
+    "section": "cp",
+    "topicArea": "Kinematics & Forces",
+    "category": "4A"
+  },
+  "B088": {
+    "section": "cp",
+    "topicArea": "Solutions & Colligative Properties",
+    "category": "5A"
+  },
+  "B089": {
+    "section": "ps",
+    "topicArea": "Social Psychology: Attitudes & Attribution",
+    "category": "7C"
+  },
+  "B090": {
+    "section": "bb",
+    "topicArea": "Metabolism: Glycolysis & Gluconeogenesis",
+    "category": "1D"
+  },
+  "B091": {
+    "section": "cp",
+    "topicArea": "Waves & Sound",
+    "category": "4D"
+  },
+  "B092": {
+    "section": "ps",
+    "topicArea": "Memory & Cognition",
+    "category": "6B"
+  },
+  "B094": {
+    "section": "bb",
+    "topicArea": "Oxidative Phosphorylation & Electron Transport Chain",
+    "category": "1D"
+  },
+  "B095": {
+    "section": "bb",
+    "topicArea": "Cell Biology: Organelles & Cell Cycle",
+    "category": "2A"
+  },
+  "B096": {
+    "section": "cp",
+    "topicArea": "Gas Laws & Ideal Gases",
+    "category": "5E"
+  },
+  "B097": {
+    "section": "cp",
+    "topicArea": "Chemical Kinetics & Reaction Rates",
+    "category": "5E"
+  },
+  "B098": {
+    "section": "ps",
+    "topicArea": "Emotion, Stress & Coping",
+    "category": "6C"
+  },
+  "B099": {
+    "section": "cp",
+    "topicArea": "Equilibrium & Le Chatelier's Principle",
+    "category": "5E"
+  },
+  "B100": {
+    "section": "bb",
+    "topicArea": "Gene Expression & Regulation",
+    "category": "1B"
+  },
+  "B101": {
+    "section": "cp",
+    "topicArea": "Work, Energy & Power",
+    "category": "4A"
+  },
+  "B102": {
+    "section": "ps",
+    "topicArea": "Psychological Disorders",
+    "category": "7A"
+  },
+  "B104": {
+    "section": "bb",
+    "topicArea": "Microbiology: Viruses & Bacteria",
+    "category": "2B"
+  },
+  "B105": {
+    "section": "bb",
+    "topicArea": "Biotechnology: PCR, Gel Electrophoresis & Blotting",
+    "category": "1B"
+  },
+  "B106": {
+    "section": "cp",
+    "topicArea": "Nuclear Chemistry & Radioactivity",
+    "category": "4E"
+  },
+  "B107": {
+    "section": "cp",
+    "topicArea": "Separations & Spectroscopy",
+    "category": "5C"
+  },
+  "B108": {
+    "section": "ps",
+    "topicArea": "Personality Theories",
+    "category": "7A"
+  },
+  "B109": {
+    "section": "bb",
+    "topicArea": "Evolution & Natural Selection",
+    "category": "1C"
+  },
+  "B110": {
+    "section": "cp",
+    "topicArea": "Electrostatics & Magnetism",
+    "category": "4C"
+  },
+  "B111": {
+    "section": "ps",
+    "topicArea": "Health & Illness Behavior",
+    "category": "10A"
+  },
+  "B112": {
+    "section": "cp",
+    "topicArea": "Organic Reactions: Carbonyls & Carboxylic Acid Derivatives",
+    "category": "5D"
+  },
+  "B114": {
+    "section": "cp",
+    "topicArea": "Gas Laws & Kinetic Molecular Theory",
+    "category": "5E"
+  },
+  "B115": {
+    "section": "cp",
+    "topicArea": "Spectroscopy & Molecular Identification",
+    "category": "5C"
+  },
+  "B116": {
+    "section": "bb",
+    "topicArea": "Biotechnology & Molecular Methods",
+    "category": "1B"
+  },
+  "B117": {
+    "section": "bb",
+    "topicArea": "Cell Cycle, Cancer & Apoptosis II",
+    "category": "2C"
+  },
+  "B118": {
+    "section": "bb",
+    "topicArea": "Bacterial Genetics & Viral Replication II",
+    "category": "2B"
+  },
+  "B119": {
+    "section": "ps",
+    "topicArea": "Psychological Disorders & Treatment II",
+    "category": "7A"
+  },
+  "B120": {
+    "section": "ps",
+    "topicArea": "Emotion, Stress & Coping II",
+    "category": "6C"
+  },
+  "B121": {
+    "section": "ps",
+    "topicArea": "Consciousness, Sleep & Psychoactive Drugs II",
+    "category": "6B"
+  },
+  "B124": {
+    "section": "bb",
+    "topicArea": "Membrane Transport: Channels, Carriers & Pumps",
+    "category": "2A"
+  },
+  "B125": {
+    "section": "cp",
+    "topicArea": "Amino Acid Chemistry: pI, Titration & Zwitterions",
+    "category": "5D"
+  },
+  "B126": {
+    "section": "cp",
+    "topicArea": "SN1, SN2, E1 & E2 Reactions",
+    "category": "5D"
+  },
+  "B127": {
+    "section": "bb",
+    "topicArea": "Embryology & Development",
+    "category": "2C"
+  },
+  "B128": {
+    "section": "ps",
+    "topicArea": "Social Inequality, Prejudice & Discrimination",
+    "category": "8B"
+  },
+  "B129": {
+    "section": "bb",
+    "topicArea": "TCA Cycle & Metabolic Integration",
+    "category": "1D"
+  },
+  "B130": {
+    "section": "cp",
+    "topicArea": "Electrochemistry: Nernst Equation & Galvanic Cells",
+    "category": "4C"
+  },
+  "B131": {
+    "section": "ps",
+    "topicArea": "Biological Bases of Behavior: Brain Regions & Lateralization",
+    "category": "7A"
+  },
+  "B134": {
+    "section": "cp",
+    "topicArea": "Magnetism & Electromagnetic Induction",
+    "category": "4C"
+  },
+  "B135": {
+    "section": "bb",
+    "topicArea": "Hematology & Oxygen Transport",
+    "category": "3B"
+  },
+  "B136": {
+    "section": "cp",
+    "topicArea": "Chemical Equilibrium & Le Chatelier",
+    "category": "5E"
+  },
+  "B137": {
+    "section": "bb",
+    "topicArea": "Synaptic Transmission & Neurotransmitters II",
+    "category": "3A"
+  },
+  "B138": {
+    "section": "ps",
+    "topicArea": "Research Design & Biostatistics II",
+    "category": null
+  },
+  "B139": {
+    "section": "cp",
+    "topicArea": "Nuclear Chemistry & Radioactive Decay II",
+    "category": "4E"
+  },
+  "B140": {
+    "section": "bb",
+    "topicArea": "Homeostasis & Feedback Integration",
+    "category": "3B"
+  },
+  "B141": {
+    "section": "cp",
+    "topicArea": "Chromatography & Electrophoresis II",
+    "category": "5C"
+  },
+  "B144": {
+    "section": "bb",
+    "topicArea": "Fatty Acid Oxidation & Ketogenesis",
+    "category": "1D"
+  },
+  "B145": {
+    "section": "cp",
+    "topicArea": "Thermochemistry: Hess's Law & Calorimetry",
+    "category": "5E"
+  },
+  "B146": {
+    "section": "cp",
+    "topicArea": "Aromatic Chemistry & Electrophilic Aromatic Substitution",
+    "category": "5D"
+  },
+  "B147": {
+    "section": "bb",
+    "topicArea": "Endocrine System: Thyroid & Adrenal Axes",
+    "category": "3A"
+  },
+  "B148": {
+    "section": "ps",
+    "topicArea": "Learning & Conditioning: Classical & Operant",
+    "category": "7C"
+  },
+  "B149": {
+    "section": "bb",
+    "topicArea": "Ecology & Population Biology",
+    "category": "3B"
+  },
+  "B150": {
+    "section": "cp",
+    "topicArea": "Simple Harmonic Motion & Pendulums",
+    "category": "4D"
+  },
+  "B151": {
+    "section": "ps",
+    "topicArea": "Self & Identity Development",
+    "category": "7A"
+  },
+  "B154": {
+    "section": "cp",
+    "topicArea": "Electrostatics & Capacitors",
+    "category": "4C"
+  },
+  "B155": {
+    "section": "bb",
+    "topicArea": "Integrated Fed-Fasting Metabolism",
+    "category": "1D"
+  },
+  "B156": {
+    "section": "ps",
+    "topicArea": "Sensory Processing & Psychophysics",
+    "category": "6A"
+  },
+  "B157": {
+    "section": "cp",
+    "topicArea": "Phase Changes & Colligative Properties",
+    "category": "5A"
+  },
+  "B158": {
+    "section": "bb",
+    "topicArea": "DNA Repair Chromatin & Epigenetics",
+    "category": "1C"
+  },
+  "B160": {
+    "section": "cp",
+    "topicArea": "Fluids II: Viscosity, Poiseuille Flow & Continuity",
+    "category": "4B"
+  },
+  "B161": {
+    "section": "bb",
+    "topicArea": "Mitochondrial Energetics & Inheritance",
+    "category": "1C"
+  },
+  "B162": {
+    "section": "cp",
+    "topicArea": "Work, Energy & Power in Biological Systems",
+    "category": "4A"
+  },
+  "B163": {
+    "section": "bb",
+    "topicArea": "Cell Signaling: Kinases, GPCRs & Signal Amplification",
+    "category": "2A"
+  },
+  "B164": {
+    "section": "ps",
+    "topicArea": "Social Cognition: Bias, Attribution & Stereotypes",
+    "category": "6B"
+  },
+  "B165": {
+    "section": "cp",
+    "topicArea": "Electrochemistry II: Nernst Equation & Batteries",
+    "category": "4C"
+  },
+  "B166": {
+    "section": "bb",
+    "topicArea": "Renal Physiology II: Acid-Base & Electrolytes",
+    "category": "3B"
+  },
+  "B167": {
+    "section": "ps",
+    "topicArea": "Personality Assessment & Trait Theory",
+    "category": "7A"
+  },
+  "B168": {
+    "section": "cp",
+    "topicArea": "Solubility Equilibria & Ksp",
+    "category": "5A"
+  },
+  "B169": {
+    "section": "bb",
+    "topicArea": "Immunology II: Hypersensitivity & Vaccination",
+    "category": "3B"
+  },
+  "B170": {
+    "section": "bb",
+    "topicArea": "Renal Acid-Base Handling / Urea Cycle Disorders",
+    "category": "3B"
+  },
+  "B171": {
+    "section": "cp",
+    "topicArea": "Electrochemistry / Calorimetry and Thermodynamics",
+    "category": "4C"
+  },
+  "B173": {
+    "section": "ps",
+    "topicArea": "Stress Appraisal and Coping / Social Determinants of Health",
+    "category": "6C"
+  },
+  "B174": {
+    "section": "bb",
+    "topicArea": "GPCR Signal Transduction / Cell Cycle Control and Tumor Suppressors",
+    "category": "2A"
+  },
+  "B175": {
+    "section": "cp",
+    "topicArea": "Fluid Dynamics and Hemodynamics / Geometric Optics",
+    "category": "4D"
+  },
+  "B177": {
+    "section": "ps",
+    "topicArea": "Conformity and Social Influence / Sensory Psychophysics",
+    "category": "6A"
+  },
+  "B178": {
+    "section": "bb",
+    "topicArea": "Membrane Transport / Cholesterol Homeostasis",
+    "category": "2A"
+  },
+  "B179": {
+    "section": "cp",
+    "topicArea": "Acid-Base Chemistry and Buffers / Colligative Properties",
+    "category": "5A"
+  },
+  "B180": {
+    "section": "cp",
+    "topicArea": "Acid-Base Titration & Buffers",
+    "category": "5A"
+  },
+  "B181": {
+    "section": "bb",
+    "topicArea": "Enzyme Kinetics & Inhibition",
+    "category": "1D"
+  },
+  "B182": {
+    "section": "ps",
+    "topicArea": "Social Psychology: Conformity & Obedience",
+    "category": "7B"
+  },
+  "B183": {
+    "section": "cp",
+    "topicArea": "Optics: Lenses, Mirrors & Vision",
+    "category": "4D"
+  },
+  "B184": {
+    "section": "bb",
+    "topicArea": "Cardiac Physiology & the Cardiac Cycle",
+    "category": "3B"
+  },
+  "B185": {
+    "section": "ps",
+    "topicArea": "Theories of Emotion & Stress",
+    "category": "6C"
+  },
+  "B186": {
+    "section": "cp",
+    "topicArea": "Fluid Dynamics: Bernoulli & Continuity",
+    "category": "4B"
+  },
+  "B187": {
+    "section": "bb",
+    "topicArea": "Mendelian Genetics & Pedigree Analysis",
+    "category": "1C"
+  },
+  "B190": {
+    "section": "cp",
+    "topicArea": "Acid-Base Buffers & Proton-Coupled Transport",
+    "category": "5A"
+  },
+  "B191": {
+    "section": "bb",
+    "topicArea": "Enzyme Kinetics & Allosteric Regulation",
+    "category": "1D"
+  },
+  "B192": {
+    "section": "cp",
+    "topicArea": "Circuits, Electrochemistry & Cardiac Signals",
+    "category": "4C"
+  },
+  "B193": {
+    "section": "bb",
+    "topicArea": "Mendelian Genetics, Linkage & DNA Repair",
+    "category": "1C"
+  },
+  "B194": {
+    "section": "ps",
+    "topicArea": "Stress, Sleep & Learning",
+    "category": "6B"
+  },
+  "B195": {
+    "section": "cp",
+    "topicArea": "Optics, Fluids & Respiratory Measurement",
+    "category": "4D"
+  },
+  "B196": {
+    "section": "bb",
+    "topicArea": "Endocrine Signaling & Immune Regulation",
+    "category": "3A"
+  },
+  "B197": {
+    "section": "ps",
+    "topicArea": "Social Stratification, Health Behavior & Bias",
+    "category": "8B"
+  },
+  "B200": {
+    "section": "cp",
+    "topicArea": "Thermodynamics & Calorimetry",
+    "category": "5E"
+  },
+  "B201": {
+    "section": "bb",
+    "topicArea": "DNA Replication & Repair",
+    "category": "1C"
+  },
+  "B202": {
+    "section": "ps",
+    "topicArea": "Memory & Learning",
+    "category": "6B"
+  },
+  "B204": {
+    "section": "cp",
+    "topicArea": "Electrochemistry & Galvanic Cells",
+    "category": "4C"
+  },
+  "B205": {
+    "section": "bb",
+    "topicArea": "Lipid Metabolism & Membrane Dynamics",
+    "category": "1D"
+  },
+  "B206": {
+    "section": "ps",
+    "topicArea": "Social Stratification & Health Disparities",
+    "category": "10A"
+  },
+  "B208": {
+    "section": "cp",
+    "topicArea": "Fluid Mechanics & Circulatory Physics",
+    "category": "4B"
+  },
+  "B209": {
+    "section": "bb",
+    "topicArea": "Endocrine Signaling & Feedback Loops",
+    "category": "3A"
+  },
+  "B270": {
+    "section": "ps",
+    "topicArea": "Social Stratification Health Disparities",
+    "category": "10A"
+  },
+  "B271": {
+    "section": "ps",
+    "topicArea": "Learning Conditioning Behavior Change",
+    "category": "7C"
+  },
+  "B272": {
+    "section": "ps",
+    "topicArea": "Memory Cognition Aging",
+    "category": "6B"
+  },
+  "B273": {
+    "section": "ps",
+    "topicArea": "Stress Coping Health",
+    "category": "6C"
+  },
+  "B274": {
+    "section": "ps",
+    "topicArea": "Sensation Perception Attention",
+    "category": "6A"
+  },
+  "B275": {
+    "section": "ps",
+    "topicArea": "Identity Self Socialization",
+    "category": "8A"
+  },
+  "B276": {
+    "section": "ps",
+    "topicArea": "Groups Conformity Social Influence",
+    "category": "7B"
+  },
+  "B277": {
+    "section": "ps",
+    "topicArea": "Psychological Disorders Treatment Access",
+    "category": "7A"
+  },
+  "B278": {
+    "section": "ps",
+    "topicArea": "Demography Culture Institutions",
+    "category": "9A"
+  },
+  "B279": {
+    "section": "ps",
+    "topicArea": "Motivation Emotion Behavior",
+    "category": "6C"
+  },
+  "B280": {
+    "section": "ps",
+    "topicArea": "Research Methods Bias Measurement",
+    "category": null
+  },
+  "B281": {
+    "section": "ps",
+    "topicArea": "Attitudes, Persuasion & Media Effects",
+    "category": "7C"
+  },
+  "B282": {
+    "section": "ps",
+    "topicArea": "Social Inequality, Mobility & Institutions",
+    "category": "9A"
+  },
+  "B283": {
+    "section": "ps",
+    "topicArea": "Learning, Memory & Cognitive Interventions",
+    "category": "6B"
+  },
+  "B284": {
+    "section": "ps",
+    "topicArea": "Stress, Sleep & Performance",
+    "category": "6B"
+  },
+  "B285": {
+    "section": "ps",
+    "topicArea": "Social Networks & Health Behavior",
+    "category": "8C"
+  },
+  "B286": {
+    "section": "ps",
+    "topicArea": "Sensation, Perception & Attention",
+    "category": "6A"
+  },
+  "B287": {
+    "section": "ps",
+    "topicArea": "Development, Aging & Family Structure",
+    "category": "7A"
+  },
+  "B288": {
+    "section": "ps",
+    "topicArea": "Research Methods, Bias & Measurement",
+    "category": null
+  },
+  "B289": {
+    "section": "ps",
+    "topicArea": "Group Dynamics, Conformity & Prejudice Reduction",
+    "category": "7B"
+  },
+  "B290": {
+    "section": "ps",
+    "topicArea": "Emotion, Motivation & Decision Making",
+    "category": "6B"
+  },
+  "B291": {
+    "section": "ps",
+    "topicArea": "Helping Behavior, Prosociality & Aggression",
+    "category": "7B"
+  },
+  "B292": {
+    "section": "ps",
+    "topicArea": "Personality, Mental Health & Stress",
+    "category": "6C"
+  },
+  "B293": {
+    "section": "ps",
+    "topicArea": "Demography, Family Structure & Health Patterns",
+    "category": "7A"
+  },
+  "B294": {
+    "section": "ps",
+    "topicArea": "Motivation, Emotion & Well-Being",
+    "category": "6C"
+  },
+  "B295": {
+    "section": "ps",
+    "topicArea": "Work, Social Class & Institutions",
+    "category": "9A"
+  },
+  "B296": {
+    "section": "ps",
+    "topicArea": "Memory, Language & Cognition",
+    "category": "6B"
+  },
+  "B297": {
+    "section": "ps",
+    "topicArea": "Identity, Deviance & Social Control",
+    "category": "8A"
+  },
+  "B298": {
+    "section": "ps",
+    "topicArea": "Research Methods, Data Interpretation & Bias",
+    "category": null
+  },
+  "B299": {
+    "section": "ps",
+    "topicArea": "Perception, Sleep & Consciousness",
+    "category": "6B"
+  },
+  "B300": {
+    "section": "ps",
+    "topicArea": "Development, Learning & Aging",
+    "category": "7A"
+  },
+  "B301": {
+    "section": "ps",
+    "topicArea": "Social Epidemiology, Health Equity & Stigma",
+    "category": "8B"
+  },
+  "B302": {
+    "section": "ps",
+    "topicArea": "Learning, Reinforcement & Behavior Change",
+    "category": "7C"
+  },
+  "B303": {
+    "section": "ps",
+    "topicArea": "Sleep, Attention & Consciousness",
+    "category": "6B"
+  },
+  "B304": {
+    "section": "ps",
+    "topicArea": "Culture, Identity & Socialization",
+    "category": "8A"
+  },
+  "B305": {
+    "section": "ps",
+    "topicArea": "Psychological Disorders, Treatment & Access",
+    "category": "7A"
+  },
+  "B306": {
+    "section": "ps",
+    "topicArea": "Research Methods & Statistical Reasoning",
+    "category": null
+  },
+  "B307": {
+    "section": "ps",
+    "topicArea": "Medical Sociology & Institutional Trust",
+    "category": "9A"
+  },
+  "B308": {
+    "section": "ps",
+    "topicArea": "Motivation, Reward & Health Behavior",
+    "category": "6C"
+  },
+  "B309": {
+    "section": "ps",
+    "topicArea": "Development, Life Course & Aging",
+    "category": "7A"
+  },
+  "B310": {
+    "section": "ps",
+    "topicArea": "Social Influence, Technology & Group Processes",
+    "category": "7B"
+  },
+  "B311": {
+    "section": "ps",
+    "topicArea": "Health Behavior, Prevention & Behavior Change",
+    "category": "7C"
+  },
+  "B312": {
+    "section": "ps",
+    "topicArea": "Medical Sociology, Access & Health Systems",
+    "category": "9A"
+  },
+  "B313": {
+    "section": "ps",
+    "topicArea": "Psychological Disorders, Treatment & Stigma",
+    "category": "7A"
+  },
+  "B314": {
+    "section": "ps",
+    "topicArea": "Sensation, Pain & Consciousness",
+    "category": "6A"
+  },
+  "B315": {
+    "section": "ps",
+    "topicArea": "Learning, Reinforcement & Habit Formation",
+    "category": "7C"
+  },
+  "B316": {
+    "section": "ps",
+    "topicArea": "Culture, Norms & Stigma",
+    "category": "8B"
+  },
+  "B317": {
+    "section": "ps",
+    "topicArea": "Adolescence, Identity & Peer Norms",
+    "category": "7A"
+  },
+  "B318": {
+    "section": "ps",
+    "topicArea": "Statistics, Validity & Experimental Design",
+    "category": null
+  },
+  "B319": {
+    "section": "ps",
+    "topicArea": "Personality, Emotion & Decision Making",
+    "category": "6B"
+  },
+  "B320": {
+    "section": "ps",
+    "topicArea": "Aging, Caregiving & Cognitive Health",
+    "category": "6B"
+  },
+  "B321": {
+    "section": "ps",
+    "topicArea": "Health Beliefs, Prevention & Behavior Change",
+    "category": "7C"
+  },
+  "B322": {
+    "section": "ps",
+    "topicArea": "Psychological Disorders, Treatment & Access",
+    "category": "7A"
+  },
+  "B323": {
+    "section": "ps",
+    "topicArea": "Reinforcement, Habits & Addiction",
+    "category": "7C"
+  },
+  "B324": {
+    "section": "ps",
+    "topicArea": "Culture, Socialization & Norms",
+    "category": "8A"
+  },
+  "B325": {
+    "section": "ps",
+    "topicArea": "Social Determinants, Networks & Health",
+    "category": "10A"
+  },
+  "B326": {
+    "section": "ps",
+    "topicArea": "Sleep, Consciousness & Attention",
+    "category": "6B"
+  },
+  "B327": {
+    "section": "ps",
+    "topicArea": "Institutions, Medicalization & Bureaucracy",
+    "category": "9A"
+  },
+  "B328": {
+    "section": "ps",
+    "topicArea": "Stereotype Threat, Bias & Intervention",
+    "category": "8B"
+  },
+  "B329": {
+    "section": "ps",
+    "topicArea": "Perception, Measurement & Decision Bias",
+    "category": null
+  },
+  "B330": {
+    "section": "ps",
+    "topicArea": "Aging, Caregiving & Moral Development",
+    "category": "7A"
+  },
+  "B331": {
+    "section": "cp",
+    "topicArea": "Acid-Base Chemistry, Titrations & Buffers",
+    "category": "5A"
+  },
+  "B332": {
+    "section": "cp",
+    "topicArea": "Redox Chemistry, Galvanic Cells & Electrolysis",
+    "category": "4C"
+  },
+  "B333": {
+    "section": "cp",
+    "topicArea": "Fluids, Hemodynamics & Poiseuille Flow",
+    "category": "4B"
+  },
+  "B334": {
+    "section": "cp",
+    "topicArea": "Geometric Optics, Waves & Interference",
+    "category": "4D"
+  },
+  "B335": {
+    "section": "cp",
+    "topicArea": "Circuits, Capacitance & Bioelectricity",
+    "category": "4C"
+  },
+  "B336": {
+    "section": "cp",
+    "topicArea": "Thermodynamics, Ideal Gases & Calorimetry",
+    "category": "5E"
+  },
+  "B337": {
+    "section": "cp",
+    "topicArea": "Chemical Kinetics, Equilibrium & Reaction Energy",
+    "category": "5E"
+  },
+  "B338": {
+    "section": "cp",
+    "topicArea": "Chromatography, Spectroscopy & Molecular Structure",
+    "category": "5C"
+  },
+  "B339": {
+    "section": "cp",
+    "topicArea": "Sound Waves, Doppler Shift & Intensity",
+    "category": "4D"
+  },
+  "B340": {
+    "section": "cp",
+    "topicArea": "Radioactivity, Colligative Properties & Solutions",
+    "category": "4E"
+  },
+  "B361": {
+    "section": "cp",
+    "topicArea": "Acid/Base Chemistry, Titration & Buffers",
+    "category": "5A"
+  },
+  "B362": {
+    "section": "cp",
+    "topicArea": "Electrochemistry, Redox & Electrolysis",
+    "category": "4C"
+  },
+  "B363": {
+    "section": "cp",
+    "topicArea": "Fluids, Pressure & Hemodynamics",
+    "category": "4B"
+  },
+  "B364": {
+    "section": "cp",
+    "topicArea": "Optics, Sound & Wave Behavior",
+    "category": "4D"
+  },
+  "B365": {
+    "section": "cp",
+    "topicArea": "Thermodynamics, Gases & Calorimetry",
+    "category": "5E"
+  },
+  "B366": {
+    "section": "cp",
+    "topicArea": "Kinetics, Catalysis & Equilibrium",
+    "category": "5E"
+  },
+  "B367": {
+    "section": "cp",
+    "topicArea": "Chromatography, Spectroscopy & Molecular Structure",
+    "category": "5C"
+  },
+  "B368": {
+    "section": "cp",
+    "topicArea": "Radioactivity, Nuclear Chemistry & Medical Imaging",
+    "category": "4E"
+  },
+  "B369": {
+    "section": "cp",
+    "topicArea": "Solutions, Colligative Properties & Osmotic Pressure",
+    "category": "4B"
+  },
+  "B370": {
+    "section": "cp",
+    "topicArea": "Mechanics, Work, Energy & Biomechanics",
+    "category": "4A"
+  },
+  "B371": {
+    "section": "cp",
+    "topicArea": "Mechanics, Work & Springs",
+    "category": "4A"
+  },
+  "B372": {
+    "section": "cp",
+    "topicArea": "Fluids, Pressure & Buoyancy",
+    "category": "4B"
+  },
+  "B373": {
+    "section": "cp",
+    "topicArea": "Circuits, Capacitance & RC Models",
+    "category": "4C"
+  },
+  "B374": {
+    "section": "cp",
+    "topicArea": "Waves, Sound & Doppler Effects",
+    "category": "4D"
+  },
+  "B375": {
+    "section": "cp",
+    "topicArea": "Optics, Lenses & Diffraction",
+    "category": "4D"
+  },
+  "B376": {
+    "section": "cp",
+    "topicArea": "Thermochemistry, Gases & Phase Change",
+    "category": "5E"
+  },
+  "B377": {
+    "section": "cp",
+    "topicArea": "Buffers, Titration & Solubility",
+    "category": "5A"
+  },
+  "B378": {
+    "section": "cp",
+    "topicArea": "Electrochemistry, Nernst Equation & Electrolysis",
+    "category": "4C"
+  },
+  "B379": {
+    "section": "cp",
+    "topicArea": "Kinetics, Equilibrium & Energy Diagrams",
+    "category": "5E"
+  },
+  "B380": {
+    "section": "cp",
+    "topicArea": "Spectroscopy, Separation & Radioactivity",
+    "category": "5C"
+  },
+  "B381": {
+    "section": "cp",
+    "topicArea": "Projectile Motion, Torque & Rotational Equilibrium",
+    "category": "5E"
+  },
+  "B382": {
+    "section": "cp",
+    "topicArea": "Fluids, Pressure & Buoyancy",
+    "category": "4B"
+  },
+  "B383": {
+    "section": "cp",
+    "topicArea": "Circuits, Capacitance & Membrane Models",
+    "category": "4C"
+  },
+  "B384": {
+    "section": "cp",
+    "topicArea": "Waves, Sound & Standing Waves",
+    "category": "4D"
+  },
+  "B385": {
+    "section": "cp",
+    "topicArea": "Optics, Refraction & Diffraction",
+    "category": "4D"
+  },
+  "B386": {
+    "section": "cp",
+    "topicArea": "Thermochemistry, Gases & Calorimetry",
+    "category": "5E"
+  },
+  "B387": {
+    "section": "cp",
+    "topicArea": "Acid-Base Chemistry, Buffers & Solubility",
+    "category": "5A"
+  },
+  "B388": {
+    "section": "cp",
+    "topicArea": "Kinetics, Arrhenius Behavior & Equilibrium",
+    "category": "5E"
+  },
+  "B389": {
+    "section": "cp",
+    "topicArea": "Electrochemistry, Nernst Equation & Electrolysis",
+    "category": "4C"
+  },
+  "B390": {
+    "section": "cp",
+    "topicArea": "Spectroscopy, Chromatography & Nuclear Chemistry",
+    "category": "5C"
+  },
+  "B391": {
+    "section": "cp",
+    "topicArea": "Mechanics, Energy & Circular Motion",
+    "category": "4A"
+  },
+  "B392": {
+    "section": "cp",
+    "topicArea": "Fluids, Pressure & Flow",
+    "category": "4B"
+  },
+  "B393": {
+    "section": "cp",
+    "topicArea": "Capacitance, Electric Fields & Magnetism",
+    "category": "4C"
+  },
+  "B394": {
+    "section": "cp",
+    "topicArea": "Waves, Sound, Optics & Diffraction",
+    "category": "4D"
+  },
+  "B395": {
+    "section": "cp",
+    "topicArea": "Thermochemistry, Gases & Phase Change",
+    "category": "5E"
+  },
+  "B396": {
+    "section": "cp",
+    "topicArea": "Acid/Base Chemistry, Buffers & Solubility",
+    "category": "5A"
+  },
+  "B397": {
+    "section": "cp",
+    "topicArea": "Electrochemistry & Electrolysis",
+    "category": "4C"
+  },
+  "B398": {
+    "section": "cp",
+    "topicArea": "Kinetics, Equilibrium & Energy Diagrams",
+    "category": "5E"
+  },
+  "B399": {
+    "section": "cp",
+    "topicArea": "Organic Structure, Spectroscopy & Separation",
+    "category": "5C"
+  },
+  "B400": {
+    "section": "cp",
+    "topicArea": "Radioactivity, Colligative Properties & Osmosis",
+    "category": "4E"
+  },
+  "B401": {
+    "section": "bb",
+    "topicArea": "Enzyme Kinetics, Inhibition & Regulation",
+    "category": "1D"
+  },
+  "B402": {
+    "section": "bb",
+    "topicArea": "Membranes, Transport & Osmotic Balance",
+    "category": "2A"
+  },
+  "B403": {
+    "section": "bb",
+    "topicArea": "Metabolism, Bioenergetics & Mitochondrial Function",
+    "category": "1D"
+  },
+  "B404": {
+    "section": "bb",
+    "topicArea": "Gene Expression, Regulation & Molecular Biology Methods",
+    "category": "1B"
+  },
+  "B405": {
+    "section": "bb",
+    "topicArea": "Cell Signaling, Receptors & Second Messengers",
+    "category": "2A"
+  },
+  "B406": {
+    "section": "bb",
+    "topicArea": "Immunology, Blood & Homeostatic Responses",
+    "category": "3B"
+  },
+  "B407": {
+    "section": "bb",
+    "topicArea": "Endocrine, Renal & Digestive Physiology",
+    "category": "3A"
+  },
+  "B408": {
+    "section": "bb",
+    "topicArea": "Genetics, Inheritance & Population Biology",
+    "category": "1C"
+  },
+  "B409": {
+    "section": "bb",
+    "topicArea": "Protein Structure, Purification & Biochemical Methods",
+    "category": "1A"
+  },
+  "B410": {
+    "section": "bb",
+    "topicArea": "Cell Cycle, Cancer Biology & Apoptosis",
+    "category": "2C"
+  },
+  "B411": {
+    "section": "bb",
+    "topicArea": "Enzyme Regulation & Metabolic Control",
+    "category": "1D"
+  },
+  "B412": {
+    "section": "bb",
+    "topicArea": "Membrane Transport & Cell Physiology",
+    "category": "2A"
+  },
+  "B413": {
+    "section": "bb",
+    "topicArea": "Gene Editing, DNA Repair & Regulation",
+    "category": "1B"
+  },
+  "B414": {
+    "section": "bb",
+    "topicArea": "Immunology, Microbiology & Host Defense",
+    "category": "2B"
+  },
+  "B415": {
+    "section": "bb",
+    "topicArea": "Cardiovascular & Respiratory Physiology",
+    "category": "3B"
+  },
+  "B416": {
+    "section": "bb",
+    "topicArea": "Endocrine Signaling & Neurobiology",
+    "category": "3A"
+  },
+  "B417": {
+    "section": "bb",
+    "topicArea": "Protein Structure, Purification & Methods",
+    "category": "1A"
+  },
+  "B418": {
+    "section": "bb",
+    "topicArea": "Cell Cycle, Apoptosis & Cancer Biology",
+    "category": "2C"
+  },
+  "B419": {
+    "section": "bb",
+    "topicArea": "Development, Evolution & Population Genetics",
+    "category": "1C"
+  },
+  "B420": {
+    "section": "bb",
+    "topicArea": "Metabolism, Mitochondria & Homeostasis",
+    "category": "1D"
+  },
+  "B421": {
+    "section": "bb",
+    "topicArea": "Renal Physiology & Acid-Base Homeostasis",
+    "category": "3B"
+  },
+  "B422": {
+    "section": "bb",
+    "topicArea": "Digestive Absorption & Endocrine Signaling",
+    "category": "3A"
+  },
+  "B423": {
+    "section": "bb",
+    "topicArea": "Muscle Physiology & Neuronal Conduction",
+    "category": "3A"
+  },
+  "B424": {
+    "section": "bb",
+    "topicArea": "Microbiology & Viral Replication",
+    "category": "2B"
+  },
+  "B425": {
+    "section": "bb",
+    "topicArea": "Hematology & Immune Cell Function",
+    "category": "3B"
+  },
+  "B426": {
+    "section": "bb",
+    "topicArea": "Reproduction & Developmental Signaling",
+    "category": "2C"
+  },
+  "B427": {
+    "section": "bb",
+    "topicArea": "Metabolic Integration & Exercise Physiology",
+    "category": "1D"
+  },
+  "B428": {
+    "section": "bb",
+    "topicArea": "Protein Trafficking & Cell Biology Methods",
+    "category": "1A"
+  },
+  "B429": {
+    "section": "bb",
+    "topicArea": "Evolutionary Genetics & Linkage Mapping",
+    "category": "1C"
+  },
+  "B430": {
+    "section": "bb",
+    "topicArea": "Integrated Endocrine & Immune Metabolism",
+    "category": "1D"
+  },
+  "B431": {
+    "section": "bb",
+    "topicArea": "Cardiovascular Physiology, Oxygen Transport & Hemodynamics",
+    "category": "3B"
+  },
+  "B432": {
+    "section": "bb",
+    "topicArea": "Neurophysiology, Ion Channels & Sensory Transduction",
+    "category": "3A"
+  },
+  "B433": {
+    "section": "bb",
+    "topicArea": "Hepatic Metabolism, Hormonal Control & Nitrogen Disposal",
+    "category": "1D"
+  },
+  "B434": {
+    "section": "bb",
+    "topicArea": "Microbial Genetics, Antibiotic Resistance & Operon Regulation",
+    "category": "1B"
+  },
+  "B435": {
+    "section": "bb",
+    "topicArea": "Reproductive Endocrinology, Pregnancy Maintenance & Early Development",
+    "category": "2C"
+  },
+  "B436": {
+    "section": "bb",
+    "topicArea": "DNA Repair, qPCR & Genome Techniques",
+    "category": "1B"
+  },
+  "B437": {
+    "section": "bb",
+    "topicArea": "Cytoskeleton, Extracellular Matrix & Cell Migration",
+    "category": "2A"
+  },
+  "B438": {
+    "section": "bb",
+    "topicArea": "Immune Tolerance, T Cell Activation & Transplantation",
+    "category": "3B"
+  },
+  "B439": {
+    "section": "bb",
+    "topicArea": "Protein Sorting, Organelles & Degradation Pathways",
+    "category": "1A"
+  },
+  "B440": {
+    "section": "bb",
+    "topicArea": "Insulin Signaling, Fasting Physiology & Metabolic Integration",
+    "category": "1D"
+  }
+}
