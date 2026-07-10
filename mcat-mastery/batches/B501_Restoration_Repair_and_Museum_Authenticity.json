@@ -1,0 +1,162 @@
+{
+  "batch": "B501",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Restoration, Repair and Museum Authenticity",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_restoration_repair_and_museum_authenticity_501_q0",
+      "passage": "A repaired object rarely returns from the workshop as the same object that entered it. A cracked bowl whose fissure has been sealed is again capable of holding water, but the repair also alters the bowl's grammar. The line that was once a failure becomes a mark one must learn to read. Museums have long struggled with this double life of restoration. The conservator is asked to make an artifact legible without making the act of conservation itself the loudest feature in the room. Too much repair falsifies age; too little leaves the viewer admiring damage rather than form.\n\nThe debate is often described as a choice between honesty and deception, but that description is too crude. A restored fresco whose missing faces remain blank may be honest about loss while dishonest about the mural's original power. A violin kept permanently unplayed may preserve wood and varnish while betraying the reason the object was made. Conversely, an invisible repair is not always a lie. If a torn page is mended so a reader can follow the sentence, the repair serves an integrity larger than its own visibility.\n\nWhat matters, then, is not whether repair is seen, but whether it changes the kind of attention the object asks from us. Some repairs invite attention to continuity: they quiet themselves so an artifact's use, design, or argument can come forward. Others invite attention to rupture: they insist that history includes breakage and that pretending otherwise would be sentimental. Both approaches can be responsible. The danger lies in confusing one obligation with the other, as though every object required the same ethical performance.\n\nA small provincial museum once displayed two nearly identical cabinets. One had been polished, rehinged, and filled with period-appropriate glassware; the other retained warped doors, dark stains, and a handwritten label describing water damage from a flooded warehouse. Visitors tended to call the first cabinet more beautiful and the second more moving. The distinction is revealing. Beauty, in this case, depended on the restoration's ability to withdraw. Pathos depended on the repair's refusal to disappear. Neither response was more authentic. Each belonged to a different claim about what the object was for.\n\nThe modern appetite for visible mending sometimes reverses an older mistake. Where previous generations hid repairs to simulate untouched survival, we may now display repairs to simulate moral sophistication. The crack, exposed and almost theatrical, becomes a badge of enlightened taste. Yet a scar made conspicuous for our admiration can be as vain as one concealed for our comfort. Restoration at its best is neither erasure nor exhibitionism. It is an act of judgment about which part of an object's history should guide the next encounter with it. The same principle applies when digital replicas are displayed beside repaired objects: the replica can clarify missing form, but it cannot relieve the museum of explaining why this version, rather than another, has been made authoritative. Restoration always speaks through selection.",
+      "usePrevPassage": false,
+      "stem": "Which statement best captures the main claim of the passage?",
+      "choices": {
+        "A": "Restoration is deceptive whenever a repair is difficult for museum visitors to detect.",
+        "B": "Damaged objects should usually remain unrepaired because visible age is the only reliable sign of authenticity.",
+        "C": "Responsible restoration depends on judging whether continuity or rupture should govern how an object is encountered.",
+        "D": "Conservators should favor repairs that make objects more beautiful rather than repairs that emphasize history."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "This option turns one possible danger into a universal rule. The author explicitly says that an invisible repair is not always a lie when it serves a larger integrity, such as allowing a torn page to be read. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "This choice captures the passage’s respect for visible damage, but it ignores the author’s equal concern for use, form, and legibility. The author rejects one fixed rule for all objects. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "C": "Correct. The passage argues that restoration is an exercise of judgment, not a simple choice between hiding and displaying repair. The key question is whether the object should direct attention toward continuity or toward rupture. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "D": "The cabinets example distinguishes beauty from pathos, but the author does not say beauty is the higher aim. The point is that different objects and contexts make different kinds of attention appropriate. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one."
+      },
+      "topic": "Restoration, Repair and Museum Authenticity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_restoration_repair_and_museum_authenticity_501_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author’s attitude toward the modern preference for visible mending is best described as:",
+      "choices": {
+        "A": "dismissive, because visible repair prevents viewers from appreciating any object’s original function.",
+        "B": "enthusiastic, because visible repair finally corrects the dishonesty of earlier restoration practices.",
+        "C": "cautiously skeptical, because visible repair can become a self-flattering performance rather than an ethical response.",
+        "D": "neutral, because visible mending and invisible mending are treated as equally empty conventions."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author does not claim visible repair always blocks appreciation of function. In some cases it may responsibly foreground rupture and historical loss. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "The author does not celebrate visible repair as a final solution. The passage says the modern appetite for it can reverse, rather than solve, an older mistake. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "C": "Correct. The final paragraph acknowledges why visible mending may seem morally attractive, but warns that it can become theatrical and vain. That mix of understanding and criticism is cautious skepticism. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "D": "The passage treats both approaches as potentially meaningful. It criticizes empty performance, not the entire practice of restoration as merely conventional. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one."
+      },
+      "topic": "Restoration, Repair and Museum Authenticity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_restoration_repair_and_museum_authenticity_501_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the second paragraph, the examples of the fresco, violin, and torn page primarily serve to:",
+      "choices": {
+        "A": "prove that objects made for use should never be preserved in museums.",
+        "B": "complicate the opposition between honest visible damage and deceptive invisible repair.",
+        "C": "show that written artifacts are easier to restore responsibly than musical or visual artifacts.",
+        "D": "argue that restoration decisions should be made by artists rather than by conservators."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The violin example suggests preservation can betray an object’s purpose, but the passage does not generalize that all useful objects should be excluded from museums. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "Correct. The examples show that visible non-repair can distort an object’s original power, while invisible repair can preserve a larger integrity. They therefore undermine a simple honesty-versus-deception framework. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "C": "The torn page example illustrates a principle, not a hierarchy among media. The author is not comparing the relative difficulty of restoring books, music, and paintings. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "D": "Nothing in the paragraph shifts authority from conservators to artists. The focus is on the ethical logic of restoration choices, not professional jurisdiction. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one."
+      },
+      "topic": "Restoration, Repair and Museum Authenticity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_restoration_repair_and_museum_authenticity_501_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Suppose a museum restores a ceremonial mask so completely that tool marks from later ritual use disappear. Based on the passage, the author would most likely say the restoration is questionable because it:",
+      "choices": {
+        "A": "allows the mask to appear more beautiful than it looked when first made.",
+        "B": "may have selected continuity of form at the expense of historically meaningful rupture or use.",
+        "C": "fails because all ceremonial objects should be displayed only in damaged condition.",
+        "D": "is acceptable as long as visitors cannot identify where the repairs were made."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The problem is not simply that the object looks more beautiful. The author would ask what kind of history has been suppressed by the restoration. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "Correct. The passage repeatedly frames restoration as a judgment about what should guide the viewer’s encounter. Removing ritual-use marks could erase a meaningful part of the object’s history. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "C": "This answer imposes a rigid rule the passage rejects. Some objects may responsibly be restored toward continuity, while others should foreground rupture or later use. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "D": "Invisibility is not sufficient for responsible repair. The author says an invisible repair can be valid, but only when it serves a larger integrity. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one."
+      },
+      "topic": "Restoration, Repair and Museum Authenticity",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_restoration_repair_and_museum_authenticity_501_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The phrase “the repair also alters the bowl’s grammar” most nearly means that the repair:",
+      "choices": {
+        "A": "changes the rules by which the object is interpreted.",
+        "B": "makes the bowl resemble a written text rather than a usable vessel.",
+        "C": "restores the bowl to the syntax intended by its original maker.",
+        "D": "prevents viewers from distinguishing function from decoration."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The metaphor of grammar suggests a system of meaning. Once repaired, the bowl can still function, but the visible or known repair changes how viewers read its history and significance. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "The passage uses a literary metaphor, but it does not claim the bowl ceases to be a vessel or literally becomes text-like in a narrow sense. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "C": "The repair does not simply return the bowl to original intention. The author stresses that repair adds a new mark that must be interpreted. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "D": "The phrase does not focus on decoration. It points to interpretation: the crack and repair become part of how the object communicates its history. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one."
+      },
+      "topic": "Restoration, Repair and Museum Authenticity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_restoration_repair_and_museum_authenticity_501_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following would most weaken the author’s criticism of conspicuously visible repair?",
+      "choices": {
+        "A": "Evidence that visible repairs often prompt viewers to learn about an object’s actual history rather than admire their own sophistication.",
+        "B": "Evidence that some earlier restorers hid repairs in order to make objects seem untouched by time.",
+        "C": "Evidence that visible repairs sometimes increase insurance valuations for damaged artifacts.",
+        "D": "Evidence that most museum visitors prefer restored objects to unrestored objects when asked about beauty."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author criticizes conspicuous repair when it simulates moral sophistication. If visible repairs usually direct viewers toward genuine historical understanding, that would undercut the charge of vanity. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "This supports the author’s setup that earlier generations sometimes made the opposite mistake. It does not weaken the criticism of modern visible repair. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "C": "Insurance value is beside the author’s ethical and interpretive concern. A repair can raise monetary value while still inviting the wrong kind of attention. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "D": "The author already accepts that restored objects may be judged more beautiful. Preference for beauty does not address the worry that visible repair can become theatrical self-congratulation. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one."
+      },
+      "topic": "Restoration, Repair and Museum Authenticity",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_restoration_repair_and_museum_authenticity_501_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The two cabinets are used to support which broader point?",
+      "choices": {
+        "A": "Visitors are poor judges of authenticity because they confuse beauty with historical truth.",
+        "B": "Furniture is especially suited to restoration because it can be both useful and decorative.",
+        "C": "Provincial museums are more honest about conservation than major institutions.",
+        "D": "Different modes of restoration can properly invite different kinds of response from viewers."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The example does not mock visitors as confused. Their different responses are described as revealing and appropriate to different claims about the objects. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "The example involves cabinets, but the principle applies across artifacts. The point is about modes of encounter, not a special property of furniture. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "C": "The museum’s provincial status is incidental. The passage does not compare institutions or claim small museums are more honest. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "D": "Correct. The polished cabinet invites appreciation of beauty through withdrawn repair, while the damaged cabinet invites pathos through visible history. The example illustrates the passage’s broader claim that restoration should guide attention appropriately. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one."
+      },
+      "topic": "Restoration, Repair and Museum Authenticity",
+      "difficulty": "Easy"
+    }
+  ]
+}

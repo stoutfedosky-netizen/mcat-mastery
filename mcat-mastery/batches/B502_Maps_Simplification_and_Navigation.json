@@ -1,0 +1,162 @@
+{
+  "batch": "B502",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Maps, Simplification and Navigation",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_maps_simplification_and_navigation_502_q0",
+      "passage": "A map that included everything would be useless. It would cover the territory it meant to clarify, and in doing so would cease to be a map at all. This familiar paradox is sometimes invoked to praise simplification, but the praise is too easy. Maps are not valuable because they omit; they are valuable because they omit according to a purpose. A subway diagram that distorts distance may be admirable if it helps riders understand transfers. The same distortion would be disastrous in a surveyor's plan. Accuracy, then, is not a single virtue but a family of obligations arranged around use.\n\nThe history of cartography contains many episodes in which a map's usefulness depended on refusing the ideals of another map. Medieval portolan charts, dense with coastal names and rhumb lines, seem strange if judged by modern national borders. Yet they were superb tools for sailors moving from harbor to harbor. Early epidemiological maps often exaggerated neighborhoods or streets, not because their makers misunderstood scale, but because they wanted patterns of disease to become visible to officials who might otherwise treat cases as isolated misfortunes. A map can mislead by lying, but it can also mislead by telling the wrong truth.\n\nDigital maps have made this problem feel less philosophical and more everyday. The glowing arrow on a phone does not merely represent a route; it recommends one. It can make the city appear as a sequence of instructions rather than a field of possible relations. This is not necessarily a defect. A lost pedestrian in the rain may desire obedience more than orientation. But when such maps become our default experience of place, the skill of noticing alternatives atrophies. The shortest route becomes the natural route; the commercial street becomes the visible street; the unnamed passage disappears.\n\nSome critics respond by romanticizing older paper maps as if their folds guaranteed freedom. That nostalgia is misplaced. Paper maps also instruct, omit, and privilege. The difference is not moral purity but style of dependence. A paper map often demands that the user supply more interpretation: one must locate oneself, imagine direction, and translate symbol into action. A digital map frequently performs those translations in advance. The convenience is genuine, but so is the cost.\n\nThe better question is not whether maps should be simple or complex, old or new, accurate or distorted. It is whether a map teaches its user to become more capable in the world it describes. Some maps are ladders, removed after they help us see. Others are rails, efficient precisely because they keep us from wandering. We need both. Trouble begins when a rail is mistaken for a landscape, or when a ladder is praised merely for being difficult to climb. The issue becomes sharper when maps are used repeatedly. A single route suggestion may be harmless, but a hundred suggestions can teach a person which streets deserve attention and which remain outside the imagined city.",
+      "usePrevPassage": false,
+      "stem": "The passage’s central argument is that maps should be evaluated primarily by:",
+      "choices": {
+        "A": "the amount of information they preserve about the physical territory.",
+        "B": "their resistance to commercial or technological influence.",
+        "C": "whether they use distortion sparingly and visibly.",
+        "D": "how their omissions and distortions serve a particular purpose and shape user capability."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The opening rejects the idea that including more information automatically improves a map. A complete map would be useless, and accuracy is described as purpose-dependent. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "The passage criticizes some effects of digital maps but does not make freedom from technology or commerce the central standard. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "C": "The author does not demand minimal or visible distortion in every case. Subway diagrams and disease maps may distort heavily when doing so serves their purpose. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "D": "Correct. The passage argues that maps omit and distort responsibly only in relation to use. The final paragraph adds that a good map should help users become more capable in the world it describes. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one."
+      },
+      "topic": "Maps, Simplification and Navigation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_maps_simplification_and_navigation_502_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author’s discussion of portolan charts and epidemiological maps is intended mainly to show that:",
+      "choices": {
+        "A": "older maps were generally more attentive to local knowledge than contemporary digital maps.",
+        "B": "maps may be accurate or useful by standards different from those of other map types.",
+        "C": "cartographic history is a steady movement from decorative symbolism to scientific precision.",
+        "D": "distortion is acceptable only when the mapmaker lacks complete information."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Although the examples are historical, the passage does not claim older maps are generally superior. It later criticizes nostalgia for paper maps. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "Correct. The examples show that maps designed for sailors or public-health officials may properly emphasize different features. Judging them by another map’s standards would misunderstand their purpose. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "C": "The passage resists a simple progress narrative. It emphasizes changing purposes rather than a movement from error to precision. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "D": "The author suggests the distortions are deliberate and functional, not forced by ignorance. Disease maps exaggerate features to reveal patterns. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one."
+      },
+      "topic": "Maps, Simplification and Navigation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_maps_simplification_and_navigation_502_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following best explains the claim that a map can “mislead by telling the wrong truth”?",
+      "choices": {
+        "A": "A map may present accurate information that is irrelevant or damaging for the task at hand.",
+        "B": "A map’s falsehoods are acceptable as long as users eventually reach their destinations.",
+        "C": "A map should avoid factual accuracy when its purpose is aesthetic or symbolic.",
+        "D": "A map becomes misleading only when it conceals the identity of its maker."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The phrase means that truth is not sufficient without relevance to purpose. A surveyor’s scale truth and a transit diagram’s transfer truth serve different needs; using the wrong one can mislead. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "The author does not excuse falsehood merely because a user arrives somewhere. The issue is interpretive fitness, not practical success at any cost. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "C": "The passage never recommends avoiding accuracy. It argues that different forms of accuracy matter for different tasks. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one. The passage instead asks the reader to preserve the author’s qualifying distinction rather than flattening it into an easier but less accurate claim.",
+        "D": "Authorship is not the focus of the sentence. The problem is whether the map’s selected truth suits the user’s purpose. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one. The passage instead asks the reader to preserve the author’s qualifying distinction rather than flattening it into an easier but less accurate claim."
+      },
+      "topic": "Maps, Simplification and Navigation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_maps_simplification_and_navigation_502_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would most likely view a phone map that automatically reroutes walkers past sponsored stores as:",
+      "choices": {
+        "A": "an example of a map whose recommendations may quietly redefine what counts as visible or natural in a city.",
+        "B": "a harmless improvement because any route that reaches the destination is equally accurate.",
+        "C": "a defect unique to digital maps, since paper maps never privilege particular paths or districts.",
+        "D": "a sign that maps should avoid giving directions and instead present all possible routes at once."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage warns that digital maps can make commercial streets or recommended routes appear natural and visible. Sponsored rerouting would intensify that concern. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one. It also fits the author’s larger pattern of reasoning: a tempting simple opposition is replaced by a more careful distinction about context, function, and the limits of evidence.",
+        "B": "This ignores the author’s point that maps do not merely represent routes; they shape perception and habits of movement. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one. The passage instead asks the reader to preserve the author’s qualifying distinction rather than flattening it into an easier but less accurate claim.",
+        "C": "The passage explicitly rejects nostalgia by noting that paper maps also instruct, omit, and privilege. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one. The passage instead asks the reader to preserve the author’s qualifying distinction rather than flattening it into an easier but less accurate claim.",
+        "D": "The author does not want maps to include everything. The opening says a map that included everything would be useless. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one. The passage instead asks the reader to preserve the author’s qualifying distinction rather than flattening it into an easier but less accurate claim."
+      },
+      "topic": "Maps, Simplification and Navigation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_maps_simplification_and_navigation_502_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The contrast between “ladders” and “rails” in the final paragraph suggests that:",
+      "choices": {
+        "A": "maps that are difficult to use are always more educational than maps that are efficient.",
+        "B": "all maps should be designed to disappear once the user learns the territory.",
+        "C": "different maps can either build interpretive capacity or efficiently constrain movement, and both functions may be valuable.",
+        "D": "navigation tools become harmful only when users are physically unable to leave the recommended route."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author warns against praising a ladder merely for being difficult to climb. Difficulty alone is not the virtue. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one. The passage instead asks the reader to preserve the author’s qualifying distinction rather than flattening it into an easier but less accurate claim.",
+        "B": "Rails are also valued in the passage. The author says we need both ladders and rails, so not all maps should disappear. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one. The passage instead asks the reader to preserve the author’s qualifying distinction rather than flattening it into an easier but less accurate claim.",
+        "C": "Correct. The metaphor distinguishes tools that teach users to see more independently from tools that guide efficiently by limiting wandering. The passage treats both as useful when not mistaken for each other. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "D": "The rail metaphor is about habits and interpretation, not literal physical confinement. Digital guidance can narrow attention even when users remain free to deviate. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one."
+      },
+      "topic": "Maps, Simplification and Navigation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_maps_simplification_and_navigation_502_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The tone of the passage toward digital maps is best characterized as:",
+      "choices": {
+        "A": "hostile, because digital maps are portrayed as destroying authentic urban experience.",
+        "B": "celebratory, because they solve the interpretive burdens imposed by paper maps.",
+        "C": "ambivalent, because their convenience is acknowledged while their influence on perception is questioned.",
+        "D": "indifferent, because the author treats all maps as functionally identical."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author criticizes digital dependence but also says a lost pedestrian may rightly want obedience more than orientation. That is not simple hostility. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "The author does not present pre-translated directions as an unambiguous solution. Convenience is paired with cost. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one. The passage instead asks the reader to preserve the author’s qualifying distinction rather than flattening it into an easier but less accurate claim.",
+        "C": "Correct. The passage recognizes genuine convenience and practical need, while worrying that default reliance can atrophy the skill of noticing alternatives. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one. It also fits the author’s larger pattern of reasoning: a tempting simple opposition is replaced by a more careful distinction about context, function, and the limits of evidence.",
+        "D": "The passage is built around distinctions among map types, purposes, and styles of dependence, so indifference or equivalence is inaccurate. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one."
+      },
+      "topic": "Maps, Simplification and Navigation",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_maps_simplification_and_navigation_502_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which assumption underlies the author’s critique of default reliance on route-guiding maps?",
+      "choices": {
+        "A": "Users value maps only when they can verify every cartographic decision independently.",
+        "B": "The form in which information is presented can train habits of attention and movement.",
+        "C": "Digital technologies are designed mainly to eliminate local and historical knowledge.",
+        "D": "Every user should prefer exploration to efficiency in unfamiliar places."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author does not require users to audit every map. The concern is broader: repeated forms of guidance can shape how people perceive place. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "B": "Correct. The critique depends on the idea that maps do not merely transmit information; they cultivate habits. Route-guiding maps can make some paths feel natural and others invisible. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "C": "This is too conspiratorial and not supported. The passage discusses effects of digital maps without claiming a single malicious design purpose. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one.",
+        "D": "The passage explicitly grants that efficiency may be desirable, especially for a lost pedestrian in the rain. This matters because CARS answers are usually wrong not by being unrelated, but by shifting the author’s emphasis, erasing a qualification, or converting a limited interpretive claim into an absolute one. The passage instead asks the reader to preserve the author’s qualifying distinction rather than flattening it into an easier but less accurate claim."
+      },
+      "topic": "Maps, Simplification and Navigation",
+      "difficulty": "Medium"
+    }
+  ]
+}
