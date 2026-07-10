@@ -24,14 +24,24 @@ Usage:
 import argparse, glob, json, os, re
 
 # Giveaway clauses that should never appear in choice text. Extend as needed.
+# Generators keep inventing new appended "tell" clauses; add each variant here.
 TELLS = [
     " even though the passage frames the issue in more conditional and context-dependent terms",
+    " while treating a qualified contrast as if it were the passage's final conclusion",
+    " by flattening the passage's tension into a single unqualified rule",
+    " in a way that ignores the passage's repeated movement between concession and critique",
+    " and therefore misses the author's distinction between usefulness and overreach",
+    " rather than preserving the author's emphasis on context, limits, and judgment",
 ]
 
 # Substrings that mark a non-specific, boilerplate explanation worth flagging.
 BOILERPLATE = [
     "This option is tempting because it uses language related",
     "The passage does not support the move made here",
+    "This answer borrows language from the passage but turns it in the wrong direction",
+    "This answer misreads a caution as a program of rejection",
+    "This answer is too absolute for the passage's argument",
+    "the author is concerned with the conditions under which the practice remains honest",
 ]
 
 CANON_ORDER = ["id", "passage", "usePrevPassage", "stem", "choices", "correct",
@@ -88,7 +98,9 @@ def normalize_choices(ch):
 
 
 def clean_batch(d):
-    stats = {"tells": 0, "hoisted": 0, "topics": 0, "difficulty": 0, "boilerplate_qs": []}
+    stats = {"tells": 0, "hoisted": 0, "topics": 0, "difficulty": 0, "boilerplate_qs": [],
+             "recycled": None, "lettermismatch_qs": []}
+    wrong_texts = []  # first sentence of every distractor, across the batch
     for q in d.get("questions", []):
         # 1. hoist explanations if nested in choices
         if not isinstance(q.get("explanations"), dict):
@@ -116,14 +128,29 @@ def clean_batch(d):
             stats["topics"] += 1
         # flag boilerplate distractor explanations (report only)
         exps = q.get("explanations", {})
+        correct = q.get("correct")
         if any(any(b in (exps.get(l) or "") for b in BOILERPLATE)
-               for l in exps if l != q.get("correct")):
+               for l in exps if l != correct):
             stats["boilerplate_qs"].append(q.get("id"))
+        # flag explanations that reference a different choice letter than their own
+        # (a sign the letters were shuffled without updating the text)
+        for lab, ex in exps.items():
+            refs = set(re.findall(r"[Cc]hoice ([A-D])\b", ex or ""))
+            if refs and lab not in refs:
+                stats["lettermismatch_qs"].append(q.get("id"))
+                break
+        # collect distractor fingerprints for recycling detection
+        for lab, txt in q["choices"].items():
+            if lab != correct:
+                wrong_texts.append(txt.split(". ")[0][:60])
         # reorder keys canonically
         extras = {k: v for k, v in q.items() if k not in CANON_ORDER}
         newq = {k: q[k] for k in CANON_ORDER if k in q}
         newq.update(extras)
         q.clear(); q.update(newq)
+    # recycled distractors: few distinct wrong answers across the whole batch
+    if wrong_texts:
+        stats["recycled"] = (len(set(wrong_texts)), len(wrong_texts))
     return stats
 
 
@@ -151,6 +178,8 @@ def main():
 
     total = {"tells": 0, "hoisted": 0, "topics": 0, "difficulty": 0}
     flagged = []
+    recycled_batches = []
+    mismatch = []
     for f in files:
         d = json.load(open(f))
         if d.get("section") != "cars":
@@ -160,20 +189,39 @@ def main():
         for k in total:
             total[k] += s[k]
         flagged += s["boilerplate_qs"]
+        mismatch += s["lettermismatch_qs"]
+        # recycled distractors: a healthy 7-question CARS batch has ~21 distinct
+        # distractors; anything under ~14 means wrong answers are being reused.
+        distinct, tot = s["recycled"] or (0, 0)
+        recycled = distinct < max(4, tot * 0.6)
+        if recycled:
+            recycled_batches.append((d.get("batch"), distinct, tot))
         dest = f if args.in_place else os.path.join(out_dir, os.path.basename(f))
         with open(dest, "w") as fh:
             json.dump(d, fh, indent=2, ensure_ascii=False)
+        flag = "  ⚠ RECYCLED DISTRACTORS" if recycled else ""
         print(f"  {os.path.basename(f)}: tells-stripped={s['tells']} hoisted={s['hoisted']} "
-              f"topics-added={s['topics']} difficulty-normalized={s['difficulty']}")
+              f"topics-added={s['topics']} difficulty-normalized={s['difficulty']} "
+              f"distinct-distractors={distinct}/{tot}{flag}")
 
     print(f"\nTotals: {total}")
+    if recycled_batches:
+        print(f"\n⛔ {len(recycled_batches)} batch(es) REUSE the same distractors across questions "
+              f"(questions become trivially answerable — regenerate, do not import):")
+        for b, dcount, tot in recycled_batches:
+            print(f"    {b}: only {dcount} distinct distractors across {tot} slots")
+    if mismatch:
+        print(f"\n⚠ {len(mismatch)} question(s) have explanations that reference the WRONG choice "
+              f"letter (letters shuffled without updating text):")
+        for qid in mismatch:
+            print(f"    {qid}")
     if flagged:
-        print(f"\n⚠ {len(flagged)} question(s) still have BOILERPLATE distractor explanations "
+        print(f"\n⚠ {len(flagged)} question(s) have BOILERPLATE distractor explanations "
               f"(rewrite by hand for passage-specific reasoning):")
         for qid in flagged:
             print(f"    {qid}")
-    else:
-        print("\nNo boilerplate distractor explanations detected.")
+    if not (recycled_batches or mismatch or flagged):
+        print("\nNo recycled distractors, letter mismatches, or boilerplate detected.")
     print(f"\nOutput: {'in place' if args.in_place else out_dir}")
 
 
