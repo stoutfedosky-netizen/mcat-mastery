@@ -114,10 +114,30 @@ def normalize_choices(ch):
     return out
 
 
+def passage_slop(passage, topic_area):
+    """Flag machine-padding tells in a passage: a paragraph repeated verbatim,
+    or the passage naming itself by its own title."""
+    flags = []
+    p = passage or ""
+    if topic_area and topic_area in p:
+        flags.append("names itself by title")
+    # any 80+ char span that appears more than once
+    for seg in re.split(r"(?<=[.?!])\s+", p):
+        seg = seg.strip()
+        if len(seg) >= 80 and p.count(seg) > 1:
+            flags.append("repeats a sentence verbatim")
+            break
+    return flags
+
+
 def clean_batch(d):
     stats = {"tells": 0, "hoisted": 0, "topics": 0, "difficulty": 0, "boilerplate_qs": [],
-             "recycled": None, "lettermismatch_qs": []}
+             "recycled": None, "lettermismatch_qs": [], "passage_slop": [], "meta_expl_qs": [],
+             "distractors": []}
     wrong_texts = []  # first sentence of every distractor, across the batch
+    ps = passage_slop(d.get("questions", [{}])[0].get("passage"), d.get("topicArea"))
+    if ps:
+        stats["passage_slop"] = ps
     for q in d.get("questions", []):
         # 1. hoist explanations if nested in choices
         if not isinstance(q.get("explanations"), dict):
@@ -161,10 +181,15 @@ def clean_batch(d):
             if refs and lab not in refs:
                 stats["lettermismatch_qs"].append(q.get("id"))
                 break
-        # collect distractor fingerprints for recycling detection
+        # meta/test language leaking into explanations
+        META = ("CARS-style", "CARS answer", "public judgment", "the test", "test-taker")
+        if any(m in (exps.get(l) or "") for l in exps for m in META):
+            stats["meta_expl_qs"].append(q.get("id"))
+        # collect distractor fingerprints for recycling detection (+ cross-batch)
         for lab, txt in q["choices"].items():
             if lab != correct:
                 wrong_texts.append(txt.split(". ")[0][:60])
+                stats["distractors"].append(txt.strip())
         # reorder keys canonically
         extras = {k: v for k, v in q.items() if k not in CANON_ORDER}
         newq = {k: q[k] for k in CANON_ORDER if k in q}
@@ -202,6 +227,9 @@ def main():
     flagged = []
     recycled_batches = []
     mismatch = []
+    passage_slop_batches = []
+    meta_qs = []
+    distractor_batches = {}  # distractor text -> set of batches it appears in
     for f in files:
         d = json.load(open(f))
         if d.get("section") != "cars":
@@ -212,6 +240,11 @@ def main():
             total[k] += s[k]
         flagged += s["boilerplate_qs"]
         mismatch += s["lettermismatch_qs"]
+        meta_qs += s["meta_expl_qs"]
+        if s["passage_slop"]:
+            passage_slop_batches.append((d.get("batch"), s["passage_slop"]))
+        for dt in s["distractors"]:
+            distractor_batches.setdefault(dt, set()).add(d.get("batch"))
         # recycled distractors: a healthy 7-question CARS batch has ~21 distinct
         # distractors; anything under ~14 means wrong answers are being reused.
         distinct, tot = s["recycled"] or (0, 0)
@@ -226,7 +259,25 @@ def main():
               f"topics-added={s['topics']} difficulty-normalized={s['difficulty']} "
               f"distinct-distractors={distinct}/{tot}{flag}")
 
+    # cross-batch template reuse: same distractor text in 3+ different batches
+    cross = {t: bs for t, bs in distractor_batches.items() if len(bs) >= 3}
+
     print(f"\nTotals: {total}")
+    if passage_slop_batches:
+        print(f"\n⛔ {len(passage_slop_batches)} passage(s) show machine-padding slop "
+              f"(self-titling or a paragraph repeated verbatim — regenerate the passage):")
+        for b, fl in passage_slop_batches:
+            print(f"    {b}: {', '.join(fl)}")
+    if cross:
+        print(f"\n⛔ {len(cross)} distractor string(s) are REUSED VERBATIM across 3+ batches "
+              f"(template questions with the topic word swapped — regenerate the questions):")
+        for t, bs in sorted(cross.items(), key=lambda x: -len(x[1]))[:8]:
+            print(f"    [{len(bs)} batches] {t[:70]}")
+    if meta_qs:
+        print(f"\n⚠ {len(meta_qs)} question(s) leak meta/test language into explanations "
+              f"(e.g. 'CARS-style', 'public judgment'):")
+        for qid in meta_qs:
+            print(f"    {qid}")
     if recycled_batches:
         print(f"\n⛔ {len(recycled_batches)} batch(es) REUSE the same distractors across questions "
               f"(questions become trivially answerable — regenerate, do not import):")
@@ -242,8 +293,9 @@ def main():
               f"(rewrite by hand for passage-specific reasoning):")
         for qid in flagged:
             print(f"    {qid}")
-    if not (recycled_batches or mismatch or flagged):
-        print("\nNo recycled distractors, letter mismatches, or boilerplate detected.")
+    if not (recycled_batches or mismatch or flagged or passage_slop_batches or cross or meta_qs):
+        print("\nNo passage slop, template reuse, recycled distractors, letter "
+              "mismatches, meta-language, or boilerplate detected.")
     print(f"\nOutput: {'in place' if args.in_place else out_dir}")
 
 
