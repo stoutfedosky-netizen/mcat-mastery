@@ -34,6 +34,23 @@ TELLS = [
     " rather than preserving the author's emphasis on context, limits, and judgment",
 ]
 
+# Regex forms of the same "tell": generators keep appending a meta-critique
+# clause to wrong-answer CHOICE text with topic-parameterized wording, so exact
+# strings in TELLS miss them. These strip a trailing appended clause (leading
+# whitespace through end of string) regardless of the topic noun it names.
+TELL_PATTERNS = [
+    r"\s+and would make the (?:essay|author).*$",
+    r"\s+because it converts a conditional warning .*$",
+    r"\s+because it treats one pressure .*$",
+    r"\s+because it moves the issue .*$",
+    r"\s+and overlooks the passage.s effort .*$",
+    r"\s+rather than preserving the author.s emphasis .*$",
+    r"\s+by flattening the passage.s tension .*$",
+    r"\s+while treating a qualified contrast .*$",
+    r"\s+in a way that ignores the passage.s .*$",
+    r"\s+and therefore misses the author.s distinction .*$",
+]
+
 # Substrings that mark a non-specific, boilerplate explanation worth flagging.
 BOILERPLATE = [
     "This option is tempting because it uses language related",
@@ -109,13 +126,18 @@ def clean_batch(d):
                 stats["hoisted"] += 1
         # normalize choices to {label: text}
         q["choices"] = normalize_choices(q.get("choices"))
-        # 2. strip tells from choice text
+        # 2. strip tells from choice text (literal phrases + parameterized patterns)
         for lab, txt in list(q["choices"].items()):
             new = txt
             for t in TELLS:
                 if t in new:
                     new = new.replace(t, "")
                     stats["tells"] += 1
+            for pat in TELL_PATTERNS:
+                new2 = re.sub(pat, "", new)
+                if new2 != new:
+                    stats["tells"] += 1
+                    new = new2
             q["choices"][lab] = new.rstrip()
         # 3. difficulty
         nd = norm_difficulty(q.get("difficulty"))
