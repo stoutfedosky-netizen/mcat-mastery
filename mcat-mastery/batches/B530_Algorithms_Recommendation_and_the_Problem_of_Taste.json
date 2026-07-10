@@ -1,0 +1,162 @@
+{
+  "batch": "B530",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Algorithms, Recommendation and the Problem of Taste",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_b530_q0",
+      "passage": "Recommendation algorithms have made taste feel both more personal and less one's own. A film appears because people like you liked it; a song arrives because your recent listening suggests a mood; a book is offered because its metadata resembles another book you finished. The result can be delightful. The shelves of the world are too crowded for unaided browsing, and even the proudest reader or listener benefits from a guide. But algorithmic recommendation changes the meaning of discovery by making surprise statistically prepared.\n\nTraditional taste was never pure autonomy. Friends, critics, teachers, shopkeepers, radio programmers, and accidents of geography have always shaped what people encounter. Nostalgia for an unmediated self who simply chooses is therefore misplaced. The difference is not mediation versus freedom, but the kind of mediation and the story it tells about the person being mediated. A friend's recommendation says, perhaps wrongly, I know you. An algorithm says, more efficiently, you resemble a pattern.\n\nThe danger is not that patterns are false. They are often useful. Someone who has read three novels about exile may well want a fourth. The danger is that pattern can be mistaken for depth. Taste includes repetition, but it also includes aspiration, embarrassment, rebellion, fatigue, and the desire to become someone slightly different from the person one's past behavior describes. A system that learns from preference may underserve the part of taste that wishes to be surprised out of preference.\n\nDesigners try to solve this by adding randomness, diversity sliders, or recommendations labeled 'outside your usual choices.' Yet even curated randomness can become another mode of management. The user is invited to feel adventurous within boundaries already calculated as tolerable. This does not make the adventure worthless, but it does make it peculiar. The wilderness has been safety-tested.\n\nThis concern extends beyond entertainment. When recommendations shape news, learning, or political information, the issue is not only whether the system predicts satisfaction but whether it narrows the occasions for becoming unsettled. The author does not imagine that older forms of discovery were innocent; critics and teachers also guided attention. But human mediation often includes misfires, enthusiasms, and arguments that resist prediction. Those awkward encounters can enlarge taste precisely because they are not optimized for immediate fit.\n\nThe author is most skeptical when recommendation becomes self-confirmation disguised as discovery. A person may feel adventurous because a platform offers a slightly unfamiliar film, yet the unfamiliarity has already been calculated as safe. That does not make the film bad, nor does it make the platform useless. It means that curated surprise differs from the more awkward surprise produced by another person's enthusiasm, a mistaken purchase, or a book encountered without explanation. Taste needs some encounters whose value is not predicted in advance.\n\nThe most interesting response is not to reject algorithms but to make their authority more modest. A recommendation should be treated as a beginning of attention, not as evidence that one's taste has been known. Users need friction as well as convenience: ways to browse without explanation, to follow a friend's eccentric enthusiasm, to choose a book because the title irritates them, to enter a cinema without knowing whether the film is 'for' them. Taste grows by confirming patterns and by disobeying them. The algorithm can help with the first task. It should not be allowed to monopolize the second.",
+      "usePrevPassage": false,
+      "stem": "Which statement best captures the central argument of the passage?",
+      "choices": {
+        "A": "The passage argues that algorithms should be abandoned because any mediation corrupts authentic choice.",
+        "B": "The passage claims that algorithmic prediction is useless because people's preferences never repeat.",
+        "C": "The passage suggests that older critics and teachers offered perfectly innocent forms of discovery.",
+        "D": "Recommendation algorithms can help organize abundance, but they risk mistaking patterns of past preference for the full range of a person's developing taste."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The author rejects nostalgia for unmediated choice and says algorithms can be useful. The concern is authority and narrowing, not mediation itself.  This reading would make the essay's position cleaner than it is. The author instead uses the examples to keep recommendations under judgment rather than simply accepting or rejecting it.",
+        "B": "The author admits patterns are often useful; someone who liked three exile novels may want a fourth. Repetition is real but incomplete.  A student might choose this by noticing a nearby term in the passage, but the relation among the ideas is different: the author is testing limits, not announcing pure autonomy, perfect prediction, or rejection of algorithms.",
+        "C": "The author explicitly says older mediation was not innocent. Human guides also shaped attention.  The option misses the passage's central movement from usefulness to qualification. It treats one part of the discussion as though it cancelled the rest.",
+        "D": "Correct. The answer captures the passage's balanced critique: algorithms are useful guides, but taste includes aspiration, rebellion, fatigue, and surprise beyond past data. This fits the passage because its argument repeatedly turns on useful guidance kept modest before changing taste, not on a one-sided rule about recommendations."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b530_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The comparison between a friend's recommendation and an algorithm's recommendation primarily highlights:",
+      "choices": {
+        "A": "different stories about the person being guided: being known individually versus resembling a pattern.",
+        "B": "the fact that friends are always more accurate than algorithms at predicting enjoyment.",
+        "C": "the idea that human recommendations are unmediated while algorithmic ones are artificial.",
+        "D": "the claim that algorithms imitate friendship so completely that the difference no longer matters."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The comparison shifts the issue away from whether guidance exists and toward what form of guidance does to self-understanding. The wording also preserves the essay's characteristic balance: it recognizes a real value while marking the point at which that value can mislead.",
+        "B": "The passage does not make accuracy the main issue. It contrasts the kind of mediation and the story each tells.  The option misses the passage's central movement from usefulness to qualification. It treats one part of the discussion as though it cancelled the rest.",
+        "C": "Both are forms of mediation. The author rejects mediation versus freedom as the relevant distinction.  The passage leaves room for a narrower version of this thought, but not for the broader conclusion stated here; its emphasis remains on useful guidance kept modest before changing taste.",
+        "D": "The passage stresses the difference between personal address and statistical resemblance.  This reading would make the essay's position cleaner than it is. The author instead uses the examples to keep recommendations under judgment rather than simply accepting or rejecting it."
+      },
+      "topic": "Function of a Comparison",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b530_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What does the passage imply about 'curated randomness'?",
+      "choices": {
+        "A": "It solves the recommendation problem by restoring pure accident to digital discovery.",
+        "B": "It may broaden options somewhat, but it can still keep adventure within boundaries already calculated as tolerable.",
+        "C": "It is worthless because users never enjoy anything outside their usual choices.",
+        "D": "It proves that algorithms understand aspiration more deeply than human critics do."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage says even curated randomness can become another mode of management. It is not pure accident.  The option misses the passage's central movement from usefulness to qualification. It treats one part of the discussion as though it cancelled the rest.",
+        "B": "Correct. The wilderness has been safety-tested. The phrase implies that diversification tools can remain inside the system's management of tolerable surprise. That balance is crucial, since the author generally resists both outright rejection and uncritical approval.",
+        "C": "The author does not deny that such features can be worthwhile; the adventure is peculiar, not valueless.  This reading would make the essay's position cleaner than it is. The author instead uses the examples to keep recommendations under judgment rather than simply accepting or rejecting it.",
+        "D": "The passage remains cautious about algorithmic authority. It does not credit algorithms with deep understanding of aspiration.  A student might choose this by noticing a nearby term in the passage, but the relation among the ideas is different: the author is testing limits, not announcing pure autonomy, perfect prediction, or rejection of algorithms."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b530_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which scenario would best exemplify the author's preferred response to recommendations?",
+      "choices": {
+        "A": "A reader uses algorithmic suggestions as starting points but also follows a friend's eccentric enthusiasm and browses unexplained shelves.",
+        "B": "A listener accepts only songs predicted with high confidence because strong patterns reveal authentic taste.",
+        "C": "A viewer disables every recommendation system because guided discovery cannot be genuine.",
+        "D": "A news platform narrows articles to those most likely to satisfy each user's prior behavior."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This behavior combines convenience with friction. It lets recommendations begin attention without monopolizing discovery. This fits the passage because its argument repeatedly turns on useful guidance kept modest before changing taste, not on a one-sided rule about recommendations.",
+        "B": "This grants the algorithm the authority the author wants to make more modest.  This reading would make the essay's position cleaner than it is. The author instead uses the examples to keep recommendations under judgment rather than simply accepting or rejecting it.",
+        "C": "The author does not advocate rejection. The response is to limit authority, not abolish guidance.  A student might choose this by noticing a nearby term in the passage, but the relation among the ideas is different: the author is testing limits, not announcing pure autonomy, perfect prediction, or rejection of algorithms.",
+        "D": "This illustrates the narrowing danger, especially when recommendations shape political or learning contexts.  The option misses the passage's central movement from usefulness to qualification. It treats one part of the discussion as though it cancelled the rest."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b530_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward algorithms is best described as:",
+      "choices": {
+        "A": "hostile, because algorithmic mediation is fundamentally less legitimate than all human mediation.",
+        "B": "pragmatic but wary of allowing prediction to define taste too completely.",
+        "C": "celebratory, because algorithms finally free people from the limits of critics and geography.",
+        "D": "nostalgic, because older browsing habits are treated as morally pure."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage says human mediation also shaped attention and was not innocent. The worry is not algorithmic mediation as such.  This reading would make the essay's position cleaner than it is. The author instead uses the examples to keep recommendations under judgment rather than simply accepting or rejecting it.",
+        "B": "Correct. The author grants usefulness while insisting that prediction should not be mistaken for knowledge of a person's whole developing taste. The wording also preserves the essay's characteristic balance: it recognizes a real value while marking the point at which that value can mislead.",
+        "C": "The author recognizes abundance and usefulness but worries about narrowed occasions for being unsettled.  The option misses the passage's central movement from usefulness to qualification. It treats one part of the discussion as though it cancelled the rest.",
+        "D": "The passage explicitly rejects nostalgia for an unmediated self and innocent older discovery.  The passage leaves room for a narrower version of this thought, but not for the broader conclusion stated here; its emphasis remains on useful guidance kept modest before changing taste."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b530_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which finding would most strengthen the passage's concern?",
+      "choices": {
+        "A": "Many users report satisfaction when recommendations resemble things they previously liked.",
+        "B": "Recommendation systems sometimes misclassify books because metadata is incomplete.",
+        "C": "Users exposed only to high-fit recommendations later choose fewer unfamiliar genres than users who also encounter unexplained recommendations from other people.",
+        "D": "Critics and teachers often disagree about which works deserve attention."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author accepts that pattern-based suggestions can satisfy. Satisfaction alone does not address growth or narrowed taste.  A student might choose this by noticing a nearby term in the passage, but the relation among the ideas is different: the author is testing limits, not announcing pure autonomy, perfect prediction, or rejection of algorithms.",
+        "B": "Technical error is not the passage's central concern. Even accurate prediction can narrow aspiration.  The option misses the passage's central movement from usefulness to qualification. It treats one part of the discussion as though it cancelled the rest.",
+        "C": "Correct. The finding directly supports the worry that optimizing fit may reduce the encounters through which taste changes. That balance is crucial, since the author generally resists both outright rejection and uncritical approval.",
+        "D": "This supports the complexity of human mediation but does not directly show algorithmic narrowing of taste.  This reading would make the essay's position cleaner than it is. The author instead uses the examples to keep recommendations under judgment rather than simply accepting or rejecting it."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b530_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The final paragraph suggests that taste grows through:",
+      "choices": {
+        "A": "the steady refinement of recommendations until surprise is unnecessary.",
+        "B": "rejecting all guidance so the self can choose without influence.",
+        "C": "both confirmation of patterns and disobedience to them.",
+        "D": "selecting only works that can be justified by a known preference profile."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The final paragraph argues for friction and encounters not predicted in advance, not for eliminating surprise.  The option misses the passage's central movement from usefulness to qualification. It treats one part of the discussion as though it cancelled the rest.",
+        "B": "The passage rejects the fantasy of unmediated choice. Guidance remains useful when its authority is modest.  The passage leaves room for a narrower version of this thought, but not for the broader conclusion stated here; its emphasis remains on useful guidance kept modest before changing taste.",
+        "C": "Correct. The final sentence distinguishes the algorithm's helpful first task from the second task it should not monopolize. Taste needs both pattern and departure. This fits the passage because its argument repeatedly turns on useful guidance kept modest before changing taste, not on a one-sided rule about recommendations.",
+        "D": "That would let past behavior monopolize taste, exactly what the author resists.  A student might choose this by noticing a nearby term in the passage, but the relation among the ideas is different: the author is testing limits, not announcing pure autonomy, perfect prediction, or rejection of algorithms."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    }
+  ]
+}
