@@ -1,0 +1,162 @@
+{
+  "batch": "B516",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Applause, Performance and Public Judgment",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 1,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_applause_performance_and_public_judgment_516_q0",
+      "passage": "Applause is often treated as the simplest of public judgments. Hands meet, sound rises, and a performer receives the verdict of the room. Yet applause is more complicated than approval made audible. It is a social act disguised as a spontaneous reaction. People applaud because they are moved, because others have begun, because silence would be rude, because the ritual demands closure, or because they hope to become the kind of audience that recognizes excellence when it appears.\n\nThis ambiguity does not make applause false. Social acts are not false merely because they are learned. A child must be taught when to clap, but the adult who claps at the end of a funeral hymn may express grief more honestly through the convention than through any private gesture invented on the spot. Convention gives feeling a public shape. The problem begins only when the shape is mistaken for the feeling itself.\n\nPerformers understand this better than critics often do. A thunderous standing ovation can be gratifying and useless at once, especially when the audience rose because rising had become contagious. A small, delayed burst of applause after a difficult piece may reveal more attentive listening than immediate noise. Some of the most important responses are nearly inaudible: the held breath before the final note fades, the refusal to cough during a quiet passage, the slow return of movement after a scene has unsettled the room. Public judgment includes more than its loudest signal.\n\nThe modern economy of ratings has made applause easier to count and harder to interpret. Stars, likes, views, and instant comments promise a democratic record of reception. They also detach response from the shared time in which response acquires texture. A five-star rating cannot tell whether a reader was challenged, comforted, flattered, or merely relieved that a book confirmed an existing opinion. Quantification does not destroy judgment, but it tempts us to confuse volume with attention.\n\nThere are occasions when volume matters. A protest chant, a stadium roar, or applause for a censored speaker may depend on collective noise for its force. But even then, sound is meaningful because of the situation that gives it risk or direction. The same decibel level can be courage in one room and conformity in another. What matters is not whether the response is collective, but whether collectivity has sharpened perception or replaced it.\n\nApplause, then, should be understood less as a verdict than as the beginning of interpretation. It tells us that something has happened between performer and audience, but not yet what happened. The critic's task is not to ignore the sound of the room, nor to obey it, but to ask what kind of listening produced it.\n\nFor that reason, the most honest account of reception may include posture, timing, and hesitation alongside the final sound that reaches the lobby.",
+      "usePrevPassage": false,
+      "stem": "Which statement best summarizes the passage?",
+      "choices": {
+        "A": "Applause needs interpretation of the listening that produced it.",
+        "B": "Applause is unreliable because audiences usually imitate one another rather than judge independently.",
+        "C": "Modern ratings are inferior to traditional applause because they lack emotional authenticity.",
+        "D": "Critics should disregard audience response in order to preserve independent judgment."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author does not dismiss applause; he argues that it is a social signal needing interpretation. The final paragraph states that the critic should ask what kind of listening produced the sound.",
+        "B": "Imitation is one cause of applause, but the author does not reduce applause to imitation or declare it generally unreliable.",
+        "C": "Ratings are criticized for flattening response, but traditional applause is also ambiguous. Authenticity is not simply assigned to the older form.",
+        "D": "The author says critics should neither ignore nor obey the room, but interpret it."
+      },
+      "topic": "Applause, Performance and Public Judgment",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_applause_performance_and_public_judgment_516_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The funeral hymn example supports the claim that",
+      "choices": {
+        "A": "convention can express feeling rather than merely suppress it.",
+        "B": "applause is inappropriate outside artistic performances.",
+        "C": "private gestures are usually more honest than public rituals.",
+        "D": "children understand social rituals less sincerely than adults."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The adult's conventional clapping may express grief more honestly than an invented private gesture. This shows that learned forms can give feeling a public shape.",
+        "B": "The example involves a funeral hymn to broaden applause beyond entertainment, not to forbid it there.",
+        "C": "The passage argues the opposite: private invention is not automatically more honest than convention.",
+        "D": "The child example concerns learning when to clap, not comparative sincerity."
+      },
+      "topic": "Applause, Performance and Public Judgment",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_applause_performance_and_public_judgment_516_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would most likely view a delayed, modest applause after a difficult piece as",
+      "choices": {
+        "A": "a sign that the audience failed to understand the work's emotional force.",
+        "B": "an inferior response because it lacks the collective energy of a standing ovation.",
+        "C": "proof that the piece should be judged by critics rather than audiences.",
+        "D": "possibly evidence of more attentive listening than a louder immediate ovation."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Delay may indicate reflection, not failure.",
+        "B": "Collective energy can matter in some contexts, but loudness alone is not the standard.",
+        "C": "The passage invites critics to interpret audience response; it does not transfer judgment entirely away from audiences.",
+        "D": "Correct. The passage explicitly contrasts thunderous but contagious ovation with small, delayed applause that may reveal attentive listening. The point is that timing and texture matter."
+      },
+      "topic": "Applause, Performance and Public Judgment",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_applause_performance_and_public_judgment_516_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The discussion of stars, likes, and views primarily shows that",
+      "choices": {
+        "A": "digital audiences are less capable of serious judgment than live audiences.",
+        "B": "democratic reception should replace professional criticism.",
+        "C": "measurable responses can obscure the quality of attention behind them.",
+        "D": "quantified ratings are useless for evaluating popularity."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author does not attack digital audiences as inferior people; the critique concerns what the metrics can and cannot show.",
+        "B": "The passage does not advocate replacing criticism with reception data.",
+        "C": "Correct. The author says ratings promise a record of reception but cannot reveal whether response involved challenge, comfort, flattery, or relief. The problem is interpretive flattening.",
+        "D": "Ratings can measure popularity or volume; the problem is confusing those measures with attention or judgment."
+      },
+      "topic": "Applause, Performance and Public Judgment",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_applause_performance_and_public_judgment_516_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which example would best illustrate the author's distinction between volume and attention?",
+      "choices": {
+        "A": "A crowd boos a politician because the first row begins booing.",
+        "B": "A theater posts online ratings so patrons can compare productions before buying tickets.",
+        "C": "A conductor asks the audience to hold applause between movements.",
+        "D": "A cameo gets cheers while a monologue gets quiet attention."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This illustrates contagion, but it does not as clearly contrast volume with a quieter form of attention.",
+        "B": "Online ratings connect to quantification, not specifically to attention versus volume within a performance.",
+        "C": "Holding applause concerns convention and timing, but not the contrast between loud approval and attentive listening.",
+        "D": "Correct. The celebrity outburst shows volume, while quiet absorption during the monologue shows attention that may not be loud. The example directly separates noise from depth of response."
+      },
+      "topic": "Applause, Performance and Public Judgment",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_applause_performance_and_public_judgment_516_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward collective responses is best described as",
+      "choices": {
+        "A": "skeptical: they are almost always forms of conformity.",
+        "B": "celebratory: they reveal democratic judgment more directly than criticism.",
+        "C": "conditional: they can either sharpen perception or replace it.",
+        "D": "neutral: their meaning depends only on how loud they are."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author identifies conformity as one possibility, not as the usual essence of collective response.",
+        "B": "Democratic reception is not celebrated as more direct; it still requires interpretation.",
+        "C": "Correct. The passage explicitly says the issue is whether collectivity sharpens perception or replaces it. Protest chants and applause for censored speakers show that collective noise can be meaningful when context gives it force.",
+        "D": "The entire passage argues that loudness alone is insufficient."
+      },
+      "topic": "Applause, Performance and Public Judgment",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_applause_performance_and_public_judgment_516_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage assumes that public judgment is",
+      "choices": {
+        "A": "valid only when individuals respond independently of the crowd.",
+        "B": "expressed through social forms requiring interpretation.",
+        "C": "more accurate when converted into numerical data.",
+        "D": "essentially private despite appearing in public rituals."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author does not require independence; some collective responses can be courageous or perceptive.",
+        "B": "Correct. The argument depends on treating applause as a social form that can carry feeling, convention, attention, conformity, or courage. Because its meaning is not self-evident, it must be interpreted.",
+        "C": "Numerical data are useful but limited; the passage resists equating metrics with judgment.",
+        "D": "Public rituals are not mere disguises for private judgments; convention helps create shared expression."
+      },
+      "topic": "Applause, Performance and Public Judgment",
+      "difficulty": "Hard"
+    }
+  ]
+}

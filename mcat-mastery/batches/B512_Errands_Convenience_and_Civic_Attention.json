@@ -1,0 +1,162 @@
+{
+  "batch": "B512",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Errands, Convenience and Civic Attention",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 1,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_errands_convenience_and_civic_attention_512_q0",
+      "passage": "The errand has become an embarrassment. It interrupts work without being leisure, requires movement without promising adventure, and forces attention toward objects too ordinary to dignify with a plan. Buying stamps, replacing a lightbulb, returning a borrowed pan, or standing in line for a prescription: these tasks seem to survive only as small failures of efficiency. The ideal modern life imagines their disappearance. Delivery services, automatic refills, subscription boxes, and digital forms promise to dissolve the errand into a frictionless background, leaving the self free for more meaningful pursuits.\n\nYet the contempt for errands misunderstands what kind of time they occupy. An errand is not important in the way a vocation is important, nor pleasurable in the way a holiday is pleasurable. Its value lies in being a modest obligation that cannot be entirely internalized. One must leave the house, encounter weather, misjudge a queue, notice that a shop has changed hands, or ask a stranger whether this is the right counter. Such moments are not morally transformative; it would be silly to romanticize them. But they form a thin tissue of contact between private intention and public life.\n\nThe older neighborhood errand made this contact visible. A person going to the bakery might also learn that a street was being repaired, that a neighbor's child had returned from school, or that the price of fruit had risen after rain. These bits of information were not news in the grand sense. They were small calibrations, ways of keeping one's picture of the world from being composed entirely indoors. The errand did not create community by magic. It merely placed the body where community could make a claim.\n\nConvenience changes this relation by making the world arrive already filtered. The package on the step bears no trace of the warehouse worker's fatigue, the driver's route, or the closed storefront that once supplied the same object. We gain time, and sometimes we need to. The parent with two jobs is not made freer by being told to preserve the romance of the post office. But when convenience becomes the organizing ideal rather than an occasional mercy, it trains us to experience dependence without encounter.\n\nThe point is not to defend inefficiency for its own sake. Some errands are needless, and some bureaucratic errands are instruments of humiliation. A society that forces the poor to prove eligibility in three different offices has not enriched civic life; it has disguised suspicion as procedure. Still, a life without errands would not simply be streamlined. It would be less exposed to interruption by the ordinary claims of shared space. The errand matters because it reminds us that a self is not only a schedule to be optimized, but a body among other bodies.",
+      "usePrevPassage": false,
+      "stem": "Which statement best captures the author's central argument?",
+      "choices": {
+        "A": "Errands are valuable mainly because they preserve older neighborhood economies.",
+        "B": "Modern convenience should be resisted because it usually exploits workers.",
+        "C": "Bureaucratic errands are the clearest model of civic participation.",
+        "D": "Errands create modest contact between private life and public space."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The bakery example involves neighborhood knowledge, but the author is not primarily making an economic argument for older shops.",
+        "B": "Worker invisibility is one concern, but the passage's broader claim is about dependence without encounter, not a general indictment of convenience as exploitation.",
+        "C": "The passage explicitly criticizes humiliating bureaucratic errands, especially those imposed on the poor, so they cannot be the model of civic participation.",
+        "D": "Correct. The author does not romanticize errands as grand moral experiences, but argues that ordinary tasks place people in public settings where they encounter others, notice changes, and register dependence. The conclusion frames this as a reminder that the self is embodied among others."
+      },
+      "topic": "Errands, Convenience and Civic Attention",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_errands_convenience_and_civic_attention_512_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author mentions the parent with two jobs in order to",
+      "choices": {
+        "A": "argue that only privileged people experience errands as civic contact.",
+        "B": "show that delivery services are morally superior to neighborhood commerce.",
+        "C": "suggest that errands should be assigned according to family structure.",
+        "D": "acknowledge that saved time can be necessary."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The author does not say errands matter only for privileged people; the qualification is about burdens and necessity, not about who can benefit from public contact.",
+        "B": "The sentence does not praise delivery services as morally superior; it only admits that convenience may be needed in particular circumstances.",
+        "C": "Nothing in the passage proposes assigning errands by household type. The parent example is a moral qualification, not a policy scheme.",
+        "D": "Correct. The example prevents the argument from becoming a simple nostalgia for inconvenience. The author recognizes that for some people, eliminating errands is a practical mercy rather than a symptom of civic withdrawal."
+      },
+      "topic": "Errands, Convenience and Civic Attention",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_errands_convenience_and_civic_attention_512_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "As used in the passage, 'small calibrations' most nearly means",
+      "choices": {
+        "A": "formal measurements that reveal whether a neighborhood is economically stable.",
+        "B": "brief social rituals that replace national news with local gossip.",
+        "C": "minor pieces of public knowledge that adjust one's sense of ordinary life.",
+        "D": "habitual errands that make private schedules more efficient over time."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The details are not formal metrics or economic indicators in a technical sense.",
+        "B": "The author distinguishes these observations from grand news but does not reduce them to gossip or replacement news.",
+        "C": "Correct. The phrase refers to noticing repairs, neighbors, and prices: details that keep one's picture of the world from being entirely indoor or abstract. They adjust perception rather than measure society formally.",
+        "D": "The calibrations concern awareness of shared life, not improved personal efficiency."
+      },
+      "topic": "Errands, Convenience and Civic Attention",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_errands_convenience_and_civic_attention_512_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which new situation would most clearly illustrate the author's concern about 'dependence without encounter'?",
+      "choices": {
+        "A": "A commuter takes a longer route to work and discovers a park she had not noticed.",
+        "B": "A tenant must visit multiple offices to prove eligibility for heating assistance.",
+        "C": "A delivery app hides local commerce and labor from the household.",
+        "D": "A neighbor borrows a ladder and returns it after a brief conversation."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The longer route increases exposure to shared space, which is closer to what the author values than to what the author fears.",
+        "B": "The eligibility-office example resembles the bureaucratic humiliation the author explicitly rejects, not the specific problem of convenient dependence made invisible.",
+        "C": "Correct. The grocery app example preserves dependence on labor and commerce while removing contact with the people and places involved. It closely matches the package on the step that hides the worker, route, and closed storefront.",
+        "D": "The ladder exchange is exactly the kind of ordinary encounter the author believes can matter."
+      },
+      "topic": "Errands, Convenience and Civic Attention",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_errands_convenience_and_civic_attention_512_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward errands is best described as",
+      "choices": {
+        "A": "defensive but unsentimental.",
+        "B": "openly nostalgic and celebratory.",
+        "C": "indifferent and procedural.",
+        "D": "hostile to digital services."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author defends errands as a form of civic exposure, but repeatedly avoids romance: errands are not transformative, some are needless, and some are humiliating. That makes the tone defensive but unsentimental.",
+        "B": "The author invokes older neighborhood errands, but warns against romanticizing them and acknowledges genuine burdens.",
+        "C": "The passage is not indifferent; it makes a substantive claim about dependence, bodies, and public life.",
+        "D": "Digital services are criticized when they become an organizing ideal, but the author concedes that convenience can be needed."
+      },
+      "topic": "Errands, Convenience and Civic Attention",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_errands_convenience_and_civic_attention_512_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage implies that an errand differs from leisure because it",
+      "choices": {
+        "A": "usually produces greater satisfaction than chosen recreation.",
+        "B": "requires modest obligation beyond private preference.",
+        "C": "is valuable only when performed in a familiar neighborhood.",
+        "D": "turns public space into a substitute for political participation."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage never claims errands are more satisfying than leisure; their value is not pleasure.",
+        "B": "Correct. The author defines the errand as neither vocation nor holiday; it matters because it is a modest obligation that moves the person into public conditions not fully chosen or controlled.",
+        "C": "Neighborhood errands make the contact visible, but the argument is not limited to familiar places.",
+        "D": "Errands create a thin tissue of contact; the author does not claim they replace politics."
+      },
+      "topic": "Errands, Convenience and Civic Attention",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_errands_convenience_and_civic_attention_512_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which assumption is most necessary to the author's argument?",
+      "choices": {
+        "A": "Ordinary public encounters can shape civic awareness.",
+        "B": "Efficiency is usually less important than tradition in a healthy society.",
+        "C": "People who avoid errands lose the capacity for empathy altogether.",
+        "D": "Local commerce is the only reliable foundation of democratic life."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. If minor, unplanned encounters could not affect awareness, the author's defense of errands as modest civic exposure would collapse. The argument depends on their smallness being compatible with significance.",
+        "B": "The author rejects defending inefficiency for its own sake and does not put tradition above all practical needs.",
+        "C": "This is far stronger than the passage. The author worries about diminished exposure, not total moral incapacity.",
+        "D": "Local commerce appears in examples, but the broader foundation is embodied contact in shared space, not commerce alone."
+      },
+      "topic": "Errands, Convenience and Civic Attention",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "batch": "B517",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Instructions, Manuals and Trust",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_instructions_manuals_and_trust_517_q0",
+      "passage": "The instruction manual is a minor literary form devoted to preventing drama. Its ideal reader never notices its style because nothing goes wrong. The shelf stands level, the printer connects, the medication is taken safely, and the emergency exit opens in the direction indicated. When instructions succeed, they disappear into use. This invisibility partly explains why manuals are mocked: they seem graceless, obvious, and written by committees allergic to rhythm.\n\nYet the plainness of instructions is not the same as simplicity. Good instructions must imagine error without humiliating the person who may commit it. They must decide which details are necessary, which warnings will be ignored if too many are supplied, and how much prior knowledge can be assumed without excluding the novice. A bad manual is not merely unclear; it is socially careless. It transfers the cost of interpretation to the reader and then blames the reader for misunderstanding.\n\nConsider the difference between \"attach bracket A to panel B\" and \"with the finished side of panel B facing down, attach bracket A to the two pre-drilled holes closest to the back edge.\" The second sentence is longer, but it may be kinder. It prevents a mistake before the reader has made it. Concision is valuable only after the writer has understood where confusion is likely to occur. Brevity that ignores predictable confusion is not elegance; it is evasion.\n\nThe ethics of instructions become clearer in settings where misunderstanding carries risk. A hospital discharge sheet that says \"resume normal activity as tolerated\" may be clinically familiar to the professional and nearly useless to the patient. What counts as normal? Does tolerated mean no pain, mild pain, or pain that fades? The phrase protects the writer by sounding reasonable while leaving the reader to negotiate uncertainty alone. Here, ambiguity is not literary richness. It is a burden shifted downward.\n\nStill, there is danger in imagining that every instruction can eliminate judgment. Some tasks require adaptation: a recipe, a rehabilitation exercise, or a disaster plan must meet circumstances the writer cannot fully predict. The best instructions therefore do not pretend to replace judgment. They identify the signs by which judgment should proceed. They say not only what to do, but what to notice.\n\nTrust in instructions is earned when the reader feels that the writer has anticipated confusion honestly. This trust is different from obedience. A trusted manual allows the reader to act with less fear because it has not hidden the difficulty of the action. The worst instructions demand compliance while concealing their assumptions. The best ones are modest acts of hospitality: they prepare a stranger to succeed without making failure feel like a personal defect.\n\nSuch hospitality is especially important because the reader usually meets the manual at a moment of dependence, irritation, or risk rather than calm curiosity.",
+      "usePrevPassage": false,
+      "stem": "Which statement best captures the main claim of the passage?",
+      "choices": {
+        "A": "Instruction manuals should be evaluated mainly as literary works with distinctive styles.",
+        "B": "Good instructions anticipate confusion while guiding judgment.",
+        "C": "Longer instructions are generally more ethical than concise instructions.",
+        "D": "Readers distrust manuals because committees remove personal voice from them."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The opening calls manuals a minor literary form, but the argument evaluates their practical and ethical function, not their style as literature.",
+        "B": "Correct. The passage argues that instructions carry ethical responsibilities: they must foresee error, avoid shifting interpretive burdens, and tell readers what to notice when judgment is needed.",
+        "C": "The bracket example says longer can be kinder, but only when length prevents predictable confusion. Length itself is not the standard.",
+        "D": "Committee prose is mentioned as a reason manuals are mocked, not as the explanation for trust or distrust."
+      },
+      "topic": "Instructions, Manuals and Trust",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_instructions_manuals_and_trust_517_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The hospital discharge example is used to show that",
+      "choices": {
+        "A": "medical instructions are usually less clear than consumer-product instructions.",
+        "B": "patients should rely on personal judgment rather than written directions.",
+        "C": "clinical terms are unethical whenever nonprofessionals encounter them.",
+        "D": "professional ambiguity can leave readers unsafe."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The passage does not compare medicine and furniture assembly as categories of clarity.",
+        "B": "The author wants instructions to guide judgment, not to make patients rely only on themselves.",
+        "C": "Clinical language is not condemned wholesale; the problem is unclarified ambiguity where stakes are high.",
+        "D": "Correct. The phrase 'resume normal activity as tolerated' sounds reasonable to clinicians but leaves patients unsure how to act. The author uses it to show ambiguity shifting risk onto the reader."
+      },
+      "topic": "Instructions, Manuals and Trust",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_instructions_manuals_and_trust_517_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "What does the author mean by saying that a bad manual is 'socially careless'?",
+      "choices": {
+        "A": "It fails to use an engaging tone that would make the task enjoyable.",
+        "B": "It shifts likely misunderstanding onto the reader.",
+        "C": "It includes too many warnings for readers to remember accurately.",
+        "D": "It assumes society no longer values practical competence."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Style matters only insofar as it aids use; entertainment is not the author's concern.",
+        "B": "Correct. The passage defines social care in instructions as imagining error, deciding what can be assumed, and not humiliating novices. Carelessness transfers interpretive cost to the reader.",
+        "C": "Too many warnings can be a problem, but the phrase 'socially careless' has a broader meaning about burden and assumptions.",
+        "D": "The author makes no cultural-decline argument about competence."
+      },
+      "topic": "Instructions, Manuals and Trust",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_instructions_manuals_and_trust_517_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which instruction would the author most likely consider best?",
+      "choices": {
+        "A": "Stop if pain travels below the knee or worsens after rest.",
+        "B": "Exercise normally, but use common sense if discomfort becomes unusual.",
+        "C": "Perform the movement exactly as shown unless circumstances require otherwise.",
+        "D": "Do the activity as tolerated and contact someone if you have concerns."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This instruction gives signs by which judgment should proceed. It does not pretend to eliminate judgment, but it tells the reader what to notice and when to act.",
+        "B": "'Common sense' and 'unusual' leave the reader with the ambiguity the passage criticizes.",
+        "C": "This sounds precise while admitting exceptions without explaining how to recognize them.",
+        "D": "'As tolerated' and 'concerns' repeat the vague medical language criticized in the passage."
+      },
+      "topic": "Instructions, Manuals and Trust",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_instructions_manuals_and_trust_517_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The bracket-and-panel example illustrates the author's view that concision",
+      "choices": {
+        "A": "matters only after predictable confusion is addressed.",
+        "B": "should be avoided because readers prefer detailed reassurance.",
+        "C": "matters less in furniture assembly than in medical settings.",
+        "D": "is primarily a stylistic virtue rather than an ethical one."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author says the longer sentence may be kinder because it prevents an error. Brevity becomes evasion when it ignores predictable confusion.",
+        "B": "The author does not reject concise instructions; concision remains valuable after the writer understands likely confusion.",
+        "C": "The example establishes a general principle later sharpened by medical risk; it is not a hierarchy of settings.",
+        "D": "The passage treats concision as ethically relevant because omissions can shift burdens to readers."
+      },
+      "topic": "Instructions, Manuals and Trust",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_instructions_manuals_and_trust_517_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's distinction between trust and obedience suggests that",
+      "choices": {
+        "A": "trusted instructions are those that require no judgment from the reader.",
+        "B": "obedience is always dangerous in practical tasks.",
+        "C": "manuals should be written so readers can ignore them if desired.",
+        "D": "visible limits and assumptions can make readers more confident."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The passage says some tasks require adaptation and judgment; trusted instructions guide rather than abolish it.",
+        "B": "Obedience is not condemned in all cases; the problem is demanded compliance with concealed assumptions.",
+        "C": "The goal is not optionality, but informed action.",
+        "D": "Correct. The final paragraph says trusted manuals let readers act with less fear because they do not hide the difficulty of action. Trust comes from honest anticipation, not blind compliance."
+      },
+      "topic": "Instructions, Manuals and Trust",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_instructions_manuals_and_trust_517_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which assumption is most central to the passage?",
+      "choices": {
+        "A": "Readers usually prefer to blame themselves rather than question unclear instructions.",
+        "B": "Every practical task can be described completely if the writer is patient enough.",
+        "C": "instruction writing is ethically responsible because readers depend on it.",
+        "D": "The best manuals are written by people who have personally failed at the task."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Self-blame may occur, but the passage does not rely on a general psychology of readers.",
+        "B": "The passage explicitly says some tasks require adaptation and cannot be fully predicted.",
+        "C": "Correct. The argument treats choices about detail, warning, assumed knowledge, and signs for judgment as ethical because they affect whether readers can succeed safely and without humiliation.",
+        "D": "Experience with failure might help, but the passage does not require it as the basis of good instructions."
+      },
+      "topic": "Instructions, Manuals and Trust",
+      "difficulty": "Hard"
+    }
+  ]
+}

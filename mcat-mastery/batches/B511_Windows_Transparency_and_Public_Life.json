@@ -1,0 +1,162 @@
+{
+  "batch": "B511",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Windows, Transparency and Public Life",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 1,
+    "B": 2,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_windows_transparency_and_public_life_511_q0",
+      "passage": "A window is often praised as an ethical object. It promises openness: light crosses a boundary, and the person inside is spared the claustrophobia of a sealed room. Modern public buildings have taken this promise almost literally. City halls, libraries, schools, and museums wrap themselves in glass as if transparency could migrate from material to institution. The building seems to say that nothing important is hidden here. Yet a wall made of windows is still a wall, and the moral vocabulary attached to glass can obscure as much as it reveals.\n\nThe difficulty is not that windows are deceptive. A window genuinely changes a room. It admits weather as a visual fact, makes time legible through shifting light, and reminds occupants that their activity belongs to a larger world. But the window also arranges a relation between viewer and viewed. Looking out is not the same as participating; being seen is not the same as being known. A courtroom with a glass facade may look more democratic than one of stone, but its procedures remain opaque to anyone who lacks the language, money, or patience to navigate them.\n\nThis is why the architectural enthusiasm for transparency can become sentimental. It confuses access to surfaces with access to power. The passerby can see the council chamber, perhaps even the silhouettes of officials moving inside, but visibility itself does not explain how decisions were framed, which alternatives were discarded, or whose absence made the debate easier. Glass may dramatize accountability, but it cannot produce it by itself. The same problem appears in corporate offices that use open-plan layouts and interior windows to signal collaboration while preserving the hierarchies that determine whose interruptions count as ideas and whose are treated as noise.\n\nNone of this requires rejecting windows. The better lesson is that transparency is a beginning, not a proof. A window can invite curiosity, create a modest obligation to explain, and make secrecy more difficult to naturalize. It can also become a decorative substitute for explanation. The difference depends on whether the institution treats visibility as a prompt for further disclosure or as the disclosure itself.\n\nOld houses sometimes understand this better than new monuments. Their windows are placed for cross-breezes, winter sun, or a view of the road where neighbors approach. They do not pretend to make domestic life morally pure. They simply acknowledge that private life is improved by selected contact with the outside. Public institutions might learn from that humility. A window is most honest when it does not claim to abolish boundaries, but helps us notice which boundaries remain.\n\nA useful transparency, in other words, makes its own incompleteness visible. It invites the viewer to ask for the rules, records, and explanations that glass alone cannot supply.",
+      "usePrevPassage": false,
+      "stem": "Which statement best expresses the passage's main claim?",
+      "choices": {
+        "A": "Windows can encourage openness, but they should not be mistaken for accountability itself.",
+        "B": "Glass buildings usually conceal institutional power more effectively than solid buildings do.",
+        "C": "Public architecture should abandon transparency because it makes citizens complacent.",
+        "D": "Old houses are more ethical than public buildings because their windows are functional."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author values what windows can do, but argues that visibility is only a prompt toward accountability, not a guarantee of it. The final sentence crystallizes this: windows are honest when they reveal that boundaries remain rather than pretending to abolish them.",
+        "B": "This overstates the critique. The author does not say glass is usually more deceptive than stone; the problem is the moral claim attached to glass when visibility is treated as sufficient.",
+        "C": "The passage explicitly says rejecting windows is not required. The author wants transparency to be supplemented by explanation, not abandoned as a public value.",
+        "D": "The old-house example illustrates humility about boundaries; it is not a ranking of houses above civic buildings or a claim that function alone makes architecture ethical."
+      },
+      "topic": "Windows, Transparency and Public Life",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_windows_transparency_and_public_life_511_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's discussion of courtrooms and city halls primarily serves to show that",
+      "choices": {
+        "A": "legal institutions are less transparent than corporate institutions by design.",
+        "B": "visual access does not necessarily make institutional processes intelligible.",
+        "C": "citizens usually prefer symbolic openness to meaningful participation.",
+        "D": "architecture determines whether public decisions become democratic."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage mentions corporate offices later for a parallel problem, not to compare legal and corporate institutions on a scale of transparency.",
+        "B": "Correct. The courtroom example distinguishes seeing a public setting from understanding its procedures. The point is that a person may look into the chamber yet still lack the language or resources needed to grasp how authority is exercised.",
+        "C": "The author criticizes institutions that offer symbolism in place of explanation, but does not claim citizens prefer that substitute.",
+        "D": "Architecture can signal or invite openness, but the author repeatedly denies that material design by itself determines political accountability."
+      },
+      "topic": "Windows, Transparency and Public Life",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_windows_transparency_and_public_life_511_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The phrase 'access to surfaces' most nearly refers to",
+      "choices": {
+        "A": "having permission to enter a building without being stopped by security.",
+        "B": "visible surfaces without procedural understanding.",
+        "C": "using glass to eliminate the distinction between public and private space.",
+        "D": "replacing complex political questions with purely aesthetic judgments."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Physical entry is not the central issue in the paragraph; the example concerns what visual access does and does not reveal.",
+        "B": "Correct. In context, the passerby can see council chambers and silhouettes but not the framing of decisions or excluded alternatives. 'Surfaces' therefore means visible appearances separated from deeper procedural knowledge.",
+        "C": "The author argues that boundaries remain, not that glass actually eliminates them. The phrase marks a limitation of visibility, not the abolition of privacy.",
+        "D": "Aesthetics matter in the discussion, but 'access to surfaces' specifically contrasts visible signs with hidden decision-making processes."
+      },
+      "topic": "Windows, Transparency and Public Life",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_windows_transparency_and_public_life_511_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which institutional practice would the author most likely approve of?",
+      "choices": {
+        "A": "A fully enclosed city office that refuses visual display in order to avoid symbolic transparency.",
+        "B": "A courthouse atrium designed so visitors can watch officials but not interrupt their work.",
+        "C": "A corporate office with interior glass walls and no formal channels for lower-ranked workers to challenge decisions.",
+        "D": "A glass-walled school board room that posts agendas, rejected proposals, and plain-language explanations of votes."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The author does not favor avoiding visibility; the critique is of visibility mistaken for accountability, not of openness itself.",
+        "B": "Watching officials without access to procedure repeats the passage's concern that seeing is not the same as understanding or participating.",
+        "C": "The corporate example is criticized because visible openness can coexist with unchanged hierarchies. This option preserves that problem rather than correcting it.",
+        "D": "Correct. This option treats visibility as a prompt for explanation. The added agendas and rejected proposals address precisely what the author says glass alone cannot reveal: how alternatives are framed and decisions are made."
+      },
+      "topic": "Windows, Transparency and Public Life",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_windows_transparency_and_public_life_511_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's tone toward architectural transparency is best described as",
+      "choices": {
+        "A": "dismissive hostility.",
+        "B": "unreserved admiration.",
+        "C": "nostalgic regret.",
+        "D": "cautiously appreciative."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The passage says a window genuinely changes a room and can invite curiosity, so the tone is not hostile.",
+        "B": "The critique of sentimental transparency and decorative substitution rules out unreserved admiration.",
+        "C": "The old-house example is not mainly nostalgic; it is used analytically to model a humbler understanding of boundaries.",
+        "D": "Correct. The author repeatedly grants real value to windows while limiting the ethical claims made for them. That mixture of approval and caution is qualified appreciation rather than rejection or celebration."
+      },
+      "topic": "Windows, Transparency and Public Life",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_windows_transparency_and_public_life_511_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which assumption underlies the author's argument about public buildings?",
+      "choices": {
+        "A": "People are more likely to trust institutions when buildings use traditional materials.",
+        "B": "Institutional secrecy is always intentional rather than produced by complexity.",
+        "C": "Accountability requires more than visible decision-makers.",
+        "D": "Citizens cannot interpret political information unless experts translate it for them."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The contrast with old houses does not endorse traditional materials as a trust-building strategy for institutions.",
+        "B": "The passage allows that opacity may arise from language, resources, and procedures; it does not reduce all opacity to deliberate concealment.",
+        "C": "Correct. The author argues that seeing officials does not reveal discarded alternatives, procedures, or absences. That argument depends on the assumption that accountability involves intelligible reasons and processes, not only visual exposure.",
+        "D": "The author calls for explanation, but not because citizens are incapable. The problem is the institution's failure to make processes accessible."
+      },
+      "topic": "Windows, Transparency and Public Life",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_windows_transparency_and_public_life_511_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The final comparison to old houses suggests that public institutions should",
+      "choices": {
+        "A": "model civic design on domestic architecture whenever possible.",
+        "B": "prioritize comfort and climate over symbolic public values.",
+        "C": "acknowledge that openness is selective and incomplete.",
+        "D": "treat privacy as more important than democratic visibility."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author draws a lesson from old houses, but not a literal design prescription for civic buildings.",
+        "B": "Cross-breezes and winter sun are examples of humble function, not an argument that climate concerns outrank public values.",
+        "C": "Correct. Old houses do not pretend to make private life morally pure; they use windows for limited, practical contact. The author wants institutions to adopt that humility about what openness can and cannot accomplish.",
+        "D": "The passage values visibility when properly understood; it does not elevate privacy above democratic openness."
+      },
+      "topic": "Windows, Transparency and Public Life",
+      "difficulty": "Medium"
+    }
+  ]
+}

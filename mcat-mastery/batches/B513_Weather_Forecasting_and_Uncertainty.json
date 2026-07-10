@@ -1,0 +1,162 @@
+{
+  "batch": "B513",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Weather, Forecasting and Uncertainty",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_weather_forecasting_and_uncertainty_513_q0",
+      "passage": "A forecast is one of the few predictions we forgive for being wrong. We may complain when rain arrives under a bright-sun icon, but we rarely conclude that meteorology itself is fraudulent. The forecast occupies a curious moral position: it is expected to guide action without being expected to guarantee the world. A person who carries an umbrella under a twenty percent chance of showers has not been fooled if the day remains dry. He has translated uncertainty into preparedness.\n\nThis distinction is easy to forget because forecasts now arrive in the grammar of precision. A phone displays an hourly probability, a wind speed, a pollen count, and a radar image that seems to show the future approaching block by block. The accumulation of numbers can make uncertainty look like a temporary failure of resolution, as though a better screen or faster satellite would finally remove ambiguity. But the most responsible forecast does not abolish uncertainty. It locates it.\n\nFarmers, sailors, and mountaineers have long understood this. They treat forecasts not as commands but as partners in judgment. A sailor reading a storm advisory also reads the color of the sky, the behavior of the barometer, the condition of the crew, and the cost of delay. The forecast is important precisely because it is not alone. It enters a field of local knowledge and practical consequence. The person who wants prediction to replace judgment has misunderstood both prediction and judgment.\n\nThe problem grows sharper when forecasting becomes a model for other kinds of public knowledge. Economic projections, election probabilities, disease models, and climate scenarios are often judged by the same impatient standard: tell us what will happen. When reality diverges, observers accuse the model of betrayal. But a model may be useful because it clarifies a range of possible outcomes, identifies pressures, or shows what assumptions would have to change. Its value may lie in disciplined uncertainty rather than prophecy.\n\nThis does not excuse careless prediction. Some forecasts hide uncertainty to appear authoritative, and some institutions use probabilities as shields against accountability. A city that ignores a flood warning because the chance is only thirty percent cannot later pretend the warning meant nothing. Conversely, a modeler who presents a speculative scenario as inevitability has borrowed confidence from mathematics without earning it. The ethical task is to make uncertainty usable without making it ornamental.\n\nWe often ask forecasts to rescue us from the discomfort of deciding under incomplete knowledge. They cannot. What they can do is improve the quality of that discomfort. A good forecast does not say, \"The future has been settled.\" It says, \"Here is where the future is more and less constrained, and here is what your decision will depend on.\" In that sense, the forecast is less a failed promise of certainty than a public education in prudence.",
+      "usePrevPassage": false,
+      "stem": "Which claim best summarizes the passage?",
+      "choices": {
+        "A": "Forecasts guide judgment under uncertainty rather than eliminate it.",
+        "B": "Forecasts deserve trust only when they are based on local knowledge rather than mathematical models.",
+        "C": "Modern forecasting has become less reliable because numerical precision has replaced human experience.",
+        "D": "Public models should avoid probabilities because audiences confuse them with guarantees."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author consistently distinguishes useful prediction from guaranteed certainty. Forecasts and models matter because they locate uncertainty and improve judgment, not because they settle the future.",
+        "B": "The sailor example combines forecast data with local knowledge; it does not reject mathematical models in favor of experience alone.",
+        "C": "The passage criticizes the misleading appearance of precision, but it does not say modern forecasts are less reliable overall.",
+        "D": "The problem is not probability itself. The author wants uncertainty made usable and intelligible, not removed from public communication."
+      },
+      "topic": "Weather, Forecasting and Uncertainty",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_weather_forecasting_and_uncertainty_513_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The umbrella example in the first paragraph is used to illustrate that",
+      "choices": {
+        "A": "weather forecasts are less accurate for rain than for other conditions.",
+        "B": "people often overprepare because they misunderstand percentages.",
+        "C": "a prediction can guide action without occurring.",
+        "D": "minor inconveniences make weather prediction morally harmless."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The passage gives no comparison of rain forecasts with other types of weather prediction.",
+        "B": "The umbrella carrier is not portrayed as misunderstanding probability; he is translating uncertainty into a practical response.",
+        "C": "Correct. Carrying an umbrella under a low chance of rain is rational preparedness, not evidence of deception. The example shows that the success of a forecast depends on how it informs action, not solely on whether one outcome occurs.",
+        "D": "The forgiveness of weather forecasts is introduced, but the example's function is about uncertainty and preparedness, not moral harmlessness."
+      },
+      "topic": "Weather, Forecasting and Uncertainty",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_weather_forecasting_and_uncertainty_513_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In saying that a responsible forecast 'locates' uncertainty, the author means that it",
+      "choices": {
+        "A": "identifies the precise place where the prediction is most likely to fail.",
+        "B": "converts vague anxieties into a single numerical probability.",
+        "C": "removes ambiguity by adding more detailed measurements.",
+        "D": "shows variable outcomes and decision-relevant factors."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The author is not talking about a physical location or a single failure point.",
+        "B": "Numbers can help, but the passage warns that accumulated numbers can falsely suggest certainty.",
+        "C": "Adding measurements may improve knowledge, but the author says responsible forecasting does not abolish uncertainty.",
+        "D": "Correct. The final paragraph explains this directly: a good forecast shows where the future is more or less constrained and what decisions depend on. Locating uncertainty means structuring ambiguity, not erasing it."
+      },
+      "topic": "Weather, Forecasting and Uncertainty",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_weather_forecasting_and_uncertainty_513_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which situation would the author most likely regard as a misuse of forecasting?",
+      "choices": {
+        "A": "A hiker delays a trip after combining a weather report with observations of trail conditions.",
+        "B": "A disease model publishes several scenarios based on different assumptions about behavior.",
+        "C": "A farmer plants later than usual after weighing a seasonal forecast against soil conditions.",
+        "D": "A mayor treats a thirty percent flood risk as meaningless."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The hiker uses the forecast as a partner in judgment, which is exactly what the passage praises.",
+        "B": "Multiple scenarios based on assumptions exemplify disciplined uncertainty rather than prophecy.",
+        "C": "The farmer integrates forecast information with local conditions, matching the passage's preferred approach.",
+        "D": "Correct. The passage explicitly says a city cannot treat a thirty percent flood warning as meaningless. The misuse lies in turning probability into an excuse for inaction rather than a guide to risk."
+      },
+      "topic": "Weather, Forecasting and Uncertainty",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_weather_forecasting_and_uncertainty_513_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's discussion of economic projections and disease models broadens the passage by",
+      "choices": {
+        "A": "arguing that scientific models are less trustworthy than weather forecasts.",
+        "B": "showing that the ethics of prediction extend beyond weather.",
+        "C": "claiming that public audiences cannot understand probabilistic reasoning.",
+        "D": "suggesting that all models fail when reality diverges from them."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage does not rank model types by trustworthiness; it identifies a shared misunderstanding.",
+        "B": "Correct. The examples transfer the weather argument to public knowledge more generally. The author uses them to show that forecasts and models should be judged by how they clarify possibilities and assumptions.",
+        "C": "The author criticizes impatient standards and misleading presentation, not the public's inherent inability.",
+        "D": "The passage argues the opposite: divergence does not automatically mean a model has failed."
+      },
+      "topic": "Weather, Forecasting and Uncertainty",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_weather_forecasting_and_uncertainty_513_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which phrase best describes the author's standard for responsible public prediction?",
+      "choices": {
+        "A": "technical precision insulated from ordinary judgment.",
+        "B": "disciplined uncertainty made usable.",
+        "C": "confident prophecy tempered by later correction.",
+        "D": "local intuition supported by minimal data."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author rejects replacing judgment with prediction and criticizes precision that implies false certainty.",
+        "B": "Correct. The passage praises forecasts that clarify ranges, assumptions, and dependencies while admitting uncertainty. That is disciplined uncertainty made usable for decisions.",
+        "C": "The author does not endorse prophecy; presenting speculation as inevitability is specifically criticized.",
+        "D": "Local knowledge matters in examples, but the passage does not reduce responsible prediction to intuition plus minimal data."
+      },
+      "topic": "Weather, Forecasting and Uncertainty",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_weather_forecasting_and_uncertainty_513_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage assumes that uncertainty is ethically important because",
+      "choices": {
+        "A": "presentation of uncertainty shapes decision responsibility.",
+        "B": "uncertain predictions are usually more accurate than confident predictions.",
+        "C": "people prefer ambiguous forecasts because ambiguity preserves freedom.",
+        "D": "models become scientific only when they avoid definite claims."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author links uncertainty to preparedness, accountability, and misuse. A thirty percent warning can impose responsibility, while exaggerated certainty can mislead. The ethical stakes depend on how uncertainty guides action.",
+        "B": "The issue is not whether uncertainty increases accuracy; it is whether it is communicated responsibly.",
+        "C": "The passage does not claim people prefer ambiguity; it says they often want forecasts to rescue them from it.",
+        "D": "Models can make definite claims where appropriate. The author's point is that uncertainty must be represented honestly when it exists."
+      },
+      "topic": "Weather, Forecasting and Uncertainty",
+      "difficulty": "Hard"
+    }
+  ]
+}

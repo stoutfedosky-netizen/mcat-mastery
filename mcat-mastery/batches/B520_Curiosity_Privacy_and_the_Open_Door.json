@@ -1,0 +1,162 @@
+{
+  "batch": "B520",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Curiosity, Privacy and the Open Door",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 1,
+    "C": 2,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_curiosity_privacy_and_the_open_door_520_q0",
+      "passage": "Curiosity has a better reputation than it deserves and a worse one than it can bear. We praise curious children, curious scientists, and curious readers; we distrust curious neighbors, curious employers, and curious strangers on a train. The same impulse that opens knowledge can trespass. This doubleness makes curiosity difficult to govern. Too little of it leaves the world sealed; too much turns other people into exhibits.\n\nThe problem is not solved by saying that good curiosity seeks truth while bad curiosity seeks gossip. Gossip may contain truth, and scientific inquiry may become cruel. Nor is the distinction simply between public and private matters. A public event can be approached with prurience, while a private grief can be discussed with permission, care, and genuine need. Curiosity is ethical less because of its object than because of the relation it establishes with that object.\n\nConsider the open door. In one context, it is an invitation: a teacher leaves an office open so students can ask questions; a neighbor props a door during a block party; a museum opens a storage room for visitors to see conservation work. In another context, the same opening is only an accident, a vulnerability, or a test of restraint. The curious person must decide whether openness has been offered or merely exposed. That decision cannot be outsourced to visibility. The fact that something can be seen does not mean it has been given.\n\nDigital life has made this distinction harder. A photograph posted publicly, a court record searchable online, or an old message preserved in a screenshot may seem to abolish the need for tact. But access is not the same as invitation. The archive of another person's life may be technically open and ethically closed. To insist otherwise is to confuse permission with availability.\n\nStill, privacy should not become a shield against every question. Institutions often call curiosity intrusive when it threatens power. Journalists, historians, and citizens must sometimes ask questions that make subjects uncomfortable. The difference is that accountable curiosity can explain its claim: why the question matters, what harm it risks, and what form of answer would be sufficient. Mere appetite cannot do this. It says only that it wants to know.\n\nCuriosity at its best is disciplined by the possibility of refusal. It approaches the open door not as proof of entitlement, but as an occasion for judgment. Sometimes it steps through; sometimes it knocks; sometimes it walks past. The virtue lies not in wanting to know, but in learning what kind of relation knowing would create.\n\nThis restraint does not make curiosity timid. It makes curiosity answerable to the person or institution it approaches, and to the public need it claims to serve.",
+      "usePrevPassage": false,
+      "stem": "Which statement best captures the passage's main claim?",
+      "choices": {
+        "A": "Curiosity should be encouraged in public life but discouraged in private relationships.",
+        "B": "The pursuit of truth is enough to distinguish inquiry from intrusion.",
+        "C": "Digital access has made traditional privacy concerns obsolete.",
+        "D": "Ethical curiosity considers relation and harm."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The passage explicitly says public matters can be approached pruriently and private matters can be discussed ethically.",
+        "B": "The truth/gossip distinction is rejected in the second paragraph.",
+        "C": "The digital paragraph argues the opposite: access can make tact harder, not obsolete.",
+        "D": "Correct. The passage rejects simple distinctions based on truth, gossip, publicness, or visibility. It argues that curiosity must be disciplined by permission, accountability, harm, and the relation knowledge creates."
+      },
+      "topic": "Curiosity, Privacy and the Open Door",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_curiosity_privacy_and_the_open_door_520_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The open-door example is used to illustrate that",
+      "choices": {
+        "A": "visibility alone does not establish permission to inquire or enter.",
+        "B": "people are usually responsible for protecting their own privacy.",
+        "C": "invitations are morally valid only when they are explicitly verbal.",
+        "D": "public institutions should make hidden processes visible whenever possible."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author contrasts doors intentionally opened as invitations with doors opened by accident or vulnerability. The curious person must judge whether openness has been offered or merely exposed.",
+        "B": "The example places responsibility on the curious person, not only on the exposed person.",
+        "C": "The passage includes nonverbal invitations such as a door propped during a block party; permission need not be verbal.",
+        "D": "The museum example is one case of offered access, not a general policy conclusion."
+      },
+      "topic": "Curiosity, Privacy and the Open Door",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_curiosity_privacy_and_the_open_door_520_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "As used in the passage, 'technically open and ethically closed' most nearly means",
+      "choices": {
+        "A": "practically accessible but not responsibly available.",
+        "B": "legally restricted despite appearing in a public database.",
+        "C": "emotionally painful but historically important enough to publish.",
+        "D": "visible only to people with specialized technical knowledge."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The phrase refers to digital materials that can be reached—photos, records, screenshots—while still requiring tact. Technical availability does not equal invitation.",
+        "B": "The phrase does not mean legally restricted; the point is that legal or technical access may still be ethically limited.",
+        "C": "Historical importance might justify inquiry in some cases, but the phrase itself marks the gap between access and permission.",
+        "D": "Specialized access is not the issue; ordinary searchability is part of the problem."
+      },
+      "topic": "Curiosity, Privacy and the Open Door",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_curiosity_privacy_and_the_open_door_520_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which question would best represent what the author calls 'accountable curiosity'?",
+      "choices": {
+        "A": "Can this information be found, and will people be interested once it is published?",
+        "B": "Is the subject uncomfortable, and can that discomfort be used to reveal the truth?",
+        "C": "Why does this matter, what harm could it cause, and what answer is enough?",
+        "D": "Does the question concern a public figure, and therefore fall outside privacy?"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Findability and audience interest belong to appetite, not accountability.",
+        "B": "Discomfort may sometimes accompany legitimate inquiry, but exploiting discomfort is not the author's standard.",
+        "C": "Correct. The passage defines accountable curiosity by its ability to explain why the question matters, what harm it risks, and what answer would suffice. This option closely mirrors that ethical test.",
+        "D": "The passage rejects a simple public/private distinction; public status does not automatically settle the ethical question."
+      },
+      "topic": "Curiosity, Privacy and the Open Door",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_curiosity_privacy_and_the_open_door_520_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would most likely criticize someone who argues that an old public post may always be used because it remains searchable for",
+      "choices": {
+        "A": "mistaking gossip for truth.",
+        "B": "confusing availability with permission.",
+        "C": "privileging privacy over institutional accountability.",
+        "D": "treating refusal as impossible."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The issue is not whether the post contains gossip or truth; the passage rejects that distinction as sufficient.",
+        "B": "Correct. The digital-life paragraph directly addresses this error: a searchable artifact may be technically accessible without being ethically open for every use.",
+        "C": "A public post by an individual is not necessarily an institutional accountability case.",
+        "D": "The argument may ignore refusal, but the more precise critique is the availability-permission confusion."
+      },
+      "topic": "Curiosity, Privacy and the Open Door",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_curiosity_privacy_and_the_open_door_520_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage's attitude toward investigative questioning is best described as",
+      "choices": {
+        "A": "hostile because it often makes subjects uncomfortable.",
+        "B": "unconditional because power must always be exposed.",
+        "C": "supportive when publicly justified.",
+        "D": "neutral because ethics depends only on legal access."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The passage explicitly says discomfort does not make inquiry illegitimate.",
+        "B": "The defense is not unconditional; accountable curiosity must justify itself.",
+        "C": "Correct. The author defends journalists, historians, and citizens who ask uncomfortable questions of power, but only when inquiry can explain its importance, risk, and sufficiency.",
+        "D": "The passage repeatedly separates technical or legal access from ethical permission."
+      },
+      "topic": "Curiosity, Privacy and the Open Door",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_curiosity_privacy_and_the_open_door_520_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which assumption is most necessary to the author's argument?",
+      "choices": {
+        "A": "Most people prefer gossip to disciplined inquiry.",
+        "B": "Private grief should never become part of public discussion.",
+        "C": "Curiosity is more dangerous online than in face-to-face settings.",
+        "D": "knowing can alter one's moral relation to another person."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The passage critiques appetite, but it does not rely on a claim about what most people prefer.",
+        "B": "Private grief can be discussed with permission, care, and need, according to the passage.",
+        "C": "Digital life makes the distinction harder, but the argument is not that online curiosity is always more dangerous.",
+        "D": "Correct. The final sentence says the issue is what kind of relation knowing would create. Without the assumption that knowledge changes relations, the ethical discipline of curiosity would be unnecessary."
+      },
+      "topic": "Curiosity, Privacy and the Open Door",
+      "difficulty": "Hard"
+    }
+  ]
+}
