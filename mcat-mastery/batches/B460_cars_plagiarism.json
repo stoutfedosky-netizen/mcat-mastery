@@ -1,0 +1,246 @@
+{
+  "batch": "B460",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Plagiarism, Originality & the Moving Border of Honest Borrowing",
+  "questionCount": 7,
+  "answerDistribution": {
+    "B": 2,
+    "C": 2,
+    "A": 1,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_plagiarism_460_q0",
+      "passage": "The accusation arrives with a particular finality: she plagiarized. The word does not invite investigation the way most charges do; it announces a verdict, because the culture has already decided what plagiarism is, theft of words, and what it deserves, expulsion from the company of honest minds. But the culture's certainty rests on a distinction it has never quite been able to draw, the line between borrowing and stealing, and the history of that line is considerably more interesting than the morality play it currently supports.\n\nFor most of literary history the line did not exist, or existed somewhere else entirely. Classical rhetoric taught imitation as the path to mastery: the student was expected to absorb, rework, and recombine the best models, and the resulting text was judged not by its novelty but by its craft. Shakespeare lifted plots, characters, and sometimes whole speeches from Holinshed and Plutarch and North, and his audiences, who often knew the sources, judged him by what he made of them rather than by whether he had made them up. Originality in the modern sense, the demand that every sentence spring from nowhere, was not a literary value; it was barely a literary concept, and the writers the tradition now celebrates as geniuses would have found the accusation of borrowing unintelligible, since borrowing well was the craft.\n\nThe shift arrived with authorship as property. When the printing press made texts reproducible and copyright law made reproduction actionable, the author acquired an economic interest in being the sole origin of her words, and the Romantic movement supplied the ideology: the writer as solitary creator, the text as expression of an irreducible self, originality as the mark of authenticity. Plagiarism became theft only once there was something to steal, and what could be stolen was not the idea, ideas remaining stubbornly unownable in every legal system that has tried, but the particular arrangement of words, the expression, which copyright protects and which the plagiarism charge patrols on copyright's moral flank.\n\nThe academy imported the charge and hardened it. Student plagiarism policies treat the uncited sentence as a disciplinary offense comparable to examination fraud, and the comparison reveals the institution's real anxiety: not that a student has stolen from an author, who is unlikely to notice or care, but that a student has misrepresented her own learning, submitted someone else's understanding as evidence of her own. The pedagogical case is real, since a mind that copies has not practiced the thinking the assignment was designed to teach, and assessment collapses when the submitted work cannot be trusted to reflect the submitter. But the policies overstate their own clarity: how much paraphrase redeems a borrowed idea, how many words in sequence constitute a theft, whether a student who absorbs a lecture and reproduces its argument in her own syntax has committed the offense or performed exactly what the course intended, these are questions the policies answer by pretending they do not arise.\n\nMeanwhile, entire creative traditions run on practices the academy would flag. Hip-hop sampling builds new music from existing recordings; fan fiction rewrites copyrighted worlds; the collage artist assembles found material into original composition; and the literary tradition itself has always honored the allusion, the unmarked borrowing that flatters the reader who catches it and harms no one who does not. What separates the allusion from the plagiarism is not the act but the context, the community's expectations about what must be marked, and those expectations are local, variable, and frequently at war with one another.\n\nThe digital environment has made the border disputes worse by making copying effortless and detection algorithmic. Turnitin matches strings; it does not read arguments, and a matched string that is a commonplace, a technical definition, or an independently arrived-at formulation triggers the same flag as a lifted paragraph. The machine enforces a rule it cannot understand, and the instructor who trusts the match percentage has delegated a judgment that was never mechanical to begin with.\n\nWhat remains, once the history is taken seriously, is not a clean rule but an honest negotiation. Plagiarism names a real offense, the misrepresentation of authorship, but the offense exists inside conventions that vary by community, era, and genre, and policing it requires exactly the contextual judgment the word's finality was designed to replace. The useful question is not whether borrowing occurred but whether the borrower claimed an understanding she did not earn, and that question cannot be answered by a string match or a word count. It requires reading.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Copyright law has fundamentally failed to keep pace with digital reproduction, so plagiarism policies should be comprehensively replaced by open licensing agreements."
+        },
+        {
+          "label": "B",
+          "text": "Plagiarism names a real offense, but the borrowing-stealing line is historical and contextual, requiring the judgment the word's finality was designed to replace."
+        },
+        {
+          "label": "C",
+          "text": "Since classical rhetoric taught imitation, modern universities should abolish plagiarism policies and return to the ancient model of deliberate borrowing."
+        },
+        {
+          "label": "D",
+          "text": "The Romantic ideology of solitary genius is responsible for every modern intellectual-property dispute and should be dismantled entirely."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice converts the passage's historical analysis into a licensing proposal it never makes. Copyright's arrival created the conditions for the plagiarism charge, but the passage recommends contextual judgment, not alternative licensing frameworks.",
+        "B": "Correct. The passage traces the borrowing-stealing line from classical imitation, where reworking models was the craft itself, through the arrival of authorship-as-property and the Romantic ideology of the solitary creator, into the academy's hardened policies and their unstated ambiguities, past the creative traditions that still run on borrowing. The closing paragraph then names the negotiation: plagiarism is a real offense of misrepresented authorship, but it lives inside conventions that vary by community, era, and genre, and policing it requires the contextual judgment — the reading — that the word's finality was designed to replace.",
+        "C": "This choice inflates the classical history into a policy recommendation. The passage shows that originality as a value is modern, not that the older model should be restored wholesale, and the closing paragraph preserves the offense while insisting on contextual judgment.",
+        "D": "This choice promotes one paragraph's genealogy into a comprehensive indictment. The Romantic movement supplied the ideology, but the passage does not propose dismantling it; the conclusion is negotiation, not revolution. The passage's target is the charge's false clarity, not the ideology's continued existence, and its genealogy runs through copyright law as much as through Romanticism."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_plagiarism_460_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the fourth paragraph's claim that the pedagogical case against student plagiarism is real?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that plagiarism detection software produces notably high rates of false positives on technical documents that share standard disciplinary terminology and phrasing"
+        },
+        {
+          "label": "B",
+          "text": "Surveys finding that most faculty believe current plagiarism policies are too harsh."
+        },
+        {
+          "label": "C",
+          "text": "Students who copied and adapted source material performing identically on independent assessments, showing equal mastery and equal ability to apply it in novel contexts."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that some students plagiarize due to time pressure rather than dishonest intent."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice attacks the detection tool, not the pedagogical case. False positives from software concern the sixth paragraph's string-matching critique; the fourth paragraph's claim is that a mind that copies has not practiced the thinking, which stands regardless of detection accuracy.",
+        "B": "This choice measures faculty opinion about policy severity, which is compatible with the pedagogical case being real but the penalties being disproportionate; believing policies are too harsh does not deny that uncredited copying undermines learning.",
+        "C": "Correct. The pedagogical claim is that a mind that copies has not practiced the thinking the assignment was designed to teach, so the copier's learning is compromised. If students who copied and adapted source material performed identically on independent assessments — showing equal mastery and equal ability to apply the material in novel contexts — the thinking evidently happened despite the copying, and the mechanism linking copying to compromised learning would be severed. The pedagogical case would lose its empirical foundation even though the misrepresentation concern might survive, which makes this the most direct attack on the fourth paragraph's specific claim.",
+        "D": "This choice explains motivation without testing the learning claim. Time-pressured copying still skips the thinking the assignment was designed to teach; whether the student intended dishonesty is a different question from whether the mind practiced."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_plagiarism_460_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage's observation that originality in the modern sense was barely a literary concept, in the second paragraph, most nearly conveys that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "pre-modern audiences could not distinguish original writing from borrowed writing."
+        },
+        {
+          "label": "B",
+          "text": "pre-modern literary culture evaluated craft by how well a writer reworked existing models, not by whether every sentence sprang from nowhere."
+        },
+        {
+          "label": "C",
+          "text": "Shakespeare's audiences were largely unaware that he used Holinshed, Plutarch, and North as major sources for the plots of his history plays."
+        },
+        {
+          "label": "D",
+          "text": "ancient writers never produced anything genuinely new because they relied entirely on previous texts."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice confuses the absence of a value with the absence of a perception. Audiences who often knew the sources could obviously distinguish original from borrowed; they evaluated the result by its craft rather than its novelty. The claim concerns which standard governed judgment, not whether audiences possessed the ability to recognize a source when they encountered one.",
+        "B": "Correct. The paragraph builds the point through the rhetoric curriculum and Shakespeare's practice: imitation was taught as the path to mastery, the student was expected to absorb, rework, and recombine the best models, and the resulting text was judged by its craft rather than its novelty. Shakespeare lifted plots and speeches from Holinshed, Plutarch, and North before audiences who often knew the sources and judged what he made of them. Saying originality was barely a literary concept conveys precisely this: the demand that every sentence spring from nowhere had not yet become an evaluative standard, because borrowing well was the craft.",
+        "C": "This choice contradicts the paragraph's own statement. Shakespeare's audiences often knew the sources, the passage says; awareness was present and did not produce the modern charge because the evaluative framework was different. Unawareness would actually remove the paragraph's best evidence, since the shared knowledge is cited precisely to show evaluation proceeding by craft.",
+        "D": "This choice confuses a cultural value with a creative fact. The passage says originality was not yet a literary value, not that writers produced nothing new; Shakespeare made something of his sources, and the making was judged, not the origin. A value that has not yet emerged is not a verdict that nothing new was ever made."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_plagiarism_460_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the fifth paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "argue that hip-hop sampling and fan fiction should be prosecuted under existing copyright law as clear infringement of protected creative works."
+        },
+        {
+          "label": "B",
+          "text": "concede that the creative traditions the paragraph describes are ultimately ethically indistinguishable from garden-variety academic plagiarism, differing only in reputation"
+        },
+        {
+          "label": "C",
+          "text": "show that established creative traditions rely on practices the academy would flag, revealing the line depends on community expectations rather than a universal rule."
+        },
+        {
+          "label": "D",
+          "text": "show that allusion is the only truly legitimate form of literary borrowing, since it flatters the reader who catches the reference."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice inverts the paragraph's direction. The creative traditions are offered as evidence that borrowing norms are local and variable, not as candidates for prosecution; the paragraph's point is that what separates allusion from plagiarism is context, not the act.",
+        "B": "This choice attributes a collapse the paragraph refuses to make. The paragraph shows the same act, unmarked borrowing, operating legitimately in one context and illegitimately in another; the difference in context is the argument, not the equivalence of the acts.",
+        "C": "Correct. The paragraph inventories hip-hop sampling, fan fiction, collage, and literary allusion as established traditions that run on practices the academy would flag as violations, then draws the structural lesson: what separates the allusion from the plagiarism is not the act but the context — the community's expectations about what must be marked — and those expectations are local, variable, and frequently at war with one another. Positioned between the academy's hardened policies and the digital-detection critique, the paragraph functions as the passage's demonstration that no universal rule underlies the charge, preparing the closing call for contextual judgment.",
+        "D": "This choice narrows the paragraph's four exhibits to one and adds a legitimacy ranking it does not offer. Allusion is one example alongside sampling, fan fiction, and collage; no hierarchy among them is drawn. The paragraph's conclusion generalizes across all four cases rather than elevating any single one into the sole legitimate practice."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_plagiarism_460_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A university professor discovers that a student's essay closely paraphrases a published article without citation but demonstrates sophisticated understanding of the material in class discussion. Based on the fourth and final paragraphs, the author would most likely advise the professor to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ignore the paraphrase entirely, since the student has demonstrated mastery through discussion."
+        },
+        {
+          "label": "B",
+          "text": "report the student immediately under the institution's formal plagiarism policy, since the close textual match between the essay and the article establishes the offense."
+        },
+        {
+          "label": "C",
+          "text": "require the student to rewrite the essay using only primary sources and no secondary material."
+        },
+        {
+          "label": "D",
+          "text": "exercise contextual judgment: the student's discussion complicates the charge, and the question is whether she claimed learning she did not earn."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice erases the offense the final paragraph preserves. Plagiarism names a real misrepresentation of authorship, the passage insists, and uncited close paraphrase remains a citation failure even when understanding exists; ignoring it abandons the convention entirely.",
+        "B": "This choice delegates the judgment to policy and to the match, which is exactly what the final paragraph warns against. The question cannot be answered by a string match, and the passage calls for reading, not for automatic reporting. The match may open the inquiry, but the passage denies that it can close it.",
+        "C": "This choice invents a pedagogical remedy the passage never proposes. Primary-source-only writing addresses a different problem, and the passage's concern is with the judgment of authorship misrepresentation, not with restricting the student's research materials.",
+        "D": "Correct. The closing paragraph reframes the useful question: not whether borrowing occurred but whether the borrower claimed an understanding she did not earn, and it insists that this question cannot be answered by a string match or a word count — it requires reading. The student's sophisticated class discussion is exactly the kind of evidence that bears on the earned-understanding question, complicating the verdict without erasing the citation failure, which the fourth paragraph's misrepresentation concern keeps in view. Contextual judgment, weighing the demonstrated learning against the unattributed paraphrase, is the instrument the passage recommends for precisely this kind of case."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_plagiarism_460_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward Turnitin and algorithmic plagiarism detection, as presented in the sixth paragraph, is best described as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "critical: the machine enforces a rule it cannot understand, delegating a contextual judgment to a string-matching algorithm."
+        },
+        {
+          "label": "B",
+          "text": "enthusiastic: algorithmic detection finally provides the objective standard that human judgment has always lacked."
+        },
+        {
+          "label": "C",
+          "text": "indifferent: the paragraph mentions the tool without evaluating its merits or limitations."
+        },
+        {
+          "label": "D",
+          "text": "cautiously supportive: the tool has certain documented flaws but still represents a clear net improvement over purely subjective human assessment."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The paragraph states that Turnitin matches strings but does not read arguments, that a commonplace, a technical definition, or an independently arrived-at formulation triggers the same flag as a lifted paragraph, and that the instructor who trusts the match percentage has delegated a judgment that was never mechanical to begin with. Each sentence diagnoses a mismatch between the tool's capacity and the task's demands. The attitude is critical in a precise sense: the objection is not to detection as a goal but to the substitution of string matching for the reading that the judgment of authorship actually requires.",
+        "B": "This choice inverts the paragraph's position. The complaint is precisely that the tool provides mechanical matching where contextual judgment is needed — a commonplace or an independently arrived-at formulation triggers the same flag as a lifted paragraph. Objectivity is the illusion the paragraph dismantles, not the achievement it celebrates.",
+        "C": "This choice describes a neutrality the paragraph never adopts. Three consecutive sentences criticize the tool's limitations: it matches strings without reading arguments, it flags commonplaces alongside lifted paragraphs, and it invites instructors to delegate a judgment that was never mechanical. Indifference requires the absence of evaluation, which is plainly not present here.",
+        "D": "This choice invents a qualified endorsement the paragraph withholds. No net-improvement concession appears; the paragraph's only assessment of the tool is that it enforces a rule it cannot understand, which is critique without the cautious support. No comparison between the tool and unaided human assessment appears anywhere in the paragraph."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_plagiarism_460_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the third paragraph's claim that plagiarism became theft only once authorship became property?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that medieval scribes routinely copied entire manuscripts without attribution, reproducing complete works for monastic and cathedral libraries across the continent"
+        },
+        {
+          "label": "B",
+          "text": "Evidence that contemporary self-published authors are more protective of their work than traditionally published ones."
+        },
+        {
+          "label": "C",
+          "text": "Surveys finding that readers prefer original content to adaptations."
+        },
+        {
+          "label": "D",
+          "text": "Historians documenting accusations of literary theft appearing only after copyright statutes, with pre-copyright cultures treating the same practices as legitimate craft."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice documents the practice of unattributed copying, which the second paragraph already establishes was normal; the claim needs evidence linking the appearance of the theft accusation to the property regime, not more evidence that copying occurred.",
+        "B": "This choice compares protectiveness within the copyright era, which says nothing about whether the property regime created the theft concept; both sets of authors already operate inside the system the claim describes. The claim is about the concept's origin, and variation among authors inside the copyright era cannot reach it.",
+        "C": "This choice measures consumer preference, which bears on market demand rather than on the historical relationship between property and plagiarism; readers preferring originality is compatible with any genealogy of the accusation. Preference data gathered in the present cannot date the emergence of an accusation.",
+        "D": "Correct. The third paragraph ties the plagiarism-as-theft concept to the arrival of authorship-as-property: the charge became intelligible only once copyright gave the author an economic interest in being the sole origin of her words. Historians documenting accusations of literary theft appearing only after copyright statutes — with pre-copyright cultures treating identical practices as legitimate craft — would show the accusation tracking the legal regime precisely, before-and-after evidence of the very threshold the paragraph names. No other option supplies evidence about the historical relationship between the property regime and the emergence of the charge."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

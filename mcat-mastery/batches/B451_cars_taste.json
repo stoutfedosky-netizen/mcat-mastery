@@ -1,0 +1,246 @@
+{
+  "batch": "B451",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Taste, the Trained Palate & the Argument Over Whether Judgments of Beauty Are Earned",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_taste_451_q0",
+      "passage": "Two friends stand before the same painting, and one is moved to tears while the other checks his phone. The first will call the painting beautiful; the second will call it boring; and neither will be lying. The puzzle that generates is old enough to have a Latin tag, de gustibus non est disputandum, there is no disputing about taste, but the tag settles nothing, because people dispute about taste constantly, passionately, and with a conviction that would be inexplicable if they actually believed the matter were merely personal. Something in the experience of beauty insists on being shared, and the history of aesthetics is largely the history of trying to honor that insistence without bullying the dissenter.\n\nThe subjectivist account is the simplest and the most popular. Beauty is in the eye of the beholder; there is no fact of the matter; and the person who prefers Beethoven to birdsong and the person who prefers the reverse are both right, since there is nothing to be right about. The account has the virtue of tolerance, since no one can be corrected, and the vice of emptiness, since nothing can be learned. If every reaction is equally valid, then the trained ear and the untrained ear stand on the same ground, the critic's lifetime of looking yields no advantage over the tourist's glance, and the entire apparatus of education, apprenticeship, and connoisseurship is an expensive fiction. Most people who repeat the tag do not accept these consequences, which suggests that they do not actually hold the position they are announcing.\n\nThe objectivist tradition answers that some things really are beautiful, and that the judgment, while difficult, is not arbitrary. Proportion, harmony, complexity held in balance, the fit between form and content, these are features of the object, not projections of the viewer, and a person who fails to see them has missed something, the way a person who cannot hear the dissonance has missed a note. The tradition has the virtue of taking art seriously, since it makes education intelligible and criticism more than autobiography. Its vice is arrogance: the claim to objective beauty has been used, reliably, to rank cultures, dismiss the unfamiliar, and dress up local preferences in universal clothing, and the history of who got to decide what counted as beautiful is not a history that inspires confidence in the objectivity of the verdict.\n\nBetween the two, a third position has been assembling itself since at least the eighteenth century, and its key move is to relocate the argument from the object to the perceiver. Taste, on this view, is a capacity that can be cultivated: the experienced listener hears more, the trained eye sees distinctions the untrained eye pools together, and the judgments that follow from educated perception are better not because they track an objective property but because they arise from a richer encounter with the work. The educated palate does not taste a different wine; it tastes the same wine more completely, and the difference between the novice and the connoisseur is not opinion but attention, the quantity of the object that the perceiver is equipped to receive.\n\nThe capacity model rescues education without requiring objectivism. Teaching someone to listen is defensible even if beauty is not a feature of the sound wave, because what is being taught is not the correct verdict but the skill of fuller perception, and the fuller perceiver is in a better position to judge, the way the person who has read the whole novel is in a better position to evaluate its ending than the person who has read only the last page. Disagreement among the experienced is expected and honored, since attention may be full and still diverge; what the model cannot honor is the claim that inattention is just as good, because that claim collapses the distinction between hearing a piece and hearing it well.\n\nThe argument matters outside galleries and concert halls. Every domain that distinguishes good from bad, cuisine, prose, design, argument itself, relies on a version of the trained-palate claim: that exposure, practice, and reflection yield perceptions unavailable to the casual glance, and that the resulting judgments, while never final, are better than uninformed ones. A culture that surrenders the distinction has not become more democratic; it has abandoned the premise that learning changes what a person can see, and that premise is the foundation of every classroom, studio, and workshop that tries to do more than entertain.",
+      "usePrevPassage": false,
+      "stem": "A film school requires students to watch and analyze fifty classic films before submitting their own screenplays for peer review. A student objects that requiring old films imposes the instructor's taste. Based on the fifth paragraph, the author would most likely respond that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the classics contain objective aesthetic properties that the student's own films will inevitably lack without disciplined exposure to the established canon."
+        },
+        {
+          "label": "B",
+          "text": "the requirement teaches fuller perception rather than the correct verdict, and fifty films equip the student for a richer encounter than none would"
+        },
+        {
+          "label": "C",
+          "text": "the student's objection is valid, since the subjectivist account shows all cinematic preferences to be equally legitimate."
+        },
+        {
+          "label": "D",
+          "text": "the requirement should be replaced with a student-selected viewing list to avoid cultural bias in the curriculum."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice applies the objectivist tradition the passage sets aside. Objective aesthetic properties belong to the third paragraph's position, whose vice is arrogance; the fifth paragraph defends education through the capacity model, training perception rather than tracking objective beauty.",
+        "B": "Correct. The fifth paragraph's argument fits the scenario directly: teaching someone to listen — or to watch — is defensible even if beauty is not a feature of the object, because what is being taught is not the correct verdict but the skill of fuller perception, and the fuller perceiver is in a better position to judge, the way the person who has read the whole novel is better placed to evaluate its ending than the person who has read only the last page. Fifty films are the film school's version of reading the whole novel: the requirement equips the student for a richer encounter, and disagreement afterward is expected and honored rather than corrected.",
+        "C": "This choice adopts the subjectivist account the second paragraph dismantles. If every reaction is equally valid, the entire apparatus of education is an expensive fiction, consequences the passage says most people do not accept even when they repeat the tag.",
+        "D": "This choice substitutes a curricular policy for the epistemological question. The passage's defense of the requirement runs through the capacity model, and student-selected lists may train perception or may not; the passage does not address list composition."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_taste_451_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The observation that the educated palate does not taste a different wine; it tastes the same wine more completely, in the fourth paragraph, most nearly conveys that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "trained perception enlarges the perceiver's encounter with the same object, the difference between novice and expert being attention rather than opinion"
+        },
+        {
+          "label": "B",
+          "text": "expensive wines are objectively and measurably better than inexpensive ones, a fact that only trained palates can reliably confirm through formal blind tasting."
+        },
+        {
+          "label": "C",
+          "text": "novice wine drinkers should be excluded from judging wine competitions."
+        },
+        {
+          "label": "D",
+          "text": "taste is genetically determined and cannot be cultivated through education or practice."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The metaphor compresses the capacity model's central claim: the novice and the connoisseur face the same object, but the connoisseur receives more of it — the difference between them is not opinion but attention, the quantity of the object the perceiver is equipped to receive. The educated palate does not conjure a different wine into existence; it registers structure, balance, and detail that were present all along but unavailable to the untrained encounter. This distinguishes the capacity model from both subjectivism, which denies the trained ear any advantage, and objectivism, which locates the difference in the object's verdict rather than the perceiver's reach.",
+        "B": "This choice imports an objectivist price-quality ranking the metaphor does not support. The wine figure illustrates fuller perception, not a hierarchy of products; the paragraph does not rank wines and its point applies to any object perceived with varying degrees of training.",
+        "C": "This choice extracts a gatekeeping policy from an epistemological illustration. The paragraph defends the trained palate's advantage in perception, not a competitive exclusion of novices, and the fifth paragraph explicitly honors disagreement among the experienced.",
+        "D": "This choice contradicts the paragraph's central claim. Taste is a capacity that can be cultivated is the opening sentence; genetic determination would make the cultivation the paragraph describes pointless. The wine metaphor exists precisely to illustrate what cultivation yields, so fixed and untrainable taste would leave it with nothing to depict."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_taste_451_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The objectivist tradition is correct that beauty is a real and objectively measurable property of artworks, and education should therefore systematically aim to reveal it to every student"
+        },
+        {
+          "label": "B",
+          "text": "The subjectivist account's tolerance makes it the only defensible position on aesthetic disagreement."
+        },
+        {
+          "label": "C",
+          "text": "Aesthetic disagreement is irresolvable, so education in the arts is ultimately futile and should be defunded."
+        },
+        {
+          "label": "D",
+          "text": "Taste is a cultivable capacity: the trained perceiver encounters works more fully, and the distinction between hearing a piece and hearing it well underpins every domain that teaches."
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This choice adopts the objectivist position the passage positions as one pole. The passage credits objectivism's seriousness but indicts its arrogance, its use to rank cultures and dismiss the unfamiliar, and then moves to the capacity model as a third position.",
+        "B": "This choice stops at the subjectivist account the second paragraph undermines. Tolerance is its virtue, but emptiness its vice, and the paragraph shows most people who repeat the tag do not accept the consequences, since training would yield no advantage.",
+        "C": "This choice surrenders the distinction the final paragraph defends. A culture that abandons the premise that learning changes what a person can see has not become more democratic, the passage says, and education is the capacity model's whole point. The final paragraph treats surrendering the distinction as abandonment of teaching's premise, not as a democratic advance.",
+        "D": "Correct. The passage moves from the opening puzzle of aesthetic disagreement through subjectivism's emptiness — nothing can be learned if every reaction is equally valid — and objectivism's arrogance, its history of ranking cultures, to the capacity model that has been assembling itself since the eighteenth century: taste as a cultivable capacity, the trained perceiver encountering works more fully, judgments improved by exposure, practice, and reflection while never becoming final. The closing paragraph then extends the claim to every domain that teaches, making the distinction between hearing a piece and hearing it well the foundation of the classroom, studio, and workshop."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_taste_451_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The primary function of the third paragraph is to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "present the objectivist tradition, crediting the seriousness it lends art while exposing its arrogance and history of ranking cultures"
+        },
+        {
+          "label": "B",
+          "text": "refute the subjectivist position conclusively by proving that beauty is an objective measurable property of all great artworks throughout history."
+        },
+        {
+          "label": "C",
+          "text": "argue that proportion and harmony are the only valid criteria for aesthetic judgment."
+        },
+        {
+          "label": "D",
+          "text": "demonstrate that the history of aesthetics has been entirely dominated by Western philosophical traditions."
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The paragraph gives the objectivist tradition its due — proportion, harmony, complexity held in balance, education made intelligible, criticism as more than autobiography — and then indicts its vice: the claim to objective beauty has reliably been used to rank cultures, dismiss the unfamiliar, and dress local preferences in universal clothing, and the history of who got to decide what counted as beautiful inspires no confidence in the verdict's objectivity. The paragraph thus performs the passage's characteristic method: each pole of the debate is credited before it is set aside, clearing the ground for the capacity model that follows.",
+        "B": "This choice overstates the paragraph's commitment to the position it presents. The paragraph voices the objectivist claim and credits its virtue, but the passage as a whole moves past it to the capacity model; the paragraph does not prove the objective case, it stages it.",
+        "C": "This choice narrows the paragraph's list of features into exclusive criteria. Proportion and harmony are offered alongside complexity and form-content fit as examples, not as the only valid standards; the paragraph's concern is the tradition's structure, not a definitive checklist.",
+        "D": "This choice introduces a historiographical claim the paragraph does not make. The history of who got to decide what counted as beautiful is criticized for uninspiring objectivity, but no claim about Western dominance of the philosophical tradition is stated."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_taste_451_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the fourth paragraph's claim that the trained perceiver encounters works more fully?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Surveys finding that professional art critics earn substantially higher salaries than untrained gallery visitors with comparable education levels."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that museum attendance has increased steadily over the past decade."
+        },
+        {
+          "label": "C",
+          "text": "Trained listeners reliably detecting structural features that untrained listeners missed, with the perceptual gap closing as training progresses"
+        },
+        {
+          "label": "D",
+          "text": "Surveys finding that most people believe art education is valuable."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice tracks income, which reflects market value rather than perceptual capacity; higher salaries are compatible with critics who perceive no more than anyone else but write more fluently about what everyone sees. Market rewards track fluency, reputation, and demand as much as perception.",
+        "B": "This choice measures attendance volume, which says nothing about what visitors perceive; more people entering museums is compatible with any level of perceptual richness or poverty during the visit. The claim concerns the depth of the encounter, not the frequency of visits.",
+        "C": "Correct. The fourth paragraph's claim is that trained perception encounters the same work more fully — the educated palate tastes the same wine more completely. Trained listeners detecting structural features that untrained listeners demonstrably missed is that fuller encounter made measurable, and the gap closing as training progresses ties the enlarged perception to the training itself rather than to pre-existing differences between the groups. The finding operationalizes exactly what the capacity model predicts: attention, built through practice, increases the quantity of the object the perceiver is equipped to receive.",
+        "D": "This choice records a belief about value, not a measurement of perception; people can believe education is valuable without the belief being grounded in evidence of richer perception. The paragraph's claim is about measured perceptual difference, and popular belief in education's value cannot measure what anyone perceives."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_taste_451_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "According to the second paragraph, the subjectivist account holds that:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "beauty resides in objectively measurable properties such as proportion and harmonic complexity."
+        },
+        {
+          "label": "B",
+          "text": "that every reaction is equally valid, the trained and untrained ear stand on the same ground, and connoisseurship is therefore an expensive fiction"
+        },
+        {
+          "label": "C",
+          "text": "taste can be meaningfully cultivated through sustained education, but the resulting judgments always remain matters of individual personal preference."
+        },
+        {
+          "label": "D",
+          "text": "aesthetic disputes should be settled by democratic vote among gallery visitors."
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "This choice assigns the subjectivist the objectivist's furniture. Proportion and harmony belong to the third paragraph's tradition; the subjectivist holds there is no fact of the matter, which precludes measurable properties. A position that denies any fact of the matter has no use for measurable properties.",
+        "B": "Correct. The second paragraph extracts the position's consequences step by step: if beauty is in the eye of the beholder and there is no fact of the matter, then every reaction is equally valid, the trained ear and the untrained ear stand on the same ground, the critic's lifetime of looking yields no advantage over the tourist's glance, and the entire apparatus of education, apprenticeship, and connoisseurship becomes an expensive fiction. The choice reproduces this chain, which the paragraph presents as the account's honest price — a price, it notes, that most people who repeat the Latin tag are unwilling to pay.",
+        "C": "This choice blends the subjectivist claim with the capacity model's. The subjectivist denies that training yields any advantage; a position that grants cultivability but calls the result personal preference is the capacity model in mild form, not the subjectivism the paragraph presents.",
+        "D": "This choice invents a procedural resolution the paragraph never proposes. The subjectivist account says there is nothing to be right about; it does not recommend voting, which would presuppose that a collective answer is worth reaching. Voting would presuppose that a collective answer exists to be found, which the account denies."
+      },
+      "topic": "Perspective Attribution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_taste_451_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the capacity model's claim that trained perception yields better aesthetic judgments?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Evidence that professional critics frequently and publicly disagree with one another about the merits of precisely the same work."
+        },
+        {
+          "label": "B",
+          "text": "Evidence that art education programs vary widely and unpredictably in their curricula, pedagogical methods, and expected learning outcomes across institutions."
+        },
+        {
+          "label": "C",
+          "text": "Trained and untrained perceivers detecting identical features, training adding vocabulary but no perceptual content, the encounter unchanged beneath the language."
+        },
+        {
+          "label": "D",
+          "text": "Evidence that some self-taught artists have produced widely admired masterpieces without formal training."
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This choice tests a condition the model expects and accommodates. Disagreement among the experienced is expected and honored, the fifth paragraph says explicitly; the model claims better perception, not uniform verdicts. The model claims better perception, not unanimity among the trained.",
+        "B": "This choice concerns delivery variation, not perceptual outcome; diverse curricula are compatible with all of them enriching perception, and the model's claim is about the capacity training builds, not about any particular program's design. The model's claim concerns the capacity training builds, not the uniformity of its delivery.",
+        "C": "Correct. The capacity model claims that training enriches the encounter itself — the perceiver receives more of the object, and the fuller perceiver is better positioned to judge. If trained and untrained perceivers detected identical features and differed only in vocabulary, the enrichment would be linguistic rather than perceptual: training would change how people talk about works, not what they perceive in them, and the model's foundation — that learning changes what a person can see — would collapse. The other findings leave that foundation untouched, but this one severs perception from training at exactly the joint the model depends on.",
+        "D": "This choice shows that formal training is not the only path, which the model survives; self-taught artists who have practiced and reflected extensively have cultivated the capacity through a different route, and the model requires cultivation, not credentials."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

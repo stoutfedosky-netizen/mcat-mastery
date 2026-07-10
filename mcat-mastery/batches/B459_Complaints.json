@@ -1,0 +1,246 @@
+{
+  "batch": "B459",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Complaint, the Social Architecture of Grievance & the Paradox of Institutional Listening",
+  "questionCount": 7,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_complaints_459_q0",
+      "passage": "The complaint is among the most socially fraught of all speech acts, and the reason is structural rather than psychological. To complain is to assert simultaneously that something is wrong and that someone other than the speaker is responsible for fixing it. This double assertion places the complainant in a peculiar position: dependent on the very authority whose conduct is being challenged. The customer who complains to the manager, the employee who files a grievance with human resources, the citizen who petitions a government agency — each must persuade the institution that caused or tolerated the problem to act as the instrument of its own correction. The complaint thus embeds a paradox: it addresses power as both the source of the problem and the means of its resolution.\n\nThis structural dependence shapes the form that complaints take in ways that are rarely acknowledged. Because the complainant needs the institution's cooperation, effective complaint requires a careful calibration of tone. Too aggressive, and the complaint is dismissed as hostility; too deferential, and it is absorbed without consequence. The successful complainant must express dissatisfaction forcefully enough to signal that the matter is serious while remaining sufficiently within institutional norms to be recognized as a legitimate participant in the process. This tonal demand is not distributed equally. Research consistently shows that complaints from marginalized groups — women, racial minorities, people with disabilities — are more likely to be heard as excessive, emotional, or unreasonable, which means these complainants must perform an even narrower version of the acceptable register to achieve the same result. The institutional ear is calibrated to a default voice, and departure from that default is penalized.\n\nThe proliferation of formal complaint mechanisms in modern institutions might appear to solve this problem by providing structured channels through which grievances can be processed impartially. Ombudsman offices, customer feedback systems, employee hotlines, and regulatory complaint portals all promise that every complaint will be heard and addressed according to transparent procedures. But the creation of a formal mechanism does not guarantee that the mechanism functions as advertised. Studies of institutional complaint processes routinely find that the existence of a complaint procedure serves the institution's interests at least as much as the complainant's. The procedure demonstrates that the institution takes concerns seriously, which improves its public image and reduces legal liability, even when individual complaints are systematically deflected, delayed, or resolved in ways that leave the underlying problem intact.\n\nSara Ahmed's work on complaint in university settings has documented this dynamic in detail. Academics who file complaints about harassment, discrimination, or institutional failure frequently discover that the complaint process itself becomes the institution's response to the problem. The complaint is acknowledged, investigated, and closed — and the complainant is left with the sense that something happened without anything having changed. Ahmed describes this as the institutional use of complaint to manage complaint: the process absorbs the energy of the grievance, channels it through bureaucratic procedures, and produces an outcome that can be cited as evidence of institutional responsiveness without requiring substantive reform. The complaint becomes, in her account, a technology of institutional self-protection rather than a mechanism of accountability.\n\nThis analysis has provocative implications for how we understand the relationship between voice and power. Liberal democratic theory generally treats the ability to complain as a measure of political freedom: the citizen who can petition the government without fear of reprisal enjoys a right that citizens of authoritarian states lack, and the expansion of complaint mechanisms is understood as an expansion of democratic participation. Ahmed's work suggests a darker reading: that the multiplication of complaint channels can function as a substitute for rather than a complement to structural change. The more elaborate the grievance infrastructure, the more effectively it can absorb dissent without translating it into reform. On this view, the complaint mechanism is not a concession to democratic pressure but a technology for managing it.\n\nThe counterargument — that formal complaint processes do sometimes produce genuine change — is obviously true and important. Whistleblower protections have exposed corporate fraud, regulatory complaints have forced product recalls, and discrimination grievances have resulted in institutional reforms that would not have occurred without the complainant's persistence. But the existence of these successes does not refute the structural critique. It merely establishes that complaint mechanisms operate on a spectrum between genuine accountability and performative absorption, and that the position any particular mechanism occupies on that spectrum depends on factors — the institution's incentive structure, the complainant's resources and social position, the visibility of the grievance — that the mechanism itself does not control.\n\nWhat emerges is a picture in which the right to complain, however valuable, is an insufficient guarantee of the right to be heard in any substantive sense. The speech act of complaint and the institutional act of listening are asymmetric: complaining costs the complainant time, emotional labor, and social capital, while institutional listening can be performed without commitment. An institution that processes complaints efficiently may be doing no more than an institution that ignores them politely — the difference lies not in whether complaints are received but in whether they alter the conditions that generated them. The question that any serious account of complaint must ultimately ask is not whether mechanisms for hearing grievances exist but whether the architecture of those mechanisms is designed to produce change or to demonstrate that change has been considered and declined.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best captures the central argument of the passage?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Formal complaint mechanisms often serve institutional self-protection more than complainant accountability, and the right to complain is insufficient without structural conditions that ensure complaints alter the practices they challenge"
+        },
+        {
+          "label": "B",
+          "text": "Sara Ahmed's research demonstrates that university complaint processes are systematically designed to suppress legitimate grievances, and this suppressive pattern should be understood as representative of institutional complaint mechanisms generally"
+        },
+        {
+          "label": "C",
+          "text": "The expansion of formal complaint mechanisms in democratic societies represents a net loss for political freedom because these mechanisms absorb dissent more effectively than they produce reform"
+        },
+        {
+          "label": "D",
+          "text": "Marginalized complainants face systematically worse outcomes because institutional complaint processes are calibrated to a default voice that penalizes departures in tone, register, and emotional expression"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage builds from complaint's structural paradox — addressing power as both problem and solution — through the tonal demands on complainants, the institutional uses of formal mechanisms, Ahmed's analysis of complaint-as-absorption, and the spectrum between genuine accountability and performative processing. The conclusion argues that the critical question is whether grievance architectures produce change or merely demonstrate that change was considered, capturing both the descriptive analysis and the normative claim that the right to complain requires more than the existence of complaint channels.",
+        "B": "The passage draws on Ahmed's work as a detailed case study but does not present it as representative of all institutions. The sixth paragraph explicitly acknowledges that formal complaint processes do sometimes produce genuine change, and the passage's conclusion frames institutional complaint on a spectrum rather than as uniformly suppressive. Universalizing Ahmed's findings misreads the passage's more nuanced position.",
+        "C": "The passage considers this darker reading but does not endorse it as a net assessment. The sixth paragraph concedes that complaint mechanisms sometimes produce genuine reform, and the conclusion frames the question in terms of conditions rather than blanket judgment. This overstates the passage's pessimism.",
+        "D": "The passage does discuss the unequal distribution of tonal demands in the second paragraph, and this is an important supporting argument. However, it serves as evidence for the broader structural analysis rather than constituting the central argument, which encompasses the paradox of addressing power, the institutional absorption of complaint, and the spectrum between accountability and performative processing."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_complaints_459_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's discussion of Sara Ahmed's research primarily serves to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To provide empirical evidence that formal complaint mechanisms invariably fail to produce meaningful institutional change"
+        },
+        {
+          "label": "B",
+          "text": "To illustrate how the complaint process itself can become the institution's primary response to the problem, absorbing the energy of grievance without producing substantive reform"
+        },
+        {
+          "label": "C",
+          "text": "To contrast the effectiveness of complaint processes in university settings with their effectiveness in corporate and governmental contexts"
+        },
+        {
+          "label": "D",
+          "text": "To argue that marginalized groups should avoid using formal institutional complaint mechanisms because these mechanisms are fundamentally designed to neutralize rather than address their concerns"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage does not claim that mechanisms invariably fail. The sixth paragraph explicitly acknowledges successes — whistleblower protections, product recalls, discrimination reforms — and places mechanisms on a spectrum between genuine accountability and performative absorption. Ahmed's work is presented as documenting one point on that spectrum, not as proof of universal failure.",
+        "B": "Correct. The passage introduces Ahmed's research to document a specific dynamic: 'the institutional use of complaint to manage complaint.' Her findings show that university complaint processes acknowledge, investigate, and close grievances in ways that produce the appearance of institutional responsiveness without requiring substantive change. This illustration serves the passage's broader argument that the existence of a complaint mechanism does not guarantee its function as an accountability tool, and that the process can operate as institutional self-protection.",
+        "C": "The passage does not use Ahmed's work to draw cross-sector comparisons. University complaint processes are presented as a detailed case study of a dynamic the passage describes more broadly — the institutional absorption of complaint — rather than as one institutional type being compared with others. The passage treats the dynamic as structural rather than sector-specific.",
+        "D": "The passage does not advise against using complaint mechanisms. Ahmed's work is presented analytically — describing what happens when complaints are filed — rather than prescriptively. The passage's conclusion asks whether mechanisms are designed to produce change, not whether complainants should disengage from them. Strategic advice about complaint is beyond the passage's scope."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_complaints_459_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most weaken the passage's central critique of formal complaint mechanisms?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Studies showing that institutions with the most elaborate formal complaint procedures receive proportionally fewer complaints over time, suggesting that the very existence of such mechanisms deters the filing of grievances rather than encouraging them"
+        },
+        {
+          "label": "B",
+          "text": "Ethnographic research documenting that complaint investigators at multiple institutions privately describe their role as managing institutional reputation rather than advocating for complainants"
+        },
+        {
+          "label": "C",
+          "text": "Survey data revealing that complainants who use formal institutional channels report lower satisfaction with outcomes than complainants who raise concerns informally through direct conversation with responsible parties"
+        },
+        {
+          "label": "D",
+          "text": "A longitudinal study demonstrating that organizations which adopted formal complaint procedures subsequently implemented significantly more policy changes addressing the substance of filed complaints than organizations without such procedures"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This finding could support the passage's argument by suggesting that elaborate procedures discourage complaint rather than resolve underlying problems. However, alternative explanations — such as the possibility that effective mechanisms actually reduce the conditions generating complaints — make this finding ambiguous rather than directly weakening. The passage's argument is about whether mechanisms produce change, not about complaint volume.",
+        "B": "This finding would directly support the passage's argument, confirming that complaint processes serve institutional self-protection. Evidence that investigators themselves perceive their role as reputation management rather than advocacy would strengthen Ahmed's critique rather than weaken the passage's position.",
+        "C": "Lower satisfaction with formal channels would support rather than weaken the passage's critique. The passage argues that formal mechanisms can process complaints without producing change, and if complainants themselves report less satisfaction with formal outcomes, that confirms the gap between procedural responsiveness and substantive resolution.",
+        "D": "Correct. The passage argues that formal complaint mechanisms often absorb the energy of grievance without producing substantive reform, and that the existence of a procedure serves institutional interests at least as much as the complainant's. A study showing that organizations with formal procedures actually implement significantly more substantive policy changes than those without them would directly challenge the central critique, suggesting that the mechanisms translate complaints into reform rather than merely performing responsiveness."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_complaints_459_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's overall tone toward the subject matter of the passage is best characterized as:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Cautiously optimistic about the potential of complaint mechanisms to produce genuine institutional change when properly structured, while largely dismissive of Ahmed's more critical analysis as unrepresentative"
+        },
+        {
+          "label": "B",
+          "text": "Analytically critical of the gap between what complaint mechanisms promise and what they deliver, while acknowledging that the mechanisms occupy a spectrum rather than a single position of failure"
+        },
+        {
+          "label": "C",
+          "text": "Neutral and descriptive, presenting competing interpretations of complaint mechanisms without indicating which analysis the author finds more persuasive"
+        },
+        {
+          "label": "D",
+          "text": "Deeply pessimistic about the possibility that institutional complaint processes can ever function as genuine instruments of accountability or produce lasting structural reform"
+        }
+      ],
+      "correct": "B",
+      "explanations": {
+        "A": "The passage presents Ahmed's analysis sympathetically and at length, integrating it into the broader structural argument rather than dismissing it. The author acknowledges the counterargument about genuine successes but does not characterize Ahmed's work as unrepresentative. The passage treats Ahmed's critique as a significant contribution that the counterargument qualifies rather than refutes.",
+        "B": "Correct. The passage develops a sustained critique of institutional complaint processes — their structural paradox, their tonal demands, their capacity for performative absorption — while the sixth paragraph explicitly concedes that formal processes sometimes produce genuine change. The conclusion frames the question as whether mechanisms are designed to produce change or to demonstrate that change was considered, which maintains the critical stance while avoiding categorical dismissal. This balanced analytical posture, combining structural critique with spectrum awareness, best characterizes the author's tone.",
+        "C": "The passage is not neutrally descriptive. The author's framing consistently emphasizes the structural advantages institutions hold over complainants — the paradox of dependence, the tonal penalties, the absorption of grievance energy — and the conclusion asks a pointed question about whether mechanisms produce change or merely demonstrate that change was declined. This framing reveals an analytical orientation that favors the critical reading over the liberal democratic one.",
+        "D": "The passage resists deep pessimism. The sixth paragraph explicitly states that the counterargument about genuine successes 'is obviously true and important' and lists specific examples of complaint-driven reform. The passage's critique concerns the structural conditions under which mechanisms function, not a blanket judgment that accountability is impossible. Deep pessimism would not concede the significance of successful cases."
+      },
+      "topic": "Author's Tone",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_complaints_459_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "As used in the passage, the concept of \"asymmetry\" between complaint and institutional listening most nearly refers to:",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The unfair advantage that institutions enjoy in complaint interactions because they control the procedures, timelines, and definitions that determine whether a grievance counts as legitimate"
+        },
+        {
+          "label": "B",
+          "text": "The unequal tonal demands placed on marginalized complainants, who must calibrate their expression more narrowly than dominant-group complainants to achieve the same institutional recognition"
+        },
+        {
+          "label": "C",
+          "text": "The disparity between what complaining costs the individual in time, emotional labor, and social capital and the minimal commitment institutional listening requires in return"
+        },
+        {
+          "label": "D",
+          "text": "The paradox that the complainant must rely on the same institutional authority responsible for the problem to serve as the instrument of its correction"
+        }
+      ],
+      "correct": "C",
+      "explanations": {
+        "A": "This description captures institutional advantages in complaint processing, which is related to the passage's analysis but describes a different concept from the structural asymmetry the passage identifies. The passage's use of asymmetry refers specifically to the imbalance in costs: complaining exacts real costs from the complainant while institutional listening can be performed without commitment to action.",
+        "B": "Tonal inequality is discussed in the second paragraph as a separate dimension of the complaint problem. While it represents a real asymmetry, the passage uses the term in a different context — the conclusion's discussion of the mismatch between what complaining costs the complainant and what listening costs the institution. The tonal argument supports the broader critique but names a different mechanism.",
+        "C": "Correct. The passage's final paragraph states that 'the speech act of complaint and the institutional act of listening are asymmetric: complaining costs the complainant time, emotional labor, and social capital, while institutional listening can be performed without commitment.' The asymmetry refers to this imbalance: the complainant invests substantial personal resources while the institution can process the complaint performatively, producing the appearance of responsiveness without the substance of change.",
+        "D": "This describes the structural paradox introduced in the first paragraph, which is distinct from the asymmetry discussed in the conclusion. The paradox concerns the complainant's dependence on the authority being challenged, while the asymmetry concerns the imbalance in costs between complaining and listening. Both are structural features of complaint, but the passage uses them to make different analytical points."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_complaints_459_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Based on the passage, which of the following scenarios would most directly illustrate the author's central critique of formal complaint mechanisms?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A social media platform introduces a public complaint feature where user grievances about the company are displayed alongside the company's responses, with both visible to all users"
+        },
+        {
+          "label": "B",
+          "text": "An employee files a discrimination grievance and, despite a favorable ruling from the internal review board, chooses to leave the organization because colleagues retaliate through social exclusion"
+        },
+        {
+          "label": "C",
+          "text": "A consumer advocacy group files a regulatory complaint against a pharmaceutical company, leading to a product recall that prevents widespread harm to patients"
+        },
+        {
+          "label": "D",
+          "text": "A government agency establishes an elaborate multi-stage appeals process for denied benefit claims, but the agency's overall denial rate and the average resolution time remain unchanged after implementation"
+        }
+      ],
+      "correct": "D",
+      "explanations": {
+        "A": "This scenario addresses the visibility problem — making institutional responses publicly accountable — which relates to the passage's concerns but does not directly illustrate the core structural critique. The passage's argument centers on whether mechanisms produce substantive change, not on whether responses are visible. A public display could still function as performative responsiveness if the complaints are acknowledged without altering underlying practices.",
+        "B": "This scenario raises important concerns about informal retaliation that complaint mechanisms may not address, but the passage focuses on the institutional process itself rather than on interpersonal consequences. The passage's critique concerns whether the mechanism produces structural change, not whether the complainant faces social costs. While retaliation is a real problem, it illustrates a different dimension of complaint failure than the one the passage analyzes.",
+        "C": "The passage explicitly acknowledges this kind of success in the sixth paragraph, listing product recalls as examples of complaint-driven reform. This scenario represents the genuine-accountability end of the spectrum the passage describes. It does not illustrate the passage's central critique of performative absorption but rather the counterargument the passage concedes — that mechanisms sometimes do produce change.",
+        "D": "Correct. This scenario directly illustrates the passage's central critique: the creation of a formal mechanism that demonstrates institutional responsiveness without producing substantive change. The multi-stage appeals process performs the function of listening — the agency can cite its elaborate procedure as evidence of fairness — while the unchanged denial rate and resolution time suggest the mechanism absorbs the energy of grievance rather than altering the conditions generating it. This maps precisely onto the passage's argument about the gap between procedural existence and functional accountability."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_complaints_459_q6",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most strengthen the passage's concluding claim that the architecture of complaint mechanisms determines whether they produce genuine change?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Research demonstrating that institutions where complaint outcomes are subject to independent external review implement substantive reforms at significantly higher rates than institutions relying on internal review alone"
+        },
+        {
+          "label": "B",
+          "text": "Psychological studies showing that individuals who file formal complaints experience a significantly stronger subjective sense of empowerment and personal agency regardless of whether the complaint produces any tangible institutional change or reform"
+        },
+        {
+          "label": "C",
+          "text": "Historical analysis showing that the expansion of formal complaint mechanisms in twentieth-century democracies coincided with a general decline in public trust in institutional responsiveness"
+        },
+        {
+          "label": "D",
+          "text": "Survey data revealing that most institutional leaders who oversee complaint processes believe their systems function effectively and produce fair outcomes for complainants"
+        }
+      ],
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage argues that the position a complaint mechanism occupies on the spectrum between genuine accountability and performative absorption depends on factors the mechanism itself does not control — including the institution's incentive structure and the visibility of the grievance. Evidence that external review produces higher reform rates would strengthen the conclusion by identifying a specific structural condition that shifts mechanisms toward genuine accountability, confirming that the architecture of listening, not merely its existence, determines whether complaints produce change.",
+        "B": "The passage's argument concerns whether complaint mechanisms alter the conditions that generated grievances, not whether complainants feel empowered by the process. Subjective empowerment without tangible change would actually support the passage's critique — the mechanism produces a sense of having been heard without requiring institutional reform — rather than strengthening the call for architectures designed to produce change.",
+        "C": "A correlation between mechanism expansion and declining trust is consistent with the passage's darker reading — that elaborate grievance infrastructure can substitute for structural change — but correlation does not establish the causal relationship the passage's argument requires. The decline in trust could reflect many factors unrelated to complaint mechanisms, making this finding suggestive rather than directly strengthening.",
+        "D": "Institutional leaders' belief in their own systems' effectiveness does not address whether the systems actually produce substantive change. The passage's critique concerns the gap between institutional self-presentation and actual reform, so evidence that leaders perceive their systems as effective could reinforce the critique — the institution's view of its own responsiveness is precisely the appearance the passage argues may substitute for reality."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}
