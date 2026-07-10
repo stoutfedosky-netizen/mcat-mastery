@@ -61,6 +61,21 @@ BOILERPLATE = [
     "the author is concerned with the conditions under which the practice remains honest",
 ]
 
+# Meta/test language that must never leak into explanations: the test name
+# ("CARS", "CARS-style") or second-person test framing ("test-taker"). Matched on
+# word boundaries. "CARS" is case-sensitive so ordinary words like "cars"
+# (automobiles) do not trip it; earlier substring checks like "the test" and
+# "public judgment" were dropped because they false-positived on legitimate prose
+# ("testability", "testimony", "reasoned public judgment").
+META_CARS_RE = re.compile(r"\bCARS\b")
+META_TESTTAKER_RE = re.compile(r"\btest[- ]takers?\b", re.I)
+
+
+def leaks_meta_language(text):
+    text = text or ""
+    return bool(META_CARS_RE.search(text) or META_TESTTAKER_RE.search(text))
+
+
 CANON_ORDER = ["id", "passage", "usePrevPassage", "stem", "choices", "correct",
                "explanations", "topic", "difficulty", "passageImage",
                "passageImageCaption"]
@@ -182,8 +197,7 @@ def clean_batch(d):
                 stats["lettermismatch_qs"].append(q.get("id"))
                 break
         # meta/test language leaking into explanations
-        META = ("CARS-style", "CARS answer", "public judgment", "the test", "test-taker")
-        if any(m in (exps.get(l) or "") for l in exps for m in META):
+        if any(leaks_meta_language(exps.get(l)) for l in exps):
             stats["meta_expl_qs"].append(q.get("id"))
         # collect distractor fingerprints for recycling detection (+ cross-batch)
         for lab, txt in q["choices"].items():
@@ -275,7 +289,7 @@ def main():
             print(f"    [{len(bs)} batches] {t[:70]}")
     if meta_qs:
         print(f"\n⚠ {len(meta_qs)} question(s) leak meta/test language into explanations "
-              f"(e.g. 'CARS-style', 'public judgment'):")
+              f"(e.g. 'CARS', 'CARS-style', 'test-taker'):")
         for qid in meta_qs:
             print(f"    {qid}")
     if recycled_batches:
