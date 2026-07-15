@@ -1,0 +1,141 @@
+{
+  "batch": "B553",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Color and Language",
+  "questionCount": 6,
+  "answerDistribution": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_b553_q0",
+      "passage": "Do the words a language provides for color shape the way its speakers actually see? The question has oscillated for more than a century between two confident answers, and the honest verdict is that neither extreme survives contact with the evidence. On one side stand the relativists, who hold that the spectrum is a seamless continuum which each culture carves up as it pleases, so that where English sees blue and green a neighboring language may see a single undivided hue. On the other stand the universalists, who insist that beneath the surface variety lies a common human template, a fixed order in which color vocabularies grow.\n\nThe universalist case rests on a striking regularity. Surveying dozens of unrelated languages, researchers found that basic color terms do not appear in random assortments. A language with only two such terms divides the world into something like dark and light; add a third and it is almost always a red; further terms arrive in a constrained sequence, with yellows and greens preceding blues, and browns and grays later still. This implied that the eye, not the culture, sets the agenda, and that vocabulary merely follows a schedule written in our shared perceptual hardware. For a time the finding looked decisive.\n\nYet the relativists were not without ammunition. The very act of sorting terms into basic and non-basic smuggled in judgments that the data could not fully justify, and languages resistant to the tidy sequence were sometimes set aside as exceptions rather than allowed to count against the rule. More telling were the reaction-time studies. Speakers whose language marks a boundary between two blues, for instance, prove faster at telling those blues apart than speakers whose language lumps them together, as though the lexical line had sharpened a perceptual one. Naming, it seems, can lend a small but measurable edge to discrimination near the boundaries a language happens to draw.\n\nWhat are we to make of a body of evidence that seems to support both camps at once? The most defensible reading is that the two claims operate at different levels and need not compete. Perception is anchored, broadly, by the physiology of the eye, which is why color vocabularies grow along paths that recur across unrelated cultures rather than wandering at random. But within the room that physiology leaves, language exerts a genuine if modest pull, nudging attention toward the distinctions it encodes and away from those it ignores. The universalist is right that we are not free to see the spectrum any way at all; the relativist is right that the lines our language draws are not perceptually inert.\n\nThis tidy reconciliation should not be mistaken for a truce that dissolves the dispute. Real disagreements remain about how large the linguistic effect is, how deep it reaches, and whether it touches perception itself or only the quick judgments we make about what we perceive. A skeptic can still argue that the reaction-time advantage reflects a strategy of naming under pressure rather than a change in seeing, and the argument is not easily dismissed. The layered account tells us where to look for the boundary between the physiological and the cultural; it does not tell us exactly where that boundary falls.\n\nWhat the century of debate does establish is a caution against the confident extremes. The world does not arrive pre-labeled, but neither is it infinitely pliable to whatever words we bring. Between the eye that constrains and the language that inflects lies a space where perception and vocabulary meet, and the interesting work now lies in mapping that space rather than in defending one border of it against the other.",
+      "usePrevPassage": false,
+      "stem": "The author's overall position on whether language shapes color perception is that",
+      "choices": {
+        "A": "the relativist view is correct and the universalist evidence has been discredited",
+        "B": "both extremes fail, and perception is broadly anchored by physiology yet modestly inflected by language",
+        "C": "the universalist template fully explains color vocabulary on its own, leaving no genuine role for language in perception",
+        "D": "the dispute is meaningless because color terms cannot be studied scientifically"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author does not side with the relativists; universalist evidence about the constrained order of color terms is credited, not discredited, and the extreme relativist claim is rejected alongside the extreme universalist one.",
+        "B": "Correct. The author argues neither extreme survives the evidence, that physiology anchors the recurring paths color vocabularies follow, and that within the room physiology leaves, language exerts a genuine if modest pull. That layered view is the stated position.",
+        "C": "The author explicitly allows language a real if modest effect near boundaries, so the universalist template cannot be said to leave no role for language.",
+        "D": "Far from calling the dispute unstudiable, the passage cites survey data and reaction-time studies as evidence, and recommends further mapping of the space between eye and language."
+      },
+      "topic": "Author's Position",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b553_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The regularity in how basic color terms appear across languages is presented as",
+      "choices": {
+        "A": "the main support for the universalist claim that perception sets the agenda",
+        "B": "conclusive proof that language has no effect whatsoever on discrimination",
+        "C": "an artifact that vanishes once reaction-time data are considered",
+        "D": "evidence that cultures divide the spectrum in wholly arbitrary ways"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage introduces the constrained sequence, dark and light, then red, then yellows and greens before blues, as the striking regularity on which the universalist case rests, implying the eye rather than the culture sets the agenda.",
+        "B": "The regularity supports a role for physiology, but the author still credits reaction-time studies showing a measurable naming effect, so it is not offered as proof that language has no effect.",
+        "C": "The reaction-time data complicate the universalist reading but do not make the cross-linguistic sequence disappear; the author keeps both findings and reconciles them.",
+        "D": "The regularity is the opposite of arbitrariness; it is cited precisely because color vocabularies do not appear in random assortments."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b553_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The reaction-time studies are used in the passage mainly to",
+      "choices": {
+        "A": "overturn the earlier finding that basic color terms appear across unrelated languages in a constrained, predictable order",
+        "B": "show that speakers see color identically regardless of their vocabulary",
+        "C": "supply the relativists with evidence that lexical boundaries can sharpen discrimination",
+        "D": "demonstrate that basic color terms are impossible to define consistently"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The studies qualify the universalist reading without overturning the constrained order; the author retains the sequence and treats the two results as operating at different levels.",
+        "B": "The studies show the opposite, that speakers who lexically mark a boundary discriminate faster there, so vocabulary is not shown to be perceptually irrelevant.",
+        "C": "Correct. The author introduces the reaction-time results as the relativists' ammunition, noting that speakers whose language marks a boundary tell those hues apart faster, as though the lexical line had sharpened a perceptual one.",
+        "D": "The definitional worry about basic terms is a separate point in the paragraph; the reaction-time studies specifically concern discrimination speed, not the difficulty of defining terms."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b553_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The phrase 'this tidy reconciliation should not be mistaken for a truce' most nearly conveys that",
+      "choices": {
+        "A": "the layered account settles every remaining question about color and language",
+        "B": "the dispute was never genuine and only appeared to divide researchers",
+        "C": "the two camps have formally agreed to abandon their positions",
+        "D": "the compromise resolves the framing but leaves substantive disagreements unsettled"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The author says directly that the reconciliation does not settle everything, listing open issues about the size and depth of the linguistic effect. Treating it as final contradicts the passage.",
+        "B": "The passage treats the dispute as genuine and century-long, not as an illusion; the layered account maps the disagreement rather than dissolving it.",
+        "C": "No formal agreement or abandonment of positions is described; a skeptic is said to still press the case, so the disagreement continues.",
+        "D": "Correct. The author warns the layered view is not a truce that dissolves the dispute, since real disagreements remain about how large and how deep the linguistic effect is and whether it touches perception itself."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b553_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A skeptic's argument that the reaction-time advantage reflects 'a strategy of naming under pressure' would, if correct, imply that",
+      "choices": {
+        "A": "the faster discrimination arises from how speakers report color rather than from a change in seeing",
+        "B": "physiology plays no part in constraining how color vocabularies grow",
+        "C": "the cross-linguistic ordering of basic color terms must be abandoned altogether as a misleading statistical artifact",
+        "D": "relativists and universalists are describing the very same phenomenon"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage frames the skeptic as holding that the advantage comes from naming under pressure rather than a change in seeing, that is, from how speakers judge and report color rather than from altered perception itself.",
+        "B": "The skeptic's point concerns whether language alters perception, not whether physiology constrains vocabulary; the physiological anchoring is untouched by this particular objection.",
+        "C": "The naming-strategy objection targets the reaction-time interpretation, not the cross-linguistic sequence, which the author keeps in place independently.",
+        "D": "The skeptic sharpens the disagreement rather than collapsing it; claiming the camps describe one phenomenon is the reconciling move the skeptic resists."
+      },
+      "topic": "Inference",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b553_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would most likely agree that future research on color and language should",
+      "choices": {
+        "A": "abandon empirical study in favor of settling the matter by definition",
+        "B": "focus on mapping where perception and vocabulary meet rather than defending one extreme",
+        "C": "prove conclusively that culture alone determines how the spectrum is divided",
+        "D": "discard the reaction-time studies entirely as far too ambiguous to inform any reliable conclusion about seeing"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author relies on empirical findings and calls for more of them, so recommending that study be abandoned for definition contradicts the passage's method.",
+        "B": "Correct. The closing lines say the interesting work now lies in mapping the space where perception and vocabulary meet rather than defending one border against the other, which is precisely this recommendation.",
+        "C": "The author rejects the extreme relativist claim, so urging researchers to prove culture alone divides the spectrum runs against the stated position.",
+        "D": "The author keeps the reaction-time studies as genuine evidence of a modest effect; discarding them would abandon half of the layered account the passage endorses."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    }
+  ]
+}

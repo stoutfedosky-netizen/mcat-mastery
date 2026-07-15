@@ -1,0 +1,141 @@
+{
+  "batch": "B554",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Building Without Architects",
+  "questionCount": 6,
+  "answerDistribution": {
+    "A": 2,
+    "B": 1,
+    "C": 1,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_b554_q0",
+      "passage": "We have been taught to reserve the word architecture for buildings with an author, the cathedral traced to its designer, the villa signed by its architect, and to consign everything else, the farmhouse, the market hall, the terrace of workers' cottages, to the lesser category of mere building. This is a mistake, and an expensive one. The unsigned buildings that make up the overwhelming bulk of the world's construction embody an intelligence that the celebrated monuments often lack, and it is time we learned to see it.\n\nConsider what the anonymous builder had to solve. Without an office of engineers, without catalogues of manufactured parts, using only the materials the local ground would yield, generations of ordinary makers arrived at forms that answer their climate with a precision no imported blueprint could match. The thick earthen walls of a hot dry region store the day's heat and release it through the cold night, so that the house breathes with the daily swing of temperature. The steep roof of a wet northern valley sheds rain and snow before either can soak the timber. The shaded courtyard, the deep eave, the small window on the weather side and the broad one facing the sun, each is a solution refined by centuries of trial, error, and correction, tested against necessity in a way no drawing board can reproduce.\n\nNone of this was accidental, though it was rarely theorized. The knowledge lived in the practice itself, passed from hand to hand, adjusted a little in each generation as a form that failed was quietly dropped and one that worked was copied. What looks to the casual eye like custom, the persistence of a regional style, is in fact the record of a long experiment, a slow accumulation of fixes that no single mind could have designed. The vernacular is intelligent precisely because it is collective and unhurried, because it was answerable at every step to the people who had to live in what they built.\n\nSet against this the recent history of the signed building, and the contrast is not flattering to the profession. The modern architect, trained to prize originality and armed with materials that will perform almost anywhere, is freed from the local discipline that shaped the vernacular, and too often uses that freedom badly. The same glass tower is dropped into the desert and the tundra alike, sealed against a climate it refuses to acknowledge and kept habitable only by machines that burn through energy the earthen house never needed. Freedom from place has been purchased at the price of fitness to place, and the bill arrives every month in the form of a fuel invoice.\n\nI do not romanticize the old ways or ask anyone to return to mud and thatch. The vernacular had its hardships, and much of it was built in poverty by people who would gladly have had more. The point is not to copy its forms but to recover its intelligence, its habit of answering the specific demands of a place with the specific means the place affords. That intelligence is not the property of any single genius; it is what accumulates when builders are held accountable, year after year, to the sun and wind and rain of one patch of ground.\n\nIf our celebrated architecture has anything to learn, it is this humility before circumstance. The anonymous builders never signed their work, never theorized it, never imagined it worthy of the name we withhold from it. Yet they solved, quietly and well, the problem that the signed monument so often evades, how to make a shelter that belongs where it stands. We would do well to grant them the word we have hoarded, and better still to learn what they knew.",
+      "usePrevPassage": false,
+      "stem": "The passage is best described as an argument that",
+      "choices": {
+        "A": "traditional forms such as mud walls and thatched roofs ought to be revived and faithfully rebuilt in the present day",
+        "B": "modern architects are more skilled than the anonymous builders of the past",
+        "C": "unsigned vernacular building embodies an accumulated intelligence celebrated architecture should recover",
+        "D": "the word architecture has always been applied fairly across kinds of building"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author explicitly declines to romanticize the old ways or ask anyone to return to mud and thatch, aiming to recover an intelligence rather than copy the forms.",
+        "B": "The passage runs the other way, faulting the modern architect for using freedom from place badly while praising the anonymous builder's fitness to place.",
+        "C": "Correct. The author argues that unsigned buildings embody an intelligence the celebrated monuments often lack, traces that intelligence to a long collective experiment, and urges that our architecture recover its habit of answering place. That is the sustained claim.",
+        "D": "The opening complaint is that the word architecture has been reserved unfairly for signed buildings, so the passage cannot be claiming the term was applied fairly."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b554_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The examples of the thick earthen wall and the steep valley roof serve chiefly to",
+      "choices": {
+        "A": "suggest that regional styles are matters of arbitrary custom rather than function",
+        "B": "prove that modern materials outperform traditional ones in every setting",
+        "C": "show that anonymous builders worked from formal engineering calculations",
+        "D": "illustrate how vernacular forms answer their climate with refined, place-specific solutions"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The examples argue the opposite of arbitrariness, presenting regional forms as the record of a long experiment answerable to necessity.",
+        "B": "The examples praise traditional forms for their fitness to place; the passage later faults modern materials for ignoring climate, so the examples do not argue modern superiority.",
+        "C": "The author stresses the knowledge was rarely theorized and lived in the practice itself, without an office of engineers, so the examples are not evidence of formal calculation.",
+        "D": "Correct. Each example is offered as a solution refined by centuries of trial and correction: the earthen wall stores heat against the cold night, the steep roof sheds rain before it soaks the timber. They show the vernacular's precise answer to climate."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b554_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward vernacular building is best described as",
+      "choices": {
+        "A": "admiring of its accumulated intelligence while refusing to sentimentalize its hardships",
+        "B": "dismissive of it as primitive and unworthy of serious study",
+        "C": "carefully neutral, weighing the various merits and defects of the vernacular without ever reaching a judgment either way",
+        "D": "nostalgic, wishing wholeheartedly for a return to preindustrial life"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author calls the vernacular intelligent and urges that its intelligence be recovered, yet explicitly declines to romanticize the old ways, noting much was built in poverty by people who would gladly have had more. Admiration tempered by candor captures the stance.",
+        "B": "Far from dismissive, the author insists the unsigned buildings embody an intelligence the celebrated monuments lack and asks that they be granted the word we have hoarded.",
+        "C": "The author is not neutral; the passage clearly favors the vernacular's fitness to place over the signed building's freedom from it.",
+        "D": "The author expressly does not romanticize the old ways or ask for a return to mud and thatch, so wholehearted nostalgia misreports the attitude."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b554_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "By saying the vernacular is 'intelligent precisely because it is collective and unhurried,' the author means that",
+      "choices": {
+        "A": "it was produced deliberately and all at once by organized committees of formally trained building specialists",
+        "B": "its fitness arose from slow, shared correction rather than a single designer's plan",
+        "C": "its virtues owe everything to the originality of individual builders",
+        "D": "it improved only because construction was carried out very quickly"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The knowledge is said to have lived in the practice and passed from hand to hand, not to have been produced by committees of specialists.",
+        "B": "Correct. The passage describes forms refined generation by generation as failures were dropped and successes copied, a slow accumulation no single mind could have designed. Collective and unhurried names that gradual, shared process of correction.",
+        "C": "The author explicitly denies the individual-genius reading, calling the intelligence not the property of any single mind but a collective accumulation.",
+        "D": "The word is unhurried, the opposite of quick; the author credits slowness, not speed, for the vernacular's refinement."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b554_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author faults the 'same glass tower' dropped into desert and tundra alike in order to argue that",
+      "choices": {
+        "A": "modern machines have at last made local climate irrelevant to how any building anywhere ought to be designed",
+        "B": "glass is inherently unsuitable for any climate on earth",
+        "C": "architects should sign fewer of their buildings to avoid blame",
+        "D": "modern architecture's freedom from place has been bought at the cost of fitness to place"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The author's point is the reverse: relying on machines to override climate is the failure being criticized, not a vindication of ignoring climate.",
+        "B": "The critique targets a form indifferent to its setting, not glass as a material everywhere; the passage never claims glass fails in every climate.",
+        "C": "The complaint concerns fitness to place, not the practice of signing; the author elsewhere asks that the vernacular be granted the word, not that architects hide their names.",
+        "D": "Correct. The identical tower, sealed against a climate it refuses to acknowledge and kept habitable only by energy-burning machines, is the author's chief example that freedom from place was purchased at the price of fitness to place."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b554_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which finding, if true, would most strengthen the author's claim that vernacular forms embody accumulated intelligence?",
+      "choices": {
+        "A": "Regional house forms that persisted longest are those that best match their local climates when measured",
+        "B": "Anonymous builders in most regions worked from a single shared pattern book issued centrally",
+        "C": "Traditional houses were abandoned wherever inhabitants could afford modern materials",
+        "D": "Climate has little measurable effect on how comfortable a dwelling is to occupy"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author claims regional forms are the record of a long experiment, failures dropped and successes kept. Evidence that the longest-persisting forms are the best matched to local climate would confirm that selection tracked fitness, strengthening the case.",
+        "B": "A single centrally issued pattern book would undercut the claim that the intelligence accumulated locally and collectively, weakening rather than strengthening the argument.",
+        "C": "Widespread abandonment for modern materials speaks to preference or poverty, not to whether the traditional forms embodied climatic intelligence, and if anything cuts against the author.",
+        "D": "If climate barely affected comfort, the vernacular's climate-fitted solutions would lose their point, removing the very advantage the author credits."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

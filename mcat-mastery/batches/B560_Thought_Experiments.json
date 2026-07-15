@@ -1,0 +1,141 @@
+{
+  "batch": "B560",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Thought Experiments",
+  "questionCount": 6,
+  "answerDistribution": {
+    "A": 2,
+    "B": 1,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_b560_q0",
+      "passage": "A recurring complaint about thought experiments holds that they are merely stories, imaginative anecdotes dressed in the borrowed authority of the laboratory. You cannot learn about the world, the objection runs, by sitting in an armchair and picturing a scenario; at best you consult your own prejudices and mistake them for discoveries. The charge deserves an answer, because the thought experiment has done too much genuine work across the history of inquiry to be dismissed as a parlor trick.\n\nConsider one of the oldest examples. Long before anyone could drop weights from a tower, it was argued that heavier bodies must fall faster than lighter ones. A single imagined scenario undid the claim. Suppose a heavy stone and a light one are tied together and released. If the heavier falls faster, it should be slowed by the lighter one dragging behind, so the pair should fall more slowly than the heavy stone alone. Yet the two together are heavier than either, and so by the original rule should fall faster still. The premise generates a contradiction, and it does so without a single measurement. No tower was needed; the reasoning alone showed the old doctrine could not be coherent.\n\nWhat such cases reveal is that a good thought experiment is not a substitute for observation but a way of extracting consequences already latent in what we believe. It takes commitments we hold, often without noticing their implications, and drives them to a point where they either cohere or collapse. When they collapse, we have learned something real, not about a newly observed fact but about the hidden structure of our own assumptions. The armchair, it turns out, is a perfectly good place to discover that two of your beliefs cannot both be true.\n\nThe skeptic may grant this and press a narrower version of the complaint. Fine, he says, thought experiments can expose contradictions, but many famous ones do no such thing; they simply invite us to consult an intuition about an imagined case, and intuitions are notoriously parochial, varying with training, culture, and era. Here the skeptic has a point worth conceding. A thought experiment that rests its whole weight on a bare intuition, with no argument connecting that intuition to anything else we accept, is fragile, and the history of philosophy is littered with such cases where confident intuitions later came to seem like the mere prejudices of their age.\n\nBut this concession does not vindicate the original charge; it refines it. The lesson is not that thought experiments are worthless but that they vary in kind, and that their force depends on what they do. The strongest draw out a contradiction latent in an established theory, and these carry a rigor that no appeal to taste can undermine. The weakest lean on an untutored intuition and inherit all its instability. Between these lie many that do real if defeasible work, sharpening a question, isolating a variable, showing that two commitments sit in tension even if it cannot yet be said which must yield.\n\nTo ask whether thought experiments are legitimate, then, is to ask a poorly framed question. Some are instruments of genuine discovery, others are dressed-up guesswork, and the interesting task is to tell them apart. Dismissing the method wholesale, as the armchair objection does, throws away one of the few tools that lets thinking test itself against its own commitments before the world is consulted. That is a strange thing to discard merely because it can be misused.",
+      "usePrevPassage": false,
+      "stem": "The author's position on thought experiments is that they",
+      "choices": {
+        "A": "are uniformly worthless because they do nothing but dress up the thinker's own personal prejudice as a discovery",
+        "B": "vary in force, with the strongest doing genuine work and the weakest resting on unreliable intuition",
+        "C": "can replace observation entirely as a means of learning about the world",
+        "D": "are all equally rigorous once properly formulated"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author explicitly resists the wholesale dismissal, arguing thought experiments have done too much genuine work to be dismissed as a parlor trick.",
+        "B": "Correct. The author answers the armchair objection by distinguishing the strongest thought experiments, which draw out a latent contradiction, from the weakest, which lean on an untutored intuition, concluding the interesting task is to tell them apart. Their force depends on what they do.",
+        "C": "The passage says a good thought experiment is not a substitute for observation but a way of extracting consequences already latent in belief, so it does not claim they replace observation.",
+        "D": "The author's whole point is that they vary in kind, some rigorous and some fragile, contradicting the idea that all are equally rigorous."
+      },
+      "topic": "Author's Position",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b560_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The example of the two stones tied together is used to show that a thought experiment can",
+      "choices": {
+        "A": "prove that heavier bodies do in fact fall faster than lighter ones",
+        "B": "confirm a physical law only after weights are dropped from a tower",
+        "C": "expose a contradiction within a belief without requiring any measurement",
+        "D": "demonstrate that intuitions about motion are always reliable"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The example refutes the claim that heavier bodies fall faster by deriving a contradiction from it, so it does not prove that claim.",
+        "B": "The author stresses no tower was needed; the point is precisely that the contradiction emerges from reasoning, not from dropping weights.",
+        "C": "Correct. The tied-stones case shows the premise that heavier bodies fall faster generates a contradiction, that the pair should fall both more slowly and faster than the heavy stone alone, and it does so without a single measurement. The reasoning alone undoes the doctrine.",
+        "D": "The stones case works by exposing a contradiction, not by appealing to intuition; the author later warns that bare intuitions are unreliable."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b560_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author concedes the skeptic 'has a point worth conceding' regarding",
+      "choices": {
+        "A": "thought experiments that rest entirely on a bare intuition with no supporting argument",
+        "B": "the sweeping claim that no thought experiment has ever actually managed to expose a genuine contradiction",
+        "C": "the idea that observation is always superior to reasoning",
+        "D": "the view that all famous thought experiments are equally fragile"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author grants the skeptic's narrower complaint that a thought experiment resting its whole weight on a bare intuition, with no argument connecting it to anything else we accept, is fragile, and notes that confident intuitions have often proved to be the prejudices of their age.",
+        "B": "The author does not concede this; the stones example is presented precisely as a thought experiment that exposes a contradiction, which the concession leaves intact.",
+        "C": "The concession concerns intuition-based cases, not a general ranking of observation over reasoning, which the author does not endorse.",
+        "D": "The author's point in conceding is that thought experiments vary, some rigorous and some fragile, not that all famous ones are fragile."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b560_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "By saying the concession 'does not vindicate the original charge; it refines it,' the author means that",
+      "choices": {
+        "A": "thought experiments and ordinary empirical observations are ultimately one and the very same kind of thing",
+        "B": "the objection has been fully proven correct after all",
+        "C": "the objection should be abandoned as entirely without merit",
+        "D": "the objection rightly targets weak intuition-based cases but wrongly condemns the method as a whole"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The passage keeps thought experiments and observation distinct, calling the former a way of testing commitments before the world is consulted, not identical to observation.",
+        "B": "The author explicitly declines to vindicate the original charge, so it is not being proven fully correct.",
+        "C": "The concession keeps part of the objection, that intuition-based cases are fragile, so the charge is not abandoned as meritless.",
+        "D": "Correct. The author says the lesson is not that thought experiments are worthless but that they vary in kind; the concession salvages the objection's force against fragile intuition-based cases while denying its wholesale conclusion. That is refining the charge, not vindicating it."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b560_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage implies that the most rigorous thought experiments are valuable because they",
+      "choices": {
+        "A": "rely on intuitions shared across all cultures and eras",
+        "B": "supply new observations that the laboratory cannot provide",
+        "C": "reveal that two of our existing beliefs cannot both be true",
+        "D": "settle every question they raise beyond further dispute"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Reliance on shared intuition describes the weaker cases the author distrusts, not the rigorous ones that turn on contradiction.",
+        "B": "The author denies they supply observations, calling a good thought experiment a way of extracting latent consequences rather than a substitute for observation.",
+        "C": "Correct. The author says the strongest thought experiments extract consequences latent in what we believe and drive them until they cohere or collapse, so that the armchair is a good place to discover that two of your beliefs cannot both be true. Exposing hidden contradiction is their value.",
+        "D": "The author notes many thought experiments do real if defeasible work and cannot yet say which commitment must yield, so they do not settle every matter they raise."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b560_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would most likely agree that the proper response to the armchair objection is to",
+      "choices": {
+        "A": "distinguish the thought experiments that expose contradictions from those that merely pump intuitions",
+        "B": "abandon thought experiments altogether in favor of direct empirical observation of the world in every case",
+        "C": "treat all thought experiments as equally authoritative discoveries",
+        "D": "defend even the most intuition-dependent cases as beyond criticism"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author calls the blanket demand for legitimacy poorly framed and says the interesting task is to tell the instruments of genuine discovery from the dressed-up guesswork, which is exactly this discriminating response.",
+        "B": "The author warns against discarding the method wholesale, calling it one of the few tools that lets thinking examine itself, so abandoning it in every case is rejected.",
+        "C": "Treating all thought experiments as equally authoritative ignores the author's central distinction between rigorous and fragile cases.",
+        "D": "The author concedes that intuition-dependent cases are fragile and often mere prejudice, so defending them as beyond criticism contradicts the passage."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    }
+  ]
+}
