@@ -1,0 +1,136 @@
+{
+  "batch": "B562",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "The Piano in the Parlor",
+  "questionCount": 6,
+  "answerDistribution": { "A": 1, "B": 2, "C": 1, "D": 2 },
+  "questions": [
+    {
+      "id": "cars_b562_q0",
+      "passage": "Histories of the nineteenth-century home reserve a warm chapter for the parlor piano. In the familiar telling, the instrument spread because the middle classes fell in love with music: daughters practiced their scales, families gathered around the keyboard in the evening, and the piano became the hearth of a newly domestic culture. The affection was real enough. But the account mistakes an effect for a cause, and the ledgers of the instrument trade tell a less sentimental story.\n\nThe first thing the ledgers show is that pianos became cheap to make before they became beloved to own. Iron framing, standardized actions, and factory production drove manufacturing costs down through the middle decades of the century, and output rose accordingly: firms that had built hundreds of instruments a year in the 1840s were building tens of thousands by the 1890s. The second thing they show is more decisive. The piano was among the earliest household goods sold widely on installment credit. Hire-purchase agreements — a small deposit, monthly payments over three or four years, repossession on default — put a substantial instrument within reach of families whose annual income was a fraction of its retail price. Dealers' books record that in some urban markets a clear majority of new pianos left the shop under such contracts. The piano boom, in other words, was as much an innovation in retail finance as an episode in musical taste.\n\nWhat the payments purchased was not always music. Contemporary observers noted, sometimes acidly, that the instrument's silence did not diminish its value: a piano in the front room announced respectability to every caller, played or unplayed. The trade understood this perfectly. Advertisements dwelt on casework, veneer, and the instrument's effect upon visitors at least as much as on tone, and manufacturers maintained elaborate lines of ornamental models whose mechanical interiors were identical. A secondhand market completed the system, allowing households on the way up to trade toward grander cases, and dealers to resell repossessed stock to households a rung below.\n\nNone of this means the musical culture was fake. Sheet-music publishing flourished; a vast workforce of piano teachers, most of them women, assembled itself around the instrument; and genuine skill was cultivated in thousands of parlors. But the sequence matters. Much of that culture followed the instrument into the home rather than preceding it, growing up to justify and employ an object that credit and status had already installed. The daughter's lessons were, among other things, a way of making the monthly payment respectable.\n\nA caution about sources is in order. Much of what we know about the trade comes from its own journals, and trade journals are boosters by profession: they inflated sales figures, flattered manufacturers, and dressed commercial strategy in the language of cultural mission. Dealers' ledgers and probate inventories correct the picture only partially, since they survive unevenly and favor the firms and families prosperous enough to leave records. The quantitative claims above should therefore be read as directions of change rather than precise measurements.\n\nStill, the general shape of the story seems secure, and it is worth stating plainly because the sentimental version is not harmless. When historians treat the parlor piano as the spontaneous flowering of musical love, they render invisible the machinery — falling costs, installment credit, status competition, a resale market in repossessed respectability — that actually carried the instrument across hundreds of thousands of thresholds. The music was real. It was also, in the economist's dry sense, a consequence as much as a cause: something households learned to want after the means of wanting it had been arranged, at three shillings a month, by men who kept very good books.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best captures the central thesis of the passage?",
+      "choices": {
+        "A": "Nineteenth-century families purchased pianos almost exclusively for display purposes, and the instrument's musical use has been greatly exaggerated by sentimental historians in virtually every account of domestic life written about the period.",
+        "B": "Trade journals so thoroughly distorted the record of the piano industry that no reliable conclusions about the instrument's spread can now be drawn.",
+        "C": "The parlor piano's popularity demonstrates that installment credit was invented by instrument dealers and only later adopted by other retail trades.",
+        "D": "The spread of the parlor piano was driven by falling production costs, installment credit, and status display, with domestic musical culture largely following the instrument rather than causing its adoption."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The passage explicitly denies this: 'None of this means the musical culture was fake,' and it credits thousands of parlors with genuine skill. The claim is about sequence and causation, not about the absence of real musical use.",
+        "B": "The caution paragraph qualifies the sources but concludes that 'the general shape of the story seems secure.' Treating the distortion as total converts a stated limitation into a wholesale skepticism the author rejects.",
+        "C": "The passage says the piano was 'among the earliest' goods sold widely on installment credit, not that dealers invented the mechanism or that other trades copied it. The priority claim inflates a careful phrase into a stronger one.",
+        "D": "Correct. The passage argues that the sentimental account 'mistakes an effect for a cause': cheap manufacture, hire-purchase contracts, and respectability display installed the instrument, and much of the musical culture 'followed the instrument into the home rather than preceding it.'"
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b562_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The paragraph beginning 'A caution about sources' primarily serves to:",
+      "choices": {
+        "A": "concede that the passage's central argument rests on surviving evidence far too compromised and fragmentary to support any firm conclusion about the piano trade.",
+        "B": "qualify the reliability of the evidence while preserving the argument's general direction, by converting precise figures into claims about trends.",
+        "C": "introduce a rival explanation of the piano boom that the author then refutes in the paragraph that follows it.",
+        "D": "demonstrate that probate inventories are a more trustworthy class of source than the ledgers kept by instrument dealers."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The paragraph's conclusion runs the other way: despite the sources' limits, 'the general shape of the story seems secure.' Reading the caution as a concession of defeat ignores the sentence that closes the discussion.",
+        "B": "Correct. The paragraph names the biases of trade journals and the uneven survival of ledgers and inventories, then instructs the reader to take the quantitative claims 'as directions of change rather than precise measurements' — a downgrading of precision that leaves the argument's direction intact.",
+        "C": "No competing explanation of the boom appears in the paragraph; it discusses the character of the evidence, not an alternative cause. The following paragraph restates the author's own thesis rather than answering a rival.",
+        "D": "The paragraph treats ledgers and inventories together as partial correctives that 'survive unevenly'; it ranks neither above the other. The comparison it draws is between boosterish journals and all the quieter records combined."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b562_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the final paragraph, the description of the music as 'a consequence as much as a cause' most nearly means that:",
+      "choices": {
+        "A": "domestic music-making largely arose after credit and status had placed the instrument in homes, rather than being the force that put it there.",
+        "B": "the piano produced musical skill in family members more or less automatically, whether or not anyone in the household ever received any formal instruction.",
+        "C": "musical enthusiasm and installment credit contributed in exactly equal measure to every household's decision to acquire a piano.",
+        "D": "families who bought pianos on credit came to resent the instrument as a symbol of the monthly payments it required from them."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The phrase compresses the passage's sequencing claim: households 'learned to want' the instrument 'after the means of wanting it had been arranged,' and the surrounding culture of lessons and sheet music 'followed the instrument into the home.'",
+        "B": "The passage attributes cultivated skill to a workforce of teachers and to practice in thousands of parlors, not to the instrument's mere presence. Nothing suggests skill arrived without instruction.",
+        "C": "The phrase 'as much as' concedes that causation ran in both directions without asserting a precise equal split for every household; converting the author's deliberate looseness into an exact fifty-fifty claim adds a measurement the passage never makes.",
+        "D": "No resentment appears anywhere in the passage; the affection for the instrument is called 'real enough.' The daughter's lessons are said to make the payment respectable, which implies accommodation rather than bitterness."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b562_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "It can most reasonably be inferred from the passage that ornamental piano models with identical mechanical interiors existed because:",
+      "choices": {
+        "A": "manufacturers lacked the engineering capacity to vary the internal mechanisms across their product lines.",
+        "B": "professional musicians of the period demanded uniform internal mechanisms so that skills learned on one instrument transferred easily to another.",
+        "C": "regulations of the period required manufacturers to standardize the working parts of all domestic instruments.",
+        "D": "much of what buyers were paying for was the instrument's visible effect on callers rather than differences in its sound."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The passage presents standardized actions as a cost-reducing achievement of factory production, not as a limitation. The variation that mattered commercially — casework and veneer — is exactly where manufacturers did differentiate.",
+        "B": "No musician's preference appears in the passage, and the ornamental lines are discussed in the paragraph about respectability and display, not in any discussion of playing technique or skill transfer.",
+        "C": "The passage mentions no regulation of any kind; standardization is attributed to factory economics, and the proliferation of ornamental exteriors is attributed to the market for visible status.",
+        "D": "Correct. The paragraph states that a piano 'announced respectability to every caller, played or unplayed,' and that advertisements dwelt on casework and the instrument's effect on visitors. Elaborate exteriors wrapped around identical interiors follow directly from a trade selling appearance."
+      },
+      "topic": "Inference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b562_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings, if true, would most strengthen the author's argument about the role of credit?",
+      "choices": {
+        "A": "Diaries from the period show that many families expressed deep pride on the day their new instrument was delivered to the parlor.",
+        "B": "Regional records show piano ownership rising sharply in towns immediately after local dealers introduced hire-purchase contracts, while ownership stayed flat in otherwise similar towns without them.",
+        "C": "Surviving concert programs indicate that public piano recitals grew steadily more frequent in major cities across the century.",
+        "D": "Correspondence between factory owners and their retail agents shows that several of the most prominent piano manufacturers of the century privately regarded their elaborately ornamental drawing-room models as the finest commercial achievements of their firms."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Family pride at delivery is fully compatible with the sentimental account the author is correcting; it speaks to affection for the instrument, not to the financing mechanism that put it in the parlor.",
+        "B": "Correct. The author claims the boom 'was as much an innovation in retail finance as an episode in musical taste.' Ownership tracking the arrival of hire-purchase across comparable towns would tie the spread directly to the credit mechanism, which is the causal link the argument needs.",
+        "C": "The growth of public recitals concerns performance culture in cities, not household acquisition; it neither involves credit nor distinguishes the author's account from the story of spontaneous musical enthusiasm.",
+        "D": "Manufacturers' private pride in ornamental models adds color to the display argument but says nothing about installment credit, which is the specific mechanism this line of the argument advances."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b562_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "With which of the following statements about the sentimental account of the piano would the author most likely agree?",
+      "choices": {
+        "A": "It was fabricated by trade journals and has no basis in how any nineteenth-century family actually experienced the instrument.",
+        "B": "It is broadly accurate about the working classes but seriously misrepresents the motives of the wealthier urban households that bought the ornamental models.",
+        "C": "It describes something real but obscures the commercial machinery that actually carried the instrument into hundreds of thousands of homes.",
+        "D": "It will inevitably be corrected once historians gain access to the complete ledgers of the major manufacturing firms."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author calls the affection 'real enough' and insists the musical culture was not fake; the sentimental account errs in its causal sequence, not in inventing the feelings it describes.",
+        "B": "No class-by-class division of the account's accuracy appears in the passage; hire-purchase is discussed precisely because it reached families of modest income, and display motives are attributed broadly.",
+        "C": "Correct. The final paragraph states the position exactly: the sentimental version 'is not harmless' because it renders invisible the falling costs, installment credit, and status competition that installed the instrument — real music, wrongly credited with causing its own conditions.",
+        "D": "The caution paragraph notes that records survive unevenly and treats this as a permanent limit requiring modest claims, not as a gap that fuller archives are expected to close."
+      },
+      "topic": "Author's Position",
+      "difficulty": "Hard"
+    }
+  ]
+}

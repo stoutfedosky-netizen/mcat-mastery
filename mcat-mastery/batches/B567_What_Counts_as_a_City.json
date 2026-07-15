@@ -1,0 +1,136 @@
+{
+  "batch": "B567",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "What Counts as a City",
+  "questionCount": 6,
+  "answerDistribution": { "A": 1, "B": 2, "C": 1, "D": 2 },
+  "questions": [
+    {
+      "id": "cars_b567_q0",
+      "passage": "Every discipline that studies cities begins by defining them, and no two begin the same way. The disagreement is not carelessness. It is the subject.\n\nThe oldest definitions are administrative: a city is whatever the sovereign says it is — a settlement holding a charter, a cathedral, a market right. Such definitions have the virtue of precision and the vice of absurdity at the margins: under them, a dwindling town of nine hundred souls with a medieval charter outranks an unchartered industrial settlement of ninety thousand. Statistical agencies therefore prefer thresholds: a place is urban above some count of residents. But the counts diverge wildly — one country's census draws the line at two hundred inhabitants, another's at fifty thousand — and every threshold is arbitrary in the same way: no property of social life changes when the two-hundredth resident arrives. Density measures improve matters, distinguishing the packed settlement from the scattered one, yet they stumble over their own units, since density depends entirely on where one draws the boundary around what is being measured.\n\nFrustrated with counting, sociologists tried to define the city by its way of life. In a famous formulation, urbanism combines size, density, and heterogeneity, and from these three flow the textures we recognize as urban: anonymity, the segmentation of roles, dependence on strangers, tolerance born of exposure. The definition has depth the thresholds lack, and a corresponding softness — for the way of life escapes the settlement. A remote village wired into distant markets, media, and migration circuits may live more 'urbanly' than a compact provincial town where everyone is watched. Archaeologists, needing to identify cities from rubble without interviewing anyone, assembled trait lists instead: monumental buildings, full-time specialists, writing, dense population. The lists worked until the exceptions arrived — vast ancient settlements with monuments and specialists but no writing — and each exception forced a choice between amending the list and demoting the site.\n\nIt is tempting to conclude from this parade that someone has simply not yet found the correct definition. The likelier conclusion is that there is nothing there of the kind being sought. 'City' names a bundle of properties — size, density, heterogeneity, centrality, permanence, specialization — that travel together often enough to deserve a shared word and loosely enough that no subset of them is always present. Definitions of such terms are not discoveries; they are tools. The census-taker's threshold, crude as it is, lets millions of settlements be sorted by the same rule, which is what a census requires. The archaeologist's trait list makes silent ruins classifiable. The sociologist's way of life illuminates experience and resists tabulation. Each instrument fits the hand that made it, and asking which is the true definition is like asking whether the hammer or the level is the true tool of carpentry.\n\nThe conclusion is not a license for confusion. Tools can be misused, and the characteristic misuse is to forget that a definition was built for a purpose and to carry its verdicts where they do not belong — to reason that because a settlement falls below an administrative threshold its residents cannot have urban problems, or that a site without writing cannot have had urban complexity. The remedy is not a better definition that will finally end the argument. The remedy is bookkeeping: say which definition is in use, say what it was built to do, and refuse to let a boundary drawn for one purpose govern conclusions drawn for another. The question 'what is a city, really?' has no answer. The question 'what is a city, for this purpose?' has several, and they are good ones.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": {
+        "A": "Sociological definitions of the city are superior to administrative and statistical ones because they capture the experience of urban life.",
+        "B": "Because 'city' names a loose bundle of properties, definitions of it are purpose-built tools rather than discoveries, and the error to avoid is applying one tool's verdicts beyond its purpose.",
+        "C": "The failure of every proposed definition demonstrates that the concept of the city should be retired from scholarly use altogether.",
+        "D": "The longstanding disagreement among the various disciplines about how to define the city will finally be resolved once archaeologists complete their ongoing revisions to the traditional trait lists of urban characteristics."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage credits the sociological definition with 'depth' but immediately notes its 'corresponding softness,' and the tool analogy explicitly refuses to rank the instruments: asking which is the true definition is like asking whether the hammer or the level is the true tool.",
+        "B": "Correct. The passage concludes that 'city' names a bundle of properties traveling together loosely, that 'definitions of such terms are not discoveries; they are tools,' and that the remedy for misuse is bookkeeping — stating each definition's purpose and refusing to carry its verdicts elsewhere.",
+        "C": "The final sentence affirms that the purpose-relative definitions 'are good ones,' and the bundle deserves 'a shared word'; the recommendation is disciplined use of the concept, not its retirement.",
+        "D": "Trait-list revision is presented as an endless cycle — each exception forces amendment or demotion — and the passage denies that any better definition 'will finally end the argument.' No resolution of that kind is anticipated."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b567_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage presents the sociological formulation combining size, density, and heterogeneity primarily in order to:",
+      "choices": {
+        "A": "identify the single definition of the city that the author ultimately endorses over its administrative, statistical, and archaeological rivals.",
+        "B": "show that sociologists borrowed their criteria directly from the statistical agencies they criticized.",
+        "C": "demonstrate that all definitions of the city ultimately reduce to measures of population.",
+        "D": "exhibit a definition whose gain in depth comes with a matching loss of firmness, as one entry in the parade of purpose-shaped attempts."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "No definition is endorsed over the others; the tool analogy that follows expressly declines to name a true definition, and the sociological account's softness is stated as plainly as its depth.",
+        "B": "The passage introduces the sociologists as 'frustrated with counting' — a reaction against the statistical approach, not a borrowing from it — and their criterion of heterogeneity has no counterpart in the thresholds.",
+        "C": "The sociological account is valued precisely for what escapes counting — anonymity, segmentation, dependence on strangers — and the passage notes it 'resists tabulation,' the opposite of reducing to population measures.",
+        "D": "Correct. The formulation is credited with 'depth the thresholds lack, and a corresponding softness,' since the way of life 'escapes the settlement.' It serves the passage's larger pattern: each discipline's definition fits its purpose and fails outside it."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b567_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following would the author most likely identify as the 'characteristic misuse' of a definition described in the final paragraph?",
+      "choices": {
+        "A": "A census bureau that publishes the population threshold it uses to classify settlements as urban.",
+        "B": "A sociologist who applies the concept of urbanism to a village enmeshed in distant markets and media.",
+        "C": "An archaeologist who proposes adding a newly documented trait to the traditional classificatory list after excavating an anomalous ancient settlement whose remains do not fit the established criteria.",
+        "D": "A ministry that denies transit funding to a large settlement because it falls below the administrative threshold for city status, reasoning that such places cannot have urban congestion."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Publishing the threshold in use is exactly the 'bookkeeping' the passage prescribes as the remedy — saying which definition is in use and what it was built to do.",
+        "B": "The passage itself observes that the urban way of life can escape the settlement and inhabit a wired village; extending the concept there follows the sociological definition's own logic rather than misusing another's.",
+        "C": "Amending the trait list in response to exceptions is presented as the normal, if endless, maintenance of that tool — one of the two choices each exception forces — not as carrying a verdict where it does not belong.",
+        "D": "Correct. The passage's own example of misuse is reasoning 'that because a settlement falls below an administrative threshold its residents cannot have urban problems.' Letting a boundary drawn for administrative sorting govern conclusions about congestion is precisely a verdict carried beyond its purpose."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b567_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would most likely disagree with which of the following statements?",
+      "choices": {
+        "A": "A settlement's classification under one discipline's definition may legitimately differ from its classification under another's.",
+        "B": "Sufficiently patient analysis of settlements will eventually reveal the single set of properties that all cities share.",
+        "C": "The census threshold, despite being arbitrary, performs a function that subtler definitions could not perform.",
+        "D": "The persistence of definitional disagreement about cities reflects the structure of the concept rather than the negligence of scholars."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Divergent classifications follow directly from the tool view: instruments built for different purposes may sort the same settlement differently, and the passage's bookkeeping remedy assumes such coexistence.",
+        "B": "Correct. The passage rejects exactly this hope: the 'likelier conclusion is that there is nothing there of the kind being sought,' since the bundle's properties travel together 'loosely enough that no subset of them is always present.' A final common essence is what the argument denies.",
+        "C": "The passage says the threshold, 'crude as it is, lets millions of settlements be sorted by the same rule, which is what a census requires' — a function the untabulatable way-of-life definition could not serve.",
+        "D": "The opening states the position outright: 'The disagreement is not carelessness. It is the subject.' The author affirms, rather than disputes, that the concept's structure produces the persistent disagreement."
+      },
+      "topic": "Author Disagreement",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b567_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the context of the passage, the statement that definitions 'are not discoveries; they are tools' most nearly means that:",
+      "choices": {
+        "A": "definitions of the city were historically developed by practical trades before scholars adopted them.",
+        "B": "any definition of the city can be made to work if researchers apply it with sufficient ingenuity.",
+        "C": "a definition of a bundle concept is constructed to serve a purpose and is judged by its usefulness, not by its correspondence to a waiting essence.",
+        "D": "scholarly definitions of the city become obsolete just as quickly as physical instruments wear out, and must therefore be regularly discarded and replaced with newer ones."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The tool language is an analogy about the status of definitions, not a historical claim about their origins in trades; the definitions discussed come from sovereigns, statisticians, sociologists, and archaeologists.",
+        "B": "The passage insists tools 'can be misused' and builds its final paragraph around a characteristic misuse; the tool view constrains application rather than licensing unlimited ingenuity.",
+        "C": "Correct. The sentence follows the claim that 'there is nothing there of the kind being sought': with no essence awaiting discovery, each definition is an instrument built for a purpose — the threshold for sorting, the trait list for classifying ruins — and 'each instrument fits the hand that made it.'",
+        "D": "Nothing in the passage concerns obsolescence or replacement schedules; the trait list is revised when exceptions arrive, but the threshold and the sociological account are not described as wearing out."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b567_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "It can most reasonably be inferred from the passage that the discovery of a vast ancient settlement with monuments and full-time specialists but no writing would force archaeologists using a trait list to:",
+      "choices": {
+        "A": "either revise the list of defining traits or decline to classify the settlement as a city.",
+        "B": "abandon trait lists entirely in favor of the sociological definition of urbanism.",
+        "C": "conclude that the settlement must have possessed writing in a form that left no material trace.",
+        "D": "defer the classification to statistical agencies equipped to estimate the settlement's population."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage describes exactly this situation and its consequence: 'each exception forced a choice between amending the list and demoting the site.' Revision of the criteria or refusal of the classification are the two available moves.",
+        "B": "The sociological definition requires the interviews and observation that rubble cannot provide — the very need that produced trait lists — so the passage gives archaeologists no such retreat.",
+        "C": "Nowhere does the passage suggest inventing unattested evidence to save a classification; the exceptions are presented as settlements genuinely lacking the trait, which is what makes them exceptions.",
+        "D": "Statistical thresholds require resident counts of living settlements; the passage introduces trait lists precisely because archaeologists must classify 'from rubble without interviewing anyone.'"
+      },
+      "topic": "Inference",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "batch": "B565",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "The Case for the Subsidy",
+  "questionCount": 6,
+  "answerDistribution": { "A": 1, "B": 2, "C": 2, "D": 1 },
+  "questions": [
+    {
+      "id": "cars_b565_q0",
+      "passage": "Public money should fund the arts. Not apologetically, not as a rounding error tolerated in good years, but deliberately, as governments fund libraries, parks, and basic research — and for the same reason: these are goods that markets, left alone, reliably undersupply.\n\nThe economics is not mysterious. A living theater tradition, a school of painters, an orchestra a city is proud of — these generate value far beyond the box office. They train the performers, designers, and teachers who staff the wider culture; they anchor neighborhoods and draw the visitors whose spending lands in restaurants and hotels that never sell a ticket; and they are valued by thousands who rarely attend, in the way a citizen values a mountain range she may never climb. She wants it there. She wants her children to be able to want it. None of that value passes through a cash register, which is precisely the point: when benefits cannot be captured in ticket prices, ticket prices cannot sustain the enterprise, and the market's verdict tells us nothing about the enterprise's worth.\n\nSubsidy also buys something subtler: the freedom to fail. Commercial logic is not hostile to art, but it is hostile to risk. Producers who must recoup investments revive what has already succeeded; publishers reprint what has already sold. Every art form's history confirms that its permanent achievements often began as commercial disasters — work too strange, too slow, or too new to find its audience within a season. A funding system with a margin for failure is not indulging artists; it is running a research program, and research programs are judged by their occasional transforming successes, not by their many respectable dead ends.\n\nNow to the objection that arrives on schedule: subsidy is a transfer to the comfortable, taxing the many to underwrite the evenings of the few. The picture is out of date and always was selective. Public arts money maintains regional theaters and touring companies precisely where commercial presenters will not go; it keeps admission free at museums whose visitors look like the city around them; it pays for the school programs that are many children's only rehearsal room. And the objectors' arithmetic is curiously one-eyed. The same treasuries that agonize over modest arts budgets routinely grant far larger public subsidies to professional sports stadiums — private businesses with paying customers — without a word about the many underwriting the pleasures of the few. The selective outrage suggests the objection was never really about regressive transfers.\n\nThe better worry is political: that the paying state becomes the choosing state, and official taste hardens into official art. The worry deserves respect, and it has a known answer — the arm's-length principle. Funds are appropriated by legislatures but awarded by independent panels of practitioners and citizens, at a remove from ministers; the state fills the reservoir and does not hold the hose. The arrangement is imperfect, as every arrangement is, yet decades of practice across many countries show that insulation of this kind mostly holds, and that the surer road to official art is not subsidy but scarcity, which leaves patronage to whoever remains rich enough to provide it.\n\nThat is the choice actually on offer. Art will always have patrons; the only live issue is which ones. A public that declines the role does not liberate its culture from power — it hands the commission to the market and the very wealthy, and then marvels that so much of what gets made flatters one or the other. Fund the arts as we fund the sciences: openly, at arm's length, with a tolerance for failure and a long memory for what the successes have been worth. The bill is small. The alternative is not neutrality. It is somebody else's taste, purchased at somebody else's price, presented to the public as its own.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the central claim of the passage?",
+      "choices": {
+        "A": "Public arts funding should be redirected toward school programs and free museum admission rather than professional companies.",
+        "B": "Governments should deliberately fund the arts because markets undersupply their broad public value, and the known objections have workable answers.",
+        "C": "Commercial producers are fundamentally hostile to art itself and will eventually eliminate everything strange or new unless the state intervenes directly to stop them.",
+        "D": "The arts should be funded privately by patrons, since public subsidy inevitably converts official taste into official art."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "School programs and free admission appear as evidence against the elitism objection, not as a proposal to redirect funds away from companies; the passage defends subsidy across regional theaters, touring companies, and museums together.",
+        "B": "Correct. The opening sentence states the thesis without hedging, the second and third paragraphs supply the market-failure and freedom-to-fail arguments, and the remaining paragraphs answer the two standing objections — regressive transfer and state taste — with the stadium comparison and the arm's-length principle.",
+        "C": "The passage says commercial logic 'is not hostile to art, but it is hostile to risk' — a distinction this reading erases. The claim is about systematic aversion to the unproven, not a campaign against art itself.",
+        "D": "This inverts the conclusion: the passage argues that declining public funding 'hands the commission to the market and the very wealthy,' and that the surer road to official art is scarcity, not subsidy."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b565_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author mentions public subsidies for sports stadiums primarily in order to:",
+      "choices": {
+        "A": "propose that stadium funds be reallocated to regional theaters and touring companies.",
+        "B": "concede that governments have historically had a rather poor record of choosing which enterprises deserve public support.",
+        "C": "expose an inconsistency in the objectors' reasoning that suggests their stated concern is not their real one.",
+        "D": "demonstrate that professional sports generate less economic activity for cities than the arts do."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "No reallocation is proposed anywhere in the paragraph; the stadium example is aimed at the objectors' selectivity, and the passage's own funding proposals are stated later in general terms.",
+        "B": "The author is not criticizing governments for funding stadiums but criticizing objectors for their silence about it; the paragraph's target is an argumentative double standard, not public spending decisions as such.",
+        "C": "Correct. The paragraph notes that the same treasuries grant 'far larger public subsidies' to stadiums 'without a word' from those who denounce arts funding as a transfer to the few, and concludes that 'the selective outrage suggests the objection was never really about regressive transfers.'",
+        "D": "The passage makes no comparison of economic output between stadiums and the arts; the stadium's relevance is that it is a private business with paying customers, which makes the objectors' silence about it telling."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b565_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings, if true, would most weaken the author's argument for the arm's-length principle?",
+      "choices": {
+        "A": "A study finds that legislators frequently complain about individual grants awarded by independent arts panels.",
+        "B": "A survey shows that most artists would prefer larger grants awarded less frequently to smaller grants awarded annually.",
+        "C": "A comparative study of many countries finds that work funded through independent panels converges on the aesthetic preferences of sitting governments nearly as often as directly state-chosen work does.",
+        "D": "Historical research shows that several of the most celebrated artistic movements of the past two centuries emerged and flourished in countries whose governments provided no public funding of any kind for the arts."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Legislators complaining about grants they did not choose is evidence the insulation is working — the panels are making decisions ministers dislike — and so tends to support the arm's-length claim rather than undermine it.",
+        "B": "Grant size and frequency concern administrative design, not the political independence of the awarding process, which is the specific virtue the arm's-length principle is claimed to secure.",
+        "C": "Correct. The author's claim is that panel independence means 'insulation of this kind mostly holds.' If panel-funded work tracks government taste nearly as closely as directly chosen work across many countries, the remove from ministers is not doing its protective work, and the answer to the political worry collapses.",
+        "D": "The author never claims art cannot flourish without subsidy — only that patronage then falls to the market and the wealthy. Movements flourishing unfunded is compatible with the argument and does not touch the arm's-length mechanism."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b565_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward the objection that arts subsidy taxes the many to underwrite the evenings of the few is best described as:",
+      "choices": {
+        "A": "sympathetic, accepting its factual premises while disputing the conclusion drawn from them.",
+        "B": "dismissive, treating its picture of arts funding as outdated and its proponents' outrage as selectively applied.",
+        "C": "neutral, presenting the objection and the response as equally reasonable positions between which readers must decide.",
+        "D": "conflicted, granting the objection real force while conceding no adequate reply has yet been found."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author rejects the factual premises themselves — 'the picture is out of date and always was selective' — citing regional theaters, free museums, and school programs, rather than accepting the premises and disputing only the inference.",
+        "B": "Correct. The objection 'arrives on schedule,' its picture is 'out of date and always was selective,' its arithmetic is 'curiously one-eyed,' and its outrage is 'selective' — language of dismissal throughout, capped by the suggestion that the stated concern was never the real one.",
+        "C": "The passage is open advocacy and treats this objection far less respectfully than the political worry that follows; no evenhanded weighing is offered or intended.",
+        "D": "It is the political worry, not the elitism objection, that the author says 'deserves respect' — and even that worry receives 'a known answer.' The elitism objection is answered without any concession of force."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b565_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "It can most reasonably be inferred that the author regards the commercial failure of a new artwork as:",
+      "choices": {
+        "A": "clear proof that the work was too strange or too slow to deserve the resources invested in producing it.",
+        "B": "a misfortune that better marketing by producers and publishers could usually have prevented.",
+        "C": "a rare event in art forms whose funding systems include a substantial margin for risk.",
+        "D": "weak evidence about the work's worth, since lasting achievements have often begun exactly this way."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This reading takes commercial failure as a verdict on merit, which the passage explicitly denies: the market's verdict 'tells us nothing about the enterprise's worth,' and permanent achievements 'often began as commercial disasters.'",
+        "B": "The passage attributes early failure to work being 'too strange, too slow, or too new to find its audience within a season' — a property of the work's novelty and its moment, not a promotional shortfall that better selling would fix.",
+        "C": "The research-program analogy predicts 'many respectable dead ends' even in a well-funded system; a margin for failure makes failure survivable, not rare.",
+        "D": "Correct. The passage holds that benefits escaping the cash register make box-office verdicts uninformative, and that every art form's permanent achievements often began as commercial disasters — so a work's initial failure carries little information about its ultimate worth."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b565_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following situations best exemplifies what the author means by the value 'a citizen values a mountain range she may never climb'?",
+      "choices": {
+        "A": "A resident who has never attended the city opera consistently votes to maintain its funding because she wants it to exist and remain available.",
+        "B": "A hiker pays an entrance fee at a national park and considers the visit worth every unit of the price she paid.",
+        "C": "A season subscriber faithfully attends every single production of a theater company and enthusiastically recommends the company's work to all of her friends.",
+        "D": "An investor purchases shares in a commercial gallery expecting the value of its holdings to appreciate over time."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The analogy names value held by 'thousands who rarely attend': the citizen 'wants it there' and wants her children able to want it, and none of that value 'passes through a cash register.' Supporting the opera without attending it is exactly that structure.",
+        "B": "A paid, satisfying visit is value captured at the point of sale — the ordinary market transaction the passage contrasts with the value that ticket prices cannot collect.",
+        "C": "The devoted subscriber's value flows through attendance and the box office; the mountain-range analogy exists to capture the different case of those who almost never come.",
+        "D": "Investment in expected appreciation is a private financial return, the kind of benefit markets capture perfectly well; the passage's point concerns benefits that escape private capture altogether."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "batch": "B578",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Against Flexible Architecture",
+  "questionCount": 6,
+  "answerDistribution": {
+    "A": 1,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "questions": [
+    {
+      "id": "cars_b578_q0",
+      "passage": "Flexibility has become architecture’s favorite alibi. A building is praised for refusing to determine what will happen inside it: partitions can move, services can migrate, rooms can be renamed, and every surface waits for a future use. This sounds generous. In practice, the flexible building often transfers design responsibility from the architect to occupants who possess fewer resources, less authority, and no reason to celebrate permanent improvisation.\n\nAll buildings change. Families expand, institutions reorganize, technologies age, and unforeseen activities arrive. Sensible architecture allows repair and alteration. But adaptability is not the same as indeterminacy. An adaptable room has proportions, light, access, and material capacity that support several intelligible transformations. Those qualities anticipate change without pretending that every use is interchangeable. An indeterminate room merely avoids commitment. Its defenders point to an empty floor plate and call absence potential.\n\nThe distinction becomes obvious after occupation. A school designed as a field of interchangeable zones soon acquires bookcases as walls, tape as circulation planning, and storage carts as acoustic barriers. An office advertised as endlessly reconfigurable develops unofficial territories protected by plants and filing cabinets. These additions are cited as evidence that users have “activated” the building. The compliment turns remedial labor into proof of architectural wisdom. More often they show that users have supplied the elementary distinctions the design withheld.\n\nFlexibility also conceals unequal power. Administrators enjoy the ability to reassign rooms; workers endure repeated relocation. Owners value a structure that can accept new tenants; occupants receive spaces tailored to none of them. The language of openness makes these interests sound universal. Yet the person who benefits from rapid conversion is often not the person who must work amid the conversion. A wall that can move is not politically neutral when only one party decides when it moves. Reconfiguration can look like opportunity from the plan room and feel like dispossession on the occupied floor.\n\nThe cult of flexibility arose partly from a reasonable fear of obsolescence. Highly specialized buildings can become unusable when their original program disappears. But the cure has become a superstition. Designers now treat specificity itself as a threat, as though a room shaped well for reading, rehearsal, deliberation, or rest were already guilty of future failure. This fear produces environments that survive administratively while failing experientially. They remain rentable, compliant, and easy to diagram long after anyone has ceased to love being in them.\n\nA committed design can age badly, but it can also invite intelligent alteration because there is something definite to argue with. Thick walls can be pierced; a formal hall can be divided; a courtyard can acquire new circulation. Change becomes legible as a response to prior purpose. In the generic interior, alteration leaves no such record. One anonymous arrangement replaces another, and the building’s history becomes a sequence of furniture plans.\n\nArchitecture should not predict every future activity. It should make present purposes concrete enough that later users can inherit, contest, and revise them. This requires judgment about scale, sequence, enclosure, and atmosphere. The architect who declines such judgment has not liberated the future. The architect has delivered an unfinished negotiation and departed before the weaker parties arrive. Flexibility is worthwhile when it enlarges the life of a strong design. When flexibility becomes the design itself, it is usually a polished name for evasion.",
+      "usePrevPassage": false,
+      "stem": "Which statement best expresses the passage's main argument?",
+      "choices": {
+        "A": "Buildings should be specialized so completely that later alterations become unnecessary.",
+        "B": "Indeterminate design often shifts unresolved architectural burdens onto occupants.",
+        "C": "Movable partitions improve buildings only when occupants control institutional budgets.",
+        "D": "Architectural obsolescence results mainly from changes in technology rather than use."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author accepts change and supports intelligent alteration rather than complete specialization.",
+        "B": "Correct. The passage argues that celebrated indeterminacy often withholds basic spatial judgments and leaves less powerful users to improvise them later.",
+        "C": "Control over movable elements matters, but budget authority is not presented as the sole condition for improvement.",
+        "D": "Technological change is one source of change among several and is not identified as the principal cause of obsolescence."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b578_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The examples of bookcases, tape, storage carts, plants, and filing cabinets primarily illustrate",
+      "choices": {
+        "A": "the creativity that flexible buildings reliably inspire in their occupants.",
+        "B": "the low cost of adapting generic interiors to specialized purposes.",
+        "C": "the spatial distinctions users must create when design avoids commitment.",
+        "D": "the preference of workers for informal arrangements over permanent architecture."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author rejects the celebratory language of activation and treats these additions as evidence of withheld design.",
+        "B": "No cost comparison is offered, and the burden on occupants is central.",
+        "C": "Correct. The improvised objects provide boundaries, circulation, territory, and acoustic control that the original spaces failed to establish.",
+        "D": "The passage does not infer a general preference for informality from adaptations made under necessity."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b578_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which claim is most strongly implied by the passage?",
+      "choices": {
+        "A": "A building can stay rentable while becoming unpleasant to inhabit.",
+        "B": "Every room with a specific purpose will eventually become obsolete.",
+        "C": "Occupants usually resist any change to an established spatial arrangement.",
+        "D": "Architectural history is preserved only through permanent structural walls."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author describes generic environments that remain rentable and administratively viable even after their experiential quality has failed.",
+        "B": "Specificity carries risk but can also support meaningful inheritance and alteration.",
+        "C": "The passage portrays occupants as adapting spaces rather than universally resisting change.",
+        "D": "Legible history can arise from many definite prior purposes and is not restricted to permanent walls."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b578_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A community hall is designed with strong acoustics and clear gathering spaces while allowing service areas to expand later. The author would most likely regard this design as",
+      "choices": {
+        "A": "excessively specialized because present uses determine its atmosphere.",
+        "B": "indeterminate because future service areas remain unsettled.",
+        "C": "politically unequal because the room supports collective gathering.",
+        "D": "adaptable because later change builds on present commitments."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The author supports concrete present purposes when they remain open to later revision.",
+        "B": "Unsettled expansion does not make the whole design indeterminate when scale, acoustics, and gathering are deliberately formed.",
+        "C": "Collective use does not itself create the unequal power criticized in the passage.",
+        "D": "Correct. The hall combines specific spatial judgment with capacity for intelligible alteration, matching the author’s definition of adaptability."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b578_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which finding would most weaken the author's criticism of indeterminate buildings?",
+      "choices": {
+        "A": "Owners can lease generic spaces to a wider range of tenants.",
+        "B": "Workers frequently personalize desks with small movable objects.",
+        "C": "Occupants of generic interiors report greater control and lower adaptation costs.",
+        "D": "Specialized rooms sometimes require renovation after institutional change."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Broader leasing supports the owner interest that the passage distinguishes from occupant experience.",
+        "B": "Personalization does not show that users have avoided the burden of supplying basic spatial order.",
+        "C": "Correct. Greater occupant control combined with lower adaptation costs would challenge the claim that indeterminacy primarily transfers burdens to weaker users.",
+        "D": "The author already acknowledges that specialized buildings can age badly and does not rely on denying renovation."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b578_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's tone toward architecture that treats flexibility as the design itself is best described as",
+      "choices": {
+        "A": "patiently approving of an unfinished experiment.",
+        "B": "contemptuous of a fashionable form of evasion.",
+        "C": "nostalgic for buildings that never changed use.",
+        "D": "uncertain about the practical value of adaptation."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author calls the result an unfinished negotiation imposed on weaker parties rather than an experiment worthy of patience.",
+        "B": "Correct. Terms such as “alibi,” “superstition,” and “polished name for evasion” express sharp contempt for indeterminacy disguised as generosity.",
+        "C": "The author accepts alteration and does not idealize permanence.",
+        "D": "Adaptation is clearly endorsed when it extends a strong design, so the uncertainty concerns no such value."
+      },
+      "topic": "Author's Tone",
+      "difficulty": "Easy"
+    }
+  ]
+}

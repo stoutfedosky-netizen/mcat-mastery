@@ -1,0 +1,141 @@
+{
+  "batch": "B574",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Scientific Idealization",
+  "questionCount": 6,
+  "answerDistribution": {
+    "A": 1,
+    "B": 2,
+    "C": 1,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_b574_q0",
+      "passage": "A familiar dispute in the philosophy of science asks whether idealized models are true descriptions or useful fictions. The question is poorly formed because it treats idealization as a single operation. A model of a frictionless plane, a population with random mating, and a market containing perfectly informed traders do not depart from actuality in the same way. Before deciding what idealization permits us to know, we must distinguish the kinds of departure it employs.\n\nThe simplest kind is omission. A model leaves out features judged irrelevant to the relation under study. A diagram of planetary motion may omit color, mineral composition, and political boundaries without implying that planets lack these properties. Omission reduces the field of attention. Its danger is not falsehood in the ordinary sense but concealed relevance: a discarded factor may turn out to influence the result. The economy of attention can become a source of blindness.\n\nA second kind is controlled distortion. Here a model alters a known quantity or relation to make a pattern tractable. A surface becomes perfectly smooth; a beam becomes perfectly rigid; a population becomes infinitely large. These entities are not merely incomplete. They possess features no actual case fully exhibits. Yet distortion can disclose dependence. By pushing a variable to an extreme, the model shows what follows from a relation before complications enter. The useful inquiry is then how the result changes as the distortion is relaxed.\n\nA third kind is constructive fiction. Some models assemble mechanisms that have no direct counterpart in the target system. Their value lies in generating a pattern that resembles the observed one and in directing attention toward possible causes. Such a model is neither a portrait nor a limit case. It is closer to a proposed machine whose behavior can be compared with the world. The comparison may reveal that several different mechanisms produce the same outward pattern, which prevents premature confidence about underlying causes.\n\nThese distinctions matter because each kind of idealization fails differently. An omission fails when a neglected feature proves relevant. A distortion fails when conclusions drawn at the extreme do not survive the return toward ordinary conditions. A constructive fiction fails when resemblance at the level of outcome is mistaken for identity of mechanism. To call all three “false” is unhelpful, since the label does not indicate what correction is needed. To call all three “useful” is equally thin, since usefulness can persist for reasons unrelated to explanation.\n\nThe proper standard is not literal resemblance but disciplined return. A model earns confidence when investigators can identify the departure it makes, trace the inference that departure enables, and determine how conclusions change when the excluded or altered features are restored. This standard rejects the fantasy that an idealized model simply mirrors reality. It also rejects the complacent view that predictive success excuses any construction. The model must provide a route back to the conditions from which it departed.\n\nThus the argument between truth and fiction should not be settled by awarding victory to either side. Models can inform us through departures from actuality, but only when those departures remain visible and revisable. Idealization is not a veil placed over the world, nor a purified image of it. It is a set of operations whose legitimacy depends on whether the journey away from actuality includes a credible return.",
+      "usePrevPassage": false,
+      "stem": "The central purpose of the passage is to",
+      "choices": {
+        "A": "defend predictive success as the primary standard for scientific models.",
+        "B": "show that all idealized models distort reality in equivalent ways.",
+        "C": "classify forms of idealization and propose standards suited to their failures.",
+        "D": "argue that literal resemblance is necessary for reliable explanation."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author rejects the view that predictive success excuses any construction and requires a route back to actual conditions.",
+        "B": "The passage is organized around differences among omission, controlled distortion, and constructive fiction.",
+        "C": "Correct. The author distinguishes three operations, identifies how each can fail, and proposes disciplined return as the governing standard.",
+        "D": "Literal resemblance is explicitly displaced by an account of visible, revisable departures."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b574_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The example of an infinitely large population is used to illustrate a model that",
+      "choices": {
+        "A": "removes traits that have no possible bearing on the result.",
+        "B": "combines fictional mechanisms to imitate an observed pattern.",
+        "C": "records a real population with unusually complete measurements.",
+        "D": "pushes a known feature beyond actual conditions to clarify dependence."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "An infinitely large population does not merely omit irrelevant traits; it changes a quantity to an unreal extreme.",
+        "B": "Constructive fiction creates mechanisms without direct counterparts, whereas infinite size extends a familiar variable.",
+        "C": "The model is not presented as a record of any actual population.",
+        "D": "Correct. Infinite size exemplifies controlled distortion because a known feature is moved to an extreme so a relation can be studied before complications return."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b574_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which statement is most consistent with the author's account of constructive fiction?",
+      "choices": {
+        "A": "Matching an observed outcome proves that the proposed mechanism exists.",
+        "B": "Similar outcomes may arise from different underlying mechanisms.",
+        "C": "A fictional mechanism becomes explanatory only when it predicts perfectly.",
+        "D": "Constructive models are less informative than models based on omission."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage warns against treating resemblance of outcome as identity of mechanism.",
+        "B": "Correct. Constructive fictions can show that multiple mechanisms generate the same pattern, thereby limiting confidence about causes.",
+        "C": "Perfect prediction is not given as the condition for explanation; comparison and causal discrimination are central.",
+        "D": "The author differentiates failure modes without placing the three model types in a hierarchy of informativeness."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b574_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "A climate model initially assumes a uniformly reflective surface and then gradually introduces regional differences in reflectivity. According to the passage, this procedure best demonstrates",
+      "choices": {
+        "A": "disciplined return from a controlled distortion.",
+        "B": "replacement of an omission with a constructive fiction.",
+        "C": "proof that literal resemblance is scientifically unnecessary.",
+        "D": "evidence that predictive accuracy excuses unrealistic assumptions."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The model begins with an altered uniform condition and then relaxes that distortion to determine how the conclusions change under more ordinary variation.",
+        "B": "The scenario alters and restores a known feature rather than inventing a mechanism without a counterpart.",
+        "C": "The procedure may support conclusions despite imperfect resemblance, but the passage requires more than that broad observation.",
+        "D": "The author explicitly denies that predictive success alone justifies unrealistic construction."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b574_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which result would most weaken the author's proposed standard of disciplined return?",
+      "choices": {
+        "A": "Restoring omitted variables repeatedly changes model results in predictable ways across several independent studies.",
+        "B": "Several distinct fictional mechanisms repeatedly generate the same observed pattern under tightly controlled experimental conditions.",
+        "C": "Results derived from extreme assumptions become steadily less accurate as investigators restore ordinary conditions.",
+        "D": "Models with untraceable, irreversible departures repeatedly produce causal explanations later confirmed by independent evidence."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "This would support disciplined return by showing that restoring omitted features reveals how conclusions depend on the idealization.",
+        "B": "This would support the passage’s warning that matching an outcome does not establish a unique underlying mechanism.",
+        "C": "This would support the need to test whether conclusions survive as a controlled distortion is relaxed.",
+        "D": "Correct. If models repeatedly delivered independently confirmed causal explanations despite departures that could neither be traced nor reversed, a credible route back to ordinary conditions would appear less necessary than the author claims."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b574_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In context, a “credible return” requires investigators to",
+      "choices": {
+        "A": "replace every idealized model with a complete description of reality.",
+        "B": "show how conclusions change as altered conditions are restored.",
+        "C": "select the model that most closely resembles the target system.",
+        "D": "avoid using fictional mechanisms in causal explanation."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author does not demand complete description and accepts departures when their inferential role is controlled.",
+        "B": "Correct. A credible return traces the enabled inference and checks what survives when omitted or distorted features reenter the model.",
+        "C": "Resemblance alone is rejected as the governing standard for model confidence.",
+        "D": "Constructive fiction remains legitimate when its departure is visible and its causal implications are compared with the world."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Easy"
+    }
+  ]
+}

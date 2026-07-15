@@ -1,0 +1,136 @@
+{
+  "batch": "B570",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "The Crowd's Conditions",
+  "questionCount": 6,
+  "answerDistribution": { "A": 2, "B": 1, "C": 1, "D": 2 },
+  "questions": [
+    {
+      "id": "cars_b570_q0",
+      "passage": "The story is told wherever collective judgment needs a champion. At a country fair in 1906, hundreds of visitors paid to guess the weight of an ox; the guesses scattered widely, yet their average landed within a pound of the true figure — closer than the estimates of the cattle experts on hand. Francis Galton, who tabulated the tickets, was surprised: he had expected the exercise to flatter expertise and embarrass the crowd. Instead it founded a legend. The moral drawn ever since is that groups are smarter than their smartest members, and the legend now underwrites everything from prediction markets to the design of online ratings.\n\nThe legend is not false. It is something more dangerous: a truth remembered without its conditions. Aggregation works by arithmetic, not magic. If each guess equals the true value plus an error, and the errors are independent — one visitor guessing high for her reasons, another low for his — then the errors partially cancel, and the average sits nearer the truth than most individuals do. A related theorem about majority voting, proved in the eighteenth century, carries the same fine print: where each voter is even slightly more likely to be right than wrong, and votes independently, large majorities become extremely reliable. Every word of the fine print is load-bearing. Independence does the canceling; diversity of perspective supplies errors that point in different directions; sincerity ensures the inputs are judgments rather than performances. Remove any one, and the arithmetic quietly reverses.\n\nRemove independence first, since the modern world removes it for us. Galton's visitors wrote their guesses privately, on tickets, without seeing a running tally. Let each visitor instead announce a guess from a stage, and everything changes: early numbers anchor later ones, errors stop canceling and start compounding, and the crowd converges — confidently, unanimously — on wherever its first loud voices happened to point. The phenomenon has a name, the information cascade, and a rational core: when I can see that hundreds have guessed before me, deferring to their average may beat consulting my own eyes. The trouble is that if everyone reasons this way, the average I defer to encodes almost no eyes at all. The crowd looks largest exactly when it has stopped being one.\n\nNow inventory the institutions built in the legend's name. The online rating in which every new reviewer sees the current score before contributing; the market rally in which traders buy because traders are buying; the committee that discusses at length before voting, thereby correlating its members' errors through the most confident talker in the room. Each is a machine for destroying the very independence that made the ox story work, operated by people citing the ox story. We have built cathedrals to the wisdom of crowds and installed, at each altar, the running tally that dissolves it.\n\nNone of this vindicates the cattle experts. The finding that pooled independent judgments beat credentialed individuals has survived a century of replication, and no revival of deference to lone authority follows from the fine print. The lesson runs elsewhere. A crowd is not wise or foolish as a mass is heavy; wisdom is a property of an arrangement, not of a headcount. The same thousand people are an oracle when they judge separately and sincerely, and an echo when they watch the tally — the ingredient list matters more than the quantity. Galton's ox has been asked to bless a hundred designs its story cannot support. Read to the end of the ticket stubs: the crowd was wise because no one in it knew what the crowd was thinking.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the main idea of the passage?",
+      "choices": {
+        "A": "Collective judgment outperforms individuals only under specific conditions — independence, diversity, sincerity — and many institutions invoking the crowd's wisdom systematically destroy those conditions.",
+        "B": "The famous ox-weighing episode has been exposed as a statistical accident that later researchers were unable to replicate.",
+        "C": "Prediction markets and online rating platforms demonstrate conclusively that the wisdom of crowds operates even more powerfully in large modern networked settings than it ever did at the country fair.",
+        "D": "Expert judgment deserves renewed deference because crowds have proven unreliable whenever their members can observe one another."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage calls the legend 'a truth remembered without its conditions,' identifies the load-bearing fine print — independence, diversity, sincerity — and argues that ratings, rallies, and committees are 'machines for destroying the very independence that made the ox story work.' Wisdom is 'a property of an arrangement, not of a headcount.'",
+        "B": "The passage affirms the finding's durability: pooled independent judgments beating credentialed individuals 'has survived a century of replication.' The legend is called true; what is missing is its fine print.",
+        "C": "The passage cites these institutions as the failure cases — each installs the running tally that dissolves independence — so reading them as vindication reverses the fourth paragraph's inventory.",
+        "D": "The author explicitly blocks this inference: 'None of this vindicates the cattle experts,' and 'no revival of deference to lone authority follows from the fine print.' The lesson concerns arrangements, not a return to experts."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b570_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author recounts Galton's tabulation of the ox-weighing tickets primarily in order to:",
+      "choices": {
+        "A": "demonstrate that early statisticians were biased against the judgment of ordinary people.",
+        "B": "introduce the modern institutions that the passage will go on to endorse as heirs of the experiment.",
+        "C": "establish that statistical averaging is reliable only when the quantity being estimated is a physical and directly observable one.",
+        "D": "present the founding case of the legend under examination, whose overlooked circumstances carry the argument's central lesson."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Galton's expectation that the exercise would flatter expertise is mentioned as the surprise that founded the legend, not as a bias the passage sets out to expose; he tabulated and reported the result that contradicted him.",
+        "B": "The institutions introduced later — ratings, markets, committees — are inventoried as violations of the experiment's conditions, not endorsed as its heirs.",
+        "C": "No restriction to physical quantities appears anywhere; the related voting theorem extends the same logic to judgments of right and wrong answers generally.",
+        "D": "Correct. The story is 'told wherever collective judgment needs a champion,' and the passage returns to its specifics — private tickets, no running tally — to deliver the closing point: 'the crowd was wise because no one in it knew what the crowd was thinking.' The founding case contains the neglected fine print."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b570_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "It can most reasonably be inferred from the passage that an individual joining an information cascade:",
+      "choices": {
+        "A": "always ends up further from the truth than she would have been by consulting her own judgment.",
+        "B": "may be reasoning sensibly as an individual even as her deference helps empty the collective signal of information.",
+        "C": "typically recognizes that the growing consensus she is joining actually rests on fewer independent judgments than it appears to.",
+        "D": "differs from Galton's fair visitors mainly in caring less about the accuracy of her guess."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage grants that deferring to the average of many prior guesses 'may beat consulting my own eyes' for a given individual; the failure is collective, and no claim is made that each deferrer individually loses accuracy.",
+        "B": "Correct. The cascade is credited with 'a rational core' — deference can be individually sensible — while the trouble is systemic: 'if everyone reasons this way, the average I defer to encodes almost no eyes at all.' Individual rationality and collective emptiness coexist.",
+        "C": "The passage's image runs opposite: 'the crowd looks largest exactly when it has stopped being one,' suggesting participants overestimate the independent content of the consensus rather than seeing through it.",
+        "D": "The cascade participant's motives are not questioned; sincerity is a separate condition, and the cascade operates on people earnestly trying to be right, which is what gives it its rational core."
+      },
+      "topic": "Inference",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b570_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Based on the passage, which of the following redesigns would the author most likely expect to improve the reliability of an online rating system?",
+      "choices": {
+        "A": "Displaying the current average score more prominently so that reviewers can calibrate their ratings against it.",
+        "B": "Restricting reviews to users whose past ratings have closely matched the eventual consensus scores.",
+        "C": "Weighting each review by the number of other users who mark it as helpful after reading it.",
+        "D": "Collecting each user's rating before showing that user the scores that others have assigned."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "A more prominent running tally strengthens exactly the anchoring the passage identifies as the mechanism of cascade — early numbers shaping later ones until errors compound rather than cancel.",
+        "B": "Selecting for past agreement with consensus manufactures homogeneity, undermining the diversity condition that 'supplies errors that point in different directions.'",
+        "C": "Helpfulness votes make each review's weight depend on other users' visible reactions, adding a second layer of interdependence to a system whose problem is interdependence.",
+        "D": "Correct. Galton's visitors 'wrote their guesses privately, on tickets, without seeing a running tally,' and the passage locates the modern rating's failure in showing every reviewer the current score first. Sequestering the rating before revealing others' scores restores the independence that makes averaging work."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b570_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "In the context of the final paragraph, the statement that 'wisdom is a property of an arrangement, not of a headcount' most nearly means that:",
+      "choices": {
+        "A": "whether pooled judgment approaches truth depends on how the judging is structured, not on how many people participate.",
+        "B": "small committees of well-arranged members will generally outperform large crowds of any composition.",
+        "C": "the collective intelligence of a group is largely fixed by the seating arrangement and speaking order its meetings happen to follow.",
+        "D": "no quantity of participants can compensate for the absence of genuine experts within the group."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The sentence caps the contrast the paragraph draws: 'the same thousand people are an oracle when they judge separately and sincerely, and an echo when they watch the tally.' Identical numbers, opposite results — so the operative variable is the arrangement of judgment, not the count.",
+        "B": "The passage makes no case for smallness; its examples of failure include a committee, and its oracle is a thousand people properly arranged. Size is declared not to be the operative variable in either direction.",
+        "C": "Reading 'arrangement' as literal seating and speaking order shrinks the term the passage has spent three paragraphs defining: independence, diversity, and sincerity of judgment, of which the confident talker's influence is only one illustration.",
+        "D": "The passage reports that pooled independent judgments beat credentialed individuals across a century of replication; reinstating experts as the missing ingredient contradicts the paragraph's opening disclaimer."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b570_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings, if true, would most strengthen the passage's argument about the running tally?",
+      "choices": {
+        "A": "A carefully designed study finds that the crowds attending agricultural fairs today guess the weights of livestock considerably less accurately than comparable crowds of fairgoers did a century ago.",
+        "B": "A survey finds that most users of rating platforms believe the displayed averages are accurate.",
+        "C": "An experiment finds that groups estimating quantities privately produce accurate averages, while otherwise identical groups shown a live tally of prior estimates converge on inaccurate ones.",
+        "D": "An analysis finds that the first review posted for a product is usually written by someone with strong feelings about it."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "A change across a century could reflect any number of differences between the crowds and the animals; it does not isolate the tally's presence, which is the specific mechanism the argument blames.",
+        "B": "Users' faith in displayed averages describes the legend's grip, which the passage already assumes; it provides no evidence about whether the tally in fact degrades accuracy.",
+        "C": "Correct. The argument's causal claim is that visible tallies convert canceling errors into compounding ones — that Galton's private tickets, not the crowd's size, did the work. An experiment holding everything constant except the live tally, and finding accuracy collapse with it, is that claim isolated, examined on its own, and confirmed.",
+        "D": "The first reviewer's intensity concerns who anchors the cascade, a detail compatible with the argument but not evidence that anchoring degrades the aggregate; the comparison the argument needs is between tallied and untallied judgment."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Medium"
+    }
+  ]
+}

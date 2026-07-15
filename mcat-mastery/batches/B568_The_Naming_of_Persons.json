@@ -1,0 +1,136 @@
+{
+  "batch": "B568",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "The Naming of Persons",
+  "questionCount": 6,
+  "answerDistribution": { "A": 2, "B": 1, "C": 2, "D": 1 },
+  "questions": [
+    {
+      "id": "cars_b568_q0",
+      "passage": "A newborn in most modern states acquires, within days, a possession she will carry longer than any other: a registered legal name. The registration feels like a formality, a clerk's echo of a family's private choice. The history runs the other way around. For most people in most of the past, the fixed, heritable, officially spelled personal name was not the family's invention but the state's requirement — and the family's relationship to it has been a long negotiation ever since.\n\nHereditary surnames, in much of Europe, spread with taxation, conscription, and land title. A sovereign who would tax households must first tell them apart; parish registers and cadastral surveys needed entries that persisted across generations, and the fluid bynames of village life — occupational today, paternal tomorrow — hardened into permanent legal property. Elsewhere the imposition was compressed and explicit: modernizing states ordered whole populations to adopt fixed surnames within a span of years, and colonial administrations renamed subjects wholesale for the convenience of their registries. The pattern is too widespread for coincidence. The stable name is, before it is anything else, an instrument of legibility: it exists so that records can find people.\n\nBut people are not only records, and the official name has never exhausted what people are called. Around the registered name flourishes an unofficial registry: the grandmother's name used only inside the house, the religious name conferred at initiation, the nickname that a neighborhood assigns and no clerk will ever spell. Some communities maintain full parallel systems, with a formal name for documents and a use-name for life, and members switch between them without confusion. The state's name, in such places, is worn the way a uniform is worn — genuinely, but not at home.\n\nThe negotiation becomes visible at the boundaries. Naming laws in several countries still require selection from approved lists or conformity with national orthography, and every year officials somewhere reject a name for unspellability — which is to say, for illegibility to the registry's software or its traditions. Immigrants have long met the boundary from the other side: names truncated or respelled at borders and schools, sometimes by officials, often by the families themselves, trading a syllable of identity for a smoother passage through forms and classrooms. And the traffic is not one-way. People petition courts to take back a grandparent's surname that an earlier generation shed, or to make legal a name a community has used for decades. Each petition asks the registry to catch up with a life.\n\nIt would be easy to assemble these episodes into a simple story of domination — the cold ledger against the warm hearth. The record is more tangled. Families have eagerly adopted prestigious registered forms; states have, at times, accommodated minority naming customs; and the fixed name that serves the tax collector also serves the heir claiming an estate, the voter proving her franchise, the parent located after a war. Legibility cuts both ways: the same instrument finds you when the state wants you and vouches for you when you want the state.\n\nWhat a personal name is, then, cannot be answered by choosing between the clerk and the grandmother. A name in a modern society is a standing settlement between institutions that need persons to be stable, findable, and singular, and intimate worlds that know persons as changing, plural, and particular. The settlement is renegotiated constantly — at registries, at borders, in courtrooms, at kitchen tables — and its terms at any moment record the current balance of power and need between the two parties. That is why naming disputes, trivial as they look, are so bitterly fought. Nothing less than the question of who gets to say who you are is being decided, one spelling at a time.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the main idea of the passage?",
+      "choices": {
+        "A": "Fixed legal names were originally imposed by states purely for administrative convenience and have brought ordinary families no benefits that unofficial naming systems could not equally well supply.",
+        "B": "Unofficial naming practices are gradually disappearing as registries extend their reach into domestic and community life.",
+        "C": "A personal name in a modern society is a continually renegotiated settlement between institutional demands for stable identity and intimate worlds that know people otherwise.",
+        "D": "Naming laws that require selection from approved lists represent the last surviving form of the state's historical control over personal names."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The passage explicitly complicates the domination story: the fixed name 'also serves the heir claiming an estate, the voter proving her franchise, the parent located after a war,' benefits the unofficial registry cannot deliver to institutions that require proof.",
+        "B": "The passage describes unofficial naming as flourishing — parallel systems maintained 'without confusion' — and depicts traffic in both directions, including courts being asked to adopt community names; no disappearance is suggested.",
+        "C": "Correct. The final paragraph states the thesis the earlier paragraphs built toward: a name is 'a standing settlement between institutions that need persons to be stable, findable, and singular, and intimate worlds that know persons as changing, plural, and particular,' renegotiated at registries, borders, courtrooms, and kitchen tables.",
+        "D": "Approved lists appear as one contemporary site where the negotiation 'becomes visible,' alongside border respellings and court petitions; the passage presents an ongoing, multi-front settlement, not a single surviving relic of control."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b568_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author discusses the spread of hereditary surnames alongside taxation, conscription, and land title primarily in order to:",
+      "choices": {
+        "A": "support the claim that the stable personal name originated as an instrument of administrative legibility rather than as a family creation.",
+        "B": "demonstrate that the naming practices of European sovereigns were considerably harsher than those imposed by colonial administrations elsewhere in the world.",
+        "C": "argue that taxation was historically the most burdensome of the state's demands on households.",
+        "D": "show that village bynames were too ambiguous to be of any use even within the communities that coined them."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The paragraph's conclusion is stated in its final sentence: the stable name 'is, before it is anything else, an instrument of legibility: it exists so that records can find people.' The fiscal, military, and cadastral needs are the evidence that the requirement came from the state, reversing the assumed direction described in the opening.",
+        "B": "The passage places European gradual hardening and compressed decrees elsewhere in the same pattern — 'too widespread for coincidence' — and draws no comparison of harshness between them.",
+        "C": "Taxation is one of three parallel administrative pressures listed; the paragraph ranks none of them and makes no claim about relative burden on households.",
+        "D": "Village bynames are described as fluid — 'occupational today, paternal tomorrow' — which made them useless to multigenerational registries, not useless to the villages, where they evidently functioned."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b568_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "It can most reasonably be inferred from the passage that when officials reject a proposed name for 'unspellability,' the author regards the rejection as:",
+      "choices": {
+        "A": "a safeguard that protects children from names likely to burden them in later life.",
+        "B": "evidence that naming officials misunderstand the software their registries depend on.",
+        "C": "a revealing instance of the registry enforcing its own requirements of legibility upon family choice.",
+        "D": "an increasingly rare bureaucratic event as national orthographies gradually expand to include foreign characters."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The passage's gloss points at the registry, not the child: unspellability means 'illegibility to the registry's software or its traditions.' Child welfare is never offered as the operative concern.",
+        "B": "The officials are enforcing the registry's limits, not misreading them; the author's translation of 'unspellability' treats the rejection as the system working exactly as built.",
+        "C": "Correct. The rejections appear in the paragraph where 'the negotiation becomes visible at the boundaries,' and the author's pointed rephrasing — rejected 'for illegibility to the registry's software or its traditions' — presents them as the legibility requirement of the second paragraph surfacing in the present.",
+        "D": "The passage says such rejections happen 'every year' and describes approved lists and orthographic requirements as still in force; no trend toward rarity is mentioned."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b568_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The overall tone of the passage is best described as:",
+      "choices": {
+        "A": "indignant, protesting the state's continuing interference in family life.",
+        "B": "analytic and measured, tracing a two-sided negotiation without enlisting in either side's cause.",
+        "C": "nostalgic, lamenting the village world of fluid bynames that registries destroyed.",
+        "D": "ironic, treating the solemn ceremony of official registration as an elaborate and rather pointless ritual."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage explicitly declines the protest reading, calling the ledger-against-hearth story too 'easy' and cataloguing the fixed name's benefits to heirs, voters, and separated parents; indignation is the frame it refuses.",
+        "B": "Correct. The passage weighs both parties throughout — imposition and eager adoption, rejection at registries and petitions to them — and its governing metaphors are contractual: 'negotiation,' 'settlement,' 'the current balance of power and need.' Neither the clerk nor the grandmother is chosen.",
+        "C": "Fluid bynames are described for what registries could not do with them, not mourned; no golden age of village naming is evoked, and the passage's interest lies in the present settlement.",
+        "D": "The closing insists that naming disputes decide 'who gets to say who you are' — the opposite of dismissing registration as pointless; the stakes are elevated, not deflated."
+      },
+      "topic": "Author's Tone",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b568_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following situations best exemplifies what the author calls the unofficial registry?",
+      "choices": {
+        "A": "A man is known throughout his neighborhood by a childhood nickname that appears on none of his documents, while his legal name appears on all of them.",
+        "B": "A woman petitions a court to change her legal surname to the one her grandmother was made to abandon.",
+        "C": "A government ministry publishes a substantially expanded list of officially approved given names that now includes several previously rejected spellings and characters.",
+        "D": "A clerk records a newborn's name with a spelling that differs from the one the parents submitted on the form."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The unofficial registry is defined as the naming life that flourishes around the registered name — 'the nickname that a neighborhood assigns and no clerk will ever spell' — coexisting with documents rather than appearing on them. The neighborhood's name for the man is exactly this parallel system.",
+        "B": "The petition asks the official registry to change its own entry — 'each petition asks the registry to catch up with a life' — which is traffic between the systems, not the unofficial system itself.",
+        "C": "An approved list is the official registry adjusting its boundary; nothing about it involves the names communities use outside documentation.",
+        "D": "A clerk's divergent spelling is an act within official registration, the domain of forms and entries, whereas the unofficial registry is precisely what no clerk records."
+      },
+      "topic": "Application",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b568_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings, if true, would most strengthen the author's claim that 'legibility cuts both ways'?",
+      "choices": {
+        "A": "Archival research shows that early parish registers contained frequent spelling inconsistencies within single families.",
+        "B": "A study finds that most nicknames in urban neighborhoods are affectionate rather than mocking in origin.",
+        "C": "Historical studies show that the surname decrees issued by modernizing states were often quietly resisted by rural populations for a full generation before compliance became general.",
+        "D": "Records show that refugees with documented, consistent legal names secured family reunification and property restitution at far higher rates than those without them."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Early inconsistency speaks to how slowly legibility was achieved, not to whether the achieved instrument benefits the named as well as the state; it leaves the two-way claim untouched.",
+        "B": "The emotional flavor of nicknames concerns the unofficial registry's interior life, not the question of whom official legibility serves.",
+        "C": "Generation-long resistance illustrates the imposition side of the story — the state's demand meeting reluctance — and so reinforces the one-way reading the both-ways claim is meant to correct.",
+        "D": "Correct. The claim is that the instrument that 'finds you when the state wants you' also 'vouches for you when you want the state,' with the parent located after a war among the examples. Documented names delivering reunification and restitution is that vouching function demonstrated at scale."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    }
+  ]
+}

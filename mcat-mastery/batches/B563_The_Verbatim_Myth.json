@@ -1,0 +1,136 @@
+{
+  "batch": "B563",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "The Verbatim Myth",
+  "questionCount": 6,
+  "answerDistribution": { "A": 2, "B": 2, "C": 1, "D": 1 },
+  "questions": [
+    {
+      "id": "cars_b563_q0",
+      "passage": "For eleven years I made the official record. I sat below the bench with my machine, and everything said in that courtroom passed through my hands on its way to becoming permanent. The job title is court reporter; the product is called a verbatim transcript; and I believed, when I finished my training, that the word verbatim described what I did. It took perhaps a month of actual work to learn better, and the rest of a career to understand what I had learned.\n\nSpeech, it turns out, does not arrive in sentences. People interrupt themselves three words in and begin again. They trail off, talk over one another, answer with a shrug, say 'yeah-no' and mean one or the other. A witness will produce ninety seconds of sound that contains, somewhere inside it, an answer. My machine captured the sound as strokes; my judgment decided what the strokes had been. Where does the sentence end? Is that stumble a false start to be smoothed, or a hesitation the lawyers will want preserved? The style manuals gave rules — clean up stutters, keep substantive corrections, never alter meaning — and the rules ran out a dozen times a day. What remained when they ran out was me.\n\nPunctuation was where the power sat. I once punctuated an answer as 'I told you, I was home.' Read it instead with no comma, as one runner: it becomes a complaint about repetition rather than an assertion with emphasis. Years later, in a different matter, an appellate brief quoted a sentence of my transcript and hung part of its argument on the placement of a comma. My comma. I had chosen it in half a second, between one syllable and the next, and now it stood in a brief as if it had fallen from the witness's own mouth. Nobody in that courtroom had spoken a comma. Nobody ever has.\n\nI want to be careful here, because the conclusion people leap to is the wrong one. The transcript was not false. I was good at my work, and the record I made was accurate by every standard my profession could state: certified, complete, faithful to meaning. Colleagues checked disputed passages against the audio when audio existed, and I was rarely embarrassed. The point is not that the record lied. The point is that there was no version of the record that involved no one deciding anything. The choice was never between an interpreted transcript and a pure one; it was between interpretation done carefully, under discipline, in public view — and interpretation done carelessly while calling itself a mirror.\n\nPeople outside the profession resisted this whenever I described it. A record is a record, they would say; just write down what was said. They imagined transcription as a kind of pouring, words moved from air to page with nothing added. The audio recording has inherited the same faith: put a microphone in the room and the problem disappears. But a recording preserves sound, not sense. Someone still decides where the sentence ends when the recording is transcribed for the appeal, and the deciding has simply moved to a person the court will never see, without my training and without my oath.\n\nWhat I finally came to believe is this: verbatim does not name an escape from judgment. It names a standard of care in exercising it. The most faithful record of speech that human beings can produce is one in which every unavoidable decision has been made by someone skilled, sworn, and answerable — and the most dangerous record is the one whose decisions have been hidden well enough that readers forget any were made. I spent eleven years making the past hold still. I know exactly how much holding that takes.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": {
+        "A": "Every record of speech necessarily involves human judgment, and fidelity consists in exercising that judgment with skill and accountability rather than in eliminating it.",
+        "B": "Court transcripts are so shaped by the reporter's discretionary choices that appellate courts should stop treating them as reliable evidence.",
+        "C": "Audio recording has resolved the interpretive problems of transcription by preserving exactly what was said in the courtroom.",
+        "D": "Professional style manuals, if drafted with sufficient precision and revised regularly by the profession, could eventually remove the need for individual judgment in producing official records of speech."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The narrator's stated conclusion is that 'verbatim does not name an escape from judgment' but 'a standard of care in exercising it,' and that the best record is one whose unavoidable decisions are made by someone 'skilled, sworn, and answerable.' The whole memoir builds to this synthesis.",
+        "B": "The narrator explicitly blocks this leap: 'the transcript was not false,' and the record met every professional standard. The argument dignifies careful transcription rather than discrediting it as evidence.",
+        "C": "The passage argues the reverse: 'a recording preserves sound, not sense,' and transcribing it merely relocates the deciding to an untrained, unsworn person. Audio inherits the myth rather than dissolving it.",
+        "D": "The rules 'ran out a dozen times a day' in the narrator's telling, and what remained was the reporter. The passage treats residual judgment as unavoidable in principle, not as a defect better manuals could engineer away."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b563_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The narrator recounts the appellate brief that relied on a comma primarily in order to:",
+      "choices": {
+        "A": "expose a small error of punctuation that altered the legal outcome of an important case and haunted the narrator for many years afterward.",
+        "B": "demonstrate that lawyers routinely misquote transcripts when constructing their written arguments.",
+        "C": "show that a reporter's split-second interpretive choice can later circulate with the authority of the speaker's own words.",
+        "D": "illustrate the rigor of the profession's certification process for disputed passages of testimony."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The narrator never calls the comma an error; the surrounding paragraph insists the record was accurate by every professional standard. The unease concerns the comma's borrowed authority, not a mistake or a changed outcome.",
+        "B": "The brief quoted the transcript faithfully — that is what makes the anecdote pointed. The problem is what the transcript itself silently contained, not any distortion introduced by the lawyers.",
+        "C": "Correct. The narrator emphasizes that the comma was chosen 'in half a second' and later 'stood in a brief as if it had fallen from the witness's own mouth,' even though 'nobody in that courtroom had spoken a comma.' The anecdote makes the invisible decision visible.",
+        "D": "Certification and audio-checking appear in a later paragraph as evidence of the record's accuracy; the comma anecdote works in the opposite direction, revealing what certification cannot capture."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b563_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "It can most reasonably be inferred that the narrator regards the transcriber who later works from an audio recording as:",
+      "choices": {
+        "A": "more accurate than a live reporter because the recording can be replayed as many times as needed.",
+        "B": "performing the same interpretive work as a courtroom reporter, but without the training, oath, and visibility that discipline that work.",
+        "C": "unnecessary in most modern proceedings, since audio recordings themselves can now simply be entered into the official record without any transcription at all.",
+        "D": "deliberately less careful than courtroom reporters because no judge directly supervises the transcription."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage never grants the audio transcriber superior accuracy; replaying sound does not settle 'where the sentence ends,' which is the interpretive act the narrator insists survives recording.",
+        "B": "Correct. The narrator says the deciding 'has simply moved to a person the court will never see, without my training and without my oath.' The work is identical in kind; what is lost is the discipline, accountability, and public view that made the narrator's version trustworthy.",
+        "C": "The passage assumes transcription still happens 'for the appeal'; nothing suggests recordings substitute for transcripts, and the argument depends on someone eventually rendering sound into sentences.",
+        "D": "The narrator attributes no bad faith to the later transcriber; the criticism concerns missing structures — training, oath, visibility — not a deliberate choice to be careless."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b563_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The tone of the passage's final paragraph is best described as:",
+      "choices": {
+        "A": "detached and clinical, summarizing the profession's technical standards without personal investment.",
+        "B": "earned and quietly authoritative, delivering a hard-won conviction grounded in long practice.",
+        "C": "bitter and accusatory, condemning the legal system for concealing the fragility of its records.",
+        "D": "wistful and uncertain, expressing doubt about whether the narrator's career accomplished anything lasting."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The paragraph is saturated with the first person — 'What I finally came to believe,' 'I spent eleven years' — and stakes a personal credo rather than reciting professional standards from a distance.",
+        "B": "Correct. The closing sentences present a conviction arrived at over a career ('the rest of a career to understand'), stated with calm confidence: 'I know exactly how much holding that takes.' The authority is claimed through experience, not volume.",
+        "C": "The narrator defends the profession's discipline and takes pride in the work; the warning about hidden decisions is issued as counsel, and no institution is denounced or blamed in the closing lines.",
+        "D": "The paragraph expresses settled belief, not doubt — 'What I finally came to believe is this' — and the narrator's account of making 'the past hold still' asserts the work's difficulty and worth rather than questioning it."
+      },
+      "topic": "Author's Tone",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b563_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following practices would the narrator most likely endorse, given the passage's final paragraph?",
+      "choices": {
+        "A": "Requiring that anyone who transcribes recorded proceedings for appeals be certified, sworn, and identified in the record they produce.",
+        "B": "Replacing written transcripts with unedited audio recordings as the sole official record of court proceedings.",
+        "C": "Instructing reporters to preserve every false start, stumble, and overlap so that transcripts require no judgment at all.",
+        "D": "Publishing professional style manuals comprehensive enough that any two trained reporters would independently produce identical transcripts of the same testimony."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The narrator's stated ideal is a record 'in which every unavoidable decision has been made by someone skilled, sworn, and answerable,' and the specific complaint about audio transcription is that the decider now lacks training, oath, and visibility. Extending those structures to that person answers the complaint directly.",
+        "B": "The passage argues that recordings preserve 'sound, not sense' and that someone must still render them into sentences; making raw audio the sole record would only defer the interpretive work the narrator says cannot be escaped.",
+        "C": "Preserving every stumble is itself a policy choice, and the narrator notes that even deciding whether a stumble is a false start or a meaningful hesitation requires judgment. Total preservation does not eliminate deciding; it disguises one decision as neutrality.",
+        "D": "The rules 'ran out a dozen times a day'; the narrator treats this as a permanent feature of rendering speech, not a gap awaiting a thicker manual. Perfect convergence between reporters is exactly what the passage denies is possible."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b563_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings, if true, would most weaken the narrator's claim that judgment cannot be removed from transcription?",
+      "choices": {
+        "A": "A large survey shows that most working court reporters, when interviewed at length about their daily practice, describe their work as essentially mechanical transcription rather than as interpretive judgment.",
+        "B": "Historical research shows that transcription standards have grown steadily stricter over the past century.",
+        "C": "Appellate courts report that disputes over transcript punctuation arise in only a small fraction of appeals.",
+        "D": "Independent reporters given identical recordings of unrehearsed testimony produce transcripts that match one another exactly, down to punctuation, without consultation."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "How reporters describe their work does not settle what the work involves; the narrator too once believed the word verbatim described the job and learned otherwise through practice. Self-report cannot rebut the account of what the practice requires.",
+        "B": "Stricter standards are compatible with the narrator's position — the passage itself praises discipline and rules — and the claim at issue is that rules run out, not that rules fail to improve.",
+        "C": "The rarity of punctuation disputes shows that the choices seldom become contested, not that no choices are made. The comma anecdote matters precisely because an unremarked decision surfaced years later.",
+        "D": "Correct. The narrator's argument rests on discretionary decisions that different skilled people could make differently — where sentences end, which stumbles to smooth. Perfect independent convergence, down to punctuation, would suggest the material itself determines the transcript, leaving nothing for judgment to decide."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "batch": "B577",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "The Mannequin Economy",
+  "questionCount": 6,
+  "answerDistribution": {
+    "A": 2,
+    "B": 1,
+    "C": 1,
+    "D": 2
+  },
+  "questions": [
+    {
+      "id": "cars_b577_q0",
+      "passage": "The department-store mannequin is usually described as a substitute body: a silent figure that allows clothing to be displayed when no living model is present. This account is technically accurate and historically shallow. The mannequin did more than occupy a dress. It helped reorganize retail judgment by presenting garments on a standardized body detached from any particular customer. In doing so, it altered what shoppers were invited to compare.\n\nEarlier clothing purchases often unfolded through direct negotiation among buyer, seller, tailor, and fabric. A garment’s appearance could not be separated easily from questions of alteration, durability, household rank, and the known shape of the wearer. Ready-made clothing weakened some of these relations, but racks alone did not supply an image of completed use. The mannequin joined mass inventory to an imagined person. It allowed the store to exhibit not merely cloth or cut, but a finished social appearance available before fitting.\n\nStandardization was essential. Early mannequins varied, yet commercial success favored bodies whose measurements, posture, and facial expression could support repeated arrangements. Their stillness eliminated the awkward evidence of ordinary embodiment: shifting weight, unequal shoulders, fatigue, hesitation. A sleeve always fell cleanly; a waist never resisted the intended line. The figure made clothing seem to generate the body it adorned. Fit appeared as an attribute of the garment rather than a negotiated relation between garment and wearer.\n\nThis visual logic changed the salesperson’s role. Advice did not disappear, but the window and floor display could begin persuasion before conversation. A shopper encountered coordinated ensembles, color sequences, and price tiers as visible propositions. The store thus moved part of selling from verbal recommendation to staged comparison. Mannequins were especially useful because they could make multiple goods appear mutually necessary: the coat implied the glove, the dress completed the hat, and the entire arrangement presented itself as a coherent identity rather than a set of separate purchases.\n\nThe mannequin also managed social aspiration with unusual discretion. A living model carries biography, status, age, and manner; viewers may admire or reject the person along with the clothes. The mannequin offered a body specific enough to organize desire and vacant enough to receive projection. Its blankness was not neutrality. Manufacturers and retailers selected proportions, skin tones, poses, and expressions that defined the imaginable customer while appearing merely to display merchandise. Exclusion could therefore operate as visual normality rather than explicit rule.\n\nCritics sometimes treat the mannequin as a minor instrument of deception, accusing it of making fabrics drape better than they will on an actual body. The criticism is justified but incomplete. The deeper effect was not that one dress looked unusually flattering. It was that the store established a model of judgment in which garments were first understood through their relation to an abstract body and only later through their relation to the buyer. Alteration became a correction after desire rather than part of the original conception of clothing.\n\nBy the middle of the twentieth century, changing mannequin styles tracked changing ideals, but the underlying commercial achievement remained stable. The artificial figure translated inventory into scenes of possible selfhood. It did not simply show consumers what clothes looked like. It taught them to see clothing as an image completed in advance, waiting for the inconvenient real body to approach as closely as it could.",
+      "usePrevPassage": false,
+      "stem": "Which statement best captures the passage's central argument?",
+      "choices": {
+        "A": "Mannequins became popular because they reduced the labor required for clothing alterations.",
+        "B": "Ready-made clothing eliminated the social negotiation that once shaped apparel purchases.",
+        "C": "Department stores used mannequins mainly to conceal the poor quality of mass-produced fabric.",
+        "D": "Mannequins reshaped retail judgment by linking clothing to a standardized imagined body."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The passage discusses altered relations of fit but does not attribute the mannequin’s success to lower alteration labor.",
+        "B": "Negotiation weakened and changed, yet sales advice and fitting remained part of the retail process.",
+        "C": "Deceptive draping is presented as a limited criticism rather than the institution’s main historical effect.",
+        "D": "Correct. The artificial figure made garments appear as completed social images on an abstract body, changing how desire, comparison, and fit were organized."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b577_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The description of the mannequin's stillness primarily serves to",
+      "choices": {
+        "A": "show how artificial stillness makes garment lines seem effortless.",
+        "B": "explain why shoppers preferred static displays to conversations with salespeople.",
+        "C": "demonstrate that mannequin production required precise mechanical engineering.",
+        "D": "suggest that early mannequins were modeled on professional performers."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. By removing weight shifts, fatigue, and bodily irregularity, stillness made the clothing seem to create a clean and natural fit.",
+        "B": "The passage says displays began persuasion before conversation but does not claim that shoppers generally preferred them.",
+        "C": "No manufacturing process or engineering requirement is discussed.",
+        "D": "The artificial posture is contrasted with ordinary embodiment rather than traced to performers."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b577_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which claim is most strongly implied by the passage?",
+      "choices": {
+        "A": "Shoppers were unaware that mannequin proportions differed from their own bodies.",
+        "B": "Retailers selected mannequin features without considering their target customers.",
+        "C": "Apparent neutrality can normalize a restricted ideal customer.",
+        "D": "Living models became commercially useless after standardized mannequins appeared."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The passage does not claim that shoppers literally mistook the mannequin’s body for their own.",
+        "B": "Proportions, skin tones, poses, and expressions were selected in ways that defined the imaginable customer.",
+        "C": "Correct. The mannequin’s vacant appearance could conceal choices that normalized some bodies and excluded others without explicit rules.",
+        "D": "Living models are discussed as carrying biography and manner, not as becoming universally useless."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b577_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "An online retailer displays every garment on the same digitally generated body before offering personalized sizing. This practice most closely resembles the historical function described because it",
+      "choices": {
+        "A": "returns clothing sales to negotiation among buyer, seller, and tailor.",
+        "B": "presents an idealized completed appearance before confronting individual fit.",
+        "C": "removes coordinated accessories from the process of visual persuasion.",
+        "D": "makes alteration central to the shopper's first conception of the garment."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "A standardized digital figure continues the movement away from initial interpersonal negotiation.",
+        "B": "Correct. The common artificial body lets desire form around a finished image before the shopper’s actual measurements enter the transaction.",
+        "C": "The scenario does not address accessories, while the passage emphasizes coordinated goods as one use of display.",
+        "D": "Personalized sizing arrives after the idealized presentation, so alteration remains secondary rather than primary."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b577_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which finding would most strengthen the author's historical interpretation?",
+      "choices": {
+        "A": "Stores with mannequins sold more coordinated outfits before fittings.",
+        "B": "Mannequins required frequent repair after seasonal window changes.",
+        "C": "Tailors continued to perform alterations for ready-made clothing.",
+        "D": "Customers often recognized the brands displayed in store windows."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Increased purchase of coordinated outfits before fitting would support the claim that staged artificial bodies organized desire and linked separate goods into a completed identity.",
+        "B": "Repair frequency concerns operating costs rather than the reorganization of retail judgment.",
+        "C": "Continued alteration is compatible with the passage but does not show how the mannequin changed the sequence of desire and fit.",
+        "D": "Brand recognition reveals marketing exposure without isolating the mannequin’s specific function."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b577_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The phrase “alteration became a correction after desire” most nearly means that",
+      "choices": {
+        "A": "tailors corrected manufacturing flaws only after a purchase was completed.",
+        "B": "stores discouraged customers from changing the displayed style of a garment.",
+        "C": "buyers desired clothing because alterations promised a unique final design.",
+        "D": "shoppers first desired an ideal image and addressed bodily fit afterward."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The sentence concerns the order of visual desire and personal fit rather than repair of manufacturing defects.",
+        "B": "The passage does not claim that stores prohibited stylistic changes.",
+        "C": "Desire begins with the completed displayed image, not with anticipation of unique alterations.",
+        "D": "Correct. The mannequin encouraged shoppers to accept an abstract finished appearance before considering how the actual garment would relate to their own bodies."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Easy"
+    }
+  ]
+}

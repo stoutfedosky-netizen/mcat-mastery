@@ -1,0 +1,136 @@
+{
+  "batch": "B564",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "The Standard of Taste",
+  "questionCount": 6,
+  "answerDistribution": { "A": 1, "B": 1, "C": 2, "D": 2 },
+  "questions": [
+    {
+      "id": "cars_b564_q0",
+      "passage": "Anyone who says a novel is better than another, and means it, has taken a philosophical position without noticing. The remark claims more than 'I enjoyed it more': it invites agreement, and it implies that someone who disagrees has missed something. Yet the judgment issues from a feeling — pleasure — that seems as private as a headache. How can a feeling make a claim on other people? Two great answers to this puzzle still divide the field, and it is worth watching them fail in opposite directions.\n\nThe first answer locates the standard of taste in qualified judges. On this view, associated with Hume, verdicts are not all equal: some perceivers have finer discrimination, wider experience, freedom from prejudice, and their practiced agreement is what we mean by correctness in taste. The wine is sound if the sound judges say so. The account has an attractive worldliness. It explains why we defer to critics as we defer to physicians, why taste can be educated, and why some reputations survive centuries of scrutiny while others evaporate with their moment.\n\nBut press on the account and a circle appears. Who are the qualified judges? Those with delicate, practiced, unprejudiced taste. And how do we identify delicacy and freedom from prejudice? By the judgments they produce — which is to say, by their getting it right. The standard was supposed to be constituted by the judges, yet we cannot pick out the judges without already knowing the standard. The account also stumbles where it should be strongest: the qualified disagree. Critics of impeccable credentials have divided over nearly every difficult work; the mechanism that was meant to converge does not, and the theory has little to say about which of two ideal judges to believe.\n\nThe second answer, Kant's, refuses to outsource the problem. A judgment of taste, on this view, is subjective — grounded in felt pleasure, not in concepts or proofs — and yet it speaks, as Kant put it, with a 'universal voice': in finding the thing beautiful I demand, not merely predict, everyone's agreement. There is no arguing anyone into the judgment, since no rule connects features to beauty; there is only the demand. This captures the phenomenology with uncanny accuracy. It explains why disputes about beauty feel unlike comparisons of preference — no one demands that you share a fondness for olives — and why they cannot be settled by evidence the way disputes about fact can. What it does not explain is the demand's authority. A claim on everyone, backed by no possible proof, looks less like a foundation than a description of our predicament wearing the costume of a solution.\n\nSo the first theory explains authority and cannot locate it; the second locates the experience exactly and cannot justify it. It is tempting to split the difference, but a likelier lesson is that the two are not answering the same question. One asks how the practice of criticism disciplines itself over time — an institutional question, answerable with histories of reading, comparison, and revised reputations. The other asks what a single judgment means in the mouth of the person making it — a question about the grammar of the claim, not about any tribunal. The demand for one theory that does both jobs may itself be the mistake, an insistence that the court and the plaintiff be the same thing.\n\nThis is not a comfortable place to stop, and I will not pretend the two questions never touch. But when a dispute has run for two and a half centuries between parties this able, the persistence is evidence. Problems that survive every solution are usually not problems but crossroads, and the honest response to a crossroads is to say clearly which road one is on.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the main idea of the passage?",
+      "choices": {
+        "A": "The judge-based account of taste is ultimately superior to the account grounded in the universal voice, despite its well-known circularity.",
+        "B": "Judgments of beauty are in the end merely private preferences, and the entire philosophical attempt to give them authority over other people was misconceived from the start.",
+        "C": "The two leading accounts of taste fail in opposite ways, and their long standoff suggests they answer different questions rather than compete for one answer.",
+        "D": "Disputes about beauty could be resolved if critics agreed in advance on the qualifications an ideal judge must possess."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The passage endorses neither account; the judge-based view is shown to be circular and unable to handle disagreement among the qualified, and no verdict of superiority is issued for either side.",
+        "B": "The opening insists that a judgment of taste 'invites agreement' and differs from a fondness for olives; the passage takes that claim on others seriously throughout rather than dissolving taste into private preference.",
+        "C": "Correct. The passage announces it will watch the theories 'fail in opposite directions,' delivers on that structure, and concludes that 'the two are not answering the same question' — one institutional, one about the grammar of a single claim — with the demand for a single theory named as the likely mistake.",
+        "D": "The circularity objection is precisely that qualifications cannot be specified without presupposing the standard they were meant to ground, so advance agreement on qualifications is what the passage argues is unavailable."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b564_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "As used in the passage, speaking with a 'universal voice' most nearly means:",
+      "choices": {
+        "A": "stating a conclusion that any properly conducted proof could compel all rational people to accept.",
+        "B": "demanding everyone's agreement in one's judgment while possessing no rule or evidence that could compel it.",
+        "C": "predicting, on the basis of past experience, that most other perceivers will share one's response to the object.",
+        "D": "expressing a verdict that has been ratified in advance by the community of qualified critics."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage specifies that no rule connects features to beauty and that these disputes 'cannot be settled by evidence'; a compelling proof is exactly what the judgment lacks, which is why its authority remains unexplained.",
+        "B": "Correct. The passage glosses the phrase directly: in finding the thing beautiful 'I demand, not merely predict, everyone's agreement,' and 'there is only the demand,' unbacked by any possible proof. The voice is a claim on all, without the means to enforce it.",
+        "C": "The passage explicitly contrasts demanding with predicting; a forecast about how others will respond is the reading the sentence rules out in so many words.",
+        "D": "Ratification by qualified critics belongs to the first theory, the one the universal voice account 'refuses to outsource' the problem to. Importing the tribunal collapses the distinction the passage is drawing."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b564_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The paragraph beginning 'But press on the account' functions primarily to:",
+      "choices": {
+        "A": "concede a minor difficulty for the judge-based theory before reaffirming its overall soundness.",
+        "B": "introduce the rival theory by showing what any successor account would need to explain.",
+        "C": "develop two objections — a circularity and a failure of convergence — that undermine the judge-based account at its foundations.",
+        "D": "argue that the celebrated critics of earlier centuries were considerably less qualified than the theory's defenders have traditionally assumed them to be."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "No reaffirmation follows; the paragraph ends with the theory having 'little to say' at exactly the point where it should be strongest, and the passage then turns to a rival rather than rehabilitating the first account.",
+        "B": "The rival theory arrives in the following paragraph and is framed as refusing the first theory's strategy, not as answering a checklist this paragraph established; the paragraph's work is destructive, aimed at the judge-based view itself.",
+        "C": "Correct. The paragraph first exposes the circle — judges are identified by the very standard they were supposed to constitute — and then adds that 'the qualified disagree,' so the convergence the theory promises does not occur. Both objections strike the account's foundations rather than its details.",
+        "D": "The paragraph stipulates critics 'of impeccable credentials' precisely so that their disagreement counts against the theory; questioning their qualifications would dissolve the objection rather than state it."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b564_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Given the passage's distinction between the two questions, which of the following inquiries belongs to the institutional question rather than the question about the grammar of the claim?",
+      "choices": {
+        "A": "A study of how the reputation of a once-dismissed novelist was revised across a century of criticism and comparison.",
+        "B": "An analysis of what a reader commits herself to when she declares a poem beautiful rather than merely pleasant to read.",
+        "C": "An account of why disagreement about beauty feels different from disagreement about the taste of olives.",
+        "D": "An examination of whether a single judgment of beauty can demand agreement without offering any proof."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage defines the institutional question as 'how the practice of criticism disciplines itself over time,' answerable with 'histories of reading, comparison, and revised reputations.' A century-long revision of a novelist's standing is that inquiry in miniature.",
+        "B": "What a speaker commits herself to in making the judgment is the passage's example of the other question — 'what a single judgment means in the mouth of the person making it.'",
+        "C": "The felt difference between disputes over beauty and comparisons of preference is presented as the phenomenology the universal-voice account captures, which the passage assigns to the grammar of the claim, not to the history of institutions.",
+        "D": "The demand's authority in a single judgment is precisely the unresolved core of the second account; it concerns the claim's meaning and warrant, not the self-discipline of criticism over time."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b564_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following best describes the author's position on the two theories discussed?",
+      "choices": {
+        "A": "Both theories are so damaged by objections that the philosophy of taste should be abandoned as a field of inquiry.",
+        "B": "The second theory is essentially correct in every important respect except for its incomplete account of why the demand for universal agreement carries any genuine authority.",
+        "C": "The two theories should be merged, since each supplies exactly the component the other lacks.",
+        "D": "Each theory succeeds where the other fails, and their long deadlock is better read as marking two distinct questions than as a contest awaiting a winner."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The author proposes a reorientation — asking which of two questions one is answering — not an abandonment; the closing counsel is to 'say clearly which road one is on,' which presupposes the inquiry continues.",
+        "B": "The author praises the second theory's phenomenology but denies that it explains the demand's authority, calling it a description of our predicament 'wearing the costume of a solution' — a deeper defect than a single missing detail, and no endorsement of correctness in every other respect.",
+        "C": "The passage explicitly resists splitting the difference, arguing the 'likelier lesson' is that the theories answer different questions; merger would presume the single shared question the author doubts exists.",
+        "D": "Correct. The passage summarizes the standoff — one theory 'explains authority and cannot locate it,' the other 'locates the experience exactly and cannot justify it' — and concludes that the demand for one theory to do both jobs 'may itself be the mistake,' with persistence of the dispute offered as evidence of a crossroads."
+      },
+      "topic": "Author's Position",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b564_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following, if true, would most strengthen the passage's objection that the judge-based account fails to converge?",
+      "choices": {
+        "A": "Archival research into the private correspondence of several of the most celebrated critics of the last two centuries shows that they privately doubted many of the confident verdicts they had published under professional and commercial pressure.",
+        "B": "Surveys show that ordinary readers defer to professional critics less often now than readers did a century ago.",
+        "C": "Historical studies show that reputations of major works have fluctuated with fashion far less than commonly believed.",
+        "D": "A systematic review finds that critics matched on experience, discrimination, and freedom from prejudice divide persistently over the same difficult works even after extended mutual consultation."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Private doubt behind published verdicts concerns the sincerity of individual critics, not whether ideally qualified judges agree; insincere convergence and sincere division are different failures, and only the second is the passage's objection.",
+        "B": "Declining public deference measures the audience's behavior toward critics, not agreement among the qualified themselves; the theory could survive a skeptical public so long as ideal judges converged.",
+        "C": "Stability of reputations would tend to support the judge-based account's picture of taste disciplining itself over time, softening rather than sharpening the objection.",
+        "D": "Correct. The objection is that 'the qualified disagree' and that the theory cannot say 'which of two ideal judges to believe.' Persistent division among critics matched on precisely the qualifications the theory names — surviving even mutual consultation — is that failure demonstrated under the theory's own ideal conditions."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Medium"
+    }
+  ]
+}
