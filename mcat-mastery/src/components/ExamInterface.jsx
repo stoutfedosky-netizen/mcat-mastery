@@ -12,6 +12,22 @@ const PT_ROWS = [
   [[87,"Fr","(223)"],[88,"Ra","(226)"],[89,"Ac\u2020","(227)"],[104,"Rf","(267)"],[105,"Db","(268)"],[106,"Sg","(271)"],[107,"Bh","(270)"],[108,"Hs","(269)"],[109,"Mt","(278)"],[110,"Ds","(281)"],[111,"Rg","(282)"],[112,"Cn","(285)"],[113,"Nh","(286)"],[114,"Fl","(289)"],[115,"Mc","(289)"],[116,"Lv","(293)"],[117,"Ts","(294)"],[118,"Og","(294)"]],
 ];
 
+const PT_FBLOCK = [
+  ["*", [[58,"Ce",140.1],[59,"Pr",140.9],[60,"Nd",144.2],[61,"Pm","(145)"],[62,"Sm",150.4],[63,"Eu",152.0],[64,"Gd",157.3],[65,"Tb",158.9],[66,"Dy",162.5],[67,"Ho",164.9],[68,"Er",167.3],[69,"Tm",168.9],[70,"Yb",173.0],[71,"Lu",175.0]]],
+  ["\u2020", [[90,"Th",232.0],[91,"Pa","(231)"],[92,"U",238.0],[93,"Np","(237)"],[94,"Pu","(244)"],[95,"Am","(243)"],[96,"Cm","(247)"],[97,"Bk","(247)"],[98,"Cf","(251)"],[99,"Es","(252)"],[100,"Fm","(257)"],[101,"Md","(258)"],[102,"No","(259)"],[103,"Lr","(266)"]]],
+];
+
+function PTCell({ cell }) {
+  const [num, sym, mass] = cell;
+  return (
+    <td className="w-[46px] h-[46px] border border-black text-center align-middle p-0 leading-tight bg-white">
+      <div className="text-[9px] text-black mt-0.5">{num}</div>
+      <div className="font-bold text-[13px] leading-none text-black">{sym}</div>
+      <div className="text-[9px] text-black mb-0.5">{typeof mass === "number" ? mass.toFixed(1) : mass}</div>
+    </td>
+  );
+}
+
 function PeriodicTableModal({ onClose }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50" onClick={onClose}>
@@ -22,24 +38,35 @@ function PeriodicTableModal({ onClose }) {
           </div>
           <button onClick={onClose} className="w-7 h-7 bg-gray-200 text-gray-700 rounded flex items-center justify-center font-bold text-xs hover:bg-gray-300">✕</button>
         </div>
-        <div className="p-4">
-          <h2 className="text-center font-bold text-lg mb-3">Periodic Table of the Elements</h2>
+        <div className="p-5 bg-white">
           <div className="overflow-x-auto">
             <table className="mx-auto border-collapse" style={{ fontSize: "10px" }}>
               <tbody>
                 {PT_ROWS.map((row, ri) => (
                   <tr key={ri}>
                     {row.map((cell, ci) => {
-                      if (!cell) return <td key={ci} className="w-[46px] h-[44px]" />;
-                      const [num, sym, mass] = cell;
-                      return (
-                        <td key={ci} className="w-[46px] h-[44px] border border-gray-400 text-center align-middle p-0 leading-tight">
-                          <div className="text-[8px] text-gray-500 mt-0.5">{num}</div>
-                          <div className="font-bold text-[13px] leading-none">{sym}</div>
-                          <div className="text-[8px] text-gray-500 mb-0.5">{mass}</div>
-                        </td>
-                      );
+                      if (!cell || cell[0] == null) {
+                        if (ri === 0 && ci === 1) {
+                          return (
+                            <td key={ci} colSpan={16} className="text-center align-middle">
+                              <span className="font-bold text-black" style={{ fontSize: "22px" }}>Periodic Table of the Elements</span>
+                            </td>
+                          );
+                        }
+                        if (ri === 0) return null;
+                        return <td key={ci} className="w-[46px] h-[46px]" />;
+                      }
+                      return <PTCell key={ci} cell={cell} />;
                     })}
+                  </tr>
+                ))}
+                <tr><td colSpan={18} style={{ height: "14px" }} /></tr>
+                {PT_FBLOCK.map(([marker, cells], ri) => (
+                  <tr key={`f-${ri}`}>
+                    <td colSpan={2} />
+                    <td className="text-right align-middle pr-1.5 font-bold text-[13px] text-black">{marker}</td>
+                    {cells.map((cell, ci) => <PTCell key={ci} cell={cell} />)}
+                    <td />
                   </tr>
                 ))}
               </tbody>
