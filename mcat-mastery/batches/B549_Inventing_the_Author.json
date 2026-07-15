@@ -1,0 +1,136 @@
+{
+  "batch": "B549",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Inventing the Author",
+  "questionCount": 6,
+  "answerDistribution": { "A": 1, "B": 2, "C": 2, "D": 1 },
+  "questions": [
+    {
+      "id": "cars_b549_q0",
+      "passage": "The figure of the author, the solitary originator whose personality saturates a text and grounds a property right in it, feels to modern readers like a fact of nature. The archives of the eighteenth-century book trade tell a more commercial story. That figure was assembled, piece by piece, in the course of litigation between businessmen, and the writers in whose name the battles were fought were largely spectators to them.\n\nBefore 1710, the London book trade was governed by a guild system in which the right to print a title, once entered in the register of the Stationers' Company, belonged to a bookseller in perpetuity. Writers sold their manuscripts outright for a lump sum and retained nothing. The Statute of Anne, enacted that year, disturbed this arrangement in a way its promoters did not intend to be revolutionary. Lobbied for by the booksellers themselves, who wanted statutory protection against piracy, the act for the first time vested copyright initially in authors, but only as a conduit: the term was fourteen years, renewable once, and the rights passed to the bookseller at purchase, as everyone understood they would. The author appeared in the statute's text less as a beneficiary than as a device.\n\nThe device acquired a life of its own when the limited term began to expire. Valuable properties threatened to fall into the public domain, and the London trade responded by arguing that behind the statute stood an older, grander right: a perpetual common-law property arising from the author's act of creation itself. To make the argument work, counsel for the booksellers had to elaborate a theory of the creating self, borrowing the vocabulary of originality and genius then circulating in essays such as Edward Young's Conjectures on Original Composition. A work, they argued, was not a mechanical assembly of common materials but an emanation of a unique mind, and what emanates from a person belongs to that person, forever, and therefore to that person's assignee, the bookseller, forever. The sublime and the ledger were joined in a single argument.\n\nThe campaign failed at the last hurdle. In Donaldson v. Becket, decided in 1774, the House of Lords ruled against perpetual common-law copyright, and the trade's most valuable titles fell into the public domain, creating almost at once the inexpensive reprint editions from which a mass reading public learned its classics. But the theory built for the courtroom did not fall with the case. The proprietary author, the original genius whose creative act grounds ownership, survived the defeat of the interests that had invented him, and migrated from legal argument into criticism, aesthetics, and eventually the self-understanding of writers themselves. When authors in the following century petitioned Parliament for longer terms, they spoke of their genius in language that had been drafted, in the first instance, by their publishers' lawyers.\n\nIn this sense the author was the booksellers' invention. The claim wants careful statement. Writers existed before 1710, wrote out of every motive from piety to hunger, and were sometimes celebrated; no one invented the practice of writing. What the litigation constructed was the author as a legal and economic person: the notion that originality itself, rather than labor, service, or guild membership, generates a property, and that texts are anchored to single proprietary selves. That construction has proved astonishingly durable, surviving translation into every subsequent media regime. It is a genuine irony of cultural history that our most exalted picture of literary creation, the solitary genius pouring an inimitable self onto the page, should have entered the world as an exhibit in a trade dispute, argued for money, by men who mostly had never written a book.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the central claim of the passage?",
+      "choices": {
+        "A": "The Statute of Anne was deliberately designed by Parliament to liberate professional writers from the longstanding commercial control of the Stationers' Company.",
+        "B": "Perpetual copyright would have prevented the emergence of a mass reading public in Britain.",
+        "C": "The modern conception of the proprietary author was constructed in eighteenth-century commercial litigation and outlived the interests that produced it.",
+        "D": "Writers before 1710 lacked any celebrated public identity or recognized profession."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The passage says the statute was 'lobbied for by the booksellers themselves' seeking protection against piracy, with the author functioning in its text as a device rather than an intended liberation.",
+        "B": "The cheap reprints that educated a mass public followed the defeat of perpetual copyright, but the passage offers this as consequence and irony, not as its central claim.",
+        "C": "Correct. The passage traces the proprietary author from the statute through the booksellers' courtroom theory of genius to survival after the 1774 defeat, concluding that the figure 'entered the world as an exhibit in a trade dispute' and proved durably influential.",
+        "D": "The author expressly guards against this reading: writers existed, wrote from many motives, and 'were sometimes celebrated'; what was new was the legal and economic person, not writing itself."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b549_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The passage discusses Donaldson v. Becket primarily in order to:",
+      "choices": {
+        "A": "demonstrate that the House of Lords ultimately accepted the booksellers' elaborate theory of original creative genius.",
+        "B": "mark the defeat of perpetual copyright and set up the point that the theory built for the case outlived its loss.",
+        "C": "explain why the Stationers' Company register was abolished.",
+        "D": "prove that eighteenth-century courts were hostile to the interests of writers."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The Lords ruled against the perpetual right the genius theory was constructed to support, so the decision rejected the booksellers' position rather than accepting it.",
+        "B": "Correct. The case is introduced as the campaign's failure 'at the last hurdle,' and the paragraph pivots immediately to the passage's key move: 'the theory built for the courtroom did not fall with the case,' migrating into criticism and writers' self-understanding.",
+        "C": "The register appears in the account of the pre-1710 guild system; the passage never connects the 1774 decision to its abolition.",
+        "D": "Writers are described as largely spectators to the litigation, which was fought between businessmen; the ruling's effect on writers' interests is not the passage's concern."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b549_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "It can most reasonably be inferred from the passage that the booksellers' courtroom celebration of authorial genius was:",
+      "choices": {
+        "A": "a sincere aesthetic conversion that subsequently led the London trade to pay its writers far more generously.",
+        "B": "borrowed from legal treatises rather than from contemporary essays.",
+        "C": "confined to the courtroom and quickly forgotten after 1774.",
+        "D": "strategic advocacy in the service of the trade's commercial interest in perpetual rights."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The passage never reports improved payments to writers, and it frames the genius theory as argued 'for money' by men defending their titles, not as a conversion in how the trade valued authors.",
+        "B": "The vocabulary is traced to essays 'then circulating,' with Young's Conjectures named specifically; treatises are not mentioned as the source.",
+        "C": "The passage's central irony is the theory's survival and migration into criticism, aesthetics, and writers' own petitions, the opposite of quick oblivion.",
+        "D": "Correct. The theory of the creating self was elaborated 'to make the argument work,' the argument being that an author's perpetual property passes 'to that person's assignee, the bookseller, forever,' which joins 'the sublime and the ledger' in a single commercial cause."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b549_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "When the passage states that 'the author was the booksellers' invention,' it most nearly means that:",
+      "choices": {
+        "A": "eighteenth-century publishers secretly composed many of the celebrated literary works that were then publicly attributed to the famous writers of the period.",
+        "B": "the practice of professional writing began with the Statute of Anne.",
+        "C": "the author as a legal and economic person, whose originality grounds property in a text, was articulated by the trade defending its monopolies.",
+        "D": "booksellers created the reading public whose demand made authorship profitable."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "No ghostwriting appears anywhere in the passage; the invention concerns a concept of ownership, not the production of texts.",
+        "B": "The passage explicitly denies that anyone invented the practice of writing, noting that writers long predate 1710 and wrote from motives ranging from piety to hunger.",
+        "C": "Correct. The passage glosses its own claim in the final paragraph: what the litigation constructed was 'the author as a legal and economic person,' the idea that originality generates property and anchors texts to 'single proprietary selves,' a theory drafted by the trade's lawyers.",
+        "D": "The mass reading public emerges in the passage from cheap reprints after 1774, and it is presented as a consequence of the booksellers' defeat rather than as their invention."
+      },
+      "topic": "Key Phrase Meaning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b549_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following discoveries would most strengthen the passage's account of the genius theory's origins?",
+      "choices": {
+        "A": "Trade records showing that London booksellers paid for pamphlets celebrating authorial originality during the copyright litigation.",
+        "B": "Newly discovered correspondence showing that Edward Young extensively revised his Conjectures on Original Composition several times before finally publishing it.",
+        "C": "Letters showing that some writers privately doubted their own originality.",
+        "D": "Proof that piracy of London editions was rarer than the booksellers claimed."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage claims the courtroom theory of the creating self was elaborated by the booksellers' counsel to serve the perpetuity argument; documentation that the trade financed public celebrations of originality during the same litigation would tie the rhetoric of genius directly to the commercial campaign, exactly as the account requires.",
+        "B": "Young's compositional habits bear on his essay's history, not on whether the book trade deployed its vocabulary for legal ends.",
+        "C": "Writers' private self-doubt is compatible with any account of where the proprietary theory came from and does nothing to link genius rhetoric to trade interests.",
+        "D": "The frequency of piracy concerns the motive behind the 1710 statute, not the later construction of the genius theory during the perpetuity litigation."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b549_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following best characterizes the author's position on the modern idea of the solitary literary genius?",
+      "choices": {
+        "A": "It is a deliberate fraud that continues to enrich publishers at writers' expense.",
+        "B": "It is a historically contingent construction, commercial in origin, that has nonetheless proved remarkably durable.",
+        "C": "It accurately describes the reality of literary creation and was merely discovered there, not made, by eighteenth-century writers.",
+        "D": "It was rendered obsolete by the ruling in Donaldson v. Becket."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage's tone is ironic rather than accusatory about the present; it traces an origin in a trade dispute without alleging ongoing fraud or present-day enrichment.",
+        "B": "Correct. The author calls the picture of the solitary genius a construction that 'entered the world as an exhibit in a trade dispute' and notes it has 'proved astonishingly durable, surviving translation into every subsequent media regime,' which is contingency plus durability.",
+        "C": "The passage opens by denying that the figure is 'a fact of nature' and spends its length showing how it was assembled, the reverse of a discovery account.",
+        "D": "The 1774 decision defeated perpetual copyright, but the passage insists the theory 'did not fall with the case' and instead migrated into criticism and writers' self-understanding."
+      },
+      "topic": "Author's Position",
+      "difficulty": "Medium"
+    }
+  ]
+}

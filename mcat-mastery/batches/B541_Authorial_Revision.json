@@ -1,0 +1,136 @@
+{
+  "batch": "B541",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Authorial Revision",
+  "questionCount": 6,
+  "answerDistribution": { "A": 2, "B": 2, "C": 1, "D": 1 },
+  "questions": [
+    {
+      "id": "cars_b541_q0",
+      "passage": "When W. H. Auden assembled his collected poems in the 1960s, he went hunting through his own past with a red pencil. 'September 1, 1939,' the poem strangers had recited to one another at moments of public catastrophe, was first mutilated and then expelled altogether; its most famous line struck the older Auden as dishonest, and so it had to go. He described the excisions as a matter of hygiene, the removal of rhetoric he could no longer stand behind. What he actually performed was an act of confiscation, carried out against readers who had done nothing worse than take a poet at his word.\n\nThe literary world has agreed to call this sort of thing a right. An author, we are told, owns the work; who could be better placed to improve it than the person who made it? The premise is false on both counts. The poet of 1939 and the anthologist of 1965 share a name, a passport, and a set of mannerisms, and almost nothing else that matters to a poem. Age does not confer authority over the productions of youth; it merely confers embarrassment, and embarrassment is the worst of all editors, because it works in secret and calls its cowardice taste.\n\nThe case of Wordsworth ought to have settled the matter long ago. He completed The Prelude in 1805 and then spent forty-five years correcting it, softening its political ardor, upholstering its bare lines, tucking its youthful pantheism decorously inside the walls of the established church. The version published after his death in 1850 is the work of an elderly churchwarden revising a radical he no longer understood and perhaps no longer liked. When scholars at last printed the 1805 text, readers could see what had been traded away: not polish, but nerve. Hardly anyone who has read both versions attentively prefers the corrected poem.\n\nHenry James did something stranger still with his New York Edition, rewriting the early novels sentence by sentence into the manner of his late style, so that the young James speaks throughout in the voice of the old one. Admirers call the result unity. It is ventriloquism. Roderick Hudson dressed in the syntax of The Golden Bowl is not an improved novel but a suppressed one, a book whose actual author has been quietly replaced by an impersonator with better credentials.\n\nThe property argument deserves a direct answer. Publication is not a loan; it is a relinquishment. The moment a work is given to readers, it begins to accumulate a life the author cannot supervise: memories attach themselves to its phrases, arguments are built upon its claims, lovers quote it to each other in its original words. To recall the work for alterations is to repossess what was already given away, like a man demanding a wedding gift back so that he can engrave a correction on it.\n\nNone of this forbids an author from writing new prefaces, publishing recantations, or denouncing the earlier work in the public square; disavowal is honest where revision is covert. Nor does the objection touch the correction of misprints, which restores what was written rather than replacing it. But editors who accept an aging writer's final intentions as sacrosanct should say plainly what they are licensing: a stranger, on the strength of a shared signature, has been permitted to deface a monument that belongs to everyone who has ever stood before it. The right course is not complicated. Print the first versions, footnote the second thoughts, and let the record show both. The old man is free to disapprove of the young one as loudly as he likes. He can even write his own poems.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best states the central thesis of the passage?",
+      "choices": {
+        "A": "Authors who substantially rewrite their published works carry out an illegitimate seizure of texts that now belong to their readers.",
+        "B": "Literary works are best improved by editors trained to reconstruct what an author finally intended.",
+        "C": "Wordsworth and Henry James permanently damaged their literary reputations by tampering with poems and novels that admiring critics had already praised.",
+        "D": "Readers should study the early and late versions of a revised work side by side in order to trace an author's development."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. From the opening charge that Auden performed 'an act of confiscation' to the closing image of a defaced monument 'that belongs to everyone,' the passage argues that late revision wrongfully repossesses work already given to readers.",
+        "B": "The passage never advocates editorial improvement of any kind; it explicitly warns editors against treating an author's final intentions as sacrosanct.",
+        "C": "The passage criticizes the revisions themselves, not their effect on either writer's reputation, which it never discusses.",
+        "D": "The closing recommendation to print first versions and footnote second thoughts is a remedy the author proposes, not the thesis; the argument is about the illegitimacy of revision, not a program of comparative study."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b541_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward writers who rewrite their early published work can best be described as:",
+      "choices": {
+        "A": "measured ambivalence about a practice with genuine benefits and genuine costs.",
+        "B": "open scorn for what he regards as vandalism disguised as a privilege.",
+        "C": "reluctant admiration for the discipline that thorough revision demands.",
+        "D": "detached curiosity about the psychology that drives self-correction."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Nothing in the passage grants revision genuine benefits; the author calls it confiscation, ventriloquism, and defacement, leaving no balance to be ambivalent about.",
+        "B": "Correct. Words like 'mutilated,' 'confiscation,' 'ventriloquism,' and 'deface a monument' convey contempt, and the framing of revision as a supposed 'right' that is 'false on both counts' treats the privilege as a disguise for vandalism.",
+        "C": "The author expresses no admiration, reluctant or otherwise; James's meticulous sentence-by-sentence labor is dismissed as impersonation rather than praised as discipline.",
+        "D": "The author is anything but detached; he attributes revision to embarrassment and cowardice rather than examining its psychology with curiosity."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b541_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author discusses the two versions of Wordsworth's The Prelude primarily in order to:",
+      "choices": {
+        "A": "present a case in which direct comparison of an original with its revision exposes the revision as the weaker poem.",
+        "B": "demonstrate that political conversion is the usual motive behind authorial revision.",
+        "C": "show that posthumous publication reliably protects a text from an author's interference.",
+        "D": "argue that responsible scholarly editions ought to reproduce every manuscript draft and every variant reading a poet ever produced."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Wordsworth example is introduced as the case that 'ought to have settled the matter': once the 1805 text was printed, readers could see that the 1850 revision traded nerve for polish, and hardly anyone prefers it.",
+        "B": "Wordsworth's drift toward conservatism is described as part of this one case; the passage never generalizes political conversion into the usual motive, and it attributes Auden's changes to embarrassment about rhetoric instead.",
+        "C": "The 1850 Prelude appeared posthumously and still carried the author's decades of alterations, so the example shows the opposite of protection from interference.",
+        "D": "The author's closing proposal is to print first versions and footnote later changes, not to reproduce every draft, and the Wordsworth discussion concerns two finished versions rather than drafts."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b541_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings, if true, would most weaken the author's argument?",
+      "choices": {
+        "A": "Auden continued to defend his excisions in interviews until the end of his life.",
+        "B": "Several of Wordsworth's contemporaries also revised their long poems over many decades.",
+        "C": "Surveys of readers familiar with both texts show that a large majority prefer the 1850 Prelude to the 1805 version.",
+        "D": "Henry James wrote lengthy critical prefaces explaining and justifying the many changes he made for the New York Edition."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The author's complaint concerns what Auden did to the poem, not whether he defended it; persistent self-justification is fully compatible with the charge of confiscation.",
+        "B": "The prevalence of a practice among Wordsworth's contemporaries does nothing to legitimate it in the author's eyes; his case rests on what revision does to readers, not on how common it is.",
+        "C": "Correct. The passage stakes an empirical claim that 'hardly anyone' who reads both versions prefers the corrected poem, using reader judgment as evidence that revision trades away nerve; a documented majority preference for the 1850 text would strike directly at that supporting evidence.",
+        "D": "The author already concedes that open explanation and disavowal are honest; prefaces accompanying the changes would not answer his objection that the underlying texts were replaced."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b541_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following actions by a living novelist would the author most likely find acceptable?",
+      "choices": {
+        "A": "Reissuing an early novel with its ending rewritten to reflect her mature political convictions.",
+        "B": "Withdrawing an early novel from print until its style can be brought into line with her recent books.",
+        "C": "Authorizing an edition in which passages she now dislikes are moved out of the text and into an appendix.",
+        "D": "Publishing an essay repudiating an early novel while allowing it to circulate unchanged."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Rewriting an ending to match later convictions is precisely the Wordsworth pattern the passage condemns as an older writer correcting a younger one he no longer understands.",
+        "B": "Withdrawal pending stylistic overhaul combines suppression with the James-style ventriloquism the author derides; it recalls the gift in order to engrave a correction on it.",
+        "C": "Relocating disliked passages to an appendix still alters the text readers were given, which the author distinguishes sharply from restoring what was written.",
+        "D": "Correct. The passage expressly permits recantation and public denunciation, holding that 'disavowal is honest where revision is covert'; an essay of repudiation leaves the circulating work intact while letting the older writer disapprove as loudly as she likes."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b541_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "It can most reasonably be inferred that the author would regard the correction of a typographical error in a reprinted poem as:",
+      "choices": {
+        "A": "a minor instance of the same confiscation he condemns elsewhere.",
+        "B": "legitimate, because it restores the text the poet originally wrote.",
+        "C": "acceptable only when the poet personally approves each individual change.",
+        "D": "unnecessary, since readers attach memories even to misprinted phrases."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author explicitly exempts misprint correction from his objection, so it cannot be an instance, minor or otherwise, of the confiscation he condemns.",
+        "B": "Correct. The passage states that correcting misprints 'restores what was written rather than replacing it,' which places such changes on the side of preservation rather than revision.",
+        "C": "The author grounds the exemption in what correction does to the text, not in authorial approval; indeed he distrusts the aging author's authority over the work.",
+        "D": "Although readers do attach memories to phrases in the author's account, he treats restoring the written text as legitimate rather than needless, since the misprint was never what the poet gave them."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    }
+  ]
+}

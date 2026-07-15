@@ -1,0 +1,136 @@
+{
+  "batch": "B548",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "What Metaphors Do",
+  "questionCount": 6,
+  "answerDistribution": { "A": 2, "B": 2, "C": 1, "D": 1 },
+  "questions": [
+    {
+      "id": "cars_b548_q0",
+      "passage": "When Romeo says that Juliet is the sun, no competent listener checks the sky. Everyone agrees the sentence is literally false and somehow valuable anyway. The disagreement, which has organized the philosophy of metaphor for half a century, concerns where the value lives: in what the sentence means, or only in what it does.\n\nThe first camp holds that metaphor is a semantic achievement. On this view, associated with Max Black's interaction theory, a metaphor is not a decorated way of saying something plain; it brings two systems of ideas into contact so that each filters and reorganizes the other, generating a meaning that did not exist before the sentence was made. Calling a man a wolf does not merely attribute ferocity; it projects the whole wolf-system onto the man-system, foregrounding some of his features, suppressing others, and creating a perspective no literal paraphrase exhausts. That inexhaustibility is the theory's favorite evidence. If every metaphor could be cashed into a finite list of plain statements, we would expect paraphrase to succeed; its notorious failure suggests the metaphor carries a content of its own kind.\n\nDonald Davidson answered with a philosopher's version of cold water. Metaphors, he argued, mean exactly what their words mean literally, and nothing more. Juliet is not the sun, and that is the end of the semantic story. What a metaphor possesses is not a second meaning but a use: like a joke or a picture, it prompts us, nudges us into noticing likenesses, some of which could never be stated fully in words. Asking what a metaphor means, beyond its literal falsehood, is like asking what a photograph means; the question mistakes an effect for a message. The failure of paraphrase, Davidson's favorite evidence too, points his way as well: we cannot list everything a metaphor makes us notice, precisely because noticing is open-ended in a way that meaning is not.\n\nIt is worth pausing on the elegance of this move. Both theories claim the same phenomenon, the impossibility of complete paraphrase, as their confirmation. For the interactionist, paraphrase fails because the metaphorical meaning is too rich for literal restatement. For Davidson, it fails because there is no metaphorical meaning to restate, only an unbounded prompting. An observation that supports opposite conclusions with equal grace should make us suspicious of the observation, or of the question.\n\nThe more searching difficulty for Davidson's austerity comes from the workshops of science. Theoretical inquiry has repeatedly advanced by metaphor: heat was conceived as a fluid, light as a wave in an ocean of ether, the mind as a computing machine. These framings did not simply nudge investigators into private noticings; they licensed inferences, generated testable predictions, and were eventually corrected in ways that look very much like the fate of assertions, judged and found partly true and partly false. A bare prompt cannot be half right. If scientific metaphors function as claims within a research program, then at least some metaphors seem to carry content that the causal account struggles to house.\n\nWhere does this leave the dispute? Perhaps nearer to a border quarrel than either side would like to admit. Both parties agree that metaphors are literally false, that they are cognitively fertile, and that their fruits cannot be fully harvested by paraphrase. What remains is the question of whether the word 'meaning' should be stretched to cover that fertility or reserved for what sentences strictly say, and that is a question about how we ought to keep our books, not about what happens when Romeo speaks. The phenomena, on this reading, are richer than either theory and stubbornly indifferent to the accounting.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": {
+        "A": "Davidson's causal account of metaphor has decisively and permanently superseded interaction theories throughout contemporary philosophy of language.",
+        "B": "The rival theories of metaphor converge on the same phenomena, and their residual dispute may concern only how the word meaning should be used.",
+        "C": "Scientific progress depends on eliminating metaphor from theoretical vocabulary.",
+        "D": "The failure of paraphrase proves that metaphors possess a distinct semantic content."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage raises what it calls the 'more searching difficulty' for Davidson from scientific metaphor and declares no winner, so no supersession is asserted.",
+        "B": "Correct. The closing paragraph lists what both parties agree on and concludes that the residue is 'a question about how we ought to keep our books,' a border quarrel over the word 'meaning' rather than over what happens when Romeo speaks.",
+        "C": "The passage presents metaphor as an engine of theoretical advance, framing heat, light, and mind in ways that generated predictions; nothing recommends its elimination.",
+        "D": "The passage's central twist is that paraphrase failure supports both theories with equal grace, so it proves neither; treating it as proof of semantic content restates one side's reading of evidence the author has neutralized."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b548_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The paragraph on scientific metaphors serves primarily to:",
+      "choices": {
+        "A": "present the strongest challenge the passage offers to Davidson's account.",
+        "B": "show that interaction theory was originally developed to explain laboratory practice.",
+        "C": "demonstrate that scientific language must eventually discard its figurative origins.",
+        "D": "provide a neutral illustration on which both theories perform equally well."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The paragraph is introduced as 'the more searching difficulty for Davidson's austerity' and argues that metaphors which license inferences and can be 'partly true and partly false' behave like claims, which 'the causal account struggles to house.'",
+        "B": "Interaction theory is presented through Romeo, wolves, and the general machinery of interacting idea-systems; no laboratory origin for the theory is suggested.",
+        "C": "The paragraph observes that scientific metaphors were 'eventually corrected,' treating correction as evidence of assertion-like status, not as an argument for discarding figuration.",
+        "D": "The paragraph is explicitly partisan in effect, pressing on Davidson's view alone; the evenly poised evidence in the passage is paraphrase failure, discussed in the previous paragraph."
+      },
+      "topic": "Function of a Paragraph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b548_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Based on the passage, Davidson would most likely endorse which of the following statements about the sentence calling a man a wolf?",
+      "choices": {
+        "A": "The sentence acquires a new meaning at the moment the two idea-systems interact.",
+        "B": "The sentence is literally true of men who behave ferociously.",
+        "C": "The sentence means only what its words literally say, and the insights it prompts are effects rather than contents.",
+        "D": "The sentence can be completely and exhaustively paraphrased by a sufficiently long list of plain, literal declarative statements."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Interaction between idea-systems generating new meaning is Black's account, the very position Davidson's 'cold water' was directed against.",
+        "B": "Davidson's starting point in the passage is that metaphors are literally false; the man is not a wolf any more than Juliet is the sun.",
+        "C": "Correct. The passage attributes to Davidson the claims that metaphors 'mean exactly what their words mean literally, and nothing more' and that what they possess is 'not a second meaning but a use,' prompting noticings the way a picture does.",
+        "D": "Davidson accepts the failure of paraphrase and explains it through the open-endedness of noticing, so he would deny that any finite list could complete the job."
+      },
+      "topic": "Application",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b548_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The overall tone of the passage is best described as:",
+      "choices": {
+        "A": "exasperated by the persistence of an unproductive academic quarrel.",
+        "B": "analytic and measured, with occasional wit.",
+        "C": "celebratory toward one theory's victory over its rival.",
+        "D": "elegiac about the decline of interest in figurative language."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author examines the debate with evident interest, pausing to admire the 'elegance' of Davidson's move; the dispute is diagnosed, not deplored.",
+        "B": "Correct. The passage weighs each theory's evidence carefully against paraphrase and science, and delivers a qualified verdict, while touches like the listener who checks the sky and the 'philosopher's version of cold water' add controlled wit.",
+        "C": "No victory is declared; the strongest objection is raised against Davidson, yet the ending refuses to award the dispute to either camp.",
+        "D": "Nothing mourns declining interest; the debate is described as having organized a field for half a century and as still live."
+      },
+      "topic": "Author's Tone",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b548_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "It can most reasonably be inferred that the author regards the failure of paraphrase as:",
+      "choices": {
+        "A": "the single decisive consideration that ultimately favors interaction theory over its rival.",
+        "B": "an artifact of poorly chosen literary examples.",
+        "C": "evidence that metaphors lack cognitive value.",
+        "D": "incapable by itself of settling the dispute, since each theory explains it equally well."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The author notes that paraphrase failure is the 'favorite evidence' of both camps, which strips it of decisive force for either.",
+        "B": "The author treats the failure as genuine and general, extending across literary and scientific cases alike, never as a defect of the examples chosen.",
+        "C": "Both theories and the author take metaphor's cognitive fertility as common ground; the dispute concerns how to classify that fertility, not whether it exists.",
+        "D": "Correct. The passage observes that the same observation 'supports opposite conclusions with equal grace' and draws the moral that we should be suspicious 'of the observation, or of the question,' which is to say it cannot adjudicate between the theories."
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b548_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would most likely DISAGREE with which of the following statements?",
+      "choices": {
+        "A": "The remaining disagreement between the theories is a purely factual question that further evidence about speakers will settle.",
+        "B": "Both major theories accept that metaphors are literally false.",
+        "C": "Metaphors in science have sometimes licensed inferences and generated predictions.",
+        "D": "Complete literal paraphrase of a genuinely rich metaphor is notoriously difficult, and perhaps strictly impossible, to achieve."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author concludes that what remains is a question about 'how we ought to keep our books,' a decision about the word 'meaning' rather than 'about what happens when Romeo speaks,' so he would reject the claim that additional facts about speakers could settle it.",
+        "B": "Literal falsehood is listed among the points on which 'both parties agree,' and the passage's opening example establishes it as common ground.",
+        "C": "The scientific paragraph asserts exactly this about heat, light, and the computational mind, so the author affirms it.",
+        "D": "The 'notorious failure' of paraphrase is a fixed point of the whole discussion, accepted by both theories and by the author."
+      },
+      "topic": "Author Disagreement",
+      "difficulty": "Medium"
+    }
+  ]
+}

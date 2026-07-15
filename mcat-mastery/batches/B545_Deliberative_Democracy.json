@@ -1,0 +1,136 @@
+{
+  "batch": "B545",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Deliberative Democracy",
+  "questionCount": 6,
+  "answerDistribution": { "A": 2, "B": 1, "C": 1, "D": 2 },
+  "questions": [
+    {
+      "id": "cars_b545_q0",
+      "passage": "The ballot is a machine for counting preferences, and it counts them as it finds them. Whatever a citizen happens to want on election morning, however she came to want it, whether she has ever heard the strongest argument against it, the tally records her preference with perfect indifference to its pedigree. Democratic theory has spent a century refining the counting and almost no institutional effort on the forming. This is a strange allocation of attention, because the counting is the easy part. The deep democratic problem is not how to aggregate what citizens want but how citizens might come to want things for reasons they could defend to one another.\n\nDeliberation is the name for that process, and it should be treated not as a civic ornament but as core democratic machinery. When people who disagree must exchange reasons face to face, something happens that no ballot can produce: preferences move. Participants encounter considerations they had never met, discover that opponents are not monsters, and are pushed by the ordinary pressure of conversation to trade raw assertion for arguments that others could in principle accept. Aggregation takes preferences as fixed inputs. Deliberation treats them as work in progress, which is what they actually are.\n\nWe already trust this machinery with the gravest decisions a state makes. Twelve strangers, chosen by lot and given no test of expertise, deliberate their way to verdicts that can take away a person's liberty, and the institution commands broad confidence precisely because its members must reason together under structure: they hear evidence, face counterargument, and must persuade one another rather than simply vote their first impressions. If randomly selected citizens can be trusted to deliberate about guilt, it is hard to see why they cannot be trusted to deliberate about policy.\n\nThey can, and the record shows it. Citizens' assemblies of ordinary people selected by lot have taken up constitutional questions that professional politicians had found too explosive to touch, in one well-known case in Ireland producing recommendations that voters subsequently ratified. Observers of such assemblies report the same trajectory again and again: participants arrive as partisans and leave as something closer to jurors, still disagreeing, but disagreeing about reasons.\n\nThe standard objection deserves an honest answer. Deliberation, critics say, favors the articulate: the confident talker dominates, the hesitant fall silent, and the seminar room reproduces the hierarchies of the world outside it. The worry is real, and unmoderated discussion does exhibit exactly this pathology. But it is a design problem, not a refutation. Trained facilitation, structured turn-taking, small rotating groups, and balanced briefing materials measurably flatten participation, and well-run assemblies deploy all of them. Notice, moreover, what the objection quietly assumes: that the ballot is the egalitarian baseline. It is not. The unequal influences that shape opinion before anyone votes, money, media ownership, and inherited loyalty, operate without any moderator at all. Deliberation does not introduce inequality into a previously pure process; it drags an existing inequality into a room where rules can finally reach it.\n\nNone of this argues for abolishing elections. Mass voting remains the only legitimate way to authorize governments and remove them, and no assembly of a few hundred can substitute for the consent of millions. The argument is for completion, not replacement: standing citizens' assemblies, selected by lot, deliberating on defined questions and reporting publicly before the vote, so that when the counting machine finally runs, it counts something worth counting. We have perfected the arithmetic of democracy while leaving its reasoning to chance and to advertisers. That is not neutrality. It is negligence, and we know how to repair it.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the main idea of the passage?",
+      "choices": {
+        "A": "Democracies should institutionalize citizen deliberation to complement voting, since elections count preferences without helping citizens form them.",
+        "B": "Elections have become obsolete instruments and should be replaced entirely by randomly selected citizen assemblies empowered to decide public policy directly.",
+        "C": "The jury is the only democratic institution that has succeeded in making ordinary citizens reason together.",
+        "D": "Deliberative assemblies inevitably reproduce the social hierarchies that structure conversation outside them."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The passage opens with the ballot's indifference to how preferences are formed, argues that deliberation moves preferences through the exchange of reasons, and closes by calling for 'completion, not replacement' through standing assemblies reporting before the vote.",
+        "B": "The final paragraph explicitly rejects this, insisting that mass voting remains the only legitimate way to authorize and remove governments.",
+        "C": "The jury appears as evidence that structured deliberation by ordinary citizens already commands trust, but the passage immediately extends the model to citizens' assemblies on policy, so the jury is an example rather than the thesis.",
+        "D": "The passage treats domination by confident talkers as a real but solvable design problem, citing facilitation and structured turn-taking as measures that flatten participation."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b545_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's position on citizens' assemblies selected by lot is best described as:",
+      "choices": {
+        "A": "cautiously curious about a promising experiment whose early results nonetheless remain too preliminary to assess with confidence.",
+        "B": "opposed in principle, since unelected bodies lack the authority that only elections confer.",
+        "C": "supportive only for questions on which professional politicians have already reached consensus.",
+        "D": "firmly in favor of establishing them as standing institutions that deliberate and report publicly before votes."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The author claims 'the record shows it,' citing ratified recommendations and repeated observations of assemblies; his endorsement rests on evidence he treats as established, not preliminary.",
+        "B": "The author reserves authorization of governments to elections but assigns assemblies a deliberative and advisory role, which he champions rather than opposes.",
+        "C": "The Irish example is praised precisely because the assembly took up questions politicians had found 'too explosive to touch,' the opposite of waiting for political consensus.",
+        "D": "Correct. The closing proposal is explicit: 'standing citizens' assemblies, selected by lot, deliberating on defined questions and reporting publicly before the vote,' framed as a repair the author says 'we know how' to make."
+      },
+      "topic": "Author's Position",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b545_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings, if true, would most weaken the author's argument for deliberative assemblies?",
+      "choices": {
+        "A": "Some citizens decline invitations to participate in assemblies because of work obligations.",
+        "B": "Studies of professionally facilitated assemblies find that views typically grow more extreme and confident speakers still dominate despite structured turn-taking.",
+        "C": "Voters in several of the countries studied report little or no awareness of citizens' assembly recommendations by the time the subsequent referendums are actually held.",
+        "D": "Jury verdicts are occasionally overturned on appeal because of procedural errors at trial."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Uneven uptake of invitations is a recruitment challenge the passage's design-problem framing can absorb; it does not touch the claim that deliberation improves the preferences of those who do participate.",
+        "B": "Correct. The author answers the domination objection by asserting that facilitation and structured turn-taking 'measurably flatten participation' and that deliberation moves people toward reasons; evidence that well-run assemblies still polarize views and still favor confident talkers would defeat his response at exactly the point where he stakes it.",
+        "C": "Low public awareness bears on how recommendations are publicized, a communications failure outside the passage's claims about what happens within deliberation itself.",
+        "D": "Occasional procedural reversals are part of how the jury system corrects itself and do not undermine the passage's point that the institution commands broad confidence as a site of structured reasoning."
+      },
+      "topic": "Weakening the Argument",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "cars_b545_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author invokes the jury primarily in order to:",
+      "choices": {
+        "A": "point to a trusted existing institution proving that ordinary citizens can deliberate competently under structure.",
+        "B": "argue that policy questions are less consequential than criminal verdicts.",
+        "C": "recommend that citizens' assemblies adopt the rules of evidence used in courtrooms.",
+        "D": "show that formal screenings of expertise are necessary before ordinary citizens can responsibly be given serious public duties."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The jury is introduced as machinery 'we already trust' with the gravest decisions: strangers chosen by lot who must reason together under structure, which sets up the inference that such citizens can also be trusted to deliberate about policy.",
+        "B": "The passage ranks verdicts among the gravest decisions a state makes in order to argue upward to policy, not to diminish policy's importance.",
+        "C": "No courtroom procedures are recommended for assemblies; the passage's design tools are facilitation, turn-taking, small groups, and balanced briefings.",
+        "D": "The jury example cuts the other way: jurors face no screening for expertise at all, which is exactly why the institution supports trusting ordinary citizens."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b545_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "It can most reasonably be inferred that the author regards citizens' political preferences as:",
+      "choices": {
+        "A": "fixed dispositions that institutions can measure but never alter.",
+        "B": "reliable guides to policy whenever they are counted accurately.",
+        "C": "products of processes, including unequal ones, and therefore open to improvement through better processes.",
+        "D": "expressions of narrow material self-interest that deliberative institutions exist primarily to suppress and replace."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The passage's central empirical claim is that in deliberation 'preferences move,' which directly contradicts fixity.",
+        "B": "The opening paragraph faults the ballot precisely for recording preferences 'with perfect indifference' to their pedigree, so accurate counting alone cannot make them reliable guides.",
+        "C": "Correct. The author calls preferences 'work in progress,' notes that money, media ownership, and inherited loyalty shape opinion before any vote, and proposes deliberative structure as the process that improves what the counting machine eventually counts.",
+        "D": "Deliberation in the passage transforms preferences through reasons rather than suppressing them; participants 'leave as something closer to jurors, still disagreeing.'"
+      },
+      "topic": "Inference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b545_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following reforms would be most consonant with the author's proposal?",
+      "choices": {
+        "A": "Replacing a nation's elected legislature entirely with a permanent lawmaking chamber of ordinary citizens chosen at random by lot.",
+        "B": "Requiring voters to pass a knowledge examination before casting ballots.",
+        "C": "Expanding televised debates between party leaders in the month before elections.",
+        "D": "Convening a randomly selected citizen panel to deliberate on a ballot measure and publish its reasoning before the referendum."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Replacing the legislature crosses the line the author draws when he insists elections remain the only legitimate way to authorize governments; his argument is for completion, not substitution.",
+        "B": "Screening voters restricts the franchise, whereas the author's remedy improves preference formation while leaving every citizen's ballot intact.",
+        "C": "Leader debates are broadcast persuasion, not citizens exchanging reasons face to face under structure, so they supply none of the deliberative machinery the passage describes.",
+        "D": "Correct. A lot-selected panel that deliberates on a defined question and publishes its reasoning before the vote matches the closing proposal almost clause for clause, so that the eventual count records preferences informed by deliberation."
+      },
+      "topic": "Application",
+      "difficulty": "Medium"
+    }
+  ]
+}

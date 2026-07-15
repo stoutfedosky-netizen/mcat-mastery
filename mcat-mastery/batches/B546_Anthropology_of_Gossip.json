@@ -1,0 +1,136 @@
+{
+  "batch": "B546",
+  "section": "cars",
+  "sectionName": "Critical Analysis & Reasoning Skills",
+  "topicArea": "Anthropology of Gossip",
+  "questionCount": 6,
+  "answerDistribution": { "A": 1, "B": 2, "C": 2, "D": 1 },
+  "questions": [
+    {
+      "id": "cars_b546_q0",
+      "passage": "Every moral tradition I know of condemns gossip, and every human community I know of runs on it. When a practice is universally denounced and universally practiced, the interesting hypothesis is not that our species is incorrigible but that the denunciation has misdescribed the practice. Gossip is not a leak in the social vessel. It is part of the hull.\n\nAnthropologists began to suspect as much in the middle of the twentieth century. Max Gluckman, studying close-knit communities, noticed that talk about absent members was not idle at all: it was the medium through which groups maintained their values. To gossip competently about a neighbor, one must know the group's standards, its histories, its cast of characters, and the precise degree of deviation that makes a story worth telling. Newcomers cannot do it; that is how you know they are newcomers. The right to gossip, Gluckman argued, is close to a definition of membership, and the content of gossip is a running seminar on what the community expects of its members. The farmer who overworks his hired hands, the trader who shorts the scale, the cousin who neglects an aging parent, each becomes a story, and each story is a small verdict announcing where the lines are.\n\nConsider what such verdicts accomplish. In communities without police, courts, or written contracts, and that is most communities across most of human history, reputation is the only enforcement mechanism there is. A person who cheats can be sued nowhere and arrested by no one, but he can be talked about, and being talked about changes his prospects: fewer partners, worse marriages, colder hearths. Gossip is how a community pools its scattered observations into a common ledger of who can be trusted with what. Later researchers proposed that this function runs deeper still, suggesting that human language itself evolved substantially as social grooming, a way of servicing more relationships than any primate could maintain by hand. On that account, talking about each other is not an abuse of language. It is close to the original use.\n\nI can hear the objection: gossip is often false, and it can be cruel. Both things are true, and neither is decisive. The ledger has errors, but a ledger with errors outperforms no ledger at all, and communities develop their own corrections, discounting known exaggerators, weighing sources, revising verdicts when the wronged party's version circulates in turn. As for cruelty, we should ask what the alternatives actually are. A community that genuinely refrained from discussing its absent members would have exactly two ways to maintain its standards: formal surveillance, with files and informers, or perfect indifference to conduct, which is not tolerance but abandonment. The village that whispers about the man who neglects his father is also the village that notices the father exists.\n\nThe moralists' error is a confusion of scale. They judge each act of gossip as an isolated exchange between two speakers and find it wanting in charity, which it usually is. But the institution is not the exchange, any more than the market is a single haggle. Judged at the scale of the community and the generation, informal talk about absent members is the least coercive instrument of social order humans have ever devised: no warrants, no cells, nothing but narrative and consequence. I do not claim it is gentle. I claim it is load-bearing, and that the people who sigh over it at dinner parties are, at that very moment, enjoying its benefits, trading its currency, and helping it hold their world together.",
+      "usePrevPassage": false,
+      "stem": "Which of the following best expresses the central thesis of the passage?",
+      "choices": {
+        "A": "Gossip would be an entirely harmless practice if communities corrected its factual errors and exaggerations more systematically and promptly.",
+        "B": "Gossip, though condemned by moralists, functions as a fundamental instrument by which communities maintain norms and pool trust.",
+        "C": "Human language evolved exclusively as a substitute for primate grooming behaviors.",
+        "D": "Communities without formal legal institutions are unable to enforce standards of conduct."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The author concedes errors and cruelty and argues they are not decisive; his thesis does not depend on cleaning up gossip but on recognizing its structural function.",
+        "B": "Correct. From the opening image of gossip as 'part of the hull' through the closing claim that it is 'load-bearing,' the passage argues that talk about absent members maintains values, defines membership, and pools observations into a common ledger of trust.",
+        "C": "The grooming hypothesis is reported as a proposal that language evolved 'substantially,' not exclusively, for social purposes, and it supports the thesis rather than constituting it.",
+        "D": "The passage argues the reverse: communities without police or courts enforce standards precisely through reputation and talk."
+      },
+      "topic": "Main Idea",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b546_q1",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author cites Gluckman's research primarily in order to:",
+      "choices": {
+        "A": "establish that mid-century anthropology was preoccupied with rural communities.",
+        "B": "show that gossip steadily declines in frequency as communities adopt formal legal and judicial institutions.",
+        "C": "support the claim that gossip transmits communal standards and marks membership in the group.",
+        "D": "prove that newcomers to a community are the most frequent subjects of gossip."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "The disciplinary setting is incidental scenery; the citation works to introduce a substantive finding about what gossip does, not to characterize the field's interests.",
+        "B": "No claim about gossip declining under legal institutions appears anywhere; the passage's later contrast with police and courts concerns enforcement, not Gluckman's findings.",
+        "C": "Correct. Gluckman is credited with two linked observations the argument then builds on: gossip is 'a running seminar on what the community expects,' and the right to gossip competently 'is close to a definition of membership.'",
+        "D": "In the passage newcomers are identified by their inability to gossip, not by being gossiped about; the claim concerns competence, not targets."
+      },
+      "topic": "Function of a Reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b546_q2",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author would most likely DISAGREE with which of the following statements?",
+      "choices": {
+        "A": "Individual acts of gossip frequently lack charity toward their subjects.",
+        "B": "Reputation can substantially alter a person's economic opportunities and social prospects within a community.",
+        "C": "Communities develop informal means of discounting unreliable talkers.",
+        "D": "A community in which members never discussed one another in absence would be healthier for it."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "The author concedes this directly, granting that each exchange judged in isolation is 'usually' wanting in charity.",
+        "B": "The passage asserts exactly this: the cheat who cannot be arrested 'can be talked about,' leading to fewer partners and colder hearths.",
+        "C": "The corrections are named in the passage: discounting exaggerators, weighing sources, and revising verdicts as new versions circulate.",
+        "D": "Correct. The author argues that a community truly abstaining from such talk would face a choice between formal surveillance and 'perfect indifference to conduct, which is not tolerance but abandonment,' so he would reject the idea that abstention makes a community healthier."
+      },
+      "topic": "Author Disagreement",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b546_q3",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "Which of the following findings would most strengthen the author's argument about gossip's enforcement function?",
+      "choices": {
+        "A": "Speakers observed in controlled laboratory settings consistently report feeling guilty after relaying negative information about their personal acquaintances.",
+        "B": "Written contracts are older than previously believed in several agricultural societies.",
+        "C": "In communities lacking formal institutions, individuals whom circulating talk identifies as untrustworthy lose exchange partners at higher rates.",
+        "D": "Most gossip in recorded conversations concerns celebrities rather than personal acquaintances."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Speakers' private guilt reflects the moral condemnation the author already acknowledges as universal; it says nothing about whether the talk regulates conduct.",
+        "B": "Earlier written contracts would slightly shrink the domain in which reputation is the only mechanism, tending against the argument rather than for it.",
+        "C": "Correct. The enforcement claim is that being talked about changes a cheat's prospects where no court can reach him; a measured link between circulating verdicts of untrustworthiness and lost exchange partners would document precisely that consequence.",
+        "D": "Talk centered on distant celebrities bypasses the local ledger of who can be trusted with what, weakening rather than supporting the community-regulation account."
+      },
+      "topic": "Strengthening the Argument",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "cars_b546_q4",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "The author's attitude toward those who condemn gossip on moral grounds is best described as:",
+      "choices": {
+        "A": "briskly dismissive of a judgment he considers blind to how communities actually cohere.",
+        "B": "fearful that their moral arguments will eventually succeed in eliminating the practice altogether.",
+        "C": "wholly persuaded by their account of gossip's cruelty.",
+        "D": "neutral, declining to evaluate a dispute outside his discipline."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The author diagnoses the moralists' 'error' as 'a confusion of scale' and closes by picturing them enjoying gossip's benefits while sighing over it at dinner parties, a tone of confident, pointed dismissal.",
+        "B": "The passage opens by observing that universal denunciation has coexisted with universal practice, so the author shows no anxiety that condemnation could eliminate gossip.",
+        "C": "He concedes cruelty occurs but immediately argues it is 'not decisive,' which is partial concession, not persuasion.",
+        "D": "Far from staying neutral, the author names the moralists' mistake, argues against it at length, and stakes his own strong claim that the institution is load-bearing."
+      },
+      "topic": "Author's Attitude",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "cars_b546_q5",
+      "passage": null,
+      "usePrevPassage": true,
+      "stem": "It can most reasonably be inferred from the passage that:",
+      "choices": {
+        "A": "gossip becomes more accurate as communities grow larger.",
+        "B": "the regulatory burden carried by informal talk is greatest where formal enforcement institutions are absent.",
+        "C": "moral traditions that condemn gossip arose only in literate societies that had already developed written legal codes.",
+        "D": "reputational verdicts, once circulated, cannot afterward be revised."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "The passage links gossip's competence to close-knit knowledge of a group's standards and characters, and it never connects community size to accuracy.",
+        "B": "Correct. The author argues that in communities 'without police, courts, or written contracts... reputation is the only enforcement mechanism there is,' which implies that informal talk must do its heaviest regulatory work precisely where formal institutions are missing.",
+        "C": "The passage says every moral tradition the author knows condemns gossip, drawing no line between literate and non-literate societies.",
+        "D": "Revision is explicitly among the community's corrections: verdicts change 'when the wronged party's version circulates in turn.'"
+      },
+      "topic": "Inference",
+      "difficulty": "Hard"
+    }
+  ]
+}
