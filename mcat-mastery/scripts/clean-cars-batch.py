@@ -76,6 +76,30 @@ def leaks_meta_language(text):
     return bool(META_CARS_RE.search(text) or META_TESTTAKER_RE.search(text))
 
 
+# Appended meta-commentary grafted onto CHOICE text — the defect that rejected two
+# B531-B540 drafts. The generator tacks an editorial clause explaining why a choice
+# is wrong onto the choice itself, e.g. "..., especially if the example is taken as
+# a complete theory rather than a limited illustration" or "..., a conclusion that
+# would shift the passage toward a much broader institutional claim". Ten such
+# phrasings appeared, each reused across 3-4 batches, and all 38 instances landed on
+# wrong answers — so the clause alone identifies the distractor without reading the
+# passage. Literal TELLS lists always lag the next rewording, so match the STRUCTURE:
+# comma + hedging connective + talk about the passage/author/argument.
+# Report-only and reject-level: a batch carrying these should be regenerated, not
+# silently stripped, since their presence signals a systemic generation failure.
+CHOICE_META_RE = re.compile(
+    r",\s+(?:especially|particularly|even in cases|even when|while leaving aside"
+    r"|a view that|a claim that|a conclusion that|a formulation that"
+    r"|although this|though this)\b[^.]*"
+    r"\b(?:passage|author|argument|thesis|claim|contrast|illustration|evidence|doctrine)\b",
+    re.I,
+)
+
+
+def choice_meta_tell(text):
+    return bool(CHOICE_META_RE.search(text or ""))
+
+
 CANON_ORDER = ["id", "passage", "usePrevPassage", "stem", "choices", "correct",
                "explanations", "topic", "difficulty", "passageImage",
                "passageImageCaption"]
@@ -148,8 +172,9 @@ def passage_slop(passage, topic_area):
 def clean_batch(d):
     stats = {"tells": 0, "hoisted": 0, "topics": 0, "difficulty": 0, "boilerplate_qs": [],
              "recycled": None, "lettermismatch_qs": [], "passage_slop": [], "meta_expl_qs": [],
-             "distractors": []}
+             "distractors": [], "choice_meta": [], "keydist": None}
     wrong_texts = []  # first sentence of every distractor, across the batch
+    keys = []  # correct letter of every question, for the answer-distribution check
     ps = passage_slop(d.get("questions", [{}])[0].get("passage"), d.get("topicArea"))
     if ps:
         stats["passage_slop"] = ps
@@ -161,6 +186,11 @@ def clean_batch(d):
                 stats["hoisted"] += 1
         # normalize choices to {label: text}
         q["choices"] = normalize_choices(q.get("choices"))
+        # flag appended meta-commentary on choices BEFORE stripping, so the report
+        # sees clauses that TELL_PATTERNS would otherwise silently remove
+        for lab, txt in q["choices"].items():
+            if choice_meta_tell(txt):
+                stats["choice_meta"].append((q.get("id"), lab, lab != q.get("correct")))
         # 2. strip tells from choice text (literal phrases + parameterized patterns)
         for lab, txt in list(q["choices"].items()):
             new = txt
@@ -200,6 +230,8 @@ def clean_batch(d):
         if any(leaks_meta_language(exps.get(l)) for l in exps):
             stats["meta_expl_qs"].append(q.get("id"))
         # collect distractor fingerprints for recycling detection (+ cross-batch)
+        if correct:
+            keys.append(correct)
         for lab, txt in q["choices"].items():
             if lab != correct:
                 wrong_texts.append(txt.split(". ")[0][:60])
@@ -212,6 +244,17 @@ def clean_batch(d):
     # recycled distractors: few distinct wrong answers across the whole batch
     if wrong_texts:
         stats["recycled"] = (len(set(wrong_texts)), len(wrong_texts))
+    # answer-key distribution: an unused letter is a real test-wiseness tell
+    # (7 of 10 batches in the rejected B531-B540 draft never keyed one letter),
+    # and a stated answerDistribution that disagrees with the actual keys means
+    # letters were shuffled without updating the header.
+    if keys:
+        actual = {L: keys.count(L) for L in "ABCD"}
+        stated = d.get("answerDistribution")
+        unused = [L for L in "ABCD" if actual[L] == 0]
+        mismatched = bool(stated) and {k: int(v) for k, v in stated.items()} != {
+            k: actual[k] for k in stated}
+        stats["keydist"] = (actual, len(keys), unused, mismatched)
     return stats
 
 
@@ -243,6 +286,8 @@ def main():
     mismatch = []
     passage_slop_batches = []
     meta_qs = []
+    choice_meta = []       # (batch, qid, label, is_wrong) for appended meta on choices
+    keydist_batches = []   # (batch, actual, n, unused, mismatched)
     distractor_batches = {}  # distractor text -> set of batches it appears in
     for f in files:
         d = json.load(open(f))
@@ -255,6 +300,13 @@ def main():
         flagged += s["boilerplate_qs"]
         mismatch += s["lettermismatch_qs"]
         meta_qs += s["meta_expl_qs"]
+        choice_meta += [(d.get("batch"),) + cm for cm in s["choice_meta"]]
+        if s["keydist"]:
+            actual, nq, unused, mismatched = s["keydist"]
+            if unused or mismatched:
+                # label with the filename too: batch ids collide across files
+                label = f"{d.get('batch')} ({os.path.basename(f)})"
+                keydist_batches.append((label, actual, nq, unused, mismatched))
         if s["passage_slop"]:
             passage_slop_batches.append((d.get("batch"), s["passage_slop"]))
         for dt in s["distractors"]:
@@ -277,6 +329,28 @@ def main():
     cross = {t: bs for t, bs in distractor_batches.items() if len(bs) >= 3}
 
     print(f"\nTotals: {total}")
+    if choice_meta:
+        on_wrong = sum(1 for _, _, _, is_wrong in choice_meta if is_wrong)
+        print(f"\n⛔ {len(choice_meta)} choice(s) carry APPENDED META-COMMENTARY explaining why "
+              f"the choice is wrong ({on_wrong} of them on wrong answers).")
+        if on_wrong == len(choice_meta):
+            print("    Every instance is on a distractor: the clause alone identifies the wrong "
+                  "answers without reading the passage. Regenerate — do not strip and import.")
+        for b, qid, lab, is_wrong in choice_meta[:12]:
+            print(f"    {b} {qid}[{lab}] ({'wrong' if is_wrong else 'CORRECT'})")
+        if len(choice_meta) > 12:
+            print(f"    ... and {len(choice_meta) - 12} more")
+    if keydist_batches:
+        print(f"\n⛔ {len(keydist_batches)} batch(es) have a BROKEN ANSWER-KEY DISTRIBUTION "
+              f"(an unused letter is guessable; a stated/actual mismatch means letters moved "
+              f"without updating the header):")
+        for b, actual, nq, unused, mismatched in keydist_batches:
+            bits = []
+            if unused:
+                bits.append(f"letter(s) {','.join(unused)} never correct in {nq} questions")
+            if mismatched:
+                bits.append("stated answerDistribution != actual keys")
+            print(f"    {b}: {dict(actual)} — {'; '.join(bits)}")
     if passage_slop_batches:
         print(f"\n⛔ {len(passage_slop_batches)} passage(s) show machine-padding slop "
               f"(self-titling or a paragraph repeated verbatim — regenerate the passage):")
@@ -307,9 +381,11 @@ def main():
               f"(rewrite by hand for passage-specific reasoning):")
         for qid in flagged:
             print(f"    {qid}")
-    if not (recycled_batches or mismatch or flagged or passage_slop_batches or cross or meta_qs):
+    if not (recycled_batches or mismatch or flagged or passage_slop_batches or cross
+            or meta_qs or choice_meta or keydist_batches):
         print("\nNo passage slop, template reuse, recycled distractors, letter "
-              "mismatches, meta-language, or boilerplate detected.")
+              "mismatches, meta-language, appended choice commentary, answer-key "
+              "skew, or boilerplate detected.")
     print(f"\nOutput: {'in place' if args.in_place else out_dir}")
 
 
