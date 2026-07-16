@@ -8,6 +8,7 @@ function AppFrame({ children }) {
     authLoading,
     activeExam,
     saveResults,
+    saveProgress,
     buildMissedSession,
     exitExam,
   } = useApp();
@@ -30,6 +31,17 @@ function AppFrame({ children }) {
         timeLimit={activeExam.timeLimit}
         testMode={activeExam.testMode}
         initialAnswers={activeExam.savedAnswers || null}
+        initialFlagged={activeExam.savedFlagged || null}
+        initialHighlights={activeExam.savedHighlights || null}
+        initialStruck={activeExam.savedStruck || null}
+        startIndex={activeExam.startIndex || 0}
+        initialSeconds={activeExam.initialSeconds ?? null}
+        startPaused={activeExam.startPaused || false}
+        onProgress={
+          activeExam.sessionId && !activeExam.reviewMode
+            ? (progress) => saveProgress(activeExam.sessionId, progress)
+            : null
+        }
         startInReview={activeExam.reviewMode || false}
         onComplete={
           activeExam.reviewMode

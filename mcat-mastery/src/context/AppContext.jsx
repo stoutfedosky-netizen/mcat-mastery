@@ -1,5 +1,5 @@
 "use client";
-import { createContext, useContext, useState, useEffect, useMemo } from "react";
+import { createContext, useContext, useState, useEffect, useMemo, useRef } from "react";
 import { createClient } from "../lib/supabase";
 import { SECTIONS, mapQuestion, selectQuestions, applyFilters } from "../lib/examData";
 import { CONTENT_CATEGORIES, CATEGORY_BY_CODE } from "../lib/contentCategories";
@@ -44,6 +44,11 @@ export function AppProvider({ children }) {
   const [allQuestions, setAllQuestions] = useState([]);
   const [statusFilter, setStatusFilter] = useState("all");
   const [countAdjusted, setCountAdjusted] = useState(false);
+  const [pendingSession, setPendingSession] = useState(null);
+  // exam_sessions.annotations is added by sql/session-annotations-migration.sql.
+  // Probed like content_category so the app works before the migration is run —
+  // highlights/strikethroughs just aren't carried across a resume until then.
+  const hasAnnotations = useRef(false);
 
   const supabase = useMemo(() => createClient(), []);
 
@@ -202,12 +207,29 @@ export function AppProvider({ children }) {
         }
       }
 
+      // Completed sessions only; abandoned sessions (completed_at set but no
+      // score) stay out of results and stats.
       const { data: rData } = await supabase
         .from("exam_sessions")
         .select("*")
         .eq("user_id", user.id)
+        .not("completed_at", "is", null)
+        .not("score_total", "is", null)
         .order("completed_at", { ascending: false })
         .limit(10);
+
+      const annProbe = await supabase.from("exam_sessions").select("annotations").limit(1);
+      hasAnnotations.current = !annProbe.error;
+
+      // Most recent unfinished session, if any, offered for resume.
+      const { data: pData } = await supabase
+        .from("exam_sessions")
+        .select("*")
+        .eq("user_id", user.id)
+        .is("completed_at", null)
+        .order("started_at", { ascending: false })
+        .limit(1);
+      setPendingSession(pData?.[0] || null);
 
       if (rData) {
         setRecentResults(rData);
@@ -217,6 +239,7 @@ export function AppProvider({ children }) {
           .from("exam_sessions")
           .select("completed_at")
           .eq("user_id", user.id)
+          .not("completed_at", "is", null)
           .order("completed_at", { ascending: false })
           .limit(100);
 
@@ -437,30 +460,105 @@ export function AppProvider({ children }) {
     });
   };
 
-  const saveResults = async (results, exam) => {
-    const currentExam = exam || activeExam;
-    if (!user || !currentExam) return;
+  // Creates the in-progress exam_sessions row when a session starts, so the
+  // session can be resumed later. Any older unfinished session is abandoned
+  // (completed_at set, scores left null) so at most one is resumable.
+  const beginSession = async (exam) => {
+    if (!user) return null;
+    await supabase
+      .from("exam_sessions")
+      .update({ completed_at: new Date().toISOString() })
+      .eq("user_id", user.id)
+      .is("completed_at", null);
+    setPendingSession(null);
 
-    const { data: session, error: sessionError } = await supabase
+    const { data, error } = await supabase
       .from("exam_sessions")
       .insert({
         user_id: user.id,
-        section_id: currentExam.sections[0],
-        mode: currentExam.testMode ? "timed" : "practice",
-        question_ids: currentExam.questions.map((q) => q.id),
-        answers: results.answers,
-        flagged: results.flagged || {},
-        score_correct: results.score.correct,
-        score_total: results.score.total,
-        score_percent: results.score.pct,
-        completed_at: new Date().toISOString(),
+        section_id: exam.sections[0],
+        mode: exam.testMode ? "timed" : "practice",
+        question_ids: exam.questions.map((q) => q.id),
+        answers: {},
+        flagged: {},
+        current_index: 0,
+        time_remaining: exam.testMode ? exam.timeLimit : 0,
       })
       .select("id")
       .single();
 
-    if (sessionError) {
-      console.error("Failed to save session:", sessionError);
-      return;
+    if (error) {
+      console.error("Failed to create session:", error);
+      return null;
+    }
+    return data.id;
+  };
+
+  // Persists in-exam progress. For timed sessions time_remaining holds seconds
+  // left; for practice it holds elapsed seconds (the timer counts up).
+  const saveProgress = async (sessionId, progress) => {
+    if (!sessionId) return;
+    const { error } = await supabase
+      .from("exam_sessions")
+      .update({
+        answers: progress.answers || {},
+        flagged: progress.flagged || {},
+        current_index: progress.currentIdx || 0,
+        time_remaining: progress.timerSeconds ?? null,
+        ...(hasAnnotations.current
+          ? {
+              annotations: {
+                highlights: progress.highlights || {},
+                struck: progress.struck || {},
+              },
+            }
+          : {}),
+      })
+      .eq("id", sessionId);
+    if (error) console.error("Failed to save progress:", error);
+  };
+
+  const saveResults = async (results, exam) => {
+    const currentExam = exam || activeExam;
+    if (!user || !currentExam) return;
+
+    const completedRow = {
+      answers: results.answers,
+      flagged: results.flagged || {},
+      score_correct: results.score.correct,
+      score_total: results.score.total,
+      score_percent: results.score.pct,
+      completed_at: new Date().toISOString(),
+    };
+
+    let sessionId = currentExam.sessionId || null;
+    if (sessionId) {
+      const { error: updateError } = await supabase
+        .from("exam_sessions")
+        .update(completedRow)
+        .eq("id", sessionId);
+      if (updateError) {
+        console.error("Failed to save session:", updateError);
+        return;
+      }
+    } else {
+      const { data: session, error: sessionError } = await supabase
+        .from("exam_sessions")
+        .insert({
+          user_id: user.id,
+          section_id: currentExam.sections[0],
+          mode: currentExam.testMode ? "timed" : "practice",
+          question_ids: currentExam.questions.map((q) => q.id),
+          ...completedRow,
+        })
+        .select("id")
+        .single();
+
+      if (sessionError) {
+        console.error("Failed to save session:", sessionError);
+        return;
+      }
+      sessionId = session.id;
     }
 
     const attempts = currentExam.questions
@@ -468,7 +566,7 @@ export function AppProvider({ children }) {
       .map((q) => ({
         user_id: user.id,
         question_id: q.id,
-        session_id: session.id,
+        session_id: sessionId,
         selected_answer: results.answers[q.id],
         is_correct: results.answers[q.id] === q.correct,
       }));
@@ -563,7 +661,7 @@ export function AppProvider({ children }) {
     const sectionIds = [...new Set(selected.map((q) => q.section_id))];
     const firstSection = SECTIONS.find((s) => s.id === sectionIds[0]);
 
-    setActiveExam({
+    const exam = {
       questions,
       sections: sectionIds,
       sectionName: "Reattempt Missed",
@@ -571,7 +669,9 @@ export function AppProvider({ children }) {
       sectionColor: firstSection?.color || "#6b7280",
       timeLimit: null,
       testMode: false,
-    });
+    };
+    const sessionId = await beginSession(exam);
+    setActiveExam({ ...exam, sessionId });
   };
 
   const startTest = async () => {
@@ -630,12 +730,22 @@ export function AppProvider({ children }) {
     const selected = selectQuestions(filtered, count);
     const questions = selected.map(mapQuestion);
 
+    // Questions are chosen in whole passage groups, so a count smaller than the
+    // smallest available group selects nothing. Bail out instead of opening an
+    // empty exam.
+    if (questions.length === 0) {
+      alert(
+        "Not enough questions for that count — questions are drawn in whole passage sets. Try a larger number."
+      );
+      return;
+    }
+
     const sectionNames = selectedSections.map((id) =>
       SECTIONS.find((s) => s.id === id)
     );
     const isTimed = selectedMode === "timed" || selectedMode === "exam";
 
-    setActiveExam({
+    const exam = {
       questions,
       sections: selectedSections,
       sectionName: sectionNames.map((s) => s.name).join(", "),
@@ -643,7 +753,76 @@ export function AppProvider({ children }) {
       sectionColor: sectionNames[0].color,
       timeLimit: isTimed ? questions.length * 95 : null,
       testMode: isTimed,
+    };
+    const sessionId = await beginSession(exam);
+    setActiveExam({ ...exam, sessionId });
+  };
+
+  // Reopens the most recent unfinished session where it was left off.
+  const resumePendingSession = async () => {
+    const session = pendingSession;
+    if (!session) return;
+
+    const { data, error } = await supabase
+      .from("questions")
+      .select("*")
+      .in("id", session.question_ids);
+
+    if (error || !data || data.length === 0) {
+      alert("Could not load questions for this session.");
+      return;
+    }
+
+    const idOrder = {};
+    session.question_ids.forEach((id, idx) => {
+      idOrder[id] = idx;
     });
+    data.sort((a, b) => (idOrder[a.id] ?? 0) - (idOrder[b.id] ?? 0));
+
+    const questions = data.map(mapQuestion);
+    const sectionIds = [...new Set(data.map((q) => q.section_id))];
+    const sectionNames = sectionIds.map((id) => SECTIONS.find((s) => s.id === id));
+    const isTimed = session.mode === "timed";
+    // A timed session resumed with no time left gets one tick, which ends and
+    // scores it immediately.
+    const storedSeconds = session.time_remaining ?? (isTimed ? 0 : 0);
+    const initialSeconds = isTimed ? Math.max(storedSeconds, 1) : storedSeconds;
+
+    setActiveExam({
+      questions,
+      sections: sectionIds,
+      sectionName: sectionNames.map((s) => s?.name || "Section").join(", "),
+      sectionAbbr: sectionNames.map((s) => s?.abbr || "SEC").join("/"),
+      sectionColor: sectionNames[0]?.color || "#1a73e8",
+      timeLimit: isTimed ? initialSeconds : null,
+      testMode: isTimed,
+      sessionId: session.id,
+      savedAnswers: session.answers || {},
+      savedFlagged: session.flagged || {},
+      savedHighlights: session.annotations?.highlights || {},
+      savedStruck: session.annotations?.struck || {},
+      startIndex: Math.min(session.current_index || 0, questions.length - 1),
+      initialSeconds,
+      // The student is returning to an interrupted session; let them start the
+      // clock when they're ready rather than burning time while they re-orient.
+      startPaused: true,
+    });
+    setPendingSession(null);
+  };
+
+  // Marks the unfinished session abandoned (kept out of results/stats because
+  // its scores stay null).
+  const discardPendingSession = async () => {
+    if (!pendingSession) return;
+    const { error } = await supabase
+      .from("exam_sessions")
+      .update({ completed_at: new Date().toISOString() })
+      .eq("id", pendingSession.id);
+    if (error) {
+      console.error("Failed to discard session:", error);
+      return;
+    }
+    setPendingSession(null);
   };
 
   const applyRecommendation = () => {
@@ -749,6 +928,10 @@ export function AppProvider({ children }) {
     signOut,
     reviewSession,
     saveResults,
+    saveProgress,
+    pendingSession,
+    resumePendingSession,
+    discardPendingSession,
     startTest,
     startReattemptMissed,
     applyRecommendation,

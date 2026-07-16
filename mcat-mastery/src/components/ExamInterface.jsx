@@ -187,22 +187,32 @@ export default function ExamInterface({
   onReattemptMissed = null,
   onReviewMissed = null,
   initialAnswers = null,
+  initialFlagged = null,
+  initialHighlights = null,
+  initialStruck = null,
+  startIndex = 0,
+  initialSeconds = null,
+  startPaused = false,
+  onProgress = null,
   startInReview = false,
 }) {
-  const [currentIdx, setCurrentIdx] = useState(0);
+  const [currentIdx, setCurrentIdx] = useState(startIndex || 0);
   const [answers, setAnswers] = useState(initialAnswers || {});
-  const [flagged, setFlagged] = useState({});
-  const [struck, setStruck] = useState({});
-  const [highlights, setHighlights] = useState({}); // {qId: [{start,end},...]}
-  const [timerSeconds, setTimerSeconds] = useState(testMode && timeLimit ? timeLimit : 0);
+  const [flagged, setFlagged] = useState(initialFlagged || {});
+  const [struck, setStruck] = useState(initialStruck || {});
+  const [highlights, setHighlights] = useState(initialHighlights || {}); // {passageHolderId: [{start,end},...]}
+  const [timerSeconds, setTimerSeconds] = useState(
+    initialSeconds ?? (testMode && timeLimit ? timeLimit : 0)
+  );
   const [timerDirection, setTimerDirection] = useState(testMode && timeLimit ? "down" : "up");
   const [countdownTarget, setCountdownTarget] = useState(testMode && timeLimit ? timeLimit : 0);
-  const [timerPaused, setTimerPaused] = useState(false);
+  const [timerPaused, setTimerPaused] = useState(startPaused);
   const [showTimerSettings, setShowTimerSettings] = useState(false);
   const [mode, setMode] = useState(startInReview ? "review" : "exam");
   const [showPassage, setShowPassage] = useState(true);
   const [showPT, setShowPT] = useState(false);
   const [highlightActive, setHighlightActive] = useState(false);
+  const [strikeActive, setStrikeActive] = useState(false);
   const passageRef = useRef(null);
   const questionRef = useRef(null);
 
@@ -234,7 +244,7 @@ export default function ExamInterface({
     const t = setInterval(() => {
       setTimerSeconds(prev => {
         if (timerDirection === "down") {
-          if (prev <= 1) { if (testMode) setMode("score"); return 0; }
+          if (prev <= 1) return 0;
           return prev - 1;
         }
         return prev + 1;
@@ -242,6 +252,50 @@ export default function ExamInterface({
     }, 1000);
     return () => clearInterval(t);
   }, [timerPaused, mode, timerDirection, timerSeconds, testMode]);
+
+  // A timed section that runs out of time scores and saves itself. Without
+  // this the session would never be marked complete and would linger as a
+  // resumable one that expires again the moment it is reopened.
+  useEffect(() => {
+    if (!testMode || timerDirection !== "down" || timerSeconds > 0) return;
+    if (mode !== "exam" && mode !== "nav") return;
+    endExam();
+  }, [timerSeconds, testMode, timerDirection, mode]);
+
+  // Latest progress snapshot, so saves (debounced, interval, exit) never read
+  // stale state.
+  const progressRef = useRef(null);
+  progressRef.current = { answers, flagged, currentIdx, timerSeconds, highlights, struck };
+  const modeRef = useRef(mode);
+  modeRef.current = mode;
+
+  // Awaited on exit so a session resumed right afterwards never reads a
+  // half-written row.
+  const flushProgress = async () => {
+    if (onProgress) await onProgress(progressRef.current);
+  };
+
+  // Autosave shortly after any answer/flag/annotation/navigation change.
+  useEffect(() => {
+    if (!onProgress || mode === "review" || mode === "score") return;
+    const t = setTimeout(() => {
+      if (modeRef.current === "score") return;
+      onProgress(progressRef.current);
+    }, 800);
+    return () => clearTimeout(t);
+  }, [answers, flagged, highlights, struck, currentIdx, onProgress, mode]);
+
+  // Periodic save so the stored timer stays close to reality even without
+  // interaction (matters for resuming timed sessions).
+  useEffect(() => {
+    if (!onProgress) return;
+    const t = setInterval(() => {
+      if (modeRef.current === "exam" || modeRef.current === "nav") {
+        onProgress(progressRef.current);
+      }
+    }, 30000);
+    return () => clearInterval(t);
+  }, [onProgress]);
 
   const handleTimerSave = (totalSeconds) => {
     setShowTimerSettings(false);
@@ -269,12 +323,21 @@ export default function ExamInterface({
   };
   const goNext = () => { if (currentIdx < totalQ - 1) goTo(currentIdx + 1); };
   const goPrev = () => { if (currentIdx > 0) goTo(currentIdx - 1); };
-  const selectAnswer = (label) => { setAnswers(p => ({...p, [q.id]: label})); };
+  const selectAnswer = (label) => {
+    setAnswers(p => ({...p, [q.id]: label}));
+    // Selecting a choice removes any strikethrough on it.
+    setStruck(p => (p[q.id]?.[label] ? {...p, [q.id]: {...p[q.id], [label]: false}} : p));
+  };
   const toggleFlag = () => { setFlagged(p => ({...p, [q.id]: !p[q.id]})); };
   const toggleStrike = (label) => { setStruck(p => ({...p, [q.id]: {...(p[q.id]||{}), [label]: !(p[q.id]?.[label])}})); };
+  const handleChoiceClick = (label) => {
+    if (isReview) return;
+    if (strikeActive) toggleStrike(label);
+    else selectAnswer(label);
+  };
 
   const handlePassageMouseUp = () => {
-    if (!highlightActive || !q) return;
+    if (!highlightActive || !q || !passageSource) return;
     const sel = window.getSelection();
     if (!sel || sel.isCollapsed || sel.rangeCount === 0) return;
 
@@ -300,14 +363,16 @@ export default function ExamInterface({
     if (end <= start) return;
     sel.removeAllRanges();
 
-    const qId = q.id;
+    // Key by the passage-holder question so highlights persist across every
+    // question that shares this passage.
+    const hKey = passageSource.id;
     setHighlights(prev => {
-      const existing = prev[qId] || [];
+      const existing = prev[hKey] || [];
       const exactIdx = existing.findIndex(h => h.start === start && h.end === end);
       if (exactIdx !== -1) {
-        return { ...prev, [qId]: existing.filter((_, i) => i !== exactIdx) };
+        return { ...prev, [hKey]: existing.filter((_, i) => i !== exactIdx) };
       }
-      return { ...prev, [qId]: [...existing, { start, end }] };
+      return { ...prev, [hKey]: [...existing, { start, end }] };
     });
   };
 
@@ -412,7 +477,10 @@ export default function ExamInterface({
             <div className="flex gap-3">
               <button onClick={() => setMode("exam")} className="px-5 py-2 bg-gray-200 text-gray-700 rounded font-medium hover:bg-gray-300">Return to Exam</button>
               {onExit && (
-                <button onClick={() => { if (window.confirm("Leave this exam? Your progress will be lost.")) onExit(); }}
+                <button onClick={async () => {
+                    if (onProgress) { await flushProgress(); onExit(); }
+                    else if (window.confirm("Leave this exam? Your progress will be lost.")) onExit();
+                  }}
                   className="px-5 py-2 bg-gray-100 text-gray-500 rounded font-medium hover:bg-gray-200">Back to Dashboard</button>
               )}
             </div>
@@ -437,7 +505,11 @@ export default function ExamInterface({
       <div className="flex items-center justify-between px-4 h-[34px] flex-shrink-0 text-white text-sm" style={{ background: NAV_BG }}>
         <div className="flex items-center gap-3">
           {onExit && (
-            <button onClick={() => { if (isReview || window.confirm("Leave this exam? Your progress will be lost.")) onExit(); }}
+            <button onClick={async () => {
+                if (isReview) { onExit(); return; }
+                if (onProgress) { await flushProgress(); onExit(); }
+                else if (window.confirm("Leave this exam? Your progress will be lost.")) onExit();
+              }}
               className="opacity-70 hover:opacity-100 text-xs flex items-center gap-1">
               <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10 3L5 8l5 5"/></svg>
               Exit
@@ -452,11 +524,21 @@ export default function ExamInterface({
               {!testMode && (
                 <button onClick={() => setShowTimerSettings(true)} className="opacity-80 hover:opacity-100" title="Timer settings">&#9881;</button>
               )}
-              <button onClick={() => setTimerPaused(p => !p)} className="opacity-80 hover:opacity-100">
+              <button onClick={() => setTimerPaused(p => !p)}
+                className="opacity-80 hover:opacity-100"
+                title={timerPaused ? "Start timer" : "Pause timer"}
+                aria-label={timerPaused ? "Start timer" : "Pause timer"}>
                 {timerPaused ? "▶" : "⏸"}
               </button>
               <button onClick={resetTimer} className="opacity-80 hover:opacity-100" title="Reset timer">&#8634;</button>
-              <span className="font-mono tabular-nums">{formatTime(timerSeconds)}</span>
+              <span className={`font-mono tabular-nums ${timerPaused ? "opacity-50" : ""}`}>{formatTime(timerSeconds)}</span>
+              {timerPaused && (
+                <button onClick={() => setTimerPaused(false)}
+                  className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-amber-400 text-amber-950 hover:bg-amber-300"
+                  title="Start timer">
+                  PAUSED
+                </button>
+              )}
             </div>
           )}
           <span className="text-xs opacity-80">{currentIdx+1} of {totalQ}</span>
@@ -473,7 +555,8 @@ export default function ExamInterface({
             Highlight
           </button>
           {/* Strikethrough tool */}
-          <button className="flex items-center gap-1.5 px-2.5 py-1 rounded hover:bg-white/15">
+          <button onClick={() => setStrikeActive(p => !p)}
+            className={`flex items-center gap-1.5 px-2.5 py-1 rounded transition-colors ${strikeActive ? "bg-white/25" : "hover:bg-white/15"}`}>
             <span className="line-through">S</span> Strikethrough
           </button>
         </div>
@@ -525,7 +608,7 @@ export default function ExamInterface({
             <div ref={passageRef} className="flex-1 overflow-y-auto exam-scroll p-5" onMouseUp={handlePassageMouseUp}
               style={{ userSelect: highlightActive ? "text" : "auto", cursor: highlightActive ? "text" : "default" }}>
               <div className={`passage-text whitespace-pre-line ${highlightActive ? "selection:bg-yellow-200" : ""}`}>
-                {renderPassageWithHighlights(currentPassage, highlights[q?.id] || [])}
+                {renderPassageWithHighlights(currentPassage, highlights[passageSource?.id] || [])}
               </div>
               {currentPassageImage && (
                 <div className="mt-5 border border-gray-200 rounded bg-[#f9f9f9] p-3">
@@ -568,7 +651,7 @@ export default function ExamInterface({
                 } else if (isSel) { border = "border-blue-500"; bg = "bg-blue-50"; }
 
                 return (
-                  <button key={choice.label} onClick={() => !isReview && selectAnswer(choice.label)} disabled={isReview}
+                  <button key={choice.label} onClick={() => handleChoiceClick(choice.label)} disabled={isReview}
                     className={`answer-choice w-full flex items-start gap-3 p-3 rounded border-2 ${border} ${bg} text-left hover:shadow-sm`}>
                     <div className={`w-[22px] h-[22px] rounded-full border-2 flex-shrink-0 mt-0.5 flex items-center justify-center ${
                       isReview && isCor ? "border-green-500" : isReview && isSel ? "border-red-500" : isSel ? "border-blue-500" : "border-gray-300"

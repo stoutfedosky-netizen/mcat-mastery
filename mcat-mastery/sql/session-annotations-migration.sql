@@ -1,0 +1,23 @@
+-- ============================================
+-- Session annotations (highlights + strikethroughs)
+-- Run this in the Supabase SQL Editor.
+-- ============================================
+--
+-- Lets an in-progress session restore the passage highlights and answer-choice
+-- strikethroughs a student made, alongside the answers/flags/position that
+-- exam_sessions already stores.
+--
+-- Shape:
+--   {
+--     "highlights": { "<passage_holder_question_id>": [{"start": 12, "end": 40}] },
+--     "struck":     { "<question_id>": { "B": true } }
+--   }
+--
+-- Highlights are keyed by the question that HOLDS the passage (not the question
+-- being answered), so one highlight covers every question sharing that passage.
+-- Offsets are character positions into the passage's plain text.
+--
+-- The app probes for this column and simply skips annotations if it is absent,
+-- so it keeps working whether or not this migration has been run.
+
+alter table public.exam_sessions add column if not exists annotations jsonb;

@@ -20,6 +20,9 @@ export default function DashboardPage() {
     reviewSession,
     applyRecommendation,
     setSelectedMode,
+    pendingSession,
+    resumePendingSession,
+    discardPendingSession,
   } = useApp();
 
   const handleRecommendedAction = () => {
@@ -40,6 +43,45 @@ export default function DashboardPage() {
             : "Start practicing to track your MCAT preparation progress."}
         </p>
       </div>
+
+      {/* Resume in-progress session */}
+      {pendingSession && (
+        <div className="mb-6 bg-white rounded-xl border-2 border-blue-200 shadow-sm p-5 flex flex-wrap items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
+              <svg className="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900">Session in progress</h3>
+              <p className="text-xs text-gray-500 mt-0.5">
+                {SECTIONS.find((s) => s.id === pendingSession.section_id)?.abbr ||
+                  pendingSession.section_id?.toUpperCase()}{" "}
+                · {Object.keys(pendingSession.answers || {}).length} of{" "}
+                {pendingSession.question_ids?.length || 0} answered · started{" "}
+                {new Date(pendingSession.started_at).toLocaleDateString()}
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-2">
+            <button
+              onClick={resumePendingSession}
+              className="px-5 py-2 rounded-lg font-semibold text-white text-sm transition-all hover:opacity-90"
+              style={{ background: "#1a3a5c" }}
+            >
+              Resume
+            </button>
+            <button
+              onClick={discardPendingSession}
+              className="px-4 py-2 rounded-lg font-medium text-sm text-gray-500 border border-gray-200 hover:bg-gray-50 transition-colors"
+            >
+              Discard
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Stats */}
       <StatCards stats={stats} />
