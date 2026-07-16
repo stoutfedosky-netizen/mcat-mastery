@@ -1,0 +1,23 @@
+# Secrets — never commit. .env.local holds SUPABASE_SERVICE_ROLE_KEY, which
+# bypasses row-level security on the live database.
+.env
+.env.local
+.env*.local
+
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Vercel
+.vercel
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
