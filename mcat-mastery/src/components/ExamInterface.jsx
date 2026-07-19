@@ -224,6 +224,7 @@ export default function ExamInterface({
   }, [q, currentIdx, questions]);
 
   const currentPassage = passageSource?.passage || null;
+  const currentPassageHelp = passageSource?.passageHelp || null;
   const currentPassageImage = passageSource?.passageImage || null;
   const currentPassageImageCaption = passageSource?.passageImageCaption || null;
   const hasPassage = !!currentPassage;
@@ -534,6 +535,21 @@ export default function ExamInterface({
                     <p className="text-center text-xs italic text-gray-600 mt-2">{currentPassageImageCaption}</p>
                   )}
                 </div>
+              )}
+              {currentPassageHelp && (
+                <details className="mt-5 border border-blue-200 rounded-md bg-blue-50/60">
+                  <summary className="px-3.5 py-2 cursor-pointer select-none flex items-center gap-2 text-sm font-semibold text-blue-700 hover:bg-blue-50">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" className="flex-shrink-0">
+                      <circle cx="8" cy="8" r="7" />
+                      <path d="M6 6a2 2 0 1 1 2 2v1.5" strokeLinecap="round" />
+                      <circle cx="8" cy="12" r="0.5" fill="currentColor" stroke="none" />
+                    </svg>
+                    Get Help
+                  </summary>
+                  <div className="px-3.5 pb-3 pt-1 text-sm text-gray-700 leading-relaxed border-t border-blue-100 whitespace-pre-line">
+                    {currentPassageHelp}
+                  </div>
+                </details>
               )}
             </div>
           </div>

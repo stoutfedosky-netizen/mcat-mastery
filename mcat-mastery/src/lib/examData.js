@@ -17,6 +17,7 @@ export function mapQuestion(q) {
   return {
     id: q.id,
     passage: q.passage,
+    passageHelp: q.passage_help || null,
     passageImage: q.passage_image,
     passageImageCaption: q.passage_image_caption,
     usePrevPassage: q.use_prev_passage,
